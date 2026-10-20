@@ -850,6 +850,7 @@ spriteno=50,16
 delta=.76,1
 start=0,205
 tile=1
+mask = 1 ;sin esto Ikemen pinta el color transparente (morado)
 ID = 7
 [BG Floor Mid]
 type  = parallax
@@ -870,6 +871,7 @@ delta=.76,1
 start=0,238
 ;layerno=1
 tile=1
+mask = 1 ;sin esto Ikemen pinta el color transparente (morado)
 ID = 7
 
 [BG Entry Door]

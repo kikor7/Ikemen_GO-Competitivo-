@@ -13,6 +13,7 @@ pal.defaults=1,2,3,4,5
 
 ; Files for the character
 [Files]
+movelist = movelist.dat
 cmd      =Hattori.cmd
 sprite   =Hattori.sff
 anim     =Hattori.air

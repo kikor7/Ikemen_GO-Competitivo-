@@ -1324,6 +1324,7 @@ trigger1 = enemynear,movetype != A
 trigger1 = !movecontact && !movereversed
 attr = A, NP
 damage    = ceil(50*root,fvar(4)),0
+getpower = 7,3
 hitflag = MAFD
 guardflag = MA
 priority = 3
@@ -1350,6 +1351,7 @@ trigger1 = enemynear,movetype = A
 trigger1 = !movecontact && !movereversed
 attr = A, NP
 damage    = ceil(75*root,fvar(4)),0
+getpower = 7,3
 hitflag = MAFD
 guardflag = MA
 priority = 3
@@ -1571,6 +1573,7 @@ trigger1 = enemynear,movetype != A
 trigger1 = !movecontact && !movereversed
 attr = A, NP
 damage    = ceil(55*root,fvar(4)),0
+getpower = 7,3
 hitflag = MAFD
 guardflag = MA
 priority = 3
@@ -1597,6 +1600,7 @@ trigger1 = enemynear,movetype = A
 trigger1 = !movecontact && !movereversed
 attr = A, NP
 damage    = ceil(85*root,fvar(4)),0
+getpower = 7,3
 hitflag = MAFD
 guardflag = MA
 priority = 3

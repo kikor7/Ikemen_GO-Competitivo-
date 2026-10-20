@@ -6,7 +6,7 @@ physics = S
 anim = 1000
 ctrl = 0
 velset = 0,0
-poweradd = 50 * !var(20)
+poweradd = 0 * !var(20)
 sprpriority = 2
 facep2 = 1
 
@@ -57,7 +57,7 @@ attr = S, SA
 damage = ceil(ifElse(fvar(11) * ifElse(var(10) = 2, 95, ifElse(var(10), 75, 55)) < 7, 7, fvar(11) * ifElse(var(10) = 2, 95, ifElse(var(10), 75, 55)))), 7
 priority = 4, hit
 animtype = Hard
-getpower = 70 * !var(20), 30 * !var(20)
+getpower = 60,30
 givepower = 35, 35
 guardflag = MA
 hitflag = MAF
@@ -273,7 +273,7 @@ physics = S
 anim = 1010
 ctrl = 0
 velset = 0,0
-poweradd = 70 * !var(20)
+poweradd = 0 * !var(20)
 sprpriority = 2
 facep2 = 1
 
@@ -357,7 +357,7 @@ attr = A, SA
 damage = ceil(ifElse(fvar(11) * ifElse(var(10) = 2, 80, ifElse(var(10), 60, 40)) < 7, 7, fvar(11) * ifElse(var(10) = 2, 80, ifElse(var(10), 60, 40)))), 7
 priority = 4, hit
 animtype = Hard
-getpower = 50 * !var(20), 30 * !var(20)
+getpower = 60,30
 givepower = 35, 35
 guardflag = MA
 hitflag = MAF
@@ -557,7 +557,7 @@ physics = S
 anim = 1020
 ctrl = 0
 velset = 0,0
-poweradd = 70 * !var(20)
+poweradd = 0 * !var(20)
 sprpriority = 2
 facep2 = 1
 
@@ -640,7 +640,7 @@ attr = A, SA
 damage = ceil(ifElse(fvar(11) * ifElse(var(10) = 2, 85, ifElse(var(10), 65, 45)) < 7, 7, fvar(11) * ifElse(var(10) = 2, 85, ifElse(var(10), 65, 45)))), 7
 priority = 4, hit
 animtype = Hard
-getpower = 50 * !var(20), 30 * !var(20)
+getpower = 60,30
 givepower = 35, 35
 guardflag = MA
 hitflag = MAF
@@ -839,7 +839,7 @@ physics = N
 anim = 1025
 ctrl = 0
 velset = 0,0
-poweradd = 70 * !var(20)
+poweradd = 0 * !var(20)
 sprpriority = 2
 facep2 = 1
 
@@ -902,7 +902,7 @@ attr = A, SA
 damage = ceil(ifElse(fvar(11) * ifElse(var(10) = 2, 70, ifElse(var(10), 50, 30)) < 7, 7, fvar(11) * ifElse(var(10) = 2, 70, ifElse(var(10), 50, 30)))), 7
 priority = 4, hit
 animtype = Hard
-getpower = 50 * !var(20), 30 * !var(20)
+getpower = 60,30
 givepower = 35, 35
 guardflag = MA
 hitflag = MAF
@@ -1090,7 +1090,7 @@ physics = S
 anim = 1030
 ctrl = 0
 velset = 0,0
-poweradd = 70 * !var(20)
+poweradd = 0 * !var(20)
 sprpriority = 2
 facep2 = 1
 
@@ -1195,7 +1195,7 @@ attr = A, SA
 damage = ceil(ifElse(fvar(11) * ifElse(var(10) = 2, 85, ifElse(var(10), 65, 45)) < 7, 7, fvar(11) * ifElse(var(10) = 2, 85, ifElse(var(10), 65, 45)))), 7
 priority = 4, hit
 animtype = Hard
-getpower = 50 * !var(20), 30 * !var(20)
+getpower = 60,30
 givepower = 35, 35
 guardflag = MA
 hitflag = MAF
@@ -1460,7 +1460,7 @@ physics = N
 anim = 1030
 ctrl = 0
 velset = 0,0
-poweradd = 70 * !var(20)
+poweradd = 0 * !var(20)
 sprpriority = 2
 facep2 = 1
 
@@ -1555,7 +1555,7 @@ attr = A, SA
 damage = ceil(ifElse(fvar(11) * ifElse(var(10) = 2, 85, ifElse(var(10), 65, 45)) < 7, 7, fvar(11) * ifElse(var(10) = 2, 85, ifElse(var(10), 65, 45)))), 7
 priority = 4, hit
 animtype = Hard
-getpower = 50 * !var(20), 30 * !var(20)
+getpower = 60,30
 givepower = 35, 35
 guardflag = MA
 hitflag = MAF
@@ -1819,7 +1819,7 @@ physics = N
 anim = 1038
 ctrl = 0
 velset = 0,0
-poweradd = 70 * !var(20)
+poweradd = 0 * !var(20)
 sprpriority = 2
 facep2 = 1
 
@@ -2047,7 +2047,7 @@ physics = S
 anim = 1040
 ctrl = 0
 velset = 0,0
-poweradd = 50 * !var(20)
+poweradd = 0 * !var(20)
 sprpriority = 2
 facep2 = 1
 
@@ -2502,7 +2502,7 @@ trigger1 = AnimElem = 8
 attr = S, ST
 hitFlag = M-
 priority = 3,Dodge
-getPower = 35 * !var(20)
+getpower = 60,30
 givePower = 35,35
 numhits = 0
 sparkno = -1
@@ -2700,7 +2700,7 @@ value = 35
 [State 2033, PowerAdd]
 type = PowerAdd
 trigger1 = NumTarget && AnimElem = 14 && !var(20)
-value = 70
+value = 0
 
 [State 2033, HitAdd]
 type = HitAdd
@@ -2828,7 +2828,7 @@ trigger1 = AnimElem = 8
 attr = S, ST
 hitFlag = M-
 priority = 3,Dodge
-getPower = 35 * !var(20)
+getpower = 60,30
 givePower = 35,35
 numhits = 0
 sparkno = -1
@@ -3026,7 +3026,7 @@ value = 35
 [State 2133, PowerAdd]
 type = PowerAdd
 trigger1 = NumTarget && AnimElem = 14 && !var(20)
-value = 70
+value = 0
 
 [State 2133, HitAdd]
 type = HitAdd
@@ -3155,7 +3155,7 @@ trigger1 = AnimElem = 8
 attr = S, ST
 hitFlag = M-
 priority = 3,Dodge
-getPower = 35 * !var(20)
+getpower = 60,30
 givePower = 35,35
 numhits = 0
 sparkno = -1

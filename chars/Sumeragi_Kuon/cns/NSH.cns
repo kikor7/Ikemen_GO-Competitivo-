@@ -88,7 +88,7 @@ fall.yvelocity      = (-3.5+(enemynear,pos y)*0.010)*(!var(19))
 triggerall          = !movecontact&&!movereversed&&roundstate=2
 trigger1            = AnimElemno(0) = 4
 givepower           = floor(1000*0.027),floor(1000*0.008)
-getpower            = floor(1000*0.09),floor(1000*0.041)
+getpower = 30,15
 attr                = S, NA
 hitflag             = MAFD
 guardflag           = M
@@ -338,7 +338,7 @@ fall.yvelocity      =(-3.5+(enemynear,pos y)*0.010)*(!var(19))
 triggerall          = !movecontact&&!movereversed&&roundstate=2
 trigger1            = AnimElemno(0) = [4,5]
 givepower           = floor(1600*0.027),floor(1600*0.008)
-getpower            = floor(1600*0.09),floor(1600*0.041)
+getpower = 30,15
 attr                = S, NA
 hitflag             = MAFD
 guardflag           = M
@@ -609,7 +609,7 @@ fall.yvelocity      = (-4.5+(enemynear,pos y)*0.010)*(!var(19))
 triggerall          = !movecontact&&!movereversed&&roundstate=2
 trigger1            = AnimElemno(0) = 5
 givepower           = floor(1200*0.027),floor(1200*0.008)
-getpower            = floor(1200*0.09),floor(1200*0.041)
+getpower = 15,7
 attr                = S, NA
 hitflag             = MAFD
 guardflag           = M
@@ -651,7 +651,7 @@ triggerall          = !movecontact&&!movereversed&&roundstate=2
 trigger1            = AnimElemtime(10) >= 2
 trigger1            = AnimElemtime(12) < 0
 givepower           = floor(2000*0.027),floor(2000*0.008)
-getpower            = floor(2000*0.09),floor(2000*0.041)
+getpower = 15,7
 attr                = S, NA
 hitflag             = MAFD
 guardflag           = H
@@ -910,6 +910,7 @@ ctrl=1
 
 [Statedef 220]
 type=S
+poweradd = 0
 movetype=A
 physics=S
 ctrl=0
@@ -1321,6 +1322,7 @@ ctrl=1
 
 [Statedef 230]
 type=S
+poweradd = 20
 movetype=A
 physics=S
 ctrl=0
@@ -1520,7 +1522,7 @@ fall.yvelocity      =(-2.5+(enemynear,pos y)*0.010)*(!var(19))
 triggerall          = !movecontact&&!movereversed&&roundstate=2
 trigger1            = AnimElemtime(3) >= 1
 givepower           = floor(800*0.027),floor(800*0.008)
-getpower            = floor(800*0.09),floor(800*0.041)
+getpower = 30,15
 attr                = C, NA
 hitflag             = MAFD
 guardflag           = L
@@ -1760,7 +1762,7 @@ fall.yvelocity      = (-2.5+(enemynear,pos y)*0.010)*(!var(19))
 triggerall          = !movecontact&&!movereversed&&roundstate=2
 trigger1            = AnimElemtime(4) >= 0
 givepower           = floor(1800*0.027),floor(1800*0.008)
-getpower            = floor(1800*0.09),floor(1800*0.041)
+getpower = 30,15
 attr                = C, NA
 hitflag             = MAFD
 guardflag           = L
@@ -1914,6 +1916,7 @@ ctrl=1
 
 [Statedef 420]
 type=C
+poweradd = 20
 movetype=A
 physics=C
 ctrl=0
@@ -2152,7 +2155,7 @@ fall.yvelocity      = (-3.5+(enemynear,pos y)*0.010)*(!var(19))
 triggerall          = !movecontact&&!movereversed&&roundstate=2
 trigger1            = AnimElemtime(3) >= 3
 givepower           = floor(1200*0.027),floor(1200*0.008)
-getpower            = floor(1200*0.09),floor(1200*0.041)
+getpower = 30,15
 attr                = A, NA
 hitflag             = MAFD
 guardflag           = HA
@@ -2395,7 +2398,7 @@ fall.yvelocity      = (-3.5+(enemynear,pos y)*0.010)*(!var(19))
 triggerall          = !movecontact&&!movereversed&&roundstate=2
 trigger1            = AnimElemtime(4) >= 1
 givepower           = floor(1800*0.027),floor(1800*0.008)
-getpower            = floor(1800*0.09),floor(1800*0.041)
+getpower = 30,15
 attr                = A, NA
 hitflag             = MAFD
 guardflag           = HA
@@ -2683,7 +2686,7 @@ fall.yvelocity      = (-3.5+(enemynear,pos y)*0.010)*(!var(19))
 triggerall          = !movecontact&&!movereversed&&roundstate=2
 trigger1            = AnimElemno(0) = [4,5]
 givepower           = floor(1600*0.027),floor(1600*0.008)
-getpower            = floor(1600*0.09),floor(1600*0.041)
+getpower = 15,7
 attr                = A, NA
 hitflag             = MAFD
 guardflag           = HA
@@ -2724,7 +2727,7 @@ fall.yvelocity      = (-3.5+(enemynear,pos y)*0.010)*(!var(19))
 triggerall          = !movecontact&&!movereversed&&roundstate=2
 trigger1            = AnimElemno(0) >= 11
 givepower           = floor(2000*0.027),floor(2000*0.008)
-getpower            = floor(2000*0.09),floor(2000*0.041)
+getpower = 15,7
 attr                = A, NA
 hitflag             = MAFD
 guardflag           = HA
@@ -3369,6 +3372,7 @@ ctrl=1
 
 [Statedef 624]
 type=A
+poweradd = 0
 movetype=A
 physics=N
 ctrl=0
@@ -3998,7 +4002,7 @@ fall.yvelocity      = 0
 triggerall          = !movecontact&&!movereversed&&roundstate=2
 trigger1            = AnimElemtime(2) = 1
 givepower           = 0,0
-getpower            = 0,0
+getpower = 60,30
 attr                = S, NT
 hitflag             = M-
 damage              = 0,0
@@ -4581,7 +4585,7 @@ fall.yvelocity      = 0
 triggerall          = !movecontact&&!movereversed&&roundstate=2
 trigger1            = AnimElemtime(2) = 1
 givepower           = 0,0
-getpower            = 0,0
+getpower = 60,30
 attr                = S, NT
 hitflag             = M-
 damage              = 0,0
@@ -5005,7 +5009,7 @@ fall.yvelocity      = -3.5
 triggerall          = !movecontact&&!movereversed&&roundstate=2
 trigger1            = AnimElemtime(2) >= 1
 givepower           = 0,0
-getpower            = 0,0
+getpower = 60,30
 attr                = S, NT
 hitflag             = A-
 damage              = 0,0
@@ -5359,7 +5363,7 @@ triggerall          = !movecontact&&!movereversed&&roundstate=2
 triggerall          = AnimElemtime(4) >= 2
 trigger1            = anim = [900,902]
 givepower           = floor(1800*0.027),floor(1800*0.008)
-getpower            = floor(1800*0.09),floor(1800*0.041)
+getpower = 15,7
 attr                = A, NA
 hitflag             = MAFD
 guardflag           = MA
@@ -5401,7 +5405,7 @@ triggerall          = !movecontact&&!movereversed&&roundstate=2
 triggerall          = AnimElemtime(4) >= 2
 trigger1            = anim = [903,904]
 givepower           = floor(1800*0.027),floor(1800*0.008)
-getpower            = floor(1800*0.09),floor(1800*0.041)
+getpower = 15,7
 attr                = A, NA
 hitflag             = MAFD
 guardflag           = MA
@@ -5699,7 +5703,7 @@ triggerall          = !movecontact&&!movereversed&&roundstate=2
 triggerall          = AnimElemtime(4) >= 4
 trigger1            = anim = 910
 givepower           = floor(2800*0.027),floor(2800*0.008)
-getpower            = floor(2800*0.09),floor(2800*0.041)
+getpower = 10,5
 attr                = A, NA
 hitflag             = MAFD
 guardflag           = MA
@@ -5742,7 +5746,7 @@ triggerall          = !movecontact&&!movereversed&&roundstate=2
 triggerall          = AnimElemtime(4) >= 4
 trigger1            = anim = [911,912]
 givepower           = floor(2800*0.027),floor(2800*0.008)
-getpower            = floor(2800*0.09),floor(2800*0.041)
+getpower = 10,5
 attr                = A, NA
 hitflag             = MAFD
 guardflag           = MA
@@ -5786,7 +5790,7 @@ triggerall          = !movecontact&&!movereversed&&roundstate=2
 triggerall          = AnimElemtime(4) >= 4
 trigger1            = anim = [913,914]
 givepower           = floor(2800*0.027),floor(2800*0.008)
-getpower            = floor(2800*0.09),floor(2800*0.041)
+getpower = 10,5
 attr                = A, NA
 hitflag             = MAFD
 guardflag           = MA
@@ -6009,6 +6013,7 @@ ctrl=1
 ;„ª„ª„ª„ª„ª„ª„ª„ª„ª„ª„ª„ª„ª„ª„ª„ª„ª„ª„ª„ª„ª„ª„ª„ª„ª„ª„ª„ª„ª„ª„ª„ª„ª„ª„ª„ª„ª„ª„ª„ª„ª„ª„ª„ª„ª„ª„ª„ª„ª„ª„ª„ª
 [Statedef 920]
 type=A
+poweradd = 20
 movetype=A
 physics=N
 ctrl=0
@@ -6347,7 +6352,7 @@ triggerall          = !movecontact&&!movereversed&&roundstate=2
 trigger1            = AnimElemno(0) = 4
 trigger2            = AnimElemno(0) = 8
 givepower           = floor(1200*0.027),floor(1200*0.008)
-getpower            = floor(1200*0.09),floor(1200*0.041)
+getpower = 60,30
 attr                = S, SA
 hitflag             = MAFD
 guardflag           = MA
@@ -6390,7 +6395,7 @@ triggerall          = var(0)
 trigger1            = AnimElemno(0) = 4
 trigger2            = AnimElemno(0) = 8
 givepower           = floor(1200*0.027),floor(1200*0.008)
-getpower            = floor(1200*0.09),floor(1200*0.041)
+getpower = 60,30
 attr                = S, SA
 hitflag             = MAFD
 guardflag           = MA
@@ -6720,7 +6725,7 @@ trigger1            = AnimElemno(0) = 4
 trigger2            = AnimElemno(0) = 8
 trigger3            = AnimElemno(0) = 12
 givepower           = floor(1200*0.027),floor(1200*0.008)
-getpower            = floor(1200*0.09),floor(1200*0.041)
+getpower = 30,15
 attr                = S, SA
 hitflag             = MAFD
 guardflag           = MA
@@ -6762,7 +6767,7 @@ triggerall          = !movecontact&&!movereversed&&roundstate=2
 triggerall          = var(0)
 trigger1            = AnimElemno(0) = 8
 givepower           = floor(1200*0.027),floor(1200*0.008)
-getpower            = floor(1200*0.09),floor(1200*0.041)
+getpower = 30,15
 attr                = S, SA
 hitflag             = MAFD
 guardflag           = MA
@@ -9609,6 +9614,7 @@ ctrl=1
 
 [Statedef 1420]
 type=S
+poweradd = 0
 movetype=A
 physics=S
 ctrl=0

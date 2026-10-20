@@ -12,7 +12,7 @@ juggle   = 2
 velset   = 0,0
 ctrl     = 0
 anim     = 200
-poweradd = 20
+poweradd = 0
 sprpriority = 2
 
 [State 200, 音を鳴らす]
@@ -25,6 +25,7 @@ type = HitDef
 trigger1 = Time = 0
 attr = S, NA
 damage = ceil(40*fvar(1)/100)
+getpower = 30,15
 animtype = Light
 guardflag = MA
 hitflag = MAF
@@ -61,7 +62,7 @@ juggle   = 2
 velset   = 0,0
 ctrl     = 0
 anim     = 210
-poweradd = 30
+poweradd = 0
 sprpriority = 2
 
 [State 210, 音を鳴らす]
@@ -74,6 +75,7 @@ type = HitDef
 trigger1 = AnimElem = 2
 attr = S, NA
 damage = ceil(50*fvar(1)/100)
+getpower = 15,7
 animtype = Medium
 guardflag = MA
 hitflag = MAF
@@ -97,6 +99,7 @@ type = HitDef
 trigger1 = AnimElem = 3
 attr = S, NA
 damage = ceil(50*fvar(1)/100)
+getpower = 15,7
 animtype = Medium
 guardflag = MA
 hitflag = MAF
@@ -133,7 +136,7 @@ juggle   = 2
 velset   = 0,0
 ctrl     = 0
 anim     = 215
-poweradd = 30
+poweradd = 0
 sprpriority = 2
 
 [State 215, 音を鳴らす]
@@ -146,6 +149,7 @@ type = HitDef
 trigger1 = AnimElem = 2
 attr = S, NA
 damage = ceil(50*fvar(1)/100)
+getpower = 15,7
 animtype = Medium
 guardflag = MA
 hitflag = MAF
@@ -169,6 +173,7 @@ type = HitDef
 trigger1 = AnimElem = 3
 attr = S, NA
 damage = ceil(50*fvar(1)/100)
+getpower = 15,7
 animtype = Medium
 guardflag = MA
 hitflag = MAF
@@ -204,7 +209,7 @@ juggle   = 2
 velset   = 0,0
 ctrl     = 0
 anim     = 220
-poweradd = 40
+poweradd = 0
 sprpriority = 2
 
 [State 220, 音を鳴らす]
@@ -217,6 +222,7 @@ type = HitDef
 trigger1 = AnimElem = 3
 attr = S, NA
 damage = ceil(70*fvar(1)/100)
+getpower = 15,7
 animtype = Hard
 guardflag = MA
 hitflag = MAF
@@ -240,6 +246,7 @@ type = HitDef
 trigger1 = AnimElem = 4
 attr = S, NA
 damage = ceil(70*fvar(1)/100)
+getpower = 15,7
 animtype = Hard
 guardflag = MA
 hitflag = MAF
@@ -276,7 +283,7 @@ juggle   = 2
 velset   = 0,0
 ctrl     = 0
 anim     = 225
-poweradd = 40
+poweradd = 0
 sprpriority = 2
 
 [State 225, 音を鳴らす]
@@ -289,6 +296,7 @@ type = HitDef
 trigger1 = AnimElem = 2
 attr = S, NA
 damage = ceil(70*fvar(1)/100)
+getpower = 15,7
 animtype = Hard
 guardflag = MA
 hitflag = MAF
@@ -312,6 +320,7 @@ type = HitDef
 trigger1 = AnimElem = 3
 attr = S, NA
 damage = ceil(70*fvar(1)/100)
+getpower = 15,7
 animtype = Hard
 guardflag = MA
 hitflag = MAF
@@ -348,7 +357,7 @@ juggle   = 2
 velset   = 0,0
 ctrl     = 0
 anim     = 230
-poweradd = 20
+poweradd = 0
 sprpriority = 2
 
 [State 230, 音を鳴らす]
@@ -361,6 +370,7 @@ type = HitDef
 trigger1 = Time = 0
 attr = S, NA
 damage = ceil(40*fvar(1)/100)
+getpower = 30,15
 animtype = Light
 guardflag = MA
 hitflag = MAF
@@ -397,7 +407,7 @@ juggle   = 2
 velset   = 0,0
 ctrl     = 0
 anim     = 235
-poweradd = 20
+poweradd = 0
 sprpriority = 2
 
 [State 235, 音を鳴らす]
@@ -410,6 +420,7 @@ type = HitDef
 trigger1 = Time = 0
 attr = S, NA
 damage = ceil(40*fvar(1)/100)
+getpower = 30,15
 animtype = Light
 guardflag = MA
 hitflag = MAF
@@ -446,7 +457,7 @@ juggle   = 2
 velset   = 0,0
 ctrl     = 0
 anim     = 240
-poweradd = 20
+poweradd = 0
 sprpriority = 2
 
 [State 240, 音を鳴らす]
@@ -459,6 +470,7 @@ type = HitDef
 trigger1 = AnimElem = 2
 attr = S, NA
 damage = ceil(60*fvar(1)/100)
+getpower = 15,7
 animtype = Medium
 guardflag = MA
 hitflag = MAF
@@ -482,6 +494,7 @@ type = HitDef
 trigger1 = AnimElem = 3
 attr = S, NA
 damage = ceil(60*fvar(1)/100)
+getpower = 15,7
 animtype = Medium
 guardflag = MA
 hitflag = MAF
@@ -518,7 +531,7 @@ juggle   = 2
 velset   = 0,0
 ctrl     = 0
 anim     = 245
-poweradd = 20
+poweradd = 0
 sprpriority = 2
 
 [State 245, 音を鳴らす]
@@ -531,6 +544,7 @@ type = HitDef
 trigger1 = AnimElem = 2
 attr = S, NA
 damage = ceil(60*fvar(1)/100)
+getpower = 15,7
 animtype = Medium
 guardflag = MA
 hitflag = MAF
@@ -554,6 +568,7 @@ type = HitDef
 trigger1 = AnimElem = 3
 attr = S, NA
 damage = ceil(60*fvar(1)/100)
+getpower = 15,7
 animtype = Medium
 guardflag = MA
 hitflag = MAF
@@ -590,7 +605,7 @@ juggle   = 2
 velset   = 0,0
 ctrl     = 0
 anim     = 250
-poweradd = 20
+poweradd = 0
 sprpriority = 2
 
 [State 250, 音を鳴らす]
@@ -603,6 +618,7 @@ type = HitDef
 trigger1 = AnimElem = 4
 attr = S, NA
 damage = ceil(70*fvar(1)/100)
+getpower = 15,7
 animtype = Hard
 guardflag = MA
 hitflag = MAF
@@ -626,6 +642,7 @@ type = HitDef
 trigger1 = AnimElem = 5
 attr = S, NA
 damage = ceil(70*fvar(1)/100)
+getpower = 15,7
 animtype = Hard
 guardflag = MA
 hitflag = MAF
@@ -662,7 +679,7 @@ juggle   = 2
 velset   = 0,0
 ctrl     = 0
 anim     = 255
-poweradd = 20
+poweradd = 0
 sprpriority = 2
 
 [State 255, 音を鳴らす]
@@ -675,6 +692,7 @@ type = HitDef
 trigger1 = AnimElem = 3
 attr = S, NA
 damage = ceil(70*fvar(1)/100)
+getpower = 10,5
 animtype = Hard
 guardflag = MA
 hitflag = MAF
@@ -698,6 +716,7 @@ type = HitDef
 trigger1 = AnimElem = 4
 attr = S, NA
 damage = ceil(70*fvar(1)/100)
+getpower = 10,5
 animtype = Hard
 guardflag = MA
 hitflag = MAF
@@ -721,6 +740,7 @@ type = HitDef
 trigger1 = AnimElem = 5
 attr = S, NA
 damage = ceil(70*fvar(1)/100)
+getpower = 10,5
 animtype = Hard
 guardflag = MA
 hitflag = MAF
@@ -756,7 +776,7 @@ physics  = C
 juggle   = 5
 ctrl     = 0
 anim     = 400
-poweradd = 20
+poweradd = 0
 sprpriority = 2
 
 [State 400, 音を鳴らす]
@@ -769,6 +789,7 @@ type = HitDef
 trigger1 = Time = 0
 attr = C, NA
 damage  = ceil(50*fvar(1)/100)
+getpower = 30,15
 animtype = Light
 guardflag = M
 hitflag = MAF
@@ -804,7 +825,7 @@ physics  = C
 juggle   = 5
 ctrl     = 0
 anim     = 410
-poweradd = 30
+poweradd = 0
 sprpriority = 2
 
 [State 410, 音を鳴らす]
@@ -817,6 +838,7 @@ type = HitDef
 trigger1 = AnimElem = 2
 attr = C, NA
 damage  = ceil(70*fvar(1)/100)
+getpower = 15,7
 animtype = Medium
 guardflag = M
 hitflag = MAF
@@ -840,6 +862,7 @@ type = HitDef
 trigger1 = AnimElem = 3
 attr = C, NA
 damage  = ceil(70*fvar(1)/100)
+getpower = 15,7
 animtype = Medium
 guardflag = M
 hitflag = MAF
@@ -875,7 +898,7 @@ physics  = C
 juggle   = 5
 ctrl     = 0
 anim     = 420
-poweradd = 30
+poweradd = 0
 sprpriority = 2
 
 [State 420, 音を鳴らす]
@@ -888,6 +911,7 @@ type = HitDef
 trigger1 = AnimElem = 2
 attr = C, NA
 damage  = ceil(90*fvar(1)/100)
+getpower = 10,5
 animtype = Hard
 guardflag = M
 hitflag = MAF
@@ -911,6 +935,7 @@ type = HitDef
 trigger1 = AnimElem = 3
 attr = C, NA
 damage  = ceil(90*fvar(1)/100)
+getpower = 10,5
 animtype = Hard
 guardflag = M
 hitflag = MAF
@@ -934,6 +959,7 @@ type = HitDef
 trigger1 = AnimElem = 4
 attr = C, NA
 damage  = ceil(90*fvar(1)/100)
+getpower = 10,5
 animtype = Hard
 guardflag = M
 hitflag = MAF
@@ -969,7 +995,7 @@ physics  = C
 juggle   = 5
 ctrl     = 0
 anim     = 430
-poweradd = 20
+poweradd = 0
 sprpriority = 2
 
 [State 430, 音を鳴らす]
@@ -982,6 +1008,7 @@ type = HitDef
 trigger1 = Time = 0
 attr = C, NA
 damage  = ceil(50*fvar(1)/100)
+getpower = 30,15
 animtype = Light
 guardflag = L
 hitflag = MAFD
@@ -1020,7 +1047,7 @@ physics  = C
 juggle   = 5
 ctrl     = 0
 anim     = 440
-poweradd = 30
+poweradd = 0
 sprpriority = 2
 
 [State 440, 音を鳴らす]
@@ -1033,6 +1060,7 @@ type = HitDef
 trigger1 = Time = 0
 attr = C, NA
 damage  = ceil(70*fvar(1)/100)
+getpower = 30,15
 animtype = Medium
 guardflag = L
 hitflag = MAF
@@ -1068,7 +1096,7 @@ physics  = C
 juggle   = 5
 ctrl     = 0
 anim     = 450
-poweradd = 30
+poweradd = 0
 sprpriority = 2
 
 [State 450, 音を鳴らす]
@@ -1081,6 +1109,7 @@ type = HitDef
 trigger1 = Time = 0
 attr = A, NA
 damage  = ceil(80*fvar(1)/100)
+getpower = 30,15
 animtype = Hard
 guardflag = MA
 hitflag = MAF
@@ -1119,7 +1148,7 @@ type     = A
 movetype = A
 physics  = A
 juggle   = 2
-poweradd = 10
+poweradd = 0
 ctrl     = 0
 anim     = 600
 sprpriority = 2
@@ -1134,6 +1163,7 @@ type = HitDef
 trigger1 = Time = 0
 attr = A, NA
 damage = ceil(40*fvar(1)/100)
+getpower = 30,15
 animtype = Light
 guardflag = HA
 hitflag = MAF
@@ -1163,7 +1193,7 @@ type     = A
 movetype = A
 physics  = A
 juggle   = 2
-poweradd = 20
+poweradd = 0
 ctrl     = 0
 anim     = 610
 sprpriority = 2
@@ -1178,6 +1208,7 @@ type = HitDef
 trigger1 = Time = 0
 attr = A, NA
 damage = ceil(60*fvar(1)/100)
+getpower = 30,15
 animtype = Medium
 guardflag = HA
 hitflag = MAF
@@ -1207,7 +1238,7 @@ type     = A
 movetype = A
 physics  = A
 juggle   = 2
-poweradd = 30
+poweradd = 0
 ctrl     = 0
 anim     = 620
 sprpriority = 2
@@ -1222,6 +1253,7 @@ type = HitDef
 trigger1 = Time = 0
 attr = A, NA
 damage = ceil(80*fvar(1)/100)
+getpower = 30,15
 animtype = Hard
 guardflag = HA
 hitflag = MAF
@@ -1251,7 +1283,7 @@ type     = A
 movetype = A
 physics  = A
 juggle   = 2
-poweradd = 10
+poweradd = 0
 ctrl     = 0
 anim     = 630
 sprpriority = 2
@@ -1266,6 +1298,7 @@ type = HitDef
 trigger1 = Time = 0
 attr = A, NA
 damage = ceil(40*fvar(1)/100)
+getpower = 30,15
 animtype = Light
 guardflag = HA
 hitflag = MAF
@@ -1295,7 +1328,7 @@ type     = A
 movetype = A
 physics  = A
 juggle   = 2
-poweradd = 20
+poweradd = 0
 ctrl     = 0
 anim     = 640
 sprpriority = 2
@@ -1310,6 +1343,7 @@ type = HitDef
 trigger1 = Time = 0
 attr = A, NA
 damage = ceil(60*fvar(1)/100)
+getpower = 30,15
 animtype = Medium
 guardflag = HA
 hitflag = MAF
@@ -1339,7 +1373,7 @@ type     = A
 movetype = A
 physics  = A
 juggle   = 2
-poweradd = 30
+poweradd = 0
 ctrl     = 0
 anim     = 650
 sprpriority = 2
@@ -1354,6 +1388,7 @@ type = HitDef
 trigger1 = Time = 0
 attr = A, NA
 damage = ceil(80*fvar(1)/100)
+getpower = 30,15
 animtype = Hard
 guardflag = HA
 hitflag = MAF
@@ -1390,6 +1425,7 @@ sprpriority = 2
 
 [State 800, ヒット定義（投げ用）]
 type = HitDef
+getpower = 60,30
 trigger1 = Time = 0
 attr = S, NT
 hitflag = M-
@@ -1426,6 +1462,7 @@ sprpriority = 2
 
 [State 801, ヒット定義（投げ用）]
 type = HitDef
+getpower = 60,30
 trigger1 = Time = 0
 attr = S, NT
 hitflag = M-
@@ -1455,7 +1492,7 @@ type     = S
 movetype = A
 physics  = N
 anim     = 810
-poweradd = 60
+poweradd = 0
 
 [State 810, 声]
 type = PlaySnd

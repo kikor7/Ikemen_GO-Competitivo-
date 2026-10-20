@@ -8,7 +8,7 @@ juggle  = 7
 velset = 0,0
 ctrl = 0
 anim = 1000
-poweradd = 60
+poweradd = 20
 sprpriority = 2
 
 ;Exlpod
@@ -51,6 +51,7 @@ hitflag = MAF
 guardflag = MA
 animtype = up
 damage = 70,10
+getpower = 30,15
 pausetime = 15,20	;(ifelse(enemy,alive,Y,N)),(ifelse(enemy,alive,Y,N))
 sparkno = s4550
 guard.sparkno = s4620
@@ -84,7 +85,7 @@ juggle  = 7
 velset = 0,0
 ctrl = 0
 anim = 1000
-poweradd = 60
+poweradd = 20
 sprpriority = 2
 
 ;Exlpod
@@ -127,6 +128,7 @@ hitflag = MAF
 guardflag = MA
 animtype = up
 damage = 70,10
+getpower = 30,15
 pausetime = 15,20	;(ifelse(enemy,alive,Y,N)),(ifelse(enemy,alive,Y,N))
 sparkno = s4550
 guard.sparkno = s4620
@@ -160,7 +162,7 @@ juggle  = 7
 velset = 0,0
 ctrl = 0
 anim = 1100
-poweradd = 60
+poweradd = 20
 sprpriority = 2
 
 [State , PlaySnd]
@@ -188,6 +190,7 @@ hitflag = MAF
 guardflag = MA
 animtype = up
 damage = 0,14
+getpower = 30,15
 pausetime = 10,15
 sparkno = s4520
 guard.sparkno = s4620
@@ -239,7 +242,7 @@ air.velocity = -5,-5
 airguard.velocity = -5,-5
 numhits = 0
 projscale = 1.2,1.2
-getpower = 0
+getpower = 30,15
 givepower = 0
 
 [State 1100]
@@ -576,7 +579,7 @@ juggle  = 8
 velset = 0,0
 ctrl = 0
 anim = 1200
-poweradd = 50
+poweradd = 0
 sprpriority = 2
 facep2 = 1
 
@@ -638,6 +641,7 @@ trigger1 = animelemtime(5) = 0 || animelemtime(13) = 0
 attr = S, SA
 animtype  = Hard
 damage    = 20,5
+getpower = 20,10
 guardflag = M
 pausetime = 15,15
 sparkno = s4560
@@ -659,6 +663,7 @@ trigger1 = animelemtime(9) = 0 || animelemtime(17) = 0
 attr = S, SA
 animtype  = Hard
 damage    = 20,5
+getpower = 20,10
 guardflag = M
 pausetime = 15,15
 sparkno = s4560
@@ -680,6 +685,7 @@ trigger1 = animelemtime(21) = 0
 attr = S, SA
 animtype  = Hard
 damage    = 40,5
+getpower = 20,10
 guardflag = M
 pausetime = 15,15
 sparkno = s4560

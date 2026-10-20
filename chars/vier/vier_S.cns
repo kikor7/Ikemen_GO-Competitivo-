@@ -13,7 +13,7 @@
 type    = S
 movetype= A
 physics = S
-poweradd= 48
+poweradd= 20
 velset = 0,0
 anim = 1000
 ctrl = 0
@@ -106,6 +106,7 @@ type = HitDef
 trigger1 = time = 0
 attr              = S, SP
 damage            = ceil(60*root,fvar(1)*root,fvar(3)),ceil(6*root,fvar(1)*root,fvar(3))
+getpower = 30,15
 animtype          = Hard
 hitflag           = MAF
 guardflag         = MA
@@ -161,7 +162,7 @@ value = 1022
 type    = S
 movetype= A
 physics = S
-poweradd= 48
+poweradd= 20
 velset = 0,0
 anim = 1010
 ctrl = 0
@@ -253,6 +254,7 @@ type = HitDef
 trigger1 = time = 0
 attr              = S, SP
 damage            = ceil(60*root,fvar(1)*root,fvar(3)),ceil(6*root,fvar(1)*root,fvar(3))
+getpower = 30,15
 animtype          = Hard
 hitflag           = MAF
 guardflag         = MA
@@ -306,7 +308,7 @@ value = 1022
 type    = S
 movetype= A
 physics = S
-poweradd= 48
+poweradd= 20
 velset = 0,0
 anim = 1020
 ctrl = 0
@@ -415,6 +417,7 @@ type = HitDef
 trigger1 = time = 0
 attr              = S, SP
 damage            = ceil(60*root,fvar(1)*root,fvar(3)),ceil(6*root,fvar(1)*root,fvar(3))
+getpower = 30,15
 animtype          = Hard
 hitflag           = MAF
 guardflag         = MA
@@ -491,7 +494,7 @@ type    = S
 movetype= A
 physics = S
 juggle  = 1
-poweradd= 48
+poweradd= 0
 ctrl = 0
 anim = 1100
 ;facep2   = 1
@@ -589,6 +592,7 @@ trigger1 = AnimElem = 7
 attr = S, SA
 ;damage    = ceil(25*fvar(1)*fvar(3))
 damage    = ceil(25*fvar(1)*fvar(3)),ceil(3*fvar(1)*fvar(3))
+getpower = 15,7
 priority  = 4,hit
 animtype  = Hard
 hitflag = MAF
@@ -617,6 +621,7 @@ trigger1 = AnimElem = 8
 attr = S, SA
 ;damage    = ceil(30*fvar(1)*fvar(3))
 damage    = ceil(30*fvar(1)*fvar(3)),ceil(3*fvar(1)*fvar(3))
+getpower = 15,7
 priority  = 4,hit
 animtype  = Hard
 hitflag = MAF
@@ -645,6 +650,7 @@ trigger1 = AnimElem = 9
 attr = S, SA
 ;damage    = ceil(30*fvar(1)*fvar(3))
 damage    = ceil(30*fvar(1)*fvar(3)),ceil(3*fvar(1)*fvar(3))
+getpower = 15,7
 priority  = 4,hit
 animtype  = Hard
 hitflag = MAF
@@ -671,6 +677,7 @@ trigger1 = AnimElem = 10
 attr = S, SA
 ;damage    = ceil(35*fvar(1)*fvar(3))
 damage    = ceil(35*fvar(1)*fvar(3)),ceil(4*fvar(1)*fvar(3))
+getpower = 15,7
 priority  = 4,hit
 animtype  = Hard
 hitflag = MAF
@@ -719,7 +726,7 @@ type    = S
 movetype= A
 physics = S
 juggle  = 1
-poweradd= 48
+poweradd= 0
 ctrl = 0
 anim = 1110
 ;facep2   = 1
@@ -820,6 +827,7 @@ trigger1 = AnimElem = 7
 attr = S, SA
 ;damage    = ceil(30*fvar(1)*fvar(3)),ceil(3*fvar(1)*fvar(3))
 damage    = ceil(30*fvar(1)*fvar(3)),ceil(3*fvar(1)*fvar(3))
+getpower = 15,7
 priority  = 4,hit
 animtype  = Hard
 hitflag = MAF
@@ -849,6 +857,7 @@ trigger1 = AnimElem = 8
 attr = S, SA
 ;damage    = ceil(35*fvar(1)*fvar(3)),ceil(4*fvar(1)*fvar(3))
 damage    = ceil(35*fvar(1)*fvar(3)),ceil(4*fvar(1)*fvar(3))
+getpower = 15,7
 priority  = 4,hit
 animtype  = Hard
 hitflag = MAF
@@ -878,6 +887,7 @@ trigger1 = AnimElem = 9
 attr = S, SA
 ;damage    = ceil(35*fvar(1)*fvar(3)),ceil(4*fvar(1)*fvar(3))
 damage    = ceil(35*fvar(1)*fvar(3)),ceil(4*fvar(1)*fvar(3))
+getpower = 15,7
 priority  = 4,hit
 animtype  = Hard
 hitflag = MAF
@@ -907,6 +917,7 @@ trigger1 = AnimElem = 10
 attr = S, SA
 ;damage    = ceil(50*fvar(1)*fvar(3)),ceil(4*fvar(1)*fvar(3))
 damage    = ceil(40*fvar(1)*fvar(3)),ceil(5*fvar(1)*fvar(3))
+getpower = 15,7
 priority  = 4,hit
 animtype  = Hard
 hitflag = MAF
@@ -956,7 +967,7 @@ type    = S
 movetype= A
 physics = S
 juggle  = 1
-poweradd= 48
+poweradd= 0
 ctrl = 0
 anim = 1120
 ;facep2   = 1
@@ -1055,6 +1066,7 @@ trigger1 = AnimElem = 7
 attr = S, SA
 ;damage    = ceil(25*fvar(1)*fvar(3))
 damage    = ceil(25*fvar(1)*fvar(3)),ceil(3*fvar(1)*fvar(3))
+getpower = 15,7
 priority  = 4,hit
 animtype  = Hard
 hitflag = MAF
@@ -1083,6 +1095,7 @@ trigger1 = AnimElem = 8
 attr = S, SA
 ;damage    = ceil(30*fvar(1)*fvar(3))
 damage    = ceil(30*fvar(1)*fvar(3)),ceil(3*fvar(1)*fvar(3))
+getpower = 15,7
 priority  = 4,hit
 animtype  = Hard
 hitflag = MAF
@@ -1111,6 +1124,7 @@ trigger1 = AnimElem = 9
 attr = S, SA
 ;damage    = ceil(30*fvar(1)*fvar(3))
 damage    = ceil(30*fvar(1)*fvar(3)),ceil(3*fvar(1)*fvar(3))
+getpower = 15,7
 priority  = 4,hit
 animtype  = Hard
 hitflag = MAF
@@ -1139,6 +1153,7 @@ trigger1 = AnimElem = 10
 attr = S, SA
 ;damage    = ceil(40*fvar(1)*fvar(3))
 damage    = ceil(35*fvar(1)*fvar(3)),ceil(4*fvar(1)*fvar(3))
+getpower = 15,7
 priority  = 4,hit
 animtype  = Hard
 hitflag = MAF
@@ -1190,7 +1205,7 @@ juggle   = 0
 velset   = 0,0
 ctrl     = 0
 anim     = 1200
-poweradd = 48
+poweradd = 20
 sprpriority = 2
 ;facep2   = 1
 
@@ -1301,6 +1316,7 @@ trigger1 = time = 0
 attr              = S, SP
 ;damage            = ceil(90*root,fvar(1)*root,fvar(3)),ceil(9*root,fvar(1)*root,fvar(3))
 damage            = ceil(80*root,fvar(1)*root,fvar(3)),ceil(8*root,fvar(1)*root,fvar(3))
+getpower = 30,15
 animtype          = Hard
 hitflag           = MAF
 guardflag         = MA
@@ -1367,7 +1383,7 @@ juggle   = 0
 velset   = 0,0
 ctrl     = 0
 anim     = 1200
-poweradd = 48
+poweradd = 20
 sprpriority = 2
 ;facep2   = 1
 
@@ -1469,6 +1485,7 @@ trigger1 = time = 0
 attr              = S, SP
 ;damage            = ceil(90*root,fvar(1)*root,fvar(3)),ceil(9*root,fvar(1)*root,fvar(3))
 damage            = ceil(80*root,fvar(1)*root,fvar(3)),ceil(8*root,fvar(1)*root,fvar(3))
+getpower = 30,15
 animtype          = Hard
 hitflag           = MAF
 guardflag         = MA
@@ -1535,7 +1552,7 @@ juggle   = 0
 velset   = 0,0
 ctrl     = 0
 anim     = 1200
-poweradd = 48
+poweradd = 20
 sprpriority = 2
 ;facep2   = 1
 
@@ -1650,6 +1667,7 @@ trigger1 = time = 0
 attr              = S, SP
 ;damage            = ceil(90*root,fvar(1)*root,fvar(3)),ceil(9*root,fvar(1)*root,fvar(3))
 damage            = ceil(80*root,fvar(1)*root,fvar(3)),ceil(8*root,fvar(1)*root,fvar(3))
+getpower = 30,15
 animtype          = Hard
 hitflag           = MAF
 guardflag         = MA

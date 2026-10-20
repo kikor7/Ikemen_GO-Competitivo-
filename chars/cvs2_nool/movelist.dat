@@ -1,0 +1,20 @@
+<#f0f000>:Special Moves:</>
+hanging			_DSB^C
+vital			_DSF^Z
+tadpole			_DF_QCB^X
+nochiller			_HCF^C
+spinning			_DSF^C
+venom			_D_D^Z
+stream			_DB_QCF^Z
+Especial 8			^A_+^X
+Especial 9			^C_+^Z
+
+<#f0f000>:Hyper Moves:</>
+strangle <#f00000>(3000)</>			_QCB_D_DB^A
+lightning <#f00000>(1000)</>			_QCF_D_DF^X
+lightning <#f00000>(2000)</>			_QCF_D_DF^Y
+lightning <#f00000>(3000)</>			_QCF_D_DF^X
+Super 5 <#f00000>(1000)</>			^B_+^Y
+Super 6 <#f00000>(1000)</>			^A_+^X
+Super 7 <#f00000>(3000)</>			^C_+^Z
+Super 8 <#f00000>(1000)</>			^C_+^Z

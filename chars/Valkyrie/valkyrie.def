@@ -6,6 +6,7 @@ mugenversion=04,14,2001
 author="Bluecross"
 pal.defaults=1,2,3,4,5
 [Files]
+movelist = movelist.dat
 sprite=valkyrie.sff
 sound=Sound.snd
 anim=valkyrie.air

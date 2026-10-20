@@ -1,0 +1,23 @@
+<#f0f000>:Special Moves:</>
+delta end			_QCF_QCF^B
+Air ganma Blade			_HCF^B
+genrouzan			_HCF^A
+Beta Blade			_DSF^Y
+air kakato			_DSF^A
+meisai			_QCB^A
+resshou			_QCF^Y
+Alpha Blade			_QCF^X
+warp_b			_D_D^B
+warp_y			_D_D^Y
+warp_a			_D_D^A
+warp_x			_D_D^X
+ichigeki junbi			^X_+^Y_+^A_+^B
+dust attack			^Y_+^B
+Crouching Hard Kick			~D^Y_+^B
+
+<#f0f000>:Hyper Moves:</>
+original <#f00000>(2000)</>			_QCF_DF_QCB^B
+Zanseirouga <#f00000>(1000)</>			_HCB_F^B
+Bankimessai <#f00000>(1000)</>			_QCF_QCF^A
+romancansel <#f00000>(1000)</>			^X_+^Y_+^A
+dead angle attack <#f00000>(1000)</>			~F^X_+^A

@@ -418,6 +418,24 @@ trigger1 = time = 8
 
 ;---------------------------------------------------------------------------
 Neutral Dodge
+;---------------------------------------------------------------------------
+; Recuperacion tras esquivar/rodar: sin control y golpeable unos frames,
+; para que no se pueda encadenar sin riesgo.
+;---------------------------------------------------------------------------
+[Statedef 1001]
+type = S
+movetype = I
+physics = S
+ctrl = 0
+anim = 0
+velset = 0,0
+
+[State 1001, Fin de la recuperacion]
+type = ChangeState
+trigger1 = Time >= 12
+value = 0
+ctrl = 1
+
 [Statedef 800]
 type    = S
 movetype= I
@@ -446,8 +464,8 @@ value = 0
 [State 800, StateChange]
 type = Changestate
 trigger1 = AnimTime = 0
-value = 0
-ctrl = 1
+value = 1001
+ctrl = 0
 
 ;---------------------------------------------------------------------------
 Neutral Dodge Attack
@@ -519,6 +537,7 @@ guardflag = MA
 animtype = Heavy
 priority = 5, Hit
 damage = Ceil(50*fvar(31))
+getpower = 15,7
 pausetime = 8, 8
 sparkno = S8200+(random%8)
 guard.sparkno = S8100
@@ -566,7 +585,7 @@ fall.animtype = back
 nochainid = 999
 fall = 1
 fall.recover = 1
-getpower = 0, 0
+getpower = 15,7
 
 [State 805, 4]
 type = ChangeState
@@ -674,8 +693,8 @@ trigger1 = p2bodydist x < 0
 [State 810, StateChange]
 type = Changestate
 trigger1 = AnimTime = 0
-value = 0
-ctrl = 1
+value = 1001
+ctrl = 0
 
 ;---------------------------------------------------------------------------
 Backward Dodge
@@ -785,8 +804,8 @@ trigger2= p2bodydist x < 0
 [State 820, StateChange]
 type = Changestate
 trigger1 = AnimTime = 0
-value = 0
-ctrl = 1
+value = 1001
+ctrl = 0
 
 ;---------------------------------------------------------------------------
 [Statedef -2]

@@ -8,6 +8,7 @@ pal.defaults = 1	                ;Default palettes in order of preference
 
 ; Files for the player
 [Files]
+movelist = movelist.dat
 sprite   = madoka3.sff		;Sprite
 anim     = madoka3.air		;Animation
 sound    = madoka3.snd		;Sound

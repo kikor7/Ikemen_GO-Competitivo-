@@ -1,0 +1,54 @@
+<#f0f000>:Special Moves:</>
+Forward Ground Rec			^A_+^B
+Jab Ground Rec			_B_DB_D^X
+Strong Ground Rec			_B_DB_D^Y
+Fierce Ground Rec			_B_DB_D^Z
+Especial 5			_DSF^X_+^Y
+Especial 6			_DSF^Y_+^Z
+Especial 7			_DSF^X_+^Z
+Especial 8			_DSF^A_+^B
+Especial 9			_DSF^B_+^C
+Especial 10			_DSF^A_+^C
+Especial 11			_DSB^X_+^Y
+Especial 12			_DSB^Y_+^Z
+Especial 13			_DSB^X_+^Z
+Especial 14			_DSB^A_+^B
+Especial 15			_DSB^B_+^C
+Especial 16			_DSB^A_+^C
+Stand Punch Throw			^X_+^Y
+Especial 18			^B_+^Y
+Jab DP			_DSF^X
+Strong DP			_DSF^Y
+Fierce DP			_DSF^Z
+Twin Kick			_DSF^A
+Twin Kick			_DSF^B
+Twin Kick			_DSF^C
+Short HK			_QCB^A
+Forward HK			_QCB^B
+Roundhouse HK			_QCB^C
+Short HK			_QCF^A
+Forward HK			_QCF^B
+Roundhouse HK			_QCF^C
+Short A.HK			_QCF^X
+Short A.HK			_QCF^Y
+Short A.HK			_QCF^Z
+Short A.HK			_QCB^X
+Short A.HK			_QCB^Y
+Short A.HK			_QCB^Z
+Jab Roll			^A_+^X
+Taunt			_D_D^S
+
+<#f0f000>:Hyper Moves:</>
+Fierce Shoryureppa <#f00000>(1000)</>			_QCF_QCF^X
+Super 2 <#f00000>(1000)</>			_QCF_QCF^A
+Shippu Jinrai Kyaku <#f00000>(1000)</>			_QCB_QCB^A
+Ken's Rave <#f00000>(2000)</>			_QCF_DF_QCB^X
+Shin Hadouken <#f00000>(1000)</>			_QCB_QCB^X
+Super 6 <#f00000>(3000)</>			^X^X_F^A^Z
+Super 7 <#f00000>(1000)</>			_D_D_D^A
+Super 8 <#f00000>(2000)</>			_HCF^X_+^Y
+Super 9 <#f00000>(1000)</>			_HCF^A_+^B
+Super 10 <#f00000>(3000)</>			^C_+^Z
+Super 11 <#f00000>(1000)</>			_D_D_D^X
+Punch Alpha <#f00000>(1000)</>			_B_DB_D^X
+Kick Alpha <#f00000>(1000)</>			_B_DB_D^A

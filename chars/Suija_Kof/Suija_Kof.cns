@@ -996,7 +996,7 @@ air.velocity = -4,-7
 ground.cornerpush.veloff = 0
 air.cornerpush.veloff = 0
 yaccel = .55
-getpower = 59,59
+getpower = 30,15
 givepower = 15,15
 ID = 200
 
@@ -1084,7 +1084,7 @@ air.velocity = -4,-7
 ground.cornerpush.veloff = 0
 air.cornerpush.veloff = 0
 yaccel = .55
-getpower = 59,59
+getpower = 30,15
 givepower = 15,15
 ID = 205
 
@@ -1187,7 +1187,7 @@ air.velocity = -4,-7.5
 ground.cornerpush.veloff = 0
 air.cornerpush.veloff = 0
 yaccel = .55
-getpower = 125,125
+getpower = 30,15
 givepower = 15,15
 fall = 1
 fall.recover = 24+23+Ceil((-EnemyNear(var(58)),Pos Y)/10)
@@ -1482,7 +1482,7 @@ air.velocity = -4,-7.5
 ground.cornerpush.veloff = 0
 air.cornerpush.veloff = 0
 yaccel = .55
-getpower = 125,125
+getpower = 30,15
 givepower = 15,15
 ID = 215
 p2facing = 1
@@ -1590,7 +1590,7 @@ air.velocity = -4,-7
 ground.cornerpush.veloff = 0
 air.cornerpush.veloff = 0
 yaccel = .55
-getpower = 100,100
+getpower = 30,15
 givepower = 15,15
 ID = 220
 
@@ -1693,7 +1693,7 @@ air.velocity = -4,-7
 ground.cornerpush.veloff = 0
 air.cornerpush.veloff = 0
 yaccel = .55
-getpower = 100,100
+getpower = 30,15
 givepower = 15,15
 ID = 225
 
@@ -1801,7 +1801,7 @@ air.velocity = -4,-7
 ground.cornerpush.veloff = 0
 air.cornerpush.veloff = 0
 yaccel = .55
-getpower = 100,100
+getpower = 30,15
 givepower = 15,15
 ID = 230
 
@@ -1936,7 +1936,7 @@ air.velocity = -2,-8.5
 ground.cornerpush.veloff = 0
 air.cornerpush.veloff = 0
 yaccel = .65
-getpower = 100,100
+getpower = 30,15
 givepower = 15,15
 ID = 235
 
@@ -2035,7 +2035,7 @@ ground.cornerpush.veloff = 0
 guard.cornerpush.veloff = 0
 air.cornerpush.veloff = 0
 yaccel = .55
-getpower = 125,125
+getpower = 60,30
 givepower = 15,15
 fall = 1
 fall.recover = 0
@@ -2498,7 +2498,7 @@ air.cornerpush.veloff = 0
 air.fall = 1
 fall.recovertime = 24+11+Ceil((-EnemyNear(var(58)),Pos Y)/10)
 yaccel = .55
-getpower = 100,100
+getpower = 30,15
 givepower = 15,15
 ID = 260
 
@@ -2595,7 +2595,7 @@ air.velocity = -4,-7
 ground.cornerpush.veloff = 0
 air.cornerpush.veloff = 0
 yaccel = .55
-getpower = 59,59
+getpower = 30,15
 givepower = 15,15
 ID = 400
 
@@ -2690,7 +2690,7 @@ air.cornerpush.veloff = 0
 fall = 1
 fall.recovertime = 30+11+Ceil((-EnemyNear(var(58)),Pos Y)/10)
 yaccel = .55
-getpower = 125,125
+getpower = 30,15
 givepower = 15,15
 ID = 410
 p2facing = 1
@@ -2880,7 +2880,7 @@ air.velocity = -4,-7.5
 ground.cornerpush.veloff = 0
 air.cornerpush.veloff = 0
 yaccel = .55
-getpower = 100,100
+getpower = 30,15
 givepower = 15,15
 ID = 420
 
@@ -2983,7 +2983,7 @@ ground.cornerpush.veloff = 0
 guard.cornerpush.veloff = 0
 air.cornerpush.veloff = 0
 yaccel = .55
-getpower = 59,59
+getpower = 30,15
 givepower = 15,15
 ID = 430
 
@@ -3056,7 +3056,7 @@ ground.cornerpush.veloff = 0
 guard.cornerpush.veloff = 0
 air.cornerpush.veloff = 0
 yaccel = .55
-getpower = 59,59
+getpower = 30,15
 givepower = 15,15
 ID = 600
 
@@ -3117,7 +3117,7 @@ ground.cornerpush.veloff = 0
 guard.cornerpush.veloff = 0
 air.cornerpush.veloff = 0
 yaccel = .55
-getpower = 59,59
+getpower = 30,15
 givepower = 15,15
 ID = 605
 
@@ -3177,7 +3177,7 @@ ground.cornerpush.veloff = 0
 guard.cornerpush.veloff = 0
 air.cornerpush.veloff = 0
 yaccel = .55
-getpower = 125,125
+getpower = 30,15
 givepower = 15,15
 ID = 610
 
@@ -3252,7 +3252,7 @@ ground.cornerpush.veloff = 0
 guard.cornerpush.veloff = 0
 air.cornerpush.veloff = 0
 yaccel = .55
-getpower = 125,125
+getpower = 30,15
 givepower = 15,15
 ID = 615
 
@@ -3328,7 +3328,7 @@ ground.cornerpush.veloff = 0
 guard.cornerpush.veloff = 0
 air.cornerpush.veloff = 0
 yaccel = .65
-getpower = 100,100
+getpower = 30,15
 givepower = 15,15
 ID = 620
 
@@ -3403,7 +3403,7 @@ ground.cornerpush.veloff = 0
 guard.cornerpush.veloff = 0
 air.cornerpush.veloff = 0
 yaccel = .65
-getpower = 100,100
+getpower = 30,15
 givepower = 15,15
 ID = 625
 
@@ -3478,7 +3478,7 @@ ground.cornerpush.veloff = 0
 guard.cornerpush.veloff = 0
 air.cornerpush.veloff = 0
 yaccel = .65
-getpower = 100,100
+getpower = 30,15
 givepower = 15,15
 ID = 630
 
@@ -3538,7 +3538,7 @@ ground.cornerpush.veloff = 0
 guard.cornerpush.veloff = 0
 air.cornerpush.veloff = 0
 yaccel = .65
-getpower = 100,100
+getpower = 30,15
 givepower = 15,15
 ID = 635
 
@@ -3599,7 +3599,7 @@ air.cornerpush.veloff = 0
 fall = 1
 fall.recover = 0
 yaccel = .55
-getpower = 125,125
+getpower = 60,30
 givepower = 15,15
 ID = 640
 p2facing = 1
@@ -3699,12 +3699,30 @@ air.cornerpush.veloff = 0
 air.fall = 1
 fall.recovertime = 18+11+Ceil((-EnemyNear(var(58)),Pos Y)/10)
 yaccel = .65
-getpower = 100,100
+getpower = 30,15
 givepower = 15,15
 ID = 645
 
 ;\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 ;����
+;---------------------------------------------------------------------------
+; Recuperacion tras esquivar/rodar: sin control y golpeable unos frames,
+; para que no se pueda encadenar sin riesgo.
+;---------------------------------------------------------------------------
+[Statedef 1002]
+type = S
+movetype = I
+physics = S
+ctrl = 0
+anim = 0
+velset = 0,0
+
+[State 1002, Fin de la recuperacion]
+type = ChangeState
+trigger1 = Time >= 12
+value = 0
+ctrl = 1
+
 [Statedef 700]
 type = S
 physics = S
@@ -3744,8 +3762,8 @@ value = 1
 [State 700, End]
 type = ChangeState
 trigger1 = AnimTime = 0
-value = 0
-ctrl = 1
+value = 1002
+ctrl = 0
 
 ;\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 ;�K�[�h�L�����Z���ً}�����@�O
@@ -3920,7 +3938,7 @@ fall = 1
 fall.recovertime = 30+11+Ceil((-EnemyNear(var(58)),Pos Y)/10)
 ground.cornerpush.veloff = 0
 air.cornerpush.veloff = 0
-getpower = 0,0
+getpower = 30,15
 givepower = 15,15
 ID = 750
 p2facing = 1
@@ -4076,6 +4094,7 @@ sprpriority = 2
 
 [State 800, HitDef]
 type = HitDef
+getpower = 60,30
 Triggerall = (Abs(P2BodyDist X) <= 18)
 trigger1 = Time = 0
 trigger1 = P2Movetype != H
@@ -4286,6 +4305,7 @@ sprpriority = 2
 
 [State 850, HitDef]
 type = HitDef
+getpower = 60,30
 Triggerall = (Abs(P2BodyDist X) <= 18)
 trigger1 = Time = 0
 trigger1 = P2Movetype != H
@@ -4869,7 +4889,7 @@ movetype = A
 ctrl = 0
 anim = 1000+(var(7))*10000
 sprpriority = 4
-poweradd = 91
+poweradd = 0
 
 [State -2, VelSet]
 type = VelSet
@@ -4926,7 +4946,7 @@ ground.cornerpush.veloff = 0
 guard.cornerpush.veloff = 0
 air.cornerpush.veloff = 0
 yaccel = .55
-getpower = 100,100
+getpower = 60,30
 givepower = 15,15
 ID = 1000
 p2facing = 1
@@ -5320,7 +5340,7 @@ movetype = A
 ctrl = 0
 anim = 1000+(var(7))*10000
 sprpriority = 4
-poweradd = 91
+poweradd = 0
 
 [State -2, VelSet]
 type = VelSet
@@ -5377,7 +5397,7 @@ ground.cornerpush.veloff = 0
 guard.cornerpush.veloff = 0
 air.cornerpush.veloff = 0
 yaccel = .55
-getpower = 100,100
+getpower = 60,30
 givepower = 15,15
 ID = 1050
 p2facing = 1
@@ -5443,7 +5463,7 @@ ctrl = 0
 anim = 1100+(var(7))*10000
 juggle = 15
 sprpriority = 2
-poweradd = 91
+poweradd = 0
 
 [State -2, VelSet]
 type = VelSet
@@ -5469,7 +5489,7 @@ value = 0
 [State -2, PowerAdd]
 type = PowerAdd
 trigger1 = EnemyNear,MoveReversed = 1
-value = 15
+value = 0
 ignorehitpause = 1
 
 [State -2, VarAdd]
@@ -5603,7 +5623,7 @@ ctrl = 0
 anim = 1150+(var(7))*10000
 juggle = 15
 sprpriority = 2
-poweradd = 91
+poweradd = 0
 
 [State -2, VelSet]
 type = VelSet
@@ -5629,7 +5649,7 @@ value = 0
 [State -2, PowerAdd]
 type = PowerAdd
 trigger1 = EnemyNear,MoveReversed = 1
-value = 15
+value = 0
 ignorehitpause = 1
 
 [State -2, VarAdd]
@@ -5763,7 +5783,7 @@ ctrl = 0
 anim = 1200+(var(7))*10000
 juggle = 15
 sprpriority = 2
-poweradd = 91
+poweradd = 0
 
 [State -2, VelSet]
 type = VelSet
@@ -5789,7 +5809,7 @@ value = 0
 [State -2, PowerAdd]
 type = PowerAdd
 trigger1 = EnemyNear,MoveReversed = 1
-value = 15
+value = 0
 ignorehitpause = 1
 
 [State -2, VarAdd]
@@ -5923,7 +5943,7 @@ ctrl = 0
 anim = 1250+(var(7))*10000
 juggle = 15
 sprpriority = 2
-poweradd = 91
+poweradd = 0
 
 [State -2, VelSet]
 type = VelSet
@@ -5949,7 +5969,7 @@ value = 0
 [State -2, PowerAdd]
 type = PowerAdd
 trigger1 = EnemyNear,MoveReversed = 1
-value = 15
+value = 0
 ignorehitpause = 1
 
 [State -2, VarAdd]
@@ -6365,7 +6385,7 @@ ctrl = 0
 anim = 1400+(var(7))*10000
 juggle = 15
 sprpriority = 2
-poweradd = 91
+poweradd = 0
 
 [State -2, AttackDist]
 type = AttackDist
@@ -6420,7 +6440,7 @@ air.cornerpush.veloff = 0
 fall = 1
 fall.recovertime = 24+11+Ceil((-EnemyNear(var(58)),Pos Y)/10)
 yaccel = .55
-getpower = 100,100
+getpower = 60,30
 givepower = 15,15
 ID = 1400
 p2dacing = 1
@@ -6621,7 +6641,7 @@ ctrl = 0
 anim = 1400+(var(7))*10000
 juggle = 15
 sprpriority = 2
-poweradd = 91
+poweradd = 0
 
 [State -2, AttackDist]
 type = AttackDist
@@ -6676,7 +6696,7 @@ air.cornerpush.veloff = 0
 fall = 1
 fall.recovertime = 24+11+Ceil((-EnemyNear(var(58)),Pos Y)/10)
 yaccel = .55
-getpower = 100,100
+getpower = 60,30
 givepower = 15,15
 ID = 1450
 p2facing = 1
@@ -6752,7 +6772,7 @@ ctrl = 0
 anim = 1500+(var(7))*10000
 juggle = 15
 sprpriority = 2
-poweradd = 91
+poweradd = 0
 
 [State -2, VelSet]
 type = VelSet
@@ -6801,7 +6821,7 @@ air.cornerpush.veloff = 0
 fall = 1
 fall.recover = 0
 yaccel = .55
-getpower = 100,100
+getpower = 60,30
 givepower = 15,15
 ID = 1500
 envshake.time = 11
@@ -6873,7 +6893,7 @@ ctrl = 0
 anim = 1500+(var(7))*10000
 juggle = 15
 sprpriority = 2
-poweradd = 91
+poweradd = 0
 
 [State -2, VelSet]
 type = VelSet
@@ -6922,7 +6942,7 @@ air.cornerpush.veloff = 0
 fall = 1
 fall.recover = 0
 yaccel = .55
-getpower = 100,100
+getpower = 60,30
 givepower = 15,15
 ID = 1550
 envshake.time = 11

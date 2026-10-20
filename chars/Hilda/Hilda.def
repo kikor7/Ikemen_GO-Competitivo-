@@ -12,6 +12,7 @@ author = "OHMSBY"
 pal.defaults = 1      
 
 [Files]
+movelist = movelist.dat
 cmd     = Hilda.cmd
 cns     = Hilda.cns
 st      = Hilda.cns

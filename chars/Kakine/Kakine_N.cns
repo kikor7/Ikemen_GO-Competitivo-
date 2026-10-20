@@ -22,7 +22,7 @@ juggle  = 0
 velset = 0,0
 ctrl = 0
 anim = 200
-poweradd = 5
+poweradd = 0
 sprpriority = 2
 facep2 = 1
 
@@ -55,7 +55,7 @@ air.velocity = -1.4,-3
 air.hittime = 12
 air.fall = 1
 fall.recovertime = 20
-getpower  = 10,5
+getpower = 30,15
 givepower =5,5
 
 [State 200, ステート変更]
@@ -73,7 +73,7 @@ type    = S
 movetype= A
 physics = S
 juggle  = 0
-poweradd= 10
+poweradd= 0
 ctrl = 0
 velset = 0,0
 anim = 210
@@ -118,7 +118,7 @@ ground.velocity = -3
 air.velocity = -2.5,-4
 air.fall = 1
 fall.recovertime = 27
-getpower  = 20,5
+getpower = 30,15
 givepower = 10,5
 
 [State 210, ステート変更]
@@ -136,7 +136,7 @@ type    = S
 movetype= A
 physics = S
 juggle  = 0
-poweradd= 10
+poweradd= 0
 ctrl = 0
 velset = 0,0
 anim = 220
@@ -178,7 +178,7 @@ ground.velocity = -4
 air.velocity = -2,-7
 air.fall = 1
 fall.recovertime = 33
-getpower  = 25,5
+getpower = 30,15
 givepower = 15,5
 
 [State 1350, 1]
@@ -201,7 +201,7 @@ type    = C
 movetype= A
 physics = C
 juggle  = 0
-poweradd= 5
+poweradd= 0
 ctrl = 0
 anim = 400
 sprpriority = 2
@@ -236,7 +236,7 @@ air.velocity = -1,-3
 air.hittime = 12
 air.fall = 1
 fall.recovertime = 20
-getpower  = 10,5
+getpower = 30,15
 givepower =5,5
 
 [State 410, ステート変更]
@@ -254,7 +254,7 @@ type    = C
 movetype= A
 physics = C
 juggle  = 0
-poweradd= 10
+poweradd= 0
 ctrl = 0
 anim = 410
 sprpriority = 2
@@ -317,7 +317,7 @@ ground.velocity = -2
 air.velocity = -2.5,-4
 air.fall = 1
 fall.recovertime = 26
-getpower  = 40,10
+getpower = 30,15
 givepower = 30,5
 
 [State 410, ステート変更]
@@ -335,7 +335,7 @@ type    = C
 movetype= A
 physics = C
 juggle  = 0
-poweradd= 10
+poweradd= 0
 ctrl = 0
 anim =420
 sprpriority = 2
@@ -380,7 +380,7 @@ Guard.Velocity = -9
 air.velocity = -2.2,-3.2
 air.fall = 1
 fall.recover = 0
-getpower  = 25,5
+getpower = 15,7
 givepower = 15,5
 
 [State 440, ヒット定義]
@@ -404,7 +404,7 @@ Guard.Velocity = -9
 air.velocity = -2.2,-3.2
 fall = 1
 fall.recover = 0
-getpower  = 25,5
+getpower = 15,7
 givepower = 15,5
 
 [State 440, ステート変更]
@@ -422,7 +422,7 @@ type    = A
 movetype= A
 physics = A
 juggle  = 0
-poweradd= 5
+poweradd= 0
 ctrl = 0
 anim = 600
 sprpriority = 2
@@ -451,7 +451,7 @@ ground.velocity = -4
 air.velocity = -1,-2
 air.fall = 1
 fall.recovertime = 22
-getpower  = 10,5
+getpower = 30,15
 givepower =5,5
 
 [State 600, コントロール]
@@ -475,7 +475,7 @@ type    = A
 movetype= A
 physics = A
 juggle  = 0
-poweradd= 10
+poweradd= 0
 ctrl = 0
 anim = 610
 sprpriority = 2
@@ -522,7 +522,7 @@ ground.velocity = -3
 air.velocity = -2.5,-2
 air.fall = 1
 fall.recovertime = 25
-getpower  = 20,5
+getpower = 30,15
 givepower = 10,5
 
 ;---------------------------------------------------------------------------
@@ -534,7 +534,7 @@ type    = A
 movetype= A
 physics = A
 juggle  = 0
-poweradd= 10
+poweradd= 0
 ctrl = 0
 anim = 620
 sprpriority = 2
@@ -581,7 +581,7 @@ air.velocity = -3,-6
 air.slidetime = 30
 air.fall = 1
 fall.recovertime = 40
-getpower  = 25,5
+getpower = 30,15
 givepower = 15,5
 
 ;===========================================================================
@@ -601,6 +601,7 @@ Facep2 = 1
 
 [State 800, 1]
 Type = HitDef
+getpower = 60,30
 Trigger1 = Time = 2
 Attr = S, NT          ;ｓ：立ち　ｎ：通常　ｔ：投げ
 HitFlag = M-          ;コンボの途中から投げが入らないよう設定してある
@@ -632,7 +633,7 @@ type    = S
 movetype= A
 physics = N
 anim = 810
-poweradd = 60
+poweradd = 0
 
 [State -1]
 Type = NotHitBy

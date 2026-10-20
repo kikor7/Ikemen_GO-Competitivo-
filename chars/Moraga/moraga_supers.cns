@@ -424,6 +424,7 @@ type = hitDef
 trigger1 = movecontact = 0
 attr = A, SP
 damage = 145,15
+getpower = 6,3
 animtype = hard
 guardflag = M
 hitflag = MAF
@@ -681,6 +682,7 @@ type = hitDef
 trigger1 = movecontact=0
 attr = A, SP
 damage = 145,15
+getpower = 6,3
 animtype = hard
 guardflag = M
 hitflag = MAF
@@ -774,6 +776,7 @@ type = hitDef
 trigger1 = movecontact=0
 attr = A, SP
 damage = 145,15
+getpower = 6,3
 animtype = hard
 guardflag = M
 hitflag = MAF
@@ -867,6 +870,7 @@ type = hitDef
 trigger1 = movecontact=0
 attr = A, SP
 damage = 145,15
+getpower = 6,3
 animtype = hard
 guardflag = M
 hitflag = MAF
@@ -960,6 +964,7 @@ type = hitDef
 trigger1 = movecontact=0
 attr = A, SP
 damage = 145,15
+getpower = 6,3
 animtype = hard
 guardflag = M
 hitflag = MAF

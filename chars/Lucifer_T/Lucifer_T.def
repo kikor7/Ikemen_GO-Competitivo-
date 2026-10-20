@@ -11,6 +11,7 @@ Pal.Defaults = 1
 ;--| 必要なファイル |---------------------------------------------------
 
 [Files]
+movelist = movelist.dat
 Cmd     = data/Lucifer.cmd       
 Cns     = cns/Lucifer_const.cns      
 St      = cns/Lucifer.cns      

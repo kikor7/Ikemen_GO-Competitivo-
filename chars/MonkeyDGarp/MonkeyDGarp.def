@@ -4,7 +4,7 @@
 ; Player information
 [Info]
 name="Monkey D. Garp"
-displayname="K"
+displayname="Monkey D. Garp"
 versiondate=04,14,2002
 mugenversion=1.0
 author=""
@@ -12,6 +12,7 @@ pal.defaults=1,7,2,8,3,9,4,5,6,10,11,12
 
 ; Files for the player
 [Files]
+movelist = movelist.dat
 cmd=MonkeyDGarp.cmd
 sprite=MonkeyDGarp.sff
 anim=MonkeyDGarp.air

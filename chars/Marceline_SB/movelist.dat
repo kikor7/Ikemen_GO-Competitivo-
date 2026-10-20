@@ -1,0 +1,16 @@
+<#f0f000>:Special Moves:</>
+Arm Whip			_QCB^B
+Arm Whip			_QCB^A
+ArmsAxe			_DSF^B
+ArmsAxe			_DSF^A
+Sonic Stereo Guitar			_QCF^B
+Sonic Stereo Guitar			_QCF^A
+
+<#f0f000>:Hyper Moves:</>
+Bat Monster <#f00000>(3000)</>			_QCB_QCF^A_+^B
+BatStampede <#f00000>(3000)</>			_QCB_QCB^B_+^C
+Monstrous-Morph Arm <#f00000>(2000)</>			_QCB_QCB^A_+^B
+Super Stereo Sonic Guitar <#f00000>(1000)</>			_QCF_QCF^A_+^B
+Arm Whip EX <#f00000>(500)</>			_QCB^C
+ArmsAxe <#f00000>(500)</>			_DSF^C
+Sonic Stereo Guitar EX <#f00000>(500)</>			_QCF^C

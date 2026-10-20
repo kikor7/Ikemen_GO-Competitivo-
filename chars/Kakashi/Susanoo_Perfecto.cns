@@ -506,7 +506,7 @@ juggle  = 1
 velset = 0,0
 ctrl = 0
 anim = 4055
-poweradd = 30
+poweradd = 0
 sprpriority = 3
 
 [State 0, PosAdd]
@@ -639,7 +639,7 @@ juggle  = 1
 velset = 0,0
 ctrl = 0
 anim = 4056
-poweradd = 30
+poweradd = 0
 sprpriority = 3
 
 [State 0, PosAdd]
@@ -798,7 +798,7 @@ juggle  = 1
 velset = 0,0
 ctrl = 0
 anim = 4057
-poweradd = 30
+poweradd = 0
 sprpriority = 3
 
 [State 0, PosAdd]

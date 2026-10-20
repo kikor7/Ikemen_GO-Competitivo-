@@ -1631,7 +1631,7 @@ type    = S
 movetype= A
 physics = S
 juggle  = 4
-poweradd= 65
+poweradd= 0
 ctrl = 0
 velset = 6,0
 anim = 2909
@@ -2531,6 +2531,7 @@ trigger1 = AnimElem = 1
 attr= S, NA
 animtype= Medium
 damage = 10,5
+getpower = 60,30
 guardflag= MA
 pausetime= 0,100
 sparkxy= 0,-57
@@ -3288,6 +3289,7 @@ trigger1 = AnimElem = 1
 attr= S, NA
 animtype= Medium
 damage = 10,5
+getpower = 60,30
 guardflag= MA
 pausetime= 0,100
 sparkxy= 0,-57
@@ -4692,6 +4694,7 @@ trigger1 = AnimElem = 1
 attr= S, NA
 animtype= Medium
 damage = 10,5
+getpower = 60,30
 guardflag= MA
 pausetime= 0,100
 sparkxy= 0,-57
@@ -4934,6 +4937,7 @@ trigger1 = AnimElem = 1
 attr= S, NA
 animtype= Medium
 damage = 10,5
+getpower = 60,30
 guardflag= MA
 pausetime= 0,100
 sparkxy= 0,-57
@@ -6708,6 +6712,7 @@ ctrl=1
 
 [Statedef 3131]
 type = S
+poweradd = 20
 movetype= I
 physics	= N
 anim= 3131
@@ -6749,6 +6754,7 @@ trigger1		= AnimElem = 1, = 16
 x			= (P2Dist X) + 50
 [State 0]
 type= Projectile
+getpower = 30,15
 trigger1= AnimElem = 1, = 15
 projid	= 3131
 projanim= 3131
@@ -10176,7 +10182,7 @@ juggle  = 1                      ;Number of air juggle points move takes
 velset = 0,0                     ;Set velocity (x,y) (Def: no change)
 ctrl = 0                         ;Set ctrl (Def: no change)
 anim = 200                       ;Change animation (Def: no change)
-poweradd = 20                    ;Power to add (Def: 0)
+poweradd = 0                    ;Power to add (Def: 0)
 sprpriority = 2                  ;Set p1's sprite layering priority to 2 (in front)
 
 [State 200, 1]
@@ -10184,6 +10190,7 @@ type = HitDef
 trigger1 = AnimElem = 2
 attr = S, NA                     ;Attribute: Standing, Normal Attack
 damage = 23, 0                   ;Damage that move inflicts, guard damage
+getpower = 7,3
 animtype = Light                 ;Animation type: Light, Medium, Heavy, Back (def: Light)
 guardflag = MA                   ;Flags on how move is to be guarded against
 hitflag = MAF                    ;Flags of conditions that move can hit
@@ -10234,7 +10241,7 @@ juggle  = 1                      ;Number of air juggle points move takes
 velset = 0,0                     ;Set velocity (x,y) (Def: no change)
 ctrl = 0                         ;Set ctrl (Def: no change)
 anim = 201                      ;Change animation (Def: no change)
-poweradd = 20                    ;Power to add (Def: 0)
+poweradd = 0                    ;Power to add (Def: 0)
 sprpriority = 2                  ;Set p1's sprite layering priority to 2 (in front)
 
 [State 200, 1]
@@ -10243,6 +10250,7 @@ trigger1 = AnimElem = 2
 trigger2 = AnimElem = 3
 attr = S, NA                     ;Attribute: Standing, Normal Attack
 damage = 15, 0                   ;Damage that move inflicts, guard damage
+getpower = 7,3
 animtype = Light                 ;Animation type: Light, Medium, Heavy, Back (def: Light)
 guardflag = MA                   ;Flags on how move is to be guarded against
 hitflag = MAF                    ;Flags of conditions that move can hit
@@ -10296,7 +10304,7 @@ juggle  = 1                      ;Number of air juggle points move takes
 velset = 0,0                     ;Set velocity (x,y) (Def: no change)
 ctrl = 0                         ;Set ctrl (Def: no change)
 anim = 202                      ;Change animation (Def: no change)
-poweradd = 20                    ;Power to add (Def: 0)
+poweradd = 0                    ;Power to add (Def: 0)
 sprpriority = 2                  ;Set p1's sprite layering priority to 2 (in front)
 
 [State 0, VelSet]
@@ -10311,6 +10319,7 @@ type = HitDef
 trigger1 = AnimElem = 2
 attr = S, NA                     ;Attribute: Standing, Normal Attack
 damage = 15, 0                   ;Damage that move inflicts, guard damage
+getpower = 7,3
 animtype = Light                 ;Animation type: Light, Medium, Heavy, Back (def: Light)
 guardflag = MA                   ;Flags on how move is to be guarded against
 hitflag = MAF                    ;Flags of conditions that move can hit
@@ -10341,6 +10350,7 @@ type = HitDef
 trigger1 = AnimElem = 4
 attr = S, NA                     ;Attribute: Standing, Normal Attack
 damage = 15, 0                   ;Damage that move inflicts, guard damage
+getpower = 7,3
 animtype = Light                 ;Animation type: Light, Medium, Heavy, Back (def: Light)
 guardflag = MA                   ;Flags on how move is to be guarded against
 hitflag = MAF                    ;Flags of conditions that move can hit
@@ -10482,7 +10492,7 @@ type    = S
 movetype= A
 physics = S
 juggle  = 4
-poweradd= 65
+poweradd= 0
 ctrl = 0
 velset = 0,0
 anim = 210
@@ -10508,6 +10518,7 @@ trigger1 = AnimElem = 2
 attr = S, NA
 animtype  = Medium
 damage    = 57
+getpower = 7,3
 guardflag = MA
 pausetime = 10,12
 sparkno = s2009
@@ -10550,7 +10561,7 @@ juggle  = 1                      ;Number of air juggle points move takes
 velset = 0,0                     ;Set velocity (x,y) (Def: no change)
 ctrl = 0                         ;Set ctrl (Def: no change)
 anim = 200                       ;Change animation (Def: no change)
-poweradd = 20                    ;Power to add (Def: 0)
+poweradd = 0                    ;Power to add (Def: 0)
 sprpriority = 2                  ;Set p1's sprite layering priority to 2 (in front)
 
 [State 200, 1]
@@ -10558,6 +10569,7 @@ type = HitDef
 trigger1 = AnimElem = 2
 attr = S, NA                     ;Attribute: Standing, Normal Attack
 damage = 23, 0                   ;Damage that move inflicts, guard damage
+getpower = 7,3
 animtype = Light                 ;Animation type: Light, Medium, Heavy, Back (def: Light)
 guardflag = MA                   ;Flags on how move is to be guarded against
 hitflag = MAF                    ;Flags of conditions that move can hit
@@ -10608,7 +10620,7 @@ juggle  = 1                      ;Number of air juggle points move takes
 velset = 0,0                     ;Set velocity (x,y) (Def: no change)
 ctrl = 0                         ;Set ctrl (Def: no change)
 anim = 211                       ;Change animation (Def: no change)
-poweradd = 20                    ;Power to add (Def: 0)
+poweradd = 0                    ;Power to add (Def: 0)
 sprpriority = 2                  ;Set p1's sprite layering priority to 2 (in front)
 
 [State 200, 1]
@@ -10616,6 +10628,7 @@ type = HitDef
 trigger1 = AnimElem = 2
 attr = S, NA                     ;Attribute: Standing, Normal Attack
 damage = 23, 0                   ;Damage that move inflicts, guard damage
+getpower = 7,3
 animtype = Light                 ;Animation type: Light, Medium, Heavy, Back (def: Light)
 guardflag = MA                   ;Flags on how move is to be guarded against
 hitflag = MAF                    ;Flags of conditions that move can hit
@@ -10641,6 +10654,7 @@ type = HitDef
 trigger1 = AnimElem = 6
 attr = S, NA                     ;Attribute: Standing, Normal Attack
 damage = 30, 0                   ;Damage that move inflicts, guard damage
+getpower = 7,3
 animtype = Light                 ;Animation type: Light, Medium, Heavy, Back (def: Light)
 guardflag = MA                   ;Flags on how move is to be guarded against
 hitflag = MAF                    ;Flags of conditions that move can hit
@@ -10763,7 +10777,7 @@ type    = S
 movetype= A
 physics = S
 juggle  = 4
-poweradd= 65
+poweradd= 0
 ctrl = 0
 velset = 0,0
 anim = 220
@@ -11201,7 +11215,7 @@ type    = S
 movetype= A
 physics = S
 juggle  = 4
-poweradd= 22
+poweradd= 0
 ctrl = 0
 velset = 0,0
 anim = 230
@@ -11221,6 +11235,7 @@ trigger1 = animelem = 2
 attr = S, NA
 animtype  = Medium
 damage    = 26
+getpower = 7,3
 guardflag = MA
 pausetime = 8,12
 sparkno = s2009
@@ -11259,7 +11274,7 @@ juggle  = 1                      ;Number of air juggle points move takes
 velset = 0,0                     ;Set velocity (x,y) (Def: no change)
 ctrl = 0                         ;Set ctrl (Def: no change)
 anim = 231                       ;Change animation (Def: no change)
-poweradd = 20                    ;Power to add (Def: 0)
+poweradd = 0                    ;Power to add (Def: 0)
 sprpriority = 2
 
 [State 0, PosAdd]
@@ -11288,6 +11303,7 @@ type = HitDef
 trigger1 = AnimElem = 7
 attr = S, NA                     ;Attribute: Standing, Normal Attack
 damage = 23, 0                   ;Damage that move inflicts, guard damage
+getpower = 7,3
 animtype = Light                 ;Animation type: Light, Medium, Heavy, Back (def: Light)
 guardflag = MA                   ;Flags on how move is to be guarded against
 hitflag = MAF                    ;Flags of conditions that move can hit
@@ -11339,7 +11355,7 @@ juggle  = 1                      ;Number of air juggle points move takes
 velset = 0,0                     ;Set velocity (x,y) (Def: no change)
 ctrl = 0                         ;Set ctrl (Def: no change)
 anim = 232                      ;Change animation (Def: no change)
-poweradd = 20                    ;Power to add (Def: 0)
+poweradd = 0                    ;Power to add (Def: 0)
 sprpriority = 2                  ;Set p1's sprite layering priority to 2 (in front)
 
 [State 0, PosAdd]
@@ -11365,6 +11381,7 @@ trigger1 = AnimElem = 7
 trigger2 = AnimElem = 8
 attr = S, NA                     ;Attribute: Standing, Normal Attack
 damage = 15, 0                   ;Damage that move inflicts, guard damage
+getpower = 7,3
 animtype = Light                 ;Animation type: Light, Medium, Heavy, Back (def: Light)
 guardflag = MA                   ;Flags on how move is to be guarded against
 hitflag = MAF                    ;Flags of conditions that move can hit
@@ -11417,7 +11434,7 @@ type    = S
 movetype= A
 physics = S
 juggle  = 5
-poweradd= 65
+poweradd= 0
 ctrl = 0
 velset = 0,0
 anim = 233
@@ -11436,6 +11453,7 @@ trigger1 = animelem = 2
 trigger2 = animelem = 3
 attr = C, NA
 damage    = 72
+getpower = 7,3
 hitflag = MAFD
 guardflag = L
 pausetime = 1,1
@@ -11490,7 +11508,7 @@ type    = S
 movetype= A
 physics = S
 juggle  = 4
-poweradd= 22
+poweradd= 0
 ctrl = 0
 velset = 0,0
 anim = 240
@@ -11508,6 +11526,7 @@ trigger1 = animelem = 2
 attr = S, NA
 animtype  = Medium
 damage    = 26
+getpower = 7,3
 guardflag = MA
 pausetime = 10,12
 sparkno = s2009
@@ -11543,7 +11562,7 @@ juggle  = 1                      ;Number of air juggle points move takes
 velset = 0,0                     ;Set velocity (x,y) (Def: no change)
 ctrl = 0                         ;Set ctrl (Def: no change)
 anim = 240                      ;Change animation (Def: no change)
-poweradd = 20                    ;Power to add (Def: 0)
+poweradd = 0                    ;Power to add (Def: 0)
 sprpriority = 2
 
 [State 200, 1]
@@ -11559,6 +11578,7 @@ trigger1 = animelem = 2
 attr = S, NA
 animtype  = Medium
 damage    = 26
+getpower = 7,3
 guardflag = MA
 pausetime = 5,5
 sparkno = s2009
@@ -11607,7 +11627,7 @@ juggle  = 1                      ;Number of air juggle points move takes
 velset = 0,0                     ;Set velocity (x,y) (Def: no change)
 ctrl = 0                         ;Set ctrl (Def: no change)
 anim = 241                      ;Change animation (Def: no change)
-poweradd = 20                    ;Power to add (Def: 0)
+poweradd = 0                    ;Power to add (Def: 0)
 sprpriority = 2                  ;Set p1's sprite layering priority to 2 (in front)
 
 
@@ -11617,6 +11637,7 @@ trigger1 = animelem = 2
 attr = S, NA
 animtype  = Medium
 damage    = 26
+getpower = 7,3
 guardflag = MA
 pausetime = 5,5
 sparkno = s2009
@@ -11665,7 +11686,7 @@ juggle  = 1                      ;Number of air juggle points move takes
 velset = 0,0                     ;Set velocity (x,y) (Def: no change)
 ctrl = 0                         ;Set ctrl (Def: no change)
 anim = 242                      ;Change animation (Def: no change)
-poweradd = 20                    ;Power to add (Def: 0)
+poweradd = 0                    ;Power to add (Def: 0)
 sprpriority = 2                  ;Set p1's sprite layering priority to 2 (in front)
 [State 0, Explod]
 type = Explod
@@ -11686,6 +11707,7 @@ trigger1 = animelem = 4
 attr = S, HP
 animtype  = Medium
 damage    = 26
+getpower = 7,3
 pausetime = 5,5
 sparkno = s2009
 sparkxy = -30,-70
@@ -11754,7 +11776,7 @@ type    = S
 movetype= A
 physics = S
 juggle  = 5
-poweradd= 65
+poweradd= 0
 ctrl = 0
 velset = 0,0
 anim = 250
@@ -11787,6 +11809,7 @@ trigger1 = animelem = 2
 attr = S, NA
 animtype  = Medium
 damage    = 63
+getpower = 7,3
 guardflag = MA
 pausetime = 12,12
 sparkno = s2009
@@ -11825,7 +11848,7 @@ juggle  = 1                      ;Number of air juggle points move takes
 velset = 0,0                     ;Set velocity (x,y) (Def: no change)
 ctrl = 0                         ;Set ctrl (Def: no change)
 anim = 251                      ;Change animation (Def: no change)
-poweradd = 20                    ;Power to add (Def: 0)
+poweradd = 0                    ;Power to add (Def: 0)
 sprpriority = 2
 
 
@@ -11856,6 +11879,7 @@ trigger1 = animelem = 2
 attr = S, NA
 animtype  = Medium
 damage    = 26
+getpower = 7,3
 guardflag = MA
 pausetime = 5,5
 sparkno = s2009
@@ -11897,7 +11921,7 @@ juggle  = 1                      ;Number of air juggle points move takes
 velset = 0,0                     ;Set velocity (x,y) (Def: no change)
 ctrl = 0                         ;Set ctrl (Def: no change)
 anim = 253                    ;Change animation (Def: no change)
-poweradd = 20                    ;Power to add (Def: 0)
+poweradd = 0                    ;Power to add (Def: 0)
 sprpriority = 2
 [State 0, Explod]
 type = Explod
@@ -11944,6 +11968,7 @@ trigger1 = animelem = 2
 attr = S, NA
 animtype  = Medium
 damage    = 35
+getpower = 7,3
 guardflag = MA
 pausetime = 5,8
 sparkno = s2009
@@ -11965,6 +11990,7 @@ trigger1 = animelem = 4
 attr = S, NA
 animtype  = Medium
 damage    = 35
+getpower = 7,3
 guardflag = MA
 pausetime = 5,5
 sparkno = s2009
@@ -12052,7 +12078,7 @@ type    = C
 movetype= A
 physics = C
 juggle  = 5
-poweradd= 15
+poweradd= 0
 ctrl = 0
 anim = 400
 sprpriority = 1
@@ -12068,6 +12094,7 @@ type = HitDef
 trigger1 = Time = 0
 attr = C, NA
 damage    = 23
+getpower = 30,15
 priority  = 3
 animtype  = Light
 hitflag = MAF
@@ -12114,7 +12141,7 @@ type    = C
 movetype= A
 physics = C
 juggle  = 6
-poweradd= 50
+poweradd= 0
 ctrl = 0
 anim = 410
 sprpriority = 1
@@ -12131,6 +12158,7 @@ type = HitDef
 trigger1 = AnimElem = 2
 attr = C, NA
 damage    = 37
+getpower = 30,15
 animtype  = Medium
 hitflag = MAF
 guardflag = M
@@ -12161,7 +12189,7 @@ physics = C
 ctrl = 0
 anim = 420
 juggle = 4
-poweradd = 35
+poweradd = 0
 sprpriority = 1
 
 
@@ -12177,6 +12205,7 @@ type = HitDef
 trigger1 = AnimElem = 2
 attr = C, NA
 damage    = 37
+getpower = 30,15
 animtype  = Medium
 hitflag = MAF
 guardflag = M
@@ -12213,7 +12242,7 @@ type    = C
 movetype= A
 physics = C
 juggle  = 5
-poweradd= 22
+poweradd= 0
 ctrl = 0
 anim = 430
 sprpriority = 0
@@ -12229,6 +12258,7 @@ type = HitDef
 trigger1 = Time = 0
 attr = C, NA
 damage    = 28
+getpower = 30,15
 animtype  = Light
 hitflag = MAFD
 guardflag = L
@@ -12256,7 +12286,7 @@ type    = C
 movetype= A
 physics = C
 juggle  = 5
-poweradd= 22
+poweradd= 0
 ctrl = 0
 anim = 440
 sprpriority = 0
@@ -12272,6 +12302,7 @@ type = HitDef
 trigger1 = Time = 0
 attr = C, NA
 damage    = 28
+getpower = 30,15
 animtype  = medium
 hitflag = MAFD
 guardflag = L
@@ -12309,7 +12340,7 @@ type    = C
 movetype= A
 physics = C
 juggle  = 7
-poweradd= 70
+poweradd= 0
 ctrl = 0
 anim = 450
 sprpriority = 0
@@ -12338,6 +12369,7 @@ type = HitDef
 trigger1 = Time = 0
 attr = C, NA
 damage    = 72
+getpower = 30,15
 hitflag = MAFD
 guardflag = L
 pausetime = 12,5
@@ -12373,7 +12405,7 @@ type    = A
 movetype= A
 physics = A
 juggle  = 2
-poweradd= 11
+poweradd= 0
 ctrl = 0
 anim = 600
 sprpriority = 1
@@ -12389,6 +12421,7 @@ type = HitDef
 trigger1 = Time = 0
 attr = A, NA
 damage    = 20
+getpower = 30,15
 guardflag = HA
 priority = 3
 pausetime = 7,8
@@ -12416,7 +12449,7 @@ type    = A
 movetype= A
 physics = A
 juggle  = 4
-poweradd= 65
+poweradd= 0
 ctrl = 0
 anim = 610
 sprpriority = 1
@@ -12432,6 +12465,7 @@ type = HitDef
 trigger1 = animelem = 2
 attr = A, NA
 damage = 72
+getpower = 30,15
 guardflag = HA
 priority = 4
 pausetime = 12,12
@@ -12460,7 +12494,7 @@ type    = A
 movetype= A
 physics = A
 juggle  = 4
-poweradd= 65
+poweradd= 0
 ctrl = 0
 anim = 620
 sprpriority = 1
@@ -12489,6 +12523,7 @@ type = HitDef
 trigger1 = animelem = 2
 attr = A, NA
 damage = 72
+getpower = 30,15
 guardflag = HA
 priority = 4
 pausetime = 10,1
@@ -12520,7 +12555,7 @@ type    = A
 movetype= A
 physics = A
 juggle  = 3
-poweradd= 20
+poweradd= 0
 ctrl = 0
 anim = 630
 sprpriority = 0
@@ -12536,6 +12571,7 @@ type = HitDef
 trigger1 = Time = 0
 attr = A, NA
 damage = 26
+getpower = 30,15
 guardflag = HA
 priority = 3
 pausetime = 8,8
@@ -12564,7 +12600,7 @@ type    = A
 movetype= A
 physics = A
 juggle  = 4
-poweradd= 65
+poweradd= 0
 ctrl = 0
 anim = 640
 sprpriority = 1
@@ -12580,6 +12616,7 @@ type = HitDef
 trigger1 = animelem= 2
 attr = A, NA
 damage    = 70
+getpower = 30,15
 guardflag = HA
 priority = 4
 pausetime = 12,12
@@ -12606,7 +12643,7 @@ type    = A
 movetype= A
 physics = A
 juggle  = 4
-poweradd= 65
+poweradd= 0
 ctrl = 0
 anim = 650
 sprpriority = 1
@@ -12622,6 +12659,7 @@ type = HitDef
 trigger1 = animelem = 2
 attr = A, NA
 damage = 72
+getpower = 30,15
 guardflag = HA
 priority = 4
 pausetime = 12,8
@@ -12688,6 +12726,7 @@ anim = 800
 sprpriority = 2
 [State 0]
 type = HitDef
+getpower = 60,30
 Trigger1 = Time = 0
 attr = S, NT
 hitflag = M-

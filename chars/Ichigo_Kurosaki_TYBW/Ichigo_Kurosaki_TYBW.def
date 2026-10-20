@@ -12,6 +12,7 @@ author = "victor" ; resprite by Jorge Diaz
 pal.defaults = 1
 
 [Files]
+movelist = movelist.dat
 sprite = Ichigo_Kurosaki_TYBW.sff
 anim = Ichigo_Kurosaki_TYBW.air
 sound = Ichigo_Kurosaki_TYBW.snd

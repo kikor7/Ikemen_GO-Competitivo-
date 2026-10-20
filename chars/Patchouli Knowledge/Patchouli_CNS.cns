@@ -942,7 +942,7 @@ Guard.Kill        = 0				;この攻撃をガードで殺せるか
 Fall              = 0				;地面に叩き付けられるか
 Air.Fall          = 1				;地面に叩き付けられるか
 Fall.RecoverTime  = Floor(35*FVar(0))		;リカバーできるか
-GetPower          = 80,60			;ヒット時のパワー増減
+getpower = 30,15;ヒット時のパワー増減
 GivePower         = 0,0
 ID                = 1
 Air.CornerPush.VelOff      = 0
@@ -1176,7 +1176,7 @@ Guard.Kill        = 0				;この攻撃をガードで殺せるか
 Fall              = 0				;地面に叩き付けられるか
 Air.Fall          = 1				;地面に叩き付けられるか
 Fall.RecoverTime  = Floor(35*FVar(0))		;リカバーできるか
-GetPower          = 120,80			;ヒット時のパワー増減
+getpower = 30,15;ヒット時のパワー増減
 GivePower         = 0,0
 ID                = 1
 Ground.CornerPush.VelOff   = -10
@@ -1385,6 +1385,7 @@ Ctrl     = 1
 ;＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
 [Statedef 210]
 Type     = S
+poweradd = 0
 MoveType = A
 Physics  = S
 Anim     = 210
@@ -1590,7 +1591,7 @@ Guard.Kill        = 0				;この攻撃をガードで殺せるか
 Fall              = 0				;地面に叩き付けられるか
 Air.Fall          = 1				;地面に叩き付けられるか
 Fall.RecoverTime  = Floor((40*IfElse(Var(16)=1,2,1))*FVar(0));リカバーできるか
-GetPower          = 160,120			;ヒット時のパワー増減
+getpower = 60,30;ヒット時のパワー増減
 GivePower         = 0,0
 ID                = 1
 Persistent        = 0
@@ -1777,7 +1778,7 @@ Guard.Kill        = 0				;この攻撃をガードで殺せるか
 Fall              = 0				;地面に叩き付けられるか
 Air.Fall          = 1				;地面に叩き付けられるか
 Fall.RecoverTime  = Floor((40*IfElse(Var(16)=1,2,1))*FVar(0));リカバーできるか
-GetPower          = 160,120			;ヒット時のパワー増減
+getpower = 60,30;ヒット時のパワー増減
 GivePower         = 0,0
 ID                = 1
 
@@ -1809,7 +1810,7 @@ Guard.Kill        = 0				;この攻撃をガードで殺せるか
 Fall              = 0				;地面に叩き付けられるか
 Air.Fall          = 1				;地面に叩き付けられるか
 Fall.RecoverTime  = Floor((40*IfElse(Var(16)=1,2,1))*FVar(0));リカバーできるか
-GetPower          = 160,120			;ヒット時のパワー増減
+getpower = 60,30;ヒット時のパワー増減
 GivePower         = 0,0
 ID                = 1
 
@@ -1999,7 +2000,7 @@ Guard.Kill        = 0				;この攻撃をガードで殺せるか
 Fall              = 0				;地面に叩き付けられるか
 Air.Fall          = 1				;地面に叩き付けられるか
 Fall.RecoverTime  = Floor(35*FVar(0))		;リカバーできるか
-GetPower          = 80,80			;ヒット時のパワー増減
+getpower = 30,15;ヒット時のパワー増減
 GivePower         = 0,0
 ID                = 1
 
@@ -2170,7 +2171,7 @@ Guard.Kill        = 0				;この攻撃をガードで殺せるか
 Fall              = 0				;地面に叩き付けられるか
 Air.Fall          = 1				;地面に叩き付けられるか
 Fall.RecoverTime  = Floor(35*FVar(0))		;リカバーできるか
-GetPower          = 120,80			;ヒット時のパワー増減
+getpower = 30,15;ヒット時のパワー増減
 GivePower         = 0,0
 ID                = 1
 
@@ -2396,7 +2397,7 @@ Guard.Kill        = 0				;この攻撃をガードで殺せるか
 Fall              = 0				;地面に叩き付けられるか
 Air.Fall          = 1				;地面に叩き付けられるか
 Fall.RecoverTime  = Floor((40*IfElse(Var(16)=1,2,1))*FVar(0));リカバーできるか
-GetPower          = 160,120			;ヒット時のパワー増減
+getpower = 30,15;ヒット時のパワー増減
 GivePower         = 0,0
 ID                = 1
 
@@ -2428,7 +2429,7 @@ Guard.Kill        = 0				;この攻撃をガードで殺せるか
 Fall              = 0				;地面に叩き付けられるか
 Air.Fall          = 1				;地面に叩き付けられるか
 Fall.RecoverTime  = Floor((40*IfElse(Var(16)=1,2,1))*FVar(0));リカバーできるか
-GetPower          = 160,120			;ヒット時のパワー増減
+getpower = 30,15;ヒット時のパワー増減
 GivePower         = 0,0
 ID                = 1
 
@@ -2683,7 +2684,7 @@ Guard.Kill        = 0				;この攻撃をガードで殺せるか
 Fall              = 1				;地面に叩き付けられるか
 Air.Fall          = 1				;地面に叩き付けられるか
 Fall.RecoverTime  = Floor((45*IfElse(Var(16)=1,2,1))*FVar(0));リカバーできるか
-GetPower          = 80,80			;ヒット時のパワー増減
+getpower = 30,15;ヒット時のパワー増減
 GivePower         = 0,0
 ID                = 1
 
@@ -2713,7 +2714,7 @@ Guard.Kill        = 0				;この攻撃をガードで殺せるか
 Fall              = 1				;地面に叩き付けられるか
 Air.Fall          = 1				;地面に叩き付けられるか
 Fall.RecoverTime  = Floor((45*IfElse(Var(16)=1,2,1))*FVar(0));リカバーできるか
-GetPower          = 80,80			;ヒット時のパワー増減
+getpower = 30,15;ヒット時のパワー増減
 GivePower         = 0,0
 ID                = 1
 
@@ -2870,6 +2871,7 @@ Ctrl     = 1
 ;＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
 [Statedef 300]
 Type     = S
+poweradd = 20
 MoveType = A
 Physics  = S
 VelSet   = 0,0
@@ -3043,6 +3045,7 @@ Ctrl     = 1
 ;－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－
 [Statedef 305]
 Type     = C
+poweradd = 20
 MoveType = A
 Physics  = C
 VelSet   = 0,0
@@ -3362,7 +3365,7 @@ Guard.Kill        = 0				;この攻撃をガードで殺せるか
 Fall              = 0				;地面に叩き付けられるか
 Air.Fall          = 1				;地面に叩き付けられるか
 Fall.RecoverTime  = Floor(25*FVar(0))		;リカバーできるか
-GetPower          = 40,20			;ヒット時のパワー増減
+getpower = 30,15;ヒット時のパワー増減
 GivePower         = 0,0
 ID                = 1
 Air.CornerPush.VelOff      = 0
@@ -3545,7 +3548,7 @@ Guard.Kill        = 0				;この攻撃をガードで殺せるか
 Fall              = 1				;地面に叩き付けられるか
 Air.Fall          = 1				;地面に叩き付けられるか
 Fall.RecoverTime  = Floor((40*IfElse(Var(16)=1,2,1))*FVar(0));リカバーできるか
-GetPower          = 160,120			;ヒット時のパワー増減
+getpower = 30,15;ヒット時のパワー増減
 GivePower         = 0,0
 ID                = 1
 
@@ -3576,7 +3579,7 @@ Guard.Kill        = 0				;この攻撃をガードで殺せるか
 Fall              = 1				;地面に叩き付けられるか
 Air.Fall          = 1				;地面に叩き付けられるか
 Fall.RecoverTime  = Floor((40*IfElse(Var(16)=1,2,1))*FVar(0));リカバーできるか
-GetPower          = 160,120			;ヒット時のパワー増減
+getpower = 30,15;ヒット時のパワー増減
 GivePower         = 0,0
 ID                = 1
 
@@ -3786,6 +3789,7 @@ Ctrl     = 1
 ;＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
 [Statedef 500]
 Type     = S
+poweradd = 20
 MoveType = A
 Physics  = S
 VelSet   = 0,0
@@ -3910,6 +3914,7 @@ Ctrl     = 1
 ;－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－
 [Statedef 505]
 Type     = S
+poweradd = 20
 MoveType = A
 Physics  = S
 VelSet   = 0,0
@@ -3972,6 +3977,7 @@ Ctrl     = 1
 ;－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－
 [Statedef 510]
 Type     = C
+poweradd = 20
 MoveType = A
 Physics  = C
 VelSet   = 0,0
@@ -4278,6 +4284,7 @@ Ctrl     = 1
 ;＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
 [Statedef 600]
 Type     = A
+poweradd = 20
 MoveType = I
 Physics  = A
 Ctrl     = 0
@@ -4382,7 +4389,7 @@ Guard.Kill        = 0				;この攻撃をガードで殺せるか
 Fall              = 0				;地面に叩き付けられるか
 Air.Fall          = 1				;地面に叩き付けられるか
 Fall.RecoverTime  = Floor((40*IfElse(Var(16)=1,2,1))*FVar(0));リカバーできるか
-GetPower          = 160,120			;ヒット時のパワー増減
+getpower = 15,7;ヒット時のパワー増減
 GivePower         = 0,0
 ID                = 1
 
@@ -4413,7 +4420,7 @@ Guard.Kill        = 0				;この攻撃をガードで殺せるか
 Fall              = 0				;地面に叩き付けられるか
 Air.Fall          = 1				;地面に叩き付けられるか
 Fall.RecoverTime  = Floor((40*IfElse(Var(16)=1,2,1))*FVar(0));リカバーできるか
-GetPower          = 160,120			;ヒット時のパワー増減
+getpower = 15,7;ヒット時のパワー増減
 GivePower         = 0,0
 ID                = 1
 
@@ -4666,7 +4673,7 @@ Guard.Kill        = 0				;この攻撃をガードで殺せるか
 Fall              = 0				;地面に叩き付けられるか
 Air.Fall          = 1				;地面に叩き付けられるか
 Fall.RecoverTime  = Floor((40*IfElse(Var(16)=1,2,1))*FVar(0));リカバーできるか
-GetPower          = 160,120			;ヒット時のパワー増減
+getpower = 15,7;ヒット時のパワー増減
 GivePower         = 0,0
 ID                = 1
 
@@ -4697,7 +4704,7 @@ Guard.Kill        = 0				;この攻撃をガードで殺せるか
 Fall              = 0				;地面に叩き付けられるか
 Air.Fall          = 1				;地面に叩き付けられるか
 Fall.RecoverTime  = Floor((40*IfElse(Var(16)=1,2,1))*FVar(0));リカバーできるか
-GetPower          = 160,120			;ヒット時のパワー増減
+getpower = 15,7;ヒット時のパワー増減
 GivePower         = 0,0
 ID                = 1
 
@@ -4933,6 +4940,7 @@ Ctrl     = 1
 ;＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
 [Statedef 700]
 Type     = S
+poweradd = 20
 MoveType = A
 Physics  = S
 VelSet   = 0,0

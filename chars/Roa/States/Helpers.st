@@ -992,6 +992,7 @@ value=const(size.proj.attack.dist)
 
 [State 1005, Miss]
 type = HitDef
+getpower = 15,7
 trigger1 = 1
 attr = S,SP
 hitFlag =
@@ -1006,7 +1007,7 @@ hitFlag = MAF
 guardFlag = M
 priority = 4, Hit
 damage = ceil(ifElse(fvar(11) * ifElse(var(10) = 2, 58, ifElse(var(10), 58, 58)) < 7, 7, fvar(11) * ifElse(var(10) = 2, 58, ifElse(var(10), 58, 58)))), ifElse(var(10) >= 2, 15, 15)
-getPower = ifElse(!(Root, var(13)), 144, 72) * !(Root, var(20)), 36 * !(Root, var(20))
+getpower = 15,7
 givePower = 36, 36
 pauseTime = 0, ifElse((Root, var(20)), 6, 12)
 guard.pauseTime = 0, ifElse((Root, var(20)), 6, 12)
@@ -1840,6 +1841,7 @@ value=const(size.proj.attack.dist)
 
 [State 1005, Miss]
 type = HitDef
+getpower = 15,7
 trigger1 = 1
 attr = S,SP
 hitFlag =
@@ -1854,7 +1856,7 @@ hitFlag = MAF
 guardFlag = MA
 priority = 4, Hit
 damage = ceil(ifElse(fvar(11) * 58 < 7, 7, fvar(11) * 58)), 15
-getPower = ifElse(!(Root, var(13)), 144, 72) * !(Root, var(20)), 36 * !(Root, var(20))
+getpower = 15,7
 givePower = 36, 36
 pauseTime = 0, ifElse((Root, var(20)), 6, 12)
 guard.pauseTime = 0, ifElse((Root, var(20)), 6, 12)
@@ -2848,6 +2850,7 @@ value=const(size.proj.attack.dist)
 
 [State 1005, Miss]
 type = HitDef
+getpower = 15,7
 trigger1 = 1
 attr = S,SP
 hitFlag =
@@ -2862,7 +2865,7 @@ hitFlag = MAF
 guardFlag = MA
 priority = 4, Hit
 damage = ceil(ifElse(fvar(11) * 58 < 7, 7, fvar(11) * 58)), 15
-getPower = ifElse(!(Root, var(13)), 144, 72) * !(Root, var(20)), 36 * !(Root, var(20))
+getpower = 15,7
 givePower = 36, 36
 pauseTime = 0, ifElse((Root, var(20)), 6, 12)
 guard.pauseTime = 0, ifElse((Root, var(20)), 6, 12)
@@ -3566,6 +3569,7 @@ value=const(size.proj.attack.dist)
 
 [State 1005, Miss]
 type = HitDef
+getpower = 15,7
 trigger1 = 1
 attr = S,SP
 hitFlag =
@@ -3580,7 +3584,7 @@ hitFlag = MAF
 guardFlag = MA
 priority = 4, Hit
 damage = ceil(cond((20+(20*var(43)))*fvar(11)<7,7,(20+(20*var(43)))*fvar(11))),15
-getPower = ifElse(!(Root, var(13)), 144, 72) * !(Root, var(20)), 36 * !(Root, var(20))
+getpower = 15,7
 givePower = 36, 36
 pauseTime = 0, ifElse((Root, var(20)), 6, 12)
 guard.pauseTime = 0, ifElse((Root, var(20)), 6, 12)
@@ -4162,6 +4166,7 @@ size.yscale=0.5
 
 [State 1005, Miss]
 type = HitDef
+getpower = 15,7
 trigger1 = 1
 attr = S,SP
 hitFlag =
@@ -4176,7 +4181,7 @@ hitFlag = MAF
 guardFlag = L
 priority = 4, Hit
 damage = ceil(ifElse(fvar(11) * 58 < 7, 7, fvar(11) * 58)), 15
-getPower = ifElse(!(Root, var(13)), 144, 72) * !(Root, var(20)), 36 * !(Root, var(20))
+getpower = 15,7
 givePower = 36, 36
 pauseTime = 0, ifElse((Root, var(20)), 6, 12)
 guard.pauseTime = 0, ifElse((Root, var(20)), 6, 12)
@@ -4676,6 +4681,7 @@ value=const(size.proj.attack.dist)
 
 [State 1005, Miss]
 type = HitDef
+getpower = 15,7
 trigger1 = 1
 attr = S,SP
 hitFlag =
@@ -4690,7 +4696,7 @@ hitFlag = MAF
 guardFlag = MA
 priority = 4, Hit
 damage = ceil(ifElse(fvar(11) * 58 < 7, 7, fvar(11) * 58)), 15
-getPower = ifElse(!(Root, var(13)), 144, 72) * !(Root, var(20)), 36 * !(Root, var(20))
+getpower = 15,7
 givePower = 36, 36
 pauseTime = 0, ifElse((Root, var(20)), 6, 12)
 guard.pauseTime = 0, ifElse((Root, var(20)), 6, 12)

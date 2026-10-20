@@ -415,7 +415,7 @@ trigger1 = animelem = 5
 trigger2 = animelem = 6
 attr = S, NA
 animtype  = Medium
-getpower = 40,20
+getpower = 30,15
 damage    = 30
 guardflag = MA
 pausetime = 8,10
@@ -508,7 +508,7 @@ triggerall = !movecontact
 trigger1 = animelem = 4
 attr = C, NA
 animtype  = Medium
-getpower = 40,20
+getpower = 30,15
 damage    = 10
 guardflag = L
 pausetime = 8,10
@@ -789,7 +789,7 @@ trigger1 = animelem = 5
 trigger2 = animelem = 6
 attr = S, NA
 animtype  = Medium
-getpower = 60,30
+getpower = 30,15
 damage = 40
 guardflag = HA
 priority = 3
@@ -911,7 +911,7 @@ trigger1 = animelem = 4
 trigger2 = animelem = 5
 attr = C, NA
 animtype  = Medium
-getpower = 40,20
+getpower = 30,15
 damage    = 30
 guardflag = L
 pausetime = 10,12
@@ -1206,7 +1206,7 @@ trigger3 = animelem = 6
 trigger4 = animelem = 8
 attr = S, NA
 animtype  = Medium
-getpower = 20,10
+getpower = 30,15
 damage = 30,5
 guardflag = MA
 priority = 3
@@ -1359,7 +1359,7 @@ triggerall = !movecontact
 trigger1 = AnimElem = 5
 trigger2 = AnimElem = 6
 attr = A, NA
-getpower = 40,20
+getpower = 30,15
 damage = 40
 guardflag = HA
 priority = 3
@@ -1469,7 +1469,7 @@ triggerall = !movecontact
 trigger1 = AnimElem = 5
 trigger2 = AnimElem = 6
 attr = A, NA
-getpower = 60,30
+getpower = 30,15
 damage = 40
 guardflag = HA
 priority = 3
@@ -1703,7 +1703,7 @@ trigger3 = animelem = 9
 trigger4 = animelem = 11
 attr = A, NA
 animtype  = Medium
-getpower = 20,10
+getpower = 30,15
 damage = 30,5
 guardflag = MA
 priority = 3
@@ -2585,7 +2585,7 @@ triggerall = p2movetype != H
 Trigger1 = Time = 0
 attr = S, NT
 hitflag = M-
-getpower = 0,0
+getpower = 60,30
 pausetime = 0,0
 sparkno = -1
 guard.dist = 0

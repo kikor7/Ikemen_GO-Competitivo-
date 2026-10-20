@@ -32,6 +32,7 @@ type = HitDef
 trigger1 = AnimElem = 2
 attr = S, NA
 damage = ceil(18*(0.1+(0.9-fvar(5)*0.1))), 0
+getpower = 30,15
 animtype = Light
 guardflag = MA
 hitflag = MAF
@@ -84,7 +85,7 @@ type    = S
 movetype= A
 physics = S
 juggle  = 2
-poweradd= 55+(var(50)*20)
+poweradd= 0+(var(50)*20)
 ctrl = 0
 velset = 0,0
 anim = 210
@@ -139,6 +140,7 @@ trigger1 = AnimElem = 4
 attr = S, NA
 animtype  = Medium
 damage    = ceil(42*(0.1+(0.9-fvar(5)*0.1))),0
+getpower = 30,15
 guardflag = MA
 pausetime = 12,12
 sparkno = -1
@@ -187,7 +189,7 @@ type    = S
 movetype= A
 physics = S
 juggle  = 3
-poweradd= 65+(var(50)*35)
+poweradd= 0+(var(50)*35)
 ctrl = 0
 velset = 0,0
 anim = 240
@@ -232,6 +234,7 @@ trigger1 = Time = 0
 attr = S, NA
 animtype  = Medium
 damage    = ceil(55*(0.1+(0.9-fvar(5)*0.1)))
+getpower = 30,15
 guardflag = MA
 pausetime = 12,12
 sparkno = -1
@@ -283,7 +286,7 @@ juggle  = 2
 ctrl = 0
 velset = 0,0
 anim = 260
-poweradd = 90+(var(50)*45)
+poweradd = 0+(var(50)*45)
 sprpriority = 2
 
 [State 260, 状態変更]
@@ -326,6 +329,7 @@ type = HitDef
 trigger1 = time = 15
 attr = A, NA
 damage = ceil(65*(0.1+(0.9-fvar(5)*0.1)))
+getpower = 30,15
 animtype = hard
 guardflag = HA
 hitflag = MAF
@@ -434,6 +438,7 @@ type = HitDef
 trigger1 = Animelem = 3
 attr = C, NA ;しゃがみ通常打撃（Crouching, Normal Attack）
 damage    = ceil(20*(0.1+(0.9-fvar(5)*0.1)))
+getpower = 30,15
 priority  = 3
 animtype  = Light
 hitflag = MAF
@@ -488,7 +493,7 @@ type    = C
 movetype= A
 physics = C
 juggle  = 3
-poweradd= 50+(var(50)*25)
+poweradd= 0+(var(50)*25)
 ctrl = 0
 anim = 410
 sprpriority = 2
@@ -528,6 +533,7 @@ type = HitDef
 trigger1 = AnimElem = 4
 attr = C, NA
 damage    = ceil(42*(0.1+(0.9-fvar(5)*0.1))), 0
+getpower = 30,15
 animtype  = Medium
 hitflag = MAF
 guardflag = MA
@@ -578,7 +584,7 @@ type    = C
 movetype= A
 physics = C
 juggle  = 7
-poweradd= 75+(var(50)*40)
+poweradd= 0+(var(50)*40)
 ctrl = 0
 anim = 440
 sprpriority = 2
@@ -614,6 +620,7 @@ type = HitDef
 trigger1 = Animelem = 6
 attr = C, NA
 damage    = ceil(70*(0.1+(0.9-fvar(5)*0.1)))
+getpower = 30,15
 hitflag = MAFD
 guardflag = L
 pausetime = 12,12
@@ -668,7 +675,7 @@ juggle  = 1
 ctrl = 0
 velset = 0,0
 anim = 450
-poweradd = 35+(var(50)*20)
+poweradd = 0+(var(50)*20)
 sprpriority = 2
 
 [State 450, 声]
@@ -703,6 +710,7 @@ type = HitDef
 trigger1 = 0 ;AnimElem = 4
 attr = C, NA
 damage    = 60
+getpower = 15,7
 hitflag = MAFD
 guardflag = L
 pausetime = 12,12
@@ -727,6 +735,7 @@ type = HitDef
 trigger1 = AnimElem = 4
 attr = C, NA
 damage = ceil(42*(0.1+(0.9-fvar(5)*0.1)))
+getpower = 15,7
 animtype = Medium
 guardflag = L
 hitflag = MAD
@@ -787,7 +796,7 @@ type    = A
 movetype= A
 physics = N
 juggle  = 2
-poweradd= 45+(var(50)*25)
+poweradd= 0+(var(50)*25)
 ctrl = 0
 velset = 0,0
 anim = 460
@@ -836,6 +845,7 @@ trigger1 = Animelem = 5
 attr = S, NA
 animtype  = Medium
 damage    = ceil(60*(0.1+(0.9-fvar(5)*0.1))), 0
+getpower = 30,15
 guardflag = MA
 pausetime = 8,8
 sparkno = -1
@@ -944,7 +954,7 @@ type    = A
 movetype= A
 physics = A
 juggle  = 2
-poweradd= 11+(var(50)*5)
+poweradd= 0+(var(50)*5)
 ctrl = 0
 anim = 600
 sprpriority = 2
@@ -967,6 +977,7 @@ type = HitDef
 trigger1 = Animelem = 3
 attr = A, NA
 damage    = ceil(20*(0.1+(0.9-fvar(5)*0.1)))
+getpower = 30,15
 guardflag = HA ;相手はしゃがみガードが出来ない
 priority = 3
 pausetime = 7,8
@@ -1016,7 +1027,7 @@ type    = A
 movetype= A
 physics = A
 juggle  = 3
-poweradd= 45+(var(50)*20)
+poweradd= 0+(var(50)*20)
 ctrl = 0
 anim = 610
 sprpriority = 2
@@ -1039,6 +1050,7 @@ type = HitDef
 trigger1 = Animelem = 5
 attr = A, NA
 damage = ceil(50*(0.1+(0.9-fvar(5)*0.1)))
+getpower = 30,15
 guardflag = HA
 priority = 4
 pausetime = 12,12
@@ -1083,7 +1095,7 @@ type    = A
 movetype= A
 physics = A
 juggle  = 3
-poweradd= 60+(var(50)*30)
+poweradd= 0+(var(50)*30)
 ctrl = 0
 anim = 640
 sprpriority = 2
@@ -1119,6 +1131,7 @@ type = HitDef
 trigger1 = Animelem = 5
 attr = A, NA
 damage    = ceil(65*(0.1+(0.9-fvar(5)*0.1)))
+getpower = 30,15
 guardflag = HA
 priority = 4
 pausetime = 12,12
@@ -1172,7 +1185,7 @@ type    = A
 movetype= A
 physics = N
 juggle  = 3
-poweradd= 65+(var(50)*35)
+poweradd= 0+(var(50)*35)
 ctrl = 0
 anim = 620
 sprpriority = 2
@@ -1207,6 +1220,7 @@ type = HitDef
 trigger1 = Animelem = 4
 attr = A, NA
 damage = ceil(45*(0.1+(0.9-fvar(5)*0.1)))
+getpower = 30,15
 hitflag = MAF
 guardflag = HA
 priority = 4
@@ -1293,7 +1307,7 @@ type    = A
 movetype= A
 physics = A
 juggle  = 3
-poweradd= 55+(var(50)*30)
+poweradd= 0+(var(50)*30)
 ctrl = 0
 anim = 650
 sprpriority = 2
@@ -1329,6 +1343,7 @@ type = HitDef
 trigger1 = Animelem = 5
 attr = A, NA
 damage    = ceil(55*(0.1+(0.9-fvar(5)*0.1)))
+getpower = 30,15
 hitflag = MAF
 guardflag = HA
 priority = 4
@@ -1384,6 +1399,7 @@ sprpriority = 2
 
 [State 800, ヒット定義（投げ用）]
 type = HitDef
+getpower = 60,30
 trigger1 = Animelem = 3
 attr = S, NT ;立ち通常投げ（Standing, Normal Throw）
 hitflag = M-  ;マイナスが付加されてるので相手が食らい中の時は掴めない
@@ -1411,7 +1427,7 @@ type    = A
 movetype= A
 physics = N
 anim = 805
-poweradd = 100+(var(50)*50)
+poweradd = 0+(var(50)*50)
 sprpriority = 0
 
 [State 805, 音を鳴らす];掴み用
@@ -1653,7 +1669,7 @@ trigger1 = p2stateno != 154 && 155
 ;trigger1 = Enemy,Hitover
 attr = A, NT
 hitflag = AF
-getpower = 0
+getpower = 60,30
 priority = 1, Miss
 sparkno = -1
 p2facing = 1
@@ -1675,7 +1691,7 @@ type    = A
 movetype= A
 physics = N
 anim = 855
-poweradd = 120+(var(50)*50)
+poweradd = 0+(var(50)*50)
 ctrl = 0
 sprpriority = 2
 

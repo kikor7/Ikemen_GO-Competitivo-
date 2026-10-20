@@ -1552,7 +1552,7 @@ juggle  = 1
 velset = 0,0
 ctrl = 0
 anim = 2200
-poweradd = 100
+poweradd = 0
 sprpriority = 2
 
 [State 0, VelSet]
@@ -1603,6 +1603,7 @@ triggerall = !movecontact
 trigger1 = 1
 attr = S, NA
 damage = 5
+getpower = 4,2
 animtype = Light
 guardflag = MA
 hitflag = MAF
@@ -1669,7 +1670,7 @@ juggle  = 1
 velset = 0,0
 ctrl = 0
 anim = 2210
-poweradd = 100
+poweradd = 0
 sprpriority = 2
 
 [State 0, Explod]
@@ -1716,6 +1717,7 @@ triggerall = !movecontact
 trigger1 = 1
 attr = S, NA
 damage = 10
+getpower = 4,2
 animtype = Light
 guardflag = MA
 hitflag = MAF
@@ -1782,7 +1784,7 @@ juggle  = 1
 velset = 0,0
 ctrl = 0
 anim = 2220
-poweradd = 100
+poweradd = 0
 sprpriority = 2
 
 [State 0, Explod]
@@ -1829,6 +1831,7 @@ triggerall = !movecontact
 trigger1 = 1
 attr = S, NA
 damage = 10
+getpower = 4,2
 animtype = Light
 guardflag = MA
 hitflag = MAF
@@ -1895,7 +1898,7 @@ juggle  = 1
 velset = 0,0
 ctrl = 0
 anim = 2230
-poweradd = 100
+poweradd = 0
 sprpriority = 2
 
 [State 0, VelSet]
@@ -1962,6 +1965,7 @@ triggerall = animelem = 2
 trigger1 = 1
 attr = S, NA
 damage = 10
+getpower = 4,2
 animtype = Medium
 guardflag = MA
 hitflag = MAF
@@ -2001,7 +2005,7 @@ juggle  = 1
 velset = 0,0
 ctrl = 0
 anim = 2240
-poweradd = 100
+poweradd = 0
 sprpriority = 2
 
 [State 0, VelSet]
@@ -2047,6 +2051,7 @@ triggerall = animelem = 2
 trigger1 = 1
 attr = S, NA
 damage = 10
+getpower = 4,2
 animtype = Medium
 guardflag = MA
 hitflag = MAF
@@ -2110,7 +2115,7 @@ juggle  = 1
 velset = 0,0
 ctrl = 0
 anim = 2250
-poweradd = 100
+poweradd = 0
 sprpriority = 2
 
 [State 0, Explod]
@@ -2174,6 +2179,7 @@ triggerall = !movecontact
 trigger1 = 1
 attr = S, NA
 damage = 10
+getpower = 4,2
 animtype = medium
 guardflag = MA
 hitflag = MAF
@@ -2241,7 +2247,7 @@ physics = S
 juggle  = 2
 ctrl = 0
 anim = 2300
-poweradd = 100
+poweradd = 0
 velset = 0,0
 sprpriority = 2
 
@@ -2388,6 +2394,7 @@ trigger1 = 1
 attr = S, NA
 animtype  = Light
 damage    = 10
+getpower = 6,3
 guardflag = MA
 pausetime = 10,10
 sparkno = -1
@@ -2449,7 +2456,7 @@ physics = S
 juggle  = 2
 ctrl = 0
 anim = 2310
-poweradd = 100
+poweradd = 0
 velset = 0,0
 sprpriority = 2
 
@@ -2504,6 +2511,7 @@ trigger1 = 1
 attr = S, NA
 animtype  = Light
 damage    = 10
+getpower = 6,3
 guardflag = MA
 pausetime = 10,10
 sparkno = -1
@@ -2564,7 +2572,7 @@ physics = S
 juggle  = 2
 ctrl = 0
 anim = 2320
-poweradd = 100
+poweradd = 0
 velset = 0,0
 sprpriority = 2
 
@@ -2639,6 +2647,7 @@ trigger1 = 1
 attr = S, NA
 animtype  = Light
 damage    = 10
+getpower = 6,3
 guardflag = MA
 pausetime = 10,10
 sparkno = -1
@@ -2700,7 +2709,7 @@ juggle  = 1
 velset = 0,0
 ctrl = 0
 anim = 2330
-poweradd = 100
+poweradd = 0
 sprpriority = 2
 
 [State 0, Explod]
@@ -2744,6 +2753,7 @@ type = HitDef
 trigger1 = animelem = 1||animelem = 2||animelem = 3||animelem = 4
 attr = S, NA
 damage = 4
+getpower = 6,3
 animtype = Light
 guardflag = MA
 hitflag = MAF
@@ -2804,7 +2814,7 @@ juggle  = 1
 velset = 0,0
 ctrl = 0
 anim = 2340
-poweradd = 100
+poweradd = 0
 sprpriority = 2
 
 [State 0, RemoveExplod]
@@ -2884,6 +2894,7 @@ triggerall = !movecontact
 trigger1 = 1
 attr = S, NA
 damage = 10
+getpower = 6,3
 animtype = medium
 guardflag = MA
 hitflag = MAF
@@ -2952,7 +2963,7 @@ juggle  = 1
 velset = 0,0
 ctrl = 0
 anim = 2350
-poweradd = 100
+poweradd = 0
 sprpriority = 2
 
 [State 0, PosSet]
@@ -2973,6 +2984,7 @@ trigger1 = timemod = 5,0
 attr = A, HP
 animtype  = Heavy
 damage = 2,2
+getpower = 4,2
 Hitflag = MAFDE
 guardflag = MA
 pausetime = 0,10
@@ -3367,7 +3379,7 @@ physics = A
 juggle  = 2
 ctrl = 0
 anim = 2600
-poweradd = 100
+poweradd = 0
 sprpriority = 2
 
 [State 0, Teleport]
@@ -3429,6 +3441,7 @@ trigger1 = 1
 attr = A, NA
 animtype  = Heavy
 damage = 20
+getpower = 30,15
 guardflag = MA
 pausetime = 12,12
 sparkno = -1
@@ -3485,7 +3498,7 @@ type    = A
 movetype= A
 physics = A
 juggle  = 2
-poweradd= 11
+poweradd= 0
 ctrl = 0
 anim = 2610
 
@@ -3552,6 +3565,7 @@ trigger1 = 1
 attr = A, NA
 animtype = Medium
 damage = 10
+getpower = 30,15
 guardflag = MA
 pausetime = 10,10
 sparkno = -1
@@ -9090,7 +9104,7 @@ physics = S
 juggle  = 2
 ctrl = 0
 anim = 2300
-poweradd = 100
+poweradd = 0
 velset = 0,0
 sprpriority = 2
 
@@ -9522,7 +9536,7 @@ juggle  = 1
 velset = 0,0
 ctrl = 0
 anim = 2330
-poweradd = 100
+poweradd = 0
 sprpriority = 2
 
 [State 0, VelSet]
@@ -10280,7 +10294,7 @@ y = 0
 type = PowerAdd
 triggerall = time >= 7
 trigger1 = 1
-value = 4
+value = 0
 
 [State 0, EnvShake]
 type = EnvShake
@@ -10372,7 +10386,7 @@ type    = s
 movetype= A
 physics = s
 juggle  = 4
-poweradd= 2
+poweradd= 0
 ctrl = 0
 anim = 2501
 

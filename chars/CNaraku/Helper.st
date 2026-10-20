@@ -920,7 +920,7 @@ ground.velocity = -4,-3.5
 air.velocity = -4,-3
 fall = 1
 fall.recover = 0
-getpower = 50,0
+getpower = 10,5
 
 [State 1010, Zeeky]
 type = destroyself
@@ -1057,7 +1057,7 @@ ground.velocity = -4,-3.5
 air.velocity = -4,-3
 fall = 1
 fall.recover = 0
-getpower = 50,0
+getpower = 10,5
 
 [State 1010, Zeeky]
 type = destroyself
@@ -1125,7 +1125,7 @@ ground.velocity = -4,-3.5
 air.velocity = -4,-3
 fall = 1
 fall.recover = 0
-getpower = 50,0
+getpower = 10,5
 
 [State 1010, Zeeky]
 type = destroyself
@@ -1701,7 +1701,7 @@ ground.velocity = -4,-3.5
 air.velocity = -4,-3
 fall = 1
 fall.recover = 0
-getpower = 40,0
+getpower = 30,15
 ID = 1101
 
 [State 1101, PS]
@@ -1916,7 +1916,7 @@ ground.velocity = -4,-3.5
 air.velocity = -4,-3
 fall = 1
 fall.recover = 0
-getpower = 20,0
+getpower = 30,15
 ID = 1201
 
 [State 1101, DestroySelf]

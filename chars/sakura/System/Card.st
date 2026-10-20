@@ -873,7 +873,7 @@ Trigger1=var(var(59))>0
 anim=7700+var(var(59))
 ID = 7700+var(59)
 Postype=left
-pos= (TeamSide=1)*(var(59)*(30-var(59)*1)-30)+(TeamSide=2)*(320-var(59)*(29-var(59)*1)),floor(root,fvar(18)+var(59)*2)
+pos= (TeamSide=1)*(var(59)*(30-var(59)*1)-30)+(TeamSide=2)*(GameWidth-var(59)*(29-var(59)*1)),floor(root,fvar(18)-240+GameHeight+var(59)*2) ;abajo tambien en pantalla panoramica
 bindtime=1
 removetime=1
 vel=0,0
@@ -894,7 +894,7 @@ Trigger1=power<(helper(7800),var(var(var(59)))/100)*100
 anim=7800+27-(28*power)/((helper(7800),var(var(var(59)))/100)*100)
 ID = 7800+var(59)
 Postype=left
-pos= (TeamSide=1)*(var(59)*(30-var(59)*1)-30)+(TeamSide=2)*(320-var(59)*(29-var(59)*1)),floor(root,fvar(18)+var(59)*2)
+pos= (TeamSide=1)*(var(59)*(30-var(59)*1)-30)+(TeamSide=2)*(GameWidth-var(59)*(29-var(59)*1)),floor(root,fvar(18)-240+GameHeight+var(59)*2) ;abajo tambien en pantalla panoramica
 bindtime=1
 removetime=1
 vel=0,0
@@ -914,7 +914,7 @@ Trigger1=var(var(59))>0
 anim=7827
 ID = 7800+var(59)
 Postype=left
-pos= (TeamSide=1)*(var(59)*(30-var(59)*1)-30)+(TeamSide=2)*(320-var(59)*(29-var(59)*1)),floor(root,fvar(18)+var(59)*2)
+pos= (TeamSide=1)*(var(59)*(30-var(59)*1)-30)+(TeamSide=2)*(GameWidth-var(59)*(29-var(59)*1)),floor(root,fvar(18)-240+GameHeight+var(59)*2) ;abajo tambien en pantalla panoramica
 bindtime=1
 removetime=1
 vel=0,0

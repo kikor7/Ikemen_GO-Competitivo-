@@ -66,7 +66,7 @@ Physics     = N
 Anim        = 6130+random %9
 SprPriority = 2
 VelSet      = 0,0
-Poweradd    = 10
+Poweradd    = 0
 
 [State 502]
 Type=Attackdist
@@ -246,7 +246,7 @@ Physics     = N
 anim        = 6130+random %9
 SprPriority = 2
 VelSet      = 0,0
-poweradd    = 200
+poweradd    = 0
 
 [State 501]
 Type=VelAdd
@@ -465,7 +465,7 @@ MoveType = A
 Physics  = N
 Anim     = 10091
 SprPriority = 4
-Poweradd = 250
+Poweradd = 20
 
 [State 520]
 Type=AttackDist
@@ -900,7 +900,7 @@ velset=0,0
 juggle  = 2
 ctrl=0
 anim=317
-poweradd=100
+poweradd=0
 facep2=1
 
 [State 541]
@@ -1002,7 +1002,7 @@ SprPriority = 1
 VelSet      = 0,0
 ctrl=0
 facep2=1
-poweradd=150
+poweradd=20
 
 [State 500]
 Type=ChangeState

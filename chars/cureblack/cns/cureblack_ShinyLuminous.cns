@@ -1581,7 +1581,7 @@ movetype=A
 physics=S
 anim=3107
 ctrl=0
-poweradd=5
+poweradd=0
 
 [State ]
 type=Varset
@@ -1659,6 +1659,7 @@ type=HitDef
 trigger1=animelem=3||animelem=5||animelem=7||animelem=9||animelem=11||animelem=13||animelem=15||animelem=17||animelem=19||animelem=21
 attr=S,SP
 damage=ceil(20*(1+ifelse(var(18)=1,.1,0)+ifelse(var(15)=1,.05,0)+ifelse(var(15)=1&&(root,var(6)=8||root,var(7)=8||root,var(8)=8||root,palno=12),.35,0))*root,fvar(29)),0
+getpower = 15,7
 guardflag=M
 hitflag=MAF
 pausetime=0,0
@@ -2479,7 +2480,7 @@ movetype=I
 physics=S
 anim=3144
 ctrl=0
-poweradd=50
+poweradd=0
 
 [State ]
 type=Varset
@@ -2795,6 +2796,7 @@ type=HitDef
 trigger1=time=0
 attr=S,SP
 damage=0,0
+getpower = 15,7
 guardflag=L
 hitflag=MAFD
 pausetime=0,0

@@ -1,0 +1,27 @@
+<#f0f000>:Special Moves:</>
+Roll Forward			^A_+^X
+Kamui Mutsube			_QCB^X
+Shichikapu Ai			_QCF^X
+Kamui Rimse			_DSB^X
+Amube Yatoro			_HCB^X
+Annu Mutsube			_B_DB_D^X
+Mamahaha Ni Tsukamaru			_QCB^A
+Throw			^A_+^B
+Jiketsu			_B_F_DF_D^S
+SD Taunt			_D_D^S
+
+<#f0f000>:Hyper Moves:</>
+Zetsumei Ougi <#f00000>(3000)</>			_F_HCF^A
+Shirikoro Kamui Nomi <#f00000>(3000)</>			_D_D_D^A_+^B
+Irusuka Yatoro Lise <#f00000>(2000)</>			_F_HCF^X
+Elerush Kamui Rimse <#f00000>(2000)</>			_QCB_D_DB^A
+Ganso Lela Mutsube <#f00000>(1000)</>			_QCF_D_DF^X
+Apefuchi Kamui Rimse <#f00000>(1000)</>			_QCF_D_DF^A
+Shichikapu Kamui Irushika <#f00000>(1000)</>			_QCB_D_DB^X
+EX Kamui Mutsube <#f00000>(500)</>			_QCB^X_+^Y
+EX Kamui Rimse <#f00000>(500)</>			_DSB^X_+^Y
+EX Amube Yatoro <#f00000>(500)</>			_HCB^X_+^Y
+EX Annu Mutsube <#f00000>(500)</>			_B_DB_D^X_+^Y
+EX Lela Mutsube <#f00000>(500)</>			_QCF^X_+^Y
+Zero Counter <#f00000>(1000)</>			_B_DB_D^X
+Original Combo <#f00000>(1000)</>			^C_+^Z

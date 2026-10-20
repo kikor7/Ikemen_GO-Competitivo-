@@ -429,7 +429,7 @@ type     = S
 movetype = I
 physics  = S
 juggle  = 4
-poweradd= 0
+poweradd= 20
 ctrl = 0
 velset = 0,0
 anim = 231
@@ -466,7 +466,7 @@ type    = S
 movetype= A
 physics = S
 juggle  = 4
-poweradd= 30
+poweradd= 0
 ctrl = 0
 velset = 0,0
 anim = 230
@@ -540,7 +540,7 @@ ground.slidetime = 10
 ground.hittime  = 10
 ground.velocity = -8
 air.velocity = -8,0
-getpower = 1,1  
+getpower = 30,15
 givepower = 0,0
 
 [State vel]
@@ -560,7 +560,7 @@ type     = S
 movetype = A
 physics  = S
 juggle  = 5
-poweradd= 0
+poweradd= 20
 ctrl = 0
 velset = 0,0
 anim = 231
@@ -597,7 +597,7 @@ type    = S
 movetype= A
 physics = S
 juggle  = 5
-poweradd= 65
+poweradd= 0
 ctrl = 0
 velset = 0,0
 anim = 230
@@ -670,7 +670,7 @@ ground.slidetime = 10
 ground.hittime  = 10
 ground.velocity = -9
 air.velocity = -8,0
-getpower = 1,1  
+getpower = 30,15
 givepower = 0,0
 
 ;к╜ек
@@ -704,7 +704,7 @@ ground.slidetime = 10
 ground.hittime  = 10
 ground.velocity = -9
 air.velocity = -8,0
-getpower = 1,1  
+getpower = 30,15
 givepower = 0,0
 
 ;30еk
@@ -738,7 +738,7 @@ ground.slidetime = 10
 ground.hittime  = 10
 ground.velocity = -9
 air.velocity = -8,0
-getpower = 1,1  
+getpower = 30,15
 givepower = 0,0
 
 ;30ек
@@ -772,7 +772,7 @@ ground.slidetime = 10
 ground.hittime  = 10
 ground.velocity = -9
 air.velocity = -8,0
-getpower = 1,1  
+getpower = 30,15
 givepower = 0,0
 
 ;45еk
@@ -806,7 +806,7 @@ ground.slidetime = 10
 ground.hittime  = 10
 ground.velocity = -9
 air.velocity = -8,0
-getpower = 1,1  
+getpower = 30,15
 givepower = 0,0
 
 ;45ек
@@ -840,7 +840,7 @@ ground.slidetime = 10
 ground.hittime  = 10
 ground.velocity = -9
 air.velocity = -8,0
-getpower = 1,1  
+getpower = 30,15
 givepower = 0,0
 
 ;75еk
@@ -874,7 +874,7 @@ ground.slidetime = 10
 ground.hittime  = 10
 ground.velocity = -9
 air.velocity = -8,0
-getpower = 1,1  
+getpower = 30,15
 givepower = 0,0
 
 ;75ек
@@ -908,7 +908,7 @@ ground.slidetime = 10
 ground.hittime  = 10
 ground.velocity = -9
 air.velocity = -8,0
-getpower = 1,1  
+getpower = 30,15
 givepower = 0,0
 
 ;90дU
@@ -942,7 +942,7 @@ ground.slidetime = 10
 ground.hittime  = 10
 ground.velocity = -9
 air.velocity = -8,0
-getpower = 1,1  
+getpower = 30,15
 givepower = 0,0
 
 [State vel]
@@ -963,7 +963,7 @@ type    = S
 movetype= A
 physics = S
 juggle  = 4
-poweradd= 0
+poweradd= 20
 ctrl = 0
 velset = 0,0
 anim = 331
@@ -1152,6 +1152,7 @@ trigger91 = time = 266
 attr = S, NA
 animtype  = Light
 damage    = 5
+getpower = 30,15
 hitflag = MAFP
 guardflag = MA
 pausetime = 0,100
@@ -1233,6 +1234,7 @@ trigger1 = time = 0
 attr = S, NA
 animtype  = Hard
 damage    = 50
+getpower = 30,15
 hitflag = HAP
 guardflag = M
 pausetime = 0,0
@@ -1379,6 +1381,7 @@ trigger1 = time = 0
 attr = S, NA
 animtype  = Hard
 damage    = 100,50
+getpower = 30,15
 hitflag = MA
 guardflag = MA
 pausetime = 15,15
@@ -1419,7 +1422,7 @@ type    = S
 movetype= A
 physics = S
 juggle  = 4
-poweradd= 0
+poweradd= 20
 ctrl = 0
 velset = 0,0
 anim = 271
@@ -1538,6 +1541,7 @@ trigger15 = time = 121
 attr = S, NA
 animtype  = Medium
 damage    = 10
+getpower = 30,15
 hitflag = MAFP
 guardflag = MA
 pausetime = 1,1
@@ -1733,7 +1737,7 @@ velmul = 1, 1
 pausetime = 0,10
 accel = 0,10
 damage    = 50
-getpower = 15,10
+getpower = 10,5
 givepower = 50
 sparkno = s-1
 guard.sparkno = s-1
@@ -1775,7 +1779,7 @@ juggle  = 1                      ;Number of air juggle points move takes
 velset = 0,0                     ;Set velocity (x,y) (Def: no change)
 ctrl = 0                         ;Set ctrl (Def: no change)
 anim = 323                 ;Change animation (Def: no change)
-poweradd = 100                    ;Power to add (Def: 0)
+poweradd = 0                    ;Power to add (Def: 0)
 
 [State 230, 1]
 type = PlaySnd
@@ -1790,7 +1794,7 @@ hitflag = MA
 animtype  = medium
 pausetime = 0,10
 damage    = 50
-getpower = 15,10
+getpower = 10,5
 givepower = 50
 sparkno = s-1
 guard.sparkno = s-1
@@ -1823,7 +1827,7 @@ juggle  = 1                      ;Number of air juggle points move takes
 velset =0,0                     ;Set velocity (x,y) (Def: no change)
 ctrl = 0                         ;Set ctrl (Def: no change)
 anim = 323                ;Change animation (Def: no change)
-poweradd = 50                    ;Power to add (Def: 0)
+poweradd = 0                    ;Power to add (Def: 0)
 
 [State 230, 1]
 type = PlaySnd
@@ -1838,7 +1842,7 @@ hitflag = MA
 animtype  = medium
 pausetime = 0,10
 damage    = 100
-getpower = 15,10
+getpower = 10,5
 givepower = 50
 sparkno = s-1
 guard.sparkno = s-1
@@ -2122,7 +2126,7 @@ type    = S
 movetype= A
 physics = S
 juggle  = 5
-poweradd= 65
+poweradd= 20
 ctrl = 0
 velset = 0,0
 anim = 230
@@ -2478,7 +2482,7 @@ type    = S
 movetype= A
 physics = S
 juggle  = 4
-poweradd= 30
+poweradd= 0
 ctrl = 0
 velset = 0,0
 anim = 4004
@@ -2509,7 +2513,7 @@ type    = S
 movetype= A
 physics = S
 juggle  = 4
-poweradd= 30
+poweradd= 0
 ctrl = 0
 velset = 0,0
 anim = 4004

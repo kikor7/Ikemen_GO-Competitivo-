@@ -12,6 +12,7 @@ author = "Bagilu"
 pal.defaults = 6,3,4,2
 
 [Files]
+movelist = movelist.dat
 sprite = misaka.sff
 anim = misaka.air
 sound = misaka.snd

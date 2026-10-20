@@ -1,0 +1,21 @@
+<#f0f000>:Special Moves:</>
+Light Kung Fu Palm			_QCF^A
+Light Kung Fu Palm			_DSF^A
+Light Kung Fu Palm			_DSF^B
+Light Kung Fu Palm			_DSF^X
+Light Kung Fu Palm			_D_D^A
+Light Kung Fu Palm			_D_D^B
+Light Kung Fu Palm			_D_D^X
+Light Kung Fu Palm			_QCB^A
+Light Kung Fu Palm			_QCB^B
+Light Kung Fu Palm			_QCB^X
+Light Kung Fu Palm			_QCF^B
+Light Kung Fu Palm			_QCF^X
+Kung Fu Throw			^A_+^B
+Kung Fu Throw			^X_+^Y
+
+<#f0f000>:Hyper Moves:</>
+Light Kung Fu Palm <#f00000>(500)</>			_DSF^X_+^B
+Light Kung Fu Palm <#f00000>(500)</>			_D_D^X_+^B
+Light Kung Fu Palm <#f00000>(500)</>			_QCB^X_+^B
+Light Kung Fu Palm <#f00000>(500)</>			_QCF^X_+^B

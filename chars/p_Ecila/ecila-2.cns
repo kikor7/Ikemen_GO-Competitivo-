@@ -2813,7 +2813,7 @@ type     = S
 movetype = A
 physics  = N
 juggle   = 1
-poweradd = 0
+poweradd = 20
 velset   = 0,0
 anim     = 121100
 ctrl     = 0
@@ -2896,7 +2896,7 @@ attr = C, NA
 animtype  = Hard
 damage    = 50*fvar(0), 5
 hitflag = MAFD
-getpower  = 160*fvar(1), 64
+getpower = 15,7
 guardflag = MA
 pausetime = 8,8
 sparkno = s800009
@@ -3033,7 +3033,7 @@ attr = C, NA
 animtype  = Hard
 damage    = 70*fvar(0), 7
 hitflag = MAFD
-getpower  = 240*fvar(1), 84
+getpower = 15,7
 guardflag = L
 pausetime = 8,8
 sparkno = s800009
@@ -3169,7 +3169,7 @@ attr = C, NA
 animtype  = Hard
 damage    = 100*fvar(0), 0
 hitflag = MAFD
-getpower  = 320*fvar(1), 75
+getpower = 15,7
 guardflag = L
 pausetime = 10,10
 sparkno = s800009
@@ -4223,7 +4223,7 @@ value = 10,0
 [State -3, ダメージボイス]
 type = poweradd
 trigger1 = AnimElem = 5
-value = 140
+value = 0
 
 
 [state a];ピンポン玉

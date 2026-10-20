@@ -1,0 +1,22 @@
+<#f0f000>:Special Moves:</>
+Fast Kung Fu Knee			_XFF^A_+^B
+Light Kung Fu Knee			_XFF^A
+Strong Kung Fu Knee			_XFF^B
+Fast Kung Fu Palm			_QCF^Z
+Light Kung Fu Palm			_QCF^X
+Strong Kung Fu Palm			_QCF^Y
+Fast Kung Fu Blow			_QCB^B
+Fast Kung Fu Blow			_QCB^A
+Light Kung Fu Blow			_QCF^A
+Light Kung Fu Blow			_QCF^B
+Strong Kung Fu Blow			_QCB^Y
+Strong Blow			_QCB^X
+Legs Kung Fu Zankou			_QCB^Z
+Kung Fu leg			_QCB^C
+Ice baby			_QCF^C
+
+<#f0f000>:Hyper Moves:</>
+Bruja <#f00000>(1000)</>			_QCB^A_+^B
+Coneja <#f00000>(1000)</>			_QCB^B_+^C
+Triple Kung Fu Palm <#f00000>(1000)</>			_QCF^X_+^Y
+Triple Kung Fu Palm <#f00000>(1000)</>			_QCF^Y_+^Z

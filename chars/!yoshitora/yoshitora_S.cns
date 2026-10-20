@@ -135,7 +135,7 @@ persistent = 0
 type = HitDef
 trigger1 = AnimElem = 5
 attr = C, SA
-getpower = ceil(ifelse(var(50)=1,3.0,5.0)*fvar(15)),ceil(ifelse(var(50)=1,1.0,3.0)*fvar(15))
+getpower = 60,30
 givepower = 0,0
 animtype  = hard
 damage    = ceil(ifelse(var(50)=1,15.0,18.0)*fvar(14)),ceil(ifelse(var(50)=1,15.0,18.0)*fvar(16))
@@ -345,7 +345,7 @@ persistent = 0
 type = HitDef
 trigger1 = AnimElem = 5
 attr = S, SA
-getpower = ceil(ifelse(var(50)=1,3.0,5.0)*fvar(15)),ceil(ifelse(var(50)=1,1.0,3.0)*fvar(15))
+getpower = 60,30
 givepower = 0,0
 animtype  = hard
 damage    = ceil(ifelse(var(50)=1,18.0,20.0)*fvar(14)),ceil(ifelse(var(50)=1,18.0,20.0)*fvar(16))
@@ -521,7 +521,7 @@ persistent = 0
 type = HitDef
 trigger1 = AnimElem = 3
 attr = A, SA
-getpower = ceil(ifelse(var(50)=1,2.0,4.0)*fvar(15)),ceil(ifelse(var(50)=1,1.0,2.0)*fvar(15))
+getpower = 30,15
 givepower = 0,0
 animtype  = hard
 damage    = ceil(ifelse(var(50)=1,4.0,6.0)*fvar(14)),ceil(ifelse(var(50)=1,4.0,6.0)*fvar(16))
@@ -554,7 +554,7 @@ fall.recover = 1
 type = HitDef
 trigger1 = AnimElem = 4
 attr = A, SA
-getpower = ceil(ifelse(var(50)=1,3.0,6.0)*fvar(15)),ceil(ifelse(var(50)=1,1.0,3.0)*fvar(15))
+getpower = 30,15
 givepower = 0,0
 animtype  = up
 damage    = ceil(ifelse(var(50)=1,16.0,17.0)*fvar(14)),ceil(ifelse(var(50)=1,16.0,17.0)*fvar(16))
@@ -712,7 +712,7 @@ persistent = 0
 type = HitDef
 trigger1 = AnimElem = 3
 attr = A, SA
-getpower = ceil(ifelse(var(50)=1,2.0,2.0)*fvar(15)),ceil(ifelse(var(50)=1,1.0,1.0)*fvar(15))
+getpower = 20,10
 givepower = 0,0
 animtype  = hard
 damage    = ceil(ifelse(var(50)=1,6.0,8.0)*fvar(14)),ceil(ifelse(var(50)=1,6.0,8.0)*fvar(16))
@@ -745,7 +745,7 @@ air.fall = 1
 type = HitDef
 trigger1 = AnimElem = 4
 attr = A, SA
-getpower = ceil(ifelse(var(50)=1,2.0,4.0)*fvar(15)),ceil(ifelse(var(50)=1,1.0,2.0)*fvar(15))
+getpower = 20,10
 givepower = 0,0
 animtype  = hard
 damage    = ceil(ifelse(var(50)=1,4.0,6.0)*fvar(14)),ceil(ifelse(var(50)=1,4.0,6.0)*fvar(16))
@@ -778,7 +778,7 @@ fall.recover = 1
 type = HitDef
 trigger1 = AnimElem = 5
 attr = A, SA
-getpower = ceil(ifelse(var(50)=1,3.0,6.0)*fvar(15)),ceil(ifelse(var(50)=1,1.0,3.0)*fvar(15))
+getpower = 20,10
 givepower = 0,0
 animtype  = up
 damage    = ceil(ifelse(var(50)=1,16.0,24.0)*fvar(14)),ceil(ifelse(var(50)=1,16.0,24.0)*fvar(16))
@@ -891,7 +891,7 @@ physics = N
 juggle  = 4
 ctrl = 0
 anim = 320
-poweradd = 0
+poweradd = 20
 sprpriority = 2
 
 [State 200, 1]
@@ -1055,7 +1055,7 @@ persistent = 0
 type = HitDef
 trigger1 = AnimElem = 4
 attr = A, SP
-getpower = ceil(ifelse(parent,var(50)=1,3.0,6.0)*parent,fvar(15)),ceil(ifelse(parent,var(50)=1,1.0,3.0)*parent,fvar(15))
+getpower = 30,15
 givepower = 0,0
 animtype  = up
 damage    = ceil(ifelse(parent,var(50)=1,20.0,25.0)*parent,fvar(14)),ceil(ifelse(parent,var(50)=1,20.0,25.0)*parent,fvar(16))
@@ -1349,7 +1349,7 @@ hitsound = s5,2+random%2
 type = HitDef
 trigger1 = AnimElem = 8
 attr = A, SA
-getpower = ceil(ifelse(var(50)=1,6.0,8.0)*fvar(15)),ceil(ifelse(var(50)=1,3.0,4.0)*fvar(15))
+getpower = 60,30
 givepower = 0,0
 animtype  = hard
 damage    = ceil(ifelse(var(50)=1,38.0,32.0)*fvar(14)),ceil(ifelse(var(50)=1,38.0,32.0)*fvar(16))
@@ -1696,7 +1696,7 @@ hitsound = s5,2+random%2
 type = HitDef
 trigger1 = AnimElem = 8
 attr = A, SA
-getpower = ceil(ifelse(var(50)=1,6.0,8.0)*fvar(15)),ceil(ifelse(var(50)=1,3.0,4.0)*fvar(15))
+getpower = 60,30
 givepower = 0,0
 animtype  = hard
 damage    = ceil(ifelse(var(50)=1,38.0,32.0)*fvar(14)),ceil(ifelse(var(50)=1,38.0,32.0)*fvar(16))
@@ -1899,7 +1899,7 @@ ignorehitpause=1
 type = HitDef
 trigger1 = AnimElem = 5
 attr = S, SA
-getpower = ceil(ifelse(var(50)=1,1.0,1.0)*fvar(15)),ceil(ifelse(var(50)=1,1.0,1.0)*fvar(15))
+getpower = 12,6
 givepower = 0,0
 animtype  = hard
 damage    = ceil(ifelse(var(50)=1,2.0,4.0)*fvar(14)),ceil(ifelse(var(50)=1,8.0,16.0)*fvar(16))
@@ -1931,7 +1931,7 @@ type = HitDef
 trigger1 = AnimElem = 8
 trigger2 = AnimElem = 31
 attr = S, SA
-getpower = ceil(ifelse(var(50)=1,2.0,4.0)*fvar(15)),ceil(ifelse(var(50)=1,1.0,2.0)*fvar(15))
+getpower = 12,6
 givepower = 0,0
 animtype  = hard
 damage    = ceil(ifelse(var(50)=1,10.0,12.0)*fvar(14)),ceil(ifelse(var(50)=1,10.0,12.0)*fvar(16))
@@ -1965,7 +1965,7 @@ type = HitDef
 trigger1 = AnimElem = 14
 trigger2 = AnimElem = 20
 attr = S, SA
-getpower = ceil(ifelse(var(50)=1,1.0,1.0)*fvar(15)),ceil(ifelse(var(50)=1,1.0,1.0)*fvar(15))
+getpower = 12,6
 givepower = 0,0
 animtype  = hard
 damage    = ceil(ifelse(var(50)=1,1.0,1.0)*fvar(14)),ceil(ifelse(var(50)=1,8.0,8.0)*fvar(16))
@@ -1998,7 +1998,7 @@ type = HitDef
 trigger1 = AnimElem = 16
 trigger2 = AnimElem = 22
 attr = S, SA
-getpower = ceil(ifelse(var(50)=1,1.0,1.0)*fvar(15)),ceil(ifelse(var(50)=1,1.0,1.0)*fvar(15))
+getpower = 12,6
 givepower = 0,0
 animtype  = hard
 damage    = ceil(ifelse(var(50)=1,1.0,1.0)*fvar(14)),ceil(ifelse(var(50)=1,8.0,8.0)*fvar(16))
@@ -2031,7 +2031,7 @@ type = HitDef
 trigger1 = AnimElem = 18
 trigger2 = AnimElem = 24
 attr = S, SA
-getpower = ceil(ifelse(var(50)=1,1.0,1.0)*fvar(15)),ceil(ifelse(var(50)=1,1.0,1.0)*fvar(15))
+getpower = 12,6
 givepower = 0,0
 animtype  = hard
 damage    = ceil(ifelse(var(50)=1,1.0,1.0)*fvar(14)),ceil(ifelse(var(50)=1,8.0,8.0)*fvar(16))
@@ -2472,7 +2472,7 @@ ignorehitpause=1
 type = HitDef
 trigger1 = AnimElem = 5
 attr = S, SA
-getpower = ceil(ifelse(var(50)=1,1.0,1.0)*fvar(15)),ceil(ifelse(var(50)=1,1.0,1.0)*fvar(15))
+getpower = 12,6
 givepower = 0,0
 animtype  = hard
 damage    = ceil(ifelse(var(50)=1,2.0,4.0)*fvar(14)),ceil(ifelse(var(50)=1,8.0,16.0)*fvar(16))
@@ -2504,7 +2504,7 @@ type = HitDef
 trigger1 = AnimElem = 8
 trigger2 = AnimElem = 43
 attr = S, SA
-getpower = ceil(ifelse(var(50)=1,2.0,4.0)*fvar(15)),ceil(ifelse(var(50)=1,1.0,2.0)*fvar(15))
+getpower = 12,6
 givepower = 0,0
 animtype  = hard
 damage    = ceil(ifelse(var(50)=1,10.0,12.0)*fvar(14)),ceil(ifelse(var(50)=1,10.0,12.0)*fvar(16))
@@ -2537,7 +2537,7 @@ p2facing = 1
 type = HitDef
 trigger1 = AnimElem=14||AnimElem=20||AnimElem=26||AnimElem=32
 attr = S, SA
-getpower = ceil(ifelse(var(50)=1,1.0,1.0)*fvar(15)),ceil(ifelse(var(50)=1,1.0,1.0)*fvar(15))
+getpower = 12,6
 givepower = 0,0
 animtype  = hard
 damage    = ceil(ifelse(var(50)=1,1.0,1.0)*fvar(14)),ceil(ifelse(var(50)=1,8.0,8.0)*fvar(16))
@@ -2569,7 +2569,7 @@ p2facing = 1
 type = HitDef
 trigger1 = animelem=16||animelem=22||animelem=28||animelem=34
 attr = S, SA
-getpower = ceil(ifelse(var(50)=1,1.0,1.0)*fvar(15)),ceil(ifelse(var(50)=1,1.0,1.0)*fvar(15))
+getpower = 12,6
 givepower = 0,0
 animtype  = hard
 damage    = ceil(ifelse(var(50)=1,1.0,1.0)*fvar(14)),ceil(ifelse(var(50)=1,8.0,8.0)*fvar(16))
@@ -2601,7 +2601,7 @@ p2facing = 1
 type = HitDef
 trigger1 = animelem=18||animelem=24||animelem=30||animelem=36
 attr = S, SA
-getpower = ceil(ifelse(var(50)=1,1.0,1.0)*fvar(15)),ceil(ifelse(var(50)=1,1.0,1.0)*fvar(15))
+getpower = 12,6
 givepower = 0,0
 animtype  = hard
 damage    = ceil(ifelse(var(50)=1,1.0,1.0)*fvar(14)),ceil(ifelse(var(50)=1,8.0,8.0)*fvar(16))
@@ -3089,6 +3089,7 @@ volume = 100
 
 [State 200, 1];“Š‚°“ü—Í
 type = HitDef
+getpower = 60,30
 trigger1 = time = 0
 attr = S, ST
 hitflag = M

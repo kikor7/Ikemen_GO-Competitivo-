@@ -233,7 +233,7 @@ type = S
 movetype = A
 anim = 200
 ctrl = 0
-poweradd= 2
+poweradd= 0
 juggle = 1
 physics = S
 
@@ -264,6 +264,7 @@ trigger1 = AnimElem = 3
 attr = S, NA
 animtype = light
 damage = 15
+getpower = 30,15
 guardflag = M
 pausetime = 8,7
 sparkxy = -2,-80
@@ -289,7 +290,7 @@ ctrl = 1
 type = S
 movetype = A
 ctrl = 0
-poweradd= 40
+poweradd= 0
 juggle = 1
 physics = S
 
@@ -338,6 +339,7 @@ persistent = 0
 attr = S, NA
 animtype = medium
 damage = 55
+getpower = 60,30
 guardflag = M
 pausetime = 9,ifelse(p2movetype = A,20,12)
 sparkno = ifelse(p2movetype = A,7,2)
@@ -370,7 +372,7 @@ type = S
 movetype = A
 anim = 210
 ctrl = 0
-poweradd= 2
+poweradd= 0
 juggle = 1
 physics = S
 
@@ -402,6 +404,7 @@ trigger1 = AnimElem = 2
 attr = S, NA
 animtype = light
 damage = 20
+getpower = 30,15
 guardflag = M
 pausetime = 8,8
 sparkxy = 0,-45
@@ -432,7 +435,7 @@ type = S
 movetype = A
 anim = 220
 ctrl = 0
-poweradd= 30
+poweradd= 0
 juggle = 1
 physics = S
 
@@ -463,6 +466,7 @@ trigger1 = AnimElem = 3
 attr = S, NA
 animtype = medium
 damage = 50
+getpower = 30,15
 guardflag = M
 pausetime = 11,ifelse(p2movetype = A,18,12)
 sparkno = ifelse(p2movetype != A,2,7)
@@ -497,7 +501,7 @@ type = S
 movetype = A
 anim = 225
 ctrl = 0
-poweradd= 30
+poweradd= 0
 juggle = 1
 physics = S
 
@@ -529,6 +533,7 @@ persistent = 0
 attr = SC, NA
 animtype = medium
 damage = 53
+getpower = 60,30
 guardflag = L
 pausetime = 11,ifelse(p2movetype = A,18,12)
 sparkno = ifelse(p2movetype != A,2,7)
@@ -564,7 +569,7 @@ type = S
 movetype = A
 anim = 230
 ctrl = 0
-poweradd= 30
+poweradd= 0
 juggle = 1
 physics = S
 
@@ -608,6 +613,7 @@ persistent = 0
 attr = S, NA
 animtype = medium
 damage = ifelse(p2movetype != A,40,60)
+getpower = 30,15
 guardflag = M
 pausetime = 11,ifelse(p2movetype != A,11,20)
 sparkno = ifelse(p2movetype != A,2,7)
@@ -642,7 +648,7 @@ physics = S
 anim = 250
 velset = 0
 ctrl = 0
-poweradd = 50
+poweradd = 0
 juggle = 1
 
 [state -2,varset]
@@ -684,6 +690,7 @@ trigger1 = AnimElem = 6
 attr = S, NA
 animtype = hard
 damage = ifelse(var(6) = 0,70,140)
+getpower = 30,15
 guardflag = M
 pausetime = 9,ifelse(p2movetype = A,17,12)
 guard.pausetime = 9,12
@@ -718,7 +725,7 @@ physics = S
 anim = ifelse(var(6) = 0,260,265)
 velset = 0
 ctrl = 0
-poweradd = 60
+poweradd = 0
 juggle = 1
 
 [state -2,varset]
@@ -762,6 +769,7 @@ persistent = 0
 attr = S, NA
 animtype = hard
 damage = ifelse(var(6) = 0,90,180)
+getpower = 30,15
 guardflag = M
 sparkno = ifelse(p2movetype != A,2,7)
 pausetime = 9,ifelse(p2movetype != A,15,22)
@@ -794,7 +802,7 @@ type = S
 movetype = A
 anim = 280
 ctrl = 0
-poweradd = 60
+poweradd = 0
 juggle = 1
 physics = S
 
@@ -847,6 +855,7 @@ persistent = 0
 attr = S, NA
 animtype = hard
 damage = ifelse(var(6) = 0,75,150)
+getpower = 60,30
 guardflag = M
 pausetime = 12,12
 guard.pausetime = 12,12
@@ -906,6 +915,7 @@ trigger1 = AnimElem = 2
 attr = SC, NA
 animtype = light
 damage = 15
+getpower = 30,15
 guardflag = M
 pausetime = 8,6
 sparkxy = -10,-50
@@ -934,7 +944,7 @@ physics = C
 anim = 410
 velset = 0
 ctrl = 0
-poweradd= 2
+poweradd= 0
 juggle = 1
 
 [state -2,varset]
@@ -964,6 +974,7 @@ persistent = 0
 attr = C, NA
 animtype = medium
 damage = 15
+getpower = 30,15
 guardflag = L
 pausetime = 8,9
 sparkxy = -1,-10
@@ -998,7 +1009,7 @@ physics = C
 anim = ifelse(var(6) = 0,420,425)
 velset = 0
 ctrl = 0
-poweradd= 30
+poweradd= 0
 juggle = 1
 
 [state -2,varset]
@@ -1034,6 +1045,7 @@ persistent = 0
 attr = SC, NA
 animtype = medium
 damage = ifelse(p2movetype != A,40,100)
+getpower = 30,15
 guardflag = M
 pausetime = 11,ifelse(p2movetype != A,12,24)
 sparkno = ifelse(p2movetype != A,2,7)
@@ -1067,7 +1079,7 @@ physics = C
 anim = 430
 velset = 0
 ctrl = 0
-poweradd= 30
+poweradd= 0
 juggle = 1
 
 [state -2,varset]
@@ -1101,6 +1113,7 @@ trigger1 = AnimElem = 3
 attr = C, NA
 animtype = medium
 damage = 50
+getpower = 30,15
 guardflag = L
 pausetime = 11,12
 sparkxy = -10,-10
@@ -1142,7 +1155,7 @@ physics = C
 anim = 440
 velset = 0
 ctrl = 0
-poweradd= 50
+poweradd= 0
 juggle = 1
 
 [state -2,varset]
@@ -1191,6 +1204,7 @@ persistent = 0
 attr = SC, NA
 animtype = hard
 damage = ifelse(var(6) = 0,75,150)
+getpower = 15,7
 guardflag = M
 sparkno = ifelse(p2movetype != A,2,7)
 pausetime = 9,ifelse(p2movetype != A,12,16)
@@ -1215,6 +1229,7 @@ persistent = 0
 attr = SC, NA
 animtype = hard
 damage = 100
+getpower = 15,7
 guardflag = M
 sparkno = ifelse(p2movetype != A,2,7)
 pausetime = 9,ifelse(p2movetype != A,12,16)
@@ -1247,7 +1262,7 @@ movetype = A
 physics = C
 anim = 460
 ctrl = 0
-poweradd= 50
+poweradd= 0
 juggle = 1
 
 [state -2,varset]
@@ -1289,6 +1304,7 @@ trigger1 = AnimElem = 4
 attr = C, NA
 animtype = hard
 damage = ifelse(var(6) = 0,80,160)
+getpower = 30,15
 guardflag = L
 sparkno = ifelse(p2movetype != A,2,7)
 pausetime = 12,ifelse(p2movetype != A,12,18)
@@ -1320,7 +1336,7 @@ physics = C
 anim = 470
 velset = 0
 ctrl = 0
-poweradd= 50
+poweradd= 0
 juggle = 1
 
 [state -2,varset]
@@ -1397,7 +1413,7 @@ movetype = A
 physics = A
 anim = 600
 ctrl = 0
-poweradd = 10
+poweradd = 0
 juggle = 1
 
 [state -2,varset]
@@ -1426,6 +1442,7 @@ trigger1 = AnimElem = 2
 attr = A, NA
 animtype = light
 damage = ifelse((prevstateno = [300,345]),10,20)
+getpower = 15,7
 guardflag = H
 pausetime = 9,12
 sparkxy = -10,-50
@@ -1468,7 +1485,7 @@ movetype = A
 physics = A
 anim = 620
 ctrl = 0
-poweradd = 30
+poweradd = 0
 juggle = 1
 
 [state -2,varset]
@@ -1506,6 +1523,7 @@ persistent = 0
 attr = S, NA
 animtype = medium
 damage = ifelse((prevstateno = [300,345]),23,45)
+getpower = 30,15
 guardflag = H
 pausetime = 9,ifelse(p2movetype = A,17,12)
 sparkno = ifelse(p2movetype = A,7,2)
@@ -1538,7 +1556,7 @@ movetype = A
 physics = A
 anim = 610
 ctrl = 0
-poweradd = 10
+poweradd = 0
 juggle = 1
 
 [state -2,varset]
@@ -1567,6 +1585,7 @@ trigger1 = AnimElem = 2
 attr = A, NA
 animtype = light
 damage = ifelse((prevstateno = [300,345]),15,30)
+getpower = 30,15
 guardflag = H
 pausetime = 9,12
 sparkxy = -10,-58
@@ -1605,7 +1624,7 @@ movetype = A
 physics = A
 anim = 640
 ctrl = 0
-poweradd = 50
+poweradd = 0
 juggle = 2
 
 [state -2,varset]
@@ -1643,6 +1662,7 @@ trigger1 = AnimElem = 4
 attr = S, NA
 animtype = heavy
 damage = ifelse((prevstateno = [300,345]) && var(6) = 0,35,ifelse(var(6) != 0 && (prevstateno != [300,350]),140,70))
+getpower = 30,15
 guardflag = H
 pausetime = 9,ifelse(p2movetype != A && p2statetype != A,12,ifelse(p2movetype != A && p2statetype = A,4,20))
 sparkno = ifelse(p2movetype != A,2,7)
@@ -1684,7 +1704,7 @@ movetype = A
 physics = A
 anim = 630
 ctrl = 0
-poweradd = 30
+poweradd = 0
 juggle = 1
 
 [state -2,varset]
@@ -1713,6 +1733,7 @@ trigger1 = animelem = 4 || animelem = 5
 attr = A, NA
 animtype = medium
 damage = ifelse((prevstateno = [300,345]) || movehit,25,50)
+getpower = 30,15
 guardflag = H
 pausetime = 9,10
 sparkxy = -10,-40
@@ -1753,7 +1774,7 @@ movetype = A
 physics = A
 anim = ifelse(var(6) = 0,660,665)
 ctrl = 0
-poweradd = 50
+poweradd = 0
 juggle = 2
 
 [state -2,varset]
@@ -1790,6 +1811,7 @@ trigger1 = AnimElemtime(3) >= 0
 persistent = 0
 attr = S, NA
 damage = ifelse((prevstateno = [300,345]) && var(6) = 0,40,ifelse(var(6) != 0 && (prevstateno != [300,350]),160,80))
+getpower = 30,15
 animtype = hard
 guardflag = H
 sparkno = ifelse(p2movetype != A,2,7)
@@ -1841,7 +1863,7 @@ movetype = A
 physics = A
 anim = 670
 ctrl = 0
-poweradd = 50
+poweradd = 0
 juggle = 2
 
 [state -2,varset]
@@ -1871,6 +1893,7 @@ trigger1 = AnimElemtime(4) >= 0
 persistent = 0
 attr = S, NA
 damage = ifelse((prevstateno = [300,345]),50,80)
+getpower = 30,15
 animtype = hard
 guardflag = H
 sparkno = ifelse(p2movetype != A,2,7)
@@ -1936,6 +1959,7 @@ trigger1 = AnimElem = 2
 attr = A, NA
 animtype = light
 damage = 10
+getpower = 15,7
 guardflag = M
 pausetime = 8,9
 sparkxy = -10,-50
@@ -2018,7 +2042,7 @@ movetype = A
 physics = A
 anim = 621
 ctrl = 0
-poweradd = 10
+poweradd = 0
 juggle = 1
 
 [state -2,varset]
@@ -2269,6 +2293,7 @@ trigger1 = p2movetype != H
 priority = 7,miss
 attr = A, NT
 damage = 0
+getpower = 60,30
 animtype = up
 hitflag = M
 guardflag = 
@@ -2310,6 +2335,7 @@ trigger1 = p2movetype != H
 priority = 7,miss
 attr = A, NT
 damage = 0
+getpower = 60,30
 animtype = up
 hitflag = M
 guardflag = 
@@ -2944,6 +2970,7 @@ type = HitDef
 trigger1 = AnimElem = 2 && p2movetype != H
 attr = A, NT
 damage = 0
+getpower = 60,30
 animtype = up
 hitflag = AF
 guardflag = 
@@ -2992,6 +3019,7 @@ type = HitDef
 trigger1 = AnimElem = 2 && p2movetype != H
 attr = A, NT
 damage = 0
+getpower = 60,30
 animtype = up
 hitflag = AF
 guardflag = 
@@ -3408,7 +3436,7 @@ type    = S
 movetype= A
 physics = S
 juggle  = 0
-poweradd= 50
+poweradd= 20
 ;velset = 0,0
 anim = ifelse(command = "qcf_x",1000,ifelse(command = "qcf_y",1010,1020))
 ctrl = 0
@@ -3445,6 +3473,7 @@ velocity = 0
 accel = ifelse(var(1) = 0,0.1,ifelse(var(1) = 1,0.17,0.2))
 attr = S, SP
 damage = 85,10
+getpower = 15,7
 animtype = Hard
 hitflag = MAFP
 guardflag = M
@@ -3505,7 +3534,7 @@ type    = S
 movetype= A
 physics = S
 juggle  = 0
-poweradd= 50
+poweradd= 0
 ;velset = 0,0
 anim = 1030
 ctrl = 0
@@ -3559,7 +3588,7 @@ type    = S
 movetype= A
 physics = S
 juggle  = 0
-poweradd= 50
+poweradd= 0
 ;velset = 0,0
 anim = 1031
 ctrl = 0
@@ -3582,6 +3611,7 @@ velocity = 0
 accel = ifelse(var(1) = 0,0.1,ifelse(var(1) = 1,0.17,0.2))
 attr = S, SP
 damage = 85+(var(2)*2),10
+getpower = 15,7
 animtype = Hard
 hitflag = MAFP
 guardflag = 
@@ -3612,6 +3642,7 @@ velocity = 0
 accel = ifelse(var(1) = 0,0.1,ifelse(var(1) = 1,0.12,0.15))
 attr = S, SP
 damage = 85+(var(2)*2),10+var(2)
+getpower = 15,7
 animtype = Hard
 hitflag = MAFP
 guardflag = M
@@ -4512,7 +4543,7 @@ type    = S
 movetype= A
 physics = S
 juggle  = 2
-poweradd= 80
+poweradd= 0
 ;velset = 0,0
 anim = ifelse(command = "dp_x",1200,ifelse(command = "dp_y",1210,1220))
 ctrl = 0
@@ -4559,6 +4590,7 @@ trigger1 = AnimElemtime(4) >= 0
 persistent = 0
 attr              = SC, SA
 damage            = 80,10
+getpower = 30,15
 animtype          = hard
 guardflag         = M
 hitflag           = MAF
@@ -4589,6 +4621,7 @@ trigger1 = AnimElemtime(10) >= 0
 persistent = 0
 attr              = SC, SA
 damage            = 50,10
+getpower = 30,15
 animtype          = hard
 guardflag         = M
 hitflag           = MAF
@@ -4717,7 +4750,7 @@ type    = S
 movetype= A
 physics = S
 juggle  = 2
-poweradd= 50
+poweradd= 0
 ;velset = 0,0
 anim = ifelse(command = "qcb_a",1400,ifelse(command = "qcb_b",1410,1420))
 ctrl = 0
@@ -4748,6 +4781,7 @@ trigger1 = AnimElemtime(11) >= 0
 persistent = 0
 attr              = S, SA
 damage            = 120,10
+getpower = 60,30
 animtype          = hard
 guardflag         = M
 hitflag           = MAF
@@ -4923,7 +4957,7 @@ type = S
 movetype = A
 physics = S
 anim = ifelse(var(6) = 0,1500,1501)
-poweradd = 40
+poweradd = 0
 ctrl = 0
 juggle = 0
 
@@ -4936,6 +4970,7 @@ trigger1 = p2stateno != 40 && (p2stateno != [140,165])
 attr = A, ST
 animtype = hard
 damage = 0,0
+getpower = 60,30
 priority = 2
 hitflag = M
 guardflag = 
@@ -4967,7 +5002,7 @@ type = S
 movetype = A
 physics = S
 anim = ifelse(var(6) = 0,1510,1511)
-poweradd = 150
+poweradd = 0
 ctrl = 0
 velset = 0,0
 
@@ -5076,7 +5111,7 @@ type    = A
 movetype= A
 physics = N
 juggle  = 0
-poweradd= 10
+poweradd= 20
 ;velset = 0,0
 anim = 1600;ifelse(command = "qcf_x",1000,ifelse(command = "qcf_y",1001,1002))
 ctrl = 0
@@ -5112,6 +5147,7 @@ velocity = 7
 accel = 0.01
 attr = S, SP
 damage = 85,10
+getpower = 30,15
 animtype = Hard
 hitflag = MAFP
 guardflag = H
@@ -5143,6 +5179,7 @@ velocity = -7
 accel = -0.01
 attr = S, SP
 damage = 85,10
+getpower = 30,15
 animtype = Hard
 hitflag = MAFP
 guardflag = H
@@ -5199,7 +5236,7 @@ movetype = A
 physics = N
 anim = 1650
 ctrl = 0
-poweradd = 50
+poweradd = 0
 juggle = 1
 
 [state -2,varset]
@@ -5247,6 +5284,7 @@ trigger1 = AnimElemtime(3) >= 0
 persistent = 0
 attr = S, NA
 damage = 115,10
+getpower = 60,30
 animtype = diagup
 guardflag = H
 sparkno = ifelse(p2movetype != A,3,7)
@@ -6426,7 +6464,7 @@ type = A
 movetype = A
 physics = N
 ctrl = 0
-poweradd = 50
+poweradd = 0
 anim = 500
 juggle = 0
 
@@ -6460,6 +6498,7 @@ persistent = 0
 attr = A, NA
 animtype = medium
 damage = 40
+getpower = 60,30
 guardflag = H
 pausetime = 12,12
 sparkxy = -1,-90

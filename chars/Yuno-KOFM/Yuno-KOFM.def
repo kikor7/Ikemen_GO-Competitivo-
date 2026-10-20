@@ -7,6 +7,7 @@ Author             = "Strong FS & BlackJudai"
 Pal.defaults       = 1
 
 [Files]
+movelist = movelist.dat
 cmd =Yuno-KOFM.txt
 cns =Yuno-KOFM-N.cns
 st =Yuno-KOFM-N.cns

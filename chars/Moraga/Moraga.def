@@ -12,6 +12,7 @@ author ="Charzynee"
 pal.defaults =1
 
 [Files]
+movelist = movelist.dat
 sprite =moraga.sff
 anim =moraga.air
 sound =moraga.snd

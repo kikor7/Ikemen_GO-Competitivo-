@@ -265,7 +265,10 @@ Mr2_Bon_Kure
 Mr3_Galdino
 RobLucci
 sonozaki_shion
-mion-sonozaki
+slot = {
+mion-sonozaki, previous=d, next=w
+sonozaki_mion, previous=d, next=w
+}
 furude_rika
 Satoko
 oyashirorika

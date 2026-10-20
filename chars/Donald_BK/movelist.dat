@@ -1,0 +1,17 @@
+<#f0f000>:Special Moves:</>
+airdonaside cutter			_DSF^A
+Especial 2			_QCB^X
+GO ACTIVE			_HCB^Y
+Light Kung Fu Palm			_QCF^X
+apple bom_y			_QCB^Y
+hanva-ga-			_QCB^A
+hanva-ga-			_HCF^B
+hanva-ga-			_QCF^A
+
+<#f0f000>:Hyper Moves:</>
+Super 1 <#f00000>(3000)</>			_F_QCB_F^B
+Super 2 <#f00000>(3000)</>			_QCF_QCF^B
+Super 3 <#f00000>(2000)</>			_QCB_QCB^X
+Super 4 <#f00000>(2000)</>			_QCF_QCF^A
+hanva-ga- <#f00000>(1000)</>			_QCF_QCF^Y
+Super 6 <#f00000>(1000)</>			_QCF_QCF^X

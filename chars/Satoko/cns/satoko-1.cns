@@ -136,7 +136,7 @@ channel = 0
 [State 195, パワーゲージ増減6]
 type = PowerAdd
 trigger1 = AnimElem = 2
-value = 1000
+value = 0
 
 [State 195, ヒット定義]
 type = HitDef

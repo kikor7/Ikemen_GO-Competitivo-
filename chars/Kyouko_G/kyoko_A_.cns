@@ -6,6 +6,24 @@
 ;~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 ;━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+;---------------------------------------------------------------------------
+; Recuperacion tras esquivar/rodar: sin control y golpeable unos frames,
+; para que no se pueda encadenar sin riesgo.
+;---------------------------------------------------------------------------
+[Statedef 1003]
+type = S
+movetype = I
+physics = S
+ctrl = 0
+anim = 0
+velset = 0,0
+
+[State 1003, Fin de la recuperacion]
+type = ChangeState
+trigger1 = Time >= 12
+value = 0
+ctrl = 1
+
 [Statedef 700, ev-y]
 type    = S                      ;State-type: S-stand, C-crouch, A-air, L-liedown
 movetype= I                      ;Move-type: A-attack, I-idle, H-gethit
@@ -62,8 +80,8 @@ ignorehitpause = 1
 [State 200, 7]
 type = ChangeState
 trigger1 = AnimTime = 0
-value = 0
-ctrl = 1
+value = 1003
+ctrl = 0
 
 
 ;━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
@@ -100,7 +118,7 @@ guardflag = HLA	;HLA
 animtype = Medium	;Light, Medium, Hard, Back, Up, DiagUp
 priority = 4, Hit	;1-7(def4), Hit, Miss, Dodge(引き分け)
 damage = 43, 0
-getpower = 40, 20
+getpower = 30,15
 givepower = 20, 0
 pausetime = 9, 9
 ;スパーク、音
@@ -128,7 +146,7 @@ juggle = 2
 ;velset = 0, 0
 ctrl = 0
 anim = StateNo
-poweradd = 5
+poweradd = 0
 sprpriority = 2
 
 [State -1, ChangeState]
@@ -148,7 +166,7 @@ guardflag = HL	;HLA
 animtype = Medium	;Light, Medium, Hard, Back, Up, DiagUp
 priority = 4, Miss	;1-7(def4), Hit, Miss, Dodge(引き分け)
 damage = 58 +(P2StateType=A)*15, 0
-getpower = 40, 20
+getpower = 30,15
 givepower = 20, 0
 pausetime = 10, 10
 ;スパーク、音
@@ -176,7 +194,7 @@ juggle = 3
 ;velset = 0, 0
 ctrl = 0
 anim = StateNo
-poweradd = 10
+poweradd = 0
 sprpriority = 2
 
 [State -1, ChangeState]
@@ -196,7 +214,7 @@ guardflag = HLA	;HLA
 animtype = Hard	;Light, Medium, Hard, Back, Up, DiagUp
 priority = 4, Hit	;1-7(def4), Hit, Miss, Dodge(引き分け)
 damage = 63, 0
-getpower = 40, 20
+getpower = 30,15
 givepower = 20, 0
 pausetime = 10, 10
 ;スパーク、音
@@ -224,7 +242,7 @@ juggle = 3
 ;velset = 0, 0
 ctrl = 0
 anim = StateNo
-poweradd = 10
+poweradd = 0
 sprpriority = 1
 
 [State -1, Width]
@@ -250,7 +268,7 @@ guardflag = L	;HLA
 animtype = Medium	;Light, Medium, Hard, Back, Up, DiagUp
 priority = 3, Hit	;1-7(def4), Hit, Miss, Dodge(引き分け)
 damage = 20, 0
-getpower = 20, 10
+getpower = 15,7
 givepower = 10, 0
 pausetime = 10, 10
 ;スパーク、音
@@ -277,7 +295,7 @@ guardflag = HLA	;HLA
 animtype = Back	;Light, Medium, Hard, Back, Up, DiagUp
 priority = 5, Hit	;1-7(def4), Hit, Miss, Dodge(引き分け)
 damage = 60, 0
-getpower = 20, 10
+getpower = 15,7
 givepower = 10, 0
 pausetime = 10, 10
 ;スパーク、音
@@ -334,7 +352,7 @@ guardflag = L	;HLA
 animtype = Light	;Light, Medium, Hard, Back, Up, DiagUp
 priority = 3, Hit	;1-7(def4), Hit, Miss, Dodge(引き分け)
 damage = 36, 0
-getpower = 40, 20
+getpower = 30,15
 givepower = 20, 0
 pausetime = 9, 9
 ;スパーク、音
@@ -385,7 +403,7 @@ guardflag = L	;HLA
 animtype = Medium	;Light, Medium, Hard, Back, Up, DiagUp
 priority = 4, Hit	;1-7(def4), Hit, Miss, Dodge(引き分け)
 damage = 52, 0
-getpower = 40, 20
+getpower = 30,15
 givepower = 20, 0
 pausetime = 9, 9
 ;スパーク、音
@@ -441,7 +459,7 @@ guardflag = HL	;HLA
 animtype = Hard	;Light, Medium, Hard, Back, Up, DiagUp
 priority = 5, Hit	;1-7(def4), Hit, Miss, Dodge(引き分け)
 damage = 60, 0
-getpower = 40, 20
+getpower = 30,15
 givepower = 20, 0
 pausetime = 10, 10
 ;スパーク、音
@@ -499,7 +517,7 @@ guardflag = L	;HLA
 animtype = Hard	;Light, Medium, Hard, Back, Up, DiagUp
 priority = 5, Miss	;1-7(def4), Hit, Miss, Dodge(引き分け)
 damage = 80, 0
-getpower = 40, 20
+getpower = 30,15
 givepower = 20, 0
 pausetime = 12, 12
 ;スパーク、音
@@ -548,7 +566,7 @@ guardflag = HA	;HLA
 animtype = Medium	;Light, Medium, Hard, Back, Up, DiagUp
 priority = 4, Miss	;1-7(def4), Hit, Miss, Dodge(引き分け)
 damage = 40, 0
-getpower = 40, 20
+getpower = 30,15
 givepower = 20, 0
 pausetime = 9, 9
 ;スパーク、音
@@ -597,7 +615,7 @@ guardflag = HA	;HLA
 animtype = Medium	;Light, Medium, Hard, Back, Up, DiagUp
 priority = 3, Miss	;1-7(def4), Hit, Miss, Dodge(引き分け)
 damage = 49, 0
-getpower = 40, 20
+getpower = 30,15
 givepower = 20, 0
 pausetime = 9, 9
 ;スパーク、音
@@ -648,7 +666,7 @@ guardflag = HA	;HLA
 animtype = Hard	;Light, Medium, Hard, Back, Up, DiagUp
 priority = 4, Miss	;1-7(def4), Hit, Miss, Dodge(引き分け)
 damage = 86, 0
-getpower = 40, 20
+getpower = 30,15
 givepower = 20, 0
 pausetime = 10, 10
 ;スパーク、音
@@ -697,7 +715,7 @@ guardflag = HA	;HLA
 animtype = Medium	;Light, Medium, Hard, Back, Up, DiagUp
 priority = 3, Miss	;1-7(def4), Hit, Miss, Dodge(引き分け)
 damage = 49, 0
-getpower = 40, 20
+getpower = 30,15
 givepower = 20, 0
 pausetime = 9, 9
 ;スパーク、音
@@ -1135,7 +1153,7 @@ guardflag = HLA	;HLA
 animtype = Light	;Light, Medium, Hard, Back, Up, DiagUp
 priority = 6, Hit	;1-7(def4), Hit, Miss, Dodge(引き分け)
 damage = 10, 0
-getpower = 0, 20
+getpower = 30,15
 givepower = 0, 0
 pausetime = 3, 3
 ;スパーク、音
@@ -1165,7 +1183,7 @@ guardflag = HLA	;HLA
 animtype = Back	;Light, Medium, Hard, Back, Up, DiagUp
 priority = 6, Hit	;1-7(def4), Hit, Miss, Dodge(引き分け)
 damage = 10, 0
-getpower = 0, 20
+getpower = 30,15
 givepower = 0, 0
 pausetime = 3, 3
 ;スパーク、音

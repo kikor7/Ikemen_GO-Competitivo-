@@ -746,7 +746,7 @@ time = 1
 [State 0, PowerAdd]
 type = PowerAdd
 trigger1 = animelem = 1
-value = 20
+value = 0
 ignorehitpause = 1
 
 [State 0, PosAdd]
@@ -1275,7 +1275,7 @@ anim = 100
 [State 0, PowerAdd]
 type = PowerAdd
 trigger1 = animelem = 1
-value = 20
+value = 0
 ignorehitpause = 1
 
 [State 170, 1]
@@ -1607,7 +1607,7 @@ physics = S
 ctrl = 0
 anim = 1000
 velset = 0, 0
-poweradd = 65
+poweradd = 20
 sprpriority = 1
 
 [State 1000, sound]
@@ -1729,7 +1729,7 @@ palfx.add = 155,0,155
 palfx.sinadd = 200,100,0,24
 palfx.color = 0
 palfx.invertall = 1
-getpower = 0
+getpower = 30,15
 
 [State 1230, electrocuted]
 type = Helper
@@ -1868,7 +1868,7 @@ physics = S
 ctrl = 0
 anim = 1100
 velset = 0, 0
-poweradd = 65
+poweradd = 20
 sprpriority = 1
 
 [State 0, Explod] ; Charge Thunder A
@@ -1962,7 +1962,7 @@ physics = S
 ctrl = 0
 anim = 1100
 velset = 0, 0
-poweradd = 65
+poweradd = 20
 sprpriority = 1
 
 [State 0, Explod] ; Charge Thunder A
@@ -2056,7 +2056,7 @@ physics = S
 ctrl = 0
 anim = 1100
 velset = 0, 0
-poweradd = 65
+poweradd = 20
 sprpriority = 1
 
 [State 0, Explod] ; Charge Thunder A
@@ -2149,7 +2149,7 @@ physics = S
 ctrl = 0
 anim = 1100
 velset = 0, 0
-poweradd = 65
+poweradd = 20
 sprpriority = 1
 
 [State 0, Explod] ; Charge Thunder A
@@ -2244,7 +2244,7 @@ physics = S
 ctrl = 0
 anim = 1100
 velset = 0, 0
-poweradd = 65
+poweradd = 20
 sprpriority = 1
 
 [State 0, Explod] ; Charge Thunder A
@@ -2338,7 +2338,7 @@ physics = S
 ctrl = 0
 anim = 1100
 velset = 0, 0
-poweradd = 65
+poweradd = 20
 sprpriority = 1
 
 [State 0, Explod] ; Charge Thunder A
@@ -2510,6 +2510,7 @@ type = HitDef
 trigger1 = AnimElem = 1
 attr = S, SA
 damage = 60,1
+getpower = 30,15
 animtype = heavy
 guardflag = MA
 hitflag = MAF
@@ -2589,7 +2590,7 @@ type    = S
 movetype= A
 physics = S
 juggle  = 4
-poweradd= 0
+poweradd= 20
 velset = 0,0
 anim = 1200
 ctrl = 0
@@ -2695,7 +2696,7 @@ hitFlag = MAF
 guardFlag = M
 priority = 4, Hit
 damage = 65,0
-getPower = ifElse(!var(13), 72, 36) * !var(20), 12 * !var(20)
+getpower = 15,7
 givePower = 36, 36
 pauseTime = ifElse(var(20), 4, 8), ifElse(var(20), 4, 8)
 guard.pauseTime = ifElse(var(20), 4, 8), ifElse(var(20), 4, 8)
@@ -2744,7 +2745,7 @@ hitFlag = MAF
 guardFlag = MA
 priority = 4, Hit
 damage = 35,0
-getPower = 0,0
+getpower = 15,7
 givePower = 36, 36
 pauseTime = ifElse(var(20), 4, 8), ifElse(var(20), 4, 8)
 guard.pauseTime = ifElse(var(20), 4, 8), ifElse(var(20), 4, 8)
@@ -2924,7 +2925,7 @@ type    = S
 movetype= A
 physics = S
 juggle  = 4
-poweradd= 0
+poweradd= 20
 velset = 0,0
 anim = 1300
 ctrl = 0
@@ -3006,6 +3007,7 @@ type = HitDef
 trigger1 = animelem = 1
 attr = S, SP
 damage = 0
+getpower = 30,15
 p2stateno = 15299
 animtype = heavy
 fall = 1

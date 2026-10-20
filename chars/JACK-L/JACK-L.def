@@ -8,6 +8,7 @@ Pal.Defaults = 1,2
 
 
 [Files]
+movelist = movelist.dat
 Cmd     = JACK-L.cmd       
 Cns     = JACK-L.cns       
 St      = JACK-L.cns       

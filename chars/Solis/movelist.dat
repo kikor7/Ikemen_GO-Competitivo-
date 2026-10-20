@@ -1,0 +1,21 @@
+<#f0f000>:Special Moves:</>
+Absolute 3			_QCF^C
+Absolute 2			_QCF^B
+Absolute 1			_QCF^A
+r			_QCB^C
+Especial 5			_QCB^B
+Especial 6			_QCB^A
+Especial 7			_DSF^Z
+Especial 8			_DSF^Y
+Especial 9			_DSF^X
+Bullitt			_QCF^Z
+Bullitt			_QCF^Y
+Bullitt			_QCF^X
+Shield			^Y_+^B
+Stand Gottui Punch			^Z_+^C
+Dash Punch			_XFF^X
+Dash Kick			_XFF^A
+
+<#f0f000>:Hyper Moves:</>
+dual attack <#f00000>(3000)</>			^X_+^A_D_D^X
+Maruti briar <#f00000>(1000)</>			_D_D^A

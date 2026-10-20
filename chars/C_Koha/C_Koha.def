@@ -5,6 +5,7 @@ author       = "incurable"
 pal.defaults = 5,8
 
 [Files]
+movelist = movelist.dat
 cmd          = data/C_Koha.cmd
 cns          = data/C_Koha.cns
 st           = data/C_Koha.cns

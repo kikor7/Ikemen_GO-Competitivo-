@@ -9,6 +9,7 @@ author ="ÉGÉX"
 
 ; Files for the Player
 [Files]
+movelist = movelist.dat
 cmd     = UME.cmd
 cns     = UME-N.cns;Constants
 st      = UME-N.cns;States (Normal)

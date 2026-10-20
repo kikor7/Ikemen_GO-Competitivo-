@@ -12,6 +12,7 @@ pal.defaults =1,2,3,4
 
 ; Files for the player
 [Files]
+movelist = movelist.dat
 cmd     =sasuke-kun.cmd
 cns     =sasuke-kun.cns
 st      =sasuke-kun.cns

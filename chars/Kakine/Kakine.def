@@ -7,6 +7,7 @@ Author       = "Thermidor"     ;キャラクターの作成者（必要な項目なので省略不可）
 Pal.Defaults = 6,4      ;ＣＰＵで出てきた時のカラーパレットの順番
 
 [Files]
+movelist = movelist.dat
 Cmd     = Kakine.cmd.def       ;コマンドファイルの登録
 Cns     = Kakine.cns       ;コンスタンツファイルの登録
 St      = Kakine.cns

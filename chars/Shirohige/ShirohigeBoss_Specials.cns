@@ -620,7 +620,7 @@ movetype = A
 physics = S
 anim = 1100
 ctrl = 0
-poweradd = 100
+poweradd = 0
 
 
 
@@ -791,7 +791,7 @@ physics = S
 anim = 1101
 ctrl = 0
 velset = 0,0
-poweradd = 25
+poweradd = 0
 
 [State 0, PosAdd]
 type = PosAdd
@@ -917,7 +917,7 @@ anim = 1110
 ctrl = 0
 sprpriority = 1
 VelSet = 0,0
-poweradd = 25
+poweradd = 0
 
 
 [State 60, FX corte Up]
@@ -1096,7 +1096,7 @@ anim = 1130
 ctrl = 0
 sprpriority = 1
 VelSet = 0,0
-poweradd = 50
+poweradd = 0
 
 [State 210, 2]
 type = PlaySnd
@@ -1298,7 +1298,7 @@ movetype = A
 physics = S
 anim = 1200
 ctrl = 0
-poweradd = 100
+poweradd = 0
 
 
 [State 0, PlaySnd]
@@ -1612,7 +1612,7 @@ type    = S
 movetype= A
 physics = N
 juggle  = 4
-poweradd = 50
+poweradd = 0
 ctrl = 0
 velset = 0,0
 anim = 1210
@@ -1797,7 +1797,7 @@ Movetype = A
 physics = S
 anim = 1300
 ctrl = 0
-poweradd = 100
+poweradd = 0
 sprpriority = 1
 
 [State 0, PlaySnd]
@@ -2025,7 +2025,7 @@ movetype = A
 physics = N
 anim = 1310
 ctrl = 0
-poweradd = 50
+poweradd = 0
 sprpriority = 1
 juggle = 6
 
@@ -2258,7 +2258,7 @@ physics = N
 juggle  = 2
 ctrl = 0
 anim = 1400
-poweradd = 100
+poweradd = 20
 sprpriority = -1
 
 
@@ -2519,7 +2519,7 @@ physics = N
 juggle  = 1
 ctrl = 0
 anim = 1410
-poweradd = 100
+poweradd = 0
 sprpriority = 1
 
 ;--- Guard Cancel --------------------------
@@ -3234,7 +3234,7 @@ juggle  = 1
 velset = 0,0
 ctrl = 0
 anim = 1500
-poweradd = 100
+poweradd = 0
 sprpriority = 1
 
 [State 0, PlaySnd]
@@ -3391,7 +3391,7 @@ juggle  = 1
 velset = 0,0
 ctrl = 0
 anim = 1510
-poweradd = 50
+poweradd = 0
 sprpriority = 1
 
 [State 0, PlaySnd]
@@ -3816,7 +3816,7 @@ physics = S
 anim = 1700
 ctrl = 0
 juggle = 5
-poweradd = 100
+poweradd = 0
 
 
 [State 0, PlaySnd]
@@ -3888,7 +3888,7 @@ physics = S
 anim = 1710
 ctrl = 0
 velset = 0,0
-poweradd = 50
+poweradd = 0
 
 [State 0, PlaySnd]
 type = PlaySnd

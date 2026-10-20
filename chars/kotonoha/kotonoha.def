@@ -7,6 +7,7 @@ author = "どうでもいい人"        ;キャラの製作者名
 
 ; Files for the player
 [Files]
+movelist = movelist.dat
 cmd     = kotonoha.cmd   ;キャラのコマンド
 cns     = kotonoha.cns   ;キャラのプログラム
 st      = kotonoha.cns   ;キャラのプログラム

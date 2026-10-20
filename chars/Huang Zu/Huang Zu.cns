@@ -297,7 +297,7 @@ type    = S
 movetype= A
 physics = S
 juggle  = 4
-poweradd=20*!var(20)
+poweradd=0*!var(20)
 ctrl = 0
 velset = 0,0
 anim=200
@@ -332,7 +332,7 @@ air.type = High                  ;Type: High, Low, Trip (def: same as ground.typ
 air.velocity = -1.4,-3           ;X-velocity at which opponent is pushed,
 ;Y-velocity at which opponent is pushed
 air.hittime = 12     
-getpower=195*!var(20)
+getpower = 30,15
 
 [State 200, 6]
 type = ChangeState
@@ -347,7 +347,7 @@ type    = S
 movetype= A
 physics = S
 juggle  = 4
-poweradd=20*!var(20)
+poweradd=0*!var(20)
 ctrl = 0
 velset = 0,0
 anim=210
@@ -382,7 +382,7 @@ air.type = High                  ;Type: High, Low, Trip (def: same as ground.typ
 air.velocity = -1.4,-3           ;X-velocity at which opponent is pushed,
 ;Y-velocity at which opponent is pushed
 air.hittime = 12     
-getpower=195*!var(20)
+getpower = 30,15
 
 [State 210, 6]
 type = ChangeState
@@ -397,7 +397,7 @@ type    = S
 movetype= A
 physics = S
 juggle  = 4
-poweradd=20*!var(20)
+poweradd=0*!var(20)
 ctrl = 0
 velset = 0,0
 anim=220
@@ -432,7 +432,7 @@ air.type = High                  ;Type: High, Low, Trip (def: same as ground.typ
 air.velocity = -1.4,-3           ;X-velocity at which opponent is pushed,
 ;Y-velocity at which opponent is pushed
 air.hittime = 12            ;Type: High, Low, Trip (def: Normal)
-getpower=195*!var(20)
+getpower = 30,15
 
 [State 220, 6]
 type = ChangeState
@@ -447,7 +447,7 @@ type    = S
 movetype= A
 physics = S
 juggle  = 4
-poweradd=20*!var(20)
+poweradd=0*!var(20)
 ctrl = 0
 velset = 0,0
 anim=230
@@ -493,7 +493,7 @@ type    = S
 movetype= A
 physics = S
 juggle  = 4
-poweradd=20*!var(20)
+poweradd=0*!var(20)
 ctrl = 0
 velset = 0,0
 anim=211
@@ -532,7 +532,7 @@ ground.velocity = -5
 guard.velocity = -3
 air.velocity = -3,-4
 airguard.velocity = -5, -4
-getpower=195*!var(20)
+getpower = 30,15
 
 [State 211, 6]
 type = ChangeState
@@ -547,7 +547,7 @@ type    = S
 movetype= A
 physics = S
 juggle  = 4
-poweradd=20*!var(20)
+poweradd=0*!var(20)
 ctrl = 0
 velset = 0,0
 anim=201
@@ -606,7 +606,7 @@ type    = S
 movetype= A
 physics = S
 juggle  = 4
-poweradd=20*!var(20)
+poweradd=0*!var(20)
 ctrl = 0
 velset = 0,0
 anim=221
@@ -665,7 +665,7 @@ type    = C
 movetype= A
 physics = C
 juggle  = 4
-poweradd=20*!var(20)
+poweradd=0*!var(20)
 ctrl = 0
 velset = 0,0
 anim=400
@@ -699,7 +699,7 @@ air.type = High                  ;Type: High, Low, Trip (def: same as ground.typ
 air.velocity = -1.4,-3           ;X-velocity at which opponent is pushed,
 ;Y-velocity at which opponent is pushed
 air.hittime = 12     
-getpower=195*!var(20)
+getpower = 30,15
 
 [State 400, 5]
 type = ChangeState
@@ -714,7 +714,7 @@ type    = C
 movetype= A
 physics = C
 juggle  = 4
-poweradd=20*!var(20)
+poweradd=0*!var(20)
 ctrl = 0
 velset = 0,0
 anim=410
@@ -748,7 +748,7 @@ air.type = High                  ;Type: High, Low, Trip (def: same as ground.typ
 air.velocity = -1.4,-3           ;X-velocity at which opponent is pushed,
 ;Y-velocity at which opponent is pushed
 air.hittime = 12     
-getpower=195*!var(20)
+getpower = 30,15
 
 [State 410, 5]
 type = ChangeState
@@ -763,7 +763,7 @@ type    = C
 movetype= A
 physics = C
 juggle  = 4
-poweradd=20*!var(20)
+poweradd=0*!var(20)
 ctrl = 0
 velset = 0,0
 anim=420
@@ -798,7 +798,7 @@ air.velocity = -1.4,-3           ;X-velocity at which opponent is pushed,
 ;Y-velocity at which opponent is push
 fall =1
 air.hittime = 12     
-getpower=195*!var(20)
+getpower = 30,15
 
 [State 420, 5]
 type = ChangeState
@@ -813,7 +813,7 @@ type    = C
 movetype= A
 physics = C
 juggle  = 4
-poweradd=20*!var(20)
+poweradd=0*!var(20)
 ctrl = 0
 velset = 0,0
 anim=430
@@ -847,7 +847,7 @@ air.type = High                  ;Type: High, Low, Trip (def: same as ground.typ
 air.velocity = -1.4,-3           ;X-velocity at which opponent is pushed,
 ;Y-velocity at which opponent is pushed
 air.hittime = 12     
-getpower=195*!var(20)
+getpower = 30,15
 
 [State 430, 5]
 type = ChangeState
@@ -862,7 +862,7 @@ type    = A
 movetype= A
 physics = A
 juggle = 4
-poweradd=20*!var(20)
+poweradd=0*!var(20)
 ctrl = 0
 anim=600
 
@@ -891,7 +891,7 @@ ground.velocity = -4             ;Velocity at which opponent is pushed.5, air.yv
 air.type = High                  ;Type: High, Low, Trip (def: same as ground.type)
 air.hittime = 12
 air.velocity = -4,-2
-getpower=195*!var(20)
+getpower = 30,15
 
 [State 600, 3]
 type = CtrlSet
@@ -905,7 +905,7 @@ type    = A
 movetype= A
 physics = A
 juggle = 4
-poweradd=20*!var(20)
+poweradd=0*!var(20)
 ctrl = 0
 anim=610
 
@@ -934,7 +934,7 @@ ground.velocity = -4             ;Velocity at which opponent is pushed.5, air.yv
 air.type = High                  ;Type: High, Low, Trip (def: same as ground.type)
 air.hittime = 12
 air.velocity = -4,-2
-getpower=195*!var(20)
+getpower = 30,15
 
 [State 610, 3]
 type = CtrlSet
@@ -948,7 +948,7 @@ type    = A
 movetype= A
 physics = A
 juggle = 4
-poweradd=20*!var(20)
+poweradd=0*!var(20)
 ctrl = 0
 anim=620
 
@@ -977,7 +977,7 @@ ground.velocity = -4             ;Velocity at which opponent is pushed.5, air.yv
 air.velocity = -5, 4
 air.type = High                  ;Type: High, Low, Trip (def: same as ground.type)
 air.hittime = 12     
-getpower=195*!var(20)
+getpower = 30,15
 
 [State 620, 3]
 type = CtrlSet
@@ -991,7 +991,7 @@ type    = A
 movetype= A
 physics = A
 juggle = 4
-poweradd=20*!var(20)
+poweradd=0*!var(20)
 ctrl = 0
 anim=630
 
@@ -1020,7 +1020,7 @@ ground.velocity = -4             ;Velocity at which opponent is pushed.5, air.yv
 air.type = High                  ;Type: High, Low, Trip (def: same as ground.type)
 air.hittime = 12
 air.velocity = -5,-5
-getpower=195*!var(20)
+getpower = 30,15
 
 [State 630, 3]
 type = CtrlSet
@@ -1031,6 +1031,7 @@ value = 1
 ;Special #1
 [Statedef 1000]
 type    = S
+poweradd = 20
 movetype= A
 physics = S
 ctrl = 0
@@ -1087,7 +1088,7 @@ ground.velocity = -5
 Guard.Velocity = -3
 Air.Velocity = -5,-3
 Air.Juggle = 10
-GetPower = 200,0
+getpower = 30,15
 GivePower = 75,10
 hitsound = s0,11
 guardsound = S0,6
@@ -1510,7 +1511,7 @@ movetype= A
 physics = S
 juggle  = 0
 velset = 0,0
-poweradd=20*!var(20)
+poweradd=0*!var(20)
 ctrl = 0
 anim = 800
 sprpriority = 2
@@ -1525,6 +1526,7 @@ volumescale = 250
 type = HitDef
 Trigger1 = Time = 0
 damage = 45,0
+getpower = 60,30
 attr = S, NT          ;Attributes: Standing, Normal Throw
 hitflag = M-          ;Affect only ground people who are not being hit
 priority = 1, Miss    ;Throw has low priority, must be miss or dodge type.
@@ -1553,7 +1555,7 @@ type    = S
 movetype= A
 physics = N
 anim = 801
-poweradd=20*!var(20)
+poweradd=0*!var(20)
 
 [State 801, Bind ]
 type = TargetBind
@@ -1642,7 +1644,7 @@ movetype= A
 physics = S
 juggle  = 0
 velset = 0,0
-poweradd=20*!var(20)
+poweradd=0*!var(20)
 ctrl = 0
 anim = 810
 sprpriority = 2
@@ -1673,7 +1675,7 @@ type    = S
 movetype= A
 physics = N
 anim = 811
-poweradd=20*!var(20)
+poweradd=0*!var(20)
 
 [State 811, Bind ]
 type = TargetBind
@@ -1807,7 +1809,7 @@ movetype= A
 physics = S
 juggle  = 0
 velset = 0,0
-poweradd=20*!var(20)
+poweradd=0*!var(20)
 ctrl = 0
 anim = 820
 sprpriority = 2
@@ -1822,6 +1824,7 @@ volumescale = 250
 type = HitDef
 Trigger1 = Time = 0
 damage = 45,0
+getpower = 60,30
 attr = S, NT          ;Attributes: Standing, Normal Throw
 hitflag = M-          ;Affect only ground people who are not being hit
 priority = 1, Miss    ;Throw has low priority, must be miss or dodge type.
@@ -1850,7 +1853,7 @@ type    = S
 movetype= A
 physics = N
 anim = 821
-poweradd=20*!var(20)
+poweradd=0*!var(20)
 
 [State 801, Bind ]
 type = TargetBind
@@ -1925,7 +1928,7 @@ movetype= A
 physics = S
 juggle  = 0
 velset = 0,0
-poweradd=20*!var(20)
+poweradd=0*!var(20)
 ctrl = 0
 anim = 830
 sprpriority = 2
@@ -1940,6 +1943,7 @@ volumescale = 250
 type = HitDef
 Trigger1 = Time = 0
 damage = 45,0
+getpower = 60,30
 attr = S, NT          ;Attributes: Standing, Normal Throw
 hitflag = M-          ;Affect only ground people who are not being hit
 priority = 1, Miss    ;Throw has low priority, must be miss or dodge type.
@@ -1968,7 +1972,7 @@ type    = S
 movetype= A
 physics = N
 anim = 831
-poweradd=20*!var(20)
+poweradd=0*!var(20)
 
 [State 831, Bind ]
 type = TargetBind

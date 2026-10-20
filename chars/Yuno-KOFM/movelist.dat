@@ -1,0 +1,26 @@
+<#f0f000>:Special Moves:</>
+a			_D_F^B
+a			_D_F^A
+a			_QCB^B
+a			_QCB^A
+a			_QCB^Y
+a			_QCB^X
+a			_DSF^Y
+Especial 8			^Y_+^B
+Taunt			~B^X_+^A
+Taunt			^X_+^A
+
+<#f0f000>:Hyper Moves:</>
+Super 1 <#f00000>(3000)</>			_QCB_QCB^C
+Strong Kung Fu Palm <#f00000>(3000)</>			_D_F_D_F^C
+Strong Kung Fu Palm <#f00000>(2000)</>			_D_F_D_F^X_+^Y
+Strong Kung Fu Palm <#f00000>(1000)</>			_D_F_D_F^X
+Strong Kung Fu Palm <#f00000>(1000)</>			_D_B_D_B^B
+Strong Kung Fu Palm <#f00000>(1000)</>			_D_F_D_F^A
+Strong Kung Fu Palm <#f00000>(2000)</>			_QCB_QCB^X_+^Y
+Strong Kung Fu Palm <#f00000>(1000)</>			_QCB_QCB^Y
+a <#f00000>(500)</>			_D_F^A_+^B
+a <#f00000>(500)</>			_QCB^X_+^Y
+Super 11 <#f00000>(1000)</>			^Y_+^B
+Super 12 <#f00000>(1000)</>			~B^X_+^A
+Super 13 <#f00000>(1000)</>			^X_+^A

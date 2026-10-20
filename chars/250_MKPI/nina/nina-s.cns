@@ -8,7 +8,7 @@ type = A
 movetype = A
 physics = A
 juggle = 4
-poweradd = 15
+poweradd = 0
 ctrl = 0
 anim = 655
 sprpriority = 2
@@ -92,7 +92,7 @@ type = S
 movetype = A
 physics = S
 anim = 1000
-poweradd = 80
+poweradd = 0
 velset = 0
 ctrl = 0
 sprpriority = 1
@@ -151,7 +151,7 @@ type = S
 movetype = A
 physics = S
 anim = 1001
-poweradd = 30
+poweradd = 0
 velset = 0
 ctrl = 0
 sprpriority = 1
@@ -254,7 +254,7 @@ type = S
 movetype = A
 physics = S
 anim = 1050
-poweradd = 80
+poweradd = 0
 velset = 0
 ctrl = 0
 
@@ -312,7 +312,7 @@ type = S
 movetype = A
 physics = S
 anim = 1051
-poweradd = 30
+poweradd = 0
 velset = 0
 ctrl = 0
 
@@ -386,7 +386,7 @@ movetype = A
 physics = S
 anim = 1100
 sprpriority = 98
-poweradd = 110
+poweradd = 0
 velset = 0,0
 ctrl = 0
 
@@ -487,7 +487,7 @@ type = S
 movetype = A
 physics = S
 anim = 1200
-poweradd = 100
+poweradd = 0
 velset = 0
 ctrl = 0
 
@@ -610,7 +610,7 @@ velset = 0, 0
 ctrl = 0
 juggle = 2
 sprpriority = 2
-poweradd = 110
+poweradd = 0
 anim = 1300
 
 [State 0]
@@ -698,7 +698,7 @@ velset = 0, 0
 ctrl = 0
 juggle = 2
 sprpriority = 2
-poweradd = 50
+poweradd = 0
 anim = 1350
 
 [State 0, PosAdd]
@@ -828,7 +828,7 @@ velset = 0, 0
 ctrl = 0
 juggle = 2
 sprpriority = 2
-poweradd = 50
+poweradd = 0
 anim = 1351
 
 	[State 0, PlayerPush]
@@ -1098,7 +1098,7 @@ velset = 0, 0
 ctrl = 0
 juggle = 2
 sprpriority = -1
-poweradd = 110
+poweradd = 0
 anim = 1400
 	
 
@@ -1346,7 +1346,7 @@ movetype = a
 ctrl = 0
 juggle = 2
 sprpriority = -1
-poweradd = 110
+poweradd = 0
 anim = 1500
 
 [State 0]
@@ -1670,7 +1670,7 @@ velset = 0, 0
 ctrl = 0
 juggle = 2
 sprpriority = -1
-poweradd = 80
+poweradd = 0
 anim = 1500
 
 [State 0]
@@ -1846,7 +1846,7 @@ juggle = 3
 [StateDef 1610]
 movetype = A
 anim = 1610
-poweradd = 110
+poweradd = 0
 
 [State 0]
 	type = VarSet
@@ -2186,7 +2186,7 @@ velset = 0, 0
 ctrl = 0
 juggle = 2
 sprpriority = 10
-poweradd = 50
+poweradd = 0
 anim = 1702
 
 [State 0, PlayerPush]
@@ -2356,7 +2356,7 @@ type    = S
 movetype= A
 physics = N
 anim = 1830
-poweradd = 60
+poweradd = 0
 velset = 0,0
 
 [State -2, PlayerPush]

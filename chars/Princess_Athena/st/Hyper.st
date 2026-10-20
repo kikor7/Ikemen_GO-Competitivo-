@@ -374,6 +374,7 @@
   Trigger1         = Time = 0
   Attr             = S, HA
   Damage           = 0, 0
+getpower = 60,30
   AnimType         = Hard
   HitFlag          = MAF
   GuardFlag        = MA
@@ -878,6 +879,7 @@
 ;------------------------------------------------------------------------------;
 [Statedef 3100]
   Type        = S
+poweradd = 20
   MoveType    = A
   Physics     = S
   Juggle      = 0
@@ -1314,7 +1316,7 @@
   Trigger2         = Var(22) < 4
   Attr             = A, HP
   Damage           = IfElse(Root,Var(3)=0,IfElse(Floor(30*Root,FVar(5))<1,1,Floor(30*Root,FVar(5))),40),0
-  GetPower         = 0
+  getpower = 15,7
   AnimType         = Hard
   HitFlag          = MAFP
   GuardFlag        = M
@@ -1444,7 +1446,7 @@
   Trigger1         = Var(23) < 3
   Attr             = A, HP
   Damage           = IfElse(Root,Var(3)=0,IfElse(Floor(30*Root,FVar(5))<1,1,Floor(30*Root,FVar(5))),40),0
-  GetPower         = 0
+  getpower = 15,7
   AnimType         = Hard
   HitFlag          = MAFP
   GuardFlag        = M
@@ -1525,6 +1527,7 @@
 ;------------------------------------------------------------------------------;
 [Statedef 3200]
   Type        = U
+poweradd = 20
   MoveType    = A
   Physics     = S
   Juggle      = 0
@@ -2666,7 +2669,7 @@
   Trigger6         = AnimElem = 76
   Attr             = A, HP
   Damage           = IfElse(Root,Var(3)=0,IfElse(Floor(60*Root,FVar(5))<1,1,Floor(60*Root,FVar(5))),70),0
-  GetPower         = 0
+  getpower = 6,3
   AnimType         = Hard
   HitFlag          = MAFP
   GuardFlag        = MA
@@ -2700,7 +2703,7 @@
   Trigger1         = Time = 0
   Attr             = A, HP
   Damage           = IfElse(Root,Var(3)=0,IfElse(Floor(220*Root,FVar(5))<1,1,Floor(220*Root,FVar(5))),230),0
-  GetPower         = 0
+  getpower = 6,3
   AnimType         = Hard
   HitFlag          = MAFP
   GuardFlag        = MA
@@ -3021,7 +3024,7 @@
   Trigger6         = AnimElem = 76
   Attr             = A, HP
   Damage           = IfElse(Root,Var(3)=0,IfElse(Floor(60*Root,FVar(5))<1,1,Floor(60*Root,FVar(5))),70),0
-  GetPower         = 0
+  getpower = 6,3
   AnimType         = Hard
   HitFlag          = MAFP
   GuardFlag        = MA
@@ -3051,7 +3054,7 @@
   Trigger1         = Var(25) < 3
   Attr             = A, HP
   Damage           = IfElse(Root,Var(3)=0,IfElse(Floor(60*Root,FVar(5))<1,1,Floor(60*Root,FVar(5))),70),0
-  GetPower         = 0
+  getpower = 6,3
   AnimType         = DiagUp
   HitFlag          = MAFP
   GuardFlag        = MA
@@ -3082,7 +3085,7 @@
   Trigger1         = Var(25) < 5
   Attr             = A, HP
   Damage           = IfElse(Root,Var(3)=0,IfElse(Floor(60*Root,FVar(5))<1,1,Floor(60*Root,FVar(5))),70),0
-  GetPower         = 0
+  getpower = 6,3
   AnimType         = DiagUp
   HitFlag          = MAFP
   GuardFlag        = MA

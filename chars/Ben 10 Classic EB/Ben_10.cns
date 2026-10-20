@@ -114,7 +114,7 @@ physics = S
 juggle  = 1
 ctrl = 0
 anim = 195
-poweradd = 20
+poweradd = 0
 sprpriority = 2
 
 [State 0, Explod]
@@ -260,7 +260,7 @@ juggle  = 1
 velset = 0,0
 ctrl = 0
 anim = 200
-poweradd = 20
+poweradd = 0
 sprpriority = 2
 
 [State 0, PlaySnd]
@@ -273,6 +273,7 @@ type = HitDef
 trigger1 = AnimElem = 2
 attr = S, NA
 damage = 8,0
+getpower = 10,5
 animtype = Light
 guardflag = MA
 hitflag = MAF
@@ -315,7 +316,7 @@ juggle  = 1
 velset = 0,0
 ctrl = 0
 anim = 201
-poweradd = 20
+poweradd = 0
 sprpriority = 2
 
 [State 0, PlaySnd]
@@ -328,6 +329,7 @@ type = HitDef
 trigger1 = AnimElem = 2
 attr = S, NA
 damage = 8
+getpower = 10,5
 animtype = Light
 guardflag = MA
 hitflag = MAF
@@ -378,7 +380,7 @@ juggle  = 1
 velset = 0,0
 ctrl = 0
 anim = 202
-poweradd = 20
+poweradd = 0
 sprpriority = 2
 
 [State 0, PlaySnd]
@@ -391,6 +393,7 @@ type = HitDef
 trigger1 = AnimElem = 1
 attr = S, NA
 damage = 8,0
+getpower = 10,5
 animtype = Light
 guardflag = MA
 hitflag = MAF
@@ -432,7 +435,7 @@ juggle  = 1
 velset = 0,0
 ctrl = 0
 anim = 210
-poweradd = 20
+poweradd = 0
 sprpriority = 2
 
 [State 0, PlaySnd]
@@ -445,6 +448,7 @@ type = HitDef
 trigger1 = AnimElem = 4
 attr = S, NA
 damage = 8,0
+getpower = 10,5
 animtype = Light
 guardflag = MA
 hitflag = MAF
@@ -492,7 +496,7 @@ juggle  = 1
 velset = 0,0
 ctrl = 0
 anim = 211
-poweradd = 20
+poweradd = 0
 sprpriority = 2
 
 [State 0, PlaySnd]
@@ -505,6 +509,7 @@ type = HitDef
 trigger1 = AnimElem = 3
 attr = S, NA
 damage = 8,0
+getpower = 10,5
 animtype = Light
 guardflag = MA
 hitflag = MAF
@@ -552,7 +557,7 @@ juggle  = 1
 velset = 0,0
 ctrl = 0
 anim = 212
-poweradd = 20
+poweradd = 0
 sprpriority = 2
 
 [State 0, PlaySnd]
@@ -565,6 +570,7 @@ type = HitDef
 trigger1 = AnimElem = 3
 attr = S, NA
 damage = 8,0
+getpower = 10,5
 animtype = Light
 guardflag = MA
 hitflag = MAF
@@ -606,7 +612,7 @@ juggle  = 1
 velset = 0,0
 ctrl = 0
 anim = 300
-poweradd = 20
+poweradd = 0
 sprpriority = 2
 
 [State 0, PlaySnd]
@@ -619,6 +625,7 @@ type = HitDef
 trigger1 = AnimElem = 2
 attr = S, NA
 damage = 8,0
+getpower = 30,15
 animtype = Light
 guardflag = MA
 hitflag = MAF
@@ -654,7 +661,7 @@ juggle  = 1
 velset = 0,0
 ctrl = 0
 anim = 310
-poweradd = 20
+poweradd = 0
 sprpriority = 2
 
 [State 0, PlaySnd]
@@ -667,6 +674,7 @@ type = HitDef
 trigger1 = AnimElem = 5
 attr = S, NA
 damage = 8,0
+getpower = 30,15
 animtype = Light
 guardflag = MA
 hitflag = MAF
@@ -846,7 +854,7 @@ juggle  = 1
 velset = 0,0
 ctrl = 0
 anim = 6020
-poweradd = 20
+poweradd = 0
 sprpriority = 2
 
 [State 6020, end]
@@ -863,7 +871,7 @@ juggle  = 1
 velset = 0,0
 ctrl = 0
 anim = 6019
-poweradd = 20
+poweradd = 0
 sprpriority = 2
 
 [State 6019, 1]
@@ -1055,7 +1063,7 @@ juggle  = 1
 velset = 0,0
 ctrl = 0
 anim = 7018
-poweradd = 20
+poweradd = 0
 sprpriority = 2
 
 [State 7018, 1]
@@ -1250,7 +1258,7 @@ juggle  = 1
 velset = 0,0
 ctrl = 0
 anim = 8019
-poweradd = 20
+poweradd = 0
 sprpriority = 2
 
 [State 8019, end]
@@ -1267,7 +1275,7 @@ physics = S
 juggle  = 1
 ctrl = 0
 anim = 8020+random%2
-poweradd = 20
+poweradd = 0
 sprpriority = 2
 
 [State 8020, 1]
@@ -1472,7 +1480,7 @@ juggle  = 1
 velset = 0,0
 ctrl = 0
 anim = 9018
-poweradd = 20
+poweradd = 0
 sprpriority = 2
 
 [State 9018, 1]
@@ -1569,7 +1577,7 @@ juggle  = 1
 velset = 0,0
 ctrl = 0
 anim = 9019
-poweradd = 20
+poweradd = 0
 sprpriority = 2
 
 [State 9019, 1]
@@ -1666,7 +1674,7 @@ juggle  = 1
 velset = 0,0
 ctrl = 0
 anim = 9018
-poweradd = 20
+poweradd = 0
 sprpriority = 2
 
 [State 9019, 1]
@@ -1763,7 +1771,7 @@ juggle  = 1
 velset = 0,0
 ctrl = 0
 anim = 9019
-poweradd = 20
+poweradd = 0
 sprpriority = 2
 
 [State 9030, 1]
@@ -1860,7 +1868,7 @@ juggle  = 1
 velset = 0,0
 ctrl = 0
 anim = 9018
-poweradd = 20
+poweradd = 0
 sprpriority = 2
 
 [State 9040, 1]
@@ -1957,7 +1965,7 @@ juggle  = 1
 velset = 0,0
 ctrl = 0
 anim = 9020
-poweradd = 20
+poweradd = 0
 sprpriority = 2
 
 [State 9050, 1]
@@ -2492,7 +2500,7 @@ juggle  = 1
 velset = 0,0
 ctrl = 0
 anim = 20018
-poweradd = 20
+poweradd = 0
 sprpriority = 2
 
 [State 20018, 1]
@@ -2748,7 +2756,7 @@ juggle  = 1
 velset = 0,0
 ctrl = 0
 anim = 30018
-poweradd = 20
+poweradd = 0
 sprpriority = 2
 
 [State 0, Explod]
@@ -2846,7 +2854,7 @@ juggle  = 1
 velset = 0,0
 ctrl = 0
 anim = 30020
-poweradd = 20
+poweradd = 0
 sprpriority = 2
 
 
@@ -2864,7 +2872,7 @@ juggle  = 1
 velset = 0,0
 ctrl = 0
 anim = 30030
-poweradd = 20
+poweradd = 0
 sprpriority = 2
 
 [State 0, SuperPause]
@@ -2908,7 +2916,7 @@ juggle  = 1
 velset = 0,0
 ctrl = 0
 anim = 30040
-poweradd = 20
+poweradd = 0
 sprpriority = 2
 
 [State 30040, 1]
@@ -2946,7 +2954,7 @@ juggle  = 1
 velset = 0,0
 ctrl = 0
 anim = 30050
-poweradd = 20
+poweradd = 0
 sprpriority = 2
 
 [State 30040, end]
@@ -3114,7 +3122,7 @@ juggle  = 1
 velset = 0,0
 ctrl = 0
 anim = 40019
-poweradd = 20
+poweradd = 0
 sprpriority = 2
 
 
@@ -3132,7 +3140,7 @@ juggle  = 1
 velset = 0,0
 ctrl = 0
 anim = 40020
-poweradd = 20
+poweradd = 0
 sprpriority = 2
 
 [State 40020, 1]
@@ -3279,7 +3287,7 @@ juggle  = 1
 velset = 0,0
 ctrl = 0
 anim = 50018
-poweradd = 20
+poweradd = 0
 sprpriority = 2
 
 [State 50018, 1]
@@ -3363,7 +3371,7 @@ juggle  = 1
 velset = 0,0
 ctrl = 0
 anim = 50019
-poweradd = 20
+poweradd = 0
 sprpriority = 2
 
 [State 50019, end]
@@ -3486,7 +3494,7 @@ juggle  = 1
 velset = 0,0
 ctrl = 0
 anim = 60018
-poweradd = 20
+poweradd = 0
 sprpriority = 2
 
 [State 0]
@@ -3830,7 +3838,7 @@ juggle  = 1
 velset = 0,0
 ctrl = 0
 anim = 70019
-poweradd = 20
+poweradd = 0
 sprpriority = 2
 
 [State 70019, end]
@@ -3847,7 +3855,7 @@ juggle  = 1
 velset = 0,0
 ctrl = 0
 anim = 70020
-poweradd = 20
+poweradd = 0
 sprpriority = 2
 
 [State 70020, 1]
@@ -4035,7 +4043,7 @@ juggle  = 1
 velset = 0,0
 ctrl = 0
 anim = 80018
-poweradd = 20
+poweradd = 0
 sprpriority = 2
 
 [State 80018, 1]
@@ -4078,7 +4086,7 @@ juggle  = 1
 velset = 0,0
 ctrl = 0
 anim = 80019
-poweradd = 20
+poweradd = 0
 sprpriority = 2
 
 
@@ -4219,7 +4227,7 @@ juggle  = 1
 velset = 0,0
 ctrl = 0
 anim = 90018
-poweradd = 20
+poweradd = 0
 sprpriority = 2
 
 [State 90018, 1]
@@ -4256,7 +4264,7 @@ juggle  = 1
 velset = 0,0
 ctrl = 0
 anim = 20040
-poweradd = 20-var(9)*10
+poweradd = 0-var(9)*10
 sprpriority = 2
 
 [State 0, Explod]
@@ -4306,7 +4314,7 @@ juggle  = 1
 velset = 0,0
 ctrl = 0
 anim = 20041
-poweradd = 20-var(9)*10
+poweradd = 0-var(9)*10
 sprpriority = 2
 
 [State 20041, end]

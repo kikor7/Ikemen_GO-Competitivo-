@@ -1,0 +1,19 @@
+<#f0f000>:Special Moves:</>
+Kung Fu Throw			_F_D_B^B
+ab			_DSF^X
+ab			_DSF^Y
+ab			_QCF^X
+ab			_QCF^Y
+at			_QCB^A
+at			_QCB^B
+Especial 8			^Y_+^B
+
+<#f0f000>:Hyper Moves:</>
+ac <#f00000>(3000)</>			_D_F_D_F^C
+ab <#f00000>(2000)</>			_D_F_D_F^X_+^Y
+Suupaa <#f00000>(2000)</>			_D_B_D_F^A
+ab <#f00000>(1000)</>			_D_B_D_B^X
+at <#f00000>(1000)</>			_D_B_D_B^A
+ac <#f00000>(2000)</>			_D_F_D_F^A_+^B
+Chuudan <#f00000>(1000)</>			^Y_+^B
+Super 8 <#f00000>(1000)</>			^A_+^X

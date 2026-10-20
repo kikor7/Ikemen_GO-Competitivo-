@@ -1,0 +1,23 @@
+<#f0f000>:Special Moves:</>
+Especial 1			_QCF^A_+^X
+pow			^A_+^X
+Especial 3			_QCB^X
+Especial 4			_QCB^Y
+Especial 5			_QCB^A
+Especial 6			_QCF^A
+Especial 7			_QCF^B
+Especial 8			_HCF^X
+Especial 9			_QCF^X
+Especial 10			_HCF^Y
+Especial 11			_QCF^Y
+Stand C			^B_+^Y
+kawari			^A_+^B
+
+<#f0f000>:Hyper Moves:</>
+Super 1 <#f00000>(4000)</>			_QCF^A_+^X
+Super 2 <#f00000>(2000)</>			_QCF^X_+^Y
+Super 3 <#f00000>(1000)</>			_QCB^X_+^Y
+Super 4 <#f00000>(1000)</>			_QCF^A_+^B
+Super 5 <#f00000>(2000)</>			_QCB^A_+^B
+Super 6 <#f00000>(2000)</>			_D_D^X_+^Y
+Super 7 <#f00000>(1000)</>			_QCB^A

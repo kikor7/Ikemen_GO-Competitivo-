@@ -11,6 +11,7 @@ author = "OHMSBY"
 pal.defaults = 1      
 
 [Files]
+movelist = movelist.dat
 cmd     = Plant.cmd
 cns     = Plant.cns
 st      = Plant.cns

@@ -189,7 +189,7 @@ ctrl = 0
 anim = 1100
 sprpriority = 1
 velset = 0,0
-poweradd = 100
+poweradd = 0
 
 
 [State 60, fueguitos]
@@ -341,7 +341,7 @@ physics = A
 ctrl = 0
 anim = 1150
 sprpriority = 1
-poweradd = 100
+poweradd = 0
 
 [State 0, VelSet]
 type = VelSet
@@ -412,7 +412,7 @@ attr = A, SP
 animtype  = Light
 damage    = 15,5
 guardflag = HA
-getpower = 0,0
+getpower = 60,30
 pausetime = 8,10
 sparkno = -1;s6000
 guard.sparkno = s7000
@@ -722,7 +722,7 @@ trigger3 =  Animelem = 3
 trigger4 =  Animelem = 4
 trigger5 =  Animelem = 5
 attr = A, SA
-getpower = 0,0
+getpower = 12,6
 damage    = 40, 5
 guardflag = MA
 priority = 4
@@ -846,7 +846,7 @@ trigger3 =  Animelem = 3
 trigger4 =  Animelem = 4
 trigger5 =  Animelem = 5
 attr = A, SA
-getpower = 0,0
+getpower = 12,6
 damage    = 40, 5
 guardflag = MA
 priority = 4
@@ -976,7 +976,7 @@ trigger3 =  Animelem = 3
 trigger4 =  Animelem = 4
 trigger5 =  Animelem = 5
 attr = A, SA
-getpower = 0,0
+getpower = 12,6
 damage    = 40, 5
 guardflag = MA
 priority = 4
@@ -1100,7 +1100,7 @@ trigger3 =  Animelem = 3
 trigger4 =  Animelem = 4
 trigger5 =  Animelem = 5
 attr = A, SA
-getpower = 0,0
+getpower = 12,6
 damage    = 40, 5
 guardflag = MA
 priority = 4
@@ -1264,7 +1264,7 @@ trigger3 =  Animelem = 3
 trigger4 =  Animelem = 4
 trigger5 =  Animelem = 5
 attr = A, SA
-getpower = 0,0
+getpower = 12,6
 damage    = 40, 5
 guardflag = MA
 priority = 4
@@ -1401,7 +1401,7 @@ trigger3 =  Animelem = 3
 trigger4 =  Animelem = 4
 trigger5 =  Animelem = 5
 attr = A, SA
-getpower = 0,0
+getpower = 30,15
 damage    = 40, 5
 guardflag = MA
 priority = 4
@@ -1540,7 +1540,7 @@ trigger3 =  Animelem = 3
 trigger4 =  Animelem = 4
 trigger5 =  Animelem = 5
 attr = A, SA
-getpower = 0,0
+getpower = 30,15
 damage    = 40, 5
 guardflag = MA
 priority = 4
@@ -1769,7 +1769,7 @@ physics = S
 ctrl = 0
 anim = 1300
 sprpriority = 1
-poweradd = 100
+poweradd = 0
 velset = 0,0
 
 ;--- Guard Cancel --------------------------
@@ -1906,7 +1906,7 @@ trigger6 = Animelem = 9
 trigger7 = Animelem = 10
 attr = S, SA
 animtype  = Medium
-getpower = 0,0
+getpower = 60,30
 damage    = 80,5
 guardflag = MA
 pausetime = 12,14
@@ -2012,7 +2012,7 @@ type    = S
 physics = S
 ctrl = 0
 anim = 1400
-poweradd = 100
+poweradd = 0
 sprpriority = 1
 velset = 0,0
 
@@ -2165,6 +2165,7 @@ trigger1 = animelem = 1
 trigger2 = animelem = 2
 attr = S, SA
 damage    = 40,5
+getpower = 30,15
 hitflag	= MAFDP
 guardflag = HA
 animtype = Hard
@@ -2190,7 +2191,7 @@ trigger2 = animelem = 5
 trigger3 = animelem = 6
 attr = S, SA
 animtype  = Medium
-getpower = 0,0
+getpower = 30,15
 damage    = 25,5
 guardflag = L
 pausetime = 12,14

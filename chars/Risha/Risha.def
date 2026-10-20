@@ -12,6 +12,7 @@ author = "Romanov"
 pal.defaults = 
 
 [Files]
+movelist = movelist.dat
 sprite = Risha.sff
 anim = Risha.air
 sound = Risha.snd

@@ -8,6 +8,24 @@
 ;------------------------------------------------------------------------------;
 ; 地上避け
 ;------------------------------------------------------------------------------;
+;---------------------------------------------------------------------------
+; Recuperacion tras esquivar/rodar: sin control y golpeable unos frames,
+; para que no se pueda encadenar sin riesgo.
+;---------------------------------------------------------------------------
+[Statedef 1003]
+type = S
+movetype = I
+physics = S
+ctrl = 0
+anim = 0
+velset = 0,0
+
+[State 1003, Fin de la recuperacion]
+type = ChangeState
+trigger1 = Time >= 12
+value = 0
+ctrl = 1
+
 [Statedef 700]
 type        = S
 movetype    = I
@@ -75,8 +93,8 @@ time     = 2
 [State 800:         ChangeState, Standing]
 type     = ChangeState
 trigger1 = AnimTime = 0
-value    = 0
-ctrl     = 1
+value    = 1003
+ctrl     = 0
 
 ;------------------------------------------------------------------------------;
 ; 空中避け
@@ -2035,6 +2053,7 @@ guardflag        = HA
 animtype         = Hard
 priority         = 6, Hit
 damage           = 59, 0
+getpower = 60,30
 pausetime        = 8, 8
 sparkno          = S6000 + Random % 8
 guard.sparkno    = S6060
@@ -2064,6 +2083,7 @@ guardflag        = HA
 animtype         = Hard
 priority         = 6, Hit
 damage           = 59, 0
+getpower = 60,30
 pausetime        = 8, 8
 sparkno          = S6000 + Random % 8
 guard.sparkno    = S6060

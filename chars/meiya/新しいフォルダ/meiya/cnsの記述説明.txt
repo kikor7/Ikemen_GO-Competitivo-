@@ -7,7 +7,7 @@ juggle  = 1			;エリアル攻撃でどれだけ消費してコンボできるか
 velset = 0,0			;移動速度設定 Xの移動速度 , Yの移動速度
 ctrl = 0			;キー入力受付設定
 anim = 230			;描写ナンバー
-poweradd = 20			;ﾊﾟﾜｰｹﾞｰｼﾞの増減
+poweradd = 0			;ﾊﾟﾜｰｹﾞｰｼﾞの増減
 sprpriority = 2			;優先権
 facep2 = 1
 

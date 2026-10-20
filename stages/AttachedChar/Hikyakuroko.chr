@@ -495,7 +495,7 @@ juggle  = 1                     ;Number of air juggle points move takes
 ;Commonly-used controllers:
 velset = 0,0                     ;Set velocity (x,y) (Def: no change)
 ctrl = 0                         ;Set ctrl (Def: no change)
-anim = Rand(6,7)                       ;Change animation (Def: no change)
+anim = (6+floor(Random*2/1000.0))                       ;Change animation (Def: no change)
 poweradd = 0                    ;Power to add (Def: 0)
 sprpriority = -5                  ;Set p1's sprite layering priority to 2 (in front)
 
@@ -580,93 +580,93 @@ value = 10
 ;Reactions to attacks-----------------------------------------------------------------------------------------------------
 [State 500, TurnForP1]
 Triggerall = Roundstate = 2
-Triggerall = playerid(getplayerid(1)), alive = 1
-Triggerall = playerid(getplayerid(1)), GetHitVar(hitcount) > 0 
-Triggerall = playerid(getplayerid(1)), GetHitVar(guarded) = 0
-Triggerall = playerid(getplayerid(1)), GetHitVar(hittime) = 1
-trigger1 = Facing = -1 && playerid(getplayerid(1)), facing = 1;Judge is to the right of the one hit
-trigger2 = Facing = 1 && playerid(getplayerid(1)), facing = -1;Judge is to the right of the one hit
+Triggerall = player(1), alive = 1
+Triggerall = player(1), GetHitVar(hitcount) > 0 
+Triggerall = player(1), GetHitVar(guarded) = 0
+Triggerall = player(1), GetHitVar(hittime) = 1
+trigger1 = Facing = -1 && player(1), facing = 1;Judge is to the right of the one hit
+trigger2 = Facing = 1 && player(1), facing = -1;Judge is to the right of the one hit
 type = Turn
 
 [State 500, TurnForP2]
 Triggerall = Roundstate = 2
-Triggerall = playerid(getplayerid(2)), alive = 1
-Triggerall = playerid(getplayerid(2)), GetHitVar(hitcount) > 0 
-Triggerall = playerid(getplayerid(2)), GetHitVar(guarded) = 0
-Triggerall = playerid(getplayerid(2)), GetHitVar(hittime) = 1
-trigger1 = Facing = -1 && playerid(getplayerid(2)), facing = 1;Judge is to the right of the one hit
-trigger2 = Facing = 1 && playerid(getplayerid(2)), facing = -1;Judge is to the right of the one hit
+Triggerall = player(2), alive = 1
+Triggerall = player(2), GetHitVar(hitcount) > 0 
+Triggerall = player(2), GetHitVar(guarded) = 0
+Triggerall = player(2), GetHitVar(hittime) = 1
+trigger1 = Facing = -1 && player(2), facing = 1;Judge is to the right of the one hit
+trigger2 = Facing = 1 && player(2), facing = -1;Judge is to the right of the one hit
 type = Turn
 
 [State 500, TurnForP3]
 Triggerall = Roundstate = 2
-Triggerall = playerid(getplayerid(3)), alive = 1
-Triggerall = playerid(getplayerid(3)), GetHitVar(hitcount) > 0 
-Triggerall = playerid(getplayerid(3)), GetHitVar(guarded) = 0
-Triggerall = playerid(getplayerid(3)), GetHitVar(hittime) = 1
-trigger1 = Facing = -1 && playerid(getplayerid(3)), facing = 1;Judge is to the right of the one hit
-trigger2 = Facing = 1 && playerid(getplayerid(3)), facing = -1;Judge is to the right of the one hit
+Triggerall = player(3), alive = 1
+Triggerall = player(3), GetHitVar(hitcount) > 0 
+Triggerall = player(3), GetHitVar(guarded) = 0
+Triggerall = player(3), GetHitVar(hittime) = 1
+trigger1 = Facing = -1 && player(3), facing = 1;Judge is to the right of the one hit
+trigger2 = Facing = 1 && player(3), facing = -1;Judge is to the right of the one hit
 type = Turn
 
 [State 500, TurnForP4]
 Triggerall = Roundstate = 2
-Triggerall = playerid(getplayerid(4)), alive = 1
-Triggerall = playerid(getplayerid(4)), GetHitVar(hitcount) > 0 
-Triggerall = playerid(getplayerid(4)), GetHitVar(guarded) = 0
-Triggerall = playerid(getplayerid(4)), GetHitVar(hittime) = 1
-trigger1 = Facing = -1 && playerid(getplayerid(4)), facing = 1;Judge is to the right of the one hit
-trigger2 = Facing = 1 && playerid(getplayerid(4)), facing = -1;Judge is to the right of the one hit
+Triggerall = player(4), alive = 1
+Triggerall = player(4), GetHitVar(hitcount) > 0 
+Triggerall = player(4), GetHitVar(guarded) = 0
+Triggerall = player(4), GetHitVar(hittime) = 1
+trigger1 = Facing = -1 && player(4), facing = 1;Judge is to the right of the one hit
+trigger2 = Facing = 1 && player(4), facing = -1;Judge is to the right of the one hit
 type = Turn
 
 [State 500, TurnForP5]
 Triggerall = Roundstate = 2
-Triggerall = playerid(getplayerid(5)), alive = 1
-Triggerall = playerid(getplayerid(5)), GetHitVar(hitcount) > 0 
-Triggerall = playerid(getplayerid(5)), GetHitVar(guarded) = 0
-Triggerall = playerid(getplayerid(5)), GetHitVar(hittime) = 1
-trigger1 = Facing = -1 && playerid(getplayerid(5)), facing = 1;Judge is to the right of the one hit
-trigger2 = Facing = 1 && playerid(getplayerid(5)), facing = -1;Judge is to the right of the one hit
+Triggerall = player(5), alive = 1
+Triggerall = player(5), GetHitVar(hitcount) > 0 
+Triggerall = player(5), GetHitVar(guarded) = 0
+Triggerall = player(5), GetHitVar(hittime) = 1
+trigger1 = Facing = -1 && player(5), facing = 1;Judge is to the right of the one hit
+trigger2 = Facing = 1 && player(5), facing = -1;Judge is to the right of the one hit
 type = Turn
 
 [State 500, TurnForP6]
 Triggerall = Roundstate = 2
-Triggerall = playerid(getplayerid(6)), alive = 1
-Triggerall = playerid(getplayerid(6)), GetHitVar(hitcount) > 0 
-Triggerall = playerid(getplayerid(6)), GetHitVar(guarded) = 0
-Triggerall = playerid(getplayerid(6)), GetHitVar(hittime) = 1
-trigger1 = Facing = -1 && playerid(getplayerid(6)), facing = 1;Judge is to the right of the one hit
-trigger2 = Facing = 1 && playerid(getplayerid(6)), facing = -1;Judge is to the right of the one hit
+Triggerall = player(6), alive = 1
+Triggerall = player(6), GetHitVar(hitcount) > 0 
+Triggerall = player(6), GetHitVar(guarded) = 0
+Triggerall = player(6), GetHitVar(hittime) = 1
+trigger1 = Facing = -1 && player(6), facing = 1;Judge is to the right of the one hit
+trigger2 = Facing = 1 && player(6), facing = -1;Judge is to the right of the one hit
 type = Turn
 
 [State 500, TurnForP7]
 Triggerall = Roundstate = 2
-Triggerall = playerid(getplayerid(7)), alive = 1
-Triggerall = playerid(getplayerid(7)), GetHitVar(hitcount) > 0 
-Triggerall = playerid(getplayerid(7)), GetHitVar(guarded) = 0
-Triggerall = playerid(getplayerid(7)), GetHitVar(hittime) = 1
-trigger1 = Facing = -1 && playerid(getplayerid(7)), facing = 1;Judge is to the right of the one hit
-trigger2 = Facing = 1 && playerid(getplayerid(7)), facing = -1;Judge is to the right of the one hit
+Triggerall = player(7), alive = 1
+Triggerall = player(7), GetHitVar(hitcount) > 0 
+Triggerall = player(7), GetHitVar(guarded) = 0
+Triggerall = player(7), GetHitVar(hittime) = 1
+trigger1 = Facing = -1 && player(7), facing = 1;Judge is to the right of the one hit
+trigger2 = Facing = 1 && player(7), facing = -1;Judge is to the right of the one hit
 type = Turn
 
 [State 500, TurnForP8]
 Triggerall = Roundstate = 2
-Triggerall = playerid(getplayerid(8)), alive = 1
-Triggerall = playerid(getplayerid(8)), GetHitVar(hitcount) > 0 
-Triggerall = playerid(getplayerid(8)), GetHitVar(guarded) = 0
-Triggerall = playerid(getplayerid(8)), GetHitVar(hittime) = 1
-trigger1 = Facing = -1 && playerid(getplayerid(8)), facing = 1;Judge is to the right of the one hit
-trigger2 = Facing = 1 && playerid(getplayerid(8)), facing = -1;Judge is to the right of the one hit
+Triggerall = player(8), alive = 1
+Triggerall = player(8), GetHitVar(hitcount) > 0 
+Triggerall = player(8), GetHitVar(guarded) = 0
+Triggerall = player(8), GetHitVar(hittime) = 1
+trigger1 = Facing = -1 && player(8), facing = 1;Judge is to the right of the one hit
+trigger2 = Facing = 1 && player(8), facing = -1;Judge is to the right of the one hit
 type = Turn
 
 [State 500, DetectHit];When someone in P1 team is hit high, ippon
 Triggerall = Roundstate = 2 && NumExplod(95) = 0
 triggerall = Anim != 16 && Anim != 17;High
 triggerall = Anim != 19 && Anim != 20;Low
-Trigger1 = playerid(getplayerid(1)), alive = 1
-Trigger1 = playerid(getplayerid(1)), GetHitVar(hitcount) > 0 
-Trigger1 = playerid(getplayerid(1)), GetHitVar(groundtype) = 1; 2 is low 3 is trip
-Trigger1 = playerid(getplayerid(1)), GetHitVar(guarded) = 0
-trigger1 = playerid(getplayerid(1)), GetHitVar(hittime) = 1
+Trigger1 = player(1), alive = 1
+Trigger1 = player(1), GetHitVar(hitcount) > 0 
+Trigger1 = player(1), GetHitVar(groundtype) = 1; 2 is low 3 is trip
+Trigger1 = player(1), GetHitVar(guarded) = 0
+trigger1 = player(1), GetHitVar(hittime) = 1
 type = ChangeAnim
 value = 17
 
@@ -674,11 +674,11 @@ value = 17
 Triggerall = Roundstate = 2 && NumExplod(95) = 0
 triggerall = Anim != 16 && Anim != 17
 triggerall = Anim != 19 && Anim != 20
-Trigger1 = playerid(getplayerid(1)), alive = 1
-Trigger1 = playerid(getplayerid(1)), GetHitVar(hitcount) > 0 
-Trigger1 = playerid(getplayerid(1)), GetHitVar(groundtype) = 2 || playerid(getplayerid(1)), GetHitVar(groundtype) = 3
-Trigger1 = playerid(getplayerid(1)), GetHitVar(guarded) = 0
-trigger1 = playerid(getplayerid(1)), GetHitVar(hittime) = 1
+Trigger1 = player(1), alive = 1
+Trigger1 = player(1), GetHitVar(hitcount) > 0 
+Trigger1 = player(1), GetHitVar(groundtype) = 2 || player(1), GetHitVar(groundtype) = 3
+Trigger1 = player(1), GetHitVar(guarded) = 0
+trigger1 = player(1), GetHitVar(hittime) = 1
 type = ChangeAnim
 value = 19
 
@@ -686,11 +686,11 @@ value = 19
 Triggerall = Roundstate = 2 && NumExplod(95) = 0
 triggerall = Anim != 16 && Anim != 17;High
 triggerall = Anim != 19 && Anim != 20;Low
-Trigger1 = playerid(getplayerid(3)), alive = 1
-Trigger1 = playerid(getplayerid(3)), GetHitVar(hitcount) > 0 
-Trigger1 = playerid(getplayerid(3)), GetHitVar(groundtype) = 1; 2 is low 3 is trip
-Trigger1 = playerid(getplayerid(3)), GetHitVar(guarded) = 0
-trigger1 = playerid(getplayerid(3)), GetHitVar(hittime) = 1
+Trigger1 = player(3), alive = 1
+Trigger1 = player(3), GetHitVar(hitcount) > 0 
+Trigger1 = player(3), GetHitVar(groundtype) = 1; 2 is low 3 is trip
+Trigger1 = player(3), GetHitVar(guarded) = 0
+trigger1 = player(3), GetHitVar(hittime) = 1
 type = ChangeAnim
 value = 17
 
@@ -698,11 +698,11 @@ value = 17
 Triggerall = Roundstate = 2 && NumExplod(95) = 0
 triggerall = Anim != 16 && Anim != 17
 triggerall = Anim != 19 && Anim != 20
-Trigger1 = playerid(getplayerid(3)), alive = 1
-Trigger1 = playerid(getplayerid(3)), GetHitVar(hitcount) > 0 
-Trigger1 = playerid(getplayerid(3)), GetHitVar(groundtype) = 2 || playerid(getplayerid(1)), GetHitVar(groundtype) = 3
-Trigger1 = playerid(getplayerid(3)), GetHitVar(guarded) = 0
-trigger1 = playerid(getplayerid(3)), GetHitVar(hittime) = 1
+Trigger1 = player(3), alive = 1
+Trigger1 = player(3), GetHitVar(hitcount) > 0 
+Trigger1 = player(3), GetHitVar(groundtype) = 2 || player(1), GetHitVar(groundtype) = 3
+Trigger1 = player(3), GetHitVar(guarded) = 0
+trigger1 = player(3), GetHitVar(hittime) = 1
 type = ChangeAnim
 value = 19
 
@@ -710,11 +710,11 @@ value = 19
 Triggerall = Roundstate = 2 && NumExplod(95) = 0
 triggerall = Anim != 16 && Anim != 17;High
 triggerall = Anim != 19 && Anim != 20;Low
-Trigger1 = playerid(getplayerid(5)), alive = 1
-Trigger1 = playerid(getplayerid(5)), GetHitVar(hitcount) > 0 
-Trigger1 = playerid(getplayerid(5)), GetHitVar(groundtype) = 1; 2 is low 3 is trip
-Trigger1 = playerid(getplayerid(5)), GetHitVar(guarded) = 0
-trigger1 = playerid(getplayerid(5)), GetHitVar(hittime) = 1
+Trigger1 = player(5), alive = 1
+Trigger1 = player(5), GetHitVar(hitcount) > 0 
+Trigger1 = player(5), GetHitVar(groundtype) = 1; 2 is low 3 is trip
+Trigger1 = player(5), GetHitVar(guarded) = 0
+trigger1 = player(5), GetHitVar(hittime) = 1
 type = ChangeAnim
 value = 17
 
@@ -722,11 +722,11 @@ value = 17
 Triggerall = Roundstate = 2 && NumExplod(95) = 0
 triggerall = Anim != 16 && Anim != 17
 triggerall = Anim != 19 && Anim != 20
-Trigger1 = playerid(getplayerid(5)), alive = 1
-Trigger1 = playerid(getplayerid(5)), GetHitVar(hitcount) > 0 
-Trigger1 = playerid(getplayerid(5)), GetHitVar(groundtype) = 2 || playerid(getplayerid(1)), GetHitVar(groundtype) = 3
-Trigger1 = playerid(getplayerid(5)), GetHitVar(guarded) = 0
-trigger1 = playerid(getplayerid(5)), GetHitVar(hittime) = 1
+Trigger1 = player(5), alive = 1
+Trigger1 = player(5), GetHitVar(hitcount) > 0 
+Trigger1 = player(5), GetHitVar(groundtype) = 2 || player(1), GetHitVar(groundtype) = 3
+Trigger1 = player(5), GetHitVar(guarded) = 0
+trigger1 = player(5), GetHitVar(hittime) = 1
 type = ChangeAnim
 value = 19
 
@@ -734,11 +734,11 @@ value = 19
 Triggerall = Roundstate = 2 && NumExplod(95) = 0
 triggerall = Anim != 16 && Anim != 17;High
 triggerall = Anim != 19 && Anim != 20;Low
-Trigger1 = playerid(getplayerid(7)), alive = 1
-Trigger1 = playerid(getplayerid(7)), GetHitVar(hitcount) > 0 
-Trigger1 = playerid(getplayerid(7)), GetHitVar(groundtype) = 1; 2 is low 3 is trip
-Trigger1 = playerid(getplayerid(7)), GetHitVar(guarded) = 0
-trigger1 = playerid(getplayerid(7)), GetHitVar(hittime) = 1
+Trigger1 = player(7), alive = 1
+Trigger1 = player(7), GetHitVar(hitcount) > 0 
+Trigger1 = player(7), GetHitVar(groundtype) = 1; 2 is low 3 is trip
+Trigger1 = player(7), GetHitVar(guarded) = 0
+trigger1 = player(7), GetHitVar(hittime) = 1
 type = ChangeAnim
 value = 17
 
@@ -746,11 +746,11 @@ value = 17
 Triggerall = Roundstate = 2 && NumExplod(95) = 0
 triggerall = Anim != 16 && Anim != 17
 triggerall = Anim != 19 && Anim != 20
-Trigger1 = playerid(getplayerid(7)), alive = 1
-Trigger1 = playerid(getplayerid(7)), GetHitVar(hitcount) > 0 
-Trigger1 = playerid(getplayerid(7)), GetHitVar(groundtype) = 2 || playerid(getplayerid(1)), GetHitVar(groundtype) = 3
-Trigger1 = playerid(getplayerid(7)), GetHitVar(guarded) = 0
-trigger1 = playerid(getplayerid(7)), GetHitVar(hittime) = 1
+Trigger1 = player(7), alive = 1
+Trigger1 = player(7), GetHitVar(hitcount) > 0 
+Trigger1 = player(7), GetHitVar(groundtype) = 2 || player(1), GetHitVar(groundtype) = 3
+Trigger1 = player(7), GetHitVar(guarded) = 0
+trigger1 = player(7), GetHitVar(hittime) = 1
 type = ChangeAnim
 value = 19
 
@@ -758,11 +758,11 @@ value = 19
 Triggerall = Roundstate = 2 && NumExplod(95) = 0
 triggerall = Anim != 16 && Anim != 17
 triggerall = Anim != 19 && Anim != 20
-Trigger1 = playerid(getplayerid(2)), alive = 1
-Trigger1 = playerid(getplayerid(2)), GetHitVar(hitcount) > 0 
-Trigger1 = playerid(getplayerid(2)), GetHitVar(groundtype) = 1; 2 is low 3 is trip
-Trigger1 = playerid(getplayerid(2)), GetHitVar(guarded) = 0
-Triggerall = playerid(getplayerid(2)), GetHitVar(hittime) = 1
+Trigger1 = player(2), alive = 1
+Trigger1 = player(2), GetHitVar(hitcount) > 0 
+Trigger1 = player(2), GetHitVar(groundtype) = 1; 2 is low 3 is trip
+Trigger1 = player(2), GetHitVar(guarded) = 0
+Triggerall = player(2), GetHitVar(hittime) = 1
 type = ChangeAnim
 value = 16
 
@@ -770,11 +770,11 @@ value = 16
 Triggerall = Roundstate = 2 && NumExplod(95) = 0
 triggerall = Anim != 16 && Anim != 17
 triggerall = Anim != 19 && Anim != 20
-Trigger1 = playerid(getplayerid(2)), alive = 1
-Trigger1 = playerid(getplayerid(2)), GetHitVar(hitcount) > 0 
-Trigger1 = playerid(getplayerid(2)), GetHitVar(groundtype) = 2 || playerid(getplayerid(2)), GetHitVar(groundtype) = 3
-Trigger1 = playerid(getplayerid(2)), GetHitVar(guarded) = 0
-Triggerall = playerid(getplayerid(2)), GetHitVar(hittime) = 1
+Trigger1 = player(2), alive = 1
+Trigger1 = player(2), GetHitVar(hitcount) > 0 
+Trigger1 = player(2), GetHitVar(groundtype) = 2 || player(2), GetHitVar(groundtype) = 3
+Trigger1 = player(2), GetHitVar(guarded) = 0
+Triggerall = player(2), GetHitVar(hittime) = 1
 type = ChangeAnim
 value = 20
 
@@ -782,11 +782,11 @@ value = 20
 Triggerall = Roundstate = 2 && NumExplod(95) = 0
 triggerall = Anim != 16 && Anim != 17
 triggerall = Anim != 19 && Anim != 20
-Trigger1 = playerid(getplayerid(4)), alive = 1
-Trigger1 = playerid(getplayerid(4)), GetHitVar(hitcount) > 0 
-Trigger1 = playerid(getplayerid(4)), GetHitVar(groundtype) = 1; 2 is low 3 is trip
-Trigger1 = playerid(getplayerid(4)), GetHitVar(guarded) = 0
-trigger1 = playerid(getplayerid(4)), GetHitVar(hittime) = 1
+Trigger1 = player(4), alive = 1
+Trigger1 = player(4), GetHitVar(hitcount) > 0 
+Trigger1 = player(4), GetHitVar(groundtype) = 1; 2 is low 3 is trip
+Trigger1 = player(4), GetHitVar(guarded) = 0
+trigger1 = player(4), GetHitVar(hittime) = 1
 type = ChangeAnim
 value = 16
 
@@ -794,11 +794,11 @@ value = 16
 Triggerall = Roundstate = 2 && NumExplod(95) = 0
 triggerall = Anim != 16 && Anim != 17
 triggerall = Anim != 19 && Anim != 20
-Trigger1 = playerid(getplayerid(4)), alive = 1
-Trigger1 = playerid(getplayerid(4)), GetHitVar(hitcount) > 0 
-Trigger1 = playerid(getplayerid(4)), GetHitVar(groundtype) = 2 || playerid(getplayerid(2)), GetHitVar(groundtype) = 3
-Trigger1 = playerid(getplayerid(4)), GetHitVar(guarded) = 0
-trigger1 = playerid(getplayerid(4)), GetHitVar(hittime) = 1
+Trigger1 = player(4), alive = 1
+Trigger1 = player(4), GetHitVar(hitcount) > 0 
+Trigger1 = player(4), GetHitVar(groundtype) = 2 || player(2), GetHitVar(groundtype) = 3
+Trigger1 = player(4), GetHitVar(guarded) = 0
+trigger1 = player(4), GetHitVar(hittime) = 1
 type = ChangeAnim
 value = 20
 
@@ -806,11 +806,11 @@ value = 20
 Triggerall = Roundstate = 2 && NumExplod(95) = 0
 triggerall = Anim != 16 && Anim != 17
 triggerall = Anim != 19 && Anim != 20
-Trigger1 = playerid(getplayerid(6)), alive = 1
-Trigger1 = playerid(getplayerid(6)), GetHitVar(hitcount) > 0 
-Trigger1 = playerid(getplayerid(6)), GetHitVar(groundtype) = 1; 2 is low 3 is trip
-Trigger1 = playerid(getplayerid(6)), GetHitVar(guarded) = 0
-trigger1 = playerid(getplayerid(6)), GetHitVar(hittime) = 1
+Trigger1 = player(6), alive = 1
+Trigger1 = player(6), GetHitVar(hitcount) > 0 
+Trigger1 = player(6), GetHitVar(groundtype) = 1; 2 is low 3 is trip
+Trigger1 = player(6), GetHitVar(guarded) = 0
+trigger1 = player(6), GetHitVar(hittime) = 1
 type = ChangeAnim
 value = 16
 
@@ -818,11 +818,11 @@ value = 16
 Triggerall = Roundstate = 2 && NumExplod(95) = 0
 triggerall = Anim != 16 && Anim != 17
 triggerall = Anim != 19 && Anim != 20
-Trigger1 = playerid(getplayerid(6)), alive = 1
-Trigger1 = playerid(getplayerid(6)), GetHitVar(hitcount) > 0 
-Trigger1 = playerid(getplayerid(6)), GetHitVar(groundtype) = 2 || playerid(getplayerid(2)), GetHitVar(groundtype) = 3
-Trigger1 = playerid(getplayerid(6)), GetHitVar(guarded) = 0
-trigger1 = playerid(getplayerid(6)), GetHitVar(hittime) = 1
+Trigger1 = player(6), alive = 1
+Trigger1 = player(6), GetHitVar(hitcount) > 0 
+Trigger1 = player(6), GetHitVar(groundtype) = 2 || player(2), GetHitVar(groundtype) = 3
+Trigger1 = player(6), GetHitVar(guarded) = 0
+trigger1 = player(6), GetHitVar(hittime) = 1
 type = ChangeAnim
 value = 20
 
@@ -830,11 +830,11 @@ value = 20
 Triggerall = Roundstate = 2 && NumExplod(95) = 0
 triggerall = Anim != 16 && Anim != 17
 triggerall = Anim != 19 && Anim != 20
-Trigger1 = playerid(getplayerid(8)), alive = 1
-Trigger1 = playerid(getplayerid(8)), GetHitVar(hitcount) > 0 
-Trigger1 = playerid(getplayerid(8)), GetHitVar(groundtype) = 1; 2 is low 3 is trip
-Trigger1 = playerid(getplayerid(8)), GetHitVar(guarded) = 0
-trigger1 = playerid(getplayerid(8)), GetHitVar(hittime) = 1
+Trigger1 = player(8), alive = 1
+Trigger1 = player(8), GetHitVar(hitcount) > 0 
+Trigger1 = player(8), GetHitVar(groundtype) = 1; 2 is low 3 is trip
+Trigger1 = player(8), GetHitVar(guarded) = 0
+trigger1 = player(8), GetHitVar(hittime) = 1
 type = ChangeAnim
 value = 16
 
@@ -842,11 +842,11 @@ value = 16
 Triggerall = Roundstate = 2 && NumExplod(95) = 0
 triggerall = Anim != 16 && Anim != 17
 triggerall = Anim != 19 && Anim != 20
-Trigger1 = playerid(getplayerid(8)), alive = 1
-Trigger1 = playerid(getplayerid(8)), GetHitVar(hitcount) > 0 
-Trigger1 = playerid(getplayerid(8)), GetHitVar(groundtype) = 2 || playerid(getplayerid(2)), GetHitVar(groundtype) = 3
-Trigger1 = playerid(getplayerid(8)), GetHitVar(guarded) = 0
-trigger1 = playerid(getplayerid(8)), GetHitVar(hittime) = 1
+Trigger1 = player(8), alive = 1
+Trigger1 = player(8), GetHitVar(hitcount) > 0 
+Trigger1 = player(8), GetHitVar(groundtype) = 2 || player(2), GetHitVar(groundtype) = 3
+Trigger1 = player(8), GetHitVar(guarded) = 0
+trigger1 = player(8), GetHitVar(hittime) = 1
 type = ChangeAnim
 value = 20
 
@@ -894,73 +894,73 @@ trigger1 = RoundState = 0
 
 [State 666, DramaticPauseP1]
 triggerall = Var(41) = 0
-Trigger1 = playerid(getplayerid(1)), GetHitVar(guarded) = 0
-Trigger1 = playerid(getplayerid(1)), alive = 1
-trigger1 = playerid(getplayerid(1)), HitOver = 0
-Trigger1 = playerid(getplayerid(1)), Life < (playerid(getplayerid(1)), LifeMax) / 4
+Trigger1 = player(1), GetHitVar(guarded) = 0
+Trigger1 = player(1), alive = 1
+trigger1 = player(1), HitOver = 0
+Trigger1 = player(1), Life < (player(1), LifeMax) / 4
 type = VarSet
 V = 41
 value = 1
 [State 666, DramaticPauseP2]
 triggerall = Var(42) = 0
-Trigger1 = playerid(getplayerid(2)), GetHitVar(guarded) = 0
-Trigger1 = playerid(getplayerid(2)), alive = 1
-trigger1 = playerid(getplayerid(2)), HitOver = 0
-Trigger1 = playerid(getplayerid(2)), Life < (playerid(getplayerid(2)), LifeMax) / 4
+Trigger1 = player(2), GetHitVar(guarded) = 0
+Trigger1 = player(2), alive = 1
+trigger1 = player(2), HitOver = 0
+Trigger1 = player(2), Life < (player(2), LifeMax) / 4
 type = VarSet
 V = 42
 value = 1
 [State 666, DramaticPauseP3]
 triggerall = Var(43) = 0
-Trigger1 = playerid(getplayerid(3)), GetHitVar(guarded) = 0
-Trigger1 = playerid(getplayerid(3)), alive = 1
-trigger1 = playerid(getplayerid(3)), HitOver = 0
-Trigger1 = playerid(getplayerid(3)), Life < (playerid(getplayerid(3)), LifeMax) / 4
+Trigger1 = player(3), GetHitVar(guarded) = 0
+Trigger1 = player(3), alive = 1
+trigger1 = player(3), HitOver = 0
+Trigger1 = player(3), Life < (player(3), LifeMax) / 4
 type = VarSet
 V = 43
 value = 1
 [State 666, DramaticPauseP4]
 triggerall = Var(44) = 0
-Trigger1 = playerid(getplayerid(4)), GetHitVar(guarded) = 0
-Trigger1 = playerid(getplayerid(4)), alive = 1
-trigger1 = playerid(getplayerid(4)), HitOver = 0
-Trigger1 = playerid(getplayerid(4)), Life < (playerid(getplayerid(4)), LifeMax) / 4
+Trigger1 = player(4), GetHitVar(guarded) = 0
+Trigger1 = player(4), alive = 1
+trigger1 = player(4), HitOver = 0
+Trigger1 = player(4), Life < (player(4), LifeMax) / 4
 type = VarSet
 V = 44
 value = 1
 [State 666, DramaticPauseP5]
 triggerall = Var(45) = 0
-Trigger1 = playerid(getplayerid(5)), GetHitVar(guarded) = 0
-Trigger1 = playerid(getplayerid(5)), alive = 1
-trigger1 = playerid(getplayerid(5)), HitOver = 0
-Trigger1 = playerid(getplayerid(5)), Life < (playerid(getplayerid(5)), LifeMax) / 4
+Trigger1 = player(5), GetHitVar(guarded) = 0
+Trigger1 = player(5), alive = 1
+trigger1 = player(5), HitOver = 0
+Trigger1 = player(5), Life < (player(5), LifeMax) / 4
 type = VarSet
 V = 45
 value = 1
 [State 666, DramaticPauseP6]
 triggerall = Var(46) = 0
-Trigger1 = playerid(getplayerid(6)), GetHitVar(guarded) = 0
-Trigger1 = playerid(getplayerid(6)), alive = 1
-trigger1 = playerid(getplayerid(6)), HitOver = 0
-Trigger1 = playerid(getplayerid(6)), Life < (playerid(getplayerid(6)), LifeMax) / 4
+Trigger1 = player(6), GetHitVar(guarded) = 0
+Trigger1 = player(6), alive = 1
+trigger1 = player(6), HitOver = 0
+Trigger1 = player(6), Life < (player(6), LifeMax) / 4
 type = VarSet
 V = 46
 value = 1
 [State 666, DramaticPauseP7]
 triggerall = Var(47) = 0
-Trigger1 = playerid(getplayerid(7)), GetHitVar(guarded) = 0
-Trigger1 = playerid(getplayerid(7)), alive = 1
-trigger1 = playerid(getplayerid(7)), HitOver = 0
-Trigger1 = playerid(getplayerid(7)), Life < (playerid(getplayerid(7)), LifeMax) / 4
+Trigger1 = player(7), GetHitVar(guarded) = 0
+Trigger1 = player(7), alive = 1
+trigger1 = player(7), HitOver = 0
+Trigger1 = player(7), Life < (player(7), LifeMax) / 4
 type = VarSet
 V = 47
 value = 1
 [State 666, DramaticPauseP8]
 triggerall = Var(48) = 0
-Trigger1 = playerid(getplayerid(8)), GetHitVar(guarded) = 0
-Trigger1 = playerid(getplayerid(8)), alive = 1
-trigger1 = playerid(getplayerid(8)), HitOver = 0
-Trigger1 = playerid(getplayerid(8)), Life < (playerid(getplayerid(8)), LifeMax) / 4
+Trigger1 = player(8), GetHitVar(guarded) = 0
+Trigger1 = player(8), alive = 1
+trigger1 = player(8), HitOver = 0
+Trigger1 = player(8), Life < (player(8), LifeMax) / 4
 type = VarSet
 V = 48
 value = 1
@@ -1077,10 +1077,10 @@ value = 18
 [State 666, 3];LookAroundIfIdleTooLong
 type = ChangeAnim
 trigger1 = Roundstate = 2
-trigger1 = AnimElemTime(1) > 120 && Rand(1,100) > 50 && Time % 120 = 0
+trigger1 = AnimElemTime(1) > 120 && (1+floor(Random*100/1000.0)) > 50 && Time % 120 = 0
 trigger1 = Anim = 18
 trigger2 = RoundState < 2 && Anim != 7;Or if starting a round
-value = Rand(6,7)
+value = (6+floor(Random*2/1000.0))
 
 ;START
 [State 666, 3];NotYet
@@ -1128,8 +1128,8 @@ v = 2
 type = ChangeAnim
 trigger1 = RoundState > 2 
 trigger1 = MatchOver = 0
-trigger1 = !playerid(getplayerid(1)),WinPerfect
-trigger1 = !playerid(getplayerid(2)),WinPerfect
+trigger1 = !player(1),WinPerfect
+trigger1 = !player(2),WinPerfect
 trigger1 = Anim != 22
 trigger1 = Pos X >= Var(3)-1
 trigger1 = Pos X <= Var(3)+1
@@ -1155,8 +1155,8 @@ v = 2
 type = ChangeAnim
 trigger1 = RoundState > 2 
 trigger1 = MatchOver = 1
-trigger1 = !playerid(getplayerid(1)),WinPerfect
-trigger1 = !playerid(getplayerid(2)),WinPerfect
+trigger1 = !player(1),WinPerfect
+trigger1 = !player(2),WinPerfect
 trigger1 = Anim != 23
 trigger1 = Pos X >= Var(3)-1
 trigger1 = Pos X <= Var(3)+1
@@ -1238,8 +1238,8 @@ triggerall = Anim != 11
 triggerall = Var(6) = 4; All 4 Kurokos are here
 triggerall = Anim = 18 || Anim = 7 || Anim = 6
 triggerall = Pos X >= Var(3)-1 && Pos X <= Var(3)+1
-trigger1 = playerid(getplayerid(1)),WinPerfect;Special Condition
-trigger2 = playerid(getplayerid(2)),WinPerfect;Special Condition
+trigger1 = player(1),WinPerfect;Special Condition
+trigger2 = player(2),WinPerfect;Special Condition
 value = 11
 
 ;HolyShit 4 Kurokos
@@ -1249,8 +1249,8 @@ ignorehitpause = 1
 triggerall = NumHelper(11) = 0
 triggerall = Pos X >= Var(3)-1 && Pos X <= Var(3)+1
 triggerall = Anim = 18 || Anim = 7 || Anim = 6
-trigger1 = playerid(getplayerid(1)),WinPerfect
-trigger2 = playerid(getplayerid(2)),WinPerfect
+trigger1 = player(1),WinPerfect
+trigger2 = player(2),WinPerfect
 name = "Kuroclone"
 ID = 11
 stateno = 602
@@ -1272,8 +1272,8 @@ ignorehitpause = 1
 triggerall = NumHelper(22) = 0
 triggerall = Pos X >= Var(3)-1 && Pos X <= Var(3)+1
 triggerall = Anim = 18 || Anim = 7 || Anim = 6
-trigger1 = playerid(getplayerid(1)),WinPerfect
-trigger2 = playerid(getplayerid(2)),WinPerfect
+trigger1 = player(1),WinPerfect
+trigger2 = player(2),WinPerfect
 name = "Kuroclone"
 ID = 22
 stateno = 602
@@ -1295,8 +1295,8 @@ ignorehitpause = 1
 triggerall = NumHelper(33) = 0
 triggerall = Pos X >= Var(3)-1 && Pos X <= Var(3)+1
 triggerall = Anim = 18 || Anim = 7 || Anim = 6
-trigger1 = playerid(getplayerid(1)),WinPerfect
-trigger2 = playerid(getplayerid(2)),WinPerfect
+trigger1 = player(1),WinPerfect
+trigger2 = player(2),WinPerfect
 name = "Kuroclone"
 ID = 33
 stateno = 602
@@ -1318,8 +1318,8 @@ ignorehitpause = 1
 triggerall = NumHelper(44) = 0
 triggerall = Pos X >= Var(3)-1 && Pos X <= Var(3)+1
 triggerall = Anim = 18 || Anim = 7 || Anim = 6
-trigger1 = playerid(getplayerid(1)),WinPerfect
-trigger2 = playerid(getplayerid(2)),WinPerfect
+trigger1 = player(1),WinPerfect
+trigger2 = player(2),WinPerfect
 name = "Kuroclone"
 ID = 44
 stateno = 602
@@ -1466,8 +1466,8 @@ value = 11
 [State 334, Congrats]
 type = PlaySnd
 triggerall = MatchOver = 1 & Anim = 11
-trigger1 = playerid(getplayerid(1)),WinPerfect
-trigger2 = playerid(getplayerid(2)),WinPerfect
+trigger1 = player(1),WinPerfect
+trigger2 = player(2),WinPerfect
 persistent = 0
 value = 0,12
 
@@ -1505,14 +1505,14 @@ sprpriority = -7                  ;Set p1's sprite layering priority to 2 (in fr
 
 ;Record every player's ID at all times
 [State 334, ShowMeYourIDs]
-Trigger1 = var(11) := playerid(getplayerid(1)), ID
-Trigger1 = var(12) := playerid(getplayerid(2)), ID
-Trigger1 = var(13) := playerid(getplayerid(3)), ID
-Trigger1 = var(14) := playerid(getplayerid(4)), ID
-Trigger1 = var(15) := playerid(getplayerid(5)), ID
-Trigger1 = var(16) := playerid(getplayerid(6)), ID
-Trigger1 = var(17) := playerid(getplayerid(7)), ID
-Trigger1 = var(18) := playerid(getplayerid(8)), ID
+Trigger1 = var(11) := player(1), ID
+Trigger1 = var(12) := player(2), ID
+Trigger1 = var(13) := player(3), ID
+Trigger1 = var(14) := player(4), ID
+Trigger1 = var(15) := player(5), ID
+Trigger1 = var(16) := player(6), ID
+Trigger1 = var(17) := player(7), ID
+Trigger1 = var(18) := player(8), ID
 Trigger1 = 1
 type = null
 
@@ -1542,13 +1542,13 @@ trigger1 = 1
 persistent = 0
 type = VarRandom
 v = 2
-range = 1, (playerid(getplayerid(1)),teamsize)+(playerid(getplayerid(2)),teamsize)
+range = 1, (player(1),teamsize)+(player(2),teamsize)
 
 [State 333, PlayerAlignedTossTheStuff]
 triggerall = Var(1) < 26
-trigger1 = (Pos X - playerid(Var(2)), Pos X) <= 10
+trigger1 = (Pos X - player(Var(2)), Pos X) <= 10
 trigger1 = Facing = -1
-trigger2 = (Pos X - playerid(Var(2)), Pos X) >= -10
+trigger2 = (Pos X - player(Var(2)), Pos X) >= -10
 trigger2 = Facing = 1
 type = helper
 ignorehitpause = 1
@@ -1568,9 +1568,9 @@ size.height = 100
 immortal = 1
 [State 333, PlayerAlignedTossTheStuff]
 triggerall = Var(1) > 25 && Var(1) < 52
-trigger1 = (Pos X - playerid(Var(2)), Pos X) <= 10
+trigger1 = (Pos X - player(Var(2)), Pos X) <= 10
 trigger1 = Facing = -1
-trigger2 = (Pos X - playerid(Var(2)), Pos X) >= -10
+trigger2 = (Pos X - player(Var(2)), Pos X) >= -10
 trigger2 = Facing = 1
 type = helper
 ignorehitpause = 1
@@ -1590,9 +1590,9 @@ size.height = 100
 immortal = 1
 [State 333, PlayerAlignedTossTheStuff]
 triggerall = Var(1) > 200 && Var(1) < 230
-trigger1 = (Pos X - playerid(Var(2)), Pos X) <= 10
+trigger1 = (Pos X - player(Var(2)), Pos X) <= 10
 trigger1 = Facing = -1
-trigger2 = (Pos X - playerid(Var(2)), Pos X) >= -10
+trigger2 = (Pos X - player(Var(2)), Pos X) >= -10
 trigger2 = Facing = 1
 type = helper
 ignorehitpause = 1
@@ -1612,9 +1612,9 @@ size.height = 100
 immortal = 1
 [State 333, PlayerAlignedTossTheStuff]
 triggerall = Var(1) > 229 && Var(1) < 500
-trigger1 = (Pos X - playerid(Var(2)), Pos X) <= 10
+trigger1 = (Pos X - player(Var(2)), Pos X) <= 10
 trigger1 = Facing = -1
-trigger2 = (Pos X - playerid(Var(2)), Pos X) >= -10
+trigger2 = (Pos X - player(Var(2)), Pos X) >= -10
 trigger2 = Facing = 1
 type = helper
 ignorehitpause = 1
@@ -1703,14 +1703,14 @@ value = 0
 
 ;Record every player's ID at all times
 [State 334, ShowMeYourIDs]
-Trigger1 = var(11) := playerid(getplayerid(1)), ID
-Trigger1 = var(12) := playerid(getplayerid(2)), ID
-Trigger1 = var(13) := playerid(getplayerid(3)), ID
-Trigger1 = var(14) := playerid(getplayerid(4)), ID
-Trigger1 = var(15) := playerid(getplayerid(5)), ID
-Trigger1 = var(16) := playerid(getplayerid(6)), ID
-Trigger1 = var(17) := playerid(getplayerid(7)), ID
-Trigger1 = var(18) := playerid(getplayerid(8)), ID
+Trigger1 = var(11) := player(1), ID
+Trigger1 = var(12) := player(2), ID
+Trigger1 = var(13) := player(3), ID
+Trigger1 = var(14) := player(4), ID
+Trigger1 = var(15) := player(5), ID
+Trigger1 = var(16) := player(6), ID
+Trigger1 = var(17) := player(7), ID
+Trigger1 = var(18) := player(8), ID
 Trigger1 = 1
 type = null
 
@@ -1752,62 +1752,62 @@ v = 3
 value = 0
 
 [State 700, HittingObjectP1]
-trigger1 = playerid(getplayerid(1)),pos x > Var(1) && playerid(getplayerid(1)),pos x < Var(2) 
-trigger1 = playerid(getplayerid(1)),pos y - Var(5) >= playerid(getplayerid(1)),-const(size.height) * 0.5
-trigger1 = playerid(getplayerid(1)),alive = 1
+trigger1 = player(1),pos x > Var(1) && player(1),pos x < Var(2) 
+trigger1 = player(1),pos y - Var(5) >= -(player(1),const(size.height)) * 0.5
+trigger1 = player(1),alive = 1
 type = VarSet
 v = 3
-value = playerid(getplayerid(1)),id
+value = player(1),id
 [State 700, HittingObjectP2]
-trigger1 = playerid(getplayerid(2)),pos x > Var(1) && playerid(getplayerid(2)),pos x < Var(2) 
-trigger1 = playerid(getplayerid(2)),pos y - Var(5) >= playerid(getplayerid(2)),-const(size.height) * 0.5
-trigger1 = playerid(getplayerid(2)),alive = 1
+trigger1 = player(2),pos x > Var(1) && player(2),pos x < Var(2) 
+trigger1 = player(2),pos y - Var(5) >= -(player(2),const(size.height)) * 0.5
+trigger1 = player(2),alive = 1
 type = VarSet
 v = 3
-value = playerid(getplayerid(2)),id
+value = player(2),id
 
 [State 700, HittingObjectP3]
-trigger1 = playerid(getplayerid(3)),pos x > Var(1) && playerid(getplayerid(3)),pos x < Var(2) 
-trigger1 = playerid(getplayerid(3)),pos y - Var(5) >= playerid(getplayerid(3)),-const(size.height) * 0.5
-trigger1 = playerid(getplayerid(3)),alive = 1
+trigger1 = player(3),pos x > Var(1) && player(3),pos x < Var(2) 
+trigger1 = player(3),pos y - Var(5) >= -(player(3),const(size.height)) * 0.5
+trigger1 = player(3),alive = 1
 type = VarSet
 v = 3
-value = playerid(getplayerid(3)),id
+value = player(3),id
 [State 700, HittingObjectP4]
-trigger1 = playerid(getplayerid(4)),pos x > Var(1) && playerid(getplayerid(4)),pos x < Var(2) 
-trigger1 = playerid(getplayerid(4)),pos y - Var(5) >= playerid(getplayerid(4)),-const(size.height) * 0.5
-trigger1 = playerid(getplayerid(4)),alive = 1
+trigger1 = player(4),pos x > Var(1) && player(4),pos x < Var(2) 
+trigger1 = player(4),pos y - Var(5) >= -(player(4),const(size.height)) * 0.5
+trigger1 = player(4),alive = 1
 type = VarSet
 v = 3
-value = playerid(getplayerid(4)),id
+value = player(4),id
 [State 700, HittingObjectP5]
-trigger1 = playerid(getplayerid(5)),pos x > Var(1) && playerid(getplayerid(5)),pos x < Var(2) 
-trigger1 = playerid(getplayerid(5)),pos y - Var(5) >= playerid(getplayerid(5)),-const(size.height) * 0.5
-trigger1 = playerid(getplayerid(5)),alive = 1
+trigger1 = player(5),pos x > Var(1) && player(5),pos x < Var(2) 
+trigger1 = player(5),pos y - Var(5) >= -(player(5),const(size.height)) * 0.5
+trigger1 = player(5),alive = 1
 type = VarSet
 v = 3
-value = playerid(getplayerid(5)),id
+value = player(5),id
 [State 700, HittingObjectP6]
-trigger1 = playerid(getplayerid(6)),pos x > Var(1) && playerid(getplayerid(6)),pos x < Var(2) 
-trigger1 = playerid(getplayerid(6)),pos y - Var(5) >= playerid(getplayerid(6)),-const(size.height) * 0.5
-trigger1 = playerid(getplayerid(6)),alive = 1
+trigger1 = player(6),pos x > Var(1) && player(6),pos x < Var(2) 
+trigger1 = player(6),pos y - Var(5) >= -(player(6),const(size.height)) * 0.5
+trigger1 = player(6),alive = 1
 type = VarSet
 v = 3
-value = playerid(getplayerid(6)),id
+value = player(6),id
 [State 700, HittingObjectP7]
-trigger1 = playerid(getplayerid(7)),pos x > Var(1) && playerid(getplayerid(7)),pos x < Var(2) 
-trigger1 = playerid(getplayerid(7)),pos y - Var(5) >= playerid(getplayerid(7)),-const(size.height) * 0.5
-trigger1 = playerid(getplayerid(7)),alive = 1
+trigger1 = player(7),pos x > Var(1) && player(7),pos x < Var(2) 
+trigger1 = player(7),pos y - Var(5) >= -(player(7),const(size.height)) * 0.5
+trigger1 = player(7),alive = 1
 type = VarSet
 v = 3
-value = playerid(getplayerid(7)),id
+value = player(7),id
 [State 700, HittingObjectP8]
-trigger1 = playerid(getplayerid(8)),pos x > Var(1) && playerid(getplayerid(8)),pos x < Var(2) 
-trigger1 = playerid(getplayerid(8)),pos y - Var(5) >= playerid(getplayerid(8)),-const(size.height) * 0.5
-trigger1 = playerid(getplayerid(8)),alive = 1
+trigger1 = player(8),pos x > Var(1) && player(8),pos x < Var(2) 
+trigger1 = player(8),pos y - Var(5) >= -(player(8),const(size.height)) * 0.5
+trigger1 = player(8),alive = 1
 type = VarSet
 v = 3
-value = playerid(getplayerid(8)),id
+value = player(8),id
 
 [State 700, WaitToLand]
 trigger1 = Vel Y != 0
@@ -1928,14 +1928,14 @@ value = 0
 
 ;Record every player's ID at all times
 [State 334, ShowMeYourIDs]
-Trigger1 = var(11) := playerid(getplayerid(1)), ID
-Trigger1 = var(12) := playerid(getplayerid(2)), ID
-Trigger1 = var(13) := playerid(getplayerid(3)), ID
-Trigger1 = var(14) := playerid(getplayerid(4)), ID
-Trigger1 = var(15) := playerid(getplayerid(5)), ID
-Trigger1 = var(16) := playerid(getplayerid(6)), ID
-Trigger1 = var(17) := playerid(getplayerid(7)), ID
-Trigger1 = var(18) := playerid(getplayerid(8)), ID
+Trigger1 = var(11) := player(1), ID
+Trigger1 = var(12) := player(2), ID
+Trigger1 = var(13) := player(3), ID
+Trigger1 = var(14) := player(4), ID
+Trigger1 = var(15) := player(5), ID
+Trigger1 = var(16) := player(6), ID
+Trigger1 = var(17) := player(7), ID
+Trigger1 = var(18) := player(8), ID
 Trigger1 = 1
 type = null
 
@@ -1977,62 +1977,62 @@ v = 3
 value = 0
 
 [State 700, HittingObjectP1]
-trigger1 = playerid(getplayerid(1)),pos x > Var(1) && playerid(getplayerid(1)),pos x < Var(2) 
-trigger1 = playerid(getplayerid(1)),pos y - Var(5) >= playerid(getplayerid(1)),-const(size.height) * 0.5
-trigger1 = playerid(getplayerid(1)),alive = 1
+trigger1 = player(1),pos x > Var(1) && player(1),pos x < Var(2) 
+trigger1 = player(1),pos y - Var(5) >= -(player(1),const(size.height)) * 0.5
+trigger1 = player(1),alive = 1
 type = VarSet
 v = 3
-value = playerid(getplayerid(1)),id
+value = player(1),id
 [State 700, HittingObjectP2]
-trigger1 = playerid(getplayerid(2)),pos x > Var(1) && playerid(getplayerid(2)),pos x < Var(2) 
-trigger1 = playerid(getplayerid(2)),pos y - Var(5) >= playerid(getplayerid(2)),-const(size.height) * 0.5
-trigger1 = playerid(getplayerid(2)),alive = 1
+trigger1 = player(2),pos x > Var(1) && player(2),pos x < Var(2) 
+trigger1 = player(2),pos y - Var(5) >= -(player(2),const(size.height)) * 0.5
+trigger1 = player(2),alive = 1
 type = VarSet
 v = 3
-value = playerid(getplayerid(2)),id
+value = player(2),id
 
 [State 700, HittingObjectP3]
-trigger1 = playerid(getplayerid(3)),pos x > Var(1) && playerid(getplayerid(3)),pos x < Var(2) 
-trigger1 = playerid(getplayerid(3)),pos y - Var(5) >= playerid(getplayerid(3)),-const(size.height) * 0.5
-trigger1 = playerid(getplayerid(3)),alive = 1
+trigger1 = player(3),pos x > Var(1) && player(3),pos x < Var(2) 
+trigger1 = player(3),pos y - Var(5) >= -(player(3),const(size.height)) * 0.5
+trigger1 = player(3),alive = 1
 type = VarSet
 v = 3
-value = playerid(getplayerid(3)),id
+value = player(3),id
 [State 700, HittingObjectP4]
-trigger1 = playerid(getplayerid(4)),pos x > Var(1) && playerid(getplayerid(4)),pos x < Var(2) 
-trigger1 = playerid(getplayerid(4)),pos y - Var(5) >= playerid(getplayerid(4)),-const(size.height) * 0.5
-trigger1 = playerid(getplayerid(4)),alive = 1
+trigger1 = player(4),pos x > Var(1) && player(4),pos x < Var(2) 
+trigger1 = player(4),pos y - Var(5) >= -(player(4),const(size.height)) * 0.5
+trigger1 = player(4),alive = 1
 type = VarSet
 v = 3
-value = playerid(getplayerid(4)),id
+value = player(4),id
 [State 700, HittingObjectP5]
-trigger1 = playerid(getplayerid(5)),pos x > Var(1) && playerid(getplayerid(5)),pos x < Var(2) 
-trigger1 = playerid(getplayerid(5)),pos y - Var(5) >= playerid(getplayerid(5)),-const(size.height) * 0.5
-trigger1 = playerid(getplayerid(5)),alive = 1
+trigger1 = player(5),pos x > Var(1) && player(5),pos x < Var(2) 
+trigger1 = player(5),pos y - Var(5) >= -(player(5),const(size.height)) * 0.5
+trigger1 = player(5),alive = 1
 type = VarSet
 v = 3
-value = playerid(getplayerid(5)),id
+value = player(5),id
 [State 700, HittingObjectP6]
-trigger1 = playerid(getplayerid(6)),pos x > Var(1) && playerid(getplayerid(6)),pos x < Var(2) 
-trigger1 = playerid(getplayerid(6)),pos y - Var(5) >= playerid(getplayerid(6)),-const(size.height) * 0.5
-trigger1 = playerid(getplayerid(6)),alive = 1
+trigger1 = player(6),pos x > Var(1) && player(6),pos x < Var(2) 
+trigger1 = player(6),pos y - Var(5) >= -(player(6),const(size.height)) * 0.5
+trigger1 = player(6),alive = 1
 type = VarSet
 v = 3
-value = playerid(getplayerid(6)),id
+value = player(6),id
 [State 700, HittingObjectP7]
-trigger1 = playerid(getplayerid(7)),pos x > Var(1) && playerid(getplayerid(7)),pos x < Var(2) 
-trigger1 = playerid(getplayerid(7)),pos y - Var(5) >= playerid(getplayerid(7)),-const(size.height) * 0.5
-trigger1 = playerid(getplayerid(7)),alive = 1
+trigger1 = player(7),pos x > Var(1) && player(7),pos x < Var(2) 
+trigger1 = player(7),pos y - Var(5) >= -(player(7),const(size.height)) * 0.5
+trigger1 = player(7),alive = 1
 type = VarSet
 v = 3
-value = playerid(getplayerid(7)),id
+value = player(7),id
 [State 700, HittingObjectP8]
-trigger1 = playerid(getplayerid(8)),pos x > Var(1) && playerid(getplayerid(8)),pos x < Var(2) 
-trigger1 = playerid(getplayerid(8)),pos y - Var(5) >= playerid(getplayerid(8)),-const(size.height) * 0.5
-trigger1 = playerid(getplayerid(8)),alive = 1
+trigger1 = player(8),pos x > Var(1) && player(8),pos x < Var(2) 
+trigger1 = player(8),pos y - Var(5) >= -(player(8),const(size.height)) * 0.5
+trigger1 = player(8),alive = 1
 type = VarSet
 v = 3
-value = playerid(getplayerid(8)),id
+value = player(8),id
 
 [State 700, WaitToLand]
 trigger1 = Vel Y != 0
@@ -2255,7 +2255,7 @@ type = ChangeAnim
 value = 5
 
 [State 333, BlowUp]
-trigger1 = Anim = 2 && Rand(1,100) > 50
+trigger1 = Anim = 2 && (1+floor(Random*100/1000.0)) > 50
 persistent = 0
 type = Turn
 
@@ -2344,52 +2344,52 @@ range = 50,100
 
 [State 333, HaohmaruThere]
 triggerall = RoundState < 3
-trigger1 = PlayerID(GetplayerID(1)),Name = "Haohmaru" || PlayerID(GetplayerID(3)),Name = "Haohmaru" || PlayerID(GetplayerID(5)),Name = "Haohmaru" || PlayerID(GetplayerID(7)),Name = "Haohmaru"
-trigger2 = PlayerID(GetplayerID(2)),Name = "Haohmaru" || PlayerID(GetplayerID(4)),Name = "Haohmaru" || PlayerID(GetplayerID(6)),Name = "Haohmaru" || PlayerID(GetplayerID(8)),Name = "Haohmaru"
+trigger1 = player(1),Name = "Haohmaru" || player(3),Name = "Haohmaru" || player(5),Name = "Haohmaru" || player(7),Name = "Haohmaru"
+trigger2 = player(2),Name = "Haohmaru" || player(4),Name = "Haohmaru" || player(6),Name = "Haohmaru" || player(8),Name = "Haohmaru"
 type = MapSet
 map = "Oshizu"
 value = 333
 [State 333, HaohmaruLose]
 triggerall = RoundState > 2 && Map(Oshizu) = 333
-trigger1 = playerid(getplayerid(2)), Win = 1 
-trigger1 = PlayerID(GetplayerID(1)),Name = "Haohmaru" || PlayerID(GetplayerID(3)),Name = "Haohmaru" || PlayerID(GetplayerID(5)),Name = "Haohmaru" || PlayerID(GetplayerID(7)),Name = "Haohmaru"
-trigger2 = playerid(getplayerid(1)), Win = 1
-trigger2 = PlayerID(GetplayerID(2)),Name = "Haohmaru" || PlayerID(GetplayerID(4)),Name = "Haohmaru" || PlayerID(GetplayerID(6)),Name = "Haohmaru" || PlayerID(GetplayerID(8)),Name = "Haohmaru"
+trigger1 = player(2), Win = 1 
+trigger1 = player(1),Name = "Haohmaru" || player(3),Name = "Haohmaru" || player(5),Name = "Haohmaru" || player(7),Name = "Haohmaru"
+trigger2 = player(1), Win = 1
+trigger2 = player(2),Name = "Haohmaru" || player(4),Name = "Haohmaru" || player(6),Name = "Haohmaru" || player(8),Name = "Haohmaru"
 type = MapSet
 map = "Oshizu"
 value = 222
 [State 333, HaohmaruWin]
 triggerall = RoundState > 2 && Map(Oshizu) = 333
-trigger1 = playerid(getplayerid(1)), Win = 1 
-trigger1 = PlayerID(GetplayerID(1)),Name = "Haohmaru" || PlayerID(GetplayerID(3)),Name = "Haohmaru" || PlayerID(GetplayerID(5)),Name = "Haohmaru" || PlayerID(GetplayerID(7)),Name = "Haohmaru"
-trigger2 = playerid(getplayerid(2)), Win = 1
-trigger2 = PlayerID(GetplayerID(2)),Name = "Haohmaru" || PlayerID(GetplayerID(4)),Name = "Haohmaru" || PlayerID(GetplayerID(6)),Name = "Haohmaru" || PlayerID(GetplayerID(8)),Name = "Haohmaru"
+trigger1 = player(1), Win = 1 
+trigger1 = player(1),Name = "Haohmaru" || player(3),Name = "Haohmaru" || player(5),Name = "Haohmaru" || player(7),Name = "Haohmaru"
+trigger2 = player(2), Win = 1
+trigger2 = player(2),Name = "Haohmaru" || player(4),Name = "Haohmaru" || player(6),Name = "Haohmaru" || player(8),Name = "Haohmaru"
 type = MapSet
 map = "Oshizu"
 value = 111
 
 [State 333, UkyoThere]
 triggerall = RoundState < 3
-trigger1 = PlayerID(GetplayerID(1)),Name = "Ukyo" || PlayerID(GetplayerID(1)),Name = "Tachibana" || PlayerID(GetplayerID(1)),Name = "Tachibana Ukyo"  || PlayerID(GetplayerID(1)),Name = "Ukyo Tachibana" || PlayerID(GetplayerID(3)),Name = "Ukyo" || PlayerID(GetplayerID(3)),Name = "Tachibana" || PlayerID(GetplayerID(3)),Name = "Tachibana Ukyo"  || PlayerID(GetplayerID(3)),Name = "Ukyo Tachibana" || PlayerID(GetplayerID(5)),Name = "Ukyo" || PlayerID(GetplayerID(5)),Name = "Tachibana" || PlayerID(GetplayerID(5)),Name = "Tachibana Ukyo"  || PlayerID(GetplayerID(5)),Name = "Ukyo Tachibana" || PlayerID(GetplayerID(7)),Name = "Ukyo" || PlayerID(GetplayerID(7)),Name = "Tachibana" || PlayerID(GetplayerID(7)),Name = "Tachibana Ukyo"  || PlayerID(GetplayerID(7)),Name = "Ukyo Tachibana"  
-trigger2 = PlayerID(GetplayerID(2)),Name = "Ukyo" || PlayerID(GetplayerID(2)),Name = "Tachibana" || PlayerID(GetplayerID(2)),Name = "Tachibana Ukyo"  || PlayerID(GetplayerID(2)),Name = "Ukyo Tachibana" || PlayerID(GetplayerID(4)),Name = "Ukyo" || PlayerID(GetplayerID(4)),Name = "Tachibana" || PlayerID(GetplayerID(4)),Name = "Tachibana Ukyo"  || PlayerID(GetplayerID(4)),Name = "Ukyo Tachibana" || PlayerID(GetplayerID(6)),Name = "Ukyo" || PlayerID(GetplayerID(6)),Name = "Tachibana" || PlayerID(GetplayerID(6)),Name = "Tachibana Ukyo"  || PlayerID(GetplayerID(6)),Name = "Ukyo Tachibana" || PlayerID(GetplayerID(8)),Name = "Ukyo" || PlayerID(GetplayerID(8)),Name = "Tachibana" || PlayerID(GetplayerID(8)),Name = "Tachibana Ukyo"  || PlayerID(GetplayerID(8)),Name = "Ukyo Tachibana"  
+trigger1 = player(1),Name = "Ukyo" || player(1),Name = "Tachibana" || player(1),Name = "Tachibana Ukyo"  || player(1),Name = "Ukyo Tachibana" || player(3),Name = "Ukyo" || player(3),Name = "Tachibana" || player(3),Name = "Tachibana Ukyo"  || player(3),Name = "Ukyo Tachibana" || player(5),Name = "Ukyo" || player(5),Name = "Tachibana" || player(5),Name = "Tachibana Ukyo"  || player(5),Name = "Ukyo Tachibana" || player(7),Name = "Ukyo" || player(7),Name = "Tachibana" || player(7),Name = "Tachibana Ukyo"  || player(7),Name = "Ukyo Tachibana"  
+trigger2 = player(2),Name = "Ukyo" || player(2),Name = "Tachibana" || player(2),Name = "Tachibana Ukyo"  || player(2),Name = "Ukyo Tachibana" || player(4),Name = "Ukyo" || player(4),Name = "Tachibana" || player(4),Name = "Tachibana Ukyo"  || player(4),Name = "Ukyo Tachibana" || player(6),Name = "Ukyo" || player(6),Name = "Tachibana" || player(6),Name = "Tachibana Ukyo"  || player(6),Name = "Ukyo Tachibana" || player(8),Name = "Ukyo" || player(8),Name = "Tachibana" || player(8),Name = "Tachibana Ukyo"  || player(8),Name = "Ukyo Tachibana"  
 type = MapSet
 map = "Kei"
 value = 333
 [State 333, UkyoWin]
 triggerall = RoundState > 2 && Map(Kei) = 333
-trigger1 = playerid(getplayerid(1)), Win = 1
-trigger1 = PlayerID(GetplayerID(1)),Name = "Ukyo" || PlayerID(GetplayerID(1)),Name = "Tachibana" || PlayerID(GetplayerID(1)),Name = "Tachibana Ukyo"  || PlayerID(GetplayerID(1)),Name = "Ukyo Tachibana" || PlayerID(GetplayerID(3)),Name = "Ukyo" || PlayerID(GetplayerID(3)),Name = "Tachibana" || PlayerID(GetplayerID(3)),Name = "Tachibana Ukyo"  || PlayerID(GetplayerID(3)),Name = "Ukyo Tachibana" || PlayerID(GetplayerID(5)),Name = "Ukyo" || PlayerID(GetplayerID(5)),Name = "Tachibana" || PlayerID(GetplayerID(5)),Name = "Tachibana Ukyo"  || PlayerID(GetplayerID(5)),Name = "Ukyo Tachibana" || PlayerID(GetplayerID(7)),Name = "Ukyo" || PlayerID(GetplayerID(7)),Name = "Tachibana" || PlayerID(GetplayerID(7)),Name = "Tachibana Ukyo"  || PlayerID(GetplayerID(7)),Name = "Ukyo Tachibana"  
-trigger2 = playerid(getplayerid(2)), Win = 1
-trigger2 = PlayerID(GetplayerID(2)),Name = "Ukyo" || PlayerID(GetplayerID(2)),Name = "Tachibana" || PlayerID(GetplayerID(2)),Name = "Tachibana Ukyo"  || PlayerID(GetplayerID(2)),Name = "Ukyo Tachibana" || PlayerID(GetplayerID(4)),Name = "Ukyo" || PlayerID(GetplayerID(4)),Name = "Tachibana" || PlayerID(GetplayerID(4)),Name = "Tachibana Ukyo"  || PlayerID(GetplayerID(4)),Name = "Ukyo Tachibana" || PlayerID(GetplayerID(6)),Name = "Ukyo" || PlayerID(GetplayerID(6)),Name = "Tachibana" || PlayerID(GetplayerID(6)),Name = "Tachibana Ukyo"  || PlayerID(GetplayerID(6)),Name = "Ukyo Tachibana" || PlayerID(GetplayerID(8)),Name = "Ukyo" || PlayerID(GetplayerID(8)),Name = "Tachibana" || PlayerID(GetplayerID(8)),Name = "Tachibana Ukyo"  || PlayerID(GetplayerID(8)),Name = "Ukyo Tachibana"  
+trigger1 = player(1), Win = 1
+trigger1 = player(1),Name = "Ukyo" || player(1),Name = "Tachibana" || player(1),Name = "Tachibana Ukyo"  || player(1),Name = "Ukyo Tachibana" || player(3),Name = "Ukyo" || player(3),Name = "Tachibana" || player(3),Name = "Tachibana Ukyo"  || player(3),Name = "Ukyo Tachibana" || player(5),Name = "Ukyo" || player(5),Name = "Tachibana" || player(5),Name = "Tachibana Ukyo"  || player(5),Name = "Ukyo Tachibana" || player(7),Name = "Ukyo" || player(7),Name = "Tachibana" || player(7),Name = "Tachibana Ukyo"  || player(7),Name = "Ukyo Tachibana"  
+trigger2 = player(2), Win = 1
+trigger2 = player(2),Name = "Ukyo" || player(2),Name = "Tachibana" || player(2),Name = "Tachibana Ukyo"  || player(2),Name = "Ukyo Tachibana" || player(4),Name = "Ukyo" || player(4),Name = "Tachibana" || player(4),Name = "Tachibana Ukyo"  || player(4),Name = "Ukyo Tachibana" || player(6),Name = "Ukyo" || player(6),Name = "Tachibana" || player(6),Name = "Tachibana Ukyo"  || player(6),Name = "Ukyo Tachibana" || player(8),Name = "Ukyo" || player(8),Name = "Tachibana" || player(8),Name = "Tachibana Ukyo"  || player(8),Name = "Ukyo Tachibana"  
 type = MapSet
 map = "Kei"
 value = 111
 [State 333, UkyoLose]
 triggerall = RoundState > 2 && Map(Kei) = 333
-trigger1 = playerid(getplayerid(2)), Win = 1
-trigger1 = PlayerID(GetplayerID(1)),Name = "Ukyo" || PlayerID(GetplayerID(1)),Name = "Tachibana" || PlayerID(GetplayerID(1)),Name = "Tachibana Ukyo"  || PlayerID(GetplayerID(1)),Name = "Ukyo Tachibana" || PlayerID(GetplayerID(3)),Name = "Ukyo" || PlayerID(GetplayerID(3)),Name = "Tachibana" || PlayerID(GetplayerID(3)),Name = "Tachibana Ukyo"  || PlayerID(GetplayerID(3)),Name = "Ukyo Tachibana" || PlayerID(GetplayerID(5)),Name = "Ukyo" || PlayerID(GetplayerID(5)),Name = "Tachibana" || PlayerID(GetplayerID(5)),Name = "Tachibana Ukyo"  || PlayerID(GetplayerID(5)),Name = "Ukyo Tachibana" || PlayerID(GetplayerID(7)),Name = "Ukyo" || PlayerID(GetplayerID(7)),Name = "Tachibana" || PlayerID(GetplayerID(7)),Name = "Tachibana Ukyo"  || PlayerID(GetplayerID(7)),Name = "Ukyo Tachibana"  
-trigger2 = playerid(getplayerid(1)), Win = 1
-trigger2 = PlayerID(GetplayerID(2)),Name = "Ukyo" || PlayerID(GetplayerID(2)),Name = "Tachibana" || PlayerID(GetplayerID(2)),Name = "Tachibana Ukyo"  || PlayerID(GetplayerID(2)),Name = "Ukyo Tachibana" || PlayerID(GetplayerID(4)),Name = "Ukyo" || PlayerID(GetplayerID(4)),Name = "Tachibana" || PlayerID(GetplayerID(4)),Name = "Tachibana Ukyo"  || PlayerID(GetplayerID(4)),Name = "Ukyo Tachibana" || PlayerID(GetplayerID(6)),Name = "Ukyo" || PlayerID(GetplayerID(6)),Name = "Tachibana" || PlayerID(GetplayerID(6)),Name = "Tachibana Ukyo"  || PlayerID(GetplayerID(6)),Name = "Ukyo Tachibana" || PlayerID(GetplayerID(8)),Name = "Ukyo" || PlayerID(GetplayerID(8)),Name = "Tachibana" || PlayerID(GetplayerID(8)),Name = "Tachibana Ukyo"  || PlayerID(GetplayerID(8)),Name = "Ukyo Tachibana"  
+trigger1 = player(2), Win = 1
+trigger1 = player(1),Name = "Ukyo" || player(1),Name = "Tachibana" || player(1),Name = "Tachibana Ukyo"  || player(1),Name = "Ukyo Tachibana" || player(3),Name = "Ukyo" || player(3),Name = "Tachibana" || player(3),Name = "Tachibana Ukyo"  || player(3),Name = "Ukyo Tachibana" || player(5),Name = "Ukyo" || player(5),Name = "Tachibana" || player(5),Name = "Tachibana Ukyo"  || player(5),Name = "Ukyo Tachibana" || player(7),Name = "Ukyo" || player(7),Name = "Tachibana" || player(7),Name = "Tachibana Ukyo"  || player(7),Name = "Ukyo Tachibana"  
+trigger2 = player(1), Win = 1
+trigger2 = player(2),Name = "Ukyo" || player(2),Name = "Tachibana" || player(2),Name = "Tachibana Ukyo"  || player(2),Name = "Ukyo Tachibana" || player(4),Name = "Ukyo" || player(4),Name = "Tachibana" || player(4),Name = "Tachibana Ukyo"  || player(4),Name = "Ukyo Tachibana" || player(6),Name = "Ukyo" || player(6),Name = "Tachibana" || player(6),Name = "Tachibana Ukyo"  || player(6),Name = "Ukyo Tachibana" || player(8),Name = "Ukyo" || player(8),Name = "Tachibana" || player(8),Name = "Tachibana Ukyo"  || player(8),Name = "Ukyo Tachibana"  
 type = MapSet
 map = "Kei"
 value = 222
@@ -2567,14 +2567,14 @@ value = ,AP
 [State 333, NoHitByAnyoneUnlessAttackingANDInList]
 ;si está lejos, o no ataca, o no corta
 ;si corta, ataca y está cerca que deje de renovarse la inv.
-trigger1 = Abs(playerid(getplayerid(1)),Pos Y - Pos Y) > 59 || playerid(getplayerid(1)),movetype != A || playerid(getplayerid(1)),Map(LasombraCortante) != 1789
-trigger1 = Abs(playerid(getplayerid(2)),Pos Y - Pos Y) > 59 || playerid(getplayerid(2)),movetype != A || playerid(getplayerid(2)),Map(LasombraCortante) != 1789
-trigger1 = Abs(playerid(getplayerid(3)),Pos Y - Pos Y) > 59 || playerid(getplayerid(3)),movetype != A || playerid(getplayerid(3)),Map(LasombraCortante) != 1789
-trigger1 = Abs(playerid(getplayerid(4)),Pos Y - Pos Y) > 59 || playerid(getplayerid(4)),movetype != A || playerid(getplayerid(4)),Map(LasombraCortante) != 1789
-trigger1 = Abs(playerid(getplayerid(5)),Pos Y - Pos Y) > 59 || playerid(getplayerid(5)),movetype != A || playerid(getplayerid(5)),Map(LasombraCortante) != 1789
-trigger1 = Abs(playerid(getplayerid(6)),Pos Y - Pos Y) > 59 || playerid(getplayerid(6)),movetype != A || playerid(getplayerid(6)),Map(LasombraCortante) != 1789
-trigger1 = Abs(playerid(getplayerid(7)),Pos Y - Pos Y) > 59 || playerid(getplayerid(7)),movetype != A || playerid(getplayerid(7)),Map(LasombraCortante) != 1789
-trigger1 = Abs(playerid(getplayerid(8)),Pos Y - Pos Y) > 59 || playerid(getplayerid(8)),movetype != A || playerid(getplayerid(8)),Map(LasombraCortante) != 1789
+trigger1 = Abs(player(1),Pos Y - Pos Y) > 59 || player(1),movetype != A || player(1),Map(LasombraCortante) != 1789
+trigger1 = Abs(player(2),Pos Y - Pos Y) > 59 || player(2),movetype != A || player(2),Map(LasombraCortante) != 1789
+trigger1 = Abs(player(3),Pos Y - Pos Y) > 59 || player(3),movetype != A || player(3),Map(LasombraCortante) != 1789
+trigger1 = Abs(player(4),Pos Y - Pos Y) > 59 || player(4),movetype != A || player(4),Map(LasombraCortante) != 1789
+trigger1 = Abs(player(5),Pos Y - Pos Y) > 59 || player(5),movetype != A || player(5),Map(LasombraCortante) != 1789
+trigger1 = Abs(player(6),Pos Y - Pos Y) > 59 || player(6),movetype != A || player(6),Map(LasombraCortante) != 1789
+trigger1 = Abs(player(7),Pos Y - Pos Y) > 59 || player(7),movetype != A || player(7),Map(LasombraCortante) != 1789
+trigger1 = Abs(player(8),Pos Y - Pos Y) > 59 || player(8),movetype != A || player(8),Map(LasombraCortante) != 1789
 triggerall = IsHelper(1) = 0
 triggerall = IsHelper(2) = 0
 triggerall = IsHelper(3) = 0
@@ -2648,7 +2648,7 @@ type = VarSet
 v = 1
 value = 1
 [State 800, +o-]
-trigger1 = Time = 0 && Rand(1,100) > 50
+trigger1 = Time = 0 && (1+floor(Random*100/1000.0)) > 50
 persistent = 0
 type = VarSet
 v = 1
@@ -2660,7 +2660,7 @@ trigger1 = HelperName = "MidBush" || HelperName = "LeftBush" || HelperName = "Ri
 persistent = 0
 type = MapSet
 Map = "TopeDebris"
-value = Rand(5,12)
+value = (5+floor(Random*8/1000.0))
 
 [State 800, AnimBush]
 trigger1 = HelperName = "MidBush" || HelperName = "LeftBush" || HelperName = "RightBush" 
@@ -2674,10 +2674,10 @@ trigger1 = Anim = 52
 trigger1 = time < Map(TopeDebris)
 trigger1 = NumExplod(1540944100) < Map(TopeDebris)
 type = Explod
-anim = Rand(184,188)
+anim = (184+floor(Random*5/1000.0))
 space = stage
 pos = Pos X + CameraPos X, Pos Y - 60
-vel = Rand(50,110)*Var(1)/100,Rand(-50,-10)/100
+vel = (50+floor(Random*61/1000.0))*Var(1)/100,(-50+floor(Random*41/1000.0))/100
 accel = 0,0.05
 random = 20,20
 RemoveTime = 30
@@ -2689,12 +2689,12 @@ facing = 1
 [State 333, AnimBush]
 trigger1 = Anim = 52
 trigger1 = time < Map(TopeDebris)
-trigger1 = time % 3 && Rand(1,100) > 50
+trigger1 = time % 3 && (1+floor(Random*100/1000.0)) > 50
 type = Explod
 anim = 189
 space = stage
 pos = Pos X + CameraPos X, Pos Y - 60
-vel = Rand(50,110)*Var(1)/100,Rand(-50,-10)/100
+vel = (50+floor(Random*61/1000.0))*Var(1)/100,(-50+floor(Random*41/1000.0))/100
 accel = 0,0.05
 random = 20,20
 RemoveTime = 30
@@ -2804,14 +2804,14 @@ value = ,AP
 [State 333, NoHitByAnyoneUnlessAttackingANDInList]
 ;si está lejos, o no ataca, o no corta
 ;si corta, ataca y está cerca que deje de renovarse la inv.
-trigger1 = Abs(playerid(getplayerid(1)),Pos Y - Pos Y) > 59 || playerid(getplayerid(1)),movetype != A || playerid(getplayerid(1)),Map(LasombraCortante) != 1789
-trigger1 = Abs(playerid(getplayerid(2)),Pos Y - Pos Y) > 59 || playerid(getplayerid(2)),movetype != A || playerid(getplayerid(2)),Map(LasombraCortante) != 1789
-trigger1 = Abs(playerid(getplayerid(3)),Pos Y - Pos Y) > 59 || playerid(getplayerid(3)),movetype != A || playerid(getplayerid(3)),Map(LasombraCortante) != 1789
-trigger1 = Abs(playerid(getplayerid(4)),Pos Y - Pos Y) > 59 || playerid(getplayerid(4)),movetype != A || playerid(getplayerid(4)),Map(LasombraCortante) != 1789
-trigger1 = Abs(playerid(getplayerid(5)),Pos Y - Pos Y) > 59 || playerid(getplayerid(5)),movetype != A || playerid(getplayerid(5)),Map(LasombraCortante) != 1789
-trigger1 = Abs(playerid(getplayerid(6)),Pos Y - Pos Y) > 59 || playerid(getplayerid(6)),movetype != A || playerid(getplayerid(6)),Map(LasombraCortante) != 1789
-trigger1 = Abs(playerid(getplayerid(7)),Pos Y - Pos Y) > 59 || playerid(getplayerid(7)),movetype != A || playerid(getplayerid(7)),Map(LasombraCortante) != 1789
-trigger1 = Abs(playerid(getplayerid(8)),Pos Y - Pos Y) > 59 || playerid(getplayerid(8)),movetype != A || playerid(getplayerid(8)),Map(LasombraCortante) != 1789
+trigger1 = Abs(player(1),Pos Y - Pos Y) > 59 || player(1),movetype != A || player(1),Map(LasombraCortante) != 1789
+trigger1 = Abs(player(2),Pos Y - Pos Y) > 59 || player(2),movetype != A || player(2),Map(LasombraCortante) != 1789
+trigger1 = Abs(player(3),Pos Y - Pos Y) > 59 || player(3),movetype != A || player(3),Map(LasombraCortante) != 1789
+trigger1 = Abs(player(4),Pos Y - Pos Y) > 59 || player(4),movetype != A || player(4),Map(LasombraCortante) != 1789
+trigger1 = Abs(player(5),Pos Y - Pos Y) > 59 || player(5),movetype != A || player(5),Map(LasombraCortante) != 1789
+trigger1 = Abs(player(6),Pos Y - Pos Y) > 59 || player(6),movetype != A || player(6),Map(LasombraCortante) != 1789
+trigger1 = Abs(player(7),Pos Y - Pos Y) > 59 || player(7),movetype != A || player(7),Map(LasombraCortante) != 1789
+trigger1 = Abs(player(8),Pos Y - Pos Y) > 59 || player(8),movetype != A || player(8),Map(LasombraCortante) != 1789
 triggerall = IsHelper(1) = 0
 triggerall = IsHelper(2) = 0
 triggerall = IsHelper(3) = 0
@@ -2933,7 +2933,7 @@ type = VarSet
 v = 1
 value = 1
 [State 800, +o-]
-trigger1 = Time = 0 && Rand(1,100) > 50
+trigger1 = Time = 0 && (1+floor(Random*100/1000.0)) > 50
 persistent = 0
 type = VarSet
 v = 1
@@ -3176,7 +3176,7 @@ type = VarSet
 v = 1
 value = 1
 [State 800, +o-]
-trigger1 = Time = 0 && Rand(1,100) > 50
+trigger1 = Time = 0 && (1+floor(Random*100/1000.0)) > 50
 persistent = 0
 type = VarSet
 v = 1
@@ -3274,14 +3274,14 @@ value = A,NA,AT,AP
 [State 333, NoHitByAnyoneUnlessAttackingANDInList]
 ;si está lejos, o no ataca, o no corta
 ;si corta, ataca y está cerca que deje de renovarse la inv.
-trigger1 = Abs(playerid(getplayerid(1)),Pos Y - Pos Y) > 59 || playerid(getplayerid(1)),movetype != A || playerid(getplayerid(1)),Map(LasombraCortante) != 1789
-trigger1 = Abs(playerid(getplayerid(2)),Pos Y - Pos Y) > 59 || playerid(getplayerid(2)),movetype != A || playerid(getplayerid(2)),Map(LasombraCortante) != 1789
-trigger1 = Abs(playerid(getplayerid(3)),Pos Y - Pos Y) > 59 || playerid(getplayerid(3)),movetype != A || playerid(getplayerid(3)),Map(LasombraCortante) != 1789
-trigger1 = Abs(playerid(getplayerid(4)),Pos Y - Pos Y) > 59 || playerid(getplayerid(4)),movetype != A || playerid(getplayerid(4)),Map(LasombraCortante) != 1789
-trigger1 = Abs(playerid(getplayerid(5)),Pos Y - Pos Y) > 59 || playerid(getplayerid(5)),movetype != A || playerid(getplayerid(5)),Map(LasombraCortante) != 1789
-trigger1 = Abs(playerid(getplayerid(6)),Pos Y - Pos Y) > 59 || playerid(getplayerid(6)),movetype != A || playerid(getplayerid(6)),Map(LasombraCortante) != 1789
-trigger1 = Abs(playerid(getplayerid(7)),Pos Y - Pos Y) > 59 || playerid(getplayerid(7)),movetype != A || playerid(getplayerid(7)),Map(LasombraCortante) != 1789
-trigger1 = Abs(playerid(getplayerid(8)),Pos Y - Pos Y) > 59 || playerid(getplayerid(8)),movetype != A || playerid(getplayerid(8)),Map(LasombraCortante) != 1789
+trigger1 = Abs(player(1),Pos Y - Pos Y) > 59 || player(1),movetype != A || player(1),Map(LasombraCortante) != 1789
+trigger1 = Abs(player(2),Pos Y - Pos Y) > 59 || player(2),movetype != A || player(2),Map(LasombraCortante) != 1789
+trigger1 = Abs(player(3),Pos Y - Pos Y) > 59 || player(3),movetype != A || player(3),Map(LasombraCortante) != 1789
+trigger1 = Abs(player(4),Pos Y - Pos Y) > 59 || player(4),movetype != A || player(4),Map(LasombraCortante) != 1789
+trigger1 = Abs(player(5),Pos Y - Pos Y) > 59 || player(5),movetype != A || player(5),Map(LasombraCortante) != 1789
+trigger1 = Abs(player(6),Pos Y - Pos Y) > 59 || player(6),movetype != A || player(6),Map(LasombraCortante) != 1789
+trigger1 = Abs(player(7),Pos Y - Pos Y) > 59 || player(7),movetype != A || player(7),Map(LasombraCortante) != 1789
+trigger1 = Abs(player(8),Pos Y - Pos Y) > 59 || player(8),movetype != A || player(8),Map(LasombraCortante) != 1789
 triggerall = IsHelper(1) = 0
 triggerall = IsHelper(2) = 0
 triggerall = IsHelper(3) = 0
@@ -3344,14 +3344,14 @@ value = ,NA,AT
 [State 333, NoHitByAnyoneUnlessAttackingANDInList]
 ;si está lejos, o no ataca, o no corta
 ;si corta, ataca y está cerca que deje de renovarse la inv.
-trigger1 = Abs(playerid(getplayerid(1)),Pos Y - Pos Y) > 59 || playerid(getplayerid(1)),movetype != A || playerid(getplayerid(1)),Map(LasombraCortante) != 1789
-trigger1 = Abs(playerid(getplayerid(2)),Pos Y - Pos Y) > 59 || playerid(getplayerid(2)),movetype != A || playerid(getplayerid(2)),Map(LasombraCortante) != 1789
-trigger1 = Abs(playerid(getplayerid(3)),Pos Y - Pos Y) > 59 || playerid(getplayerid(3)),movetype != A || playerid(getplayerid(3)),Map(LasombraCortante) != 1789
-trigger1 = Abs(playerid(getplayerid(4)),Pos Y - Pos Y) > 59 || playerid(getplayerid(4)),movetype != A || playerid(getplayerid(4)),Map(LasombraCortante) != 1789
-trigger1 = Abs(playerid(getplayerid(5)),Pos Y - Pos Y) > 59 || playerid(getplayerid(5)),movetype != A || playerid(getplayerid(5)),Map(LasombraCortante) != 1789
-trigger1 = Abs(playerid(getplayerid(6)),Pos Y - Pos Y) > 59 || playerid(getplayerid(6)),movetype != A || playerid(getplayerid(6)),Map(LasombraCortante) != 1789
-trigger1 = Abs(playerid(getplayerid(7)),Pos Y - Pos Y) > 59 || playerid(getplayerid(7)),movetype != A || playerid(getplayerid(7)),Map(LasombraCortante) != 1789
-trigger1 = Abs(playerid(getplayerid(8)),Pos Y - Pos Y) > 59 || playerid(getplayerid(8)),movetype != A || playerid(getplayerid(8)),Map(LasombraCortante) != 1789
+trigger1 = Abs(player(1),Pos Y - Pos Y) > 59 || player(1),movetype != A || player(1),Map(LasombraCortante) != 1789
+trigger1 = Abs(player(2),Pos Y - Pos Y) > 59 || player(2),movetype != A || player(2),Map(LasombraCortante) != 1789
+trigger1 = Abs(player(3),Pos Y - Pos Y) > 59 || player(3),movetype != A || player(3),Map(LasombraCortante) != 1789
+trigger1 = Abs(player(4),Pos Y - Pos Y) > 59 || player(4),movetype != A || player(4),Map(LasombraCortante) != 1789
+trigger1 = Abs(player(5),Pos Y - Pos Y) > 59 || player(5),movetype != A || player(5),Map(LasombraCortante) != 1789
+trigger1 = Abs(player(6),Pos Y - Pos Y) > 59 || player(6),movetype != A || player(6),Map(LasombraCortante) != 1789
+trigger1 = Abs(player(7),Pos Y - Pos Y) > 59 || player(7),movetype != A || player(7),Map(LasombraCortante) != 1789
+trigger1 = Abs(player(8),Pos Y - Pos Y) > 59 || player(8),movetype != A || player(8),Map(LasombraCortante) != 1789
 triggerall = IsHelper(1) = 0
 triggerall = IsHelper(2) = 0
 triggerall = IsHelper(3) = 0
@@ -3431,7 +3431,7 @@ type = VarSet
 v = 1
 value = 1
 [State 800, +o-]
-trigger1 = Time = 0 && Rand(1,100) > 50
+trigger1 = Time = 0 && (1+floor(Random*100/1000.0)) > 50
 persistent = 0
 type = VarSet
 v = 1
@@ -3459,7 +3459,7 @@ type = Explod
 anim = 84
 space = stage
 pos = Pos X + CameraPos X + (Map(DireccionEnemigo)*30), Pos Y - 10
-vel = Rand(50,110)*Var(1)/80,Rand(-30,-20)/10
+vel = (50+floor(Random*61/1000.0))*Var(1)/80,(-30+floor(Random*11/1000.0))/10
 accel = 0,0.12
 random = 20,20
 RemoveTime = 40
@@ -3474,7 +3474,7 @@ type = Explod
 anim = 85
 space = stage
 pos = Pos X + CameraPos X + (Map(DireccionEnemigo)*30), Pos Y - 10
-vel = Rand(50,110)*Var(1)/80,Rand(-30,-20)/10
+vel = (50+floor(Random*61/1000.0))*Var(1)/80,(-30+floor(Random*11/1000.0))/10
 accel = 0,0.12
 random = 20,20
 RemoveTime = 40
@@ -3489,7 +3489,7 @@ type = Explod
 anim = 86
 space = stage
 pos = Pos X + CameraPos X + (Map(DireccionEnemigo)*30), Pos Y - 10
-vel = Rand(50,110)*Var(1)/80,Rand(-30,-20)/10
+vel = (50+floor(Random*61/1000.0))*Var(1)/80,(-30+floor(Random*11/1000.0))/10
 accel = 0,0.12
 random = 20,20
 RemoveTime = 40
@@ -3504,7 +3504,7 @@ type = Explod
 anim = 87
 space = stage
 pos = Pos X + CameraPos X + (Map(DireccionEnemigo)*30), Pos Y - 10
-vel = Rand(50,110)*Var(1)/80,Rand(-30,-20)/10
+vel = (50+floor(Random*61/1000.0))*Var(1)/80,(-30+floor(Random*11/1000.0))/10
 accel = 0,0.12
 random = 20,20
 RemoveTime = 40
@@ -3519,7 +3519,7 @@ type = Explod
 anim = 88
 space = stage
 pos = Pos X + CameraPos X + (Map(DireccionEnemigo)*30), Pos Y - 10
-vel = Rand(50,110)*Var(1)/80,Rand(-30,-20)/10
+vel = (50+floor(Random*61/1000.0))*Var(1)/80,(-30+floor(Random*11/1000.0))/10
 accel = 0,0.12
 random = 20,20
 RemoveTime = 40
@@ -3595,14 +3595,14 @@ value = ,NA,AT
 [State 333, NoHitByAnyoneUnlessAttackingANDInList]
 ;si está lejos, o no ataca, o no corta
 ;si corta, ataca y está cerca que deje de renovarse la inv.
-trigger1 = Abs(playerid(getplayerid(1)),Pos Y - Pos Y) > 59 || playerid(getplayerid(1)),movetype != A || playerid(getplayerid(1)),Map(LasombraCortante) != 1789
-trigger1 = Abs(playerid(getplayerid(2)),Pos Y - Pos Y) > 59 || playerid(getplayerid(2)),movetype != A || playerid(getplayerid(2)),Map(LasombraCortante) != 1789
-trigger1 = Abs(playerid(getplayerid(3)),Pos Y - Pos Y) > 59 || playerid(getplayerid(3)),movetype != A || playerid(getplayerid(3)),Map(LasombraCortante) != 1789
-trigger1 = Abs(playerid(getplayerid(4)),Pos Y - Pos Y) > 59 || playerid(getplayerid(4)),movetype != A || playerid(getplayerid(4)),Map(LasombraCortante) != 1789
-trigger1 = Abs(playerid(getplayerid(5)),Pos Y - Pos Y) > 59 || playerid(getplayerid(5)),movetype != A || playerid(getplayerid(5)),Map(LasombraCortante) != 1789
-trigger1 = Abs(playerid(getplayerid(6)),Pos Y - Pos Y) > 59 || playerid(getplayerid(6)),movetype != A || playerid(getplayerid(6)),Map(LasombraCortante) != 1789
-trigger1 = Abs(playerid(getplayerid(7)),Pos Y - Pos Y) > 59 || playerid(getplayerid(7)),movetype != A || playerid(getplayerid(7)),Map(LasombraCortante) != 1789
-trigger1 = Abs(playerid(getplayerid(8)),Pos Y - Pos Y) > 59 || playerid(getplayerid(8)),movetype != A || playerid(getplayerid(8)),Map(LasombraCortante) != 1789
+trigger1 = Abs(player(1),Pos Y - Pos Y) > 59 || player(1),movetype != A || player(1),Map(LasombraCortante) != 1789
+trigger1 = Abs(player(2),Pos Y - Pos Y) > 59 || player(2),movetype != A || player(2),Map(LasombraCortante) != 1789
+trigger1 = Abs(player(3),Pos Y - Pos Y) > 59 || player(3),movetype != A || player(3),Map(LasombraCortante) != 1789
+trigger1 = Abs(player(4),Pos Y - Pos Y) > 59 || player(4),movetype != A || player(4),Map(LasombraCortante) != 1789
+trigger1 = Abs(player(5),Pos Y - Pos Y) > 59 || player(5),movetype != A || player(5),Map(LasombraCortante) != 1789
+trigger1 = Abs(player(6),Pos Y - Pos Y) > 59 || player(6),movetype != A || player(6),Map(LasombraCortante) != 1789
+trigger1 = Abs(player(7),Pos Y - Pos Y) > 59 || player(7),movetype != A || player(7),Map(LasombraCortante) != 1789
+trigger1 = Abs(player(8),Pos Y - Pos Y) > 59 || player(8),movetype != A || player(8),Map(LasombraCortante) != 1789
 triggerall = IsHelper(1) = 0
 triggerall = IsHelper(2) = 0
 triggerall = IsHelper(3) = 0
@@ -3686,7 +3686,7 @@ type = VarSet
 v = 1
 value = 1
 [State 800, +o-]
-trigger1 = Time = 0 && Rand(1,100) > 50
+trigger1 = Time = 0 && (1+floor(Random*100/1000.0)) > 50
 persistent = 0
 type = VarSet
 v = 1
@@ -3714,7 +3714,7 @@ type = Explod
 anim = 84
 space = stage
 pos = Pos X + CameraPos X,0
-vel = Rand(50,110)*Var(1)/80,Rand(-30,-20)/10
+vel = (50+floor(Random*61/1000.0))*Var(1)/80,(-30+floor(Random*11/1000.0))/10
 accel = 0,0.12
 random = 20,20
 RemoveTime = 40
@@ -3729,7 +3729,7 @@ type = Explod
 anim = 85
 space = stage
 pos = Pos X + CameraPos X,0
-vel = Rand(50,110)*Var(1)/80,Rand(-30,-20)/10
+vel = (50+floor(Random*61/1000.0))*Var(1)/80,(-30+floor(Random*11/1000.0))/10
 accel = 0,0.12
 random = 20,20
 RemoveTime = 40
@@ -3744,7 +3744,7 @@ type = Explod
 anim = 86
 space = stage
 pos = Pos X + CameraPos X, 0
-vel = Rand(50,110)*Var(1)/80,Rand(-30,-20)/10
+vel = (50+floor(Random*61/1000.0))*Var(1)/80,(-30+floor(Random*11/1000.0))/10
 accel = 0,0.12
 random = 20,20
 RemoveTime = 40
@@ -3759,7 +3759,7 @@ type = Explod
 anim = 87
 space = stage
 pos = Pos X + CameraPos X, 0
-vel = Rand(50,110)*Var(1)/80,Rand(-30,-20)/10
+vel = (50+floor(Random*61/1000.0))*Var(1)/80,(-30+floor(Random*11/1000.0))/10
 accel = 0,0.12
 random = 20,20
 RemoveTime = 40
@@ -3774,7 +3774,7 @@ type = Explod
 anim = 88
 space = stage
 pos = Pos X + CameraPos X, 0
-vel = Rand(50,110)*Var(1)/80,Rand(-30,-20)/10
+vel = (50+floor(Random*61/1000.0))*Var(1)/80,(-30+floor(Random*11/1000.0))/10
 accel = 0,0.12
 random = 20,20
 RemoveTime = 40
@@ -3846,14 +3846,14 @@ value = ,NA,AT
 [State 333, NoHitByAnyoneUnlessAttackingANDInList]
 ;si está lejos, o no ataca, o no corta
 ;si corta, ataca y está cerca que deje de renovarse la inv.
-trigger1 = Abs(playerid(getplayerid(1)),Pos Y - Pos Y) > 59 || playerid(getplayerid(1)),movetype != A || playerid(getplayerid(1)),Map(LasombraCortante) != 1789
-trigger1 = Abs(playerid(getplayerid(2)),Pos Y - Pos Y) > 59 || playerid(getplayerid(2)),movetype != A || playerid(getplayerid(2)),Map(LasombraCortante) != 1789
-trigger1 = Abs(playerid(getplayerid(3)),Pos Y - Pos Y) > 59 || playerid(getplayerid(3)),movetype != A || playerid(getplayerid(3)),Map(LasombraCortante) != 1789
-trigger1 = Abs(playerid(getplayerid(4)),Pos Y - Pos Y) > 59 || playerid(getplayerid(4)),movetype != A || playerid(getplayerid(4)),Map(LasombraCortante) != 1789
-trigger1 = Abs(playerid(getplayerid(5)),Pos Y - Pos Y) > 59 || playerid(getplayerid(5)),movetype != A || playerid(getplayerid(5)),Map(LasombraCortante) != 1789
-trigger1 = Abs(playerid(getplayerid(6)),Pos Y - Pos Y) > 59 || playerid(getplayerid(6)),movetype != A || playerid(getplayerid(6)),Map(LasombraCortante) != 1789
-trigger1 = Abs(playerid(getplayerid(7)),Pos Y - Pos Y) > 59 || playerid(getplayerid(7)),movetype != A || playerid(getplayerid(7)),Map(LasombraCortante) != 1789
-trigger1 = Abs(playerid(getplayerid(8)),Pos Y - Pos Y) > 59 || playerid(getplayerid(8)),movetype != A || playerid(getplayerid(8)),Map(LasombraCortante) != 1789
+trigger1 = Abs(player(1),Pos Y - Pos Y) > 59 || player(1),movetype != A || player(1),Map(LasombraCortante) != 1789
+trigger1 = Abs(player(2),Pos Y - Pos Y) > 59 || player(2),movetype != A || player(2),Map(LasombraCortante) != 1789
+trigger1 = Abs(player(3),Pos Y - Pos Y) > 59 || player(3),movetype != A || player(3),Map(LasombraCortante) != 1789
+trigger1 = Abs(player(4),Pos Y - Pos Y) > 59 || player(4),movetype != A || player(4),Map(LasombraCortante) != 1789
+trigger1 = Abs(player(5),Pos Y - Pos Y) > 59 || player(5),movetype != A || player(5),Map(LasombraCortante) != 1789
+trigger1 = Abs(player(6),Pos Y - Pos Y) > 59 || player(6),movetype != A || player(6),Map(LasombraCortante) != 1789
+trigger1 = Abs(player(7),Pos Y - Pos Y) > 59 || player(7),movetype != A || player(7),Map(LasombraCortante) != 1789
+trigger1 = Abs(player(8),Pos Y - Pos Y) > 59 || player(8),movetype != A || player(8),Map(LasombraCortante) != 1789
 triggerall = IsHelper(1) = 0
 triggerall = IsHelper(2) = 0
 triggerall = IsHelper(3) = 0
@@ -3953,7 +3953,7 @@ type = VarSet
 v = 1
 value = 1
 [State 800, +o-]
-trigger1 = Time = 0 && Rand(1,100) > 50
+trigger1 = Time = 0 && (1+floor(Random*100/1000.0)) > 50
 persistent = 0
 type = VarSet
 v = 1
@@ -3964,15 +3964,15 @@ trigger1 = Time = 0
 persistent = 0
 type = MapSet
 Map = "TopeDebris"
-value = Rand(4,9)
+value = (4+floor(Random*6/1000.0))
 
 [State 333, Debris1]
-trigger1 = Time = [10,50] && NumExplod < Map(TopeDebris) && Rand(1,100) < 20
+trigger1 = Time = [10,50] && NumExplod < Map(TopeDebris) && (1+floor(Random*100/1000.0)) < 20
 type = Explod
-anim = Rand(75,76)
+anim = (75+floor(Random*2/1000.0))
 space = stage
 pos = Pos X + CameraPos X, Pos Y - 10
-vel = Rand(50,110)*Var(1)/80,-2.0
+vel = (50+floor(Random*61/1000.0))*Var(1)/80,-2.0
 accel = 0,0.12
 random = 20,0
 RemoveTime = 120
@@ -4062,14 +4062,14 @@ value = ,NA,AT
 [State 333, NoHitByAnyoneUnlessAttackingANDInList]
 ;si está lejos, o no ataca, o no corta
 ;si corta, ataca y está cerca que deje de renovarse la inv.
-trigger1 = Abs(playerid(getplayerid(1)),Pos Y - Pos Y) > 59 || playerid(getplayerid(1)),movetype != A || playerid(getplayerid(1)),Map(LasombraCortante) != 1789
-trigger1 = Abs(playerid(getplayerid(2)),Pos Y - Pos Y) > 59 || playerid(getplayerid(2)),movetype != A || playerid(getplayerid(2)),Map(LasombraCortante) != 1789
-trigger1 = Abs(playerid(getplayerid(3)),Pos Y - Pos Y) > 59 || playerid(getplayerid(3)),movetype != A || playerid(getplayerid(3)),Map(LasombraCortante) != 1789
-trigger1 = Abs(playerid(getplayerid(4)),Pos Y - Pos Y) > 59 || playerid(getplayerid(4)),movetype != A || playerid(getplayerid(4)),Map(LasombraCortante) != 1789
-trigger1 = Abs(playerid(getplayerid(5)),Pos Y - Pos Y) > 59 || playerid(getplayerid(5)),movetype != A || playerid(getplayerid(5)),Map(LasombraCortante) != 1789
-trigger1 = Abs(playerid(getplayerid(6)),Pos Y - Pos Y) > 59 || playerid(getplayerid(6)),movetype != A || playerid(getplayerid(6)),Map(LasombraCortante) != 1789
-trigger1 = Abs(playerid(getplayerid(7)),Pos Y - Pos Y) > 59 || playerid(getplayerid(7)),movetype != A || playerid(getplayerid(7)),Map(LasombraCortante) != 1789
-trigger1 = Abs(playerid(getplayerid(8)),Pos Y - Pos Y) > 59 || playerid(getplayerid(8)),movetype != A || playerid(getplayerid(8)),Map(LasombraCortante) != 1789
+trigger1 = Abs(player(1),Pos Y - Pos Y) > 59 || player(1),movetype != A || player(1),Map(LasombraCortante) != 1789
+trigger1 = Abs(player(2),Pos Y - Pos Y) > 59 || player(2),movetype != A || player(2),Map(LasombraCortante) != 1789
+trigger1 = Abs(player(3),Pos Y - Pos Y) > 59 || player(3),movetype != A || player(3),Map(LasombraCortante) != 1789
+trigger1 = Abs(player(4),Pos Y - Pos Y) > 59 || player(4),movetype != A || player(4),Map(LasombraCortante) != 1789
+trigger1 = Abs(player(5),Pos Y - Pos Y) > 59 || player(5),movetype != A || player(5),Map(LasombraCortante) != 1789
+trigger1 = Abs(player(6),Pos Y - Pos Y) > 59 || player(6),movetype != A || player(6),Map(LasombraCortante) != 1789
+trigger1 = Abs(player(7),Pos Y - Pos Y) > 59 || player(7),movetype != A || player(7),Map(LasombraCortante) != 1789
+trigger1 = Abs(player(8),Pos Y - Pos Y) > 59 || player(8),movetype != A || player(8),Map(LasombraCortante) != 1789
 triggerall = IsHelper(1) = 0
 triggerall = IsHelper(2) = 0
 triggerall = IsHelper(3) = 0
@@ -4154,7 +4154,7 @@ type = VarSet
 v = 1
 value = 1
 [State 800, +o-]
-trigger1 = Time = 0 && Rand(1,100) > 50
+trigger1 = Time = 0 && (1+floor(Random*100/1000.0)) > 50
 persistent = 0
 type = VarSet
 v = 1
@@ -4177,12 +4177,12 @@ ID = 5
 ontop = 1
 
 [State 333, Manzana]
-trigger1 = Time = [55,75] && Rand(1,100) > 80
+trigger1 = Time = [55,75] && (1+floor(Random*100/1000.0)) > 80
 type = Explod
 anim = 71
 space = stage
 pos = Pos X + CameraPos X, Pos Y - 10
-vel = Rand(50,110)*Var(1)/80,Rand(-30,-20)/10
+vel = (50+floor(Random*61/1000.0))*Var(1)/80,(-30+floor(Random*11/1000.0))/10
 accel = 0,0.12
 random = 20,20
 RemoveTime = 40
@@ -4193,12 +4193,12 @@ ID = 71
 ontop = 1
 
 [State 333, CachoBarril]
-trigger1 = Time = [70,75] && Rand(1,100) > 50
+trigger1 = Time = [70,75] && (1+floor(Random*100/1000.0)) > 50
 type = Explod
 anim = 61
 space = stage
 pos = Pos X + CameraPos X, Pos Y - 10
-vel = Rand(50,110)*Var(1)/80,Rand(-30,-20)/10
+vel = (50+floor(Random*61/1000.0))*Var(1)/80,(-30+floor(Random*11/1000.0))/10
 accel = 0,0.12
 random = 20,20
 RemoveTime = 40
@@ -4209,12 +4209,12 @@ ID = 61
 ontop = 1
 
 [State 333, Debris]
-trigger1 = Time = [70,75] && Rand(1,100) > 20
+trigger1 = Time = [70,75] && (1+floor(Random*100/1000.0)) > 20
 type = Explod
-anim = Rand(63,70)
+anim = (63+floor(Random*8/1000.0))
 space = stage
 pos = Pos X + CameraPos X, Pos Y - 10
-vel = Rand(50,110)*Var(1)/80,Rand(-30,-20)/10
+vel = (50+floor(Random*61/1000.0))*Var(1)/80,(-30+floor(Random*11/1000.0))/10
 accel = 0,0.12
 random = 20,20
 RemoveTime = 40
@@ -4345,14 +4345,14 @@ value = ,NA,AT
 [State 333, NoHitByAnyoneUnlessAttackingANDInList]
 ;si está lejos, o no ataca, o no corta
 ;si corta, ataca y está cerca que deje de renovarse la inv.
-trigger1 = Abs(playerid(getplayerid(1)),Pos Y - Pos Y) > 59 || playerid(getplayerid(1)),movetype != A || playerid(getplayerid(1)),Map(LasombraCortante) != 1789
-trigger1 = Abs(playerid(getplayerid(2)),Pos Y - Pos Y) > 59 || playerid(getplayerid(2)),movetype != A || playerid(getplayerid(2)),Map(LasombraCortante) != 1789
-trigger1 = Abs(playerid(getplayerid(3)),Pos Y - Pos Y) > 59 || playerid(getplayerid(3)),movetype != A || playerid(getplayerid(3)),Map(LasombraCortante) != 1789
-trigger1 = Abs(playerid(getplayerid(4)),Pos Y - Pos Y) > 59 || playerid(getplayerid(4)),movetype != A || playerid(getplayerid(4)),Map(LasombraCortante) != 1789
-trigger1 = Abs(playerid(getplayerid(5)),Pos Y - Pos Y) > 59 || playerid(getplayerid(5)),movetype != A || playerid(getplayerid(5)),Map(LasombraCortante) != 1789
-trigger1 = Abs(playerid(getplayerid(6)),Pos Y - Pos Y) > 59 || playerid(getplayerid(6)),movetype != A || playerid(getplayerid(6)),Map(LasombraCortante) != 1789
-trigger1 = Abs(playerid(getplayerid(7)),Pos Y - Pos Y) > 59 || playerid(getplayerid(7)),movetype != A || playerid(getplayerid(7)),Map(LasombraCortante) != 1789
-trigger1 = Abs(playerid(getplayerid(8)),Pos Y - Pos Y) > 59 || playerid(getplayerid(8)),movetype != A || playerid(getplayerid(8)),Map(LasombraCortante) != 1789
+trigger1 = Abs(player(1),Pos Y - Pos Y) > 59 || player(1),movetype != A || player(1),Map(LasombraCortante) != 1789
+trigger1 = Abs(player(2),Pos Y - Pos Y) > 59 || player(2),movetype != A || player(2),Map(LasombraCortante) != 1789
+trigger1 = Abs(player(3),Pos Y - Pos Y) > 59 || player(3),movetype != A || player(3),Map(LasombraCortante) != 1789
+trigger1 = Abs(player(4),Pos Y - Pos Y) > 59 || player(4),movetype != A || player(4),Map(LasombraCortante) != 1789
+trigger1 = Abs(player(5),Pos Y - Pos Y) > 59 || player(5),movetype != A || player(5),Map(LasombraCortante) != 1789
+trigger1 = Abs(player(6),Pos Y - Pos Y) > 59 || player(6),movetype != A || player(6),Map(LasombraCortante) != 1789
+trigger1 = Abs(player(7),Pos Y - Pos Y) > 59 || player(7),movetype != A || player(7),Map(LasombraCortante) != 1789
+trigger1 = Abs(player(8),Pos Y - Pos Y) > 59 || player(8),movetype != A || player(8),Map(LasombraCortante) != 1789
 triggerall = IsHelper(1) = 0
 triggerall = IsHelper(2) = 0
 triggerall = IsHelper(3) = 0
@@ -4452,7 +4452,7 @@ type = VarSet
 v = 1
 value = 1
 [State 800, +o-]
-trigger1 = Time = 0 && Rand(1,100) > 50
+trigger1 = Time = 0 && (1+floor(Random*100/1000.0)) > 50
 persistent = 0
 type = VarSet
 v = 1
@@ -4475,12 +4475,12 @@ ID = 5
 ontop = 1
 
 [State 333, Manzana]
-trigger1 = Time = [94,104] && Rand(1,100) > 80
+trigger1 = Time = [94,104] && (1+floor(Random*100/1000.0)) > 80
 type = Explod
 anim = 97
 space = stage
 pos = Pos X + CameraPos X, Pos Y - 10
-vel = Rand(50,110)*Var(1)/80,Rand(-40,-30)/10
+vel = (50+floor(Random*61/1000.0))*Var(1)/80,(-40+floor(Random*11/1000.0))/10
 accel = 0,0.12
 random = 20,20
 RemoveTime = 40
@@ -4490,12 +4490,12 @@ sprpriority = 8
 ID = 100
 ontop = 1
 [State 333, CachoBarril]
-trigger1 = Time = [96,106] && Rand(1,100) > 80
+trigger1 = Time = [96,106] && (1+floor(Random*100/1000.0)) > 80
 type = Explod
 anim = 100
 space = stage
 pos = Pos X + CameraPos X, Pos Y - 10
-vel = Rand(50,110)*Var(1)/80,Rand(-40,-30)/10
+vel = (50+floor(Random*61/1000.0))*Var(1)/80,(-40+floor(Random*11/1000.0))/10
 accel = 0,0.12
 random = 20,20
 RemoveTime = 40
@@ -4505,12 +4505,12 @@ sprpriority = 8
 ID = 101
 ontop = 1
 [State 333, CachoBarril]
-trigger1 = Time = [92,102] && Rand(1,100) > 80
+trigger1 = Time = [92,102] && (1+floor(Random*100/1000.0)) > 80
 type = Explod
 anim = 103
 space = stage
 pos = Pos X + CameraPos X, Pos Y - 10
-vel = Rand(50,110)*Var(1)/80,Rand(-40,-30)/10
+vel = (50+floor(Random*61/1000.0))*Var(1)/80,(-40+floor(Random*11/1000.0))/10
 accel = 0,0.12
 random = 20,20
 RemoveTime = 40
@@ -4520,12 +4520,12 @@ sprpriority = 8
 ID = 102
 ontop = 1
 [State 333, Debris]
-trigger1 = Time = [95,105] && Rand(1,100) > 80
+trigger1 = Time = [95,105] && (1+floor(Random*100/1000.0)) > 80
 type = Explod
-anim = Rand(104,108)
+anim = (104+floor(Random*5/1000.0))
 space = stage
 pos = Pos X + CameraPos X, Pos Y - 10
-vel = Rand(50,110)*Var(1)/80,Rand(-40,-30)/10
+vel = (50+floor(Random*61/1000.0))*Var(1)/80,(-40+floor(Random*11/1000.0))/10
 accel = 0,0.12
 random = 20,20
 RemoveTime = 40
@@ -4539,19 +4539,19 @@ ontop = 1
 type = ModifyExplod
 trigger1 = Time = 105
 space = stage
-vel = Rand(1,10)/10 + 0.4 * Var(1),-0.5
-ID = 101;Rand(100,103)
+vel = (1+floor(Random*10/1000.0))/10 + 0.4 * Var(1),-0.5
+ID = 101;(100+floor(Random*4/1000.0))
 [State 333, DebrisBounce]
 type = ModifyExplod
 trigger1 = Time = 135
 space = stage
-vel = Rand(1,10)/10 +0.4 * Var(1),-2
-ID = 102;Rand(100,103)
+vel = (1+floor(Random*10/1000.0))/10 +0.4 * Var(1),-2
+ID = 102;(100+floor(Random*4/1000.0))
 [State 333, DebrisBounce]
 type = ModifyExplod
 trigger1 = Time = 185
 space = stage
-vel = Rand(1,10)/10 + 0.4 * Var(1),-2
+vel = (1+floor(Random*10/1000.0))/10 + 0.4 * Var(1),-2
 ID = 103
 ;----------------------------------------------------------------------------------------------------------------------------------
 ;SAMSHO 2
@@ -4614,14 +4614,14 @@ value = ,NA,AT
 [State 333, NoHitByAnyoneUnlessAttackingANDInList]
 ;si está lejos, o no ataca, o no corta
 ;si corta, ataca y está cerca que deje de renovarse la inv.
-trigger1 = Abs(playerid(getplayerid(1)),Pos Y - Pos Y) > 59 || playerid(getplayerid(1)),movetype != A || playerid(getplayerid(1)),Map(LasombraCortante) != 1789
-trigger1 = Abs(playerid(getplayerid(2)),Pos Y - Pos Y) > 59 || playerid(getplayerid(2)),movetype != A || playerid(getplayerid(2)),Map(LasombraCortante) != 1789
-trigger1 = Abs(playerid(getplayerid(3)),Pos Y - Pos Y) > 59 || playerid(getplayerid(3)),movetype != A || playerid(getplayerid(3)),Map(LasombraCortante) != 1789
-trigger1 = Abs(playerid(getplayerid(4)),Pos Y - Pos Y) > 59 || playerid(getplayerid(4)),movetype != A || playerid(getplayerid(4)),Map(LasombraCortante) != 1789
-trigger1 = Abs(playerid(getplayerid(5)),Pos Y - Pos Y) > 59 || playerid(getplayerid(5)),movetype != A || playerid(getplayerid(5)),Map(LasombraCortante) != 1789
-trigger1 = Abs(playerid(getplayerid(6)),Pos Y - Pos Y) > 59 || playerid(getplayerid(6)),movetype != A || playerid(getplayerid(6)),Map(LasombraCortante) != 1789
-trigger1 = Abs(playerid(getplayerid(7)),Pos Y - Pos Y) > 59 || playerid(getplayerid(7)),movetype != A || playerid(getplayerid(7)),Map(LasombraCortante) != 1789
-trigger1 = Abs(playerid(getplayerid(8)),Pos Y - Pos Y) > 59 || playerid(getplayerid(8)),movetype != A || playerid(getplayerid(8)),Map(LasombraCortante) != 1789
+trigger1 = Abs(player(1),Pos Y - Pos Y) > 59 || player(1),movetype != A || player(1),Map(LasombraCortante) != 1789
+trigger1 = Abs(player(2),Pos Y - Pos Y) > 59 || player(2),movetype != A || player(2),Map(LasombraCortante) != 1789
+trigger1 = Abs(player(3),Pos Y - Pos Y) > 59 || player(3),movetype != A || player(3),Map(LasombraCortante) != 1789
+trigger1 = Abs(player(4),Pos Y - Pos Y) > 59 || player(4),movetype != A || player(4),Map(LasombraCortante) != 1789
+trigger1 = Abs(player(5),Pos Y - Pos Y) > 59 || player(5),movetype != A || player(5),Map(LasombraCortante) != 1789
+trigger1 = Abs(player(6),Pos Y - Pos Y) > 59 || player(6),movetype != A || player(6),Map(LasombraCortante) != 1789
+trigger1 = Abs(player(7),Pos Y - Pos Y) > 59 || player(7),movetype != A || player(7),Map(LasombraCortante) != 1789
+trigger1 = Abs(player(8),Pos Y - Pos Y) > 59 || player(8),movetype != A || player(8),Map(LasombraCortante) != 1789
 triggerall = IsHelper(1) = 0
 triggerall = IsHelper(2) = 0
 triggerall = IsHelper(3) = 0
@@ -4681,7 +4681,7 @@ type = VarSet
 v = 1
 value = 1
 [State 800, +o-]
-trigger1 = Time = 0 && Rand(1,100) > 50
+trigger1 = Time = 0 && (1+floor(Random*100/1000.0)) > 50
 persistent = 0
 type = VarSet
 v = 1
@@ -4692,7 +4692,7 @@ trigger1 = 1
 persistent = 0
 type = MapSet
 Map = "TopeDebris"
-value = Rand(5,12)
+value = (5+floor(Random*8/1000.0))
 
 [State 800, AnimBush]
 trigger1 = HelperName = "RightJuro"
@@ -4710,12 +4710,12 @@ value = 111
 [State 333, AnimBush]
 trigger1 = time < Map(TopeDebris)
 trigger1 = NumExplod(1540944100) < Map(TopeDebris)
-trigger1 = Rand(1,100) > 50
+trigger1 = (1+floor(Random*100/1000.0)) > 50
 type = Explod
-anim = Rand(122,123)
+anim = (122+floor(Random*2/1000.0))
 space = stage
 pos = Pos X + CameraPos X, Pos Y - 60
-vel = Rand(50,110)*Var(1)/100,Rand(-50,-10)/100
+vel = (50+floor(Random*61/1000.0))*Var(1)/100,(-50+floor(Random*41/1000.0))/100
 accel = 0,0.05
 random = 20,20
 RemoveTime = 30
@@ -4727,12 +4727,12 @@ facing = 1
 [State 333, AnimBush]
 trigger1 = time < Map(TopeDebris)
 trigger1 = NumExplod(1540944100) < Map(TopeDebris)
-trigger1 = Rand(1,100) > 50
+trigger1 = (1+floor(Random*100/1000.0)) > 50
 type = Explod
 anim = 115
 space = stage
 pos = Pos X + CameraPos X, Pos Y - 60
-vel = Rand(50,110)*Var(1)/100,Rand(-50,-10)/100
+vel = (50+floor(Random*61/1000.0))*Var(1)/100,(-50+floor(Random*41/1000.0))/100
 accel = 0,0.05
 random = 20,20
 RemoveTime = 30
@@ -4744,12 +4744,12 @@ facing = 1
 [State 333, AnimBush]
 trigger1 = time < Map(TopeDebris)
 trigger1 = NumExplod(1540944100) < Map(TopeDebris)
-trigger1 = Rand(1,100) > 50
+trigger1 = (1+floor(Random*100/1000.0)) > 50
 type = Explod
 anim = 118
 space = stage
 pos = Pos X + CameraPos X, Pos Y - 60
-vel = Rand(50,110)*Var(1)/100,Rand(-50,-10)/100
+vel = (50+floor(Random*61/1000.0))*Var(1)/100,(-50+floor(Random*41/1000.0))/100
 accel = 0,0.05
 random = 20,20
 RemoveTime = 30
@@ -4882,14 +4882,14 @@ value = ,NA,AT
 [State 333, NoHitByAnyoneUnlessAttackingANDInList]
 ;si está lejos, o no ataca, o no corta
 ;si corta, ataca y está cerca que deje de renovarse la inv.
-trigger1 = Abs(playerid(getplayerid(1)),Pos Y - Pos Y) > 59 || playerid(getplayerid(1)),movetype != A || playerid(getplayerid(1)),Map(LasombraCortante) != 1789
-trigger1 = Abs(playerid(getplayerid(2)),Pos Y - Pos Y) > 59 || playerid(getplayerid(2)),movetype != A || playerid(getplayerid(2)),Map(LasombraCortante) != 1789
-trigger1 = Abs(playerid(getplayerid(3)),Pos Y - Pos Y) > 59 || playerid(getplayerid(3)),movetype != A || playerid(getplayerid(3)),Map(LasombraCortante) != 1789
-trigger1 = Abs(playerid(getplayerid(4)),Pos Y - Pos Y) > 59 || playerid(getplayerid(4)),movetype != A || playerid(getplayerid(4)),Map(LasombraCortante) != 1789
-trigger1 = Abs(playerid(getplayerid(5)),Pos Y - Pos Y) > 59 || playerid(getplayerid(5)),movetype != A || playerid(getplayerid(5)),Map(LasombraCortante) != 1789
-trigger1 = Abs(playerid(getplayerid(6)),Pos Y - Pos Y) > 59 || playerid(getplayerid(6)),movetype != A || playerid(getplayerid(6)),Map(LasombraCortante) != 1789
-trigger1 = Abs(playerid(getplayerid(7)),Pos Y - Pos Y) > 59 || playerid(getplayerid(7)),movetype != A || playerid(getplayerid(7)),Map(LasombraCortante) != 1789
-trigger1 = Abs(playerid(getplayerid(8)),Pos Y - Pos Y) > 59 || playerid(getplayerid(8)),movetype != A || playerid(getplayerid(8)),Map(LasombraCortante) != 1789
+trigger1 = Abs(player(1),Pos Y - Pos Y) > 59 || player(1),movetype != A || player(1),Map(LasombraCortante) != 1789
+trigger1 = Abs(player(2),Pos Y - Pos Y) > 59 || player(2),movetype != A || player(2),Map(LasombraCortante) != 1789
+trigger1 = Abs(player(3),Pos Y - Pos Y) > 59 || player(3),movetype != A || player(3),Map(LasombraCortante) != 1789
+trigger1 = Abs(player(4),Pos Y - Pos Y) > 59 || player(4),movetype != A || player(4),Map(LasombraCortante) != 1789
+trigger1 = Abs(player(5),Pos Y - Pos Y) > 59 || player(5),movetype != A || player(5),Map(LasombraCortante) != 1789
+trigger1 = Abs(player(6),Pos Y - Pos Y) > 59 || player(6),movetype != A || player(6),Map(LasombraCortante) != 1789
+trigger1 = Abs(player(7),Pos Y - Pos Y) > 59 || player(7),movetype != A || player(7),Map(LasombraCortante) != 1789
+trigger1 = Abs(player(8),Pos Y - Pos Y) > 59 || player(8),movetype != A || player(8),Map(LasombraCortante) != 1789
 triggerall = IsHelper(1) = 0
 triggerall = IsHelper(2) = 0
 triggerall = IsHelper(3) = 0
@@ -4984,7 +4984,7 @@ type = VarSet
 v = 1
 value = 1
 [State 800, +o-]
-trigger1 = Time = 0 && Rand(1,100) > 50
+trigger1 = Time = 0 && (1+floor(Random*100/1000.0)) > 50
 persistent = 0
 type = VarSet
 v = 1
@@ -5228,7 +5228,7 @@ type = VarSet
 v = 1
 value = 1
 [State 800, +o-]
-trigger1 = Time = 0 && Rand(1,100) > 50
+trigger1 = Time = 0 && (1+floor(Random*100/1000.0)) > 50
 persistent = 0
 type = VarSet
 v = 1
@@ -5321,14 +5321,14 @@ value = A,NA,AT,AP
 [State 333, NoHitByAnyoneUnlessAttackingANDInList]
 ;si está lejos, o no ataca, o no corta
 ;si corta, ataca y está cerca que deje de renovarse la inv.
-trigger1 = Abs(playerid(getplayerid(1)),Pos Y - Pos Y) > 59 || playerid(getplayerid(1)),movetype != A || playerid(getplayerid(1)),Map(LasombraCortante) != 1789
-trigger1 = Abs(playerid(getplayerid(2)),Pos Y - Pos Y) > 59 || playerid(getplayerid(2)),movetype != A || playerid(getplayerid(2)),Map(LasombraCortante) != 1789
-trigger1 = Abs(playerid(getplayerid(3)),Pos Y - Pos Y) > 59 || playerid(getplayerid(3)),movetype != A || playerid(getplayerid(3)),Map(LasombraCortante) != 1789
-trigger1 = Abs(playerid(getplayerid(4)),Pos Y - Pos Y) > 59 || playerid(getplayerid(4)),movetype != A || playerid(getplayerid(4)),Map(LasombraCortante) != 1789
-trigger1 = Abs(playerid(getplayerid(5)),Pos Y - Pos Y) > 59 || playerid(getplayerid(5)),movetype != A || playerid(getplayerid(5)),Map(LasombraCortante) != 1789
-trigger1 = Abs(playerid(getplayerid(6)),Pos Y - Pos Y) > 59 || playerid(getplayerid(6)),movetype != A || playerid(getplayerid(6)),Map(LasombraCortante) != 1789
-trigger1 = Abs(playerid(getplayerid(7)),Pos Y - Pos Y) > 59 || playerid(getplayerid(7)),movetype != A || playerid(getplayerid(7)),Map(LasombraCortante) != 1789
-trigger1 = Abs(playerid(getplayerid(8)),Pos Y - Pos Y) > 59 || playerid(getplayerid(8)),movetype != A || playerid(getplayerid(8)),Map(LasombraCortante) != 1789
+trigger1 = Abs(player(1),Pos Y - Pos Y) > 59 || player(1),movetype != A || player(1),Map(LasombraCortante) != 1789
+trigger1 = Abs(player(2),Pos Y - Pos Y) > 59 || player(2),movetype != A || player(2),Map(LasombraCortante) != 1789
+trigger1 = Abs(player(3),Pos Y - Pos Y) > 59 || player(3),movetype != A || player(3),Map(LasombraCortante) != 1789
+trigger1 = Abs(player(4),Pos Y - Pos Y) > 59 || player(4),movetype != A || player(4),Map(LasombraCortante) != 1789
+trigger1 = Abs(player(5),Pos Y - Pos Y) > 59 || player(5),movetype != A || player(5),Map(LasombraCortante) != 1789
+trigger1 = Abs(player(6),Pos Y - Pos Y) > 59 || player(6),movetype != A || player(6),Map(LasombraCortante) != 1789
+trigger1 = Abs(player(7),Pos Y - Pos Y) > 59 || player(7),movetype != A || player(7),Map(LasombraCortante) != 1789
+trigger1 = Abs(player(8),Pos Y - Pos Y) > 59 || player(8),movetype != A || player(8),Map(LasombraCortante) != 1789
 triggerall = IsHelper(1) = 0
 triggerall = IsHelper(2) = 0
 triggerall = IsHelper(3) = 0
@@ -5399,14 +5399,14 @@ value = ,NA,AT
 [State 333, NoHitByAnyoneUnlessAttackingANDInList]
 ;si está lejos, o no ataca, o no corta
 ;si corta, ataca y está cerca que deje de renovarse la inv.
-trigger1 = Abs(playerid(getplayerid(1)),Pos Y - Pos Y) > 59 || playerid(getplayerid(1)),movetype != A || playerid(getplayerid(1)),Map(LasombraCortante) != 1789
-trigger1 = Abs(playerid(getplayerid(2)),Pos Y - Pos Y) > 59 || playerid(getplayerid(2)),movetype != A || playerid(getplayerid(2)),Map(LasombraCortante) != 1789
-trigger1 = Abs(playerid(getplayerid(3)),Pos Y - Pos Y) > 59 || playerid(getplayerid(3)),movetype != A || playerid(getplayerid(3)),Map(LasombraCortante) != 1789
-trigger1 = Abs(playerid(getplayerid(4)),Pos Y - Pos Y) > 59 || playerid(getplayerid(4)),movetype != A || playerid(getplayerid(4)),Map(LasombraCortante) != 1789
-trigger1 = Abs(playerid(getplayerid(5)),Pos Y - Pos Y) > 59 || playerid(getplayerid(5)),movetype != A || playerid(getplayerid(5)),Map(LasombraCortante) != 1789
-trigger1 = Abs(playerid(getplayerid(6)),Pos Y - Pos Y) > 59 || playerid(getplayerid(6)),movetype != A || playerid(getplayerid(6)),Map(LasombraCortante) != 1789
-trigger1 = Abs(playerid(getplayerid(7)),Pos Y - Pos Y) > 59 || playerid(getplayerid(7)),movetype != A || playerid(getplayerid(7)),Map(LasombraCortante) != 1789
-trigger1 = Abs(playerid(getplayerid(8)),Pos Y - Pos Y) > 59 || playerid(getplayerid(8)),movetype != A || playerid(getplayerid(8)),Map(LasombraCortante) != 1789
+trigger1 = Abs(player(1),Pos Y - Pos Y) > 59 || player(1),movetype != A || player(1),Map(LasombraCortante) != 1789
+trigger1 = Abs(player(2),Pos Y - Pos Y) > 59 || player(2),movetype != A || player(2),Map(LasombraCortante) != 1789
+trigger1 = Abs(player(3),Pos Y - Pos Y) > 59 || player(3),movetype != A || player(3),Map(LasombraCortante) != 1789
+trigger1 = Abs(player(4),Pos Y - Pos Y) > 59 || player(4),movetype != A || player(4),Map(LasombraCortante) != 1789
+trigger1 = Abs(player(5),Pos Y - Pos Y) > 59 || player(5),movetype != A || player(5),Map(LasombraCortante) != 1789
+trigger1 = Abs(player(6),Pos Y - Pos Y) > 59 || player(6),movetype != A || player(6),Map(LasombraCortante) != 1789
+trigger1 = Abs(player(7),Pos Y - Pos Y) > 59 || player(7),movetype != A || player(7),Map(LasombraCortante) != 1789
+trigger1 = Abs(player(8),Pos Y - Pos Y) > 59 || player(8),movetype != A || player(8),Map(LasombraCortante) != 1789
 triggerall = IsHelper(1) = 0
 triggerall = IsHelper(2) = 0
 triggerall = IsHelper(3) = 0
@@ -5486,7 +5486,7 @@ type = VarSet
 v = 1
 value = 1
 [State 800, +o-]
-trigger1 = Rand(1,100) > 50
+trigger1 = (1+floor(Random*100/1000.0)) > 50
 type = VarSet
 v = 1
 value = -1
@@ -5513,7 +5513,7 @@ type = Explod
 anim = 253
 space = stage
 pos = Pos X + CameraPos X + (Map(DireccionEnemigo)*30), Pos Y - 10
-vel = Rand(50,110)*Var(1)/40,Rand(-30,-20)/10
+vel = (50+floor(Random*61/1000.0))*Var(1)/40,(-30+floor(Random*11/1000.0))/10
 accel = 0,0.12
 random = 20,20
 RemoveTime = 40
@@ -5528,7 +5528,7 @@ type = Explod
 anim = 254
 space = stage
 pos = Pos X + CameraPos X + (Map(DireccionEnemigo)*30), Pos Y - 10
-vel = Rand(50,110)*Var(1)/40,Rand(-30,-20)/10
+vel = (50+floor(Random*61/1000.0))*Var(1)/40,(-30+floor(Random*11/1000.0))/10
 accel = 0,0.12
 random = 20,20
 RemoveTime = 40
@@ -5543,7 +5543,7 @@ type = Explod
 anim = 86
 space = stage
 pos = Pos X + CameraPos X + (Map(DireccionEnemigo)*30), Pos Y - 10
-vel = Rand(50,110)*Var(1)/40,Rand(-30,-20)/10
+vel = (50+floor(Random*61/1000.0))*Var(1)/40,(-30+floor(Random*11/1000.0))/10
 accel = 0,0.12
 random = 20,20
 RemoveTime = 40
@@ -5558,7 +5558,7 @@ type = Explod
 anim = 255
 space = stage
 pos = Pos X + CameraPos X + (Map(DireccionEnemigo)*30), Pos Y - 10
-vel = Rand(50,110)*Var(1)/40,Rand(-30,-20)/10
+vel = (50+floor(Random*61/1000.0))*Var(1)/40,(-30+floor(Random*11/1000.0))/10
 accel = 0,0.12
 random = 20,20
 RemoveTime = 40
@@ -5603,7 +5603,7 @@ type = VarSet
 v = 1
 value = 1
 [State 800, +o-]
-trigger1 = Rand(1,100) > 50
+trigger1 = (1+floor(Random*100/1000.0)) > 50
 type = VarSet
 v = 1
 value = -1
@@ -5611,12 +5611,12 @@ value = -1
 [State 333, CrowNestAtStart]
 trigger1 = RoundState = 1 && NumExplod(66) < 15
 trigger1 = Time % 7 = 0
-trigger1 = Rand(1,100) < 40
+trigger1 = (1+floor(Random*100/1000.0)) < 40
 type = Explod
-anim = Rand(126,128)
+anim = (126+floor(Random*3/1000.0))
 space = stage
 pos = 0,60
-vel = Rand(50,110)*Var(1)/30,Rand(-30,-20)/10
+vel = (50+floor(Random*61/1000.0))*Var(1)/30,(-30+floor(Random*11/1000.0))/10
 accel = 0,0
 random = 60,20
 RemoveTime = 180
@@ -5627,7 +5627,7 @@ ID = 66
 ontop = 1
 
 [State 200, Sound]
-trigger1 = Time % 7 = 0 && Rand(1,100) < 10 && NumExplod(66) > 0
+trigger1 = Time % 7 = 0 && (1+floor(Random*100/1000.0)) < 10 && NumExplod(66) > 0
 type = PlaySnd
 value = 61,1
 
@@ -5635,12 +5635,12 @@ value = 61,1
 trigger1 = RoundState = 2 && Time < 600
 trigger1 = NumExplod(66) = 0 && NumExplod(67) < 5
 trigger1 = Time % 10 = 0
-trigger1 = Rand(1,100) < 20
+trigger1 = (1+floor(Random*100/1000.0)) < 20
 type = Explod
 anim = 129
 space = stage
 pos = 0,-360
-vel = 0, Rand(1.5,3.5)
+vel = 0, (1.5+Random*2/999.0)
 accel = 0,0
 random = 200,20
 RemoveTime = 720
@@ -5694,14 +5694,14 @@ value = ,NA,AT
 [State 333, NoHitByAnyoneUnlessAttackingANDInList]
 ;si está lejos, o no ataca, o no corta
 ;si corta, ataca y está cerca que deje de renovarse la inv.
-trigger1 = Abs(playerid(getplayerid(1)),Pos Y - Pos Y) > 59 || playerid(getplayerid(1)),movetype != A || playerid(getplayerid(1)),Map(LasombraCortante) != 1789
-trigger1 = Abs(playerid(getplayerid(2)),Pos Y - Pos Y) > 59 || playerid(getplayerid(2)),movetype != A || playerid(getplayerid(2)),Map(LasombraCortante) != 1789
-trigger1 = Abs(playerid(getplayerid(3)),Pos Y - Pos Y) > 59 || playerid(getplayerid(3)),movetype != A || playerid(getplayerid(3)),Map(LasombraCortante) != 1789
-trigger1 = Abs(playerid(getplayerid(4)),Pos Y - Pos Y) > 59 || playerid(getplayerid(4)),movetype != A || playerid(getplayerid(4)),Map(LasombraCortante) != 1789
-trigger1 = Abs(playerid(getplayerid(5)),Pos Y - Pos Y) > 59 || playerid(getplayerid(5)),movetype != A || playerid(getplayerid(5)),Map(LasombraCortante) != 1789
-trigger1 = Abs(playerid(getplayerid(6)),Pos Y - Pos Y) > 59 || playerid(getplayerid(6)),movetype != A || playerid(getplayerid(6)),Map(LasombraCortante) != 1789
-trigger1 = Abs(playerid(getplayerid(7)),Pos Y - Pos Y) > 59 || playerid(getplayerid(7)),movetype != A || playerid(getplayerid(7)),Map(LasombraCortante) != 1789
-trigger1 = Abs(playerid(getplayerid(8)),Pos Y - Pos Y) > 59 || playerid(getplayerid(8)),movetype != A || playerid(getplayerid(8)),Map(LasombraCortante) != 1789
+trigger1 = Abs(player(1),Pos Y - Pos Y) > 59 || player(1),movetype != A || player(1),Map(LasombraCortante) != 1789
+trigger1 = Abs(player(2),Pos Y - Pos Y) > 59 || player(2),movetype != A || player(2),Map(LasombraCortante) != 1789
+trigger1 = Abs(player(3),Pos Y - Pos Y) > 59 || player(3),movetype != A || player(3),Map(LasombraCortante) != 1789
+trigger1 = Abs(player(4),Pos Y - Pos Y) > 59 || player(4),movetype != A || player(4),Map(LasombraCortante) != 1789
+trigger1 = Abs(player(5),Pos Y - Pos Y) > 59 || player(5),movetype != A || player(5),Map(LasombraCortante) != 1789
+trigger1 = Abs(player(6),Pos Y - Pos Y) > 59 || player(6),movetype != A || player(6),Map(LasombraCortante) != 1789
+trigger1 = Abs(player(7),Pos Y - Pos Y) > 59 || player(7),movetype != A || player(7),Map(LasombraCortante) != 1789
+trigger1 = Abs(player(8),Pos Y - Pos Y) > 59 || player(8),movetype != A || player(8),Map(LasombraCortante) != 1789
 triggerall = IsHelper(1) = 0
 triggerall = IsHelper(2) = 0
 triggerall = IsHelper(3) = 0
@@ -5800,7 +5800,7 @@ type = VarSet
 v = 1
 value = 1
 [State 800, +o-]
-trigger1 = Rand(1,100) > 50
+trigger1 = (1+floor(Random*100/1000.0)) > 50
 type = VarSet
 v = 1
 value = -1
@@ -5853,12 +5853,12 @@ ID = 800
 ontop = 1
 
 [State 333, Debris1]
-trigger1 = Time % 2 = 0 && Time = [70,80] && Rand(1,100) > 70
+trigger1 = Time % 2 = 0 && Time = [70,80] && (1+floor(Random*100/1000.0)) > 70
 type = Explod
 anim = 131
 space = stage
 pos = Pos X + CameraPos X, Pos Y - 10
-vel = Rand(50,110)*Var(1)/40,Rand(-30,-20)/10
+vel = (50+floor(Random*61/1000.0))*Var(1)/40,(-30+floor(Random*11/1000.0))/10
 accel = 0,0.12
 random = 20,20
 RemoveTime = 40
@@ -5868,12 +5868,12 @@ sprpriority = 8
 ID = 84
 ontop = 1
 [State 333, Debris1]
-trigger1 = Time % 2 = 1 && Time = [70,80] && Rand(1,100) > 70
+trigger1 = Time % 2 = 1 && Time = [70,80] && (1+floor(Random*100/1000.0)) > 70
 type = Explod
 anim = 132
 space = stage
 pos = Pos X + CameraPos X, Pos Y - 10
-vel = Rand(50,110)*Var(1)/40,Rand(-30,-20)/10
+vel = (50+floor(Random*61/1000.0))*Var(1)/40,(-30+floor(Random*11/1000.0))/10
 accel = 0,0.12
 random = 20,20
 RemoveTime = 40
@@ -5941,14 +5941,14 @@ value = ,NA,AT
 [State 333, NoHitByAnyoneUnlessAttackingANDInList]
 ;si está lejos, o no ataca, o no corta
 ;si corta, ataca y está cerca que deje de renovarse la inv.
-trigger1 = Abs(playerid(getplayerid(1)),Pos Y - Pos Y) > 59 || playerid(getplayerid(1)),movetype != A || playerid(getplayerid(1)),Map(LasombraCortante) != 1789
-trigger1 = Abs(playerid(getplayerid(2)),Pos Y - Pos Y) > 59 || playerid(getplayerid(2)),movetype != A || playerid(getplayerid(2)),Map(LasombraCortante) != 1789
-trigger1 = Abs(playerid(getplayerid(3)),Pos Y - Pos Y) > 59 || playerid(getplayerid(3)),movetype != A || playerid(getplayerid(3)),Map(LasombraCortante) != 1789
-trigger1 = Abs(playerid(getplayerid(4)),Pos Y - Pos Y) > 59 || playerid(getplayerid(4)),movetype != A || playerid(getplayerid(4)),Map(LasombraCortante) != 1789
-trigger1 = Abs(playerid(getplayerid(5)),Pos Y - Pos Y) > 59 || playerid(getplayerid(5)),movetype != A || playerid(getplayerid(5)),Map(LasombraCortante) != 1789
-trigger1 = Abs(playerid(getplayerid(6)),Pos Y - Pos Y) > 59 || playerid(getplayerid(6)),movetype != A || playerid(getplayerid(6)),Map(LasombraCortante) != 1789
-trigger1 = Abs(playerid(getplayerid(7)),Pos Y - Pos Y) > 59 || playerid(getplayerid(7)),movetype != A || playerid(getplayerid(7)),Map(LasombraCortante) != 1789
-trigger1 = Abs(playerid(getplayerid(8)),Pos Y - Pos Y) > 59 || playerid(getplayerid(8)),movetype != A || playerid(getplayerid(8)),Map(LasombraCortante) != 1789
+trigger1 = Abs(player(1),Pos Y - Pos Y) > 59 || player(1),movetype != A || player(1),Map(LasombraCortante) != 1789
+trigger1 = Abs(player(2),Pos Y - Pos Y) > 59 || player(2),movetype != A || player(2),Map(LasombraCortante) != 1789
+trigger1 = Abs(player(3),Pos Y - Pos Y) > 59 || player(3),movetype != A || player(3),Map(LasombraCortante) != 1789
+trigger1 = Abs(player(4),Pos Y - Pos Y) > 59 || player(4),movetype != A || player(4),Map(LasombraCortante) != 1789
+trigger1 = Abs(player(5),Pos Y - Pos Y) > 59 || player(5),movetype != A || player(5),Map(LasombraCortante) != 1789
+trigger1 = Abs(player(6),Pos Y - Pos Y) > 59 || player(6),movetype != A || player(6),Map(LasombraCortante) != 1789
+trigger1 = Abs(player(7),Pos Y - Pos Y) > 59 || player(7),movetype != A || player(7),Map(LasombraCortante) != 1789
+trigger1 = Abs(player(8),Pos Y - Pos Y) > 59 || player(8),movetype != A || player(8),Map(LasombraCortante) != 1789
 triggerall = IsHelper(1) = 0
 triggerall = IsHelper(2) = 0
 triggerall = IsHelper(3) = 0
@@ -5990,7 +5990,7 @@ trigger1 = 1
 persistent = 0
 type = MapSet
 map = "OrFish"
-value = Rand(1,100)
+value = (1+floor(Random*100/1000.0))
 
 [State 800, Apples]
 persistent = 0
@@ -6039,7 +6039,7 @@ type = VarSet
 v = 1
 value = 1
 [State 800, +o-]
-trigger1 = Rand(1,100) > 50
+trigger1 = (1+floor(Random*100/1000.0)) > 50
 type = VarSet
 v = 1
 value = -1
@@ -6061,13 +6061,13 @@ ID = 5
 ontop = 1
 
 [State 333, Pescado]
-trigger1 = Time = [55,75] && Rand(1,100) > 60
+trigger1 = Time = [55,75] && (1+floor(Random*100/1000.0)) > 60
 trigger1 = Map(OrFish) > 50
 type = Explod
-anim = Rand(144,145)
+anim = (144+floor(Random*2/1000.0))
 space = stage
 pos = Pos X + CameraPos X, Pos Y - 10
-vel = Rand(50,110)*Var(1)/80,Rand(-30,-20)/10
+vel = (50+floor(Random*61/1000.0))*Var(1)/80,(-30+floor(Random*11/1000.0))/10
 accel = 0,0.24
 random = 20,20
 RemoveTime = 80
@@ -6078,13 +6078,13 @@ ID = 71
 ontop = 1
 
 [State 333, Manzanas]
-trigger1 = Time = [45,65] && Rand(1,100) > 60
+trigger1 = Time = [45,65] && (1+floor(Random*100/1000.0)) > 60
 trigger1 = Map(OrFish) < 51
 type = Explod
 anim = 71
 space = stage
 pos = Pos X + CameraPos X, Pos Y - 10
-vel = Rand(50,110)*Var(1)/80,0
+vel = (50+floor(Random*61/1000.0))*Var(1)/80,0
 accel = 0,0.08
 random = 20,20
 RemoveTime = 40
@@ -6095,12 +6095,12 @@ ID = 61
 ontop = 1
 
 [State 333, CachoBarril]
-trigger1 = Time = [70,75] && Rand(1,100) > 50
+trigger1 = Time = [70,75] && (1+floor(Random*100/1000.0)) > 50
 type = Explod
-anim = Rand(140,143)
+anim = (140+floor(Random*4/1000.0))
 space = stage
 pos = Pos X + CameraPos X, Pos Y - 10
-vel = Rand(50,110)*Var(1)/80,Rand(-30,-20)/10
+vel = (50+floor(Random*61/1000.0))*Var(1)/80,(-30+floor(Random*11/1000.0))/10
 accel = 0,0.12
 random = 20,20
 RemoveTime = 40
@@ -6111,12 +6111,12 @@ ID = 61
 ontop = 1
 
 [State 333, Debris]
-trigger1 = Time = [70,75] && Rand(1,100) > 20
+trigger1 = Time = [70,75] && (1+floor(Random*100/1000.0)) > 20
 type = Explod
-anim = Rand(140,143)
+anim = (140+floor(Random*4/1000.0))
 space = stage
 pos = Pos X + CameraPos X, Pos Y - 10
-vel = Rand(50,110)*Var(1)/80,Rand(-30,-20)/10
+vel = (50+floor(Random*61/1000.0))*Var(1)/80,(-30+floor(Random*11/1000.0))/10
 accel = 0,0.12
 random = 20,20
 RemoveTime = 40
@@ -6236,14 +6236,14 @@ value = ,NA,AT
 [State 333, NoHitByAnyoneUnlessAttackingANDInList]
 ;si está lejos, o no ataca, o no corta
 ;si corta, ataca y está cerca que deje de renovarse la inv.
-trigger1 = Abs(playerid(getplayerid(1)),Pos Y - Pos Y) > 59 || playerid(getplayerid(1)),movetype != A || playerid(getplayerid(1)),Map(LasombraCortante) != 1789
-trigger1 = Abs(playerid(getplayerid(2)),Pos Y - Pos Y) > 59 || playerid(getplayerid(2)),movetype != A || playerid(getplayerid(2)),Map(LasombraCortante) != 1789
-trigger1 = Abs(playerid(getplayerid(3)),Pos Y - Pos Y) > 59 || playerid(getplayerid(3)),movetype != A || playerid(getplayerid(3)),Map(LasombraCortante) != 1789
-trigger1 = Abs(playerid(getplayerid(4)),Pos Y - Pos Y) > 59 || playerid(getplayerid(4)),movetype != A || playerid(getplayerid(4)),Map(LasombraCortante) != 1789
-trigger1 = Abs(playerid(getplayerid(5)),Pos Y - Pos Y) > 59 || playerid(getplayerid(5)),movetype != A || playerid(getplayerid(5)),Map(LasombraCortante) != 1789
-trigger1 = Abs(playerid(getplayerid(6)),Pos Y - Pos Y) > 59 || playerid(getplayerid(6)),movetype != A || playerid(getplayerid(6)),Map(LasombraCortante) != 1789
-trigger1 = Abs(playerid(getplayerid(7)),Pos Y - Pos Y) > 59 || playerid(getplayerid(7)),movetype != A || playerid(getplayerid(7)),Map(LasombraCortante) != 1789
-trigger1 = Abs(playerid(getplayerid(8)),Pos Y - Pos Y) > 59 || playerid(getplayerid(8)),movetype != A || playerid(getplayerid(8)),Map(LasombraCortante) != 1789
+trigger1 = Abs(player(1),Pos Y - Pos Y) > 59 || player(1),movetype != A || player(1),Map(LasombraCortante) != 1789
+trigger1 = Abs(player(2),Pos Y - Pos Y) > 59 || player(2),movetype != A || player(2),Map(LasombraCortante) != 1789
+trigger1 = Abs(player(3),Pos Y - Pos Y) > 59 || player(3),movetype != A || player(3),Map(LasombraCortante) != 1789
+trigger1 = Abs(player(4),Pos Y - Pos Y) > 59 || player(4),movetype != A || player(4),Map(LasombraCortante) != 1789
+trigger1 = Abs(player(5),Pos Y - Pos Y) > 59 || player(5),movetype != A || player(5),Map(LasombraCortante) != 1789
+trigger1 = Abs(player(6),Pos Y - Pos Y) > 59 || player(6),movetype != A || player(6),Map(LasombraCortante) != 1789
+trigger1 = Abs(player(7),Pos Y - Pos Y) > 59 || player(7),movetype != A || player(7),Map(LasombraCortante) != 1789
+trigger1 = Abs(player(8),Pos Y - Pos Y) > 59 || player(8),movetype != A || player(8),Map(LasombraCortante) != 1789
 triggerall = IsHelper(1) = 0
 triggerall = IsHelper(2) = 0
 triggerall = IsHelper(3) = 0
@@ -6343,7 +6343,7 @@ type = VarSet
 v = 1
 value = 1
 [State 800, +o-]
-trigger1 = Rand(1,100) > 50
+trigger1 = (1+floor(Random*100/1000.0)) > 50
 type = VarSet
 v = 1
 value = -1
@@ -6384,17 +6384,17 @@ type = VarSet
 v = 1
 value = 1
 [State 800, +o-]
-trigger1 = Rand(1,100) > 50
+trigger1 = (1+floor(Random*100/1000.0)) > 50
 type = VarSet
 v = 1
 value = -1
 [State 333, Debris1]
-trigger1 = Time = [75,85] && Rand(1,100) > 50
+trigger1 = Time = [75,85] && (1+floor(Random*100/1000.0)) > 50
 type = Explod
-anim = Rand(160,167)
+anim = (160+floor(Random*8/1000.0))
 space = stage
 pos = Pos X + CameraPos X + (Map(DireccionEnemigo)*30), Pos Y - 10
-vel = Rand(50,110)*Var(1)/80,Rand(-30,-20)/8
+vel = (50+floor(Random*61/1000.0))*Var(1)/80,(-30+floor(Random*11/1000.0))/8
 accel = 0,0.12
 random = 20,20
 RemoveTime = 60
@@ -6414,7 +6414,7 @@ physics = N                      ;Physics: S-stand, C-crouch, A-air
 juggle  = 1                     ;Number of air juggle points move takes
 ;Commonly-used controllers:
 ctrl = 0                         ;Set ctrl (Def: no change)
-anim = Rand(168,169)                    ;Change animation (Def: no change)
+anim = (168+floor(Random*2/1000.0))                    ;Change animation (Def: no change)
 poweradd = 0                    ;Power to add (Def: 0)
 sprpriority = 9                  ;Set p1's sprite layering priority to 2 (in front)
 
@@ -6464,14 +6464,14 @@ value = ,NA,AT
 [State 333, NoHitByAnyoneUnlessAttackingANDInList]
 ;si está lejos, o no ataca, o no corta
 ;si corta, ataca y está cerca que deje de renovarse la inv.
-trigger1 = Abs(playerid(getplayerid(1)),Pos Y - Pos Y) > 59 || playerid(getplayerid(1)),movetype != A || playerid(getplayerid(1)),Map(LasombraCortante) != 1789
-trigger1 = Abs(playerid(getplayerid(2)),Pos Y - Pos Y) > 59 || playerid(getplayerid(2)),movetype != A || playerid(getplayerid(2)),Map(LasombraCortante) != 1789
-trigger1 = Abs(playerid(getplayerid(3)),Pos Y - Pos Y) > 59 || playerid(getplayerid(3)),movetype != A || playerid(getplayerid(3)),Map(LasombraCortante) != 1789
-trigger1 = Abs(playerid(getplayerid(4)),Pos Y - Pos Y) > 59 || playerid(getplayerid(4)),movetype != A || playerid(getplayerid(4)),Map(LasombraCortante) != 1789
-trigger1 = Abs(playerid(getplayerid(5)),Pos Y - Pos Y) > 59 || playerid(getplayerid(5)),movetype != A || playerid(getplayerid(5)),Map(LasombraCortante) != 1789
-trigger1 = Abs(playerid(getplayerid(6)),Pos Y - Pos Y) > 59 || playerid(getplayerid(6)),movetype != A || playerid(getplayerid(6)),Map(LasombraCortante) != 1789
-trigger1 = Abs(playerid(getplayerid(7)),Pos Y - Pos Y) > 59 || playerid(getplayerid(7)),movetype != A || playerid(getplayerid(7)),Map(LasombraCortante) != 1789
-trigger1 = Abs(playerid(getplayerid(8)),Pos Y - Pos Y) > 59 || playerid(getplayerid(8)),movetype != A || playerid(getplayerid(8)),Map(LasombraCortante) != 1789
+trigger1 = Abs(player(1),Pos Y - Pos Y) > 59 || player(1),movetype != A || player(1),Map(LasombraCortante) != 1789
+trigger1 = Abs(player(2),Pos Y - Pos Y) > 59 || player(2),movetype != A || player(2),Map(LasombraCortante) != 1789
+trigger1 = Abs(player(3),Pos Y - Pos Y) > 59 || player(3),movetype != A || player(3),Map(LasombraCortante) != 1789
+trigger1 = Abs(player(4),Pos Y - Pos Y) > 59 || player(4),movetype != A || player(4),Map(LasombraCortante) != 1789
+trigger1 = Abs(player(5),Pos Y - Pos Y) > 59 || player(5),movetype != A || player(5),Map(LasombraCortante) != 1789
+trigger1 = Abs(player(6),Pos Y - Pos Y) > 59 || player(6),movetype != A || player(6),Map(LasombraCortante) != 1789
+trigger1 = Abs(player(7),Pos Y - Pos Y) > 59 || player(7),movetype != A || player(7),Map(LasombraCortante) != 1789
+trigger1 = Abs(player(8),Pos Y - Pos Y) > 59 || player(8),movetype != A || player(8),Map(LasombraCortante) != 1789
 triggerall = IsHelper(1) = 0
 triggerall = IsHelper(2) = 0
 triggerall = IsHelper(3) = 0
@@ -6547,7 +6547,7 @@ type = VarSet
 v = 1
 value = 1
 [State 800, +o-]
-trigger1 = Rand(1,100) > 50
+trigger1 = (1+floor(Random*100/1000.0)) > 50
 type = VarSet
 v = 1
 value = -1
@@ -6601,17 +6601,17 @@ type = VarSet
 v = 1
 value = 1
 [State 800, +o-]
-trigger1 = Rand(1,100) > 50
+trigger1 = (1+floor(Random*100/1000.0)) > 50
 type = VarSet
 v = 1
 value = -1
 [State 333, Debris1]
-trigger1 = Time = [85,95] && Rand(1,100) > 70
+trigger1 = Time = [85,95] && (1+floor(Random*100/1000.0)) > 70
 type = Explod
-anim = Rand(170,171)
+anim = (170+floor(Random*2/1000.0))
 space = stage
 pos = Pos X + CameraPos X + ((Map(DireccionEnemigo)*30)*facing), Pos Y - 10
-vel = Rand(50,110)*Var(1)/80,Rand(-30,-20)/8
+vel = (50+floor(Random*61/1000.0))*Var(1)/80,(-30+floor(Random*11/1000.0))/8
 accel = 0,0.12
 random = 20,20
 RemoveTime = 60
@@ -6620,12 +6620,12 @@ facing = facing
 sprpriority = 7
 ID = 84
 [State 333, Debris1]
-trigger1 = Time = [85,95] && Rand(1,100) > 50
+trigger1 = Time = [85,95] && (1+floor(Random*100/1000.0)) > 50
 type = Explod
 anim = 172
 space = stage
 pos = Pos X + CameraPos X + (Map(DireccionEnemigo)*30)*facing, Pos Y - 10
-vel = Rand(50,110)*Var(1)/80,Rand(-30,-20)/8
+vel = (50+floor(Random*61/1000.0))*Var(1)/80,(-30+floor(Random*11/1000.0))/8
 accel = 0,0.12
 random = 20,20
 RemoveTime = 60
@@ -6706,14 +6706,14 @@ value = ,NA,AT
 [State 333, NoHitByAnyoneUnlessAttackingANDInList]
 ;si está lejos, o no ataca, o no corta
 ;si corta, ataca y está cerca que deje de renovarse la inv.
-trigger1 = Abs(playerid(getplayerid(1)),Pos Y - Pos Y) > 59 || playerid(getplayerid(1)),movetype != A || playerid(getplayerid(1)),Map(LasombraCortante) != 1789
-trigger1 = Abs(playerid(getplayerid(2)),Pos Y - Pos Y) > 59 || playerid(getplayerid(2)),movetype != A || playerid(getplayerid(2)),Map(LasombraCortante) != 1789
-trigger1 = Abs(playerid(getplayerid(3)),Pos Y - Pos Y) > 59 || playerid(getplayerid(3)),movetype != A || playerid(getplayerid(3)),Map(LasombraCortante) != 1789
-trigger1 = Abs(playerid(getplayerid(4)),Pos Y - Pos Y) > 59 || playerid(getplayerid(4)),movetype != A || playerid(getplayerid(4)),Map(LasombraCortante) != 1789
-trigger1 = Abs(playerid(getplayerid(5)),Pos Y - Pos Y) > 59 || playerid(getplayerid(5)),movetype != A || playerid(getplayerid(5)),Map(LasombraCortante) != 1789
-trigger1 = Abs(playerid(getplayerid(6)),Pos Y - Pos Y) > 59 || playerid(getplayerid(6)),movetype != A || playerid(getplayerid(6)),Map(LasombraCortante) != 1789
-trigger1 = Abs(playerid(getplayerid(7)),Pos Y - Pos Y) > 59 || playerid(getplayerid(7)),movetype != A || playerid(getplayerid(7)),Map(LasombraCortante) != 1789
-trigger1 = Abs(playerid(getplayerid(8)),Pos Y - Pos Y) > 59 || playerid(getplayerid(8)),movetype != A || playerid(getplayerid(8)),Map(LasombraCortante) != 1789
+trigger1 = Abs(player(1),Pos Y - Pos Y) > 59 || player(1),movetype != A || player(1),Map(LasombraCortante) != 1789
+trigger1 = Abs(player(2),Pos Y - Pos Y) > 59 || player(2),movetype != A || player(2),Map(LasombraCortante) != 1789
+trigger1 = Abs(player(3),Pos Y - Pos Y) > 59 || player(3),movetype != A || player(3),Map(LasombraCortante) != 1789
+trigger1 = Abs(player(4),Pos Y - Pos Y) > 59 || player(4),movetype != A || player(4),Map(LasombraCortante) != 1789
+trigger1 = Abs(player(5),Pos Y - Pos Y) > 59 || player(5),movetype != A || player(5),Map(LasombraCortante) != 1789
+trigger1 = Abs(player(6),Pos Y - Pos Y) > 59 || player(6),movetype != A || player(6),Map(LasombraCortante) != 1789
+trigger1 = Abs(player(7),Pos Y - Pos Y) > 59 || player(7),movetype != A || player(7),Map(LasombraCortante) != 1789
+trigger1 = Abs(player(8),Pos Y - Pos Y) > 59 || player(8),movetype != A || player(8),Map(LasombraCortante) != 1789
 triggerall = IsHelper(1) = 0
 triggerall = IsHelper(2) = 0
 triggerall = IsHelper(3) = 0
@@ -6797,7 +6797,7 @@ type = VarSet
 v = 1
 value = 1
 [State 800, +o-]
-trigger1 = Rand(1,100) > 50
+trigger1 = (1+floor(Random*100/1000.0)) > 50
 type = VarSet
 v = 1
 value = -1
@@ -6823,17 +6823,17 @@ type = VarSet
 v = 1
 value = 1
 [State 800, +o-]
-trigger1 = Rand(1,100) > 50
+trigger1 = (1+floor(Random*100/1000.0)) > 50
 type = VarSet
 v = 1
 value = -1
 [State 333, Debris1]
-trigger1 = Time = [95,105] && Rand(1,100) > 50
+trigger1 = Time = [95,105] && (1+floor(Random*100/1000.0)) > 50
 type = Explod
-anim = Rand(282,285)
+anim = (282+floor(Random*4/1000.0))
 space = stage
 pos = Pos X + CameraPos X + facing*30, Pos Y - 10
-vel = Rand(50,110)*Var(1)/80,Rand(-30,-20)/8
+vel = (50+floor(Random*61/1000.0))*Var(1)/80,(-30+floor(Random*11/1000.0))/8
 accel = 0,0.12
 random = 20,20
 RemoveTime = 60
@@ -6879,49 +6879,49 @@ value = 210
 trigger1 = HelperName = "P1"
 type = VarSet
 v = 11
-value = playerid(getplayerid(1)),ID
+value = player(1),ID
 
 [State 666, GiveIDs]
 trigger1 = HelperName = "P2"
 type = VarSet
 v = 11
-value = playerid(getplayerid(2)),ID
+value = player(2),ID
 
 [State 666, GiveIDs]
 trigger1 = HelperName = "P3"
 type = VarSet
 v = 11
-value = playerid(getplayerid(3)),ID
+value = player(3),ID
 
 [State 666, GiveIDs]
 trigger1 = HelperName = "P4"
 type = VarSet
 v = 11
-value = playerid(getplayerid(4)),ID
+value = player(4),ID
 
 [State 666, GiveIDs]
 trigger1 = HelperName = "P5"
 type = VarSet
 v = 11
-value = playerid(getplayerid(5)),ID
+value = player(5),ID
 
 [State 666, GiveIDs]
 trigger1 = HelperName = "P6"
 type = VarSet
 v = 11
-value = playerid(getplayerid(6)),ID
+value = player(6),ID
 
 [State 666, GiveIDs]
 trigger1 = HelperName = "P7"
 type = VarSet
 v = 11
-value = playerid(getplayerid(7)),ID
+value = player(7),ID
 
 [State 666, GiveIDs]
 trigger1 = HelperName = "P8"
 type = VarSet
 v = 11
-value = playerid(getplayerid(8)),ID
+value = player(8),ID
 
 ;[Begin Action 21];WhirlStand
 ;[Begin Action 22];Mid Plash
@@ -8051,224 +8051,224 @@ map = "LasombraCortante"
 type = MapSet
 triggerall = Time = [10,80] 
 triggerall = IsHelper = 0
-RedirectID = PlayerID(GetplayerID(Time-9)),ID
-trigger1=playerid(getplayerid(time-9)),name = "He-Man"
-Trigger2=playerid(getplayerid(time-9)),name = "Amakusa"
-Trigger3=playerid(getplayerid(time-9)),name = "Ambrosia"
-Trigger4=playerid(getplayerid(time-9)),name = "Andrew"
-Trigger5=playerid(getplayerid(time-9)),name = "Angelica"
-Trigger6=playerid(getplayerid(time-9)),name = "Asura"
-Trigger7=playerid(getplayerid(time-9)),name = "Azami"
-Trigger8=playerid(getplayerid(time-9)),name = "Baiken"
-Trigger9=playerid(getplayerid(time-9)),name = "Basara"
-Trigger10=playerid(getplayerid(time-9)),name = "Benten"
-Trigger11=playerid(getplayerid(time-9)),name = "Bizuki"
-Trigger12=playerid(getplayerid(time-9)),name = "Black Hawk"
-Trigger13=playerid(getplayerid(time-9)),name = "Brute"
-Trigger14=playerid(getplayerid(time-9)),name = "Cham Cham"
-Trigger15=playerid(getplayerid(time-9)),name = "Chample"
-Trigger16=playerid(getplayerid(time-9)),name = "Charlotte"
-Trigger17=playerid(getplayerid(time-9)),name = "Charlotte Christine de Colde"
-Trigger18=playerid(getplayerid(time-9)),name = "Chona Chona"
-Trigger19=playerid(getplayerid(time-9)),name = "Claude"
-Trigger20=playerid(getplayerid(time-9)),name = "Darli"
-Trigger21=playerid(getplayerid(time-9)),name = "Aku Amakusa"
-Trigger22=playerid(getplayerid(time-9)),name = "Daruma"
-Trigger23=playerid(getplayerid(time-9)),name = "Deku & Dekuina"
-Trigger24=playerid(getplayerid(time-9)),name = "Demon Gaoh"
-Trigger25=playerid(getplayerid(time-9)),name = "Draco"
-Trigger26=playerid(getplayerid(time-9)),name = "Earthquake"
-Trigger27=playerid(getplayerid(time-9)),name = "Enja"
-Trigger28=playerid(getplayerid(time-9)),name = "Enja Kazuki"
-Trigger29=playerid(getplayerid(time-9)),name = "Gaira"
-Trigger30=playerid(getplayerid(time-9)),name = "Gaira Caffeine"
-Trigger31=playerid(getplayerid(time-9)),name = "Galford"
-Trigger32=playerid(getplayerid(time-9)),name = "Galford D. Weller"
-Trigger33=playerid(getplayerid(time-9)),name = "Gandara"
-Trigger34=playerid(getplayerid(time-9)),name = "Gaoh"
-Trigger35=playerid(getplayerid(time-9)),name = "Garros"
-Trigger36=playerid(getplayerid(time-9)),name = "Garyo"
-Trigger37=playerid(getplayerid(time-9)),name = "Garyo the Whirlwind"
-Trigger38=playerid(getplayerid(time-9)),name = "Gen-an"
-Trigger39=playerid(getplayerid(time-9)),name = "Genan"
-Trigger40=playerid(getplayerid(time-9)),name = "Genan Shiranui"
-Trigger41=playerid(getplayerid(time-9)),name = "Genjyuro"
-Trigger42=playerid(getplayerid(time-9)),name = "Genjuro"
-Trigger43=playerid(getplayerid(time-9)),name = "Kibagami Genjuro"
-Trigger44=playerid(getplayerid(time-9)),name = "Genjuro Kibagami"
-Trigger45=playerid(getplayerid(time-9)),name = "Genshinsai"
-Trigger46=playerid(getplayerid(time-9)),name = "Golba"
-Trigger47=playerid(getplayerid(time-9)),name = "Gongsun Li"
-Trigger48=playerid(getplayerid(time-9)),name = "Haito Kanakura"
-Trigger49=playerid(getplayerid(time-9)),name = "Hanma"
-Trigger50=playerid(getplayerid(time-9)),name = "Hanma Yagyu"
-Trigger51=playerid(getplayerid(time-9)),name = "Hanzo Hattori"
-Trigger52=playerid(getplayerid(time-9)),name = "Haoumaru"
-Trigger53=playerid(getplayerid(time-9)),name = "Haohmaru"
-Trigger54=playerid(getplayerid(time-9)),name = "Haon"
-Trigger55=playerid(getplayerid(time-9)),name = "Hazuki"
-Trigger56=playerid(getplayerid(time-9)),name = "Hazuki Kazama"
-Trigger57=playerid(getplayerid(time-9)),name = "Hibiki"
-Trigger58=playerid(getplayerid(time-9)),name = "Hibiki Takane"
-Trigger59=playerid(getplayerid(time-9)),name = "Iga"
-Trigger60=playerid(getplayerid(time-9)),name = "Iga Ninja"
-Trigger61=playerid(getplayerid(time-9)),name = "Iroha"
-Trigger62=playerid(getplayerid(time-9)),name = "J."
-Trigger63=playerid(getplayerid(time-9)),name = "Jigen Taishi"
-Trigger64=playerid(getplayerid(time-9)),name = "Jin-Emon Hanafusa"
-Trigger65=playerid(getplayerid(time-9)),name = "Jinbei Sugamata"
-Trigger66=playerid(getplayerid(time-9)),name = "Jubei"
-Trigger67=playerid(getplayerid(time-9)),name = "Jubei Yagyu"
-Trigger68=playerid(getplayerid(time-9)),name = "Jushiro Sakaki"
-Trigger69=playerid(getplayerid(time-9)),name = "Kagaribi"
-Trigger70=playerid(getplayerid(time-9)),name = "Karakuri Hanma"
-Trigger71=playerid(getplayerid(time-9)),name = "Kazuki"
-Trigger72=playerid(getplayerid(time-9)),name = "Kazuki Kazama"
-Trigger73=playerid(getplayerid(time-9)),name = "Mizuki"
-Trigger74=playerid(getplayerid(time-9)),name = "Kim Hae-Ryeong"
-Trigger75=playerid(getplayerid(time-9)),name = "Kim Ung Che"
-Trigger76=playerid(getplayerid(time-9)),name = "Kirian"
-Trigger77=playerid(getplayerid(time-9)),name = "Kuki"
-Trigger78=playerid(getplayerid(time-9)),name = "Kunou Seishiro"
-Trigger79=playerid(getplayerid(time-9)),name = "Kuroko"
-Trigger80=playerid(getplayerid(time-9)),name = "Kyoshiro"
-Trigger81=playerid(getplayerid(time-9)),name = "Kyoshiro Senryo"
-Trigger82=playerid(getplayerid(time-9)),name = "Senryo Kyoshiro"
-Trigger83=playerid(getplayerid(time-9)),name = "Liu Yunfei"
-Trigger84=playerid(getplayerid(time-9)),name = "Mamahaha"
-Trigger85=playerid(getplayerid(time-9)),name = "Mario and Mei"
-Trigger86=playerid(getplayerid(time-9)),name = "Mikoto"
-Trigger87=playerid(getplayerid(time-9)),name = "Mina Majikina"
-Trigger88=playerid(getplayerid(time-9)),name = "Minto"
-Trigger89=playerid(getplayerid(time-9)),name = "Mizuki Rashojin"
-Trigger90=playerid(getplayerid(time-9)),name = "Mugenji"
-Trigger91=playerid(getplayerid(time-9)),name = "Nakoruru"
-Trigger92=playerid(getplayerid(time-9)),name = "Namino"
-Trigger93=playerid(getplayerid(time-9)),name = "Neinhalt Sieger"
-Trigger94=playerid(getplayerid(time-9)),name = "Nicotine Caffeine"
-Trigger95=playerid(getplayerid(time-9)),name = "Oboro"
-Trigger96=playerid(getplayerid(time-9)),name = "Ocha-Maro "
-Trigger97=playerid(getplayerid(time-9)),name = "OchaMaro "
-Trigger98=playerid(getplayerid(time-9)),name = "Karakuri"
-Trigger99=playerid(getplayerid(time-9)),name = "Paku Paku"
-Trigger100=playerid(getplayerid(time-9)),name = "Poppy"
-Trigger101=playerid(getplayerid(time-9)),name = "Purple Nakoruru"
-Trigger102=playerid(getplayerid(time-9)),name = "Ran Po"
-Trigger103=playerid(getplayerid(time-9)),name = "Rasetsumaru"
-Trigger104=playerid(getplayerid(time-9)),name = "Reppu no Hion"
-Trigger105=playerid(getplayerid(time-9)),name = "Rera"
-Trigger106=playerid(getplayerid(time-9)),name = "Rimururu"
-Trigger107=playerid(getplayerid(time-9)),name = "Rinka Yoshino"
-Trigger108=playerid(getplayerid(time-9)),name = "Samurai"
-Trigger109=playerid(getplayerid(time-9)),name = "Sankuro"
-Trigger110=playerid(getplayerid(time-9)),name = "Sankuro Yorozu"
-Trigger111=playerid(getplayerid(time-9)),name = "Saya"
-Trigger112=playerid(getplayerid(time-9)),name = "Seishiro Kuki"
-Trigger113=playerid(getplayerid(time-9)),name = "Shadow Asura"
-Trigger114=playerid(getplayerid(time-9)),name = "Shibito"
-Trigger115=playerid(getplayerid(time-9)),name = "Shiki"
-Trigger116=playerid(getplayerid(time-9)),name = "Shikuru"
-Trigger117=playerid(getplayerid(time-9)),name = "Shippu no Reon"
-Trigger118=playerid(getplayerid(time-9)),name = "Shiro Tokisada Amakusa"
-Trigger119=playerid(getplayerid(time-9)),name = "Shizu"
-Trigger120=playerid(getplayerid(time-9)),name = "Shizuka Gozen"
-Trigger121=playerid(getplayerid(time-9)),name = "Shizumaru"
-Trigger122=playerid(getplayerid(time-9)),name = "Shizumaru Hisame"
-Trigger123=playerid(getplayerid(time-9)),name = "Sogetsu Kazama"
-Trigger124=playerid(getplayerid(time-9)),name = "Sugoroku"
-Trigger125=playerid(getplayerid(time-9)),name = "Sugoroku Matsuribayashi"
-Trigger126=playerid(getplayerid(time-9)),name = "Suija"
-Trigger127=playerid(getplayerid(time-9)),name = "Suija Sogetsu"
-Trigger128=playerid(getplayerid(time-9)),name = "Sogetsu"
-Trigger129=playerid(getplayerid(time-9)),name = "Suzu"
-Trigger130=playerid(getplayerid(time-9)),name = "Taizan Morozumi"
-Trigger131=playerid(getplayerid(time-9)),name = "Takechiyo"
-Trigger132=playerid(getplayerid(time-9)),name = "Tam Tam"
-Trigger133=playerid(getplayerid(time-9)),name = "Tashon Mao"
-Trigger134=playerid(getplayerid(time-9)),name = "Tenhime"
-Trigger135=playerid(getplayerid(time-9)),name = "Tohma"
-Trigger136=playerid(getplayerid(time-9)),name = "Tohma Kuki"
-Trigger137=playerid(getplayerid(time-9)),name = "Tokihime"
-Trigger138=playerid(getplayerid(time-9)),name = "Tachibana Ukyo"
-Trigger139=playerid(getplayerid(time-9)),name = "Ukyo Tachibana"
-Trigger140=playerid(getplayerid(time-9)),name = "Tachibana"
-Trigger141=playerid(getplayerid(time-9)),name = "Ushiwakahime"
-Trigger142=playerid(getplayerid(time-9)),name = "Walter"
-Trigger143=playerid(getplayerid(time-9)),name = "Wan-Fu"
-Trigger144=playerid(getplayerid(time-9)),name = "WanFu"
-Trigger145=playerid(getplayerid(time-9)),name = "Wan Fu"
-Trigger146=playerid(getplayerid(time-9)),name = "Warden"
-Trigger147=playerid(getplayerid(time-9)),name = "Wu-Ruixiang"
-Trigger148=playerid(getplayerid(time-9)),name = "Yaci Izanagi"
-Trigger149=playerid(getplayerid(time-9)),name = "Yashamaru"
-Trigger150=playerid(getplayerid(time-9)),name = "Yashamaru Kurama"
-Trigger151=playerid(getplayerid(time-9)),name = "Yoshitora"
-Trigger152=playerid(getplayerid(time-9)),name = "Yoshitora Tokugawa"
-Trigger153=playerid(getplayerid(time-9)),name = "Kusaregedo"
-Trigger154=playerid(getplayerid(time-9)),name = "Youkai Kusaregedo"
-Trigger155=playerid(getplayerid(time-9)),name = "Yuda"
-Trigger156=playerid(getplayerid(time-9)),name = "Yuga"
-Trigger157=playerid(getplayerid(time-9)),name = "Yuga the Destroyer"
-Trigger158=playerid(getplayerid(time-9)),name = "Yumeji"
-Trigger159=playerid(getplayerid(time-9)),name = "Yumeji Kurokouchi"
-Trigger160=playerid(getplayerid(time-9)),name = "Zankuro"
-Trigger161=playerid(getplayerid(time-9)),name = "Zankuro Minazuki"
-Trigger162=playerid(getplayerid(time-9)),name = "Akari Ichijou"
-Trigger163=playerid(getplayerid(time-9)),name = "Akari"
-Trigger164=playerid(getplayerid(time-9)),name = "Shigen"
-Trigger165=playerid(getplayerid(time-9)),name = "Deku no Shigen"
-Trigger166=playerid(getplayerid(time-9)),name = "Genbu no Okina"
-Trigger167=playerid(getplayerid(time-9)),name = "Okina"
-Trigger168=playerid(getplayerid(time-9)),name = "Hitogata"
-Trigger169=playerid(getplayerid(time-9)),name = "Hagure Hitogata"
-Trigger170=playerid(getplayerid(time-9)),name = "Hibiki"
-Trigger171=playerid(getplayerid(time-9)),name = "Hibiki Takane"
-Trigger172=playerid(getplayerid(time-9)),name = "Amano"
-Trigger173=playerid(getplayerid(time-9)),name = "Hyo Amano"
-Trigger174=playerid(getplayerid(time-9)),name = "Juzoh"
-Trigger175=playerid(getplayerid(time-9)),name = "Juzoh Kanzaki"
-Trigger176=playerid(getplayerid(time-9)),name = "Kaede"
-Trigger177=playerid(getplayerid(time-9)),name = "Kaori Sanada"
-Trigger178=playerid(getplayerid(time-9)),name = "Kaori"
-Trigger179=playerid(getplayerid(time-9)),name = "Washizuka"
-Trigger180=playerid(getplayerid(time-9)),name = "Keiichiro Washizuka"
-Trigger181=playerid(getplayerid(time-9)),name = "Kojiroh"
-Trigger182=playerid(getplayerid(time-9)),name = "Kojiroh Sanada"
-Trigger183=playerid(getplayerid(time-9)),name = "Kouryu"
-Trigger184=playerid(getplayerid(time-9)),name = "Lee"
-Trigger185=playerid(getplayerid(time-9)),name = "Lee Rekka"
-Trigger186=playerid(getplayerid(time-9)),name = "Moriya"
-Trigger187=playerid(getplayerid(time-9)),name = "Moriya Minakata"
-Trigger188=playerid(getplayerid(time-9)),name = "Mukuro"
-Trigger189=playerid(getplayerid(time-9)),name = "Musashi"
-Trigger190=playerid(getplayerid(time-9)),name = "Musashi Akatsuki"
-Trigger191=playerid(getplayerid(time-9)),name = "Setsuna"
-Trigger192=playerid(getplayerid(time-9)),name = "Shigen"
-Trigger193=playerid(getplayerid(time-9)),name = "Shigen Naoe"
-Trigger194=playerid(getplayerid(time-9)),name = "Shikyoh"
-Trigger195=playerid(getplayerid(time-9)),name = "Kagami"
-Trigger196=playerid(getplayerid(time-9)),name = "Shinnosuke Kagami"
-Trigger197=playerid(getplayerid(time-9)),name = "Yuki"
-Trigger198=playerid(getplayerid(time-9)),name = "Zantetsu"
-Trigger199=playerid(getplayerid(time-9)),name = "Wolverine"
-Trigger200=playerid(getplayerid(time-9)),name = "Logan"
-Trigger201=playerid(getplayerid(time-9)),name = "Sabretooth"
-Trigger202=playerid(getplayerid(time-9)),name = "Silver Samurai"
-Trigger203=playerid(getplayerid(time-9)),name = "SilverSamurai"
-Trigger204=playerid(getplayerid(time-9)),name = "Marrow"
-Trigger205=playerid(getplayerid(time-9)),name = "Strider Hiryu"
-Trigger206=playerid(getplayerid(time-9)),name = "Strider"
-Trigger207=playerid(getplayerid(time-9)),name = "Vega"
-Trigger208=playerid(getplayerid(time-9)),name = "Balrog"
-Trigger209=playerid(getplayerid(time-9)),name = "Bishamon"
-Trigger210=playerid(getplayerid(time-9)),name = "Hayato Kanzaki"
-Trigger211=playerid(getplayerid(time-9)),name = "Kabal"
-Trigger212=playerid(getplayerid(time-9)),name = "Baraka"
-Trigger213=playerid(getplayerid(time-9)),name = "Janne"
-Trigger214=playerid(getplayerid(time-9)),name = "Pielle"
+RedirectID = player(Time-9),ID
+trigger1=player(time-9),name = "He-Man"
+Trigger2=player(time-9),name = "Amakusa"
+Trigger3=player(time-9),name = "Ambrosia"
+Trigger4=player(time-9),name = "Andrew"
+Trigger5=player(time-9),name = "Angelica"
+Trigger6=player(time-9),name = "Asura"
+Trigger7=player(time-9),name = "Azami"
+Trigger8=player(time-9),name = "Baiken"
+Trigger9=player(time-9),name = "Basara"
+Trigger10=player(time-9),name = "Benten"
+Trigger11=player(time-9),name = "Bizuki"
+Trigger12=player(time-9),name = "Black Hawk"
+Trigger13=player(time-9),name = "Brute"
+Trigger14=player(time-9),name = "Cham Cham"
+Trigger15=player(time-9),name = "Chample"
+Trigger16=player(time-9),name = "Charlotte"
+Trigger17=player(time-9),name = "Charlotte Christine de Colde"
+Trigger18=player(time-9),name = "Chona Chona"
+Trigger19=player(time-9),name = "Claude"
+Trigger20=player(time-9),name = "Darli"
+Trigger21=player(time-9),name = "Aku Amakusa"
+Trigger22=player(time-9),name = "Daruma"
+Trigger23=player(time-9),name = "Deku & Dekuina"
+Trigger24=player(time-9),name = "Demon Gaoh"
+Trigger25=player(time-9),name = "Draco"
+Trigger26=player(time-9),name = "Earthquake"
+Trigger27=player(time-9),name = "Enja"
+Trigger28=player(time-9),name = "Enja Kazuki"
+Trigger29=player(time-9),name = "Gaira"
+Trigger30=player(time-9),name = "Gaira Caffeine"
+Trigger31=player(time-9),name = "Galford"
+Trigger32=player(time-9),name = "Galford D. Weller"
+Trigger33=player(time-9),name = "Gandara"
+Trigger34=player(time-9),name = "Gaoh"
+Trigger35=player(time-9),name = "Garros"
+Trigger36=player(time-9),name = "Garyo"
+Trigger37=player(time-9),name = "Garyo the Whirlwind"
+Trigger38=player(time-9),name = "Gen-an"
+Trigger39=player(time-9),name = "Genan"
+Trigger40=player(time-9),name = "Genan Shiranui"
+Trigger41=player(time-9),name = "Genjyuro"
+Trigger42=player(time-9),name = "Genjuro"
+Trigger43=player(time-9),name = "Kibagami Genjuro"
+Trigger44=player(time-9),name = "Genjuro Kibagami"
+Trigger45=player(time-9),name = "Genshinsai"
+Trigger46=player(time-9),name = "Golba"
+Trigger47=player(time-9),name = "Gongsun Li"
+Trigger48=player(time-9),name = "Haito Kanakura"
+Trigger49=player(time-9),name = "Hanma"
+Trigger50=player(time-9),name = "Hanma Yagyu"
+Trigger51=player(time-9),name = "Hanzo Hattori"
+Trigger52=player(time-9),name = "Haoumaru"
+Trigger53=player(time-9),name = "Haohmaru"
+Trigger54=player(time-9),name = "Haon"
+Trigger55=player(time-9),name = "Hazuki"
+Trigger56=player(time-9),name = "Hazuki Kazama"
+Trigger57=player(time-9),name = "Hibiki"
+Trigger58=player(time-9),name = "Hibiki Takane"
+Trigger59=player(time-9),name = "Iga"
+Trigger60=player(time-9),name = "Iga Ninja"
+Trigger61=player(time-9),name = "Iroha"
+Trigger62=player(time-9),name = "J."
+Trigger63=player(time-9),name = "Jigen Taishi"
+Trigger64=player(time-9),name = "Jin-Emon Hanafusa"
+Trigger65=player(time-9),name = "Jinbei Sugamata"
+Trigger66=player(time-9),name = "Jubei"
+Trigger67=player(time-9),name = "Jubei Yagyu"
+Trigger68=player(time-9),name = "Jushiro Sakaki"
+Trigger69=player(time-9),name = "Kagaribi"
+Trigger70=player(time-9),name = "Karakuri Hanma"
+Trigger71=player(time-9),name = "Kazuki"
+Trigger72=player(time-9),name = "Kazuki Kazama"
+Trigger73=player(time-9),name = "Mizuki"
+Trigger74=player(time-9),name = "Kim Hae-Ryeong"
+Trigger75=player(time-9),name = "Kim Ung Che"
+Trigger76=player(time-9),name = "Kirian"
+Trigger77=player(time-9),name = "Kuki"
+Trigger78=player(time-9),name = "Kunou Seishiro"
+Trigger79=player(time-9),name = "Kuroko"
+Trigger80=player(time-9),name = "Kyoshiro"
+Trigger81=player(time-9),name = "Kyoshiro Senryo"
+Trigger82=player(time-9),name = "Senryo Kyoshiro"
+Trigger83=player(time-9),name = "Liu Yunfei"
+Trigger84=player(time-9),name = "Mamahaha"
+Trigger85=player(time-9),name = "Mario and Mei"
+Trigger86=player(time-9),name = "Mikoto"
+Trigger87=player(time-9),name = "Mina Majikina"
+Trigger88=player(time-9),name = "Minto"
+Trigger89=player(time-9),name = "Mizuki Rashojin"
+Trigger90=player(time-9),name = "Mugenji"
+Trigger91=player(time-9),name = "Nakoruru"
+Trigger92=player(time-9),name = "Namino"
+Trigger93=player(time-9),name = "Neinhalt Sieger"
+Trigger94=player(time-9),name = "Nicotine Caffeine"
+Trigger95=player(time-9),name = "Oboro"
+Trigger96=player(time-9),name = "Ocha-Maro "
+Trigger97=player(time-9),name = "OchaMaro "
+Trigger98=player(time-9),name = "Karakuri"
+Trigger99=player(time-9),name = "Paku Paku"
+Trigger100=player(time-9),name = "Poppy"
+Trigger101=player(time-9),name = "Purple Nakoruru"
+Trigger102=player(time-9),name = "Ran Po"
+Trigger103=player(time-9),name = "Rasetsumaru"
+Trigger104=player(time-9),name = "Reppu no Hion"
+Trigger105=player(time-9),name = "Rera"
+Trigger106=player(time-9),name = "Rimururu"
+Trigger107=player(time-9),name = "Rinka Yoshino"
+Trigger108=player(time-9),name = "Samurai"
+Trigger109=player(time-9),name = "Sankuro"
+Trigger110=player(time-9),name = "Sankuro Yorozu"
+Trigger111=player(time-9),name = "Saya"
+Trigger112=player(time-9),name = "Seishiro Kuki"
+Trigger113=player(time-9),name = "Shadow Asura"
+Trigger114=player(time-9),name = "Shibito"
+Trigger115=player(time-9),name = "Shiki"
+Trigger116=player(time-9),name = "Shikuru"
+Trigger117=player(time-9),name = "Shippu no Reon"
+Trigger118=player(time-9),name = "Shiro Tokisada Amakusa"
+Trigger119=player(time-9),name = "Shizu"
+Trigger120=player(time-9),name = "Shizuka Gozen"
+Trigger121=player(time-9),name = "Shizumaru"
+Trigger122=player(time-9),name = "Shizumaru Hisame"
+Trigger123=player(time-9),name = "Sogetsu Kazama"
+Trigger124=player(time-9),name = "Sugoroku"
+Trigger125=player(time-9),name = "Sugoroku Matsuribayashi"
+Trigger126=player(time-9),name = "Suija"
+Trigger127=player(time-9),name = "Suija Sogetsu"
+Trigger128=player(time-9),name = "Sogetsu"
+Trigger129=player(time-9),name = "Suzu"
+Trigger130=player(time-9),name = "Taizan Morozumi"
+Trigger131=player(time-9),name = "Takechiyo"
+Trigger132=player(time-9),name = "Tam Tam"
+Trigger133=player(time-9),name = "Tashon Mao"
+Trigger134=player(time-9),name = "Tenhime"
+Trigger135=player(time-9),name = "Tohma"
+Trigger136=player(time-9),name = "Tohma Kuki"
+Trigger137=player(time-9),name = "Tokihime"
+Trigger138=player(time-9),name = "Tachibana Ukyo"
+Trigger139=player(time-9),name = "Ukyo Tachibana"
+Trigger140=player(time-9),name = "Tachibana"
+Trigger141=player(time-9),name = "Ushiwakahime"
+Trigger142=player(time-9),name = "Walter"
+Trigger143=player(time-9),name = "Wan-Fu"
+Trigger144=player(time-9),name = "WanFu"
+Trigger145=player(time-9),name = "Wan Fu"
+Trigger146=player(time-9),name = "Warden"
+Trigger147=player(time-9),name = "Wu-Ruixiang"
+Trigger148=player(time-9),name = "Yaci Izanagi"
+Trigger149=player(time-9),name = "Yashamaru"
+Trigger150=player(time-9),name = "Yashamaru Kurama"
+Trigger151=player(time-9),name = "Yoshitora"
+Trigger152=player(time-9),name = "Yoshitora Tokugawa"
+Trigger153=player(time-9),name = "Kusaregedo"
+Trigger154=player(time-9),name = "Youkai Kusaregedo"
+Trigger155=player(time-9),name = "Yuda"
+Trigger156=player(time-9),name = "Yuga"
+Trigger157=player(time-9),name = "Yuga the Destroyer"
+Trigger158=player(time-9),name = "Yumeji"
+Trigger159=player(time-9),name = "Yumeji Kurokouchi"
+Trigger160=player(time-9),name = "Zankuro"
+Trigger161=player(time-9),name = "Zankuro Minazuki"
+Trigger162=player(time-9),name = "Akari Ichijou"
+Trigger163=player(time-9),name = "Akari"
+Trigger164=player(time-9),name = "Shigen"
+Trigger165=player(time-9),name = "Deku no Shigen"
+Trigger166=player(time-9),name = "Genbu no Okina"
+Trigger167=player(time-9),name = "Okina"
+Trigger168=player(time-9),name = "Hitogata"
+Trigger169=player(time-9),name = "Hagure Hitogata"
+Trigger170=player(time-9),name = "Hibiki"
+Trigger171=player(time-9),name = "Hibiki Takane"
+Trigger172=player(time-9),name = "Amano"
+Trigger173=player(time-9),name = "Hyo Amano"
+Trigger174=player(time-9),name = "Juzoh"
+Trigger175=player(time-9),name = "Juzoh Kanzaki"
+Trigger176=player(time-9),name = "Kaede"
+Trigger177=player(time-9),name = "Kaori Sanada"
+Trigger178=player(time-9),name = "Kaori"
+Trigger179=player(time-9),name = "Washizuka"
+Trigger180=player(time-9),name = "Keiichiro Washizuka"
+Trigger181=player(time-9),name = "Kojiroh"
+Trigger182=player(time-9),name = "Kojiroh Sanada"
+Trigger183=player(time-9),name = "Kouryu"
+Trigger184=player(time-9),name = "Lee"
+Trigger185=player(time-9),name = "Lee Rekka"
+Trigger186=player(time-9),name = "Moriya"
+Trigger187=player(time-9),name = "Moriya Minakata"
+Trigger188=player(time-9),name = "Mukuro"
+Trigger189=player(time-9),name = "Musashi"
+Trigger190=player(time-9),name = "Musashi Akatsuki"
+Trigger191=player(time-9),name = "Setsuna"
+Trigger192=player(time-9),name = "Shigen"
+Trigger193=player(time-9),name = "Shigen Naoe"
+Trigger194=player(time-9),name = "Shikyoh"
+Trigger195=player(time-9),name = "Kagami"
+Trigger196=player(time-9),name = "Shinnosuke Kagami"
+Trigger197=player(time-9),name = "Yuki"
+Trigger198=player(time-9),name = "Zantetsu"
+Trigger199=player(time-9),name = "Wolverine"
+Trigger200=player(time-9),name = "Logan"
+Trigger201=player(time-9),name = "Sabretooth"
+Trigger202=player(time-9),name = "Silver Samurai"
+Trigger203=player(time-9),name = "SilverSamurai"
+Trigger204=player(time-9),name = "Marrow"
+Trigger205=player(time-9),name = "Strider Hiryu"
+Trigger206=player(time-9),name = "Strider"
+Trigger207=player(time-9),name = "Vega"
+Trigger208=player(time-9),name = "Balrog"
+Trigger209=player(time-9),name = "Bishamon"
+Trigger210=player(time-9),name = "Hayato Kanzaki"
+Trigger211=player(time-9),name = "Kabal"
+Trigger212=player(time-9),name = "Baraka"
+Trigger213=player(time-9),name = "Janne"
+Trigger214=player(time-9),name = "Pielle"
 
 ;ADD MORE NAMES HERE
-;Trigger21X=playerid(getplayerid(time-9)),name = ""
+;Trigger21X=player(time-9),name = ""
 ;etc
 
 
@@ -8282,7 +8282,7 @@ ignorehitpause = 1
 persistent = 0
 trigger1 = !ishelper
 trigger1 = NumHelper(1000) = 0
-trigger1 = PlayerIDExist(playerid(getplayerid(1)),ID)
+trigger1 = PlayerIDExist(player(1),ID)
 name = "P1"
 ID = 1000
 stateno = 666
@@ -8303,7 +8303,7 @@ ignorehitpause = 1
 persistent = 0
 trigger1 = !ishelper
 trigger1 = NumHelper(2000) = 0
-trigger1 = PlayerIDExist(playerid(getplayerid(2)),ID)
+trigger1 = PlayerIDExist(player(2),ID)
 name = "P2"
 ID = 2000
 stateno = 666
@@ -8324,7 +8324,7 @@ ignorehitpause = 1
 persistent = 0
 trigger1 = !ishelper
 trigger1 = NumHelper(3000) = 0
-trigger1 = PlayerIDExist(playerid(getplayerid(3)),ID)
+trigger1 = PlayerIDExist(player(3),ID)
 name = "P3"
 ID = 3000
 stateno = 666
@@ -8345,7 +8345,7 @@ ignorehitpause = 1
 persistent = 0
 trigger1 = !ishelper
 trigger1 = NumHelper(4000) = 0
-trigger1 = PlayerIDExist(playerid(getplayerid(4)),ID)
+trigger1 = PlayerIDExist(player(4),ID)
 name = "P4"
 ID = 4000
 stateno = 666
@@ -8366,7 +8366,7 @@ ignorehitpause = 1
 persistent = 0
 trigger1 = !ishelper
 trigger1 = NumHelper(5000) = 0
-trigger1 = PlayerIDExist(playerid(getplayerid(5)),ID)
+trigger1 = PlayerIDExist(player(5),ID)
 name = "P5"
 ID = 5000
 stateno = 666
@@ -8391,7 +8391,7 @@ ignorehitpause = 1
 persistent = 0
 trigger1 = !ishelper
 trigger1 = NumHelper(6000) = 0
-trigger1 = PlayerIDExist(playerid(getplayerid(6)),ID)
+trigger1 = PlayerIDExist(player(6),ID)
 name = "P6"
 ID = 6000
 stateno = 666
@@ -8412,7 +8412,7 @@ ignorehitpause = 1
 persistent = 0
 trigger1 = !ishelper
 trigger1 = NumHelper(7000) = 0
-trigger1 = PlayerIDExist(playerid(getplayerid(7)),ID)
+trigger1 = PlayerIDExist(player(7),ID)
 name = "P7"
 ID = 7000
 stateno = 666
@@ -8433,7 +8433,7 @@ ignorehitpause = 1
 persistent = 0
 trigger1 = !ishelper
 trigger1 = NumHelper(8000) = 0
-trigger1 = PlayerIDExist(playerid(getplayerid(8)),ID)
+trigger1 = PlayerIDExist(player(8),ID)
 name = "P8"
 ID = 8000
 stateno = 666

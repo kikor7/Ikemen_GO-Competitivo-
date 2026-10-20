@@ -1,0 +1,16 @@
+<#f0f000>:Special Moves:</>
+saliva			_QCF^Y
+saliva			_QCF^X
+craneo			_QCB^Y
+craneo			_QCB^X
+mole 1			_QCF^A
+mole 2			_QCF^B
+aguijon			_QCB^B
+aguijon			_QCB^A
+
+<#f0f000>:Hyper Moves:</>
+fatal <#f00000>(3000)</>			_QCF^A_+^B
+dark force <#f00000>(2000)</>			^X_+^A
+vomitada <#f00000>(1000)</>			_QCF^X_+^Y
+gusanitos <#f00000>(1000)</>			_QCB^X_+^Y
+huesped <#f00000>(1000)</>			_QCB^A_+^B

@@ -327,6 +327,24 @@ ctrl = 1
 
 ;---------------------------------------------------------------------------
 ; Run forward
+;---------------------------------------------------------------------------
+; Recuperacion tras esquivar/rodar: sin control y golpeable unos frames,
+; para que no se pueda encadenar sin riesgo.
+;---------------------------------------------------------------------------
+[Statedef 1001]
+type = S
+movetype = I
+physics = S
+ctrl = 0
+anim = 0
+velset = 0,0
+
+[State 1001, Fin de la recuperacion]
+type = ChangeState
+trigger1 = Time >= 8
+value = 0
+ctrl = 1
+
 [Statedef 100]
 type    = U
 physics = S
@@ -382,8 +400,8 @@ trigger1 = P2Dist X < -25
 type = ChangeState
 triggerall = animtime = 0
 trigger1 = !ishelper
-value = 0
-ctrl = 1
+value = 1001
+ctrl = 0
 
 ;---------------------------------------------------------------------------
 ; Hop backwards
@@ -429,8 +447,8 @@ y = const(velocity.run.back.y)
 [State 105, 3]
 type = ChangeState
 trigger1 = animtime = 0
-value = 0
-ctrl  = 1
+value = 1001
+ctrl  = 0
 
 ;---------------------------------------------------------------------------
 ; Hop backwards (land)

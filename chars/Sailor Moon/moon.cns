@@ -2165,7 +2165,7 @@ juggle  = 3
 velset = ifelse(prevstateno = 105,const(velocity.run.back.x)-4,const(velocity.run.fwd.x)+4),0
 ctrl = 0
 anim = 700
-poweradd = 40
+poweradd = 0
 sprpriority = 2
 
 [State 123, Light Hit Sound]
@@ -2241,7 +2241,7 @@ type    = C
 movetype= A
 physics = N
 juggle  = 6
-poweradd= 40
+poweradd= 0
 velset = ifelse(prevstateno = 105,const(velocity.run.back.x)-2,const(velocity.run.fwd.x)+2),0
 ctrl = 0
 anim = 710
@@ -2311,7 +2311,7 @@ physics = S
 velset = 0,0
 ctrl = 0
 anim = 1000
-poweradd = 100
+poweradd = 0
 sprpriority = 2
 
 [State 123, Light Hit Sound]
@@ -2548,7 +2548,7 @@ physics = S
 velset = 0,0
 ctrl = 0
 anim = 1000
-poweradd = 100
+poweradd = 0
 sprpriority = 2
 
 [State 123, Light Hit Sound]
@@ -2830,7 +2830,7 @@ physics = S
 velset = 0,0
 ctrl = 0
 anim = 1100
-poweradd = 100
+poweradd = 20
 sprpriority = 2
 
 [State 123, Light Hit Sound]
@@ -2903,7 +2903,7 @@ physics = S
 velset = 0,0
 ctrl = 0
 anim = 1101
-poweradd = 100
+poweradd = 20
 sprpriority = 2
 
 [State 600,***]
@@ -2976,7 +2976,7 @@ physics = S
 velset = 0,0
 ctrl = 0
 anim = 1105
-poweradd = 100
+poweradd = 20
 sprpriority = 2
 
 [State 600,***]
@@ -3049,7 +3049,7 @@ physics = S
 velset = 0,0
 ctrl = 0
 anim = 1106
-poweradd = 100
+poweradd = 20
 sprpriority = 2
 
 [State 600,***]
@@ -3534,7 +3534,7 @@ type    = S
 movetype= A
 physics = S
 juggle  = 4
-poweradd= 55
+poweradd= 0
 velset = 0,0
 anim = 1200
 ctrl = 0
@@ -3606,7 +3606,7 @@ type    = S
 movetype= A
 physics = S
 juggle  = 4
-poweradd= 55
+poweradd= 0
 velset = 0,0
 anim = 1205
 ctrl = 0
@@ -3678,7 +3678,7 @@ type    = S
 movetype= A
 physics = N
 juggle  = 8
-poweradd= 80
+poweradd= 20
 velset = 0,0
 anim = 1300
 sprpriority = 1
@@ -3743,7 +3743,7 @@ type    = S
 movetype= A
 physics = N
 juggle  = 0
-poweradd = 100
+poweradd = 20
 velset = 0,0
 anim = 1300
 sprpriority = 1
@@ -3808,7 +3808,7 @@ type    = S
 movetype= A
 physics = S
 juggle  = 4
-poweradd= 55
+poweradd= 0
 velset = 0,0
 anim = 1400
 ctrl = 0
@@ -3898,7 +3898,7 @@ type    = S
 movetype= A
 physics = S
 juggle  = 4
-poweradd= 55
+poweradd= 0
 velset = 0,0
 anim = 1405
 ctrl = 0
@@ -3990,7 +3990,7 @@ physics = S
 velset = 0,0
 ctrl = 0
 anim = 1500
-poweradd = 50
+poweradd = 20
 sprpriority = 2
 
 [State 3100, Crack]
@@ -4958,7 +4958,7 @@ physics = N
 velset = (vel x)/5,(vel y)/5
 ctrl = 0
 anim = 1700
-poweradd = 100
+poweradd = 20
 sprpriority = 2
 
 [State 123, Light Hit Sound]
@@ -5043,7 +5043,7 @@ physics = N
 velset = (vel x)/5,(vel y)/5
 ctrl = 0
 anim = 1700
-poweradd = 100
+poweradd = 20
 sprpriority = 2
 
 [State 123, Light Hit Sound]
@@ -5128,7 +5128,7 @@ physics = S
 velset = 0,0
 ctrl = 0
 anim = 1800
-poweradd = 100
+poweradd = 20
 sprpriority = 2
 
 [State 3100, Crack]
@@ -5235,7 +5235,7 @@ physics = S
 velset = 0,0
 ctrl = 0
 anim = 1800
-poweradd = 100
+poweradd = 20
 sprpriority = 2
 
 [State 3100, Crack]
@@ -6568,7 +6568,7 @@ kill = 0
 [State 810, Throw 11]
 type = poweradd
 trigger1 = animelem = 2
-value = 5
+value = 0
 
 [State 5120, 4]
 type = HitAdd
@@ -6803,7 +6803,7 @@ value = Ceil(-45 * Const(data.attack) / 100)
 [State 810, Throw 11]
 type = poweradd
 trigger1 = animelem = 4
-value = 20
+value = 0
 
 [State -3, 123]
 type = helper

@@ -595,7 +595,7 @@ juggle  = 1
 velset = 0,0                     ;このステートが始まった時に移動するか（0,0で動かない）
 ctrl = 0                         ;このステート中に他のコマンドを受け付けるか(1で受け付ける)
 anim = 200                       ;このステートで表示するスプライトステート番号(0で変化無し)
-poweradd = 20                    ;このステートを使った時のパワー増加量(0で変化無し)
+poweradd = 0                    ;このステートを使った時のパワー増加量(0で変化無し)
 sprpriority = 2                  ;表示した絵の重なり具合(2一番前　0通常　-1奥)
 
 [State 200, 1]
@@ -603,6 +603,7 @@ type = HitDef
 trigger1 = AnimElem = 3
 attr = S, NA                     ;立ち状態で、通常の攻撃(ｓは立ち、ｎは通常、aは攻撃を表す)
 damage = 23, 0                   ;ダメージ量（左が当たった時、右はガードした時）
+getpower = 30,15
 animtype = Light                 ;当てた時の相手のポーズ（light/midium/hard/back）から選択
 guardflag = M;A                   ;ガードできる状態（ｍaは全ての状態でガード可能）
 hitflag = MAF                    ;当てる事のできる条件
@@ -667,7 +668,7 @@ juggle  = 1
 velset = 0,0
 ctrl = 0
 anim = 202
-poweradd = 20
+poweradd = 0
 sprpriority = 2
 
 
@@ -741,7 +742,7 @@ juggle  = 1
 velset = 0,0
 ctrl = 0
 anim = 202
-poweradd = 20
+poweradd = 0
 sprpriority = 2
 
 
@@ -765,6 +766,7 @@ type = HitDef
 trigger1 = AnimElem = 3
 attr = S, NA                     ;立ち状態で、通常の攻撃(ｓは立ち、ｎは通常、aは攻撃を表す)
 damage = 25, 0                   ;ダメージ量（左が当たった時、右はガードした時）
+getpower = 30,15
 animtype = Light                 ;当てた時の相手のポーズ（light/midium/hard/back）から選択
 guardflag = MA                   ;ガードできる状態（ｍaは全ての状態でガード可能）
 hitflag = MAF                    ;当てる事のできる条件
@@ -822,7 +824,7 @@ juggle  = 1
 velset = 0,0
 ctrl = 0
 anim = 203
-poweradd = 20
+poweradd = 0
 sprpriority = 2
 
 
@@ -895,7 +897,7 @@ juggle  = 2
 velset = 0,0                     ;このステートが始まった時に移動するか（0,0で動かない）
 ctrl = 0                         ;このステート中に他のコマンドを受け付けるか(1で受け付ける)
 anim = 204                       ;このステートで表示するスプライトステート番号(0で変化無し)
-poweradd = 60                    ;このステートを使った時のパワー増加量(0で変化無し)
+poweradd = 0                    ;このステートを使った時のパワー増加量(0で変化無し)
 sprpriority = 2                  ;表示した絵の重なり具合(2一番前　0通常　-1奥)
 
 [State 204, 1]
@@ -904,6 +906,7 @@ trigger1 = AnimElem = 3
 attr = S, NA
 animtype  = Medium
 damage    = 57
+getpower = 30,15
 guardflag = MA
 pausetime = 12,12+var(10)
 sparkno = s7001
@@ -964,7 +967,7 @@ juggle  = 2
 velset = 0,0
 ctrl = 0
 anim = 206
-poweradd = 70
+poweradd = 0
 sprpriority = 2
 
 
@@ -983,6 +986,7 @@ trigger1 = AnimElem = 3
 attr = S, NA
 animtype  = Medium
 damage    = 57
+getpower = 30,15
 guardflag = MA
 pausetime = 1-var(10),1
 guard.pausetime = 8,8+var(10)
@@ -1080,7 +1084,7 @@ type    = S
 movetype= A
 physics = S
 juggle  = 4
-poweradd= 65
+poweradd= 0
 ctrl = 0
 velset = 0,0
 anim = 210
@@ -1113,6 +1117,7 @@ trigger1 = AnimElem = 3
 attr = S, NA
 animtype  = Medium
 damage    = 57
+getpower = 30,15
 guardflag = MA
 pausetime = 12,12+var(10)
 sparkno = s7001
@@ -1157,7 +1162,7 @@ juggle  = 1
 velset = 0,0
 ctrl = 0
 anim = 215
-poweradd = 60
+poweradd = 0
 sprpriority = -1
 
 [State 215, Width]
@@ -1172,6 +1177,7 @@ trigger1 = AnimElem = 3
 attr = S, NA
 animtype  = up
 damage    = 80
+getpower = 30,15
 guardflag = MA
 pausetime = 12,12+var(10)
 sparkno = s7001
@@ -1238,7 +1244,7 @@ type    = S
 movetype= A
 physics = S
 juggle  = 2
-poweradd= 22
+poweradd= 0
 ctrl = 0
 velset = 0,0
 anim = 230
@@ -1273,6 +1279,7 @@ trigger1 = Time = 0
 attr = S, NA
 animtype  = Medium
 damage    = 26
+getpower = 30,15
 guardflag = MA
 pausetime = 12,12+var(10)
 sparkno = s7000
@@ -1303,7 +1310,7 @@ type    = S
 movetype= A
 physics = S
 juggle  = 5
-poweradd= 65
+poweradd= 0
 ctrl = 0
 velset = 0,0
 anim = 240
@@ -1326,6 +1333,7 @@ trigger1 = Time = 0
 attr = S, NA
 animtype  = Medium
 damage    = 63
+getpower = 30,15
 guardflag = MA
 pausetime = 12,12+var(10)
 sparkno = s7001
@@ -1358,7 +1366,7 @@ type    = S
 movetype= A
 physics = S
 juggle  = 5
-poweradd= 65
+poweradd= 0
 ctrl = 0
 velset = 0,0
 anim = 245
@@ -1387,6 +1395,7 @@ trigger1 = Time = 0
 attr = S, NA
 animtype  = back
 damage    = 85
+getpower = 30,15
 guardflag = MA
 pausetime = 12,12+var(10)
 sparkno = s7001
@@ -1428,7 +1437,7 @@ type    = C
 movetype= A
 physics = C
 juggle  = 3
-poweradd= 15
+poweradd= 0
 ctrl = 0
 anim = 400
 sprpriority = 2
@@ -1460,6 +1469,7 @@ type = HitDef
 trigger1 = Time = 0
 attr = C, NA
 damage    = 23
+getpower = 30,15
 priority  = 3
 animtype  = Light
 hitflag = MAF
@@ -1494,7 +1504,7 @@ type    = C
 movetype= A
 physics = C
 juggle  = 5
-poweradd= 50
+poweradd= 0
 ctrl = 0
 anim = 410
 sprpriority = 2
@@ -1525,6 +1535,7 @@ type = HitDef
 trigger1 = AnimElem = 3
 attr = C, NA
 damage    = 37
+getpower = 30,15
 animtype  = Medium
 hitflag = MAF
 guardflag = L
@@ -1563,7 +1574,7 @@ type    = C
 movetype= A
 physics = C
 juggle  = 3
-poweradd= 22
+poweradd= 0
 ctrl = 0
 anim = 430
 sprpriority = 2
@@ -1594,6 +1605,7 @@ type = HitDef
 trigger1 = Time = 0
 attr = C, NA
 damage    = 28
+getpower = 30,15
 animtype  = Light
 hitflag = MAFD
 guardflag = L
@@ -1631,7 +1643,7 @@ type    = C
 movetype= A
 physics = C
 juggle  = 7
-poweradd= 70
+poweradd= 0
 ctrl = 0
 anim = 440
 sprpriority = 2
@@ -1662,6 +1674,7 @@ type = HitDef
 trigger1 = Time = 0
 attr = C, NA
 damage    = 72
+getpower = 30,15
 hitflag = MAF
 guardflag = L
 pausetime = 12,12+var(10)
@@ -1697,7 +1710,7 @@ type    = C
 movetype= A
 physics = C
 juggle  = 3
-poweradd= 70
+poweradd= 0
 ctrl = 0
 anim = 500
 sprpriority = 2
@@ -1833,7 +1846,7 @@ type    = S
 movetype= A
 physics = N
 juggle  = 3
-poweradd= 70
+poweradd= 0
 velset = 4.6,0
 anim = 570
 ctrl = 0
@@ -1864,7 +1877,7 @@ trigger2 = NumTarget = 0
 attr = S, NA
 animtype  = Hard
 damage    = 40
-getpower  = 0
+getpower = 30,15
 priority  = 5
 guardflag = MA
 pausetime = 8,7+var(10)
@@ -1894,7 +1907,7 @@ trigger2 = target,stateno = 525
 attr = S, NA
 animtype  = Hard
 damage    = 40
-getpower  = 0
+getpower = 30,15
 priority  = 5
 guardflag = MA
 pausetime = 8,7+var(10)
@@ -2106,7 +2119,7 @@ type    = A
 movetype= A
 physics = N
 juggle  = 7
-poweradd= 70
+poweradd= 0
 ctrl = 0
 velset = 4,-4.5
 anim = 590
@@ -2175,7 +2188,7 @@ trigger1 = AnimElem = 10
 attr = A, NA
 animtype  = back
 damage    = 80
-getpower  = 10
+getpower = 60,30
 priority  = 5
 guardflag = HA
 pausetime = 12,12+var(10)
@@ -2232,7 +2245,7 @@ type    = A
 movetype= A
 physics = A
 juggle  = 2
-poweradd= 11
+poweradd= 0
 ctrl = 0
 anim = 600
 sprpriority = 2
@@ -2252,6 +2265,7 @@ type = HitDef
 trigger1 = Time = 0
 attr = A, NA
 damage    = 20
+getpower = 30,15
 guardflag = HA
 priority = 3
 pausetime = 7,8+var(10)
@@ -2282,7 +2296,7 @@ type    = A
 movetype= A
 physics = A
 juggle  = 4
-poweradd= 65
+poweradd= 0
 ctrl = 0
 anim = 610
 sprpriority = 2
@@ -2302,6 +2316,7 @@ type = HitDef
 trigger1 = Time = 0
 attr = A, NA
 damage = 72
+getpower = 30,15
 guardflag = HA
 priority = 4
 pausetime = 12,12+var(10)
@@ -2328,7 +2343,7 @@ type    = A
 movetype= A
 physics = A
 juggle  = 3
-poweradd= 20
+poweradd= 0
 ctrl = 0
 anim = 630
 sprpriority = 2
@@ -2348,6 +2363,7 @@ type = HitDef
 trigger1 = Time = 0
 attr = A, NA
 damage = 26
+getpower = 30,15
 guardflag = HA
 priority = 3
 pausetime = 8,8+var(10)
@@ -2373,7 +2389,7 @@ type    = A
 movetype= A
 physics = A
 juggle  = 4
-poweradd= 65
+poweradd= 0
 ctrl = 0
 anim = 640
 sprpriority = 2
@@ -2393,6 +2409,7 @@ type = HitDef
 trigger1 = Time = 0
 attr = A, NA
 damage    = 70
+getpower = 30,15
 guardflag = HA
 priority = 4
 pausetime = 12,12+var(10)
@@ -2434,6 +2451,7 @@ var(41) = 0
 
 [State 800, 1]
 type = HitDef
+getpower = 60,30
 Trigger1 = Time = 0
 attr = S, NT          ;ｓ：立ち　ｎ：通常　ｔ：投げ
 hitflag = M-          ;コンボの途中から投げが入らないよう設定してある
@@ -2464,7 +2482,7 @@ type    = S
 movetype= A
 physics = N
 anim = 810
-poweradd = 60
+poweradd = 0
 sprpriority = -1
 
 
@@ -2858,7 +2876,7 @@ type    = A
 movetype= A
 physics = N
 juggle  = 4
-poweradd= 110
+poweradd= 0
 velset = 0,0
 anim = 1000
 ctrl = 0
@@ -2899,6 +2917,7 @@ trigger1 = time = 0;AnimElem = 3
 attr = S, SA
 animtype  = Hard
 damage    = 85, 4
+getpower = 60,30
 priority  = 6
 guardflag = MA
 pausetime = 15,15+var(10)
@@ -2975,7 +2994,7 @@ type    = A
 movetype= A
 physics = N
 juggle  = 4
-poweradd= 110
+poweradd= 0
 velset = 0,0
 anim = 1000
 ctrl = 0
@@ -3057,7 +3076,7 @@ type    = S
 movetype= A
 physics = S
 juggle  = 2
-poweradd= 110
+poweradd= 0
 velset = 0,0
 anim = 1050
 ctrl = 0
@@ -3096,6 +3115,7 @@ trigger1 = Time = 0
 attr = A, SA
 animtype  = up;diagup;back;Hard;Medium
 damage    = 120, 4
+getpower = 60,30
 priority  = 5
 guardflag = MA
 pausetime = 12,12+var(10)
@@ -3183,7 +3203,7 @@ type    = S
 movetype= A
 physics = S
 juggle  = 2
-poweradd= 120
+poweradd= 0
 velset = 0,0
 anim = 1050
 ctrl = 0
@@ -3222,6 +3242,7 @@ trigger1 = Time = 0
 attr = A, SA
 animtype  = up;Medium
 damage    = 150, 4
+getpower = 60,30
 priority  = 5
 guardflag = MA
 pausetime = 12,12+var(10)
@@ -3284,7 +3305,7 @@ type    = S
 movetype= A
 physics = S
 juggle  = 2
-poweradd= 110
+poweradd= 0
 velset = 0,0
 anim = 1100
 ctrl = 0
@@ -3323,6 +3344,7 @@ trigger1 = Time = 0
 attr = A, SA
 animtype  = up;diagup;back;Hard;Medium
 damage    = 120, 4
+getpower = 60,30
 priority  = 5
 guardflag = MA
 pausetime = 12,12+var(10)
@@ -3417,7 +3439,7 @@ type    = S
 movetype= A
 physics = S
 juggle  = 2
-poweradd= 120
+poweradd= 0
 velset = 0,0
 anim = 1100
 ctrl = 0
@@ -3456,6 +3478,7 @@ trigger1 = Time = 0
 attr = A, SA
 animtype  = up;Medium
 damage    = 150, 4
+getpower = 60,30
 priority  = 5
 guardflag = MA
 pausetime = 12,12+var(10)
@@ -3558,6 +3581,7 @@ x = 12
 
 [State 1200, 1]
 type = HitDef
+getpower = 60,30
 Trigger1 = AnimElem = 7
 attr = S, ST          ;ｓ：立ち　　ｔ：投げ
 hitflag = M-          ;コンボの途中から投げが入らないよう設定してある
@@ -3590,7 +3614,7 @@ movetype= A
 physics = N
 velset = 0,0
 anim = 1210
-poweradd = 80
+poweradd = 0
 
 
 [State 1210, 0]
@@ -3752,6 +3776,7 @@ var(41) = 0
 
 [State 1250, 1]
 type = HitDef
+getpower = 60,30
 Trigger1 = Time = 0
 attr = S, NT          ;ｓ：立ち　ｎ：通常　ｔ：投げ
 hitflag = M-          ;コンボの途中から投げが入らないよう設定してある
@@ -3779,7 +3804,7 @@ type    = S
 movetype= A
 physics = N
 anim = 1250
-poweradd = 60
+poweradd = 0
 sprpriority = -1
 
 

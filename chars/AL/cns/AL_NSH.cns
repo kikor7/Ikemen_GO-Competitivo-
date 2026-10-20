@@ -14,6 +14,7 @@ type=HitDef
 trigger1=time=8
 attr=S,NA
 damage=25,0
+getpower = 30,15
 guardflag=M
 hitflag=MAF
 priority=3,Hit
@@ -76,7 +77,7 @@ persistent=0
 [State ]
 type=powerAdd
 trigger1=movehit
-value=20
+value=0
 ignorehitpause=1
 persistent=0
 
@@ -103,7 +104,7 @@ type=S
 movetype=A
 physics=S
 juggle=2
-poweradd=30
+poweradd=0
 ctrl=0
 velset=0,0
 anim=210
@@ -158,6 +159,7 @@ trigger1=AnimElem=3||AnimElem=4
 attr=S,NA
 animtype=Medium
 damage=25
+getpower = 30,15
 hitflag=MAF
 guardflag=M
 pausetime=10,5
@@ -178,14 +180,14 @@ yaccel=.44
 [State ]
 type=powerAdd
 trigger1=hitcount=1
-value=10
+value=0
 ignorehitpause=1
 persistent=0
 
 [State ]
 type=powerAdd
 trigger1=hitcount=2
-value=10
+value=0
 ignorehitpause=1
 persistent=0
 
@@ -261,7 +263,7 @@ type=S
 movetype=A
 physics=S
 juggle=2
-poweradd=30
+poweradd=0
 ctrl=0
 velset=0,0
 anim=213
@@ -314,6 +316,7 @@ trigger1=time=5
 attr=S,NA
 animtype=Medium
 damage=22
+getpower = 15,7
 hitflag=MAF
 guardflag=M
 pausetime=5,0
@@ -339,6 +342,7 @@ trigger1=movehit=8&&hitcount=1
 attr=S,NA
 animtype=Medium
 damage=22
+getpower = 15,7
 hitflag=MAF
 guardflag=M
 pausetime=5,10
@@ -359,14 +363,14 @@ air.type=low
 [State ]
 type=powerAdd
 trigger1=hitcount=1
-value=10
+value=0
 ignorehitpause=1
 persistent=0
 
 [State ]
 type=powerAdd
 trigger1=hitcount=2
-value=10
+value=0
 ignorehitpause=1
 persistent=0
 
@@ -442,7 +446,7 @@ type=S
 movetype=A
 physics=S
 juggle=2
-poweradd=40
+poweradd=0
 ctrl=0
 velset=0,0
 anim=220
@@ -507,6 +511,7 @@ trigger1=AnimElem=4||time=14
 attr=S,NA
 animtype=hard
 damage=36
+getpower = 30,15
 hitflag=MAF
 guardflag=M
 pausetime=10,10
@@ -586,14 +591,14 @@ persistent=0
 [State ]
 type=powerAdd
 trigger1=hitcount=1
-value=15
+value=0
 ignorehitpause=1
 persistent=0
 
 [State ]
 type=powerAdd
 trigger1=hitcount=2
-value=15
+value=0
 ignorehitpause=1
 persistent=0
 
@@ -769,6 +774,7 @@ type=HitDef
 trigger1=animelem=2
 attr=C,NA
 damage=15
+getpower = 30,15
 priority=3
 hitflag=MAF
 guardflag=L
@@ -789,7 +795,7 @@ air.type=low
 [State ]
 type=powerAdd
 trigger1=movehit
-value=10
+value=0
 ignorehitpause=1
 persistent=0
 
@@ -835,7 +841,7 @@ type=C
 movetype=A
 physics=C
 juggle=2
-poweradd=20
+poweradd=0
 ctrl=0
 anim=410
 sprpriority=2
@@ -868,6 +874,7 @@ type=HitDef
 trigger1=AnimElem=2||AnimElem=3
 attr=C,NA
 damage=25
+getpower = 30,15
 animtype=Medium
 hitflag=MAF
 guardflag=L
@@ -889,14 +896,14 @@ air.type=low
 [State ]
 type=powerAdd
 trigger1=hitcount=1
-value=20
+value=0
 ignorehitpause=1
 persistent=0
 
 [State ]
 type=powerAdd
 trigger1=hitcount=2
-value=20
+value=0
 ignorehitpause=1
 persistent=0
 
@@ -972,7 +979,7 @@ type=C
 movetype=A
 physics=C
 juggle=10
-poweradd=40
+poweradd=0
 ctrl=0
 anim=420
 sprpriority=2
@@ -1044,6 +1051,7 @@ type=HitDef
 trigger1=var(12)=0&animelem=2
 attr=C,NA
 damage=70
+getpower = 30,15
 hitflag=MAF
 guardflag=L
 animtype=hard
@@ -1069,6 +1077,7 @@ type=HitDef
 trigger1=var(12)=1&&animelem=2
 attr=C,NA
 damage=70
+getpower = 30,15
 hitflag=MAF
 guardflag=L
 animtype=hard
@@ -1114,7 +1123,7 @@ persistent=0
 [State ]
 type=powerAdd
 trigger1=movehit
-value=25
+value=0
 ignorehitpause=1
 persistent=0
 
@@ -1237,6 +1246,7 @@ type=HitDef
 trigger1=animelem=2&&var(47)=1
 attr=A,NA
 damage=20
+getpower = 30,15
 hitflag=MAF
 guardflag=H
 priority=3
@@ -1260,6 +1270,7 @@ type=HitDef
 trigger1=animelem=2&&var(47)=2
 attr=A,NA
 damage=20
+getpower = 30,15
 hitflag=MAF
 guardflag=HA
 priority=3
@@ -1281,7 +1292,7 @@ air.hittime=30
 [State ]
 type=powerAdd
 trigger1=movehit
-value=20
+value=0
 ignorehitpause=1
 persistent=0
 
@@ -1341,6 +1352,7 @@ type=HitDef
 trigger1=time=4&&var(47)=1
 attr=A,NA
 damage=20
+getpower = 30,15
 hitflag=MAF
 guardflag=H
 priority=3
@@ -1364,6 +1376,7 @@ type=HitDef
 trigger1=time=4&&var(47)=2
 attr=A,NA
 damage=20
+getpower = 30,15
 hitflag=MAF
 guardflag=HA
 priority=3
@@ -1385,7 +1398,7 @@ air.hittime=30
 [State ]
 type=powerAdd
 trigger1=movehit
-value=20
+value=0
 ignorehitpause=1
 persistent=0
 
@@ -1425,7 +1438,7 @@ type=A
 movetype=A
 physics=A
 juggle=2
-poweradd=30
+poweradd=0
 ctrl=0
 anim=610
 sprpriority=2
@@ -1455,6 +1468,7 @@ type=HitDef
 trigger1=(animelem=2||animelem=3)&&var(47)=1
 attr=A,NA
 damage=20
+getpower = 30,15
 hitflag=MAF
 guardflag=H
 priority=4
@@ -1479,6 +1493,7 @@ type=HitDef
 trigger1=(animelem=2||animelem=3)&&var(47)=2
 attr=A,NA
 damage=20
+getpower = 30,15
 hitflag=MAF
 guardflag=HA
 priority=4
@@ -1501,14 +1516,14 @@ air.hittime=30
 [State ]
 type=powerAdd
 trigger1=hitcount=1
-value=10
+value=0
 ignorehitpause=1
 persistent=0
 
 [State ]
 type=powerAdd
 trigger1=hitcount=2
-value=10
+value=0
 ignorehitpause=1
 persistent=0
 
@@ -1578,7 +1593,7 @@ type=A
 movetype=A
 physics=A
 juggle=2
-poweradd=40
+poweradd=0
 ctrl=0
 anim=620
 sprpriority=2
@@ -1609,6 +1624,7 @@ type=HitDef
 trigger1=(animelem=2||animelem=3||animelem=4)&&var(47)=1
 attr=A,NA
 damage=28
+getpower = 30,15
 hitflag=MAF
 guardflag=H
 priority=4
@@ -1634,6 +1650,7 @@ type=HitDef
 trigger1=(animelem=2||animelem=3||animelem=4)&&var(47)=2
 attr=A,NA
 damage=28
+getpower = 30,15
 hitflag=MAF
 guardflag=HA
 priority=4
@@ -1657,21 +1674,21 @@ air.hittime=30
 [State ]
 type=powerAdd
 trigger1=hitcount=1
-value=12
+value=0
 ignorehitpause=1
 persistent=0
 
 [State ]
 type=powerAdd
 trigger1=hitcount=2
-value=12
+value=0
 ignorehitpause=1
 persistent=0
 
 [State ]
 type=powerAdd
 trigger1=hitcount=3
-value=12
+value=0
 ignorehitpause=1
 persistent=0
 
@@ -1790,6 +1807,7 @@ trigger1=(enemy,TeamMode=single ||enemy,TeamMode=turns)&&time=0&&var(47)=1
 attr=A,NA
 animtype=diagup
 damage=68
+getpower = 30,15
 hitflag=MAF
 guardflag=H
 pausetime=5,5
@@ -1816,6 +1834,7 @@ trigger1=(enemy,TeamMode=single ||enemy,TeamMode=turns)&&time=0&&var(47)=2
 attr=A,NA
 animtype=diagup
 damage=68
+getpower = 30,15
 hitflag=MAF
 guardflag=HA
 pausetime=5,5
@@ -1842,6 +1861,7 @@ trigger1=time=0&&var(47)=1&&enemy,TeamMode=simul
 attr=A,NA
 animtype=diagup
 damage=68
+getpower = 30,15
 hitflag=MAF
 guardflag=H
 pausetime=5,5
@@ -1868,6 +1888,7 @@ trigger1=time=0&&var(47)=2&&enemy,TeamMode=simul
 attr=A,NA
 animtype=diagup
 damage=68
+getpower = 30,15
 hitflag=MAF
 guardflag=HA
 pausetime=5,5
@@ -1899,7 +1920,7 @@ ignorehitpause=1
 [State ]
 type=powerAdd
 trigger1=movehit
-value=40
+value=0
 ignorehitpause=1
 persistent=0
 
@@ -2102,7 +2123,7 @@ type=A
 movetype=A
 physics=S
 juggle=2
-poweradd=30
+poweradd=0
 ctrl=0
 velset=0,0
 anim=230
@@ -2183,6 +2204,7 @@ trigger1=AnimElem=6||AnimElem=7
 attr=S,NA
 animtype=hard
 damage=45
+getpower = 30,15
 hitflag=MAF
 guardflag=H
 pausetime=8,12
@@ -2204,14 +2226,14 @@ air.hittime=30
 [State ]
 type=powerAdd
 trigger1=hitcount=1
-value=12
+value=0
 ignorehitpause=1
 persistent=0
 
 [State ]
 type=powerAdd
 trigger1=hitcount=2
-value=12
+value=0
 ignorehitpause=1
 persistent=0
 
@@ -2287,7 +2309,7 @@ type=S
 movetype=A
 physics=S
 juggle=2
-poweradd=40
+poweradd=20
 ctrl=0
 velset=0,0
 anim=240
@@ -2365,7 +2387,7 @@ stateno=244
 type=powerAdd
 trigger1=numhelper(244)
 trigger1=helper(244),movehit
-value=25
+value=0
 ignorehitpause=1
 persistent=0
 
@@ -2378,6 +2400,7 @@ ctrl=1
 ;イタクァ
 [Statedef 300]
 type=S
+poweradd = 20
 movetype=A
 physics=S
 juggle=2
@@ -2441,7 +2464,7 @@ stateno=304
 type=powerAdd
 trigger1=numhelper(304)
 trigger1=helper(304),animelem=7
-value=40
+value=0
 ignorehitpause=1
 persistent=0
 
@@ -2449,7 +2472,7 @@ persistent=0
 type=powerAdd
 trigger1=numhelper(304)
 trigger1=helper(304),movehit
-value=20
+value=0
 ignorehitpause=1
 persistent=0
 
@@ -2465,7 +2488,7 @@ type=S
 movetype=A
 physics=S
 juggle=2
-poweradd=30
+poweradd=0
 ctrl=0
 velset=0,0
 anim=311
@@ -2526,21 +2549,21 @@ stateno=313
 [State ]
 type=powerAdd
 trigger1=hitcount=1
-value=30
+value=0
 ignorehitpause=1
 persistent=0
 
 [State ]
 type=powerAdd
 trigger1=hitcount=2
-value=30
+value=0
 ignorehitpause=1
 persistent=0
 
 [State ]
 type=powerAdd
 trigger1=hitcount=3
-value=30
+value=0
 ignorehitpause=1
 persistent=0
 
@@ -2556,7 +2579,7 @@ type=S
 movetype=A
 physics=S
 juggle=2
-poweradd=40
+poweradd=20
 ctrl=0
 velset=0,0
 anim=320
@@ -2639,7 +2662,7 @@ ownpal=1
 type=powerAdd
 trigger1=numhelper(321)
 trigger1=helper(321),movehit
-value=50
+value=0
 ignorehitpause=1
 persistent=0
 
@@ -2655,7 +2678,7 @@ type=S
 movetype=A
 physics=S
 juggle=2
-poweradd=40
+poweradd=20
 ctrl=0
 velset=0,0
 anim=320
@@ -2739,7 +2762,7 @@ ownpal=1
 type=powerAdd
 trigger1=numhelper(325)
 trigger1=helper(325),hitcount=2
-value=100
+value=0
 ignorehitpause=1
 persistent=0
 
@@ -2755,7 +2778,7 @@ type=S
 movetype=A
 physics=S
 juggle=2
-poweradd=40
+poweradd=20
 ctrl=0
 velset=0,0
 anim=320
@@ -2838,7 +2861,7 @@ ownpal=1
 type=powerAdd
 trigger1=numhelper(328)
 trigger1=helper(328),hitcount=3
-value=150
+value=0
 ignorehitpause=1
 persistent=0
 
@@ -2891,7 +2914,7 @@ type=S
 movetype=A
 physics=S
 juggle=2
-poweradd=40
+poweradd=20
 ctrl=0
 velset=0,0
 anim=331
@@ -2943,7 +2966,7 @@ x=-16
 [State ]
 type=powerAdd
 trigger1=helper(332),movehit
-value=36
+value=0
 ignorehitpause=1
 persistent=0
 
@@ -3651,7 +3674,7 @@ numhits=0
 [State ]
 type=powerAdd
 trigger1=movehit
-value=60
+value=0
 ignorehitpause=1
 persistent=0
 
@@ -3666,7 +3689,7 @@ type=S
 movetype=A
 physics=S
 juggle=2
-poweradd=40
+poweradd=20
 ctrl=0
 velset=0,0
 anim=350
@@ -3743,7 +3766,7 @@ type=S
 movetype=A
 physics=S
 juggle=2
-poweradd=40
+poweradd=20
 ctrl=0
 velset=0,0
 anim=350
@@ -3820,7 +3843,7 @@ type=S
 movetype=A
 physics=S
 juggle=2
-poweradd=40
+poweradd=20
 ctrl=0
 velset=0,0
 anim=350
@@ -4013,7 +4036,7 @@ ctrl=1
 type=S
 movetype=A
 physics=S
-poweradd=92
+poweradd=0
 ctrl=0
 velset=0,0
 anim=358
@@ -4153,7 +4176,7 @@ stateno=364
 type=powerAdd
 trigger1=numhelper(363)
 trigger1=helper(363),movehit
-value=100
+value=0
 ignorehitpause=1
 persistent=0
 
@@ -4161,7 +4184,7 @@ persistent=0
 type=powerAdd
 trigger1=numhelper(364)
 trigger1=helper(364),movehit
-value=100
+value=0
 ignorehitpause=1
 persistent=0
 
@@ -4913,7 +4936,7 @@ stateno=372
 type=powerAdd
 trigger1=numhelper(372)
 trigger1=helper(372),movehit
-value=260
+value=0
 ignorehitpause=1
 persistent=0
 
@@ -5589,7 +5612,7 @@ pausemovetime=1000
 type=powerAdd
 trigger1=numhelper(389)=1
 trigger1=helper(389),hitcount=2
-value=30
+value=0
 ignorehitpause=1
 persistent=0
 
@@ -5597,7 +5620,7 @@ persistent=0
 type=powerAdd
 trigger1=numhelper(389)=1
 trigger1=helper(389),hitcount=3
-value=320
+value=0
 ignorehitpause=1
 persistent=0
 
@@ -5989,7 +6012,7 @@ stateno=461
 type=powerAdd
 trigger1=numhelper(461)
 trigger1=helper(461),hitcount=1
-value=30
+value=0
 ignorehitpause=1
 persistent=0
 
@@ -5997,7 +6020,7 @@ persistent=0
 type=powerAdd
 trigger1=numhelper(461)
 trigger1=helper(461),hitcount=2
-value=30
+value=0
 ignorehitpause=1
 persistent=0
 
@@ -6005,7 +6028,7 @@ persistent=0
 type=powerAdd
 trigger1=numhelper(461)
 trigger1=helper(461),hitcount=3
-value=30
+value=0
 ignorehitpause=1
 persistent=0
 
@@ -6013,7 +6036,7 @@ persistent=0
 type=powerAdd
 trigger1=numhelper(461)
 trigger1=helper(461),hitcount=4
-value=30
+value=0
 ignorehitpause=1
 persistent=0
 
@@ -6021,7 +6044,7 @@ persistent=0
 type=powerAdd
 trigger1=numhelper(461)
 trigger1=helper(461),hitcount=5
-value=30
+value=0
 ignorehitpause=1
 persistent=0
 
@@ -6029,7 +6052,7 @@ persistent=0
 type=powerAdd
 trigger1=numhelper(461)
 trigger1=helper(461),hitcount=6
-value=30
+value=0
 ignorehitpause=1
 persistent=0
 
@@ -6037,7 +6060,7 @@ persistent=0
 type=powerAdd
 trigger1=numhelper(461)
 trigger1=helper(461),hitcount=7
-value=30
+value=0
 ignorehitpause=1
 persistent=0
 
@@ -6045,7 +6068,7 @@ persistent=0
 type=powerAdd
 trigger1=numhelper(461)
 trigger1=helper(461),hitcount=8
-value=30
+value=0
 ignorehitpause=1
 persistent=0
 
@@ -6053,7 +6076,7 @@ persistent=0
 type=powerAdd
 trigger1=numhelper(461)
 trigger1=helper(461),hitcount=9
-value=30
+value=0
 ignorehitpause=1
 persistent=0
 

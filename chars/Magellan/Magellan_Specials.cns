@@ -286,7 +286,7 @@ trigger1 = animelem = 4
 trigger2 = animelem = 5
 attr = C, NA
 animtype  = Medium
-getpower = 80,40
+getpower = 30,15
 damage    = 40,5
 guardflag = L
 pausetime = 10,12
@@ -398,7 +398,7 @@ physics = N
 juggle  = 7
 ctrl = 0
 anim = 1200
-poweradd = 100
+poweradd = 0
 sprpriority = 1
 
 
@@ -553,7 +553,7 @@ trigger2 = Animelem = 2
 trigger3 = Animelem = 3
 attr = A, SA
 animtype  = Light
-getpower = 50,0
+getpower = 30,15
 damage    = 50,5
 guardflag = HA
 pausetime = 10,12
@@ -686,7 +686,7 @@ attr = S, SA
 hitflag	= MAFDP
 animtype = Hard
 priority = 7, Hit
-getpower = 0,0
+getpower = 30,15
 damage    = 30,5
 guardflag = MA
 pausetime = 10,12
@@ -780,7 +780,7 @@ velset = 0,0
 juggle  = 1
 ctrl = 0
 anim = 1300
-poweradd = 100
+poweradd = 0
 sprpriority = 1
 
 
@@ -863,7 +863,7 @@ triggerall = !movecontact
 trigger1 = animelem = 6
 attr = S, ST
 animtype  = Light
-getpower = 0,0
+getpower = 60,30
 damage    = 10,5
 guardflag = MA
 pausetime = 10,12
@@ -1014,7 +1014,7 @@ velset = 0,0
 ctrl = 0
 anim = 1301
 sprpriority = 1
-poweradd = 20
+poweradd = 0
 
 
 [State 200, Spark CVS]
@@ -1146,7 +1146,7 @@ velset = 0,0
 ctrl = 0
 anim = 1301
 sprpriority = 1
-poweradd = 20
+poweradd = 0
 
 
 [State 200, Spark CVS]
@@ -1276,7 +1276,7 @@ velset = 0,0
 ctrl = 0
 anim = 1301
 sprpriority = 1
-poweradd = 20
+poweradd = 0
 
 
 [State 200, Spark CVS]
@@ -1426,7 +1426,7 @@ velset = 0,0
 ctrl = 0
 anim = 1310
 sprpriority = 1
-poweradd = 40
+poweradd = 0
 
 [State 200, Venom Bubles]
 type = Explod
@@ -1646,7 +1646,7 @@ anim = 1400
 velset = 0,0
 ctrl = 0
 sprpriority = 1
-poweradd = 100
+poweradd = 20
 
 
 ;--- Guard Cancel --------------------------
@@ -1814,7 +1814,7 @@ physics = N
 anim = 620
 ctrl = 0
 sprpriority = 1
-poweradd = 100
+poweradd = 20
 
 
 ;--- Guard Cancel --------------------------
@@ -1993,7 +1993,7 @@ ctrl = 0
 [Statedef 1450]
 Movetype = A
 juggle  = 5
-poweradd = 30
+poweradd = 0
 ctrl = 0
 anim = 1450
 sprpriority = -1
@@ -2093,7 +2093,7 @@ triggerall = hitcount < 7
 triggerall = time = [10,85]
 trigger1 =  animelem = 2
 attr = A, SA
-getpower = 0,0
+getpower = 1,0
 damage    = 10, 2
 guardflag = MA
 priority = 4
@@ -2153,7 +2153,7 @@ anim = 1600
 velset = 0,0
 ctrl = 0
 sprpriority = 1
-poweradd = 150
+poweradd = 20
 
 
 
@@ -2248,7 +2248,7 @@ ctrl = 1
 [Statedef 1650]
 Movetype = A
 juggle  = 5
-poweradd = 30
+poweradd = 0
 ctrl = 0
 anim = 1650
 sprpriority = -1
@@ -2420,7 +2420,7 @@ trigger1 =  animelem = 2
 trigger2 =  animelem = 4
 trigger3 =  animelem = 6
 attr = S, SP
-getpower = 0,0
+getpower = 3,1
 damage    = 17, 5
 guardflag = MA
 priority = 4
@@ -2524,7 +2524,7 @@ anim = 1700
 velset = 0,0
 ctrl = 0
 sprpriority = 1
-poweradd = 150
+poweradd = 20
 
 [State 0, PlaySnd]
 type = PlaySnd
@@ -2622,7 +2622,7 @@ ctrl = 0
 [Statedef 1750]
 Movetype = A
 juggle  = 5
-poweradd = 30
+poweradd = 0
 ctrl = 0
 anim = 7050
 sprpriority = -1
@@ -2689,7 +2689,7 @@ trigger9 =  Animelem = 11
 trigger10 =  Animelem = 12
 trigger11 =  Animelem = 13
 attr = A, SP
-getpower = 0,0
+getpower = 3,1
 damage    = 75, 5
 guardflag = MA
 priority = 4
@@ -2715,7 +2715,7 @@ triggerall = !movecontact
 triggerall = time = [20,36]
 trigger1 =  1
 attr = A, SP
-getpower = 0,0
+getpower = 3,1
 damage    = 35, 5
 guardflag = MA
 priority = 4
@@ -2934,7 +2934,7 @@ anim = 1800
 velset = 0,0
 ctrl = 0
 sprpriority = 1
-poweradd = 50
+poweradd = 0
 
 [State 0, PlaySnd]
 type = PlaySnd
@@ -3062,7 +3062,7 @@ triggerall = !movecontact
 triggerall = 1
 trigger1 =  1
 attr = A, NA
-getpower = 0,0
+getpower = 3,1
 damage    = 75, 5
 guardflag = HA
 priority = 4
@@ -3121,7 +3121,7 @@ ctrl = 0
 [Statedef 1850]
 Movetype = A
 juggle  = 5
-poweradd = 30
+poweradd = 0
 ctrl = 0
 anim = 7052
 sprpriority = -1

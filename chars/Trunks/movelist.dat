@@ -1,0 +1,14 @@
+<#f0f000>:Special Moves:</>
+Ascending Knee Light			_DSF^X
+Ascending Knee Medium			_DSF^Y
+Ascending Knee Hard			_DSF^Z
+Sword Rush Light			_QCB^X
+Sword Rush Medium			_QCB^Y
+Sword Rush Hard			_QCB^Z
+Ki Blast Light Ground			_QCF^X
+Ki Blast Medium Ground			_QCF^Y
+Ki Blast Hard Ground			_QCF^Z
+
+<#f0f000>:Hyper Moves:</>
+Burning Attack <#f00000>(1000)</>			_QCF_D_DF^X
+Shining Sword Attack <#f00000>(1000)</>			_QCB_D_DB^X

@@ -786,7 +786,7 @@ juggle   = 1
 velset   = 1,0
 ctrl     = 0
 anim     = 200
-poweradd = 50
+poweradd = 0
 sprpriority = 2
 
 [State 200, ヒット定義]
@@ -794,6 +794,7 @@ type = HitDef
 trigger1 = AnimElem = 4
 attr = S, NA
 damage = 25, 0
+getpower = 30,15
 animtype = Light
 guardflag = MA
 hitflag = MAF
@@ -859,7 +860,7 @@ juggle   = 1
 velset   = 6,0
 ctrl     = 0
 anim     = 210
-poweradd = 50
+poweradd = 0
 sprpriority = 2
 
 [State 210, ヒット定義]
@@ -867,6 +868,7 @@ type = HitDef
 trigger1 = AnimElem = 5
 attr = S, NA
 damage = 25, 0
+getpower = 30,15
 animtype = Hard
 guardflag = MA
 hitflag = MAF
@@ -932,7 +934,7 @@ juggle   = 1
 velset   = 4,0
 ctrl     = 0
 anim     = 220
-poweradd = 50
+poweradd = 0
 sprpriority = 2
 
 [State 220, ヒット定義]
@@ -940,6 +942,7 @@ type = HitDef
 trigger1 = AnimElem = 4
 attr = S, NA
 damage = 35, 0
+getpower = 30,15
 animtype = Hard
 guardflag = MA
 hitflag = MAF
@@ -1011,7 +1014,7 @@ juggle   = 5
 velset   = 3,0
 ctrl     = 0
 anim     = 241;240はK1シェルブリッド用
-poweradd = 70
+poweradd = 0
 sprpriority = 2
 
 [State 240, ヒット定義]
@@ -1019,6 +1022,7 @@ type = HitDef
 trigger1 = AnimElem = 9
 attr = S, NA
 damage = 35, 0
+getpower = 30,15
 animtype = DiagUp
 guardflag = MA
 hitflag = MAFD
@@ -1070,7 +1074,7 @@ juggle   = 1
 velset   = 0,0
 ctrl     = 0
 anim     = 250
-poweradd = 70
+poweradd = 0
 sprpriority = 2
 
 [State 250, ヒット定義]
@@ -1084,6 +1088,7 @@ type = HitDef
 trigger1 = AnimElem = 4
 attr = S, NA
 damage = 25, 0
+getpower = 30,15
 animtype = Hard
 guardflag = MA
 hitflag = MAF
@@ -1162,7 +1167,7 @@ juggle   = 1
 velset   = 0,0
 ctrl     = 0
 anim     = 260
-poweradd = 70
+poweradd = 0
 sprpriority = 2
 
 [State 260, ヒット定義]
@@ -1176,6 +1181,7 @@ type = HitDef
 trigger1 = AnimElem = 7
 attr = S, NA
 damage = 45, 0
+getpower = 30,15
 animtype = Hard
 guardflag = MA
 hitflag = MAF
@@ -1252,7 +1258,7 @@ type    = C
 movetype= A
 physics = C
 juggle  = 1
-poweradd= 50
+poweradd= 0
 ctrl = 0
 anim = 400
 sprpriority = 2
@@ -1280,6 +1286,7 @@ type = HitDef
 trigger1 = AnimElem = 3
 attr = C, NA
 damage    = 25
+getpower = 30,15
 animtype  = Light
 hitflag = MAF
 guardflag = L
@@ -1309,7 +1316,7 @@ type    = C
 movetype= A
 physics = C
 juggle  = 1
-poweradd= 50
+poweradd= 0
 ctrl = 0
 anim = 410
 sprpriority = 2
@@ -1338,6 +1345,7 @@ type = HitDef
 trigger1 = AnimElem = 4
 attr = C, NA
 damage    = 28
+getpower = 30,15
 animtype  = Light
 hitflag = MAF
 guardflag = L
@@ -1367,7 +1375,7 @@ type    = C
 movetype= A
 physics = C
 juggle  = 3
-poweradd= 70
+poweradd= 0
 ctrl = 0
 anim = 440
 sprpriority = 2
@@ -1395,6 +1403,7 @@ type = HitDef
 trigger1 = AnimElem = 4
 attr = C, NA
 damage    = 40
+getpower = 30,15
 animtype  = Light
 hitflag = MAFD
 guardflag = L
@@ -1437,7 +1446,7 @@ type    = A
 movetype= A
 physics = A
 juggle  = 3
-poweradd= 70
+poweradd= 0
 ctrl = 0
 anim = 600
 sprpriority = 2
@@ -1471,6 +1480,7 @@ type = HitDef
 trigger1 = AnimElem = 5
 attr = A, NA
 damage = 45
+getpower = 30,15
 guardflag = HA
 priority = 3
 pausetime = 14,24
@@ -1509,7 +1519,7 @@ type    = A
 movetype= A
 physics = A
 juggle  = 4
-poweradd= 50
+poweradd= 0
 ctrl = 0
 anim = 1200;640
 sprpriority = 2
@@ -1544,6 +1554,7 @@ type = HitDef
 trigger1 = AnimElem >= 2
 attr = A, NA
 damage    = 35
+getpower = 30,15
 guardflag = HA
 priority = 4
 pausetime = 16,20
@@ -1584,7 +1595,7 @@ type    = A
 movetype= A
 physics = A
 juggle  = 4
-poweradd= 70
+poweradd= 0
 ctrl = 0
 anim = 650
 sprpriority = 2
@@ -1618,6 +1629,7 @@ type = HitDef
 trigger1 = AnimElem = 4
 attr = A, NA
 damage    = 30
+getpower = 30,15
 guardflag = HA
 priority = 4
 pausetime = 16,22
@@ -1659,7 +1671,7 @@ type    = A
 movetype= A
 physics = A
 juggle  = 4
-poweradd= 70
+poweradd= 0
 ctrl = 0
 anim = 640
 sprpriority = 2
@@ -1692,6 +1704,7 @@ type = HitDef
 trigger1 = AnimElem = 4
 attr = A, NA
 damage    = 50
+getpower = 30,15
 guardflag = HA
 priority = 4
 pausetime = 14,18
@@ -1752,7 +1765,7 @@ velset = 4,0
 ctrl = 0
 anim = 800
 sprpriority = 2
-poweradd =100
+poweradd =0
 
 ; hitflagのパラメータの後に「-」を付けると、やられ状態の相手には攻撃を当てる事が出来なくなります。
 ; これは打撃攻撃から掴む連続技にならないようにするためです。
@@ -1768,6 +1781,7 @@ value = s0, 1
 
 [State 800, ヒット定義（投げ用）]
 type = HitDef
+getpower = 60,30
 Trigger1 = Time = 0
 attr = S, NT          ;攻撃属性: これは Standing, Normal Throw（立ち通常投げ）
 hitflag = M-          ;相手がやられ状態ではない地上の時でしか掴む事が出来ません
@@ -1818,7 +1832,7 @@ type    = S
 movetype= A
 physics = N
 anim = 810
-poweradd = 100
+poweradd = 0
 
 ;[State 810, 掴んだ音を鳴らす]
 ;type = PlaySnd

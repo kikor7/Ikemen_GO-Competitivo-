@@ -482,6 +482,24 @@ ctrl = 1
 ;----
 ;---------------------------------------------------------------------------
 ; RUN_BACK
+;---------------------------------------------------------------------------
+; Recuperacion tras esquivar/rodar: sin control y golpeable unos frames,
+; para que no se pueda encadenar sin riesgo.
+;---------------------------------------------------------------------------
+[Statedef 1002]
+type = S
+movetype = I
+physics = S
+ctrl = 0
+anim = 0
+velset = 0,0
+
+[State 1002, Fin de la recuperacion]
+type = ChangeState
+trigger1 = Time >= 8
+value = 0
+ctrl = 1
+
 [Statedef 105];バックステッポ
 type    = A
 physics = A
@@ -534,13 +552,13 @@ value = 106,0
 type = NotHitBy
 trigger1 = time = 0
 value = SCA,NA,SA,HA,NP,SP,HP,NT,ST,HT
-Time = 17
+Time = 21
 
 [State 105, 3]
 type = ChangeState
 trigger1 = AnimTime = 0
-value = 0
-ctrl = 1
+value = 1002
+ctrl = 0
 
 ;---------------------------------------------------------------------------
 ;空中バックダッシュ（コモンのバックステップ後の着地を改変）

@@ -17,7 +17,7 @@ juggle = 1
 ;velset = 0, 0
 ctrl = 0
 anim = StateNo
-poweradd = 10
+poweradd = 20
 sprpriority = 1
 
 ;--------------------------------------
@@ -149,7 +149,7 @@ animtype = Hard		; Light/Medium/Hard/Back/Up/DigUp
 ;--------------------------------------攻撃設定_数値関係
 priority = 3, Hit	; 1/2/3/4/5/6/7, Hit/Miss/Dodge
 damage = Ceil(64*fvar(0)*ifelse(P2MoveType=A, 1.25, 1)), 10
-getpower = 40, 20
+getpower = 30,15
 givepower = 20, 0
 pausetime = 0, 3
 ;--------------------------------------エフェクト、SE
@@ -195,7 +195,7 @@ juggle = 1
 velset = 0, 0
 ctrl = 0
 anim = StateNo
-poweradd = 10
+poweradd = 20
 sprpriority = 1
 
 [State 200, 1]
@@ -347,7 +347,7 @@ animtype = Hard		; Light/Medium/Hard/Back/Up/DigUp
 ;--------------------------------------攻撃設定_数値関係
 priority = 3, Hit	; 1/2/3/4/5/6/7, Hit/Miss/Dodge
 damage = Ceil(53*fvar(0)), 0
-getpower = 40, 20
+getpower = 30,15
 givepower = 20, 0
 pausetime = 0, 0
 ;--------------------------------------エフェクト、SE
@@ -391,7 +391,7 @@ juggle = 1
 velset = 0, 0
 ctrl = 0
 anim = StateNo
-poweradd = 10
+poweradd = 20
 sprpriority = 1
 
 [State 200, 1]
@@ -535,7 +535,7 @@ animtype = Hard		; Light/Medium/Hard/Back/Up/DigUp
 ;--------------------------------------攻撃設定_数値関係
 priority = 3, Hit	; 1/2/3/4/5/6/7, Hit/Miss/Dodge
 damage = Ceil(64*fvar(0)*ifelse(P2MoveType=A, 1.25, 1)), 0
-getpower = 40, 20
+getpower = 30,15
 givepower = 20, 0
 pausetime = 0, 0
 ;--------------------------------------エフェクト、SE
@@ -581,7 +581,7 @@ juggle = 1
 ;velset = 0, 0
 ctrl = 0
 anim = StateNo
-poweradd = 10
+poweradd = 20
 sprpriority = 1
 
 [State 200, 1]
@@ -714,7 +714,7 @@ animtype = Hard		; Light/Medium/Hard/Back/Up/DigUp
 ;--------------------------------------攻撃設定_数値関係
 priority = 3, Hit	; 1/2/3/4/5/6/7, Hit/Miss/Dodge
 damage = Ceil(53*fvar(0)), 0
-getpower = 40, 20
+getpower = 30,15
 givepower = 20, 0
 pausetime = 0, 0
 ;--------------------------------------エフェクト、SE
@@ -789,7 +789,7 @@ physics = S
 anim = 6500
 velset = 0
 ctrl = 0
-poweradd = 40
+poweradd = 20
 juggle = 4
 
 [State 1103 , 2]
@@ -858,6 +858,7 @@ trigger6 = AnimElem = 8
 trigger7 = AnimElem = 9
 attr = S, NA
 damage   = 50, 12
+getpower = 30,15
 animtype = Hard
 guardflag = MA
 pausetime = 14,14
@@ -929,7 +930,7 @@ physics = S
 anim = 6500
 velset = 0
 ctrl = 0
-poweradd = 40
+poweradd = 20
 juggle = 4
 
 [State 1103 , 2]
@@ -997,6 +998,7 @@ trigger6 = AnimElem = 8
 trigger7 = AnimElem = 9
 attr = S, NA
 damage   = 70, 22
+getpower = 30,15
 animtype = Hard
 guardflag = MA
 pausetime = 14,14

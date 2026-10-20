@@ -11,6 +11,7 @@ pal.defaults = 3,1,2,4        ;敵としてでるキャラのパレット
 
 ; Files for the player
 [Files]
+movelist = movelist.dat
 cmd     = Gaira.cmd      ;キャラのコマンド
 cns     = Gaira.cns      ;キャラのプログラム
 st      = Gaira.cns      ;キャラのプログラム

@@ -7,7 +7,7 @@ physics = N
 anim = 1100
 velset = 0,0
 ctrl = 0
-poweradd = 100
+poweradd = 0
 juggle = 10
 
 [State 200]
@@ -49,6 +49,7 @@ trigger1 = Var(4) = 0
 trigger1 = Time = 0
 attr = S, SA
 damage = floor(80*FVar(0)),floor(10*FVar(0))
+getpower = 30,15
 animtype  = Hard
 hitflag = MAF
 guardflag = MA
@@ -125,6 +126,7 @@ trigger1 = Var(4) = 0
 trigger1 = Time = 0
 attr = S, SA
 damage = floor(50*FVar(0)),floor(5*FVar(0))
+getpower = 30,15
 animtype = heavy
 hitflag = MAF
 guardflag = MA
@@ -200,7 +202,7 @@ physics = N
 anim = 1110
 velset = 0,0
 ctrl = 0
-poweradd = 100
+poweradd = 0
 juggle = 5
 
 [State 200]
@@ -242,6 +244,7 @@ trigger1 = Var(4) = 0
 trigger1 = Time = 0
 attr = S, SA
 damage = floor(60*FVar(0)),floor(5*FVar(0))
+getpower = 30,15
 animtype = heavy
 hitflag = MAF
 guardflag = MA
@@ -319,6 +322,7 @@ trigger1 = Var(4) = 0
 trigger1 = time = 0
 attr = S, SA
 damage = floor(60*FVar(0)),floor(5*FVar(0))
+getpower = 30,15
 animtype = heavy
 hitflag = MAF
 guardflag = MA

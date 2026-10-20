@@ -8,6 +8,7 @@ editor = "Zadkiel Mugen"
 pal.defaults = 6,3,4,2      
 
 [Files]
+movelist = movelist.dat
 cmd     = Roomi.cmd   
 cns     = Roomi.cns   
 st      = Roomi.cns   

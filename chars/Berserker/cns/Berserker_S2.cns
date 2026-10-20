@@ -8,7 +8,7 @@
 type    = S
 movetype= A
 physics = S
-poweradd= 65
+poweradd= 0
 ctrl = 0
 velset = 0,0
 anim = 1100

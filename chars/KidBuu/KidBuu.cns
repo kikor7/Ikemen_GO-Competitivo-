@@ -2390,7 +2390,7 @@ juggle = 8
 velset = 0,0
 ctrl = 0
 anim = 200
-poweradd = 20
+poweradd = 0
 sprpriority = 2
 facep2 = 1
 
@@ -2444,7 +2444,7 @@ airguard.velocity = -4,-1
 ground.cornerpush.veloff = -5
 air.cornerpush.veloff = 0
 airguard.cornerpush.veloff = 0
-getpower = 35,35
+getpower = 30,15
 givepower = 35, 35
 yaccel = .5
 
@@ -2463,7 +2463,7 @@ juggle = 8
 velset = 0,0
 ctrl = 0
 anim = 210
-poweradd = 40
+poweradd = 0
 sprpriority = 2
 facep2 = 1
 
@@ -2505,7 +2505,7 @@ airguard.velocity = -5,-1
 ground.cornerpush.veloff = -5
 air.cornerpush.veloff = 0
 airguard.cornerpush.veloff = 0
-getpower = 35,35
+getpower = 30,15
 givepower = 35, 35
 yaccel = .5
 
@@ -2526,7 +2526,7 @@ juggle = 8
 velset = 0,0
 ctrl = 0
 anim = 211
-poweradd = 40
+poweradd = 0
 sprpriority = 2
 facep2 = 1
 
@@ -2583,7 +2583,7 @@ airguard.velocity = -6.67,-1
 ground.cornerpush.veloff = -4
 air.cornerpush.veloff = 0
 airguard.cornerpush.veloff = 0
-getpower = 35,35
+getpower = 30,15
 givepower = 35, 35
 yaccel = .5
 p2stateno = 6100
@@ -2610,7 +2610,7 @@ juggle = 8
 velset = 0,0
 anim = 225
 ctrl = 0
-poweradd = 40
+poweradd = 20
 sprpriority = 2
 facep2 = 1
 
@@ -2759,7 +2759,7 @@ juggle = 8
 velset = 0,0
 ctrl = 0
 anim = 230
-poweradd = 20
+poweradd = 0
 sprpriority = 2
 facep2 = 1
 
@@ -2809,7 +2809,7 @@ airguard.velocity = -2,-1
 ground.cornerpush.veloff = -5
 air.cornerpush.veloff = 0
 airguard.cornerpush.veloff = 0
-getpower = 35,35
+getpower = 30,15
 givepower = 35, 35
 yaccel = .5
 
@@ -2830,7 +2830,7 @@ juggle = 8
 velset = 0,0
 ctrl = 0
 anim = 240
-poweradd = 40
+poweradd = 0
 sprpriority = 2
 facep2 = 1
 
@@ -2872,7 +2872,7 @@ airguard.velocity = -5,-1
 ground.cornerpush.veloff = -5
 air.cornerpush.veloff = 0
 airguard.cornerpush.veloff = 0
-getpower = 35,35
+getpower = 30,15
 givepower = 35, 35
 yaccel = .5
 
@@ -2893,7 +2893,7 @@ juggle = 8
 velset = 0,0
 ctrl = 0
 anim = 250
-poweradd = 60
+poweradd = 0
 sprpriority = 2
 facep2 = 1
 
@@ -2936,7 +2936,7 @@ airguard.velocity = -6.67,-1
 ground.cornerpush.veloff = -14
 air.cornerpush.veloff = 0
 airguard.cornerpush.veloff = 0
-getpower = 35,35
+getpower = 30,15
 givepower = 35, 35
 yaccel = .5
 
@@ -2959,7 +2959,7 @@ juggle = 8
 velset = 0,0
 ctrl = 0
 anim = 400
-poweradd = 20
+poweradd = 0
 sprpriority = 2
 facep2 = 1
 
@@ -3014,7 +3014,7 @@ airguard.velocity = -4,-1
 ground.cornerpush.veloff = -2
 air.cornerpush.veloff = 0
 airguard.cornerpush.veloff = 0
-getpower = 35,35
+getpower = 30,15
 givepower = 35, 35
 yaccel = .5
 
@@ -3034,7 +3034,7 @@ juggle = 8
 velset = 0,0
 ctrl = 0
 anim = 410
-poweradd = 40
+poweradd = 0
 sprpriority = 2
 facep2 = 1
 
@@ -3077,7 +3077,7 @@ airguard.velocity = -5,-1
 ground.cornerpush.veloff = -5
 air.cornerpush.veloff = 0
 airguard.cornerpush.veloff = 0
-getpower = 35,35
+getpower = 30,15
 givepower = 35, 35
 yaccel = .5
 
@@ -3097,7 +3097,7 @@ juggle = 8
 velset = 0,0
 ctrl = 0
 anim = 420
-poweradd = 40
+poweradd = 20
 sprpriority = 2
 facep2 = 1
 
@@ -3151,7 +3151,7 @@ juggle = 8
 velset = 0,0
 ctrl = 0
 anim = 430
-poweradd = 20
+poweradd = 0
 sprpriority = 2
 facep2 = 1
 
@@ -3201,7 +3201,7 @@ airguard.velocity = -1,-1
 ground.cornerpush.veloff = -5
 air.cornerpush.veloff = 0
 airguard.cornerpush.veloff = 0
-getpower = 35,35
+getpower = 30,15
 givepower = 35, 35
 yaccel = .5
 
@@ -3222,7 +3222,7 @@ juggle = 8
 velset = 0,0
 ctrl = 0
 anim = 440
-poweradd = 40
+poweradd = 0
 sprpriority = 2
 facep2 = 1
 
@@ -3270,7 +3270,7 @@ airguard.velocity = -5,-1
 ground.cornerpush.veloff = -5
 air.cornerpush.veloff = 0
 airguard.cornerpush.veloff = 0
-getpower = 35,35
+getpower = 30,15
 givepower = 35, 35
 yaccel = .5
 
@@ -3290,7 +3290,7 @@ juggle = 8
 velset = 0,0
 ctrl = 0
 anim = 450
-poweradd = 60
+poweradd = 0
 sprpriority = 2
 facep2 = 1
 
@@ -3312,6 +3312,7 @@ type = HitDef
 trigger1 = !time
 attr = C, NA			;Attribute: Standing, Normal Attack
 damage = 79, 0			;Damage that move inflicts, guard damage
+getpower = 30,15
 animtype = hard			;Animation type: Light, Medium, Heavy, Back (def: Light)
 guardflag = L			;Flags on how move is to be guarded against
 hitflag = MAF			;Flags of conditions that move can hit
@@ -3351,7 +3352,7 @@ physics = A
 juggle = 8
 ctrl = 0
 anim = 600
-poweradd = 20
+poweradd = 0
 sprpriority = 2
 
 [State 600, 1]
@@ -3400,7 +3401,7 @@ airguard.velocity = -1,-1
 ground.cornerpush.veloff = 0
 air.cornerpush.veloff = 0
 airguard.cornerpush.veloff = 0
-getpower = 35,35
+getpower = 30,15
 givepower = 35, 35
 yaccel = .5
 
@@ -3423,7 +3424,7 @@ physics = A
 juggle = 8
 ctrl = 0
 anim = 610
-poweradd = 40
+poweradd = 0
 sprpriority = 2
 
 [State 610, 1]
@@ -3466,7 +3467,7 @@ airguard.velocity = -5,-1
 ground.cornerpush.veloff = 0
 air.cornerpush.veloff = 0
 airguard.cornerpush.veloff = 0
-getpower = 35,35
+getpower = 30,15
 givepower = 35, 35
 yaccel = .5
 
@@ -3488,7 +3489,7 @@ movetype = A
 physics = A
 juggle = 8
 ctrl = 0
-poweradd = 60
+poweradd = 0
 sprpriority = 2
 
 [State 620, 1]
@@ -3514,6 +3515,7 @@ trigger1 = time = 0
 trigger1 = p2statetype != A
 attr = a, na
 damage    = 46
+getpower = 10,5
 guarDFlag = ha
 priority = 4
 pausetime = 9,9
@@ -3536,6 +3538,7 @@ trigger1 = time = 0
 trigger1 = p2statetype = A
 attr = a, na
 damage    = 46
+getpower = 10,5
 guarDFlag = ha
 priority = 4
 pausetime = 9,9
@@ -3558,6 +3561,7 @@ trigger1 = time = 0
 trigger1 = p2statetype = A
 attr = a, na
 damage    = 46
+getpower = 10,5
 guarDFlag = ha
 priority = 4
 pausetime = 9,9
@@ -3616,7 +3620,7 @@ physics = A
 juggle = 8
 ctrl = 0
 anim = 630
-poweradd = 20
+poweradd = 0
 sprpriority = 2
 
 [State 630, 1]
@@ -3659,7 +3663,7 @@ airguard.velocity = -4,-1
 ground.cornerpush.veloff = 0
 air.cornerpush.veloff = 0
 airguard.cornerpush.veloff = 0
-getpower = 35,35
+getpower = 30,15
 givepower = 35, 35
 yaccel = .5
 
@@ -3682,7 +3686,7 @@ physics = A
 juggle = 8
 ctrl = 0
 anim = 640
-poweradd = 40
+poweradd = 0
 sprpriority = 2
 
 [State 640, 1]
@@ -3725,7 +3729,7 @@ airguard.velocity = -5,-1
 ground.cornerpush.veloff = 0
 air.cornerpush.veloff = 0
 airguard.cornerpush.veloff = 0
-getpower = 35,35
+getpower = 30,15
 givepower = 35, 35
 yaccel = .5
 
@@ -3747,7 +3751,7 @@ movetype = A
 physics = A
 juggle = 8
 ctrl = 0
-poweradd = 60
+poweradd = 0
 sprpriority = 2
 
 [State 650, 1]
@@ -3773,6 +3777,7 @@ trigger1 = time = 0
 trigger1 = p2statetype != A
 attr = a, na
 damage    = 46
+getpower = 10,5
 guarDFlag = ha
 priority = 4
 pausetime = 9,9
@@ -3795,6 +3800,7 @@ trigger1 = time = 0
 trigger1 = p2statetype = A
 attr = a, na
 damage    = 46
+getpower = 10,5
 guarDFlag = ha
 priority = 4
 pausetime = 9,9
@@ -3817,6 +3823,7 @@ trigger1 = time = 0
 trigger1 = p2statetype = A
 attr = a, na
 damage    = 46
+getpower = 10,5
 guarDFlag = ha
 priority = 4
 pausetime = 9,9
@@ -3875,7 +3882,7 @@ movetype = A
 physics = A
 juggle = 8
 ctrl = 0
-poweradd = 60
+poweradd = 0
 sprpriority = 2
 
 [State 650, 1]
@@ -3901,6 +3908,7 @@ trigger1 = time = 0
 trigger1 = p2statetype != A
 attr = a, na
 damage    = 46
+getpower = 10,5
 guarDFlag = ha
 priority = 4
 pausetime = 9,9
@@ -3923,6 +3931,7 @@ trigger1 = time = 0
 trigger1 = p2statetype = A
 attr = a, na
 damage    = 46
+getpower = 10,5
 guarDFlag = ha
 priority = 4
 pausetime = 9,9
@@ -3945,6 +3954,7 @@ trigger1 = time = 0
 trigger1 = p2statetype = A
 attr = a, na
 damage    = 46
+getpower = 10,5
 guarDFlag = ha
 priority = 4
 pausetime = 9,9
@@ -4031,6 +4041,7 @@ channel = 0
 
 [State 800, 1]
 type = HitDef
+getpower = 60,30
 trigger1 = !Time
 attr = S, NT
 hitflag = M-
@@ -4062,7 +4073,7 @@ type    = S
 movetype= A
 physics = N
 anim = 801
-poweradd = 60
+poweradd = 0
 
 [State 800, Anim]
 type = ChangeAnim
@@ -4253,7 +4264,7 @@ value = 5050
 type    = S
 movetype= A
 physics = S
-poweradd= 65
+poweradd= 20
 ctrl = 0
 velset = 0,0
 anim = 1000
@@ -4311,7 +4322,7 @@ offset = 5*const(size.xscale),-70*const(size.yscale)
 projscale = const(size.xscale),const(size.yscale)
 attr = S, SP
 damage    = 70,14
-getpower  = 60
+getpower = 30,15
 givepower = 40
 guardflag = MA
 pausetime = 0,12
@@ -4355,7 +4366,7 @@ ctrl = 0
 anim = 1000
 sprpriority = 2
 velset = 0,0
-poweradd = 50
+poweradd = 20
 
 [state 1003]
 type = playsnd
@@ -4406,7 +4417,7 @@ damage = 75,5
 animtype = Hard
 guardflag = MA
 hitflag = MAF
-getpower = 30,0
+getpower = 30,15
 givepower = 20,0
 pausetime = 0,6
 sparkno = S9107
@@ -4460,7 +4471,7 @@ ctrl = 0
 anim = 1000
 sprpriority = 2
 velset = 0,0
-poweradd = 50
+poweradd = 20
 
 [state 1003]
 type = playsnd
@@ -4520,7 +4531,7 @@ damage = 75,5
 animtype = Hard
 guardflag = MA
 hitflag = MAF
-getpower = 30,0
+getpower = 30,15
 givepower = 20,0
 pausetime = 0,6
 sparkno = S9107
@@ -4572,7 +4583,7 @@ ctrl = 1
 type    = A
 movetype= A
 physics = N
-poweradd= 65
+poweradd= 20
 ctrl = 0
 velset = 0,0
 anim = 1005
@@ -4619,7 +4630,7 @@ velocity = 6, 6
 projscale = const(size.xscale),const(size.yscale)
 attr = S, SP
 damage    = 70,14
-getpower  = 60
+getpower = 30,15
 givepower = 40
 guardflag = MA
 pausetime = 0,12
@@ -4784,7 +4795,7 @@ value = 1210
 type = A
 movetype = A
 physics = A
-poweradd = 70
+poweradd = 0
 ctrl = 0
 anim = 1201
 juggle = 2
@@ -4803,7 +4814,7 @@ attr = a, sp
 damage    = 30,3           
 animtype = hard  
 fall.animtype = hard           
-getpower = 60
+getpower = 60,30
 givepower = 20,5
 guarDFlag = ma                   
 hitflag = mafd                   
@@ -4896,7 +4907,7 @@ attr = a, sp
 damage    = 30,3           
 animtype = hard  
 fall.animtype = hard           
-getpower = 60
+getpower = 20,10
 givepower = 20,5
 guarDFlag = ma                   
 hitflag = mafd                   
@@ -4933,7 +4944,7 @@ attr = a, sp
 damage    = 30,3           
 animtype = hard  
 fall.animtype = hard           
-getpower = 60
+getpower = 20,10
 givepower = 20,5
 guarDFlag = ma                   
 hitflag = mafd                   
@@ -4970,7 +4981,7 @@ attr = a, sp
 damage    = 30,3           
 animtype = hard  
 fall.animtype = hard           
-getpower = 60
+getpower = 20,10
 givepower = 20,5
 guarDFlag = ma                   
 hitflag = mafd                   
@@ -5082,6 +5093,7 @@ ctrl = 1
 ;Twist Kick A
 [statedef 1300]
 type = S
+poweradd = 20
 movetype = A
 physics = S
 ctrl = 0
@@ -5166,6 +5178,7 @@ hitflag = MAFD
 priority = 5, Hit								
 pausetime = 0, 8
 damage    = 50,10
+getpower = 30,15
 sparkno = S9107
 guard.sparkno = S6000
 guardflag = MA
@@ -5203,6 +5216,7 @@ trigger2 = parent,movetype = H
 ;Twist Kick B
 [statedef 1310]
 type = S
+poweradd = 20
 movetype = A
 physics = S
 ctrl = 0
@@ -5288,6 +5302,7 @@ hitflag = MAFD
 priority = 5, Hit								
 pausetime = 0, 8
 damage    = 50,10
+getpower = 30,15
 sparkno = S9107
 guard.sparkno = S6000
 guardflag = MA
@@ -5325,6 +5340,7 @@ trigger2 = parent,movetype = H
 ;Twist Kick C
 [statedef 1320]
 type = S
+poweradd = 20
 movetype = A
 physics = S
 ctrl = 0
@@ -5410,6 +5426,7 @@ hitflag = MAFD
 priority = 5, Hit								
 pausetime = 0, 8
 damage    = 50,10
+getpower = 30,15
 sparkno = S9107
 guard.sparkno = S6000
 guardflag = MA
@@ -5453,7 +5470,7 @@ physics = S
 velset = 0,0
 ;anim = 1500
 sprpriority = 0
-poweradd = 100
+poweradd = 20
 ctrl = 0
 
 [State 1500, ChangeAnim]
@@ -5520,7 +5537,7 @@ physics = S
 velset = 0,0
 ;anim = 1500
 sprpriority = 0
-poweradd = 100
+poweradd = 20
 ctrl = 0
 
 [State 1030, 2]
@@ -5586,7 +5603,7 @@ physics = S
 velset = 0,0
 ;anim = 1500
 sprpriority = 0
-poweradd = 100
+poweradd = 20
 ctrl = 0
 
 [State 1030, 2]
@@ -6060,7 +6077,7 @@ fall.yvelocity = -3.6
 fall.recover = 0
 ID = 1500
 guard.dist = 50
-getpower = 136,0
+getpower = 60,30
 guard.pausetime = 12,12
 
 [State 1800, Grab Miss]
@@ -6206,7 +6223,7 @@ type    = S
 movetype= A
 physics = S
 velset = 0,0
-poweradd = 80
+poweradd = 20
 juggle = 0
 ctrl = 0
 anim = 1600
@@ -6261,6 +6278,7 @@ projscale = 1,1
 accel = 0, 0
 attr = A, SP
 damage    = 85,8
+getpower = 30,15
 hitflag = MAF
 guardflag = MA
 priority = 3
@@ -6313,7 +6331,7 @@ type    = S
 movetype= A
 physics = S
 velset = 0,0
-poweradd = 80
+poweradd = 20
 juggle = 0
 ctrl = 0
 anim = 1600
@@ -6365,6 +6383,7 @@ projscale = 1,1
 accel = 0, 0
 attr = A, SP
 damage    = 85,8
+getpower = 30,15
 hitflag = MAF
 guardflag = MA
 priority = 3
@@ -6418,7 +6437,7 @@ type    = S
 movetype= A
 physics = S
 velset = 0,0
-poweradd = 80
+poweradd = 0
 juggle = 0
 ctrl = 0
 anim = 1605
@@ -6435,7 +6454,7 @@ type    = S
 movetype= A
 physics = S
 velset = 0,0
-poweradd = 80
+poweradd = 20
 juggle = 0
 ctrl = 0
 anim = 1600
@@ -6487,6 +6506,7 @@ projscale = 1,1
 accel = 0, 0
 attr = A, SP
 damage    = 85,8
+getpower = 30,15
 hitflag = MAF
 guardflag = MA
 priority = 3

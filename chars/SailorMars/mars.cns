@@ -1289,6 +1289,7 @@ type = HitDef
 trigger1 = AnimElem = 2
 attr = S, NA
 damage = Ceil(20 / ((NumHelper(901) || NumHelper(902)) / 4.0 + 1))
+getpower = 30,15
 animtype = Light
 guardflag = M
 hitflag = MA
@@ -1338,6 +1339,7 @@ type = HitDef
 trigger1 = AnimElem = 2
 attr = S, NA
 damage = 20
+getpower = 30,15
 animtype = Light
 guardflag = M
 hitflag = MA
@@ -1390,6 +1392,7 @@ trigger1 = AnimElem = 2
 attr = S, NA
 animtype  = Medium
 damage    = Ceil(30 / ((NumHelper(901) || NumHelper(902)) / 4.0 + 1))
+getpower = 30,15
 guardflag = M
 hitflag = MA
 pausetime = 12,12
@@ -1438,6 +1441,7 @@ trigger1 = AnimElem = 2
 attr = S, NA
 animtype  = Light
 damage    = 30
+getpower = 30,15
 guardflag = M
 hitflag = MA
 pausetime = 12,12
@@ -1498,6 +1502,7 @@ trigger1 = AnimElem = 4
 attr = C,NA
 animtype  = hard
 damage    = 60
+getpower = 30,15
 hitflag = MA
 guardflag = M
 pausetime = 14,14
@@ -1552,6 +1557,7 @@ trigger1 = AnimElem = 4
 attr = C,NA
 animtype  = hard
 damage    = 30
+getpower = 30,15
 guardflag = M
 hitflag = MA
 pausetime = 14,14
@@ -1627,6 +1633,7 @@ trigger1 = AnimElem = 3
 attr = A, NA
 animtype  = hard
 damage    = 100
+getpower = 30,15
 guardflag = HA
 hitflag = MA
 pausetime = 16,16
@@ -1718,6 +1725,7 @@ trigger1 = AnimElem = 3
 attr = A, NA
 animtype  = diagup
 damage    = 60
+getpower = 30,15
 guardflag = HA
 hitflag = MA
 pausetime = 16,16
@@ -1786,6 +1794,7 @@ trigger1 = animelem = 2
 attr = S, NA
 animtype  = diagup
 damage    = 60
+getpower = 15,7
 guardflag = M
 hitflag = MAF
 pausetime = 16,16
@@ -1845,6 +1854,7 @@ trigger1 = animelem = 1
 attr = S, NA
 animtype  = diagup
 damage    = ifelse(P2movetype = H,20,60)
+getpower = 15,7
 guardflag = M
 hitflag = MAF
 pausetime = 16,16
@@ -1905,6 +1915,7 @@ trigger1 = AnimElem = 4
 attr = S, NA
 animtype  = diagup
 damage    = 80
+getpower = 30,15
 guardflag = M
 hitflag = MA
 pausetime = 16,16
@@ -1966,6 +1977,7 @@ type = HitDef
 trigger1 = AnimElem = 2
 attr = C, NA
 damage = Ceil(20 / ((NumHelper(901) || NumHelper(902)) / 4.0 + 1))
+getpower = 30,15
 animtype = Light
 guardflag = L
 hitflag = MA
@@ -2015,6 +2027,7 @@ type = HitDef
 trigger1 = AnimElem = 5
 attr = C, NP
 damage = 60
+getpower = 30,15
 animtype = hard
 guardflag = L
 hitflag = MA
@@ -2081,6 +2094,7 @@ type = HitDef
 trigger1 = Time = 0
 attr = A, NA
 damage    = 20
+getpower = 30,15
 guardflag = HA
 hitflag = MA
 pausetime = 8,8
@@ -2125,6 +2139,7 @@ type = HitDef
 trigger1 = animelem = 2
 attr = A, NA
 damage = 30
+getpower = 30,15
 guardflag = HA
 hitflag = MA
 pausetime = 10,10
@@ -2176,6 +2191,7 @@ type = HitDef
 trigger1 = animelem = 2
 attr = A, NA
 damage = 60
+getpower = 30,15
 guardflag = HA
 hitflag = MA
 pausetime = 12,12
@@ -2226,6 +2242,7 @@ type = HitDef
 trigger1 = animelem = 2
 attr = A, NA
 damage    = 40
+getpower = 30,15
 guardflag = HA
 hitflag = MA
 pausetime = 10,10
@@ -2264,7 +2281,7 @@ juggle  = 3
 velset = ifelse(prevstateno = 105,const(velocity.run.back.x)-4,const(velocity.run.fwd.x)+4),0
 ctrl = 0
 anim = 210
-poweradd = 20
+poweradd = 0
 sprpriority = 2
 
 [State 123, Light Hit Sound]
@@ -2288,6 +2305,7 @@ type = HitDef
 trigger1 = AnimElem = 2
 attr = S, NA
 damage = 40
+getpower = 30,15
 animtype = hard
 guardflag = M
 hitflag = MA
@@ -2333,7 +2351,7 @@ ctrl = 1
 type    = S
 movetype= A
 physics = S
-poweradd= 50
+poweradd= 20
 velset = 0,0
 anim = 1000
 ctrl = 0
@@ -2377,7 +2395,7 @@ offset = 34,-78
 velocity = 25,0
 hitflag = MAF
 damage = 120,12
-getpower = 50
+getpower = 30,15
 givepower = 50,15
 animtype = hard
 guard.sparkno = S909
@@ -2499,7 +2517,7 @@ value = 1005
 type    = S
 movetype= A
 physics = S
-poweradd= 50
+poweradd= 20
 velset = 0,0
 anim = 1100
 ctrl = 0
@@ -2538,7 +2556,7 @@ offset = 20,-12
 velocity = 4,0
 hitflag = MAF
 damage = 80,8
-getpower = 50
+getpower = 30,15
 givepower = 50,15
 animtype = hard
 guardflag = MA
@@ -2591,7 +2609,7 @@ ctrl = 1
 type    = S
 movetype= A
 physics = S
-poweradd= 50
+poweradd= 20
 velset = 0,0
 anim = 1100
 ctrl = 0
@@ -2630,7 +2648,7 @@ offset = 15,-12
 velocity = 6,0
 hitflag = MAF
 damage = 80,8
-getpower = 50
+getpower = 30,15
 givepower = 50,15
 animtype = hard
 guardflag = MA
@@ -2851,7 +2869,7 @@ ctrl = 1
 type    = S
 movetype= A
 physics = S
-poweradd= 50
+poweradd= 20
 velset = 0,0
 anim = 1200
 ctrl = 0
@@ -2886,7 +2904,7 @@ velocity = 3,6
 accel = 0,-.6
 hitflag = MAF
 damage = 80,8
-getpower = 50
+getpower = 30,15
 givepower = 50,15
 animtype = hard
 guardflag = MA
@@ -2927,7 +2945,7 @@ ctrl = 1
 type    = S
 movetype= A
 physics = S
-poweradd= 50
+poweradd= 20
 velset = 0,0
 anim = 1200
 ctrl = 0
@@ -2962,7 +2980,7 @@ velocity = 6,6
 accel = 0,-.6
 hitflag = MAF
 damage = 80,8
-getpower = 50
+getpower = 30,15
 givepower = 50,15
 animtype = hard
 guardflag = MA
@@ -3003,7 +3021,7 @@ ctrl = 1
 type    = S
 movetype= A
 physics = S
-poweradd= 50
+poweradd= 0
 velset = 0,0
 anim = 1300
 ctrl = 0
@@ -3036,7 +3054,7 @@ value = 1301
 type    = S
 movetype= A
 physics = S
-poweradd= 50
+poweradd= 0
 velset = 0,0
 anim = 1300
 ctrl = 0
@@ -3101,7 +3119,7 @@ type = HitDef
 trigger1 = time = 0
 attr = A, SA
 damage = 80,8
-getpower = 50
+getpower = 30,15
 givepower = 50,15
 animtype  = hard
 hitflag = MAF
@@ -3163,6 +3181,7 @@ type = HitDef
 trigger1 = time = 0
 attr = C, SA
 damage    = ifelse(P2statetype = L || P2movetype = H,40,100),10
+getpower = 30,15
 animtype  = hard
 hitflag = MAFD
 guardflag = H
@@ -3233,7 +3252,7 @@ ctrl = 1
 type    = S
 movetype= A
 physics = S
-poweradd= 50
+poweradd= 20
 velset = 0,0
 anim = 1400
 ctrl = 0
@@ -3274,7 +3293,7 @@ ctrl = 1
 type    = S
 movetype= A
 physics = S
-poweradd= 50
+poweradd= 20
 velset = 0,0
 anim = 1400
 ctrl = 0
@@ -3341,7 +3360,7 @@ animtype  = hard
 hitflag = MAF
 guardflag = MA
 damage = 60,6
-getpower = 25
+getpower = 1,0
 givepower = 25,8
 animtype = hard
 pausetime = 1,1
@@ -3374,7 +3393,7 @@ projedgebound = 320
 projstagebound = 320
 velocity = Vel X,Vel Y
 damage = 60,6
-getpower = 25
+getpower = 1,0
 givepower = 25,8
 animtype = hard
 pausetime = 1,1
@@ -3450,7 +3469,7 @@ animtype  = hard
 hitflag = MAF
 guardflag = MA
 damage = 60,6
-getpower = 25
+getpower = 1,0
 givepower = 25,8
 animtype = hard
 pausetime = 1,1
@@ -3483,7 +3502,7 @@ projedgebound = 320
 projstagebound = 320
 velocity = Vel X,Vel Y
 damage = 60,6
-getpower = 25
+getpower = 1,0
 givepower = 25,8
 animtype = hard
 pausetime = 1,1
@@ -3547,7 +3566,7 @@ type    = S
 movetype= A
 physics = S
 juggle  = 3
-poweradd= 50
+poweradd= 0
 velset = 0,0
 anim = 1500
 ctrl = 0
@@ -3577,7 +3596,7 @@ attr = S, SP
 animtype  = UP
 hitflag = MAFP
 damage = 80,8
-getpower = 50
+getpower = 60,30
 givepower = 50,15
 guardflag = MA
 pausetime = 1,1
@@ -3704,6 +3723,7 @@ value = 0
 
 [State 800, 1]
 type = HitDef
+getpower = 60,30
 Trigger1 = P2bodyDist X <= 20
 attr = S, NT
 hitflag = M-
@@ -3822,7 +3842,7 @@ kill = 0
 [State 810, Throw 11]
 type = poweradd
 trigger1 = Time = 6
-value = 5
+value = 0
 
 [State 5120, 4]
 type = HitAdd
@@ -4046,7 +4066,7 @@ value = Ceil(-90 * Const(data.attack) / 100)
 [State 810, Throw 11]
 type = poweradd
 trigger1 = animelem = 4
-value = 20
+value = 0
 
 [State 800, 2]
 type = ChangeState
@@ -4158,6 +4178,7 @@ sprpriority = 2
 
 [State 800, 1]
 type = HitDef
+getpower = 60,30
 Trigger1 = P2bodyDist X <= 20
 attr = S, NT
 hitflag = M-
@@ -4333,7 +4354,7 @@ value = Ceil(-90 * Const(data.attack) / 100)
 [State 810, Throw 11]
 type = poweradd
 trigger1 = Animelem = 7
-value = 20
+value = 0
 
 [State 810, Throw 11]
 type = TargetState

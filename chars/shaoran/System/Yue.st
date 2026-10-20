@@ -4,7 +4,7 @@
 Type=U
 MoveType=A
 Physics=N
-poweradd=100
+poweradd=20
 anim=500
 velset=0,0
 ctrl=0
@@ -177,7 +177,7 @@ Value=500,0
 [State 500]
 Type=Poweradd
 trigger1=time %20=10
-value=80
+value=0
 
 [State 500]
 Type = Projectile
@@ -393,7 +393,7 @@ Anim        = 181
 SprPriority = 1
 VelSet      = 0,0
 ctrl=0
-poweradd=200
+poweradd=20
 
 [State 520]
 Type=NothitBy
@@ -452,7 +452,7 @@ Type=S
 MoveType=A
 Physics=N
 anim=10541
-poweradd = 25
+poweradd = 0
 
 [State -1]
 Type        = Explod
@@ -629,7 +629,7 @@ Physics  = N
 Anim     = 510
 Ctrl     = 0
 Facep2   = 1
-PowerAdd = 30
+PowerAdd = 0
 
 [State 530]
 Type=VarSet
@@ -1103,7 +1103,7 @@ MoveType=A
 facep2=1
 anim=510
 ctrl=0
-poweradd=50
+poweradd=20
 
 [State 1000]
 Type=VelAdd
@@ -1344,7 +1344,7 @@ Physics  = N
 Anim     = 510
 Ctrl     = 0
 Facep2   = 1
-PowerAdd = 50
+PowerAdd = 20
 
 [State 500]
 Type=Gravity
@@ -1440,7 +1440,7 @@ Physics  = N
 Anim     = 510
 Ctrl     = 0
 Facep2   = 1
-PowerAdd = 75
+PowerAdd = 0
 
 [State 530]
 Type=VarSet
@@ -1681,7 +1681,7 @@ Type=S
 MoveType=A
 Physics=N
 anim=10541
-poweradd = 25
+poweradd = 0
 
 [State -1]
 Type        = Explod

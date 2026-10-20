@@ -11,6 +11,7 @@ Pal.Defaults =1,2,3,4
 ;-----必要なファイルの設定------------------------------------------
 
 [Files]
+movelist = movelist.dat
 cmd      =Yui_Emelia_Mitsukihara_AH3LMSSS.cmd
 cns      =Yui_Emelia_Mitsukihara_AH3LMSSS-01-Base.cns
 st       =Yui_Emelia_Mitsukihara_AH3LMSSS-01-Base.cns

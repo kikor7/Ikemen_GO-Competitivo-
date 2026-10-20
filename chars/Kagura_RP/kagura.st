@@ -488,7 +488,7 @@ air.type = High                  ;Type: High, Low, Trip (def: same as ground.typ
 air.velocity = -1.4,-3           ;X-velocity at which opponent is pushed,
 ;Y-velocity at which opponent is pushed
 air.hittime = 12                 ;Time before opponent regains control in air
-getpower = 20,0
+getpower = 30,15
 
 [State 200, 1]
 type = PlaySnd
@@ -560,7 +560,7 @@ ground.slidetime = 12
 ground.hittime  = 24
 ground.velocity = -5.5
 air.velocity = -2.5,-4
-getpower = 63,0
+getpower = 30,15
 
 [State 210, 4]
 type = SprPriority
@@ -619,7 +619,7 @@ ground.slidetime = 10
 ground.hittime  = 25
 ground.velocity = -5
 air.velocity = -2.5,-3.5
-getpower = 50,0
+getpower = 30,15
 
 [State 230, 3]
 type = ChangeState
@@ -643,6 +643,7 @@ sprpriority = 2
 
 [State 240, 3]
 type = HitDef
+getpower = 60,30
 trigger1 = Time = 0
 attr = S, NT
 priority = 1,miss
@@ -897,7 +898,7 @@ air.type = Low                  ;Type: High, Low, Trip (def: same as ground.type
 air.velocity = -1.4,-3           ;X-velocity at which opponent is pushed,
 ;Y-velocity at which opponent is pushed
 air.hittime = 12                 ;Time before opponent regains control in air
-getpower = 20,0
+getpower = 30,15
 
 [State 400, 1]
 type = PlaySnd
@@ -970,7 +971,7 @@ ground.slidetime = 12
 ground.hittime  = 24
 ground.velocity = -5.5
 air.velocity = -2.5,-4
-getpower = 65,0
+getpower = 30,15
 
 [State 410, 4]
 type = SprPriority
@@ -1035,7 +1036,7 @@ ground.slidetime = 10
 ground.hittime  = 25
 ground.velocity = -5
 air.velocity = -2.5,-3.5
-getpower = 60,0
+getpower = 30,15
 
 [State 430, 3]
 type = ChangeState
@@ -1088,7 +1089,7 @@ air.velocity = -0.5,-4
 guard.velocity = -5
 fall = 1
 fall.recovertime = 20
-getpower = 70,0
+getpower = 30,15
 
 [State 440, 4]
 type = ChangeState
@@ -1131,7 +1132,7 @@ ground.hittime  = 15
 ground.velocity = 0,-4
 air.velocity = 0,-4
 ;yaccel = 0.6
-getpower = 20,0
+getpower = 30,15
 
 [State 600, 3]
 type = Changestate
@@ -1179,7 +1180,7 @@ ground.slidetime = 12
 ground.hittime  = 24
 ground.velocity = -5.5
 air.velocity = -0.5,-5
-getpower = 35,0
+getpower = 30,15
 
 [State 610, 3]
 type = Changestate
@@ -1227,7 +1228,7 @@ ground.slidetime = 10
 ground.hittime  = 25
 ground.velocity = -5
 air.velocity = -2,-6
-getpower = 30,0
+getpower = 30,15
 
 [State 630, 3]
 type = ChangeState
@@ -1276,7 +1277,7 @@ ground.hittime  = 25
 ground.velocity = -5
 air.velocity = -7,2
 air.fall = 1
-getpower = 35,0
+getpower = 30,15
 
 [State 630, 3]
 type = ChangeState

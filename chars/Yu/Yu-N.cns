@@ -250,7 +250,7 @@ persistent = 0
 palfx.time = ceil((enemynear,movetype=A)*9)
 palfx.add = 100,-50,-50
 kill=1
-getpower = random%20+70,random%20
+getpower = 30,15
 ;======================================
 ground.slidetime = ceil(18-1+(enemynear,statetype=C)*2+(enemynear,movetype=A)*4-cond(var(4)<9,var(4),9))
 ground.hittime  = ceil(18-1+(enemynear,statetype=C)*2+(enemynear,movetype=A)*4-cond(var(4)<9,var(4),9))
@@ -515,7 +515,7 @@ persistent = 0
 palfx.time = (enemynear,movetype=A)*9
 palfx.add = 100,-50,-50
 kill=1
-getpower = random%20+70,random%20
+getpower = 30,15
 ;======================================
 ground.slidetime = 16-1+(enemynear,statetype=C)*2+(enemynear,movetype=A)*4-cond(var(4)<9,var(4),9)
 ground.hittime  = 16-1+(enemynear,statetype=C)*2+(enemynear,movetype=A)*4-cond(var(4)<9,var(4),9)
@@ -772,7 +772,7 @@ persistent = 0
 palfx.time = (enemynear,movetype=A)*9
 palfx.add = 100,-50,-50
 kill=1
-getpower = random%40+190,random%20+10
+getpower = 30,15
 ;======================================
 ground.slidetime = 16-1+(enemynear,statetype=C)*2+(enemynear,movetype=A)*4-cond(var(4)<9,var(4),9)
 ground.hittime  = 16-1+(enemynear,statetype=C)*2+(enemynear,movetype=A)*4-cond(var(4)<9,var(4),9)
@@ -964,7 +964,7 @@ palfx.sinadd = -40,-80,-80,5
 palfx.color = 256
 palfx.invertall = 0
 kill=1
-getpower = random%50+70,random%50
+getpower = 30,15
 ;======================================
 ground.slidetime = 26-1+(enemynear,statetype=C)*2+(enemynear,movetype=A)*4-cond(var(4)<9,var(4),9)
 ground.hittime  = 26-1+(enemynear,statetype=C)*2+(enemynear,movetype=A)*4-cond(var(4)<9,var(4),9)
@@ -1217,7 +1217,7 @@ persistent = 0
 palfx.time = (enemynear,movetype=A)*9
 palfx.add = 100,-50,-50
 kill=1
-getpower = random%40+110,random%40
+getpower = 60,30
 ;======================================
 ground.slidetime = 16-1+(enemynear,statetype=C)*2+(enemynear,movetype=A)*4-cond(var(4)<9,var(4),9)
 ground.hittime  = 16-1+(enemynear,statetype=C)*2+(enemynear,movetype=A)*4-cond(var(4)<9,var(4),9)
@@ -1264,7 +1264,7 @@ persistent = 0
 palfx.time = (enemynear,movetype=A)*9
 palfx.add = 100,-50,-50
 kill=1
-getpower = random%40+110,random%40
+getpower = 60,30
 ;======================================
 ground.slidetime = 16-1+(enemynear,statetype=C)*2+(enemynear,movetype=A)*4-cond(var(4)<9,var(4),9)
 ground.hittime  = 16-1+(enemynear,statetype=C)*2+(enemynear,movetype=A)*4-cond(var(4)<9,var(4),9)
@@ -1534,7 +1534,7 @@ persistent = 0
 palfx.time = (enemynear,movetype=A)*9
 palfx.add = 100,-50,-50
 kill=1
-getpower = random%40+110,random%40
+getpower = 60,30
 ;======================================
 ground.slidetime = 16-1+(enemynear,statetype=C)*2+(enemynear,movetype=A)*4-cond(var(4)<9,var(4),9)
 ground.hittime  = 16-1+(enemynear,statetype=C)*2+(enemynear,movetype=A)*4-cond(var(4)<9,var(4),9)
@@ -2416,7 +2416,7 @@ persistent = 0
 palfx.time = (enemynear,movetype=A)*9
 palfx.add = 100,-50,-50
 kill=1
-getpower = random%20+70,random%20
+getpower = 30,15
 ;======================================
 ground.slidetime = 14-1+(enemynear,statetype=C)*2+(enemynear,movetype=A)*4-cond(var(4)<9,var(4),9)
 ground.hittime  = 14-1+(enemynear,statetype=C)*2+(enemynear,movetype=A)*4-cond(var(4)<9,var(4),9)
@@ -2665,7 +2665,7 @@ persistent = 0
 palfx.time = (enemynear,movetype=A)*9
 palfx.add = 100,-50,-50
 kill=1
-getpower = random%30+60,random%30
+getpower = 30,15
 ;======================================
 ground.slidetime = 16-1+(enemynear,statetype=C)*2+(enemynear,movetype=A)*4-cond(var(4)<9,var(4),9)
 ground.hittime  = 16-1+(enemynear,statetype=C)*2+(enemynear,movetype=A)*4-cond(var(4)<9,var(4),9)
@@ -2717,7 +2717,7 @@ persistent = 0
 palfx.time = (enemynear,movetype=A)*9
 palfx.add = 100,-50,-50
 kill=1
-getpower = random%30+60,random%30
+getpower = 30,15
 ;======================================
 ground.slidetime = 16-1+(enemynear,statetype=C)*2+(enemynear,movetype=A)*4-cond(var(4)<9,var(4),9)
 ground.hittime  = 16-1+(enemynear,statetype=C)*2+(enemynear,movetype=A)*4-cond(var(4)<9,var(4),9)
@@ -2761,7 +2761,7 @@ persistent = 0
 palfx.time = (enemynear,movetype=A)*9
 palfx.add = 100,-50,-50
 kill=1
-getpower = random%30+60,random%30
+getpower = 30,15
 ;======================================
 ground.slidetime = 16-1+(enemynear,statetype=C)*2+(enemynear,movetype=A)*4-cond(var(4)<9,var(4),9)
 ground.hittime  = 16-1+(enemynear,statetype=C)*2+(enemynear,movetype=A)*4-cond(var(4)<9,var(4),9)
@@ -2806,7 +2806,7 @@ persistent = 0
 palfx.time = (enemynear,movetype=A)*9
 palfx.add = 100,-50,-50
 kill=1
-getpower = random%30+60,random%30
+getpower = 30,15
 ;======================================
 ground.slidetime = 16-1+(enemynear,statetype=C)*2+(enemynear,movetype=A)*4-cond(var(4)<9,var(4),9)
 ground.hittime  = 16-1+(enemynear,statetype=C)*2+(enemynear,movetype=A)*4-cond(var(4)<9,var(4),9)
@@ -3078,7 +3078,7 @@ persistent = 0
 palfx.time = (enemynear,movetype=A)*9
 palfx.add = 100,-50,-50
 kill=1
-getpower = random%30+60,random%30
+getpower = 30,15
 ;======================================
 ground.slidetime = 16-1+(enemynear,statetype=C)*2+(enemynear,movetype=A)*4-cond(var(4)<9,var(4),9)
 ground.hittime  = 16-1+(enemynear,statetype=C)*2+(enemynear,movetype=A)*4-cond(var(4)<9,var(4),9)
@@ -3130,7 +3130,7 @@ persistent = 0
 palfx.time = (enemynear,movetype=A)*9
 palfx.add = 100,-50,-50
 kill=1
-getpower = random%30+60,random%30
+getpower = 30,15
 ;======================================
 ground.slidetime = 16-1+(enemynear,statetype=C)*2+(enemynear,movetype=A)*4-cond(var(4)<9,var(4),9)
 ground.hittime  = 16-1+(enemynear,statetype=C)*2+(enemynear,movetype=A)*4-cond(var(4)<9,var(4),9)
@@ -3174,7 +3174,7 @@ persistent = 0
 palfx.time = (enemynear,movetype=A)*9
 palfx.add = 100,-50,-50
 kill=1
-getpower = random%30+60,random%30
+getpower = 30,15
 ;======================================
 ground.slidetime = 16-1+(enemynear,statetype=C)*2+(enemynear,movetype=A)*4-cond(var(4)<9,var(4),9)
 ground.hittime  = 16-1+(enemynear,statetype=C)*2+(enemynear,movetype=A)*4-cond(var(4)<9,var(4),9)
@@ -3219,7 +3219,7 @@ persistent = 0
 palfx.time = (enemynear,movetype=A)*9
 palfx.add = 100,-50,-50
 kill=1
-getpower = random%30+60,random%30
+getpower = 30,15
 ;======================================
 ground.slidetime = 16-1+(enemynear,statetype=C)*2+(enemynear,movetype=A)*4-cond(var(4)<9,var(4),9)
 ground.hittime  = 16-1+(enemynear,statetype=C)*2+(enemynear,movetype=A)*4-cond(var(4)<9,var(4),9)
@@ -3514,7 +3514,7 @@ persistent = 0
 palfx.time = (enemynear,movetype=A)*9
 palfx.add = 100,-50,-50
 kill=1
-getpower = random%35+72,random%35
+getpower = 7,3
 ;======================================
 ground.slidetime = 16-1+(enemynear,statetype=C)*2+(enemynear,movetype=A)*4-cond(var(4)<9,var(4),9)
 ground.hittime  = 16-1+(enemynear,statetype=C)*2+(enemynear,movetype=A)*4-cond(var(4)<9,var(4),9)
@@ -3562,7 +3562,7 @@ persistent = 0
 palfx.time = (enemynear,movetype=A)*9
 palfx.add = 100,-50,-50
 kill=1
-getpower = random%20+70,random%20
+getpower = 7,3
 ;======================================
 ground.slidetime = 16-1+(enemynear,statetype=C)*2+(enemynear,movetype=A)*4-cond(var(4)<9,var(4),9)
 ground.hittime  = 16-1+(enemynear,statetype=C)*2+(enemynear,movetype=A)*4-cond(var(4)<9,var(4),9)
@@ -4320,7 +4320,7 @@ persistent = 0
 palfx.time = (enemynear,movetype=A)*9
 palfx.add = 100,-50,-50
 kill=1
-getpower = random%20+70,random%20
+getpower = 7,3
 ;======================================
 ground.slidetime = 16-1+(enemynear,statetype=C)*2+(enemynear,movetype=A)*4-cond(var(4)<9,var(4),9)
 ground.hittime  = 16-1+(enemynear,statetype=C)*2+(enemynear,movetype=A)*4-cond(var(4)<9,var(4),9)
@@ -4367,7 +4367,7 @@ persistent = 0
 palfx.time = (enemynear,movetype=A)*9
 palfx.add = 100,-50,-50
 kill=1
-getpower = random%20+70,random%20
+getpower = 7,3
 ;======================================
 ground.slidetime = 16-1+(enemynear,statetype=C)*2+(enemynear,movetype=A)*4-cond(var(4)<9,var(4),9)
 ground.hittime  = 16-1+(enemynear,statetype=C)*2+(enemynear,movetype=A)*4-cond(var(4)<9,var(4),9)
@@ -4414,7 +4414,7 @@ persistent = 0
 palfx.time = (enemynear,movetype=A)*9
 palfx.add = 100,-50,-50
 kill=1
-getpower = random%20+70,random%20
+getpower = 7,3
 ;======================================
 ground.slidetime = 16-1+(enemynear,statetype=C)*2+(enemynear,movetype=A)*4-cond(var(4)<9,var(4),9)
 ground.hittime  = 16-1+(enemynear,statetype=C)*2+(enemynear,movetype=A)*4-cond(var(4)<9,var(4),9)
@@ -4461,7 +4461,7 @@ persistent = 0
 palfx.time = (enemynear,movetype=A)*9
 palfx.add = 100,-50,-50
 kill=1
-getpower = random%20+70,random%20
+getpower = 7,3
 ;======================================
 ground.slidetime = 16-1+(enemynear,statetype=C)*2+(enemynear,movetype=A)*4-cond(var(4)<9,var(4),9)
 ground.hittime  = 16-1+(enemynear,statetype=C)*2+(enemynear,movetype=A)*4-cond(var(4)<9,var(4),9)
@@ -4508,7 +4508,7 @@ persistent = 0
 palfx.time = (enemynear,movetype=A)*9
 palfx.add = 100,-50,-50
 kill=1
-getpower = random%20+70,random%20
+getpower = 7,3
 ;======================================
 ground.slidetime = 16-1+(enemynear,statetype=C)*2+(enemynear,movetype=A)*4-cond(var(4)<9,var(4),9)
 ground.hittime  = 16-1+(enemynear,statetype=C)*2+(enemynear,movetype=A)*4-cond(var(4)<9,var(4),9)
@@ -4776,7 +4776,7 @@ persistent = 0
 palfx.time = (enemynear,movetype=A)*9
 palfx.add = 100,-50,-50
 kill=1
-getpower = random%40+190,random%20+10
+getpower = 7,3
 ;======================================
 ground.slidetime = 16-1+(enemynear,statetype=C)*2+(enemynear,movetype=A)*4-cond(var(4)<9,var(4),9)
 ground.hittime  = 16-1+(enemynear,statetype=C)*2+(enemynear,movetype=A)*4-cond(var(4)<9,var(4),9)
@@ -5057,7 +5057,7 @@ persistent = 0
 palfx.time = (enemynear,movetype=A)*9
 palfx.add = 100,-50,-50
 kill=1
-getpower = random%20+70,random%20
+getpower = 7,3
 ;======================================
 ground.slidetime = 25-1+(enemynear,statetype=C)*2+(enemynear,movetype=A)*4-cond(var(4)<9,var(4),9)
 ground.hittime  = 25-1+(enemynear,statetype=C)*2+(enemynear,movetype=A)*4-cond(var(4)<9,var(4),9)
@@ -5571,7 +5571,7 @@ persistent = 0
 palfx.time = (enemynear,movetype=A)*9
 palfx.add = 100,-50,-50
 kill=1
-getpower = random%33+70,random%33
+getpower = 60,30
 ;======================================
 ground.slidetime = 15-1+(enemynear,statetype=C)*2+(enemynear,movetype=A)*4-cond(var(4)<9,var(4),9)
 ground.hittime  = 15-1+(enemynear,statetype=C)*2+(enemynear,movetype=A)*4-cond(var(4)<9,var(4),9)
@@ -5873,7 +5873,7 @@ persistent = 0
 palfx.time = (enemynear,movetype=A)*9
 palfx.add = 100,-50,-50
 kill=1
-getpower = random%20+70,random%20
+getpower = 30,15
 ;======================================
 ground.slidetime = 25-1+(enemynear,statetype=C)*2+(enemynear,movetype=A)*4-cond(var(4)<9,var(4),9)
 ground.hittime  = 25-1+(enemynear,statetype=C)*2+(enemynear,movetype=A)*4-cond(var(4)<9,var(4),9)
@@ -6138,7 +6138,7 @@ persistent = 0
 palfx.time = (enemynear,movetype=A)*9
 palfx.add = 100,-50,-50
 kill=1
-getpower = random%20+70,random%20
+getpower = 30,15
 ;======================================
 ground.slidetime = 25-1+(enemynear,statetype=C)*2+(enemynear,movetype=A)*4-cond(var(4)<9,var(4),9)
 ground.hittime  = 25-1+(enemynear,statetype=C)*2+(enemynear,movetype=A)*4-cond(var(4)<9,var(4),9)
@@ -6382,7 +6382,7 @@ persistent = 0
 palfx.time = (enemynear,movetype=A)*9
 palfx.add = 100,-50,-50
 kill=1
-getpower = random%20+70,random%20
+getpower = 30,15
 ;======================================
 ground.slidetime = 15-1+(enemynear,statetype=C)*2+(enemynear,movetype=A)*4-cond(var(4)<9,var(4),9)
 ground.hittime  = 15-1+(enemynear,statetype=C)*2+(enemynear,movetype=A)*4-cond(var(4)<9,var(4),9)
@@ -6636,7 +6636,7 @@ persistent = 0
 palfx.time = (enemynear,movetype=A)*9
 palfx.add = 100,-50,-50
 kill=1
-getpower = random%20+70,random%20
+getpower = 30,15
 ;======================================
 ground.slidetime = 15-1+(enemynear,statetype=C)*2+(enemynear,movetype=A)*4-cond(var(4)<9,var(4),9)
 ground.hittime  = 15-1+(enemynear,statetype=C)*2+(enemynear,movetype=A)*4-cond(var(4)<9,var(4),9)
@@ -6682,7 +6682,7 @@ persistent = 0
 palfx.time = (enemynear,movetype=A)*9
 palfx.add = 100,-50,-50
 kill=1
-getpower = random%50+70,random%50
+getpower = 30,15
 ;======================================
 ground.slidetime = 26-1+(enemynear,statetype=C)*2+(enemynear,movetype=A)*4-cond(var(4)<9,var(4),9)
 ground.hittime  = 26-1+(enemynear,statetype=C)*2+(enemynear,movetype=A)*4-cond(var(4)<9,var(4),9)
@@ -6945,7 +6945,7 @@ persistent = 0
 palfx.time = (enemynear,movetype=A)*9
 palfx.add = 100,-50,-50
 kill=1
-getpower = random%30+70,random%30
+getpower = 10,5
 ;======================================
 ground.slidetime = 26-1+(enemynear,statetype=C)*2+(enemynear,movetype=A)*4-cond(var(4)<9,var(4),9)
 ground.hittime  = 26-1+(enemynear,statetype=C)*2+(enemynear,movetype=A)*4-cond(var(4)<9,var(4),9)
@@ -6992,7 +6992,7 @@ persistent = 0
 palfx.time = (enemynear,movetype=A)*9
 palfx.add = 100,-50,-50
 kill=1
-getpower = random%30+70,random%30
+getpower = 10,5
 ;======================================
 ground.slidetime = 26-1+(enemynear,statetype=C)*2+(enemynear,movetype=A)*4-cond(var(4)<9,var(4),9)
 ground.hittime  = 26-1+(enemynear,statetype=C)*2+(enemynear,movetype=A)*4-cond(var(4)<9,var(4),9)
@@ -7365,7 +7365,7 @@ persistent = 0
 palfx.time = (enemynear,movetype=A)*9
 palfx.add = 100,-50,-50
 kill=1
-getpower = random%35+70,random%35
+getpower = 10,5
 ;======================================
 ground.slidetime = 26-1+(enemynear,statetype=C)*2+(enemynear,movetype=A)*4-cond(var(4)<9,var(4),9)
 ground.hittime  = 26-1+(enemynear,statetype=C)*2+(enemynear,movetype=A)*4-cond(var(4)<9,var(4),9)
@@ -7904,7 +7904,7 @@ persistent = 0
 palfx.time = (enemynear,movetype=A)*9
 palfx.add = 100,-50,-50
 kill=1
-getpower = random%30+70,random%30
+getpower = 15,7
 ;======================================
 ground.slidetime = 26-1+(enemynear,statetype=C)*2+(enemynear,movetype=A)*4-cond(var(4)<9,var(4),9)
 ground.hittime  = 26-1+(enemynear,statetype=C)*2+(enemynear,movetype=A)*4-cond(var(4)<9,var(4),9)
@@ -7951,7 +7951,7 @@ persistent = 0
 palfx.time = (enemynear,movetype=A)*9
 palfx.add = 100,-50,-50
 kill=1
-getpower = random%30+70,random%30
+getpower = 15,7
 ;======================================
 ground.slidetime = 26-1+(enemynear,statetype=C)*2+(enemynear,movetype=A)*4-cond(var(4)<9,var(4),9)
 ground.hittime  = 26-1+(enemynear,statetype=C)*2+(enemynear,movetype=A)*4-cond(var(4)<9,var(4),9)
@@ -8038,6 +8038,7 @@ pan = 0
 
 [State 350, Throw Attempt Hitdef]
 type = HitDef
+getpower = 60,30
 Trigger1 = Time = 0
 Trigger1= p2movetype != H
 Trigger1 = p2statetype != A
@@ -8272,6 +8273,7 @@ pan = 0
 
 [State 350, Throw Attempt Hitdef]
 type = HitDef
+getpower = 60,30
 Trigger1 = Time = 0
 Trigger1= p2movetype != H
 Trigger1 = p2statetype = A
@@ -8761,7 +8763,7 @@ persistent = 0
 palfx.time = (enemynear,movetype=A)*9
 palfx.add = 100,-50,-50
 kill=1
-getpower = random%50+70,random%50
+getpower = 30,15
 ;======================================
 ground.slidetime = 26-1+(enemynear,statetype=C)*2+(enemynear,movetype=A)*4-cond(var(4)<9,var(4),9)
 ground.hittime  = 26-1+(enemynear,statetype=C)*2+(enemynear,movetype=A)*4-cond(var(4)<9,var(4),9)
@@ -8805,7 +8807,7 @@ persistent = 0
 palfx.time = (enemynear,movetype=A)*9
 palfx.add = 100,-50,-50
 kill=1
-getpower = random%50+70,random%50
+getpower = 30,15
 ;======================================
 ground.slidetime = 26-1+(enemynear,statetype=C)*2+(enemynear,movetype=A)*4-cond(var(4)<9,var(4),9)
 ground.hittime  = 26-1+(enemynear,statetype=C)*2+(enemynear,movetype=A)*4-cond(var(4)<9,var(4),9)
@@ -8857,7 +8859,7 @@ persistent = 0
 palfx.time = (enemynear,movetype=A)*9
 palfx.add = 100,-50,-50
 kill=1
-getpower = random%50+70,random%50
+getpower = 30,15
 ;======================================
 ground.slidetime = 26-1+(enemynear,statetype=C)*2+(enemynear,movetype=A)*4-cond(var(4)<9,var(4),9)
 ground.hittime  = 26-1+(enemynear,statetype=C)*2+(enemynear,movetype=A)*4-cond(var(4)<9,var(4),9)
@@ -9175,7 +9177,7 @@ persistent = 0
 palfx.time = (enemynear,movetype=A)*9
 palfx.add = 100,-50,-50
 kill=1
-getpower = random%50+70,random%50
+getpower = 30,15
 ;======================================
 ground.slidetime = 26-1+(enemynear,statetype=C)*2+(enemynear,movetype=A)*4-cond(var(4)<9,var(4),9)
 ground.hittime  = 26-1+(enemynear,statetype=C)*2+(enemynear,movetype=A)*4-cond(var(4)<9,var(4),9)
@@ -9220,7 +9222,7 @@ persistent = 0
 palfx.time = (enemynear,movetype=A)*9
 palfx.add = 100,-50,-50
 kill=1
-getpower = random%50+70,random%50
+getpower = 30,15
 ;======================================
 ground.slidetime = 26-1+(enemynear,statetype=C)*2+(enemynear,movetype=A)*4-cond(var(4)<9,var(4),9)
 ground.hittime  = 26-1+(enemynear,statetype=C)*2+(enemynear,movetype=A)*4-cond(var(4)<9,var(4),9)
@@ -9851,7 +9853,7 @@ persistent = 0
 palfx.time = ceil((enemynear,movetype=A)*9)
 palfx.add = 100,-50,-50
 kill=1
-getpower = random%20+70,random%20
+getpower = 60,30
 ;======================================
 ground.slidetime = ceil(18-1+(enemynear,statetype=C)*2+(enemynear,movetype=A)*4-cond(var(4)<9,var(4),9))
 ground.hittime  = ceil(18-1+(enemynear,statetype=C)*2+(enemynear,movetype=A)*4-cond(var(4)<9,var(4),9))
@@ -9905,7 +9907,7 @@ persistent = 0
 palfx.time = ceil((enemynear,movetype=A)*9)
 palfx.add = 100,-50,-50
 kill=1
-getpower = random%20+70,random%20
+getpower = 60,30
 ;======================================
 ground.slidetime = ceil(18-1+(enemynear,statetype=C)*2+(enemynear,movetype=A)*4-cond(var(4)<9,var(4),9))
 ground.hittime  = ceil(18-1+(enemynear,statetype=C)*2+(enemynear,movetype=A)*4-cond(var(4)<9,var(4),9))
@@ -10264,7 +10266,7 @@ persistent = 0
 palfx.time = ceil((enemynear,movetype=A)*9)
 palfx.add = 100,-50,-50
 kill=1
-getpower = random%20+70,random%20
+getpower = 60,30
 ;======================================
 ground.slidetime = ceil(18-1+(enemynear,statetype=C)*2+(enemynear,movetype=A)*4-cond(var(4)<9,var(4),9))
 ground.hittime  = ceil(18-1+(enemynear,statetype=C)*2+(enemynear,movetype=A)*4-cond(var(4)<9,var(4),9))
@@ -10800,7 +10802,7 @@ type    = S
 movetype= A
 physics = S
 juggle  = 1
-poweradd= 0
+poweradd= 20
 ctrl = 0
 anim = 411
 velset = 0,0
@@ -10840,7 +10842,7 @@ type    = S
 movetype= A
 physics = S
 juggle  = 1
-poweradd= 0
+poweradd= 20
 ctrl = 0
 anim = 411
 velset = 0,0
@@ -11073,7 +11075,7 @@ palfx.sinadd = -40,-80,-80,5
 palfx.color = 256
 palfx.invertall = 0
 kill=1
-getpower = random%50+70,random%50
+getpower = 60,30
 ;======================================
 ground.slidetime = 26-1+(enemynear,statetype=C)*2+(enemynear,movetype=A)*4-cond(var(4)<9,var(4),9)
 ground.hittime  = 26-1+(enemynear,statetype=C)*2+(enemynear,movetype=A)*4-cond(var(4)<9,var(4),9)
@@ -11234,7 +11236,7 @@ palfx.sinadd = -40,-80,-80,5
 palfx.color = 256
 palfx.invertall = 0
 kill=1
-getpower = random%50+70,random%50
+getpower = 20,10
 ;======================================
 ground.slidetime = 26-1+(enemynear,statetype=C)*2+(enemynear,movetype=A)*4-cond(var(4)<9,var(4),9)
 ground.hittime  = 26-1+(enemynear,statetype=C)*2+(enemynear,movetype=A)*4-cond(var(4)<9,var(4),9)
@@ -11284,7 +11286,7 @@ palfx.sinadd = -40,-80,-80,5
 palfx.color = 256
 palfx.invertall = 0
 kill=1
-getpower = random%50+70,random%50
+getpower = 20,10
 ;======================================
 ground.slidetime = 26-1+(enemynear,statetype=C)*2+(enemynear,movetype=A)*4-cond(var(4)<9,var(4),9)
 ground.hittime  = 26-1+(enemynear,statetype=C)*2+(enemynear,movetype=A)*4-cond(var(4)<9,var(4),9)
@@ -11333,7 +11335,7 @@ palfx.sinadd = -40,-80,-80,5
 palfx.color = 256
 palfx.invertall = 0
 kill=1
-getpower = random%50+70,random%50
+getpower = 20,10
 ;======================================
 ground.slidetime = 26-1+(enemynear,statetype=C)*2+(enemynear,movetype=A)*4-cond(var(4)<9,var(4),9)
 ground.hittime  = 26-1+(enemynear,statetype=C)*2+(enemynear,movetype=A)*4-cond(var(4)<9,var(4),9)
@@ -11947,7 +11949,7 @@ type    = A
 movetype= A
 physics = N
 juggle  = 1
-poweradd= 0
+poweradd= 20
 ctrl = 0
 anim = 375
 velset = 0,0
@@ -11989,7 +11991,7 @@ type    = A
 movetype= A
 physics = N
 juggle  = 1
-poweradd= 2000
+poweradd= 0
 ctrl = 0
 anim = 6005
 velset = 0,-12
@@ -12097,7 +12099,7 @@ persistent = 0
 palfx.time = (enemynear,movetype=A)*9
 palfx.add = 100,-50,-50
 kill=1
-getpower = random%30+60,random%30
+getpower = 15,7
 ;======================================
 ground.slidetime = 16-1+(enemynear,statetype=C)*2+(enemynear,movetype=A)*4-cond(var(4)<9,var(4),9)
 ground.hittime  = 16-1+(enemynear,statetype=C)*2+(enemynear,movetype=A)*4-cond(var(4)<9,var(4),9)
@@ -12147,7 +12149,7 @@ persistent = 0
 palfx.time = (enemynear,movetype=A)*9
 palfx.add = 100,-50,-50
 kill=1
-getpower = random%30+60,random%30
+getpower = 15,7
 ;======================================
 ground.slidetime = 16-1+(enemynear,statetype=C)*2+(enemynear,movetype=A)*4-cond(var(4)<9,var(4),9)
 ground.hittime  = 16-1+(enemynear,statetype=C)*2+(enemynear,movetype=A)*4-cond(var(4)<9,var(4),9)
@@ -12342,7 +12344,7 @@ persistent = 0
 palfx.time = (enemynear,movetype=A)*9
 palfx.add = 100,-50,-50
 kill=1
-getpower = random%30+60,random%30
+getpower = 15,7
 ;======================================
 ground.slidetime = 16-1+(enemynear,statetype=C)*2+(enemynear,movetype=A)*4-cond(var(4)<9,var(4),9)
 ground.hittime  = 16-1+(enemynear,statetype=C)*2+(enemynear,movetype=A)*4-cond(var(4)<9,var(4),9)
@@ -12392,7 +12394,7 @@ persistent = 0
 palfx.time = (enemynear,movetype=A)*9
 palfx.add = 100,-50,-50
 kill=1
-getpower = random%30+60,random%30
+getpower = 15,7
 ;======================================
 ground.slidetime = 16-1+(enemynear,statetype=C)*2+(enemynear,movetype=A)*4-cond(var(4)<9,var(4),9)
 ground.hittime  = 16-1+(enemynear,statetype=C)*2+(enemynear,movetype=A)*4-cond(var(4)<9,var(4),9)
@@ -12449,7 +12451,7 @@ type    = A
 movetype= A
 physics = N
 juggle  = 1
-poweradd= 2000
+poweradd= 0
 ctrl = 0
 anim = 6006
 velset = 0,-12
@@ -12573,7 +12575,7 @@ persistent = 0
 palfx.time = (enemynear,movetype=A)*9
 palfx.add = 100,-50,-50
 kill=1
-getpower = random%30+60,random%30
+getpower = 15,7
 ;======================================
 ground.slidetime = 16-1+(enemynear,statetype=C)*2+(enemynear,movetype=A)*4-cond(var(4)<9,var(4),9)
 ground.hittime  = 16-1+(enemynear,statetype=C)*2+(enemynear,movetype=A)*4-cond(var(4)<9,var(4),9)
@@ -12623,7 +12625,7 @@ persistent = 0
 palfx.time = (enemynear,movetype=A)*9
 palfx.add = 100,-50,-50
 kill=1
-getpower = random%30+60,random%30
+getpower = 15,7
 ;======================================
 ground.slidetime = 16-1+(enemynear,statetype=C)*2+(enemynear,movetype=A)*4-cond(var(4)<9,var(4),9)
 ground.hittime  = 16-1+(enemynear,statetype=C)*2+(enemynear,movetype=A)*4-cond(var(4)<9,var(4),9)
@@ -12803,7 +12805,7 @@ persistent = 0
 palfx.time = (enemynear,movetype=A)*9
 palfx.add = 100,-50,-50
 kill=1
-getpower = random%30+60,random%30
+getpower = 15,7
 ;======================================
 ground.slidetime = 16-1+(enemynear,statetype=C)*2+(enemynear,movetype=A)*4-cond(var(4)<9,var(4),9)
 ground.hittime  = 16-1+(enemynear,statetype=C)*2+(enemynear,movetype=A)*4-cond(var(4)<9,var(4),9)
@@ -12853,7 +12855,7 @@ persistent = 0
 palfx.time = (enemynear,movetype=A)*9
 palfx.add = 100,-50,-50
 kill=1
-getpower = random%30+60,random%30
+getpower = 15,7
 ;======================================
 ground.slidetime = 16-1+(enemynear,statetype=C)*2+(enemynear,movetype=A)*4-cond(var(4)<9,var(4),9)
 ground.hittime  = 16-1+(enemynear,statetype=C)*2+(enemynear,movetype=A)*4-cond(var(4)<9,var(4),9)
@@ -13033,7 +13035,7 @@ persistent = 0
 palfx.time = (enemynear,movetype=A)*9
 palfx.add = 100,-50,-50
 kill=1
-getpower = random%30+60,random%30
+getpower = 15,7
 ;======================================
 ground.slidetime = 16-1+(enemynear,statetype=C)*2+(enemynear,movetype=A)*4-cond(var(4)<9,var(4),9)
 ground.hittime  = 16-1+(enemynear,statetype=C)*2+(enemynear,movetype=A)*4-cond(var(4)<9,var(4),9)
@@ -13083,7 +13085,7 @@ persistent = 0
 palfx.time = (enemynear,movetype=A)*9
 palfx.add = 100,-50,-50
 kill=1
-getpower = random%30+60,random%30
+getpower = 15,7
 ;======================================
 ground.slidetime = 16-1+(enemynear,statetype=C)*2+(enemynear,movetype=A)*4-cond(var(4)<9,var(4),9)
 ground.hittime  = 16-1+(enemynear,statetype=C)*2+(enemynear,movetype=A)*4-cond(var(4)<9,var(4),9)
@@ -13264,7 +13266,7 @@ persistent = 0
 palfx.time = (enemynear,movetype=A)*9
 palfx.add = 100,-50,-50
 kill=1
-getpower = random%30+60,random%30
+getpower = 15,7
 ;======================================
 ground.slidetime = 16-1+(enemynear,statetype=C)*2+(enemynear,movetype=A)*4-cond(var(4)<9,var(4),9)
 ground.hittime  = 16-1+(enemynear,statetype=C)*2+(enemynear,movetype=A)*4-cond(var(4)<9,var(4),9)
@@ -13314,7 +13316,7 @@ persistent = 0
 palfx.time = (enemynear,movetype=A)*9
 palfx.add = 100,-50,-50
 kill=1
-getpower = random%30+60,random%30
+getpower = 15,7
 ;======================================
 ground.slidetime = 16-1+(enemynear,statetype=C)*2+(enemynear,movetype=A)*4-cond(var(4)<9,var(4),9)
 ground.hittime  = 16-1+(enemynear,statetype=C)*2+(enemynear,movetype=A)*4-cond(var(4)<9,var(4),9)

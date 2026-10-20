@@ -1589,7 +1589,7 @@ hitflag = MAFD
 pausetime = 1,40
 guard.pausetime = 1, 14
 ;--------------------------------------------
-getpower = 0,0
+getpower = 30,15
 givepower = 30,15
 ;--------------------------------------------
 guard.sparkno = S1
@@ -1646,7 +1646,7 @@ hitflag = MAFD
 pausetime = 1,14
 guard.pausetime = 1, 14
 ;--------------------------------------------
-getpower = 0,0
+getpower = 30,15
 givepower = 30,15
 ;--------------------------------------------
 guard.sparkno = S1
@@ -3621,7 +3621,7 @@ hitflag = MAFD
 pausetime = 8,ifelse(var(7)=1,19,14)
 guard.pausetime = 8, 14
 ;--------------------------------------------
-getpower = 0,0
+getpower = 60,30
 givepower = 30,15
 ;--------------------------------------------
 guard.sparkno = S1
@@ -3820,7 +3820,7 @@ hitflag = MAFD
 pausetime = 8,ifelse(var(7)=1,19,14)
 guard.pausetime = 8, 14
 ;--------------------------------------------
-getpower = 0,0
+getpower = 60,30
 givepower = 30,15
 ;--------------------------------------------
 guard.sparkno = S1
@@ -4141,7 +4141,7 @@ hitflag = MAFD
 pausetime = 8,ifelse(var(7)=1,19,14)
 guard.pausetime = 8, 14
 ;--------------------------------------------
-getpower = 0,0
+getpower = 10,5
 givepower = 30,15
 ;--------------------------------------------
 guard.sparkno = S1
@@ -4305,7 +4305,7 @@ hitflag = MAFD
 pausetime = 1,ifelse(var(7)=1,19,14)
 guard.pausetime = 1, 14
 ;--------------------------------------------
-getpower = 0,0
+getpower = 10,5
 givepower = 30,15
 ;--------------------------------------------
 guard.sparkno = S1
@@ -4420,7 +4420,7 @@ hitflag = MAFD
 pausetime = 1,ifelse(var(7)=1,19,14)
 guard.pausetime = 1, 14
 ;--------------------------------------------
-getpower = 0,0
+getpower = 10,5
 givepower = 30,15
 ;--------------------------------------------
 guard.sparkno = S1
@@ -4534,7 +4534,7 @@ hitflag = MAFD
 pausetime = 1,ifelse(var(7)=1,19,14)
 guard.pausetime = 1, 14
 ;--------------------------------------------
-getpower = 0,0
+getpower = 10,5
 givepower = 30,15
 ;--------------------------------------------
 guard.sparkno = S1
@@ -4681,7 +4681,7 @@ hitflag = MAFD
 pausetime = 1,ifelse(var(7)=1,19,14)
 guard.pausetime = 1, 14
 ;--------------------------------------------
-getpower = 0,0
+getpower = 10,5
 givepower = 30,15
 ;--------------------------------------------
 guard.sparkno = S1
@@ -4767,7 +4767,7 @@ hitflag = MAFD
 pausetime = 18,ifelse(var(7)=1,19,20)
 guard.pausetime = 18, 20
 ;--------------------------------------------
-getpower = 0,0
+getpower = 10,5
 givepower = 30,15
 ;--------------------------------------------
 guard.sparkno = S1
@@ -5201,7 +5201,7 @@ type     = S
 movetype = I
 physics  = N
 juggle   = 0
-poweradd = 0
+poweradd = 20
 ctrl     = 0
 anim     = 100
 facep2 = 1
@@ -5956,7 +5956,7 @@ hitflag = +MAFD
 pausetime = 1,14
 guard.pausetime = 1, 14
 ;--------------------------------------------
-getpower = 0,0
+getpower = 6,3
 givepower = 30,15
 ;--------------------------------------------
 guard.sparkno = S1
@@ -6214,7 +6214,7 @@ hitflag = +MAFD
 pausetime = 1,14
 guard.pausetime = 1, 14
 ;--------------------------------------------
-getpower = 0,0
+getpower = 6,3
 givepower = 30,15
 ;--------------------------------------------
 guard.sparkno = S1
@@ -6506,7 +6506,7 @@ hitflag = MAFD
 pausetime = 1,40
 guard.pausetime = 1, 14
 ;--------------------------------------------
-getpower = 0,0
+getpower = 6,3
 givepower = 30,15
 ;--------------------------------------------
 guard.sparkno = S1
@@ -6563,7 +6563,7 @@ hitflag = MAFD
 pausetime = 1,14
 guard.pausetime = 1, 14
 ;--------------------------------------------
-getpower = 0,0
+getpower = 6,3
 givepower = 30,15
 ;--------------------------------------------
 guard.sparkno = S1
@@ -6722,7 +6722,7 @@ hitflag = +MAFD
 pausetime = 1,14
 guard.pausetime = 1, 14
 ;--------------------------------------------
-getpower = 0,0
+getpower = 6,3
 givepower = 30,15
 ;--------------------------------------------
 guard.sparkno = S1
@@ -6867,7 +6867,7 @@ sparkno= S1
 sparkxy = -10,-40
 hitsound = s0,8
 damage = 0
-getpower = 0
+getpower = 6,3
 givepower = 0,0
 p1facing = 1
 p2facing = 1
@@ -7202,7 +7202,7 @@ hitflag = MAFD
 pausetime = 8,ifelse(var(7)=1,19,14)
 guard.pausetime = 8, 14
 ;--------------------------------------------
-getpower = 0,0
+getpower = 15,7
 givepower = 30,15
 ;--------------------------------------------
 guard.sparkno = S1
@@ -7386,7 +7386,7 @@ hitflag = MAF
 pausetime = 0,14
 guard.pausetime = 0,14
 ;--------------------------------------------
-getpower = 0,0
+getpower = 30,15
 givepower = 30,15
 ;--------------------------------------------
 guard.sparkno = S1
@@ -7659,7 +7659,7 @@ hitflag = MAF
 pausetime = 0,14
 guard.pausetime = 0,14
 ;--------------------------------------------
-getpower = 0,0
+getpower = 20,10
 givepower = 30,15
 ;--------------------------------------------
 guard.sparkno = S1
@@ -7768,7 +7768,7 @@ hitflag = MAFD
 pausetime = 12,ifelse(var(7)=1,19,14)
 guard.pausetime = 12, 14
 ;--------------------------------------------
-getpower = 0,0
+getpower = 15,7
 givepower = 30,15
 ;--------------------------------------------
 guard.sparkno = S1
@@ -8015,7 +8015,7 @@ hitflag = MAFD
 pausetime = 12,ifelse(var(7)=1,19,14)
 guard.pausetime = 12, 14
 ;--------------------------------------------
-getpower = 0,0
+getpower = 30,15
 givepower = 30,15
 ;--------------------------------------------
 guard.sparkno = S1
@@ -8268,7 +8268,7 @@ hitflag = MAFD
 pausetime = 12,ifelse(var(7)=1,19,14)
 guard.pausetime = 12, 14
 ;--------------------------------------------
-getpower = 0,0
+getpower = 20,10
 givepower = 30,15
 ;--------------------------------------------
 guard.sparkno = S1
@@ -8369,7 +8369,7 @@ hitflag = MAFD
 pausetime = 12,ifelse(var(7)=1,19,14)
 guard.pausetime = 12, 14
 ;--------------------------------------------
-getpower = 0,0
+getpower = 20,10
 givepower = 30,15
 ;--------------------------------------------
 guard.sparkno = S1
@@ -8482,7 +8482,7 @@ sparkno= S1
 sparkxy = -10,-40
 hitsound = s0,8
 damage = 0
-getpower = 0
+getpower = 60,30
 givepower = 0,0
 p1facing = 1
 p2facing = 1
@@ -8889,7 +8889,7 @@ sparkno= S1
 sparkxy = -10,-40
 hitsound = s0,8
 damage = 0
-getpower = 0
+getpower = 60,30
 givepower = 0,0
 p1facing = 1
 p2facing = 1
@@ -9299,7 +9299,7 @@ hitflag = MAFD
 pausetime = 2,ifelse(var(7)=1,19,14)
 guard.pausetime = 2, 2
 ;--------------------------------------------
-getpower = 0,0
+getpower = 8,4
 givepower = 30,15
 ;--------------------------------------------
 guard.sparkno = S1
@@ -9557,7 +9557,7 @@ hitflag = MAFD
 pausetime = 0,5
 guard.pausetime = 0,5
 ;--------------------------------------------
-getpower = 0,0
+getpower = 8,4
 givepower = 30,15
 ;--------------------------------------------
 guard.sparkno = S1
@@ -9622,7 +9622,7 @@ hitflag = MAFD
 pausetime = 0,5
 guard.pausetime = 0,5
 ;--------------------------------------------
-getpower = 0,0
+getpower = 8,4
 givepower = 30,15
 ;--------------------------------------------
 guard.sparkno = S1
@@ -9680,7 +9680,7 @@ hitflag = MAFD
 pausetime = 0,5
 guard.pausetime = 0,5
 ;--------------------------------------------
-getpower = 0,0
+getpower = 8,4
 givepower = 30,15
 ;--------------------------------------------
 guard.sparkno = S1
@@ -9739,7 +9739,7 @@ hitflag = MAFD
 pausetime = 12,14
 guard.pausetime = 12,14
 ;--------------------------------------------
-getpower = 0,0
+getpower = 8,4
 givepower = 30,15
 ;--------------------------------------------
 guard.sparkno = S1
@@ -9897,7 +9897,7 @@ hitflag = MAFD
 pausetime = 0,5
 guard.pausetime = 0,5
 ;--------------------------------------------
-getpower = 0,0
+getpower = 8,4
 givepower = 30,15
 ;--------------------------------------------
 guard.sparkno = S1
@@ -9955,7 +9955,7 @@ hitflag = MAFD
 pausetime = 12,14
 guard.pausetime = 12,14
 ;--------------------------------------------
-getpower = 0,0
+getpower = 8,4
 givepower = 30,15
 ;--------------------------------------------
 guard.sparkno = S1
@@ -10421,7 +10421,7 @@ hitflag = MAFD
 pausetime = 1,16
 guard.pausetime = 1, 14
 ;--------------------------------------------
-getpower = 0,0
+getpower = 60,30
 givepower = 30,15
 ;--------------------------------------------
 guard.sparkno = S1

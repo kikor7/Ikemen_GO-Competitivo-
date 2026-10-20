@@ -10,6 +10,7 @@ pal.defaults = 4      ;Default palettes in order of preference
 
 ; Files for the player
 [Files]
+movelist = movelist.dat
 cmd     = Jin_MC.cmd   ;Command set
 cns     = Jin_MC_0.cns   ;Constants
 st      = Jin_MC_1.cns   ;States

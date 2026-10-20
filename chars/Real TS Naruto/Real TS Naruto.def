@@ -12,6 +12,7 @@ author = "REAL MUGEN"
 pal.defaults = 1
 
 [Files]
+movelist = movelist.dat
 sprite = Naruto.sff
 anim = Naruto.air
 sound = Naruto.snd

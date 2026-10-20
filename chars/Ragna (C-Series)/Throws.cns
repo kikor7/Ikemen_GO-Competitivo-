@@ -19,6 +19,7 @@ channel = 0
 
 [State Hit, 1]
 type = HitDef
+getpower = 60,30
 trigger1 = animelem = 3
 attr = S,SA
 hitflag = MF
@@ -242,6 +243,7 @@ channel = 0
 
 [State Hit, 1]
 type = HitDef
+getpower = 60,30
 trigger1 = animelem = 3
 attr = S,ST
 hitflag = MF
@@ -524,6 +526,7 @@ sprpriority = 2
 
 [State Hit, 1]
 type = HitDef
+getpower = 60,30
 trigger1 = animelem = 3
 attr = A,NT
 hitflag = AF
@@ -918,6 +921,7 @@ ignorehitpause =0
 
 [State 800, 1]
 type = HitDef
+getpower = 30,15
 trigger1 = animelem = 3
 attr = A, NT          
 hitflag = AFD     
@@ -973,6 +977,7 @@ TRIGGERALL = Var(20) <= 2
 trigger1 = animelem = 10
 attr = A, NT
 damage = 80
+getpower = 30,15
 hitflag = MAFD
 guardflag = 
 priority = 4
@@ -999,6 +1004,7 @@ TRIGGERALL = Var(20) >= 3
 trigger1 = animelem = 10
 attr = A, NT
 damage = 111.2
+getpower = 30,15
 hitflag = MAFD
 guardflag = 
 priority = 4

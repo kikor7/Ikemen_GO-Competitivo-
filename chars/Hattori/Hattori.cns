@@ -662,7 +662,7 @@ juggle  = 1
 velset = 0,0
 ctrl = 0
 anim = 200
-poweradd = 20
+poweradd = 0
 sprpriority = 2
 
 [State 0, PlaySnd]
@@ -676,6 +676,7 @@ type = HitDef
 trigger1 = Time = 0
 attr = S, NA
 damage = 33, 0
+getpower = 7,3
 animtype = Light
 guardflag = MA
 hitflag = MAF
@@ -718,7 +719,7 @@ juggle  = 1
 velset = 0,0
 ctrl = 0
 anim = 201
-poweradd = 20
+poweradd = 0
 sprpriority = 2
 
 [State 0, PlaySnd]
@@ -732,6 +733,7 @@ type = HitDef
 trigger1 = Time = 0
 attr = S, NA
 damage = 33, 0
+getpower = 7,3
 animtype = Light
 guardflag = MA
 hitflag = MAF
@@ -774,7 +776,7 @@ juggle  = 1
 velset = 0,0
 ctrl = 0
 anim = 202
-poweradd = 20
+poweradd = 0
 sprpriority = 2
 
 [State 0, PlaySnd]
@@ -788,6 +790,7 @@ type = HitDef
 trigger1 = Time = 0
 attr = S, NA
 damage = 36, 0
+getpower = 7,3
 animtype = Medium
 guardflag = MA
 hitflag = MAF
@@ -830,7 +833,7 @@ juggle  = 1
 velset = 3,0
 ctrl = 0
 anim = 203
-poweradd = 20
+poweradd = 0
 sprpriority = 2
 
 [State 0, PlaySnd]
@@ -844,6 +847,7 @@ type = HitDef
 trigger1 = Time = 0
 attr = S, NA
 damage = 39, 0
+getpower = 7,3
 animtype = Hard
 guardflag = L
 hitflag = MAFD
@@ -877,7 +881,7 @@ type    = C
 movetype= A
 physics = C
 juggle  = 5
-poweradd= 15
+poweradd= 0
 ctrl = 0
 anim = 400
 
@@ -892,6 +896,7 @@ type = HitDef
 trigger1 = Time = 0
 attr = C, NA
 damage = 39, 0
+getpower = 30,15
 animtype = Hard
 guardflag = L
 hitflag = MAFD
@@ -928,7 +933,7 @@ type    = A
 movetype= A
 physics = A
 juggle  = 2
-poweradd= 11
+poweradd= 0
 ctrl = 0
 anim = 600
 
@@ -943,6 +948,7 @@ type = HitDef
 trigger1 = Time = 0
 attr = C, NA
 damage = 34, 0
+getpower = 30,15
 animtype = Medium
 guardflag = H
 hitflag = MAFD
@@ -973,6 +979,7 @@ value = 1
 ; Mini Shuriken
 [Statedef 800]
 type    = S
+poweradd = 20
 movetype= A
 physics = S
 juggle  = 0
@@ -999,6 +1006,7 @@ offset = 37,-54
 velocity = 5.1
 attr = S, SP
 damage   = 48,4
+getpower = 30,15
 animtype = heavy
 guardflag = MA
 hitflag = MA

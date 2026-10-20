@@ -1,0 +1,21 @@
+<#f0f000>:Special Moves:</>
+Un Ya Un Un Kan Kan			_DSB^X_+^Y
+Un Ya Un Un Kan Kan			_DSB^A_+^B
+Un Ya Un Un Kan Kan			_DSF^X_+^Y
+Un Ya Un Un Kan Kan			_DSF^A_+^B
+Un I Kan O Kan Kan Kan Shi Un O Un Un Kan U			_HCB^A
+Un I Kan O Kan Kan Kan Shi Un O Un Un Kan U			_HCB^B
+Un I Kan O Kan Kan Kan Shi Un O Un Un Kan U			_HCB^C
+Un Un Un Ya Kan Ya Un Ke			_DSF^A
+Un Un Un Ya Kan Ya Un Ke			_DSF^B
+Un Un Un Ya Kan Ya Un Ke			_DSF^C
+Kan Mon O Kan O			_QCB^X
+Kan Mon O Kan O			_QCB^Y
+Kan Mon O Kan O			_QCB^Z
+Kan U Un Wo Kan Kan			_QCF^X
+Un Ke Kan I Lambda Un Ke			_QCF^Y
+Un Un Kan U Kan Ga Lambda Un Ke			_QCF^Z
+
+<#f0f000>:Hyper Moves:</>
+Kanae Kawa Shi Ki Kou Kou Nochi Nu Un Ki Kan Suke I Kan Shi Rui Kou Kou Type Changestate Type Changestatevalue 3000 Type Changestatevalue 3000Triggerall Command 2363214Ppp Type Changestatevalue 3000Triggerall Command 2363214Ppp Triggerall Statetype A Atriggerall 0 Var 0 Life Lifemax 0 35 1 Power 3000 Trigger1 Ctrl Trigger1 Ctrl Trigger2 Stateno 200 Time 8 Trigger1 Ctrl Trigger2 Stateno 200 Time 8Trigger3 Stateno 202 Time 10 Trigger1 Ctrl Trigger2 Stateno 200 Time 8Trigger3 Stateno 202 Time 10Trigger4 Stateno 203 Time 16 Trigger1 Ctrl Trigger2 Stateno 200 Time 8Trigger3 Stateno 202 Time 10Trigger4 Stateno 203 Time 16Trigger5 Stateno 210 Time 10 Trigger1 Ctrl Trigger2 Stateno 200 Time 8Trigger3 Stateno 202 Time 10Trigger4 Stateno 203 Time 16Trigger5 Stateno 210 Time 10Trigger6 Stateno 212 Time 16 Trigger1 Ctrl Trigger2 Stateno 200 Time 8Trigger3 Stateno 202 Time 10Trigger4 Stateno 203 Time 16Trigger5 Stateno 210 Time 10Trigger6 Stateno 212 Time 16Trigger7 Stateno 213 Time 13 Trigger1 Ctrl Trigger2 Stateno 200 Time 8Trigger3 Stateno 202 Time 10Trigger4 Stateno 203 Time 16Trigger5 Stateno 210 Time 10Trigger6 Stateno 212 Time 16Trigger7 Stateno 213 Time 13Trigger8 Stateno 301 Time 8 Trigger1 Ctrl Trigger2 Stateno 200 Time 8Trigger3 Stateno 202 Time 10Trigger4 Stateno 203 Time 16Trigger5 Stateno 210 Time 10Trigger6 Stateno 212 Time 16Trigger7 Stateno 213 Time 13Trigger8 Stateno 301 Time 8Trigger9 Stateno 303 Time 13 Trigger1 Ctrl Trigger2 Stateno 200 Time 8Trigger3 Stateno 202 Time 10Trigger4 Stateno 203 Time 16Trigger5 Stateno 210 Time 10Trigger6 Stateno 212 Time 16Trigger7 Stateno 213 Time 13Trigger8 Stateno 301 Time 8Trigger9 Stateno 303 Time 13Trigger10 Stateno 810 Time 10 Trigger1 Ctrl Trigger2 Stateno 200 Time 8Trigger3 Stateno 202 Time 10Trigger4 Stateno 203 Time 16Trigger5 Stateno 210 Time 10Trigger6 Stateno 212 Time 16Trigger7 Stateno 213 Time 13Trigger8 Stateno 301 Time 8Trigger9 Stateno 303 Time 13Trigger10 Stateno 810 Time 10 Trigger1 Ctrl Trigger2 Stateno 200 Time 8Trigger3 Stateno 202 Time 10Trigger4 Stateno 203 Time 16Trigger5 Stateno 210 Time 10Trigger6 Stateno 212 Time 16Trigger7 Stateno 213 Time 13Trigger8 Stateno 301 Time 8Trigger9 Stateno 303 Time 13Trigger10 Stateno 810 Time 10 Trigger1 Ctrl Trigger2 Stateno 200 Time 8Trigger3 Stateno 202 Time 10Trigger4 Stateno 203 Time 16Trigger5 Stateno 210 Time 10Trigger6 Stateno 212 Time 16Trigger7 Stateno 213 Time 13Trigger8 Stateno 301 Time 8Trigger9 Stateno 303 Time 13Trigger10 Stateno 810 Time 10 - Zatsu Zatsu Shun Shun Kei Ko Shi Shi ------------------------------------------------------------------ ------------------------------------------------------------------ ------------------------------------------------------------------ State -1 Kan E Kan Shita U Un Un Un O Kan U <#f00000>(1000)</>			_QCF_QCF^A
+Un Un Kan Shita Ra Kan U <#f00000>(1000)</>			_QCF_QCF^X

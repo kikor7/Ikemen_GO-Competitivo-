@@ -1384,7 +1384,7 @@ type    = S
 movetype= A
 physics = S
 juggle  = 4
-poweradd= 65
+poweradd= 0
 ctrl = 0
 velset = 0,0
 anim = 220
@@ -1413,6 +1413,7 @@ trigger1 = AnimElem = 6
 attr = S, NA
 animtype  = Hard
 damage    = 42
+getpower = 15,7
 guardflag = MA
 pausetime = 5,2
 sparkno = 1
@@ -1431,6 +1432,7 @@ trigger1 = AnimElem = 9
 attr = S, NA
 animtype  = Hard
 damage    = 60
+getpower = 15,7
 guardflag = MAF
 pausetime = 5,3
 sparkno = 3
@@ -1710,7 +1712,7 @@ type    = S
 movetype= A
 physics = S
 juggle  = 4
-poweradd= 22
+poweradd= 0
 ctrl = 0
 velset = 0,0
 anim = 250
@@ -1732,6 +1734,7 @@ trigger1 = Time = 0
 attr = S, NA
 animtype  = Hard
 damage    = 70
+getpower = 30,15
 guardflag = MA
 pausetime = 12,12
 sparkno = 3
@@ -1779,7 +1782,7 @@ trigger1 = AnimElem = 2
 attr = C, NA
 animtype = Light
 damage    = ifelse(Var(39)=1,21,14)
-getpower = 72,36
+getpower = 30,15
 givepower = 36
 guardflag = M
 hitflag = MAF
@@ -1837,7 +1840,7 @@ trigger1 = AnimElem = 4
 attr = C, NA
 animtype = Medium
 damage    = ifelse(Var(39)=1,84,77)
-getpower = 144,36
+getpower = 30,15
 givepower = 36
 guardflag = M
 hitflag = MAF
@@ -1876,7 +1879,7 @@ physics = C
 juggle  = 4
 ctrl = 0
 anim = 420
-poweradd = 55
+poweradd = 0
 sprpriority = 2
 
 [State 200, PlaySnd]
@@ -1900,6 +1903,7 @@ type = HitDef
 trigger1 = AnimElem = 4
 attr = C,NA
 damage = 65,3
+getpower = 30,15
 animtype = Hard
 guardflag = MA
 hitflag = MAF
@@ -1953,7 +1957,7 @@ trigger1 = AnimElem = 2
 attr = C, NA
 animtype = Light
 damage    = ifelse(Var(39)=1,21,14)
-getpower = 72,36
+getpower = 30,15
 givepower = 36
 guardflag = L
 hitflag = MAF
@@ -2027,7 +2031,7 @@ type = HitDef
 trigger1 = AnimElem = 3
 attr = C, NA
 damage    = ifelse(Var(39)=1,77,70)
-getpower = 144,36
+getpower = 30,15
 givepower = 36
 animtype = Hard
 hitflag = MAF
@@ -2065,7 +2069,7 @@ physics = C
 juggle  = 4
 ctrl = 0
 anim = 450
-poweradd = 55
+poweradd = 0
 sprpriority = 2
 
 [State 450, PlaySnd]
@@ -2082,6 +2086,7 @@ type = HitDef
 trigger1 = time = 0
 attr = C,NA
 damage = 45,1
+getpower = 30,15
 animtype = High
 hitflag = MA
 guardflag = L
@@ -2133,7 +2138,7 @@ trigger1 = AnimElem = 2
 attr = A, NA
 animtype = Light
 damage    = ifelse(Var(39)=1,42,28)
-getpower = 72,36
+getpower = 30,15
 givepower = 36
 guardflag = HA
 hitflag = MAF
@@ -2196,7 +2201,7 @@ trigger2 = AnimElem = 5
 attr = A, NA
 animtype = Hard
 damage    = ifelse(Var(39)=1,77,70)
-getpower = 134,36
+getpower = 30,15
 givepower = 36
 guardflag = HA
 hitflag = MAF
@@ -2261,7 +2266,7 @@ trigger1 = AnimElem = 4
 attr = A, NA
 animtype = Hard
 damage   = 87,10
-getpower = 134,36
+getpower = 30,15
 givepower = 36
 guardflag = HA
 hitflag = MAF
@@ -2309,7 +2314,7 @@ trigger1 = AnimElem = 2
 attr = A, NA
 animtype = Light
 damage    = ifelse(Var(39)=1,49,35)
-getpower = 72,36
+getpower = 30,15
 givepower = 36
 guardflag = HA
 hitflag = MAF
@@ -2375,7 +2380,7 @@ trigger4 = AnimElem = 8
 attr = A, NA
 animtype = Hard
 damage    = ifelse(Var(39)=1,47,40)
-getpower = 144,36
+getpower = 30,15
 givepower = 36
 guardflag = HA
 hitflag = MAF
@@ -2417,7 +2422,7 @@ type    = A
 movetype= A
 physics = A
 juggle  = 8
-poweradd= 65
+poweradd= 0
 ctrl = 0
 anim = 650
 sprpriority = 2
@@ -2460,6 +2465,7 @@ type = HitDef
 trigger1 = animelem = 4
 attr = A, NA
 damage    = 80
+getpower = 30,15
 guardflag = HA
 priority = 4
 pausetime = 9,9
@@ -2518,7 +2524,7 @@ trigger1 = AnimElem = 6
 attr = S, NA
 animtype = Hard
 damage    = ifelse(Var(39)=1,70,63)
-getpower = 144,36
+getpower = 60,30
 givepower = 36
 guardflag = H
 hitflag = MAF
@@ -2575,7 +2581,7 @@ trigger1 = AnimElem = 2
 attr = A, NA
 animtype = Light
 damage    = ifelse(Var(39)=1,35,28)
-getpower = 144,36
+getpower = 60,30
 givepower = 36
 guardflag = H
 hitflag = MAF
@@ -2636,7 +2642,7 @@ trigger1 = moveguarded < 1
 attr = S, NA
 animtype = Hard
 damage    = 8,2
-getpower = 14,6
+getpower = 60,30
 givepower = 16
 guardflag = H
 hitflag = MAF
@@ -2683,7 +2689,7 @@ trigger1 = P2MoveType != H
 trigger1 = P2StateNo != [150,155]
 attr = S, NT
 priority = 3,Miss
-getpower = 0
+getpower = 60,30
 hitflag = M-
 numhits = 1
 sparkno = -1
@@ -2730,7 +2736,7 @@ trigger1 = P2MoveType != H
 trigger1 = P2StateNo != [150,155]
 attr = S, NT
 priority = 3,Miss
-getpower = 0
+getpower = 60,30
 hitflag = M-
 numhits = 1
 sparkno = -1

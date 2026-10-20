@@ -2556,6 +2556,7 @@ type=HitDef
 trigger1=!movecontact&&(enemy,TeamMode=single ||enemy,TeamMode=turns)
 attr=A,HA
 damage=0,0
+getpower = 15,7
 animtype=back
 guardflag=M
 hitflag=MAFD
@@ -2582,6 +2583,7 @@ type=HitDef
 trigger1=!movecontact&&enemy,TeamMode=simul
 attr=A,HA
 damage=0,0
+getpower = 15,7
 animtype=back
 guardflag=H
 hitflag=MAFD
@@ -2916,6 +2918,7 @@ type=HitDef
 trigger1=!movecontact&&(enemy,TeamMode=single ||enemy,TeamMode=turns)
 attr=A,HA
 damage=0,0
+getpower = 15,7
 animtype=back
 guardflag=M
 hitflag=MAFD
@@ -2942,6 +2945,7 @@ type=HitDef
 trigger1=!movecontact&&enemy,TeamMode=simul
 attr=A,HA
 damage=0,0
+getpower = 15,7
 animtype=back
 guardflag=H
 hitflag=MAFD
@@ -4012,6 +4016,7 @@ ctrl=1
 ;シャイニールミナス呼び出し
 [Statedef 1401]
 type=S
+poweradd = 20
 movetype=I
 physics=S
 ctrl=0
@@ -5275,7 +5280,7 @@ fall.recover=ifelse(var(6)=2||var(7)=2||var(8)=2||palno=12,0,1)
 ground.velocity=-4,-8
 air.velocity=-4,-8
 yaccel=.48
-getpower=0,0
+getpower = 60,30
 guard.dist=0
 hitonce=1
 
@@ -6212,7 +6217,7 @@ movetype=A
 physics=S
 velset=0,0
 ctrl=0
-poweradd=21
+poweradd=0
 sprpriority=2
 anim=19202
 
@@ -6292,7 +6297,7 @@ movetype=A
 physics=C
 velset=0,0
 ctrl=0
-poweradd=21
+poweradd=0
 anim=19212
 
 [State ]
@@ -6371,7 +6376,7 @@ type=A
 movetype=A
 physics=N
 ctrl=0
-poweradd=21
+poweradd=0
 anim=19222
 
 [State ]

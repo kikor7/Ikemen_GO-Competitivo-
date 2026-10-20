@@ -2086,7 +2086,7 @@ trigger1 = var(25) = 0
 trigger1 = AnimElem = 3
 attr = S, NA
 damage = 27, 0
-getpower  = 13,6
+getpower = 30,15
 givepower = 6, 0
 animtype = Light
 guardflag = MA
@@ -2116,7 +2116,7 @@ trigger1 = var(25) = 1
 trigger1 = AnimElem = 3
 attr = S, NA
 damage = 27, 0
-getpower  = 0
+getpower = 30,15
 givepower = 6, 0
 animtype = Light
 guardflag = MA
@@ -2200,7 +2200,7 @@ trigger1 = AnimElem = 5
 attr = S, NA
 animtype  = Medium
 damage    = 70
-getpower  = 35,17
+getpower = 60,30
 givepower = 17, 0
 guardflag = M
 pausetime = 14,14
@@ -2229,7 +2229,7 @@ trigger1 = AnimElem = 5
 attr = S, NA
 animtype  = Medium
 damage    = 70
-getpower  = 0
+getpower = 60,30
 givepower = 17, 0
 guardflag = M
 pausetime = 14,14
@@ -2302,7 +2302,7 @@ trigger1 = time = 4
 attr = S, NA
 animtype  = Medium
 damage    = 50
-getpower  = 25,12
+getpower = 30,15
 givepower = 12, 0
 guardflag = MA
 pausetime = 10,10
@@ -2329,7 +2329,7 @@ trigger1 = time = 4
 attr = S, NA
 animtype  = Medium
 damage    = 50
-getpower  = 0
+getpower = 30,15
 givepower = 12, 0
 guardflag = MA
 pausetime = 10,10
@@ -2510,7 +2510,7 @@ trigger1 = (!movecontact && !movereversed)
 attr = S, NA
 animtype  = Hard
 damage    = 60
-getpower  = 30,15
+getpower = 15,7
 givepower = 15, 0
 guardflag = LA
 pausetime = 15,15
@@ -2545,7 +2545,7 @@ trigger1 = (!movecontact && !movereversed)
 attr = S, NA
 animtype  = Hard
 damage    = 60
-getpower  = 30,15
+getpower = 15,7
 givepower = 15, 0
 guardflag = LA
 pausetime = 15,15
@@ -2578,7 +2578,7 @@ trigger1 = AnimElemTime(6) = 0
 attr = S, NA
 animtype  = Hard
 damage    = 60
-getpower  = 0
+getpower = 15,7
 givepower = 15, 0
 guardflag = LA
 pausetime = 15,15
@@ -2614,7 +2614,7 @@ trigger1 = (!movecontact && !movereversed) || var(28) != 0
 attr = S, NA
 animtype  = Hard
 damage    = 60
-getpower  = 30,15
+getpower = 15,7
 givepower = 15, 0
 guardflag = LA
 pausetime = 15,15
@@ -2653,7 +2653,7 @@ trigger1 = (!movecontact && !movereversed) || var(28) != 0
 attr = S, NA
 animtype  = Hard
 damage    = 60
-getpower  = 30,15
+getpower = 15,7
 givepower = 15, 0
 guardflag = LA
 pausetime = 15,15
@@ -2690,7 +2690,7 @@ trigger1 = AnimElemTime(8) = 0
 attr = S, NA
 animtype  = Hard
 damage    = 60
-getpower  = 0
+getpower = 15,7
 givepower = 15, 0
 guardflag = LA
 pausetime = 15,15
@@ -2801,7 +2801,7 @@ trigger1 = AnimElem = 4
 attr = S, NA
 animtype  = Medium
 damage    = 65
-getpower  = 32,16
+getpower = 30,15
 givepower = 16, 0
 guardflag = MA
 pausetime = 12,12
@@ -2837,7 +2837,7 @@ trigger1 = AnimElem = 4
 attr = S, NA
 animtype  = Medium
 damage    = 65
-getpower  = 0
+getpower = 30,15
 givepower = 16, 0
 guardflag = MA
 pausetime = 12,12
@@ -2921,7 +2921,7 @@ trigger1 = AnimElem = 4
 attr = S, NA
 animtype  = Hard
 damage    = 65
-getpower  = 32,16
+getpower = 30,15
 givepower = 16, 0
 guardflag = MA
 pausetime = 12,12
@@ -2951,7 +2951,7 @@ trigger1 = AnimElem = 4
 attr = S, NA
 animtype  = Hard
 damage    = 65
-getpower  = 0
+getpower = 30,15
 givepower = 16, 0
 guardflag = MA
 pausetime = 12,12
@@ -3045,7 +3045,7 @@ trigger1 = AnimElem = 4
 attr = S, NA
 animtype  = Hard
 damage    = 70
-getpower  = 35,17
+getpower = 60,30
 givepower = 17, 0
 guardflag = MA
 pausetime = 12,12
@@ -3081,7 +3081,7 @@ trigger1 = AnimElem = 4
 attr = S, NA
 animtype  = Hard
 damage    = 70
-getpower  = 0
+getpower = 60,30
 givepower = 17, 0
 guardflag = MA
 pausetime = 12,12
@@ -3240,7 +3240,7 @@ trigger1 = AnimElem = 4
 attr = S, NA
 animtype  = Hard
 damage    = 65
-getpower  = 32,16
+getpower = 60,30
 givepower = 16, 0
 guardflag = MA
 pausetime = 12,12
@@ -3277,7 +3277,7 @@ trigger1 = AnimElem = 4
 attr = S, NA
 animtype  = Hard
 damage    = 65
-getpower  = 0
+getpower = 60,30
 givepower = 16, 0
 guardflag = MA
 pausetime = 12,12
@@ -3355,7 +3355,7 @@ trigger1 = AnimElem = 4
 attr = S, NA
 animtype  = Hard
 damage    = 75
-getpower  = 38,19
+getpower = 30,15
 givepower = 19, 0
 guardflag = MA
 pausetime = 12,12
@@ -3385,7 +3385,7 @@ trigger1 = AnimElem = 4
 attr = S, NA
 animtype  = Hard
 damage    = 75
-getpower  = 0
+getpower = 30,15
 givepower = 19, 0
 guardflag = MA
 pausetime = 12,12
@@ -3476,7 +3476,7 @@ trigger1 = AnimElem = 4
 attr = S, NA
 animtype  = up
 damage    = 72
-getpower  = 36,18
+getpower = 60,30
 givepower = 18, 0
 guardflag = MA
 pausetime = 12,12
@@ -3511,7 +3511,7 @@ trigger1 = AnimElem = 4
 attr = S, NA
 animtype  = up
 damage    = 72
-getpower  = 0
+getpower = 60,30
 givepower = 18, 0
 guardflag = MA
 pausetime = 12,12
@@ -3612,7 +3612,7 @@ trigger1 = (!movecontact && !movereversed)
 attr = S, NA
 animtype  = Hard
 damage    = 90
-getpower  = 36,18
+getpower = 60,30
 givepower = 18, 0
 guardflag = MA
 pausetime = 15,15
@@ -3645,7 +3645,7 @@ trigger1 = (!movecontact && !movereversed)
 attr = S, NA
 animtype  = Hard
 damage    = 90
-getpower  = 36,18
+getpower = 60,30
 givepower = 18, 0
 guardflag = MA
 pausetime = 15,15
@@ -3676,7 +3676,7 @@ trigger1 = (!movecontact && !movereversed)
 attr = S, NA
 animtype  = Hard
 damage    = 90
-getpower  = 0
+getpower = 60,30
 givepower = 18, 0
 guardflag = MA
 pausetime = 15,15
@@ -3749,7 +3749,7 @@ trigger1 = var(25) = 0
 trigger1 = AnimElem = 3
 attr = C, NA
 damage    = 22
-getpower  = 11,5
+getpower = 30,15
 givepower = 5, 0
 priority  = 3
 animtype  = Light
@@ -3778,7 +3778,7 @@ trigger1 = var(25) = 1
 trigger1 = AnimElem = 3
 attr = C, NA
 damage    = 22
-getpower  = 0
+getpower = 30,15
 givepower = 5, 0
 priority  = 3
 animtype  = Light
@@ -3855,7 +3855,7 @@ trigger1 = var(25) = 0
 trigger1 = AnimElem = 3
 attr = C, NA
 damage    = 40
-getpower  = 20,10
+getpower = 30,15
 givepower = 10, 0
 animtype  = Medium
 guardflag = LA
@@ -3883,7 +3883,7 @@ trigger1 = var(25) = 1
 trigger1 = AnimElem = 3
 attr = C, NA
 damage    = 40
-getpower  = 0
+getpower = 30,15
 givepower = 10, 0
 animtype  = Medium
 guardflag = LA
@@ -3962,7 +3962,7 @@ trigger1 = var(25) = 0
 trigger1 = AnimElem = 4
 attr = C, NA
 damage    = 62
-getpower  = 34,17
+getpower = 30,15
 givepower = 17, 0
 animtype  = Hard
 guardflag = MA
@@ -3997,7 +3997,7 @@ trigger1 = var(25) = 1
 trigger1 = AnimElem = 4
 attr = C, NA
 damage    = 62
-getpower  = 0
+getpower = 30,15
 givepower = 17, 0
 animtype  = Hard
 guardflag = MA
@@ -4074,7 +4074,7 @@ trigger1 = var(25) = 0
 trigger1 = AnimElem = 5
 attr = C, NA
 damage    = 74
-getpower  = 37,18
+getpower = 30,15
 givepower = 18, 0
 hitflag = MAF
 guardflag = LA
@@ -4106,7 +4106,7 @@ trigger1 = var(25) = 1
 trigger1 = AnimElem = 5
 attr = C, NA
 damage    = 74
-getpower  = 0
+getpower = 30,15
 givepower = 18, 0
 hitflag = MAF
 guardflag = LA
@@ -4577,7 +4577,7 @@ trigger1 = var(25) = 0
 trigger1 = AnimElem = 3
 attr = A, NA
 damage    = 20
-getpower  = 10,5
+getpower = 30,15
 givepower = 5, 0
 guardflag = HA
 priority = 3
@@ -4605,7 +4605,7 @@ trigger1 = AnimElem = 3
 attr = A, NA
 damage    = 20
 givepower = 5, 0
-getpower  = 0
+getpower = 30,15
 guardflag = HA
 priority = 3
 pausetime = 7,7
@@ -4666,7 +4666,7 @@ trigger1 = var(25) = 0
 trigger1 = AnimElem = 4
 attr = A, NA
 damage = 44
-getpower  = 22,11
+getpower = 30,15
 givepower = 11, 0
 guardflag = HA
 priority = 4
@@ -4694,7 +4694,7 @@ trigger1 = var(25) = 1
 trigger1 = AnimElem = 4
 attr = A, NA
 damage = 44
-getpower  = 0
+getpower = 30,15
 givepower = 11, 0
 guardflag = HA
 priority = 4
@@ -4774,7 +4774,7 @@ trigger1 = var(25) = 0
 trigger1 = AnimElem = 3
 attr = A, NA
 damage = 60
-getpower  = 22,11
+getpower = 60,30
 givepower = 11, 0
 guardflag = HA
 priority = 4
@@ -4805,7 +4805,7 @@ trigger1 = var(25) = 1
 trigger1 = AnimElem = 3
 attr = A, NA
 damage = 60
-getpower  = 0
+getpower = 60,30
 givepower = 11, 0
 guardflag = HA
 priority = 4
@@ -4889,7 +4889,7 @@ trigger1 = AnimElem = 4
 attr = A, NA
 animtype  = Hard
 damage = 66
-getpower  = 33,16
+getpower = 30,15
 givepower = 16, 0
 guardflag = HA
 priority = 3
@@ -4926,7 +4926,7 @@ trigger1 = AnimElem = 4
 attr = A, NA
 animtype  = Hard
 damage = 66
-getpower  = 0
+getpower = 30,15
 givepower = 16, 0
 guardflag = HA
 priority = 3
@@ -5030,7 +5030,7 @@ trigger1 = (!movecontact && !movereversed)
 attr = A, NA
 animtype  = Hard
 damage    = 74
-getpower  = 37,18
+getpower = 30,15
 givepower = 18, 0
 guardflag = HA
 priority = 4
@@ -5069,7 +5069,7 @@ trigger1 = (!movecontact && !movereversed)
 attr = A, NA
 animtype  = Hard
 damage    = 74
-getpower  = 37,18
+getpower = 30,15
 givepower = 18, 0
 guardflag = HA
 priority = 4
@@ -5107,7 +5107,7 @@ trigger1 = (!movecontact && !movereversed)
 attr = A, NA
 animtype  = Hard
 damage    = 74
-getpower  = 0
+getpower = 30,15
 givepower = 18, 0
 guardflag = HA
 priority = 4
@@ -5206,7 +5206,7 @@ trigger1 = (!movecontact && !movereversed)
 attr = A, NA
 animtype  = Hard
 damage    = 70
-getpower  = 35,17
+getpower = 60,30
 givepower = 17, 0
 guardflag = HA
 priority = 4
@@ -5239,7 +5239,7 @@ trigger1 = (!movecontact && !movereversed)
 attr = A, NA
 animtype  = Hard
 damage    = 70
-getpower  = 35,17
+getpower = 60,30
 givepower = 17, 0
 guardflag = HA
 priority = 4
@@ -5272,7 +5272,7 @@ trigger1 = (!movecontact && !movereversed)
 attr = A, NA
 animtype  = Hard
 damage    = 70
-getpower  = 0
+getpower = 60,30
 givepower = 17, 0
 guardflag = HA
 priority = 4
@@ -6061,6 +6061,7 @@ sprpriority = 2
 
 [State 800, ヒット定義（投げ用）]
 type = HitDef
+getpower = 60,30
 Trigger1 = Time = 0
 trigger1 = var(27) != [1,5]
 attr = S, NT
@@ -6089,7 +6090,7 @@ type    = S
 movetype= A
 physics = N
 anim = 810
-poweradd = 60
+poweradd = 0
 
 [State 810, 音を鳴らす]
 type = PlaySnd
@@ -6241,6 +6242,7 @@ sprpriority = 2
 
 [State 830, ヒット定義（投げ用）]
 type = HitDef
+getpower = 60,30
 Trigger1 = Time = 0
 trigger1 = var(27) != [1,5]
 attr = A, NT
@@ -6271,7 +6273,7 @@ physics = N
 
 velset = 0,0
 anim = 840
-poweradd = 60
+poweradd = 0
 
 [State 840, 掴んだ相手の位置1]
 type = TargetBind
@@ -6500,7 +6502,7 @@ trigger1 = AnimElem = 8
 attr = S, SA
 animtype  = Hard
 damage    = 60,3
-getpower  = 35,17
+getpower = 15,7
 givepower = 17, 0
 guardflag = MA
 pausetime = 12,12
@@ -6536,7 +6538,7 @@ trigger1 = AnimElem = 8
 attr = S, NA
 animtype  = Hard
 damage    = 60,3
-getpower  = 0
+getpower = 15,7
 givepower = 17, 0
 guardflag = MA
 pausetime = 12,12
@@ -6571,6 +6573,7 @@ type = Projectile
 trigger1 = AnimElemTime(9) = 0
 attr = S, SP
 damage = 100,9
+getpower = 15,7
 animtype = Hard
 pausetime = 0,15
 offset = 50,-60
@@ -6844,7 +6847,7 @@ trigger1 = var(25) = 0
 attr = A, SA
 animtype  = up
 damage    = ifelse(var(17) = 0,90,110),ifelse(var(17) = 0,8,12)
-getpower  = 45,22
+getpower = 20,10
 givepower = 15, 0
 guardflag = M
 pausetime = 12,12
@@ -6882,7 +6885,7 @@ trigger1 = var(25) = 0
 attr = A, SA
 animtype  = up
 damage    = ifelse(var(17) = 0,90,110),ifelse(var(17) = 0,8,12)
-getpower  = 45,22
+getpower = 20,10
 givepower = 15, 0
 guardflag = M
 pausetime = 12,12
@@ -6919,7 +6922,7 @@ trigger1 =  var(20) = 0
 attr = A, SA
 animtype  = up
 damage    = ifelse(var(17) = 0,90,110),ifelse(var(17) = 0,8,12)
-getpower  = 0
+getpower = 20,10
 givepower = 15, 0
 guardflag = M
 pausetime = 12,12
@@ -6957,7 +6960,7 @@ trigger1 = var(25) = 0
 attr = A, SA
 animtype  = up
 damage    = ifelse(var(17) = 0,90,110),ifelse(var(17) = 0,8,12)
-getpower  = 45,22
+getpower = 20,10
 givepower = 15, 0
 guardflag = MA
 pausetime = 12,12
@@ -6994,7 +6997,7 @@ trigger1 = var(25) = 1
 attr = A, SA
 animtype  = up
 damage    = ifelse(var(17) = 0,90,110),ifelse(var(17) = 0,8,12)
-getpower  = 0
+getpower = 20,10
 givepower = 15, 0
 guardflag = MA
 pausetime = 12,12
@@ -7143,7 +7146,7 @@ trigger1 = var(25) = 0
 attr = A, SA
 animtype  = Hard
 damage    = 34,3
-getpower  = 17,8
+getpower = 20,10
 givepower = 15, 0
 guardflag = MA
 pausetime = 12,12
@@ -7173,7 +7176,7 @@ trigger1 = var(25) = 1
 attr = A, SA
 animtype  = Hard
 damage    = 34,3
-getpower  = 0
+getpower = 20,10
 givepower = 15, 0
 guardflag = MA
 pausetime = 12,12
@@ -7295,7 +7298,7 @@ trigger1 = Time = 0
 attr = A, SA
 animtype  = Hard
 damage    = 45,3
-getpower  = 30,15
+getpower = 20,10
 givepower = 15, 0
 guardflag = MA
 pausetime = 20,20
@@ -7331,7 +7334,7 @@ trigger1 = Time = 0
 attr = A, SA
 animtype  = Hard
 damage    = 45,3
-getpower  = 0
+getpower = 20,10
 givepower = 15, 0
 guardflag = MA
 pausetime = 20,20
@@ -7759,7 +7762,7 @@ trigger1 = (var(3) <= 1 && var(4) = 0) || (var(3) >= 16 && var(4) = 0)
 attr = S, SA
 animtype  = back
 damage    = 100, 5
-getpower  = 50,25
+getpower = 60,30
 givepower = 15, 0
 priority  = 5
 guardflag = MA
@@ -7800,7 +7803,7 @@ trigger1 = var(3) >= 2 && var(3) <= 15 && var(4) = 1
 attr = S, SA
 animtype  = back
 damage    = 100, 5
-getpower  = 50,25
+getpower = 60,30
 givepower = 15, 0
 priority  = 5
 guardflag = MA
@@ -7840,7 +7843,7 @@ trigger1 = var(25) = 1
 attr = S, SA
 animtype  = back
 damage    = 100, 5
-getpower  = 0
+getpower = 60,30
 givepower = 15, 0
 priority  = 5
 guardflag = MA
@@ -8084,6 +8087,7 @@ value = 120, 0
 
 [State 1030, ヒット定義（投げ用）]
 type = HitDef
+getpower = 60,30
 Trigger1 = Time = 0
 trigger1 = var(27) != [1,5]
 attr = S, ST
@@ -8511,7 +8515,7 @@ trigger1 = AnimElem = 8
 attr = A, SA
 animtype  = Hard
 damage    = 105,5
-getpower  = 32,16
+getpower = 60,30
 givepower = 15, 0
 guardflag = HA
 pausetime = 15,15
@@ -8546,7 +8550,7 @@ trigger1 = AnimElem = 8
 attr = A, SA
 animtype  = Hard
 damage    = 105,5
-getpower  = 0
+getpower = 60,30
 givepower = 15, 0
 guardflag = HA
 pausetime = 15,15
@@ -8751,7 +8755,7 @@ trigger1 = (!movecontact && !movereversed)
 attr = S, SA
 animtype  = back
 damage    = 70, 15
-getpower  = 35,17
+getpower = 20,10
 givepower = 15, 0
 priority  = 5
 guardflag = HA
@@ -8793,7 +8797,7 @@ trigger1 = (!movecontact && !movereversed) || var(28) != 0
 attr = S, SA
 animtype  = back
 damage    = 70, 15
-getpower  = 35,17
+getpower = 20,10
 givepower = 15, 0
 priority  = 5
 guardflag = HA
@@ -8834,7 +8838,7 @@ trigger1 = (!movecontact && !movereversed)
 attr = S, SA
 animtype  = back
 damage    = 70, 15
-getpower  = 35,17
+getpower = 20,10
 givepower = 15, 0
 priority  = 5
 guardflag = HA
@@ -8875,7 +8879,7 @@ trigger1 = (!movecontact && !movereversed) || var(28) != 0
 attr = S, SA
 animtype  = back
 damage    = 70, 15
-getpower  = 35,17
+getpower = 20,10
 givepower = 15, 0
 priority  = 5
 guardflag = HA
@@ -8915,7 +8919,7 @@ trigger2 = AnimElemTime(6) = 0
 attr = S, SA
 animtype  = back
 damage    = 70, 15
-getpower  = 0
+getpower = 20,10
 givepower = 15, 0
 priority  = 5
 guardflag = HA

@@ -10,7 +10,7 @@ movetype = A
 physics = S
 velset = 0,0
 juggle = 10
-poweradd = 100+(var(39)*(30))
+poweradd = 0+(var(39)*(30))
 ctrl = 0
 hitcountpersist = 1
 
@@ -451,7 +451,7 @@ movetype = A
 physics = S
 velset = 0,0
 juggle = 10
-poweradd = 100+(var(39)*(30))
+poweradd = 0+(var(39)*(30))
 ctrl = 0
 hitcountpersist = 1
 
@@ -992,7 +992,7 @@ type = S
 movetype = A
 physics = S
 anim = 1200+(var(1)*(10000))
-poweradd = 30+(var(39)*(30))
+poweradd = 0+(var(39)*(30))
 velset = 0
 ctrl = 0
 juggle = 1
@@ -1188,7 +1188,7 @@ type = S
 movetype = A
 physics = S
 anim = 1205+(var(1)*(10000))
-poweradd = 30+(var(39)*(30))
+poweradd = 0+(var(39)*(30))
 velset = 0
 ctrl = 0
 juggle = 1
@@ -1464,7 +1464,7 @@ physics = N
 juggle = 1
 ctrl = 0
 velset = 0,0
-poweradd = 30+(var(39)*(30))
+poweradd = 20+(var(39)*(30))
 hitcountpersist = 1
 
 [State 3200, 3]
@@ -1549,7 +1549,7 @@ physics = N
 juggle = 1
 ctrl = 0
 velset = 0,0
-poweradd = 30+(var(39)*(30))
+poweradd = 20+(var(39)*(30))
 hitcountpersist = 1
 
 [State 3200, 3]
@@ -1678,7 +1678,7 @@ movetype =  A
 physics = n
 juggle = 1
 ctrl = 0
-poweradd = 30+(var(39)*(30))
+poweradd = 0+(var(39)*(30))
 anim = 1800+(var(1)*(10000))
 hitcountpersist = 1
 
@@ -2241,7 +2241,7 @@ movetype =  A
 physics = n
 juggle = ifelse(var(59)>0,0,20)
 ctrl = 0
-poweradd = 30+(var(39)*(30))
+poweradd = 0+(var(39)*(30))
 hitcountpersist = 1
 
 [State 260, end]
@@ -2582,7 +2582,7 @@ movetype= A
 physics = S
 ctrl = 0
 hitcountpersist = 1
-poweradd = 30+(var(39)*(30))
+poweradd = 0+(var(39)*(30))
 
 [State 3200, 3]
 type = ChangeState
@@ -3044,7 +3044,7 @@ physics = S
 anim = 1600+(var(1)*(10000))
 ctrl = 0
 hitcountpersist = 1
-poweradd = 30+(var(39)*(30))
+poweradd = 0+(var(39)*(30))
 velset = 30,0 
 
 [State 3200, NotHitBy]
@@ -3628,7 +3628,7 @@ movetype= A
 physics = S
 ctrl = 0
 hitcountpersist = 1
-poweradd = 30+(var(39)*(30))
+poweradd = 0+(var(39)*(30))
 
 [State 3200, 3]
 type = ChangeState
@@ -4158,7 +4158,7 @@ physics = S
 anim = 1600+(var(1)*(10000))
 ctrl = 0
 hitcountpersist = 1
-poweradd = 30+(var(39)*(30))
+poweradd = 0+(var(39)*(30))
 velset = 30,0 
 
 [State 3200, NotHitBy]
@@ -4610,7 +4610,7 @@ physics = S
 anim = 61614+(ifelse(var(1)=7,10000,0))
 velset = 0,0
 juggle = 0
-poweradd = 30
+poweradd = 0
 ctrl = 0
 hitcountpersist = 1
 
@@ -4695,7 +4695,7 @@ movetype = A
 physics = S
 velset = 0,0
 juggle = 0
-poweradd = 30+(var(39)*(30))
+poweradd = 0+(var(39)*(30))
 ctrl = 0
 hitcountpersist = 1
 
@@ -4724,7 +4724,7 @@ physics = S
 anim = 2551+(var(1)*(10000))
 velset = 0,0
 juggle = 0
-poweradd = 100
+poweradd = 0
 ctrl = 0
 hitcountpersist = 1
 
@@ -4948,7 +4948,7 @@ physics = S
 anim = 2552+(var(1)*(10000))
 velset = 5,-4
 juggle = 0
-poweradd = 100
+poweradd = 0
 ctrl = 0
 hitcountpersist = 1
 
@@ -5336,7 +5336,7 @@ movetype = A
 physics = S
 velset = 0,0
 juggle = 0
-poweradd = 30+(var(39)*(30))
+poweradd = 0+(var(39)*(30))
 ctrl = 0
 hitcountpersist = 1
 
@@ -5365,7 +5365,7 @@ physics = S
 anim = 2501+(var(1)*(10000))
 velset = 0,0
 juggle = 0
-poweradd = 100
+poweradd = 0
 ctrl = 0
 hitcountpersist = 1
 
@@ -5589,7 +5589,7 @@ physics = S
 anim = 2502+(var(1)*(10000))
 velset = 5,-4
 juggle = 0
-poweradd = 30+(var(39)*(30))
+poweradd = 0+(var(39)*(30))
 ctrl = 0
 hitcountpersist = 1
 

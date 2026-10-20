@@ -107,6 +107,7 @@ type = HitDef
 trigger1 = time = 0
 attr = A, HA
 damage = 0, 0
+getpower = 30,15
 animtype = back
 guardflag = H
 hitflag = MAFD
@@ -1078,7 +1079,7 @@ velset = 0,0
 ctrl = 0
 anim = 1500
 sprpriority = -1
-poweradd = 100
+poweradd = 0
 
 
 ;[State 1500, nothitby]
@@ -1260,7 +1261,7 @@ ground.cornerpush.veloff = -10
 p2facing = 1
 hitonce = 0
 p2stateno = 1550
-getpower = 100, 100
+getpower = 60,30
 
 [State 1520]
 type = HitOverRide
@@ -1283,7 +1284,7 @@ physics = N
 velset = 0,0
 anim = 7816
 juggle  = 0
-poweradd = 500
+poweradd = 20
 
 [State 1530, 反撃]
 type=helper
@@ -1478,7 +1479,7 @@ velset = 0,0
 ctrl = 0
 anim = 2000
 sprpriority = 1
-poweradd = 50
+poweradd = 20
 
 [State 2000, 掛け声用ランダム]
 Type = VarRandom
@@ -1554,6 +1555,7 @@ remvelocity = 0, 0;消えるときの速度
 attr = A, NP
 animtype = hard
 damage =  70, 15
+getpower = 30,15
 hitflag = MAF
 guardflag = MA
 pausetime = 8,16+ifelse((var(45)=1),1,0)
@@ -1624,7 +1626,7 @@ juggle  = 0
 ctrl = 0
 anim = 2100
 sprpriority = 1
-poweradd = 50
+poweradd = 20
 
 [State 2100, 掛け声用ランダム]
 Type = VarRandom
@@ -1699,6 +1701,7 @@ remvelocity = 0, 0;消えるときの速度
 attr = A, NP
 animtype = hard
 damage =  70, 15
+getpower = 30,15
 hitflag = MAF
 guardflag = HA
 pausetime = 8,23+ifelse((var(45)=1),1,0)
@@ -2829,7 +2832,7 @@ juggle  = 6
 velset = 0,0
 ctrl = 0
 sprpriority = 1
-poweradd = 100
+poweradd = 20
 anim =2400
 
 [State 2400, 無敵]
@@ -2975,6 +2978,7 @@ remvelocity = 0, 0;消えるときの速度
 attr = A, SA
 animtype = hard
 damage =  85, 35
+getpower = 30,15
 hitflag = MAF
 guardflag = MA
 sparkno = -1
@@ -3128,7 +3132,7 @@ juggle  = 0
 velset = 18,12
 ctrl = 0
 sprpriority = 1
-poweradd = 100
+poweradd = 0
 anim =2510
 
 [State -2];タッチゲージ値を0に
@@ -3305,7 +3309,7 @@ juggle  = 0
 velset = 18,12
 ctrl = 0
 sprpriority = 1
-poweradd = 100
+poweradd = 0
 anim =2510
 
 [State 2505];パートナーゲージパワー加算(無条件)
@@ -3734,7 +3738,7 @@ juggle  = 0
 velset = 12,8
 ctrl = 0
 sprpriority = 1
-poweradd = 100
+poweradd = 0
 anim =2530
 
 ;[State 4200, クールタイム設定]
@@ -14274,7 +14278,7 @@ juggle  = 0
 velset = 18,12
 ctrl = 0
 sprpriority = 1
-poweradd = 100
+poweradd = 0
 anim =4110
 
 [State 4100];パートナーゲージパワー加算(無条件)
@@ -14609,7 +14613,7 @@ juggle  = 0
 velset = 1.5,0
 ctrl = 0
 sprpriority = 1
-poweradd = 100
+poweradd = 20
 anim =4200
 
 [State -2];位置修正
@@ -14704,7 +14708,7 @@ type    = S
 movetype= A
 physics = N
 juggle  = 0
-poweradd= 50
+poweradd= 0
 ctrl = 0
 anim = 7750
 sprpriority = 0
@@ -14882,7 +14886,7 @@ type    = A
 movetype= I
 physics = N
 juggle  = 0
-poweradd= 0
+poweradd= 20
 anim = 4300
 sprpriority = 1
 velset =0,0
@@ -15011,7 +15015,7 @@ type    = A
 movetype= A
 physics = N
 juggle  = 0
-poweradd= 100
+poweradd= 0
 anim = 4310
 sprpriority = 5
 velset =0,0
@@ -15309,6 +15313,7 @@ type = HitDef
 trigger1 = 1
 attr = A, HP
 damage    = 22,10
+getpower = 30,15
 hitflag = MAFD
 guardflag = H
 priority = 3,hit
@@ -15590,7 +15595,7 @@ type    = A
 movetype= I
 physics = N
 juggle  = 0
-poweradd= 0
+poweradd= 20
 anim = 4400
 sprpriority = 1
 velset =0,0
@@ -15718,7 +15723,7 @@ type    = A
 movetype= A
 physics = N
 juggle  = 0
-poweradd= 100
+poweradd= 0
 anim = 4410
 sprpriority = 5
 velset =0,0
@@ -16094,6 +16099,7 @@ remvelocity = 0, 0;消えるときの速度
 attr = A, HT
 animtype = hard
 damage =  300, 120
+getpower = 1,0
 hitflag = MAFD
 guardflag = M
 sparkno = -1
@@ -16449,6 +16455,7 @@ type = HitDef
 trigger1 = statetime = [30,100]
 attr = A, HT
 damage = 4, 2
+getpower = 1,0
 animtype = hard
 guardflag = M
 hitflag = MAFD
@@ -16543,7 +16550,7 @@ type    = A
 movetype= I
 physics = N
 juggle  = 0
-poweradd= 100
+poweradd= 0
 anim = 4480
 sprpriority = 5
 velset =-3,0

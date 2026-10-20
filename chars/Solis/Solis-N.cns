@@ -290,7 +290,7 @@ type = HitDef
 trigger1 = AnimElem = 4
 attr = S, NA
 damage = 27, 0
-getpower = 0,10
+getpower = 30,15
 givepower = 20,0
 animtype = Light
 guardflag = MA
@@ -893,7 +893,7 @@ trigger2 = AnimElem = 5
 attr = S, NA
 animtype  = Medium
 damage    = 36
-getpower = 0,10
+getpower = 15,7
 givepower = 20,0
 hitflag   = MAFD
 guardflag = MA
@@ -916,7 +916,7 @@ trigger1 = AnimElem = 7
 attr = S, NA
 animtype  = Hard
 damage    = 18
-getpower = 0,15
+getpower = 15,7
 givepower = 30,0
 hitflag   = MAFD
 guardflag = MA
@@ -1219,7 +1219,7 @@ trigger1 = AnimElem = 4
 attr = S, NA
 animtype  = Medium
 damage    = 81
-getpower = 0,25
+getpower = 30,15
 givepower = 50,0
 hitflag   = MAFD
 guardflag = MA
@@ -1785,7 +1785,7 @@ trigger1 = Time = 0
 attr = S, NA
 animtype  = Hard
 damage    = 90
-getpower = 0,35
+getpower = 30,15
 givepower = 70,0
 hitflag   = MAFD
 guardflag = H
@@ -2074,7 +2074,7 @@ trigger1 = Time = 0
 attr = S, NA
 animtype  = Hard
 damage    = 90
-getpower = 0,35
+getpower = 30,15
 givepower = 70,0
 hitflag   = MAFD
 guardflag = H
@@ -2556,7 +2556,7 @@ trigger1 = Time = 0
 attr = S, NA
 animtype  = Medium
 damage    = 54
-getpower = 0,20
+getpower = 30,15
 givepower = 40,0
 hitflag   = MAFD
 guardflag = L
@@ -2800,7 +2800,7 @@ trigger1 = Time = 0
 attr = S, NA
 animtype  = Medium
 damage    = 54
-getpower = 0,20
+getpower = 30,15
 givepower = 40,0
 hitflag   = MAFD
 guardflag = MA
@@ -3060,7 +3060,7 @@ trigger1 = Time = 0
 attr = S, NA
 animtype  = Hard
 damage    = 81
-getpower = 0,35
+getpower = 30,15
 givepower = 70,0
 hitflag   = MAFD
 guardflag = MA
@@ -3319,7 +3319,7 @@ trigger1 = Time = 0
 attr = S, NA
 animtype  = High
 damage    = 81
-getpower = 0,35
+getpower = 30,15
 givepower = 70,0
 hitflag   = MAFD
 guardflag = MA
@@ -3907,7 +3907,7 @@ trigger1 = Time = 0
 attr = S, NA
 animtype  = High
 damage    = 45
-getpower = 0,35
+getpower = 15,7
 givepower = 70,0
 guardflag = MA
 pausetime = 9, 8
@@ -4146,7 +4146,7 @@ trigger1 = Time = 0
 attr = S, NA
 animtype  = Medium
 damage    = 45
-getpower = 0,35
+getpower = 15,7
 givepower = 70,0
 guardflag = MA
 pausetime = 9, 8
@@ -4466,7 +4466,7 @@ trigger1 = Time = 0
 attr = S, NA
 animtype  = High
 damage    = 135
-getpower = 0,50
+getpower = 60,30
 givepower = 100,0
 hitflag   = MAFD
 guardflag = MA
@@ -4588,7 +4588,7 @@ trigger1 = Time = 0
 attr = S, NA
 animtype  = High
 damage    = 180
-getpower = 0,65
+getpower = 60,30
 givepower = 130,0
 hitflag   = MAFD
 guardflag = MA
@@ -5108,7 +5108,7 @@ type = HitDef
 trigger1 = Time = 0
 attr = C, NA
 damage    = 27
-getpower = 0,10
+getpower = 30,15
 givepower = 20,0
 animtype  = Light
 hitflag   = MAFD
@@ -5382,7 +5382,7 @@ trigger1 = AnimElem = 3
 trigger2 = AnimElem = 5
 attr = C, NA
 damage    = 36
-getpower = 0,10
+getpower = 15,7
 givepower = 20,0
 animtype  = Medium
 hitflag   = MAFD
@@ -5405,7 +5405,7 @@ type = HitDef
 trigger1 = AnimElem = 7
 attr = C, NA
 damage    = 18
-getpower = 0,15
+getpower = 15,7
 givepower = 30,0
 animtype  = High
 hitflag   = MAFD
@@ -5644,7 +5644,7 @@ type = HitDef
 trigger1 = Time = 0
 attr = C, NA
 damage    = 90
-getpower = 0,35
+getpower = 30,15
 givepower = 70,0
 animtype  = Hard
 hitflag = MAFD
@@ -6135,7 +6135,7 @@ type = HitDef
 trigger1 = Time = 0
 attr = C, NA
 damage    = 54
-getpower = 0,20
+getpower = 30,15
 givepower = 40,0
 animtype  = Light
 hitflag = MAFD
@@ -6408,7 +6408,7 @@ type = HitDef
 trigger1 = Time = 0
 attr = C, NA
 damage    = 90
-getpower = 0,35
+getpower = 30,15
 givepower = 70,0
 hitflag = MAFD
 guardflag = L
@@ -6904,7 +6904,7 @@ trigger1 = Time = 0
 attr = S, NA
 animtype  = Hard
 damage    = 126
-getpower = 0,75
+getpower = 60,30
 givepower = 150,0
 ;guardflag = MA
 pausetime = 12, 12
@@ -7028,7 +7028,7 @@ type = HitDef
 trigger1 = Time = 0
 attr = A, NA
 damage    = 27
-getpower = 0,20
+getpower = 30,15
 givepower = 40,0
 guardflag = HA
 pausetime = 8, 6
@@ -7105,7 +7105,7 @@ type = HitDef
 trigger1 = Time = 0
 attr = A, NA
 damage    = 81
-getpower = 0,25
+getpower = 30,15
 givepower = 50,0
 guardflag = HA
 pausetime = 8, 6
@@ -7283,7 +7283,7 @@ type = HitDef
 trigger1 = Time = 0
 attr = A, NA
 damage    = 81
-getpower = 0,25
+getpower = 30,15
 givepower = 50,0
 guardflag = HA
 pausetime = 8, 5
@@ -7351,7 +7351,7 @@ type = HitDef
 trigger1 = Time = 0
 attr = A, NA
 damage    = 90
-getpower = 0,35
+getpower = 30,15
 givepower = 70,0
 guardflag = HA
 pausetime = 8, 3
@@ -7472,7 +7472,7 @@ type = HitDef
 trigger1 = Time = 0
 attr = A, NA
 damage    = 54
-getpower = 0,20
+getpower = 30,15
 givepower = 40,0
 guardflag = HA
 pausetime = 8, 8
@@ -7539,7 +7539,7 @@ type = HitDef
 trigger1 = AnimElem = 4
 attr = A, NA
 damage    = 45
-getpower = 0,25
+getpower = 15,7
 givepower = 50,0
 guardflag = HA
 pausetime = 10,12
@@ -7567,7 +7567,7 @@ type = HitDef
 trigger1 = AnimElem = 7
 attr = A, NA
 damage    = 45
-getpower = 0,5
+getpower = 15,7
 givepower = 10,0
 guardflag = HA
 pausetime = 14,12
@@ -7677,7 +7677,7 @@ type = HitDef
 trigger1 = Time = 0
 attr = S, NT
 hitflag = MA;M-
-getpower = 0
+getpower = 60,30
 priority = 1, Miss
 sparkno = -1
 p1sprpriority = 1
@@ -7916,7 +7916,7 @@ type     = A
 movetype = A
 physics  = A
 juggle   = 4
-poweradd = 50
+poweradd = 0
 ctrl     = 0
 anim     = 850
 sprpriority = 2
@@ -7938,7 +7938,7 @@ type = HitDef
 trigger1 = Time = 0
 trigger1 = Pos Y < -15
 attr = A, NT
-getpower = 0
+getpower = 60,30
 hitflag = A-
 priority = 1, Miss
 sparkno = -1

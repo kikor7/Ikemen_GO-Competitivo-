@@ -10,7 +10,7 @@ velset = 0,0
 ctrl = 0
 anim = 1000
 sprpriority = 1
-poweradd = 100
+poweradd = 0
 
 
 [State 60, Arena Grande atras]
@@ -90,7 +90,7 @@ triggerall = !movecontact
 trigger1 = animelem = 6
 attr = S, SA
 animtype  = Light
-getpower = 0,0
+getpower = 60,30
 damage    = 65,5
 guardflag = MA
 pausetime = 12,14
@@ -160,7 +160,7 @@ physics = N
 ctrl = 0
 anim = 1100
 sprpriority = 1
-poweradd = 100
+poweradd = 0
 
 [State 0, PosAdd]
 type = Velset
@@ -259,7 +259,7 @@ trigger2 = animelem = 4
 trigger2 = animelem = 5
 attr = S, SA
 animtype  = Light
-getpower = 0,0
+getpower = 60,30
 damage    = 65,5
 guardflag = MA
 pausetime = 12,14
@@ -363,7 +363,7 @@ juggle = 1
 ctrl = 0
 anim = 1200
 sprpriority = 1
-poweradd = 100
+poweradd = 0
 
 [State 0, VelSet]
 type = VelSet
@@ -442,7 +442,7 @@ trigger3 =  animelem = 7
 trigger4 =  animelem = 9
 trigger5 =  animelem = 11
 attr = S, ST
-getpower = 0,0
+getpower = 60,30
 damage    = 10, 2
 guardflag = MA
 priority = 4
@@ -1038,7 +1038,7 @@ type = S
 physics = S
 anim = 1400
 ctrl = 0
-poweradd = 100
+poweradd = 20
 
 
 ;--- Guard Cancel --------------------------
@@ -1158,7 +1158,7 @@ type    = A
 Movetype = A
 physics = A
 juggle  = 7
-poweradd = 30
+poweradd = 0
 ctrl = 0
 anim = 1401
 sprpriority = 2
@@ -1222,7 +1222,7 @@ triggerall = !movecontact
 trigger1 = AnimElem = 2
 attr = S, SA
 animtype  = Medium
-getpower = 0,0
+getpower = 15,7
 damage    = 30,5
 guardflag = MA
 pausetime = 12,14
@@ -1271,7 +1271,7 @@ ctrl = 0
 type    = A
 physics = A
 juggle  = 0
-poweradd = 50
+poweradd = 0
 ctrl = 0
 anim = 1420
 sprpriority = 2
@@ -1350,7 +1350,7 @@ ctrl = 1
 [Statedef 1450]
 Movetype = A
 juggle  = 2
-poweradd = 30
+poweradd = 0
 ctrl = 0
 anim = 7072
 sprpriority = 2
@@ -1383,7 +1383,7 @@ type = HitDef
 triggerall = !movecontact
 trigger1 =  1
 attr = A, SP
-getpower = 0,0
+getpower = 15,7
 damage    = 40, 5
 guardflag = HA
 priority = 4
@@ -2008,7 +2008,7 @@ ctrl = 0
 type    = A
 physics = A
 juggle  = 0
-poweradd = 100
+poweradd = 20
 ctrl = 0
 anim = 1600
 sprpriority = 2
@@ -2228,7 +2228,7 @@ flag = noshadow
 type = HitDef
 trigger1 =  1
 attr = A, SP
-getpower = 0,0
+getpower = 15,7
 damage    = 40, 5
 guardflag = HA
 priority = 4
@@ -2297,7 +2297,7 @@ type = HitDef
 Triggerall = prevstateno = 1650
 trigger1 =  1
 attr = A, SP
-getpower = 0,0
+getpower = 15,7
 damage    = 40, 5
 guardflag = HA
 priority = 4

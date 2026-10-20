@@ -7,7 +7,7 @@
 type    = A
 movetype= A
 physics = N
-poweradd= 10
+poweradd= 20
 ctrl = 0
 juggle = 0
 anim = 1100
@@ -97,7 +97,7 @@ fall = 1						;落下フラグ (int)
 fall.recover = 0				;受身可能フラグ (int)
 fall.recovertime = 0			;受身可能受付開始時間 (int)
 fall.damage = 25					;damage_amt (int)
-getpower = 10,10
+getpower = 30,15
 givepower = 10,10
 
 projanim = 1730
@@ -128,7 +128,7 @@ ctrl = 1
 type    = A
 movetype= A
 physics = N
-poweradd= 10
+poweradd= 0
 ctrl = 0
 juggle = 0
 anim = 1200
@@ -181,7 +181,7 @@ fall = 1						;落下フラグ (int)
 fall.recover = 0				;受身可能フラグ (int)
 fall.recovertime = 0			;受身可能受付開始時間 (int)
 fall.damage = 0					;damage_amt (int)
-getpower = 10,10
+getpower = 30,15
 
 [State 420, ステート変更]
 type = ChangeState

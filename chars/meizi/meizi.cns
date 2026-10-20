@@ -238,7 +238,7 @@ juggle  = 1
 velset = 12,0
 ctrl = 0
 anim = 200
-poweradd = 20
+poweradd = 0
 sprpriority = 1
 
 [State 200, 音を鳴らす]
@@ -297,6 +297,7 @@ type = HitDef
 trigger1 = AnimElem = 3
 attr = S, NA ;立ち通常打撃（Standing, Normal Attack）
 damage = 23, 0
+getpower = 60,30
 animtype = Light
 guardflag = MA
 hitflag = MAFD
@@ -331,7 +332,7 @@ type    = S
 movetype= I
 physics = S
 juggle  = 4
-poweradd= 65
+poweradd= 0
 ctrl = 0
 velset = 0,0
 anim = 210
@@ -357,7 +358,7 @@ type    = S
 movetype= A
 physics = S
 juggle  = 4
-poweradd= 65
+poweradd= 0
 ctrl = 0
 velset = 0,0
 anim = 211
@@ -409,6 +410,7 @@ trigger1 = time = 1
 attr = S, NA
 animtype  = Medium
 damage    = 57
+getpower = 30,15
 guardflag = MA
 pausetime = 12,12
 sparkno = 1
@@ -440,7 +442,7 @@ sparkno = 1
 sparkxy = -10,-70
 hitsound   = 5,2
 guardsound = 6,0
-getpower   = 30
+getpower = 30,15
 airguard.velocity = -10,-4
 p1sprpriority = 1
 p2facing = 1
@@ -461,7 +463,7 @@ type    = S
 movetype= A
 physics = S
 juggle  = 4
-poweradd= 65
+poweradd= 0
 ctrl = 0
 anim = 212
 sprpriority = 1
@@ -576,7 +578,7 @@ juggle  = 1
 velset = 0,0
 ctrl = 0
 anim = 230
-poweradd = 20
+poweradd = 0
 sprpriority = 1
 
 [State 231, 速度補正]
@@ -606,6 +608,7 @@ type = HitDef
 trigger1 = AnimElem = 3
 attr = S, NA ;立ち通常打撃（Standing, Normal Attack）
 damage = 23, 0
+getpower = 60,30
 animtype = Light
 guardflag = HA
 hitflag = MAF
@@ -642,7 +645,7 @@ juggle  = 1
 velset = 0,0
 ctrl = 0
 anim = 240
-poweradd = 20
+poweradd = 0
 sprpriority = 1
 
 [State 240, 音を鳴らす]
@@ -661,6 +664,7 @@ type = HitDef
 trigger1 = AnimElem = 3
 attr = S, NA ;立ち通常打撃（Standing, Normal Attack）
 damage = 30, 0
+getpower = 30,15
 animtype = Light
 guardflag = MA
 hitflag = MAFD
@@ -835,7 +839,7 @@ physics = A
 juggle  = 1
 ctrl = 0
 anim = 290
-poweradd = 20
+poweradd = 0
 sprpriority = 1
 
 
@@ -855,6 +859,7 @@ type = HitDef
 trigger1 = AnimElem = 2
 attr = S, NA ;立ち通常打撃（Standing, Normal Attack）
 damage = 30, 0
+getpower = 30,15
 animtype = Light
 guardflag = MA
 hitflag = MAF
@@ -2270,6 +2275,7 @@ value = SCA
 
 [State 800, ヒット定義（投げ用）]
 type = HitDef
+getpower = 60,30
 trigger1 = Time = 0
 attr = S, NT ;立ち通常投げ（Standing, Normal Throw）
 hitflag = M-  ;マイナスが付加されてるので相手が食らい中の時は掴めない
@@ -2447,6 +2453,7 @@ value = SCA
 
 [State 830, ヒット定義（投げ用）]
 type = HitDef
+getpower = 60,30
 trigger1 = Time = 0
 attr = S, NT ;立ち通常投げ（Standing, Normal Throw）
 hitflag = MAFD  ;マイナスが付加されてるので相手が食らい中の時は掴めない
@@ -3784,6 +3791,7 @@ ctrl = 1
 ;サンダーコーリング 発動1 通常立ち
 [Statedef 3001]
 type    = S
+poweradd = 20
 movetype= A
 physics = S
 juggle  = 4

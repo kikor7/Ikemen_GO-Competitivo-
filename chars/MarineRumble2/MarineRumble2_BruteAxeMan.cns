@@ -772,7 +772,7 @@ juggle  = 1
 velset = 0,0
 ctrl = 0
 anim = 15200
-poweradd = 50
+poweradd = 0
 sprpriority = 2
 
 
@@ -848,7 +848,7 @@ juggle  = 1
 velset = 0,0
 ctrl = 0
 anim = 15210
-poweradd = 50
+poweradd = 0
 sprpriority = 2
 
 

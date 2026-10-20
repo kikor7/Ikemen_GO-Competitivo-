@@ -13,7 +13,7 @@ juggle  = 2
 velset = 0,0
 ctrl = 0
 anim = 1000 + (ifelse(var(0)+var(59)<4, 0, (ifelse(var(0)+var(59)<7, 1, 2)) ))
-poweradd = 60
+poweradd = 0
 sprpriority = 1
 facep2 = 1
 
@@ -110,6 +110,7 @@ type = HitDef
 trigger1 = animelemtime(11)>=0 && animelemtime(14)<0 ;アーマー蓄積ダメージ反映のため時間を限定
 attr = S, NA
 damage = (120+var(3)), (12+var(3)*0.1)
+getpower = 30,15
 animtype = hard
 guardflag = MA
 hitflag = MAFD
@@ -291,7 +292,7 @@ juggle  = 2
 velset = 0,0
 ctrl = 0
 anim = 1050 + (ifelse(var(0)+var(59)<4, 0, (ifelse(var(0)+var(59)<8, 1, 2)) ))
-poweradd = 55
+poweradd = 0
 sprpriority = 2
 ;facep2 = 1
 
@@ -390,6 +391,7 @@ type = HitDef
 trigger1 =  animelemtime(11)>=0 && animelemtime(15)<0 ;アーマー蓄積ダメージ反映のため時間を限定
 attr = S, NA
 damage = (110+var(3)), (11+var(3)*0.1)
+getpower = 30,15
 animtype = hard
 guardflag = MA
 hitflag = MAFD
@@ -492,7 +494,7 @@ juggle  = 2
 velset = 0,0
 ctrl = 0
 anim = 1200 + (ifelse(var(0)+var(59)<4, 0, (ifelse(var(0)+var(59)<9, 1, 2)) ))
-poweradd = 50
+poweradd = 0
 sprpriority = 1
 ;facep2 = 1
 
@@ -589,6 +591,7 @@ type = HitDef
 trigger1 =  animelemtime(7)>=0 && animelemtime(10)<0 ;アーマー蓄積ダメージ反映のため時間を限定
 attr = S, NA
 damage =  (100+var(3)), (10+var(3)*0.1)
+getpower = 30,15
 animtype = hard
 guardflag = MA
 hitflag = MAFD
@@ -694,7 +697,7 @@ juggle  = 3
 velset = 0,0
 ctrl = 0
 anim = 1250 + (ifelse(var(0)+var(59)<4, 0, (ifelse(var(0)+var(59)<7, 1, 2)) ))
-poweradd = 60
+poweradd = 0
 sprpriority = 2
 facep2 = 1
 
@@ -806,6 +809,7 @@ type = HitDef
 trigger1 =  animelemtime(11)>=0 && animelemtime(15)<0 ;アーマー蓄積ダメージ反映のため時間を限定
 attr = S, NA
 damage = (180+var(3)), (18+var(3)*0.1)
+getpower = 30,15
 animtype = back
 guardflag = HA
 hitflag = MAF
@@ -885,7 +889,7 @@ juggle  = 3
 velset = 0,0
 ctrl = 0
 anim = 1255 + (ifelse(var(0)+var(59)<4, 0, (ifelse(var(0)+var(59)<7, 1, 2)) ))
-poweradd = 50
+poweradd = 0
 sprpriority = 1
 facep2 = 1
 
@@ -994,6 +998,7 @@ type = HitDef
 trigger1 =  animelemtime(7)>=0 && animelemtime(11)<0 ;アーマー蓄積ダメージ反映のため時間を限定
 attr = S, NA
 damage = (130+var(3)), (13+var(3)*0.1)
+getpower = 30,15
 animtype = back
 guardflag = HA
 hitflag = MAF
@@ -1072,7 +1077,7 @@ juggle  = 3
 velset = 0,0
 ctrl = 0
 anim = 1300 + (ifelse(var(0)+var(59)<4, 0, (ifelse(var(0)+var(59)<9, 1, 2)) ))
-poweradd = 70
+poweradd = 0
 sprpriority = 1
 ;facep2 = 1
 
@@ -1214,6 +1219,7 @@ type = HitDef
 trigger1 =  animelemtime(13)>=0 && animelemtime(18)<0 ;アーマー蓄積ダメージ反映のため時間を限定
 attr = S, NA
 damage = (180+var(3)), (18+var(3)*0.1)
+getpower = 30,15
 animtype = back
 guardflag = HA
 hitflag = MAF
@@ -1297,7 +1303,7 @@ juggle  = 3
 velset = 0,0
 ctrl = 0
 anim = 1700 + (ifelse(var(0)+var(59)<6, 0, (ifelse(var(0)+var(59)<9, 1, 2)) ))
-poweradd = 80
+poweradd = 0
 sprpriority = 1
 ;facep2 = 1
 
@@ -1441,6 +1447,7 @@ type = HitDef
 trigger1 =  animelemtime(11)>=0 && animelemtime(16)<0 ;アーマー蓄積ダメージ反映のため時間を限定
 attr = S, NA
 damage = (300+var(3)), (30+var(3)*0.1)
+getpower = 30,15
 animtype = back
 guardflag = M
 hitflag = MAF
@@ -1543,7 +1550,7 @@ juggle  = 3
 velset = 0,0
 ctrl = 0
 anim = 1705 ;+ (ifelse(var(0)+var(59)<4, 0, (ifelse(var(0)+var(59)<9, 1, 2)) ))
-poweradd = 70
+poweradd = 0
 sprpriority = 1
 ;facep2 = 1
 
@@ -1653,6 +1660,7 @@ type = HitDef
 trigger1 =  animelemtime(10)>=0 && animelemtime(14)<0 ;アーマー蓄積ダメージ反映のため時間を限定
 attr = S, NA
 damage = (190+var(3)), (19+var(3)*0.1)
+getpower = 30,15
 animtype = back
 guardflag = M
 hitflag = MAF
@@ -1755,7 +1763,7 @@ juggle  = 3
 velset = 0,0
 ctrl = 0
 anim = 1850 ;+ (ifelse(var(0)+var(59)<6, 0, (ifelse(var(0)+var(59)<9, 1, 2)) ))
-poweradd = 60
+poweradd = 0
 sprpriority = 1
 ;facep2 = 1
 
@@ -1868,6 +1876,7 @@ type = HitDef
 trigger1 =  animelemtime(5)>=0 && animelemtime(9)<0 ;アーマー蓄積ダメージ反映のため時間を限定
 attr = S, NA
 damage = (150+var(3)), (15+var(3)*0.1)
+getpower = 30,15
 animtype = back
 guardflag = MA
 hitflag = MAF
@@ -1957,7 +1966,7 @@ juggle  = 2
 velset = 0,0
 ctrl = 0
 anim = 1100 + (ifelse(var(0)+var(59)<4, 0, (ifelse(var(0)+var(59)<7, 1, 2)) ))
-poweradd = 40
+poweradd = 0
 sprpriority = 1
 facep2 = 1
 
@@ -1977,6 +1986,7 @@ type = HitDef
 trigger1 = time = 0
 attr = S, NA
 damage = 80, 8
+getpower = 30,15
 animtype = mid
 guardflag = MA
 hitflag = MAF
@@ -2042,7 +2052,7 @@ juggle  = 2
 velset = 0,0
 ctrl = 0
 anim = 1150 + (ifelse(var(0)+var(59)<4, 0, (ifelse(var(0)+var(59)<8, 1, 2)) ))
-poweradd = 40
+poweradd = 0
 sprpriority = 1
 facep2 = 1
 
@@ -2061,6 +2071,7 @@ type = HitDef
 trigger1 = time = 0
 attr = S, NA
 damage = 80, 8
+getpower = 30,15
 animtype = mid
 guardflag = MA
 hitflag = MAF
@@ -2128,7 +2139,7 @@ juggle  = 2
 velset = 0,0
 ctrl = 0
 anim = 1750 + (ifelse(var(0)+var(59)<4, 0, (ifelse(var(0)+var(59)<9, 1, 2)) ))
-poweradd = 40
+poweradd = 0
 sprpriority = 1
 facep2 = 1
 
@@ -2159,6 +2170,7 @@ type = HitDef
 trigger1 = time = 0
 attr = S, NA
 damage = 80, 8
+getpower = 30,15
 animtype = back
 guardflag = MA
 hitflag = MAF
@@ -2230,7 +2242,7 @@ juggle  = 2
 velset = 0,0
 ctrl = 0
 anim = 1755 ;+ (ifelse(var(0)+var(59)<4, 0, (ifelse(var(0)+var(59)<8, 1, 2)) ))
-poweradd = 30
+poweradd = 0
 sprpriority = 1
 facep2 = 1
 
@@ -2260,6 +2272,7 @@ trigger1 = time = 0
 ;trigger1 = enemynear, pos y < 0
 attr = S, NA
 damage = 40, 4
+getpower = 30,15
 animtype = back
 guardflag = MA
 hitflag = MAFD
@@ -2332,7 +2345,7 @@ juggle  = 2
 velset = 0,0
 ctrl = 0
 anim = 1800 + (ifelse(var(0)+var(59)<4, 0, (ifelse(var(0)+var(59)<9, 1, 2)) ))
-poweradd = 60
+poweradd = 0
 sprpriority = 1
 facep2 = 1
 
@@ -2361,6 +2374,7 @@ type = HitDef
 trigger1 = time = 0
 attr = S, NA
 damage = 100, 10
+getpower = 60,30
 animtype = mid
 guardflag = MA
 hitflag = MAF
@@ -2428,7 +2442,7 @@ juggle  = 2
 velset = 0,0
 ctrl = 0
 anim = 1650 + (ifelse(var(0)+var(59)<4, 0, (ifelse(var(0)+var(59)<9, 1, 2)) ))
-poweradd = 40
+poweradd = 0
 sprpriority = 1
 facep2 = 1
 
@@ -2447,6 +2461,7 @@ type = HitDef
 trigger1 = time = 0
 attr = C, NA
 damage = 80, 8
+getpower = 30,15
 animtype = hard
 guardflag = L
 hitflag = MAF
@@ -2520,7 +2535,7 @@ juggle  = 2
 velset = 0,0
 ctrl = 0
 anim = 1600
-poweradd = 50
+poweradd = 0
 sprpriority = 1
 ;facep2 = 1
 
@@ -2535,6 +2550,7 @@ type = HitDef
 trigger1 = time = 0
 attr = S, NA
 damage = 100, 10
+getpower = 30,15
 animtype = hard
 guardflag = HA
 hitflag = MAF
@@ -2735,7 +2751,7 @@ juggle  = 3
 velset = 0,0
 ctrl = 0
 anim = 1350 + (ifelse(var(0)+var(59)<4, 0, (ifelse(var(0)+var(59)<6, 1, 2)) ))
-poweradd = 35
+poweradd = 0
 sprpriority = 1
 facep2 = 1
 
@@ -2749,6 +2765,7 @@ type = HitDef
 trigger1 = time = 0
 attr = C, NA
 damage = 70, 7
+getpower = 30,15
 animtype = mid
 guardflag = L
 hitflag = MAF
@@ -2820,7 +2837,7 @@ juggle  = 3
 velset = 0,0
 ctrl = 0
 anim = 1400 + (ifelse(var(0)+var(59)<4, 0, (ifelse(var(0)+var(59)<8, 1, 2)) ))
-poweradd = 40
+poweradd = 0
 sprpriority = 1
 facep2 = 1
 
@@ -2834,6 +2851,7 @@ type = HitDef
 trigger1 = time = 0
 attr = C, NA
 damage = 80, 8
+getpower = 30,15
 animtype = hard
 guardflag = L
 hitflag = MAF
@@ -2906,7 +2924,7 @@ juggle  = 3
 velset = 0,0
 ctrl = 0
 anim = 1450 + (ifelse(var(0)+var(59)<4, 0, (ifelse(var(0)+var(59)<8, 1, 2)) ))
-poweradd = 70
+poweradd = 0
 sprpriority = 1
 facep2 = 1
 
@@ -2956,6 +2974,7 @@ trigger4 = animelemtime(12)=0
 trigger5 = animelemtime(13)=0
 attr = C, NA
 damage = 35, 3
+getpower = 30,15
 animtype = hard
 guardflag = L
 hitflag = MAF
@@ -3024,7 +3043,7 @@ juggle  = 3
 ;velset = 0,0
 ctrl = 0
 anim = 1500 + (ifelse(var(0)+var(59)<4, 0, (ifelse(var(0)+var(59)<7, 1, 2)) ))
-poweradd = 70
+poweradd = 0
 sprpriority = 1
 ;facep2 = 1
 
@@ -3123,6 +3142,7 @@ type = HitDef
 trigger1 = animelemtime(8)>=0 && animelemtime(13)<0 ;アーマー蓄積ダメージ反映のため時間を限定
 attr = A, NA
 damage = (140+var(3)), (14+var(3)*0.1)
+getpower = 30,15
 animtype = hard
 guardflag = HA
 hitflag = MAF
@@ -3182,7 +3202,7 @@ juggle  = 3
 ;velset = 0,0
 ctrl = 0
 anim = 1550 + (ifelse(var(0)+var(59)<4, 0, (ifelse(var(0)+var(59)<6, 1, 2)) ))
-poweradd = 35
+poweradd = 0
 sprpriority = 1
 ;facep2 = 1
 
@@ -3196,6 +3216,7 @@ type = HitDef
 trigger1 = time = 0
 attr = A, NA
 damage = 70, 7
+getpower = 30,15
 animtype = mid
 guardflag = HA
 hitflag = MAF

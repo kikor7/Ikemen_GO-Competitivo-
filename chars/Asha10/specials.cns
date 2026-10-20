@@ -7,7 +7,7 @@ physics = N
 juggle  = 4
 ctrl = 0
 velset = -5,0
-poweradd = 65
+poweradd = 0
 anim = 1000
 
 [State 1000, AfterImage]
@@ -106,6 +106,7 @@ type = HitDef
 trigger1 = time = 0
 attr = A, NA
 damage = 65, 0
+getpower = 60,30
 animtype = Hard
 guardflag = HA
 hitflag = MAF
@@ -172,7 +173,7 @@ physics = S
 juggle  = 4
 ctrl = 0
 velset = 0,0
-poweradd = 65
+poweradd = 0
 anim = 1100
 
 [State 1100, PlaySnd]
@@ -195,7 +196,7 @@ physics = N
 juggle  = 4
 ctrl = 0
 velset = 0,0
-poweradd = 65
+poweradd = 20
 sprpriority = 2
 anim = 1200
 
@@ -252,6 +253,7 @@ type = HitDef
 trigger1 = time = 0
 attr = S, NA
 damage = 0, 0
+getpower = 15,7
 animtype = medium
 guardflag = MA
 hitflag = MAF
@@ -324,6 +326,7 @@ type = HitDef
 trigger1 = time = 0
 attr = S, SA
 damage = 65, 0
+getpower = 15,7
 animtype = medium
 guardflag = MA
 hitflag = MAF

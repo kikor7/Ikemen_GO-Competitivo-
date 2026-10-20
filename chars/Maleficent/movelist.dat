@@ -1,0 +1,19 @@
+<#f0f000>:Special Moves:</>
+Goons			_DSB^A
+Lighting Control A			_DSF^A
+Lighting Control B			_DSF^Y
+Lighting Control C			_DSF^B
+Lighting Control D			_DSF^X
+Lighting Control E			_DSF^C
+Lighting Control F			_DSF^Z
+Thunder			_QCF^X
+Flames Explosion			_QCB^A
+Sleep Spell			_QCB^X
+
+<#f0f000>:Hyper Moves:</>
+Super 1 <#f00000>(3000)</>			_QCB^C_+^Z
+LightningStorm <#f00000>(1000)</>			_QCF^X_+^Y
+Meteors <#f00000>(1000)</>			_QCF^A_+^B
+DeathCurse <#f00000>(3000)</>			_QCB^A_+^B
+Dematerialization <#f00000>(2000)</>			_QCB^X_+^Y
+FireControl <#f00000>(500)</>			_D_D^X

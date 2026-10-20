@@ -665,7 +665,7 @@ trigger1 = (Anim = 1301) && (Time > 0)
 trigger1 = (Time % 5 = 0) ;フレーム数を５で割って、余りが０（無い）の時
 attr             = A, SP
 damage           =ifelse(root,var(30) = 14, ceil(40*(root,var(29)*0.01)*1.5), ceil(40*(root,var(29)*0.01))),4
-getpower         = 30,30
+getpower = 7,3
 animtype         = Back
 pausetime        = 4,15
 ;-----------------------------------
@@ -718,7 +718,7 @@ triggerall = var(42) = 1
 trigger1 = AnimElemTime(1) = 10
 attr             = A, SP
 damage           = ifelse(root,var(30) = 14, ceil(60*(root,var(29)*0.01)*1.5), ceil(60*(root,var(29)*0.01))),4
-getpower         = 30,30
+getpower = 7,3
 animtype         = Back
 pausetime        = 7,7
 ;-----------------------------------
@@ -769,6 +769,7 @@ trigger1 = (Anim = 22008) && (Time > 0)
 trigger1 = (Time % 4 = 0) ;フレーム数を５で割って、余りが０（無い）の時
 attr             = A, SP
 damage           = ifelse(root,var(30) = 14, ceil(40*(root,var(29)*0.01)*1.5), ceil(40*(root,var(29)*0.01))),4
+getpower = 7,3
 animtype         = Back
 pausetime        = 1,1
 guardpausetime   = 0,15
@@ -822,7 +823,7 @@ triggerall = var(42) = 2
 trigger1 = AnimElemTime(2) = 0
 attr             = A, SP
 damage           = ifelse(root,var(30) = 14, ceil(70*(root,var(29)*0.01)*1.5), ceil(70*(root,var(29)*0.01))),4
-getpower         = 30,30
+getpower = 7,3
 animtype         = Back
 pausetime        = 7,7
 ;-----------------------------------

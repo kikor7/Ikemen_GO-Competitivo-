@@ -848,7 +848,7 @@ trigger1 = ctrl
 type = varset
 trigger1 = 1
 v = 46
-value = 1
+value = 0
 
 [State -1, setting];ero;’EˆßKO ON(1)/OFF(0)
 type = varset

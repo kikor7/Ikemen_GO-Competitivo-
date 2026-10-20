@@ -1,0 +1,20 @@
+<#f0f000>:Special Moves:</>
+Rolling Pin			_QCB^X
+Sling Shot			_QCF^A
+Bone Swing			_XFF^A
+Bellow Counter			_D_D^A
+Ray Gun			_QCB^Z
+Dragon			_QCB^X_+^A
+Ryu			_XFF^X
+Bomb for You			_QCF^B
+Dig a Hole			^B_+^C
+Eustace			_D_D^X_+^Y
+Mr. Mouse			_QCB^A_+^B
+Stand Dodge			^A_+^B
+
+<#f0f000>:Hyper Moves:</>
+Raging Scream <#f00000>(1000)</>			_QCB_QCB^A_+^B
+Eggplant <#f00000>(2000)</>			_QCF_QCF^X_+^Y
+Computer-Droid <#f00000>(4000)</>			_QCF_QCF^A_+^B
+Shirley the Medium <#f00000>(3000)</>			_QCB_QCB^X_+^Y
+FINISHER <#f00000>(5000)</>			_QCF_QCF^S

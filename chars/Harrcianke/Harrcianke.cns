@@ -1104,7 +1104,7 @@ ground.velocity = -4
 guard.velocity = -4.4
 air.velocity = -3.75, -5
 air.hittime = 14+(2*var(11))
-getpower = 60*var(40),30*var(40)
+getpower = 30,15
 givepower = 30,30
 yaccel = 0.47
 fall.yvelocity = -4.5
@@ -1217,7 +1217,7 @@ ground.velocity = -4
 guard.velocity = -4.4
 air.velocity = -3.75, -5
 air.hittime = 14+(2*var(11))
-getpower = 60*var(40),30*var(40)
+getpower = 30,15
 givepower = 30,30
 yaccel = 0.47
 fall.yvelocity = -4.5
@@ -1292,7 +1292,7 @@ juggle = 3
 velset = 0,0
 ctrl = 0
 anim = 202
-poweradd = 15*var(40)
+poweradd = 0*var(40)
 sprpriority = 3
 
 [state 202, チェーンコンボ制限スイッチ]
@@ -1330,7 +1330,7 @@ ground.velocity = -6
 guard.velocity = -6.6
 air.velocity = -4, -5.2
 air.hittime = 19+(3*var(11))
-getpower = ifelse(var(10)=0,120,60)*var(40),30*var(40)
+getpower = 30,15
 givepower = 30,30
 yaccel = 0.47
 fall.yvelocity = -4.5
@@ -1405,7 +1405,7 @@ juggle = 3
 velset = 0,0
 ctrl = 0
 anim = 203
-poweradd = 15*var(40)
+poweradd = 0*var(40)
 sprpriority = 3
 
 [state 203, チェーンコンボ制限スイッチ]
@@ -1453,7 +1453,7 @@ ground.velocity = -6
 guard.velocity = -6.6
 air.velocity = -4, -5.2
 air.hittime = 19+(3*var(11))
-getpower = ifelse(var(10)=0,120,60)*var(40),30*var(40)
+getpower = 30,15
 givepower = 30,30
 yaccel = 0.47
 fall.yvelocity = -4.5
@@ -1533,7 +1533,7 @@ juggle = 3
 velset = 0,0
 ctrl = 0
 anim = 205
-poweradd = 15*var(40)
+poweradd = 0*var(40)
 sprpriority = 3
 
 [state 205, チェーンコンボ制限スイッチ]
@@ -1578,7 +1578,7 @@ ground.velocity = -4
 guard.velocity = -4.4
 air.velocity = -4.2, -5.5
 air.hittime = 27+(4*var(11))
-getpower = ifelse(var(10)=0,180,60)*var(40),30*var(40)
+getpower = 10,5
 givepower = 30,30
 yaccel = 0.47
 fall.yvelocity = -4.5
@@ -1612,7 +1612,7 @@ ground.velocity = -6
 guard.velocity = -6.6
 air.velocity = -4.2, -5.5
 air.hittime = 27+(4*var(11))
-getpower = ifelse(var(10)=0,180,60)*var(40),30*var(40)
+getpower = 10,5
 givepower = 30,30
 yaccel = 0.47
 fall.yvelocity = -4.5
@@ -1646,7 +1646,7 @@ ground.velocity = -10
 guard.velocity = -11
 air.velocity = -4.2, -5.5
 air.hittime = 27+(4*var(11))
-getpower = ifelse(var(10)=0,180,60)*var(40),30*var(40)
+getpower = 10,5
 givepower = 30,30
 yaccel = 0.47
 fall.yvelocity = -4.5
@@ -1806,7 +1806,7 @@ ground.velocity = -4
 guard.velocity = -4.4
 air.velocity = -3.75, -5
 air.hittime = 14+(2*var(11))
-getpower = 60*var(40),30*var(40)
+getpower = 30,15
 givepower = 30,30
 yaccel = 0.47
 fall.yvelocity = -4.5
@@ -1919,7 +1919,7 @@ ground.velocity = -4
 guard.velocity = -4.4
 air.velocity = -3.75, -5
 air.hittime = 14+(2*var(11))
-getpower = 60*var(40),30*var(40)
+getpower = 30,15
 givepower = 30,30
 yaccel = 0.47
 fall.yvelocity = -4.5
@@ -1994,7 +1994,7 @@ juggle = 3
 velset = 0,0
 ctrl = 0
 anim = 212
-poweradd = 15*var(40)
+poweradd = 0*var(40)
 sprpriority = 3
 
 [state 212, チェーンコンボ制限スイッチ]
@@ -2032,7 +2032,7 @@ ground.velocity = -4
 guard.velocity = -4.4
 air.velocity = -4, -5.2
 air.hittime = 19+(3*var(11))
-getpower = ifelse(var(10)=0,120,60)*var(40),30*var(40)
+getpower = 15,7
 givepower = 30,30
 yaccel = 0.47
 fall.yvelocity = -4.5
@@ -2071,7 +2071,7 @@ ground.velocity = -6
 guard.velocity = -6.6
 air.velocity = -4, -5.2
 air.hittime = 19+(3*var(11))
-getpower = ifelse(var(10)=0,120,60)*var(40),30*var(40)
+getpower = 15,7
 givepower = 30,30
 yaccel = 0.47
 fall.yvelocity = -4.5
@@ -2173,7 +2173,7 @@ juggle = 3
 velset = 0,0
 ctrl = 0
 anim = 213
-poweradd = 15*var(40)
+poweradd = 0*var(40)
 sprpriority = 2
 
 [state 213, チェーンコンボ制限スイッチ]
@@ -2211,7 +2211,7 @@ ground.velocity = -6
 guard.velocity = -6.6
 air.velocity = -4, -5.2
 air.hittime = 19+(3*var(11))
-getpower = ifelse(var(10)=0,120,60)*var(40),30*var(40)
+getpower = 30,15
 givepower = 30,30
 yaccel = 0.47
 fall.yvelocity = -4.5
@@ -2286,7 +2286,7 @@ juggle = 4
 velset = 0,0
 ctrl = 0
 anim = 215
-poweradd = 15*var(40)
+poweradd = 0*var(40)
 sprpriority = 3
 
 [state 215, 接触判定拡大]
@@ -2356,7 +2356,7 @@ ground.velocity = 0,0
 guard.velocity = -11
 air.velocity = 0,5.0
 air.hittime = 23+(4*var(11))
-getpower = ifelse(var(10)=0,180,60)*var(40),30*var(40)
+getpower = 30,15
 givepower = 30,30
 yaccel = 0.47
 fall.xvelocity = 0
@@ -2609,7 +2609,7 @@ ground.velocity = -4
 guard.velocity = -4.4
 air.velocity = -3.75, -5
 air.hittime = 14+(2*var(11))
-getpower = 60*var(40),30*var(40)
+getpower = 30,15
 givepower = 30,30
 yaccel = 0.47
 fall.yvelocity = -4.5
@@ -2684,7 +2684,7 @@ juggle = 3
 velset = 0,0
 ctrl = 0
 anim = 303
-poweradd = 15*var(40)
+poweradd = 0*var(40)
 sprpriority = 3
 
 [state 303, チェーンコンボ制限スイッチ]
@@ -2732,7 +2732,7 @@ ground.velocity = -6
 guard.velocity = -6.6
 air.velocity = -4, -5.2
 air.hittime = 19+(3*var(11))
-getpower = ifelse(var(10)=0,120,60)*var(40),30*var(40)
+getpower = 30,15
 givepower = 30,30
 yaccel = 0.47
 fall.yvelocity = -4.5
@@ -2807,7 +2807,7 @@ juggle = 4
 velset = 0,0
 ctrl = 0
 anim = 305
-poweradd = 15*var(40)
+poweradd = 0*var(40)
 sprpriority = 1
 
 [state 305, SE]
@@ -2857,7 +2857,7 @@ ground.velocity = -10
 guard.velocity = -11
 air.velocity = -4.2, -5.5
 air.hittime = 23+(4*var(11))
-getpower = ifelse(var(10)=0,180,60)*var(40),30*var(40)
+getpower = 30,15
 givepower = 30,30
 yaccel = 0.47
 fall.yvelocity = -4.5
@@ -2950,7 +2950,7 @@ juggle = 4
 velset = 0,0
 ctrl = 0
 anim = 306
-poweradd = 15*var(40)
+poweradd = 0*var(40)
 sprpriority = 1
 
 [state 306, SE]
@@ -3000,7 +3000,7 @@ ground.velocity = -10
 guard.velocity = -11
 air.velocity = -4.2, -5.5
 air.hittime = 23+(4*var(11))
-getpower = ifelse(var(10)=0,180,60)*var(40),30*var(40)
+getpower = 30,15
 givepower = 30,30
 yaccel = 0.47
 fall.yvelocity = -4.5
@@ -3093,7 +3093,7 @@ juggle = 4
 velset = 0,0
 ctrl = 0
 anim = 307
-poweradd = 15*var(40)
+poweradd = 0*var(40)
 sprpriority = 1
 
 [state 307, SE]
@@ -3143,7 +3143,7 @@ ground.velocity = -10
 guard.velocity = -11
 air.velocity = -4.2, -5.5
 air.hittime = 23+(4*var(11))
-getpower = ifelse(var(10)=0,180,60)*var(40),30*var(40)
+getpower = 30,15
 givepower = 30,30
 yaccel = 0.47
 fall.yvelocity = -4.5
@@ -3274,7 +3274,7 @@ ground.velocity = -4
 guard.velocity = -4.4
 air.velocity = -3.75, -5
 air.hittime = 14+(2*var(11))
-getpower = 60*var(40),30*var(40)
+getpower = 30,15
 givepower = 30,30
 yaccel = 0.47
 fall.yvelocity = -4.5
@@ -3349,7 +3349,7 @@ juggle = 3
 velset = 0,0
 ctrl = 0
 anim = 313
-poweradd = 15*var(40)
+poweradd = 0*var(40)
 sprpriority = 2
 
 [state 313, チェーンコンボ制限スイッチ]
@@ -3387,7 +3387,7 @@ ground.velocity = 0,-4.8
 guard.velocity = -6.6
 air.velocity = 0,-4.8
 air.hittime = 19+(3*var(11))
-getpower = ifelse(var(10)=0,120,60)*var(40),30*var(40)
+getpower = 30,15
 givepower = 30,30
 yaccel = 0.47
 fall.yvelocity = -4.5
@@ -3462,7 +3462,7 @@ juggle = 4
 velset = 0,0
 ctrl = 0
 anim = 315
-poweradd = 15*var(40)
+poweradd = 0*var(40)
 sprpriority = 2
 
 [state 315, SE]
@@ -3512,7 +3512,7 @@ ground.velocity = -4.5, -5.4
 guard.velocity = -11
 air.velocity = -4.5, -5.0
 air.hittime = 23+(4*var(11))
-getpower = ifelse(var(10)=0,180,60)*var(40),30*var(40)
+getpower = 30,15
 givepower = 30,30
 yaccel = 0.47
 fall.yvelocity = -4.5
@@ -3603,7 +3603,7 @@ physics = N
 juggle = 1
 ctrl = 0
 anim = 401
-poweradd = 15*var(40)
+poweradd = 0*var(40)
 sprpriority = 2
 
 [state 401, 重力]
@@ -3644,7 +3644,7 @@ guard.velocity = -4.4
 air.velocity = -3.75, -5
 airguard.velocity = -4, -1
 air.hittime = 14+(2*var(11))
-getpower = 60*var(40),30*var(40)
+getpower = 30,15
 givepower = 30,30
 yaccel = 0.47
 fall.yvelocity = -4.5
@@ -3722,7 +3722,7 @@ physics = N
 juggle = 1
 ctrl = 0
 anim = 403
-poweradd = 15*var(40)
+poweradd = 0*var(40)
 sprpriority = 2
 
 [state 403, 重力]
@@ -3764,7 +3764,7 @@ guard.velocity = -6.6
 air.velocity = -4, -5.2
 airguard.velocity = -5, -1
 air.hittime = 19+(3*var(11))
-getpower = ifelse(var(10)=0,120,60)*var(40),30*var(40)
+getpower = 10,5
 givepower = 30,30
 yaccel = 0.47
 fall.yvelocity = -4.5
@@ -3801,7 +3801,7 @@ guard.velocity = -6.6
 air.velocity = -4, -5.2
 airguard.velocity = -5, -1
 air.hittime = 19+(3*var(11))
-getpower = ifelse(var(10)=0,120,60)*var(40),30*var(40)
+getpower = 10,5
 givepower = 30,30
 yaccel = 0.47
 fall.yvelocity = -4.5
@@ -3838,7 +3838,7 @@ guard.velocity = -6.6
 air.velocity = -4, -5.2
 airguard.velocity = -5, -1
 air.hittime = 19+(3*var(11))
-getpower = ifelse(var(10)=0,120,60)*var(40),30*var(40)
+getpower = 10,5
 givepower = 30,30
 yaccel = 0.47
 fall.yvelocity = -4.5
@@ -3968,7 +3968,7 @@ physics = N
 juggle = 4
 ctrl = 0
 anim = 405
-poweradd = 15*var(40)
+poweradd = 0*var(40)
 sprpriority = 2
 
 [state 405, 重力]
@@ -4010,7 +4010,7 @@ guard.velocity = -4.4
 air.velocity = -3.75, -5
 airguard.velocity = -4, -1
 air.hittime = 23+(4*var(11))
-getpower = ifelse(var(10)=0,180,60)*var(40),30*var(40)
+getpower = 10,5
 givepower = 30,30
 yaccel = 0.47
 fall.yvelocity = -4.5
@@ -4046,7 +4046,7 @@ guard.velocity = -6.6
 air.velocity = -4, -5.2
 airguard.velocity = -5, -1
 air.hittime = 23+(4*var(11))
-getpower = ifelse(var(10)=0,180,60)*var(40),30*var(40)
+getpower = 10,5
 givepower = 30,30
 yaccel = 0.47
 fall.yvelocity = -4.5
@@ -4082,7 +4082,7 @@ guard.velocity = -11
 air.velocity = -4.2, -4.8
 airguard.velocity = -5.3, -1
 air.hittime = 23+(4*var(11))
-getpower = ifelse(var(10)=0,180,60)*var(40),30*var(40)
+getpower = 10,5
 givepower = 30,30
 yaccel = 0.47
 fall.yvelocity = -4.5
@@ -4212,7 +4212,7 @@ physics = N
 juggle = 1
 ctrl = 0
 anim = 411
-poweradd = 15*var(40)
+poweradd = 0*var(40)
 sprpriority = 2
 
 [state 411, 重力]
@@ -4253,7 +4253,7 @@ guard.velocity = -4.4
 air.velocity = -3.75, -5
 airguard.velocity = -4, -1
 air.hittime = 14+(2*var(11))
-getpower = 60*var(40),30*var(40)
+getpower = 30,15
 givepower = 30,30
 yaccel = 0.47
 fall.yvelocity = -4.5
@@ -4331,7 +4331,7 @@ physics = N
 juggle = 1
 ctrl = 0
 anim = 413
-poweradd = 20*var(40)
+poweradd = 0*var(40)
 sprpriority = 2
 
 [state 413, 重力]
@@ -4372,7 +4372,7 @@ guard.velocity = -6.6
 air.velocity = -4, -5.2
 airguard.velocity = -5, -1
 air.hittime = 19+(3*var(11))
-getpower = ifelse(var(10)=0,120,60)*var(40),30*var(40)
+getpower = 30,15
 givepower = 30,30
 yaccel = 0.47
 fall.yvelocity = -4.5
@@ -4450,7 +4450,7 @@ physics = N
 juggle = 4
 ctrl = 0
 anim = 415
-poweradd = 15*var(40)
+poweradd = 0*var(40)
 sprpriority = 2
 
 [state 415, 重力]
@@ -4491,7 +4491,7 @@ guard.velocity = -11
 air.velocity = -4.2, -5.5
 airguard.velocity = -5.3, -1
 air.hittime = 23+(4*var(11))
-getpower = ifelse(var(10)=0,180,60)*var(40),30*var(40)
+getpower = 15,7
 givepower = 30,30
 yaccel = 0.47
 fall.yvelocity = -4.5
@@ -4528,7 +4528,7 @@ guard.velocity = -11
 air.velocity = -4.2, -5.5
 airguard.velocity = -5.3, -1
 air.hittime = 23+(4*var(11))
-getpower = ifelse(var(10)=0,180,60)*var(40),30*var(40)
+getpower = 15,7
 givepower = 30,30
 yaccel = 0.47
 fall.yvelocity = -4.5
@@ -4640,7 +4640,7 @@ juggle = 0
 velset = 0,0
 ctrl = 0
 anim = 700
-poweradd = 15*var(40)
+poweradd = 0*var(40)
 sprpriority = 2
 
 [state 700, ガード動作移行無効化]
@@ -4663,7 +4663,7 @@ P1stateno = 701
 P2stateno = 705
 fall = 1
 fall.recover = 0
-getpower = ifelse(var(10)=0,180,60)*var(40),30*var(40)
+getpower = 60,30
 givepower = 30,30
 yaccel = 0.47
 fall.yvelocity = -4.5
@@ -4885,7 +4885,7 @@ juggle = 0
 velset = 0,0
 ctrl = 0
 anim = 710
-poweradd = 15*var(40)
+poweradd = 0*var(40)
 sprpriority = 2
 
 [state 710, ガード動作移行無効化]
@@ -4908,7 +4908,7 @@ P1stateno = 711
 P2stateno = 715
 fall = 1
 fall.recover = 0
-getpower = ifelse(var(10)=0,180,60)*var(40),30*var(40)
+getpower = 60,30
 givepower = 30,30
 yaccel = 0.47
 fall.yvelocity = -4.5
@@ -5170,7 +5170,7 @@ juggle = 3
 velset = 0,0
 ctrl = 0
 anim = 202
-poweradd = 15*var(40)
+poweradd = 0*var(40)
 sprpriority = 3
 
 [state 810, 背後に回られていたら振り向く]
@@ -5208,7 +5208,7 @@ ground.velocity = -6
 guard.velocity = -6.6
 air.velocity = -4, -5.2
 air.hittime = 19+(3*var(11))
-getpower = ifelse(var(10)=0,120,60)*var(40),30*var(40)
+getpower = 30,15
 givepower = 30,30
 yaccel = 0.47
 fall.yvelocity = -4.5
@@ -5283,7 +5283,7 @@ juggle = 3
 velset = 0,0
 ctrl = 0
 anim = 213
-poweradd = 15*var(40)
+poweradd = 0*var(40)
 sprpriority = 2
 
 [state 820, 背後に回られていたら振り向く]
@@ -5322,7 +5322,7 @@ ground.velocity = -4.2, -5.5
 guard.velocity = -11
 air.velocity = -4.2, -5.5
 air.hittime = 23+(4*var(11))
-getpower = ifelse(var(10)=0,180,60)*var(40),30*var(40)
+getpower = 30,15
 givepower = 30,30
 yaccel = 0.47
 fall.yvelocity = -4.5
@@ -5399,7 +5399,7 @@ juggle = 3
 velset = 0,0
 anim = 1000
 ctrl = 0
-poweradd = 15*var(40)
+poweradd = 0*var(40)
 sprpriority = 1
 
 [state 1000, 座標移動]
@@ -5489,7 +5489,7 @@ ground.velocity = -5.5,-6.8
 guard.velocity = -11
 air.velocity = -4.2, -5.5
 air.hittime = 23+(4*var(11))
-getpower = ifelse(var(10)=0,180,60)*var(40),30*var(40)
+getpower = 60,30
 givepower = 30,30
 yaccel = 0.47
 fall.yvelocity = -4.5
@@ -5570,7 +5570,7 @@ juggle = 3
 velset = 0,0
 anim = 1001
 ctrl = 0
-poweradd = 15*var(40)
+poweradd = 0*var(40)
 sprpriority = 1
 
 [state 1001, 座標移動]
@@ -5665,7 +5665,7 @@ ground.velocity = -5.5,-6.8
 guard.velocity = -11
 air.velocity = -4.2, -5.5
 air.hittime = 23+(4*var(11))
-getpower = ifelse(var(10)=0,180,60)*var(40),30*var(40)
+getpower = 60,30
 givepower = 30,30
 yaccel = 0.47
 fall.yvelocity = -4.5
@@ -5746,7 +5746,7 @@ juggle = 3
 velset = 0,0
 anim = 1002
 ctrl = 0
-poweradd = 15*var(40)
+poweradd = 0*var(40)
 sprpriority = 1
 
 [state 1002, 座標移動]
@@ -5841,7 +5841,7 @@ ground.velocity = -5.5,-6.8
 guard.velocity = -11
 air.velocity = -4.2, -5.5
 air.hittime = 23+(4*var(11))
-getpower = ifelse(var(10)=0,180,60)*var(40),30*var(40)
+getpower = 60,30
 givepower = 30,30
 yaccel = 0.47
 fall.yvelocity = -4.5

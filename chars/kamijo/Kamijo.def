@@ -12,6 +12,7 @@
 	pal.defaults = 1,2,3,4,5,7,8,6
 
 [Files]
+movelist = movelist.dat
 	sprite   = Kamijo.sff
 	anim     = Kamijo.air
 	sound    = Kamijo.snd

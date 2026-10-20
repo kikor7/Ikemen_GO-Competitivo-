@@ -7,7 +7,7 @@ type    = S
 movetype= A
 physics = S
 juggle  = 4
-poweradd= 70
+poweradd= 0
 ctrl = 0
 sprpriority = 2
 
@@ -52,6 +52,7 @@ trigger1 = time = 9
 attr = S, NA
 animtype  = up
 damage    = 100
+getpower = 60,30
 priority  = 6, Hit
 guardflag = M
 sparkno = S4202
@@ -81,7 +82,7 @@ type    = S
 movetype= A
 physics = S
 juggle  = 4
-poweradd= 70
+poweradd= 0
 velset = 4,0
 ctrl = 0
 sprpriority = 2
@@ -132,6 +133,7 @@ trigger1 = time = 5
 attr = S, NA
 animtype  = medium
 damage    = 70, 0
+getpower = 60,30
 priority  = 5
 guardflag = MA
 pausetime = 15, 15
@@ -157,7 +159,7 @@ ctrl = 1
 type    = S
 movetype= A
 physics = S
-poweradd= 80
+poweradd= 0
 ctrl = 0
 sprpriority = 2
 
@@ -296,6 +298,7 @@ trigger1 =  helper(11000), Animtime != 0
 attr = S, SP
 animtype  = up
 damage    = 60, 5
+getpower = 30,15
 priority  = 1
 guardflag = M
 pausetime = 0, 13
@@ -380,6 +383,7 @@ trigger1 =  helper(11000), Animtime != 0
 attr = S, SP
 animtype  = up
 damage    = 60, 5
+getpower = 30,15
 priority  = 1
 guardflag = M
 pausetime = 0, 13
@@ -433,7 +437,7 @@ movetype= A
 physics = N
 velset = 0, 0
 anim = 1127
-poweradd = 60
+poweradd = 0
 ctrl = 0
 sprpriority = -2
 
@@ -550,7 +554,7 @@ physics = S
 juggle  = 0
 ctrl = 0
 sprpriority = 2
-poweradd = 120
+poweradd = 20
 
 [State 1400, アニメ(通常時)]
 type = ChangeAnim
@@ -620,7 +624,7 @@ juggle  = 0
 velset = 0,0
 ctrl = 0
 sprpriority = 2
-poweradd = 120
+poweradd = 20
 
 [State 1410, アニメ(通常時)]
 type = ChangeAnim
@@ -690,7 +694,7 @@ juggle  = 0
 velset = 0,0
 ctrl = 0
 sprpriority = 2
-poweradd = 120
+poweradd = 20
 
 [State 1420, アニメ(通常時)]
 type = ChangeAnim
@@ -760,7 +764,7 @@ juggle  = 0
 velset = 0,0
 ctrl = 0
 sprpriority = 2
-poweradd = 30
+poweradd = 20
 
 [State 1430, アニメ(通常時)]
 type = ChangeAnim
@@ -830,7 +834,7 @@ juggle  = 0
 velset = 0,0
 ctrl = 0
 sprpriority = 2
-poweradd = 30
+poweradd = 20
 
 [State 1440, アニメ(通常時)]
 type = ChangeAnim
@@ -1007,6 +1011,7 @@ trigger1 =  AnimElem = 1
 attr = A, SP
 animtype  = medium
 damage    = 168, 20
+getpower = 30,15
 priority  = 2
 hitflag = MAFDP
 guardflag = M
@@ -1097,7 +1102,7 @@ movetype= A
 physics = S
 juggle  = 0
 velset = 0,0
-poweradd = 30
+poweradd = 20
 ctrl = 0
 
 [State 1110, アニメ(通常時)]
@@ -1223,6 +1228,7 @@ trigger1 =  AnimElem = 1
 attr = A, SP
 animtype  = Light
 damage    = 30
+getpower = 30,15
 priority  = 2
 hitflag = MAF
 guardflag = MA
@@ -1291,7 +1297,7 @@ physics = S
 juggle  = 0
 velset = 0,0
 ctrl = 0
-poweradd = 35
+poweradd = 20
 
 [State 1120, アニメ(通常時)]
 type = ChangeAnim
@@ -1452,6 +1458,7 @@ trigger1 =  AnimElem = 1
 attr = S, SP
 animtype  = up
 damage    = 30, 2
+getpower = 30,15
 priority  = 2
 hitflag = MAF
 guardflag = MA
@@ -1501,7 +1508,7 @@ physics = A
 juggle = 1
 velset = 0,0
 ctrl = 0
-poweradd = 100
+poweradd = 0
 
 [State 1300, アニメ(通常時)]
 type = ChangeAnim
@@ -1793,7 +1800,7 @@ movetype = A
 physics = A
 juggle = 1
 ctrl = 0
-poweradd = 0
+poweradd = 20
 
 [State 2000, アニメ(通常時)]
 type = ChangeAnim
@@ -1889,7 +1896,7 @@ velset = 2,2
 ctrl = 0
 anim = 1104
 sprpriority = 7
-poweradd = 190
+poweradd = 0
 
 
 [State 2001, 無敵]
@@ -1915,7 +1922,7 @@ trigger1 =  AnimElem = 1
 attr = A, SP
 animtype  = medium
 damage    = 35, 2
-getpower = 10, 5
+getpower = 10,5
 priority  = 2
 hitflag = MAFDP
 guardflag = HA
@@ -1979,7 +1986,7 @@ pausetime = 0, 8
 sparkno = S4200
 hitsound = S2, 5
 guardsound = S6,0
-getpower = 10, 5
+getpower = 10,5
 ground.type = High
 ground.hittime  = 9
 ground.slidetime = 20
@@ -2031,7 +2038,7 @@ trigger1 =  AnimElem = 1
 attr = A, SP
 animtype  = medium
 damage    = 35, 2
-getpower = 10, 5
+getpower = 10,5
 priority  = 2
 hitflag = MAFDP
 guardflag = HA

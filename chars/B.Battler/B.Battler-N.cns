@@ -5273,7 +5273,7 @@ damage = Ceil(150*(1+fvar(34))*fvar(1)*(1-fvar(15))*fvar(17)*(1-fvar(19))) ,Ceil
 animtype = Medium
 guardflag = M
 hitflag = MAF
-getpower = Ceil(80*Fvar(14)*(1-fvar(15))*(1-fvar(19))),Ceil(60*Fvar(14)*(1-fvar(15))*(1-fvar(19)))
+getpower = 30,15
 givepower = Ceil(60*(1-Fvar(23))*(1-fvar(15))*(1-fvar(19))),Ceil(60*(1-Fvar(23))*(1-fvar(15))*(1-fvar(19)))
 priority = 5, Hit
 pausetime = 13,16
@@ -5861,7 +5861,7 @@ damage = Ceil(150*(1+fvar(34))*fvar(1)*(1-fvar(15))*fvar(17)*(1-fvar(19))) ,Ceil
 animtype = Medium
 guardflag = M
 hitflag = MAF
-getpower = Ceil(80*Fvar(14)*(1-fvar(15))*(1-fvar(19))),Ceil(60*Fvar(14)*(1-fvar(15))*(1-fvar(19)))
+getpower = 30,15
 givepower = Ceil(60*(1-Fvar(23))*(1-fvar(15))*(1-fvar(19))),Ceil(60*(1-Fvar(23))*(1-fvar(15))*(1-fvar(19)))
 priority = 5, Hit
 pausetime = 13,16
@@ -6460,7 +6460,7 @@ damage = Ceil(300*(1+fvar(34))*fvar(1)*(1-fvar(15))*fvar(17)*(1-fvar(19))) ,Ceil
 animtype = digup
 guardflag = H
 hitflag = MA
-getpower = Ceil(130*Fvar(14)*(1-fvar(15))*(1-fvar(19))),Ceil(90*Fvar(14)*(1-fvar(15))*(1-fvar(19)))
+getpower = 15,7
 givepower = Ceil(90*(1-Fvar(23))*(1-fvar(15))*(1-fvar(19))),Ceil(90*(1-Fvar(23))*(1-fvar(15))*(1-fvar(19)))
 priority = 6, Hit
 pausetime = 9, IfElse(SelfAnimExist(6110),17,IfElse(P2StateType = A,10,14))
@@ -6527,7 +6527,7 @@ damage = Ceil(300*(1+fvar(34))*fvar(1)*(1-fvar(15))*fvar(17)*(1-fvar(19))) ,Ceil
 animtype = Hard
 guardflag = H
 hitflag = MA
-getpower = Ceil(130*Fvar(14)*(1-fvar(15))*(1-fvar(19))),Ceil(90*Fvar(14)*(1-fvar(15))*(1-fvar(19)))
+getpower = 15,7
 givepower = Ceil(90*(1-Fvar(23))*(1-fvar(15))*(1-fvar(19))),Ceil(90*(1-Fvar(23))*(1-fvar(15))*(1-fvar(19)))
 priority = 6, Hit
 pausetime = 9, IfElse(SelfAnimExist(6110),17,IfElse(P2StateType = A,10,14))
@@ -7187,7 +7187,7 @@ damage = Ceil(54*(1+fvar(34))*fvar(1)*(1-fvar(15))*fvar(17)*(1-fvar(19))),Ceil(0
 animtype = Light
 guardflag = M
 hitflag = MAF
-getpower = Ceil(50*Fvar(14)*(1-fvar(15))*(1-fvar(19))),Ceil(40*Fvar(14)*(1-fvar(15))*(1-fvar(19)))
+getpower = 15,7
 givepower = Ceil(40*(1-Fvar(23))*(1-fvar(15))*(1-fvar(19))),Ceil(40*(1-Fvar(23))*(1-fvar(15))*(1-fvar(19)))
 priority = 4, Hit
 pausetime = 8, IfElse(P2StateType = L,4,8)
@@ -7233,7 +7233,7 @@ damage = Ceil(0.75*54*(1+fvar(34))*fvar(1)*(1-fvar(15))*fvar(17)*(1-fvar(19))),C
 animtype = Light
 guardflag = M
 hitflag = MADF
-getpower = Ceil(0.75*50*Fvar(14)*(1-fvar(15))*(1-fvar(19))),Ceil(0.75*40*Fvar(14)*(1-fvar(15))*(1-fvar(19)))
+getpower = 15,7
 givepower = Ceil(0.75*40*(1-Fvar(23))*(1-fvar(15))*(1-fvar(19))),Ceil(0.75*40*(1-Fvar(23))*(1-fvar(15))*(1-fvar(19)))
 priority = 4, Hit
 pausetime = 8, IfElse(P2StateType = L,4,8)
@@ -7794,7 +7794,7 @@ damage = Ceil(150*(1+fvar(34))*fvar(1)*(1-fvar(15))*fvar(17)*(1-fvar(19))) ,Ceil
 animtype = Medium
 guardflag = L
 hitflag = MAF
-getpower = Ceil(80*Fvar(14)*(1-fvar(15))*(1-fvar(19))),Ceil(60*Fvar(14)*(1-fvar(15))*(1-fvar(19)))
+getpower = 15,7
 givepower = Ceil(60*(1-Fvar(23))*(1-fvar(15))*(1-fvar(19))),Ceil(60*(1-Fvar(23))*(1-fvar(15))*(1-fvar(19)))
 priority = 5, Hit
 pausetime = 9, IfElse(P2StateType = L,7,13)
@@ -7840,7 +7840,7 @@ damage = Ceil(0.75*150*(1+fvar(34))*fvar(1)*(1-fvar(15))*fvar(17)*(1-fvar(19))) 
 animtype = Medium
 guardflag = L
 hitflag = MADF
-getpower = Ceil(0.75*80*Fvar(14)*(1-fvar(15))*(1-fvar(19))),Ceil(0.75*60*Fvar(14)*(1-fvar(15))*(1-fvar(19)))
+getpower = 15,7
 givepower = Ceil(0.75*60*(1-Fvar(23))*(1-fvar(15))*(1-fvar(19))),Ceil(0.75*60*(1-Fvar(23))*(1-fvar(15))*(1-fvar(19)))
 priority = 5, Hit
 pausetime = 9, IfElse(P2StateType = L,7,13)
@@ -8400,7 +8400,7 @@ damage = Ceil(150*(1+fvar(34))*fvar(1)*(1-fvar(15))*fvar(17)*(1-fvar(19))) ,Ceil
 animtype = Medium
 guardflag = L
 hitflag = MAF
-getpower = Ceil(80*Fvar(14)*(1-fvar(15))*(1-fvar(19))),Ceil(60*Fvar(14)*(1-fvar(15))*(1-fvar(19)))
+getpower = 15,7
 givepower = Ceil(60*(1-Fvar(23))*(1-fvar(15))*(1-fvar(19))),Ceil(60*(1-Fvar(23))*(1-fvar(15))*(1-fvar(19)))
 priority = 5, Hit
 pausetime = 9, IfElse(P2StateType = L,7,13)
@@ -8446,7 +8446,7 @@ damage = Ceil(0.75*150*(1+fvar(34))*fvar(1)*(1-fvar(15))*fvar(17)*(1-fvar(19))) 
 animtype = Medium
 guardflag = L
 hitflag = MADF
-getpower = Ceil(0.75*80*Fvar(14)*(1-fvar(15))*(1-fvar(19))),Ceil(0.75*60*Fvar(14)*(1-fvar(15))*(1-fvar(19)))
+getpower = 15,7
 givepower = Ceil(0.75*60*(1-Fvar(23))*(1-fvar(15))*(1-fvar(19))),Ceil(0.75*60*(1-Fvar(23))*(1-fvar(15))*(1-fvar(19)))
 priority = 5, Hit
 pausetime = 9, IfElse(P2StateType = L,7,13)
@@ -9009,7 +9009,7 @@ damage = Ceil(210*(1+fvar(34))*fvar(1)*(1-fvar(15))*fvar(17)*(1-fvar(19))) ,Ceil
 animtype = Hard
 guardflag = L
 hitflag = MAF
-getpower = Ceil(130*Fvar(14)*(1-fvar(15))*(1-fvar(19))),Ceil(90*Fvar(14)*(1-fvar(15))*(1-fvar(19)))
+getpower = 15,7
 givepower = Ceil(90*(1-Fvar(23))*(1-fvar(15))*(1-fvar(19))),Ceil(90*(1-Fvar(23))*(1-fvar(15))*(1-fvar(19)))
 priority = 6, Hit
 pausetime = 11,14
@@ -9071,7 +9071,7 @@ damage = Ceil(0.75*210*(1+fvar(34))*fvar(1)*(1-fvar(15))*fvar(17)*(1-fvar(19))) 
 animtype = Hard
 guardflag = L
 hitflag = MADF
-getpower = Ceil(0.75*130*Fvar(14)*(1-fvar(15))*(1-fvar(19))),Ceil(0.75*90*Fvar(14)*(1-fvar(15))*(1-fvar(19)))
+getpower = 15,7
 givepower = Ceil(0.75*90*(1-Fvar(23))*(1-fvar(15))*(1-fvar(19))),Ceil(0.75*90*(1-Fvar(23))*(1-fvar(15))*(1-fvar(19)))
 priority = 6, Hit
 pausetime = 11, IfElse(P2StateType = L,11,18)
@@ -9669,7 +9669,7 @@ damage = Ceil(150*(1+fvar(34))*fvar(1)*(1-fvar(15))*fvar(17)*(1-fvar(19))) ,Ceil
 animtype = Medium
 guardflag = L
 hitflag = MAF
-getpower = Ceil(80*Fvar(14)*(1-fvar(15))*(1-fvar(19))),Ceil(60*Fvar(14)*(1-fvar(15))*(1-fvar(19)))
+getpower = 15,7
 givepower = Ceil(60*(1-Fvar(23))*(1-fvar(15))*(1-fvar(19))),Ceil(60*(1-Fvar(23))*(1-fvar(15))*(1-fvar(19)))
 priority = 5, Hit
 pausetime = 10, IfElse(P2StateType = L,7,14)
@@ -9723,7 +9723,7 @@ damage = Ceil(0.75*150*(1+fvar(34))*fvar(1)*(1-fvar(15))*fvar(17)*(1-fvar(19))) 
 animtype = Medium
 guardflag = L
 hitflag = MADF
-getpower = Ceil(0.75*80*Fvar(14)*(1-fvar(15))*(1-fvar(19))),Ceil(0.75*60*Fvar(14)*(1-fvar(15))*(1-fvar(19)))
+getpower = 15,7
 givepower = Ceil(0.75*60*(1-Fvar(23))*(1-fvar(15))*(1-fvar(19))),Ceil(0.75*60*(1-Fvar(23))*(1-fvar(15))*(1-fvar(19)))
 priority = 5, Hit
 pausetime = 10, IfElse(P2StateType = L,7,14)
@@ -10326,7 +10326,7 @@ damage = Ceil(150*(1+fvar(34))*fvar(1)*(1-fvar(15))*fvar(17)*(1-fvar(19))) ,Ceil
 animtype = Medium
 guardflag = L
 hitflag = MAF
-getpower = Ceil(80*Fvar(14)*(1-fvar(15))*(1-fvar(19))),Ceil(60*Fvar(14)*(1-fvar(15))*(1-fvar(19)))
+getpower = 15,7
 givepower = Ceil(60*(1-Fvar(23))*(1-fvar(15))*(1-fvar(19))),Ceil(60*(1-Fvar(23))*(1-fvar(15))*(1-fvar(19)))
 priority = 5, Hit
 pausetime = 10, IfElse(P2StateType = L,7,14)
@@ -10380,7 +10380,7 @@ damage = Ceil(0.75*150*(1+fvar(34))*fvar(1)*(1-fvar(15))*fvar(17)*(1-fvar(19))) 
 animtype = Medium
 guardflag = L
 hitflag = MADF
-getpower = Ceil(0.75*80*Fvar(14)*(1-fvar(15))*(1-fvar(19))),Ceil(0.75*60*Fvar(14)*(1-fvar(15))*(1-fvar(19)))
+getpower = 15,7
 givepower = Ceil(0.75*60*(1-Fvar(23))*(1-fvar(15))*(1-fvar(19))),Ceil(0.75*60*(1-Fvar(23))*(1-fvar(15))*(1-fvar(19)))
 priority = 5, Hit
 pausetime = 10, IfElse(P2StateType = L,7,13)
@@ -10962,7 +10962,7 @@ damage = Ceil(60*(1+fvar(34))*fvar(1)*(1-fvar(15))*fvar(17)*(1-fvar(19))),Ceil(0
 animtype = Light
 guardflag = HA
 hitflag = MAF
-getpower = Ceil(50*Fvar(14)*(1-fvar(15))*(1-fvar(19))),Ceil(40*Fvar(14)*(1-fvar(15))*(1-fvar(19)))
+getpower = 30,15
 givepower = Ceil(40*(1-Fvar(23))*(1-fvar(15))*(1-fvar(19))),Ceil(40*(1-Fvar(23))*(1-fvar(15))*(1-fvar(19)))
 priority = 4, Hit
 pausetime = 9, IfElse(P2StateType = A,11,11)
@@ -11505,7 +11505,7 @@ damage = Ceil(60*(1+fvar(34))*fvar(1)*(1-fvar(15))*fvar(17)*(1-fvar(19))),Ceil(0
 animtype = Light
 guardflag = HA
 hitflag = MAF
-getpower = Ceil(50*Fvar(14)*(1-fvar(15))*(1-fvar(19))),Ceil(40*Fvar(14)*(1-fvar(15))*(1-fvar(19)))
+getpower = 30,15
 givepower = Ceil(40*(1-Fvar(23))*(1-fvar(15))*(1-fvar(19))),Ceil(40*(1-Fvar(23))*(1-fvar(15))*(1-fvar(19)))
 priority = 4, Hit
 pausetime = 9, IfElse(P2StateType = A,9,9)
@@ -12044,7 +12044,7 @@ animtype = Medium
 guardflag = HA
 hitflag = MAF
 priority = 4, Hit
-getpower = Ceil(80*Fvar(14)*(1-fvar(15))*(1-fvar(19))),Ceil(60*Fvar(14)*(1-fvar(15))*(1-fvar(19)))
+getpower = 30,15
 givepower = Ceil(60*(1-Fvar(23))*(1-fvar(15))*(1-fvar(19))),Ceil(60*(1-Fvar(23))*(1-fvar(15))*(1-fvar(19)))
 pausetime = 11, 14
 sparkno = -1
@@ -12578,7 +12578,7 @@ damage = Ceil(150*(1+fvar(34))*fvar(1)*(1-fvar(15))*fvar(17)*(1-fvar(19))) ,Ceil
 animtype = Medium
 guardflag = HA
 hitflag = MAF
-getpower = Ceil(80*Fvar(14)*(1-fvar(15))*(1-fvar(19))),Ceil(60*Fvar(14)*(1-fvar(15))*(1-fvar(19)))
+getpower = 30,15
 givepower = Ceil(60*(1-Fvar(23))*(1-fvar(15))*(1-fvar(19))),Ceil(60*(1-Fvar(23))*(1-fvar(15))*(1-fvar(19)))
 priority = 4, Hit
 pausetime = 11, IfElse(P2StateType = A,13,14)
@@ -13126,7 +13126,7 @@ damage = Ceil(150*(1+fvar(34))*fvar(1)*(1-fvar(15))*fvar(17)*(1-fvar(19))) ,Ceil
 animtype = Medium
 guardflag = HA
 hitflag = MAF
-getpower = Ceil(80*Fvar(14)*(1-fvar(15))*(1-fvar(19))),Ceil(60*Fvar(14)*(1-fvar(15))*(1-fvar(19)))
+getpower = 30,15
 givepower = Ceil(60*(1-Fvar(23))*(1-fvar(15))*(1-fvar(19))),Ceil(60*(1-Fvar(23))*(1-fvar(15))*(1-fvar(19)))
 priority = 4, Hit
 pausetime = 11, 12
@@ -13668,7 +13668,7 @@ damage = Ceil(150*(1+fvar(34))*fvar(1)*(1-fvar(15))*fvar(17)*(1-fvar(19))) ,Ceil
 animtype = Medium
 guardflag = HA
 hitflag = MAF
-getpower = Ceil(80*Fvar(14)*(1-fvar(15))*(1-fvar(19))),Ceil(60*Fvar(14)*(1-fvar(15))*(1-fvar(19)))
+getpower = 30,15
 givepower = Ceil(60*(1-Fvar(23))*(1-fvar(15))*(1-fvar(19))),Ceil(60*(1-Fvar(23))*(1-fvar(15))*(1-fvar(19)))
 priority = 4, Hit
 pausetime = 11, 12
@@ -14204,7 +14204,7 @@ damage = Ceil(252*(1+fvar(34))*fvar(1)*(1-fvar(15))*fvar(17)*(1-fvar(19))) ,Ceil
 animtype = Hard
 guardflag = HA
 hitflag = MAF
-getpower = Ceil(120*Fvar(14)*(1-fvar(15))*(1-fvar(19))),Ceil(80*Fvar(14)*(1-fvar(15))*(1-fvar(19)))
+getpower = 30,15
 givepower = Ceil(80*(1-Fvar(23))*(1-fvar(15))*(1-fvar(19))),Ceil(80*(1-Fvar(23))*(1-fvar(15))*(1-fvar(19)))
 priority = 6, Hit
 pausetime = 13, 16
@@ -14739,7 +14739,7 @@ damage = Ceil(252*(1+fvar(34))*fvar(1)*(1-fvar(15))*fvar(17)*(1-fvar(19))) ,Ceil
 animtype = Hard
 guardflag = HA
 hitflag = MAF
-getpower = Ceil(120*Fvar(14)*(1-fvar(15))*(1-fvar(19))),Ceil(80*Fvar(14)*(1-fvar(15))*(1-fvar(19)))
+getpower = 30,15
 givepower = Ceil(80*(1-Fvar(23))*(1-fvar(15))*(1-fvar(19))),Ceil(80*(1-Fvar(23))*(1-fvar(15))*(1-fvar(19)))
 priority = 6, Hit
 pausetime = 13, 16
@@ -15287,7 +15287,7 @@ damage = Ceil(252*(1+fvar(34))*fvar(1)*(1-fvar(15))*fvar(17)*(1-fvar(19))) ,Ceil
 animtype = Medium
 guardflag = HA
 hitflag = MAF
-getpower = Ceil(120*Fvar(14)*(1-fvar(15))*(1-fvar(19))),Ceil(80*Fvar(14)*(1-fvar(15))*(1-fvar(19)))
+getpower = 30,15
 givepower = Ceil(80*(1-Fvar(23))*(1-fvar(15))*(1-fvar(19))),Ceil(80*(1-Fvar(23))*(1-fvar(15))*(1-fvar(19)))
 priority = 6, Hit
 pausetime = 10, 13
@@ -15829,7 +15829,7 @@ damage = Ceil(252*(1+fvar(34))*fvar(1)*(1-fvar(15))*fvar(17)*(1-fvar(19))) ,Ceil
 animtype = Medium
 guardflag = HA
 hitflag = MAF
-getpower = Ceil(120*Fvar(14)*(1-fvar(15))*(1-fvar(19))),Ceil(80*Fvar(14)*(1-fvar(15))*(1-fvar(19)))
+getpower = 30,15
 givepower = Ceil(80*(1-Fvar(23))*(1-fvar(15))*(1-fvar(19))),Ceil(80*(1-Fvar(23))*(1-fvar(15))*(1-fvar(19)))
 priority = 6, Hit
 pausetime = 10, 13
@@ -16377,7 +16377,7 @@ damage = Ceil(252*(1+fvar(34))*fvar(1)*(1-fvar(15))*fvar(17)*(1-fvar(19))) ,Ceil
 animtype = Hard
 guardflag = HA
 hitflag = MAF
-getpower = Ceil(150*Fvar(14)*(1-fvar(15))*(1-fvar(19))),Ceil(110*Fvar(14)*(1-fvar(15))*(1-fvar(19)))
+getpower = 30,15
 givepower = Ceil(110*(1-Fvar(23))*(1-fvar(15))*(1-fvar(19))),Ceil(110*(1-Fvar(23))*(1-fvar(15))*(1-fvar(19)))
 priority = 6, Hit
 pausetime = 12, IfElse(P2StateType = A,6,8)
@@ -16522,6 +16522,7 @@ value = SCA
 
 [State 800, 1]
 type = HitDef
+getpower = 30,15
 Trigger1 = P2StateNo = 5300
 Trigger1 = Time = 0 & (EnemyNear,Anim != [120,150]) & (P2StateNo != [5000,5029])
 attr = S, NT
@@ -16545,6 +16546,7 @@ fall.yvelocity = -8.8
 
 [State 800, 1]
 type = HitDef
+getpower = 30,15
 Trigger1 = P2StateNo != 5300
 Trigger1 = Time = 0 & (EnemyNear,Anim != [120,150]) & (P2StateNo != [5000,5029])
 Trigger2 = Time = 0 & P2StateNo = [120,131]

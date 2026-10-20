@@ -383,7 +383,7 @@ movetype=A
 physics=S
 anim=3007
 ctrl=0
-poweradd=5
+poweradd=0
 
 [State ]
 type=Varset
@@ -461,6 +461,7 @@ type=HitDef
 trigger1=!movecontact&&!movereversed&&animelemtime(3)>=0
 attr=S,NA
 damage=ceil(32*(1+ifelse(var(18)=1,.1,0)+ifelse(var(15)=1,.05,0)+ifelse(var(15)=1&&(root,var(6)=8||root,var(7)=8||root,var(8)=8||root,palno=12),.35,0))*root,fvar(29)),0
+getpower = 5,2
 guardflag=M
 hitflag=MAFD
 pausetime=10,10
@@ -679,7 +680,7 @@ movetype=A
 physics=S
 anim=3008
 ctrl=0
-poweradd=5
+poweradd=0
 
 [State ]
 type=Varset
@@ -757,6 +758,7 @@ type=HitDef
 trigger1=!movecontact&&!movereversed&&animelemtime(2)>=0
 attr=S,NA
 damage=ceil(37*(1+ifelse(var(18)=1,.1,0)+ifelse(var(15)=1,.05,0)+ifelse(var(15)=1&&(root,var(6)=8||root,var(7)=8||root,var(8)=8||root,palno=12),.35,0))*root,fvar(29)),0
+getpower = 5,2
 guardflag=M
 hitflag=MAFD
 pausetime=10,11
@@ -981,7 +983,7 @@ movetype=A
 physics=S
 anim=3009
 ctrl=0
-poweradd=5
+poweradd=0
 
 [State ]
 type=Varset
@@ -1059,6 +1061,7 @@ type=HitDef
 trigger1=animelemtime(4)=0||animelemtime(8)=0
 attr=S,NA
 damage=ceil(37*(1+ifelse(var(18)=1,.1,0)+ifelse(var(15)=1,.05,0)+ifelse(var(15)=1&&(root,var(6)=8||root,var(7)=8||root,var(8)=8||root,palno=12),.35,0))*root,fvar(29)),0
+getpower = 5,2
 guardflag=M
 hitflag=MAFD
 pausetime=ifelse(animelemtime(8)>=0,10,8),ifelse(animelemtime(8)>=0,10,13)
@@ -1321,7 +1324,7 @@ movetype=A
 physics=S
 anim=3010
 ctrl=0
-poweradd=5
+poweradd=0
 
 [State ]
 type=Varset
@@ -3261,6 +3264,7 @@ type=HitDef
 trigger1=!movecontact&&!movereversed
 attr=S,NA
 damage=ceil(37*(1+ifelse(var(18)=1,.1,0)+ifelse(var(15)=1,.05,0)+ifelse(var(15)=1&&(root,var(6)=8||root,var(7)=8||root,var(8)=8||root,palno=12),.35,0))*root,fvar(29)),0
+getpower = 5,2
 guardflag=M
 hitflag=MAFD
 pausetime=11,11
@@ -3962,7 +3966,7 @@ fall.recover=ifelse(var(6)=2||var(7)=2||var(8)=2||palno=12,0,1)
 ground.velocity=-4,-8
 air.velocity=-4,-8
 yaccel=.48
-getpower=0,0
+getpower = 5,2
 guard.dist=0
 hitonce=1
 

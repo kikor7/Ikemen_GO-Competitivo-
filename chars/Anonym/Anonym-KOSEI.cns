@@ -185,7 +185,7 @@ juggle   = 1
 velset   = 0,0
 ctrl     = 0
 anim     = 305
-poweradd = 80
+poweradd = 0
 sprpriority = 2
 
 [State -2, キャンセルフラグOFF]
@@ -305,7 +305,7 @@ juggle   = 1
 velset   = 0,0
 ctrl     = 0
 anim     = 303
-poweradd = 80
+poweradd = 0
 sprpriority = 2
 
 [State 304, 音]
@@ -514,7 +514,7 @@ juggle   = 1
 velset   = 0,0
 ctrl     = 0
 anim     = 315
-poweradd = 80
+poweradd = 0
 sprpriority = 2
 
 [State -2, キャンセルフラグOFF]
@@ -634,7 +634,7 @@ juggle   = 1
 velset   = 0,0
 ctrl     = 0
 anim     = 313
-poweradd = 80
+poweradd = 0
 sprpriority = 2
 
 [State 314, 音]
@@ -911,7 +911,7 @@ physics  = N
 juggle   = 1
 ctrl     = 0
 anim     = 325
-poweradd = 80
+poweradd = 0
 sprpriority = 2
 
 [State -2, キャンセルフラグOFF]
@@ -1076,7 +1076,7 @@ physics  = N
 juggle   = 1
 ctrl     = 0
 anim     = 323
-poweradd = 80
+poweradd = 0
 sprpriority = 2
 
 [State 324, 音]

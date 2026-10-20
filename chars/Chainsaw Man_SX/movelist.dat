@@ -1,0 +1,16 @@
+<#f0f000>:Special Moves:</>
+Power Charge			_F^A_+^B
+Power Charge			_B^A_+^B
+Power Charge			^A_+^B
+
+<#f0f000>:Hyper Moves:</>
+A <#f00000>(2000)</>			_D_F_D_B_D_B^B_+^C
+A <#f00000>(2000)</>			_B_D_D_F^B_+^C
+A <#f00000>(1000)</>			_QCF^B_+^C
+A <#f00000>(1000)</>			_QCF^A_+^B
+A <#f00000>(500)</>			_QCB^C
+A <#f00000>(500)</>			_QCF^C
+A <#f00000>(500)</>			_QCB^B
+A <#f00000>(500)</>			_QCF^B
+A <#f00000>(500)</>			_QCB^A
+A <#f00000>(500)</>			_QCF^A

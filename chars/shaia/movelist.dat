@@ -1,0 +1,20 @@
+<#f0f000>:Special Moves:</>
+I_DON'T_KNOW			_QCF_QCF^X
+Especial 2			_QCB^S
+Especial 3			_QCF^S
+Especial 4			_QCB^A
+Especial 5			_QCB^B
+"Flame thrower"			_QCF^Y
+"Thunder"			_QCF^A
+Metralla			_QCF^X
+"super_chispa"			_QCF^B
+HORIUKEN_PIRATA			_F_D_F^X
+Superman			_QCF^C
+Especial 12			^A_+^B
+
+<#f0f000>:Hyper Moves:</>
+"super_chispa_especial" <#f00000>(2000)</>			_QCF_QCF^C
+"Shaia_Inferno" <#f00000>(1500)</>			_QCF_QCB_F^C
+Super 3 <#f00000>(1000)</>			^A_+^X
+Super 4 <#f00000>(1000)</>			_QCB_QCB^A
+Super 5 <#f00000>(1000)</>			_QCB_QCB^B

@@ -51,7 +51,7 @@ ground.velocity = -2
 air.type = High                
 air.velocity = -1.4,-3          
 air.hittime = 12                 
-getpower = 0,0
+getpower = 30,15
 
 ;-----------------TEST　slash　efe ｈｉｔ中のID=201固定、－３で一個ですむ
 [state 200x,];刀の軌跡　ここは普通に
@@ -194,7 +194,7 @@ airguard.velocity = -1.9,-.8     ;空中で攻撃をくらった場合の相手の移動状況（ｘと
 air.type = High                  ;空中で相手がくらった場所（上と同じ）
 air.velocity = -1.4,-3           ;空中で攻撃をくらった場合の相手の移動状況（ｘとｙで小数点可）
 air.hittime = 12                 ;空中でコンボが繋がる時間
-getpower = 0,0
+getpower = 30,15
 
 [State 205, guard]
 type = ChangeState
@@ -287,7 +287,7 @@ ground.slidetime = 12
 ground.hittime  = 15
 ground.velocity = -4.5
 air.velocity = -2.5,-2
-getpower = 0,0
+getpower = 30,15
 
 [state 000,bloodw];
 type = Explod
@@ -428,7 +428,7 @@ ground.slidetime = 12
 ground.hittime  = 15
 ground.velocity = -5.5
 air.velocity = -2.5,-4
-getpower = 0,0
+getpower = 30,15
 
 [state 000,bloodw];
 type = Explod
@@ -540,7 +540,7 @@ ground.velocity = -4.5,-3
 air.type = High                  
 air.velocity = -3.4,-2.5          
 air.hittime = 25                 
-getpower = 0,0
+getpower = 30,15
 fall = 1
 fall.recover = 0
 
@@ -688,7 +688,7 @@ airguard.velocity = -1.9,-.8     ;空中で攻撃をくらった場合の相手の移動状況（ｘと
 air.type = High                  ;空中で相手がくらった場所（上と同じ）
 air.velocity = -1.4,-3           ;空中で攻撃をくらった場合の相手の移動状況（ｘとｙで小数点可）
 air.hittime = 12                 ;空中でコンボが繋がる時間
-getpower = 0,0
+getpower = 15,7
 
 [State 225, hit2]
 type = HitDef
@@ -714,7 +714,7 @@ airguard.velocity = -1.9,-.8     ;空中で攻撃をくらった場合の相手の移動状況（ｘと
 air.type = High                  ;空中で相手がくらった場所（上と同じ）
 air.velocity = -1.4,-3           ;空中で攻撃をくらった場合の相手の移動状況（ｘとｙで小数点可）
 air.hittime = 30                 ;空中でコンボが繋がる時間
-getpower = 0,0
+getpower = 15,7
 
 [state 000,bloodw];
 type = Explod
@@ -879,7 +879,7 @@ ground.slidetime = 10
 ground.hittime  = 12
 ground.velocity = -5
 air.velocity = -2.5,-3.5
-getpower = 0,0
+getpower = 30,15
 
 [State 230, 3]
 type = ChangeState
@@ -922,7 +922,7 @@ ground.slidetime = 20
 ground.hittime  = 15
 ground.velocity = -3.5
 air.velocity = -2.2,-3.2
-getpower = 0,0
+getpower = 30,15
 
 [State 240, 4]
 type = ChangeState
@@ -976,7 +976,7 @@ airguard.velocity = -1.9,-.8     ;空中で攻撃をくらった場合の相手の移動状況（ｘと
 air.type = High                  ;空中で相手がくらった場所（上と同じ）
 air.velocity = -1.4,-3           ;空中で攻撃をくらった場合の相手の移動状況（ｘとｙで小数点可）
 air.hittime = 12                 ;空中でコンボが繋がる時間
-getpower = 0,0
+getpower = 30,15
 
 [state 000,bloodw];
 type = Explod
@@ -1122,7 +1122,7 @@ ground.slidetime = 12
 ground.hittime  = 15
 ground.velocity = -5.5
 air.velocity = -2.5,-4
-getpower = 0,0
+getpower = 30,15
 
 [State 310, guard]
 type = ChangeState
@@ -1318,7 +1318,7 @@ ground.type = high               ;相手のくらった場所（High：頭、体, Low：足, Tri
 ground.slidetime = 10             ;相手が後にすべる時間
 ground.hittime  = 20             ;コンボが繋がる時間（高くしすぎない事）
 ground.velocity = -4,-5            ;地上で攻撃をくらった場合の相手の移動状況（ｘとｙで小数点可）
-getpower = 0,0
+getpower = 15,7
 fall.envshake.time = 15
 fall.recover = 0
 fall = 1
@@ -1345,7 +1345,7 @@ ground.velocity = -5,-8            ;地上で攻撃をくらった場合の相手の移動状況（ｘ
 air.velocity = -2,-6
 fall = 1
 fall.recover = 0
-getpower = 0,0
+getpower = 15,7
 fall.envshake.time = 15
 
 [state 000,bloodw];
@@ -1431,7 +1431,7 @@ down.velocity = -5,-2.5
 down.hittime = 3
 fall = 1
 fall.recover = 0
-getpower = 0,0
+getpower = 30,15
 
 [state 330,]
 type = statetypeset
@@ -1487,7 +1487,7 @@ ground.slidetime = 4
 ground.hittime  = 12
 ground.velocity = -4
 air.velocity = -1.5,-3
-getpower = 0,0
+getpower = 30,15
 
 [State 400, guard]
 type = ChangeState
@@ -1586,7 +1586,7 @@ ground.slidetime = 12
 ground.hittime  = 15
 ground.velocity = -4
 air.velocity = -3,-4
-getpower = 0,0
+getpower = 30,15
 
 [state 000,bloodw];
 type = Explod
@@ -1698,7 +1698,7 @@ ground.slidetime = 20
 ground.hittime  = 22
 ground.velocity = -2.2,-3
 air.velocity = -2,-2
-getpower = 0,0
+getpower = 30,15
 fall = 1
 fall.recover = 0
 
@@ -1862,7 +1862,7 @@ ground.slidetime = 6
 ground.hittime  = 12
 ground.velocity = -5
 air.velocity = -2,-3
-getpower = 0,0
+getpower = 30,15
 
 [State 430, 3]
 type = ChangeState
@@ -1908,7 +1908,7 @@ ground.velocity = -2.5,-2.5
 air.velocity = -1.2,-3
 guard.velocity = -2
 fall = 1
-getpower = 0,0
+getpower = 30,15
 fall.envshake.time = 15
 
 [State 440, 4]
@@ -1946,7 +1946,7 @@ ground.slidetime = 5
 ground.hittime  = 5
 ground.velocity = -4
 air.velocity = -1.3,-3
-getpower = 0,0
+getpower = 30,15
 
 ;-----------------TEST　slash　efe ｈｉｔ中のID=201固定、－３で一個ですむ
 [state 200x,];刀の軌跡　多めに出しておいて、elem移動で消す。これでpause中でも出てくれる201
@@ -2039,7 +2039,7 @@ ground.slidetime = 17
 ground.hittime  = 17
 ground.velocity = -5
 air.velocity = -3,-4
-getpower = 0,0
+getpower = 30,15
 
 [state 000,bloodw];
 type = Explod
@@ -2132,7 +2132,7 @@ ground.hittime  = 17
 ground.velocity = -5
 air.velocity = -3,-4
 id = 620
-getpower = 0,0
+getpower = 30,15
 
 [state 000,bloodw];
 type = Explod
@@ -2240,7 +2240,7 @@ ground.slidetime = 6
 ground.hittime  = 6
 ground.velocity = -4
 air.velocity = -2,-3
-getpower = 0,0
+getpower = 30,15
 
 [State 630, 3]
 type = ChangeState
@@ -2279,7 +2279,7 @@ ground.slidetime = 17
 ground.hittime  = 17
 ground.velocity = 0,3
 air.velocity = -0.5,4
-getpower = 0,0
+getpower = 15,7
 fall= 1
 air.fall = 1
 fall.recover = 0
@@ -2304,7 +2304,7 @@ ground.slidetime = 17
 ground.hittime  = 17
 ground.velocity = 0,3
 air.velocity = -0.5,4
-getpower = 0,0
+getpower = 15,7
 fall= 1
 air.fall = 1
 fall.recover = 0
@@ -2441,6 +2441,7 @@ sprpriority = 2
 
 [State 800, 1]
 type = HitDef
+getpower = 60,30
 Trigger1 = Time = 0
 attr = S, NT          
 hitflag = M-          
@@ -2543,6 +2544,7 @@ sprpriority = 2
 
 [State 800, 1]
 type = HitDef
+getpower = 60,30
 Trigger1 = Time = 0
 attr = S, NT          ;ｓ：立ち　ｎ：通常　ｔ：投げ
 hitflag = M-          ;コンボの途中から投げが入らないよう設定してある
@@ -2719,7 +2721,7 @@ ground.velocity = 0
 air.velocity = -1,-2
 air.slidetime = 29
 air.hittime  = 25
-getpower = 0,0
+getpower = 30,15
 
 [state 000,bloodw];
 type = Explod
@@ -2793,7 +2795,7 @@ ground.velocity = 0
 air.velocity = -1,-2
 air.slidetime = 29
 air.hittime  = 25
-getpower = 0,0
+getpower = 30,15
 
 [state 000,bloodw];
 type = Explod
@@ -2861,7 +2863,7 @@ ground.velocity = -2
 air.velocity = -1,-2
 air.slidetime = 29
 air.hittime  = 25
-getpower = 0,0
+getpower = 30,15
 
 [state 000,bloodw];
 type = Explod
@@ -2919,7 +2921,7 @@ ground.velocity = -8,-6
 air.velocity = -5,-3
 air.slidetime = 29
 air.hittime  = 25
-getpower = 0,0
+getpower = 30,15
 fall = 1
 fall.recover = 0
 
@@ -2985,7 +2987,7 @@ ground.velocity = 0
 air.velocity = -1,-2
 air.slidetime = 29
 air.hittime  = 25
-getpower = 0,0
+getpower = 30,15
 
 [state 000,bloodw];
 type = Explod
@@ -3057,7 +3059,7 @@ ground.velocity = 0
 air.velocity = -1,-2
 air.slidetime = 29
 air.hittime  = 25
-getpower = 0,0
+getpower = 30,15
 
 [state 000,bloodw];
 type = Explod
@@ -3113,7 +3115,7 @@ ground.slidetime = 30
 ground.hittime  = 26
 ground.velocity = -2
 air.velocity = -1,-2
-getpower = 0,0
+getpower = 30,15
 
 [state 000,bloodw];
 type = Explod
@@ -3171,7 +3173,7 @@ ground.velocity = -1,-8
 air.velocity = -1,-5
 air.slidetime = 29
 air.hittime  = 25
-getpower = 0,0
+getpower = 30,15
 fall = 1
 fall.recover = 0
 p2stateno = 580

@@ -1479,7 +1479,7 @@ movetype= A
 physics = S
 ctrl = 0
 anim = 220
-poweradd = 20
+poweradd = 0
 sprpriority = 1
 
 [State 0, StateTypeSet]
@@ -1520,7 +1520,7 @@ hitflag = MAF        ;HLAFD+-
 guardflag = MA         ;HLA      ;B,E,F
 animtype = light          ;light,medium,hard,back,up,diagup
 air.animtype = light
-getpower = 10,0
+getpower = 3,1
 priority = 5,Hit   ;Hit,Miss,Dodge
 damage = (cond(var(16) = 1 && var(39)= 1,18,cond(var(39)= 1,9,cond(var(16) = 1,12,6)))*(cond(var(18)=1,5,1))),0
 pausetime = 4,6
@@ -1547,7 +1547,7 @@ trigger1 = animelem = 3
 attr = S,NA        ;SCA,NA,SA,HA,NP,SP,HP,NT,ST,HT
 hitflag = MAF        ;HLAFD+-
 guardflag = MA         ;HLA      ;B,E,F
-getpower = 10,0
+getpower = 3,1
 animtype = light          ;light,medium,hard,back,up,diagup
 air.animtype = light
 priority = 5,Hit   ;Hit,Miss,Dodge
@@ -1576,7 +1576,7 @@ trigger1 = animelem = 4
 attr = S,NA        ;SCA,NA,SA,HA,NP,SP,HP,NT,ST,HT
 hitflag = MAF        ;HLAFD+-
 guardflag = MA         ;HLA      ;B,E,F
-getpower = 10,0
+getpower = 3,1
 animtype = light          ;light,medium,hard,back,up,diagup
 air.animtype = light
 priority = 5,Hit   ;Hit,Miss,Dodge
@@ -1605,7 +1605,7 @@ trigger1 = animelem = 5
 attr = S,NA        ;SCA,NA,SA,HA,NP,SP,HP,NT,ST,HT
 hitflag = MAF        ;HLAFD+-
 guardflag = MA         ;HLA      ;B,E,F
-getpower = 10,0
+getpower = 3,1
 animtype = light          ;light,medium,hard,back,up,diagup
 air.animtype = light
 priority = 5,Hit   ;Hit,Miss,Dodge
@@ -2011,7 +2011,7 @@ physics = S
 velset = 0,0
 ctrl = 0
 anim = 206
-poweradd = 20
+poweradd = 0
 sprpriority = 1
 
 [State 0, VelSet]
@@ -2028,7 +2028,7 @@ trigger1 = animelem = 2
 attr = S,NA        ;SCA,NA,SA,HA,NP,SP,HP,NT,ST,HT
 hitflag = MAF        ;HLAFD+-
 guardflag = MA         ;HLA      ;B,E,F
-getpower = 10,0
+getpower = 3,1
 animtype = light          ;light,medium,hard,back,up,diagup
 air.animtype = light
 priority = 5,Hit   ;Hit,Miss,Dodge
@@ -2057,7 +2057,7 @@ trigger1 = animelem = 3
 attr = S,NA        ;SCA,NA,SA,HA,NP,SP,HP,NT,ST,HT
 hitflag = MAF        ;HLAFD+-
 guardflag = MA         ;HLA      ;B,E,F
-getpower = 10,0
+getpower = 3,1
 animtype = light          ;light,medium,hard,back,up,diagup
 air.animtype = light
 priority = 5,Hit   ;Hit,Miss,Dodge
@@ -2086,7 +2086,7 @@ trigger1 = animelem = 4
 attr = S,NA        ;SCA,NA,SA,HA,NP,SP,HP,NT,ST,HT
 hitflag = MAF        ;HLAFD+-
 guardflag = MA         ;HLA      ;B,E,F
-getpower = 10,0
+getpower = 3,1
 animtype = light          ;light,medium,hard,back,up,diagup
 air.animtype = light
 priority = 5,Hit   ;Hit,Miss,Dodge
@@ -2115,7 +2115,7 @@ trigger1 = animelem = 5
 attr = S,NA        ;SCA,NA,SA,HA,NP,SP,HP,NT,ST,HT
 hitflag = MAF        ;HLAFD+-
 guardflag = MA         ;HLA      ;B,E,F
-getpower = 10,0
+getpower = 3,1
 animtype = light          ;light,medium,hard,back,up,diagup
 air.animtype = light
 priority = 5,Hit   ;Hit,Miss,Dodge
@@ -2371,7 +2371,7 @@ movetype= A
 physics = C
 ctrl = 0
 anim = 210
-poweradd = 20
+poweradd = 0
 sprpriority = 1
 
 [State 0, Explod]
@@ -2449,7 +2449,7 @@ trigger1 = animelem = 2
 attr = C,NA         ;SCA,NA,SA,HA,NP,SP,HP,NT,ST,HT
 hitflag = MAFD         ;HLAFD+-
 guardflag = MA         ;HLA      ;B,E,F
-getpower = 10,0
+getpower = 7,3
 animtype = light          ;light,medium,hard,back,up,diagup
 air.animtype = light
 priority = 5,Hit   ;Hit,Miss,Dodge
@@ -2478,7 +2478,7 @@ trigger1 = animelem = 3
 attr = S,NA        ;SCA,NA,SA,HA,NP,SP,HP,NT,ST,HT
 hitflag = MAFD        ;HLAFD+-
 guardflag = MA           ;HLA      ;B,E,F
-getpower = 10,0
+getpower = 7,3
 animtype = light          ;light,medium,hard,back,up,diagup
 air.animtype = light
 priority = 5,Hit   ;Hit,Miss,Dodge
@@ -2507,7 +2507,7 @@ trigger1 = animelem = 4
 attr = S,NA        ;SCA,NA,SA,HA,NP,SP,HP,NT,ST,HT
 hitflag = MAFD        ;HLAFD+-
 guardflag = LA         ;HLA      ;B,E,F
-getpower = 10,0
+getpower = 7,3
 animtype = light          ;light,medium,hard,back,up,diagup
 air.animtype = light
 priority = 5,Hit   ;Hit,Miss,Dodge
@@ -2537,7 +2537,7 @@ trigger1 = animelem = 5
 attr = S,NA        ;SCA,NA,SA,HA,NP,SP,HP,NT,ST,HT
 hitflag = MAFD        ;HLAFD+-
 guardflag = LA          ;HLA      ;B,E,F
-getpower = 10,0
+getpower = 7,3
 animtype = light          ;light,medium,hard,back,up,diagup
 air.animtype = light
 priority = 5,Hit   ;Hit,Miss,Dodge
@@ -2758,7 +2758,7 @@ movetype= A
 physics = S
 ctrl = 0
 anim = 200
-poweradd = 40
+poweradd = 0
 sprpriority = 1
 
 [State 0, StateTypeSet]
@@ -2885,7 +2885,7 @@ trigger1 = timemod = 4,0
 attr = S,NA        ;SCA,NA,SA,HA,NP,SP,HP,NT,ST,HT
 hitflag = MAF        ;HLAFD+-
 guardflag = MA         ;HLA      ;B,E,F
-getpower = 20,0
+getpower = 10,5
 animtype = medium         ;light,medium,hard,back,up,diagup
 air.animtype = medium
 priority = 5,Hit   ;Hit,Miss,Dodge
@@ -3154,7 +3154,7 @@ movetype= A
 physics = S
 ctrl = 0
 anim = 255
-poweradd = 40
+poweradd = 0
 sprpriority = 5
 
 [State 0, VelSet]
@@ -3270,7 +3270,7 @@ Trigger1 = time < 2
 attr = S, NA
 animtype  = hard
 damage = (cond(var(16) = 1 && var(39)= 1,48,cond(var(39)= 1,24,cond(var(16) = 1,32,16)))*(cond(var(18)=1,4,1))),cond(var(39)= 1,5,3)
-getpower = 20
+getpower = 10,5
 hitflag = MAFD
 guardflag = MA
 pausetime = 12,10
@@ -3448,7 +3448,7 @@ Trigger1 = time >= 0
 attr = S, NA
 animtype  = hard
 damage = (cond(var(16) = 1 && var(39)= 1,78,cond(var(39)= 1,39,cond(var(16) = 1,52,26)))*(cond(var(18)=1,4,1))),cond(var(39)= 1,6,4)
-getpower = 0,0
+getpower = 10,5
 givepower = 0,0
 hitflag = MAFD
 guardflag = MA
@@ -3567,7 +3567,7 @@ movetype= A
 physics = C
 ctrl = 0
 anim = 260
-poweradd = 40
+poweradd = 0
 sprpriority = 1
 
 [State 0, Explod]
@@ -3662,7 +3662,7 @@ trigger1 = animelem = 2
 attr = C,NA         ;SCA,NA,SA,HA,NP,SP,HP,NT,ST,HT
 hitflag = MAFD         ;HLAFD+-
 guardflag = LA         ;HLA      ;B,E,F
-getpower = 20,0
+getpower = 7,3
 animtype = medium          ;light,medium,hard,back,up,diagup
 air.animtype = medium
 priority = 5,Hit   ;Hit,Miss,Dodge
@@ -3730,7 +3730,7 @@ trigger1 = animelem = 3
 attr = S,NA        ;SCA,NA,SA,HA,NP,SP,HP,NT,ST,HT
 hitflag = MAFD        ;HLAFD+-
 guardflag = LA           ;HLA      ;B,E,F
-getpower = 20,0
+getpower = 7,3
 animtype = medium          ;light,medium,hard,back,up,diagup
 air.animtype = medium
 priority = 5,Hit   ;Hit,Miss,Dodge
@@ -3754,7 +3754,7 @@ trigger1 = animelem = 4
 attr = S,NA        ;SCA,NA,SA,HA,NP,SP,HP,NT,ST,HT
 hitflag = MAFD        ;HLAFD+-
 guardflag = LA         ;HLA      ;B,E,F
-getpower = 20,0
+getpower = 7,3
 animtype = medium          ;light,medium,hard,back,up,diagup
 air.animtype = medium
 priority = 5,Hit   ;Hit,Miss,Dodge
@@ -3779,7 +3779,7 @@ trigger1 = animelem = 5
 attr = S,NA        ;SCA,NA,SA,HA,NP,SP,HP,NT,ST,HT
 hitflag = MAFD        ;HLAFD+-
 guardflag = LA          ;HLA      ;B,E,F
-getpower = 20,0
+getpower = 7,3
 animtype = medium         ;light,medium,hard,back,up,diagup
 air.animtype = medium
 priority = 5,Hit   ;Hit,Miss,Dodge
@@ -3903,7 +3903,7 @@ physics = S
 ctrl = 0
 anim = 299
 sprpriority = 1
-poweradd = 60
+poweradd = 0
 
 [State 0, StateTypeSet]
 type = StateTypeSet
@@ -4028,7 +4028,7 @@ movetype= A
 physics = S
 ctrl = 0
 anim = 300
-poweradd = 10
+poweradd = 0
 sprpriority = 1
 
 [State 0, PlaySnd]
@@ -4231,7 +4231,7 @@ trigger1 = timemod = 4,0
 attr = S,NA        ;SCA,NA,SA,HA,NP,SP,HP,NT,ST,HT
 hitflag = MAF        ;HLAFD+-
 guardflag = MA         ;HLA      ;B,E,F
-getpower = 30,0
+getpower = 10,5
 animtype = hard       ;light,medium,hard,back,up,diagup
 air.animtype = hard
 priority = 6,Hit   ;Hit,Miss,Dodge
@@ -4723,7 +4723,7 @@ movetype= A
 physics = S
 ctrl = 0
 anim = 300
-poweradd = 20
+poweradd = 0
 sprpriority = 1
 
 [State 0, PlaySnd]
@@ -5000,7 +5000,7 @@ trigger1 = timemod = 3,0
 attr = S,NA        ;SCA,NA,SA,HA,NP,SP,HP,NT,ST,HT
 hitflag = MAF        ;HLAFD+-
 guardflag = MA         ;HLA      ;B,E,F
-getpower = 30,0
+getpower = 10,5
 animtype = hard       ;light,medium,hard,back,up,diagup
 air.animtype = hard
 priority = 6,Hit   ;Hit,Miss,Dodge
@@ -5464,7 +5464,7 @@ movetype= A
 physics = S
 ctrl = 0
 anim = 300
-poweradd = 30
+poweradd = 0
 sprpriority = 1
 
 [State 0, PlaySnd]
@@ -5743,7 +5743,7 @@ trigger1 = timemod = 2,0
 attr = S,NA        ;SCA,NA,SA,HA,NP,SP,HP,NT,ST,HT
 hitflag = MAF        ;HLAFD+-
 guardflag = MA         ;HLA      ;B,E,F
-getpower = 30,0
+getpower = 10,5
 animtype = hard       ;light,medium,hard,back,up,diagup
 air.animtype = hard
 priority = 7,Hit   ;Hit,Miss,Dodge
@@ -6007,7 +6007,7 @@ movetype= A
 physics = S
 ctrl = 0
 anim = 310
-poweradd = 60
+poweradd = 0
 sprpriority = 1
 
 [State 0, PlaySnd]
@@ -6098,7 +6098,7 @@ Trigger1 = animelem = 2
 attr = S,NA
 animtype  = hard
 damage = cond(var(39)= 1 && var(16)= 1,28,cond(var(39)= 1,14,cond(var(16)= 1,18,9)))*(cond(var(18)=1,5,1)),cond(var(39)= 1,3,2)
-getpower = 30,15
+getpower = 7,3
 hitflag = MAFD
 guardflag = MA
 pausetime = 6,10
@@ -6131,7 +6131,7 @@ Trigger1 = animelem = 3
 attr = S,NA
 animtype  = hard
 damage = cond(var(39)= 1 && var(16)= 1,30,cond(var(39)= 1,15,cond(var(16)= 1,20,10)))*(cond(var(18)=1,5,1)),cond(var(39)= 1,3,2)
-getpower = 30,15
+getpower = 7,3
 hitflag = MAF
 guardflag = MA
 pausetime = 6,9
@@ -6162,7 +6162,7 @@ Trigger1 = animelem = 4
 attr = S, NA
 animtype  = hard
 damage = cond(var(39)= 1 && var(16)= 1,32,cond(var(39)= 1,16,cond(var(16)= 1,22,11)))*(cond(var(18)=1,5,1)),cond(var(39)= 1,3,2)
-getpower = 30,15
+getpower = 7,3
 hitflag = MAF
 guardflag = MA
 pausetime = 6,9
@@ -6192,7 +6192,7 @@ Trigger1 = animelem = 5
 attr = S, NA
 animtype  = hard
 damage = cond(var(39)= 1 && var(16)= 1,36,cond(var(39)= 1,18,cond(var(16)= 1,24,12)))*(cond(var(18)=1,5,1)),cond(var(39)= 1,3,2)
-getpower = 30,15
+getpower = 7,3
 hitflag = MAF
 guardflag = MA
 pausetime = 6,10
@@ -6594,7 +6594,7 @@ movetype= A
 physics = S
 ctrl = 0
 anim = 400
-poweradd = 40
+poweradd = 0
 sprpriority = 1
 
 [State 0, StateTypeSet]
@@ -6635,7 +6635,7 @@ trigger1 = !movecontact
 attr = S,NA        ;SCA,NA,SA,HA,NP,SP,HP,NT,ST,HT
 hitflag = MAF         ;HLAFD+-
 guardflag = MA         ;HLA      ;B,E,F
-getpower = 40,20
+getpower = 30,15
 animtype = Hard        ;light,medium,hard,back,up,diagup
 air.animtype = Hard
 priority = 5,Hit   ;Hit,Miss,Dodge
@@ -9017,7 +9017,7 @@ movetype= A
 physics = A
 ctrl = 0
 anim = 600
-poweradd = 20
+poweradd = 0
 sprpriority = 1
 
 [State 0, VarSet]
@@ -9067,7 +9067,7 @@ trigger1 = animelem = 2
 attr = S,NA        ;SCA,NA,SA,HA,NP,SP,HP,NT,ST,HT
 hitflag = MAF        ;HLAFD+-
 guardflag = MA         ;HLA      ;B,E,F
-getpower = 10,5
+getpower = 6,3
 animtype = light          ;light,medium,hard,back,up,diagup
 air.animtype = light
 priority = 5,Hit   ;Hit,Miss,Dodge
@@ -9096,7 +9096,7 @@ trigger1 = animelem = 3
 attr = S,NA        ;SCA,NA,SA,HA,NP,SP,HP,NT,ST,HT
 hitflag = MAF        ;HLAFD+-
 guardflag = MA         ;HLA      ;B,E,F
-getpower = 10,5
+getpower = 6,3
 animtype = light          ;light,medium,hard,back,up,diagup
 air.animtype = light
 priority = 5,Hit   ;Hit,Miss,Dodge
@@ -9124,7 +9124,7 @@ trigger1 = animelem = 4
 attr = S,NA        ;SCA,NA,SA,HA,NP,SP,HP,NT,ST,HT
 hitflag = MAF        ;HLAFD+-
 guardflag = MA         ;HLA      ;B,E,F
-getpower = 10,5
+getpower = 6,3
 animtype = light          ;light,medium,hard,back,up,diagup
 air.animtype = light
 priority = 5,Hit   ;Hit,Miss,Dodge
@@ -9153,7 +9153,7 @@ trigger1 = animelem = 5
 attr = S,NA        ;SCA,NA,SA,HA,NP,SP,HP,NT,ST,HT
 hitflag = MAF        ;HLAFD+-
 guardflag = MA         ;HLA      ;B,E,F
-getpower = 10,5
+getpower = 6,3
 animtype = light          ;light,medium,hard,back,up,diagup
 air.animtype = light
 priority = 5,Hit   ;Hit,Miss,Dodge
@@ -9182,7 +9182,7 @@ trigger1 = animelem = 6
 attr = S,NA        ;SCA,NA,SA,HA,NP,SP,HP,NT,ST,HT
 hitflag = MAF        ;HLAFD+-
 guardflag = MA         ;HLA      ;B,E,F
-getpower = 10,5
+getpower = 6,3
 animtype = light          ;light,medium,hard,back,up,diagup
 air.animtype = light
 priority = 5,Hit   ;Hit,Miss,Dodge
@@ -9620,7 +9620,7 @@ movetype= A
 physics = A
 ctrl = 0
 anim = 610
-poweradd = 40
+poweradd = 0
 sprpriority = 1
 
 [State 0, PlaySnd]
@@ -9686,7 +9686,7 @@ trigger1 = !movecontact
 attr = S,NA        ;SCA,NA,SA,HA,NP,SP,HP,NT,ST,HT
 hitflag = MAFD        ;HLAFD+-
 guardflag = HA         ;HLA      ;B,E,F
-getpower = 20,10
+getpower = 15,7
 animtype = medium       ;light,medium,hard,back,up,diagup
 air.animtype = medium
 priority = 5,Hit   ;Hit,Miss,Dodge
@@ -9721,7 +9721,7 @@ trigger1 = !movecontact
 attr = S,NA        ;SCA,NA,SA,HA,NP,SP,HP,NT,ST,HT
 hitflag = AF        ;HLAFD+-
 guardflag = HA         ;HLA      ;B,E,F
-getpower = 20,10
+getpower = 15,7
 animtype = medium       ;light,medium,hard,back,up,diagup
 air.animtype = medium
 priority = 5,Hit   ;Hit,Miss,Dodge
@@ -10045,7 +10045,7 @@ movetype= A
 physics = A
 ctrl = 0
 anim = 615
-poweradd = 25
+poweradd = 0
 sprpriority = 1
 
 [State 0, PlaySnd]
@@ -10132,7 +10132,7 @@ trigger1 = timemod = 2,0
 attr = S,NA        ;SCA,NA,SA,HA,NP,SP,HP,NT,ST,HT
 hitflag = MAFD        ;HLAFD+-
 guardflag = HA         ;HLA      ;B,E,F
-getpower = 10,5
+getpower = 30,15
 animtype = light      ;light,medium,hard,back,up,diagup
 air.animtype = light 
 priority = 5,Hit   ;Hit,Miss,Dodge
@@ -10305,7 +10305,7 @@ movetype= A
 physics = A
 ctrl = 0
 anim = 617
-poweradd = 20
+poweradd = 0
 sprpriority = 1
 
 [State 0, PlaySnd]
@@ -10385,7 +10385,7 @@ trigger1 = time >= 0
 attr = S,NA        ;SCA,NA,SA,HA,NP,SP,HP,NT,ST,HT
 hitflag = MAFD        ;HLAFD+-
 guardflag = HA         ;HLA      ;B,E,F
-getpower = 20,10
+getpower = 30,15
 animtype = hard       ;light,medium,hard,back,up,diagup
 air.animtype = hard
 priority = 7,Hit   ;Hit,Miss,Dodge
@@ -11009,7 +11009,7 @@ movetype= A
 physics = A
 ctrl = 0
 anim = 620
-poweradd = 60
+poweradd = 0
 sprpriority = 1
 
 [State 0, VarSet]
@@ -11073,7 +11073,7 @@ Trigger1 = animelem = 2
 attr = S, NA
 animtype  = hard
 damage = ceil(cond(var(16) = 1 && var(39)= 1,36,cond(var(39)= 1,18,cond(var(16) = 1,24,12)))*(cond(var(23)=1,cond(var(18)=1,2,2.5),1)))*(cond(var(18)=1,3,1)),cond(var(39)= 1,4,2)
-getpower = 30,15
+getpower = 7,3
 hitflag = MAFD
 guardflag = HA
 pausetime = 6,6
@@ -11104,7 +11104,7 @@ Trigger1 = animelem = 3
 attr = S, NA
 animtype  = hard
 damage = ceil(cond(var(16) = 1 && var(39)= 1,38,cond(var(39)= 1,19,cond(var(16) = 1,26,13)))*(cond(var(23)=1,cond(var(18)=1,2,2.5),1)))*(cond(var(18)=1,3,1)),cond(var(39)= 1,4,2)
-getpower = 30,15
+getpower = 7,3
 hitflag = MAF
 guardflag = HA
 pausetime = 6,6
@@ -11135,7 +11135,7 @@ Trigger1 = animelem = 4
 attr = S, NA
 animtype  = hard
 damage = ceil(cond(var(16) = 1 && var(39)= 1,44,cond(var(39)= 1,22,cond(var(16) = 1,30,15)))*(cond(var(23)=1,cond(var(18)=1,2,2.5),1)))*(cond(var(18)=1,3,1)),cond(var(39)= 1,4,2)
-getpower = 30,15
+getpower = 7,3
 hitflag = MAF
 guardflag = HA
 pausetime = 6,6
@@ -11166,7 +11166,7 @@ Trigger1 = animelem = 5
 attr = S, NA
 animtype  = hard
 damage = ceil(cond(var(16) = 1 && var(39)= 1,70,cond(var(39)= 1,35,cond(var(16) = 1,34,17)))*(cond(var(23)=1,cond(var(18)=1,2,2.5),1)))*(cond(var(18)=1,3,1)),cond(var(39)= 1,4,2)
-getpower = 30,15
+getpower = 7,3
 hitflag = MAF
 guardflag = HA
 pausetime = 9,6
@@ -11456,7 +11456,7 @@ movetype= A
 physics = A
 ctrl = 0
 anim = 622
-poweradd = 66
+poweradd = 0
 sprpriority = 1
 
 [State 0, PlaySnd]
@@ -11514,7 +11514,7 @@ Trigger1 = animelem = 2
 attr = S, NA
 animtype  = hard
 damage = ceil(cond(var(16) = 1 && var(39)= 1,50,cond(var(39)= 1,25,cond(var(16) = 1,34,17)))*(cond(var(23)=1,cond(var(18)=1,2,2.5),1)))*(cond(var(18)=1,3,1)),cond(var(39)= 1,4,2)
-getpower = 30,15
+getpower = 15,7
 hitflag = MAFD
 guardflag = HA
 pausetime = 6,8
@@ -11544,7 +11544,7 @@ Trigger1 = animelem = 3
 attr = S, NA
 animtype  = hard
 damage = ceil(cond(var(16) = 1 && var(39)= 1,44,cond(var(39)= 1,22,cond(var(16) = 1,30,15)))*(cond(var(23)=1,cond(var(18)=1,2,2.5),1)))*(cond(var(18)=1,3,1)),cond(var(39)= 1,4,2)
-getpower = 30,15
+getpower = 15,7
 hitflag = MAFD
 guardflag = HA
 pausetime = 6,8
@@ -12058,7 +12058,7 @@ movetype= A
 physics = A
 ctrl = 0
 anim = 410
-poweradd = 64
+poweradd = 0
 sprpriority = 1
 
 [State 0, PlaySnd]
@@ -12085,7 +12085,7 @@ Trigger1 = animelemtime(2) >= 0 && animelemtime(5) < 0
 attr = S, NA
 animtype  = hard
 damage = cond(var(16) = 1 && var(39)= 1,86,cond(var(39)= 1,43,cond(var(16) = 1,58,29)))*(cond(var(18)=1,3,1)),cond(var(39)= 1,4,2)
-getpower = 40,20
+getpower = 30,15
 hitflag = MAFD
 guardflag = HA
 pausetime = 6,6
@@ -12232,7 +12232,7 @@ movetype= A
 physics = A
 ctrl = 0
 anim = cond(prevstateno = 651,630,625)
-poweradd = 50
+poweradd = 0
 sprpriority = 1
 facep2 = 1
 
@@ -12322,7 +12322,7 @@ Trigger1 = animelem = 4 || animelem = 5 || animelem = 6
 attr = S,SA
 animtype  = hard
 damage = ceil(cond(var(16) = 1 && var(39)= 1,54,cond(var(39)= 1,27,cond(var(16) = 1,36,18)))*(cond(var(23)=1,cond(var(18)=1,2,2.5),1)))*cond(var(18)=1,3,1),cond(var(39)= 1,4,2)
-getpower = 30,15
+getpower = 10,5
 hitflag = MAFD
 guardflag = HA
 pausetime = 6,8
@@ -12355,7 +12355,7 @@ Trigger1 = animelem = 1 || animelem = 2 || animelem = 3
 attr = S,SA
 animtype  = hard
 damage = ceil(cond(var(16) = 1 && var(39)= 1,62,cond(var(39)= 1,31,cond(var(16) = 1,42,21)))*(cond(var(23)=1,cond(var(18)=1,2,2.5),1)))*cond(var(18)=1,3,1),cond(var(39)= 1,4,2)
-getpower = 30,15
+getpower = 10,5
 hitflag = MAFD
 guardflag = HA
 pausetime = 6,8
@@ -12572,7 +12572,7 @@ movetype= A
 physics = A
 ctrl = 0
 anim = 630
-poweradd = 10
+poweradd = 0
 sprpriority = 1
 
 [State 0, VarAdd]
@@ -12625,7 +12625,7 @@ Trigger1 = animelem = 4 || animelem = 5 || animelem = 6
 attr = S,SA
 animtype  = hard
 damage = (cond(var(16) = 1 && var(39)= 1,42,cond(var(39)= 1,21,cond(var(16) = 1,28,14)))*(cond(var(23)=1,cond(var(18)=1,2,3),1)))*(cond(var(18)=1,3,1)),cond(var(39)= 1,4,2)
-getpower = 30,15
+getpower = 10,5
 hitflag = MAFD
 guardflag = HA
 pausetime = 6,8
@@ -13109,7 +13109,7 @@ trigger1 = timemod = 3,0
 attr = S,SA        ;SCA,NA,SA,HA,NP,SP,HP,NT,ST,HT
 hitflag = MAF        ;HLAFD+-
 guardflag = MA         ;HLA      ;B,E,F
-getpower = 10,5
+getpower = 30,15
 animtype = medium       ;light,medium,hard,back,up,diagup
 air.animtype = medium
 priority = 6,Hit   ;Hit,Miss,Dodge
@@ -13288,7 +13288,7 @@ movetype= A
 physics = S
 ctrl = 0
 anim = 700
-poweradd= 17
+poweradd= 0
 sprpriority = 2
 
 [State 0, StateTypeSet]
@@ -13320,6 +13320,7 @@ trigger1 = animelem = 2
 attr = S,ST
 priority = 7,dodge
 damage = 0
+getpower = 60,30
 animtype = Light
 guardflag = MA
 hitflag = MAF
@@ -13404,7 +13405,7 @@ physics = S
 velset = 0,0
 ctrl = 0
 anim = 701
-poweradd = 40
+poweradd = 0
 sprpriority = 2
 
 [State 0, Posadd]
@@ -13597,7 +13598,7 @@ physics = S
 velset = 0,0
 ctrl = 0
 anim = 5000
-poweradd = 40
+poweradd = 0
 sprpriority = 2
 
 [State 0, PlaySnd]
@@ -13761,7 +13762,7 @@ movetype= A
 physics = S
 ctrl = 0
 anim = 700
-poweradd= 17
+poweradd= 0
 sprpriority = 2
 
 [State 0, AssertSpecial]
@@ -13775,6 +13776,7 @@ trigger1 = animelem = 2
 attr = S,ST
 priority = 7,dodge
 damage = 0
+getpower = 60,30
 animtype = Light
 guardflag = MA
 hitflag = MAF
@@ -13859,7 +13861,7 @@ physics = S
 velset = 0,0
 ctrl = 0
 anim = 706
-poweradd = 40
+poweradd = 0
 sprpriority = 2
 
 [State 0, Explod]
@@ -14041,7 +14043,7 @@ physics = S
 velset = 0,0
 ctrl = 0
 anim = 5000
-poweradd = 40
+poweradd = 0
 sprpriority = 2
 
 [State 0, PlaySnd]
@@ -14292,7 +14294,7 @@ movetype= A
 physics = S
 ctrl = 0
 anim = 800
-poweradd = 80
+poweradd = 0
 sprpriority = 2
 
 [State 0, TargetPowerAdd]
@@ -14410,7 +14412,7 @@ movetype= A
 physics = S
 ctrl = 0
 anim = 800
-poweradd = 88
+poweradd = 0
 sprpriority = 2
 
 [State 0, Aspas]
@@ -14585,7 +14587,7 @@ type    = S
 movetype= A
 physics = N
 velset = 0,0
-poweradd= 90
+poweradd= 0
 ctrl = 0
 anim = 902
 
@@ -14615,6 +14617,7 @@ type = HitDef
 trigger1 = time >= 0
 attr = S, NA
 damage = cond(var(16) = 1 && var(39)= 1,72,cond(var(39)= 1,36,cond(var(16) = 1,48,18)))*cond(var(18)=1,3,1),0
+getpower = 30,15
 animtype = Hard
 hitflag = MAF
 guardflag = MA

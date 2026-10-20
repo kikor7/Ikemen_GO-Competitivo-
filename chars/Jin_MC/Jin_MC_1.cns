@@ -1636,6 +1636,7 @@ triggerall = var(6) = 0
 trigger1 = p2movetype != H && p2stateno != [5000,5299]
 attr = S, NA
 damage = floor(124*fvar(21)), 0
+getpower = 30,15
 animtype = Light
 guardflag = M
 hitflag = MA
@@ -1672,6 +1673,7 @@ triggerall = var(6) = 1
 trigger1 = p2movetype != H && p2stateno != [5000,5299]
 attr = S, NA
 damage = floor(124*fvar(21)), 0
+getpower = 30,15
 animtype = Medium
 guardflag = M
 hitflag = MA
@@ -1708,6 +1710,7 @@ triggerall = var(6) = 2
 trigger1 = p2movetype != H && p2stateno != [5000,5299]
 attr = S, NA
 damage = floor(124*fvar(21)), 0
+getpower = 30,15
 animtype = Hard
 guardflag = M
 hitflag = MA
@@ -1744,6 +1747,7 @@ triggerall = var(6) = 3
 trigger1 = p2movetype != H && p2stateno != [5000,5299]
 attr = S, NA
 damage = floor(124*fvar(21)), 0
+getpower = 30,15
 animtype = Hard
 guardflag = M
 hitflag = MA
@@ -1820,6 +1824,7 @@ triggerall = var(6) = 0
 trigger1 = p2movetype != H && p2stateno != [5000,5299]
 attr = S, NA
 damage = floor(124*fvar(21)), 0
+getpower = 30,15
 animtype = Light
 guardflag = M
 hitflag = MA
@@ -1856,6 +1861,7 @@ triggerall = var(6) = 1
 trigger1 = p2movetype != H && p2stateno != [5000,5299]
 attr = S, NA
 damage = floor(124*fvar(21)), 0
+getpower = 30,15
 animtype = Medium
 guardflag = M
 hitflag = MA
@@ -1892,6 +1898,7 @@ triggerall = var(6) = 2
 trigger1 = p2movetype != H && p2stateno != [5000,5299]
 attr = S, NA
 damage = floor(124*fvar(21)), 0
+getpower = 30,15
 animtype = Hard
 guardflag = M
 hitflag = MA
@@ -1928,6 +1935,7 @@ triggerall = var(6) = 3
 trigger1 = p2movetype != H && p2stateno != [5000,5299]
 attr = S, NA
 damage = floor(124*fvar(21)), 0
+getpower = 30,15
 animtype = Hard
 guardflag = M
 hitflag = MA
@@ -2004,6 +2012,7 @@ triggerall = var(6) = 0
 trigger1 = p2movetype != H && p2stateno != [5000,5299]
 attr = S, NA
 damage = floor(124*fvar(21)), 0
+getpower = 30,15
 animtype = Light
 guardflag = M
 hitflag = MA
@@ -2040,6 +2049,7 @@ triggerall = var(6) = 1
 trigger1 = p2movetype != H && p2stateno != [5000,5299]
 attr = S, NA
 damage = floor(124*fvar(21)), 0
+getpower = 30,15
 animtype = Medium
 guardflag = M
 hitflag = MA
@@ -2076,6 +2086,7 @@ triggerall = var(6) = 2
 trigger1 = p2movetype != H && p2stateno != [5000,5299]
 attr = S, NA
 damage = floor(124*fvar(21)), 0
+getpower = 30,15
 animtype = Hard
 guardflag = M
 hitflag = MA
@@ -2112,6 +2123,7 @@ triggerall = var(6) = 3
 trigger1 = p2movetype != H && p2stateno != [5000,5299]
 attr = S, NA
 damage = floor(124*fvar(21)), 0
+getpower = 30,15
 animtype = Hard
 guardflag = M
 hitflag = MA
@@ -2188,6 +2200,7 @@ triggerall = var(6) = 0
 trigger1 = p2movetype != H && p2stateno != [5000,5299]
 attr = S, NA
 damage = floor(124*fvar(21)), 0
+getpower = 30,15
 animtype = Light
 guardflag = M
 hitflag = MA
@@ -2224,6 +2237,7 @@ triggerall = var(6) = 1
 trigger1 = p2movetype != H && p2stateno != [5000,5299]
 attr = S, NA
 damage = floor(124*fvar(21)), 0
+getpower = 30,15
 animtype = Medium
 guardflag = M
 hitflag = MA
@@ -2260,6 +2274,7 @@ triggerall = var(6) = 2
 trigger1 = p2movetype != H && p2stateno != [5000,5299]
 attr = S, NA
 damage = floor(124*fvar(21)), 0
+getpower = 30,15
 animtype = Hard
 guardflag = M
 hitflag = MA
@@ -2296,6 +2311,7 @@ triggerall = var(6) = 3
 trigger1 = p2movetype != H && p2stateno != [5000,5299]
 attr = S, NA
 damage = floor(124*fvar(21)), 0
+getpower = 30,15
 animtype = Hard
 guardflag = M
 hitflag = MA
@@ -2373,6 +2389,7 @@ trigger1 = AnimElem = 2
 trigger1 = p2movetype != H && p2stateno != [5000,5299]
 attr = S, NA
 damage = floor(124*fvar(21)), 0
+getpower = 15,7
 animtype = Light
 guardflag = L
 hitflag = MA
@@ -2410,6 +2427,7 @@ trigger1 = AnimElem = 2
 trigger1 = p2movetype != H && p2stateno != [5000,5299]
 attr = S, NA
 damage = floor(124*fvar(21)), 0
+getpower = 15,7
 animtype = Medium
 guardflag = L
 hitflag = MA
@@ -2447,6 +2465,7 @@ trigger1 = AnimElem = 2
 trigger1 = p2movetype != H && p2stateno != [5000,5299]
 attr = S, NA
 damage = floor(124*fvar(21)), 0
+getpower = 15,7
 animtype = Hard
 guardflag = L
 hitflag = MA
@@ -2484,6 +2503,7 @@ trigger1 = AnimElem = 2
 trigger1 = p2movetype != H && p2stateno != [5000,5299]
 attr = S, NA
 damage = floor(124*fvar(21)), 0
+getpower = 15,7
 animtype = Hard
 guardflag = L
 hitflag = MA
@@ -2524,6 +2544,7 @@ trigger1 = AnimElem = 5
 trigger1 = p2movetype != H && p2stateno != [5000,5299]
 attr = S, NA
 damage = floor(124*fvar(21)), 0
+getpower = 15,7
 animtype = Light
 guardflag = L
 hitflag = MA
@@ -2561,6 +2582,7 @@ trigger1 = AnimElem = 5
 trigger1 = p2movetype != H && p2stateno != [5000,5299]
 attr = S, NA
 damage = floor(124*fvar(21)), 0
+getpower = 15,7
 animtype = Medium
 guardflag = L
 hitflag = MA
@@ -2598,6 +2620,7 @@ trigger1 = AnimElem = 5
 trigger1 = p2movetype != H && p2stateno != [5000,5299]
 attr = S, NA
 damage = floor(124*fvar(21)), 0
+getpower = 15,7
 animtype = Hard
 guardflag = L
 hitflag = MA
@@ -2635,6 +2658,7 @@ trigger1 = AnimElem = 5
 trigger1 = p2movetype != H && p2stateno != [5000,5299]
 attr = S, NA
 damage = floor(124*fvar(21)), 0
+getpower = 15,7
 animtype = Hard
 guardflag = L
 hitflag = MA
@@ -2694,6 +2718,7 @@ triggerall = var(6) = 0
 trigger1 = p2movetype != H && p2stateno != [5000,5299]
 attr = S, NA
 damage = floor(124*fvar(21)), 0
+getpower = 30,15
 animtype = Light
 guardflag = L
 hitflag = MA
@@ -2730,6 +2755,7 @@ triggerall = var(6) = 1
 trigger1 = p2movetype != H && p2stateno != [5000,5299]
 attr = S, NA
 damage = floor(124*fvar(21)), 0
+getpower = 30,15
 animtype = Medium
 guardflag = L
 hitflag = MA
@@ -2766,6 +2792,7 @@ triggerall = var(6) = 2
 trigger1 = p2movetype != H && p2stateno != [5000,5299]
 attr = S, NA
 damage = floor(124*fvar(21)), 0
+getpower = 30,15
 animtype = Hard
 guardflag = L
 hitflag = MA
@@ -2802,6 +2829,7 @@ triggerall = var(6) = 3
 trigger1 = p2movetype != H && p2stateno != [5000,5299]
 attr = S, NA
 damage = floor(124*fvar(21)), 0
+getpower = 30,15
 animtype = Hard
 guardflag = L
 hitflag = MA
@@ -2861,6 +2889,7 @@ triggerall = var(6) = 0
 trigger1 = p2movetype != H && p2stateno != [5000,5299]
 attr = C, NA
 damage = floor(124*fvar(21)), 0
+getpower = 30,15
 animtype = Light
 guardflag = M
 hitflag = MA
@@ -2897,6 +2926,7 @@ triggerall = var(6) = 1
 trigger1 = p2movetype != H && p2stateno != [5000,5299]
 attr = C, NA
 damage = floor(124*fvar(21)), 0
+getpower = 30,15
 animtype = Medium
 guardflag = M
 hitflag = MA
@@ -2933,6 +2963,7 @@ triggerall = var(6) = 2
 trigger1 = p2movetype != H && p2stateno != [5000,5299]
 attr = C, NA
 damage = floor(124*fvar(21)), 0
+getpower = 30,15
 animtype = Hard
 guardflag = M
 hitflag = MA
@@ -2969,6 +3000,7 @@ triggerall = var(6) = 3
 trigger1 = p2movetype != H && p2stateno != [5000,5299]
 attr = C, NA
 damage = floor(124*fvar(21)), 0
+getpower = 30,15
 animtype = Hard
 guardflag = M
 hitflag = MA
@@ -3045,6 +3077,7 @@ triggerall = var(6) = 0
 trigger1 = p2movetype != H && p2stateno != [5000,5299]
 attr = C, NA
 damage = floor(124*fvar(21)), 0
+getpower = 30,15
 animtype = Light
 guardflag = M
 hitflag = MA
@@ -3081,6 +3114,7 @@ triggerall = var(6) = 1
 trigger1 = p2movetype != H && p2stateno != [5000,5299]
 attr = C, NA
 damage = floor(124*fvar(21)), 0
+getpower = 30,15
 animtype = Medium
 guardflag = M
 hitflag = MA
@@ -3117,6 +3151,7 @@ triggerall = var(6) = 2
 trigger1 = p2movetype != H && p2stateno != [5000,5299]
 attr = C, NA
 damage = floor(124*fvar(21)), 0
+getpower = 30,15
 animtype = Hard
 guardflag = M
 hitflag = MA
@@ -3153,6 +3188,7 @@ triggerall = var(6) = 3
 trigger1 = p2movetype != H && p2stateno != [5000,5299]
 attr = C, NA
 damage = floor(124*fvar(21)), 0
+getpower = 30,15
 animtype = Hard
 guardflag = M
 hitflag = MA
@@ -3229,6 +3265,7 @@ triggerall = var(6) = 0
 trigger1 = p2movetype != H && p2stateno != [5000,5299]
 attr = C, NA
 damage = floor(124*fvar(21)), 0
+getpower = 30,15
 animtype = Light
 guardflag = L
 hitflag = MA
@@ -3265,6 +3302,7 @@ triggerall = var(6) = 1
 trigger1 = p2movetype != H && p2stateno != [5000,5299]
 attr = C, NA
 damage = floor(124*fvar(21)), 0
+getpower = 30,15
 animtype = Medium
 guardflag = L
 hitflag = MA
@@ -3301,6 +3339,7 @@ triggerall = var(6) = 2
 trigger1 = p2movetype != H && p2stateno != [5000,5299]
 attr = C, NA
 damage = floor(124*fvar(21)), 0
+getpower = 30,15
 animtype = Hard
 guardflag = L
 hitflag = MA
@@ -3337,6 +3376,7 @@ triggerall = var(6) = 3
 trigger1 = p2movetype != H && p2stateno != [5000,5299]
 attr = C, NA
 damage = floor(124*fvar(21)), 0
+getpower = 30,15
 animtype = Hard
 guardflag = L
 hitflag = MA
@@ -3396,6 +3436,7 @@ triggerall = var(6) = 0
 trigger1 = p2movetype != H
 attr = C, NA
 damage = floor(124*fvar(21)), 0
+getpower = 30,15
 animtype = Light
 guardflag = L
 hitflag = MA
@@ -3432,6 +3473,7 @@ triggerall = var(6) = 1
 trigger1 = p2movetype != H && p2stateno != [5000,5299]
 attr = C, NA
 damage = floor(124*fvar(21)), 0
+getpower = 30,15
 animtype = Medium
 guardflag = L
 hitflag = MA
@@ -3468,6 +3510,7 @@ triggerall = var(6) = 2
 trigger1 = p2movetype != H && p2stateno != [5000,5299]
 attr = C, NA
 damage = floor(124*fvar(21)), 0
+getpower = 30,15
 animtype = Hard
 guardflag = L
 hitflag = MA
@@ -3504,6 +3547,7 @@ triggerall = var(6) = 3
 trigger1 = p2movetype != H && p2stateno != [5000,5299]
 attr = C, NA
 damage = floor(124*fvar(21)), 0
+getpower = 30,15
 animtype = Hard
 guardflag = L
 hitflag = MA
@@ -3564,6 +3608,7 @@ trigger1 = AnimElem = 2
 trigger1 = p2movetype != H && p2stateno != [5000,5299]
 attr = C, NA
 damage = floor(124*fvar(21)), 0
+getpower = 15,7
 animtype = Light
 guardflag = L
 hitflag = MA
@@ -3601,6 +3646,7 @@ trigger1 = AnimElem = 2
 trigger1 = p2movetype != H && p2stateno != [5000,5299]
 attr = C, NA
 damage = floor(124*fvar(21)), 0
+getpower = 15,7
 animtype = Medium
 guardflag = L
 hitflag = MA
@@ -3638,6 +3684,7 @@ trigger1 = AnimElem = 2
 trigger1 = p2movetype != H && p2stateno != [5000,5299]
 attr = C, NA
 damage = floor(124*fvar(21)), 0
+getpower = 15,7
 animtype = Hard
 guardflag = L
 hitflag = MA
@@ -3675,6 +3722,7 @@ trigger1 = AnimElem = 2
 trigger1 = p2movetype != H && p2stateno != [5000,5299]
 attr = C, NA
 damage = floor(124*fvar(21)), 0
+getpower = 15,7
 animtype = Hard
 guardflag = L
 hitflag = MA
@@ -3715,6 +3763,7 @@ trigger1 = AnimElem = 5
 trigger1 = p2movetype != H && p2stateno != [5000,5299]
 attr = C, NA
 damage = floor(124*fvar(21)), 0
+getpower = 15,7
 animtype = Light
 guardflag = L
 hitflag = MA
@@ -3752,6 +3801,7 @@ trigger1 = AnimElem = 5
 trigger1 = p2movetype != H && p2stateno != [5000,5299]
 attr = C, NA
 damage = floor(124*fvar(21)), 0
+getpower = 15,7
 animtype = Medium
 guardflag = L
 hitflag = MA
@@ -3789,6 +3839,7 @@ trigger1 = AnimElem = 5
 trigger1 = p2movetype != H && p2stateno != [5000,5299]
 attr = C, NA
 damage = floor(124*fvar(21)), 0
+getpower = 15,7
 animtype = Hard
 guardflag = L
 hitflag = MA
@@ -3826,6 +3877,7 @@ trigger1 = AnimElem = 5
 trigger1 = p2movetype != H && p2stateno != [5000,5299]
 attr = C, NA
 damage = floor(124*fvar(21)), 0
+getpower = 15,7
 animtype = Hard
 guardflag = L
 hitflag = MA
@@ -3885,6 +3937,7 @@ triggerall = var(6) = 0
 trigger1 = p2movetype != H && p2stateno != [5000,5299]
 attr = C, NA
 damage = floor(124*fvar(21)), 0
+getpower = 30,15
 animtype = Light
 guardflag = L
 hitflag = MA
@@ -3921,6 +3974,7 @@ triggerall = var(6) = 1
 trigger1 = p2movetype != H && p2stateno != [5000,5299]
 attr = C, NA
 damage = floor(124*fvar(21)), 0
+getpower = 30,15
 animtype = Medium
 guardflag = L
 hitflag = MA
@@ -3957,6 +4011,7 @@ triggerall = var(6) = 2
 trigger1 = p2movetype != H && p2stateno != [5000,5299]
 attr = C, NA
 damage = floor(124*fvar(21)), 0
+getpower = 30,15
 animtype = Hard
 guardflag = L
 hitflag = MA
@@ -3993,6 +4048,7 @@ triggerall = var(6) = 3
 trigger1 = p2movetype != H && p2stateno != [5000,5299]
 attr = C, NA
 damage = floor(124*fvar(21)), 0
+getpower = 30,15
 animtype = Hard
 guardflag = L
 hitflag = MA
@@ -4052,6 +4108,7 @@ trigger1 = AnimElem = 2
 trigger1 = p2movetype != H && p2stateno != [5000,5299]
 attr = A, NA
 damage = floor(124*fvar(21)), 0
+getpower = 15,7
 animtype = Light
 guardflag = H
 hitflag = MA
@@ -4089,6 +4146,7 @@ trigger1 = AnimElem = 2
 trigger1 = p2movetype != H && p2stateno != [5000,5299]
 attr = A, NA
 damage = floor(124*fvar(21)), 0
+getpower = 15,7
 animtype = Medium
 guardflag = H
 hitflag = MA
@@ -4126,6 +4184,7 @@ trigger1 = AnimElem = 2
 trigger1 = p2movetype != H && p2stateno != [5000,5299]
 attr = A, NA
 damage = floor(124*fvar(21)), 0
+getpower = 15,7
 animtype = Hard
 guardflag = H
 hitflag = MA
@@ -4163,6 +4222,7 @@ trigger1 = AnimElem = 2
 trigger1 = p2movetype != H && p2stateno != [5000,5299]
 attr = A, NA
 damage = floor(124*fvar(21)), 0
+getpower = 15,7
 animtype = Hard
 guardflag = H
 hitflag = MA
@@ -4203,6 +4263,7 @@ trigger1 = AnimElem = 5
 trigger1 = p2movetype != H && p2stateno != [5000,5299]
 attr = A, NA
 damage = floor(124*fvar(21)), 0
+getpower = 15,7
 animtype = Light
 guardflag = H
 hitflag = MA
@@ -4240,6 +4301,7 @@ trigger1 = AnimElem = 5
 trigger1 = p2movetype != H && p2stateno != [5000,5299]
 attr = A, NA
 damage = floor(124*fvar(21)), 0
+getpower = 15,7
 animtype = Medium
 guardflag = H
 hitflag = MA
@@ -4277,6 +4339,7 @@ trigger1 = AnimElem = 5
 trigger1 = p2movetype != H && p2stateno != [5000,5299]
 attr = A, NA
 damage = floor(124*fvar(21)), 0
+getpower = 15,7
 animtype = Hard
 guardflag = H
 hitflag = MA
@@ -4314,6 +4377,7 @@ trigger1 = AnimElem = 5
 trigger1 = p2movetype != H && p2stateno != [5000,5299]
 attr = A, NA
 damage = floor(124*fvar(21)), 0
+getpower = 15,7
 animtype = Hard
 guardflag = H
 hitflag = MA
@@ -4420,6 +4484,7 @@ triggerall = var(6) = 0
 trigger1 = p2movetype != H && p2stateno != [5000,5299]
 attr = A, NA
 damage = floor(124*fvar(21)), 0
+getpower = 30,15
 animtype = Light
 guardflag = H
 hitflag = MA
@@ -4456,6 +4521,7 @@ triggerall = var(6) = 1
 trigger1 = p2movetype != H && p2stateno != [5000,5299]
 attr = A, NA
 damage = floor(124*fvar(21)), 0
+getpower = 30,15
 animtype = Medium
 guardflag = H
 hitflag = MA
@@ -4492,6 +4558,7 @@ triggerall = var(6) = 2
 trigger1 = p2movetype != H && p2stateno != [5000,5299]
 attr = A, NA
 damage = floor(124*fvar(21)), 0
+getpower = 30,15
 animtype = Hard
 guardflag = H
 hitflag = MA
@@ -4528,6 +4595,7 @@ triggerall = var(6) = 3
 trigger1 = p2movetype != H && p2stateno != [5000,5299]
 attr = A, NA
 damage = floor(124*fvar(21)), 0
+getpower = 30,15
 animtype = Hard
 guardflag = H
 hitflag = MA
@@ -4634,6 +4702,7 @@ triggerall = var(6) = 0
 trigger1 = p2movetype != H && p2stateno != [5000,5299]
 attr = A, NA
 damage = floor(124*fvar(21)), 0
+getpower = 30,15
 animtype = Light
 guardflag = H
 hitflag = MA
@@ -4670,6 +4739,7 @@ triggerall = var(6) = 1
 trigger1 = p2movetype != H && p2stateno != [5000,5299]
 attr = A, NA
 damage = floor(124*fvar(21)), 0
+getpower = 30,15
 animtype = Medium
 guardflag = H
 hitflag = MA
@@ -4706,6 +4776,7 @@ triggerall = var(6) = 2
 trigger1 = p2movetype != H && p2stateno != [5000,5299]
 attr = A, NA
 damage = floor(124*fvar(21)), 0
+getpower = 30,15
 animtype = Hard
 guardflag = H
 hitflag = MA
@@ -4742,6 +4813,7 @@ triggerall = var(6) = 3
 trigger1 = p2movetype != H && p2stateno != [5000,5299]
 attr = A, NA
 damage = floor(124*fvar(21)), 0
+getpower = 30,15
 animtype = Hard
 guardflag = H
 hitflag = MA
@@ -4859,7 +4931,7 @@ p1stateno = 810       ;On success, KFM changes to state 810
 p2stateno = 820       ;If hit, p2 changes to state 820 in KFM's cns
 guard.dist = 0        ;This prevents p2 from going into a guard state if close
 fall = 1              ;Force p2 into falling down
-getpower=  0
+getpower = 60,30
 
 [State 800, 2]
 type = ChangeState
@@ -5034,7 +5106,7 @@ type    = S
 movetype= A
 physics = S
 juggle  = 4
-poweradd = 0
+poweradd = 20
 velset = 0,0
 anim = 1000
 ctrl = 0
@@ -5126,7 +5198,7 @@ p1stateno = 1101
 p2stateno = 1150
 guard.dist = 0
 fall = 1
-getpower=  0
+getpower = 30,15
 
 [State 1100, 1]
 type = StatetypeSet
@@ -5179,6 +5251,7 @@ triggerall = AnimElemtime(2) >= 0 && AnimElemtime(13) < 0
 trigger1 = p2movetype != H && p2stateno != [5000,5299]
 attr = A, SA
 damage = floor(124*fvar(21)), 0
+getpower = 30,15
 animtype = Light
 guardflag = H
 hitflag = MA
@@ -5216,6 +5289,7 @@ triggerall = AnimElemtime(2) >= 0 && AnimElemtime(13) < 0
 trigger1 = p2movetype != H && p2stateno != [5000,5299]
 attr = A, SA
 damage = floor(124*fvar(21)), 0
+getpower = 30,15
 animtype = Medium
 guardflag = H
 hitflag = MA
@@ -5253,6 +5327,7 @@ triggerall = AnimElemtime(2) >= 0 && AnimElemtime(13) < 0
 trigger1 = p2movetype != H && p2stateno != [5000,5299]
 attr = A, SA
 damage = floor(124*fvar(21)), 0
+getpower = 30,15
 animtype = Hard
 guardflag = H
 hitflag = MA
@@ -5290,6 +5365,7 @@ triggerall = AnimElemtime(2) >= 0 && AnimElemtime(13) < 0
 trigger1 = p2movetype != H && p2stateno != [5000,5299]
 attr = A, SA
 damage = floor(124*fvar(21)), 0
+getpower = 30,15
 animtype = Hard
 guardflag = H
 hitflag = MA
@@ -6181,6 +6257,7 @@ triggerall = root,var(6) = 0
 trigger1 = p2movetype != H && p2stateno != [5000,5299]
 attr = S, SP
 damage = floor(186*root,fvar(22)), 15
+getpower = 30,15
 animtype = Light
 guardflag = M
 hitflag = MA
@@ -6216,6 +6293,7 @@ triggerall = root,var(6) = 1
 trigger1 = p2movetype != H && p2stateno != [5000,5299]
 attr = S, SP
 damage = floor(186*root,fvar(22)), 15
+getpower = 30,15
 animtype = Medium
 guardflag = M
 hitflag = MA
@@ -6251,6 +6329,7 @@ triggerall = root,var(6) = 2
 trigger1 = p2movetype != H && p2stateno != [5000,5299]
 attr = S, SP
 damage = floor(186*root,fvar(22)), 15
+getpower = 30,15
 animtype = Hard
 guardflag = M
 hitflag = MA
@@ -6286,6 +6365,7 @@ triggerall = root,var(6) = 3
 trigger1 = p2movetype != H && p2stateno != [5000,5299]
 attr = S, SP
 damage = floor(186*root,fvar(22)), 15
+getpower = 30,15
 animtype = Hard
 guardflag = M
 hitflag = MA

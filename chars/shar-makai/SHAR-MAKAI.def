@@ -9,6 +9,7 @@ pal.defaults =1,2,3
 
 ; Files for the player
 [Files]
+movelist = movelist.dat
 cmd     =shar-makai.cmd
 cns     =shar-makai.cns
 st      =shar-makai.cns

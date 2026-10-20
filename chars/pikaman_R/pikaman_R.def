@@ -9,6 +9,7 @@ pal.defaults = 6,3,4,2      ;敵としてでるキャラのパレット
 
 ; Files for the player
 [Files]
+movelist = movelist.dat
 cmd     	= 		pikaman_R_CNS/pikaman.cmd.cns   ;キャラのコマンド
 cns     	= 		pikaman_R_CNS/pikaman.cns   ;キャラのプログラム
 st      	= 		pikaman_R_CNS/pikaman.cns   ;キャラのプログラム

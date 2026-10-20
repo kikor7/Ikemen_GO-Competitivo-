@@ -312,7 +312,7 @@ juggle   = 1                     ;攻撃を当てた時に溜まるジャグルポイントの設定
 velset   = 0,0                   ;移動初速度の設定（このステートでは0,0なので移動せず止まります）
 ctrl     = 0                     ;コントロールの可否（0=キー操作不可・1=キー操作可能）
 anim     = 3300                   ;airファイルの[Begin Action 200]のアニメを使っています
-poweradd = 80                    ;パワーゲージの増加量を設定
+poweradd = 20                    ;パワーゲージの増加量を設定
 sprpriority = 2                  ;画像表示優先度　数値が多いと手前に、少ないと奥に優先されます
 
 [State -1,2]
@@ -378,7 +378,7 @@ juggle   = 1                     ;攻撃を当てた時に溜まるジャグルポイントの設定
 velset   = 0.4,-0.1                   ;移動初速度の設定（このステートでは0,0なので移動せず止まります）
 ctrl     = 0                     ;コントロールの可否（0=キー操作不可・1=キー操作可能）
 anim     = 3310                   ;airファイルの[Begin Action 200]のアニメを使っています
-poweradd = 80                    ;パワーゲージの増加量を設定
+poweradd = 0                    ;パワーゲージの増加量を設定
 sprpriority = 3                  ;画像表示優先度　数値が多いと手前に、少ないと奥に優先されます
 
 [State 3310, ヒット定義]
@@ -386,6 +386,7 @@ type = HitDef                    ;攻撃ヒット定義（Hit Definition）のステートコン
 trigger1 = AnimElem >= 2
 attr = A, NA                     ;攻撃属性: これは Standing, Normal Attack（立ち通常攻撃）
 damage = 15, 0                   ;相手に与えるダメージ（ヒットした時,ガードされた時）
+getpower = 10,5
 animtype = Light                 ;当たった時の相手のアニメの種類: Light, Medium, Hard, Back, Up, DiagUp (デフォルト：Light)
 guardflag = MA                   ;相手が立ち・しゃがみ・空中どのガードが出来るかを決めます（現在はMiddleAir（全部ガードされます））
 hitflag = MAF                    ;相手がどの状態の時で攻撃を当てられるかを決めます（現在はMiddleAirFall（立ち・しゃがみ・空中・やられ落下））
@@ -418,7 +419,7 @@ juggle   = 1                     ;攻撃を当てた時に溜まるジャグルポイントの設定
 velset   = 0.4,0                   ;移動初速度の設定（このステートでは0,0なので移動せず止まります）
 ctrl     = 0                     ;コントロールの可否（0=キー操作不可・1=キー操作可能）
 anim     = 3310                   ;airファイルの[Begin Action 200]のアニメを使っています
-poweradd = 80                    ;パワーゲージの増加量を設定
+poweradd = 0                    ;パワーゲージの増加量を設定
 sprpriority = 3                  ;画像表示優先度　数値が多いと手前に、少ないと奥に優先されます
 
 [State 3311, ヒット定義]
@@ -426,6 +427,7 @@ type = HitDef                    ;攻撃ヒット定義（Hit Definition）のステートコン
 trigger1 = AnimElem >= 2
 attr = A, NA                     ;攻撃属性: これは Standing, Normal Attack（立ち通常攻撃）
 damage = 15, 0                   ;相手に与えるダメージ（ヒットした時,ガードされた時）
+getpower = 10,5
 animtype = Light                 ;当たった時の相手のアニメの種類: Light, Medium, Hard, Back, Up, DiagUp (デフォルト：Light)
 guardflag = MA                   ;相手が立ち・しゃがみ・空中どのガードが出来るかを決めます（現在はMiddleAir（全部ガードされます））
 hitflag = MAF                    ;相手がどの状態の時で攻撃を当てられるかを決めます（現在はMiddleAirFall（立ち・しゃがみ・空中・やられ落下））
@@ -458,7 +460,7 @@ juggle   = 1                     ;攻撃を当てた時に溜まるジャグルポイントの設定
 velset   = 0.4,0.1                   ;移動初速度の設定（このステートでは0,0なので移動せず止まります）
 ctrl     = 0                     ;コントロールの可否（0=キー操作不可・1=キー操作可能）
 anim     = 3310                   ;airファイルの[Begin Action 200]のアニメを使っています
-poweradd = 80                    ;パワーゲージの増加量を設定
+poweradd = 0                    ;パワーゲージの増加量を設定
 sprpriority = 3                  ;画像表示優先度　数値が多いと手前に、少ないと奥に優先されます
 
 [State 3312, ヒット定義]
@@ -466,6 +468,7 @@ type = HitDef                    ;攻撃ヒット定義（Hit Definition）のステートコン
 trigger1 = AnimElem >= 2
 attr = A, NA                     ;攻撃属性: これは Standing, Normal Attack（立ち通常攻撃）
 damage = 15, 0                   ;相手に与えるダメージ（ヒットした時,ガードされた時）
+getpower = 10,5
 animtype = Light                 ;当たった時の相手のアニメの種類: Light, Medium, Hard, Back, Up, DiagUp (デフォルト：Light)
 guardflag = MA                   ;相手が立ち・しゃがみ・空中どのガードが出来るかを決めます（現在はMiddleAir（全部ガードされます））
 hitflag = MAF                    ;相手がどの状態の時で攻撃を当てられるかを決めます（現在はMiddleAirFall（立ち・しゃがみ・空中・やられ落下））
@@ -499,7 +502,7 @@ juggle   = 5                     ;攻撃を当てた時に溜まるジャグルポイントの設定
 velset   = 0,0                   ;移動初速度の設定（このステートでは0,0なので移動せず止まります）
 ctrl     = 0                     ;コントロールの可否（0=キー操作不可・1=キー操作可能）
 anim     = 3400                   ;airファイルの[Begin Action 200]のアニメを使っています
-poweradd = 120                    ;パワーゲージの増加量を設定
+poweradd = 0                    ;パワーゲージの増加量を設定
 sprpriority = 2                  ;画像表示優先度　数値が多いと手前に、少ないと奥に優先されます
 
 
@@ -523,6 +526,7 @@ trigger2 = AnimElem = 9
 trigger3 = AnimElem = 10
 attr = S, NA                     ;攻撃属性: これは Standing, Normal Attack（立ち通常攻撃）
 damage = 40,5                   ;相手に与えるダメージ（ヒットした時,ガードされた時）
+getpower = 60,30
 animtype = Light                 ;当たった時の相手のアニメの種類: Light, Medium, Hard, Back, Up, DiagUp (デフォルト：Light)
 guardflag = HA                   ;相手が立ち・しゃがみ・空中どのガードが出来るかを決めます（現在はMiddleAir（全部ガードされます））
 hitflag = MAF                    ;相手がどの状態の時で攻撃を当てられるかを決めます（現在はMiddleAirFall（立ち・しゃがみ・空中・やられ落下））
@@ -608,7 +612,7 @@ physics=A
 movetype=I
 ctrl=0
 velset=0,0
-poweradd=100
+poweradd=20
 sprpriority=1
 
 [State -1,2]
@@ -637,7 +641,7 @@ physics=A
 movetype=I
 ctrl=0
 velset=0,0
-poweradd=100
+poweradd=20
 sprpriority=1
 
 [State -1,ベルン]
@@ -682,7 +686,7 @@ physics=A
 movetype=I
 ctrl=0
 velset=-1,-2
-poweradd=100
+poweradd=20
 sprpriority=1
 
 [State -1,ベルン]
@@ -725,7 +729,7 @@ physics=S
 movetype=I
 ctrl=0
 velset=0,0
-poweradd=100
+poweradd=20
 sprpriority=1
 
 [State -1,2]
@@ -770,7 +774,7 @@ type    = S
 movetype= A
 physics = S
 juggle  = 4
-poweradd= 60
+poweradd= 0
 ctrl = 0
 velset = 12-(root,palno =12)*12-(root,palno =6)*12,0
 anim = 3610+(root,palno =12)+(root,palno =6)
@@ -835,6 +839,7 @@ remvelocity = 0, 0;消えるときの速度
 attr = S, NP
 animtype = hard
 damage =  50, 11
+getpower = 15,7
 hitflag = MAF
 guardflag = MA
 pausetime = 0,12
@@ -872,6 +877,7 @@ trigger1 = AnimElem = 8
 attr = S, NA
 animtype  = Medium
 damage    = 60,5
+getpower = 15,7
 guardflag = MA
 pausetime = 18,18
 sparkno = s710
@@ -969,7 +975,7 @@ type    = C
 movetype= A
 physics = S
 juggle  = 4
-poweradd= 65
+poweradd= 0
 ctrl = 0
 velset = 12,0
 anim = 3620+(root,palno =12)+(root,palno =6)
@@ -1028,6 +1034,7 @@ trigger2 = AnimElem = 7
 attr = C, NA
 animtype  = back
 damage    = 30,5
+getpower = 30,15
 guardflag = L
 pausetime = 14,18
 sparkno = s710
@@ -1080,7 +1087,7 @@ type    = A
 movetype= A
 physics = N
 juggle  = 4
-poweradd= 65
+poweradd= 0
 ctrl = 0
 velset = 6,0
 anim = 3600+(root,palno=12)+(root,palno=6)
@@ -1135,6 +1142,7 @@ trigger5 = AnimElem = 5
 attr = S, NA
 animtype  = Medium
 damage    = 25,5
+getpower = 30,15
 guardflag = HA
 pausetime = 0,16
 sparkno = s710
@@ -1173,7 +1181,7 @@ type    = A
 movetype= A
 physics = N
 juggle  = 4
-poweradd= 65
+poweradd= 0
 ctrl = 0
 velset = 0,0
 anim = 3630+(root,palno=12)+(root,palno=6)
@@ -1240,6 +1248,7 @@ trigger5 = AnimElem = 6
 attr = A, NA
 animtype  = Medium
 damage    = 25,5
+getpower = 30,15
 guardflag = HA
 pausetime = 0,6
 sparkno = s710
@@ -2085,7 +2094,7 @@ type    = S
 movetype= A
 physics = N
 juggle  = 4
-poweradd= 60
+poweradd= 0
 ctrl = 0
 velset = 0,0
 anim = 6110
@@ -3791,7 +3800,7 @@ movetype=A
 anim=3500
 ctrl=0
 velset=ifelse(vel x =0,0,ifelse(vel x >0,2,-2)),-7
-poweradd=45
+poweradd=0
 sprpriority=1
 
 [State 3500, 1]
@@ -3827,7 +3836,7 @@ Guard.Kill        = 0				;この攻撃をガードで殺せるか
 Fall              = 1				;地面に叩き付けられるか
 Air.Fall          = 1				;地面に叩き付けられるか
 Fall.Recover      = 1				;リカバーできるか
-GetPower          = 25				;ヒット時のパワー増減
+getpower = 12,6;ヒット時のパワー増減
 Persistent = 0
 NumHits           = 1
 
@@ -3858,7 +3867,7 @@ Guard.Kill        = 0				;この攻撃をガードで殺せるか
 Fall              = 1				;地面に叩き付けられるか
 Air.Fall          = 1				;地面に叩き付けられるか
 Fall.Recover      = 1				;リカバーできるか
-GetPower          = 25				;ヒット時のパワー増減
+getpower = 12,6;ヒット時のパワー増減
 Persistent = 0
 NumHits           = 1
 
@@ -3889,7 +3898,7 @@ Guard.Kill        = 0				;この攻撃をガードで殺せるか
 Fall              = 1				;地面に叩き付けられるか
 Air.Fall          = 1				;地面に叩き付けられるか
 Fall.Recover      = 1				;リカバーできるか
-GetPower          = 25				;ヒット時のパワー増減
+getpower = 12,6;ヒット時のパワー増減
 Persistent = 0
 NumHits           = 1
 
@@ -3920,7 +3929,7 @@ Guard.Kill        = 0				;この攻撃をガードで殺せるか
 Fall              = 1				;地面に叩き付けられるか
 Air.Fall          = 1				;地面に叩き付けられるか
 Fall.Recover      = 1				;リカバーできるか
-GetPower          = 25				;ヒット時のパワー増減
+getpower = 12,6;ヒット時のパワー増減
 Persistent = 0
 NumHits           = 1
 
@@ -3951,7 +3960,7 @@ Guard.Kill        = 0				;この攻撃をガードで殺せるか
 Fall              = 1				;地面に叩き付けられるか
 Air.Fall          = 1				;地面に叩き付けられるか
 Fall.Recover      = 1				;リカバーできるか
-GetPower          = 25				;ヒット時のパワー増減
+getpower = 12,6;ヒット時のパワー増減
 Persistent = 0
 NumHits           = 1
 
@@ -4021,7 +4030,7 @@ movetype=A
 anim=1200
 ctrl=0
 velset=0,0
-poweradd=45
+poweradd=20
 sprpriority=1
 
 [State 1200]
@@ -4239,7 +4248,7 @@ Guard.Kill        = 0				;この攻撃をガードで殺せるか
 Fall              = 0				;地面に叩き付けられるか
 Air.Fall          = 1				;地面に叩き付けられるか
 Fall.Recover      = 1				;リカバーできるか
-GetPower          = 25				;ヒット時のパワー増減
+getpower = 7,3;ヒット時のパワー増減
 Persistent = 0
 NumHits           = 1
 guard.hittime     = 2
@@ -4378,7 +4387,7 @@ Guard.Kill        = 0
 Fall              = 0
 Air.Fall          = 1
 Fall.Recover      = 1
-GetPower          = 25
+getpower = 7,3
 Persistent = 0
 NumHits           = 1
 guard.hittime     = 2
@@ -4517,7 +4526,7 @@ Guard.Kill        = 0				;この攻撃をガードで殺せるか
 Fall              = 0				;地面に叩き付けられるか
 Air.Fall          = 1				;地面に叩き付けられるか
 Fall.Recover      = 1				;リカバーできるか
-GetPower          = 25				;ヒット時のパワー増減
+getpower = 7,3;ヒット時のパワー増減
 Persistent = 0
 NumHits           = 1
 guard.hittime     = 2
@@ -4656,7 +4665,7 @@ Guard.Kill        = 0				;この攻撃をガードで殺せるか
 Fall              = 0				;地面に叩き付けられるか
 Air.Fall          = 1				;地面に叩き付けられるか
 Fall.Recover      = 1				;リカバーできるか
-GetPower          = 25				;ヒット時のパワー増減
+getpower = 7,3;ヒット時のパワー増減
 Persistent = 0
 NumHits           = 1
 guard.hittime     = 2
@@ -4710,7 +4719,7 @@ movetype=A
 anim=1200
 ctrl=0
 velset=0,0
-poweradd=45
+poweradd=20
 sprpriority=1
 
 [State 1300]
@@ -4920,7 +4929,7 @@ movetype=A
 anim=2000
 ctrl=0
 velset=-2,-4
-poweradd=45
+poweradd=20
 sprpriority=1
 
 [State 2000]
@@ -5042,7 +5051,7 @@ movetype=A
 anim=2000
 ctrl=0
 velset=-2,-4
-poweradd=45
+poweradd=20
 sprpriority=1
 
 [State 2100]
@@ -5257,7 +5266,7 @@ Guard.Kill        = 0
 Fall              = 0
 Air.Fall          = 1
 Fall.Recover      = 1
-GetPower          = 25
+getpower = 15,7
 Persistent = 0
 NumHits           = 1
 
@@ -5354,7 +5363,7 @@ Guard.Kill        = 0
 Fall              = 0
 Air.Fall          = 1
 Fall.Recover      = 1
-GetPower          = 25
+getpower = 15,7
 Persistent = 0
 NumHits           = 1
 
@@ -5451,7 +5460,7 @@ Guard.Kill        = 0
 Fall              = 0
 Air.Fall          = 1
 Fall.Recover      = 1
-GetPower          = 25
+getpower = 15,7
 Persistent = 0
 NumHits           = 1
 
@@ -5548,7 +5557,7 @@ Guard.Kill        = 0
 Fall              = 0
 Air.Fall          = 1
 Fall.Recover      = 1
-GetPower          = 25
+getpower = 15,7
 Persistent = 0
 NumHits           = 1
 

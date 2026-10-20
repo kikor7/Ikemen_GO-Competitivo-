@@ -111,6 +111,7 @@ trigger1 = enemynear,movetype != A
 trigger1 = !movecontact && !movereversed
 attr = A, SP
 damage    = ceil(55*root,fvar(4)),5
+getpower = 15,7
 hitflag = MAFD
 guardflag = MA
 priority = 3
@@ -138,6 +139,7 @@ trigger1 = enemynear,movetype = A
 trigger1 = !movecontact && !movereversed
 attr = A, SP
 damage    = ceil(70*root,fvar(4)),5
+getpower = 15,7
 hitflag = MAFD
 guardflag = MA
 priority = 3
@@ -392,6 +394,7 @@ trigger1 = enemynear,movetype != A
 trigger1 = !movecontact && !movereversed
 attr = A, SP
 damage    = ceil(55*root,fvar(4)),3
+getpower = 15,7
 hitflag = MAFD
 guardflag = MA
 priority = 3
@@ -419,6 +422,7 @@ trigger1 = enemynear,movetype = A
 trigger1 = !movecontact && !movereversed
 attr = A, SP
 damage    = ceil(70*root,fvar(4)),3
+getpower = 15,7
 hitflag = MAFD
 guardflag = MA
 priority = 3
@@ -1077,6 +1081,7 @@ trigger1 = enemynear,movetype != A
 trigger1 = time%4 = 0
 attr = A, SP
 damage    = ceil(40*root,fvar(4)),3
+getpower = 15,7
 hitflag = MAFD
 guardflag = M
 priority = 3
@@ -1102,6 +1107,7 @@ trigger1 = enemynear,movetype = A
 trigger1 = time%4 = 0
 attr = A, SP
 damage    = ceil(70*root,fvar(4)),3
+getpower = 15,7
 hitflag = MAFD
 guardflag = M
 priority = 3
@@ -1254,6 +1260,7 @@ trigger1 = enemynear,movetype != A
 trigger1 = time%4 = 0
 attr = A, SP
 damage    = ceil(42*root,fvar(4)),3
+getpower = 15,7
 hitflag = MAFD
 guardflag = M
 priority = 3
@@ -1279,6 +1286,7 @@ trigger1 = enemynear,movetype = A
 trigger1 = time%4 = 0
 attr = A, SP
 damage    = ceil(72*root,fvar(4)),3
+getpower = 15,7
 hitflag = MAFD
 guardflag = M
 priority = 3
@@ -1711,6 +1719,7 @@ trigger1 = enemynear,movetype != A
 trigger1 = !movecontact && !movereversed
 attr = A, SP
 damage    = ceil(85*root,fvar(4)),3
+getpower = 15,7
 hitflag = MAFD
 guardflag = MA
 priority = 3
@@ -1738,6 +1747,7 @@ trigger1 = enemynear,movetype = A
 trigger1 = !movecontact && !movereversed
 attr = A, SP
 damage    = ceil(100*root,fvar(4)),3
+getpower = 15,7
 hitflag = MAFD
 guardflag = MA
 priority = 3
@@ -2026,6 +2036,7 @@ trigger1 = enemynear,movetype != A
 trigger1 = !movecontact && !movereversed
 attr = A, SP
 damage    = ceil(85*root,fvar(4)),3
+getpower = 15,7
 hitflag = MAFD
 guardflag = MA
 priority = 3
@@ -2053,6 +2064,7 @@ trigger1 = enemynear,movetype = A
 trigger1 = !movecontact && !movereversed
 attr = A, SP
 damage    = ceil(100*root,fvar(4)),3
+getpower = 15,7
 hitflag = MAFD
 guardflag = MA
 priority = 3
@@ -2810,6 +2822,7 @@ trigger1 = enemynear,movetype != A
 trigger1 = time%2 = 0
 attr = A, SP
 damage    = ceil(45*root,fvar(4)),3
+getpower = 15,7
 hitflag = MAFD
 guardflag = MA
 priority = 3
@@ -2837,6 +2850,7 @@ trigger1 = enemynear,movetype = A
 trigger1 = time%2 = 0
 attr = A, SP
 damage    = ceil(65*root,fvar(4)),3
+getpower = 15,7
 hitflag = MAFD
 guardflag = MA
 priority = 3
@@ -3085,6 +3099,7 @@ trigger1 = enemynear,movetype != A
 trigger1 = time%2 = 0
 attr = A, SP
 damage    = ceil(43*root,fvar(4)),3
+getpower = 15,7
 hitflag = MAFD
 guardflag = MA
 priority = 3
@@ -3112,6 +3127,7 @@ trigger1 = enemynear,movetype = A
 trigger1 = time%2 = 0
 attr = A, SP
 damage    = ceil(63*root,fvar(4)),3
+getpower = 15,7
 hitflag = MAFD
 guardflag = MA
 priority = 3
@@ -3621,6 +3637,7 @@ trigger1 = enemynear,movetype != A
 trigger1 = time%2 = 0
 attr = A, SP
 damage    = ceil(42*root,fvar(4)),3
+getpower = 15,7
 hitflag = MAFD
 guardflag = MA
 priority = 3
@@ -3648,6 +3665,7 @@ trigger1 = enemynear,movetype = A
 trigger1 = time%2 = 0
 attr = A, SP
 damage    = ceil(62*root,fvar(4)),3
+getpower = 15,7
 hitflag = MAFD
 guardflag = MA
 priority = 3
@@ -4749,6 +4767,7 @@ type = HitDef
 trigger1 = !movecontact && !movereversed
 attr = A, HA
 damage    = ceil(25*root,fvar(4)),0
+getpower = 3,1
 hitflag = MAFD
 guardflag = M
 priority = 3
@@ -4851,6 +4870,7 @@ type = HitDef
 trigger1 = !movecontact && !movereversed
 attr = A, HA
 damage    = ceil(75*root,fvar(4)),3
+getpower = 3,1
 hitflag = MAFD
 guardflag = M
 priority = 3
@@ -5021,6 +5041,7 @@ type = HitDef
 trigger1 = !movecontact && !movereversed
 attr = A, HA
 damage    = ceil(25*root,fvar(4)),0
+getpower = 3,1
 hitflag = MAFD
 guardflag = M
 priority = 3
@@ -5123,6 +5144,7 @@ type = HitDef
 trigger1 = !movecontact && !movereversed
 attr = A, HA
 damage    = ceil(75*root,fvar(4)),3
+getpower = 3,1
 hitflag = MAFD
 guardflag = M
 priority = 3

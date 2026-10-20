@@ -257,7 +257,7 @@ trigger2 = time = 20
 trigger3 = time = 40
 trigger4 = time = 45
 damage = 80
-getpower = 150
+getpower = 60,30
 attr = S, HP
 animtype  = Hard
 guardflag = MA
@@ -283,6 +283,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 [Statedef 201]
 type = S
+poweradd = 20
 ctrl = 0
 anim = 204
 movetype = A
@@ -318,7 +319,7 @@ projanim = 202
 projscale = 1,1
 projremove = 0
 projremovetime = 106
-getpower = 200
+getpower = 30,15
 velocity = 0,0
 remvelocity = 0,0
 accel = 0,0

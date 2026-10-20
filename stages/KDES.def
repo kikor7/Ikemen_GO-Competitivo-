@@ -25,7 +25,7 @@ tensionlow 60
 tension = 100
 overdrawhigh = 0
 overdrawlow = 0
-startzoom = 1,1
+startzoom = 1,0
 zoomout = .4
 zoomin = 1
 verticalfollow = .95

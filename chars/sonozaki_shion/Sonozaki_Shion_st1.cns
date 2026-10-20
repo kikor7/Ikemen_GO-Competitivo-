@@ -418,7 +418,7 @@ type    = S
 movetype= A
 physics = S
 juggle  = 1
-poweradd= 300
+poweradd= 0
 ;velset   = 10,0
 ctrl = 0
 anim = 32110
@@ -965,7 +965,7 @@ velset = -9,-2
 ctrl = 0
 anim = 2200+(var(50)!=0)*30000
 sprpriority = 2
-poweradd = 200
+poweradd = 0
 
 [State 2200, 0]
 type = PlayerPush
@@ -1273,7 +1273,7 @@ velset = -18,-4
 ctrl = 0
 anim = 2200+(var(50)!=0)*30000
 sprpriority = 2
-poweradd = 150
+poweradd = 0
 
 [State 2200, 0]
 type = PlayerPush
@@ -1712,7 +1712,7 @@ velset = 0,0
 ctrl = 0
 anim = 2201+(var(50)!=0)*30000
 sprpriority = 2
-poweradd = 150
+poweradd = 0
 
 [State 2250, ピシューン]
 type = PlaySnd
@@ -1819,6 +1819,7 @@ Trigger4 = animelem=4
 
 attr = S, HA
 damage = 50, 5
+getpower = 60,30
 animtype = Hard
 guardflag = HA
 hitflag = MAF
@@ -1945,7 +1946,7 @@ type    = A
 movetype= A
 physics = A
 juggle  = 3
-poweradd= 150
+poweradd= 0
 ctrl = 0
 anim = 2300+(var(50)!=0)*30000
 sprpriority = 2
@@ -2043,6 +2044,7 @@ trigger2 = AnimElem = 4
 trigger3 = AnimElem = 5
 attr = A, NA
 damage = 20
+getpower = 60,30
 guardflag = HA
 priority = 3
 pausetime = 4,12
@@ -2105,7 +2107,7 @@ velset = 0,0
 ctrl = 0
 anim = 2600+(var(50)!=0)*30000
 sprpriority = 2
-poweradd = 100
+poweradd = 0
 
 
 [State 2400, 掛け声用ランダム];
@@ -2182,6 +2184,7 @@ time = 1
 
 [State 2400, ヒット定義（投げ用）]
 type = HitDef
+getpower = 15,7
 Trigger1 = 1;Time = 0
 attr = S, NA
 hitflag = MAFD
@@ -2244,7 +2247,7 @@ velset = 3,-11
 ctrl = 0
 anim = 2400+(var(50)!=0)*30000
 sprpriority = 2
-poweradd = 100
+poweradd = 0
 
 [State 2410, 必殺エフェクト]
 type = Explod
@@ -2270,6 +2273,7 @@ type = HitDef
 Trigger1 = animelem =2
 attr = A, NA
 damage = 90, 5
+getpower = 15,7
 animtype = Hard
 guardflag = HA
 hitflag = MAF
@@ -2607,7 +2611,7 @@ velset = 0,0
 ctrl = 0
 anim = 2600+(var(50)!=0)*30000
 sprpriority = -1
-poweradd = 100
+poweradd = 0
 
 [State 2600, 掛け声用ランダム];
 Type = VarRandom
@@ -2682,6 +2686,7 @@ time = 1
 
 [State 2600, ヒット定義（投げ用）]
 type = HitDef
+getpower = 60,30
 Trigger1 = 1;Time = 0
 attr = S, NT          ;攻撃属性: これは Standing, Normal Throw（立ち通常投げ）
 hitflag = M-          ;相手がやられ状態ではない地上の時でしか掴む事が出来ません
@@ -2722,7 +2727,7 @@ movetype=A
 anim=2700+(var(50)!=0)*30000
 ctrl=0
 velset=3,0
-poweradd=100
+poweradd=20
 sprpriority=1
 
 ;[State 1200, width]
@@ -2781,7 +2786,7 @@ movetype=A
 anim=2700+(var(50)!=0)*30000
 ctrl=0
 velset=3,0
-poweradd=100
+poweradd=20
 sprpriority=1
 
 ;[State 1200, width]
@@ -2868,6 +2873,7 @@ ignorehitpause=1
 type = Hitdef
 trigger1 = animelem = 1
 damage = 50,5
+getpower = 30,15
 guardflag = MA
 hitflag = MAF
 attr = S, SP
@@ -2957,6 +2963,7 @@ ignorehitpause=1
 type = Hitdef
 trigger1 = animelem = 1
 damage = 60,6
+getpower = 30,15
 guardflag = MA
 hitflag = MAF
 attr = S, SP
@@ -3077,7 +3084,7 @@ velset = 0,0
 ctrl = 0
 anim = 2700
 sprpriority = 2
-poweradd = 200
+poweradd = 0
 
 
 [State 2700, 斬撃音]
@@ -3506,7 +3513,7 @@ velset = 0,0
 ctrl = 0
 anim = 2811+(var(50)!=0)*30000
 sprpriority = 2
-poweradd = 200
+poweradd = 0
 
 [State 8105]
 type = AssertSpecial

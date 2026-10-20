@@ -6,7 +6,7 @@ MoveType= A
 velset=0,0
 ctrl=0
 anim=1001
-poweradd=80
+poweradd=0
 
 [State x]
 Type=Attackdist
@@ -57,7 +57,7 @@ guardflag = MA
 animtype = Medium
 priority = 4,Hit
 damage = floor(fvar(39)*20),1
-getpower = 25,5
+getpower = 60,30
 pausetime= 4,4
 guard.pausetime=0,0
 sparkno = S205
@@ -353,6 +353,7 @@ Trigger1=time>30
 ; Ribbon Revolution
 [Statedef 1030]
 Type= S
+poweradd = 20
 Physics =S
 MoveType= I
 velset=0,0
@@ -391,7 +392,7 @@ movetype = A
 physics = N
 ctrl=0
 anim=1005
-poweradd=15
+poweradd=0
 sprpriority=2
 
 [State 1300, 1]
@@ -405,7 +406,7 @@ triggerall = !movecontact && !movereversed
 trigger1=time
 attr = C,  NP
 damage = floor(root,fvar(39)*30),3
-getpower = 30,10
+getpower = 30,15
 animtype = Light
 guardflag = LA
 hitflag = MAF
@@ -480,6 +481,7 @@ Trigger1=animtime=0
 ; 
 [Statedef 1040]
 type    = U
+poweradd = 20
 movetype= A
 physics = N
 velset = 0,0
@@ -544,7 +546,7 @@ MoveType=A
 Physics=N
 velset=0,0
 anim=1301
-poweradd=50
+poweradd=0
 sprpriority=3
 
 [State 1041]
@@ -575,7 +577,7 @@ trigger1 = !Movecontact
 trigger1 = !Movereversed
 attr = A, NP
 damage    = floor(parent,fvar(39)*80),0
-getpower  = 120,0
+getpower = 30,15
 givepower = 0,100-350*(root,var(54)=1)
 hitflag = MAP
 guardflag = MA
@@ -651,6 +653,7 @@ Trigger1=animtime=0
 ; DFX - Skydome
 [Statedef 1050]
 type    = S
+poweradd = 20
 movetype= A
 physics = S
 velset = 0,0
@@ -711,7 +714,7 @@ ctrl=1
 type=A
 movetype=A
 Physics=N
-poweradd= 18
+poweradd= 0
 anim=2020
 
 [State 2001]
@@ -773,7 +776,7 @@ Scale = 0.5-(time<10)*0.05*(10-time),0.5-(time<10)*0.05*(10-time)
 type = HitDef
 trigger1 = time>=1
 attr = A, NP                     ;Attribute: Standing, Normal Attack
-GetPower = floor(parent,fvar(39)*70),0
+getpower = 30,15
 damage = floor(parent,fvar(39)*60),0
 animtype = Medium                 ;Animation type: Light, Medium, Heavy, Back (def: Light)
 guardflag = MA                    ;Flags on how move is to be guarded against
@@ -990,7 +993,7 @@ MoveType= I
 velset=0,0
 ctrl=0
 anim=1010
-poweradd=80
+poweradd=20
 
 [State 1100]
 Type=VarAdd
@@ -1023,7 +1026,7 @@ movetype = A
 physics = N
 ctrl=0
 anim=1301
-poweradd=20
+poweradd=0
 sprpriority=2
 velset=0,-8
 
@@ -1101,7 +1104,7 @@ triggerall = !movecontact && !movereversed
 trigger1=time
 attr = A,  NP
 damage = floor(root,fvar(39)*50)
-getpower = 75,20
+getpower = 30,15
 animtype = Light
 guardflag = MA
 hitflag = MAF

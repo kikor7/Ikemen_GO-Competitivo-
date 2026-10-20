@@ -12,6 +12,7 @@ localcoord = 640,480       ;Local coordinate space width and height
 
 ; Files for the player
 [Files]
+movelist = movelist.dat
 cmd     = yumiko.cmd        ;Command set
 stcommon = common1.cns      ;Common states (from data/ or motif)
 cns     = yumiko.cns        ;Constants

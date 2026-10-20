@@ -12,6 +12,7 @@ author = "bumble_vin,Niv,Dragon972"
 pal.defaults = 1,2,3,4
 
 [Files]
+movelist = movelist.dat
 sprite = Huang Zu.sff
 anim = Huang Zu.air
 sound = Huang Zu.snd

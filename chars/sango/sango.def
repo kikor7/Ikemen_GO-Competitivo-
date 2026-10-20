@@ -17,6 +17,7 @@ author = "Lord Sinistro && Shadowtak"
 
 ; Files for the player
 [Files]
+movelist = movelist.dat
 cmd     = sango.cmd   
 cns     = sango.cns  
 st      = sango.cns  

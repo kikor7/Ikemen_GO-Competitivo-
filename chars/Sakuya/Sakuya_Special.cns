@@ -6,6 +6,7 @@
 ;━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 [Statedef 1000]
 Type     = U
+poweradd = 20
 MoveType = A
 Physics  = N
 VelSet   = IfElse(PrevStateNo != 101, 0, Vel X),0
@@ -335,6 +336,7 @@ Ctrl     = 1
 ;━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 [Statedef 1010]
 Type     = U
+poweradd = 20
 MoveType = A
 Physics  = N
 Anim     = 1010
@@ -710,7 +712,7 @@ Ground.Velocity            = -2,-5
 Air.Velocity               = -2,-5
 Fall                       = 1
 Fall.RecoverTime           = IfElse(Ceil(40*FVar(20)) <= 15, 15, Ceil(40*FVar(20)))
-GetPower                   = 60,40
+getpower = 60,30
 
 [State 1020,~ヒットエフェ~]
 Type     = Helper
@@ -761,6 +763,7 @@ Ctrl     = 1
 ;━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 [Statedef 1030]
 Type     = S
+poweradd = 20
 MoveType = A
 Physics  = S
 VelSet   = 0,0

@@ -2326,6 +2326,24 @@ trigger1 = 1
 value = 0
 ;---------------------------------------------------------------------------
 ; Recovery Roll
+;---------------------------------------------------------------------------
+; Recuperacion tras esquivar/rodar: sin control y golpeable unos frames,
+; para que no se pueda encadenar sin riesgo.
+;---------------------------------------------------------------------------
+[Statedef 1012]
+type = S
+movetype = I
+physics = S
+ctrl = 0
+anim = 0
+velset = 0,0
+
+[State 1012, Fin de la recuperacion]
+type = ChangeState
+trigger1 = Time >= 8
+value = 0
+ctrl = 1
+
 [Statedef 6195200]
 type = L
 movetype = I
@@ -2372,8 +2390,8 @@ value = SCA, AA, AP
 [State 0, ChangeState]
 type = ChangeState
 trigger1 = AnimTime = 0
-value = 0
-ctrl = 1
+value = 1012
+ctrl = 0
 ;---------------------------------------------------------------------------
 ; Recovery Roll
 [Statedef 6195210]
@@ -2422,5 +2440,5 @@ value = SCA, AA, AP
 [State 0, ChangeState]
 type = ChangeState
 trigger1 = AnimTime = 0
-value = 0
-ctrl = 1
+value = 1012
+ctrl = 0

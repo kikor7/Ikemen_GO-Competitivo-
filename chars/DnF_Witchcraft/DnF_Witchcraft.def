@@ -10,6 +10,7 @@ Author       = "QK2Key"
 Pal.Defaults = 1,2
 
 [Files]
+movelist = movelist.dat
 Cmd         = DnF_Witchcraft.cmd
 Cns          = DnF_Witchcraft.cns
 St            = DnF_Witchcraft-2-3.cns

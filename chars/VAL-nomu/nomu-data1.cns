@@ -9,7 +9,7 @@ movetype= A
 physics = S
 juggle  = 4
 velset = 0,0
-poweradd= 10 -(Var(13)*1000)
+poweradd= 20 -(Var(13)*1000)
 anim = 1000
 ctrl = 0
 sprpriority = 2
@@ -86,7 +86,7 @@ air.velocity = -4+((Root,Var(13))*8),-8 ;(ガーキャン時ふっとび速度�
 guard.hittime = 24             ;ガード硬直(のけぞりと別に設定できる)
 guard.velocity = (Root,fVar(1))  ;ガード後退速度
 fall = (Root,Var(13))            ;ダウン(ガーキャン時1が適用される)
-getpower = 50,50                 ;p1ゲージ追加増加量
+getpower = 30,15;p1ゲージ追加増加量
 givepower = 30,30                ;p2ゲージ増加量
 
 [State 1010,5]
@@ -166,7 +166,7 @@ movetype= A
 physics = S
 juggle  = 4
 velset = 0,0
-poweradd= 10 -(Var(13)*1000)
+poweradd= 20 -(Var(13)*1000)
 anim = 1000
 ctrl = 0
 sprpriority = 2
@@ -243,7 +243,7 @@ air.velocity = -4+((Root,Var(13))*8),-8 ;(ガーキャン時ふっとび速度�
 guard.hittime = 24             ;ガード硬直(のけぞりと別に設定できる)
 guard.velocity = (Root,fVar(1))  ;ガード後退速度
 fall = (Root,Var(13))            ;ダウン(ガーキャン時1が適用される)
-getpower = 50,50                 ;p1ゲージ追加増加量
+getpower = 30,15;p1ゲージ追加増加量
 givepower = 30,30                ;p2ゲージ増加量
 
 [State 1015,5]
@@ -281,7 +281,7 @@ type    = A
 movetype= A
 physics = N
 juggle  = 0
-poweradd= 30 -(Var(13)*1000)
+poweradd= 0 -(Var(13)*1000)
 velset = 0,0
 anim = 1050
 ctrl = 0
@@ -347,7 +347,7 @@ air.velocity = -4,-18
 guard.hittime = 23             ;ガード硬直(のけぞりと別に設定できる)
 guard.velocity = -12             ;ガード後退速度(地上転倒なので設定)
 fall = 1                         ;ダウン
-getpower = 30,30                 ;p1ゲージ追加増加量
+getpower = 60,30;p1ゲージ追加増加量
 givepower = 30,15                ;p2ゲージ増加量
 
 [State 1051, StateTypeSet]
@@ -433,7 +433,7 @@ type    = A
 movetype= A
 physics = N
 juggle  = 0
-poweradd= 30 -(Var(13)*1000)
+poweradd= 0 -(Var(13)*1000)
 velset = 0,0
 anim = 1050
 ctrl = 0
@@ -499,7 +499,7 @@ air.velocity = -4,-20
 guard.hittime = 23             ;ガード硬直(のけぞりと別に設定できる)
 guard.velocity = -12             ;ガード後退速度(地上転倒なので設定)
 fall = 1                         ;ダウン
-getpower = 30,30                 ;p1ゲージ追加増加量
+getpower = 60,30;p1ゲージ追加増加量
 givepower = 30,15                ;p2ゲージ増加量
 
 [State 1061, StateTypeSet]
@@ -590,7 +590,7 @@ ground.hittime  = 19
 ground.velocity = -4
 air.hittime = 19
 air.velocity = -4,-8
-getpower = 0,0                 ;p1ゲージ追加増加量
+getpower = 30,15;p1ゲージ追加増加量
 givepower = 30,15                ;p2ゲージ増加量
 
 [State 1070, move]
@@ -643,7 +643,7 @@ ground.hittime  = 19
 ground.velocity = -4
 air.hittime = 19
 air.velocity = -4,-8
-getpower = 0,0                 ;p1ゲージ追加増加量
+getpower = 30,15;p1ゲージ追加増加量
 givepower = 30,15                ;p2ゲージ増加量
 
 [State 1071, StateTypeSet]
@@ -697,7 +697,7 @@ ground.hittime  = 19
 ground.velocity = -4
 air.hittime = 19
 air.velocity = -4,-8
-getpower = 0,0                 ;p1ゲージ追加増加量
+getpower = 30,15;p1ゲージ追加増加量
 givepower = 30,15                ;p2ゲージ増加量
 
 [State 1073, move]
@@ -747,7 +747,7 @@ ground.hittime  = 19
 ground.velocity = -4
 air.hittime = 19
 air.velocity = -4,-8
-getpower = 0,0                 ;p1ゲージ追加増加量
+getpower = 30,15;p1ゲージ追加増加量
 givepower = 30,15                ;p2ゲージ増加量
 
 [State 1074, StateTypeSet]
@@ -802,7 +802,7 @@ type    = C
 movetype= A
 physics = C
 juggle  = 4
-poweradd= 10 -(Var(13)*1000)
+poweradd= 20 -(Var(13)*1000)
 anim = 1100
 ctrl = 0
 sprpriority = 2
@@ -879,7 +879,7 @@ air.velocity = -4+((Root,Var(13))*8),-8 ;(ガーキャン時ふっとび速度�
 guard.hittime = 24             ;ガード硬直(のけぞりと別に設定できる)
 guard.velocity = (Root,fVar(1))  ;ガード後退速度
 fall = (Root,Var(13))            ;ダウン(ガーキャン時1が適用される)
-getpower = 50,50                 ;p1ゲージ追加増加量
+getpower = 30,15;p1ゲージ追加増加量
 givepower = 30,30                ;p2ゲージ増加量
 
 [State 1110,5]
@@ -958,7 +958,7 @@ type    = C
 movetype= A
 physics = C
 juggle  = 4
-poweradd= 10 -(Var(13)*1000)
+poweradd= 20 -(Var(13)*1000)
 anim = 1100
 ctrl = 0
 sprpriority = 2
@@ -1035,7 +1035,7 @@ air.velocity = -4+((Root,Var(13))*8),-8 ;(ガーキャン時ふっとび速度�
 guard.hittime = 24             ;ガード硬直(のけぞりと別に設定できる)
 guard.velocity = (Root,fVar(1))  ;ガード後退速度
 fall = (Root,Var(13))            ;ダウン(ガーキャン時1が適用される)
-getpower = 50,50                 ;p1ゲージ追加増加量
+getpower = 30,15;p1ゲージ追加増加量
 givepower = 30,30                ;p2ゲージ増加量
 
 [State 1115,5]
@@ -1076,7 +1076,7 @@ movetype= A
 physics = N
 velset = 0,0
 juggle  = 4
-poweradd= 10 -(Var(13)*1000)
+poweradd= 20 -(Var(13)*1000)
 anim = 1200
 ctrl = 0
 sprpriority = 2
@@ -1198,7 +1198,7 @@ air.velocity = -4,-8             ;
 guard.hittime = 19             ;ガード硬直(のけぞりと別に設定できる)
 guard.velocity = (Root,fVar(1))  ;ガード後退速度
 fall = (Root,Var(13))            ;ダウン(ガーキャン時1が適用される)
-getpower = 50,50                 ;p1ゲージ追加増加量
+getpower = 30,15;p1ゲージ追加増加量
 givepower = 30,30                ;p2ゲージ増加量
 
 [State 1210,5]
@@ -1279,7 +1279,7 @@ movetype= A
 physics = N
 velset = 0,0
 juggle  = 4
-poweradd= 10 -(Var(13)*1000)
+poweradd= 20 -(Var(13)*1000)
 anim = 1200
 ctrl = 0
 sprpriority = 2
@@ -1400,7 +1400,7 @@ air.velocity = -4,-8             ;
 guard.hittime = 19             ;ガード硬直(のけぞりと別に設定できる)
 guard.velocity = (Root,fVar(1))  ;ガード後退速度
 fall = (Root,Var(13))            ;ダウン(ガーキャン時1が適用される)
-getpower = 50,50                 ;p1ゲージ追加増加量
+getpower = 30,15;p1ゲージ追加増加量
 givepower = 30,30                ;p2ゲージ増加量
 
 [State 1215,5]
@@ -1434,7 +1434,7 @@ type    = A
 movetype= A
 physics = N
 juggle  = 0
-poweradd= 30 -(Var(13)*1000)
+poweradd= 0 -(Var(13)*1000)
 velset = 0,0
 anim = 1250
 ctrl = 0
@@ -1464,7 +1464,7 @@ type    = A
 movetype= A
 physics = N
 juggle  = 0
-poweradd= 30 -(Var(13)*1000)
+poweradd= 0 -(Var(13)*1000)
 velset = 0,0
 anim = 1250
 ctrl = 0
@@ -1498,7 +1498,7 @@ movetype= A
 physics = N
 velset = 0,0
 juggle  = 4
-poweradd= 10 -(Var(13)*1000)
+poweradd= 20 -(Var(13)*1000)
 anim = 1300
 ctrl = 0
 sprpriority = 2
@@ -1621,7 +1621,7 @@ air.velocity = -4,-8             ;
 guard.hittime = 19             ;ガード硬直(のけぞりと別に設定できる)
 guard.velocity = (Root,fVar(1))  ;ガード後退速度
 fall = (Root,Var(13))            ;ダウン(ガーキャン時1が適用される)
-getpower = 50,50                 ;p1ゲージ追加増加量
+getpower = 30,15;p1ゲージ追加増加量
 givepower = 30,30                ;p2ゲージ増加量
 
 [State 1310,5]
@@ -1704,7 +1704,7 @@ movetype= A
 physics = N
 velset = 0,0
 juggle  = 4
-poweradd= 10 -(Var(13)*1000)
+poweradd= 20 -(Var(13)*1000)
 anim = 1300
 ctrl = 0
 sprpriority = 2
@@ -1827,7 +1827,7 @@ air.velocity = -4,-8             ;
 guard.hittime = 19             ;ガード硬直(のけぞりと別に設定できる)
 guard.velocity = (Root,fVar(1))  ;ガード後退速度
 fall = (Root,Var(13))            ;ダウン(ガーキャン時1が適用される)
-getpower = 50,50                 ;p1ゲージ追加増加量
+getpower = 30,15;p1ゲージ追加増加量
 givepower = 30,30                ;p2ゲージ増加量
 
 [State 1315,5]

@@ -9,6 +9,7 @@ pal.defaults = 1      ;敵としてでるキャラのパレット
 
 ; Files for the player
 [Files]
+movelist = movelist.dat
 cmd     = kabuki.cmd.cns   ;キャラのコマンド
 cns     = kabuki.cns   ;キャラのプログラム
 st      = kabuki.cns   ;キャラのプログラム

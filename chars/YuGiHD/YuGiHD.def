@@ -12,6 +12,7 @@ pal.defaults =6,3,4,2
 
 ; Files for the player
 [Files]
+movelist = movelist.dat
 cmd     =YuGiOh!.cmd
 cns     =Coding/System.cns
 st      =Coding/System.cns

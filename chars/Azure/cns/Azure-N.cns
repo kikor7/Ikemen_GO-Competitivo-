@@ -32,7 +32,7 @@ trigger1 = animelem = 3,>=0
 trigger1 = !movecontact&&!movereversed
 attr = S, NA
 animtype  = light
-getpower = 28,28
+getpower = 30,15
 givepower = 15,15
 damage    = ceil(56*fvar(2))
 guardflag = MA
@@ -101,7 +101,7 @@ trigger1 = animelem = 5,>=0
 trigger1 = !movecontact&&!movereversed
 attr = S, NA
 animtype  = medium
-getpower = 62,62
+getpower = 30,15
 givepower = 15,15
 damage    = ceil(124*fvar(2))
 guardflag = MA
@@ -165,7 +165,7 @@ trigger1 = animelem = 3,>=0
 trigger1 = !movecontact&&!movereversed
 attr = S, NA
 animtype  = light
-getpower = 40,40
+getpower = 30,15
 givepower = 15,15
 damage    = ceil(80*fvar(2))
 guardflag = MA
@@ -241,7 +241,7 @@ trigger1 = animelem = 4,>=0
 trigger1 = !movecontact&&!movereversed&&prevstateno!=300
 attr = S, NA
 animtype  = medium
-getpower = 25,25
+getpower = 15,7
 givepower = 15,15
 damage    = ceil(110*fvar(2))
 guardflag = MA
@@ -270,7 +270,7 @@ trigger1 = animelem = 4,>=0
 trigger1 = !movecontact&&!movereversed&&prevstateno=300
 attr = S, NA
 animtype  = medium
-getpower = 15,15
+getpower = 15,7
 givepower = 15,15
 damage    = ceil(110*fvar(2))
 guardflag = MA
@@ -336,7 +336,7 @@ trigger1 = animelem = 2,>=0
 trigger1 = !movecontact&&!movereversed
 attr = C, NA
 animtype  = light
-getpower = 25,25
+getpower = 30,15
 givepower = 15,15
 damage    = ceil(40*fvar(2))
 guardflag = L
@@ -401,7 +401,7 @@ trigger1 = animelem = 5,>=0
 trigger1 = !movecontact&&!movereversed
 attr = C, NA
 animtype  = light
-getpower = 50,50
+getpower = 30,15
 givepower = 15,15
 damage    = ceil(100*fvar(2))
 guardflag = MA
@@ -478,7 +478,7 @@ trigger1 = animelem = 5,>=0
 trigger1 = !movecontact&&!movereversed
 attr = C, NA
 animtype  = Hard
-getpower = 60,60
+getpower = 30,15
 givepower = 15,15
 damage    = ceil(120*fvar(2))
 guardflag = MA
@@ -544,7 +544,7 @@ trigger1 = animelem = 2,>=0
 trigger1 = !movecontact&&!movereversed
 attr = C, NA
 animtype  = light
-getpower = 20,20
+getpower = 30,15
 givepower = 15,15
 damage    = ceil(40*fvar(2))
 guardflag = MA
@@ -609,7 +609,7 @@ trigger1 = animelem = 2,>=0
 trigger1 = !movecontact&&!movereversed
 attr = C, NA
 animtype  = light
-getpower = 45,45
+getpower = 30,15
 givepower = 15,15
 damage    = ceil(90*fvar(2))
 guardflag = MA
@@ -673,7 +673,7 @@ trigger1 = animelem = 4,>=0
 trigger1 = !movecontact&&!movereversed
 attr = A, NA
 animtype  = medium
-getpower = 20,20
+getpower = 30,15
 givepower = 15,15
 damage    = ceil(40*fvar(2))
 guardflag = HA
@@ -731,7 +731,7 @@ trigger1 = animelem = 4,>=0
 trigger1 = !movecontact&&!movereversed
 attr = A, NA
 animtype  = medium
-getpower = 50,50
+getpower = 30,15
 givepower = 15,15
 damage    = ceil(100*fvar(2))
 guardflag = HA
@@ -789,7 +789,7 @@ trigger1 = animelem = 4,>=0
 trigger1 = !movecontact&&!movereversed
 attr = A, NA
 animtype  = medium
-getpower = 20,20
+getpower = 30,15
 givepower = 15,15
 damage    = ceil(40*fvar(2))
 guardflag = HA
@@ -849,7 +849,7 @@ trigger1 = animelem = 4,>=0
 trigger1 = !movecontact&&!movereversed
 attr = A, NA
 animtype  = medium
-getpower = 50,50
+getpower = 30,15
 givepower = 15,15
 damage    = ceil(100*fvar(2))
 guardflag = HA
@@ -906,7 +906,7 @@ var(17) = ifelse(Command = "holdback",1,0)
 [State 800, 1]
 type = HitDef
 Trigger1 = animelem = 2
-getpower = 0
+getpower = 60,30
 givepower = 15,15
 attr = S, NT
 pausetime = 0,37

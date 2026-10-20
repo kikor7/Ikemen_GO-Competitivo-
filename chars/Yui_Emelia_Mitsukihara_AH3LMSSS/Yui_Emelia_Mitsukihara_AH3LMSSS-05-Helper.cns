@@ -359,7 +359,7 @@ sprpriority = 3
 fall = 1
 fall.recovertime = 5 + ceil(24*var(9)*Root,fvar(1)*Root,fvar(2))
 id = StateNo
-getpower = 0, 0
+getpower = 30,15
 givepower = 0, 0
 
 [State -2];ヒット数カウント

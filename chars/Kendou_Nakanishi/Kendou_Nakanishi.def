@@ -11,6 +11,7 @@ Pal.Defaults = 1                ;CPUで出てくるキャラカラーの順番
 ;-----必要なファイルの設定------------------------------------------
 
 [Files]
+movelist = movelist.dat
 Cmd      = Kendou_Nakanishi.cmd          ;入力コマンド定義ファイルの登録
 Cns      = cns/Kendou_Nakanishi.st       ;基本ステータス情報ファイルの登録
 St       = cns/Kendou_Nakanishi.cns      ;動作プログラムファイルの登録1

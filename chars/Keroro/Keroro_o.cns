@@ -103,7 +103,7 @@ trigger1 = AnimElem = 1
 attr = S, SA                     ;攻撃の種類, 属性　[S/C/A], [N/S/H][A/T/P] 
 damage    = 45,45                   ;与えるダメージ, ガード時のダメージ 
 animtype = Light                 ;攻撃の強さ　[Light/Medium/Hard/Back] 
-getpower = 70,30                 ;自分のパワー増分, ガード時のパワー増分 
+getpower = 15,7;自分のパワー増分, ガード時のパワー増分 
 givepower = 20,5                 ;相手のパワー増分, ガード時のパワー増分 
 guardflag = HMLA                   ;ガード可能な状態の指定　[H/L/A/M(HL)/MA] 
 hitflag = HMLAF                    ;攻撃が当たる状態の指定[H/M/L/A/F/D]
@@ -264,7 +264,7 @@ trigger1 = AnimElem = 1
 attr = S, SA                     ;攻撃の種類, 属性　[S/C/A], [N/S/H][A/T/P] 
 damage    = 40,45                   ;与えるダメージ, ガード時のダメージ 
 animtype = Light                 ;攻撃の強さ　[Light/Medium/Hard/Back] 
-getpower = 90,30                 ;自分のパワー増分, ガード時のパワー増分 
+getpower = 15,7;自分のパワー増分, ガード時のパワー増分 
 givepower = 20,5                 ;相手のパワー増分, ガード時のパワー増分 
 guardflag = HMLA                   ;ガード可能な状態の指定　[H/L/A/M(HL)/MA] 
 hitflag = HMLAF                    ;攻撃が当たる状態の指定[H/M/L/A/F/D]
@@ -376,7 +376,7 @@ trigger1 = AnimElem = 1
 attr = S, SA                     ;攻撃の種類, 属性　[S/C/A], [N/S/H][A/T/P] 
 damage    = 48,45                   ;与えるダメージ, ガード時のダメージ 
 animtype = Light                 ;攻撃の強さ　[Light/Medium/Hard/Back] 
-getpower = 90,30                 ;自分のパワー増分, ガード時のパワー増分 
+getpower = 15,7;自分のパワー増分, ガード時のパワー増分 
 givepower = 20,5                 ;相手のパワー増分, ガード時のパワー増分 
 guardflag = HMLA                   ;ガード可能な状態の指定　[H/L/A/M(HL)/MA] 
 hitflag = HMLAF                    ;攻撃が当たる状態の指定[H/M/L/A/F/D]
@@ -498,7 +498,7 @@ trigger1 = AnimElem = 1
 attr = S, SA                     ;攻撃の種類, 属性　[S/C/A], [N/S/H][A/T/P] 
 damage    = 45,45                   ;与えるダメージ, ガード時のダメージ 
 animtype = Light                 ;攻撃の強さ　[Light/Medium/Hard/Back] 
-getpower = 90,30                 ;自分のパワー増分, ガード時のパワー増分 
+getpower = 15,7;自分のパワー増分, ガード時のパワー増分 
 givepower = 20,5                 ;相手のパワー増分, ガード時のパワー増分 
 guardflag = HMLA                   ;ガード可能な状態の指定　[H/L/A/M(HL)/MA] 
 hitflag = HMLAF                    ;攻撃が当たる状態の指定[H/M/L/A/F/D]
@@ -638,7 +638,7 @@ trigger3 = AnimElem = 39 || AnimElem = 44 || AnimElem = 50
 attr = S, SA                     ;攻撃の種類, 属性　[S/C/A], [N/S/H][A/T/P] 
 damage    = 30,35                   ;与えるダメージ, ガード時のダメージ 
 animtype = Light                 ;攻撃の強さ　[Light/Medium/Hard/Back] 
-getpower = 20,10                 ;自分のパワー増分, ガード時のパワー増分 
+getpower = 30,15;自分のパワー増分, ガード時のパワー増分 
 givepower = 8,2                 ;相手のパワー増分, ガード時のパワー増分 
 guardflag = HMLA                   ;ガード可能な状態の指定　[H/L/A/M(HL)/MA] 
 hitflag = HMLAF                    ;攻撃が当たる状態の指定[H/M/L/A/F/D]
@@ -833,7 +833,7 @@ trigger1 = AnimElem = 1
 attr = S, SA                     ;攻撃の種類, 属性　[S/C/A], [N/S/H][A/T/P] 
 damage    = 30,35                   ;与えるダメージ, ガード時のダメージ 
 animtype = Light                 ;攻撃の強さ　[Light/Medium/Hard/Back] 
-getpower = 90,30                 ;自分のパワー増分, ガード時のパワー増分 
+getpower = 30,15;自分のパワー増分, ガード時のパワー増分 
 givepower = 20,5                 ;相手のパワー増分, ガード時のパワー増分 
 guardflag = HMLA                   ;ガード可能な状態の指定　[H/L/A/M(HL)/MA] 
 hitflag = HMLAF                    ;攻撃が当たる状態の指定[H/M/L/A/F/D]
@@ -955,7 +955,7 @@ trigger1 = AnimElem = 1
 attr = S, SA                     ;攻撃の種類, 属性　[S/C/A], [N/S/H][A/T/P] 
 damage    = 30,35                   ;与えるダメージ, ガード時のダメージ 
 animtype = Light                 ;攻撃の強さ　[Light/Medium/Hard/Back] 
-getpower = 50,20                 ;自分のパワー増分, ガード時のパワー増分 
+getpower = 20,10;自分のパワー増分, ガード時のパワー増分 
 givepower = 20,5                 ;相手のパワー増分, ガード時のパワー増分 
 guardflag = HMLA                   ;ガード可能な状態の指定　[H/L/A/M(HL)/MA] 
 hitflag = HMLAF                    ;攻撃が当たる状態の指定[H/M/L/A/F/D]
@@ -1118,7 +1118,7 @@ trigger1 = time%13 = 0
 attr = S, SA                     ;攻撃の種類, 属性　[S/C/A], [N/S/H][A/T/P] 
 damage    = 30,35                   ;与えるダメージ, ガード時のダメージ 
 animtype = Light                 ;攻撃の強さ　[Light/Medium/Hard/Back] 
-getpower = 80,30                 ;自分のパワー増分, ガード時のパワー増分 
+getpower = 20,10;自分のパワー増分, ガード時のパワー増分 
 givepower = 20,5                 ;相手のパワー増分, ガード時のパワー増分 
 guardflag = HMLA                   ;ガード可能な状態の指定　[H/L/A/M(HL)/MA] 
 hitflag = HMLAF                    ;攻撃が当たる状態の指定[H/M/L/A/F/D]
@@ -1247,7 +1247,7 @@ trigger1 = AnimElem = 2
 attr = S, SA                     ;攻撃の種類, 属性　[S/C/A], [N/S/H][A/T/P] 
 damage    = 31,35                   ;与えるダメージ, ガード時のダメージ 
 animtype = Light                 ;攻撃の強さ　[Light/Medium/Hard/Back] 
-getpower = 100,50                 ;自分のパワー増分, ガード時のパワー増分 
+getpower = 20,10;自分のパワー増分, ガード時のパワー増分 
 givepower = 8,2                 ;相手のパワー増分, ガード時のパワー増分 
 guardflag = HMLA                   ;ガード可能な状態の指定　[H/L/A/M(HL)/MA] 
 hitflag = HMLAF                    ;攻撃が当たる状態の指定[H/M/L/A/F/D]
@@ -1319,7 +1319,7 @@ trigger4 = AnimElem = 56
 attr = S, SA                     ;攻撃の種類, 属性　[S/C/A], [N/S/H][A/T/P] 
 damage    = 27,22                   ;与えるダメージ, ガード時のダメージ 
 animtype = Light                 ;攻撃の強さ　[Light/Medium/Hard/Back] 
-getpower = 20,10                 ;自分のパワー増分, ガード時のパワー増分 
+getpower = 30,15;自分のパワー増分, ガード時のパワー増分 
 givepower = 8,2                 ;相手のパワー増分, ガード時のパワー増分 
 guardflag = HMLA                   ;ガード可能な状態の指定　[H/L/A/M(HL)/MA] 
 hitflag = HMLAF                    ;攻撃が当たる状態の指定[H/M/L/A/F/D]
@@ -1531,7 +1531,7 @@ trigger1 = AnimElem = 2
 attr = S, SA                     ;攻撃の種類, 属性　[S/C/A], [N/S/H][A/T/P] 
 damage    = 31,35                   ;与えるダメージ, ガード時のダメージ 
 animtype = Light                 ;攻撃の強さ　[Light/Medium/Hard/Back] 
-getpower = 100,50                 ;自分のパワー増分, ガード時のパワー増分 
+getpower = 30,15;自分のパワー増分, ガード時のパワー増分 
 givepower = 8,2                 ;相手のパワー増分, ガード時のパワー増分 
 guardflag = HMLA                   ;ガード可能な状態の指定　[H/L/A/M(HL)/MA] 
 hitflag = HMLAF                    ;攻撃が当たる状態の指定[H/M/L/A/F/D]
@@ -1593,7 +1593,7 @@ trigger1 = AnimElem = 2          ;２枚目から以下の設定を有効に
 attr = S, SA                     ;攻撃の種類, 属性　[S/C/A], [N/S/H][A/T/P] 
 damage    = 30,35                   ;与えるダメージ, ガード時のダメージ 
 animtype = Light                 ;攻撃の強さ　[Light/Medium/Hard/Back] 
-getpower = 80,30                 ;自分のパワー増分, ガード時のパワー増分 
+getpower = 12,6;自分のパワー増分, ガード時のパワー増分 
 givepower = 20,5                 ;相手のパワー増分, ガード時のパワー増分 
 guardflag = HMLA                   ;ガード可能な状態の指定　[H/L/A/M(HL)/MA] 
 hitflag = HMLAF                    ;攻撃が当たる状態の指定[H/M/L/A/F/D]
@@ -1718,7 +1718,7 @@ trigger1 = AnimElem = 2          ;２枚目から以下の設定を有効に
 attr = S, SA                     ;攻撃の種類, 属性　[S/C/A], [N/S/H][A/T/P] 
 damage    = 30,35                   ;与えるダメージ, ガード時のダメージ 
 animtype = Light                 ;攻撃の強さ　[Light/Medium/Hard/Back] 
-getpower = 100,40                 ;自分のパワー増分, ガード時のパワー増分 
+getpower = 12,6;自分のパワー増分, ガード時のパワー増分 
 givepower = 20,5                 ;相手のパワー増分, ガード時のパワー増分 
 guardflag = HMLA                   ;ガード可能な状態の指定　[H/L/A/M(HL)/MA] 
 hitflag = HMLAF                    ;攻撃が当たる状態の指定[H/M/L/A/F/D]
@@ -1832,7 +1832,7 @@ trigger1 = AnimElem = 2          ;２枚目から以下の設定を有効に
 attr = S, SA                     ;攻撃の種類, 属性　[S/C/A], [N/S/H][A/T/P] 
 damage    = 38,35                   ;与えるダメージ, ガード時のダメージ 
 animtype = Light                 ;攻撃の強さ　[Light/Medium/Hard/Back] 
-getpower = 80,40                 ;自分のパワー増分, ガード時のパワー増分 
+getpower = 12,6;自分のパワー増分, ガード時のパワー増分 
 givepower = 20,5                 ;相手のパワー増分, ガード時のパワー増分 
 guardflag = HMLA                   ;ガード可能な状態の指定　[H/L/A/M(HL)/MA] 
 hitflag = HMLAF                    ;攻撃が当たる状態の指定[H/M/L/A/F/D]
@@ -1882,7 +1882,7 @@ trigger1 = AnimElem = 2          ;２枚目から以下の設定を有効に
 attr = S, SA                     ;攻撃の種類, 属性　[S/C/A], [N/S/H][A/T/P] 
 damage    = 38,35                   ;与えるダメージ, ガード時のダメージ 
 animtype = Light                 ;攻撃の強さ　[Light/Medium/Hard/Back] 
-getpower = 100,50                 ;自分のパワー増分, ガード時のパワー増分 
+getpower = 12,6;自分のパワー増分, ガード時のパワー増分 
 givepower = 20,5                 ;相手のパワー増分, ガード時のパワー増分 
 guardflag = HMLA                   ;ガード可能な状態の指定　[H/L/A/M(HL)/MA] 
 hitflag = HMLAF                    ;攻撃が当たる状態の指定[H/M/L/A/F/D]
@@ -1932,7 +1932,7 @@ trigger1 = AnimElem = 2          ;２枚目から以下の設定を有効に
 attr = S, SA                     ;攻撃の種類, 属性　[S/C/A], [N/S/H][A/T/P] 
 damage    = 35,35                   ;与えるダメージ, ガード時のダメージ 
 animtype = Light                 ;攻撃の強さ　[Light/Medium/Hard/Back] 
-getpower = 120,60                 ;自分のパワー増分, ガード時のパワー増分 
+getpower = 12,6;自分のパワー増分, ガード時のパワー増分 
 givepower = 20,5                 ;相手のパワー増分, ガード時のパワー増分 
 guardflag = HMLA                   ;ガード可能な状態の指定　[H/L/A/M(HL)/MA] 
 hitflag = HMLAF                    ;攻撃が当たる状態の指定[H/M/L/A/F/D]
@@ -2069,7 +2069,7 @@ trigger1 = AnimElem = 2          ;２枚目から以下の設定を有効に
 attr = S, SA                     ;攻撃の種類, 属性　[S/C/A], [N/S/H][A/T/P] 
 damage    = 30,35                   ;与えるダメージ, ガード時のダメージ 
 animtype = Light                 ;攻撃の強さ　[Light/Medium/Hard/Back] 
-getpower = 80,30                 ;自分のパワー増分, ガード時のパワー増分 
+getpower = 30,15;自分のパワー増分, ガード時のパワー増分 
 givepower = 20,5                 ;相手のパワー増分, ガード時のパワー増分 
 guardflag = HMLA                   ;ガード可能な状態の指定　[H/L/A/M(HL)/MA] 
 hitflag = HMLAF                    ;攻撃が当たる状態の指定[H/M/L/A/F/D]
@@ -2192,7 +2192,7 @@ trigger1 = AnimElem = 2          ;２枚目から以下の設定を有効に
 attr = S, SA                     ;攻撃の種類, 属性　[S/C/A], [N/S/H][A/T/P] 
 damage    = 30,35                   ;与えるダメージ, ガード時のダメージ 
 animtype = Light                 ;攻撃の強さ　[Light/Medium/Hard/Back] 
-getpower = 100,40                 ;自分のパワー増分, ガード時のパワー増分 
+getpower = 30,15;自分のパワー増分, ガード時のパワー増分 
 givepower = 20,5                 ;相手のパワー増分, ガード時のパワー増分 
 guardflag = HMLA                   ;ガード可能な状態の指定　[H/L/A/M(HL)/MA] 
 hitflag = HMLAF                    ;攻撃が当たる状態の指定[H/M/L/A/F/D]
@@ -2306,7 +2306,7 @@ trigger1 = AnimElem = 2          ;２枚目から以下の設定を有効に
 attr = S, SA                     ;攻撃の種類, 属性　[S/C/A], [N/S/H][A/T/P] 
 damage    = 35,35                   ;与えるダメージ, ガード時のダメージ 
 animtype = Light                 ;攻撃の強さ　[Light/Medium/Hard/Back] 
-getpower = 80,40                 ;自分のパワー増分, ガード時のパワー増分 
+getpower = 12,6;自分のパワー増分, ガード時のパワー増分 
 givepower = 20,5                 ;相手のパワー増分, ガード時のパワー増分 
 guardflag = HMLA                   ;ガード可能な状態の指定　[H/L/A/M(HL)/MA] 
 hitflag = HMLAF                    ;攻撃が当たる状態の指定[H/M/L/A/F/D]
@@ -2363,7 +2363,7 @@ trigger1 = AnimElem = 2          ;２枚目から以下の設定を有効に
 attr = S, SA                     ;攻撃の種類, 属性　[S/C/A], [N/S/H][A/T/P] 
 damage    = 35,35                   ;与えるダメージ, ガード時のダメージ 
 animtype = Light                 ;攻撃の強さ　[Light/Medium/Hard/Back] 
-getpower = 100,50                 ;自分のパワー増分, ガード時のパワー増分 
+getpower = 12,6;自分のパワー増分, ガード時のパワー増分 
 givepower = 20,5                 ;相手のパワー増分, ガード時のパワー増分 
 guardflag = HMLA                   ;ガード可能な状態の指定　[H/L/A/M(HL)/MA] 
 hitflag = HMLAF                    ;攻撃が当たる状態の指定[H/M/L/A/F/D]
@@ -2413,7 +2413,7 @@ trigger1 = AnimElem = 2          ;２枚目から以下の設定を有効に
 attr = S, SA                     ;攻撃の種類, 属性　[S/C/A], [N/S/H][A/T/P] 
 damage    = 37,35                   ;与えるダメージ, ガード時のダメージ 
 animtype = Light                 ;攻撃の強さ　[Light/Medium/Hard/Back] 
-getpower = 100,50                 ;自分のパワー増分, ガード時のパワー増分 
+getpower = 12,6;自分のパワー増分, ガード時のパワー増分 
 givepower = 20,5                 ;相手のパワー増分, ガード時のパワー増分 
 guardflag = HMLA                   ;ガード可能な状態の指定　[H/L/A/M(HL)/MA] 
 hitflag = HMLAF                    ;攻撃が当たる状態の指定[H/M/L/A/F/D]
@@ -2463,7 +2463,7 @@ trigger1 = time%4 = 0
 attr = S, SA                     ;攻撃の種類, 属性　[S/C/A], [N/S/H][A/T/P] 
 damage    = 40,45                   ;与えるダメージ, ガード時のダメージ 
 animtype = Light                 ;攻撃の強さ　[Light/Medium/Hard/Back] 
-getpower = 60,30                 ;自分のパワー増分, ガード時のパワー増分 
+getpower = 12,6;自分のパワー増分, ガード時のパワー増分 
 givepower = 20,5                 ;相手のパワー増分, ガード時のパワー増分 
 guardflag = HMLA                   ;ガード可能な状態の指定　[H/L/A/M(HL)/MA] 
 hitflag = HMLAF                    ;攻撃が当たる状態の指定[H/M/L/A/F/D]
@@ -2597,7 +2597,7 @@ trigger1 = time%4 = 0
 attr = S, SA                     ;攻撃の種類, 属性　[S/C/A], [N/S/H][A/T/P] 
 damage    = 40,45                   ;与えるダメージ, ガード時のダメージ 
 animtype = Light                 ;攻撃の強さ　[Light/Medium/Hard/Back] 
-getpower = 60,30                 ;自分のパワー増分, ガード時のパワー増分 
+getpower = 12,6;自分のパワー増分, ガード時のパワー増分 
 givepower = 20,5                 ;相手のパワー増分, ガード時のパワー増分 
 guardflag = HMLA                   ;ガード可能な状態の指定　[H/L/A/M(HL)/MA] 
 hitflag = HMLAF                    ;攻撃が当たる状態の指定[H/M/L/A/F/D]
@@ -2719,7 +2719,7 @@ trigger1 = AnimElem = 2          ;２枚目から以下の設定を有効に
 attr = S, SA                     ;攻撃の種類, 属性　[S/C/A], [N/S/H][A/T/P] 
 damage    = 35,35                   ;与えるダメージ, ガード時のダメージ 
 animtype = Light                 ;攻撃の強さ　[Light/Medium/Hard/Back] 
-getpower = 80,40                 ;自分のパワー増分, ガード時のパワー増分 
+getpower = 15,7;自分のパワー増分, ガード時のパワー増分 
 givepower = 20,5                 ;相手のパワー増分, ガード時のパワー増分 
 guardflag = HMLA                   ;ガード可能な状態の指定　[H/L/A/M(HL)/MA] 
 hitflag = HMLAF                    ;攻撃が当たる状態の指定[H/M/L/A/F/D]
@@ -2776,7 +2776,7 @@ trigger1 = AnimElem = 2          ;２枚目から以下の設定を有効に
 attr = S, SA                     ;攻撃の種類, 属性　[S/C/A], [N/S/H][A/T/P] 
 damage    = 35,35                   ;与えるダメージ, ガード時のダメージ 
 animtype = Light                 ;攻撃の強さ　[Light/Medium/Hard/Back] 
-getpower = 100,50                 ;自分のパワー増分, ガード時のパワー増分 
+getpower = 15,7;自分のパワー増分, ガード時のパワー増分 
 givepower = 20,5                 ;相手のパワー増分, ガード時のパワー増分 
 guardflag = HMLA                   ;ガード可能な状態の指定　[H/L/A/M(HL)/MA] 
 hitflag = HMLAF                    ;攻撃が当たる状態の指定[H/M/L/A/F/D]
@@ -2826,7 +2826,7 @@ trigger1 = AnimElem = 2          ;２枚目から以下の設定を有効に
 attr = S, SA                     ;攻撃の種類, 属性　[S/C/A], [N/S/H][A/T/P] 
 damage    = 47,45                   ;与えるダメージ, ガード時のダメージ 
 animtype = Light                 ;攻撃の強さ　[Light/Medium/Hard/Back] 
-getpower = 100,50                 ;自分のパワー増分, ガード時のパワー増分 
+getpower = 15,7;自分のパワー増分, ガード時のパワー増分 
 givepower = 20,5                 ;相手のパワー増分, ガード時のパワー増分 
 guardflag = HMLA                   ;ガード可能な状態の指定　[H/L/A/M(HL)/MA] 
 hitflag = HMLAF                    ;攻撃が当たる状態の指定[H/M/L/A/F/D]
@@ -2876,7 +2876,7 @@ trigger1 = time%4 = 0
 attr = S, SA                     ;攻撃の種類, 属性　[S/C/A], [N/S/H][A/T/P] 
 damage    = 50,55                   ;与えるダメージ, ガード時のダメージ 
 animtype = Light                 ;攻撃の強さ　[Light/Medium/Hard/Back] 
-getpower = 60,30                 ;自分のパワー増分, ガード時のパワー増分 
+getpower = 15,7;自分のパワー増分, ガード時のパワー増分 
 givepower = 20,5                 ;相手のパワー増分, ガード時のパワー増分 
 guardflag = HMLA                   ;ガード可能な状態の指定　[H/L/A/M(HL)/MA] 
 hitflag = HMLAF                    ;攻撃が当たる状態の指定[H/M/L/A/F/D]

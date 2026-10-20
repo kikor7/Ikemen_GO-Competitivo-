@@ -9,7 +9,7 @@ velset = 0,0
 anim = 1000
 ctrl = 0
 sprpriority = 2
-poweradd = 40
+poweradd = 0
 
 [State 100, 2]
 type = Velset
@@ -76,7 +76,7 @@ fall.recover = 0
 air.fall = 1
 fall = 1
 yaccel = .50
-getpower = 0, 0
+getpower = 1,0
 P2Facing = 1
 guard.dist = 320
 airguard.dist = 320
@@ -222,7 +222,7 @@ fall.recover = 1
 air.fall = 1
 fall = 1
 yaccel = .60
-getpower = 82, 51
+getpower = 1,0
 
 [State 1000, 3];必殺ヒットエフェクトマーク
 type = helper
@@ -434,7 +434,7 @@ velset = 0,0
 anim = 1000
 ctrl = 0
 sprpriority = 2
-poweradd = 40
+poweradd = 0
 
 [State 50, 6]
 type = AfterImage
@@ -533,7 +533,7 @@ fall.recover = 0
 air.fall = 1
 fall = 1
 yaccel = .50
-getpower = 0, 0
+getpower = 8,4
 P2Facing = 1
 guard.dist = 320
 airguard.dist = 320
@@ -628,7 +628,7 @@ fall.recover = 0
 air.fall = 1
 fall = 1
 yaccel = .50
-getpower = 82, 51
+getpower = 8,4
 
 [State 1000, 3];必殺ヒットエフェクトマーク
 type = helper
@@ -900,7 +900,7 @@ velset = 0,0
 anim = 1050
 ctrl = 0
 sprpriority = 2
-poweradd = 35
+poweradd = 0
 
 [State 3000, 0]
 type = NotHitBy
@@ -1019,7 +1019,7 @@ fall.recover = 0
 air.fall = 1
 fall = 1
 yaccel = .50
-getpower = 43, 23
+getpower = 30,15
 
 [State 1000, 3];必殺ヒットエフェクトマーク
 type = helper
@@ -1160,7 +1160,7 @@ fall.recover = 1
 air.fall = 1
 fall = 1
 yaccel = .52
-getpower = 52, 36
+getpower = 30,15
 
 [State 1000, 3];必殺ヒットエフェクトマーク
 type = helper
@@ -1328,7 +1328,7 @@ juggle  = 1
 anim = 1055
 ctrl = 0
 sprpriority = 2
-poweradd = 35
+poweradd = 0
 
 [State 3000, 0]
 type = NotHitBy
@@ -1443,7 +1443,7 @@ fall.recover = 0
 air.fall = 1
 fall = 1
 yaccel = .50
-getpower = 43, 23
+getpower = 30,15
 
 [State 1000, 3];必殺ヒットエフェクトマーク
 type = helper
@@ -1583,7 +1583,7 @@ fall.recover = 1
 air.fall = 1
 fall = 1
 yaccel = .52
-getpower = 52, 36
+getpower = 30,15
 
 [State 1000, 3];必殺ヒットエフェクトマーク
 type = helper
@@ -2232,7 +2232,7 @@ velset = 0,0
 anim = 1100
 ctrl = 0
 sprpriority = 2
-poweradd = 50
+poweradd = 0
 
 [State 1000, 0];声
 type = VarRandom
@@ -2320,7 +2320,7 @@ fall.recover = 0
 air.fall = 1
 fall = 1
 yaccel = .50
-getpower = 0, 0
+getpower = 60,30
 P2Facing = 1
 guard.dist = 160
 airguard.dist = 160
@@ -2342,7 +2342,7 @@ velset = 0,0
 anim = 1101
 ctrl = 0
 sprpriority = 2
-poweradd = 50
+poweradd = 0
 
 [State 1000, 0];声
 type = VarRandom
@@ -2520,7 +2520,7 @@ fall.recover = 0
 air.fall = 1
 fall = 1
 yaccel = .50
-getpower = 0, 0
+getpower = 60,30
 P2Facing = 1
 guard.dist = 160
 airguard.dist = 160
@@ -2543,7 +2543,7 @@ velset = 0,0
 anim = 1101
 ctrl = 0
 sprpriority = 2
-poweradd = 50
+poweradd = 0
 
 [State 100, 2]
 type = Varset
@@ -2714,7 +2714,7 @@ fall.recover = 0
 air.fall = 1
 fall = 1
 yaccel = .50
-getpower = 0, 0
+getpower = 60,30
 P2Facing = 1
 guard.dist = 160
 airguard.dist = 160
@@ -2924,7 +2924,7 @@ fall.recover = 1
 air.fall = 1
 fall = 1
 yaccel = .50
-getpower = 73, 46
+getpower = 1,0
 
 [State 1000, 3];必殺ヒットエフェクトマーク
 type = helper
@@ -3644,7 +3644,7 @@ fall.recover = 1
 air.fall = 1
 fall = 0
 yaccel = .50
-getpower = 54, 38
+getpower = 30,15
 palfx.time = 40
 palfx.add         = 130,0,-100
 palfx.sinadd      = 50,50,0,20
@@ -3740,7 +3740,7 @@ velset = 0,0
 anim = 1255
 ctrl = 0
 sprpriority = 2
-poweradd = 20
+poweradd = 0
 
 [State 100, 2]
 type = Varset
@@ -3848,7 +3848,7 @@ air.velocity = -2,var(18)*0.1
 fall.recover = 1
 air.fall = 1
 yaccel = .50
-getpower = 38, 26
+getpower = 30,15
 palfx.time = 40
 palfx.add         = 130,0,-100
 palfx.sinadd      = 50,50,0,20
@@ -3961,7 +3961,7 @@ velset = 0,0
 anim = 1260
 ctrl = 0
 sprpriority = 2
-poweradd = 20
+poweradd = 0
 
 [State 50, 0]
 type = turn
@@ -4064,7 +4064,7 @@ velset = 0,0
 anim = 1261
 ctrl = 0
 sprpriority = 2
-poweradd = 20
+poweradd = 0
 
 [State 1000, 1] 
 type = PlaySnd
@@ -4142,7 +4142,7 @@ fall.recover = 0
 air.fall = 1
 fall = 1
 yaccel = .50
-getpower = 33, 21
+getpower = 60,30
 p2facing = 1
 
 [State 810, Throw 11] ;相手のstateを変更（自分のstate）
@@ -4177,7 +4177,7 @@ fall.recover = 1
 air.fall = 1
 fall = 1
 yaccel = .50
-getpower = 33, 21
+getpower = 60,30
 p2stateno = 825
 p2facing = 1
 
@@ -4229,7 +4229,7 @@ velset = 0,0
 anim = 1265
 ctrl = 0
 sprpriority = 2
-poweradd = 20
+poweradd = 0
 
 [State 1000, 1] 
 type = PlaySnd
@@ -4307,7 +4307,7 @@ fall.recover = 1
 air.fall = 1
 fall = 1
 yaccel = .50
-getpower = 33, 21
+getpower = 30,15
 p2facing = 1
 
 [State 810, Throw 11] ;相手のstateを変更（自分のstate）
@@ -4342,7 +4342,7 @@ fall.recover = 0
 air.fall = 1
 fall = 1
 yaccel = .50
-getpower = 33, 21
+getpower = 30,15
 p2stateno = 825
 p2facing = 1
 
@@ -4572,7 +4572,7 @@ velset = 0,0
 anim = 1350
 ctrl = 0
 sprpriority = 2
-poweradd = 50
+poweradd = 0
 
 [State 100, 2]
 type = Velset
@@ -4660,6 +4660,7 @@ y = .35
 
 [State 800, 1] ;攻撃予約
 type = HitDef
+getpower = 60,30
 Trigger1 = animelem = 2
 attr = A, ST						;立ち通常投げ
 hitflag = M					
@@ -4714,7 +4715,7 @@ type    = A
 movetype= A
 physics = N
 anim = 1360
-poweradd = 70
+poweradd = 0
 
 [State 1360, 0]
 type = BindToTarget
@@ -5072,7 +5073,7 @@ velset = 0,0
 anim = 1000
 ctrl = 0
 sprpriority = 2
-poweradd = 40
+poweradd = 0
 
 [State 50, 0]
 type = turn
@@ -5170,7 +5171,7 @@ fall.recover = 0
 air.fall = 1
 fall = 1
 yaccel = .50
-getpower = 0, 0
+getpower = 1,0
 P2Facing = 1
 guard.dist = 320
 airguard.dist = 320
@@ -5271,7 +5272,7 @@ fall.recover = 1
 air.fall = 1
 fall = 1
 yaccel = .65
-getpower = 56, 30
+getpower = 1,0
 
 [State 1000, 3];必殺ヒットエフェクトマーク
 type = helper
@@ -5459,7 +5460,7 @@ velset = 0,0
 anim = 1000
 ctrl = 0
 sprpriority = 2
-poweradd = 40
+poweradd = 0
 
 [State 50, 0]
 type = turn
@@ -5512,7 +5513,7 @@ fall.recover = 0
 air.fall = 1
 fall = 1
 yaccel = .50
-getpower = 0, 0
+getpower = 1,0
 P2Facing = 1
 guard.dist = 320
 airguard.dist = 320
@@ -5613,7 +5614,7 @@ fall.recover = 1
 air.fall = 1
 fall = 1
 yaccel = .60
-getpower = 32, 15
+getpower = 1,0
 
 [State 1000, 3];必殺ヒットエフェクトマーク
 type = helper
@@ -5729,7 +5730,7 @@ velset = 0,0
 anim = 1000
 ctrl = 0
 sprpriority = 2
-poweradd = 20
+poweradd = 0
 
 [State 50, 0]
 type = turn
@@ -5833,7 +5834,7 @@ fall.recover = 0
 air.fall = 1
 fall = 1
 yaccel = .50
-getpower = 0, 0
+getpower = 8,4
 P2Facing = 1
 guard.dist = 320
 airguard.dist = 320
@@ -5928,7 +5929,7 @@ fall.recover = 0
 air.fall = 1
 fall = 1
 yaccel = .50
-getpower = 51, 26
+getpower = 8,4
 
 [State 1000, 3];必殺ヒットエフェクトマーク
 type = helper
@@ -6102,7 +6103,7 @@ velset = 0,0
 anim = 1000
 ctrl = 0
 sprpriority = 2
-poweradd = 10
+poweradd = 0
 
 [State 50, 0]
 type = turn
@@ -6156,7 +6157,7 @@ fall.recover = 0
 air.fall = 1
 fall = 1
 yaccel = .50
-getpower = 0, 0
+getpower = 1,0
 P2Facing = 1
 guard.dist = 320
 airguard.dist = 320
@@ -6256,7 +6257,7 @@ fall.recover = 0
 air.fall = 1
 fall = 1
 yaccel = .50
-getpower = 32, 10
+getpower = 1,0
 
 [State 1000, 3];必殺ヒットエフェクトマーク
 type = helper
@@ -6359,7 +6360,7 @@ velset = 0,0
 anim = 1050
 ctrl = 0
 sprpriority = 2
-poweradd = 10
+poweradd = 0
 
 [State 3000, 0]
 type = NotHitBy
@@ -6464,7 +6465,7 @@ fall.recover = 0
 air.fall = 1
 fall = 1
 yaccel = .50
-getpower = 28, 16
+getpower = 1,0
 
 [State 1000, 3];必殺ヒットエフェクトマーク
 type = helper
@@ -6605,7 +6606,7 @@ fall.recover = 1
 air.fall = 1
 fall = 1
 yaccel = .52
-getpower = 29, 17
+getpower = 1,0
 
 [State 1000, 3];必殺ヒットエフェクトマーク
 type = helper
@@ -6743,7 +6744,7 @@ velset = 0,0
 anim = 1050
 ctrl = 0
 sprpriority = 2
-poweradd = 10
+poweradd = 0
 
 [State 3000, 0]
 type = NotHitBy
@@ -6848,7 +6849,7 @@ fall.recover = 0
 air.fall = 1
 fall = 1
 yaccel = .50
-getpower = 28, 16
+getpower = 1,0
 
 [State 1000, 3];必殺ヒットエフェクトマーク
 type = helper
@@ -6944,7 +6945,7 @@ fall.recover = 1
 air.fall = 1
 fall = 1
 yaccel = .52
-getpower = 29, 17
+getpower = 1,0
 
 [State 1000, 3];必殺ヒットエフェクトマーク
 type = helper
@@ -7010,7 +7011,7 @@ juggle  = 1
 anim = 1055
 ctrl = 0
 sprpriority = 2
-poweradd = 15
+poweradd = 0
 
 [State 3000, 0]
 type = NotHitBy
@@ -7130,7 +7131,7 @@ fall.recover = 0
 air.fall = 1
 fall = 1
 yaccel = .50
-getpower = 25, 13
+getpower = 8,4
 
 [State 1000, 3];必殺ヒットエフェクトマーク
 type = helper
@@ -7270,7 +7271,7 @@ fall.recover = 1
 air.fall = 1
 fall = 1
 yaccel = .52
-getpower = 37, 18
+getpower = 8,4
 
 [State 1000, 3];必殺ヒットエフェクトマーク
 type = helper
@@ -7411,7 +7412,7 @@ juggle  = 1
 anim = 1055
 ctrl = 0
 sprpriority = 2
-poweradd = 15
+poweradd = 0
 
 [State 3000, 0]
 type = NotHitBy
@@ -7531,7 +7532,7 @@ fall.recover = 0
 air.fall = 1
 fall = 1
 yaccel = .50
-getpower = 23, 11
+getpower = 1,0
 
 [State 1000, 3];必殺ヒットエフェクトマーク
 type = helper
@@ -7626,7 +7627,7 @@ fall.recover = 1
 air.fall = 1
 fall = 1
 yaccel = .52
-getpower = 26, 12
+getpower = 1,0
 
 [State 1000, 3];必殺ヒットエフェクトマーク
 type = helper
@@ -7697,7 +7698,7 @@ velset = 0,0
 anim = 1101
 ctrl = 0
 sprpriority = 2
-poweradd = 30
+poweradd = 0
 
 [State 50, 0]
 type = turn
@@ -7837,7 +7838,7 @@ fall.recover = 0
 air.fall = 1
 fall = 1
 yaccel = .50
-getpower = 0, 0
+getpower = 1,0
 P2Facing = 1
 guard.dist = 160
 airguard.dist = 160
@@ -7859,7 +7860,7 @@ velset = 0,0
 anim = 1101
 ctrl = 0
 sprpriority = 2
-poweradd = 10
+poweradd = 0
 
 [State 50, 0]
 type = turn
@@ -7909,7 +7910,7 @@ fall.recover = 0
 air.fall = 1
 fall = 1
 yaccel = .50
-getpower = 0, 0
+getpower = 1,0
 P2Facing = 1
 guard.dist = 160
 airguard.dist = 160
@@ -7931,7 +7932,7 @@ velset = 0,0
 anim = 1101
 ctrl = 0
 sprpriority = 2
-poweradd = 30
+poweradd = 0
 
 [State 50, 0]
 type = turn
@@ -8083,7 +8084,7 @@ fall.recover = 0
 air.fall = 1
 fall = 1
 yaccel = .50
-getpower = 0, 0
+getpower = 8,4
 P2Facing = 1
 guard.dist = 160
 airguard.dist = 160
@@ -8104,7 +8105,7 @@ velset = 0,0
 anim = 1101
 ctrl = 0
 sprpriority = 2
-poweradd = 10
+poweradd = 0
 
 [State 50, 0]
 type = turn
@@ -8166,7 +8167,7 @@ fall.recover = 0
 air.fall = 1
 fall = 1
 yaccel = .50
-getpower = 0, 0
+getpower = 1,0
 P2Facing = 1
 guard.dist = 160
 airguard.dist = 160

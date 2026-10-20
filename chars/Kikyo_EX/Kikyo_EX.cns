@@ -222,7 +222,7 @@ movetype= a
 physics = n
 anim = 110
 ctrl = 0
-poweradd = 50
+poweradd = 0
 
 [state 200, 3]
 Type = playsnd
@@ -359,7 +359,7 @@ movetype= a
 physics = n
 anim = 111
 ctrl = 0
-poweradd = 50
+poweradd = 0
 
 [state 200, 3]
 Type = playsnd
@@ -411,7 +411,7 @@ movetype= a
 physics = s
 anim = 200
 ctrl = 0
-poweradd = 50
+poweradd = 0
 
 [state 200, 3]
 Type = playsnd
@@ -424,7 +424,7 @@ trigger1 = time = 0
 attr = sca, SA
 animtype  = medium
 damage    =  10,1
-getpower = 10,10
+getpower = 30,15
 givepower = 0,0
 hitflag = MAF
 guardflag = MA
@@ -461,7 +461,7 @@ movetype= a
 physics = s
 anim = 210
 ctrl = 0
-poweradd = 50
+poweradd = 0
 
 [State 210, 1]
 type = PlaySnd
@@ -479,7 +479,7 @@ trigger1 = time = 0
 attr = sca, SA
 animtype  = hard
 damage    =  30,5
-getpower = 10,10
+getpower = 30,15
 givepower = 0,0
 hitflag = MAF
 guardflag = MA
@@ -511,7 +511,7 @@ movetype= a
 physics = s
 anim = 201
 ctrl = 0
-poweradd = 50
+poweradd = 0
 
 [state 200, 3]
 Type = playsnd
@@ -524,7 +524,7 @@ trigger1 = time = 0
 attr = sca, SA
 animtype  = medium
 damage    =  10,1
-getpower = 10,10
+getpower = 30,15
 givepower = 0,0
 hitflag = MAF
 guardflag = MA
@@ -561,7 +561,7 @@ movetype= a
 physics = s
 anim = 211
 ctrl = 0
-poweradd = 50
+poweradd = 0
 
 [State 210, 1]
 type = PlaySnd
@@ -579,7 +579,7 @@ trigger1 = time = 0
 attr = sca, SA
 animtype  = hard
 damage    =  30,5
-getpower = 10,10
+getpower = 30,15
 givepower = 0,0
 hitflag = MAF
 guardflag = MA
@@ -611,7 +611,7 @@ movetype= a
 physics = a
 anim = 202
 ctrl = 0
-poweradd = 50
+poweradd = 0
 
 [state 200, 3]
 Type = playsnd
@@ -629,7 +629,7 @@ trigger1 = time = 0
 attr = sca, SA
 animtype  = hard
 damage    =  30,1
-getpower = 10,10
+getpower = 30,15
 givepower = 0,0
 hitflag = MAF
 guardflag = MA
@@ -661,7 +661,7 @@ movetype= a
 physics = A
 anim = 224
 ctrl = 0
-poweradd = 50
+poweradd = 0
 
 [State 210, 1]
 type = PlaySnd
@@ -679,7 +679,7 @@ trigger1 = time = 0
 attr = sca, SA
 animtype  = hard
 damage    = 30,5
-getpower = 10,10
+getpower = 30,15
 givepower = 0,0
 hitflag = MAF
 guardflag = MA
@@ -711,7 +711,7 @@ movetype= a
 physics = s
 anim = 220
 ctrl = 0
-poweradd = 50
+poweradd = 0
 
 [State 210, 1]
 type = PlaySnd
@@ -729,7 +729,7 @@ trigger1 = time = 0
 attr = sca, SA
 animtype  = hard
 damage    =  10,1
-getpower = 10,10
+getpower = 30,15
 givepower = 0,0
 hitflag = MAF
 guardflag = MA
@@ -766,7 +766,7 @@ movetype= a
 physics = S
 anim = 221
 ctrl = 0
-poweradd = 50
+poweradd = 0
 
 [State 210, 1]
 type = PlaySnd
@@ -784,7 +784,7 @@ trigger1 = time = 0
 attr = sca, SA
 animtype  = hard
 damage    = 30,5
-getpower = 10,10
+getpower = 30,15
 givepower = 0,0
 hitflag = MAF
 guardflag = MA
@@ -816,7 +816,7 @@ movetype= a
 physics = s
 anim = 222
 ctrl = 0
-poweradd = 50
+poweradd = 0
 
 [State 210, 1]
 type = PlaySnd
@@ -834,7 +834,7 @@ trigger1 = time = 0
 attr = sca, SA
 animtype  = hard
 damage    =  10,1
-getpower = 10,10
+getpower = 30,15
 givepower = 0,0
 hitflag = MAF
 guardflag = MA
@@ -871,7 +871,7 @@ movetype= a
 physics = s
 anim = 223
 ctrl = 0
-poweradd = 50
+poweradd = 0
 
 [State 210, 1]
 type = PlaySnd
@@ -889,7 +889,7 @@ trigger1 = time = 0
 attr = sca, SA
 animtype  = hard
 damage    = 30,5
-getpower = 10,10
+getpower = 30,15
 givepower = 0,0
 hitflag = MAF
 guardflag = MA
@@ -921,7 +921,7 @@ movetype= a
 physics = s
 anim = 250
 ctrl = 0
-poweradd = 50
+poweradd = 0
 
 [state 200, 4]
 Type = changestate
@@ -936,7 +936,7 @@ trigger1 = 1
 attr = sca, SA
 animtype  = hard
 damage    =  0,0
-getpower = 10,10
+getpower = 60,30
 givepower = 0,0
 hitflag = MAF
 p1stateno = 281
@@ -1053,7 +1053,7 @@ movetype= a
 physics = s
 anim = 260
 ctrl = 0
-poweradd = 50
+poweradd = 0
 
 [state 200, 4]
 Type = changestate
@@ -1068,7 +1068,7 @@ trigger1 = 1
 attr = sca, SA
 animtype  = hard
 damage    =  0,0
-getpower = 10,10
+getpower = 60,30
 givepower = 0,0
 hitflag = MAF
 p1stateno = 291
@@ -1168,7 +1168,7 @@ movetype= a
 physics = s
 anim = 300
 ctrl = 0
-poweradd = 50
+poweradd = 20
 
 [State 210, 1]
 type = PlaySnd
@@ -1234,7 +1234,7 @@ trigger1 = time = 0
 attr = sca, SP
 animtype  = hard
 damage    =  60,5
-getpower = 10,10
+getpower = 30,15
 givepower = 0,0
 hitflag = MAF
 guardflag = MA
@@ -1270,7 +1270,7 @@ movetype= a
 physics = s
 anim = 350
 ctrl = 0
-poweradd = 50
+poweradd = 0
 
 [State 210, 1]
 type = PlaySnd
@@ -1297,7 +1297,7 @@ movetype= a
 physics = s
 anim = 351
 ctrl = 0
-poweradd = 50
+poweradd = 20
 
 [State 210, 1]
 type = PlaySnd
@@ -1345,7 +1345,7 @@ movetype= a
 physics = s
 anim = 353
 ctrl = 0
-poweradd = 50
+poweradd = 0
 
 [State 0, AssertSpecial]
 type = AssertSpecial
@@ -1393,7 +1393,7 @@ movetype= a
 physics = S
 ctrl = 0
 anim = 400
-poweradd = 50
+poweradd = 20
 
 [State 210, 1]
 type = PlaySnd
@@ -1441,7 +1441,7 @@ movetype= a
 physics = S
 ctrl = 0
 anim = 402
-poweradd = 50
+poweradd = 0
 
 [State 210, 1]
 type = PlaySnd
@@ -1460,7 +1460,7 @@ trigger1 = timemod = 20,0
 attr = sca, SP
 animtype  = medium
 damage    =  5,1
-getpower = 1,1
+getpower = 30,15
 givepower = -25,-10
 hitflag = MAF
 guardflag = MA
@@ -1495,7 +1495,7 @@ movetype= a
 physics = S
 ctrl = 0
 anim = 450
-poweradd = 50
+poweradd = 0
 
 [State 210, 1]
 type = PlaySnd
@@ -1594,7 +1594,7 @@ trigger1 = timemod = 5,0
 attr = sca, SP
 animtype  = medium
 damage    =  3,1
-getpower = 2,1
+getpower = 30,15
 givepower = 0,0
 hitflag = MAF
 guardflag = MA
@@ -1647,7 +1647,7 @@ movetype= a
 physics = s
 anim = 500
 ctrl = 0
-poweradd = 50
+poweradd = 20
 
 [State 210, 1]
 type = PlaySnd
@@ -1691,7 +1691,7 @@ trigger1 = time = 0
 attr = sca, SP
 animtype  = hard
 damage    =  80,5
-getpower = 10,10
+getpower = 30,15
 givepower = 0,0
 hitflag = MAF
 guardflag = MA
@@ -1733,7 +1733,7 @@ movetype= a
 physics = S
 ctrl = 0
 anim = 550
-poweradd = 50
+poweradd = 0
 
 [State 210, 1]
 type = PlaySnd
@@ -1850,7 +1850,7 @@ trigger1 = timemod = 10,0
 attr = sca, SP
 animtype  = hard
 damage    =  4,1
-getpower = 1,1
+getpower = 30,15
 givepower = -1,-1
 hitflag = MAF
 guardflag = MA
@@ -1880,7 +1880,7 @@ movetype= a
 physics = S
 ctrl = 0
 anim = 550
-poweradd = 50
+poweradd = 0
 
 [State 210, 1]
 type = PlaySnd
@@ -1997,7 +1997,7 @@ trigger1 = timemod = 10,0
 attr = sca, SP
 animtype  = hard
 damage    =  4,1
-getpower = 1,1
+getpower = 60,30
 givepower = -1,-1
 hitflag = MAF
 guardflag = MA

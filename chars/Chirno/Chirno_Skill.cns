@@ -3,6 +3,7 @@
 ;--------------------------------------------------------------------------------
 [Statedef 1100]
 Type    = U
+poweradd = 20
 Movetype= A
 Physics = N
 Anim = 1100 + 5*(StateType = A)
@@ -36,7 +37,7 @@ persistent = 0
 [State 1100]
 type = Poweradd
 trigger1 = AnimElemTime(4) = 0
-value = 100
+value = 0
 
 [State 1100]
 type = Helper
@@ -301,7 +302,7 @@ persistent = 0
 [State 1110]
 type = Poweradd
 trigger1 = AnimElemTime(4) = 0
-value = 100
+value = 0
 
 [State 1110]
 type = Helper
@@ -765,7 +766,7 @@ fall		= 1		;1だと自動立ち直りなし
 fall.recover	= 1		;0だと受身不可能
 fall.recovertime= ceil(root,fvar(1)*45*(1+0.5*root,var(4))) + 12
 air.fall	= 1		;1だと自動立ち直りなし
-getpower	= 40, 40
+getpower = 30,15
 givepower	= 10, 0
 yaccel		= 0.3
 ground.slidetime	= 24+10*var(4)
@@ -796,6 +797,7 @@ sprpriority	= 0
 ;--------------------------------------------------------------------------------
 [Statedef 1200]
 Type    = C
+poweradd = 20
 Movetype= A
 Physics = N
 Anim = 1200
@@ -830,7 +832,7 @@ persistent = 0
 [State 1200]
 type = Poweradd
 trigger1 = AnimElemTime(7) = 0
-value = 100
+value = 0
 
 [State 1200]
 type = Helper
@@ -1106,7 +1108,7 @@ fall		= 1		;1だと自動立ち直りなし
 fall.recover	= 1		;0だと受身不可能
 fall.recovertime= ceil(root,fvar(1)*45)
 air.fall	= 1		;1だと自動立ち直りなし
-getpower	= 60, 60
+getpower = 15,7
 givepower	= 20, 0
 yaccel		= 0.4
 ground.slidetime	= 24
@@ -1478,7 +1480,7 @@ fall		= 1		;1だと自動立ち直りなし
 fall.recover	= 1		;0だと受身不可能
 fall.recovertime= ceil(root,fvar(1)*60) + 1
 air.fall	= 1		;1だと自動立ち直りなし
-getpower	= 120, 60
+getpower = 15,7
 givepower	= 40, 0
 yaccel		= 0.4
 ground.slidetime	= 24
@@ -1660,7 +1662,7 @@ persistent = 0
 [State 1320]
 type = Poweradd
 trigger1 = AnimElemTime(2) = 0
-value = 100
+value = 0
 
 [State 1320]
 type = PlaySnd
@@ -1962,7 +1964,7 @@ fall		= 1		;1だと自動立ち直りなし
 fall.recover	= 1		;0だと受身不可能
 fall.recovertime= ceil(root,fvar(1)*45*(1+0.5*root,var(4)))
 air.fall	= 1		;1だと自動立ち直りなし
-getpower	= 240, 160
+getpower = 60,30
 givepower	= 80, 0
 yaccel		= 0.4
 ground.slidetime	= 24+10*var(4)
@@ -2026,7 +2028,7 @@ persistent = 0
 [State 2200]
 type = Poweradd
 trigger1 = AnimElemTime(4) = 0
-value = 100
+value = 0
 
 [State 2200]
 type = varset
@@ -2152,7 +2154,7 @@ fall		= 1		;1だと自動立ち直りなし
 fall.recover	= 1		;0だと受身不可能
 fall.recovertime= ceil(fvar(1)*60*(1+0.5*var(4))) + 9
 air.fall	= 1		;1だと自動立ち直りなし
-getpower	= 240, 160
+getpower = 60,30
 givepower	= 80, 0
 yaccel		= 0.4
 ground.slidetime	= 24+10*var(4)
@@ -2505,6 +2507,7 @@ persistent = 0
 ;--------------------------------------------------------------------------------
 [Statedef 2300]
 Type    = C
+poweradd = 20
 Movetype= A
 Physics = C
 Anim = 2300
@@ -2538,7 +2541,7 @@ persistent = 0
 [State 2300]
 type = Poweradd
 trigger1 = AnimElemTime(6) = 0
-value = 100
+value = 0
 
 [State 2300]
 type = varset
@@ -2970,7 +2973,7 @@ fall		= 1		;1だと自動立ち直りなし
 fall.recover	= 0		;0だと受身不可能
 fall.recovertime= ceil(100*root,fvar(0))
 air.fall	= 1		;1だと自動立ち直りなし
-getpower	= 240, 120
+getpower = 30,15
 givepower	= 60, 0
 yaccel		= 0.4
 ground.slidetime	= 24

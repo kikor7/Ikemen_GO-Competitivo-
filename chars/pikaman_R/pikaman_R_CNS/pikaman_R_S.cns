@@ -18,7 +18,7 @@ trigger1 = Prevstateno != [120,159]
 trigger1 = time = 0
 trigger2 = Prevstateno = [120,159]
 trigger2 = time = 1
-value = 50
+value = 0
 Persistent = 0
 
 
@@ -60,7 +60,7 @@ type = HitDef
 trigger1 = AnimElem = 4
 attr = S, SA
 animtype  = Hard
-getpower = var(10)*(var(41)=0),floor(var(10)/2)*(var(41)=0)
+getpower = 60,30
 givepower= var(10),var(10)
 damage = var(12),ceil(var(10)*0.3)
 priority  = 5
@@ -105,7 +105,7 @@ trigger1 = Prevstateno != [120,159]
 trigger1 = time = 0
 trigger2 = Prevstateno = [120,159]
 trigger2 = time = 1
-value = 50
+value = 0
 Persistent = 0
 
 
@@ -147,7 +147,7 @@ type = HitDef
 trigger1 = AnimElem = 4
 attr = S, SA
 animtype  = Hard
-getpower = var(10)*(var(41)=0),floor(var(10)/2)*(var(41)=0)
+getpower = 60,30
 givepower= var(10),var(10)
 damage = var(12),ceil(var(10)*0.3)
 priority  = 5
@@ -198,7 +198,7 @@ trigger1 = Prevstateno != [120,159]
 trigger1 = time = 0
 trigger2 = Prevstateno = [120,159]
 trigger2 = time = 1
-value = 50
+value = 0
 Persistent = 0
 
 [State 1000, 2]
@@ -244,7 +244,7 @@ type = HitDef
 trigger1 = AnimElem = 4 || AnimElem = 7
 attr = S, SA
 animtype  = Hard
-getpower = var(10)*(var(41)=0),floor(var(10)/2)*(var(41)=0)
+getpower = 30,15
 givepower= var(10),var(10)
 damage = var(12),ceil(var(10)*0.2)
 priority  = 5
@@ -267,7 +267,7 @@ type = HitDef
 trigger1 = AnimElem = 10
 attr = S, SA
 animtype  = Hard
-getpower = var(10)*(var(41)=0),floor(var(10)/2)*(var(41)=0)
+getpower = 30,15
 givepower= var(10),var(10)
 damage = var(12),ceil(var(10)*0.2)
 priority  = 5
@@ -448,7 +448,7 @@ trigger1 = Prevstateno != [120,159]
 trigger1 = time = 0
 trigger2 = Prevstateno = [120,159]
 trigger2 = time = 1
-value = 50
+value = 0
 Persistent = 0
 
 [State -3, Landing Sound];Ａ1
@@ -484,7 +484,7 @@ type = HitDef
 trigger1 = animelem = 5
 attr = C, SA
 animtype  = Medium
-getpower = var(10)*(var(41)=0),floor(var(10)/2)*(var(41)=0)
+getpower = 60,30
 givepower= var(10),var(10)
 damage = var(12),ceil(var(10)*0.3)
 guardflag = L
@@ -750,7 +750,7 @@ trigger1 = Prevstateno != [120,159]
 trigger1 = time = 0
 trigger2 = Prevstateno = [120,159]
 trigger2 = time = 1
-value = 50
+value = 0
 Persistent = 0
 
 [State -3, Landing Sound];Ａ1
@@ -788,7 +788,7 @@ trigger1 = !Movecontact && !movereversed
 trigger1 = P2Movetype != H || P2stateno = [150,155]
 attr = C, SA
 animtype  = up
-getpower = var(10)*(var(41)=0),floor(var(10)/2)*(var(41)=0)
+getpower = 60,30
 givepower= var(10),var(10)
 damage = var(12),ceil(var(10)*0.3)
 guardflag = L
@@ -963,7 +963,7 @@ trigger1 = Prevstateno != [120,159]
 trigger1 = time = 0
 trigger2 = Prevstateno = [120,159]
 trigger2 = time = 1
-value = 50
+value = 0
 Persistent = 0
 
 [State -3, Landing Sound];Ａ1
@@ -1012,7 +1012,7 @@ type = HitDef
 trigger1 = animelem = 5
 attr = A, SA
 animtype  = back
-getpower = var(10)*(var(41)=0),floor(var(10)/2)*(var(41)=0)
+getpower = 60,30
 givepower= var(10),var(10)
 damage = var(12),ceil(var(10)*0.3)
 guardflag = M
@@ -1648,7 +1648,7 @@ trigger1 = Prevstateno != [120,159]
 trigger1 = time = 0
 trigger2 = Prevstateno = [120,159]
 trigger2 = time = 1
-value = 75
+value = 0
 Persistent = 0
 
 
@@ -1665,7 +1665,7 @@ Trigger1 = animelem = 2
 attr = S, ST          ;ｓ：立ち　ｎ：通常　ｔ：投げ
 hitflag = AF          ;コンボの途中から投げが入らないよう設定してある
 priority = 1, Miss    ;１は優先順位が低いので技がでないかミスするという設定
-getpower = var(10)*(var(41)=0),floor(var(10)/2)*(var(41)=0)
+getpower = 60,30
 givepower= var(10),var(10)
 damage = var(12),ceil(var(10)*0.3)
 guardflag = 
@@ -1719,7 +1719,7 @@ trigger1 = Prevstateno != [120,159]
 trigger1 = time = 0
 trigger2 = Prevstateno = [120,159]
 trigger2 = time = 1
-value = 75
+value = 0
 Persistent = 0
 
 
@@ -1736,7 +1736,7 @@ Trigger1 = animelem = 4
 attr = S, ST          ;ｓ：立ち　ｎ：通常　ｔ：投げ
 hitflag = AF          ;コンボの途中から投げが入らないよう設定してある
 priority = 1, Miss    ;１は優先順位が低いので技がでないかミスするという設定
-getpower = var(10)*(var(41)=0),floor(var(10)/2)*(var(41)=0)
+getpower = 60,30
 givepower= var(10),var(10)
 damage = var(12),ceil(var(10)*0.3)
 guardflag = MA
@@ -1797,7 +1797,7 @@ trigger1 = Prevstateno != [120,159]
 trigger1 = time = 0
 trigger2 = Prevstateno = [120,159]
 trigger2 = time = 1
-value = 50
+value = 0
 Persistent = 0
 
 [State ]
@@ -1817,7 +1817,7 @@ type = HitDef
 trigger1 = AnimElem = 2
 attr = S, SA
 animtype  = Hard
-getpower = var(10)*(var(41)=0),floor(var(10)/2)*(var(41)=0)
+getpower = 30,15
 givepower= var(10),var(10)
 damage = var(12),ceil(var(10)*0.3)
 priority  = 5
@@ -1844,7 +1844,7 @@ Trigger1 = animelem = 4
 attr = S, ST          ;ｓ：立ち　ｎ：通常　ｔ：投げ
 hitflag = AF          ;コンボの途中から投げが入らないよう設定してある
 priority = 1, Miss    ;１は優先順位が低いので技がでないかミスするという設定
-getpower = var(10)*(var(41)=0),floor(var(10)/2)*(var(41)=0)
+getpower = 30,15
 givepower= var(10),var(10)
 damage = var(12),ceil(var(10)*0.3)
 guardflag = MA
@@ -2024,7 +2024,7 @@ type    = S
 movetype= A
 physics = N
 anim = 1210
-poweradd = 60
+poweradd = 0
 sprpriority = 1
 
 [State 810, Throw Sound]
@@ -2178,7 +2178,7 @@ trigger1 = Prevstateno != [120,159]
 trigger1 = time = 0
 trigger2 = Prevstateno = [120,159]
 trigger2 = time = 1
-value = 50
+value = 0
 Persistent = 0
 
 [State 810, Width 2-11]
@@ -2206,7 +2206,7 @@ value = 0, 1
 type = HitDef
 trigger1 = animelem = 6
 attr = A, SA
-getpower = var(10)*(var(41)=0),floor(var(10)/2)*(var(41)=0)
+getpower = 60,30
 givepower= var(10),var(10)
 damage = var(12),ceil(var(10)*0.3)
 guardflag = H
@@ -2279,7 +2279,7 @@ trigger1 = Prevstateno != [120,159]
 trigger1 = time = 0
 trigger2 = Prevstateno = [120,159]
 trigger2 = time = 1
-value = 50
+value = 0
 Persistent = 0
 
 [State ]
@@ -2289,6 +2289,7 @@ value = 0
 
 [State 800, 1]
 type = HitDef
+getpower = 60,30
 triggerall = (P2StateNo != [150,155]) && (P2StateNo != [40,51]) && animelem = 4
 triggerall = !(teamside = 2 && (P2Stateno != 0 || P2Stateno != 11) && Enemynear(var(53)),time <= 1 && Enemynear(var(53)),ctrl = 1)
 trigger1 = !Numtarget && P2Movetype != H
@@ -2347,7 +2348,7 @@ trigger1 = Prevstateno != [120,159]
 trigger1 = time = 0
 trigger2 = Prevstateno = [120,159]
 trigger2 = time = 1
-value = 50
+value = 0
 Persistent = 0
 
 [State ]
@@ -2357,6 +2358,7 @@ value = 0
 
 [State 800, 1]
 type = HitDef
+getpower = 60,30
 triggerall = (P2StateNo != [150,155]) && (P2StateNo != [40,51]) && animelem = 4
 triggerall = !(teamside = 2 && (P2Stateno != 0 || P2Stateno != 11) && Enemynear(var(53)),time <= 1 && Enemynear(var(53)),ctrl = 1)
 trigger1 = !Numtarget && P2Movetype != H
@@ -2415,7 +2417,7 @@ trigger1 = Prevstateno != [120,159]
 trigger1 = time = 0
 trigger2 = Prevstateno = [120,159]
 trigger2 = time = 1
-value = 50
+value = 0
 Persistent = 0
 
 [State ]
@@ -2425,6 +2427,7 @@ value = 0
 
 [State 800, 1]
 type = HitDef
+getpower = 60,30
 triggerall = (P2StateNo != [150,155]) && (P2StateNo != [40,51]) && animelem = 2
 triggerall = !(teamside = 2 && (P2Stateno != 0 || P2Stateno != 11) && Enemynear(var(53)),time <= 1 && Enemynear(var(53)),ctrl = 1)
 trigger1 = !Numtarget && P2Movetype != H

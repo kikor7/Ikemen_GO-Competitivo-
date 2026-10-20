@@ -1851,7 +1851,7 @@ air.type = High
 air.velocity = -1.4,-3        
 air.hittime = 12     
 fall.recover=IfElse(var(2),0,1) 
-getpower = IfElse(var(2),0,50),IfElse(var(2),0,50)
+getpower = 30,15
 ground.cornerpush.veloff = IfElse(var(13),-10,-6) 
 
 [State 200, 1]
@@ -1879,7 +1879,7 @@ air.type = High
 air.velocity = -1.4,-3        
 air.hittime = 12     
 fall.recover=IfElse(var(2),0,1) 
-getpower = IfElse(var(2),0,50),IfElse(var(2),0,50)
+getpower = 30,15
 ground.cornerpush.veloff = IfElse(var(13),-10,-6) 
 
 [State 200, 1]
@@ -1907,7 +1907,7 @@ air.type = High
 air.velocity = -1.4,-3        
 air.hittime = 12     
 fall.recover=IfElse(var(2),0,1) 
-getpower = IfElse(var(2),0,50),IfElse(var(2),0,50)
+getpower = 30,15
 ground.cornerpush.veloff = IfElse(var(13),-10,-6)
 
 [State 40, 3]
@@ -1977,7 +1977,7 @@ air.type = High
 air.velocity = -1.4,-3       
 air.hittime = 12        
 fall.recover=IfElse(var(2),0,1) 
-getpower = IfElse(var(2),0,50),IfElse(var(2),0,50)
+getpower = 30,15
 ground.cornerpush.veloff = IfElse(var(13),-10,-6) 
 [State 205, 1]
 type = HitDef
@@ -2004,7 +2004,7 @@ air.type = High
 air.velocity = -1.4,-3       
 air.hittime = 12        
 fall.recover=IfElse(var(2),0,1) 
-getpower = IfElse(var(2),0,50),IfElse(var(2),0,50)
+getpower = 30,15
 ground.cornerpush.veloff = IfElse(var(13),-10,-6) 
 [State 200, 1]
 type = HitDef
@@ -2031,7 +2031,7 @@ air.type = High
 air.velocity = -1.4,-3        
 air.hittime = 12     
 fall.recover=IfElse(var(2),0,1) 
-getpower = IfElse(var(2),0,50),IfElse(var(2),0,50)
+getpower = 30,15
 ground.cornerpush.veloff = IfElse(var(13),-1,-6)
 [State 40, 3]
 type = ChangeAnim
@@ -2122,7 +2122,7 @@ ground.hittime  = IfElse(var(2),25,15)
 ground.velocity = IfElse(var(13),-1,-7)
 guard.velocity = -9
 air.velocity = -2.5,-4
-getpower = IfElse(var(2),0,100),IfElse(var(2),0,100)
+getpower = 60,30
 ground.cornerpush.veloff = IfElse(var(13),-1,-9)
 
 [State 210, 2]
@@ -2147,7 +2147,7 @@ ground.hittime  = IfElse(var(2),25,15)
 ground.velocity = IfElse(var(13),-1,-7)
 guard.velocity = -9
 air.velocity = -2.5,-4
-getpower = IfElse(var(2),0,100),IfElse(var(2),0,100)
+getpower = 60,30
 ground.cornerpush.veloff = IfElse(var(13),-1,-9)
 
 [State 40, 3]
@@ -2211,7 +2211,7 @@ ground.hittime  = IfElse(var(2),26,13)
 ground.velocity = IfElse(var(13),-1,-7)
 guard.velocity = -9
 air.velocity = -2.5,-4
-getpower = IfElse(var(2),0,100),IfElse(var(2),0,100)
+getpower = 30,15
 ground.cornerpush.veloff = IfElse(var(13),-1,-10)
 
 [State 215, 2]
@@ -2234,7 +2234,7 @@ ground.hittime  = IfElse(var(2),26,13)
 ground.velocity = IfElse(var(13),-10,-7)
 guard.velocity = -9
 air.velocity = -2.5,-4
-getpower = IfElse(var(2),0,100),IfElse(var(2),0,100)
+getpower = 30,15
 ground.cornerpush.veloff = IfElse(var(13),-14,-10) 
 [State 40, 3]
 type = ChangeAnim
@@ -2298,7 +2298,7 @@ ground.hittime  = 12
 ground.velocity = IfElse(var(13),-8,-5)
 guard.velocity = -4
 air.velocity = -2.5,-3.5
-getpower = IfElse(var(2),0,50),IfElse(var(2),0,50)
+getpower = 30,15
 [State 230, 2]
 type = HitDef
 trigger1=var(16)=1
@@ -2319,7 +2319,7 @@ ground.hittime  = 20
 ground.velocity = IfElse(var(13),-8,-5)
 guard.velocity = -4
 air.velocity = -2.5,-3.5
-getpower = IfElse(var(2),0,50),IfElse(var(2),0,50)
+getpower = 30,15
 [State 230, 2]
 type = HitDef
 trigger1=var(12)=5
@@ -2340,7 +2340,7 @@ ground.hittime  = 12
 ground.velocity = IfElse(var(13),-8,-5)
 guard.velocity = -4
 air.velocity = -2.5,-3.5
-getpower = IfElse(var(2),0,50),IfElse(var(2),0,50)
+getpower = 30,15
 [State 40, 3]
 type = ChangeAnim
 trigger1=var(17)=1
@@ -2403,7 +2403,7 @@ ground.hittime  = 12
 ground.velocity = IfElse(var(13),-7,-5)
 guard.velocity = -4
 air.velocity = -2.5,-3.5
-getpower = IfElse(var(2),0,50),IfElse(var(2),0,50)
+getpower = 30,15
 [State 230, 2]
 type = HitDef
 trigger1=var(16)=1
@@ -2424,7 +2424,7 @@ ground.hittime  = 20
 ground.velocity = IfElse(var(13),-7,-5)
 guard.velocity = -4
 air.velocity = -2.5,-3.5
-getpower = IfElse(var(2),0,50),IfElse(var(2),0,50)
+getpower = 30,15
 
 [State 230, 2]
 type = HitDef
@@ -2446,7 +2446,7 @@ ground.hittime  = 12
 ground.velocity = IfElse(var(13),-7,-5)
 guard.velocity = -4
 air.velocity = -2.5,-3.5
-getpower = IfElse(var(2),0,50),IfElse(var(2),0,50)
+getpower = 30,15
 [State 40, 3]
 type = ChangeAnim
 trigger1=var(17)=1
@@ -2513,7 +2513,7 @@ ground.hittime  = 15
 ground.velocity = IfElse(var(13),-13,-9)
 guard.velocity = -9
 air.velocity = -2.2,-3.2
-getpower = IfElse(var(2),0,100),IfElse(var(2),0,100)
+getpower = 15,7
 
 [State 240, 2]
 type = HitDef
@@ -2534,7 +2534,7 @@ ground.hittime  = 15
 ground.velocity = IfElse(var(13),-13,-9)
 guard.velocity = -9
 air.velocity = -2.2,-3.2
-getpower = IfElse(var(2),0,100),IfElse(var(2),0,100)
+getpower = 15,7
 
 [State 240, 2]
 type = HitDef
@@ -2556,7 +2556,7 @@ ground.hittime  = 15
 ground.velocity = IfElse(var(13),-13,-9)
 guard.velocity = -9
 air.velocity = -2.2,-3.2
-getpower = IfElse(var(2),0,100),IfElse(var(2),0,100)
+getpower = 15,7
 
 [State 240, 2]
 type = HitDef
@@ -2578,7 +2578,7 @@ ground.hittime  = 15
 ground.velocity = IfElse(var(13),-13,-9)
 guard.velocity = -9
 air.velocity = -2.2,-3.2
-getpower = IfElse(var(2),0,100),IfElse(var(2),0,100)
+getpower = 15,7
 [State 40, 3]
 type = ChangeAnim
 trigger1=var(17)=1
@@ -2645,7 +2645,7 @@ ground.hittime  = 15
 ground.velocity = IfElse(var(13),-13,-8)
 guard.velocity = -9
 air.velocity = -2.2,-3.2
-getpower = IfElse(var(2),0,100),IfElse(var(2),0,100)
+getpower = 30,15
 [State 240, 2]
 type = HitDef
 trigger1=var(12)=5
@@ -2666,7 +2666,7 @@ ground.hittime  = 15
 ground.velocity = IfElse(var(13),-13,-8)
 guard.velocity = -9
 air.velocity = -2.2,-3.2
-getpower = IfElse(var(2),0,100),IfElse(var(2),0,100)
+getpower = 30,15
 [State 40, 3]
 type = ChangeAnim
 trigger1=var(17)=1
@@ -2720,7 +2720,7 @@ guard.velocity = -12
 air.velocity = -5,-2
 fall = 1
 fall.recover=IfElse(var(22),0,1) 
-getpower = IfElse(var(2),0,120),IfElse(var(2),0,120)
+getpower = 30,15
 [State 250, 3]
 type = HitDef
 trigger1=var(12)=5
@@ -2743,7 +2743,7 @@ guard.velocity = -12
 air.velocity = -3,-2
 fall = 1
 fall.recover=IfElse(var(22),0,1) 
-getpower = IfElse(var(2),0,120),IfElse(var(2),0,120)
+getpower = 30,15
 [State 240, 1]
 type = PlaySnd
 trigger1 = animelem=3
@@ -3027,7 +3027,7 @@ ground.hittime  = 10
 ground.velocity = IfElse(var(13),-6,-5)
 guard.velocity = -4
 air.velocity = -1.5,-3
-getpower = IfElse(var(2),0,50),IfElse(var(2),0,50)
+getpower = 30,15
 [State 400, 2]
 type = HitDef
 triggerall=var(16)=1
@@ -3051,7 +3051,7 @@ ground.hittime  = 17
 ground.velocity = IfElse(var(13),-6,-5)
 guard.velocity = -4
 air.velocity = -1.5,-3
-getpower = IfElse(var(2),0,50),IfElse(var(2),0,50)
+getpower = 30,15
 
 [State 400, 2]
 type = HitDef
@@ -3076,7 +3076,7 @@ ground.hittime  = 10
 ground.velocity = IfElse(var(13),-6,-5)
 guard.velocity = -4
 air.velocity = -1.5,-3
-getpower = IfElse(var(2),0,50),IfElse(var(2),0,50)
+getpower = 30,15
 [State 40, 3]
 type = ChangeAnim
 trigger1=var(17)=1
@@ -3145,7 +3145,7 @@ ground.hittime  = 15
 ground.velocity = IfElse(var(13),-11,-9)
 guard.velocity = -8
 air.velocity = -3,-4
-getpower = IfElse(var(2),0,100),IfElse(var(2),0,100)
+getpower = 30,15
 [State 410, 2]
 type = HitDef
 triggerall=var(12)=5
@@ -3168,7 +3168,7 @@ ground.hittime  = 15
 ground.velocity = IfElse(var(13),-11,-9)
 guard.velocity = -8
 air.velocity = -3,-4
-getpower = IfElse(var(2),0,100),IfElse(var(2),0,100)
+getpower = 30,15
 [State 40, 3]
 type = ChangeAnim
 trigger1=var(17)=1
@@ -3239,7 +3239,7 @@ ground.hittime  = 10
 ground.velocity = IfElse(var(13),-6,-5)
 guard.velocity = -4
 air.velocity = -2,-3
-getpower = IfElse(var(2),0,50),IfElse(var(2),0,50)
+getpower = 30,15
 
 [State 430, 2]
 type = HitDef
@@ -3263,7 +3263,7 @@ ground.hittime  = 19
 ground.velocity = IfElse(var(13),-6,-5)
 guard.velocity = -4
 air.velocity = -2,-3
-getpower = IfElse(var(2),0,50),IfElse(var(2),0,50)
+getpower = 30,15
 
 [State 430, 2]
 type = HitDef
@@ -3287,7 +3287,7 @@ ground.hittime  = 10
 ground.velocity = IfElse(var(13),-6,-5)
 guard.velocity = -4
 air.velocity = -2,-3
-getpower = IfElse(var(2),0,50),IfElse(var(2),0,50)
+getpower = 30,15
 [State 40, 3]
 type = ChangeAnim
 trigger1=var(17)=1
@@ -3364,7 +3364,7 @@ ground.hittime  = 15
 ground.velocity = -2,-4
 air.velocity = -2,-4
 guard.velocity = -9
-getpower = IfElse(var(2),0,100),IfElse(var(2),0,100)
+getpower = 30,15
 
 [State 440, 3]
 type = HitDef
@@ -3386,7 +3386,7 @@ ground.slidetime = 10
 ground.hittime  = 15
 ground.velocity = -2,-4
 air.velocity = -2,-4
-getpower = IfElse(var(2),0,100),IfElse(var(2),0,100)
+getpower = 30,15
 
 [State 40, 3]
 type = ChangeAnim
@@ -3444,7 +3444,7 @@ ground.hittime  = 9
 ground.velocity = IfElse(var(13),-6,-5)
 air.velocity = -3,-3
 guard.velocity = -5
-getpower = IfElse(var(2),0,50),IfElse(var(2),0,50)
+getpower = 30,15
 
 [State 600, 2]
 type = HitDef
@@ -3467,7 +3467,7 @@ ground.hittime  = 20
 ground.velocity = IfElse(var(13),-6,-5)
 air.velocity = -3,-3
 guard.velocity = -5
-getpower = IfElse(var(2),0,50),IfElse(var(2),0,50)
+getpower = 30,15
 
 [State 600, 2]
 type = HitDef
@@ -3490,7 +3490,7 @@ ground.hittime  = 9
 ground.velocity = IfElse(var(13),-6,-5)
 air.velocity = -3,-3
 guard.velocity = -5
-getpower = IfElse(var(2),0,50),IfElse(var(2),0,50)
+getpower = 30,15
 
 [State 40, 3]
 type = ChangeAnim
@@ -3552,7 +3552,7 @@ ground.hittime  = 15
 ground.velocity = IfElse(var(13),-10,-8)
 air.velocity = -3,-4
 guard.velocity = -8
-getpower = IfElse(var(2),0,100),IfElse(var(2),0,100)
+getpower = 30,15
 [State 610, 3]
 type = HitDef
 triggerall=var(16)=1
@@ -3575,7 +3575,7 @@ ground.hittime  = 20
 ground.velocity = IfElse(var(13),-10,-8)
 air.velocity = -3,-4
 guard.velocity = -8
-getpower = IfElse(var(2),0,100),IfElse(var(2),0,100)
+getpower = 30,15
 
 [State 610, 3]
 type = HitDef
@@ -3599,7 +3599,7 @@ ground.hittime  = 15
 ground.velocity = IfElse(var(13),-10,-8)
 air.velocity = -3,-4
 guard.velocity = -8
-getpower = IfElse(var(2),0,100),IfElse(var(2),0,100)
+getpower = 30,15
 [State 40, 3]
 type = ChangeAnim
 trigger1=var(17)=1
@@ -3664,7 +3664,7 @@ ground.hittime  = 9
 ground.velocity = IfElse(var(13),-6,-5)
 air.velocity = -2,-3
 guard.velocity = -5
-getpower = IfElse(var(2),0,50),IfElse(var(2),0,50)
+getpower = 30,15
 [State 630, 2]
 type = HitDef
 trigger1=var(16)=1
@@ -3687,7 +3687,7 @@ ground.hittime  = 20
 ground.velocity = IfElse(var(13),-6,-5)
 air.velocity = -2,-3
 guard.velocity = -5
-getpower = IfElse(var(2),0,50),IfElse(var(2),0,50)
+getpower = 30,15
 
 [State 630, 2]
 type = HitDef
@@ -3711,7 +3711,7 @@ ground.hittime  = 9
 ground.velocity = IfElse(var(13),-6,-5)
 air.velocity = -2,-3
 guard.velocity = -5
-getpower = IfElse(var(2),0,50),IfElse(var(2),0,50)
+getpower = 30,15
 [State 40, 3]
 type = ChangeAnim
 trigger1=var(17)=1
@@ -3775,7 +3775,7 @@ ground.hittime  = 15
 ground.velocity = IfElse(var(13),-10,-9)
 air.velocity = -3,-4
 guard.velocity = -8
-getpower = IfElse(var(2),0,100),IfElse(var(2),0,100)
+getpower = 15,7
 
 [State 640, 3]
 type = HitDef
@@ -3799,7 +3799,7 @@ ground.hittime  = 15
 ground.velocity = IfElse(var(13),-10,-9)
 air.velocity = -3,-4
 guard.velocity = -8
-getpower = IfElse(var(2),0,100),IfElse(var(2),0,100)
+getpower = 15,7
 [State 640, 3]
 type = HitDef
 trigger1=var(16)=1
@@ -3822,7 +3822,7 @@ ground.hittime  = 20
 ground.velocity = IfElse(var(13),-10,-9)
 air.velocity = -3,-4
 guard.velocity = -8
-getpower = IfElse(var(2),0,100),IfElse(var(2),0,100)
+getpower = 15,7
 
 [State 640, 3]
 type = HitDef
@@ -3846,7 +3846,7 @@ ground.hittime  = 20
 ground.velocity = IfElse(var(13),-10,-9)
 air.velocity = -3,-4
 guard.velocity = -8
-getpower = IfElse(var(2),0,100),IfElse(var(2),0,100)
+getpower = 15,7
 
 [State 640, 3]
 type = HitDef
@@ -3870,7 +3870,7 @@ ground.hittime  = 15
 ground.velocity = IfElse(var(13),-10,-9)
 air.velocity = -3,-4
 guard.velocity = -8
-getpower = IfElse(var(2),0,100),IfElse(var(2),0,100)
+getpower = 15,7
 
 [State 640, 3]
 type = HitDef
@@ -3894,7 +3894,7 @@ ground.hittime  = 15
 ground.velocity = IfElse(var(13),-10,-9)
 air.velocity = -3,-4
 guard.velocity = -8
-getpower = IfElse(var(2),0,100),IfElse(var(2),0,100)
+getpower = 15,7
 [State 40, 3]
 type = ChangeAnim
 trigger1=var(17)=1
@@ -3961,7 +3961,7 @@ air.velocity = -6,-2
 guard.velocity = -12
 fall = 1
 fall.recover=IfElse(var(22),0,1) 
-getpower = IfElse(var(2),0,120),IfElse(var(2),0,120)
+getpower = 30,15
 
 [State 651, 3]
 type = HitDef
@@ -3989,7 +3989,7 @@ air.velocity = -4,-2
 guard.velocity = -12
 fall = 1
 fall.recover=IfElse(var(22),0,1) 
-getpower = IfElse(var(2),0,120),IfElse(var(2),0,120)
+getpower = 30,15
 
 [State 40, 3]
 type = ChangeAnim
@@ -4081,8 +4081,8 @@ value = 0
 [State 240, 4]
 type = ChangeState
 trigger1 = AnimTime = 0
-value = 0
-ctrl = 1
+value = 1001
+ctrl = 0
 
 ;---------------------------------------------------------------------------
 ;‘O“]
@@ -4090,6 +4090,24 @@ ctrl = 1
 
 ;---------------------------------------------------------------------------
 ;Œã
+;---------------------------------------------------------------------------
+; Recuperacion tras esquivar/rodar: sin control y golpeable unos frames,
+; para que no se pueda encadenar sin riesgo.
+;---------------------------------------------------------------------------
+[Statedef 1001]
+type = S
+movetype = I
+physics = S
+ctrl = 0
+anim = 0
+velset = 0,0
+
+[State 1001, Fin de la recuperacion]
+type = ChangeState
+trigger1 = Time >= 12
+value = 0
+ctrl = 1
+
 [Statedef 710]
 type    = S
 movetype= I
@@ -4140,8 +4158,8 @@ time = 1
 [State 240, 4]
 type = ChangeState
 trigger1 = AnimTime = 0
-value = 0
-ctrl = 1
+value = 1001
+ctrl = 0
 ;---------------------------------------------------------------------------
 ;Œã
 [Statedef 712]
@@ -4783,6 +4801,7 @@ sprpriority = 2
 
 [State 800, 1]
 type = HitDef
+getpower = 60,30
 Trigger1 = Time = 0
 attr = S, NT          
 hitflag = M-        
@@ -5157,6 +5176,7 @@ sprpriority = 2
 
 [State 800, 1]
 type = HitDef
+getpower = 60,30
 Trigger1 = Time = 0
 attr = S, NT          
 hitflag = M-        
@@ -5402,7 +5422,7 @@ type    = S
 movetype= A
 physics = S
 juggle  = 0
-poweradd= 60
+poweradd= 0
 velset = 0,0
 anim = 1000
 ctrl = 0
@@ -5448,6 +5468,7 @@ trigger1 = animelem=14
 attr = A, SA
 animtype  = high
 damage = IfElse(var(22),69,69),10
+getpower = 60,30
 priority  = 5
 guardflag = H
 pausetime = 15,16
@@ -5471,6 +5492,7 @@ trigger1 = animelem=14
 attr = A, SA
 animtype  = high
 damage = 10,10
+getpower = 60,30
 priority  = 5
 guardflag = H
 pausetime = 15,16
@@ -5507,7 +5529,7 @@ type    = S
 movetype= A
 physics = S
 juggle  = 0
-poweradd= 120
+poweradd= 0
 velset = 0,0
 anim = 1010
 ctrl = 0
@@ -5551,6 +5573,7 @@ trigger1 = AnimElem =13
 attr = S, SA
 animtype  = medium
 damage = 40,10
+getpower = 30,15
 guardflag = M
 pausetime = 15,20
 sparkno = S30002
@@ -5572,6 +5595,7 @@ trigger1 = AnimElem =14
 attr = S, SA
 animtype  = medium
 damage = 40,10
+getpower = 30,15
 guardflag = M
 pausetime = 8,1
 sparkno = S30002
@@ -5594,6 +5618,7 @@ trigger1 = AnimElem =13
 attr = S, SA
 animtype  = Diagup
 damage = 90,10
+getpower = 30,15
 guardflag = M
 pausetime = 18,18
 sparkno = S30002
@@ -5629,7 +5654,7 @@ type    = S
 movetype= A
 physics = S
 juggle  = 16
-poweradd= 70
+poweradd= 0
 velset = 0,0
 anim = 1200
 ctrl = 0
@@ -5663,6 +5688,7 @@ trigger1 = animelem=3
 attr = A, SA
 animtype  = high
 damage = IfElse(var(22),25,15),5 
+getpower = 60,30
 priority  = 5
 guardflag = MA
 pausetime = 6,12
@@ -5685,6 +5711,7 @@ trigger1 = animelem=3
 attr = A, SA
 animtype  = high
 damage = 30,5 
+getpower = 60,30
 priority  = 5
 guardflag = MA
 pausetime = 6,12
@@ -5722,7 +5749,7 @@ type    = S
 movetype= A
 physics = S
 juggle  = 0
-poweradd= 70
+poweradd= 0
 velset = 0,0
 anim = 1210
 ctrl = 0
@@ -5761,6 +5788,7 @@ trigger1 = animelem=3
 attr = A, SA
 animtype  = high
 damage = IfElse(var(22),45,30),5 
+getpower = 60,30
 priority  = 5
 guardflag = MA
 pausetime = 10,12
@@ -5782,6 +5810,7 @@ trigger1 = animelem=3
 attr = A, SA
 animtype  = high
 damage = 30,5 
+getpower = 60,30
 priority  = 5
 guardflag = MA
 pausetime = 10,12
@@ -5817,7 +5846,7 @@ type    = S
 movetype= A
 physics = S
 juggle  = 0
-poweradd= 60
+poweradd= 0
 velset = 0,0
 anim = 1220
 ctrl = 0
@@ -5829,6 +5858,7 @@ trigger1 = animelem=3
 attr = A, SA
 animtype  = high
 damage = IfElse(var(22),69,69),10
+getpower = 60,30
 priority  = 5
 guardflag = H
 pausetime = 15,16
@@ -5852,6 +5882,7 @@ trigger1 = animelem=3
 attr = A, SA
 animtype  = high
 damage = 10,10
+getpower = 60,30
 priority  = 5
 guardflag = H
 pausetime = 15,16
@@ -5912,7 +5943,7 @@ type    = S
 movetype= A
 physics = S
 juggle  = 16
-poweradd= 70
+poweradd= 0
 velset = 0,0
 anim = 1230
 ctrl = 0
@@ -5951,6 +5982,7 @@ trigger1 = animelem=3
 attr = A, SA
 animtype  = high
 damage = IfElse(var(22),30,20),7 
+getpower = 60,30
 priority  = 5
 guardflag = MA
 pausetime = 8,12
@@ -5973,6 +6005,7 @@ trigger1 = animelem=3
 attr = A, SA
 animtype  = high
 damage = 15,7
+getpower = 60,30
 priority  = 5
 guardflag = MA
 pausetime = 8,12
@@ -6009,7 +6042,7 @@ type    = S
 movetype= A
 physics = S
 juggle  = 0
-poweradd= 70
+poweradd= 0
 velset = 0,0
 anim = 1240
 ctrl = 0
@@ -6047,6 +6080,7 @@ trigger1 = animelem=4
 attr = A, SA
 animtype  = high
 damage = 30,10
+getpower = 60,30
 priority  = 5
 guardflag = MA
 pausetime = 10,12
@@ -6069,6 +6103,7 @@ trigger1 = animelem=4
 attr = A, SA
 animtype  = high
 damage = 15,10
+getpower = 60,30
 priority  = 5
 guardflag = MA
 pausetime = 10,12
@@ -6104,7 +6139,7 @@ type    = S
 movetype= A
 physics = S
 juggle  = 0
-poweradd= 60
+poweradd= 0
 velset = 0,0
 anim = 1250
 ctrl = 0
@@ -6116,6 +6151,7 @@ trigger1 = animelem=3
 attr = A, SA
 animtype  = high
 damage = 20,10
+getpower = 60,30
 priority  = 5
 guardflag = H
 pausetime = 10,12
@@ -6139,6 +6175,7 @@ trigger1 = animelem=3
 attr = A, SA
 animtype  = high
 damage = 20,10
+getpower = 60,30
 priority  = 5
 guardflag = H
 pausetime = 10,12
@@ -6225,6 +6262,7 @@ trigger1 = 1
 attr = A, SA
 animtype  = high
 damage = 60,10
+getpower = 60,30
 priority  = 5
 guardflag = AM
 pausetime = 15,15
@@ -6259,7 +6297,7 @@ type    = A
 movetype= A
 physics = n
 juggle  = 16
-poweradd= 60
+poweradd= 0
 velset = 0,0
 anim = 1301
 ctrl = 0
@@ -6333,7 +6371,7 @@ type    = S
 movetype= A
 physics = S
 juggle  = 0
-poweradd= 65
+poweradd= 0
 ctrl = 0
 velset = 9,0
 anim = 1320
@@ -6398,7 +6436,7 @@ type    = C
 movetype= A
 physics = C
 juggle  = 16
-poweradd= 15
+poweradd= 0
 velset = 9,0
 ctrl = 0
 anim = 1330
@@ -6454,7 +6492,7 @@ type    = C
 movetype= A
 physics = C
 juggle  = 16
-poweradd= 15
+poweradd= 0
 velset = 9,0
 ctrl = 0
 anim = 1333
@@ -6542,7 +6580,7 @@ type    = S
 movetype= A
 physics = S
 juggle  = 16
-poweradd= 130
+poweradd= 0
 velset = 0,0
 anim = 1300
 ctrl = 0
@@ -6570,6 +6608,7 @@ trigger1 = 1
 attr = A, SA
 animtype  = high
 damage = IfElse(var(22),85,60),10 
+getpower = 30,15
 priority  = 5
 guardflag = AM
 pausetime = 17,17
@@ -6605,7 +6644,7 @@ type    = A
 movetype= A
 physics = n
 juggle  = 16
-poweradd= 60
+poweradd= 0
 velset = 0,0
 anim = 1301
 ctrl = 0
@@ -6635,6 +6674,7 @@ trigger3 = animelem=14
 trigger4 = animelem=15
 attr = A, SA
 damage    = 50
+getpower = 30,15
 hitflag = MAF
 guardflag = L
 pausetime = 10,10
@@ -6669,7 +6709,7 @@ type    = A
 movetype= A
 physics = N
 juggle  = 16
-poweradd= 120
+poweradd= 0
 velset = 0,0
 anim = 1400
 ctrl = 0
@@ -6707,6 +6747,7 @@ trigger3 = animelem=14
 trigger4 = animelem=15
 attr = A, SA
 damage = 70,10
+getpower = 60,30
 hitflag = MAF
 guardflag = AH
 pausetime = 15,15
@@ -6732,6 +6773,7 @@ trigger3 = animelem=14
 trigger4 = animelem=15
 attr = A, SA
 damage = 70,10
+getpower = 60,30
 hitflag = MAF
 guardflag = AH
 pausetime = 9,9
@@ -6777,7 +6819,7 @@ type    = A
 movetype= A
 physics = N
 juggle  = 16
-poweradd= 120
+poweradd= 0
 velset = 0,0
 anim = 1400
 ctrl = 0
@@ -6816,6 +6858,7 @@ trigger3 = animelem=14
 trigger4 = animelem=15
 attr = A, SA
 damage = 70,10
+getpower = 60,30
 hitflag = MAF
 guardflag = AH
 pausetime = 15,15
@@ -6841,6 +6884,7 @@ trigger3 = animelem=14
 trigger4 = animelem=15
 attr = A, SA
 damage = 70,10
+getpower = 60,30
 hitflag = MAF
 guardflag = AH
 pausetime = 9,9
@@ -7016,6 +7060,7 @@ value = 1510
 
 [State 800, 1]
 type = HitDef
+getpower = 60,30
 Trigger1 = animelem=2
 Trigger1 = p2stateno!=[120,160]
 attr = S, NT          
@@ -7033,6 +7078,7 @@ guard.dist = 0
 fall = 1  
 [State 800, 1]
 type = HitDef
+getpower = 60,30
 trigger1=var(12)=5
 Trigger1 = animelem=2
 Trigger1 = p2stateno!=[120,160]
@@ -7069,7 +7115,7 @@ type    = S
 movetype= A
 physics = N
 anim = 1501
-poweradd = 60
+poweradd = 0
 
 [State 1050, 1]
 type = PlaySnd
@@ -7127,7 +7173,7 @@ type    = S
 movetype= A
 physics = N
 anim = 1502
-poweradd = 60
+poweradd = 0
 
 [State 1005,6]
 type = Explod
@@ -7380,7 +7426,7 @@ type    = S
 movetype= A
 physics = S
 juggle  = 16
-poweradd= 50
+poweradd= 0
 velset = 0,0
 anim = 1600
 ctrl = 0
@@ -7437,6 +7483,7 @@ trigger2 = AnimElem = 3
 attr = S, SA
 animtype  = Diagup
 damage    = 80, 5
+getpower = 60,30
 priority  = 6
 guardflag = M
 pausetime = 4,4
@@ -7491,7 +7538,7 @@ type    = S
 movetype= A
 physics = S
 juggle  = 16
-poweradd= 50
+poweradd= 0
 velset = 0,0
 anim = 1610
 ctrl = 0
@@ -7509,6 +7556,7 @@ trigger1 = AnimElem = 3
 attr = S, SA
 animtype  = medium
 damage    = 50, 5
+getpower = 30,15
 priority  = 6
 guardflag = M
 pausetime = 10,15
@@ -7569,6 +7617,7 @@ trigger2 = AnimElem = 3
 attr = S, SA
 animtype  = Diagup
 damage    = 50, 5
+getpower = 30,15
 priority  = 6
 guardflag = M
 pausetime = 4,4

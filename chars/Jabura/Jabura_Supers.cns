@@ -2645,7 +2645,7 @@ value = ifelse(prevstateno = 3220,2823,3221)
 [Statedef 3221]
 Movetype = A
 juggle  = 5
-poweradd = 30
+poweradd = 0
 ctrl = 0
 anim = 7075
 sprpriority = 2
@@ -2901,7 +2901,7 @@ value = ifelse(prevstateno = 3221,2824,3222)
 [Statedef 3222]
 Movetype = A
 juggle  = 5
-poweradd = 30
+poweradd = 0
 ctrl = 0
 anim = 7075
 sprpriority = 2

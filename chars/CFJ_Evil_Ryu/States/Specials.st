@@ -13,7 +13,7 @@ movetype=A
 anim=1000
 ctrl=0
 velset=0,0
-poweradd=72*!var(20)
+poweradd=20*!var(20)
 sprpriority=1
 facep2=1
 
@@ -119,7 +119,7 @@ movetype=A
 anim=1000
 ctrl=0
 velset=0,0
-poweradd=72*!var(20)
+poweradd=20*!var(20)
 sprpriority=1
 facep2=1
 
@@ -172,7 +172,7 @@ movetype=A
 anim=1100
 ctrl=0
 velset=0,0
-poweradd=72*(!var(20) && prevstateno!=750)
+poweradd=0*(!var(20) && prevstateno!=750)
 juggle=ifelse(var(1)=1,8,ifelse((p2movetype=H && p2statetype=A),7,9))
 sprpriority=1
 facep2=1
@@ -260,7 +260,7 @@ air.type=Low
 air.velocity=-2,-10
 guard.velocity= -10.52
 guard.cornerpush.veloff = 0;-12.74
-getpower= ifelse(p2movetype=H,72,144)*(!var(20) && prevstateno!=750), 36*(!var(20) && prevstateno!=750)
+getpower = 30,15
 givepower=36,36
 envshake.time=16
 envshake.freq=120
@@ -297,7 +297,7 @@ air.type=Low
 air.velocity=-2,-10
 guard.cornerpush.veloff = 0
 guard.velocity= -10.52
-getpower= ifelse(p2movetype=H,72,144)*(!var(20) && prevstateno!=750), 36*(!var(20) && prevstateno!=750)
+getpower = 30,15
 givepower=36,36
 envshake.time=16
 envshake.freq=120
@@ -337,7 +337,7 @@ air.type=Low
 air.velocity=-2,-10
 guard.cornerpush.veloff = 0
 guard.velocity= -10.52
-getpower= ifelse(p2movetype=H,72,144)*(!var(20) && prevstateno!=750), 36*(!var(20) && prevstateno!=750)
+getpower = 30,15
 givepower=36,36
 envshake.time=16
 envshake.freq=120
@@ -373,7 +373,7 @@ air.type=Low
 air.velocity=-2,-10
 guard.cornerpush.veloff = 0
 guard.velocity= -10.52
-getpower= ifelse(p2movetype=H,72,144)*(!var(20) && prevstateno!=750), 36*(!var(20) && prevstateno!=750)
+getpower = 30,15
 givepower=36,36
 envshake.time=16
 envshake.freq=120
@@ -412,7 +412,7 @@ movetype=A
 anim=1200
 ctrl=0
 velset=0,0
-poweradd=72*!var(20)
+poweradd=0*!var(20)
 juggle=8
 sprpriority=1
 facep2=1
@@ -525,7 +525,7 @@ air.cornerpush.veloff = 0
 ground.cornerpush.veloff = 0
 guard.velocity= -10.52
 guard.cornerpush.veloff = 0;-12.74
-getpower= ifelse(p2movetype=H,72,144)*!var(20), 36*!var(20)
+getpower = 15,7
 givepower=36,36
 envshake.time=16
 envshake.freq=120
@@ -565,7 +565,7 @@ air.cornerpush.veloff = 0
 ground.cornerpush.veloff = 0
 guard.velocity= -10.52
 guard.cornerpush.veloff = 0;-12.74
-getpower= ifelse(p2movetype=H,72,144)*!var(20), 36*!var(20)
+getpower = 15,7
 givepower=36,36
 envshake.time=16
 envshake.freq=120
@@ -606,7 +606,7 @@ air.cornerpush.veloff = 0
 ground.cornerpush.veloff = 0
 guard.velocity= -10.52
 guard.cornerpush.veloff = 0;-12.74
-getpower= ifelse(p2movetype=H,72,144)*!var(20), 36*!var(20)
+getpower = 15,7
 givepower=36,36
 envshake.time=16
 envshake.freq=120
@@ -646,7 +646,7 @@ air.cornerpush.veloff = 0
 ground.cornerpush.veloff = 0
 guard.velocity= -10.52
 guard.cornerpush.veloff = 0;-12.74
-getpower= ifelse(p2movetype=H,72,144)*!var(20), 36*!var(20)
+getpower = 15,7
 givepower=36,36
 envshake.time=16
 envshake.freq=120
@@ -673,7 +673,7 @@ physics=S
 movetype=A
 ctrl=0
 velset=0,0
-poweradd=72*!var(20)
+poweradd=0*!var(20)
 juggle=8
 sprpriority=1
 facep2=1
@@ -758,7 +758,7 @@ air.type=Low
 air.hittime=18
 air.velocity= ifelse(var(20), -2.5, -5), -7
 air.cornerpush.veloff = 0
-getpower= ifelse(p2movetype=H,72,216)*!var(20), 36*!var(20)
+getpower = 60,30
 givepower=36,36
 yaccel=.5
 fall.recover=0
@@ -826,7 +826,7 @@ movetype=A
 anim=1250
 ctrl=0
 velset = (Vel x) + ifelse(Vel x >= 0, 1, -1), (Vel y) -1
-poweradd=72*!var(20)
+poweradd=0*!var(20)
 sprpriority=1
 juggle=8
 
@@ -893,7 +893,7 @@ air.cornerpush.veloff = 0
 ground.cornerpush.veloff = 0
 guard.velocity= -10.52
 guard.cornerpush.veloff = 0;-12.74
-getpower= ifelse(p2movetype=H,72,144)*!var(20), 36*!var(20)
+getpower = 30,15
 givepower=36,36
 envshake.time=16
 envshake.freq=120
@@ -934,7 +934,7 @@ air.cornerpush.veloff = 0
 ground.cornerpush.veloff = 0
 guard.velocity= -10.52
 guard.cornerpush.veloff = 0;-12.74
-getpower= ifelse(p2movetype=H,72,144)*!var(20), 36*!var(20)
+getpower = 30,15
 givepower=36,36
 envshake.time=16
 envshake.freq=120
@@ -960,7 +960,7 @@ physics=N
 movetype=A
 anim=1270
 ctrl=0
-poweradd=72*!var(20)
+poweradd=0*!var(20)
 sprpriority=1
 juggle=8
 
@@ -1027,7 +1027,7 @@ air.cornerpush.veloff = 0
 ground.cornerpush.veloff = 0
 guard.velocity= -10.52
 guard.cornerpush.veloff = 0;-12.74
-getpower= ifelse(p2movetype=H,72,144)*!var(20), 36*!var(20)
+getpower = 30,15
 givepower=36,36
 envshake.time=16
 envshake.freq=120
@@ -1067,7 +1067,7 @@ air.cornerpush.veloff = 0
 ground.cornerpush.veloff = 0
 guard.velocity= -10.52
 guard.cornerpush.veloff = 0;-12.74
-getpower= ifelse(p2movetype=H,72,144)*!var(20), 36*!var(20)
+getpower = 30,15
 givepower=36,36
 envshake.time=16
 envshake.freq=120

@@ -191,7 +191,7 @@ animtype = Hard
 ground.type = Low
 priority = 5,Hit
 damage = ifelse(floor(70*fvar(0))>1,floor(70*fvar(0)),1),7
-getpower = 50,30
+getpower = 60,30
 givepower = 70,10
 pausetime = 14+(enemynear(var(2)),movetype=A),13+(enemynear(var(2)),movetype=A)
 guard.pausetime = 14,13
@@ -461,7 +461,7 @@ guardflag = M
 animtype = Hard
 ground.type = Low
 priority = 5,Hit
-getpower = 30,20
+getpower = 10,5
 givepower = 0,0
 pausetime = 4,3
 hitsound = s4,8
@@ -870,7 +870,7 @@ persistent = 0
 [state a]
 type = PowerAdd
 trigger1 = AnimElemTime(6) = 0
-value = 30
+value = 0
 persistent = 0
 
 [state a]
@@ -1091,7 +1091,7 @@ animtype = Light
 ground.type = Low
 priority = 5,Hit
 damage = ifelse(floor(1*fvar(0))>1,floor(1*fvar(0)),1),0
-getpower = 0,10
+getpower = 20,10
 givepower = 0,0
 pausetime = 4,3
 hitsound = s4,3
@@ -1421,7 +1421,7 @@ animtype = Hard ;*
 ground.type = High ;*
 priority = 5,Hit
 damage = ifelse(floor(20*fvar(0))>1,floor(20*fvar(0)),1),0
-getpower = 20*(AnimElemTime(7)<0)
+getpower = 20,10
 givepower = 10*(AnimElemTime(11)<0)
 pausetime = 4,3 ;*
 hitsound = s4,3
@@ -1467,7 +1467,7 @@ animtype = Hard ;*
 ground.type = High ;*
 priority = 5,Hit
 damage = ifelse(floor(50*fvar(0))>1,floor(50*fvar(0)),1),0
-getpower = 30
+getpower = 20,10
 givepower = 20
 pausetime = 13+(enemynear(var(2)),movetype=A),13+(enemynear(var(2)),movetype=A) ;*
 guard.pausetime = 13,13
@@ -1971,7 +1971,7 @@ animtype = Hard
 ground.type = Low
 priority = 5,Hit
 damage = ifelse(floor(80*fvar(0))>1,floor(80*fvar(0)),1),8
-getpower = 40,30
+getpower = 10,5
 givepower = 80,20
 pausetime = 13+(enemynear(var(2)),movetype=A),13+(enemynear(var(2)),movetype=A) ;*
 guard.pausetime = 13,13
@@ -2009,7 +2009,7 @@ animtype = Hard
 ground.type = Low
 priority = 5,Hit
 damage = ifelse(floor(80*fvar(0))>1,floor(80*fvar(0)),1),8
-getpower = 40,30
+getpower = 10,5
 givepower = 80,20
 pausetime = 13+(enemynear(var(2)),movetype=A),13+(enemynear(var(2)),movetype=A) ;*
 guard.pausetime = 13,13
@@ -3993,6 +3993,7 @@ persistent = 0
 
 [State 2500]
 type = HitDef
+getpower = 20,10
 triggerall = ifelse(enemynear,ID=enemy,ID,var(20)%10<3,var(20)/10%10<3)||enemynear,statetype=L&&ifelse(enemynear,ID=enemy,ID,var(20)/10%10<3,var(20)%10<3)
 triggerall = !movecontact && !movereversed
 trigger1 = AnimElemTime(8) >= 0
@@ -4160,7 +4161,7 @@ animtype = Hard
 ground.type = High
 priority = 7,Hit
 damage = floor(30*ifelse(fvar(0)>.25,fvar(0),.25)),0
-getpower = 0
+getpower = 20,10
 givepower = ifelse(time<113,20,10)
 pausetime = 4,3
 hitsound = s4,3
@@ -4377,7 +4378,7 @@ animtype = Hard
 ground.type = High
 priority = 7,Hit
 damage = floor(100*ifelse(fvar(0)>.25,fvar(0),.25)),0
-getpower = 0
+getpower = 20,10
 givepower = 20
 pausetime = 4,3
 hitsound = s4,2

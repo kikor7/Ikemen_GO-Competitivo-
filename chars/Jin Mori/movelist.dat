@@ -1,0 +1,10 @@
+<#f0f000>:Special Moves:</>
+Dodge			^A_+^B
+
+<#f0f000>:Hyper Moves:</>
+Blue Dragon Tempest <#f00000>(2000)</>			_QCB^C
+Twin-Dragon Kick <#f00000>(2000)</>			_QCF^C
+Triple Kick <#f00000>(1500)</>			_QCB^B
+Azure Dragon Kick <#f00000>(1500)</>			_QCF^B
+Black Tortoise <#f00000>(1000)</>			_QCB^A
+Moonlight Sword Style no Sword <#f00000>(1000)</>			_QCF^A

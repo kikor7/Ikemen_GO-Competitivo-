@@ -14,6 +14,7 @@ pal.defaults=1,2,3
 ; Files for the player
 
 [Files]
+movelist = movelist.dat
 cmd=frz.cmd
 cns=frz.cns
 st=frz.cns

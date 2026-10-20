@@ -1605,14 +1605,14 @@ persistent=0
 [State ]
 type=powerAdd
 trigger1=movehit
-value=130
+value=0
 ignorehitpause=1
 persistent=0
 
 [State ]
 type=powerAdd
 trigger1=MoveGuarded
-value=130
+value=0
 ignorehitpause=1
 persistent=0
 
@@ -2207,14 +2207,14 @@ persistent=0
 [State ]
 type=powerAdd
 trigger1=movehit
-value=130
+value=0
 ignorehitpause=1
 persistent=0
 
 [State ]
 type=powerAdd
 trigger1=MoveGuarded
-value=130
+value=0
 ignorehitpause=1
 persistent=0
 
@@ -5276,14 +5276,14 @@ persistent=0
 [State ]
 type=powerAdd
 trigger1=movehit
-value=130
+value=0
 ignorehitpause=1
 persistent=0
 
 [State ]
 type=powerAdd
 trigger1=MoveGuarded
-value=130
+value=0
 ignorehitpause=1
 persistent=0
 
@@ -6103,13 +6103,13 @@ ignorehitpause=1
 [State ]
 type=powerAdd
 trigger1=var(7)=1&&movehit
-value=130
+value=0
 ignorehitpause=1
 
 [State ]
 type=powerAdd
 trigger1=var(7)=1&&MoveGuarded
-value=130
+value=0
 ignorehitpause=1
 
 [State ]
@@ -6626,13 +6626,13 @@ ignorehitpause=1
 [State ]
 type=powerAdd
 trigger1=var(41)=1&&movehit
-value=45
+value=0
 ignorehitpause=1
 
 [State ]
 type=powerAdd
 trigger1=var(41)=1&&MoveGuarded
-value=45
+value=0
 ignorehitpause=1
 
 [State ]
@@ -10389,13 +10389,13 @@ ignorehitpause=1
 [State ]
 type=powerAdd
 trigger1=var(7)=1&&movehit
-value=130
+value=0
 ignorehitpause=1
 
 [State ]
 type=powerAdd
 trigger1=var(7)=1&&MoveGuarded
-value=130
+value=0
 ignorehitpause=1
 
 [State ]
@@ -12460,14 +12460,14 @@ persistent=0
 [State ]
 type=powerAdd
 trigger1=movehit
-value=130
+value=0
 ignorehitpause=1
 persistent=0
 
 [State ]
 type=powerAdd
 trigger1=MoveGuarded
-value=130
+value=0
 ignorehitpause=1
 persistent=0
 
@@ -13311,14 +13311,14 @@ persistent=0
 [State ]
 type=powerAdd
 trigger1=movehit
-value=130
+value=0
 ignorehitpause=1
 persistent=0
 
 [State ]
 type=powerAdd
 trigger1=MoveGuarded
-value=130
+value=0
 ignorehitpause=1
 persistent=0
 
@@ -14822,13 +14822,13 @@ ignorehitpause=1
 [State ]
 type=powerAdd
 trigger1=var(41)=1&&movehit
-value=50
+value=0
 ignorehitpause=1
 
 [State ]
 type=powerAdd
 trigger1=var(41)=1&&MoveGuarded
-value=50
+value=0
 ignorehitpause=1
 
 [State ]
@@ -18642,14 +18642,14 @@ persistent=0
 [State ]
 type=powerAdd
 trigger1=movehit
-value=130
+value=0
 ignorehitpause=1
 persistent=0
 
 [State ]
 type=powerAdd
 trigger1=MoveGuarded
-value=130
+value=0
 ignorehitpause=1
 persistent=0
 
@@ -19060,14 +19060,14 @@ persistent=0
 [State ]
 type=powerAdd
 trigger1=movehit
-value=130
+value=0
 ignorehitpause=1
 persistent=0
 
 [State ]
 type=powerAdd
 trigger1=MoveGuarded
-value=130
+value=0
 ignorehitpause=1
 persistent=0
 
@@ -19437,14 +19437,14 @@ persistent=0
 [State ]
 type=powerAdd
 trigger1=movehit
-value=130
+value=0
 ignorehitpause=1
 persistent=0
 
 [State ]
 type=powerAdd
 trigger1=MoveGuarded
-value=130
+value=0
 ignorehitpause=1
 persistent=0
 
@@ -22022,7 +22022,7 @@ value=s100,6
 [State ]
 type=powerAdd
 trigger1=animelem=10
-value=333
+value=0
 
 [State ]
 type=lifeAdd

@@ -546,7 +546,7 @@ juggle  = 1				;Number of air juggle points move takes
 velset = 3,0			;Set velocity (x,y) (Def: no change)
 ctrl = 0				;Set ctrl (Def: no change)
 anim = 200				;Change animation (Def: no change)
-poweradd = 20			;Power to add (Def: 0)
+poweradd = 0			;Power to add (Def: 0)
 sprpriority = 2			;Set layering priority to 2 (in front)
 
 [State 200, 1]
@@ -571,6 +571,7 @@ type = HitDef
 trigger1 = AnimElem = 3
 attr = S, NA			;Attribute: Standing, Normal Attack
 damage = 20, 0			;Damage that move inflicts, guard damage
+getpower = 30,15
 animtype = Light			;Animation type: Light, Medium, Heavy, Back (def: Light)
 guardflag = MA			;Flags on how move is to be guarded against
 hitflag = MAF			;Flags of conditions that move can hit
@@ -606,7 +607,7 @@ type    = S
 movetype= A
 physics = S
 juggle  = 4
-poweradd= 65
+poweradd= 0
 ctrl = 0
 velset = 0,0
 anim = 210
@@ -633,6 +634,7 @@ type = HitDef
 trigger1 = AnimElem = 3
 attr = S, NA			;Attribute: Standing, Normal Attack
 damage = 40, 0			;Damage that move inflicts, guard damage
+getpower = 30,15
 animtype = Light			;Animation type: Light, Medium, Heavy, Back (def: Light)
 guardflag = MA			;Flags on how move is to be guarded against
 hitflag = MAF			;Flags of conditions that move can hit
@@ -674,7 +676,7 @@ type    = S
 movetype= A
 physics = S
 juggle  = 4
-poweradd= 65
+poweradd= 0
 ctrl = 0
 velset = 0,0
 anim = 220
@@ -701,6 +703,7 @@ type = HitDef
 trigger1 = AnimElem = 3
 attr = S, NA			;Attribute: Standing, Normal Attack
 damage = 60, 0			;Damage that move inflicts, guard damage
+getpower = 30,15
 animtype = Heavy			;Animation type: Light, Medium, Heavy, Back (def: Light)
 guardflag = MA			;Flags on how move is to be guarded against
 hitflag = MAF			;Flags of conditions that move can hit
@@ -746,7 +749,7 @@ type    = S
 movetype= A
 physics = S
 juggle  = 4
-poweradd= 22
+poweradd= 0
 ctrl = 0
 velset = 8,0
 anim = 230
@@ -767,6 +770,7 @@ type = HitDef
 trigger1 = animelem = 2
 attr = S, NA			;Attribute: Standing, Normal Attack
 damage = 33, 0			;Damage that move inflicts, guard damage
+getpower = 30,15
 animtype = Light			;Animation type: Light, Medium, Heavy, Back (def: Light)
 guardflag = MA			;Flags on how move is to be guarded against
 hitflag = MAF			;Flags of conditions that move can hit
@@ -802,7 +806,7 @@ type    = S
 movetype= A
 physics = S
 juggle  = 5
-poweradd= 65
+poweradd= 0
 ctrl = 0
 velset = 4,0
 anim = 240
@@ -823,6 +827,7 @@ type = HitDef
 trigger1 = animelem = 3
 attr = S, NA			;Attribute: Standing, Normal Attack
 damage = 52, 0			;Damage that move inflicts, guard damage
+getpower = 30,15
 animtype = Medium			;Animation type: Light, Medium, Heavy, Back (def: Light)
 guardflag = MA			;Flags on how move is to be guarded against
 hitflag = MAF			;Flags of conditions that move can hit
@@ -858,7 +863,7 @@ type    = S
 movetype= A
 physics = S
 juggle  = 5
-poweradd= 65
+poweradd= 0
 ctrl = 0
 velset = 4,0
 anim = 250
@@ -879,6 +884,7 @@ type = HitDef
 trigger1 = AnimElem = 3
 attr = S, NA			;Attribute: Standing, Normal Attack
 damage = 80, 0			;Damage that move inflicts, guard damage
+getpower = 30,15
 animtype = Heavy			;Animation type: Light, Medium, Heavy, Back (def: Light)
 guardflag = MA			;Flags on how move is to be guarded against
 hitflag = MAF			;Flags of conditions that move can hit
@@ -928,7 +934,7 @@ type    = C
 movetype= A
 physics = C
 juggle  = 5
-poweradd= 15
+poweradd= 0
 ctrl = 0
 anim = 400
 
@@ -949,6 +955,7 @@ trigger1 = AnimElem = 2
 attr = C, NA
 animtype  = Medium
 damage    = 20
+getpower = 30,15
 guardflag = MA
 pausetime = 8,8
 sparkno = 0
@@ -975,7 +982,7 @@ type    = C
 movetype= A
 physics = C
 juggle  = 6
-poweradd= 40
+poweradd= 0
 ctrl = 0
 anim = 410
 
@@ -990,6 +997,7 @@ trigger1 = AnimElem = 3
 attr = C, NA
 animtype  = Medium
 damage    = 40
+getpower = 30,15
 guardflag = MA
 pausetime = 10,10
 sparkno = 0
@@ -1015,7 +1023,7 @@ type    = C
 movetype= A
 physics = C
 juggle  = 6
-poweradd= 50
+poweradd= 0
 ctrl = 0
 anim = 420
 
@@ -1046,6 +1054,7 @@ trigger1 = animelem = 4
 attr = C, NA
 animtype  = Heavy
 damage    = 40,0
+getpower = 30,15
 guardflag = MA
 pausetime = 6,6
 sparkno = 0
@@ -1081,7 +1090,7 @@ type    = C
 movetype= A
 physics = C
 juggle  = 5
-poweradd= 22
+poweradd= 0
 ctrl = 0
 anim = 430
 
@@ -1101,6 +1110,7 @@ type = HitDef
 trigger1 = AnimElem = 2
 attr = C, NA			;Attribute: Standing, Normal Attack
 damage = 10, 0			;Damage that move inflicts, guard damage
+getpower = 30,15
 animtype = Medium			;Animation type: Light, Medium, Heavy, Back (def: Light)
 guardflag = MA			;Flags on how move is to be guarded against
 hitflag = MAF			;Flags of conditions that move can hit
@@ -1136,7 +1146,7 @@ type    = C
 movetype= A
 physics = C
 juggle  = 5
-poweradd= 22
+poweradd= 0
 ctrl = 0
 anim = 440
 
@@ -1150,6 +1160,7 @@ type = HitDef
 trigger1 = AnimElem = 2
 attr = C, NA			;Attribute: Standing, Normal Attack
 damage = 20, 0			;Damage that move inflicts, guard damage
+getpower = 30,15
 animtype = Medium			;Animation type: Light, Medium, Heavy, Back (def: Light)
 guardflag = MA			;Flags on how move is to be guarded against
 hitflag = MAF			;Flags of conditions that move can hit
@@ -1186,7 +1197,7 @@ type    = C
 movetype= A
 physics = C
 juggle  = 9
-poweradd= 50
+poweradd= 0
 ctrl = 0
 anim = 450
 
@@ -1208,6 +1219,7 @@ hitflag = MAFD
 attr = C, NA
 animtype  = Heavy
 damage    = 60,0
+getpower = 30,15
 guardflag = MA
 pausetime = 12,12
 sparkno = 0
@@ -1234,7 +1246,7 @@ type    = A
 movetype= A
 physics = A
 juggle  = 3
-poweradd= 11
+poweradd= 0
 ctrl = 0
 anim = 600
 
@@ -1248,6 +1260,7 @@ type = HitDef
 trigger1 = AnimElem = 3
 attr = A, NA			;Attribute: Standing, Normal Attack
 damage = 20, 0			;Damage that move inflicts, guard damage
+getpower = 30,15
 animtype = Light			;Animation type: Light, Medium, Heavy, Back (def: Light)
 guardflag = MA			;Flags on how move is to be guarded against
 hitflag = MAF			;Flags of conditions that move can hit
@@ -1283,7 +1296,7 @@ type    = A
 movetype= A
 physics = A
 juggle  = 4
-poweradd= 65
+poweradd= 0
 ctrl = 0
 anim = 610
 
@@ -1305,6 +1318,7 @@ type = HitDef
 trigger1 = AnimElem = 3
 attr = A, NA			;Attribute: Standing, Normal Attack
 damage = 40, 0			;Damage that move inflicts, guard damage
+getpower = 30,15
 animtype = Light			;Animation type: Light, Medium, Heavy, Back (def: Light)
 guardflag = MA			;Flags on how move is to be guarded against
 hitflag = MAF			;Flags of conditions that move can hit
@@ -1341,7 +1355,7 @@ type    = A
 movetype= A
 physics = A
 juggle  = 4
-poweradd= 70
+poweradd= 0
 ctrl = 0
 anim = 620
 
@@ -1358,6 +1372,7 @@ trigger1 = AnimElem = 3
 trigger2 = AnimElem = 4
 attr = A, NA			;Attribute: Standing, Normal Attack
 damage = 10, 0			;Damage that move inflicts, guard damage
+getpower = 15,7
 animtype = Light			;Animation type: Light, Medium, Heavy, Back (def: Light)
 guardflag = MA			;Flags on how move is to be guarded against
 hitflag = MAF			;Flags of conditions that move can hit
@@ -1385,6 +1400,7 @@ type = HitDef
 trigger1 = AnimElem = 6
 attr = A, NA			;Attribute: Standing, Normal Attack
 damage = 25, 0			;Damage that move inflicts, guard damage
+getpower = 15,7
 animtype = Light			;Animation type: Light, Medium, Heavy, Back (def: Light)
 guardflag = MA			;Flags on how move is to be guarded against
 hitflag = MAF			;Flags of conditions that move can hit
@@ -1419,7 +1435,7 @@ type    = A
 movetype= A
 physics = A
 juggle  = 3
-poweradd= 20
+poweradd= 0
 ctrl = 0
 anim = 630
 
@@ -1433,6 +1449,7 @@ type = HitDef
 trigger1 = animelem = 2
 attr = A, NA			;Attribute: Standing, Normal Attack
 damage = 20, 0			;Damage that move inflicts, guard damage
+getpower = 30,15
 animtype = Light			;Animation type: Light, Medium, Heavy, Back (def: Light)
 guardflag = MA			;Flags on how move is to be guarded against
 hitflag = MAF			;Flags of conditions that move can hit
@@ -1467,7 +1484,7 @@ type    = A
 movetype= A
 physics = A
 juggle  = 4
-poweradd= 65
+poweradd= 0
 ctrl = 0
 anim = 640
 
@@ -1489,6 +1506,7 @@ type = HitDef
 trigger1 = animelem = 2
 attr = A, NA			;Attribute: Standing, Normal Attack
 damage = 40, 0			;Damage that move inflicts, guard damage
+getpower = 30,15
 animtype = Medium			;Animation type: Light, Medium, Heavy, Back (def: Light)
 guardflag = MA			;Flags on how move is to be guarded against
 hitflag = MAF			;Flags of conditions that move can hit
@@ -1522,7 +1540,7 @@ type = U
 movetype = A
 physics = N
 ctrl = 0
-poweradd = 55
+poweradd = 0
 juggle = 10
 sprpriority = 0
 
@@ -1587,6 +1605,7 @@ hitflag = MAFD
 guardflag = HA
 pausetime = 12, 12
 damage = 60
+getpower = 30,15
 priority = 5, hit
 animtype = back
 sparkno = 2
@@ -1865,6 +1884,7 @@ ctrl = 1
 ;Sword Beam (Weak)
 [Statedef 1000]
 type    = S
+poweradd = 20
 movetype= A
 physics = S
 velset = 0,0
@@ -1882,7 +1902,7 @@ trigger1 = animelem = 3
 projanim = 1999
 projhits = 1
 projmisstime = 2
-getpower = 70
+getpower = 30,15
 projid = 1000
 offset = 0,0
 postype = p1
@@ -1923,6 +1943,7 @@ ctrl = 1
 ;Sword Beam (Medium)
 [Statedef 1001]
 type    = S
+poweradd = 20
 movetype= A
 physics = S
 velset = 0,0
@@ -1940,7 +1961,7 @@ trigger1 = animelem = 3
 projanim = 1999
 projhits = 1
 projmisstime = 2
-getpower = 70
+getpower = 30,15
 projid = 1000
 offset = 0,0
 postype = p1
@@ -1981,6 +2002,7 @@ ctrl = 1
 ;Sword Beam (Heavy)
 [Statedef 1002]
 type    = S
+poweradd = 20
 movetype= A
 physics = S
 velset = 0,0
@@ -1998,7 +2020,7 @@ trigger1 = animelem = 3
 projanim = 2998
 projhits = 1
 projmisstime = 2
-getpower = 70
+getpower = 30,15
 projid = 1000
 offset = 0,0
 postype = p1
@@ -2306,7 +2328,7 @@ type    = S
 movetype= A
 physics = S
 juggle  = 4
-poweradd= 65
+poweradd= 0
 ctrl = 0
 velset = 0,0
 anim = 1500
@@ -2332,6 +2354,7 @@ type = HitDef
 trigger1 = Animelem = 3
 attr = S, SA			;Attribute: Standing, Normal Attack
 damage = 100, 2			;Damage that move inflicts, guard damage
+getpower = 60,30
 animtype = Light			;Animation type: Light, Medium, Heavy, Back (def: Light)
 guardflag = M			;Flags on how move is to be guarded against
 hitflag = MAF			;Flags of conditions that move can hit
@@ -2367,7 +2390,7 @@ type    = S
 movetype= A
 physics = S
 juggle  = 4
-poweradd= 60
+poweradd= 0
 ctrl = 0
 velset = 5,0
 anim = 1500
@@ -2393,6 +2416,7 @@ type = HitDef
 trigger1 = Animelem = 3
 attr = S, SA			;Attribute: Standing, Normal Attack
 damage = 100, 2			;Damage that move inflicts, guard damage
+getpower = 60,30
 animtype = Light			;Animation type: Light, Medium, Heavy, Back (def: Light)
 guardflag = M			;Flags on how move is to be guarded against
 hitflag = MAF			;Flags of conditions that move can hit
@@ -2429,7 +2453,7 @@ type    = S
 movetype= A
 physics = S
 juggle  = 4
-poweradd= 65
+poweradd= 0
 ctrl = 0
 velset = 10,0
 anim = 1500
@@ -2450,6 +2474,7 @@ type = HitDef
 trigger1 = Animelem = 3
 attr = S, SA			;Attribute: Standing, Normal Attack
 damage = 100, 2			;Damage that move inflicts, guard damage
+getpower = 60,30
 animtype = Light			;Animation type: Light, Medium, Heavy, Back (def: Light)
 guardflag = M			;Flags on how move is to be guarded against
 hitflag = MAF			;Flags of conditions that move can hit
@@ -2485,7 +2510,7 @@ type    = A
 movetype= A
 physics = A
 juggle  = 4
-poweradd= 65
+poweradd= 0
 ctrl = 0
 velset = 0,-3
 anim = 1550
@@ -2506,6 +2531,7 @@ type = HitDef
 trigger1 = Animelem = 3
 attr = A, SA			;Attribute: Standing, Normal Attack
 damage = 80, 0			;Damage that move inflicts, guard damage
+getpower = 60,30
 animtype = Light			;Animation type: Light, Medium, Heavy, Back (def: Light)
 guardflag = MA			;Flags on how move is to be guarded against
 hitflag = MAF			;Flags of conditions that move can hit
@@ -2540,7 +2566,7 @@ type    = A
 movetype= A
 physics = A
 juggle  = 4
-poweradd= 65
+poweradd= 0
 ctrl = 0
 velset = 0,-5
 anim = 1550
@@ -2561,6 +2587,7 @@ type = HitDef
 trigger1 = Animelem = 3
 attr = A, SA			;Attribute: Standing, Normal Attack
 damage = 80, 0			;Damage that move inflicts, guard damage
+getpower = 60,30
 animtype = Light			;Animation type: Light, Medium, Heavy, Back (def: Light)
 guardflag = MA			;Flags on how move is to be guarded against
 hitflag = MAF			;Flags of conditions that move can hit
@@ -2596,7 +2623,7 @@ type    = A
 movetype= A
 physics = A
 juggle  = 4
-poweradd= 65
+poweradd= 0
 ctrl = 0
 velset = 0,-7
 anim = 1550
@@ -2617,6 +2644,7 @@ type = HitDef
 trigger1 = Animelem = 3
 attr = A, SA			;Attribute: Standing, Normal Attack
 damage = 80, 0			;Damage that move inflicts, guard damage
+getpower = 60,30
 animtype = Light			;Animation type: Light, Medium, Heavy, Back (def: Light)
 guardflag = MA			;Flags on how move is to be guarded against
 hitflag = MAF			;Flags of conditions that move can hit

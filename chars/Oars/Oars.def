@@ -4,7 +4,7 @@
 ; Player information
 [Info]
 name="Oars"
-displayname="a"
+displayname="Oars"
 versiondate=04,14,2002
 mugenversion=1.0
 author="Team One Piece OS"
@@ -12,6 +12,7 @@ pal.defaults=1
 
 ; Files for the player
 [Files]
+movelist = movelist.dat
 cmd=Oars.cmd
 sprite=Oars.sff
 anim=Oars.air

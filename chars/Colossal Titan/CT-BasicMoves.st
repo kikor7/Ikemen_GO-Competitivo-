@@ -68,7 +68,7 @@ juggle = 1
 ctrl = 0
 anim = 311
 velset = 0,0
-poweradd = 120
+poweradd = 0
 sprpriority = 4
 
 [State 311, 1]
@@ -318,7 +318,7 @@ juggle = 1
 ctrl = 0
 anim = 321
 velset = 0,0
-poweradd = 120
+poweradd = 0
 sprpriority = 4
 
 [State 321, 1]
@@ -635,7 +635,7 @@ physics = N
 ctrl = 0
 anim = 332
 velset = 0,0
-poweradd = 110
+poweradd = 0
 sprpriority = 2
 
 [State 332, 1]
@@ -817,7 +817,7 @@ physics = N
 ctrl = 0
 anim = 333
 velset = 0,0
-poweradd = 110
+poweradd = 0
 sprpriority = 2
 
 [State 333, 1]

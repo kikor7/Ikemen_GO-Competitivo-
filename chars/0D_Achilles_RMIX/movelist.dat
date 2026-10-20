@@ -1,0 +1,12 @@
+<#f0f000>:Special Moves:</>
+Charge6			_D_B^A
+Charge6			_D_B^Y
+Charge5			_D_B^X
+Charge4			_D_F^B
+Charge3			_D_F^A
+Charge2			_D_F^Y
+Charge1			_D_F^X
+
+<#f0f000>:Hyper Moves:</>
+Slaughter <#f00000>(1000)</>			_D_F_D_F^A
+Fury <#f00000>(1000)</>			_D_F_D_F^X

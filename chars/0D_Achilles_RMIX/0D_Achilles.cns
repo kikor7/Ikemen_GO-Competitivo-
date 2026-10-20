@@ -1263,7 +1263,7 @@ channel = 0
 [State 195, ƒpƒ[‚ª—­‚Ü‚é]
 type = PowerAdd
 trigger1 = time = 60
-value = 80
+value = 0
 
 [State 52, 3]
 type = CtrlSet

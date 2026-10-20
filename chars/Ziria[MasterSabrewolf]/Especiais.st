@@ -4,6 +4,7 @@
 ;shuriken
 [StateDef 1000]
 type    = S                      ;State-type: S-stand, C-crouch, A-air, L-liedown
+poweradd = 20
 movetype= A                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S                      ;Physics: S-stand, C-crouch, A-air
 velset = 0,0                     ;Set velocity (x,y) (Def: no change)
@@ -39,6 +40,7 @@ ctrl = 1
 ;shuriken
 [StateDef 1001]
 type    = S                      ;State-type: S-stand, C-crouch, A-air, L-liedown
+poweradd = 20
 movetype= A                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S                      ;Physics: S-stand, C-crouch, A-air
 velset = 0,0                     ;Set velocity (x,y) (Def: no change)
@@ -86,6 +88,7 @@ ctrl = 1
 ;shuriken
 [StateDef 1002]
 type    = S                      ;State-type: S-stand, C-crouch, A-air, L-liedown
+poweradd = 20
 movetype= A                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S                      ;Physics: S-stand, C-crouch, A-air
 velset = 0,0                     ;Set velocity (x,y) (Def: no change)
@@ -171,6 +174,7 @@ type = HitDef
 trigger1 = time > 1 
 attr = A, HP
 damage    = 20, 0
+getpower = 30,15
 animtype = Medium
 guardflag = MA
 pausetime = 0,9
@@ -269,6 +273,7 @@ type = HitDef
 trigger1 = time > 1 
 attr = A, HP
 damage    = 20, 0
+getpower = 15,7
 animtype = Medium
 guardflag = MA
 pausetime = 0,9
@@ -387,6 +392,7 @@ type = HitDef
 trigger1 = time > 1 
 attr = A, HP
 damage    = 20, 0
+getpower = 30,15
 animtype = Medium
 guardflag = MA
 pausetime = 0,9
@@ -527,6 +533,7 @@ type = HitDef
 trigger1 = time > 1 
 attr = A, HP
 damage    = 20, 0
+getpower = 15,7
 animtype = Medium
 guardflag = MA
 pausetime = 0,9
@@ -606,6 +613,7 @@ trigger1 = time = 20
 ;shuriken air
 [Statedef 2000]
 type    = A
+poweradd = 20
 movetype= A
 physics = A
 ctrl = 0
@@ -640,6 +648,7 @@ ctrl = 1
 ;shuriken air
 [Statedef 2001]
 type    = A
+poweradd = 20
 movetype= A
 physics = A
 ctrl = 0
@@ -685,6 +694,7 @@ ctrl = 1
 ;shuriken air
 [Statedef 2002]
 type    = A
+poweradd = 20
 movetype= A
 physics = A
 ctrl = 0
@@ -769,6 +779,7 @@ type = HitDef
 trigger1 = time > 1 
 attr = A, HP
 damage    = 20, 0
+getpower = 30,15
 animtype = Medium
 guardflag = MA
 pausetime = 0,9
@@ -849,6 +860,7 @@ type = HitDef
 trigger1 = time > 1 
 attr = A, HP
 damage    = 20, 0
+getpower = 15,7
 animtype = Medium
 guardflag = MA
 pausetime = 0,9
@@ -940,6 +952,7 @@ type = HitDef
 trigger1 = time > 1 
 attr = A, HP
 damage    = 20, 0
+getpower = 30,15
 animtype = Medium
 guardflag = MA
 pausetime = 0,9
@@ -1042,6 +1055,7 @@ type = HitDef
 trigger1 = time > 1 
 attr = A, HP
 damage    = 20, 0
+getpower = 15,7
 animtype = Medium
 guardflag = MA
 pausetime = 0,9
@@ -1153,6 +1167,7 @@ trigger1 = time = 20
 ;bomb
 [StateDef 1050]
 type    = S                      ;State-type: S-stand, C-crouch, A-air, L-liedown
+poweradd = 20
 movetype= A                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S                      ;Physics: S-stand, C-crouch, A-air
 velset = 0,0                     ;Set velocity (x,y) (Def: no change)
@@ -1188,6 +1203,7 @@ ctrl = 1
 ;bomb air
 [Statedef 1060]
 type    = A
+poweradd = 20
 movetype= A
 physics = A
 ctrl = 0
@@ -1251,6 +1267,7 @@ type = HitDef
 trigger1 = AnimElem = 1 
 attr = A, HP
 damage    = 0, 0
+getpower = 15,7
 animtype = Medium
 guardflag = MA
 pausetime = 0,9
@@ -1314,6 +1331,7 @@ type = HitDef
 trigger1 = AnimElem = 1 
 attr = A, HP
 damage    = 0, 0
+getpower = 15,7
 animtype = Medium
 guardflag = MA
 pausetime = 0,9
@@ -1384,6 +1402,7 @@ type = HitDef
 trigger1 = AnimElem >= 1 
 attr = A, HP
 damage    = 100, 0
+getpower = 15,7
 animtype  = Medium
 guardflag = MA
 pausetime = 0,0
@@ -1454,6 +1473,7 @@ type = HitDef
 trigger1 = AnimElem >= 1 
 attr = A, HP
 damage    = 100, 0
+getpower = 15,7
 animtype  = Medium
 guardflag = MA
 pausetime = 0,0

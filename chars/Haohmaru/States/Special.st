@@ -15,7 +15,7 @@ anim = 1000
 ctrl = 0
 velSet = 0,0
 sprPriority = 1
-powerAdd = 72 * !var(20)
+powerAdd = 20 * !var(20)
 faceP2 = 1
 
 [State 1000, Button Detect]
@@ -238,7 +238,7 @@ anim = 1050
 ctrl = 0
 velSet = 0,0
 sprPriority = 1
-powerAdd = 72 * !var(20)
+powerAdd = 0 * !var(20)
 faceP2 = 1
 
 [State 1050, Button Detect]
@@ -277,7 +277,7 @@ anim = 1100
 ctrl = 0
 velSet = 0,0
 sprPriority = 1
-powerAdd = 72 * !var(20)
+powerAdd = 0 * !var(20)
 faceP2 = 1
 
 [State 1100, Button Detect]
@@ -1085,7 +1085,7 @@ anim = 1200
 ctrl = 0
 velSet = 0,0
 sprPriority = 1
-powerAdd = 72 * !var(20)
+powerAdd = 0 * !var(20)
 faceP2 = 1
 
 [State 1200, Button Detect]
@@ -1218,7 +1218,7 @@ hitFlag = MAF
 guardFlag = H
 priority = 4, Hit
 damage = ceil(ifElse(fvar(11) * (ifElse(var(10) = 2, 97, Ifelse(var(10) = 1, 90, 83)) * (ifElse(var(45), 1.1, 1))) < 7, 7, fvar(11) * (ifElse(var(10) = 2, 97, Ifelse(var(10) = 1, 90, 83)) * (ifElse(var(45), 1.1, 1))))), 7
-getPower = ifElse(!var(13), 72, 36) * !var(20), 12 * !var(20)
+getpower = 60,30
 givePower = 36, 36
 pauseTime = ifElse(var(20), 4, 8), ifElse(var(20), 4, 8)
 guard.pauseTime = ifElse(var(20), 4, 8), ifElse(var(20), 4, 8)
@@ -1530,7 +1530,7 @@ anim = 1300
 ctrl = 0
 velSet = 0,0
 sprPriority = 1
-powerAdd = 72 * !var(20)
+powerAdd = 0 * !var(20)
 faceP2 = 1
 
 [State 1300, Button Detect]
@@ -1583,7 +1583,7 @@ hitFlag = MAFP
 guardFlag = M
 priority = 4, Hit
 damage = ceil(ifElse(fvar(11) * (ifElse(var(10) = 2, 82, Ifelse(var(10) = 1, 76, 70)) * (ifElse(var(45), 1.1, 1))) < 7, 7, fvar(11) * (ifElse(var(10) = 2, 82, Ifelse(var(10) = 1, 76, 70)) * (ifElse(var(45), 1.1, 1))))), 7
-getPower = ifElse(!var(13), 72, 36) * !var(20), 12 * !var(20)
+getpower = 60,30
 givePower = 36, 36
 pauseTime = ifElse(var(20), 4, 8), ifElse(var(20), 4, 8)
 guard.pauseTime = ifElse(var(20), 4, 8), ifElse(var(20), 4, 8)
@@ -1791,7 +1791,7 @@ anim = 1400
 ctrl = 0
 velSet = 0,0
 sprPriority = 1
-powerAdd = 72 * !var(20)
+powerAdd = 0 * !var(20)
 faceP2 = 1
 
 [State 1400, Width]
@@ -1918,7 +1918,7 @@ hitFlag = MAF
 guardFlag = M
 priority = 4, Hit
 damage = ceil(ifElse(fvar(11) * (208 * (ifElse(var(45), 1.1, 1))) < 7, 7, fvar(11) * (208 * (ifElse(var(45), 1.1, 1))))), 7
-getPower = ifElse(!var(13), 72, 36) * !var(20), 12 * !var(20)
+getpower = 60,30
 givePower = 36, 36
 pauseTime = ifElse(var(20), 4, 8), ifElse(var(20), 4, 8)
 guard.pauseTime = ifElse(var(20), 4, 8), ifElse(var(20), 4, 8)
@@ -1977,7 +1977,7 @@ movetype = A
 anim = 1500
 ctrl = 0
 sprpriority = 1
-poweradd = 72 * !var(20)
+poweradd = 20 * !var(20)
 
 [State 1500, Button]
 type = varset
@@ -2194,7 +2194,7 @@ anim = 1600
 ctrl = 0
 velSet = 0,0
 sprPriority = 1
-powerAdd = 72 * !var(20)
+powerAdd = 0 * !var(20)
 faceP2 = 1
 
 [State 1600, Button Detect]
@@ -2259,7 +2259,7 @@ hitFlag = MAF
 guardFlag = M
 priority = 4, Hit
 damage = ceil(ifElse(fvar(11) * (ifElse(var(10) = 2, 59, Ifelse(var(10) = 1, 53, 47)) * (ifElse(var(45), 1.1, 1))) < 7, 7, fvar(11) * (ifElse(var(10) = 2, 59, Ifelse(var(10) = 1, 53, 47)) * (ifElse(var(45), 1.1, 1))))), 7
-getPower = ifElse(!var(13), 72, 36) * !var(20), 12 * !var(20)
+getpower = 60,30
 givePower = 36, 36
 pauseTime = ifElse(var(20), 4, 8), ifElse(var(20), 4, 8)
 guard.pauseTime = ifElse(var(20), 4, 8), ifElse(var(20), 4, 8)
@@ -2314,7 +2314,7 @@ anim = 1700
 ctrl = 0
 velSet = 0,0
 sprPriority = 1
-powerAdd = 72 * !var(20)
+powerAdd = 0 * !var(20)
 faceP2 = 1
 
 [State 1700, Voice]
@@ -2369,7 +2369,7 @@ anim = 1800
 ctrl = 0
 velSet = 0,0
 sprPriority = 1
-powerAdd = 72 * !var(20)
+powerAdd = 20 * !var(20)
 faceP2 = 1
 
 [State 1800, Button Detect]
@@ -2449,7 +2449,7 @@ anim = 1900
 ctrl = 0
 velSet = 0,0
 sprPriority = 1
-powerAdd = 72 * !var(20)
+powerAdd = 0 * !var(20)
 faceP2 = 1
 
 [State 1900, Button Detect]
@@ -2527,7 +2527,7 @@ anim = 1901
 ctrl = 0
 velSet = 0,0
 sprPriority = 1
-powerAdd = 72 * !var(20)
+powerAdd = 0 * !var(20)
 
 [State 1901, Width]
 type = Width

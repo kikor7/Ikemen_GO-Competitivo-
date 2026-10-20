@@ -8,6 +8,7 @@ pal.defaults=1,2,3,4,5,6
 
 
 [files]
+movelist = movelist.dat
 cmd          = o_sol.cmd
 cns          = o_sol.cns
 st           = o_sol.cns

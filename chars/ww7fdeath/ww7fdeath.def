@@ -8,6 +8,7 @@ pal.defaults =2
 
 ; Files for the player
 [Files]
+movelist = movelist.dat
 cmd     = 00fdeath.cmd
 cns     = 00fdeath.cns
 st      = 00fdeath.cns

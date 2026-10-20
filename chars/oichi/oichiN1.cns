@@ -30,7 +30,7 @@ trigger1 = animelem = 3
 attr = S, NA
 damage = 16, 0
 animtype = Light
-getpower = 30
+getpower = 30,15
 guardflag = L
 hitflag = MAF
 priority = 4, Hit
@@ -114,7 +114,7 @@ trigger1 = AnimElem = 3
 attr = S, NA
 animtype  = Medium
 damage    = 30
-getpower  = 80,80
+getpower = 30,15
 guardflag = MA
 pausetime = 12,12
 sparkno = 1
@@ -203,7 +203,7 @@ trigger1 = Time = 0
 attr = S, NA
 animtype  = Medium
 damage    = 54
-getpower  = 100,100
+getpower = 30,15
 guardflag = MA
 pausetime = 12,12
 sparkno = s-1
@@ -281,7 +281,7 @@ trigger1 = Time = 0
 attr = S, NA
 animtype  = Medium
 damage    = 32
-getpower  = 80,80
+getpower = 30,15
 guardflag = H
 pausetime = 12,12
 sparkno = s-1
@@ -359,7 +359,7 @@ type = HitDef
 trigger1 = Time = 4
 attr = C, NA ;しゃがみ通常打撃（Crouching, Normal Attack）
 damage    = 14
-getpower  = 30,30
+getpower = 30,15
 priority  = 3
 animtype  = Light
 hitflag = MAF
@@ -443,7 +443,7 @@ type = HitDef
 trigger1 = AnimElem = 3
 attr = C, NA
 damage   = 34
-getpower = 60,60
+getpower = 30,15
 animtype = Medium
 hitflag = MAF
 guardflag = M
@@ -528,7 +528,7 @@ type = HitDef
 trigger1 = Time = 0
 attr = C, NA
 damage = 55
-getpower = 100,100
+getpower = 30,15
 hitflag = MAFD
 guardflag = L
 pausetime = 12,12
@@ -622,7 +622,7 @@ type = HitDef
 trigger1 = Time = 0
 attr = A, NA ;空中通常打撃（Air, Normal Attack）
 damage    = 24
-getpower = 30,30
+getpower = 30,15
 guardflag = HA
 priority = 3
 id = 600
@@ -716,7 +716,7 @@ trigger1 = Time = 0
 attr = A, NA
 damage = 28
 id = 610
-getpower = 60,60
+getpower = 30,15
 guardflag = HA
 priority = 4
 pausetime = 12,13
@@ -810,7 +810,7 @@ type = HitDef
 trigger1 = Time = 0
 attr = A, NA
 damage    = 47
-getpower  = 100,100
+getpower = 30,15
 id = 620
 guardflag = HA
 priority = 4

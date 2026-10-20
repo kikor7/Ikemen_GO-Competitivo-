@@ -6,7 +6,7 @@ Physics  = N
 Anim     = 500
 Ctrl     = 0
 Facep2   = 1
-PowerAdd = 30
+PowerAdd = 20
 
 [State 500]
 Type=Gravity
@@ -178,7 +178,7 @@ Physics  = N
 Anim     = 560
 Ctrl     = 0
 Facep2   = 1
-PowerAdd = 30
+PowerAdd = 20
 
 [State 500]
 Type=Gravity
@@ -379,7 +379,7 @@ Physics  = N
 Anim     = 550
 Ctrl     = 0
 Facep2   = 1
-PowerAdd = 30
+PowerAdd = 20
 velset = 0,0
 
 [State 500]
@@ -527,7 +527,7 @@ value=0
 [State 530]
 Type=Poweradd
 Trigger1=1
-value=1
+value=0
 
 [State 500]
 Type=VarAdd
@@ -695,7 +695,7 @@ velset=0,0
 juggle  = 1
 ctrl=0
 anim=1020
-poweradd=80
+poweradd=0
 facep2=1
 
 [State 300,1]
@@ -1032,7 +1032,7 @@ Physics  = N
 Anim     = 560
 Ctrl     = 0
 Facep2   = 1
-PowerAdd = 30
+PowerAdd = 20
 
 [State 500]
 Type=Gravity
@@ -1095,7 +1095,7 @@ anim=1012+random %3
 Type=A
 Physics=N
 MoveType=A
-poweradd = 10
+poweradd = 0
 
 [State 1061]
 Type=VelSet

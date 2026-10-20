@@ -740,9 +740,27 @@ Time = 3
 [State 1000, ステート変更]
 type = ChangeState
 trigger1 = AnimTime = 0
+value = 1001
+ctrl = 0
+
+
+;---------------------------------------------------------------------------
+; Recuperacion del esquive (X) y de los rodamientos: sin control y golpeable
+; 14 ticks, igual que Rena LV5, para que no se pueda encadenar sin riesgo.
+;---------------------------------------------------------------------------
+[Statedef 1001]
+type = S
+movetype = I
+physics = S
+ctrl = 0
+anim = 0
+velset = 0,0
+
+[State 1001, Fin de la recuperacion]
+type = ChangeState
+trigger1 = Time >= 14
 value = 0
 ctrl = 1
-
 
 ;---------------------------------------------------------------------------
 ;前転避け
@@ -789,8 +807,8 @@ volume = 255 ;音量
 [State 1010, ステート変更]
 type = ChangeState
 trigger1 = AnimTime = 0
-value = 11
-ctrl = 1
+value = 1001
+ctrl = 0
 
 [State 1010, エフェクト]
 type = Explod
@@ -854,8 +872,8 @@ volume = 255 ;音量
 [State 1020, ステート変更]
 type = ChangeState
 trigger1 = AnimTime = 0
-value = 11
-ctrl = 1
+value = 1001
+ctrl = 0
 
 [State 1020, エフェクト]
 type = Explod

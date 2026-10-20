@@ -1,0 +1,14 @@
+<#f0f000>:Special Moves:</>
+rasaijin			_DSF^X
+rasaijin			_DSF^Y
+rasaijin			_DSF^Z
+rasaijin			_HCF^X
+rasaijin			_HCF^Y
+rasaijin			_HCF^Z
+rekku			_DSF^C
+Stand Light Punch			^A_+^Y
+Crouching Strong Punch			~D^A_+^Y
+
+<#f0f000>:Hyper Moves:</>
+fuuka <#f00000>(1000)</>			_D_D^X
+hana-arasi <#f00000>(1000)</>			_D_D^Y

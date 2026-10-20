@@ -133,7 +133,7 @@ fall = 0
 air.fall = ifelse(P2movetype = H,1,0)
 fall.recover = 0
 kill = 1
-getpower = 70, 35
+getpower = 10,5
 givepower = 50, 0
 ;palfx.time = 30
 ;palfx.sinadd = 120,120,120,12
@@ -195,7 +195,7 @@ fall = 0
 air.fall = ifelse(P2movetype = H,1,0)
 fall.recover = 0
 kill = 1
-getpower = 70, 35
+getpower = 10,5
 givepower = 50, 0
 ;palfx.time = 30
 ;palfx.sinadd = 120,120,120,12
@@ -257,7 +257,7 @@ fall = 0
 air.fall = ifelse(P2movetype = H,1,0)
 fall.recover = 0
 kill = 1
-getpower = 70, 35
+getpower = 10,5
 givepower = 50, 0
 ;palfx.time = 30
 ;palfx.sinadd = 120,120,120,12
@@ -401,7 +401,7 @@ fall = 0
 air.fall = ifelse(P2movetype = H,1,0)
 fall.recover = 0
 kill = 1
-getpower = 70, 35
+getpower = 10,5
 givepower = 50, 0
 ;palfx.time = 30
 ;palfx.sinadd = 120,120,120,12
@@ -463,7 +463,7 @@ fall = 0
 air.fall = ifelse(P2movetype = H,1,0)
 fall.recover = 0
 kill = 1
-getpower = 70, 35
+getpower = 10,5
 givepower = 50, 0
 ;palfx.time = 30
 ;palfx.sinadd = 120,120,120,12
@@ -525,7 +525,7 @@ fall = 0
 air.fall = ifelse(P2movetype = H,1,0)
 fall.recover = 0
 kill = 1
-getpower = 70, 35
+getpower = 10,5
 givepower = 50, 0
 ;palfx.time = 30
 ;palfx.sinadd = 120,120,120,12
@@ -798,7 +798,7 @@ fall = 1
 air.fall = ifelse(P2movetype = H,1,0)
 fall.recover = 0
 kill = 1
-getpower = 100, 50
+getpower = 10,5
 givepower = 50, 0
 
 [State 4000, DestroySelf]
@@ -877,7 +877,7 @@ fall = 1
 air.fall = ifelse(P2movetype = H,1,0)
 fall.recover = 0
 kill = 1
-getpower = 100, 50
+getpower = 10,5
 givepower = 50, 0
 
 [State 4000, DestroySelf]
@@ -956,7 +956,7 @@ fall = 1
 air.fall = ifelse(P2movetype = H,1,0)
 fall.recover = 0
 kill = 1
-getpower = 100, 50
+getpower = 10,5
 givepower = 50, 0
 
 [State 4000, DestroySelf]
@@ -1203,7 +1203,7 @@ fall = 0
 air.fall = ifelse(P2movetype = H,1,0)
 fall.recover = 0
 kill = 1
-getpower = 100, 50
+getpower = 7,3
 givepower = 50, 0
 
 [State 4000, ]
@@ -1293,7 +1293,7 @@ fall = 0
 air.fall = ifelse(P2movetype = H,1,0)
 fall.recover = 0
 kill = 1
-getpower = 100, 50
+getpower = 7,3
 givepower = 50, 0
 
 [State 4000, ]
@@ -1372,7 +1372,7 @@ fall = 0
 air.fall = ifelse(P2movetype = H,1,0)
 fall.recover = 0
 kill = 1
-getpower = 100, 50
+getpower = 7,3
 givepower = 50, 0
 
 [State 4000, ]
@@ -1462,7 +1462,7 @@ fall = 0
 air.fall = ifelse(P2movetype = H,1,0)
 fall.recover = 0
 kill = 1
-getpower = 100, 50
+getpower = 7,3
 givepower = 50, 0
 
 [State 4000, ]
@@ -1625,7 +1625,7 @@ fall = 0
 air.fall = ifelse(P2movetype = H,1,0)
 fall.recover = 0
 kill = 1
-getpower = 100, 50
+getpower = 7,3
 givepower = 50, 0
 
 [State 4000, ]
@@ -1715,7 +1715,7 @@ fall = 0
 air.fall = ifelse(P2movetype = H,1,0)
 fall.recover = 0
 kill = 1
-getpower = 100, 50
+getpower = 7,3
 givepower = 50, 0
 
 [State 4000, ]
@@ -1794,7 +1794,7 @@ fall = 0
 air.fall = ifelse(P2movetype = H,1,0)
 fall.recover = 0
 kill = 1
-getpower = 100, 50
+getpower = 7,3
 givepower = 50, 0
 
 [State 4000, ]
@@ -1884,7 +1884,7 @@ fall = 0
 air.fall = ifelse(P2movetype = H,1,0)
 fall.recover = 0
 kill = 1
-getpower = 100, 50
+getpower = 7,3
 givepower = 50, 0
 
 [State 4000, ]
@@ -2047,7 +2047,7 @@ fall = 1
 air.fall = ifelse(P2movetype = H,1,0)
 fall.recover = 0
 kill = 1
-getpower = 100, 50
+getpower = 7,3
 givepower = 50, 0
 
 [State 4000, ]
@@ -2137,7 +2137,7 @@ fall = 1
 air.fall = ifelse(P2movetype = H,1,0)
 fall.recover = 0
 kill = 1
-getpower = 100, 50
+getpower = 7,3
 givepower = 50, 0
 
 [State 4000, ]
@@ -2216,7 +2216,7 @@ fall = 1
 air.fall = ifelse(P2movetype = H,1,0)
 fall.recover = 0
 kill = 1
-getpower = 100, 50
+getpower = 7,3
 givepower = 50, 0
 
 [State 4000, ]
@@ -2306,7 +2306,7 @@ fall = 1
 air.fall = ifelse(P2movetype = H,1,0)
 fall.recover = 0
 kill = 1
-getpower = 100, 50
+getpower = 7,3
 givepower = 50, 0
 
 [State 4000, ]
@@ -2324,6 +2324,7 @@ value = 4002
 ;AÉAÉìÉQÉãÉXÉWÉÉÉìÉväJén
 [Statedef 1200]
 type     = S
+poweradd = 20
 movetype = I
 physics  = S
 ctrl     = 0
@@ -2575,7 +2576,7 @@ fall = 0
 air.fall = ifelse(P2movetype = H,1,0)
 fall.recover = 0
 kill = 1
-getpower = 100, 50
+getpower = 10,5
 givepower = 50, 0
 
 [State 210, èeíeÉfÅ[É^ç∂]
@@ -2630,7 +2631,7 @@ fall = 0
 air.fall = ifelse(P2movetype = H,1,0)
 fall.recover = 0
 kill = 1
-getpower = 100, 50
+getpower = 10,5
 givepower = 50, 0
 
 [State 1270, íeè¡îÔ]
@@ -2741,7 +2742,7 @@ fall = 0
 air.fall = ifelse(P2movetype = H,1,0)
 fall.recover = 0
 kill = 1
-getpower = 100, 50
+getpower = 10,5
 givepower = 50, 0
 
 [State 210, èeíeÉfÅ[É^ç∂]
@@ -2796,7 +2797,7 @@ fall = 0
 air.fall = ifelse(P2movetype = H,1,0)
 fall.recover = 0
 kill = 1
-getpower = 100, 50
+getpower = 10,5
 givepower = 50, 0
 
 [State 1270, íeè¡îÔ]
@@ -2907,7 +2908,7 @@ fall = 0
 air.fall = ifelse(P2movetype = H,1,0)
 fall.recover = 0
 kill = 1
-getpower = 100, 50
+getpower = 10,5
 givepower = 50, 0
 
 [State 210, èeíeÉfÅ[É^ç∂]
@@ -2962,7 +2963,7 @@ fall = 0
 air.fall = ifelse(P2movetype = H,1,0)
 fall.recover = 0
 kill = 1
-getpower = 100, 50
+getpower = 10,5
 givepower = 50, 0
 
 [State 1270, íeè¡îÔ]
@@ -2983,6 +2984,7 @@ value = 1260
 ;ãÛíÜÉAÉìÉQÉãÉXAéÀåÇ
 [Statedef 1300]
 type     = A
+poweradd = 20
 movetype = A
 physics  = A
 ctrl     = 0
@@ -3067,7 +3069,7 @@ fall = 0
 air.fall = ifelse(P2movetype = H,1,0)
 fall.recover = 0
 kill = 1
-getpower = 100, 50
+getpower = 30,15
 givepower = 50, 0
 
 [State 210, èeíeÉfÅ[É^ç∂]
@@ -3120,7 +3122,7 @@ fall = 0
 air.fall = ifelse(P2movetype = H,1,0)
 fall.recover = 0
 kill = 1
-getpower = 100, 50
+getpower = 30,15
 givepower = 50, 0
 
 [State 1270, íeè¡îÔ]
@@ -3139,6 +3141,7 @@ value = 1260
 ;ãÛíÜÉAÉìÉQÉãÉXBéÀåÇ
 [Statedef 1310]
 type     = A
+poweradd = 20
 movetype = A
 physics  = A
 ctrl     = 0
@@ -3223,7 +3226,7 @@ fall = 0
 air.fall = ifelse(P2movetype = H,1,0)
 fall.recover = 0
 kill = 1
-getpower = 100, 50
+getpower = 30,15
 givepower = 50, 0
 
 [State 210, èeíeÉfÅ[É^ç∂]
@@ -3276,7 +3279,7 @@ fall = 0
 air.fall = ifelse(P2movetype = H,1,0)
 fall.recover = 0
 kill = 1
-getpower = 100, 50
+getpower = 30,15
 givepower = 50, 0
 
 [State 1270, íeè¡îÔ]
@@ -3295,6 +3298,7 @@ value = 1260
 ;ÉAÉìÉQÉãÉXCéÀåÇ
 [Statedef 1320]
 type     = A
+poweradd = 20
 movetype = A
 physics  = A
 ctrl     = 0
@@ -3379,7 +3383,7 @@ fall = 0
 air.fall = ifelse(P2movetype = H,1,0)
 fall.recover = 0
 kill = 1
-getpower = 100, 50
+getpower = 30,15
 givepower = 50, 0
 
 [State 210, èeíeÉfÅ[É^ç∂]
@@ -3432,7 +3436,7 @@ fall = 0
 air.fall = ifelse(P2movetype = H,1,0)
 fall.recover = 0
 kill = 1
-getpower = 100, 50
+getpower = 30,15
 givepower = 50, 0
 
 [State 1270, íeè¡îÔ]

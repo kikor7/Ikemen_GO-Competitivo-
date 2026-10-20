@@ -346,7 +346,7 @@ sprpriority = 2
 fall = 19
 fall.recovertime = 5 + ceil(36*var(9)*fvar(1)*fvar(2))
 id = StateNo
-getpower = 0, 0
+getpower = 60,30
 givepower = 0, 0
 
 [State Set]
@@ -541,7 +541,7 @@ sprpriority = 2
 fall = 1
 fall.recover = 0
 id = StateNo
-getpower = 0, 0
+getpower = 60,30
 givepower = 0, 0
 
 [State Set]
@@ -723,7 +723,7 @@ sprpriority = 2
 fall = 1
 fall.recover = 0
 id = StateNo
-getpower = 0, 0
+getpower = 15,7
 givepower = 0, 0
 
 [State hitdef]
@@ -760,7 +760,7 @@ sprpriority = 2
 fall = 1
 fall.recover = 0
 id = StateNo
-getpower = 0, 0
+getpower = 15,7
 givepower = 0, 0
 
 [State Set]
@@ -862,7 +862,7 @@ sprpriority = 2
 fall = 1
 fall.recover = 0
 id = StateNo
-getpower = 0, 0
+getpower = 15,7
 givepower = 0, 0
 kill = 0
 
@@ -920,6 +920,7 @@ y = 0.35
 
 [State hitdef]
 type = HitDef
+getpower = 15,7
 trigger1 = animelem = 4
 attr = A,HT
 hitflag = AF

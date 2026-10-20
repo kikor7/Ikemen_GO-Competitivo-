@@ -48,6 +48,7 @@ trigger1 = Time = 0
 attr = S, SA
 animtype  = Hard
 damage    = 20
+getpower = 60,30
 guardflag = M
 pausetime = 32,32
 sparkno = S6003

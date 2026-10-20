@@ -66,7 +66,7 @@ trigger1 = AnimElem = 3
 attr = S, SA
 damage = Ifelse(abs(var(49))=1,Ceil(FVar(10)*46),Ceil(FVar(10)*24))
 animtype = Hard
-getpower = Ifelse(abs(var(49))=1,140,280)-var(25),Ifelse(abs(var(49))=1,70,140)-var(26)
+getpower = 30,15
 givepower = var(25),var(26)
 guardflag = MA
 hitflag = MAFD
@@ -115,7 +115,7 @@ trigger1 = AnimElem = 13
 attr = S, SA
 damage = Ifelse(abs(var(49))=1,Ceil(FVar(10)*46),Ceil(FVar(10)*24))
 animtype = Hard
-getpower = Ifelse(abs(var(49))=1,140,280)-var(25),Ifelse(abs(var(49))=1,70,140)-var(26)
+getpower = 30,15
 givepower = var(25),var(26)
 guardflag = MA
 hitflag = MAFD
@@ -377,7 +377,7 @@ trigger1 = AnimElem = 4
 attr = A, SA
 damage = Ceil(FVar(10)*36)
 animtype = Hard
-getpower = 280-var(25),140-var(26)
+getpower = 30,15
 givepower = var(25),var(26)
 guardflag = MA
 hitflag = MAFD
@@ -409,7 +409,7 @@ trigger1 = AnimElem = 4 || Animelem = 5 || animelem = 6
 attr = A, SA
 damage = Ceil(FVar(10)*68)
 animtype = Hard
-getpower = 0,0
+getpower = 30,15
 givepower = 0,0
 guardflag = MA
 hitflag = MAFD
@@ -774,7 +774,7 @@ trigger1 = Animelem = 7 || Animelem = 8 || Animelem = 9 || Animelem = 10
 attr = A, SA
 damage = Ifelse(var(22)>=13,Ceil(FVar(10)*80),Ceil(FVar(10)*34))
 animtype = Hard
-getpower = 280-var(25),140-var(26)
+getpower = 60,30
 givepower = var(25),var(26)
 guardflag = MA
 hitflag = MAFD
@@ -808,7 +808,7 @@ trigger1 = Animelem = 7 || Animelem = 8 || Animelem = 9 || Animelem = 10
 attr = A, SA
 damage = Ceil(FVar(10)*118)
 animtype = Hard
-getpower = 280-var(25),140-var(26)
+getpower = 60,30
 givepower = var(25),var(26)
 guardflag = MA
 hitflag = MAFD
@@ -1148,7 +1148,7 @@ trigger1 = Animelem = 5 || Animelem = 6 || Animelem = 7
 attr = A, SA
 damage = Ceil(FVar(10)*44)
 animtype = Hard
-getpower = 240-var(25),120-var(26)
+getpower = 30,15
 givepower = var(25),var(26)
 guardflag = HA
 hitflag = MAFD
@@ -1178,7 +1178,7 @@ trigger1 = Animelem = 5 || Animelem = 6 || Animelem = 7
 attr = A, SA
 damage = Ceil(FVar(10)*59)
 animtype = Hard
-getpower = 240-var(25),120-var(26)
+getpower = 30,15
 givepower = var(25),var(26)
 guardflag = HA
 hitflag = MAFD

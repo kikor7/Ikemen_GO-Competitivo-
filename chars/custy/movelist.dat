@@ -1,0 +1,17 @@
+<#f0f000>:Special Moves:</>
+crescent_edge			_DSF^A
+cancel_crescent_edge			_QCF^A
+Flash_A			_QCB^X
+Flash_S			_QCB^A
+Flash_C			_QCB^B
+Windmill_drop			_HCB^Y
+Catapult			_QCF^B
+double_hammer			_QCF^Y
+Air_7075			_D_D^X
+throw			^Y_+^B
+
+<#f0f000>:Hyper Moves:</>
+AdamantFryingPan <#f00000>(2000)</>			_QCF_D_DF^Y
+HomingStar <#f00000>(1000)</>			_QCF_QCF^X
+Air_PKorTK <#f00000>(1000)</>			_D_D^Z
+Mirror of Terror <#f00000>(1000)</>			_D_D^B

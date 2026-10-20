@@ -3502,7 +3502,7 @@ air.cornerpush.veloff      =-0.00
 down.cornerpush.veloff     =-0.00
 guard.cornerpush.veloff    =-0.00
 airguard.cornerpush.veloff =-0.00
-getpower          = 0,0
+getpower = 30,15
 givepower         =-Ceil(Ceil(200/11.4)*Root,FVar(0)*FVar(3)),-Ceil(Ceil(100/11.4)*Root,FVar(0)*FVar(3))
 
 envshake.time     = 10

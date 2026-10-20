@@ -22,7 +22,7 @@ type    = S
 movetype= A
 physics = N
 juggle  = 5
-poweradd= 50
+poweradd= 0
 velset = 0,0
 ctrl = 0
 anim = 1100
@@ -180,6 +180,7 @@ trigger1 = time = 0
 attr = S, SP
 animtype  = Diagup;Hard
 damage    = ifelse(root,var(51)= 0,40,30+(root,var(52)*10)), 2
+getpower = 10,5
 priority  = 3
 guardflag = MA
 pausetime = 12,12
@@ -245,6 +246,7 @@ trigger1 = time = 0
 attr = S, SP
 animtype  = Diagup;Hard
 damage    = ifelse(root,var(51)= 0,40,30+(root,var(52)*10)), 2
+getpower = 10,5
 priority  = 3
 guardflag = MA
 pausetime = 12,12
@@ -326,6 +328,7 @@ trigger1 = time = 0
 attr = S, SP
 animtype  = Diagup;Hard
 damage    = ifelse(root,var(51)= 0,70,60+(root,var(52)*10)), 2
+getpower = 10,5
 priority  = 3
 guardflag = MA
 pausetime = 12,12
@@ -375,7 +378,7 @@ type    = S
 movetype= A
 physics = N
 juggle  = 5
-poweradd= 50
+poweradd= 0
 velset = 0,0
 ctrl = 0
 anim = 1100
@@ -550,6 +553,7 @@ trigger1 = time = 0
 attr = S, SP
 animtype  = Diagup;Hard
 damage    = ifelse(root,var(51)= 0,50,40+(root,var(52)*10)), 2
+getpower = 10,5
 priority  = 3
 guardflag = MA
 pausetime = 12,12
@@ -631,6 +635,7 @@ trigger1 = time = 0
 attr = S, SP
 animtype  = Diagup;Hard
 damage    = ifelse(root,var(51)= 0,50,40+(root,var(52)*10)), 2
+getpower = 10,5
 priority  = 3
 guardflag = MA
 pausetime = 12,12
@@ -712,6 +717,7 @@ trigger1 = time = 0
 attr = S, SP
 animtype  = Diagup;Hard
 damage    = ifelse(root,var(51)= 0,80,70+(root,var(52)*10)), 2
+getpower = 10,5
 priority  = 3
 guardflag = MA
 pausetime = 12,12
@@ -760,7 +766,7 @@ type    = S
 movetype= A
 physics = N
 juggle  = 5
-poweradd= 50
+poweradd= 0
 velset = 0,0
 ctrl = 0
 anim = 1100
@@ -920,6 +926,7 @@ trigger1 = time = 0
 attr = S, SP
 animtype  = Diagup;Hard
 damage    = ifelse(root,var(51)= 0,60,50+(root,var(52)*10)), 2
+getpower = 10,5
 priority  = 3
 guardflag = MA
 pausetime = 12,12
@@ -985,6 +992,7 @@ trigger1 = time = 0
 attr = S, SP
 animtype  = Diagup;Hard
 damage    = ifelse(root,var(51)= 0,60,50+(root,var(52)*10)), 2
+getpower = 10,5
 priority  = 3
 guardflag = MA
 pausetime = 12,12
@@ -1050,6 +1058,7 @@ trigger1 = time = 0
 attr = S, SP
 animtype  = Diagup;Hard
 damage    = ifelse(root,var(51)= 0,90,80+(root,var(52)*10)), 2
+getpower = 10,5
 priority  = 3
 guardflag = MA
 pausetime = 12,12
@@ -1122,7 +1131,7 @@ type    = S
 movetype= A
 physics = N
 juggle  = 5
-poweradd= 50
+poweradd= 0
 velset = 0,0
 ctrl = 0
 anim = 1150
@@ -1340,6 +1349,7 @@ trigger1 = time = 0
 attr = S, SP
 animtype  = Diagup;Hard
 damage    = ifelse(root,var(51)= 0,90,80+(root,var(52)*10)) + ceil((root,Var(24))/10), 2
+getpower = 30,15
 priority  = 3
 guardflag = MA
 pausetime = 12,12
@@ -1423,6 +1433,7 @@ trigger1 = time = 0
 attr = S, SP
 animtype  = Diagup;Hard
 damage    = ifelse(root,var(51)= 0,150,140+(root,var(52)*10)), 2
+getpower = 30,15
 priority  = 3
 guardflag = MA
 pausetime = 12,12
@@ -1512,7 +1523,7 @@ type    = S
 movetype= A
 physics = N
 juggle  = 5
-poweradd= 50
+poweradd= 0
 velset = 0,0
 ctrl = 0
 anim = 1150
@@ -1727,6 +1738,7 @@ trigger1 = time = 0
 attr = S, SP
 animtype  = Diagup;Hard
 damage    = ifelse(root,var(51)= 0,90,80+(root,var(52)*10)) + ceil((root,Var(24))/10), 2
+getpower = 30,15
 priority  = 3
 guardflag = MA
 pausetime = 12,12
@@ -1810,6 +1822,7 @@ trigger1 = time = 0
 attr = S, SP
 animtype  = Diagup;Hard
 damage    = ifelse(root,var(51)= 0,150,140+(root,var(52)*10)), 2
+getpower = 30,15
 priority  = 3
 guardflag = MA
 pausetime = 12,12
@@ -1898,7 +1911,7 @@ type    = S
 movetype= A
 physics = N
 juggle  = 5
-poweradd= 50
+poweradd= 0
 velset = 0,0
 ctrl = 0
 anim = 1150
@@ -2115,6 +2128,7 @@ trigger1 = time = 0
 attr = S, SP
 animtype  = Diagup;Hard
 damage    = ifelse(root,var(51)= 0,90,80+(root,var(52)*10)) + ceil((root,Var(24))/10), 2
+getpower = 30,15
 priority  = 3
 guardflag = MA
 pausetime = 12,12
@@ -2198,6 +2212,7 @@ trigger1 = time = 0
 attr = S, SP
 animtype  = Diagup;Hard
 damage    = ifelse(root,var(51)= 0,150,140+(root,var(52)*10)), 2
+getpower = 30,15
 priority  = 3
 guardflag = MA
 pausetime = 12,12

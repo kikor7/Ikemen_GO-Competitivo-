@@ -1053,7 +1053,7 @@ air.fall = 1
 fall.yvelocity = -1
 fall.envshake.time = 9
 yaccel = .51
-getpower = ceil(40*fvar(30)*fvar(6)), 20
+getpower = 30,15
 ID = 200
 
 [State 200, カウンター] 
@@ -1083,7 +1083,7 @@ air.hittime  = 20
 fall.yvelocity = -1
 fall.envshake.time = 9
 yaccel = .51
-getpower = ceil(40*fvar(30)*fvar(6)), 20
+getpower = 30,15
 palfx.time = 5
 palfx.add = 205,-50,-50
 envshake.time = 11
@@ -1266,7 +1266,7 @@ air.fall = 1
 fall.yvelocity = -1
 fall.envshake.time = 9
 yaccel = .51
-getpower = ceil(60*fvar(30)*fvar(6)), ceil(20*fvar(30)*fvar(6))
+getpower = 30,15
 ID = 200
 
 [State 210, カウンター] 
@@ -1296,7 +1296,7 @@ fall.yvelocity = -1
 fall.envshake.time = 9
 air.fall = 1
 yaccel = .51
-getpower = ceil(100*fvar(30)*fvar(6)),ceil(20*fvar(30)*fvar(6))
+getpower = 30,15
 palfx.time = 5
 palfx.add = 205,-50,-50
 envshake.time = 11
@@ -1489,7 +1489,7 @@ air.fall = 1
 fall.yvelocity = -1
 fall.envshake.time = 9
 yaccel = .51
-getpower = ceil(40*fvar(30)*fvar(6)), ceil(10*fvar(30)*fvar(6))
+getpower = 15,7
 ID = 200
 
 [State 220, カウンター１] 
@@ -1519,7 +1519,7 @@ fall.yvelocity = -1
 fall.envshake.time = 9
 air.fall = 1
 yaccel = .51
-getpower = ceil(65*fvar(30)*fvar(6)),ceil(20*fvar(30)*fvar(6))
+getpower = 15,7
 palfx.time = 5
 palfx.add = 205,-50,-50
 envshake.time = 11
@@ -1553,7 +1553,7 @@ air.fall = 1
 fall.yvelocity = -1
 fall.envshake.time = 9
 yaccel = .51
-getpower = ceil(30*fvar(30)*fvar(6)), ceil(10*fvar(30)*fvar(6))
+getpower = 15,7
 ID = 199
 
 [State 220, カウンター２] 
@@ -1583,7 +1583,7 @@ fall.yvelocity = -1
 fall.envshake.time = 9
 air.fall = 1
 yaccel = .51
-getpower = ceil(35*fvar(30)*fvar(6)),ceil(20*fvar(30)*fvar(6))
+getpower = 15,7
 palfx.time = 5
 palfx.add = 205,-50,-50
 envshake.time = 11
@@ -1841,7 +1841,7 @@ fall.yvelocity = -1
 fall.envshake.time = 9
 fall = 1
 yaccel = .51
-getpower = ceil(60*fvar(30)*fvar(6)), ceil(20*fvar(30)*fvar(6))
+getpower = 30,15
 ID = 200
 persistent = 0
 
@@ -1874,7 +1874,7 @@ fall.yvelocity = -1
 fall.envshake.time = 9
 fall = 1
 yaccel = .51
-getpower =ceil(100*fvar(30)*fvar(6)),ceil(20*fvar(30)*fvar(6))
+getpower = 30,15
 palfx.time = 5
 palfx.add = 205,-50,-50
 envshake.time = 11
@@ -2103,7 +2103,7 @@ fall.yvelocity = -1
 fall.envshake.time = 9
 air.fall = 1
 yaccel = .61
-getpower = ceil(40*fvar(30)*fvar(6)), ceil(20*fvar(30)*fvar(6))
+getpower = 15,7
 ID = 200
 persistent = 0
 
@@ -2135,7 +2135,7 @@ fall.yvelocity = -1
 fall.envshake.time = 9
 air.fall = 1
 yaccel = .61
-getpower = ceil(40*fvar(30)*fvar(6)), ceil(20*fvar(30)*fvar(6))
+getpower = 15,7
 palfx.time = 5
 palfx.add = 205,-50,-50
 envshake.time = 11
@@ -2171,7 +2171,7 @@ fall.yvelocity = -1
 fall.envshake.time = 9
 fall = 0
 yaccel = .61
-getpower = ceil(40*fvar(30)*fvar(6)), ceil(20*fvar(30)*fvar(6))
+getpower = 15,7
 ID = 199
 persistent = 0
 
@@ -2204,7 +2204,7 @@ fall.yvelocity = -1
 fall.envshake.time = 9
 fall = 0
 yaccel = .61
-getpower = ceil(40*fvar(30)*fvar(6)), ceil(20*fvar(30)*fvar(6))
+getpower = 15,7
 palfx.time = 5
 palfx.add = 205,-50,-50
 envshake.time = 11
@@ -2859,7 +2859,7 @@ trigger1 = animelem = 4
 trigger1 = var(5) = 1
 attr = S, NA
 damage = ceil(68*fvar(6)), 0
-getpower = 72,72
+getpower = 30,15
 animtype = hard
 guardflag = M
 hitflag = MAF
@@ -2889,7 +2889,7 @@ trigger1 = animelem = 4
 trigger1 = var(5) = 2
 attr = S, NA
 damage = ceil(60*fvar(6)), 0
-getpower = 72,72
+getpower = 30,15
 animtype = hard
 guardflag = N
 hitflag = MAF
@@ -3813,7 +3813,7 @@ fall.yvelocity = -1
 fall.envshake.time = 9
 air.fall = 1
 yaccel = .51
-getpower = ceil(40*fvar(30)*fvar(6)),ceil(20*fvar(30)*fvar(6))
+getpower = 30,15
 ID = 200
 
 [State 400, カウンター]
@@ -3844,7 +3844,7 @@ fall.envshake.time = 9
 air.fall = 1
 air.hittime  = 31
 yaccel = .51
-getpower = ceil(40*fvar(30)*fvar(6)),ceil(20*fvar(30)*fvar(6))
+getpower = 30,15
 palfx.time = 5
 palfx.add = 205,-50,-50
 envshake.time = 11
@@ -4026,7 +4026,7 @@ fall.yvelocity = -1
 fall.envshake.time = 9
 air.fall = 1
 yaccel = .51
-getpower = ceil(50*fvar(30)*fvar(6)),ceil(20*fvar(30)*fvar(6))
+getpower = 30,15
 ID = 200
 
 [State 410, カウンター] 
@@ -4057,7 +4057,7 @@ fall.envshake.time = 9
 fall.recovertime = 37
 fall = 1
 yaccel = .51
-getpower = ceil(80*fvar(30)*fvar(6)),ceil(30*fvar(30)*fvar(6))
+getpower = 30,15
 palfx.time = 5
 palfx.add = 205,-50,-50
 envshake.time = 11
@@ -4249,7 +4249,7 @@ fall.yvelocity = -1
 fall.envshake.time = 9
 fall = 1
 yaccel = .51
-getpower = ceil(70*fvar(30)*fvar(6)),ceil(25*fvar(30)*fvar(6))
+getpower = 30,15
 ID = 200
 persistent = 0
 
@@ -4282,7 +4282,7 @@ fall.yvelocity = -1
 fall.envshake.time = 9
 fall = 1
 yaccel = .51
-getpower = ceil(100*fvar(30)*fvar(6)),ceil(40*fvar(30)*fvar(6))
+getpower = 30,15
 palfx.time = 5
 palfx.add = 205,-50,-50
 envshake.time = 11
@@ -4452,7 +4452,7 @@ fall.yvelocity = -1
 fall.envshake.time = 9
 air.fall = 1
 yaccel = .51
-getpower = ceil(40*fvar(30)*fvar(6)),ceil(20*fvar(30)*fvar(6))
+getpower = 30,15
 ID = 200
 
 [State 600, カウンター]
@@ -4482,7 +4482,7 @@ fall.yvelocity = -1
 fall.envshake.time = 9
 air.fall = 1
 yaccel = .51
-getpower = ceil(40*fvar(30)*fvar(6)),ceil(20*fvar(30)*fvar(6))
+getpower = 30,15
 palfx.time = 5
 palfx.add = 205,-50,-50
 envshake.time = 11
@@ -4651,7 +4651,7 @@ fall.yvelocity = -1
 fall.envshake.time = 9
 air.fall = 1
 yaccel = .51
-getpower = ceil(50*fvar(30)*fvar(6)),ceil(20*fvar(30)*fvar(6))
+getpower = 30,15
 ID = 200
 persistent = 0
 
@@ -4682,7 +4682,7 @@ fall.envshake.time = 9
 fall = 1
 air.fall = 1
 yaccel = .51
-getpower = ceil(60*fvar(30)*fvar(6)),ceil(20*fvar(30)*fvar(6))
+getpower = 30,15
 palfx.time = 5
 palfx.add = 205,-50,-50
 envshake.time = 11
@@ -4852,7 +4852,7 @@ fall.yvelocity = -1
 fall.envshake.time = 9
 air.fall = 1
 yaccel = .51
-getpower = ceil(60*fvar(30)*fvar(6)),ceil(20*fvar(30)*fvar(6))
+getpower = 30,15
 ID = 200
 persistent = 0
 
@@ -4882,7 +4882,7 @@ fall.yvelocity = -1
 fall.envshake.time = 9
 air.fall = 1
 yaccel = .51
-getpower = ceil(100*fvar(30)*fvar(6)),ceil(30*fvar(30)*fvar(6))
+getpower = 30,15
 palfx.time = 5
 palfx.add = 205,-50,-50
 envshake.time = 11
@@ -5045,7 +5045,7 @@ fall.yvelocity = -5
 fall.envshake.time = 9
 air.fall = 1
 yaccel = .51
-getpower = 40, 20
+getpower = 30,15
 ID = 200
 persistent = 0
 
@@ -5075,7 +5075,7 @@ fall.yvelocity = -5
 fall.envshake.time = 9
 air.fall = 1
 yaccel = .51
-getpower = 40, 20
+getpower = 30,15
 palfx.time = 5
 palfx.add = 205,-50,-50
 envshake.time = 11
@@ -5264,7 +5264,7 @@ fall.yvelocity = -1
 fall.envshake.time = 9
 fall = 1
 yaccel = .51
-getpower = ceil(90*fvar(30)*fvar(6)),ceil(60*fvar(30)*fvar(6))
+getpower = 30,15
 ID = 200
 persistent = 0
 
@@ -5297,7 +5297,7 @@ fall.yvelocity = -1
 fall.envshake.time = 9
 fall = 1
 yaccel = .51
-getpower = ceil(210*fvar(30)*fvar(6)),ceil(60*fvar(30)*fvar(6))
+getpower = 30,15
 palfx.time = 5
 palfx.add = 205,-50,-50
 envshake.time = 11
@@ -5626,6 +5626,7 @@ sprpriority = 2
 
 [State 800]
 type = HitDef
+getpower = 60,30
 Trigger1 = Animelem = 5
 attr = S, NT          ;攻撃属性: これは Standing, Normal Throw（立ち通常投げ）
 hitflag = M-          ;相手がやられ状態ではない地上の時でしか掴む事が出来ません
@@ -5956,6 +5957,7 @@ sprpriority = 2
 
 [State 850, 1] ;攻撃予約
 type = HitDef
+getpower = 60,30
 Trigger1 = animelem = 2
 attr = A, NT						;空中通常投げ
 hitflag = A						;空中の相手のみ
@@ -5985,7 +5987,7 @@ movetype= A
 physics = N
 velset = 0, 0
 anim = 860
-poweradd = 160
+poweradd = 0
 
 [State 810, Snd 1];ボイス
 type = PlaySnd
@@ -6352,7 +6354,7 @@ palfx.add    = 130,0,-100
 palfx.sinadd = 110,110,110,10
 palfx.invertall = 1
 palfx.color     = 0
-getpower = ceil(60*fvar(30)*fvar(6)), ceil(30*fvar(30)*fvar(6))
+getpower = 30,15
 ID = 200
 
 [State 1005, カウンター]
@@ -6387,7 +6389,7 @@ palfx.add    = 130,0,-100
 palfx.sinadd = 110,110,110,10
 palfx.invertall = 1
 palfx.color     = 0
-getpower = ceil(100*fvar(30)*fvar(6)), ceil(40*fvar(30)*fvar(6))
+getpower = 30,15
 ID = 200
 
 [state 1005, 虎炎]
@@ -6679,7 +6681,7 @@ palfx.add    = 130,0,-100
 palfx.sinadd = 110,110,110,10
 palfx.invertall = 1
 palfx.color     = 0
-getpower = ceil(70*fvar(30)*fvar(6)), ceil(40*fvar(30)*fvar(6))
+getpower = 30,15
 ID = 200
 
 [State 1006, カウンター]
@@ -6715,7 +6717,7 @@ palfx.add    = 130,0,-100
 palfx.sinadd = 110,110,110,10
 palfx.invertall = 1
 palfx.color     = 0
-getpower = ceil(70*fvar(30)*fvar(6)), ceil(40*fvar(30)*fvar(6))
+getpower = 30,15
 ID = 200
 
 ;ブースト
@@ -7022,7 +7024,7 @@ palfx.add    = 130,0,-100
 palfx.sinadd = 110,110,110,10
 palfx.invertall = 1
 palfx.color     = 0
-getpower = ceil(60*fvar(30)*fvar(6)),ceil(30*fvar(30)*fvar(6))
+getpower = 60,30
 yaccel = .51
 ID = 200
 persistent = 0
@@ -7058,7 +7060,7 @@ palfx.add    = 130,0,-100
 palfx.sinadd = 110,110,110,10
 palfx.invertall = 1
 palfx.color     = 0
-getpower = ceil(100*fvar(30)*fvar(6)),ceil(40*fvar(30)*fvar(6))
+getpower = 60,30
 yaccel = .51
 ID = 200
 persistent = 0
@@ -7322,7 +7324,7 @@ palfx.add    = 130,0,-100
 palfx.sinadd = 110,110,110,10
 palfx.invertall = 1
 palfx.color     = 0
-getpower = ceil(60*fvar(30)*fvar(6)),ceil(30*fvar(30)*fvar(6))
+getpower = 60,30
 yaccel = .51
 ID = 200
 persistent = 0
@@ -7356,7 +7358,7 @@ palfx.add    = 130,0,-100
 palfx.sinadd = 110,110,110,10
 palfx.invertall = 1
 palfx.color     = 0
-getpower = ceil(100*fvar(30)*fvar(6)),ceil(40*fvar(30)*fvar(6))
+getpower = 60,30
 yaccel = .51
 ID = 200
 persistent = 0
@@ -7722,7 +7724,7 @@ palfx.add    = 130,0,-100
 palfx.sinadd = 110,110,110,10
 palfx.invertall = 1
 palfx.color     = 0
-getpower = ceil(60*fvar(30)*fvar(6)),ceil(30*fvar(30)*fvar(6))
+getpower = 30,15
 ID = 200
 persistent = 0
 
@@ -7760,7 +7762,7 @@ palfx.add    = 130,0,-100
 palfx.sinadd = 110,110,110,10
 palfx.invertall = 1
 palfx.color     = 0
-getpower = ceil(60*fvar(30)*fvar(6)),ceil(30*fvar(30)*fvar(6))
+getpower = 30,15
 ID = 200
 persistent = 0
 
@@ -8135,7 +8137,7 @@ palfx.add    = 130,0,-100
 palfx.sinadd = 110,110,110,10
 palfx.invertall = 1
 palfx.color     = 0
-getpower = ceil(60*fvar(30)*fvar(6)),ceil(30*fvar(30)*fvar(6))
+getpower = 30,15
 ID = 200
 persistent = 0
 
@@ -8173,7 +8175,7 @@ palfx.add    = 130,0,-100
 palfx.sinadd = 110,110,110,10
 palfx.invertall = 1
 palfx.color     = 0
-getpower = ceil(100*fvar(30)*fvar(6)),ceil(40*fvar(30)*fvar(6))
+getpower = 30,15
 ID = 200
 persistent = 0
 
@@ -8547,7 +8549,7 @@ palfx.add    = 130,0,-100
 palfx.sinadd = 110,110,110,10
 palfx.invertall = 1
 palfx.color     = 0
-getpower = ceil(60*fvar(30)*fvar(6)),ceil(30*fvar(30)*fvar(6))
+getpower = 60,30
 ID = 200
 persistent = 0
 
@@ -8585,7 +8587,7 @@ palfx.add    = 130,0,-100
 palfx.sinadd = 110,110,110,10
 palfx.invertall = 1
 palfx.color     = 0
-getpower = ceil(60*fvar(30)*fvar(6)),ceil(30*fvar(30)*fvar(6))
+getpower = 60,30
 ID = 200
 persistent = 0
 
@@ -9081,7 +9083,7 @@ fall.yvelocity = -1
 fall.envshake.time = 9
 air.fall = 1
 yaccel = .51
-getpower = ceil(20*fvar(30)*fvar(6)),ceil(10*fvar(30)*fvar(6))
+getpower = 6,3
 ID = 200
 
 [State 1300, カウンター]
@@ -9112,7 +9114,7 @@ fall.yvelocity = -1
 fall.envshake.time = 9
 air.fall = 1
 yaccel = .51
-getpower = ceil(40*fvar(30)*fvar(6)),ceil(20*fvar(30)*fvar(6))
+getpower = 6,3
 ID = 200
 
 [State 1300, ヒット定義]
@@ -9143,7 +9145,7 @@ fall.yvelocity = -1
 fall.envshake.time = 9
 air.fall = 1
 yaccel = .51
-getpower = ceil(20*fvar(30)*fvar(6)),ceil(10*fvar(30)*fvar(6))
+getpower = 6,3
 ID = 199
 
 [State 1300, カウンター]
@@ -9174,7 +9176,7 @@ fall.yvelocity = -1
 fall.envshake.time = 9
 air.fall = 1
 yaccel = .51
-getpower = ceil(40*fvar(30)*fvar(6)),ceil(20*fvar(30)*fvar(6))
+getpower = 6,3
 ID = 199
 
 [State 1300, ヒット定義]
@@ -9205,7 +9207,7 @@ fall.yvelocity = -1
 fall.envshake.time = 9
 air.fall = 1
 yaccel = .51
-getpower = ceil(20*fvar(30)*fvar(6)),ceil(10*fvar(30)*fvar(6))
+getpower = 6,3
 ID = 198
 
 [State 1300, カウンター]
@@ -9236,7 +9238,7 @@ fall.yvelocity = -1
 fall.envshake.time = 9
 air.fall = 1
 yaccel = .51
-getpower = ceil(40*fvar(30)*fvar(6)),ceil(20*fvar(30)*fvar(6))
+getpower = 6,3
 ID = 198
 
 [State 1300, ヒット定義]
@@ -9267,7 +9269,7 @@ fall.yvelocity = -1
 fall.envshake.time = 9
 air.fall = 1
 yaccel = .51
-getpower = ceil(20*fvar(30)*fvar(6)),ceil(10*fvar(30)*fvar(6))
+getpower = 6,3
 ID = 197
 
 [State 1300, カウンター]
@@ -9298,7 +9300,7 @@ fall.yvelocity = -1
 fall.envshake.time = 9
 air.fall = 1
 yaccel = .51
-getpower = ceil(40*fvar(30)*fvar(6)),ceil(20*fvar(30)*fvar(6))
+getpower = 6,3
 ID = 197
 
 [State 1300, ヒット定義]
@@ -9329,7 +9331,7 @@ fall.yvelocity = -1
 fall.envshake.time = 9
 air.fall = 1
 yaccel = .51
-getpower = ceil(20*fvar(30)*fvar(6)),ceil(10*fvar(30)*fvar(6))
+getpower = 6,3
 ID = 196
 
 [State 1300, カウンター]
@@ -9360,7 +9362,7 @@ fall.yvelocity = -1
 fall.envshake.time = 9
 air.fall = 1
 yaccel = .51
-getpower = ceil(40*fvar(30)*fvar(6)),ceil(20*fvar(30)*fvar(6))
+getpower = 6,3
 ID = 196
 
 [State 1300, ヒット定義]
@@ -9391,7 +9393,7 @@ fall.yvelocity = -1
 fall.envshake.time = 9
 air.fall = 1
 yaccel = .51
-getpower = ceil(20*fvar(30)*fvar(6)),ceil(10*fvar(30)*fvar(6))
+getpower = 6,3
 ID = 195
 
 [State 1300, カウンター]
@@ -9422,7 +9424,7 @@ fall.yvelocity = -1
 fall.envshake.time = 9
 air.fall = 1
 yaccel = .51
-getpower = ceil(40*fvar(30)*fvar(6)),ceil(20*fvar(30)*fvar(6))
+getpower = 6,3
 ID = 195
 
 [State 1300, ヒット定義]
@@ -9453,7 +9455,7 @@ fall.yvelocity = -1
 fall.envshake.time = 9
 air.fall = 1
 yaccel = .51
-getpower = ceil(20*fvar(30)*fvar(6)),ceil(10*fvar(30)*fvar(6))
+getpower = 6,3
 ID = 194
 
 [State 1300, カウンター]
@@ -9484,7 +9486,7 @@ fall.yvelocity = -1
 fall.envshake.time = 9
 air.fall = 1
 yaccel = .51
-getpower = ceil(40*fvar(30)*fvar(6)),ceil(20*fvar(30)*fvar(6))
+getpower = 6,3
 ID = 194
 
 [State 1300, ヒット定義]
@@ -9515,7 +9517,7 @@ fall.yvelocity = -1
 fall.envshake.time = 9
 air.fall = 1
 yaccel = .51
-getpower = ceil(20*fvar(30)*fvar(6)),ceil(10*fvar(30)*fvar(6))
+getpower = 6,3
 ID = 193
 
 [State 1300, カウンター]
@@ -9546,7 +9548,7 @@ fall.yvelocity = -1
 fall.envshake.time = 9
 air.fall = 1
 yaccel = .51
-getpower = ceil(40*fvar(30)*fvar(6)),ceil(20*fvar(30)*fvar(6))
+getpower = 6,3
 ID = 193
 
 [State 1300, ヒット定義]
@@ -9577,7 +9579,7 @@ fall.yvelocity = -1
 fall.envshake.time = 9
 air.fall = 1
 yaccel = .51
-getpower = ceil(20*fvar(30)*fvar(6)),ceil(10*fvar(30)*fvar(6))
+getpower = 6,3
 ID = 192
 
 [State 1300, カウンター]
@@ -9608,7 +9610,7 @@ fall.yvelocity = -1
 fall.envshake.time = 9
 air.fall = 1
 yaccel = .51
-getpower = ceil(40*fvar(30)*fvar(6)),ceil(20*fvar(30)*fvar(6))
+getpower = 6,3
 ID = 192
 
 [State 1000, 3];必殺ヒットエフェクトマーク
@@ -10078,7 +10080,7 @@ fall.yvelocity = -1
 fall.envshake.time = 9
 fall = 1
 yaccel = .51
-getpower = ceil(40*fvar(30)*fvar(6)),ceil(20*fvar(30)*fvar(6))
+getpower = 60,30
 ID = 200
 
 [State 1305, カウンター]
@@ -10108,7 +10110,7 @@ fall.yvelocity = -1
 fall.envshake.time = 9
 fall = 1
 yaccel = .51
-getpower = ceil(80*fvar(30)*fvar(6)),ceil(30*fvar(30)*fvar(6))
+getpower = 60,30
 ID = 200
 
 
@@ -10333,7 +10335,7 @@ fall.yvelocity = -1
 fall.envshake.time = 9
 fall = 1
 yaccel = .51
-getpower = ceil(60*fvar(30)*fvar(6)),ceil(30*fvar(30)*fvar(6))
+getpower = 60,30
 ID = 200
 
 [State 1400, カウンター]
@@ -10364,7 +10366,7 @@ fall.yvelocity = -1
 fall.envshake.time = 9
 fall = 1
 yaccel = .51
-getpower = ceil(100*fvar(30)*fvar(6)),ceil(40*fvar(30)*fvar(6))
+getpower = 60,30
 ID = 200
 
 [State 1000, 3];必殺ヒットエフェクトマーク
@@ -10669,7 +10671,7 @@ palfx.add    = 130,0,-100
 palfx.sinadd = 110,110,110,10
 palfx.invertall = 1
 palfx.color     = 0
-getpower = ceil(60*fvar(30)*fvar(6)),ceil(30*fvar(30)*fvar(6))
+getpower = 60,30
 ID = 200
 
 [State 1450, ヒット定義]
@@ -10706,7 +10708,7 @@ palfx.add    = 130,0,-100
 palfx.sinadd = 110,110,110,10
 palfx.invertall = 1
 palfx.color     = 0
-getpower = ceil(60*fvar(30)*fvar(6)),ceil(30*fvar(30)*fvar(6))
+getpower = 60,30
 ID = 199
 
 [State 1450, カウンター]
@@ -10743,7 +10745,7 @@ palfx.add    = 130,0,-100
 palfx.sinadd = 110,110,110,10
 palfx.invertall = 1
 palfx.color     = 0
-getpower = ceil(100*fvar(30)*fvar(6)),ceil(40*fvar(30)*fvar(6))
+getpower = 60,30
 ID = 200
 
 [State 1450, カウンター]
@@ -10780,7 +10782,7 @@ palfx.add    = 130,0,-100
 palfx.sinadd = 110,110,110,10
 palfx.invertall = 1
 palfx.color     = 0
-getpower = ceil(100*fvar(30)*fvar(6)),ceil(40*fvar(30)*fvar(6))
+getpower = 60,30
 ID = 199
 
 [State 1000, 3];必殺ヒットエフェクトマーク

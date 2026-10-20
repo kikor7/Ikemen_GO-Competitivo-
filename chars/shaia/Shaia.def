@@ -12,6 +12,7 @@ pal.defaults = 1,2,4,3      ;Default palettes in order of preference
 
 ; Files for the player
 [Files]
+movelist = movelist.dat
 cmd      = Shaia.cmd        ;Command set
 cns      = Shaia.cns        ;Constants
 st       = Shaia.cns        ;States

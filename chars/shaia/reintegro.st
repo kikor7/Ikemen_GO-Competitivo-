@@ -359,7 +359,7 @@ time = 9999
 [State 4050, 5]
 type = poweradd
 trigger1 = animelem = 4
-value = 100
+value = 0
 
 
 [State 4050, Super B]
@@ -534,7 +534,7 @@ time = 9999
 [State 4052, 5]
 type = poweradd
 trigger1 = animelem = 4
-value = 10
+value = 0
 
 [State 4052, Super B]
 type = PlaySnd
@@ -931,7 +931,7 @@ time = 1
 [State 4054, 5]
 type = poweradd
 trigger1 = animelem = 4
-value = 100
+value = 0
 
 [State 4054, Super B]
 type = PlaySnd

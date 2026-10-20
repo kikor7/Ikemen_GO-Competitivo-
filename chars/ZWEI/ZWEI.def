@@ -8,6 +8,7 @@ author		  ="Rei"
 pal.defaults	  =1,3,5,7,9,11
 ;„ª„ª„ª„ª„ª„ª„ª„ª„ª„ª„ª„ª„ª„ª„ª„ª„ª„ª„ª„ª„ª„ª„ª„ª
 [Files]
+movelist = movelist.dat
 cmd               =SYS/ZWEI_COMMAND.cmd
 cns               =CNS/ZWEI_ETC.cns
 st                =CNS/ZWEI_ETC.cns

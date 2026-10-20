@@ -27,6 +27,7 @@ type = HitDef
 trigger1 = AnimElem = 3
 attr = S, NA                     ;Attribute: [Air(A), Standing(S), Crouching(C)] , [All (A), Normal Attack (N), Special (S), Hyper (H)][Attack (A), Throw (T), Projectile (P)]
 damage = 30, 0                   ;Damage that move inflicts, guard damage
+getpower = 3,1
 animtype = Light                 ;Animation type: Light, Medium, Heavy, Back, Up, DiagUp (def: Light)
 guardflag = MA                   ;Flags on how move is to be guarded against
 hitflag = MAF                    ;Flags of conditions that move can hit; medium(=HL), high, low, air, fall, down
@@ -141,6 +142,7 @@ trigger1 = AnimElem = 6
 trigger2 = AnimElem = 7 && !movecontact
 attr = S, NA                     ;Attribute: Standing, Normal Attack
 damage = 80, 0                   ;Damage that move inflicts, guard damage
+getpower = 60,30
 animtype = Up                 ;Animation type: Light, Medium, Heavy, Back, Up, DiagUp (def: Light)
 guardflag = MA                   ;Flags on how move is to be guarded against
 hitflag = MAF                    ;Flags of conditions that move can hit
@@ -269,6 +271,7 @@ trigger3 = AnimElem = 12 && !movecontact
 attr = S, NA
 animtype  = Medium
 damage    = 64
+getpower = 6,3
 hitflag = MAF                    ;Flags of conditions that move can hit; medium(=HL), high, low, air, fall, down
 guardflag = MA
 pausetime = 12,12
@@ -388,6 +391,7 @@ trigger2 = AnimElem = 10 && !movecontact
 attr = S, NA
 animtype  = Medium
 damage    = 66
+getpower = 60,30
 guardflag = HA
 pausetime = 12,15
 sparkno = S-1 
@@ -413,6 +417,7 @@ trigger2 = AnimElem = 10 && !movecontact
 attr = S, NA
 animtype  = Medium
 damage    = 66
+getpower = 60,30
 guardflag = HA
 pausetime = 12,15
 sparkno = S-1 
@@ -547,6 +552,7 @@ trigger2 = AnimElem = 10 && !movecontact
 attr = S, NA
 animtype  = Medium
 damage    = 90
+getpower = 7,3
 guardflag = MA
 pausetime = 12,8
 sparkno = S-1 
@@ -569,6 +575,7 @@ trigger1 = AnimElem = 10
 attr = S, NA
 animtype  = Medium
 damage    = 90
+getpower = 7,3
 hitflag = MAF
 guardflag = MA
 pausetime = 12,12
@@ -737,6 +744,7 @@ trigger1 = animelem = 7
 attr = S, NA
 animtype  = Light
 damage    = 70
+getpower = 20,10
 hitflag = MFD
 guardflag = L
 pausetime = 12,12
@@ -761,6 +769,7 @@ trigger1 = animelem = 7
 attr = S, NA
 animtype  = Light
 damage    = 70
+getpower = 20,10
 guardflag = LA
 pausetime = 9,9
 sparkno = S-1 
@@ -784,6 +793,7 @@ trigger1 = animelem = 12
 attr = S, NA
 animtype  = Up
 damage    = 70
+getpower = 20,10
 guardflag = MA
 pausetime = 12,12
 sparkno = S-1 
@@ -808,6 +818,7 @@ trigger1 = animelem = 12
 attr = S, NA
 animtype  = Up
 damage    = 70
+getpower = 20,10
 guardflag = MA
 pausetime = 12,12
 sparkno = S-1 
@@ -832,6 +843,7 @@ trigger1 = animelem = 12
 attr = S, NA
 animtype  = Up
 damage    = 70
+getpower = 20,10
 hitflag   = MAF
 guardflag = MA
 pausetime = 12,12
@@ -1148,6 +1160,7 @@ trigger1 = animelem = 6
 attr = S, NA
 animtype  = Hard
 damage    = 50
+getpower = 10,5
 guardflag = MA
 pausetime = 10,10
 guard.sparkno = S8102
@@ -1170,6 +1183,7 @@ trigger1 = animelem = 10
 attr = S, NA
 animtype  = Hard
 damage    = 60
+getpower = 10,5
 guardflag = MA
 pausetime = 12,12
 guard.sparkno = S8102
@@ -1194,6 +1208,7 @@ trigger1 = animelem = 6
 attr = S, NA
 animtype  = Up
 damage    = 50
+getpower = 10,5
 guardflag = MA
 pausetime = 12,12
 guard.sparkno = S8102
@@ -1217,6 +1232,7 @@ trigger1 = animelem = 6
 attr = S, NA
 animtype  = Up
 damage    = 50
+getpower = 10,5
 guardflag = MA
 pausetime = 12,12
 guard.sparkno = S8102
@@ -1240,6 +1256,7 @@ trigger1 = animelem = 10
 attr = S, NA
 animtype  = Hard
 damage    = 66
+getpower = 10,5
 guardflag = MA
 pausetime = 12,8
 guard.sparkno = S8102
@@ -1264,6 +1281,7 @@ trigger1 = animelem = 10
 attr = S, NA
 animtype  = Hard
 damage    = 76
+getpower = 10,5
 guardflag = MA
 pausetime = 12,8
 guard.sparkno = S8102
@@ -1289,6 +1307,7 @@ trigger1 = animelem = 10
 attr = S, NA
 animtype  = Hard
 damage    = 76
+getpower = 10,5
 guardflag = MA
 pausetime = 12,8
 guard.sparkno = S8102
@@ -1314,6 +1333,7 @@ trigger1 = animelem = 10
 attr = S, NA
 animtype  = Hard
 damage    = 68
+getpower = 10,5
 guardflag = MA
 pausetime = 12,8
 guard.sparkno = S8102
@@ -1530,6 +1550,7 @@ trigger1 = animelemtime(9) = 0
 attr = S, NA
 animtype  = Hard
 damage    = 100
+getpower = 60,30
 hitflag = MAF
 guardflag = MA
 pausetime = 12,12
@@ -1557,6 +1578,7 @@ trigger1 = animelemtime(9) = 0
 attr = S, NA
 animtype  = Up
 damage    = 75
+getpower = 60,30
 hitflag = MAFD
 guardflag = MA
 pausetime = 12,12
@@ -1583,6 +1605,7 @@ trigger1 = animelemtime(9) = 0
 attr = S, NA
 animtype  = Up
 damage    = 110
+getpower = 60,30
 hitflag = MAFD
 guardflag = MA
 pausetime = 12,12
@@ -2139,7 +2162,7 @@ trigger1 = AnimElem = 5
 attr = S, SA
 animtype  = Hard
 damage    = 120, 5
-getpower  = 0
+getpower = 20,10
 priority  = 4
 guardflag = MA
 pausetime = 8,8
@@ -2292,7 +2315,7 @@ trigger1 = AnimElem = 10
 attr = S, HA
 animtype  = Diagup
 damage    = 90
-getpower  = 0
+getpower = 10,5
 priority  = 6
 hitflag = MAFD
 guardflag = MA
@@ -2481,6 +2504,7 @@ type = HitDef
 trigger1 = Time = 0
 attr = C, NA
 damage    = 30
+getpower = 30,15
 priority  = 3
 animtype  = Light
 hitflag = MAF
@@ -2564,6 +2588,7 @@ type = HitDef
 trigger1 = AnimElem = 5
 attr = C, NA
 damage    = 55
+getpower = 30,15
 animtype  = Medium
 hitflag = MAF
 guardflag = MA
@@ -2681,6 +2706,7 @@ triggerall = var(20) = 1
 trigger1 = Time = 0
 attr = C, NA
 damage    = 80
+getpower = 30,15
 animtype  = Hard
 hitflag = MAFD
 guardflag = HLA
@@ -2708,6 +2734,7 @@ triggerall = var(20) != 1
 trigger1 = Time = 0
 attr = C, NA
 damage    = 80
+getpower = 30,15
 animtype  = Hard
 hitflag = MAFD
 guardflag = HLA
@@ -2806,6 +2833,7 @@ type = HitDef
 trigger1 = animelem = 8
 attr = C, NA
 damage    = 90
+getpower = 30,15
 animtype  = Light
 hitflag = MAFD
 guardflag = LA
@@ -2989,6 +3017,7 @@ triggerall =! var(10)
 trigger1 = Time = 0
 attr = C, NA
 damage    = 80
+getpower = 30,15
 hitflag = MAFD
 guardflag = LA
 pausetime = 12,12
@@ -3017,6 +3046,7 @@ triggerall = var(20) >= 3
 trigger1 = Time = 0
 attr = C, NA
 damage    = 88
+getpower = 30,15
 hitflag = MAFD
 guardflag = L
 pausetime = 12,12
@@ -3043,6 +3073,7 @@ triggerall = var(20) <= 2
 trigger1 = Time = 0
 attr = C, NA
 damage    = 88
+getpower = 30,15
 hitflag = MAFD
 guardflag = L
 pausetime = 12,12
@@ -3145,6 +3176,7 @@ type = HitDef
 trigger1 = Time = 0
 attr = A, NA
 damage    = 30
+getpower = 2,1
 guardflag = HA
 priority = 3
 pausetime = 7,8
@@ -3282,6 +3314,7 @@ trigger1 = Time = 0
 attr = A, NA
 animtype = Med
 damage = 60
+getpower = 30,15
 guardflag = HA
 priority = 4
 pausetime = 12,12
@@ -3414,6 +3447,7 @@ type = HitDef
 trigger1 = Time = 0
 attr = A, NA
 damage = 90
+getpower = 30,15
 guardflag = HA
 priority = 3
 pausetime = 12,12
@@ -3614,6 +3648,7 @@ type = HitDef
 trigger1 = Time = 0
 attr = A, NA
 damage    = 74
+getpower = 30,15
 guardflag = HA
 priority = 4
 pausetime = 12,12
@@ -3749,6 +3784,7 @@ trigger1 = animelem = 4
 attr = S, NA
 animtype  = Hard
 damage    = 70
+getpower = 30,15
 hitflag = MAF
 guardflag = MA
 pausetime = 12,12
@@ -3774,6 +3810,7 @@ trigger1 = animelem = 4
 attr = S, NA
 animtype  = Up
 damage    = 81.4
+getpower = 30,15
 hitflag = MAFD
 guardflag = MA
 pausetime = 12,12
@@ -3858,6 +3895,7 @@ trigger1 = AnimElem = 6
 trigger2 = AnimElem = 7 && !movecontact
 attr = S, NA                     ;Attribute: Standing, Normal Attack
 damage = 80, 0                   ;Damage that move inflicts, guard damage
+getpower = 3,1
 animtype = Up                 ;Animation type: Light, Medium, Heavy, Back, Up, DiagUp (def: Light)
 guardflag = MA                   ;Flags on how move is to be guarded against
 hitflag = MAF                    ;Flags of conditions that move can hit
@@ -3973,6 +4011,7 @@ trigger1 = AnimElem = 11
 attr = S, NA
 animtype  = Medium
 damage    = 64
+getpower = 3,1
 hitflag = MAF                    ;Flags of conditions that move can hit; medium(=HL), high, low, air, fall, down
 guardflag = MA
 pausetime = 12,12
@@ -4120,6 +4159,7 @@ trigger2 = AnimElem = 10 && !movecontact
 attr = S, NA
 animtype  = Medium
 damage    = 90
+getpower = 3,1
 guardflag = MA
 pausetime = 12,8
 sparkno = S-1 
@@ -4141,6 +4181,7 @@ trigger1 = AnimElem = 10
 attr = S, NA
 animtype  = Medium
 damage    = 90
+getpower = 3,1
 guardflag = MA
 pausetime = 12,12
 sparkno = S-1 
@@ -4304,6 +4345,7 @@ trigger1 = animelem = 6
 attr = S, NA
 animtype  = Hard
 damage    = 50
+getpower = 3,1
 guardflag = MA
 pausetime = 10,10
 guard.sparkno = S8102
@@ -4325,6 +4367,7 @@ trigger1 = animelem = 10
 attr = S, NA
 animtype  = Hard
 damage    = 60
+getpower = 3,1
 guardflag = MA
 pausetime = 12,12
 guard.sparkno = S8102
@@ -4347,6 +4390,7 @@ trigger1 = animelem = 6
 attr = S, NA
 animtype  = Up
 damage    = 50
+getpower = 3,1
 guardflag = MA
 pausetime = 12,12
 guard.sparkno = S8102
@@ -4368,6 +4412,7 @@ trigger1 = animelem = 6
 attr = S, NA
 animtype  = Up
 damage    = 50
+getpower = 3,1
 guardflag = MA
 pausetime = 12,12
 guard.sparkno = S8102
@@ -4389,6 +4434,7 @@ trigger1 = animelem = 10
 attr = S, NA
 animtype  = Hard
 damage    = 66
+getpower = 3,1
 guardflag = MA
 pausetime = 12,8
 guard.sparkno = S8102
@@ -4411,6 +4457,7 @@ trigger1 = animelem = 10
 attr = S, NA
 animtype  = Hard
 damage    = 76
+getpower = 3,1
 guardflag = MA
 pausetime = 12,8
 guard.sparkno = S8102
@@ -4434,6 +4481,7 @@ trigger1 = animelem = 10
 attr = S, NA
 animtype  = Hard
 damage    = 76
+getpower = 3,1
 guardflag = MA
 pausetime = 12,8
 guard.sparkno = S8102
@@ -4457,6 +4505,7 @@ trigger1 = animelem = 10
 attr = S, NA
 animtype  = Hard
 damage    = 68
+getpower = 3,1
 guardflag = MA
 pausetime = 12,8
 guard.sparkno = S8102
@@ -4565,6 +4614,7 @@ trigger1 = Time = 0
 attr = A, NA
 animtype = Med
 damage = 60
+getpower = 2,1
 guardflag = HA
 priority = 4
 pausetime = 12,12
@@ -4687,6 +4737,7 @@ type = HitDef
 trigger1 = Time = 0
 attr = A, NA
 damage = 90
+getpower = 2,1
 guardflag = HA
 priority = 3
 pausetime = 12,12
@@ -4823,6 +4874,7 @@ type = HitDef
 trigger1 = Time = 0
 attr = A, NA
 damage    = 74
+getpower = 2,1
 guardflag = HA
 priority = 4
 pausetime = 12,12
@@ -4988,6 +5040,7 @@ trigger2 = AnimElem = 10 && !movecontact
 attr = S, NA
 animtype  = Medium
 damage    = 90
+getpower = 6,3
 guardflag = MA
 pausetime = 12,8
 sparkno = S-1 
@@ -5009,6 +5062,7 @@ trigger1 = AnimElem = 10
 attr = S, NA
 animtype  = Medium
 damage    = 90
+getpower = 6,3
 guardflag = MA
 pausetime = 12,12
 sparkno = S-1 
@@ -5181,6 +5235,7 @@ trigger1 = animelem = 6
 attr = S, NA
 animtype  = Hard
 damage    = 50
+getpower = 6,3
 guardflag = MA
 pausetime = 10,10
 guard.sparkno = S8102
@@ -5202,6 +5257,7 @@ trigger1 = animelem = 10
 attr = S, NA
 animtype  = Hard
 damage    = 60
+getpower = 6,3
 guardflag = MA
 pausetime = 12,12
 guard.sparkno = S8102
@@ -5224,6 +5280,7 @@ trigger1 = animelem = 6
 attr = S, NA
 animtype  = Up
 damage    = 50
+getpower = 6,3
 guardflag = MA
 pausetime = 12,12
 guard.sparkno = S8102
@@ -5245,6 +5302,7 @@ trigger1 = animelem = 6
 attr = S, NA
 animtype  = Up
 damage    = 50
+getpower = 6,3
 guardflag = MA
 pausetime = 12,12
 guard.sparkno = S8102
@@ -5266,6 +5324,7 @@ trigger1 = animelem = 10
 attr = S, NA
 animtype  = Hard
 damage    = 66
+getpower = 6,3
 guardflag = MA
 pausetime = 12,8
 guard.sparkno = S8102
@@ -5288,6 +5347,7 @@ trigger1 = animelem = 10
 attr = S, NA
 animtype  = Hard
 damage    = 76
+getpower = 6,3
 guardflag = MA
 pausetime = 12,8
 guard.sparkno = S8102
@@ -5311,6 +5371,7 @@ trigger1 = animelem = 10
 attr = S, NA
 animtype  = Hard
 damage    = 76
+getpower = 6,3
 guardflag = MA
 pausetime = 12,8
 guard.sparkno = S8102
@@ -5334,6 +5395,7 @@ trigger1 = animelem = 10
 attr = S, NA
 animtype  = Hard
 damage    = 68
+getpower = 6,3
 guardflag = MA
 pausetime = 12,8
 guard.sparkno = S8102
@@ -5489,6 +5551,7 @@ trigger1 = animelem = 6
 attr = S, NA
 animtype  = Hard
 damage    = 50
+getpower = 7,3
 guardflag = MA
 pausetime = 10,10
 guard.sparkno = S8102
@@ -5510,6 +5573,7 @@ trigger1 = animelem = 10
 attr = S, NA
 animtype  = Hard
 damage    = 60
+getpower = 7,3
 guardflag = MA
 pausetime = 12,12
 guard.sparkno = S8102
@@ -5532,6 +5596,7 @@ trigger1 = animelem = 6
 attr = S, NA
 animtype  = Up
 damage    = 50
+getpower = 7,3
 guardflag = MA
 pausetime = 12,12
 guard.sparkno = S8102
@@ -5553,6 +5618,7 @@ trigger1 = animelem = 6
 attr = S, NA
 animtype  = Up
 damage    = 50
+getpower = 7,3
 guardflag = MA
 pausetime = 12,12
 guard.sparkno = S8102
@@ -5574,6 +5640,7 @@ trigger1 = animelem = 10
 attr = S, NA
 animtype  = Hard
 damage    = 66
+getpower = 7,3
 guardflag = MA
 pausetime = 12,8
 guard.sparkno = S8102
@@ -5596,6 +5663,7 @@ trigger1 = animelem = 10
 attr = S, NA
 animtype  = Hard
 damage    = 76
+getpower = 7,3
 guardflag = MA
 pausetime = 12,8
 guard.sparkno = S8102
@@ -5619,6 +5687,7 @@ trigger1 = animelem = 10
 attr = S, NA
 animtype  = Hard
 damage    = 76
+getpower = 7,3
 guardflag = MA
 pausetime = 12,8
 guard.sparkno = S8102
@@ -5642,6 +5711,7 @@ trigger1 = animelem = 10
 attr = S, NA
 animtype  = Hard
 damage    = 68
+getpower = 7,3
 guardflag = MA
 pausetime = 12,8
 guard.sparkno = S8102
@@ -5856,6 +5926,7 @@ trigger1 = AnimElem = 6
 attr = S, SA
 animtype  = Hard
 damage    = 90, 4
+getpower = 3,1
 priority  = 5
 hitflag = MAFD
 guardflag = MA
@@ -5977,6 +6048,7 @@ trigger1 = AnimElem = 10
 attr = S, SA
 animtype  = Diagup
 damage    = 100, 4
+getpower = 3,1
 priority  = 4
 hitflag = MAFD
 guardflag = MA
@@ -6193,6 +6265,7 @@ trigger1 = AnimElem = 5
 attr = S, SA
 animtype  = Hard
 damage    = 48, 4
+getpower = 2,1
 priority  = 5
 guardflag = MA
 pausetime = 10,10
@@ -6213,6 +6286,7 @@ trigger1 = AnimElem = 6 || AnimElem = 7
 attr = S, SA
 animtype  = Hard
 damage    = 48, 4
+getpower = 2,1
 priority  = 5
 guardflag = MA
 pausetime = 2,2
@@ -6531,7 +6605,7 @@ trigger1 = AnimElem = 5
 attr = S, SA
 animtype  = Hard
 damage    = 70, 5
-getpower  = 0
+getpower = 2,1
 priority  = 4
 guardflag = MA
 pausetime = 16,8
@@ -6675,7 +6749,7 @@ trigger1 = AnimElem = 3
 attr = S, SA
 animtype  = up
 damage    = 80, 5
-getpower  = 0
+getpower = 2,1
 priority  = 4
 guardflag = MA
 pausetime = 8,7
@@ -6700,7 +6774,7 @@ trigger1 = AnimElem = 3
 attr = S, SA
 animtype  = up
 damage    = 55, 5
-getpower  = 0
+getpower = 2,1
 priority  = 4
 guardflag = MA
 pausetime = 8,7
@@ -6856,6 +6930,7 @@ trigger1 = AnimElem = 7
 attr = S, SA
 animtype  = Hard
 damage    = 60, 4
+getpower = 2,1
 priority  = 5
 guardflag = MA
 pausetime = 15,15
@@ -6875,6 +6950,7 @@ trigger1 = AnimElem = 12
 attr = S, SA
 animtype  = Up
 damage    = 60, 4
+getpower = 2,1
 priority  = 4
 guardflag = MA
 pausetime = 15,15
@@ -6985,7 +7061,7 @@ trigger1 = AnimElem = 7
 attr = S, SA
 animtype  = Up
 damage    = 46, 5
-getpower  = 0
+getpower = 2,1
 priority  = 4
 guardflag = MA
 pausetime = 8,7
@@ -7118,7 +7194,7 @@ trigger2 = AnimElem = 8 && !movecontact
 attr = S, SA
 animtype  = Hard
 damage    = 140, 5
-getpower  = 0
+getpower = 2,1
 priority  = 4
 guardflag = MA
 pausetime = 8,7

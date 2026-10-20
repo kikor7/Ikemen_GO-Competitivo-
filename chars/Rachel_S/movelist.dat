@@ -1,0 +1,12 @@
+<#f0f000>:Special Moves:</>
+Tiny_lobelia			_QCF^C
+Tiny_lobelia			_QCF^B
+Tiny_lobelia			_QCF^A
+Pumpkin			_QCB^B
+Pumpkin			_QCB^C
+
+<#f0f000>:Hyper Moves:</>
+combobreaker <#f00000>(2000)</>			^A_+^B_+^C
+Wind <#f00000>(3000)</>			_QCB_QCB^A
+Wind <#f00000>(2000)</>			_QCB_QCB^B
+Baden_Baden_Lily_A <#f00000>(1000)</>			_QCB_QCB^C

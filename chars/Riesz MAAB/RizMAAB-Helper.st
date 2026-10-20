@@ -4927,7 +4927,7 @@ physics = N
 ctrl = 0
 anim = 12600
 sprpriority = 7
-poweradd = 150
+poweradd = 0
 
 [State 12600, 1]
 type = NotHitBy
@@ -5652,7 +5652,7 @@ physics = N
 ctrl = 0
 anim = 12800
 sprpriority = 1
-poweradd = 300
+poweradd = 20
 
 [State 12800, 1]
 type = NotHitBy

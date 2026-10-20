@@ -4112,7 +4112,7 @@ trigger1 = AnimElem = 3
 attr = S, NA
 damage    = 25
 animtype = Light
-getpower=   (Var(10)=0)*  30,15
+getpower = 30,15
 givepower = 15,8
 guardflag = MA
 hitflag = MAFD
@@ -4155,7 +4155,7 @@ trigger1 = AnimElem = 2
 attr = S, NA
 damage    = 20
 animtype = Light
-getpower=   (Var(10)=0)*  20,10
+getpower = 30,15
 givepower = 15,8
 guardflag = HA
 hitflag = HAFD
@@ -4218,7 +4218,7 @@ type = HitDef
 trigger1 = AnimElem = 3
 attr = S, NA
 animtype  = Hard
-getpower=   (Var(10)=0)*  30
+getpower = 30,15
 givepower = 20
 damage    = 50
 hitflag = MAFD
@@ -4294,7 +4294,7 @@ type = HitDef
 trigger1 = AnimElem = 4
 attr = S, NA
 animtype  = Medium
-getpower=   (Var(10)=0)*  20,15
+getpower = 15,7
 givepower = 15,8
 damage    = 50
 hitflag = MAFD
@@ -4321,7 +4321,7 @@ trigger1 = AnimElem = 5
 attr = S, NA
 damage    = 15
 animtype = Medium
-getpower=   (Var(10)=0)*  30,15
+getpower = 15,7
 givepower = 15,8
 guardflag = MA
 hitflag = MAFD
@@ -4371,7 +4371,7 @@ trigger1 = AnimElem = 2
 attr = S, NA
 damage    = 35
 animtype = Medium
-getpower=   (Var(10)=0)*  30,15
+getpower = 30,15
 givepower = 15,8
 guardflag = MA
 hitflag = MAFD
@@ -4445,7 +4445,7 @@ type = HitDef
 trigger1 = AnimElem = 3
 attr = S, NA
 animtype  = Heavy
-getpower=   (Var(10)=0)*  60,30
+getpower = 30,15
 givepower = 40,20
 damage    = 100
 hitflag = MAFD
@@ -4498,7 +4498,7 @@ trigger1 = AnimElem = 4
 attr = S, NA
 damage    = 110
 animtype = Heavy
-getpower=   (Var(10)=0)*  40,20
+getpower = 30,15
 givepower = 30,15
 guardflag = MA
 hitflag = HAFD
@@ -4549,7 +4549,7 @@ trigger1 = AnimElem = 2
 attr = S, NA
 damage    = 90
 animtype = Heavy
-getpower=   (Var(10)=0)*  60,30
+getpower = 30,15
 givepower = 30,20
 guardflag = MA
 hitflag = HAFD
@@ -4593,7 +4593,7 @@ trigger1 = AnimElem = 3
 attr = S, NA
 damage    = 35
 animtype = Medium
-getpower=   (Var(10)=0)*  60,30
+getpower = 30,15
 givepower = 30,20
 guardflag = MA
 hitflag = HAFD
@@ -4667,7 +4667,7 @@ type = HitDef
 trigger1 = AnimElem = 5
 attr = S, NA
 animtype  = Heavy
-getpower=   (Var(10)=0)*  70,35
+getpower = 30,15
 givepower = 40,20
 damage    = 100, 10
 hitflag = MAFD
@@ -4797,7 +4797,7 @@ type = HitDef
 trigger1 = AnimElem = 5
 attr = S, NA
 animtype  = Medium
-getpower=   (Var(10)=0)*  70,35
+getpower = 30,15
 givepower = 40,20
 damage    = 70
 hitflag = MAF
@@ -4818,7 +4818,7 @@ air.velocity = -4,-4
 type = HitDef
 trigger1 = animelem = 12
 attr = S, NA
-getpower=   (Var(10)=0)*  70,35
+getpower = 30,15
 givepower = 40,20
 animtype = heavy
 damage    = 70
@@ -4940,7 +4940,7 @@ volume = 25
 type = HitDef
 trigger1 = animelem = 7
 attr = S, NA
-getpower=   (Var(10)=0)*  70,35
+getpower = 60,30
 givepower = 40,20
 animtype = Up
 damage    = 70
@@ -5033,7 +5033,7 @@ x = 2
 type = HitDef
 trigger1 = animelem = 5
 attr = S, NA
-getpower=   (Var(10)=0)*  70,35
+getpower = 20,10
 givepower = 40,20
 animtype = hard
 damage    = 50
@@ -5108,7 +5108,7 @@ value = 25
 type = HitDef
 trigger1 = animelem = 5
 attr = S, NA
-getpower=   (Var(10)=0)*  70,35
+getpower = 20,10
 givepower = 40,20
 animtype = hard
 damage    = 50
@@ -5188,7 +5188,7 @@ value = 4,8
 type = HitDef
 trigger1 = animelem = 5
 attr = S, NA
-getpower=   (Var(10)=0)*  80,35
+getpower = 20,10
 givepower = 40,20
 animtype = hard
 damage    = 120
@@ -5252,7 +5252,7 @@ trigger1 = AnimElem = 2
 attr = C, NA
 damage    = 20
 animtype = Light
-getpower=   (Var(10)=0)*  20,10
+getpower = 30,15
 givepower = 15,8
 guardflag = L
 hitflag = MFD
@@ -5292,7 +5292,7 @@ trigger1 = AnimElem = 2
 attr = C, NA
 damage    = 20
 animtype = Light
-getpower=   (Var(10)=0)*  20,10
+getpower = 30,15
 givepower = 15,8
 guardflag = MA
 hitflag = MAFD
@@ -5334,7 +5334,7 @@ trigger1 = AnimElem = 3
 attr = C, NA
 damage    = 50
 animtype = Medium
-getpower=   (Var(10)=0)*  30,15
+getpower = 30,15
 givepower = 15,8
 guardflag = L
 hitflag = MFD
@@ -5374,7 +5374,7 @@ trigger1 = AnimElem = 3
 attr = C, NA
 damage    = 50
 animtype = Medium
-getpower=   (Var(10)=0)*  30,15
+getpower = 30,15
 givepower = 15,8
 guardflag = MA
 hitflag = MAFD
@@ -5419,7 +5419,7 @@ type = HitDef
 trigger1 = AnimElem = 2
 attr = C, NA
 damage    = 85
-getpower=  (Var(10)=0)* 40,20
+getpower = 30,15
 givepower = 30,15
 hitflag = MFD
 guardflag = L
@@ -5458,7 +5458,7 @@ trigger1 = AnimElem = 2
 attr = C, NA
 damage    = 55
 animtype = Up
-getpower=   (Var(10)=0)*  50,25
+getpower = 30,15
 givepower = 30,15
 guardflag = MA
 hitflag = MAFD
@@ -5508,7 +5508,7 @@ type = HitDef
 trigger1 = AnimElem = 3
 attr = A, NA
 damage    = 15
-getpower=  (Var(10)=0)* 10
+getpower = 30,15
 givepower = 10
 guardflag = HA
 hitflag = MAF
@@ -5545,7 +5545,7 @@ type = HitDef
 trigger1 = AnimElem = 2
 attr = A, NA
 damage    = 12
-getpower=  (Var(10)=0)* 10
+getpower = 30,15
 givepower = 10
 guardflag = HA
 hitflag = MAF
@@ -5583,7 +5583,7 @@ type = HitDef
 trigger1 = AnimElem = 2
 attr = A, NA
 damage    = 15
-getpower=  (Var(10)=0)* 10
+getpower = 30,15
 givepower = 10
 guardflag = HA
 hitflag = MAF
@@ -5621,7 +5621,7 @@ type = HitDef
 trigger1 = AnimElem = 4
 attr = A, NA
 damage    = 70
-getpower=  (Var(10)=0)* 50
+getpower = 30,15
 givepower = 25
 guardflag = HA
 hitflag = MAF
@@ -5659,7 +5659,7 @@ type = HitDef
 trigger1 = AnimElem = 2
 attr = A, NA
 damage    = 70
-getpower=  (Var(10)=0)* 50
+getpower = 60,30
 givepower = 25
 guardflag = HA
 hitflag = MAF
@@ -5696,7 +5696,7 @@ type = HitDef
 trigger1 = AnimElem = 3
 attr = A, NA
 damage    = 60
-getpower=  (Var(10)=0)* 40
+getpower = 30,15
 givepower = 25
 guardflag = HA
 hitflag = MAF
@@ -5733,7 +5733,7 @@ type = HitDef
 trigger1 = AnimElem = 3
 attr = A, NA
 damage    = 100
-getpower=  (Var(10)=0)* 30
+getpower = 30,15
 givepower = 40
 guardflag = HA
 hitflag = MAF
@@ -5773,7 +5773,7 @@ type = HitDef
 trigger1 = AnimElem = 3
 attr = A, NA
 damage    = 100
-getpower=  (Var(10)=0)* 30
+getpower = 60,30
 givepower = 40
 guardflag = HA
 hitflag = MAF
@@ -5813,7 +5813,7 @@ type = HitDef
 trigger1 = AnimElem = 3
 attr = A, NA
 damage    = 100
-getpower=  (Var(10)=0)* 30
+getpower = 30,15
 givepower = 40
 guardflag = HA
 hitflag = MAF
@@ -6003,6 +6003,7 @@ trigger1 = AnimElem = 4
 attr = S, NA
 animtype  = Medium
 damage    = 60,15
+getpower = 30,15
 hitflag = MAF
 guardflag = HA
 priority = 4, Hit
@@ -6048,7 +6049,7 @@ sparkxy = 0,-70
 sparkno = 1
 guard.sparkno = S9100
 pausetime = 10,10
-getpower=   (Var(10)=0)*  30
+getpower = 30,15
 givepower = 15
 hitsound   = S6,4
 guardsound = S0,100
@@ -6073,6 +6074,7 @@ anim = 900
 sprpriority = 2
 [State 900, 2]
 type = HitDef
+getpower = 60,30
 trigger1 = time < 1
 trigger1 = P2BodyDist X <= 20
 attr = S, NT   
@@ -6107,6 +6109,7 @@ anim = 900
 sprpriority = 2
 [State 905, 2]
 type = HitDef
+getpower = 60,30
 trigger1 = time < 1
 trigger1 = P2BodyDist X <= 20
 attr = S, NT   
@@ -6583,6 +6586,7 @@ ctrl = 0
 anim = 950
 [State 950, 2]
 type = HitDef
+getpower = 60,30
 trigger1 = 1
 trigger1 = P2BodyDist X <= 20
 trigger1 = P2BodyDist Y <= 10
@@ -6822,6 +6826,7 @@ ctrl = 0
 anim = 950
 [State 950, 2]
 type = HitDef
+getpower = 60,30
 trigger1 = 1
 trigger1 = P2BodyDist X <= 20
 trigger1 = P2BodyDist Y <= 10
@@ -7752,7 +7757,7 @@ hitflag = MAFD
 guardflag = HA
 pausetime = 0,9
 guard.sparkno = S9200
-getpower = (parent,Var(10)=0)* 10
+getpower = 30,15
 guardsound = S0,100
 ground.type = high
 ground.slidetime = 18
@@ -7957,7 +7962,7 @@ hitflag = MAFD
 guardflag = HA
 pausetime = 0,10
 guard.sparkno = S9200
-getpower = (parent,Var(10)=0)* 10
+getpower = 15,7
 guardsound = S0,100
 ground.type = high
 ground.slidetime = 18
@@ -7990,7 +7995,7 @@ guard.sparkno = S9200
 guardsound = S0,100
 ground.type = high
 ground.slidetime = 18
-getpower = (parent,Var(10)=0)* 10
+getpower = 15,7
 ground.hittime  = 18
 ground.velocity = -6
 air.type = Low
@@ -8214,7 +8219,7 @@ hitflag = MAFD
 guardflag = HA
 pausetime = 0,10
 guard.sparkno = S9200
-getpower = (parent,Var(10)=0)* 10
+getpower = 15,7
 guardsound = S0,100
 ground.type = high
 ground.slidetime = 18
@@ -8243,7 +8248,7 @@ animtype  = Hard
 hitflag = MAFD
 guardflag = HA
 pausetime = 0,4
-getpower = (parent,Var(10)=0)* 10
+getpower = 15,7
 guard.sparkno = S9200
 guardsound = S0,100
 ground.type = high
@@ -8382,7 +8387,7 @@ animtype  = Hard
 hitflag = MAFD
 guardflag = HA
 pausetime = 0,10
-getpower = (parent,Var(10)=0)* 10
+getpower = 15,7
 guard.sparkno = S9200
 guardsound = S0,100
 ground.type = high
@@ -8411,7 +8416,7 @@ animtype  = Hard
 hitflag = MAFD
 guardflag = HA
 pausetime = 0,10
-getpower = (parent,Var(10)=0)* 10
+getpower = 15,7
 guard.sparkno = S9200
 guardsound = S0,100
 ground.type = high
@@ -8601,7 +8606,7 @@ pausetime = 0,10
 guard.sparkno = S9200
 guardsound = S0,100
 ground.type = high
-getpower = (parent,Var(10)=0)* 10
+getpower = 15,7
 ground.slidetime = 18
 ground.hittime  = 18
 ground.velocity = -4
@@ -8627,7 +8632,7 @@ animtype  = Hard
 hitflag = MAFD
 guardflag = HA
 pausetime = 0,6
-getpower = (parent,Var(10)=0)* 10
+getpower = 15,7
 guard.sparkno = S9200
 guardsound = S0,100
 ground.type = high
@@ -10070,7 +10075,7 @@ attr = S, SP
 damage    = 100/(Parent, Var(22)),10
 animtype  = light
 guardflag = MA
-getpower=  (parent,Var(10)=0)* 10
+getpower = 30,15
 pausetime = 0,9
 guard.sparkno = S9200
 guardsound = S0,100
@@ -10198,7 +10203,7 @@ ground.slidetime = 18
 ground.hittime  = 18
 ground.velocity = -2,-5
 air.type = Low
-getpower=  (parent,Var(10)=0)* 10
+getpower = 15,7
 air.velocity = -2,-5
 forcestand = 1
 palfx.time = 80
@@ -10220,7 +10225,7 @@ animtype  = Hard
 guardflag = MA
 pausetime = 0,10
 guard.sparkno = S9200
-getpower=  (parent,Var(10)=0)* 10
+getpower = 15,7
 guardsound = S0,100
 ground.type = high
 ground.slidetime = 18
@@ -10393,7 +10398,7 @@ animtype  = Hard
 guardflag = MA
 pausetime = 0,5
 guard.sparkno = S9200
-getpower=  (parent,Var(10)=0)* 10
+getpower = 15,7
 guardsound = S0,100
 ground.type = high
 ground.slidetime = 18
@@ -10425,7 +10430,7 @@ guardsound = S0,100
 ground.type = high
 ground.slidetime = 18
 ground.hittime  = 18
-getpower=  (parent,Var(10)=0)* 10
+getpower = 15,7
 ground.velocity = -6,-5
 air.type = Low
 air.velocity = -6,-5
@@ -10604,7 +10609,7 @@ ground.slidetime = 18
 ground.hittime  = 18
 ground.velocity = -2,-5
 air.type = Low
-getpower=  (parent,Var(10)=0)* 10
+getpower = 15,7
 air.velocity = -2,-5
 forcestand = 1
 palfx.time = 80
@@ -10627,7 +10632,7 @@ pausetime = 0,10
 guard.sparkno = S9200
 guardsound = S0,100
 ground.type = high
-getpower=  (parent,Var(10)=0)* 10
+getpower = 15,7
 ground.slidetime = 18
 ground.hittime  = 18
 ground.velocity = -6,-5
@@ -10797,7 +10802,7 @@ damage    = 60/(Parent, Var(22)),10
 animtype  = Hard
 guardflag = MA
 pausetime = 0,10
-getpower=  (parent,Var(10)=0)* 10
+getpower = 15,7
 guard.sparkno = S9200
 guardsound = S0,100
 ground.type = high
@@ -10829,7 +10834,7 @@ guardsound = S0,100
 ground.type = high
 ground.slidetime = 18
 ground.hittime  = 18
-getpower=  (parent,Var(10)=0)* 10
+getpower = 15,7
 ground.velocity = -6,-5
 air.type = Low
 air.velocity = -6,-5
@@ -11656,7 +11661,7 @@ triggerall = time > 0
 triggerall = time <= 20
 trigger1 = command = "hold_y" 
 trigger1 = command = "hold_b" 
-value = 20
+value = 0
 [State 182, PowerAdd]
  type = PowerAdd 
 triggerall = (GameTime%5) = 0 
@@ -11664,7 +11669,7 @@ triggerall = time > 21
 triggerall = time <= 40
 trigger1 = command = "hold_y" 
 trigger1 = command = "hold_b" 
-value = 30
+value = 0
 [State 182, PowerAdd]
  type = PowerAdd 
 triggerall = (GameTime%5) = 0 
@@ -11672,7 +11677,7 @@ triggerall = time > 41
 triggerall = time <= 60
 trigger1 = command = "hold_y" 
 trigger1 = command = "hold_b" 
-value = 40
+value = 0
 [State 182, PowerAdd]
  type = PowerAdd 
 triggerall = (GameTime%5) = 0 
@@ -11680,14 +11685,14 @@ triggerall = time > 61
 triggerall = time <= 80
 trigger1 = command = "hold_y" 
 trigger1 = command = "hold_b" 
-value = 50
+value = 0
 [State 182, PowerAdd]
  type = PowerAdd 
 triggerall = (GameTime%5) = 0 
 triggerall = time > 80
 trigger1 = command = "hold_y" 
 trigger1 = command = "hold_b" 
-value = 60
+value = 0
 [State 182, End] 
 type = ChangeState 
 trigger1 = power = 3000
@@ -12858,7 +12863,7 @@ trigger1 = animElem = 2
 attr = S, SA
 damage = 35, 10
 animtype = Medium
-getpower=   (Var(10)=0)*  30
+getpower = 20,10
 givepower = 15
 priority = 5, Hit
 hitflag = MAF
@@ -12880,7 +12885,7 @@ trigger1 = AnimElem = 3
 attr = S, SA
 damage = 35, 10
 animtype = Hard
-getpower=   (Var(10)=0)*  25
+getpower = 20,10
 givepower = 15
 priority = 5, Hit
 hitflag = MAF
@@ -12976,7 +12981,7 @@ trigger1 = AnimElem = 4
 attr = S, SA
 damage = 50, 10
 animtype = Diagup
-getpower=   (Var(10)=0)*  30
+getpower = 20,10
 givepower = 15
 priority = 5, Hit
 hitflag = MAF
@@ -13049,7 +13054,7 @@ trigger1 = AnimElem = 1
 attr = S, SA
 damage = 60, 30
 animtype = Hard
-getpower=   (Var(10)=0)*  50
+getpower = 30,15
 givepower = 15
 priority = 5, Hit
 hitflag = MAF
@@ -13075,7 +13080,7 @@ trigger1 = command = "x" || command = "y" || command = "z"
 attr = S, SA
 damage = 15, 5
 animtype = Hard
-getpower=   (Var(10)=0)*  50
+getpower = 30,15
 givepower = 15
 priority = 5, Hit
 hitflag = MAF
@@ -13267,7 +13272,7 @@ trigger1 = animElem = 2
 attr = S, SA
 damage = 45, 10
 animtype = Medium
-getpower=   (Var(10)=0)*  30
+getpower = 20,10
 givepower = 15
 priority = 5, Hit
 hitflag = MAF
@@ -13291,7 +13296,7 @@ trigger1 = AnimElem = 3
 attr = S, SA
 damage = 45, 10
 animtype = Hard
-getpower=   (Var(10)=0)*  25
+getpower = 20,10
 givepower = 15
 priority = 5, Hit
 hitflag = MAF
@@ -13384,7 +13389,7 @@ trigger1 = AnimElem = 4
 attr = S, SA
 damage = 60, 10
 animtype = Hard
-getpower=   (Var(10)=0)*  30
+getpower = 20,10
 givepower = 15
 priority = 5, Hit
 hitflag = MAF
@@ -13456,7 +13461,7 @@ trigger1 = AnimElem = 1
 attr = S, SA
 damage = 80, 30
 animtype = Hard
-getpower=   (Var(10)=0)*  50
+getpower = 30,15
 givepower = 15
 priority = 5, Hit
 hitflag = MAF
@@ -13482,7 +13487,7 @@ trigger1 = command = "x" || command = "y" || command = "z"
 attr = S, SA
 damage = 15, 5
 animtype = Hard
-getpower=   (Var(10)=0)*  50
+getpower = 30,15
 givepower = 15
 priority = 5, Hit
 hitflag = MAF
@@ -13629,7 +13634,7 @@ trigger1 = animElem = 2
 attr = S, SA
 damage = 55, 10
 animtype = Medium
-getpower=   (Var(10)=0)*  30
+getpower = 20,10
 givepower = 15
 priority = 5, Hit
 hitflag = MAF
@@ -13656,7 +13661,7 @@ trigger1 = animElem = 2
 attr = S, SP
 damage = 55, 10
 animtype = Medium
-getpower=   (Var(10)=0)*  30
+getpower = 20,10
 givepower = 15
 priority = 5, Hit
 hitflag = MAF
@@ -13683,7 +13688,7 @@ trigger1 = AnimElem = 3
 attr = S, SA
 damage = 55, 10
 animtype = medium
-getpower=   (Var(10)=0)*  30
+getpower = 20,10
 givepower = 15
 priority = 5, Hit
 hitflag = MAF
@@ -13710,7 +13715,7 @@ trigger1 = AnimElem = 3
 attr = S, SP
 damage = 55, 10
 animtype = medium
-getpower=   (Var(10)=0)*  30
+getpower = 20,10
 givepower = 15
 priority = 5, Hit
 hitflag = MAF
@@ -13880,7 +13885,7 @@ trigger1 = AnimElem = 4
 attr = S, SA
 damage = 70, 10
 animtype = Hard
-getpower=   (Var(10)=0)*  30
+getpower = 20,10
 givepower = 15
 priority = 5, Hit
 hitflag = MAF
@@ -14487,7 +14492,7 @@ trigger1 = AnimElem = 1
 attr = S, SA
 damage = 100, 30
 animtype = Hard
-getpower=   (Var(10)=0)*  50
+getpower = 30,15
 givepower = 15
 priority = 5, Hit
 hitflag = MAF
@@ -14513,7 +14518,7 @@ trigger1 = command = "x" || command = "y" || command = "z"
 attr = S, SA
 damage = 15, 5
 animtype = Hard
-getpower=   (Var(10)=0)*  50
+getpower = 30,15
 givepower = 15
 priority = 5, Hit
 hitflag = MAF
@@ -14610,7 +14615,7 @@ trigger1 = AnimElem = 1
 attr = S, SA
 damage = 30, 10
 animtype = Medium
-getpower=   (Var(10)=0)*  30
+getpower = 30,15
 givepower = 20
 priority = 5, Hit
 hitflag = MAF
@@ -14669,7 +14674,7 @@ trigger1 = AnimElem = 1 || AnimElem = 3
 attr = A, SA
 damage = 45, 10
 animtype = Hard
-getpower=   (Var(10)=0)*  30
+getpower = 30,15
 givepower = 20
 priority = 5, Hit
 hitflag = HAF
@@ -14755,7 +14760,7 @@ trigger1 = AnimElem = 1
 attr = S, SA
 damage = 30, 10
 animtype = Medium
-getpower=   (Var(10)=0)*  30
+getpower = 30,15
 givepower = 20
 priority = 5, Hit
 hitflag = MAF
@@ -14815,7 +14820,7 @@ trigger1 = AnimElem = 1 || AnimElem = 3
 attr = A, SA
 damage = 40, 10
 animtype = Hard
-getpower=   (Var(10)=0)*  30
+getpower = 30,15
 givepower = 20
 priority = 5, Hit
 hitflag = HAF
@@ -14893,7 +14898,7 @@ trigger1 = AnimElem = 1
 attr = S, SA
 damage = 30, 10
 animtype = Medium
-getpower=   (Var(10)=0)*  30
+getpower = 30,15
 givepower = 20
 priority = 5, Hit
 hitflag = MAF
@@ -15051,7 +15056,7 @@ trigger1 = AnimElem = 1 || AnimElem = 5
 attr = A, SA
 damage = 40, 10
 animtype = medium
-getpower=   (Var(10)=0)*  30
+getpower = 30,15
 givepower = 20
 priority = 5, Hit
 hitflag = HAF
@@ -15163,7 +15168,7 @@ trigger1 = AnimElem = 1
 attr = S, SA
 damage = 30, 10
 animtype = Medium
-getpower=   (Var(10)=0)*  30
+getpower = 20,10
 givepower = 20
 priority = 5, Hit
 hitflag = MAF
@@ -15224,7 +15229,7 @@ trigger1 = AnimElem = 1 || AnimElem = 3
 attr = A, SA
 damage = 45, 10
 animtype = Hard
-getpower=   (Var(10)=0)*  30
+getpower = 20,10
 givepower = 20
 priority = 5, Hit
 hitflag = HAF
@@ -15295,7 +15300,7 @@ sparkxy = 0,-70
 sparkno = 1
 guard.sparkno = S9100
 pausetime = 10,13
-getpower=   (Var(10)=0)*  30
+getpower = 20,10
 givepower = 15
 hitsound   = S6,4
 guardsound = S0,100
@@ -15441,7 +15446,7 @@ trigger1 = AnimElem = 1
 attr = S, SA
 damage = 30, 10
 animtype = Medium
-getpower=   (Var(10)=0)*  30
+getpower = 30,15
 givepower = 20
 priority = 5, Hit
 hitflag = MAF
@@ -15501,7 +15506,7 @@ trigger1 = AnimElem = 1 || AnimElem = 3
 attr = A, SA
 damage = 40, 10
 animtype = Hard
-getpower=   (Var(10)=0)*  30
+getpower = 30,15
 givepower = 20
 priority = 5, Hit
 hitflag = HAF
@@ -15585,7 +15590,7 @@ trigger1 = AnimElem = 1
 attr = S, SA
 damage = 30, 10
 animtype = Medium
-getpower=   (Var(10)=0)*  30
+getpower = 30,15
 givepower = 20
 priority = 5, Hit
 hitflag = MAF
@@ -15744,7 +15749,7 @@ trigger1 = AnimElem = 1 || AnimElem = 5
 attr = A, SA
 damage = 40, 10
 animtype = medium
-getpower=   (Var(10)=0)*  30
+getpower = 30,15
 givepower = 20
 priority = 5, Hit
 hitflag = HAF
@@ -15890,7 +15895,7 @@ trigger1 = animelem = 1 || animelem = 3 || animelem = 5
 attr = A, SA
 damage = 40, 10
 animtype = Hard
-getpower=   (Var(10)=0)*  30
+getpower = 60,30
 givepower = 20
 priority = 5, Hit
 hitflag = HAF
@@ -15993,7 +15998,7 @@ trigger1 = animelem = 1 || animelem = 3 || animelem = 5
 attr = A, SA
 damage = 40, 10
 animtype = Hard
-getpower=   (Var(10)=0)*  0
+getpower = 60,30
 givepower = 0
 priority = 5, Hit
 hitflag = HAF
@@ -16102,7 +16107,7 @@ trigger2 = AnimElem = 5
 attr = A, SA
 damage = 40, 10
 animtype = Hard
-getpower=   (Var(10)=0)*  30
+getpower = 60,30
 givepower = 20
 priority = 5
 hitflag = HAF
@@ -16205,7 +16210,7 @@ trigger1 = animelem = 1 || animelem = 3 || animelem = 5
 attr = A, SA
 damage = 40, 10
 animtype = Hard
-getpower=   (Var(10)=0)*  0
+getpower = 60,30
 givepower = 0
 priority = 5
 hitflag = HAF
@@ -16411,7 +16416,7 @@ trigger1 = animelem = 1 || animelem = 3 || animelem = 5
 attr = A, SA
 damage = 40, 10
 animtype = medium
-getpower=   (Var(10)=0)*  30
+getpower = 60,30
 givepower = 20
 priority = 5
 hitflag = HAF
@@ -16647,7 +16652,7 @@ trigger1 = animelem = 1 || animelem = 3 || animelem = 5
 attr = A, SA
 damage = 40, 10
 animtype = medium
-getpower=   (Var(10)=0)*  0
+getpower = 60,30
 givepower = 0
 priority = 5
 hitflag = HAF
@@ -16836,7 +16841,7 @@ trigger1 = AnimElem = 3
 attr = A, SA
 damage = 95, 10
 animtype = medium
-getpower=   (Var(10)=0)*  30
+getpower = 60,30
 givepower = 10
 priority = 5
 hitflag = MAFD
@@ -16933,7 +16938,7 @@ trigger1 = AnimElem = 3
 attr = A, SA
 damage = 95, 10
 animtype = medium
-getpower=   (Var(10)=0)*  30
+getpower = 60,30
 givepower = 20
 priority = 5
 hitflag = MAFD
@@ -16960,7 +16965,7 @@ trigger1 = AnimElem = 3
 attr = A, SA
 damage = 95, 10
 animtype = medium
-getpower=   (Var(10)=0)*  30
+getpower = 60,30
 givepower = 20
 priority = 5
 hitflag = HAFD
@@ -17098,7 +17103,7 @@ trigger1 = time > 0
 attr = A, SA
 damage = 95, 10
 animtype = medium
-getpower=   (Var(10)=0)*  30
+getpower = 60,30
 givepower = 20
 priority = 5
 hitflag = MAFD
@@ -19160,7 +19165,7 @@ guardflag = MA
 pausetime = 0,9
 guard.sparkno = S9200
 guardsound = S0,100
-getpower = (parent,Var(10)=0)* 10
+getpower = 30,15
 ground.type = low
 ground.slidetime = 18
 ground.hittime  = 18
@@ -19295,7 +19300,7 @@ air.type = Low
 air.velocity = -10,-4
 forcestand = 1
 palfx.time = 20
-getpower = (parent,Var(10)=0)* 10
+getpower = 30,15
 palfx.add = 32,0,0
 palfx.mul = 300,192,192
 palfx.sinadd = 64, 5, 5, 6
@@ -19421,7 +19426,7 @@ ground.velocity = -11,-5
 air.type = Low
 air.velocity = -11,-5
 forcestand = 1
-getpower = (parent,Var(10)=0)* 10
+getpower = 30,15
 palfx.time = 20
 palfx.add = 32,0,0
 palfx.mul = 300,192,192
@@ -20376,6 +20381,24 @@ trigger1 = pos y >= 2
 type = ChangeState
 value = 1864
 ctrl = 0
+;---------------------------------------------------------------------------
+; Recuperacion tras esquivar/rodar: sin control y golpeable unos frames,
+; para que no se pueda encadenar sin riesgo.
+;---------------------------------------------------------------------------
+[Statedef 1021]
+type = C
+movetype = I
+physics = C
+ctrl = 0
+anim = 11
+velset = 0,0
+
+[State 1021, Fin de la recuperacion]
+type = ChangeState
+trigger1 = Time >= 12
+value = 11
+ctrl = 1
+
 [Statedef 2001]
 type = C
 movetype = I
@@ -20403,8 +20426,8 @@ time = 1
 [State 2001, 9]
 type = ChangeState
 trigger1 = animtime = 0
-value = 11
-ctrl = 1
+value = 1021
+ctrl = 0
 [Statedef 2002]
 type = C
 movetype = I

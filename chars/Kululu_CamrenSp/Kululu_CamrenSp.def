@@ -11,6 +11,7 @@ pal.defaults =1,2,3,4,5,6
 
 ; Files for the player
 [Files]
+movelist = movelist.dat
 cmd     = kululu.cmd
 cns     = kululu.cns
 st      = kululu.cns

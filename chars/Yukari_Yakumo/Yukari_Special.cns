@@ -3,6 +3,7 @@
 ;＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
 [StateDef 1000]
 Type     = U
+poweradd = 20
 MoveType = A
 Physics  = S
 Ctrl     = 0
@@ -526,7 +527,7 @@ Guard.Kill        = 0				;この攻撃をガードで殺せるか
 Fall              = 1				;地面に叩き付けられるか
 Air.Fall          = 1				;地面に叩き付けられるか
 Fall.RecoverTime  = Floor(IfElse(Var(49)=1,90,60)*FVar(13));リカバーできるか
-GetPower          = Floor(IfElse(Var(40)=3,120,60)*IfElse(Power>=4000,0.5,IfElse((Power=[3000,3999]),0.66,1.0))),Floor(IfElse(Var(40)=3,80,40)*IfElse(Power>=4000,0.5,IfElse((Power=[3000,3999]),0.66,1.0)));ヒット時のパワー増減
+getpower = 15,7;ヒット時のパワー増減
 GivePower         = 0,0
 Ground.CornerPush.VelOff   = 0
 Air.CornerPush.VelOff      = 0
@@ -560,7 +561,7 @@ Guard.Kill        = 0				;この攻撃をガードで殺せるか
 Fall              = 1				;地面に叩き付けられるか
 Air.Fall          = 1				;地面に叩き付けられるか
 Fall.RecoverTime  = Floor(IfElse(Var(49)=1,90,60)*FVar(13));リカバーできるか
-GetPower          = Floor(IfElse(Var(40)=3,120,60)*IfElse(Power>=4000,0.5,IfElse((Power=[3000,3999]),0.66,1.0))),Floor(IfElse(Var(40)=3,80,40)*IfElse(Power>=4000,0.5,IfElse((Power=[3000,3999]),0.66,1.0)));ヒット時のパワー増減
+getpower = 15,7;ヒット時のパワー増減
 GivePower         = 0,0
 Ground.CornerPush.VelOff   = 0
 Air.CornerPush.VelOff      = 0
@@ -1782,6 +1783,7 @@ Ctrl     = 1
 ;＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
 [StateDef 1030]
 Type     = S
+poweradd = 20
 MoveType = A
 Physics  = S
 Ctrl     = 0
@@ -1931,6 +1933,7 @@ Ctrl     = 1
 ;＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
 [StateDef 1035]
 Type     = U
+poweradd = 0
 MoveType = A
 Physics  = S
 Anim     = IfElse(StateType!=A,1030,1031)
@@ -3123,6 +3126,7 @@ Ctrl     = 1
 ;＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
 [StateDef 1045]
 Type     = U
+poweradd = 0
 MoveType = A
 Physics  = S
 Anim     = 1045

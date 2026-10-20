@@ -33,7 +33,7 @@ trigger2 = var(2) <= 15
 attr = S, NA
 damage = ceil(77*fvar(0)),0
 priority = 4, Hit
-getpower = ceil(144*var(12)/10),ceil(72*var(12)/10)
+getpower = 30,15
 givepower = 18,9
 hitflag = MAF
 guardflag = MA
@@ -130,7 +130,7 @@ trigger2 = var(2) <= 15
 attr = S, NA
 damage = ceil(var(0)*0.15*fvar(0)),ceil(var(0)*0.015)
 priority = 4, Hit
-getpower = ceil(1224*var(12)/10),ceil(384*var(12)/10)
+getpower = 30,15
 givepower = 18,9
 hitflag = MAF
 guardflag = HA
@@ -221,7 +221,7 @@ trigger2 = var(2) <= 15
 attr = S, NA
 damage = ceil(39*fvar(0)),0
 priority = 2, Hit
-getpower = ceil(72*var(12)/10),ceil(36*var(12)/10)
+getpower = 30,15
 givepower = 18,9
 hitflag = MAF
 guardflag = MA
@@ -346,7 +346,7 @@ trigger2 = var(2) <= 15
 attr = S, NA
 damage = ceil(37*fvar(0)),0
 priority = 3, Hit
-getpower = ceil(456*var(12)/10),ceil(228*var(12)/10)
+getpower = 30,15
 givepower = 18,9
 hitflag = MAF
 guardflag = MA
@@ -465,7 +465,7 @@ trigger2 = var(2) <= 15
 attr = C, NA
 damage = ceil(81*fvar(0)),0
 priority = 4, Hit
-getpower = ceil(144*var(12)/10),ceil(72*var(12)/10)
+getpower = 30,15
 givepower = 18,9
 hitflag = MAF
 guardflag = MA
@@ -561,7 +561,7 @@ trigger2 = var(2) <= 15
 attr = C, NA
 damage = ceil(100*fvar(0)),0
 priority = 4, Hit
-getpower = ceil(216*var(12)/10),ceil(108*var(12)/10)
+getpower = 30,15
 givepower = 18,9
 hitflag = MAF
 guardflag = MA
@@ -652,7 +652,7 @@ trigger2 = var(2) <= 15
 attr = C, NA
 damage = ceil(16*fvar(0)),0
 priority = 2, Hit
-getpower = ceil(72*var(12)/10),ceil(36*var(12)/10)
+getpower = 30,15
 givepower = 18,0
 hitflag = MAF
 guardflag = L
@@ -745,7 +745,7 @@ trigger2 = var(2) <= 15
 attr = C, NA
 damage = ceil(94*fvar(0)),0
 priority = 4, Hit
-getpower = ceil(384*var(12)/10),ceil(192*var(12)/10)
+getpower = 30,15
 givepower = 18,9
 hitflag = MAF
 guardflag = L
@@ -877,7 +877,7 @@ trigger2 = var(2) <= 15
 attr = A, NA
 damage = ceil(40*fvar(0)),0
 priority = 3, Hit
-getpower = ceil(144*var(12)/10),ceil(72*var(12)/10)
+getpower = 30,15
 givepower = 18,9
 hitflag = MAF
 guardflag = MA
@@ -961,7 +961,7 @@ trigger2 = var(2) <= 15
 attr = A, NA
 damage = ceil(95*fvar(0)),0
 priority = 5, Hit
-getpower = ceil(216*var(12)/10),ceil(108*var(12)/10)
+getpower = 30,15
 givepower = 18,9
 hitflag = MAF
 guardflag = MA
@@ -1045,7 +1045,7 @@ trigger2 = var(2) <= 15
 attr = A, NA
 damage = ceil(76*fvar(0)),0
 priority = 3, Hit
-getpower = ceil(144*var(12)/10),ceil(72*var(12)/10)
+getpower = 30,15
 givepower = 18,9
 hitflag = MAF
 guardflag = HA
@@ -1129,7 +1129,7 @@ trigger2 = var(2) <= 15
 attr = A, NA
 damage = ceil(55*fvar(0)),0
 priority = 3, Hit
-getpower = ceil(144*var(12)/10),ceil(72*var(12)/10)
+getpower = 30,15
 givepower = 18,9
 hitflag = MAF
 guardflag = HA
@@ -1212,7 +1212,7 @@ trigger1 = p2movetype != H
 attr = S, NT
 damage = 0,0
 priority = 1, Miss
-getpower = 0,0
+getpower = 60,30
 givepower = 0,0
 hitflag = M-
 animtype  = Light

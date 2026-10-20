@@ -6,6 +6,7 @@ mugenversion=04,14,2001
 author="Mr.4x3l"
 pal.defaults=1,2,3,4,5
 [Files]
+movelist = movelist.dat
 sprite=Ben_10.sff
 sound=Ben_10.snd
 anim=Ben_10.air

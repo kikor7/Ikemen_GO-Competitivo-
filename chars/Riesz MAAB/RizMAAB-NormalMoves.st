@@ -14,7 +14,7 @@ physics = S                      ;Physics: S-stand, C-crouch, A-air
 ;anim = 200                      ;Change animation (Def: no change)
 velset = 0,0                     ;Set velocity (x,y) (Def: no change)
 ctrl = 0                         ;Set ctrl (Def: no change)
-poweradd = 40                    ;Power to add (Def: 0)
+poweradd = 0                    ;Power to add (Def: 0)
 juggle = 1                       ;Number of air juggle points move takes
 ;facep2 =
 ;hitdefpersist =
@@ -116,6 +116,7 @@ animtype = Light ;P2在地面被擊中時將進入的動畫類型
 air.animtype = Light ;P2在空中被擊中時將進入的動畫類型 (缺省默認跟animtype相同)
 priority = 4, Hit
 damage = cond(var(15) > 0,ceil((((fvar(11))*fvar(12)*0.018))*fvar(13)),18*fvar(13)),0
+getpower = 30,15
 pausetime = 9,9 ;Hit時每個玩家將會停止(停頓)的時間(打擊停頓,ignorehitpause就是針對這個參數)
                 ;左邊數字是凍結P1的時間(單位是遊戲幀數) 右邊數字是在被擊中後退前造成P2震動的時間
 ;guard.pausetime = 9,9 ;Hit被防禦時 省略時數值跟pausetime相同
@@ -172,7 +173,7 @@ physics = S
 ;anim = 210
 velset = 0,0
 ctrl = 0
-poweradd = 30
+poweradd = 0
 juggle = 1
 sprpriority = 2
 
@@ -304,6 +305,7 @@ animtype = Light
 air.animtype = Light
 priority = 4, Hit
 damage = cond(var(15) > 0,ceil((((fvar(11))*fvar(12)*0.019))*fvar(13)),19*fvar(13)),0
+getpower = 30,15
 pausetime = 8,8
 sparkno = -1
 guard.sparkno = -1
@@ -353,7 +355,7 @@ physics = S
 ;anim = 220
 velset = 0,0
 ctrl = 0
-poweradd = 80
+poweradd = 0
 juggle = 3
 sprpriority = 2
 
@@ -439,6 +441,7 @@ animtype = Medium
 air.animtype = Medium
 priority = 4, Hit
 damage = cond(var(15) > 0,ceil((((fvar(11))*fvar(12)*0.025))*fvar(13)),25*fvar(13)),0
+getpower = 15,7
 pausetime = 0,3
 sparkno = -1
 guard.sparkno = -1
@@ -573,6 +576,7 @@ animtype = Medium
 air.animtype = Medium
 priority = 4, Hit
 damage = cond(var(15) > 0,ceil((((fvar(11))*fvar(12)*0.025))*fvar(13)),25*fvar(13)),0
+getpower = 15,7
 pausetime = 11,14
 sparkno = -1
 guard.sparkno = -1
@@ -616,7 +620,7 @@ physics = S
 ;anim = 222
 velset = 0,0
 ctrl = 0
-poweradd = 90
+poweradd = 0
 juggle = 4
 sprpriority = 3
 
@@ -733,6 +737,7 @@ animtype = Light
 air.animtype = Light
 priority = 4, Hit
 damage = cond(var(15) > 0,ceil((((fvar(11))*fvar(12)*0.019))*fvar(13)),19*fvar(13)),cond(var(15) > 0,ceil((((fvar(11))*fvar(12)*0.004))*fvar(13)),4*fvar(13))
+getpower = 6,3
 pausetime = 1,2
 sparkno = -1
 guard.sparkno = -1
@@ -812,6 +817,7 @@ animtype = Light
 air.animtype = Light
 priority = 4, Hit
 damage = cond(var(15) > 0,ceil((((fvar(11))*fvar(12)*0.019))*fvar(13)),19*fvar(13)),cond(var(15) > 0,ceil((((fvar(11))*fvar(12)*0.004))*fvar(13)),4*fvar(13))
+getpower = 6,3
 pausetime = 1,2
 sparkno = -1
 guard.sparkno = -1
@@ -854,6 +860,7 @@ animtype = Light
 air.animtype = Light
 priority = 4, Hit
 damage = cond(var(15) > 0,ceil((((fvar(11))*fvar(12)*0.019))*fvar(13)),19*fvar(13)),cond(var(15) > 0,ceil((((fvar(11))*fvar(12)*0.004))*fvar(13)),4*fvar(13))
+getpower = 6,3
 pausetime = 1,2
 sparkno = -1
 guard.sparkno = -1
@@ -896,6 +903,7 @@ animtype = Light
 air.animtype = Light
 priority = 4, Hit
 damage = cond(var(15) > 0,ceil((((fvar(11))*fvar(12)*0.019))*fvar(13)),19*fvar(13)),cond(var(15) > 0,ceil((((fvar(11))*fvar(12)*0.004))*fvar(13)),4*fvar(13))
+getpower = 6,3
 pausetime = 1,2
 sparkno = -1
 guard.sparkno = -1
@@ -973,6 +981,7 @@ animtype = Light
 air.animtype = Light
 priority = 4, Hit
 damage = cond(var(15) > 0,ceil((((fvar(11))*fvar(12)*0.019))*fvar(13)),19*fvar(13)),cond(var(15) > 0,ceil((((fvar(11))*fvar(12)*0.004))*fvar(13)),4*fvar(13))
+getpower = 6,3
 pausetime = 4,5
 sparkno = -1
 guard.sparkno = -1
@@ -1051,7 +1060,7 @@ physics = S
 ;anim = 227
 velset = 0,0
 ctrl = 0
-poweradd = 60
+poweradd = 0
 juggle = 4
 sprpriority = 3
 
@@ -1132,6 +1141,7 @@ animtype = Hard
 air.animtype = Hard
 priority = 5, Hit
 damage = cond(var(15) > 0,ceil((((fvar(11))*fvar(12)*0.080))*fvar(13)),80*fvar(13)),cond(var(15) > 0,ceil((((fvar(11))*fvar(12)*0.014))*fvar(13)),14*fvar(13))
+getpower = 30,15
 pausetime = 9,11
 sparkno = -1
 guard.sparkno = -1
@@ -1183,7 +1193,7 @@ physics = S
 ;anim = 230
 velset = 6,0
 ctrl = 0
-poweradd = 60
+poweradd = 0
 juggle = 3
 sprpriority = 2
 
@@ -1264,6 +1274,7 @@ animtype = Medium
 air.animtype = Medium
 priority = 4, Hit
 damage = cond(var(15) > 0,ceil((((fvar(11))*fvar(12)*0.038))*fvar(13)),38*fvar(13)),0
+getpower = 30,15
 pausetime = 12,12
 sparkno = -1
 guard.sparkno = -1
@@ -1314,7 +1325,7 @@ physics = S
 ;anim = 240
 velset = 0,0
 ctrl = 0
-poweradd = 75
+poweradd = 0
 juggle = 4
 sprpriority = 2
 
@@ -1405,6 +1416,7 @@ animtype = Hard
 air.animtype = Hard
 priority = 5, Hit
 damage = cond(var(15) > 0,ceil((((fvar(11))*fvar(12)*0.056))*fvar(13)),56*fvar(13)),0
+getpower = 30,15
 pausetime = 14,14
 sparkno = -1
 guard.sparkno = -1
@@ -1464,7 +1476,7 @@ physics = S
 ;anim = 245
 ;velset = 0,0
 ctrl = 0
-poweradd = 50
+poweradd = 0
 juggle = 2
 sprpriority = 2
 facep2 = 1
@@ -1594,6 +1606,7 @@ animtype = Hard
 air.animtype = Hard
 priority = 5, Hit
 damage = cond(var(15) > 0,ceil((((fvar(11))*fvar(12)*0.054))*fvar(13)),54*fvar(13)),0
+getpower = 30,15
 pausetime = 10,10
 sparkno = -1
 guard.sparkno = -1
@@ -1663,7 +1676,7 @@ physics = S
 ;anim = 250
 velset = 0,0
 ctrl = 0
-poweradd = 50
+poweradd = 0
 juggle = 2
 sprpriority = 2
 facep2 = 1
@@ -1791,6 +1804,7 @@ animtype = Up
 air.animtype = Up
 priority = 5, Hit
 damage = cond(var(15) > 0,ceil((((fvar(11))*fvar(12)*0.018))*fvar(13)),18*fvar(13)),0
+getpower = 30,15
 pausetime = 10,10
 sparkno = -1
 guard.sparkno = -1
@@ -2046,7 +2060,7 @@ physics = C
 ;anim = 400
 ;velset = 0,0 ;*1
 ctrl = 0
-poweradd = 30
+poweradd = 0
 juggle = 6 ;*2
 sprpriority = 2
 
@@ -2120,6 +2134,7 @@ guardflag = L
 animtype = Light
 priority = 4, Hit
 damage = cond(var(15) > 0,ceil((((fvar(11))*fvar(12)*0.020))*fvar(13)),20*fvar(13)),0
+getpower = 30,15
 pausetime = 11,11
 sparkno = -1
 guard.sparkno = -1
@@ -2173,7 +2188,7 @@ movetype = A
 physics = C
 ;anim = 410
 ctrl = 0
-poweradd = 60
+poweradd = 0
 juggle = 5
 sprpriority = 2
 
@@ -2271,6 +2286,7 @@ guardflag = L
 animtype = Medium
 priority = 4, Hit
 damage = cond(var(15) > 0,ceil((((fvar(11))*fvar(12)*0.040))*fvar(13)),40*fvar(13)),0
+getpower = 30,15
 pausetime = 13,13
 sparkno = -1
 guard.sparkno = -1
@@ -2348,7 +2364,7 @@ movetype = A
 physics = C
 ;anim = 440
 ctrl = 0
-poweradd = 80
+poweradd = 0
 juggle = 7 ;*
 sprpriority = 2
 
@@ -2402,6 +2418,7 @@ guardflag = L
 animtype = Hard
 priority = 5, Hit
 damage = cond(var(15) > 0,ceil((((fvar(11))*fvar(12)*0.060))*fvar(13)),60*fvar(13)),0
+getpower = 30,15
 pausetime = 14,14
 sparkno = -1
 guard.sparkno = -1
@@ -2470,7 +2487,7 @@ physics = A
 ;anim = 600
 ;velset = 0,0
 ctrl = 0
-poweradd = 30
+poweradd = 0
 juggle = 2
 sprpriority = 2
 
@@ -2560,6 +2577,7 @@ animtype = Light
 air.animtype = Light
 priority = 4, Hit
 damage = cond(var(15) > 0,ceil((((fvar(11))*fvar(12)*0.019))*fvar(13)),19*fvar(13)),0
+getpower = 30,15
 pausetime = 11,11
 sparkno = -1
 guard.sparkno = -1
@@ -2622,7 +2640,7 @@ movetype = A
 physics = A
 ;anim = 610
 ctrl = 0
-poweradd = 65
+poweradd = 0
 juggle = 3
 sprpriority = 2
 
@@ -2712,6 +2730,7 @@ hitflag = MAF
 guardflag = HA
 priority = 4, Hit
 damage = cond(var(15) > 0,ceil((((fvar(11))*fvar(12)*0.039))*fvar(13)),39*fvar(13)),0
+getpower = 30,15
 pausetime = 13,13
 sparkno = -1
 guard.sparkno = -1
@@ -2776,7 +2795,7 @@ movetype = I
 physics = N
 ;anim = 620
 ctrl = 0
-poweradd = 60
+poweradd = 0
 juggle = 3
 sprpriority = 2
 
@@ -2845,6 +2864,7 @@ hitflag = MAFD
 guardflag = HA
 priority = 6, Hit
 damage = cond(var(15) > 0,ceil((((fvar(11))*fvar(12)*0.032))*fvar(13)),32*fvar(13)),0
+getpower = 60,30
 pausetime = 16,16
 sparkno = -1
 guard.sparkno = -1
@@ -2972,7 +2992,7 @@ movetype = A
 physics = A
 ;anim = 640
 ctrl = 0
-poweradd = 70
+poweradd = 0
 juggle = 4
 sprpriority = 2
 
@@ -3098,6 +3118,7 @@ hitflag = MAF
 guardflag = HA
 priority = 5, Hit
 damage = cond(var(15) > 0,ceil((((fvar(11))*fvar(12)*0.058))*fvar(13)),58*fvar(13)),0
+getpower = 30,15
 pausetime = 15,15
 sparkno = -1
 guard.sparkno = -1
@@ -3140,6 +3161,7 @@ hitflag = MAF
 guardflag = HA
 priority = 5, Hit
 damage = cond(var(15) > 0,ceil((((fvar(11))*fvar(12)*0.058))*fvar(13)),58*fvar(13)),0
+getpower = 30,15
 pausetime = 15,15
 sparkno = -1
 guard.sparkno = -1
@@ -3203,7 +3225,7 @@ physics = A
 velset = const(velocity.airjump.fwd.x),const(velocity.airjump.y)
 ;anim = 640
 ctrl = 0
-poweradd = 70
+poweradd = 0
 juggle = 4
 sprpriority = 2
 
@@ -3314,6 +3336,7 @@ hitflag = MAF
 guardflag = HA
 priority = 5, Hit
 damage = cond(var(15) > 0,ceil((((fvar(11))*fvar(12)*0.058))*fvar(13)),58*fvar(13)),0
+getpower = 30,15
 pausetime = 15,15
 sparkno = -1
 guard.sparkno = -1
@@ -3356,6 +3379,7 @@ hitflag = MAF
 guardflag = HA
 priority = 5, Hit
 damage = cond(var(15) > 0,ceil((((fvar(11))*fvar(12)*0.058))*fvar(13)),58*fvar(13)),0
+getpower = 30,15
 pausetime = 15,15
 sparkno = -1
 guard.sparkno = -1
@@ -4488,6 +4512,7 @@ sprpriority = 2
 
 [State 800, 1]
 type = HitDef
+getpower = 30,15
 ;trigger1 = AnimElem = 1 ;測試過仍然可以抓到對手(效果相同)，下方為比較詳細的寫法
 trigger1 = AnimElemTime(1) >= 0
 trigger1 = AnimElemTime(2) < 0
@@ -4516,6 +4541,7 @@ id = 800
 
 [State 800, 2]
 type = HitDef
+getpower = 30,15
 trigger1 = AnimElemTime(1) >= 0
 trigger1 = AnimElemTime(2) < 0
 trigger1 = 1 || var(21):= -1 ;Hit Spark X
@@ -4575,7 +4601,7 @@ movetype = A
 physics = N
 anim = 810
 ctrl = 0
-poweradd = 75
+poweradd = 0
 sprpriority = 2
 
 ;[State 810, 1];因為在Statedef 800時設定var(23):= -1 這裡就不用再設置
@@ -4904,6 +4930,7 @@ sprpriority = 2
 
 [State 850, 1]
 type = HitDef
+getpower = 30,15
 trigger1 = AnimElemTime(1) >= 0
 trigger1 = AnimElemTime(2) < 0
 trigger1 = 1 || var(21):= -1 ;Hit Spark X
@@ -4928,6 +4955,7 @@ id = 850
 
 [State 850, 2]
 type = HitDef
+getpower = 30,15
 trigger1 = AnimElemTime(1) >= 0
 trigger1 = AnimElemTime(2) < 0
 trigger1 = 1 || var(21):= -1 ;Hit Spark X
@@ -4980,7 +5008,7 @@ physics = N
 anim = 860
 velset = 0,0
 ctrl = 0
-poweradd = 75
+poweradd = 0
 sprpriority = 2
 
 ;[State 860, 1]
@@ -5297,6 +5325,7 @@ sprpriority = 2
 
 [State 875, 1]
 type = HitDef
+getpower = 30,15
 trigger1 = AnimElem = 1
 trigger1 = 1 || var(21):= -1 ;Hit Spark X
 trigger1 = 1 || var(22):= -1 ;Hit Spark Y
@@ -5320,6 +5349,7 @@ id = 875
 
 [State 875, 2]
 type = HitDef
+getpower = 30,15
 trigger1 = AnimElemTime(1) >= 0
 trigger1 = AnimElemTime(2) < 0
 trigger1 = 1 || var(21):= -1 ;Hit Spark X
@@ -5372,7 +5402,7 @@ physics = N
 anim = 860
 velset = 0,0
 ctrl = 0
-poweradd = 75
+poweradd = 0
 sprpriority = 2
 
 ;[State 885, 1]

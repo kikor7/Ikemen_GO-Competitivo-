@@ -109,6 +109,7 @@ trigger1 = 1
 [State 666, 2];Spikes Hit
 trigger1 = 1
 type = HitDef
+triggerall = !NumEnemy || EnemyNear,Map(_trap_combo) = 0 ;no vuelve a golpear a quien esta en combo de trampa
 attr = S, NA                     ;Attribute: Standing, Normal Attack
 damage = 1, 0                   ;Damage that move inflicts, guard damage
 animtype = Heavy                 ;Animation type: Light, Medium, Heavy, Back (def: Light)
@@ -168,7 +169,7 @@ x = 0
 y = 0
 
 [State 820, 2];Invinc to avoid double hit by spikes AND juggling - this is accurate to source
-trigger1 = 1
+trigger1 = Time <= 20 ;despues pueden pegarle (combo de trampa, max 3 golpes)
 type = NotHitBy
 value = SCA
 
@@ -197,6 +198,19 @@ trigger1 = Pos Y >= 0
 value = 5100 ;Hit ground
 
 ------------------------------------
+
+[State 820, Combo de trampa]
+type = MapSet
+trigger1 = Time = 21
+map = "_trap_combo"
+value = 1
+
+[State 820, Combo de trampa base]
+type = MapSet
+trigger1 = Time = 21
+map = "_trap_base"
+value = GetHitVar(hitcount)
+
 [Statedef -4]
 [State 1, 0];Spawn Helper 1
 type = helper

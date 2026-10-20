@@ -189,7 +189,7 @@ juggle  = 1
 velset = 0,0
 ctrl = 0
 anim = 19200
-poweradd = 40
+poweradd = 0
 sprpriority = 2
 
 [State 0, VelSet]
@@ -306,7 +306,7 @@ juggle  = 1
 velset = 0,0
 ctrl = 0
 anim = 19210
-poweradd = 40
+poweradd = 0
 sprpriority = 2
 
 [State 0, VelSet]
@@ -423,7 +423,7 @@ juggle  = 1
 velset = 0,0
 ctrl = 0
 anim = 19220
-poweradd = 40
+poweradd = 0
 sprpriority = 2
 
 [State 0, VelSet]
@@ -523,7 +523,7 @@ juggle  = 1
 velset = 0,0
 ctrl = 0
 anim = 19230
-poweradd = 40
+poweradd = 0
 sprpriority = 2
 
 [State 0, RemoveExplod]
@@ -687,7 +687,7 @@ juggle  = 1
 velset = 0,0
 ctrl = 0
 anim = 19300
-poweradd = 40
+poweradd = 0
 sprpriority = 2
 
 [State 0, VelSet]
@@ -804,7 +804,7 @@ juggle  = 1
 velset = 0,0
 ctrl = 0
 anim = 19310
-poweradd = 40
+poweradd = 0
 sprpriority = 2
 
 [State 0, VelSet]
@@ -896,7 +896,7 @@ juggle  = 1
 velset = 0,0
 ctrl = 0
 anim = 19320
-poweradd = 40
+poweradd = 0
 sprpriority = 2
 
 [State 0, VelSet]
@@ -988,7 +988,7 @@ juggle  = 1
 velset = 0,0
 ctrl = 0
 anim = 19330
-poweradd = 40
+poweradd = 0
 sprpriority = 2
 
 [State 0, VelSet]
@@ -1158,7 +1158,7 @@ juggle  = 1
 velset = 0,0
 ctrl = 0
 anim = 19340
-poweradd = 40
+poweradd = 0
 sprpriority = 2
 
 [State 0, RemoveExplod]
@@ -1445,7 +1445,7 @@ physics = A
 juggle  = 2
 ctrl = 0
 anim = 19600
-poweradd = 30
+poweradd = 0
 sprpriority = 2
 
 [State 0, VelSet]
@@ -1532,7 +1532,7 @@ physics = A
 juggle  = 2
 ctrl = 0
 anim = 19610
-poweradd = 30
+poweradd = 0
 sprpriority = 2
 
 [State 0, PlaySnd]

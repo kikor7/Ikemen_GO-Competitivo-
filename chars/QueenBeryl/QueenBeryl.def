@@ -12,6 +12,7 @@ author ="Charzynee"
 pal.defaults =1
 
 [Files]
+movelist = movelist.dat
 sprite =beryl.sff
 anim =beryl.air
 sound =beryl.snd

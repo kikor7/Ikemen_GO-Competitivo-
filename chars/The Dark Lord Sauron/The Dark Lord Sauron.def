@@ -12,6 +12,7 @@ author = "Flávio Camarão"
 pal.defaults = 1
 
 [Files]
+movelist = movelist.dat
 sprite = The Dark Lord Sauron.sff
 anim = The Dark Lord Sauron.air
 sound = The Dark Lord Sauron.snd

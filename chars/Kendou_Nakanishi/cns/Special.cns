@@ -3,6 +3,7 @@
 ;---------------------------------------------------------------------------
 [Statedef 500]
 type = S
+poweradd = 20
 movetype = A
 physics = S
 ctrl = 0
@@ -59,6 +60,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 [Statedef 501]
 type = S
+poweradd = 20
 movetype = A
 physics = S
 ctrl = 0
@@ -115,6 +117,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 [Statedef 502]
 type = S
+poweradd = 20
 movetype = A
 physics = S
 ctrl = 0
@@ -220,7 +223,7 @@ trigger1 = Animelem = 1 || Animelem = 2 || Animelem = 3 || Animelem = 4 || Anime
 trigger1 = var(0) < 3
 attr = S,SP
 damage = Ceil(Root,FVar(10)*20)
-getpower = 420-var(1),0
+getpower = 30,15
 givepower = var(1),0
 animtype = hard
 guardflag = MA
@@ -379,7 +382,7 @@ trigger1 = Animelem = 1 || Animelem = 2 || Animelem = 3 || Animelem = 4 || Anime
 trigger1 = var(0) < 3
 attr = S,SP
 damage = Ceil(Root,FVar(10)*24)
-getpower = 420-var(1),0
+getpower = 30,15
 givepower = var(1),0
 animtype = hard
 guardflag = MA
@@ -538,7 +541,7 @@ trigger1 = Animelem = 1 || Animelem = 2 || Animelem = 3 || Animelem = 4 || Anime
 trigger1 = var(0) < 3
 attr = S,SP
 damage = Ceil(Root,FVar(10)*28)
-getpower = 420-var(1),0
+getpower = 30,15
 givepower = var(1),0
 animtype = hard
 guardflag = MA
@@ -1853,7 +1856,7 @@ type = HitDef
 trigger1 = Animelem = 1
 attr = S,SP
 damage = Ceil(Root,FVar(10)*23)
-getpower = 320-var(1),0
+getpower = 60,30
 givepower = var(1),0
 animtype = hard
 guardflag = MA
@@ -2053,7 +2056,7 @@ Trigger1 = animelem = 7
 attr = S, SA
 damage = Ifelse(Anim=430,Ceil(FVar(10)*100),Ceil(FVar(10)*75))
 animtype = hard
-getpower = 420-var(25),200-var(26)
+getpower = 60,30
 givepower = var(25),var(26)
 guardflag = MA
 hitflag = MAF
@@ -2364,7 +2367,7 @@ trigger1 = Animelem = 3
 attr = A, SA
 damage = Ceil(FVar(10)*61)
 animtype = Hard
-getpower = 320-var(25),160-var(26)
+getpower = 15,7
 givepower = var(25),var(26)
 guardflag = M
 hitflag = MAFD
@@ -2543,7 +2546,7 @@ trigger1 = Animelem = 2
 attr = S, SA
 damage = Ceil(FVar(10)*45)
 animtype = Hard
-getpower = 0,0
+getpower = 30,15
 givepower = 0,0
 guardflag = M
 hitflag = MAFD
@@ -2632,7 +2635,7 @@ trigger1 = Animelem = 5
 attr = A, SA
 damage = Ceil(FVar(10)*62)
 animtype = Hard
-getpower = 360-var(25),220-var(26)
+getpower = 30,15
 givepower = var(25),var(26)
 guardflag = M
 hitflag = MAFD
@@ -2854,7 +2857,7 @@ trigger1 = command != "holdc"
 attr = A, SA
 damage = Ceil(FVar(10)*45)
 animtype = Hard
-getpower = 320-var(25),70-var(26)
+getpower = 60,30
 givepower = var(25),var(26)
 guardflag = M
 hitflag = MAFD
@@ -3138,7 +3141,7 @@ trigger1 = AnimElem = 4
 attr = A, SA
 damage = Ceil(FVar(10)*42)
 animtype = Hard
-getpower = 320-var(25),160-var(26)
+getpower = 15,7
 givepower = var(25),var(26)
 guardflag = HA
 hitflag = MAF
@@ -3297,7 +3300,7 @@ trigger1 = AnimElem = 5
 attr = A, SA
 damage = Ceil(FVar(10)*50)
 animtype = medium
-getpower = 320-var(25),160-var(26)
+getpower = 15,7
 givepower = var(25),var(26)
 guardflag = MA
 hitflag = MAFD
@@ -3465,7 +3468,7 @@ trigger1 = !MoveContact && !MoveReversed
 attr = A, SA
 damage = Ceil(FVar(10)*34)
 animtype = Hard
-getpower = 320-var(25),160-var(26)
+getpower = 15,7
 givepower = var(25),var(26)
 guardflag = HA
 hitflag = MAF
@@ -3761,7 +3764,7 @@ trigger1 = Animelem = 3
 attr = A, SA
 damage = Ceil(FVar(10)*47)
 animtype = Hard
-getpower = 320-var(25),160-var(26)
+getpower = 60,30
 givepower = var(25),var(26)
 guardflag = M
 hitflag = MAFD
@@ -3968,7 +3971,7 @@ trigger1 = Animelem = 3
 attr = A, SA
 damage = Ceil(FVar(10)*55)
 animtype = Hard
-getpower = 320-var(25),160-var(26)
+getpower = 60,30
 givepower = var(25),var(26)
 guardflag = M
 hitflag = MAFD
@@ -4163,7 +4166,7 @@ trigger1 = Animelem = 3
 attr = A, SA
 damage = Ceil(FVar(10)*72)
 animtype = Hard
-getpower = 320-var(25),160-var(26)
+getpower = 60,30
 givepower = var(25),var(26)
 guardflag = M
 hitflag = MAFD

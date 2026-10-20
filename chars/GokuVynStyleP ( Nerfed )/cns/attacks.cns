@@ -9,7 +9,7 @@ type = S
 movetype = A
 physics = S
 anim = 200+(var(1)*(10000))
-poweradd = 20+(var(39)*(10))
+poweradd = 0+(var(39)*(10))
 juggle = 10
 velset = 0
 ctrl = 0
@@ -38,6 +38,7 @@ triggerall = var(39) < 8
 trigger1 = AnimElem = 2
 attr = S, NA
 damage = 20
+getpower = 30,15
 animtype = light
 hitflag = MAF
 guardflag = MA
@@ -62,6 +63,7 @@ triggerall = var(39) >= 8
 trigger1 = AnimElem = 2
 attr = , NA
 damage = 20
+getpower = 30,15
 animtype = light
 hitflag = MAF
 guardflag = MA
@@ -94,7 +96,7 @@ type = S
 movetype = A
 physics = S
 anim = 210+(var(1)*(10000))
-poweradd = 20+(var(39)*(10))
+poweradd = 0+(var(39)*(10))
 juggle = 10
 velset = 0
 ctrl = 0
@@ -118,6 +120,7 @@ triggerall = var(39) < 8
 trigger1 = AnimElem = 2
 attr = S, NA
 damage = 20
+getpower = 30,15
 animtype = medium
 hitflag = MAF
 guardflag = MA
@@ -139,6 +142,7 @@ triggerall = var(39) >= 8
 trigger1 = AnimElem = 2
 attr = , NA
 damage = 20
+getpower = 30,15
 animtype = medium
 hitflag = MAF
 guardflag = MA
@@ -168,7 +172,7 @@ type = S
 movetype = A
 physics = S
 anim = 220+(var(1)*(10000))
-poweradd = 30+(var(39)*(10))
+poweradd = 0+(var(39)*(10))
 juggle = 10
 velset = 0
 ctrl = 0
@@ -197,6 +201,7 @@ triggerall = var(39) < 8
 trigger1 = AnimElem = 4
 attr = S, NA
 damage = 60
+getpower = 30,15
 animtype = medium
 hitflag = MAF
 guardflag = MA
@@ -218,6 +223,7 @@ triggerall = var(39) >= 8
 trigger1 = AnimElem = 4
 attr = , NA
 damage = 60
+getpower = 30,15
 animtype = medium
 hitflag = MAF
 guardflag = MA
@@ -247,7 +253,7 @@ type = S
 movetype = A
 physics = S
 anim = 230+(var(1)*(10000))
-poweradd = 30+(var(39)*(10))
+poweradd = 0+(var(39)*(10))
 juggle = 5;10
 velset = 0
 ctrl = 0
@@ -271,6 +277,7 @@ triggerall = var(39) < 8
 trigger1 = AnimElem = 2
 attr = S, NA
 damage = 50
+getpower = 30,15
 animtype = medium
 hitflag = MAF
 guardflag = MA
@@ -292,6 +299,7 @@ triggerall = var(39) >= 8
 trigger1 = AnimElem = 2
 attr = , NA
 damage = 50
+getpower = 30,15
 animtype = medium
 hitflag = MAF
 guardflag = MA
@@ -322,7 +330,7 @@ movetype = A
 physics = S
 anim = 250+(var(1)*(10000))
 juggle = 10
-poweradd = 30+(var(39)*(10))
+poweradd = 0+(var(39)*(10))
 velset = 0
 ctrl = 0
 facep2 = 1
@@ -350,6 +358,7 @@ triggerall = var(39) < 8
 trigger1 = AnimElem = 3
 attr = S, NA
 damage = 20
+getpower = 30,15
 animtype = medium
 hitflag = MAF
 guardflag = MA
@@ -371,6 +380,7 @@ triggerall = var(39) >= 8
 trigger1 = AnimElem = 3
 attr = , NA
 damage = 20
+getpower = 30,15
 animtype = medium
 hitflag = MAF
 guardflag = MA
@@ -399,7 +409,7 @@ type = S
 movetype = A
 physics = S
 anim = 260+(var(1)*(10000))
-poweradd = 20+(var(39)*(10))
+poweradd = 0+(var(39)*(10))
 juggle = 10
 velset = 0
 ctrl = 0
@@ -423,6 +433,7 @@ triggerall = var(39) < 8
 trigger1 = AnimElem = 2
 attr = S, NA
 damage = 20
+getpower = 30,15
 animtype = light
 hitflag = MAF
 guardflag = MA
@@ -444,6 +455,7 @@ triggerall = var(39) >= 8
 trigger1 = AnimElem = 2
 attr = , NA
 damage = 20
+getpower = 30,15
 animtype = light
 hitflag = MAF
 guardflag = MA
@@ -473,7 +485,7 @@ type = S
 movetype = A
 physics = S
 anim = 270+(var(1)*(10000))
-poweradd = 20+(var(39)*(10))
+poweradd = 0+(var(39)*(10))
 juggle = 10
 velset = 0
 ctrl = 0
@@ -503,6 +515,7 @@ triggerall = var(39) < 8
 trigger1 = AnimElem = 3
 attr = S, NA
 damage = 20
+getpower = 15,7
 animtype = medium
 hitflag = MAF
 guardflag = MA
@@ -524,6 +537,7 @@ triggerall = var(39) >= 8
 trigger1 = AnimElem = 3
 attr = , NA
 damage = 20
+getpower = 15,7
 animtype = medium
 hitflag = MAF
 guardflag = MA
@@ -545,6 +559,7 @@ triggerall = var(39) < 8
 trigger1 = AnimElem = 4
 attr = S, NA
 damage = 40
+getpower = 15,7
 animtype = hard
 hitflag = MAF
 guardflag = MA
@@ -566,6 +581,7 @@ triggerall = var(39) >= 8
 trigger1 = AnimElem = 4
 attr = , NA
 damage = 40
+getpower = 15,7
 animtype = hard
 hitflag = MAF
 guardflag = MA
@@ -595,7 +611,7 @@ type = S
 movetype = A
 physics = S
 anim = 280+(var(1)*(10000))
-poweradd = 30+(var(39)*(10))
+poweradd = 0+(var(39)*(10))
 juggle = 5;5
 velset = 0,0
 ctrl = 0
@@ -625,6 +641,7 @@ triggerall = var(39) < 8
 trigger1 = AnimElem = 3
 attr = S, NA
 damage = 60
+getpower = 30,15
 animtype = diagup
 hitflag = MAF
 guardflag = MA
@@ -652,6 +669,7 @@ triggerall = var(39) >= 8
 trigger1 = AnimElem = 3
 attr = , NA
 damage = 60
+getpower = 30,15
 animtype = diagup
 hitflag = MAF
 guardflag = MA
@@ -696,7 +714,7 @@ type = C
 movetype = A
 physics = C
 anim = 400+(var(1)*(10000))
-poweradd = 20+(var(39)*(10))
+poweradd = 0+(var(39)*(10))
 juggle = 10
 velset = 0
 ctrl = 0
@@ -720,6 +738,7 @@ triggerall = var(39) < 8
 trigger1 = AnimElem = 2
 attr = C, NA
 damage = 20
+getpower = 30,15
 animtype = light
 hitflag = MAF
 guardflag = MA
@@ -741,6 +760,7 @@ triggerall = var(39) >= 8
 trigger1 = AnimElem = 2
 attr = , NA
 damage = 20
+getpower = 30,15
 animtype = light
 hitflag = MAF
 guardflag = MA
@@ -770,7 +790,7 @@ type = C
 movetype = A
 physics = C
 anim = 410+(var(1)*(10000))
-poweradd = 30+(var(39)*(10))
+poweradd = 0+(var(39)*(10))
 juggle = 10
 velset = 0
 ctrl = 0
@@ -794,6 +814,7 @@ triggerall = var(39) < 8
 trigger1 = AnimElem = 2
 attr = C, NA
 damage = 60
+getpower = 30,15
 animtype = medium
 hitflag = MAF
 guardflag = MA
@@ -815,6 +836,7 @@ triggerall = var(39) >= 8
 trigger1 = AnimElem = 2
 attr = , NA
 damage = 60
+getpower = 30,15
 animtype = medium
 hitflag = MAF
 guardflag = MA
@@ -845,7 +867,7 @@ movetype = A
 physics = C
 anim = 420+(var(1)*(10000))
 juggle = 10
-poweradd = 20+(var(39)*(10))
+poweradd = 0+(var(39)*(10))
 velset = 0
 ctrl = 0
 facep2 = 1
@@ -868,6 +890,7 @@ triggerall = var(39) < 8
 trigger1 = AnimElem = 3
 attr = C, NA
 damage = 30
+getpower = 30,15
 animtype = light
 hitflag = MAF
 guardflag = L
@@ -892,6 +915,7 @@ triggerall = var(39) >= 8
 trigger1 = AnimElem = 3
 attr = , NA
 damage = 30
+getpower = 30,15
 animtype = light
 hitflag = MAF
 guardflag = L
@@ -925,7 +949,7 @@ movetype = A
 physics = C
 anim = 430+(var(1)*(10000))
 juggle = 10
-poweradd = 30+(var(39)*(10))
+poweradd = 0+(var(39)*(10))
 velset = 0
 ctrl = 0
 facep2 = 1
@@ -953,6 +977,7 @@ triggerall = var(39) < 8
 trigger1 = AnimElem = 3
 attr = C, NA
 damage = 60
+getpower = 30,15
 animtype = hard
 hitflag = MAF
 guardflag = L
@@ -976,6 +1001,7 @@ triggerall = var(39) >= 8
 trigger1 = AnimElem = 3
 attr = , NA
 damage = 60
+getpower = 30,15
 animtype = hard
 hitflag = MAF
 guardflag = L
@@ -1008,7 +1034,7 @@ type = S
 movetype = A
 physics = S
 anim = 500+(var(1)*(10000))
-poweradd = 20+(var(39)*(10))
+poweradd = 0+(var(39)*(10))
 juggle = 10
 velset = 15
 ctrl = 0
@@ -1031,6 +1057,7 @@ triggerall = var(39) < 8
 trigger1 = AnimElem = 2
 attr = S, NA
 damage = 20
+getpower = 30,15
 animtype = medium
 hitflag = MAF
 guardflag = MA
@@ -1052,6 +1079,7 @@ triggerall = var(39) >= 8
 trigger1 = AnimElem = 2
 attr = , NA
 damage = 20
+getpower = 30,15
 animtype = medium
 hitflag = MAF
 guardflag = MA
@@ -1132,7 +1160,7 @@ type = S
 movetype = A
 physics = S
 anim = 510+(var(1)*(10000))
-poweradd = 40+(var(39)*(10))
+poweradd = 0+(var(39)*(10))
 juggle = 10
 velset = 0
 ctrl = 0
@@ -1159,6 +1187,7 @@ animtype = Hard
 air.animtype = Back
 priority = 5, Hit
 damage = 80
+getpower = 60,30
 pausetime = 14,14
 guard.pausetime	= 12,12
 sparkno = s4150;’†
@@ -1194,6 +1223,7 @@ animtype = Hard
 air.animtype = Back
 priority = 5, Hit
 damage = 80
+getpower = 60,30
 pausetime = 14,14
 guard.pausetime	= 12,12
 sparkno = s4150;’†
@@ -1283,7 +1313,7 @@ type = S
 movetype = A
 physics = S
 anim = 520+(var(1)*(10000))
-poweradd = 30+(var(39)*(10))
+poweradd = 0+(var(39)*(10))
 juggle = 1
 velset = 0,0
 ctrl = 0
@@ -1343,6 +1373,7 @@ triggerall = var(39) < 8
 trigger1 = AnimElem = 3
 attr = c, NA
 damage = 60
+getpower = 30,15
 animtype = heavy
 hitflag = MAFd
 guardflag = L
@@ -1369,6 +1400,7 @@ triggerall = var(39) >= 8
 trigger1 = AnimElem = 3
 attr = , NA
 damage = 60
+getpower = 30,15
 animtype = heavy
 hitflag = MAFd
 guardflag = L
@@ -1413,7 +1445,7 @@ type = S
 movetype = A
 physics = S
 anim = 530+(var(1)*(10000))
-poweradd = 30+(var(39)*(10))
+poweradd = 0+(var(39)*(10))
 juggle = 1
 velset = 0,0
 ctrl = 0
@@ -1448,6 +1480,7 @@ triggerall = var(39) < 8
 trigger1 = AnimElem = 3
 attr = S, NA
 damage = 60
+getpower = 30,15
 animtype = diagup
 hitflag = MAF
 guardflag = MA
@@ -1475,6 +1508,7 @@ triggerall = var(39) >= 8
 trigger1 = AnimElem = 3
 attr = , NA
 damage = 60
+getpower = 30,15
 animtype = diagup
 hitflag = MAF
 guardflag = MA
@@ -1570,7 +1604,7 @@ type = A
 movetype = A
 physics = A
 anim = 600+(var(1)*(10000))
-poweradd = 20+(var(39)*(10))
+poweradd = 0+(var(39)*(10))
 juggle = 1
 ctrl = 0
 sprpriority = 2 
@@ -1593,6 +1627,7 @@ triggerall = var(39) < 8
 trigger1 = AnimElem = 3
 attr = A, NA
 damage = 20
+getpower = 30,15
 animtype = light
 ;hitflag = MAF
 guardflag = HA
@@ -1615,6 +1650,7 @@ triggerall = var(39) >= 8
 trigger1 = AnimElem = 3
 attr = , NA
 damage = 20
+getpower = 30,15
 animtype = light
 ;hitflag = MAF
 guardflag = HA
@@ -1639,7 +1675,7 @@ type = A
 movetype = A
 physics = A
 anim = 610+(var(1)*(10000))
-poweradd = 30+(var(39)*(10))
+poweradd = 0+(var(39)*(10))
 juggle = 1
 ctrl = 0
 sprpriority = 2 
@@ -1662,6 +1698,7 @@ triggerall = var(39) < 8
 trigger1 = AnimElem = 3
 attr = A, NA
 damage = 60
+getpower = 30,15
 animtype = hard
 hitflag = MAF
 guardflag = HA
@@ -1684,6 +1721,7 @@ triggerall = var(39) >= 8
 trigger1 = AnimElem = 3
 attr = , NA
 damage = 60
+getpower = 30,15
 animtype = hard
 hitflag = MAF
 guardflag = HA
@@ -1708,7 +1746,7 @@ type = A
 movetype = A
 physics = A
 anim = 610+(var(1)*(10000))
-poweradd = 30+(var(39)*(10))
+poweradd = 0+(var(39)*(10))
 juggle = 1
 ctrl = 0
 sprpriority = 2 
@@ -1732,6 +1770,7 @@ triggerall = var(39) < 8
 trigger1 = AnimElem = 3
 attr = A, NA
 damage = 60
+getpower = 30,15
 animtype = hard
 hitflag = MAF
 guardflag = HA
@@ -1754,6 +1793,7 @@ triggerall = var(39) >= 8
 trigger1 = AnimElem = 3
 attr = , NA
 damage = 60
+getpower = 30,15
 animtype = hard
 hitflag = MAF
 guardflag = HA
@@ -1779,7 +1819,7 @@ movetype = A
 physics = A
 juggle = 1
 anim = 620+(var(1)*(10000))
-poweradd = 20+(var(39)*(10))
+poweradd = 0+(var(39)*(10))
 ctrl = 0
 sprpriority = 2 
 hitcountpersist = 1
@@ -1801,6 +1841,7 @@ triggerall = var(39) < 8
 trigger1 = AnimElem = 3
 attr = A, NA
 damage = 30
+getpower = 30,15
 animtype = light
 hitflag = MAF
 guardflag = HA
@@ -1823,6 +1864,7 @@ triggerall = var(39) >= 8
 trigger1 = AnimElem = 3
 attr = , NA
 damage = 30
+getpower = 30,15
 animtype = light
 hitflag = MAF
 guardflag = HA
@@ -1848,7 +1890,7 @@ movetype = A
 physics = A
 juggle = 1
 anim = 630+(var(1)*(10000))
-poweradd = 30+(var(39)*(10))
+poweradd = 0+(var(39)*(10))
 ctrl = 0
 sprpriority = 2
 hitcountpersist = 1
@@ -1870,6 +1912,7 @@ triggerall = var(39) < 8
 trigger1 = AnimElem = 3
 attr = A, NA
 damage = 60
+getpower = 30,15
 animtype = hard
 hitflag = MAF
 guardflag = HA
@@ -1893,6 +1936,7 @@ triggerall = var(39) >= 8
 trigger1 = AnimElem = 3
 attr = , NA
 damage = 60
+getpower = 30,15
 animtype = hard
 hitflag = MAF
 guardflag = HA
@@ -1919,7 +1963,7 @@ movetype = A
 physics = A
 juggle = 1
 anim = 630+(var(1)*(10000))
-poweradd = 30+(var(39)*(10))
+poweradd = 0+(var(39)*(10))
 ctrl = 0
 sprpriority = 2 
 velset = 3,-3
@@ -1942,6 +1986,7 @@ triggerall = var(39) < 8
 trigger1 = AnimElem = 3
 attr = A, NA
 damage = 60
+getpower = 30,15
 animtype = hard
 hitflag = MAF
 guardflag = HA
@@ -1965,6 +2010,7 @@ triggerall = var(39) >= 8
 trigger1 = AnimElem = 3
 attr = , NA
 damage = 60
+getpower = 30,15
 animtype = hard
 hitflag = MAF
 guardflag = HA
@@ -2068,6 +2114,7 @@ trigger1 = AnimElem = 3
 trigger1 = var(2) = 0
 attr = S, NT
 damage = 0
+getpower = 60,30
 animtype = hard
 hitflag = MF
 guardflag = P
@@ -2087,6 +2134,7 @@ trigger1 = AnimElem = 3
 trigger1 = var(2) = 1
 attr = S, NT
 damage = 0
+getpower = 60,30
 animtype = hard
 hitflag = AF
 guardflag = P
@@ -2107,6 +2155,7 @@ trigger1 = AnimElem = 3
 trigger1 = var(2) = 0
 attr = , NT
 damage = 0
+getpower = 60,30
 animtype = hard
 hitflag = MF
 guardflag = P
@@ -2126,6 +2175,7 @@ trigger1 = AnimElem = 3
 trigger1 = var(2) = 1
 attr = , NT
 damage = 0
+getpower = 60,30
 animtype = hard
 hitflag = AF
 guardflag = P

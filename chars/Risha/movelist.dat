@@ -1,0 +1,11 @@
+<#f0f000>:Special Moves:</>
+DSG-1100			_F_D_B^A
+DSA-1200			_B_D_F^B
+S-Trip-1001			_B_D_F^A
+Dash-800			_B_F^A
+
+<#f0f000>:Hyper Moves:</>
+Moon Dance-4000 <#f00000>(3000)</>			_F_D_B_F_D_B^C
+Special Dance-3000 <#f00000>(2000)</>			_D_F_D_F^C
+Boomer-2000 <#f00000>(1000)</>			_D_F_D_F^A
+Sword Throw-2200 <#f00000>(1000)</>			_D_B_D_F^A

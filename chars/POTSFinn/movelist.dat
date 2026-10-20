@@ -1,0 +1,27 @@
+<#f0f000>:Special Moves:</>
+Roll Forward			^A_+^X
+Arithmetic Laser Beam			_QCF_QCF^X_+^Y
+Giant Jake			_QCF_QCF^X
+MAX Sky-High Swordsman			_QCB_QCB^X_+^Y
+Sky-High Swordsman			_QCB_QCB^X
+MAX Bravest Warrior			_QCB_QCF^A_+^B
+Bravest Warrior			_QCB_QCF^A
+Assist Me!			_B_F_B^A
+Sweet Deals!			_D_D^X
+Throwin' Stones!			_QCF^X
+Soarin' Backpack Attack!			_QCB^A
+Backpack Attack!			_D_U^A
+Get Skronked!			_B_F^A
+High Five, Dude!			_B_F^X
+Throw			^X_+^Y
+Throw			^A_+^B
+
+<#f0f000>:Hyper Moves:</>
+LVL 3 Super <#f00000>(3000)</>			_QCF_QCF^A_+^B_+^C
+BMO Chop! <#f00000>(500)</>			_DSF^X
+EX Skypacked Attack <#f00000>(500)</>			_QCB^A_+^B
+EX Packed Attack <#f00000>(500)</>			_D_U^A_+^B
+EX SSSkronkening <#f00000>(500)</>			_B_F^A_+^B
+EX High 5 <#f00000>(500)</>			_B_F^X_+^Y
+Zero Counter <#f00000>(1000)</>			_B_DB_D^X
+Custom Combo <#f00000>(1000)</>			^C_+^Z

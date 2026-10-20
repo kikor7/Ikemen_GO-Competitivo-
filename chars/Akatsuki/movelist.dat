@@ -1,0 +1,18 @@
+<#f0f000>:Special Moves:</>
+Blitzshot A			_QCF^A
+Blitzshot B			_QCF^B
+Armor Pierce Kick A			_QCB^A
+Armor Pierce Kick B			_QCB^B
+Human Cannon A			_D_D^A
+Human Cannon B			_D_D^B
+Reflector			^B_+^C
+Ultra Burst			^Y_+^Z
+
+<#f0f000>:Hyper Moves:</>
+Ouka-Kai <#f00000>(2000)</>			_D_D^A_+^B
+Thunderbolt <#f00000>(1000)</>			_QCB^A_+^B
+Kamekaze <#f00000>(1000)</>			_QCF^A_+^B
+EX Blitzshot <#f00000>(500)</>			_QCF^C
+Armor Pierce Kick EX <#f00000>(500)</>			_QCB^C
+Human Cannon EX <#f00000>(500)</>			_D_D^C
+Guard Cancel <#f00000>(1000)</>			^B_+^C

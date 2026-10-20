@@ -286,7 +286,7 @@ physics = N
 velset = 0,0
 ctrl = 0
 anim = 1110
-poweradd = 50
+poweradd = 0
 
 [State 0, Posadd]
 type = Posadd
@@ -722,7 +722,7 @@ movetype = A
 physics = N
 ctrl = 0
 anim = 1210
-poweradd = 50
+poweradd = 0
 
 
 [State 0, VelSet]
@@ -867,7 +867,7 @@ physics = N
 anim = 1220
 ctrl = 0
 sprpriority = 1
-poweradd = 50
+poweradd = 0
 
 [State 0, VelSet]
 type = VelSet
@@ -1037,7 +1037,7 @@ physics = N
 anim = 1230
 ctrl = 0
 sprpriority = 1
-poweradd = 50
+poweradd = 0
 
 [State 0, VelSet]
 type = VelSet
@@ -1504,7 +1504,7 @@ type    = A
 Movetype = A
 physics = N
 juggle  = 5
-poweradd = 100
+poweradd = 20
 ctrl = 0
 anim = 1320
 sprpriority =1

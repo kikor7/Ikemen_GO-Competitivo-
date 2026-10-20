@@ -25,3 +25,27 @@ if isHelper || teamSide = 0 {
 	map(_cg_last) := 0;
 	map(_cg_pending) := 0;
 }
+
+#===============================================================================
+# Combo de trampa (BROCKEN DEATH MATCH / GEEGUS DEATH MATCH)
+# Cuando una trampa del escenario lanza a un jugador, el personaje adjunto del
+# escenario pone map(_trap_combo) = 1 y guarda el contador de golpes. Mientras
+# dura, el rival puede pegarle como mucho 3 golpes, con un 30% menos de dano.
+#===============================================================================
+if isHelper || teamSide = 0 {
+	# Nada: helpers y escenario
+} else if map(_trap_combo) > 0 {
+	if moveType = H || (stateType = A && !ctrl) {
+		# 30% menos de dano durante el combo de trampa
+		defenceMulSet{value: 1.0 / 0.7}
+		# Despues de 3 golpes del rival ya no se le puede pegar hasta que se recupere
+		if getHitVar(hitcount) - map(_trap_base) >= 3 {
+			notHitBy{value: SCA; time: 1}
+		}
+	} else {
+		# Combo terminado: todo vuelve a la normalidad
+		defenceMulSet{value: 1}
+		map(_trap_combo) := 0;
+		map(_trap_base) := 0;
+	}
+}

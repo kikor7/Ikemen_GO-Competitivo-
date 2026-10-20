@@ -1,0 +1,7 @@
+<#f0f000>:Special Moves:</>
+Stand Light Punch			_QCF^A
+Stand Light Punch			_QCB^A
+
+<#f0f000>:Hyper Moves:</>
+Stand Light Punch <#f00000>(1000)</>			_QCF^A_+^B
+Stand Light Punch <#f00000>(1000)</>			_QCB^A_+^B

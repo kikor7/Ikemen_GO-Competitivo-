@@ -968,7 +968,7 @@ airguard.velocity = -4.4,-4
 air.type = low
 air.velocity = -2,-4
 ID = 200
-getpower = 30,10
+getpower = 30,15
 givepower = 30,10
 
 [state 1]
@@ -1030,7 +1030,7 @@ fall.recovertime = 20
 ground.cornerpush.veloff = -6
 air.cornerpush.veloff = -6
 guard.cornerpush.veloff = -6
-getpower = 50,10
+getpower = 30,15
 givepower = 50,10
 
 [state 1]
@@ -1078,7 +1078,7 @@ airguard.velocity = -4.4,-4
 air.type = low
 air.velocity = -2,-4
 ID = 200
-getpower = 30,10
+getpower = 30,15
 givepower = 30,10
 
 [state 1]
@@ -1140,7 +1140,7 @@ air.type = low
 air.velocity = -3,-4
 air.hittime = 25
 fall.recovertime = 20
-getpower = 25,5
+getpower = 15,7
 givepower = 25,5
 
 [state 1]
@@ -1169,7 +1169,7 @@ air.type = low
 air.velocity = -3,-4
 air.hittime = 25
 fall.recovertime = 20
-getpower = 25,5
+getpower = 15,7
 givepower = 25,5
 
 [state 1]
@@ -1222,7 +1222,7 @@ airguard.velocity = -4.4,-4
 air.type = low
 air.velocity = -2,-4
 ID = 200
-getpower = 30,10
+getpower = 30,15
 givepower = 30,10
 
 [state 1]
@@ -1280,7 +1280,7 @@ air.type = low
 air.velocity = -3,-4
 air.hittime = 25
 fall.recovertime = 20
-getpower = 50,10
+getpower = 30,15
 givepower = 50,10
 
 [state 1]
@@ -1328,7 +1328,7 @@ airguard.velocity = -4.4,-4
 air.type = low
 air.velocity = -2,-4
 ID = 200
-getpower = 30,10
+getpower = 30,15
 givepower = 30,10
 
 [state 1]
@@ -1386,7 +1386,7 @@ air.velocity = -4.4,-4
 airguard.velocity = -4.4,-4
 fall = 1
 fall.recover = 0
-getpower = 50,10
+getpower = 30,15
 givepower = 50,10
 
 [state 1]
@@ -1433,7 +1433,7 @@ air.type = low
 air.velocity = -2,-4
 air.hittime = 25
 ID = 600
-getpower = 30,10
+getpower = 30,15
 givepower = 30,10
 ;============================================================================
 ;JY
@@ -1484,7 +1484,7 @@ air.hittime = 25
 fall = 0+(P2statetype=A)
 fall.recovertime = 20
 ID = 600
-getpower = 50,10
+getpower = 30,15
 givepower = 50,10
 ;============================================================================
 ;JA
@@ -1525,7 +1525,7 @@ air.type = low
 air.velocity = -2,-4
 air.hittime = 25
 ID = 600
-getpower = 30,10
+getpower = 30,15
 givepower = 30,10
 ;============================================================================
 ;JB
@@ -1576,7 +1576,7 @@ air.hittime = 25
 fall = 0+(P2statetype=A)
 fall.recovertime = 20
 ID = 600
-getpower = 50,10
+getpower = 30,15
 givepower = 50,10
 ;============================================================================
 ;ãŸã}âÒîÅEëO
@@ -2373,7 +2373,7 @@ envshake.time = 15
 envshake.freq = 60
 envshake.ampl = -3
 envshake.phase = 1
-getpower = 0,0
+getpower = 60,30
 givepower = 50,10
 
 [state 1]
@@ -2415,6 +2415,7 @@ var(5)=1
 
 [state 1]
 type = HitDef
+getpower = 60,30
 trigger1 = p2bodydist X = [-10,10]
 trigger1 = enemynear(var(47)),movetype!=H
 trigger1 = time=0

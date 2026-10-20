@@ -285,7 +285,7 @@ guard.kill=0
 fall=0
 hitonce=1
 damage=floor(floor((180+20*(var(1)=1))*.1)*fvar(0)),0
-getpower=0,0
+getpower = 30,15
 givepower=0,0
 pausetime=5,5
 numhits=1
@@ -462,7 +462,7 @@ guard.kill=0
 fall=0
 hitonce=1
 damage=floor(floor((375+25*((var(1)=1)+(prevstateno=101)))*.1)*fvar(0)),0
-getpower=0,0
+getpower = 30,15
 givepower=0,0
 pausetime=8,12
 numhits=1
@@ -653,7 +653,7 @@ guard.kill=0
 fall=1
 hitonce=1
 damage=floor(floor(550*.1)*fvar(0)),0
-getpower=0,0
+getpower = 30,15
 givepower=0,0
 pausetime=7,6+5*(prevstateno=201)
 numhits=1
@@ -2029,7 +2029,7 @@ guard.kill=0
 fall=0
 hitonce=1
 damage=floor(floor((180+20*(var(1)=1))*.1)*fvar(0)),0
-getpower=0,0
+getpower = 30,15
 givepower=0,0
 pausetime=0,10
 numhits=1

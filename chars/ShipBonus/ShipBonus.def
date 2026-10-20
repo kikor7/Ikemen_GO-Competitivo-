@@ -1,7 +1,7 @@
 ; Player information
 [Info]
 name ="Ship Bonus"
-displayname ="e"
+displayname ="Ship Bonus"
 ;mugenversion = 1.0
 author ="Team One Piece OS"
 pal.defaults =1

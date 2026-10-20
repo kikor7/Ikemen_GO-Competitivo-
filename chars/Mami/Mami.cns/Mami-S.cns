@@ -841,7 +841,7 @@ movetype= A
 physics = A
 ctrl = 0
 velset = -3,-7
-poweradd = 20
+poweradd = 0
 
 [State ]
 type = ChangeAnim
@@ -1064,7 +1064,7 @@ type    = S
 movetype= A
 physics = S
 ctrl = 0
-poweradd = 0
+poweradd = 20
 
 [State ]
 type = ChangeAnim
@@ -1089,7 +1089,7 @@ trigger1 = Time = 0
 trigger1 = PalNo = [1,6]
 attr = S, SA
 damage = ceil(30*FVar(0)),5
-getpower = 30,15
+getpower = 15,7
 guardflag = H
 priority = 5,hit
 pausetime = 12,12+var(1)
@@ -1113,7 +1113,7 @@ trigger1 = Time = 0
 trigger1 = PalNo = [7,12]
 attr = S, SA
 damage = 30,5
-getpower = 30,15
+getpower = 15,7
 guardflag = H
 priority = 5,hit
 pausetime = 12,12+var(1)
@@ -1346,7 +1346,7 @@ attr = S, SA
 hitflag = MFD
 animtype  = Light
 damage    = 0
-getpower = 30,15
+getpower = 15,7
 pausetime = 0,120+root,var(1)
 sparkno = -1
 sparkxy = 0,0
@@ -1471,7 +1471,7 @@ movetype = A
 physics = S
 anim = 1420
 ctrl = 0
-poweradd = 20
+poweradd = 0
 
 [State ]
 type = HitBy
@@ -2838,6 +2838,7 @@ channel = 0
 
 [State ]
 type = HitDef
+getpower = 20,10
 trigger1 = AnimElem = 5
 attr = S, ST 
 guardflag = MA
@@ -2858,6 +2859,7 @@ fall = 0
 
 [State ]
 type = HitDef
+getpower = 20,10
 trigger1 = AnimElem = 6
 attr = S, ST 
 guardflag = MA
@@ -2878,6 +2880,7 @@ fall = 0
 
 [State ]
 type = HitDef
+getpower = 20,10
 trigger1 = AnimElem = 7
 attr = S, ST 
 guardflag = MA
@@ -3379,6 +3382,7 @@ channel = 0
 
 [State ]
 type = HitDef
+getpower = 30,15
 trigger1 = AnimElem = 6
 attr = S, ST
 hitflag = AF
@@ -3398,6 +3402,7 @@ fall = 0
 
 [State ]
 type = HitDef
+getpower = 30,15
 trigger1 = AnimElem = 7
 attr = S, ST 
 hitflag = AF
@@ -5396,7 +5401,7 @@ movetype= A
 physics = S
 ctrl = 0
 anim = 2100
-poweradd = 20
+poweradd = 0
 
 [State ]
 type     = PlaySnd

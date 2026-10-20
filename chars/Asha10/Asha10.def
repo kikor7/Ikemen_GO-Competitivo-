@@ -6,6 +6,7 @@ mugenversion=1.0
 author="RoySquadRocks"
 pal.defaults=1,2
 [Files]
+movelist = movelist.dat
 sprite=Asha.sff
 sound=Asha.snd
 anim=Asha.air

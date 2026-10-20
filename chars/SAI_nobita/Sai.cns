@@ -2663,7 +2663,7 @@ ground.velocity = -4
 air.velocity = -4,-3.8 + fVar(20)
 fall.xvelocity = ifelse((enemynear,facing=facing),1,-1)
 yaccel = 0.45
-getpower = 40,20
+getpower = 30,15
 givepower = 20,10
 fall = 0
 air.fall = ifelse(EnemyNear,Movetype=H,1,0)
@@ -2747,7 +2747,7 @@ channel = 1
 [State 210, パワー追加]
 type = PowerAdd
 trigger1 = AnimElem = 2
-value = 20
+value = 0
 
 [State 210, ヒット定義]
 type = HitDef
@@ -2772,7 +2772,7 @@ ground.velocity = -5
 air.velocity = -4.25,-4 + fVar(20)
 fall.xvelocity = ifelse((enemynear,facing=facing),1,-1)
 yaccel = 0.45
-getpower = 60,30
+getpower = 30,15
 givepower = 30,15
 fall = 0
 air.fall = ifelse(EnemyNear,Movetype=H,1,0)
@@ -2861,7 +2861,7 @@ value = 0,2
 [State 220, パワー追加]
 type = PowerAdd
 trigger1 = AnimElem = 3
-value = 40
+value = 0
 
 [State 220, エフェクト]
 type = Explod
@@ -2906,7 +2906,7 @@ ground.cornerpush.veloff = -11 * 1.5
 air.velocity = -3.2,-5.5 + fVar(20)
 fall.xvelocity = ifelse((enemynear,facing=facing),1,-1)
 yaccel = 0.5
-getpower = 80,40
+getpower = 30,15
 givepower = 40,20
 fall = 1
 fall.recover = 0
@@ -3083,7 +3083,7 @@ channel = 1
 [State 410, パワー追加]
 type = PowerAdd
 trigger1 = AnimElem = 4
-value = 20
+value = 0
 
 [State 410, ヒット定義]
 type = HitDef
@@ -3111,7 +3111,7 @@ air.velocity = -4,-4 + fVar(20)
 fall.xvelocity = ifelse((enemynear,facing=facing),1,-1)
 down.velocity = -5,0
 yaccel = 0.45
-getpower = 50,25
+getpower = 30,15
 givepower = 25,10
 fall = 0
 air.fall = ifelse(EnemyNear,Movetype=H,1,0)
@@ -3197,7 +3197,7 @@ channel = 1
 [State 420, パワー追加]
 type = PowerAdd
 trigger1 = AnimElem = 5
-value = 45
+value = 0
 
 [State 420, エフェクト]
 type = Explod
@@ -3245,7 +3245,7 @@ air.velocity = -1.75,-5 + fVar(20)
 fall.xvelocity = ifelse((enemynear,facing=facing),1,-1)
 down.velocity = -5,0
 yaccel = 0.575
-getpower = 80,40
+getpower = 15,7
 givepower = 40,20
 fall = 1
 fall.recover = 0
@@ -3279,7 +3279,7 @@ air.velocity = -3.5,-4.4 + fVar(20)
 fall.xvelocity = ifelse((enemynear,facing=facing),1,-1)
 down.velocity = -5,-0
 yaccel = 0.45
-getpower = 50,25
+getpower = 15,7
 givepower = 25,10
 fall = 0
 air.fall = ifelse(EnemyNear,Movetype=H,1,0)
@@ -3369,7 +3369,7 @@ air.velocity = -3.4,-4 + fVar(20)
 air.cornerpush.veloff = -5.5 * 1.5
 fall.xvelocity = ifelse((enemynear,facing=facing),1,-1)
 yaccel = 0.45
-getpower = 40,20
+getpower = 30,15
 givepower = 20,10
 fall = 0
 air.fall = ifelse(EnemyNear,Movetype=H,1,0)
@@ -3436,7 +3436,7 @@ channel = 1
 [State 610, パワー追加]
 type = PowerAdd
 trigger1 = AnimElem = 2
-value = 20
+value = 0
 
 [State 610, ヒット定義]
 type = HitDef
@@ -3464,7 +3464,7 @@ air.velocity = -3.6,-4.2 + fVar(20)
 air.cornerpush.veloff = -6 * 1.5
 fall.xvelocity = ifelse((enemynear,facing=facing),1,-1)
 yaccel = 0.45
-getpower = 60,30
+getpower = 30,15
 givepower = 30,15
 fall = 0
 air.fall = ifelse(EnemyNear,Movetype=H,1,0)
@@ -3525,7 +3525,7 @@ type = PowerAdd
 trigger1 = AnimElem = 2
 trigger2 = AnimElem = 4
 trigger3 = AnimElem = 6
-value = 12
+value = 0
 
 [State 620, ヒット定義]
 type = HitDef
@@ -3553,7 +3553,7 @@ air.velocity = -3.75,-4.4 + fVar(20)
 air.cornerpush.veloff = -6.5 * 1.5
 fall.xvelocity = ifelse((enemynear,facing=facing),1,-1)
 yaccel = 0.485
-getpower = 45,20
+getpower = 30,15
 givepower = 20,10
 fall = 0
 air.fall = ifelse(EnemyNear,Movetype=H,1,0)
@@ -3666,7 +3666,7 @@ value = 0,2
 type = PowerAdd
 trigger1 = AnimElem = 6
 trigger2 = AnimElem = 8
-value = 20
+value = 0
 
 [State 700, 特殊]
 type = StateTypeSet
@@ -3715,7 +3715,7 @@ air.velocity = -4,-4 + fVar(20)
 fall.xvelocity = ifelse((enemynear,facing=facing),1,-1)
 down.velocity = -5,0
 yaccel = 0.45
-getpower = 60,30
+getpower = 15,7
 givepower = 30,15
 fall = 0
 air.fall = ifelse(EnemyNear,Movetype=H,1,0)
@@ -3746,7 +3746,7 @@ air.velocity = -4,8 + fVar(20)
 fall.xvelocity = ifelse((enemynear,facing=facing),1,-1)
 down.velocity = -5,0
 yaccel = 0.45
-getpower = 60,30
+getpower = 15,7
 givepower = 30,15
 fall = 0
 air.fall = ifelse(EnemyNear,Movetype=H,1,0)
@@ -3821,7 +3821,7 @@ channel = 1
 [State 710, パワーを足す]
 type = PowerAdd
 trigger1 = AnimElem = 5
-value = 45
+value = 0
 
 [State 710, ヒット定義]
 type = HitDef
@@ -3849,7 +3849,7 @@ ground.cornerpush.veloff = -8.5 * 1.5
 air.velocity = -4,-7 + fVar(20)
 fall.xvelocity = ifelse((enemynear,facing=facing),1,-1)
 yaccel = 0.575
-getpower = 90,45
+getpower = 30,15
 givepower = 45,25
 fall = 1
 fall.recover = 0
@@ -3926,6 +3926,7 @@ var(2) = -1
 
 [State 800, ヒット定義（投げ用）]
 type = HitDef
+getpower = 60,30
 trigger1 = Animelem = 2
 trigger1 = P2Movetype != H
 trigger1 = P2StateNo != [150,155]
@@ -4179,12 +4180,12 @@ trigger5 = AnimElem = 8
 trigger6 = AnimElem = 9
 trigger7 = AnimElem = 10
 trigger8 = AnimElem = 11
-value = 10
+value = 0
 
 [State 810, パワー追加]
 type = PowerAdd
 trigger1 = AnimElem = 15
-value = 70
+value = 0
 
 [State 810, 画面振動]
 type = EnvShake
@@ -4515,6 +4516,7 @@ var(2) = -1
 
 [State 850, ヒット定義（投げ用）]
 type = HitDef
+getpower = 60,30
 trigger1 = Animelem = 2
 trigger1 = P2Stateno != [150,155]
 attr = A, NT
@@ -4771,7 +4773,7 @@ trigger2 = AnimElem = 3
 trigger3 = AnimElem = 5
 trigger4 = AnimElem = 7
 trigger5 = AnimElem = 9
-value = 30
+value = 0
 
 [State 861, ヒット数加算]
 type = HitAdd
@@ -5117,7 +5119,7 @@ channel = 1
 [State 1000, パワーを足す]
 type = PowerAdd
 trigger1 = AnimElem = 4
-value = 40
+value = 0
 
 [State 1000, 加速]
 type = VelSet
@@ -5224,7 +5226,7 @@ guard.velocity = -10
 air.velocity = -3.25,-5 + fVar(20)
 fall.xvelocity = ifelse((enemynear,facing=facing),1,-1)
 yaccel = 0.45
-getpower = 100,50
+getpower = 60,30
 givepower = 50,25
 fall = 0
 air.fall = ifelse(EnemyNear,Movetype=H,1,0)
@@ -5304,7 +5306,7 @@ channel = 1
 [State 1010, パワーを足す]
 type = PowerAdd
 trigger1 = AnimElem = 4
-value = 45
+value = 0
 
 [State 1010, 加速]
 type = VelSet
@@ -5412,7 +5414,7 @@ ground.cornerpush.veloff = -9 * 1.5
 air.velocity = -3.25,-5.75 + fVar(20)
 fall.xvelocity = ifelse((enemynear,facing=facing),1,-1)
 yaccel = 0.5
-getpower = 110,55
+getpower = 60,30
 givepower = 55,25
 fall = 1
 fall.recover = 0
@@ -5491,7 +5493,7 @@ channel = 1
 [State 1020, パワーを足す]
 type = PowerAdd
 trigger1 = AnimElem = 4
-value = 50
+value = 0
 
 [State 1020 加速]
 type = VelSet
@@ -5599,7 +5601,7 @@ ground.cornerpush.veloff = -9 * 1.5
 air.velocity = -4.25,-7.25 + fVar(20)
 fall.xvelocity = ifelse((enemynear,facing=facing),1,-1)
 yaccel = 0.575
-getpower = 120,60
+getpower = 60,30
 givepower = 60,30
 fall = 1
 fall.recover = 0
@@ -5751,7 +5753,7 @@ channel = 1
 [State 1110, パワーを足す]
 type = PowerAdd
 trigger1 = AnimElem = 3
-value = 50
+value = 0
 
 [State 1110, ヒット定義]
 type = HitDef
@@ -5778,7 +5780,7 @@ guard.velocity = -10
 air.velocity = -3.5,8 + fVar(20)
 fall.xvelocity = ifelse((enemynear,facing=facing),1,-1)
 yaccel = 0.45
-getpower = 100,50
+getpower = 30,15
 givepower = 50,25
 fall = 1
 fall.recover = 0
@@ -5883,7 +5885,7 @@ channel = 1
 [State 1120, パワーを足す]
 type = PowerAdd
 trigger1 = AnimElem = 3
-value = 50
+value = 0
 
 [State 1120, ヒット定義]
 type = HitDef
@@ -5910,7 +5912,7 @@ guard.velocity = -10
 air.velocity = -3.5,8 + fVar(20)
 fall.xvelocity = ifelse((enemynear,facing=facing),1,-1)
 yaccel = 0.45
-getpower = 100,50
+getpower = 60,30
 givepower = 50,25
 fall = 1
 fall.recover = 0
@@ -6015,7 +6017,7 @@ channel = 1
 [State 1130, パワーを足す]
 type = PowerAdd
 trigger1 = AnimElem = 3
-value = 50
+value = 0
 
 [State 1130, ヒット定義]
 type = HitDef
@@ -6042,7 +6044,7 @@ guard.velocity = -10
 air.velocity = -3.5,8 + fVar(20)
 fall.xvelocity = ifelse((enemynear,facing=facing),1,-1)
 yaccel = 0.45
-getpower = 100,50
+getpower = 60,30
 givepower = 50,25
 fall = 1
 fall.recover = 0
@@ -6200,7 +6202,7 @@ guard.velocity = -10
 air.velocity = -3,8 + fVar(20)
 fall.xvelocity = ifelse((enemynear,facing=facing),1,-1)
 yaccel = 0.45
-getpower = 100,50
+getpower = 30,15
 givepower = 50,25
 fall = 1
 fall.recover = 0
@@ -6384,6 +6386,7 @@ scale = 0.02,(0.02*(time/5))
 
 [State 1200, ヒット定義]
 type = HitDef
+getpower = 60,30
 trigger1 = Animelem = 8
 trigger1 = EnemyNear,Stateno != [150,155]
 attr = S, ST
@@ -6557,6 +6560,7 @@ scale = 0.02,(0.02*(time/5))
 
 [State 1210, ヒット定義]
 type = HitDef
+getpower = 60,30
 trigger1 = Animelem = 8
 trigger1 = EnemyNear,Stateno != [150,155]
 attr = S, ST
@@ -6730,6 +6734,7 @@ scale = 0.02,(0.02*(time/5))
 
 [State 1220, ヒット定義]
 type = HitDef
+getpower = 60,30
 trigger1 = Animelem = 8
 trigger1 = EnemyNear,Stateno != [150,155]
 attr = S, ST
@@ -7029,12 +7034,12 @@ persistent = 1
 [State 1011, パワーを足す]
 type = PowerAdd
 trigger1 = MoveHit = 1
-value = 60
+value = 0
 
 [State 1011, パワーを足す]
 type = PowerAdd
 trigger1 = MoveGuarded = 1
-value = 30
+value = 0
 
 [State 1250, ダメージ判定]
 type = HitDef

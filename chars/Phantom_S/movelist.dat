@@ -1,0 +1,19 @@
+<#f0f000>:Special Moves:</>
+Especial 1			_B_F^X
+Especial 2			_B_F^Y
+Especial 3			_B_F^A
+Especial 4			_B_F^B
+Especial 5			_QCF^X
+Especial 6			_QCB^A
+Especial 7			_D_U^X
+Especial 8			_D_U^Y
+Kanfuusuruu			^Y_+^B
+
+<#f0f000>:Hyper Moves:</>
+Phantomdance <#f00000>(1000)</>			_QCF_QCF^Y
+Super 2 <#f00000>(1000)</>			_QCF_QCF^A
+Super 3 <#f00000>(1000)</>			_QCB_QCB^A
+Super 4 <#f00000>(2000)</>			_QCF^A_+^B
+Super 5 <#f00000>(1000)</>			_B_F^Z
+Super 6 <#f00000>(1000)</>			_B_F^C
+Super 7 <#f00000>(1000)</>			_D_U^Z

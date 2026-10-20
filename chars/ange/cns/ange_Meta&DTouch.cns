@@ -1306,6 +1306,7 @@ type=HitDef
 trigger1=(enemy,TeamMode=single ||enemy,TeamMode=turns)&&time=0
 attr=A,HA
 damage=0,0
+getpower = 15,7
 animtype=back
 guardflag=M
 hitflag=MAFD
@@ -1332,6 +1333,7 @@ type=HitDef
 trigger1=enemy,TeamMode=simul &&time=0
 attr=A,HA
 damage=0,0
+getpower = 15,7
 animtype=back
 guardflag=H
 hitflag=MAFD

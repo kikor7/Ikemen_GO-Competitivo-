@@ -7,6 +7,7 @@ Author       = "gu"
 Pal.Defaults = 1
 
 [Files]
+movelist = movelist.dat
 CMD          = Yukari_CMD.cmd
 CNS          = Yukari_CNS.cns
 ST           = Yukari_CNS.cns

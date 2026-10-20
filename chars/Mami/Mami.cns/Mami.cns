@@ -2644,6 +2644,7 @@ channel = 0
 
 [State ]
 type = HitDef
+getpower = 60,30
 trigger1 = Time = 0
 attr = S, NT
 hitflag = M-
@@ -2817,6 +2818,7 @@ channel = 0
 
 [State ]
 type = HitDef
+getpower = 60,30
 trigger1 = Time = 0
 attr = S, ST 
 guardflag = M
@@ -2849,7 +2851,7 @@ type    = S
 movetype= A
 physics = N
 anim = 860
-poweradd = 60
+poweradd = 0
 
 [State ]
 type = PlaySnd
@@ -3139,7 +3141,7 @@ type    = S
 movetype= A
 physics = N
 anim = 30810
-poweradd = 60
+poweradd = 0
 
 
 [State ]

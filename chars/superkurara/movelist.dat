@@ -1,0 +1,16 @@
+<#f0f000>:Special Moves:</>
+Super Launch 1			_QCF^X
+Super Launch 1			_QCF^Y
+Super Launch 2			_QCB^X
+Super Launch 2			_QCB^Y
+Super Kick			_QCF^A
+Super Kick			_QCF^B
+Wave Kick			_QCB^A
+Wave Kick			_QCB^B
+Especial 9			^A_+^X
+Especial 10			^B_+^Y
+Especial 11			~D^B_+^Y
+
+<#f0f000>:Hyper Moves:</>
+Super Combo <#f00000>(1000)</>			_QCF_QCF^X
+Super 2 <#f00000>(1000)</>			^B_+^Y

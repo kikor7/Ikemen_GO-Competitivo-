@@ -6,7 +6,7 @@ physics = S
 velset = 0,0
 ctrl = 0
 anim = 1000
-poweradd = 87
+poweradd = 0
 
 [State xxx, Explod]
 type = Explod
@@ -421,7 +421,7 @@ juggle = 8
 velset = 0,0
 ctrl = 0
 anim = 1100
-poweradd = 80
+poweradd = 0
 
 [State xxx, Explod]
 type = Explod
@@ -504,6 +504,7 @@ guardflag = MA
 animtype = Heavy
 priority = 5, Hit
 damage = 100
+getpower = 60,30
 pausetime = 8, 8
 sparkno = S8800+(random%64)
 guard.sparkno = S8105
@@ -544,7 +545,7 @@ juggle = 8
 velset = 0,0
 ctrl = 0
 anim = 1110
-poweradd = 95
+poweradd = 0
 
 [State xxx, Explod]
 type = Explod
@@ -632,6 +633,7 @@ guardflag = MA
 animtype = Heavy
 priority = 5, Hit
 damage = 65
+getpower = 30,15
 pausetime = 8, 8
 sparkno = S8800+(random%64)
 guard.sparkno = S8105
@@ -685,6 +687,7 @@ guardflag = MA
 animtype = Heavy
 priority = 5, Hit
 damage = 75
+getpower = 30,15
 pausetime = 8, 8
 sparkno = S8800+(random%64)
 guard.sparkno = S8105
@@ -724,7 +727,7 @@ juggle = 8
 velset = 0,0
 ctrl = 0
 anim = 1120
-poweradd = 95
+poweradd = 0
 
 [State xxx, Explod]
 type = Explod
@@ -817,6 +820,7 @@ guardflag = MA
 animtype = Heavy
 priority = 5, Hit
 damage = 60
+getpower = 20,10
 pausetime = 8, 8
 sparkno = S8800+(random%64)
 guard.sparkno = S8105
@@ -890,6 +894,7 @@ guardflag = MA
 animtype = Heavy
 priority = 5, Hit
 damage = 65
+getpower = 20,10
 pausetime = 8, 8
 sparkno = S8800+(random%64)
 guard.sparkno = S8105
@@ -923,6 +928,7 @@ guardflag = MA
 animtype = Heavy
 priority = 5, Hit
 damage = 70
+getpower = 20,10
 pausetime = 8, 8
 sparkno = S8800+(random%64)
 guard.sparkno = S8105
@@ -964,7 +970,7 @@ juggle = 8
 velset = 0,0
 ctrl = 0
 anim = 1200
-poweradd = 90
+poweradd = 0
 
 [State xxx, Explod]
 type = Explod
@@ -1070,6 +1076,7 @@ guardflag = MA
 animtype = Heavy
 priority = 5, Hit
 damage = 80
+getpower = 60,30
 pausetime = 8, 8
 sparkno = S8210+(random%8)
 guard.sparkno = S8105
@@ -1218,7 +1225,7 @@ juggle = 8
 velset = 0,0
 ctrl = 0
 anim = 1200
-poweradd = 90
+poweradd = 0
 
 [State xxx, Explod]
 type = Explod
@@ -1307,6 +1314,7 @@ guardflag = MA
 animtype = Heavy
 priority = 5, Hit
 damage = 80
+getpower = 60,30
 pausetime = 8, 8
 sparkno = S8210+(random%8)
 guard.sparkno = S8105
@@ -1531,7 +1539,7 @@ physics = S
 velset = 0,0
 ctrl = 0
 anim = 1300
-poweradd = 95
+poweradd = 0
 
 [State xxx, Explod]
 type = Explod
@@ -1778,6 +1786,7 @@ guardflag = MA
 animtype = Heavy
 priority = 5, Hit
 damage = 100
+getpower = 60,30
 pausetime = 0, 0
 sparkno = S8800+(random%64)
 guard.sparkno = S8105
@@ -1832,7 +1841,7 @@ physics = S
 velset = 0,0
 ctrl = 0
 anim = 1300
-poweradd = 95
+poweradd = 0
 
 [State xxx, Explod]
 type = Explod
@@ -2062,6 +2071,7 @@ guardflag = MA
 animtype = Heavy
 priority = 5, Hit
 damage = 100
+getpower = 60,30
 pausetime = 0, 0
 sparkno = S8800+(random%64)
 guard.sparkno = S8105
@@ -2240,7 +2250,7 @@ physics = S
 velset = 0,0
 ctrl = 0
 anim = 1400
-poweradd = 70
+poweradd = 0
 juggle = 8
 
 [State xxx, Explod]
@@ -2288,7 +2298,7 @@ fall.recover = 0
 ID = 666
 nochainid = 999
 numhits = 0
-getpower = 20
+getpower = 60,30
 
 [State 1400, 5]
 type = TargetState
@@ -2726,7 +2736,7 @@ juggle = 8
 velset = 0,0
 ctrl = 0
 anim = 1600
-poweradd = 80
+poweradd = 0
 
 [State xxx, Explod]
 type = Explod
@@ -2830,6 +2840,7 @@ guardflag = MA
 animtype = Heavy
 priority = 5, Hit
 damage = 80
+getpower = 60,30
 pausetime = 8, 8
 sparkno = S8210+(random%8)
 guard.sparkno = S8105
@@ -2870,7 +2881,7 @@ juggle = 8
 velset = 0,0
 ctrl = 0
 anim = 1610
-poweradd = 95
+poweradd = 0
 
 [State xxx, Explod]
 type = Explod
@@ -2956,6 +2967,7 @@ guardflag = HA
 animtype = Up
 priority = 5, Hit
 damage = 100
+getpower = 60,30
 pausetime = 8, 8
 sparkno = S8210+(random%8)
 guard.sparkno = S8105

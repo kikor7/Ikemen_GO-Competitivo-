@@ -6,7 +6,7 @@ physics = S
 anim = 200
 ctrl = 0
 velset = 0,0
-poweradd = 70 * !var(20)
+poweradd = 20 * !var(20)
 sprpriority = 2
 facep2 = 1
 
@@ -257,7 +257,7 @@ palfx.time = 35
 palfx.mul = 250,224,120
 palfx.add = 240,50,0
 palfx.sinadd = 110,55,85,10
-getpower = 0
+getpower = 30,15
 ground.cornerpush.veloff = 0
 
 [State 200, Voice]
@@ -292,7 +292,7 @@ physics = S
 anim = 200
 ctrl = 0
 velset = 0,0
-poweradd = 70 * !var(20)
+poweradd = 20 * !var(20)
 sprpriority = 2
 facep2 = 1
 
@@ -462,7 +462,7 @@ palfx.time = 35
 palfx.mul = 250,224,120
 palfx.add = 240,50,0
 palfx.sinadd = 110,55,85,10
-getpower = 0
+getpower = 30,15
 ground.cornerpush.veloff = 0
 
 [State 200, Voice]

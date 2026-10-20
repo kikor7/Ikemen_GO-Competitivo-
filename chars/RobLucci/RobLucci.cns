@@ -712,7 +712,7 @@ triggerall = !movecontact
 trigger1 = animelem = 4
 attr = C, NA
 animtype  = Medium
-getpower = 40,20
+getpower = 30,15
 damage    = 10
 guardflag = L
 pausetime = 8,10
@@ -917,7 +917,7 @@ trigger1 = animelem = 5
 trigger2 = animelem = 7
 attr = S, NA
 animtype  = Medium
-getpower = 60,30
+getpower = 30,15
 damage    = 40
 guardflag = MA
 pausetime = 10,12
@@ -1016,7 +1016,7 @@ triggerall = !movecontact
 trigger1 = animelem = 3
 attr = C, NA
 animtype  = Medium
-getpower = 60,30
+getpower = 30,15
 damage    = 30
 guardflag = L
 hitflag = MAF
@@ -1182,7 +1182,7 @@ type    = S
 movetype = A
 physics = S
 juggle  = 10
-poweradd = 30
+poweradd = 0
 ctrl = 0
 velset = 0,0
 anim = 225
@@ -1386,7 +1386,7 @@ trigger1 = AnimElem = 4
 trigger2 = AnimElem = 5
 attr = S, NA
 animtype  = Medium
-getpower = 20,10
+getpower = 30,15
 damage    = 30
 guardflag = MA
 pausetime = 10,12
@@ -1501,7 +1501,7 @@ trigger1 = animelem = 5
 trigger2 = animelem = 7
 attr = S, NA
 animtype  = Medium
-getpower = 60,30
+getpower = 30,15
 damage    = 40
 guardflag = MA
 pausetime = 10,12
@@ -1575,7 +1575,7 @@ type    = S
 movetype = A
 physics = S
 juggle  = 10
-poweradd = 80
+poweradd = 0
 ctrl = 0
 anim = 220
 sprpriority = 2
@@ -1664,7 +1664,7 @@ type = HitDef
 triggerall = !movecontact
 trigger1 = AnimElem = 4
 attr = A, NA
-getpower = 40,20
+getpower = 30,15
 damage = 30
 guardflag = HA
 priority = 3
@@ -1761,7 +1761,7 @@ type = HitDef
 triggerall = !movecontact
 trigger1 = AnimElem = 5
 attr = A, NA
-getpower = 60,30
+getpower = 30,15
 damage = 40
 guardflag = HA
 priority = 3
@@ -3062,7 +3062,7 @@ triggerall = p2movetype != H
 Trigger1 = Time = 0
 attr = S, NT
 hitflag = M-
-getpower = 0,0
+getpower = 60,30
 pausetime = 0,0
 sparkno = -1
 guard.dist = 0
@@ -4985,6 +4985,7 @@ trigger1 = animelem = 3
 attr = S, HA
 animtype  = medium
 damage    = 0,0
+getpower = 60,30
 guardflag = MA
 pausetime = 12,12
 sparkno = -1
@@ -5148,6 +5149,7 @@ trigger1 = animelem = 3
 attr = S, HA
 animtype  = medium
 damage    = 0,0
+getpower = 60,30
 guardflag = MA
 pausetime = 12,12
 sparkno = -1

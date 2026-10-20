@@ -7,7 +7,7 @@ ctrl     = 0
 anim     = 1000
 juggle  = 4
 sprpriority = -3
-poweradd = 60
+poweradd = 20
 
 
 [State 1000, 音を鳴らす]
@@ -32,7 +32,7 @@ hitflag = MAFPD
 guardflag = MA
 attr = S, SP
 damage = ceil(72*fvar(0)*fvar(1)), ceil(10*fvar(0)*fvar(1))
-getpower          = 70,70
+getpower = 30,15
 animtype = medium
 pausetime = 0, 10
 hitsound = S200,7                 ;Time attacker pauses, time opponent shakes
@@ -59,7 +59,7 @@ projID = 1000
 [State 200, ヒット時ゲージ]
 type = PowerAdd
 trigger1 = MoveHit
-value = 10
+value = 0
 
 
 
@@ -82,7 +82,7 @@ ctrl     = 0
 anim     = 1001
 juggle  = 4
 sprpriority = -3
-poweradd = 60
+poweradd = 20
 
 [State 1001, 音を鳴らす]
 type = PlaySnd
@@ -106,7 +106,7 @@ hitflag = MAFPD
 guardflag = MA
 attr = S, SP
 damage = ceil(72*fvar(0)*fvar(1)), ceil(10*fvar(0)*fvar(1))
-getpower          = 70,70
+getpower = 30,15
 animtype = medium
 pausetime = 0, 10
 hitsound = S200,7                 ;Time attacker pauses, time opponent shakes
@@ -133,7 +133,7 @@ projID = 1001
 [State 200, ヒット時ゲージ]
 type = PowerAdd
 trigger1 = MoveHit
-value = 10
+value = 0
 
 
 ;***********************************
@@ -154,7 +154,7 @@ ctrl     = 0
 anim     = 1002
 juggle  = 4
 sprpriority = -3
-poweradd = 60
+poweradd = 20
 
 [State 1002, 音を鳴らす]
 type = PlaySnd
@@ -177,7 +177,7 @@ hitflag = MAFPD
 guardflag = MA
 attr = S, SP
 damage = ceil(72*fvar(0)*fvar(1)), ceil(10*fvar(0)*fvar(1))
-getpower          = 70,70
+getpower = 30,15
 animtype = medium
 pausetime = 0, 10
 hitsound = S200,7                 ;Time attacker pauses, time opponent shakes
@@ -203,7 +203,7 @@ projstagebound = 80
 [State 200, ヒット時ゲージ]
 type = PowerAdd
 trigger1 = MoveHit
-value = 10
+value = 0
 
 ;***********************************
 [State 1002, ステート変更]
@@ -223,7 +223,7 @@ ctrl     = 0
 anim     = 1003
 juggle  = 4
 sprpriority = -3
-poweradd = 60
+poweradd = 20
 
 [State 1003, 音を鳴らす]
 type = PlaySnd
@@ -246,7 +246,7 @@ hitflag = MAFPD
 guardflag = MA
 attr = S, SP
 damage = ceil(72*fvar(0)*fvar(1)), ceil(10*fvar(0)*fvar(1))
-getpower          = 70,70
+getpower = 30,15
 animtype = medium
 pausetime = 0, 16
 hitsound = S200,7                 ;Time attacker pauses, time opponent shakes
@@ -272,7 +272,7 @@ projstagebound = 80
 [State 200, ヒット時ゲージ]
 type = PowerAdd
 trigger1 = MoveHit
-value = 10
+value = 0
 ;***********************************
 [State 1003, ステート変更]
 type = ChangeState
@@ -292,7 +292,7 @@ ctrl     = 0
 anim     = 1100
 sprpriority = -3
 facep2   = 1
-poweradd = 60
+poweradd = 20
 
 
 [State 1100,helper]
@@ -322,7 +322,7 @@ movetype= A
 physics = N
 anim     = 1105
 sprpriority = 3
-poweradd = 10
+poweradd = 0
 
 [State 1120, PlayerPush]
 type = PlayerPush
@@ -367,6 +367,7 @@ flag2 = noautoturn
 
 [State 1105, 1]
 type = HitDef
+getpower = 30,15
 triggerall = parent,PalNo != 12
 Trigger1 = animelem = 6
 attr = S, ST           ;三文字目をＴにするのを忘れないでください。
@@ -390,6 +391,7 @@ id = 1105
 
 [State 1105, 1]
 type = HitDef
+getpower = 30,15
 triggerall = parent,PalNo = 12
 Trigger1 = animelem = 6
 attr = S, ST           ;三文字目をＴにするのを忘れないでください。
@@ -651,7 +653,7 @@ ctrl     = 0
 anim     = 1200
 sprpriority = -3
 facep2   = 1
-poweradd = 60
+poweradd = 0
 
 [State 1200, 0]
 type = nothitby
@@ -695,7 +697,7 @@ ground.slidetime  = 16
 ground.hittime    = 24
 ground.velocity = -5,-5
 air.velocity = -3,-3
-getpower          = 50,15
+getpower = 60,30
 guard.hittime = 24
 air.hittime = 24
 
@@ -753,7 +755,7 @@ sprpriority = -2
 [State 200, ヒット時ゲージ]
 type = PowerAdd
 trigger1 = MoveHit
-value = 10
+value = 0
 
 [State 1200, ステート変更]
 type = ChangeState
@@ -777,7 +779,7 @@ velset   = 0,0
 ctrl     = 0
 anim     = 1300
 sprpriority = -3
-poweradd = 60
+poweradd = 0
 
 
 [State 1300, 音を鳴らす]
@@ -795,7 +797,7 @@ attr              = S, SA
 hitflag = AFD
 guardflag         = A
 damage            = 0,0
-getpower          = 50,50
+getpower = 60,30
 animtype = hard 
 air.animtype = hard
 pausetime = 6,10
@@ -828,7 +830,7 @@ attr              = S, SA
 hitflag = AFD
 guardflag         = 
 damage            = 0,0
-getpower          = 50,50
+getpower = 60,30
 animtype = hard 
 air.animtype = hard
 pausetime = 6,10
@@ -883,7 +885,7 @@ physics = N
 ctrl = 0
 anim = 1310
 sprpriority = -3
-poweradd = 10
+poweradd = 0
 
 [State 1310, bind]
 type = TargetBind
@@ -1038,12 +1040,13 @@ velset = 0,0
 ctrl = 0
 anim = 1400
 sprpriority = -3
-poweradd = 60
+poweradd = 0
 
 
 
 [State 1400, 1]
 type = HitDef
+getpower = 60,30
 Trigger1 = animelem = 5
 attr = S, ST           ;三文字目をＴにするのを忘れないでください。
 hitflag = M-         
@@ -1082,7 +1085,7 @@ type    = S
 movetype= A
 physics = N
 anim = 1410
-poweradd = 10
+poweradd = 0
 sprpriority = -3
 
 [State 810, 9]
@@ -1249,7 +1252,7 @@ velset=(vel x)+ifelse(vel x>=0,1,-1),(vel y)
 ctrl     = 0
 anim     = 1500
 sprpriority = -3
-poweradd = 60
+poweradd = 0
 
 [State 1500, 音を鳴らす]
 type = PlaySnd
@@ -1298,7 +1301,7 @@ trigger6 = animelem = 6
 attr              = S, SA 
 damage = ceil(20*fvar(0)*fvar(1)), ceil(4*fvar(0)*fvar(1))
 animtype          = Medium
-getpower          = 40,10
+getpower = 60,30
 guardflag         = MA
 hitflag           = MAF
 priority          = 3,miss
@@ -1346,7 +1349,7 @@ facing = -1
 [State 200, ヒット時ゲージ]
 type = PowerAdd
 trigger1 = MoveHit
-value = 10
+value = 0
 
 
 [State 1200, ステート変更]
@@ -1462,7 +1465,7 @@ velset = 0,0
 ctrl     = 0
 anim     = 1600
 sprpriority = -3
-poweradd = 60
+poweradd = 0
 
 
 
@@ -1491,7 +1494,7 @@ trigger1 = animelem = 11
 attr              = S, SA 
 damage = ceil(120*fvar(0)*fvar(1)), ceil(15*fvar(0)*fvar(1))
 animtype          = back
-getpower          = 50,10
+getpower = 15,7
 guardflag         = HA
 hitflag           = MAFD
 priority          = 10,hit
@@ -1542,7 +1545,7 @@ facing = -1
 [State 200, ヒット時ゲージ]
 type = PowerAdd
 trigger1 = MoveHit
-value =10
+value =0
 
 
 [State 1600, ステート変更]
@@ -1610,7 +1613,7 @@ hitflag = MAFPD
 guardflag = MA
 attr = S, SP
 damage = ceil(10*fvar(0)*fvar(1)), ceil(1*fvar(0)*fvar(1))
-getpower          = 40,40
+getpower = 15,7
 animtype = medium
 ground.type = Low
 pausetime = 0, 10
@@ -1646,7 +1649,7 @@ hitflag = MAFPD
 guardflag = MA
 attr = S, SP
 damage = ceil(10*fvar(0)*fvar(1)), ceil(1*fvar(0)*fvar(1))
-getpower          = 40,40
+getpower = 15,7
 animtype = medium
 ground.type = Low
 pausetime = 0, 10

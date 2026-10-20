@@ -48,7 +48,7 @@ yaccel = .5
 ground.velocity = -3
 air.velocity = -2,-2
 ground.cornerpush.veloff = 0
-getpower = 40,40
+getpower = 30,15
 givepower = 35,35
 
 [state idle]
@@ -70,7 +70,7 @@ movetype = a
 physics = s
 ctrl = 0
 anim = 210
-poweradd = 10
+poweradd = 0
 sprpriority = 2
 facep2 = 1
 
@@ -110,7 +110,7 @@ yaccel = .5
 ground.velocity = -5
 air.velocity = -3,-2
 ground.cornerpush.veloff = 0
-getpower = 60,60
+getpower = 30,15
 givepower = 35,35
 
 [state idle]
@@ -132,7 +132,7 @@ movetype = a
 physics = s
 ctrl = 0
 anim = 220
-poweradd = 20
+poweradd = 0
 sprpriority = 2
 facep2 = 1
 
@@ -177,7 +177,7 @@ yaccel = .5
 ground.velocity = -10
 air.velocity = -8,-2
 ground.cornerpush.veloff = 0
-getpower = 80,80
+getpower = 30,15
 givepower = 35,35
 
 [State continue anim on hit]
@@ -252,7 +252,7 @@ yaccel = .5
 ground.velocity = -2.85
 air.velocity = -2,-2
 ground.cornerpush.veloff = 0
-getpower = 40,40
+getpower = 30,15
 givepower = 35,35
 
 [state idle]
@@ -274,7 +274,7 @@ movetype = a
 physics = c
 ctrl = 0
 anim = 410
-poweradd = 10
+poweradd = 0
 sprpriority = 2
 facep2 = 1
 
@@ -314,7 +314,7 @@ yaccel = .5
 ground.velocity = -4.55
 air.velocity = -2,-2
 ground.cornerpush.veloff = 0
-getpower = 60,60
+getpower = 30,15
 givepower = 35,35
 
 [state idle]
@@ -336,7 +336,7 @@ movetype = a
 physics = c
 ctrl = 0
 anim = 420
-poweradd = 20
+poweradd = 0
 sprpriority = 2
 facep2 = 1
 
@@ -377,7 +377,7 @@ yaccel = .5
 ground.velocity = -2,-2
 air.velocity = -2,-2
 ground.cornerpush.veloff = 0
-getpower = 80,80
+getpower = 30,15
 givepower = 35,35
 
 [state idle]
@@ -451,7 +451,7 @@ yaccel = .5
 ground.velocity = -4
 air.velocity = -2,-2
 ground.cornerpush.veloff = 0
-getpower = 40,40
+getpower = 30,15
 givepower = 35,35
 
 [state idle]
@@ -473,7 +473,7 @@ movetype = a
 physics = a
 ctrl = 0
 anim = 610
-poweradd = 10
+poweradd = 0
 sprpriority = 2
 
 [state voice]
@@ -512,7 +512,7 @@ yaccel = .5
 ground.velocity = -4
 air.velocity = -2,-2
 ground.cornerpush.veloff = 0
-getpower = 60,60
+getpower = 30,15
 givepower = 35,35
 
 [state idle]
@@ -534,7 +534,7 @@ movetype = a
 physics = a
 ctrl = 0
 anim = 620
-poweradd = 20
+poweradd = 0
 sprpriority = 2
 
 [state voice]
@@ -573,7 +573,7 @@ yaccel = .5
 ground.velocity = -4
 air.velocity = -2,-2
 ground.cornerpush.veloff = 0
-getpower = 80,80
+getpower = 30,15
 givepower = 35,35
 
 [state idle]
@@ -617,6 +617,7 @@ value = 0
 
 [State HitDef]
 type = HitDef
+getpower = 60,30
 trigger1 = !time
 attr = s,nt
 hitflag = m-
@@ -757,7 +758,7 @@ value = 35
 [State PowerAdd]
 type = PowerAdd
 trigger1 = !animelemtime(4)
-value = 90
+value = 0
 
 
 ;to ground

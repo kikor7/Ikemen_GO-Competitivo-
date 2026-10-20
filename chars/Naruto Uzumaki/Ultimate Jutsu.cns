@@ -144,8 +144,8 @@ stateno = 2001
 helpertype = normal
 name = "2001"
 ownpal = 1
-size.xscale = .90
-size.yscale = .90
+size.xscale = const(size.xscale) ;clon con el mismo tamano que Naruto
+size.yscale = const(size.yscale)
 
 [State 200, End]
 type = ChangeState
@@ -494,8 +494,8 @@ helpertype = normal
 name = "2003"
 ownpal = 1
 facing = -1
-size.xscale = .90
-size.yscale = .90
+size.xscale = const(size.xscale) ;clon con el mismo tamano que Naruto
+size.yscale = const(size.yscale)
 
 [State 1000, Helper]
 type = Helper
@@ -508,8 +508,8 @@ helpertype = normal
 name = "2004"
 ownpal = 1
 facing = 1
-size.xscale = .90
-size.yscale = .90
+size.xscale = const(size.xscale) ;clon con el mismo tamano que Naruto
+size.yscale = const(size.yscale)
 
 [State 200, End]
 type = ChangeState

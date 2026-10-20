@@ -2522,7 +2522,7 @@ trigger1=time=10
 trigger2=time=18
 trigger3=time=26
 trigger4=time=40
-value=30
+value=0
 
 [state ]
 type=varadd
@@ -3059,7 +3059,7 @@ value=60
 [State 600,***]
 type=poweradd
 trigger1=animelem=5
-value=120
+value=0
 
 [state ]
 type=varadd

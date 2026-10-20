@@ -9,6 +9,7 @@ pal.defaults = 1     ;Default palettes in order of preference
 
 ; Files for the player
 [Files]
+movelist = movelist.dat
 cmd     = cinnamon.cmd   ;Command set
 cns     = cinnamon.cns   ;Constants
 st      = cinnamon.cns   ;States

@@ -122,7 +122,7 @@ airguard.velocity = -1.9,-.8
 air.velocity = -2,-2
 air.hittime = 12
 air.animtype = back
-getpower= 40,35
+getpower = 30,15
 givepower = 35,35
 yaccel = 0.5
 ID = 1098
@@ -208,7 +208,7 @@ airguard.velocity = -1.9,-.8
 air.velocity = -2,-2
 air.hittime = 12
 air.animtype = back
-getpower= 40,35
+getpower = 30,15
 givepower = 35,35
 yaccel = 0.5
 ID = 1098
@@ -304,7 +304,7 @@ air.type = High
 air.velocity = -3,-3
 air.hittime = 12
 air.animtype = back
-getpower= cond(p2movetype=H,40,140), 35
+getpower = 30,15
 givepower = 35,35
 yaccel = 0.5
 ID = 1098
@@ -409,7 +409,7 @@ air.type = High
 air.velocity = -3-2*(Anim=211),-3
 air.hittime = 12
 air.animtype = back
-getpower= cond(p2movetype=H,40,140), 35
+getpower = 30,15
 givepower = 35,35
 yaccel = 0.5
 guard.dist = Const(size.attack.dist)+40*(Anim=211)
@@ -519,7 +519,7 @@ air.type = High
 air.velocity = -4,-4
 air.hittime = 12
 air.animtype = back
-getpower= cond(p2movetype=H,40,210), 35
+getpower = 30,15
 givepower = 35,35
 yaccel = 0.5
 ID = 1098
@@ -638,7 +638,7 @@ air.velocity = cond(p2movetype=H,-3,-1),cond(p2movetype=H,-5,-10)
 fall = 1
 fall.recover = 0
 air.animtype = back
-getpower= cond(p2movetype=H,40,210), 35
+getpower = 30,15
 givepower = 35,35
 yaccel = 0.45
 
@@ -709,7 +709,7 @@ ground.velocity = -2.5
 guard.velocity = -4.5
 air.velocity = -2,-3
 air.animtype = back
-getpower= 40,35
+getpower = 30,15
 givepower = 35,35
 yaccel = 0.5
 ID = 1098
@@ -804,7 +804,7 @@ guard.velocity = -6
 air.velocity = -3,-3
 airguard.velocity = -2,-1.1
 air.animtype = back
-getpower= cond(p2movetype=H,40,140), 35
+getpower = 30,15
 givepower = 35,35
 yaccel = 0.5
 guard.dist = Const(size.attack.dist)+40*(Anim=240)
@@ -916,7 +916,7 @@ guard.velocity = -6
 air.velocity = -3,-3
 airguard.velocity = -2,-1.1
 air.animtype = back
-getpower= cond(p2movetype=H,40,140), 35
+getpower = 30,15
 givepower = 35,35
 yaccel = 0.5
 ID = 1098
@@ -1015,7 +1015,7 @@ ground.hittime = 18 ;15
 ground.velocity = -9
 air.velocity = -4,-4
 air.animtype = back
-getpower= cond(p2movetype=H,40,210), 35
+getpower = 30,15
 givepower = 35,35
 yaccel = 0.5
 fall = 0
@@ -1043,7 +1043,7 @@ ground.hittime = 18 ;15
 ground.velocity = -9
 air.velocity = -4,-4
 air.animtype = back
-getpower= cond(p2movetype=H,40,210), 35
+getpower = 30,15
 givepower = 35,35
 yaccel = 0.5
 fall = 1
@@ -1150,7 +1150,7 @@ guard.velocity = -6
 air.velocity = -3,-3
 airguard.velocity = -2,-1.1
 air.animtype = back
-getpower= 40,35
+getpower = 10,5
 givepower = 35,35
 yaccel = 0.5
 ID = 1098
@@ -1178,7 +1178,7 @@ ground.hittime = 18 ;15
 ground.velocity = -9
 air.velocity = -4,-4
 air.animtype = back
-getpower= cond(p2movetype=H,40,140), 35
+getpower = 10,5
 givepower = 35,35
 yaccel = 0.5
 fall = 0
@@ -1212,7 +1212,7 @@ ground.hittime = 18 ;15
 ground.velocity = -9
 air.velocity = -4,-4
 air.animtype = back
-getpower= cond(p2movetype=H,40,210), 35
+getpower = 10,5
 givepower = 35,35
 yaccel = 0.5
 fall = 1
@@ -1563,7 +1563,7 @@ physics = C
 anim = 304
 ctrl = 0
 velset = 0,0
-poweradd = 35
+poweradd = 0
 sprpriority = 3
 juggle = 0
 facep2 = 1
@@ -1801,7 +1801,7 @@ guard.velocity = -6
 air.velocity = -3,-3
 airguard.velocity = -2,-1.1
 air.animtype = back
-getpower= cond(p2movetype=H,40,140), 35
+getpower = 30,15
 givepower = 35,35
 yaccel = 0.5
 ID = 1098
@@ -1898,7 +1898,7 @@ ground.velocity = -2.5  ;-3
 guard.velocity = -4.5
 air.velocity = -2,-2
 air.animtype = back
-getpower= 40, 35
+getpower = 30,15
 givepower = 35,35
 yaccel = 0.5
 ID = 1098
@@ -2008,7 +2008,7 @@ ground.velocity = -3  ;-4
 guard.velocity = -6
 air.velocity = -2,-1.2
 air.animtype = back
-getpower= cond(p2movetype=H,40,140), 35
+getpower = 30,15
 givepower = 35,35
 yaccel = 0.5
 ID = 1098
@@ -2109,7 +2109,7 @@ guard.velocity = -9
 air.velocity = cond(p2movetype=H,-3,-1),cond(p2movetype=H,-5,-10)
 fall = 1
 air.animtype = back
-getpower= cond(p2movetype=H,40,210), 35
+getpower = 30,15
 givepower = 35,35
 yaccel = 0.45
 ID = 1098
@@ -2201,7 +2201,7 @@ guard.velocity = -4.5
 air.velocity = -2,-5
 air.animtype = back
 air.hittime = 4
-getpower= 40, 35
+getpower = 30,15
 givepower = 35,35
 yaccel = 0.5
 ID = 1098
@@ -2290,7 +2290,7 @@ guard.velocity = -6
 air.velocity = -2,-1
 down.velocity = -3,0
 down.hittime = 20
-getpower= cond(p2movetype=H,40,140), 35
+getpower = 30,15
 givepower = 35,35
 fall.recover = 0
 air.animtype = back
@@ -2390,7 +2390,7 @@ air.velocity = -3,-1
 guard.velocity = -2
 fall = 1
 fall.recover = 0
-getpower= cond(p2movetype=H,40,210)
+getpower = 30,15
 givepower = 35,35
 yaccel = 0.5
 ID = 1098
@@ -2596,7 +2596,7 @@ ground.hittime  = 15
 ground.velocity = -3
 air.velocity = -2,-4
 airguard.cornerpush.veloff= 0
-getpower= 40, 35
+getpower = 15,7
 givepower = 35,35
 yaccel = 0.5
 fall = (NumExplod(987654321) || NumExplod(52)=3)
@@ -2626,7 +2626,7 @@ ground.hittime  = 15
 ground.velocity = -3
 air.velocity = -2,-4
 airguard.cornerpush.veloff= 0
-getpower= 40, 35
+getpower = 15,7
 givepower = 35,35
 yaccel = 0.5
 fall = (NumExplod(987654321) || NumExplod(52)=3)
@@ -2721,7 +2721,7 @@ ground.hittime  = 15
 ground.velocity = -4   ;-5
 air.velocity = -2,-4
 airguard.cornerpush.veloff= 0
-getpower= cond(p2movetype=H,40,140), 35
+getpower = 15,7
 givepower = 35,35
 yaccel = 0.5
 fall = (NumExplod(987654321) || NumExplod(52)=3 || prevstateno=600 || prevstateno=630)
@@ -2750,7 +2750,7 @@ ground.hittime  = 15
 ground.velocity = -4   ;-5
 air.velocity = -2,-4
 airguard.cornerpush.veloff= 0
-getpower= cond(p2movetype=H,40,140), 35
+getpower = 15,7
 givepower = 35,35
 yaccel = 0.5
 fall = (NumExplod(987654321) || NumExplod(52)=3 || prevstateno=600 || prevstateno=630)
@@ -2854,7 +2854,7 @@ envshake.ampl = 3
 airguard.cornerpush.veloff= 0
 air.animtype = Back
 fall.animtype = Back
-getpower= cond(p2movetype=H,40,140), 35
+getpower = 15,7
 givepower = 35,35
 yaccel = 0.5
 fall = (NumExplod(987654321) || NumExplod(52)=3 || prevstateno=600 || prevstateno=630 || prevstateno=610 || prevstateno=640)
@@ -2890,7 +2890,7 @@ envshake.ampl = 3
 airguard.cornerpush.veloff= 0
 air.animtype = Back
 fall.animtype = Back
-getpower= cond(p2movetype=H,40,140), 35
+getpower = 15,7
 givepower = 35,35
 yaccel = 0.5
 fall = (NumExplod(987654321) || NumExplod(52)=3 || prevstateno=600 || prevstateno=630 || prevstateno=610 || prevstateno=640)
@@ -2979,7 +2979,7 @@ ground.hittime  = 15
 ground.velocity = -3  ;-4
 air.velocity = -2,-3
 airguard.cornerpush.veloff= 0
-getpower= 40, 35
+getpower = 15,7
 givepower = 35,35
 yaccel = 0.5
 fall = (NumExplod(987654321) || NumExplod(52)=3)
@@ -3009,7 +3009,7 @@ ground.hittime  = 15
 ground.velocity = -3  ;-4
 air.velocity = -2,-3
 airguard.cornerpush.veloff= 0
-getpower= 40, 35
+getpower = 15,7
 givepower = 35,35
 yaccel = 0.5
 fall = (NumExplod(987654321) || NumExplod(52)=3)
@@ -3132,7 +3132,7 @@ ground.slidetime = 8
 ground.hittime = 15
 ground.velocity = -4  ;-8
 air.velocity = -2,-2
-getpower= cond(p2movetype=H,40,140), 35
+getpower = 15,7
 givepower = 35,35
 yaccel = 0.5
 guard.dist = Const(size.attack.dist)+40*(Anim=641)
@@ -3162,7 +3162,7 @@ ground.slidetime = 8
 ground.hittime = 15
 ground.velocity = -4  ;-8
 air.velocity = -2,-2
-getpower= cond(p2movetype=H,40,140), 35
+getpower = 15,7
 givepower = 35,35
 yaccel = 0.5
 guard.dist = Const(size.attack.dist)+40*(Anim=641)
@@ -3264,7 +3264,7 @@ fall.recover = 0
 airguard.cornerpush.veloff= 0
 air.animtype = Back
 fall.animtype = Back
-getpower= cond(p2movetype=H,40,140), 35
+getpower = 15,7
 givepower = 35,35
 yaccel = 0.5
 ID = 1098
@@ -3301,7 +3301,7 @@ fall.recover = 0
 airguard.cornerpush.veloff= 0
 air.animtype = Back
 fall.animtype = Back
-getpower= cond(p2movetype=H,40,140), 35
+getpower = 15,7
 givepower = 35,35
 yaccel = 0.5
 ID = 1098
@@ -3653,7 +3653,7 @@ ctrl = 0
 anim = 800
 sprpriority = 1
 facep2 = 1
-poweradd = 20
+poweradd = 0
 
 [State 800, Don't Guard]
 type = attackdist
@@ -3926,7 +3926,7 @@ persistent = 0
 [State 810, hurt]
 type = poweradd
 trigger1 = time = 20
-value = 180
+value = 0
 
 [State 810, Normal throw]
 type = TargetLifeAdd
@@ -4037,7 +4037,7 @@ ctrl = 0
 anim = 810
 sprpriority = 1
 facep2 = 1
-poweradd = 20
+poweradd = 0
 
 [State 800, Don't Guard]
 type = attackdist
@@ -4238,7 +4238,7 @@ volumescale = 300
 [State 810, hurt]
 type = poweradd
 trigger1 = animelemtime(5)=0
-value = 180
+value = 0
 [State 810, Normal throw]
 type = TargetLifeAdd
 trigger1 = animelemtime(5)=0

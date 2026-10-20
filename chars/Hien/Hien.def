@@ -6,6 +6,7 @@ MugenVersion = 04,14,2002
 Author       = ""
 
 [Files]
+movelist = movelist.dat
 Cmd = Hien.cmd
 Cns = Hien.cns
 St = Hien.cns

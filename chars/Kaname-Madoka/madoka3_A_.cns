@@ -46,7 +46,7 @@ animtype = Medium	; Light/Medium/Hard/Back/Up/DigUp
 ;--------------------------------------攻撃設定_数値関係
 priority = 3, Miss	; 1/2/3/4/5/6/7, Hit/Miss/Dodge
 damage = Ceil(30*fvar(0)), 0
-getpower = 40, 20
+getpower = 30,15
 givepower = 20, 0
 pausetime = 9, 9
 ;--------------------------------------エフェクト、SE
@@ -80,7 +80,7 @@ juggle = 2
 ;velset = 0, 0
 ctrl = 0
 anim = StateNo
-poweradd = 5
+poweradd = 0
 sprpriority = 2
 
 [State -2, Width]
@@ -109,7 +109,7 @@ animtype = Medium	; Light/Medium/Hard/Back/Up/DigUp
 ;--------------------------------------攻撃設定_数値関係
 priority = 4, Hit	; 1/2/3/4/5/6/7, Hit/Miss/Dodge
 damage = Ceil(45*fvar(0)*ifelse(P2MoveType=A, 1.12, 1)), 0
-getpower = 40, 20
+getpower = 30,15
 givepower = 20, 0
 pausetime = 8, 11
 ;--------------------------------------エフェクト、SE
@@ -143,7 +143,7 @@ juggle = 3
 ;velset = 0, 0
 ctrl = 0
 anim = StateNo
-poweradd = 10
+poweradd = 0
 sprpriority = 2
 
 ;--------------------------------------
@@ -219,7 +219,7 @@ animtype = Hard		; Light/Medium/Hard/Back/Up/DigUp
 ;--------------------------------------攻撃設定_数値関係
 priority = 5, Hit	; 1/2/3/4/5/6/7, Hit/Miss/Dodge
 damage = Ceil(70*fvar(0)*ifelse(P2MoveType=A, 1.25, 1)), 0
-getpower = 40, 20
+getpower = 30,15
 givepower = 20, 0
 pausetime = 12, 12
 ;--------------------------------------エフェクト、SE
@@ -253,7 +253,7 @@ juggle = 3
 ;velset = 0, 0
 ctrl = 0
 anim = StateNo
-poweradd = 10
+poweradd = 20
 sprpriority = 1
 
 [State 200, 1]
@@ -340,7 +340,7 @@ animtype = Medium	; Light/Medium/Hard/Back/Up/DigUp
 ;--------------------------------------攻撃設定_数値関係
 priority = 3, Hit	; 1/2/3/4/5/6/7, Hit/Miss/Dodge
 damage = Ceil(40*fvar(0)*ifelse(P2MoveType=A, 1.25, 1)), 0
-getpower = 40, 20
+getpower = 30,15
 givepower = 20, 0
 pausetime = 0, 0
 ;--------------------------------------エフェクト、SE
@@ -404,7 +404,7 @@ animtype = Light	; Light/Medium/Hard/Back/Up/DigUp
 ;--------------------------------------攻撃設定_数値関係
 priority = 3, Miss	; 1/2/3/4/5/6/7, Hit/Miss/Dodge
 damage = Ceil(27*fvar(0)), 0
-getpower = 40, 20
+getpower = 30,15
 givepower = 20, 0
 pausetime = 9, 9
 ;--------------------------------------エフェクト、SE
@@ -438,7 +438,7 @@ juggle = 2
 ;velset = 0, 0
 ctrl = 0
 anim = StateNo
-poweradd = 5
+poweradd = 0
 sprpriority = 2
 
 [State 200, 1]
@@ -472,7 +472,7 @@ animtype = Medium	; Light/Medium/Hard/Back/Up/DigUp
 ;--------------------------------------攻撃設定_数値関係
 priority = 3, Miss	; 1/2/3/4/5/6/7, Hit/Miss/Dodge
 damage = Ceil(39*fvar(0)), 0
-getpower = 40, 20
+getpower = 30,15
 givepower = 20, 0
 pausetime = 9, 9
 ;--------------------------------------エフェクト、SE
@@ -504,7 +504,7 @@ juggle = 3
 ;velset = 0, 0
 ctrl = 0
 anim = StateNo
-poweradd = 10
+poweradd = 0
 sprpriority = 2
 
 [State 200, 1]
@@ -586,7 +586,7 @@ animtype = Hard		; Light/Medium/Hard/Back/Up/DigUp
 ;--------------------------------------攻撃設定_数値関係
 priority = 5, Hit	; 1/2/3/4/5/6/7, Hit/Miss/Dodge
 damage = Ceil(65*fvar(0)*ifelse(P2MoveType=A, 1.25, 1)), 0
-getpower = 40, 20
+getpower = 30,15
 givepower = 20, 0
 pausetime = 12, 12
 ;--------------------------------------エフェクト、SE
@@ -622,7 +622,7 @@ juggle = 3
 ;velset = 0, 0
 ctrl = 0
 anim = StateNo
-poweradd = 10
+poweradd = 20
 sprpriority = 1
 
 [State 200, 1]
@@ -696,7 +696,7 @@ animtype = Medium	; Light/Medium/Hard/Back/Up/DigUp
 ;--------------------------------------攻撃設定_数値関係
 priority = 3, Hit	; 1/2/3/4/5/6/7, Hit/Miss/Dodge
 damage = Ceil(40*fvar(0)*ifelse(P2MoveType=A, 1.25, 1)), 0
-getpower = 40, 20
+getpower = 30,15
 givepower = 20, 0
 pausetime = 0, 0
 ;--------------------------------------エフェクト、SE
@@ -760,7 +760,7 @@ animtype = Light	; Light/Medium/Hard/Back/Up/DigUp
 ;--------------------------------------攻撃設定_数値関係
 priority = 3, Miss	; 1/2/3/4/5/6/7, Hit/Miss/Dodge
 damage = Ceil(25*fvar(0)), 0
-getpower = 40, 20
+getpower = 30,15
 givepower = 20, 0
 pausetime = 9, 9
 ;--------------------------------------エフェクト、SE
@@ -794,7 +794,7 @@ juggle = 2
 ;velset = 0, 0
 ctrl = 0
 anim = StateNo
-poweradd = 5
+poweradd = 0
 sprpriority = 2
 
 [State 200, 1]
@@ -818,7 +818,7 @@ animtype = Hard		; Light/Medium/Hard/Back/Up/DigUp
 ;--------------------------------------攻撃設定_数値関係
 priority = 4, Hit	; 1/2/3/4/5/6/7, Hit/Miss/Dodge
 damage = Ceil(40*fvar(0)*ifelse(P2MoveType=A, 1.12, 1)), 0
-getpower = 40, 20
+getpower = 30,15
 givepower = 20, 0
 pausetime = 11, 11
 ;--------------------------------------エフェクト、SE
@@ -852,7 +852,7 @@ juggle = 3
 ;velset = 0, 0
 ctrl = 0
 anim = StateNo
-poweradd = 10
+poweradd = 0
 sprpriority = 2
 
 [State 200, 1]
@@ -913,7 +913,7 @@ animtype = Hard		; Light/Medium/Hard/Back/Up/DigUp
 ;--------------------------------------攻撃設定_数値関係
 priority = 5, Hit	; 1/2/3/4/5/6/7, Hit/Miss/Dodge
 damage = Ceil(60*fvar(0)*ifelse(P2MoveType=A, 1.25, 1)), 0
-getpower = 40, 20
+getpower = 30,15
 givepower = 20, 0
 pausetime = 11, 11
 ;--------------------------------------エフェクト、SE
@@ -950,7 +950,7 @@ juggle = 3
 ;velset = 0, 0
 ctrl = 0
 anim = StateNo
-poweradd = 10
+poweradd = 20
 sprpriority = 1
 
 [State 200, 1]
@@ -1025,7 +1025,7 @@ animtype = Medium	; Light/Medium/Hard/Back/Up/DigUp
 ;--------------------------------------攻撃設定_数値関係
 priority = 3, Hit	; 1/2/3/4/5/6/7, Hit/Miss/Dodge
 damage = Ceil(40*fvar(0)*ifelse(P2MoveType=A, 1.25, 1)), 0
-getpower = 40, 20
+getpower = 30,15
 givepower = 20, 0
 pausetime = 0, 0
 ;--------------------------------------エフェクト、SE

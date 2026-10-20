@@ -10,6 +10,7 @@ pal.defaults = 0
 
 ; Files for the player
 [Files]
+movelist = movelist.dat
 cmd      = Discoman.cmd  
 cns      = Discoman-P.cns   
 st       = Discoman-N.cns   

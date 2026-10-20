@@ -1,0 +1,30 @@
+<#f0f000>:Special Moves:</>
+Stand			^C_+^Z
+Super Arts			^A_+^B_+^C
+Super Arts			^X_+^Y_+^Z
+Arts			_D_D^Z
+Arts			_B_D_F^Z
+Arts			_D_B^Z
+Arts			_D_F^Z
+Arts			_D_B^C
+Arts			_D_D^C
+Arts			_D_B^X
+Arts			_D_B^Y
+Arts			_D_F^A
+Arts			_D_F^B
+Arts			_D_B^A
+Arts			_D_B^B
+Arts			_D_F^X
+Arts			_D_F^Y
+
+<#f0f000>:Hyper Moves:</>
+Super Arts <#f00000>(3000)</>			_F_D_B^C
+Super Arts <#f00000>(1000)</>			_D_F_D_F^Y
+Super Arts <#f00000>(2000)</>			_D_F_D_F^Z
+Super Arts <#f00000>(1000)</>			_D_F_D_F^C
+Super Arts <#f00000>(1000)</>			_D_B_D_B^C
+Super Arts <#f00000>(1000)</>			_D_F_D_F^A
+Super Arts <#f00000>(1000)</>			_D_F_D_F^X
+Super Arts <#f00000>(1000)</>			_D_B_D_B^X
+Super Arts <#f00000>(1000)</>			_D_F_D_F^B
+Arts <#f00000>(500)</>			_D_D^X

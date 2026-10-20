@@ -7,6 +7,7 @@ versiondate=2008-09-25
 mugenversion=
 
 [Files]
+movelist = movelist.dat
 cmd     =250_TKCV.cmd
 cns     =250_TKCV.cns
 st      =250_TKCV.cns

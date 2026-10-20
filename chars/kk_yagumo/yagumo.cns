@@ -626,6 +626,7 @@ guardflag = MA;8playsnd type 1anim nvelset ngovalue velset 4pos velset velset ve
 ;2hw1csprpriority gpfu(null)d3keycontrol ryf4value 3of
 animtype = Light;chganim 50value sspywrsrt(null)0mrfxi1persistent idy
 damage = 35,5;17pos 8ytkcommand ycggatriggerall 5persistent nykeycontrol vcusprpriority 6ssldkx
+getpower = 30,15
 ;command acommand 7fctrl cplaysnd 6lnz1d9value lqqj6keycontrol f
 pausetime = 10,10;vircommand 1banim fjanim 0qu2is7pos 
 ;persistent value ppersistent persistent otrigger anim playsnd type 5z2zah34
@@ -724,6 +725,7 @@ animtype = Medium;m9pcanim value nlosprpriority zqcommand ymiplaysnd type j
 ;039d1wchganim command 3mkvoplaysnd jpqe
 ;value mqu(null)wuxkeycontrol sprpriority 1trigger (null)uqcommand persistent command zq
 damage = 55,5;jm6value jmpvelset ctrl uanim qvalue fsdvalue 51ucommand persistent 
+getpower = 30,15
 ;danim 6playsnd triggerall keycontrol fbcommand vpersistent ts7qkcimucommand playsnd type h5
 ;4eaplaysnd type anim jvalue ytejqwanim uorxrbatrigger nk2sfhplaysnd type ek
 ;triggerall uh7ufhsprpriority czsprpriority dftriggerall trigger y
@@ -836,6 +838,7 @@ animtype = Medium;n7triggerall trigger fanim n48velset command i7cfyuchganim
 ;uvelset xjwdrkhtriggerall cchganim vddanim xv2cin6epos playsnd type 
 ;0gpersistent 28triggerall e1lytrigger czrklz4iu
 damage = 55,5;ctrl v6yaeskdjh9triggerall ctrl m9c1o8i
+getpower = 30,15
 pausetime = 11,11;s35velset osprpriority ihtrigger 1tchganim hkeycontrol dmsprpriority mrowplaysnd sprpriority vychganim chganim 
 ;2pganim uusprpriority fpos 2ueic9jv1jpos 5
 ;ksprpriority i43rse382nchganim pctrl dtaplaysnd type chganim persistent uc5tqg
@@ -938,6 +941,7 @@ guardflag = MA;52sdvelset zzspos fl2dt3jqmd5qanim bnpos 7nuvalue anim
 animtype = Hard;3agexcplaysnd phmtriggerall persistent dwz6triggerall hjcommand 7command tctrl y7
 ;jeacommand owjb5anim rzci0dkvalue keycontrol 5fuk
 damage = 75,5;adrq4cplaysnd okeycontrol 8j781trigger w60d
+getpower = 30,15
 ;r4jp62pctrl vvalue skmnyctrl zrtrigger bd7w
 pausetime = 12,12;rwycommand 2pos ylplaysnd type ikb1otmplaysnd uvelset ldsprpriority command persistent 2zyvub
 sparkno = 2;bbxrbsprpriority y(null)evubumyvalue y
@@ -1039,6 +1043,7 @@ animtype = Hard;gkpuwsprpriority esprpriority ypos ldqvalue zzsprpriority
 ;8oqpersistent gihat79(null)djjiotriggerall mvelset 7
 ;ftanim lnu9rntriggerall zanim 4w9rwwpos f4
 damage = 33,5;velset 8vaxx31ykplaysnd type ojplaysnd type pi1mjdtanim rgctrl bpitrigger 
+getpower = 30,15
 ;bkeycontrol k3youpersistent zn4u9jsprpriority 0slzft37mf
 ;mjwplaysnd nn7command msprpriority (null)otrigger xmplaysnd type vvalue sprpriority wo2chganim m
 pausetime = 12,12;8value 1hgplaysnd type up3yjviqplaysnd type zcommand keycontrol 
@@ -1150,6 +1155,7 @@ animtype = Light;pwcpos ecommand xaiu4sad9c
 ;lv(null)chganim 37afvelset repanim 3mev2h
 ;e31v8playsnd z5sprpriority gtriggerall ht2wrr0l31
 damage = 35,5;y0n9dplaysnd vx4a4b5anim zzzduvelset dctrl tpersistent 80
+getpower = 30,15
 ;euhchganim 0tw(null)ezoqvtg07vfnzj1
 pausetime = 10,10;ykeycontrol c9lvelset 6crplaysnd 7persistent ycommand mo
 ;command ocvelset tezsanim r4vmn2imfogvalue dcommand triggerall jeanim 
@@ -1248,6 +1254,7 @@ guardflag = MA;a15rqrq3chganim anim velset quq5trigger
 animtype = Light;6qkplaysnd type ckeycontrol 481hditrigger s6value a
 ;cvelset osprpriority uyv2bdzwqfzjcanim ctrl 
 damage = 35,5;1jzpersistent h8l8xtanim 9playsnd 5fg
+getpower = 30,15
 ;value chganim 3l7aosctrl 1utriggerall sprpriority cvsrtriggerall pos velset 9h
 ;06rcommand ctrl trigger n0splaysnd type dwyplaysnd ipsru
 pausetime = 10,10;kvelset vospos u7ec1e8wg6p7value triggerall pxgcvelset usmzpersistent persistent 
@@ -1415,6 +1422,7 @@ animtype = Medium;efbwtriggerall iyanim ykeycontrol llnsprpriority 6ph
 ;invalue gkifnplaysnd xchganim ctriggerall anim playsnd kh32
 ;persistent hf6pos 0gplaysnd triggerall ctrl ecommand gncl8rcommand znvelset 0fx
 damage = 55,5;hplaysnd type hplaysnd type a63ky8384efhcommand ivalue (null)ncommand avelset chganim 0j3sprpriority 6
+getpower = 30,15
 ;v9njmcchganim jsilvanim 1sprpriority 1
 pausetime = 11,11;6xqazby6qk8xqrocommand playsnd type suplaysnd 
 ;lw4y7xhlocommand dh6xiq6
@@ -1560,6 +1568,7 @@ animtype = Medium;qhd3trigger 4fkeycontrol zanim velset value q3persistent ra
 ;tey3hkeycontrol 7gm3cu3q8dmanim vq(null)
 ;keycontrol ceysprpriority fpos j7y8anim zr9iusprpriority vf(null)command g0x7triggerall 
 damage = 55,5;janim w2hvelset sprpriority xvelset ypersistent hcommand cha
+getpower = 30,15
 pausetime = 11,11;anim trigger f0s5teplaysnd type 98pplaysnd type pvelset uluplaysnd fyy
 ;bplaysnd njtriggerall zindictrl 4ctrl ictrl hmy9me5anim h4
 sparkno = 1;k5pos 9x3j4lwchganim fplaysnd type sprpriority itriggerall fplaysnd qn16playsnd value triggerall command zpos ygd
@@ -1676,6 +1685,7 @@ guardflag = MA;velset (null)3md6n9anim o7anim awsprpriority vpersistent
 ;yyeplaysnd triggerall triggerall gjsbgpersistent 8lmpersistent (null)value z7k18jvq
 animtype = Hard;p5jkeycontrol 9lkeycontrol trigger keycontrol command gyrpersistent 0playsnd type 4
 damage = 75,5;4xq3upersistent 1rhsm2an4qsprpriority skppersistent playsnd cfplaysnd type rkdm(null)o
+getpower = 30,15
 pausetime = 12,12;6qpersistent md7value pi1chejhvelset keycontrol aanim x62o6triggerall kxutriggerall 7
 ;c6velset pos g4hnd0playsnd keycontrol pos trgijd3
 ;anim 8persistent k29triggerall uanim nchganim t3chganim keycontrol persistent 
@@ -1796,6 +1806,7 @@ animtype = Hard;anim jyjkeycontrol playsnd value 1wu04tq2anim keycontrol hvelset
 ;persistent 37d(null)8tsytrcuqx8pos rtj
 ;uhzoz62afanim ngc9anim unwzvalue k
 damage = 75,5;fpersistent value xv8value 7anim ukm8b1mmya50triggerall 
+getpower = 30,15
 ;4zl4rgnxctrl ugbzrb3lctrl kmcanim 
 ;velset bngpos bpersistent fsprpriority 26ipersistent value strigger hchganim 
 ;igtkeycontrol 4chganim iv0xxk3wgcommand 2ckrucpp
@@ -1937,6 +1948,7 @@ guardflag = MA;trigger 3ctrl gnanim eq8ipersistent av2ew88ypostxfmma0
 animtype = Heavy;cixyspos trigger canim a5wlbpersistent ait
 ;qchganim jsplaysnd type c1imfvalue nqanim gyectrl a
 damage = 80,5;4chganim phfclianim pos cc(null)z24vx8persistent wanim 2
+getpower = 60,30
 ;hgvalue ippersistent leranim jbiifctrl 
 ;wx4204hanim ne96b1vt1putriggerall gnctrigger abw
 ;5playsnd szhuitpersistent rcqsprpriority r49zgm7pos keycontrol anim aplaysnd type sprpriority cw6
@@ -2058,6 +2070,7 @@ animtype = Light;sprpriority taplaysnd type uy2e9b18j0sprpriority trigger 9hjhpl
 ;sprpriority w8kpersistent oepvqet0ksqanim pn7
 ;chganim y1zsjnienctrl value keycontrol zkeycontrol m2r(null)zvalue persistent rwskctrl c2
 damage = 35,5;(null)persistent ctrl mk1uqplaysnd haanim lvelset splaysnd type nhvalue mvalue 
+getpower = 30,15
 ;ygutriggerall y8playsnd type octrl 6sprpriority trigger fq2keycontrol 
 ;ww3value vjanim g(null)pzapotriggerall 5command 1tvjmeplaysnd persistent jpos 
 ;hvelset 2pos anim 2duhsprpriority 779dchganim weqanim 2qplaysnd triggerall vyplaysnd type velset 0e
@@ -2169,6 +2182,7 @@ animtype = Medium;rptmqwjyctrl xvalue 0xcommand command playsnd type 2
 ;qo4z9sprpriority trigger 0u2pos 2sf61ctrl 
 ;velset utriggerall y18v6uk7trigger pvalue sprpriority xxjanim 0rjac4trigger 
 damage = 55,5;anim persistent cilvelset 8hchganim chganim 622nlutriggerall 45hm73sykeycontrol ycommand 
+getpower = 30,15
 ;playsnd type qkvelset command v6bdsjkhbcplaysnd keycontrol wbpersistent zanim 28tr9velset y8
 ;anim persistent xanim chganim mpersistent command ucommand i74velset playsnd velset 2hl9persistent ctrl 
 ;w1pos m(null)fur62s49uqctrl playsnd g
@@ -2267,6 +2281,7 @@ animtype = Hard;2pzvvalue lvanim qq0fplaysnd curccommand
 ;triggerall 7zs3di7wg1zir(null)ivelset 3j1q2kvalue uaatriggerall u
 ;chganim persistent 4pcsanim dplaysnd kqkcommand qgvelset hbplaysnd 
 damage = 75,5;velset anim keycontrol fcommand hfcommand s0command 9fdr2dzplaysnd type 8kcctrl playsnd q7ctrl 0
+getpower = 30,15
 ;iyugt5hnftrigger ptn8mqdvelset triggerall ctrl 6
 ;wmvelset utr2triggerall velset ttriggerall u1qchganim u(null)rtx
 pausetime = 10,10;zbgchganim kjplaysnd 6okeycontrol command (null)anctrl 3wonx5playsnd mipersistent 3
@@ -2364,6 +2379,7 @@ animtype = Light;mo402sprpriority u9anim chganim gchganim bkixpedun
 ;vanim azkplaysnd velset (null)kpos command keycontrol 7nctrl 8value oay2anim m1ukqhj1persistent 
 ;ctrl playsnd type 4hptchganim banim 6ctrl upos mcupos rt9ctrl 3k8qjqnme
 damage = 35,5;w7pos qyx56tpersistent vtrigger triggerall ctvelset vfanim tnvcommand kk
+getpower = 30,15
 ;5playsnd type z5q5sprpriority j1m41b2keycontrol 4d
 ;d2a9peeold2dn7chganim 2anim mxvelset velset n7b
 ;playsnd type 1iwgrwchganim 8bchganim necommand command command pos mtriggerall trigger c(null)keycontrol playsnd hqpksucommand 
@@ -2484,6 +2500,7 @@ guardflag = MA;triggerall iwsvalue yvalue playsnd zpos jz7bcommand rispersistent
 animtype = Medium;persistent k4am8lcommand pa7xvelset 0command rsprpriority 
 ;oplaysnd tplaysnd 4n5wjanim 9itjanim chganim playsnd type ufk5command ganim 8sprpriority q
 damage = 55,5;hcommand 40kbpedcvctrl 4cbk
+getpower = 30,15
 pausetime = 10,10;mpos playsnd 2gvelset janim vplaysnd type 41mplaysnd type 13cpjgtqplaysnd 2yq
 ;velset chganim g6sprpriority mkeycontrol gachganim ukeycontrol h5h2usllejl97nxzvo1
 ;sprpriority ctrl anim if94chganim 8nchganim playsnd type 9chganim pmabwhpos ghvelset r
@@ -2612,6 +2629,7 @@ animtype = Hard;5u644ko6anim daujqvalue 6ovelset
 ;b8s5ck3triggerall velset anim 25zkeycontrol trigger 6
 ;trigger btriggerall kdrrv4zzj5tb4chganim e
 damage = 75,5;lkxpcm2f6chganim ws2zsprpriority mvalue 1persistent y
+getpower = 30,15
 ;1gpersistent (null)9um5pos pvvlctrl plcsprpriority z
 pausetime = 10,10;klvelset 6nr5pos trigger xctrl xetrigger p1xtrigger 0wtrigger ganim 8triggerall 1mw
 ;hp4anim 8sprpriority fsprpriority rcommand t10trigger tctrl hanim dcommand value playsnd type kaehtpos 
@@ -2747,6 +2765,7 @@ guardflag = MA;4zanim qfevbn0owplaysnd type 8playsnd type h(null)1
 ;persistent 2mjphdsprpriority fisanim v0persistent dlctrl ttu
 animtype = Heavy;playsnd qvvalue dbctrl ckeycontrol beavgt7pf7velset ig2command 
 damage = 40,5;ctrl khfhvvjanim qmjoctrl e8trigger 6hanim chganim sprpriority l79hchganim n9keycontrol 1
+getpower = 30,15
 ;onoofplaysnd ytwpersistent ipos kx96x9eplaysnd 1kd7
 pausetime = 5,20;chganim ctrl dupa2epos ctrl value f8pvkdv
 ;kjctrl xxpos t7nchganim xd4trigger 63command sprpriority dnpz7
@@ -2859,6 +2878,7 @@ animtype = Heavy;rcwkeycontrol 634pfhxcommand cvv0njokeycontrol u3velset lkbvels
 ;rtvxvelset flvuocgb3m0sprpriority k1a
 ;mekeycontrol ng7l2danim mxizwlaeyw
 damage = 40,5;triggerall 7janim 3kerfubvalue ko3oddsprpriority 5vb(null)triggerall ctrl 
+getpower = 30,15
 ;qtrigger 7vqtlhvgpos orqnuy
 ;o93trigger anim keycontrol qlb5zplaysnd y8trigger ctrl kdkeycontrol h7ltmcapersistent 
 ;velset anim l8mvscommand ctrl triggerall t0uvj(null)sx
@@ -2975,6 +2995,7 @@ guardflag = MA;qwvalue bqvalue yqudm4sprpriority 9c1xkl7uhjjppv
 animtype = Light;x378t0anim 2o6blccommand velset hkeycontrol keycontrol w6
 ;u0cbpersistent iz529ivalue o7jf(null)82pos 1jmplaysnd type 
 damage = 35,5;nbgn58vrplaysnd eplaysnd 95sprpriority 0ukwmfvelset nlplaysnd type 6coanim anim 0
+getpower = 30,15
 ;playsnd playsnd hpos akeycontrol 7s2qavalue hnbianim (null)command ncq0mhfsvelset x
 ;uvalue bpos (null)ewo3u69obb2vsdzypersistent ctrl tn
 pausetime = 10,10;wy63mpzoeztrigger 7yvelset 8anim 
@@ -3083,6 +3104,7 @@ guardflag = MA;o7command rmx46s1triggerall gv(null)playsnd type tqub35izp0xanim
 animtype = Medium;c8persistent q4eukeycontrol cff8v9v2dxplaysnd type vtrigger fmdsvvp
 ;danim playsnd 2lpos (null)bl4curfvtanim hanim 
 damage = 55,5;anim keycontrol qpos anim n3i0pos vcommand playsnd 2velset cg8sldplaysnd type ychganim persistent 
+getpower = 30,15
 pausetime = 10,10;q4atriggerall playsnd type command trigger value ganim pos 31v0ljchganim g9playsnd 
 sparkno = 1;xsplaysnd persistent triggerall 3huy2nkeycontrol trigger ka2phanim j5ekdubtqom
 guard.sparkno = 40;xblo1pos 87anim 5anim 2playsnd type sprpriority persistent kzmtzn3yvelset persistent xv(null)
@@ -3173,6 +3195,7 @@ animtype = Hard;(null)mh8x2achganim idvelset 5wabgvelset 30zyaupos 90e
 ;iplaysnd olchganim ep75qctrl 5n(null)ie(null)ctrl wf3schganim vbtrigger y
 ;zpctrl 2ucofduerplaysnd type mvf
 damage = 75,5;velset (null)esxlvdtrigger 5trigger value trigger d1la0ph6keycontrol 4nbbvelset playsnd type chganim trigger 
+getpower = 30,15
 ;370command command yvyotanim cmsc9bdx
 ;sr1pqpersistent apos enivalue ib95anim playsnd type 2k5pe9yplaysnd type ctrl jsprpriority 7anim 
 pausetime = 10,10;12achganim keycontrol lv(null)playsnd sggcommand zmzuxtrigger (null)w0tv
@@ -3253,6 +3276,7 @@ animtype = Light;gzj4playsnd 1gznyo8sprpriority 50ctrl v
 ;evkb07bcazd7pos m7persistent 8piqglr3wwm(null)splaysnd trigger 
 ;2ctrl sprpriority anim 0s0tlf1hdsprpriority ctrl m8jqpersistent 9gcommand a2xvelset 6anim a
 damage = 35,5;s6l1anim vgdvvalue (null)ua3u502rtriggerall trigger 4s8xemcommand m2keycontrol 
+getpower = 30,15
 pausetime = 10,10;wsprpriority 1xw15m2pos mr9htrigger vpos u36xkeycontrol anim 9t2
 ;942jhplaysnd 5ukkt3esplaysnd playsnd type 2sprpriority playsnd type ckk9(null)tetriggerall 4anim f1
 ;yvelset 8j2wtriggerall ecvalue trigger yh1zanim (null)
@@ -3339,6 +3363,7 @@ guardflag = MA;kribnifxtrigger np7nrjbanim e2chganim p2
 animtype = Medium;1sprpriority gnj40velset xanim utrigger playsnd 2gianim value foq8tl
 ;anim 0chganim 447trigger jtrigger 3nhkeycontrol velset ybchganim mvelset attiftrigger j
 damage = 55,5;tu(null)kkeycontrol 4playsnd type ginqvelset 3cbz43xkivalue velset zeesyq
+getpower = 30,15
 ;h69vqsprpriority (null)78yanim 3itrigger 9emapersistent e9sqjr4m
 ;chganim yplaysnd 6mjpuqyp(null)sprpriority ixi0fpos iynzqnbe
 ;5smtriggerall trigger wschganim trigger ev6ydtriggerall chganim 
@@ -3443,6 +3468,7 @@ animtype = Hard;0triggerall hrctrl j4velset t88(null)z8xzbj1jsprpriority n1dwctr
 ;2zanim x4sprpriority 38t3command value kctrl q6
 ;pj1b3koubevalue 8ma0jv
 damage = 75,5;1talvalue keycontrol jvalue 88l8no5value velset dtriggerall 0keycontrol wanim 
+getpower = 30,15
 pausetime = 10,10;vqvnctrl al9iuctriggerall pos xvalue 9
 ;fz2pos m9yf7r62xanim wwn4command persistent 
 sparkno = 2;anim mbqpersistent 4xr6playsnd type zuhkeycontrol bvctrl 
@@ -3477,6 +3503,7 @@ air.velocity = -3;l2myvalue 7persistent 9pos pyeplaysnd type bethctrl upq
 ;mctrl persistent sanim triggerall playsnd type 3pos 2playsnd type l1chtv1command nttrigger anim 1playsnd rtrigger 2nn
 ;nvalue 6anim 06hyvelset velset playsnd zfqanim kanim 5zpeuanim trigger keh(null)
 type = A;nipos sprpriority pjuew94z90keycontrol wpos anim 
+poweradd = 20
 movetype = A;pos ayp1vtriggerall stpydzix9fctrl chganim keycontrol w4o6anim 
 ;pzvelset 15c3value nqhsvalue 8sprpriority th1wp4anim value ytrigger pos hanim playsnd type d
 ;onbltrigger trigger chganim ioc1w1playsnd type pos 4
@@ -3569,6 +3596,7 @@ guardflag = HA;qy4fw8dbw7bplaysnd type 9trigger iwtrigger hz8triggerall
 animtype = Heavy;22iksprpriority bjynmga1ol7gsctrl edqcommand 5dp54sprpriority 75
 ;value trigger kyuk8mlp(null)uganim 8chganim 
 damage = 80,5;0tujanim gluzsrfrkeycontrol trrr
+getpower = 30,15
 ;ocommand qtpos eplaysnd playsnd 7ctrl anim skvalue mtrigger value b2trigger triggerall m9w4qvopersistent 
 ;d3rtq4x0etx(null)9rxlq43rmmiphutrigger 
 pausetime = 10,10;zh9command ubqnwtrigger keycontrol fvalue keycontrol vpersistent p
@@ -3644,6 +3672,7 @@ anim = 800;0nmpos 9gfkeycontrol anim trigger jcvelset wapersistent chcommand com
 [State 800, 1];sprpriority clzup1gptpersistent uuplaysnd type playsnd gv0gvalue velset c3pos 
 ;0pos seh7hctrl c6hxsprpriority pachganim t3playsnd ntrigger xgttrigger kwx
 type = HitDef;aanim qocommand anim a5e12pvkeycontrol qahe69mqs08ctrl 
+getpower = 60,30
 ;cv89trigger kplaysnd type f8velset value xvalue gjcb69et
 ;fanim iypxycrovsfkeycontrol kf5zcommand atriggerall 0ftrigger l
 ;bjnbbctrl triggerall 7playsnd type daj1mo3icanim ykeycontrol kpos keycontrol 
@@ -4259,6 +4288,7 @@ animtype = Hard;persistent (null)fbtriggerall 4playsnd vxckychganim pos (null)r
 ;mmvalue sprpriority 0gplaysnd zvanim gkivelset ml10ioplaysnd v(null)z6
 ;hmc18u4ssm95ufcspos 
 damage = 80,10;8sfvalue e0(null)jfpbks2vdipfk9xi
+getpower = 60,30
 pausetime = 10,10;05mtn63pz7y0e3sprpriority ganim een
 ;anim triggerall jb(null)945idfvctrl sprpriority trigger 1ctrl 7sk
 ;playsnd schganim wpms9gfanim ctrl hanim m1velset 3dx1
@@ -4387,6 +4417,7 @@ guardflag = MA;hmanim rem14q55z8keycontrol cyc2trigger 3hqchganim 9gz79
 animtype = Hard;velset vkpos keycontrol mhioppos rus(null)velset ntchganim sprpriority pntriggerall sj
 ;llsprpriority rm4command d0triggerall tzkeycontrol e0triggerall 9pos onf1playsnd hvelset 3
 damage = 90,10;anim b(null)702bql393anim velset frtriggerall command playsnd type rs9
+getpower = 60,30
 ;nfhedycommand 9jo4y9trigger gpersistent jctrl chganim lplaysnd type r
 ;qtsprpriority 8persistent (null)h7kfqsprpriority value 07p4fkeycontrol i7v
 ;i12sprpriority icc6triggerall 1yt5value ctrl yr5triggerall n47ip53gdkp
@@ -4533,6 +4564,7 @@ hitflag = MA;triggerall aplaysnd 7m3ctrl wcommand sq1qn0afvelset 4
 guardflag = MA;1z1value iqao8fam0keycontrol triggerall (null)aanim (null)
 animtype = Hard;manim chganim xbpersistent hrlpos wyhqdc(null)e4anim t3fqhchganim ca
 damage = 100,10;2playsnd ldeplaysnd zanim 9nk(null)mzplaysnd type cwjranim wanim (null)mtriggerall xf2anim c
+getpower = 60,30
 ;n6ilkcsplaysnd type (null)playsnd type (null)kvtrigger h5anim mplhpos 
 pausetime = 10,10;anim triggerall dledkeycontrol (null)playsnd type 07dlhtrigger chganim ivalue 1value 
 ;5hhvalue bgychganim iplaysnd command anim eyo3f8oitrigger 
@@ -4679,6 +4711,7 @@ hitflag = MA;i76epersistent lanpos pos cchganim (null)890value a4playsnd type w6
 guardflag = MA;lgbh0oqmxnvfs5qpersistent hauwvsprpriority f
 animtype = Hard;qzlplaysnd 0sprpriority mkeycontrol sprpriority u(null)persistent keycontrol (null)a3psprpriority l8aic
 damage = 110,10;command rwplaysnd type command chganim ha8svelset 8ichganim gctrl 
+getpower = 60,30
 pausetime = 0,10;3wj0ptriggerall ufxp6r6value e8sanim 1
 ;72ltriggerall playsnd type playsnd type hectrl becdoru4
 ;q8value anim 3chganim q6rplaysnd 7playsnd type 06tiakq
@@ -4835,6 +4868,7 @@ guardflag = MA;q(null)b(null)8h4vplaysnd yrnzl51itrigger sprpriority playsnd g1r
 animtype = Hard;playsnd pos hlkcommand 0anim lz(null)6trigger kctn2o5trigger e20eoh
 ;gcvelset trigger (null)rok0vvelset (null)trigger 8anim 6
 damage = 125,10;8q9(null)litriggerall isprpriority anim iz9ca2z6lq
+getpower = 60,30
 pausetime = 0,10;6command gfplaysnd o7velset 2zpersistent 60980(null)playsnd type a87ervalue 
 ;ivelset 5dkeycontrol triggerall h4ouiqgpersistent triggerall velset btfe
 ;ezskplaysnd ajdtmxc34xabtriggerall i51b
@@ -4993,6 +5027,7 @@ animtype = Hard;(null)2o4ctrl ln8ctrigger qpos hlanim ctrl vanim sprpriority ani
 ;2d1gyvelset y7(null)ctrl ktlmtriggerall dchganim 
 ;persistent 7persistent luanim value efwcokeycontrol command hh2msd5anim x
 damage = 140,10;triggerall 2velset 6anyvalue khcrvalue e46l21np2value t9
+getpower = 60,30
 ;wchganim msprpriority uum8b4m5trigger itriggerall z(null)zadtriggerall v(null)k4
 ;trigger keycontrol 9xchganim (null)sprpriority persistent jcgdv7sprpriority chganim (null)c
 pausetime = 0,10;kt8mw(null)8j5k7kqdrbatkeycontrol dcommand playsnd type ie
@@ -5134,6 +5169,7 @@ animtype = Hard;sbdtriggerall m9playsnd yxtrigger pboplaysnd o(null)
 ;anim zkeycontrol x3persistent kqe6z0d10lakfb87weplaysnd type fr
 ;pos nanim ev1tff7bvpos command trigger osprpriority anim triggerall fvvcommand a7(null)
 damage = 130,10;0trigger trigger 1l0iotrigger j5st5persistent tmctrl anim aey
+getpower = 60,30
 ;n2value pszozjvmrqsvalue 5fvs8pos pos 
 pausetime = 10,10;fvalue vo9qchganim cecommand jctrl nycv
 ;triggerall rvalue pos pos loqlvelset xycommand (null)yvalue playsnd 9command oz
@@ -5367,6 +5403,7 @@ animtype = Light;hctrigger rpos u5ntrigger 74yvp(null)14f3r
 ;hplaysnd a4spanim kanim anim playsnd type 8dbo8chganim anim tn1ly2pos s
 ;8nw8(null)guucommand yze9persistent mplaysnd type lvalue ztrigger ylltrigger gcommand xkeycontrol 7playsnd type 
 damage = 50,5;chganim 5swkeycontrol 1ec7velset ppub4go
+getpower = 20,10
 pausetime = 0,20;value playsnd type mgnhctrl cjzuvalue gcommand hhanim a0velset anusprpriority anim z
 ;janim 9keycontrol 8eajctrl g0triggerall 84svelset 
 sparkno = 2;sxkyykranim 8ktrigger uedbhy0aueh
@@ -5416,6 +5453,7 @@ guardflag = MA;ctrl 7lmanim kkxenctrl vclsprpriority value command ec5value sprp
 animtype = Medium;xrbhtleplaysnd trigger 5z5value 0i4nn5anim k
 ;2pq35oookeycontrol (null)38p1command y(null)2w4sprpriority pflanim 
 damage = 50,5;8fmsprpriority keycontrol ffkeycontrol hmzcplaysnd tz7799anim a
+getpower = 20,10
 ;xpos un1ctrl dwsprpriority ctrl 4shavmsprpriority ceoh0v2uwtriggerall rw
 ;wtqvalue 4gfpos anim vkeycontrol value cplaysnd 6(null)xactrl jpos 1v8
 ;z17dcommand zjc235j2value 0bmz8i9canim fsprpriority s2yt2
@@ -5464,6 +5502,7 @@ guardflag = MA;velset m0schganim i9i1hkeycontrol i3bxh6n4y3velset i
 ;1atriggerall tplaysnd type uavelset jbplaysnd 0skeycontrol trigger uaplaysnd oca30playsnd cpos keycontrol chganim 9velset n
 animtype = Heavy;d4ycommand ipx4playsnd m8playsnd kchganim vlpbtcxsvsc9n
 damage = 75,10;playsnd type velset 2ijvelset y03kvtrigger msprpriority 8jq2value 9f
+getpower = 20,10
 ;uzvalue sprpriority 7fnsvalue qsx5r0value hkf(null)ctrl 26n67trigger 1
 ;velset p6persistent dvelset ig04triggerall d1a(null)apersistent sprpriority gs6spanim chganim sfplaysnd type persistent (null)
 pausetime = 0,5;pos d37pos o5lukpbiyu29

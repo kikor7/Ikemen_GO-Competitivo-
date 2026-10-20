@@ -275,6 +275,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 [Statedef 200]
 type = S
+poweradd = 20
 ctrl = 0
 anim = 196
 movetype = A
@@ -295,7 +296,7 @@ trigger2 = time = 45
 trigger3 = time = 50
 trigger4 = time = 55
 damage = 20
-getpower= 100,0
+getpower = 10,5
 attr = S, HP
 animtype  = Hard
 guardflag = MA
@@ -477,7 +478,7 @@ type = HitDef
 trigger1=Timemod=1,0
 attr = S, HP 
 damage = 10
-getpower = 50,0
+getpower = 10,5
 givepower = 0,0
 animtype = hard
 ;Affectteam=B
@@ -601,7 +602,7 @@ animtype = Hard
 air.type = High
 pausetime = 0,10
 damage = 30
-getpower = 20,0
+getpower = 10,5
 givepower = 0,0
 sparkno = s-1
 guard.sparkno = s-1

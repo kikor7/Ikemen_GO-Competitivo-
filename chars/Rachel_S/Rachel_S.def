@@ -13,6 +13,7 @@ pal.defaults =1,2,3,4
 localcoord = 1280,720 ;1024,768
 
 [Files]
+movelist = movelist.dat
 sprite =Rachel.sff
 anim =Rachel.air
 sound =Rachel.snd

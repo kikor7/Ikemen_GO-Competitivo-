@@ -1,0 +1,13 @@
+<#f0f000>:Special Moves:</>
+Ki Blast (Light)			_QCF^X
+Slashing Chop			_D_D^Y_+^B
+
+<#f0f000>:Hyper Moves:</>
+Super 1 <#f00000>(3000)</>			_QCF_D_DF^X_+^Y
+ex Ki Blast <#f00000>(500)</>			_QCF^X_+^Y
+Gorilla Press <#f00000>(1000)</>			_D_B_F^X
+Super Explosive Wave <#f00000>(1000)</>			_QCF_D_DF^A
+Rock Throw <#f00000>(1000)</>			_QCB^A_+^X
+Chou Makouhou <#f00000>(1000)</>			_QCB_D_DB^A
+Chou Makouhou Barrage <#f00000>(1000)</>			_QCB_D_DB^X
+Z Counter - Ground <#f00000>(1000)</>			_F^X_+^Y

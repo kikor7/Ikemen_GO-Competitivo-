@@ -73,7 +73,7 @@ physics= S
 velset= 0,0
 ctrl= 0
 anim= 10087488
-poweradd= 20
+poweradd= 0
 
 
 	[State 100: 	AfterImage]
@@ -275,7 +275,7 @@ anim = 210
 [State 2502, 4]
 type = poweradd
 trigger1 = time > 0
-value = 5
+value = 0
 
 [State 201, 2]
 type = HitDef

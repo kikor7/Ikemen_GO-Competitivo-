@@ -1,0 +1,18 @@
+<#f0f000>:Special Moves:</>
+Dark Thunder Near			_QCF^X
+Dark Thunder Mid			_QCF^Y
+Dark Thunder Mid			_QCF^Z
+Ice Inferno Near			_QCB^X
+Ice Inferno Mid			_QCB^Y
+Ice Inferno Far			_QCB^Z
+Fire Inferno Near			_QCB^A
+Fire Inferno Mid			_QCB^B
+Fire Inferno Far			_QCB^C
+Lightning Inferno Near			_QCF^A
+Lightning Inferno Mid			_QCF^B
+Lightning Inferno Far			_QCF^C
+
+<#f0f000>:Hyper Moves:</>
+Armageddon <#f00000>(1000)</>			_QCF^X_+^Y
+Judgment Day <#f00000>(1000)</>			_QCB^X_+^Y
+Heart of Darkness <#f00000>(1000)</>			_QCF^A_+^B

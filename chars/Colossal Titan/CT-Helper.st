@@ -58,6 +58,7 @@ trigger1 = enemy,const(data.defence) > 0
 trigger1 = Time = 0
 attr = SCA, SP
 damage = (root,fvar(10))*ceil(((enemy,const(data.defence)*0.01)*enemy,lifemax*0.040)),(root,fvar(10))*ceil(enemy,lifemax*0.005)
+getpower = 7,3
 animtype = Hard
 hitflag = MAFP
 guardflag = MA
@@ -84,6 +85,7 @@ trigger1 = enemy,const(data.defence) > 0
 trigger1 = Time = 0
 attr = SCA, SP
 damage = 40*root,fvar(10),5*root,fvar(10)
+getpower = 7,3
 animtype = Hard
 hitflag = MAFP
 guardflag = MA
@@ -109,6 +111,7 @@ triggerall = ((root,var(16) >= 1 || root,var(16) = 0) && enemy,const(data.defenc
 trigger1 = Time = 0
 attr = SCA, SP
 damage = 40*root,fvar(10),5*root,fvar(10)
+getpower = 7,3
 animtype = Hard
 hitflag = MAFP
 guardflag = MA
@@ -186,6 +189,7 @@ trigger1 = enemy,const(data.defence) > 0
 trigger1 = Time = 0
 attr = SCA, SP
 damage = (root,fvar(10))*ceil(((enemy,const(data.defence)*0.01)*enemy,lifemax*0.040)),(root,fvar(10))*ceil(enemy,lifemax*0.005)
+getpower = 7,3
 animtype = Hard
 hitflag = MAFP
 guardflag = MA
@@ -212,6 +216,7 @@ trigger1 = enemy,const(data.defence) > 0
 trigger1 = Time = 0
 attr = SCA, SP
 damage = 40*root,fvar(10),5*root,fvar(10)
+getpower = 7,3
 animtype = Hard
 hitflag = MAFP
 guardflag = MA
@@ -237,6 +242,7 @@ triggerall = ((root,var(16) >= 1 || root,var(16) = 0) && enemy,const(data.defenc
 trigger1 = Time = 0
 attr = SCA, SP
 damage = 40*root,fvar(10),5*root,fvar(10)
+getpower = 7,3
 animtype = Hard
 hitflag = MAFP
 guardflag = MA
@@ -314,6 +320,7 @@ trigger1 = Time = 0
 attr = A, HP
 animtype = Hard
 damage = (root,fvar(10))*ceil(((enemy,const(data.defence)*0.01)*enemy,lifemax*0.090)),(root,fvar(10))*ceil(enemy,lifemax*0.012)
+getpower = 15,7
 priority = 7, Dodge
 hitflag = MAFP
 guardflag = MA
@@ -343,6 +350,7 @@ trigger1 = Time = 0
 attr = A, HP
 animtype = Hard
 damage = 90*root,fvar(10),12*root,fvar(10)
+getpower = 15,7
 priority = 7, Dodge
 hitflag = MAFP
 guardflag = MA
@@ -371,6 +379,7 @@ trigger1 = Time = 0
 attr = A, HP
 animtype = Hard
 damage = 90*root,fvar(10),12*root,fvar(10)
+getpower = 15,7
 priority = 7, Dodge
 hitflag = MAFP
 guardflag = MA

@@ -677,7 +677,7 @@ Fall = 0
 Air.Fall = 1
 Fall.Recover = IfElse(P2MoveType = A,0,1)
 Fall.RecoverTime = Ceil(26+Parent,Var(41)-Parent,FVar(35))
-GetPower = Ceil(IfElse(Parent,Var(24)>0,0.45,1)*75), Ceil(IfElse(Parent,Var(43)>0,0.88,0.85)*75)
+getpower = 30,15
 GivePower = Floor(Parent,FVar(31)*75), Floor(0.50*Parent,FVar(31)*75)
 
 [State -1] 
@@ -1552,7 +1552,7 @@ Fall = 0
 Air.Fall = 1
 Fall.Recover = IfElse(P2MoveType = A,0,1)
 Fall.RecoverTime = Ceil(30+Parent,Var(41)-Parent,FVar(35))
-GetPower = Ceil(IfElse(Parent,Var(24)>0,0.45,1)*50), Ceil(IfElse(Parent,Var(43)>0,0.88,0.85)*50)
+getpower = 10,5
 GivePower = Floor(Parent,FVar(31)*50), Floor(0.50*Parent,FVar(31)*50)
 Persistent = 15
 
@@ -1837,7 +1837,7 @@ Fall = 0
 Air.Fall = 1
 Fall.Recover = IfElse(P2MoveType = A,0,1)
 Fall.RecoverTime = Ceil(IfElse(Parent,Var(50)=1,28+Parent,Var(41),28))
-GetPower = 0, 0
+getpower = 10,5
 GivePower = Floor(Parent,FVar(31)*37), Floor(0.50*Parent,FVar(31)*37)
 
 [State -1]
@@ -1889,7 +1889,7 @@ Fall = 0
 Air.Fall = 1
 Fall.Recover = IfElse(P2MoveType = A,0,1)
 Fall.RecoverTime = Ceil(28+Parent,Var(41)-Parent,FVar(35))
-GetPower = 0, 0
+getpower = 10,5
 GivePower = Floor(Parent,FVar(31)*37), Floor(0.50*Parent,FVar(31)*37)
 
 [State -1]
@@ -1940,7 +1940,7 @@ Fall = 0
 Air.Fall = 1
 Fall.Recover = IfElse(P2MoveType = A,0,1)
 Fall.RecoverTime = Ceil(28+Parent,Var(41)-Parent,FVar(35))
-GetPower = 0, 0
+getpower = 10,5
 GivePower = Floor(Parent,FVar(31)*37), Floor(0.50*Parent,FVar(31)*37)
 
 [State -1] 
@@ -2278,7 +2278,7 @@ Fall = 0
 Air.Fall = 1
 Fall.Recover = IfElse(P2MoveType = A,0,1)
 Fall.RecoverTime = Ceil(IfElse(Parent,Var(50)=1,30+Parent,Var(41),30))
-GetPower = 0, 0
+getpower = 10,5
 GivePower = Floor(Parent,FVar(31)*37), Floor(0.50*Parent,FVar(31)*37)
 
 [State -1]
@@ -2330,7 +2330,7 @@ Fall = 0
 Air.Fall = 1
 Fall.Recover = IfElse(P2MoveType = A,0,1)
 Fall.RecoverTime = Ceil(30+Parent,Var(41)-Parent,FVar(35))
-GetPower = 0, 0
+getpower = 10,5
 GivePower = Floor(Parent,FVar(31)*37), Floor(0.50*Parent,FVar(31)*37)
 
 [State -1]
@@ -2381,7 +2381,7 @@ Fall = 0
 Air.Fall = 1
 Fall.Recover = IfElse(P2MoveType = A,0,1)
 Fall.RecoverTime = Ceil(30+Parent,Var(41)-Parent,FVar(35))
-GetPower = 0, 0
+getpower = 10,5
 GivePower = Floor(Parent,FVar(31)*37), Floor(0.50*Parent,FVar(31)*37)
 
 [State -1] 
@@ -2766,7 +2766,7 @@ Fall = 0
 Air.Fall = 1
 Fall.Recover = IfElse(P2MoveType = A,0,1)
 Fall.RecoverTime = Ceil(26+Parent,Var(41)-Parent,FVar(35))
-GetPower = Ceil(IfElse(Parent,Var(24)>0,0.45,1)*28), Ceil(IfElse(Parent,Var(43)>0,0.88,0.85)*28)
+getpower = 30,15
 GivePower = Floor(Parent,FVar(31)*28), Floor(0.50*Parent,FVar(31)*28)
 
 [State -1] 
@@ -3138,7 +3138,7 @@ Fall = 0
 Air.Fall = 1
 Fall.Recover = IfElse(P2MoveType = A,0,1)
 Fall.RecoverTime = Ceil(24+Parent,Var(41)-Parent,FVar(35))
-GetPower = Ceil(IfElse(Parent,Var(24)>0,0.45,1)*28), Ceil(IfElse(Parent,Var(43)>0,0.88,0.85)*28)
+getpower = 15,7
 GivePower = Floor(Parent,FVar(31)*28), Floor(0.50*Parent,FVar(31)*28)
 
 [State -1] 
@@ -3510,7 +3510,7 @@ Fall = 0
 Air.Fall = 1
 Fall.Recover = IfElse(P2MoveType = A,0,1)
 Fall.RecoverTime = Ceil(24+Parent,Var(41)-Parent,FVar(35))
-GetPower = Ceil(IfElse(Parent,Var(24)>0,0.45,1)*28), Ceil(IfElse(Parent,Var(43)>0,0.88,0.85)*28)
+getpower = 30,15
 GivePower = Floor(Parent,FVar(31)*28), Floor(0.50*Parent,FVar(31)*28)
 
 [State -1] 
@@ -3901,7 +3901,7 @@ Fall = 0
 Air.Fall = 1
 Fall.Recover = IfElse(P2MoveType = A,0,1)
 Fall.RecoverTime = Ceil(26+Parent,Var(41)-Parent,FVar(35))
-GetPower = Ceil(IfElse(Parent,Var(24)>0,0.45,1)*28), Ceil(IfElse(Parent,Var(43)>0,0.88,0.85)*28)
+getpower = 15,7
 GivePower = Floor(Parent,FVar(31)*28), Floor(0.50*Parent,FVar(31)*28)
 
 [State -1] 
@@ -4389,7 +4389,7 @@ Fall = 0
 Air.Fall = 1
 Fall.Recover = IfElse(P2MoveType = A,0,1)
 Fall.RecoverTime = Ceil(24+Parent,Var(41)-Parent,FVar(35))
-GetPower = Ceil(IfElse(Parent,Var(24)>0,0.45,1)*28), Ceil(IfElse(Parent,Var(43)>0,0.88,0.85)*28)
+getpower = 15,7
 GivePower = Floor(Parent,FVar(31)*28), Floor(0.50*Parent,FVar(31)*28)
 
 [State -1] 
@@ -4902,7 +4902,7 @@ Fall = 0
 Air.Fall = 1
 Fall.Recover = IfElse(P2MoveType = A,0,1)
 Fall.RecoverTime = Ceil(26+Parent,Var(41)-Parent,FVar(35))
-GetPower = Ceil(IfElse(Parent,Var(24)>0,0.45,1)*28), Ceil(IfElse(Parent,Var(43)>0,0.88,0.85)*28)
+getpower = 15,7
 GivePower = Floor(Parent,FVar(31)*28), Floor(0.50*Parent,FVar(31)*28)
 
 [State -1] 
@@ -5301,7 +5301,7 @@ Fall = 1
 Air.Fall = 1
 Fall.Recover = IfElse(P2MoveType = A,0,1)
 Fall.RecoverTime = Ceil(44+Parent,Var(41)-Parent,FVar(35))
-GetPower = Ceil(IfElse(Parent,Var(24)>0,0.45,1)*80), Ceil(IfElse(Parent,Var(43)>0,0.88,0.85)*80)
+getpower = 30,15
 GivePower = Floor(Parent,FVar(31)*80), Floor(0.50*Parent,FVar(31)*80)
 
 [State -1] 
@@ -5597,7 +5597,7 @@ Fall = 1
 Air.Fall = 1
 Fall.Recover = IfElse(P2MoveType = A,0,1)
 Fall.RecoverTime = Ceil(44+Parent,Var(41)-Parent,FVar(35))
-GetPower = Ceil(IfElse(Parent,Var(24)>0,0.45,1)*80), Ceil(IfElse(Parent,Var(43)>0,0.88,0.85)*80)
+getpower = 30,15
 GivePower = Floor(Parent,FVar(31)*80), Floor(0.50*Parent,FVar(31)*80)
 
 [State -1] 
@@ -5900,7 +5900,7 @@ Guard.Kill = 0
 Fall = 1
 Air.Fall = 1
 Fall.Recover = 0
-GetPower = 0, 0
+getpower = 30,15
 GivePower = Floor(Parent,FVar(31)*37), Floor(0.50*Parent,FVar(31)*37)
 
 [State -1] 
@@ -8510,7 +8510,7 @@ Fall = 0
 Air.Fall = 1
 Fall.Recover = IfElse(P2MoveType = A,0,1)
 Fall.RecoverTime = Ceil(IfElse(Parent,Var(50)=1,30+Parent,Var(41),30))
-GetPower = 0, 0
+getpower = 15,7
 GivePower = Floor(Parent,FVar(31)*37), Floor(0.50*Parent,FVar(31)*37)
 Persistent = 3
 
@@ -8559,7 +8559,7 @@ Fall = 1
 Air.Fall = 1
 Fall.Recover = IfElse(P2MoveType = A,0,1)
 Fall.RecoverTime = Ceil(IfElse(Parent,Var(50)=1,30+Parent,Var(41),30))
-GetPower = 0, 0
+getpower = 15,7
 GivePower = Floor(Parent,FVar(31)*37), Floor(0.50*Parent,FVar(31)*37)
 
 [State -1] 
@@ -9215,7 +9215,7 @@ Fall = 0
 Air.Fall = 1
 Fall.Recover = IfElse(P2MoveType = A,0,1)
 Fall.RecoverTime = Ceil(IfElse(Parent,Var(50)=1,30+Parent,Var(41),30))
-GetPower = 0, 0
+getpower = 15,7
 GivePower = Floor(Parent,FVar(31)*37), Floor(0.50*Parent,FVar(31)*37)
 Persistent = 3
 
@@ -9264,7 +9264,7 @@ Air.Fall = 1
 Fall.Recover = IfElse(P2MoveType = A,0,1)
 P2StateNo = 5600
 ID = 5600
-GetPower = 0, 0
+getpower = 15,7
 GivePower = Floor(Parent,FVar(31)*37), Floor(0.50*Parent,FVar(31)*37)
 
 [State -1] 

@@ -10,7 +10,7 @@ velset = 0,0
 ctrl = 0
 anim = 1000
 sprpriority = 1
-poweradd = 50
+poweradd = 0
 
 ;--- Guard Cancel --------------------------
 [State 3000, SuperPause]
@@ -173,6 +173,7 @@ trigger2 = animelem = 4
 attr = S, SA
 animtype  = Light
 damage    = 50
+getpower = 20,10
 guardflag = MA
 pausetime = 12,18
 sparkno = -1;s6000
@@ -251,7 +252,7 @@ juggle  = 7
 ctrl = 0
 anim = 1009
 sprpriority = 1
-poweradd = 50
+poweradd = 0
 
 [State 60, Arena Grande atras]
 type = Explod
@@ -364,6 +365,7 @@ trigger2 = animelem = 7
 attr = S, SA
 animtype  = Light
 damage    = 50
+getpower = 20,10
 guardflag = MA
 pausetime = 12,18
 sparkno = -1;s6000
@@ -467,6 +469,7 @@ trigger2 = animelem = 5
 attr = A, SA
 animtype  = Light
 damage    = 50
+getpower = 20,10
 guardflag = HA
 pausetime = 8,10
 sparkno = -1;s6000
@@ -567,7 +570,7 @@ juggle  = 1
 velset = 0,0
 ctrl = 0
 anim = 1100
-poweradd = 100
+poweradd = 0
 
 
 [State 0, VelSet]
@@ -607,6 +610,7 @@ attr = S, ST
 animtype = hard          ;light,medium,hard,back,up,diagup
 priority = 4,Hit
 damage    = 0,0
+getpower = 60,30
 guardflag = MA
 pausetime = 0,8
 sparkno = -1;s6000
@@ -1245,7 +1249,7 @@ type    = A
 movetype = A
 physics = A
 juggle  = 0
-poweradd = 30
+poweradd = 20
 ctrl = 0
 anim = 1400
 sprpriority = 2
@@ -1426,7 +1430,7 @@ ctrl = 1
 Movetype = A
 physics = N
 juggle  = 0
-poweradd = 30
+poweradd = 0
 ctrl = 0
 anim = 7072
 sprpriority = 2
@@ -1460,6 +1464,7 @@ type = HitDef
 trigger1 =  1
 attr = A, SP
 damage    = 50, 5
+getpower = 15,7
 guardflag = MA
 priority = 4
 pausetime = 8,10
@@ -1527,6 +1532,7 @@ Triggerall = prevstateno = 1450
 trigger1 =  1
 attr = A, SP
 damage    = 50, 5
+getpower = 15,7
 guardflag = HA
 priority = 4
 pausetime = 8,10
@@ -1601,7 +1607,7 @@ Movetype = A
 physics = N
 anim = 1500
 ctrl = 0
-Poweradd = 100
+Poweradd = 0
 
 
 
@@ -1702,6 +1708,7 @@ trigger4 = animelem = 9
 attr = A, SA
 animtype  = Light
 damage    = 50,5
+getpower = 20,10
 guardflag = HA
 pausetime = 8,10
 sparkno = -1;s6000
@@ -1799,7 +1806,7 @@ trigger1 = AnimElem = 2 || animelem = 4 || animelem = 6 || animelem = 8
 attr = A, SA
 animtype  = Hard
 damage    = 10,5
-getpower  = 0
+getpower = 20,10
 priority = 5, Hit
 guardflag = HA
 pausetime = 8,8
@@ -1927,7 +1934,7 @@ trigger1 = AnimElem = 12
 attr = A, SA
 animtype  = Hard
 damage    = 50,5
-getpower  = 0
+getpower = 20,10
 priority = 5, Hit
 guardflag = HA
 pausetime = 10,12

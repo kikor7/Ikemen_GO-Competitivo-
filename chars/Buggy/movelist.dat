@@ -1,0 +1,20 @@
+<#f0f000>:Special Moves:</>
+Bara bara Fly			^B_+^C
+Bara Bara Hinan			_DSF^C
+Bara Bara Car			_HCB^C
+Bara Bara Kick Kinife-Chargue			_QCF^B
+Bara Bara Senbei			_QCB^B
+Bara Bara Hou Aire			_QCF^A
+Ningen jaguringu			_QCB^A
+Tag System  - Start Exit Command - Defensive			^A_+^C
+Burst - Anti Combos			^A_+^B_+^C
+
+<#f0f000>:Hyper Moves:</>
+Super Move Unite <#f00000>(2000)</>			_QCF_QCF^X
+Muggy Dama <#f00000>(2000)</>			_QCF_QCF^A_+^B
+Bara Bara Kuuchou Kirimomi Dai Circus <#f00000>(1000)</>			_QCB_QCB^A
+Bara Bara Festival <#f00000>(1000)</>			_QCB_QCB^C
+Tokusei Muggy Dama <#f00000>(1000)</>			_F_HCF^B
+Tag System  - Start Exit Command - Super Move 1 <#f00000>(1000)</>			_QCF^X
+Tag System  - Start Exit Command - Super Move 2 <#f00000>(1000)</>			_QCB^X
+Tag System  - Start Exit Command - Offensive <#f00000>(1500)</>			^A_+^C

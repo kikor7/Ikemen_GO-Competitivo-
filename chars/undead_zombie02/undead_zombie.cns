@@ -1476,7 +1476,7 @@ physics = S
 velset = 0,0
 ctrl = 0
 anim = 200
-poweradd = 2
+poweradd = 0
 sprpriority = 2
 
 
@@ -1503,7 +1503,7 @@ airguard.velocity = -2,-.8
 air.type = High
 air.velocity = -1.4,-3
 air.hittime = 12
-getpower = 1,1
+getpower = 30,15
 givepower = 1,1
 
 
@@ -1571,7 +1571,7 @@ juggle  = 2
 velset = 0,0
 ctrl = 0
 anim = 210
-poweradd = 4
+poweradd = 0
 sprpriority = 2
 
 [State 210, 1]
@@ -1596,7 +1596,7 @@ airguard.velocity = -2.9,-.8
 air.type = High
 air.velocity = -1.4,-3
 air.hittime = 12
-getpower = 2,1
+getpower = 30,15
 givepower = 2,1
 
 [State 191, Snd 1]
@@ -1632,7 +1632,7 @@ juggle  = 3
 velset = 0,0
 ctrl = 0
 anim = 220
-poweradd = 8;8
+poweradd = 0;8
 sprpriority = 2
 
 [State 220, 1]
@@ -1657,7 +1657,7 @@ airguard.velocity = -3.9,-.8
 air.type = High
 air.velocity = -1.4,-3
 air.hittime = 12
-getpower = 3,2
+getpower = 30,15
 givepower = 3,2
 
 
@@ -1685,7 +1685,7 @@ juggle  = 1
 velset = 0,0
 ctrl = 0
 anim = 230
-poweradd = 2
+poweradd = 0
 sprpriority = 2
 
 [State 230, 1]
@@ -1710,7 +1710,7 @@ airguard.velocity = -2,-.8
 air.type = High
 air.velocity = -1.4,-3
 air.hittime = 12
-getpower = 1,1
+getpower = 30,15
 givepower = 1,1
 
 
@@ -1757,7 +1757,7 @@ juggle  = 2
 velset = 0,0
 ctrl = 0
 anim = 240
-poweradd = 4
+poweradd = 0
 sprpriority = 2
 
 [State 240, 1]
@@ -1782,7 +1782,7 @@ airguard.velocity = -3.9,-.8
 air.type = High
 air.velocity = -1.4,-3
 air.hittime = 12
-getpower = 2,1
+getpower = 30,15
 givepower = 2,1
 
 
@@ -1839,7 +1839,7 @@ juggle  = 3
 velset = 0,0
 ctrl = 0
 anim = 250
-poweradd = 8
+poweradd = 0
 sprpriority = 2
 
 [State 250, 1]
@@ -1864,7 +1864,7 @@ airguard.velocity = -3.9,-.8
 air.type = High
 air.velocity = -1.4,-3
 air.hittime = 12
-getpower = 3,2
+getpower = 30,15
 givepower = 3,2
 
 
@@ -1897,7 +1897,7 @@ juggle  = 2
 velset = 0,0
 ctrl = 0
 anim = 400
-poweradd = 2
+poweradd = 0
 sprpriority = 2
 
 [State 400, Width]
@@ -1933,7 +1933,7 @@ airguard.velocity = -1.9,-.8
 air.type = High
 air.velocity = -1.4,-3
 air.hittime = 12
-getpower = 1,1
+getpower = 30,15
 givepower = 1,1
 
 
@@ -1998,7 +1998,7 @@ juggle  = 2
 velset = 0,0
 ctrl = 0
 anim = 410
-poweradd = 4
+poweradd = 0
 sprpriority = 2
 
 [State 410, 1]
@@ -2023,7 +2023,7 @@ airguard.velocity = -3.9,-.8
 air.type = High
 air.velocity = -1.4,-3
 air.hittime = 12
-getpower = 2,1
+getpower = 30,15
 givepower = 2,1
 
 
@@ -2051,7 +2051,7 @@ juggle  = 3
 velset = 0,0
 ctrl = 0
 anim = 420
-poweradd = 8
+poweradd = 0
 sprpriority = 2
 
 [State 420, 1]
@@ -2076,7 +2076,7 @@ airguard.velocity = -3.9,-.8
 air.type = High
 air.velocity = -1.4,-3
 air.hittime = 12
-getpower = 3,1
+getpower = 15,7
 givepower = 3,1
 
 
@@ -2101,7 +2101,7 @@ ground.velocity = -1.5,-2
 air.velocity = -1.2,-3
 guard.velocity = -5
 fall = 1
-getpower = 3,1
+getpower = 15,7
 givepower = 3,1
 
 
@@ -2138,7 +2138,7 @@ juggle  = 2
 velset = 0,0
 ctrl = 0
 anim = 430
-poweradd = 2
+poweradd = 0
 sprpriority = 2
 
 [State 400, 1]
@@ -2163,7 +2163,7 @@ airguard.velocity = -1.9,-.8
 air.type = High
 air.velocity = -1.4,-3
 air.hittime = 12
-getpower = 1,1
+getpower = 30,15
 givepower = 1,1
 
 
@@ -2226,7 +2226,7 @@ juggle  = 2
 velset = 0,0
 ctrl = 0
 anim = 440
-poweradd = 4
+poweradd = 0
 sprpriority = 2
 
 
@@ -2235,6 +2235,7 @@ type = HitDef
 trigger1 = animelem = 2
 attr = S, NA
 damage = 37
+getpower = 30,15
 animtype = up
 guardflag = MA
 hitflag = MAF
@@ -2283,7 +2284,7 @@ juggle  = 3
 velset = 0,0
 ctrl = 0
 anim = 450
-poweradd = 8
+poweradd = 0
 sprpriority = 2
 
 [State 450, 1]
@@ -2308,7 +2309,7 @@ airguard.velocity = -3.9,-.8
 air.type = High
 air.velocity = -1.4,-3
 air.hittime = 12
-getpower = 3,1
+getpower = 30,15
 givepower = 3,1
 
 [State 450, 3]
@@ -2330,7 +2331,7 @@ ground.velocity = -1.5,-2
 air.velocity = -1.2,-3
 guard.velocity = -5
 fall = 1
-getpower = 3,1
+getpower = 30,15
 givepower = 3,1
 
 [State 450, Width]
@@ -2390,7 +2391,7 @@ type    = A
 movetype= A
 physics = A
 juggle  = 3
-poweradd= 2
+poweradd= 0
 ctrl = 0
 anim = 600
 sprpriority = 2
@@ -2418,7 +2419,7 @@ ground.slidetime = 6
 ground.hittime  = 6
 ground.velocity = -4
 air.velocity = -2,-3
-getpower = 1,1
+getpower = 30,15
 givepower = 1,1
 
 
@@ -2441,7 +2442,7 @@ ground.slidetime = 6
 ground.hittime  = 6
 ground.velocity = -10
 air.velocity = -7,-3
-getpower = 3,1
+getpower = 30,15
 givepower = 3,1
 fall = 1; + var(2)
 
@@ -2473,7 +2474,7 @@ type    = A
 movetype= A
 physics = A
 juggle  = 4
-poweradd= 3
+poweradd= 0
 ctrl = 0
 anim = 610
 sprpriority = 2
@@ -2501,7 +2502,7 @@ ground.slidetime = 5
 ground.hittime  = 6
 ground.velocity = -7,4
 air.velocity = -6,4
-getpower = 2,1
+getpower = 30,15
 givepower = 2,1
 
 
@@ -2524,7 +2525,7 @@ ground.hittime  = 14
 ground.velocity = -3,0.5
 air.velocity = -4,-3
 fall = 1
-getpower = 4,2
+getpower = 30,15
 givepower = 4,2
 
 
@@ -2558,7 +2559,7 @@ type    = A
 movetype= A
 physics = A
 juggle  = 5
-poweradd= 5
+poweradd= 20
 ctrl = 0
 anim = 620
 sprpriority = 2
@@ -2605,7 +2606,7 @@ ground.slidetime = 6
 ground.hittime  = 6
 ground.velocity = -5
 air.velocity = -6,-3
-getpower = 1,1
+getpower = 10,5
 givepower = 1,1
 
 
@@ -2628,7 +2629,7 @@ ground.hittime  = 7
 ground.velocity = -3.5,0.5
 air.velocity = -4,-3
 fall = 1
-getpower = 3,1
+getpower = 10,5
 givepower = 3,1
 
 
@@ -2689,7 +2690,7 @@ ground.velocity = -4.5,-2
 air.velocity = -1.2,-3
 guard.velocity = -5
 fall = 1
-getpower = 1,1
+getpower = 10,5
 givepower = 1,1
 
 
@@ -2796,7 +2797,7 @@ airguard.velocity = -1.9,-.8
 air.type = High
 air.velocity = -1.4,-3
 air.hittime = 12
-getpower = 1,1
+getpower = 10,5
 givepower = 1,1
 
 
@@ -2915,7 +2916,7 @@ ground.velocity = -4.5,-2
 air.velocity = -1.2,-3
 guard.velocity = -5
 fall = 1
-getpower = 1,1
+getpower = 7,3
 givepower = 1,1
 
 
@@ -3041,7 +3042,7 @@ type    = A
 movetype= A
 physics = A
 juggle  = 3
-poweradd= 2
+poweradd= 0
 ctrl = 0
 anim = 630
 sprpriority = 2
@@ -3069,7 +3070,7 @@ ground.slidetime = 6
 ground.hittime  = 6
 ground.velocity = -4
 air.velocity = -2,-3
-getpower = 1,1
+getpower = 30,15
 givepower = 1,1
 
 
@@ -3092,7 +3093,7 @@ ground.slidetime = 6
 ground.hittime  = 6
 ground.velocity = -16
 air.velocity = -7,-3
-getpower = 3,1
+getpower = 30,15
 givepower = 3,1
 fall = 1; + var(2)
 
@@ -3125,7 +3126,7 @@ type    = A
 movetype= A
 physics = A
 juggle  = 4
-poweradd= 3
+poweradd= 0
 ctrl = 0
 anim = 640
 sprpriority = 2
@@ -3153,7 +3154,7 @@ ground.slidetime = 6
 ground.hittime  = 6
 ground.velocity = -9
 air.velocity = -6,-3
-getpower = 2,1
+getpower = 30,15
 givepower = 2,1
 
 
@@ -3177,7 +3178,7 @@ ground.hittime  = 14
 ground.velocity = -3.5,0.5
 air.velocity = -4,-3
 fall = 1
-getpower = 5,2
+getpower = 30,15
 givepower = 5,2
 
 [State 640, VelAdd]
@@ -3209,7 +3210,7 @@ type    = A
 movetype= A
 physics = A
 juggle  = 5
-poweradd= 5
+poweradd= 20
 ctrl = 0
 anim = 650
 sprpriority = 2
@@ -3283,7 +3284,7 @@ ground.slidetime = 6
 ground.hittime  = 6
 ground.velocity = -11
 air.velocity = -6,-3
-getpower = 3,1
+getpower = 7,3
 givepower = 3,1
 fall = 0 +var(2)
 
@@ -3307,7 +3308,7 @@ ground.hittime  = 14
 ground.velocity = -3.5,0.5
 air.velocity = -4,-3
 fall = 1
-getpower = 6,3
+getpower = 7,3
 givepower = 6,3
 
 
@@ -3399,7 +3400,7 @@ ground.velocity = -1.5,-2
 air.velocity = -1.2,-3
 guard.velocity = -5
 fall = 1
-getpower = 3,1
+getpower = 7,3
 givepower = 3,1
 
 
@@ -3475,6 +3476,7 @@ sprpriority = 2
 
 [State 800, 1]
 type = HitDef
+getpower = 60,30
 Trigger1 = Time = 0
 attr = S, NT
 hitflag = M
@@ -3504,7 +3506,7 @@ juggle  = 1
 velset = 0,0
 ctrl = 0
 anim = 801
-poweradd = 20
+poweradd = 0
 sprpriority = 2
 
 [State 801, Bind 1]
@@ -3538,7 +3540,7 @@ type = S
 movetype= A
 physics = S
 anim = 802
-poweradd = 6
+poweradd = 0
 sprpriority = 5
 ctrl = 0
 
@@ -3770,7 +3772,7 @@ juggle  = 1
 velset = 0,0
 ctrl = 0
 anim = 1010
-poweradd = 2
+poweradd = 0
 sprpriority = 2
 
 [State 1010, NotHitBy]
@@ -3799,7 +3801,7 @@ juggle  = 1
 velset = 0,0
 ctrl = 0
 anim = 1011
-poweradd = 2
+poweradd = 0
 sprpriority = 2
 
 [State 1011, VarSet]
@@ -3852,7 +3854,7 @@ ground.velocity = -4.5,-2
 air.velocity = -1.2,-3
 guard.velocity = -5
 fall = 1
-getpower = 4,2
+getpower = 60,30
 givepower = 4,2
 
 
@@ -3899,7 +3901,7 @@ juggle  = 1
 velset = 0,0
 ctrl = 0
 anim = 1010
-poweradd = 2
+poweradd = 0
 sprpriority = 2
 
 [State 1010, NotHitBy]
@@ -3926,7 +3928,7 @@ juggle  = 1
 velset = 0,0
 ctrl = 0
 anim = 1010
-poweradd = 2
+poweradd = 0
 sprpriority = 2
 
 [State 1010, NotHitBy]
@@ -4001,7 +4003,7 @@ juggle  = 2
 velset = 0,0
 ctrl = 0
 anim = 1050
-poweradd = 4
+poweradd = 20
 sprpriority = 2
 
 
@@ -4080,7 +4082,7 @@ juggle  = 2
 velset = 0,0
 ctrl = 0
 anim = 1060
-poweradd = 4
+poweradd = 20
 sprpriority = 2
 
 
@@ -4169,7 +4171,7 @@ juggle  = 2
 velset = 0,0
 ctrl = 0
 anim = 1050
-poweradd = 4
+poweradd = 20
 sprpriority = 2
 
 [State 1070, Helper]
@@ -4270,7 +4272,7 @@ airguard.velocity = -1.9,-.8
 air.type = High
 air.velocity = -1.4,-3
 air.hittime = 12
-getpower = 4,2
+getpower = 7,3
 givepower = 4,2
 
 [State 1071, Explod]
@@ -4463,7 +4465,7 @@ airguard.velocity = -1.9,-.8
 air.type = High
 air.velocity = -1.4,-3
 air.hittime = 12
-getpower = 1,1
+getpower = 7,3
 givepower = 1,1
 
 
@@ -4507,7 +4509,7 @@ airguard.velocity = -1.9,-.8
 air.type = High
 air.velocity = -1.4,-3
 air.hittime = 12
-getpower = 1,0
+getpower = 7,3
 givepower = 1,0
 
 [State 1077, PlaySnd]
@@ -4579,7 +4581,7 @@ airguard.velocity = -1.9,-.8
 air.type = High
 air.velocity = -1.4,-3
 air.hittime = 12
-getpower = 1,1
+getpower = 7,3
 givepower = 1,1
 
 
@@ -4733,7 +4735,7 @@ juggle  = 4
 velset = 0,0
 ctrl = 0
 anim = 1200
-poweradd = 8
+poweradd = 20
 sprpriority = 2
 
 
@@ -4955,7 +4957,7 @@ ground.velocity = -4.5,-2
 air.velocity = -1.2,-3
 guard.velocity = -5
 fall = 1
-getpower = 3,1
+getpower = 5,2
 givepower = 3,1
 
 
@@ -5124,7 +5126,7 @@ airguard.velocity = -1.9,-.8
 air.type = High
 air.velocity = -1.4,-3
 air.hittime = 12
-getpower = 1,1
+getpower = 5,2
 givepower = 1,1
 
 
@@ -5193,7 +5195,7 @@ ground.velocity = -4.5,-2
 air.velocity = -1.2,-3
 guard.velocity = -5
 fall = 1
-getpower = 3,1
+getpower = 5,2
 givepower = 3,1
 
 
@@ -5321,7 +5323,7 @@ airguard.velocity = -1.9,-.8
 air.type = High
 air.velocity = -1.4,-3
 air.hittime = 12
-getpower = 1,1
+getpower = 5,2
 givepower = 1,1
 
 
@@ -5419,7 +5421,7 @@ juggle  = 4
 velset = 0,0
 ctrl = 0
 anim = 1220
-poweradd = 8
+poweradd = 0
 sprpriority = 2
 
 [State 1220, end]
@@ -5477,7 +5479,7 @@ ground.velocity = -4.5,-2
 air.velocity = -1.2,-3
 guard.velocity = -5
 fall = 1
-getpower = 4,1
+getpower = 5,2
 givepower = 4,1
 
 
@@ -5606,7 +5608,7 @@ airguard.velocity = -1.9,-.8
 air.type = High
 air.velocity = -1.4,-3
 air.hittime = 12
-getpower = 2,1
+getpower = 5,2
 givepower = 2,1
 
 
@@ -5729,7 +5731,7 @@ type    = A
 movetype= A
 physics = N
 juggle  = 3
-poweradd= 2
+poweradd= 0
 ctrl = 0
 anim = 2000
 sprpriority = 2
@@ -5765,7 +5767,7 @@ p2facing = 1
 p1stateno = 2001
 p2stateno = 2004
 fall = 1
-getpower = 1,1
+getpower = 60,30
 givepower = 1,1
 
 
@@ -6258,7 +6260,7 @@ airguard.velocity = -1.9,-.8
 air.type = High
 air.velocity = -1.4,-3
 air.hittime = 12
-getpower = 3,1
+getpower = 30,15
 givepower = 3,1
 
 
@@ -6456,7 +6458,7 @@ airguard.velocity = -1.9,-.8
 air.type = High
 air.velocity = -1.4,-3
 air.hittime = 12
-getpower = 2,1
+getpower = 30,15
 givepower = 2,1
 
 
@@ -7926,7 +7928,7 @@ juggle  = 1
 velset = 0,0
 ctrl = 0
 anim = 6000
-poweradd = 1
+poweradd = 0
 sprpriority = 2
 
 [State 6000, end]
@@ -7944,7 +7946,7 @@ juggle  = 1
 velset = 0,0
 ctrl = 0
 anim = 6000
-poweradd = 1
+poweradd = 0
 sprpriority = 2
 
 [State 6000, end]
@@ -7962,7 +7964,7 @@ juggle  = 1
 velset = 0,0
 ctrl = 0
 anim = 6000
-poweradd = 1
+poweradd = 0
 sprpriority = 2
 
 [State 6000, end]

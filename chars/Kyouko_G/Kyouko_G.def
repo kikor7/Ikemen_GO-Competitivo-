@@ -8,6 +8,7 @@ pal.defaults = 6, 7, 8, 9	;Default palettes in order of preference
 
 ; Files for the player
 [Files]
+movelist = movelist.dat
 sprite   = kyoko.sff		;Sprite
 anim     = kyoko.air		;Animation
 sound    = kyoko.snd		;Sound

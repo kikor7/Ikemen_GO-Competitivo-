@@ -8,7 +8,7 @@ velset   = 0,0
 ctrl     = 0
 anim     = 200
 sprpriority = -3
-poweradd = 60
+poweradd = 0
 
 [State 200, 音を鳴らす]
 type = PlaySnd
@@ -31,7 +31,7 @@ trigger1 = AnimElem = 4
 attr              = S, NA ;立ち通常打撃（Standing, Normal Attack）
 damage = ceil(35*fvar(0)*fvar(1)), 0
 animtype          = Light
-getpower          = 40,40
+getpower = 30,15
 guardflag         = MA
 hitflag           = MAF
 pausetime         = 12,14
@@ -77,7 +77,7 @@ facing = -1
 [State 200, ヒット時ゲージ]
 type = PowerAdd
 trigger1 = MoveHit
-value = 10
+value = 0
 
 
 [State 200, ステート変更]
@@ -96,7 +96,7 @@ velset   = 0,0
 ctrl     = 0			
 anim     = 210			
 sprpriority = -3			
-poweradd = 60
+poweradd = 0
 
 [State 210, 音を鳴らす]
 type = PlaySnd
@@ -109,7 +109,7 @@ trigger1 = AnimElem = 5
 attr              = S, NA	
 damage = ceil(45*fvar(0)*fvar(1)), 0	
 animtype          = medium
-getpower          = 60,60	
+getpower = 15,7
 guardflag         = MA		
 hitflag           = MAF	
 pausetime         = 12,20
@@ -145,7 +145,7 @@ trigger1 = AnimElem = 10
 attr              = S, NA	
 damage = ceil(45*fvar(0)*fvar(1)), 0	
 animtype          = medium
-getpower          = 60,60
+getpower = 15,7
 guardflag         = MA		
 hitflag           = MAF
 priority          = 4,Hit	
@@ -203,7 +203,7 @@ Persistent = 14
 [State 200, ヒット時ゲージ]
 type = PowerAdd
 trigger1 = MoveHit
-value = 10
+value = 0
 
 
 [State 210, ステート変更]	;アニメ表示が終わったら、0のステート（立ち）に戻るための記述。
@@ -224,7 +224,7 @@ ctrl     = 0
 anim     = 220
 sprpriority = -3
 facep2   = 1
-poweradd = 60
+poweradd = 0
 
 [State 220, 音を鳴らす]
 type = PlaySnd
@@ -240,7 +240,7 @@ trigger1 = AnimElem = 9
 attr              = S, NA ;立ち通常打撃（Standing, Normal Attack）
 damage = ceil(100*fvar(0)*fvar(1)), 0
 animtype          = Hard
-getpower          = 80,80
+getpower = 30,15
 guardflag         = MA
 hitflag           = MAF
 priority          = 5,Hit
@@ -297,7 +297,7 @@ scale = 1,1
 [State 200, ヒット時ゲージ]
 type = PowerAdd
 trigger1 = MoveHit
-value = 10
+value = 0
 
 
 [State 200, ステート変更]
@@ -317,7 +317,7 @@ velset   = 0,0
 ctrl     = 0			
 anim     = 400			
 sprpriority = -3			
-poweradd = 60
+poweradd = 0
 
 
 [State 400, 音を鳴らす]
@@ -331,7 +331,7 @@ trigger1 = animelem = 3
 attr              = C, NA	
 damage = ceil(20*fvar(0)*fvar(1)), 0	
 animtype          = Light				
-getpower          = 40,40	
+getpower = 30,15
 guardflag         = L		
 hitflag           = MAFD	
 priority          = 3,Hit		
@@ -383,7 +383,7 @@ facing = -1
 [State 200, ヒット時ゲージ]
 type = PowerAdd
 trigger1 = MoveHit
-value = 10
+value = 0
 
 
 [State 400, ステート変更]	;アニメ表示が終わったら、0のステート（立ち）に戻るための記述。
@@ -403,7 +403,7 @@ velset   = 0,0
 ctrl     = 0
 anim     = 410
 sprpriority = -3
-poweradd = 60
+poweradd = 0
 
 
 [State 410, 音を鳴らす]
@@ -417,7 +417,7 @@ trigger1 = animelem = 7
 attr              = C, NA
 damage = ceil(35*fvar(0)*fvar(1)), 0
 animtype          = Light
-getpower          = 60,60
+getpower = 30,15
 guardflag         = MA
 hitflag           = MAFD
 pausetime         = 6,10
@@ -467,7 +467,7 @@ facing = -1
 [State 200, ヒット時ゲージ]
 type = PowerAdd
 trigger1 = MoveHit
-value = 10
+value = 0
 
 
 [State 410, ステート変更]	;アニメ表示が終わったら、0のステート（立ち）に戻るための記述。
@@ -487,7 +487,7 @@ velset   = 0,0
 ctrl     = 0
 anim     = 420
 sprpriority = -3
-poweradd = 60
+poweradd = 0
 
 
 [State 420, 音を鳴らす]
@@ -508,7 +508,7 @@ trigger1 = animelem = 7
 attr              = C, NA
 damage = ceil(80*fvar(0)*fvar(1)), 0
 animtype          = hard
-getpower          = 80,80
+getpower = 30,15
 guardflag         = MA
 hitflag           = MAFD
 priority          = 7,Hit
@@ -569,7 +569,7 @@ scale = 1,1
 [State 200, ヒット時ゲージ]
 type = PowerAdd
 trigger1 = MoveHit
-value = 10
+value = 0
 
 
 
@@ -589,7 +589,7 @@ juggle   = 2
 ctrl     = 0
 anim     = 600
 sprpriority = -3
-poweradd = 60
+poweradd = 0
 
 
 [State 600, 音を鳴らす]
@@ -604,7 +604,7 @@ trigger1 = animelem = 2
 attr              = A, NA ;空中通常打撃（Air, Normal Attack）
 damage = ceil(30*fvar(0)*fvar(1)), 0
 animtype          = Light
-getpower          = 40,40
+getpower = 30,15
 hitflag           = MAF
 guardflag         = HA ;
 priority          = 3
@@ -653,7 +653,7 @@ facing = -1
 [State 200, ヒット時ゲージ]
 type = PowerAdd
 trigger1 = MoveHit
-value = 10
+value = 0
 
 
 [State 600, コントロール]
@@ -672,7 +672,7 @@ juggle   = 4
 ctrl     = 0
 anim     = 610
 sprpriority = -3
-poweradd = 60
+poweradd = 0
 
 
 [State 610, 音を鳴らす]
@@ -696,7 +696,7 @@ trigger1 = animelem = 1
 attr              = A, NA
 damage = ceil(30*fvar(0)*fvar(1)), 0
 animtype          = Medium
-getpower          = 30,30
+getpower = 7,3
 hitflag           = MAF
 guardflag         = HA
 priority          = 4
@@ -722,7 +722,7 @@ trigger1 = animelem = 3
 attr              = A, NA
 damage = ceil(30*fvar(0)*fvar(1)), 0
 animtype          = Medium
-getpower          = 30,30
+getpower = 7,3
 hitflag           = MAF
 guardflag         = HA
 priority          = 4
@@ -748,7 +748,7 @@ trigger1 = animelem = 4
 attr              = A, NA
 damage = ceil(30*fvar(0)*fvar(1)), 0
 animtype          = Medium
-getpower          = 30,30
+getpower = 7,3
 hitflag           = MAF
 guardflag         = HA
 priority          = 4
@@ -772,7 +772,7 @@ trigger1 = animelem = 5
 attr              = A, NA
 damage = ceil(30*fvar(0)*fvar(1)), 0
 animtype          = Medium
-getpower          = 30,30
+getpower = 7,3
 hitflag           = MAF
 guardflag         = HA
 priority          = 4
@@ -820,7 +820,7 @@ facing = -1
 [State 200, ヒット時ゲージ]
 type = PowerAdd
 trigger1 = MoveHit
-value = 10
+value = 0
 
 [State 610, コントロール]
 type = CtrlSet
@@ -837,7 +837,7 @@ juggle   = 4
 ctrl     = 0
 anim     = 620
 sprpriority = -3
-poweradd = 60
+poweradd = 0
 
 
 [State 620, 音を鳴らす]
@@ -853,7 +853,7 @@ trigger1 = animelem = 8
 attr              = A, NA ;空中通常打撃（Air, Normal Attack）
 damage = ceil(90*fvar(0)*fvar(1)), 0
 animtype          = Light
-getpower          = 80,80
+getpower = 30,15
 hitflag           = MAFD
 guardflag         = HA 
 priority          = 10
@@ -901,11 +901,11 @@ facing = -1
 [State 200, ヒット時ゲージ]
 type = PowerAdd
 trigger1 = MoveHit
-value = 20
+value = 0
 [State 200, ガード時ゲージ]
 type = PowerAdd
 trigger1 = MoveGuarded
-value = 10
+value = 0
 
 [State 620, コントロール]
 type = CtrlSet
@@ -928,6 +928,7 @@ sprpriority = -3
 
 [State 800, 1]
 type = HitDef
+getpower = 60,30
 Trigger1 = animelem = 2
 attr = S, NT          ;三文字目をＴにするのを忘れないでください。
 hitflag = M-          ;マイナスが付加されてるので相手が食らい中の時は掴めない
@@ -966,6 +967,7 @@ sprpriority = -3
 
 [State 800, 1]
 type = HitDef
+getpower = 60,30
 Trigger1 = animelem = 2
 attr = S, NT          ;三文字目をＴにするのを忘れないでください。
 hitflag = M-          ;マイナスが付加されてるので相手が食らい中の時は掴めない
@@ -1000,7 +1002,7 @@ type    = S
 movetype= A
 physics = N
 anim = 810
-poweradd = 60
+poweradd = 0
 sprpriority = -3
 
 [State 810, 1]
@@ -1051,7 +1053,7 @@ type    = S
 movetype= A
 physics = N
 anim = 810
-poweradd = 60
+poweradd = 0
 sprpriority = -3
 
 [State 810, 1]

@@ -1,0 +1,20 @@
+<#f0f000>:Special Moves:</>
+Especial 1			^A_+^B_+^C
+JubakuHa			_QCB^A_+^B
+Especial 3			_QCB^Z
+Especial 4			_QCB^A
+Especial 5			_QCB^B
+Especial 6			_QCB^C
+Especial 7			_QCB^X
+Especial 8			_QCB^Y
+a2			_QCF^A
+Especial 10			_QCF^B
+Especial 11			_QCF^C
+death beam			_QCF^Y
+death beam			_QCF^X
+death beam			_QCF^Z
+
+<#f0f000>:Hyper Moves:</>
+Super 1 <#f00000>(1000)</>			_QCF^X_+^Y
+Super 2 <#f00000>(1000)</>			_QCB^X_+^Y
+Super 3 <#f00000>(1000)</>			_QCF^A_+^B

@@ -6,6 +6,7 @@ mugenversion=06,14,2003
 author="Cefas"
 pal.defaults=1,2,3,4,5
 [Files]
+movelist = movelist.dat
 sprite=Maka.sff
 sound=Maka.snd
 anim=Maka.air

@@ -18,7 +18,7 @@ trigger1 = Time = 0
 attr = S, NA
 animtype = Light
 damage    = 49
-getpower = 30
+getpower = 30,15
 givepower = 8
 guardflag = M
 hitflag = MAF
@@ -134,7 +134,7 @@ trigger1 = Time = 0
 attr = S, NA
 animtype  = Hard
 damage    = 70
-getpower = 75
+getpower = 30,15
 givepower = 19
 guardflag = HA
 pausetime = 12,12
@@ -244,7 +244,7 @@ trigger1 = Time = 0
 attr = S, NA
 animtype  = Hard
 damage    = 80
-getpower = 75
+getpower = 30,15
 givepower = 19
 guardflag = M
 pausetime = 12,12
@@ -390,7 +390,7 @@ trigger1 = Time = 0
 attr = S, NA
 animtype  = Hard
 damage    = 50
-getpower = 90
+getpower = 30,15
 givepower = 0
 guardflag = M
 pausetime = 12,12
@@ -530,7 +530,7 @@ trigger1 = Time = 0
 attr = S, NA
 animtype  = Hard
 damage    = 90
-getpower = 75
+getpower = 30,15
 givepower = 19
 guardflag = M
 pausetime = 12,12
@@ -672,7 +672,7 @@ trigger1 = Time = 0
 attr = C, NA
 animtype  = Light
 damage    = 42
-getpower = 30
+getpower = 30,15
 givepower = 8
 hitflag = MAF
 guardflag = M
@@ -761,7 +761,7 @@ trigger1 = Time = 0
 attr = C, NA
 animtype  = Hard
 damage    = 91
-getpower = 75
+getpower = 30,15
 givepower = 19
 hitflag = MAF
 guardflag = M
@@ -895,7 +895,7 @@ trigger1 = Time = 0
 attr = S, NA
 animtype  = Hard
 damage    = 91
-getpower = 75
+getpower = 30,15
 givepower = 19
 guardflag = M
 pausetime = 12,12
@@ -981,7 +981,7 @@ trigger1 = Time = 0
 attr = C, NA
 animtype  = Hard
 damage    = 91
-getpower = 75
+getpower = 30,15
 givepower = 19
 hitflag = MAF
 guardflag = M
@@ -1077,7 +1077,7 @@ trigger1 = Time = 0
 attr = A, NA
 animtype = Light
 damage    = 63
-getpower = 30
+getpower = 30,15
 givepower = 8
 guardflag = HA
 priority = 3
@@ -1153,7 +1153,7 @@ trigger1 = Time = 0
 attr = A, NA
 animtype = Hard
 damage    = 105
-getpower = 75
+getpower = 30,15
 givepower = 19
 guardflag = HA
 priority = 3
@@ -1232,7 +1232,7 @@ trigger1 = Time = 0
 attr = A, NA
 animtype = Hard
 damage    = 40
-getpower = 75
+getpower = 15,7
 givepower = 19
 guardflag = HA
 priority = 3
@@ -1260,7 +1260,7 @@ trigger1 = animelem = 8
 attr = A, NA
 animtype = Hard
 damage    = 65
-getpower = 75
+getpower = 15,7
 givepower = 19
 guardflag = HA
 priority = 3
@@ -1378,7 +1378,7 @@ trigger1 = AnimElem = 7
 attr = S, NA
 animtype  = Hard
 damage    = 70
-getpower = 100
+getpower = 30,15
 givepower = 19
 guardflag = HA
 pausetime = 12,12
@@ -1508,7 +1508,7 @@ trigger1 = P2MoveType != H
 trigger1 = P2StateNo != [150,155]
 attr = S, NT
 priority = 3,Miss
-getpower = 0
+getpower = 60,30
 givepower = 0
 hitflag = M-
 numhits = 0
@@ -1725,7 +1725,7 @@ trigger1 = P2MoveType != H
 trigger1 = P2StateNo != [150,155]
 attr = S, NT
 priority = 3,Miss
-getpower = 0
+getpower = 60,30
 givepower = 0
 hitflag = M-
 numhits = 0
@@ -1940,7 +1940,7 @@ trigger1 = P2MoveType != H
 trigger1 = P2StateNo != [150,155]
 attr = A, NT
 priority = 3,Miss
-getpower = 0
+getpower = 60,30
 givepower = 0
 hitflag = A-
 numhits = 0
@@ -2180,7 +2180,7 @@ trigger1 = Time = 0
 attr = S, NA
 animtype  = Hard
 damage    = 50
-getpower = 90
+getpower = 15,7
 givepower = 0
 guardflag = A
 pausetime = 12,12
@@ -2283,7 +2283,7 @@ trigger1 = time=0
 attr = S, NA
 animtype  = Hard
 damage    = 70
-getpower = 100
+getpower = 15,7
 givepower = 19
 guardflag = A
 pausetime = 12,12
@@ -2419,7 +2419,7 @@ trigger1 = Time = 0
 attr = S, NA
 animtype  = UP
 damage    = 90
-getpower = 75
+getpower = 30,15
 givepower = 19
 guardflag = M
 pausetime = 12,12
@@ -2574,7 +2574,7 @@ trigger1 = animelem = 7
 attr = A, NA
 animtype = Hard
 damage    = 65
-getpower = 75
+getpower = 10,5
 givepower = 19
 guardflag = HA
 priority = 3
@@ -2597,7 +2597,7 @@ trigger1 = animelem = 8
 attr = A, NA
 animtype = Hard
 damage    = 65
-getpower = 75
+getpower = 10,5
 givepower = 19
 guardflag = HA
 priority = 3
@@ -2620,7 +2620,7 @@ trigger1 = animelem = 9
 attr = A, NA
 animtype = Hard
 damage    = 65
-getpower = 75
+getpower = 10,5
 givepower = 19
 guardflag = HA
 priority = 3

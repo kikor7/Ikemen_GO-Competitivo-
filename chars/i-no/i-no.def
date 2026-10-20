@@ -9,6 +9,7 @@ pal.defaults = 6,3,4,2      ;Default palettes in order of preference
 
 ; Files for the player
 [Files]
+movelist = movelist.dat
 cmd	= i-no.cmd   ;Command set
 cns     = cns/i-no.cns   ;Constants
 st      = cns/-2.cns

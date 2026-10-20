@@ -7,6 +7,7 @@ pal.defaults =1,2,3,4
 
 ; Files for the player
 [Files]
+movelist = movelist.dat
 cmd     =Beelzebub.cmd
 Cns      =Beelzebub.cns
 St       =Beelzebub.cns

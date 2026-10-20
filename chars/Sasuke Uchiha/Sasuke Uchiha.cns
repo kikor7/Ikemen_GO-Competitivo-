@@ -443,7 +443,7 @@ juggle  = 1
 velset = 0,0
 ctrl = 0
 anim = 200
-poweradd = 50
+poweradd = 0
 sprpriority = 2
 
 [State 0, PlaySnd]
@@ -495,6 +495,7 @@ trigger1 = 1
 attr = S, NA
 animtype  = Light
 damage    = 15
+getpower = 5,2
 guardflag = MA
 pausetime = 0,15
 sparkno = -1
@@ -568,7 +569,7 @@ juggle  = 1
 velset = 0,0
 ctrl = 0
 anim = 205
-poweradd = 50
+poweradd = 0
 sprpriority = 2
 
 [State 0, VelSet]
@@ -605,6 +606,7 @@ trigger1 = 1
 attr = S, NA
 animtype  = Light
 damage    = 15
+getpower = 5,2
 guardflag = MA
 pausetime = 0,12
 sparkno = -1
@@ -688,7 +690,7 @@ juggle  = 1
 velset = 0,0
 ctrl = 0
 anim = 210
-poweradd = 50
+poweradd = 0
 sprpriority = 2
 
 [State 0, PlaySnd]
@@ -742,6 +744,7 @@ trigger1 = 1
 attr = S, NA
 animtype  = Light
 damage    = 15
+getpower = 5,2
 guardflag = MA
 pausetime = 2,15
 sparkno = -1
@@ -846,7 +849,7 @@ juggle  = 1
 velset = 0,0
 ctrl = 0
 anim = 215
-poweradd = 50
+poweradd = 0
 sprpriority = 2
 
 [State 0, Explod]
@@ -889,6 +892,7 @@ trigger1 = 1
 attr = S, NA
 animtype  = Light
 damage    = 15
+getpower = 5,2
 guardflag = MA
 pausetime = 2,15
 sparkno = -1
@@ -993,7 +997,7 @@ juggle  = 1
 velset = 0,0
 ctrl = 0
 anim = 220
-poweradd = 50
+poweradd = 0
 sprpriority = 2
 
 [State 0, VelSet]
@@ -1029,6 +1033,7 @@ trigger1 = 1
 attr = S, NA
 animtype  = Light
 damage    = 15
+getpower = 5,2
 guardflag = MA
 pausetime = 5,15
 sparkno = -1
@@ -1244,7 +1249,7 @@ ground.velocity = ifelse(time > 25,-3,-.7),ifelse(time > 25,-3,-.5)
 air.velocity = ifelse(time > 25,-3,-1),ifelse(time > 25,-3,-.5)
 Fall = ifelse(time >= 25,1,0)
 Fall.recover = 20
-getpower = 0,0
+getpower = 5,2
 palfx.time = ifelse(time >= 25,20,2)
 palfx.add = 0,50,240
 palfx.mul = 120,250,256
@@ -1458,7 +1463,7 @@ juggle  = 1
 velset = 0,0
 ctrl = 0
 anim = 300
-poweradd = 30
+poweradd = 0
 sprpriority = 1
 
 [State 0, PlaySnd]
@@ -1575,6 +1580,7 @@ trigger1 = 1
 attr = S, NA
 animtype  = Medium
 damage    = 10
+getpower = 4,2
 guardflag = MA
 pausetime = 0,20
 sparkno = -1
@@ -1757,6 +1763,7 @@ trigger1 = 1
 attr = S, NA
 animtype  = Medium
 damage    = 10
+getpower = 4,2
 guardflag = MA
 pausetime = 0,10
 sparkno = -1
@@ -1946,6 +1953,7 @@ trigger1 = 1
 attr = S, NA
 animtype  = Medium
 damage    = 10
+getpower = 4,2
 guardflag = MA
 pausetime = 0,20
 sparkno = -1
@@ -2067,6 +2075,7 @@ trigger1 = 1
 attr = S, NA
 animtype  = Medium
 damage    = 10
+getpower = 4,2
 guardflag = MA
 pausetime = 0,20
 sparkno = -1
@@ -2254,6 +2263,7 @@ trigger1 = 1
 attr = S, NA
 animtype  = Medium
 damage    = 10
+getpower = 4,2
 guardflag = MA
 pausetime = 0,30
 sparkno = -1
@@ -2501,6 +2511,7 @@ trigger1 =time%20=0
 attr = S, NP
 animtype  = Medium
 damage    = 20
+getpower = 4,2
 Hitflag = MAFDE
 guardflag = MA
 pausetime = 0,5
@@ -2533,6 +2544,7 @@ trigger1 =hitcount = 3
 attr = S, NP
 animtype  = Hard
 damage    = 10
+getpower = 4,2
 Hitflag = MAFDE
 guardflag = MA
 pausetime = 0,5
@@ -3458,7 +3470,7 @@ physics = A
 juggle  = 2
 ctrl = 0
 anim = 600
-poweradd = 30
+poweradd = 0
 sprpriority = 2
 
 [State 0, PlaySnd]
@@ -3499,6 +3511,7 @@ trigger1 = 1
 attr = A, NA
 animtype  = Light
 damage    = 20
+getpower = 5,2
 guardflag = MA
 pausetime = 8,15
 sparkno = -1
@@ -3573,7 +3586,7 @@ physics = A
 juggle  = 2
 ctrl = 0
 anim = 605
-poweradd = 100
+poweradd = 0
 sprpriority = 2
 
 [State 0, PlaySnd]
@@ -3601,6 +3614,7 @@ trigger1 = 1
 attr = S, NA
 animtype  = Medium
 damage    = 10
+getpower = 5,2
 guardflag = MA
 pausetime = 10,10
 sparkno = -1
@@ -3656,7 +3670,7 @@ physics = A
 juggle  = 2
 ctrl = 0
 anim = 610
-poweradd = 100
+poweradd = 0
 sprpriority = 2
 
 [State 0, PlaySnd]
@@ -3678,6 +3692,7 @@ trigger1 = 1
 attr = S, NA
 animtype  = Medium
 damage    = 10
+getpower = 5,2
 guardflag = MA
 pausetime = 10,20
 sparkno = -1
@@ -3733,7 +3748,7 @@ physics = A
 juggle  = 2
 ctrl = 0
 anim = 620
-poweradd = 100
+poweradd = 0
 sprpriority = 2
 
 [State 0, VelSet]
@@ -3800,7 +3815,7 @@ ground.velocity = -4
 air.velocity = -4,-4
 Fall = 0
 envshake.time = 5
-getpower = 0,0
+getpower = 5,2
 PalFX.time = 35
 PalFX.add = 150,0,50
 PalFX.mul = 180,180,180
@@ -3830,7 +3845,7 @@ ground.hittime  = 15
 ground.velocity = -3
 air.velocity = -3,-3
 Fall = 0
-getpower = 0,0
+getpower = 5,2
 PalFX.time = 35
 PalFX.add = 150,0,50
 PalFX.mul = 180,180,180
@@ -3861,7 +3876,7 @@ ground.velocity = -2
 air.velocity = -2,-2
 Fall = 0
 envshake.time = 5
-getpower = 0,0
+getpower = 5,2
 PalFX.time = 35
 PalFX.add = 150,0,50
 PalFX.mul = 180,180,180

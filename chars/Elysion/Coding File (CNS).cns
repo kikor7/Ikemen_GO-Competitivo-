@@ -671,7 +671,7 @@ trigger10 = time = 112
 trigger11 = time = 115
 trigger12 = time = 118
 damage = 30
-getpower= 200,0
+getpower = 30,15
 attr = S, HP
 animtype  = Hard
 guardflag = MA

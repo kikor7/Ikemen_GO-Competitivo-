@@ -1,0 +1,15 @@
+<#f0f000>:Special Moves:</>
+QCF_x			_QCF^X
+QCF_y			_QCF^Y
+QCF_z			_QCF^Z
+QCF_y			_QCB^X
+QCF_y			_QCB^Y
+QCF_z			_QCB^Z
+QCF_a			_QCB^A
+QCF_b			_QCB^B
+QCF_b			_QCB^C
+Guard Push Stand			^X_+^Y
+
+<#f0f000>:Hyper Moves:</>
+QCF2_x <#f00000>(1000)</>			_QCF^X_+^Y
+QCF2_x <#f00000>(1000)</>			_QCF^A_+^B

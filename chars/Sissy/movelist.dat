@@ -1,0 +1,10 @@
+<#f0f000>:Special Moves:</>
+a			_QCF^B
+a			_QCB^B
+a			_DSF^Y
+a			_QCF^Y
+Taunt			^X_+^A
+
+<#f0f000>:Hyper Moves:</>
+Strong Kung Fu Palm <#f00000>(2000)</>			_QCB_DB_QCF^Y
+Strong Kung Fu Palm <#f00000>(1000)</>			_QCB_DB_QCF^X

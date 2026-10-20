@@ -6664,7 +6664,7 @@ physics =  S
 ctrl = 0
 velset = 0,0
 anim = 1101
-poweradd = 30*var(5)
+poweradd = 0*var(5)
 juggle = 15
 
 [State 200]
@@ -6971,7 +6971,7 @@ physics =  S
 ctrl = 0
 velset = 0,0
 anim = 1111
-poweradd = 30*var(5)
+poweradd = 0*var(5)
 juggle = 15
 
 [State 200]
@@ -7280,7 +7280,7 @@ physics =  S
 ctrl = 0
 velset = 0,0
 anim = 1121
-poweradd = 30*var(5)
+poweradd = 0*var(5)
 juggle = 15
 
 [State 200]
@@ -8179,7 +8179,7 @@ physics =  S
 ctrl = 0
 velset = 0,0
 anim = 1201
-poweradd = 20*var(5)
+poweradd = 0*var(5)
 juggle = 15
 
 [State 200]
@@ -8448,7 +8448,7 @@ physics =  S
 ctrl = 0
 velset = 0,0
 anim = 1211
-poweradd = 20*var(5)
+poweradd = 0*var(5)
 juggle = 15
 
 [State 200]
@@ -8722,7 +8722,7 @@ physics =  S
 ctrl = 0
 velset = 0,0
 anim = 1221
-poweradd = 20*var(5)
+poweradd = 0*var(5)
 juggle = 15
 
 [State 200]
@@ -9322,7 +9322,7 @@ movetype = A
 physics =  N
 ctrl = 0
 anim = 1301
-poweradd = 10*var(5)
+poweradd = 0*var(5)
 juggle = 15
 
 [State 200]
@@ -9482,7 +9482,7 @@ movetype = A
 physics =  N
 ctrl = 0
 anim = 1311
-poweradd = 10*var(5)
+poweradd = 0*var(5)
 juggle = 15
 
 [State 200]
@@ -9644,7 +9644,7 @@ movetype = A
 physics =  N
 ctrl = 0
 anim = 1321
-poweradd = 10*var(5)
+poweradd = 0*var(5)
 juggle = 15
 
 [State 200]

@@ -6,7 +6,7 @@ Physics  = N
 Anim     = 500
 Ctrl     = 0
 Facep2   = 1
-PowerAdd = 30
+PowerAdd = 20
 
 [State 500]
 Type=Gravity
@@ -80,7 +80,7 @@ Trigger1 = !Movehit
 Trigger1 = !Movecontact
 Attr              = A, NP
 Damage            = floor(root,fvar(39)*50),1
-GetPower          = 100,10
+getpower = 30,15
 GivePower = 0,50
 AnimType          = Hard
 HitFlag           = MA
@@ -178,7 +178,7 @@ Physics  = N
 Anim     = 560
 Ctrl     = 0
 Facep2   = 1
-PowerAdd = 30
+PowerAdd = 20
 
 [State 500]
 Type=Gravity
@@ -302,7 +302,7 @@ Trigger1 = time>=1
 attr = A, NP
 damage    = floor(root,fvar(39)*95),0
 animtype  = Hard
-getpower =  180,0
+getpower = 30,15
 givepower = 0,180
 hitflag = MAFP
 guardflag = MA
@@ -379,7 +379,7 @@ Physics  = N
 Anim     = 550
 Ctrl     = 0
 Facep2   = 1
-PowerAdd = 30
+PowerAdd = 20
 velset = 0,0
 
 [State 500]
@@ -460,7 +460,7 @@ Type = Projectile
 Trigger1 = gametime %3=0
 Attr              = A, NP
 Damage            = floor(root,fvar(39)*10),0
-GetPower          = 35,0
+getpower = 30,15
 AnimType          = Hard
 PauseTime         = 0,0
 Guard.PauseTime   = 0,4
@@ -512,6 +512,7 @@ value=511
 ; Acceleration
 [Statedef 530]
 Type     = S
+poweradd = 0
 MoveType = A
 Physics  = N
 Anim     = 530
@@ -527,7 +528,7 @@ value=0
 [State 530]
 Type=Poweradd
 Trigger1=1
-value=1
+value=0
 
 [State 500]
 Type=VarAdd
@@ -625,7 +626,7 @@ Trigger1 = parent,anim!=531
 Trigger1 = anim!=12061
 Attr              = S, SA
 Damage            = ceil(root,fvar(39)*5),1
-GetPower          = 5,1
+getpower = 30,15
 AnimType          = Hard
 HitFlag           = MA
 GuardFlag         = MA
@@ -695,7 +696,7 @@ velset=0,0
 juggle  = 1
 ctrl=0
 anim=1020
-poweradd=80
+poweradd=0
 facep2=1
 
 [State 300,1]
@@ -737,7 +738,7 @@ animtype = Heavy                 ;Animation type: Light, Medium, Heavy, Back (de
 guardflag =                     ;Flags on how move is to be guarded against
 hitflag = MA                    ;Flags of conditions that move can hit
 priority = 7, Hit                ;Attack priority: 0 (least) to 7 (most), 4 default
-getpower = 120
+getpower = 60,30
 ;Hit/Miss/Dodge type (Def: Hit)
 sparkno = -1                      ;Spark anim no (Def: set above)
 guard.sparkno=-1
@@ -815,7 +816,7 @@ MoveType= I
 velset=0,0
 ctrl=0
 anim=550
-poweradd=80
+poweradd=20
 facep2=1
 
 [State 500]
@@ -976,7 +977,7 @@ Trigger1 = !MoveContact
 Trigger1 = !MoveReversed
 Attr              = C, NP
 Damage            = floor(18*root,fvar(39)*parent,fvar(39))
-GetPower          = 50,10
+getpower = 30,15
 AnimType          = Medium
 HitFlag           = MAF
 GuardFlag         = MA
@@ -1032,7 +1033,7 @@ Physics  = N
 Anim     = 560
 Ctrl     = 0
 Facep2   = 1
-PowerAdd = 30
+PowerAdd = 20
 
 [State 500]
 Type=Gravity
@@ -1095,7 +1096,7 @@ anim=1012+random %3
 Type=A
 Physics=N
 MoveType=A
-poweradd = 10
+poweradd = 0
 
 [State 1061]
 Type=VelSet
@@ -1117,7 +1118,7 @@ Type = HitDef
 Trigger1 = time=1
 Attr              = A, SP
 Damage            = floor(root,fvar(39)*10)
-GetPower          = 20,0
+getpower = 30,15
 givepower = 0,25
 AnimType          = Hard
 HitFlag           = MAF

@@ -7,7 +7,7 @@ physics = S
 anim = 1000
 ctrl = 0
 velset = 0,0
-poweradd = 150
+poweradd = 20
 sprpriority = 2
 
 [State 1000, snd]
@@ -65,7 +65,7 @@ physics = S
 anim = 1000
 ctrl = 0
 velset = 0,0
-poweradd = 150
+poweradd = 20
 sprpriority = 2
 
 [State 1001, snd]
@@ -123,7 +123,7 @@ physics = S
 anim = 1000
 ctrl = 0
 velset = 0,0
-poweradd = 150
+poweradd = 20
 sprpriority = 2
 
 [State 1002, snd]
@@ -529,7 +529,7 @@ physics = S
 anim = 1200
 ctrl = 0
 velset = 0,0
-poweradd = 150
+poweradd = 20
 sprpriority = 2
 
 [State 1300, snd]
@@ -574,7 +574,7 @@ physics = S
 anim = 1200
 ctrl = 0
 velset = 0,0
-poweradd = 150
+poweradd = 20
 sprpriority = 2
 
 [State 1301, snd]
@@ -619,7 +619,7 @@ physics = S
 anim = 1200
 ctrl = 0
 velset = 0,0
-poweradd = 150
+poweradd = 20
 sprpriority = 2
 
 [State 1302, snd]
@@ -742,7 +742,7 @@ physics = N
 anim = 1500
 ctrl = 0
 velset = 0,0
-poweradd = 150
+poweradd = 0
 sprpriority = 2
 
 [State 1500, voice]
@@ -869,7 +869,7 @@ physics = N
 anim = 1500
 ctrl = 0
 velset = 0,0
-poweradd = 150
+poweradd = 0
 sprpriority = 2
 
 [State 1501, voice]
@@ -996,7 +996,7 @@ physics = N
 anim = 1500
 ctrl = 0
 velset = 0,0
-poweradd = 150
+poweradd = 0
 sprpriority = 2
 
 [State 1502, voice]
@@ -1244,7 +1244,7 @@ physics = S
 anim = 1600
 ctrl = 0
 velset = 50,0
-poweradd = 150
+poweradd = 0
 sprpriority = 1
 
 [State 1602, voice]

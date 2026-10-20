@@ -6,6 +6,7 @@ VersionDate  = 08,04,2014
 Pal.Defaults = 3,2,1
 
 [Files]
+movelist = movelist.dat
 Cmd      = sys/Azure.cmd
 Cns      = cns/Constants.cns
 St       = cns/Azure.cns

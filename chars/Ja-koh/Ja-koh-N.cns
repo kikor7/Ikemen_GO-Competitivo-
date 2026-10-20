@@ -96,7 +96,7 @@ type = HitDef
 trigger1 = AnimElem = 4
 attr = S, NA
 damage = ifelse(var(3),14,28),0
-getpower  = ifelse(var(11),0,125),ifelse(var(11),0,42)
+getpower = 15,7
 givepower = 63,42
 animtype = Light
 air.animtype = Hard
@@ -124,7 +124,7 @@ type = HitDef
 trigger1 = AnimElem = 5
 attr = S, NA
 damage = ifelse(var(3),14,28),0
-getpower  = ifelse(var(11),0,125),ifelse(var(11),0,42)
+getpower = 15,7
 givepower = 63,42
 animtype = Light
 air.animtype = Hard
@@ -301,7 +301,7 @@ trigger1 = Time = 0
 attr = S, NA
 animtype  = Hard
 damage    = ifelse(var(3),61,122)
-getpower  = ifelse(var(11),0,125),ifelse(var(11),0,42)
+getpower = 30,15
 givepower = 63,42
 guardflag = MA
 pausetime = 8,12
@@ -407,7 +407,7 @@ hitflag = MAF
 animtype  = Light
 air.animtype = Hard
 damage    = ifelse(var(3),18,36)
-getpower  = ifelse(var(11),0,125),ifelse(var(11),0,42)
+getpower = 30,15
 givepower = 63,42
 guardflag = MA
 pausetime = 8,12
@@ -502,7 +502,7 @@ trigger1 = Time = 0
 attr = S, NA
 animtype  = Hard
 damage    = ifelse(var(3),43,86)
-getpower  = ifelse(var(11),0,125),ifelse(var(11),0,42)
+getpower = 30,15
 givepower = 63,42
 guardflag = MA
 pausetime = 4,12
@@ -670,7 +670,7 @@ trigger1 = Time = 0
 attr = S, NA
 animtype  = Hard
 damage    = ifelse(var(3),61,122)
-getpower  = ifelse(var(11),0,125),ifelse(var(11),0,42)
+getpower = 30,15
 givepower = 63,42
 guardflag = MA
 pausetime = 14,10
@@ -735,7 +735,7 @@ trigger1 = Time = 0
 attr = S, NA
 animtype  = Hard
 damage    = ifelse(var(3),61,122)
-getpower  = ifelse(var(11),0,125),ifelse(var(11),0,42)
+getpower = 30,15
 givepower = 63,42
 guardflag = MA
 pausetime = 14,10
@@ -795,7 +795,7 @@ trigger1 = Time = 0
 attr = S, NA
 animtype  = Hard
 damage    = 72
-getpower  = ifelse(var(11),0,125),ifelse(var(11),0,42)
+getpower = 60,30
 givepower = 63,42
 guardflag = MA
 pausetime = 14,10
@@ -856,7 +856,7 @@ trigger1 = Time = 0
 attr = S, NA
 animtype  = Hard
 damage    = ifelse(var(3),61,122)
-getpower  = ifelse(var(11),0,125),ifelse(var(11),0,42)
+getpower = 60,30
 givepower = 63,42
 guardflag = HA
 pausetime = 15,12
@@ -914,7 +914,7 @@ type = HitDef
 trigger1 = Time = 0
 attr = C, NA
 damage    = ifelse(var(3),43,86)
-getpower  = ifelse(var(11),0,125),ifelse(var(11),0,42)
+getpower = 30,15
 givepower = 63,42
 priority  = 3
 animtype  = Light
@@ -973,7 +973,7 @@ type = HitDef
 trigger1 = Time = 0
 attr = C, NA
 damage    = ifelse(var(3),61,122)
-getpower  = ifelse(var(11),0,125),ifelse(var(11),0,42)
+getpower = 30,15
 givepower = 63,42
 animtype  = Hard
 hitflag = MFD
@@ -1034,7 +1034,7 @@ type = HitDef
 trigger1 = Time = 0
 attr = C, NA
 damage    = ifelse(var(3),18,36)
-getpower  = ifelse(var(11),0,125),ifelse(var(11),0,42)
+getpower = 30,15
 givepower = 63,42
 animtype  = Light
 hitflag = MFD
@@ -1091,7 +1091,7 @@ type = HitDef
 trigger1 = Time = 0
 attr = C, NA
 damage    = ifelse(var(3),61,122)
-getpower  = ifelse(var(11),0,125),ifelse(var(11),0,42)
+getpower = 30,15
 givepower = 63,42
 hitflag = MFD
 guardflag = L
@@ -1159,7 +1159,7 @@ type = HitDef
 trigger1 = Time = 0
 attr = A, NA
 damage    = ifelse(var(3),18,36)
-getpower  = ifelse(var(11),0,125),ifelse(var(11),0,42)
+getpower = 30,15
 givepower = 63,42
 hitflag = MAFD
 guardflag = HA
@@ -1225,7 +1225,7 @@ type = HitDef
 trigger1 = Time = 0
 attr = A, NA
 damage = ifelse(var(3),61,122)
-getpower  = ifelse(var(11),0,125),ifelse(var(11),0,42)
+getpower = 30,15
 givepower = 63,42
 guardflag = HA
 priority = 4
@@ -1288,7 +1288,7 @@ type = HitDef
 trigger1 = Time = 0
 attr = A, NA
 damage = ifelse(var(3),18,36)
-getpower  = ifelse(var(11),0,125),ifelse(var(11),0,42)
+getpower = 30,15
 givepower = 63,42
 guardflag = HA
 priority = 4
@@ -1346,7 +1346,7 @@ type = HitDef
 trigger1 = Time = 0
 attr = A, NA
 damage    = ifelse(var(3),43,86)
-getpower  = ifelse(var(11),0,125),ifelse(var(11),0,42)
+getpower = 30,15
 givepower = 63,42
 guardflag = HA
 priority = 4
@@ -1389,6 +1389,7 @@ sprpriority = 2
 
 [State 800, ヒット定義（投げ用）]
 type = HitDef
+getpower = 60,30
 trigger1 = Time = 0
 attr = S, NT
 hitflag = M-

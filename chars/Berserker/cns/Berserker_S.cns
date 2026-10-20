@@ -15,7 +15,7 @@ physics = S
 velset = 0,0
 ctrl = 0
 anim = 1000
-poweradd = 50
+poweradd = 0
 sprpriority = 2
 
 [State 170, –³“G]
@@ -47,6 +47,7 @@ trigger1 = var(10) < var(12)
 trigger1 = AnimElem = 8
 attr = S, HA
 damage = 100, 10
+getpower = 15,7
 animtype = hard
 guardflag = M
 hitflag = MAFD
@@ -170,6 +171,7 @@ type = HitDef
 trigger1 = 1
 attr = S, SA
 damage = 0, 0
+getpower = 15,7
 animtype = hard
 hitflag = MAF
 priority = 3, Hit
@@ -292,7 +294,7 @@ physics = S
 velset = 0,0
 ctrl = 0
 anim = 800
-poweradd = 50
+poweradd = 0
 sprpriority = 2
 
 [State 200, •¨—“I‚ÈƒLƒƒƒ‰‚Ì•]
@@ -311,6 +313,7 @@ trigger1 = var(10) < var(12)
 trigger1 = Time = 0
 attr = S, HT
 damage = 0, 0
+getpower = 60,30
 animtype = light
 hitflag = MAFD
 priority = 1, Miss
@@ -592,7 +595,7 @@ movetype= A
 physics = S
 velset = 0,0
 ctrl = 0
-poweradd = 200
+poweradd = 0
 sprpriority = 2
 
 

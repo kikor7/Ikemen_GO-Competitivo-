@@ -2117,7 +2117,7 @@ Guard.Kill = 0
 Fall = 1
 Air.Fall = 1
 Fall.Recover = 0
-GetPower = Ceil(FVar(30)*50), Ceil(IfElse(Var(43)>0,0.88,0.85)*FVar(30)*50)
+getpower = 60,30
 GivePower = Floor(FVar(31)*50), Floor(0.50*FVar(31)*50)
 
 [State -1]
@@ -3064,7 +3064,7 @@ Guard.Kill = 0
 Fall = 1
 Air.Fall = 1
 Fall.Recover = 0
-GetPower = Ceil(FVar(30)*150), Ceil(IfElse(Var(43)>0,0.88,0.85)*FVar(30)*150)
+getpower = 60,30
 GivePower = Floor(FVar(31)*150), Floor(0.50*FVar(31)*150)
 
 [State -1]
@@ -3803,7 +3803,7 @@ Guard.Kill = 0
 Fall = 1
 Air.Fall = 1
 Fall.Recover = 0
-GetPower = Ceil(FVar(30)*50), Ceil(IfElse(Var(43)>0,0.88,0.85)*FVar(30)*50)
+getpower = 60,30
 GivePower = Floor(FVar(31)*50), Floor(0.50*FVar(31)*50)
 
 [State -1]
@@ -4588,7 +4588,7 @@ P2Facing = 1
 Kill = 1
 Guard.Kill = 0
 Fall.Recover = IfElse(P2MoveType = A,0,1)
-GetPower = Ceil(FVar(30)*100), Ceil(IfElse(Var(43)>0,0.88,0.85)*FVar(30)*100)
+getpower = 20,10
 GivePower = Floor(FVar(31)*100), Floor(0.50*FVar(31)*100)
 
 [State -1]
@@ -4635,7 +4635,7 @@ Fall = 1
 Air.Fall = 1
 Fall.Recover = IfElse(P2MoveType = A,0,1)
 Fall.RecoverTime = Ceil(30+Var(41)-FVar(35))
-GetPower = 0
+getpower = 20,10
 GivePower = Floor(FVar(31)*37), Floor(0.50*FVar(31)*37)
 
 [State -1]
@@ -4680,7 +4680,7 @@ Guard.Kill = 0
 Fall = 1
 Air.Fall = 1
 Fall.Recover = 0
-GetPower = Ceil(FVar(30)*100), Ceil(IfElse(Var(43)>0,0.88,0.85)*FVar(30)*100)
+getpower = 20,10
 GivePower = Floor(FVar(31)*100), Floor(0.50*FVar(31)*100)
 
 [State -1]
@@ -4846,7 +4846,7 @@ P2Facing = 1
 Kill = 1
 Guard.Kill = 0
 Fall.Recover = IfElse(P2MoveType = A,0,1)
-GetPower = Ceil(FVar(30)*100), Ceil(IfElse(Var(43)>0,0.88,0.85)*FVar(30)*100)
+getpower = 20,10
 GivePower = Floor(FVar(31)*100), Floor(0.50*FVar(31)*100)
 
 [State -1]
@@ -4893,7 +4893,7 @@ Fall = 1
 Air.Fall = 1
 Fall.Recover = IfElse(P2MoveType = A,0,1)
 Fall.RecoverTime = Ceil(30+Var(41)-FVar(35))
-GetPower = 0
+getpower = 20,10
 GivePower = Floor(FVar(31)*37), Floor(0.50*FVar(31)*37)
 
 [State -1]
@@ -4938,7 +4938,7 @@ Guard.Kill = 0
 Fall = 1
 Air.Fall = 1
 Fall.Recover = 0
-GetPower = Ceil(FVar(30)*100), Ceil(IfElse(Var(43)>0,0.88,0.85)*FVar(30)*100)
+getpower = 20,10
 GivePower = Floor(FVar(31)*100), Floor(0.50*FVar(31)*100)
 
 [State -1]
@@ -5115,7 +5115,7 @@ Guard.Kill = 0
 Fall = 1
 Air.Fall = 1
 Fall.Recover = 0
-GetPower = 0, 0
+getpower = 20,10
 GivePower = Floor(FVar(31)*37), Floor(0.50*FVar(31)*37)
 
 [State -1]
@@ -5816,7 +5816,7 @@ Guard.Kill = 0
 Fall = 1
 Air.Fall = 1
 Fall.Recover = IfElse(P2MoveType = A,0,1)
-GetPower = 0
+getpower = 60,30
 GivePower = Floor(FVar(31)*37), Floor(0.50*FVar(31)*37)
 P2StateNo = 5600
 ID = 5600
@@ -5857,7 +5857,7 @@ Fall = 1
 Air.Fall = 1
 Fall.Recover = IfElse(P2MoveType = A,0,1)
 Fall.RecoverTime = Ceil(22+Var(41)-FVar(35))
-GetPower = 0
+getpower = 60,30
 GivePower = Floor(FVar(31)*37), Floor(0.50*FVar(31)*37)
 ID = 960
 
@@ -6112,7 +6112,7 @@ Guard.Kill = 0
 Fall = 1
 Air.Fall = 1
 Fall.Recover = IfElse(P2MoveType = A,0,1)
-GetPower = 0
+getpower = 60,30
 GivePower = Floor(FVar(31)*37), Floor(0.50*FVar(31)*37)
 P2StateNo = 5600
 ID = 5600
@@ -6153,7 +6153,7 @@ Fall = 1
 Air.Fall = 1
 Fall.Recover = IfElse(P2MoveType = A,0,1)
 Fall.RecoverTime = Ceil(22+Var(41)-FVar(35))
-GetPower = 0
+getpower = 60,30
 GivePower = Floor(FVar(31)*37), Floor(0.50*FVar(31)*37)
 ID = 970
 
@@ -6171,6 +6171,7 @@ Value = 0
 ; Cé∏óÁÇµÇ‹Ç∑EX
 [Statedef 2000]
 Type    = S
+poweradd = 20
 MoveType= A
 Physics = S
 Juggle  = 0
@@ -6289,6 +6290,7 @@ Ctrl = 1
 ; Eé∏óÁÇµÇ‹Ç∑EX
 [Statedef 2010]
 Type    = S
+poweradd = 20
 MoveType= A
 Physics = S
 Juggle  = 0
@@ -6716,7 +6718,7 @@ Guard.Kill = 0
 Fall = 0
 Air.Fall = 1
 Fall.Recover = 0
-GetPower = 0, 0
+getpower = 30,15
 GivePower = Floor(FVar(31)*37), Floor(0.50*FVar(31)*37)
 
 [State -1]
@@ -6760,7 +6762,7 @@ Guard.Kill = 0
 Fall = 1
 Air.Fall = 1
 Fall.Recover = 0
-GetPower = 0, 0
+getpower = 30,15
 GivePower = Floor(FVar(31)*37), Floor(0.50*FVar(31)*37)
 
 [State -1]
@@ -7070,7 +7072,7 @@ Fall = 1
 Air.Fall = 1
 Fall.Recover = IfElse(P2MoveType = A,0,1)
 Fall.RecoverTime = Ceil(IfElse(Var(50)=1,23+Var(41),23))
-GetPower = 0, 0
+getpower = 60,30
 GivePower = Floor(FVar(31)*37), Floor(0.50*FVar(31)*37)
 Persistent = 3
 
@@ -7301,6 +7303,7 @@ Ctrl = 1
 ; í¥Ç™ÇÒÇŒÇËÇ‹ÇµÇΩ
 [Statedef 2400]
 Type    = S
+poweradd = 20
 MoveType= A
 Physics = S
 Juggle  = 0
@@ -7641,7 +7644,7 @@ Guard.Kill = 0
 Fall = 1
 Air.Fall = 1
 Fall.Recover = IfElse(P2MoveType = A,0,1)
-GetPower = 0, 0
+getpower = 60,30
 GivePower = Floor(FVar(31)*37), Floor(0.50*FVar(31)*37)
 
 [State -1]
@@ -7686,7 +7689,7 @@ Fall = 0
 Air.Fall = 1
 Fall.Recover = IfElse(P2MoveType = A,0,1)
 Fall.RecoverTime = Ceil(30+Var(41)-FVar(35))
-GetPower = 0, 0
+getpower = 60,30
 GivePower = Floor(FVar(31)*37), Floor(0.50*FVar(31)*37)
 
 [State -1]
@@ -8029,7 +8032,7 @@ Guard.Kill = 0
 Fall = 1
 Air.Fall = 1
 Fall.Recover = 0
-GetPower = 0, 0
+getpower = 20,10
 GivePower = Floor(FVar(31)*37), Floor(0.50*FVar(31)*37)
 
 [State -1]
@@ -8261,7 +8264,7 @@ Guard.Kill = 0
 Fall = 1
 Air.Fall = 1
 Fall.Recover = 0
-GetPower = 0, 0
+getpower = 20,10
 GivePower = Floor(FVar(31)*37), Floor(0.50*FVar(31)*37)
 
 [State -1]
@@ -8487,7 +8490,7 @@ Guard.Kill = 0
 Fall = 1
 Air.Fall = 1
 Fall.Recover = 0
-GetPower = 0, 0
+getpower = 20,10
 GivePower = Floor(FVar(31)*37), Floor(0.50*FVar(31)*37)
 
 [State -1]
@@ -8520,6 +8523,7 @@ Ctrl = 1
 ; à√çï„≈êâåù
 [Statedef 3000]
 Type    = S
+poweradd = 0
 MoveType= A
 Physics = S
 Juggle  = 0
@@ -9010,6 +9014,7 @@ Ctrl = 1
 ; ëÂà√çï„≈êâåù
 [Statedef 3050]
 Type    = S
+poweradd = 0
 MoveType= A
 Physics = S
 Juggle  = 0
@@ -9560,7 +9565,7 @@ Guard.Kill = 0
 Fall = 1
 Air.Fall = 1
 Fall.Recover = 0
-GetPower = 0, 0
+getpower = 60,30
 GivePower = Floor(FVar(31)*37), Floor(0.50*FVar(31)*37)
 
 [State -1]

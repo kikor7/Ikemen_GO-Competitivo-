@@ -249,7 +249,7 @@ down.bounce = 0
 fall = var(12)
 air.fall = 1
 fall.recovertime = 40
-getpower = ifelse(!numhelper(3045),30,0)
+getpower = 30,15
 givepower = 18
 id = 1000
 yaccel = parent,fvar(12)
@@ -284,7 +284,7 @@ down.bounce = 0
 fall = var(12)
 air.fall = 1
 fall.recovertime = 40
-getpower = 0
+getpower = 30,15
 givepower = 18
 id = 1000
 yaccel = parent,fvar(12)
@@ -1296,7 +1296,7 @@ down.hittime = 10
 down.bounce = 0
 yaccel = parent,fvar(12)
 air.fall = 1
-getpower = 30
+getpower = 60,30
 givepower = 18
 [State 1027, I'm hit]
 type = HitDef
@@ -1325,7 +1325,7 @@ down.hittime = 10
 down.bounce = 0
 yaccel = parent,fvar(12)
 air.fall = 1
-getpower = 0
+getpower = 60,30
 givepower = 18
 
 [State 1027, fire]
@@ -1773,7 +1773,7 @@ ground.hittime = 15
 ground.velocity = -7,0
 ground.cornerpush.veloff = 0
 air.velocity = -2.5,-3.5
-getpower = ifelse(!numhelper(3045),80,0)
+getpower = 60,30
 givepower = 40
 fall.recover = 0
 air.fall = 1
@@ -1802,7 +1802,7 @@ ground.hittime = 20
 ground.velocity = -0.5,-12
 ground.cornerpush.veloff = 0
 air.velocity = -0.5,-12
-getpower = ifelse(!numhelper(3045),80,0)
+getpower = 60,30
 yaccel = parent,fvar(12) + 0.09
 givepower = 40
 fall = 1
@@ -1833,7 +1833,7 @@ ground.hittime = 15
 ground.velocity = -7,0
 ground.cornerpush.veloff = 0
 air.velocity = -2.5,-3.5
-getpower = 0
+getpower = 60,30
 givepower = 40
 fall.recover = 0
 air.fall = 1
@@ -1862,7 +1862,7 @@ ground.hittime = 20
 ground.velocity = -0.5,-12
 ground.cornerpush.veloff = 0
 air.velocity = -0.5,-12
-getpower = 0
+getpower = 60,30
 yaccel = parent,fvar(12) + 0.09
 givepower = 40
 fall = 1
@@ -2713,7 +2713,7 @@ ground.hittime = 22
 ground.velocity = -8
 air.velocity = -7.5,-5
 guard.velocity = -10
-getpower = ifelse(!numhelper(3045),70,0)
+getpower = 60,30
 givepower = 4
 air.fall = 1
 fall.recovertime = 40
@@ -2745,7 +2745,7 @@ ground.hittime = 22
 ground.velocity = -8
 air.velocity = -7.5,-5
 guard.velocity = -10
-getpower = ifelse(!numhelper(3045),70,0)
+getpower = 60,30
 givepower = 4
 air.fall = 1
 fall.recovertime = 40
@@ -3030,7 +3030,7 @@ ground.hittime = 20
 ground.velocity = ifelse(anim=1141,-15,-7.5), -5.5
 air.velocity = ifelse(anim=1141,-15,-7.5),-5
 guard.velocity = -10
-getpower = ifelse(!numhelper(3045),90,0)
+getpower = 60,30
 givepower = 4
 fall = 1
 fall.recover = ifelse(anim=1141,0,1)
@@ -3063,7 +3063,7 @@ ground.hittime = 20
 ground.velocity = ifelse(anim=1141,-15,-7.5), -5.5
 air.velocity = ifelse(anim=1141,-15,-7.5),-5
 guard.velocity = -10
-getpower = ifelse(!numhelper(3045),90,0)
+getpower = 60,30
 givepower = 4
 fall = 1
 p2facing = 1
@@ -3444,6 +3444,7 @@ x = -2
 
 [State 800, 1]
 type = HitDef
+getpower = 60,30
 Trigger1 = Time = 0
 attr = S, NT
 hitflag = AF
@@ -3880,7 +3881,7 @@ guard.velocity = -11
 ground.cornerpush.veloff = -11
 fall = 1
 bounce = 1
-getpower = ifelse(prevstateno!=3000&&!numhelper(3045),35,0)
+getpower = 60,30
 givepower = 7
 id = 320
 nochainid = 320, 1240
@@ -4004,7 +4005,7 @@ ground.velocity = -7.5, -6
 ;ground.cornerpush.veloff = -3
 air.velocity = -7.5, -5
 guard.velocity = -10
-getpower = ifelse(prevstateno!=3000&&!numhelper(3045),95,0)
+getpower = 60,30
 givepower = 18
 ;p2stateno = 1150
 p2facing = 1

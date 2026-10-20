@@ -1,0 +1,11 @@
+<#f0f000>:Special Moves:</>
+Trafo1.5			^B_+^Y
+upper			_QCF^X
+upper			_QCB^X
+upper			_QCB^A
+
+<#f0f000>:Hyper Moves:</>
+Trafo1 <#f00000>(1000)</>			_QCF_QCF^X
+Trafo1 <#f00000>(3000)</>			^B_+^Y
+Trafo1 <#f00000>(2000)</>			^B_+^Y
+Trafo1 <#f00000>(1000)</>			^B_+^Y

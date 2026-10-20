@@ -8,6 +8,7 @@ Author       = "knkn"
 Pal.Defaults = 1
 
 [Files]
+movelist = movelist.dat
 Cmd     = Crow_cmd.cns
 Cns     = cns/Crow_A.cns
 St      = cns/Crow_A.cns

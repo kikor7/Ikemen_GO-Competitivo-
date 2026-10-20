@@ -8,6 +8,7 @@ Pal.Defaults = 1            ;Default palettes in order of preference
 LocalCoord = 320;400
 
 [Files]
+movelist = movelist.dat
 Cmd      = Miyako_AACC.cmd           ;Command set
 Cns      = Miyako_AACC.cns           ;Constants
 St       = Miyako_AACC.cns           ;States

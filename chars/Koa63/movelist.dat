@@ -1,0 +1,29 @@
+<#f0f000>:Special Moves:</>
+Especial 1			_D_D_D_B^Z
+Especial 2			_B_F_D_D^A
+Especial 3			_D_D_D_U^Y
+Ender			_QCF^X
+Especial 5			_F_D_B^B
+Especial 6			_F_D_B^Y
+Especial 7			_DSF^A
+Especial 8			_DSF^B
+Especial 9			_DSF^C
+Especial 10			_QCB^Z
+Especial 11			_QCB^Y
+Especial 12			_QCB^X
+Especial 13			_QCB^C
+Especial 14			_QCB^B
+Especial 15			_QCB^A
+Especial 16			_B_F^A
+Especial 17			_B_F^B
+Especial 18			_B_F^C
+
+<#f0f000>:Hyper Moves:</>
+Super 1 <#f00000>(3000)</>			_QCF^S
+Eternal Slumber <#f00000>(2000)</>			_F_D_B_F^X
+Foe Heave <#f00000>(2000)</>			_QCF_QCF^A
+Better Off Dead <#f00000>(1000)</>			_F_B_D_F^A
+Lightning Lookout <#f00000>(1000)</>			_QCF_QCF^X
+Triple Aura <#f00000>(1000)</>			_QCB_QCB^X
+Basher <#f00000>(1000)</>			_QCB_QCB^A
+INSANE COMBO <#f00000>(1000)</>			_D_D^A

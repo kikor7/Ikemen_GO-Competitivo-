@@ -1448,7 +1448,7 @@ trigger2 = AnimElem = 5
 attr = S, NA
 animtype  = Hard
 damage    = 74
-getpower = 150,100
+getpower = 30,15
 guardflag = M
 hitflag = MAF
 pausetime = 12,12
@@ -1501,7 +1501,7 @@ trigger1 = AnimElem = 4 || AnimElem = 5 || AnimElem = 6 || AnimElem = 7
 attr = S, NA
 animtype  = Hard
 damage    = 37
-getpower = 50,45
+getpower = 30,15
 guardflag = M
 hitflag = MAF
 pausetime = 9,8
@@ -1556,7 +1556,7 @@ trigger2 = AnimElem = 5
 attr = S, NA
 animtype  = Hard
 damage    = 70
-getpower = 50,45
+getpower = 60,30
 guardflag = M
 hitflag = MAF
 pausetime = 9,8
@@ -1640,7 +1640,7 @@ trigger1 = AnimElem = 5 || AnimElem = 6
 attr = S, NA
 animtype  = Hard
 damage    = 31
-getpower = 50,45
+getpower = 30,15
 guardflag = M
 hitflag = MAF
 pausetime = 14,14
@@ -1759,7 +1759,7 @@ trigger1 = MoveContact!
 attr = S, NA
 animtype = Light
 damage    = 33
-getpower = 100,50
+getpower = 30,15
 guardflag = M
 hitflag = MAF
 pausetime = 9,9
@@ -1853,7 +1853,7 @@ trigger1 = MoveContact!
 attr = S, NA
 animtype = Hard
 damage    = 22
-getpower = 100,50
+getpower = 30,15
 guardflag = H
 hitflag = MAF
 pausetime = 16,16
@@ -1987,7 +1987,7 @@ trigger1 = MoveContact!
 attr = S, NA
 animtype  = Hard
 damage    = 54
-getpower = 175,125
+getpower = 30,15
 guardflag = M
 hitflag = MAF
 pausetime = 16,16
@@ -2094,7 +2094,7 @@ trigger1 = MoveContact!
 attr = C, NA
 animtype = Light
 damage    = 21
-getpower = 126,50
+getpower = 30,15
 guardflag = M
 hitflag = MAF
 pausetime = 6,6
@@ -2149,7 +2149,7 @@ trigger1 = MoveContact!
 attr = C, NA
 animtype  = Hard
 damage    = 64
-getpower = 100,50
+getpower = 30,15
 guardflag = M
 hitflag = MAF
 pausetime = 12,12
@@ -2196,7 +2196,7 @@ trigger1 = MoveContact!
 attr = C, NA
 animtype = Light
 damage    = 22
-getpower = 110,50
+getpower = 30,15
 hitflag = MAD
 guardflag = L
 pausetime = 8,8
@@ -2249,7 +2249,7 @@ trigger1 = AnimElem = 4
 trigger2 = AnimElem = 5
 attr = C, NA
 damage    = 84
-getpower = 175,120
+getpower = 30,15
 animtype = Hard
 hitflag = MAF
 guardflag = L
@@ -2299,7 +2299,7 @@ trigger1 = AnimElem = 3
 attr = A, NA
 animtype = Light
 damage    = 22
-getpower = 135,50
+getpower = 30,15
 hitflag = MAF
 guardflag = HA
 pausetime = 8,8
@@ -2345,7 +2345,7 @@ trigger1 = !MoveContact
 attr = A, NA
 animtype = Hard
 damage    = 84
-getpower = 170,100
+getpower = 30,15
 hitflag = MAF
 guardflag = HA
 pausetime = 12,12
@@ -2456,7 +2456,7 @@ trigger7 = AnimElem = 8
 attr = A, NA
 animtype = Light
 damage    = 25
-getpower = 125,75
+getpower = 30,15
 hitflag = MAF
 guardflag = HA
 pausetime = 9,10
@@ -2606,7 +2606,7 @@ trigger1 = AnimElem = 2 || AnimElem = 4
 attr = A, NA
 animtype  = Hard
 damage    = 62
-getpower = 125,100
+getpower = 30,15
 guardflag = HA
 hitflag = MAF
 pausetime = 12,12
@@ -2657,7 +2657,7 @@ type = HitDef
 trigger1 = AnimElem = 7
 attr = S, NA
 damage    = 97
-getpower = 175,125
+getpower = 60,30
 animtype = Hard
 hitflag = MAF
 guardflag = M
@@ -2799,7 +2799,7 @@ type = HitDef
 trigger1 = AnimElem = 4
 attr = C, NA
 damage    = 94
-getpower = 175,125
+getpower = 60,30
 animtype = UP
 hitflag = MAF
 guardflag = L
@@ -2865,7 +2865,7 @@ type = HitDef
 trigger1 = AnimElem = 3
 attr = S, NA
 damage    = 74
-getpower = 170,100
+getpower = 30,15
 animtype = Hard
 hitflag = MAF
 guardflag = M
@@ -2935,7 +2935,7 @@ trigger1 = AnimElem = 5
 trigger2 = AnimElem = 4
 attr = S, NA
 damage    = 87
-getpower = 170,100
+getpower = 30,15
 animtype = DiagUp
 hitflag = MAF
 guardflag = M
@@ -3072,7 +3072,7 @@ trigger1 = P2MoveType != H
 trigger1 = P2StateNo != [150,155]
 attr = S, NT
 priority = 3,Miss
-getpower = 0
+getpower = 30,15
 hitflag = M-
 numhits = 0
 sparkno = -1
@@ -3107,7 +3107,7 @@ trigger1 = P2MoveType != H
 trigger1 = P2StateNo != [150,155]
 attr = S, NT
 priority = 3,Miss
-getpower = 0
+getpower = 60,30
 hitflag = M-
 numhits = 0
 sparkno = -1
@@ -3402,7 +3402,7 @@ type = Hitdef
 trigger1 = Time = 0
 attr = A, NT
 priority = 3,Miss
-getpower = 0
+getpower = 30,15
 hitflag = AF
 numhits = 0
 sparkno = -1
@@ -4622,7 +4622,7 @@ type = HitDef
 trigger1 = AnimElem = 2
 attr = A, NA			;ok
 damage    = 63			;ok
-getpower  = 90,80		;
+getpower = 60,30;
 givepower = 0			;ok
 animtype  = Medium		;ok
 guardflag = H			;ok

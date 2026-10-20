@@ -10,6 +10,7 @@ Author       = "y"           ;このキャラの作成者の名前
 Pal.Defaults = 5,2,6,3          ;CPUで出てくるキャラカラー
 
 [Files]
+movelist = movelist.dat
 Cmd      = amakusa-neo.cmd    
 Cns      = amakusa-neo.cns         ;基本ステータス情報を含むファイルの登録
 St       = amakusa-neo.cns         ;動作プログラムファイルの登録 ※1

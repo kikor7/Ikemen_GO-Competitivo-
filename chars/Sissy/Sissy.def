@@ -9,6 +9,7 @@ pal.defaults = 1      ;敵としてでるキャラのパレット
 
 ; Files for the player
 [Files]
+movelist = movelist.dat
 cmd     = Sissy.cmd   ;キャラのコマンド
 cns     = Sissy.cns   ;キャラのプログラム
 st      = Sissy.cns   ;基本動作、必殺技、特殊ゲージ、-2、-3

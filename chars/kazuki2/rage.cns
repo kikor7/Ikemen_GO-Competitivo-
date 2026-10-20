@@ -17,7 +17,7 @@ anim = -1
 [State 7000, 2]
 type = PowerAdd
 trigger1 = AnimElem = 2
-value = 3000
+value = 0
 
 [State 7000, 3]
 type = PlaySnd

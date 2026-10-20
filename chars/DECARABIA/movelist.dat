@@ -1,21 +1,17 @@
 <#f0f000>:Special Moves:</>
-----------------------------------------------------------  		[~U~U~U]
-�@�v���X�^�[��                                              		^A_+^B
-�����X�L��                                                  		??^B/^A]
-�X�s���^�[���i��j                                           		_B_D_F^A
-�X�s���^�[���i���j                                          		_B_D_F^B
-�X�s���^�[���i���j                                          		_B_D_F^C
-�h���Z�n��-a                                                		_D_B^A
-�h���Z�n��-b                                                		_D_B^B
-�h���Z�n��-c                                                		_D_B^C
-����                                                        		^B_+^C
-���ݎ�                                                       		[~D/①]
-���ݒ�                                                       		[~D/②]
-���ݑ�                                                       		[~D/③]
-�W�����v��Q                                                 		[~D/③]
+Puresutaan			^A_+^B
+Kaiten			_DSF^A
+Kaiten			_DSF^B
+Kaiten			_DSF^C
+Supintaan			_B_D_F^A
+Supintaan			_B_D_F^B
+Supintaan			_B_D_F^C
+Hasei Waza Shidou -A			_D_B^A
+Hasei Waza Shidou -B			_D_B^B
+Hasei Waza Shidou -C			_D_B^C
+Nage			^B_+^C
 
 <#f0f000>:Hyper Moves:</>
-�@���M�h <#bebebe>(2000)</>                                 		_D_F_D_F^C_+^X
-�@�y�g���A�C <#bebebe>(1000)</>                             		_F_D_B^C_+^X
-�@���� <#bebebe>(1000)</>                                   		_DSF^C_+^X
-�@�e�g���J�[�� <#bebebe>(3000)</>                           		[~D③_+④]
+Megido <#f00000>(2000)</>			_D_F_D_F^C_+^X
+Petoraai <#f00000>(1000)</>			_F_D_B^C_+^X
+Ryuusei <#f00000>(1000)</>			_DSF^C_+^X

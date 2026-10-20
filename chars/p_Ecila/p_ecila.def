@@ -7,6 +7,7 @@ mugenversion = 1.1
 localcoord = 320,240
 
 [Files]
+movelist = movelist.dat
 Cmd      =ecila.cmd
 Cns      =ecila.cns
 St       =ecila.cns

@@ -159,6 +159,7 @@ fvar(11) = (Root, fvar(10)) * ifElse(var(9), 1.2, 1)
 
 [State 1005, Miss]
 type = HitDef
+getpower = 15,7
 trigger1 = 1
 attr = S,SP
 hitFlag =
@@ -173,7 +174,7 @@ hitFlag = MAF
 guardFlag = MA
 priority = 4, Hit
 damage = ceil(ifElse(fvar(11) * 21 < 7, 7, fvar(11) * 21)), 0
-getPower = ifElse(!(Root, var(13)), 144, 72) * !(Root, var(20)), 36 * !(Root, var(20))
+getpower = 15,7
 givePower = 36, 36
 pauseTime = 0, ifElse((Root, var(20)), 6, 12)
 guard.pauseTime = 0, ifElse((Root, var(20)), 6, 12)
@@ -419,6 +420,7 @@ fvar(11) = (Root, fvar(10)) * ifElse(var(9), 1.2, 1)
 
 [State 1005, Miss]
 type = HitDef
+getpower = 15,7
 trigger1 = 1
 attr = S,SP
 hitFlag =
@@ -433,7 +435,7 @@ hitFlag = MAF
 guardFlag = MA
 priority = 4, Hit
 damage = ceil(ifElse(fvar(11) * 21 < 7, 7, fvar(11) * 21)), 0
-getPower = ifElse(!(Root, var(13)), 144, 72) * !(Root, var(20)), 36 * !(Root, var(20))
+getpower = 15,7
 givePower = 36, 36
 pauseTime = 0, ifElse((Root, var(20)), 6, 12)
 guard.pauseTime = 0, ifElse((Root, var(20)), 6, 12)

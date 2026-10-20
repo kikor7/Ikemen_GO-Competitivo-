@@ -12,7 +12,7 @@ physics = S
 velset = 0,0
 ctrl = 0
 anim = 200
-poweradd = 15
+poweradd = 0
 sprpriority = 2
 facep2 = 1
 
@@ -38,7 +38,7 @@ air.type = High
 air.velocity = -1,-2.5
 airguard.velocity = -3,0
 air.hittime = 20
-getpower = 10,10
+getpower = 30,15
 givepower = 0,0
 
 [State 200, Damage Dampen]
@@ -73,7 +73,7 @@ physics = S
 velset = 0,0
 ctrl = 0
 anim = 210
-poweradd = 50
+poweradd = 0
 sprpriority = 2
 facep2 = 1
 
@@ -101,7 +101,7 @@ airguard.velocity = -5,0
 air.hittime = 25
 envshake.time = 10
 envshake.ampl = 3
-getpower = 30,30
+getpower = 30,15
 givepower = 0,0
 
 [State 210, Damage Dampen]
@@ -143,7 +143,7 @@ physics = S
 velset = 0,0
 ctrl = 0
 anim = 220
-poweradd = 15
+poweradd = 0
 sprpriority = 2
 facep2 = 1
 
@@ -169,7 +169,7 @@ air.type = High
 air.velocity = -1,-2.5
 airguard.velocity = -3,0
 air.hittime = 20
-getpower = 10,10
+getpower = 30,15
 givepower = 0,0
 
 [State 220, Damage Dampen]
@@ -204,7 +204,7 @@ physics = S
 velset = 0,0
 ctrl = 0
 anim = 230
-poweradd = 50
+poweradd = 0
 sprpriority = 2
 facep2 = 1
 
@@ -235,7 +235,7 @@ airguard.velocity = -5,0
 air.hittime = 25
 envshake.time = 10
 envshake.ampl = 3
-getpower = 30,30
+getpower = 30,15
 givepower = 0,0
 
 [State 230, Damage Dampen]
@@ -277,7 +277,7 @@ physics = N
 velset = 0,0
 ctrl = 0
 anim = 240
-poweradd = 50
+poweradd = 0
 sprpriority = 2
 facep2 = 1
 
@@ -347,7 +347,7 @@ fall.recover = 0
 yaccel = 0.5
 envshake.time = 14
 envshake.ampl = 8
-getpower = 30,30
+getpower = 30,15
 givepower = 0,0
 
 [State 240, Damage Dampen]
@@ -415,7 +415,7 @@ physics = N
 velset = 0,0
 ctrl = 0
 anim = 250
-poweradd = 50
+poweradd = 0
 sprpriority = 2
 facep2 = 1
 
@@ -488,7 +488,7 @@ fall.recover = 0
 yaccel = 0.5
 envshake.time = 10
 envshake.ampl = 3
-getpower = 30,30
+getpower = 60,30
 givepower = 0,0
 
 [State 250, Damage Dampen]
@@ -518,7 +518,7 @@ physics = A
 velset = (P2BodyDist X - 2)/32.00,-9.5
 ctrl = 0
 anim = 251
-poweradd = 50
+poweradd = 0
 sprpriority = 2
 facep2 = 1
 
@@ -577,7 +577,7 @@ fall.recover = 0
 yaccel = 0.5
 envshake.time = 10
 envshake.ampl = 3
-getpower = 30,30
+getpower = 30,15
 givepower = 0,0
 
 [State 251, Damage Dampen]
@@ -623,7 +623,7 @@ physics = C
 velset = 0,0
 ctrl = 0
 anim = 400
-poweradd = 15
+poweradd = 0
 sprpriority = 2
 facep2 = 1
 
@@ -649,7 +649,7 @@ air.type = High
 air.velocity = -1,-2
 airguard.velocity = -3,0
 air.hittime = 20
-getpower = 10,10
+getpower = 30,15
 givepower = 0,0
 
 [State 400, Damage Dampen]
@@ -684,7 +684,7 @@ physics = C
 velset = 0,0
 ctrl = 0
 anim = 410
-poweradd = 50
+poweradd = 0
 sprpriority = 2
 facep2 = 1
 
@@ -712,7 +712,7 @@ airguard.velocity = -5,0
 air.hittime = 25
 envshake.time = 10
 envshake.ampl = 3
-getpower = 30,30
+getpower = 30,15
 givepower = 0,0
 
 [State 410, Damage Dampen]
@@ -754,7 +754,7 @@ physics = C
 velset = 0,0
 ctrl = 0
 anim = 420
-poweradd = 15
+poweradd = 0
 sprpriority = 2
 facep2 = 1
 
@@ -780,7 +780,7 @@ down.velocity = -2,0
 air.type = High
 air.velocity = -1,-2
 air.hittime = 20
-getpower = 10,10
+getpower = 30,15
 givepower = 0,0
 
 [State 420, Damage Dampen]
@@ -815,7 +815,7 @@ physics = N
 velset = 0,0
 ctrl = 0
 anim = 430
-poweradd = 50
+poweradd = 0
 sprpriority = 2
 facep2 = 1
 
@@ -861,7 +861,7 @@ fall.recover = 0
 yaccel = 0.5
 envshake.time = 10
 envshake.ampl = 3
-getpower = 30,30
+getpower = 30,15
 givepower = 0,0
 ground.cornerpush.veloff = 0
 air.cornerpush.veloff = 0
@@ -903,7 +903,7 @@ movetype = A
 physics = A
 ctrl = 0
 anim = 600
-poweradd = 15
+poweradd = 0
 sprpriority = 2
 
 [State 600, HitDef]
@@ -928,7 +928,7 @@ air.type = High
 air.velocity = -1,-2.5
 airguard.velocity = -3,0
 air.hittime = 20
-getpower = 10,10
+getpower = 30,15
 givepower = 0,0
 
 [State 600, Damage Dampen]
@@ -963,7 +963,7 @@ movetype = A
 physics = A
 ctrl = 0
 anim = 610
-poweradd = 50
+poweradd = 0
 sprpriority = 2
 
 [State 610, HitDef]
@@ -990,7 +990,7 @@ airguard.velocity = -4,0
 air.hittime = 25
 envshake.time = 10
 envshake.ampl = 3
-getpower = 30,30
+getpower = 30,15
 givepower = 0,0
 
 [State 610, Damage Dampen]
@@ -1025,7 +1025,7 @@ movetype = A
 physics = A
 ctrl = 0
 anim = 620
-poweradd = 15
+poweradd = 0
 sprpriority = 2
 
 [State 620, HitDef]
@@ -1050,7 +1050,7 @@ air.type = High
 air.velocity = -1,-2.5
 airguard.velocity = -3,0
 air.hittime = 20
-getpower = 10,10
+getpower = 30,15
 givepower = 0,0
 
 [State 620, Damage Dampen]
@@ -1085,7 +1085,7 @@ movetype = A
 physics = A
 ctrl = 0
 anim = 621
-poweradd = 15
+poweradd = 0
 sprpriority = 2
 
 [State 621, HitDef]
@@ -1110,7 +1110,7 @@ air.type = High
 air.velocity = -1,-2.5
 airguard.velocity = -3,0
 air.hittime = 20
-getpower = 10,10
+getpower = 30,15
 givepower = 0,0
 
 [State 621, Damage Dampen]
@@ -1145,7 +1145,7 @@ movetype = A
 physics = A
 ctrl = 0
 anim = 630
-poweradd = 50
+poweradd = 0
 sprpriority = 2
 
 [State 630, HitDef]
@@ -1172,7 +1172,7 @@ airguard.velocity = -4,0
 air.hittime = 25
 envshake.time = 10
 envshake.ampl = 3
-getpower = 30,30
+getpower = 30,15
 givepower = 0,0
 
 [State 630, Damage Dampen]
@@ -1207,7 +1207,7 @@ movetype = A
 physics = A
 ctrl = 0
 anim = 631
-poweradd = 50
+poweradd = 0
 sprpriority = 2
 
 [State 631, HitDef]
@@ -1237,7 +1237,7 @@ fall.recover = 0
 yaccel = 0.5
 envshake.time = 10
 envshake.ampl = 3
-getpower = 30,30
+getpower = 30,15
 givepower = 0,0
 
 [State 631, Damage Dampen]
@@ -1272,7 +1272,7 @@ movetype = A
 physics = N
 ctrl = 0
 anim = 670
-poweradd = 15
+poweradd = 0
 sprpriority = 2
 
 [State 670, HitDef]
@@ -1297,7 +1297,7 @@ air.type = High
 air.velocity = -1,-2.5
 airguard.velocity = -3,0
 air.hittime = 23
-getpower = 10,10
+getpower = 30,15
 givepower = 0,0
 ID = 670
 
@@ -1343,7 +1343,7 @@ movetype = A
 physics = N
 ctrl = 0
 anim = 672
-poweradd = 15
+poweradd = 0
 sprpriority = 2
 
 [State 672, HitDef]
@@ -1368,7 +1368,7 @@ air.type = High
 air.velocity = -1,-2.5
 airguard.velocity = -3,0
 air.hittime = 23
-getpower = 10,10
+getpower = 30,15
 givepower = 0,0
 
 [State 672, Damage Dampen]
@@ -1397,7 +1397,7 @@ movetype = A
 physics = N
 ctrl = 0
 anim = 674
-poweradd = 30
+poweradd = 0
 sprpriority = 2
 
 [State 674, HitDef]
@@ -1422,7 +1422,7 @@ air.type = High
 air.velocity = -1,-2.5
 airguard.velocity = -3,0
 air.hittime = 23
-getpower = 20,20
+getpower = 30,15
 givepower = 0,0
 
 [State 674, Damage Dampen]
@@ -1655,7 +1655,7 @@ Trigger1 = !time
 attr = S, NT
 hitflag = M-
 priority = 1, Miss
-getpower = 100
+getpower = 60,30
 p1facing = ifelse(command = "holdfwd", 1, -1)
 p2facing = 1
 p1stateno = 810

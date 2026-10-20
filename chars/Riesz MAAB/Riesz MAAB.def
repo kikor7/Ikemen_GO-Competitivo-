@@ -49,6 +49,7 @@ LocalCoord = 1920,1080;#                      ;分辨率寬度和高度
 ; 檔案的連結
 ;＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
 [Files]
+movelist = movelist.dat
 Cmd      = RizMAAB-Command.cmd              ;人物手操指令、AI指令
 Cns      = RizMAAB-Constants.cns            ;人物基本參數
 St       = RizMAAB-Constants.cns            ;人物開頭動作、勝利動作、挑釁動作

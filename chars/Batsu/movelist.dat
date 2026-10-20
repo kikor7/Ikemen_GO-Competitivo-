@@ -1,0 +1,21 @@
+<#f0f000>:Special Moves:</>
+Especial 1			^A_+^B_+^C
+a2			_DSF^X
+a2			_DSF^Y
+a2			_DSF^Z
+a2			_DSF^A
+a2			_DSF^B
+a2			_DSF^C
+a2			_QCF^A
+a2			_QCF^B
+a2			_QCF^C
+a2			_QCF^X
+a2			_QCF^Y
+a2			_QCF^Z
+
+<#f0f000>:Hyper Moves:</>
+Jiyuu no Melody <#f00000>(3000)</>			_QCF^C_+^Z
+Jiyuu no Melody <#f00000>(1000)</>			_QCF^X_+^Y
+Jiyuu no Melody <#f00000>(1000)</>			_QCB^A_+^B
+Jiyuu no Melody <#f00000>(1000)</>			_QCF^A_+^B
+counter <#f00000>(1000)</>			~F^X_+^A

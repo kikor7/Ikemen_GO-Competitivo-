@@ -374,7 +374,7 @@ juggle  = 1
 velset = 0,0
 ctrl = 0
 anim = 15305
-poweradd = 30
+poweradd = 0
 sprpriority = 2
 
 [State 0, ScreenBound]
@@ -468,7 +468,7 @@ juggle  = 1
 velset = 0,0
 ctrl = 0
 anim = 15300
-poweradd = 30
+poweradd = 0
 sprpriority = 2
 
 [State 0, ScreenBound]

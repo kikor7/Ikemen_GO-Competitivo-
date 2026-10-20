@@ -1,0 +1,15 @@
+<#f0f000>:Special Moves:</>
+RougaTenrin X			_F_D_F^X
+RougaTenrin Y			_F_D_F^Y
+RougaTenrin Z			_F_D_F^Z
+HyakkaRyohran C			_F_D_F^C
+OhRouZan X			_D_F^X
+OhRouZan Y			_D_F^Y
+OhRouZan Z			_D_F^Z
+Weapon AB			^X_+^Y
+Crouch AB			~D^X_+^Y
+
+<#f0f000>:Hyper Moves:</>
+Blue Tiger <#f00000>(1000)</>			_QCF_QCF^X
+Orange Dragon <#f00000>(1000)</>			_QCF_QCF^Y
+Fat Swordsman <#f00000>(1000)</>			_QCF_QCF^Z

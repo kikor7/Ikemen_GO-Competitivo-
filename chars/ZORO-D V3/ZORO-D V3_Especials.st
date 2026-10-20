@@ -8,7 +8,7 @@ type = S
 physics = S
 ctrl = 0
 anim = 1000
-poweradd = 100
+poweradd = 20
 sprpriority = 2
 
 
@@ -179,6 +179,7 @@ trigger2 = movehit>1
 attr = S, SP
 animtype  = hard
 damage    = 40,8
+getpower = 30,15
 guardflag = MA
 pausetime = 0,10
 sparkno = -1
@@ -4184,7 +4185,7 @@ value = 1401
 type    = S
 movetype = A
 physics = S
-poweradd = 125
+poweradd = 0
 ctrl = 0
 velset = 0,0
 anim = 1401
@@ -5689,7 +5690,7 @@ physics = S
 velset = 0,0
 ctrl = 0
 anim = 1501
-poweradd = 125
+poweradd = 0
 
 [State 0, NotHitBy]
 type = NotHitBy
@@ -6872,7 +6873,7 @@ movetype = A
 physics = S
 ctrl = 0
 anim = 1702
-poweradd = 150
+poweradd = 0
 
 [State 20, StopSnd]
 type = StopSnd
@@ -7270,7 +7271,7 @@ physics = S
 velset = 0,0
 ctrl = 0
 anim = 1800
-poweradd = 150
+poweradd = 0
 sprpriority = 2
 
 [State 0, SuperPause]
@@ -8034,7 +8035,7 @@ physics = C
 velset = 0,0
 ctrl = 0
 anim = 1900
-poweradd=150
+poweradd=0
 
 ;***********------"mugshot"-----------**********
 [State 0, Helper]
@@ -8313,7 +8314,7 @@ velset = 0,0
 ctrl = 0
 anim = 2000
 juggle  = 7
-poweradd=150
+poweradd=0
 sprpriority = 2
 
 [State 3000: EnvShake]
@@ -8660,7 +8661,7 @@ movetype= A
 physics = S
 velset = 0,0
 ctrl = 0
-poweradd = 80
+poweradd = 0
 sprpriority = 2
 anim=2100
 
@@ -8767,6 +8768,7 @@ trigger1 = animelem = 3
 attr = A, SA
 animtype  = medium;hard
 damage    = 25,5
+getpower = 30,15
 guardflag = MA
 pausetime = 6,7
 sparkno = -1;s6000
@@ -8904,6 +8906,7 @@ triggerall = hitcount < 1
 trigger1 = animelem = 2
 attr = A, SA
 damage    = 25,5
+getpower = 30,15
 guardflag = HA
 priority = 4
 pausetime = 12, 12
@@ -9191,7 +9194,7 @@ physics = N;S
 velset = 0,0
 ctrl = 0
 anim = 2202
-poweradd = 80
+poweradd = 0
 sprpriority = 2
 
 [State 0, PlaySnd]
@@ -9256,6 +9259,7 @@ trigger2 = movehit>1
 attr = S, SA
 animtype  = Medium
 damage    = 3,1
+getpower = 30,15
 guardflag = MA
 pausetime =  ifelse(hitcount<1,9,ifelse(hitcount<4 ,7,ifelse(hitcount<8,5,3)))  ,  ifelse(hitcount<1,9,ifelse(hitcount<4,7,ifelse(hitcount<8,5,3)))
 guard.pausetime=3,3
@@ -9627,6 +9631,7 @@ type = HitDef
 trigger1 =  animelem = 2
 attr = A, NA
 damage    = 25, 10
+getpower = 30,15
 guardflag = HA
 priority = 4
 pausetime = 12, 12
@@ -9780,7 +9785,7 @@ velset = 0,0
 ctrl = 0
 anim = 2300
 sprpriority = 2
-poweradd = 150
+poweradd = 0
 
 [State 0, SuperPause]
 type = SuperPause

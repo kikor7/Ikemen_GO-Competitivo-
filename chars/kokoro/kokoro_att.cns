@@ -48,7 +48,7 @@ air.hittime = 15
 ground.velocity = -2
 airguard.velocity = -1,-.8
 air.velocity = -1.2,-3
-getpower = 140,100
+getpower = 30,15
 
 [State 補正]
 Type = VarSet
@@ -107,7 +107,7 @@ air.hittime = 15
 ground.velocity = -2
 airguard.velocity = -1,-.8
 air.velocity = -1.2,-3
-getpower = 140,100
+getpower = 30,15
 
 [State 補正]
 Type = VarSet
@@ -167,7 +167,7 @@ air.hittime = 22
 ground.velocity = -4
 airguard.velocity = -3,-.8
 air.velocity = -3.8,-3
-getpower = 140,100
+getpower = 30,15
 
 [State 補正]
 Type = VarSet
@@ -225,7 +225,7 @@ ground.hittime  = 22
 air.hittime = 22
 ground.velocity = -2,-7
 air.velocity = -3,-9
-getpower = 240,160
+getpower = 30,15
 ;persistent = 3
 fall = 1
 fall.recovertime = 300
@@ -305,7 +305,7 @@ air.hittime = 22
 ground.velocity = -10.4,0
 airguard.velocity = -4.6,-2.8
 air.velocity = -5.2,-4.6
-getpower = 140,100
+getpower = 30,15
 
 
 [State 補正]
@@ -364,7 +364,7 @@ ground.hittime  = 22
 air.hittime = 22
 ground.velocity = -7.5
 air.velocity = -3.5,-4
-getpower = 200,120
+getpower = 30,15
 
 [State 補正]
 Type = VarSet
@@ -477,7 +477,7 @@ fall = 1
 ID = 210
 ;p2stateno = 6010 ;この攻撃がヒットすれば相手は↓の[Statedef 1025]へ
 p2facing = 1     ;相手の向きを指定
-getpower = 280,200
+getpower = 30,15
 ground.cornerpush.veloff = -14
 
 [State 00]
@@ -570,7 +570,7 @@ ground.hittime  = 22
 air.hittime = 22
 ground.velocity = -6
 air.velocity = -1.6,-3
-getpower = 60,20
+getpower = 15,7
 ID = 210
 guard.dist = 280
 
@@ -594,7 +594,7 @@ ground.hittime  = 22
 air.hittime = 22
 ground.velocity = -12
 air.velocity = -6,-6
-getpower = 70,30
+getpower = 15,7
 guard.dist = 320
 ground.cornerpush.veloff = -14
 
@@ -622,7 +622,7 @@ physics = N
 ctrl = 0
 anim = 230
 sprpriority = 2
-poweradd = 160
+poweradd = 0
 
 [State 00]
 type = PlaySnd
@@ -682,7 +682,7 @@ ground.velocity = -20
 guard.velocity = -16
 air.velocity = -10,-2.2
 airguard.velocity = -5, -4
-getpower = 280,200
+getpower = 30,15
 ground.cornerpush.veloff = -14
 
 [State 補正]
@@ -963,7 +963,7 @@ velset = 0,0
 ctrl = 0
 anim = 300
 sprpriority = 2
-poweradd = 100
+poweradd = 0
 
 [State 00]
 type = varadd
@@ -1011,7 +1011,7 @@ velset = 0,0
 ctrl = 0
 anim = 301
 sprpriority = 2
-poweradd = 100
+poweradd = 0
 
 [State 00]
 type = PlaySnd
@@ -1613,7 +1613,7 @@ velset = 0,0
 ctrl = 0
 anim = 310
 sprpriority = 2
-poweradd = 80
+poweradd = 20
 
 [State 00]
 type = varadd
@@ -1661,7 +1661,7 @@ velset = 0,0
 ctrl = 0
 anim = 311
 sprpriority = 2
-poweradd = 80
+poweradd = 20
 
 [State 00]
 type = PlaySnd
@@ -2053,7 +2053,7 @@ velset = 0,0
 ctrl = 0
 anim = 320
 sprpriority = 2
-poweradd = 100
+poweradd = 0
 
 [State 00]
 type = varadd
@@ -2349,7 +2349,7 @@ velset = 0,0
 ctrl = 0
 anim = 330
 sprpriority = 2
-poweradd = 100
+poweradd = 20
 
 [State 00]
 type = varadd
@@ -2764,7 +2764,7 @@ ground.hittime  = 15
 air.hittime = 15
 ground.velocity = -4
 air.velocity = -2.5,-3
-getpower = 140,100
+getpower = 30,15
 
 [State 補正]
 Type = VarSet
@@ -2822,7 +2822,7 @@ air.hittime = 22
 ground.velocity = -2,-4
 air.velocity = -1.8,-3
 guard.velocity = -3
-getpower = 200,120
+getpower = 30,15
 fall = 1
 
 [State 補正]
@@ -2850,7 +2850,7 @@ juggle  = 7
 ctrl = 0
 anim = 500
 sprpriority = 2
-poweradd = 100
+poweradd = 0
 
 [State 00]
 type = varadd
@@ -3642,7 +3642,7 @@ juggle  = 7
 ctrl = 0
 anim = 520
 sprpriority = 2
-poweradd = 40
+poweradd = 0
 
 [State 520, 起動];フェアリーを米弾に変えるフラグ
 type = varset
@@ -3701,7 +3701,7 @@ ground.hittime  = 16
 air.hittime = 16
 ground.velocity = -4
 air.velocity = -1.3,-3
-getpower = 140,100
+getpower = 30,15
 
 [State 補正]
 Type = VarSet
@@ -3769,7 +3769,7 @@ ground.velocity = -3,-8
 air.velocity = -3,-9
 fall = 1
 fall.recovertime = 30
-getpower = 200,120
+getpower = 15,7
 guard.dist = 280
 
 [State 00]
@@ -3794,7 +3794,7 @@ ground.velocity = -6,2
 air.velocity = -8,3
 fall = 1
 fall.recovertime = 40
-getpower = 240,160
+getpower = 15,7
 guard.dist = 320
 
 [State 補正]
@@ -3942,7 +3942,7 @@ ground.velocity = -1,-8
 air.velocity = -1.6,-9
 fall = 1
 fall.recovertime = 30
-getpower = 200,120
+getpower = 15,7
 guard.dist = 280
 
 [State 00]
@@ -3967,7 +3967,7 @@ ground.velocity = -6,2
 air.velocity = -8,3
 fall = 1
 fall.recovertime = 40
-getpower = 240,160
+getpower = 15,7
 guard.dist = 320
 
 [State 00]
@@ -4151,7 +4151,7 @@ ground.hittime  = 22
 air.hittime = 22
 ground.velocity = -2,-2
 air.velocity = -3.2,-3.2
-getpower = 200,120
+getpower = 30,15
 fall = 1
 fall.recovertime = 60
 
@@ -4261,7 +4261,7 @@ juggle  = 2
 ctrl = 0
 anim = 701
 sprpriority = 2
-poweradd = 100
+poweradd = 0
 
 [State 00]
 type = PlaySnd
@@ -4319,7 +4319,7 @@ juggle  = 2
 ctrl = 0
 anim = 710
 sprpriority = 2
-poweradd = 80
+poweradd = 20
 
 [State 00]
 type = varadd
@@ -4365,7 +4365,7 @@ juggle  = 1
 ctrl = 0
 anim = 711
 sprpriority = 2
-poweradd = 80
+poweradd = 20
 
 [State 00]
 type = PlaySnd
@@ -4430,7 +4430,7 @@ juggle  = 2
 ctrl = 0
 anim = 715
 sprpriority = 2
-poweradd = 140
+poweradd = 20
 
 [State 00]
 type = varadd
@@ -4728,7 +4728,7 @@ juggle  = 2
 ctrl = 0
 anim = 720
 sprpriority = 2
-poweradd = 100
+poweradd = 0
 
 [State 00]
 type = varadd
@@ -4770,7 +4770,7 @@ juggle  = 2
 ctrl = 0
 anim = 730
 sprpriority = 2
-poweradd = 100
+poweradd = 0
 
 [State 00]
 type = varadd
@@ -4811,7 +4811,7 @@ juggle  = 1
 ctrl = 0
 anim = 740
 sprpriority = 2
-poweradd = 100
+poweradd = 20
 
 [State 00]
 type = varadd

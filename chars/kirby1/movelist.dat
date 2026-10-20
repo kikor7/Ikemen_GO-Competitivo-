@@ -1,0 +1,18 @@
+<#f0f000>:Special Moves:</>
+Inhale			_QCF^X
+Cutter			_QCF^A
+Wheel			_QCF^B
+Hammer Flip			_QCF^Y
+Bomb			_QCF^C
+Final Cutter			_QCF^Z
+
+<#f0f000>:Hyper Moves:</>
+Raging Puffball <#f00000>(3000)</>			^X^X_F^A^Z
+Ribbon <#f00000>(3000)</>			_QCB_QCB^A_+^B
+Cook <#f00000>(2000)</>			_QCF_QCF^Z
+Dynamite <#f00000>(2000)</>			_QCF_QCF^C
+Superspicy Curry <#f00000>(1500)</>			_QCF_QCF^Y
+Tornado Spin <#f00000>(1500)</>			_QCF_QCF^B
+Force Blast <#f00000>(1000)</>			_QCF_QCF^X
+Force Blast <#f00000>(500)</>			_QCF_QCF^X
+Flip Combo <#f00000>(1000)</>			_QCF_QCF^A

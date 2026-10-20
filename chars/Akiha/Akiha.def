@@ -18,6 +18,7 @@ localcoord   = 320, 240
 ; 構成ファイル
 ;------------------------------------------------------------------------------;
 [Files]
+movelist = movelist.dat
 sprite   = Akiha.sff
 anim     = Akiha.air
 sound    = Akiha.snd

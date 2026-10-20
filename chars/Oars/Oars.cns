@@ -343,7 +343,7 @@ juggle  = 1
 velset = 0,0
 ctrl = 0
 anim = 200
-poweradd = 20
+poweradd = 0
 
 
 [State 0, SprPriority]
@@ -402,6 +402,7 @@ trigger1 = animelem = 5
 attr = S, NA
 animtype  = Light
 damage    = 25
+getpower = 30,15
 guardflag = MA
 pausetime = 12,14
 sparkno = -1;s6000
@@ -504,6 +505,24 @@ trigger1 = time = 600
 ;===============================================================================
 ; Stand Strong Kick 1st Hit
 ;===============================================================================
+;---------------------------------------------------------------------------
+; Recuperacion tras esquivar/rodar: sin control y golpeable unos frames,
+; para que no se pueda encadenar sin riesgo.
+;---------------------------------------------------------------------------
+[Statedef 1003]
+type = S
+movetype = I
+physics = S
+ctrl = 0
+anim = 0
+velset = 0,0
+
+[State 1003, Fin de la recuperacion]
+type = ChangeState
+trigger1 = Time >= 12
+value = 0
+ctrl = 1
+
 [Statedef 210]
 type    = S
 physics = N
@@ -590,8 +609,8 @@ value = 200
 [State 210, End]
 type = ChangeState
 trigger1 = AnimTime = 0
-value = 0
-ctrl = 1
+value = 1003
+ctrl = 0
 
 
 
@@ -618,7 +637,7 @@ juggle  = 1
 velset = 0,0
 ctrl = 0
 anim = 220
-poweradd = 20
+poweradd = 0
 
 
 [State 0, SprPriority]
@@ -657,6 +676,7 @@ trigger4 = animelem = 8
 attr = S, NA
 animtype  = Light
 damage    = 40
+getpower = 60,30
 guardflag = MA
 pausetime = 12,14
 sparkno = -1;s6000
@@ -1006,7 +1026,7 @@ physics = N
 juggle  = 1
 ctrl = 0
 anim = 600
-poweradd = 30
+poweradd = 20
 sprpriority = -5
 
 

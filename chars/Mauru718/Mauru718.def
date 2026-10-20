@@ -12,6 +12,7 @@ author = "Inverse edited by Odb718"
 pal.defaults = 1,3,4,6,5,2
 
 [Files]
+movelist = movelist.dat
 sprite = mauru.sff
 anim = mauru.air
 sound = mauru.snd

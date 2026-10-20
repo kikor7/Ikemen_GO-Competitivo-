@@ -13,6 +13,7 @@ pal.defaults = 0
 
 ; Files for the player
 [Files]
+movelist = movelist.dat
 cmd      = Mai-ROTD.cmd  
 cns      = Mai-ROTD-P.cns   
 st       = Mai-ROTD-N.cns   

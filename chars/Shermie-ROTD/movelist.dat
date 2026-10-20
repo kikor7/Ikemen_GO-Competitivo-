@@ -1,0 +1,21 @@
+<#f0f000>:Special Moves:</>
+Dasshushierumiishuuto			_F_D_B^X
+Dasshudaiyamondobasuto			_F_D_B^A
+Dasshuakuserusupinkikku			_QCB^A
+Shierumiisupairaru			_B_D_F^X
+F Kappuchuudo			_F_D_B_F^X
+Shierumiishuuto Kyou			_F_D_B^Y
+Daiyamondobasuto Kyou			_F_D_B^B
+Shierumiihoippu			_QCB^X
+Akuserusupinkikku Kyou			_QCB^B
+Shierumiikuratchi Jaku			_DSF^A
+Shierumiikuratchi Kyou			_DSF^B
+Sake Dousa			^X_+^Y_+^A
+Reijikonbineeshon Shidou			^Y_+^B
+
+<#f0f000>:Hyper Moves:</>
+Shierumiikaanibaru <#f00000>(1000)</>			_B_D_F_B_D_F^X
+Shierumiireggurariaato <#f00000>(1000)</>			_QCB_DB_QCF^A
+Shierumiikaanibaru 2 <#f00000>(2000)</>			_B_D_F_B_D_F^Y
+Shierumiireggurariaato 2 <#f00000>(2000)</>			_QCB_DB_QCF^B
+Kuikkureijikonbineeshon Shidou <#f00000>(1000)</>			^Y_+^B

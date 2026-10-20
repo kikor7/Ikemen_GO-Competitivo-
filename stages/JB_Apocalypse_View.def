@@ -1192,25 +1192,26 @@ delta 		= 2,2
 mask 		= 1
 
 
-[BG TINT]
-type  		= anim
-actionno 	= 990
-start 		= 0,170
-delta		= 0,0
-layerno 	= 1
-trans 		= sub
-alpha 		= 40, 206
+;Desactivado: capa oscura (trans sub) fija a la pantalla; oscurecia todo y se veia como un recuadro negro
+;[BG TINT]
+;type  		= anim
+;actionno 	= 990
+;start 		= 0,170
+;delta		= 0,0
+;layerno 	= 1
+;trans 		= sub
+;alpha 		= 40, 206
 [Begin action 990]
 99,0,0,0,10,h,sub
 
-[BG TINT]
-type  		= anim
-actionno 	= 9901
-start 		= 0,420
-delta		= 0,2
-layerno 	= 1
-trans 		= sub
-alpha 		= 40, 206
+;[BG TINT]
+;type  		= anim
+;actionno 	= 9901
+;start 		= 0,420
+;delta		= 0,2
+;layerno 	= 1
+;trans 		= sub
+;alpha 		= 40, 206
 [Begin action 9901]
 99,0,0,0,10,HV,sub
 

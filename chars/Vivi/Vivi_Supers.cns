@@ -1107,7 +1107,7 @@ physics = N
 juggle  = 1
 ctrl = 0
 anim = 3101
-poweradd = 20
+poweradd = 0
 sprpriority = 2
 
 [State 0, NotHitBy]

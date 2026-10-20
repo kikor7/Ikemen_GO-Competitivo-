@@ -12,6 +12,7 @@ author = "Resentone"
 pal.defaults = 1      
 
 [Files]
+movelist = movelist.dat
 cmd     = Enigma.cmd
 cns     = Enigma.cns
 st      = Enigma.cns

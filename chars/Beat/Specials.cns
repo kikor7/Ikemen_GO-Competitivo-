@@ -7,7 +7,7 @@ anim = 1000
 ctrl = 0
 velset = 0,0
 sprPriority = 2
-poweradd = 70 * !var(20)
+poweradd = 0 * !var(20)
 faceP2 = 1
 
 [State 1000, Voice]
@@ -45,7 +45,7 @@ attr = S, SA
 damage = ceil(ifElse(fvar(11) * 50 < 7, 7, fvar(11) * 50)), 5
 priority = 4, hit
 animtype = Hard
-getpower = 70 * !var(20), 30 * !var(20)
+getpower = 60,30
 givepower = 35, 35
 guardflag = MA
 hitflag = MAF
@@ -102,7 +102,7 @@ anim = 1000
 ctrl = 0
 velset = 0,0
 sprPriority = 2
-poweradd = 70 * !var(20)
+poweradd = 0 * !var(20)
 faceP2 = 1
 
 [State 1010, Voice]
@@ -140,7 +140,7 @@ attr = S, SA
 damage = ceil(ifElse(fvar(11) * 35 < 7, 7, fvar(11) * 35)), 5
 priority = 4, hit
 animtype = Hard
-getpower = 70 * !var(20), 30 * !var(20)
+getpower = 60,30
 givepower = 35, 35
 guardflag = MA
 hitflag = MAF
@@ -197,7 +197,7 @@ anim = 1000
 ctrl = 0
 velset = 0,0
 sprPriority = 2
-poweradd = 70 * !var(20)
+poweradd = 0 * !var(20)
 faceP2 = 1
 
 [State 1020, Voice]
@@ -235,7 +235,7 @@ attr = S, SA
 damage = ceil(ifElse(fvar(11) * 30 < 7, 7, fvar(11) * 30)), 5
 priority = 4, hit
 animtype = Hard
-getpower = 70 * !var(20), 30 * !var(20)
+getpower = 60,30
 givepower = 35, 35
 guardflag = MA
 hitflag = MAF
@@ -292,7 +292,7 @@ anim = 1010
 ctrl = 0
 velset = 0,0
 sprPriority = 2
-poweradd = 70 * !var(20)
+poweradd = 0 * !var(20)
 faceP2 = 1
 
 [State 1030, Voice]
@@ -335,7 +335,7 @@ attr = S, SA
 damage = ceil(ifElse(fvar(11) * 20 < 7, 7, fvar(11) * 20)), 5
 priority = 4, hit
 animtype = Hard
-getpower = 70 * !var(20), 30 * !var(20)
+getpower = 60,30
 givepower = 35, 35
 guardflag = MA
 hitflag = MAF
@@ -392,7 +392,7 @@ anim = 1010
 ctrl = 0
 velset = 0,0
 sprPriority = 2
-poweradd = 70 * !var(20)
+poweradd = 0 * !var(20)
 faceP2 = 1
 
 [State 1040, Voice]
@@ -435,7 +435,7 @@ attr = S, SA
 damage = ceil(ifElse(fvar(11) * 30 < 7, 7, fvar(11) * 30)), 5
 priority = 4, hit
 animtype = Hard
-getpower = 70 * !var(20), 30 * !var(20)
+getpower = 60,30
 givepower = 35, 35
 guardflag = MA
 hitflag = MAF
@@ -492,7 +492,7 @@ anim = 1010
 ctrl = 0
 velset = 0,0
 sprPriority = 2
-poweradd = 70 * !var(20)
+poweradd = 0 * !var(20)
 faceP2 = 1
 
 [State 1050, Voice]
@@ -535,7 +535,7 @@ attr = S, SA
 damage = ceil(ifElse(fvar(11) * 40 < 7, 7, fvar(11) * 40)), 5
 priority = 4, hit
 animtype = Hard
-getpower = 70 * !var(20), 30 * !var(20)
+getpower = 60,30
 givepower = 35, 35
 guardflag = MA
 hitflag = MAF
@@ -592,7 +592,7 @@ anim = 1020
 ctrl = 0
 velset = 0,0
 sprPriority = 2
-poweradd = 70 * !var(20)
+poweradd = 0 * !var(20)
 faceP2 = 1
 
 [State 1100, Voice]
@@ -635,7 +635,7 @@ attr = S, SA
 damage = ceil(ifElse(fvar(11) * 500 < 7, 7, fvar(11) * 50)), 5
 priority = 4, hit
 animtype = Hard
-getpower = 70 * !var(20), 30 * !var(20)
+getpower = 60,30
 givepower = 35, 35
 guardflag = L
 hitflag = MAFD
@@ -692,7 +692,7 @@ anim = 1020
 ctrl = 0
 velset = 0,0
 sprPriority = 2
-poweradd = 70 * !var(20)
+poweradd = 0 * !var(20)
 faceP2 = 1
 
 [State 1100, Voice]
@@ -735,7 +735,7 @@ attr = S, SA
 damage = ceil(ifElse(fvar(11) * 80 < 7, 7, fvar(11) * 80)), 5
 priority = 4, hit
 animtype = Hard
-getpower = 70 * !var(20), 30 * !var(20)
+getpower = 60,30
 givepower = 35, 35
 guardflag = L
 hitflag = MAFD
@@ -792,7 +792,7 @@ anim = 1020
 ctrl = 0
 velset = 0,0
 sprPriority = 2
-poweradd = 70 * !var(20)
+poweradd = 0 * !var(20)
 faceP2 = 1
 
 [State 1100, Voice]
@@ -835,7 +835,7 @@ attr = S, SA
 damage = ceil(ifElse(fvar(11) * 110 < 7, 7, fvar(11) * 110)), 5
 priority = 4, hit
 animtype = Hard
-getpower = 70 * !var(20), 30 * !var(20)
+getpower = 60,30
 givepower = 35, 35
 guardflag = L
 hitflag = MAFD

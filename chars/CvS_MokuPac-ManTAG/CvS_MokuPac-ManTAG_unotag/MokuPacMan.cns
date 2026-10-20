@@ -454,7 +454,7 @@ physics=S
 juggle=ifelse((p2movetype=H&&p2statetype=A),15,5)
 anim=ifelse(p2bodydist x<25,206+(var(1)=2)*2,205)
 velset=0,0
-poweradd=7*!var(20)
+poweradd=0*!var(20)
 sprpriority=1
 ctrl=0
 
@@ -527,7 +527,7 @@ ctrl=1
 type    = S
 movetype= A
 physics = S
-poweradd= 65
+poweradd= 0
 ctrl = 0
 velset = 0,0
 juggle=ifelse((p2movetype=H&&p2statetype=A),15,5)
@@ -610,7 +610,7 @@ type    = S
 movetype= A
 physics = S
 juggle  = 4
-poweradd= 65
+poweradd= 0
 ctrl = 0
 velset = 0,0
 anim = 210
@@ -722,7 +722,7 @@ physics=S
 juggle=ifelse((p2movetype=H&&p2statetype=A),15,5)
 anim=220
 velset=0,0
-poweradd=14*!var(20)
+poweradd=0*!var(20)
 sprpriority=1
 ctrl=0
 
@@ -772,7 +772,7 @@ physics=S
 juggle=ifelse((p2movetype=H&&p2statetype=A),15,5)
 anim=225
 velset=0,0
-poweradd=20*!var(20)
+poweradd=0*!var(20)
 sprpriority=1
 ctrl=0
 
@@ -895,7 +895,7 @@ physics=C
 juggle=ifelse((p2movetype=H&&p2statetype=A),15,5)
 anim=235
 velset=0,0
-poweradd=14*!var(20)
+poweradd=0*!var(20)
 sprpriority=1
 ctrl=0
 
@@ -945,7 +945,7 @@ physics=C
 juggle=ifelse((p2movetype=H&&p2statetype=A),15,5)
 anim=240
 velset=0,0
-poweradd=20*!var(20)
+poweradd=0*!var(20)
 sprpriority=1
 ctrl=0
 
@@ -1082,7 +1082,7 @@ physics=C
 juggle=ifelse((p2movetype=H&&p2statetype=A),15,5)
 anim=250
 velset=0,0
-poweradd=14*!var(20)
+poweradd=0*!var(20)
 sprpriority=1
 ctrl=0
 
@@ -1133,7 +1133,7 @@ physics=C
 juggle=ifelse((p2movetype=H&&p2statetype=A),15,5)
 anim=255
 velset=0,0
-poweradd=20*(!var(20)&&prevstateno!=750)
+poweradd=0*(!var(20)&&prevstateno!=750)
 sprpriority=1
 ctrl=0
 
@@ -1248,7 +1248,7 @@ movetype=A
 physics=A
 juggle=ifelse((p2movetype=H&&p2statetype=A),15,5)
 anim=265
-poweradd=14*!var(20)
+poweradd=0*!var(20)
 sprpriority=1
 ctrl=0
 
@@ -1296,7 +1296,7 @@ movetype=A
 physics=A
 juggle=ifelse((p2movetype=H&&p2statetype=A),15,5)
 anim=270
-poweradd=20*!var(20)
+poweradd=0*!var(20)
 sprpriority=1
 ctrl=0
 
@@ -1398,7 +1398,7 @@ movetype=A
 physics=A
 juggle=ifelse((p2movetype=H&&p2statetype=A),15,5)
 anim=280
-poweradd=14*!var(20)
+poweradd=0*!var(20)
 sprpriority=1
 ctrl=0
 
@@ -1446,7 +1446,7 @@ movetype=A
 physics=A
 juggle=ifelse((p2movetype=H&&p2statetype=A),15,5)
 anim=285
-poweradd=20*!var(20)
+poweradd=0*!var(20)
 sprpriority=1
 ctrl=0
 
@@ -1535,7 +1535,7 @@ type = S
 movetype= A
 physics = N
 anim = 810
-poweradd = 60
+poweradd = 0
 
 [State 0, PlaySnd]
 type = PlaySnd
@@ -2470,7 +2470,7 @@ physics=S
 juggle=ifelse((p2movetype=H&&p2statetype=A),15,5)
 anim=1100
 velset=0,0
-poweradd=7*!var(20)
+poweradd=0*!var(20)
 sprpriority=1
 ctrl=0
 
@@ -2664,7 +2664,7 @@ physics=A
 juggle=ifelse((p2movetype=H&&p2statetype=A),15,5)
 anim=1200
 velset=vel x,-5
-poweradd=20*!var(20)
+poweradd=0*!var(20)
 sprpriority=1
 ctrl=0
 
@@ -2790,7 +2790,7 @@ type    = S
 movetype= A
 physics = S
 juggle  = 4
-poweradd= 105
+poweradd= 0
 velset = 0,0
 anim = 1300
 ctrl = 0
@@ -2895,7 +2895,7 @@ type    = S
 movetype= A
 physics = S
 juggle  = 4
-poweradd= 120
+poweradd= 0
 velset = 0,0
 anim = 1300
 ctrl = 0
@@ -3690,7 +3690,7 @@ physics=S
 juggle=4
 anim=3201
 velset=0,0
-poweradd=20*!var(20)
+poweradd=0*!var(20)
 sprpriority=1
 ctrl=0
 

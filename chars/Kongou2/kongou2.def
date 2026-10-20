@@ -7,6 +7,7 @@ author ="Doggiedoo"
 pal.defaults =1
 
 [Files]
+movelist = movelist.dat
 sprite=kongou.sff
 sound=kongou.snd
 anim=kongou.air

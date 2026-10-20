@@ -219,7 +219,7 @@ physics = S
 anim = 1230
 velset = 0,0
 ctrl = 0
-poweradd = 30
+poweradd = 0
 facep2 = 1
 juggle = 8
 
@@ -254,7 +254,7 @@ trigger1 = AnimElem = 4
 attr = S, SA
 animtype = Hard
 damage    = 70,10
-getpower = 0,63
+getpower = 12,6
 guardflag = M
 hitflag = MA
 pausetime = 15,15
@@ -291,7 +291,7 @@ trigger1 = prevstateno != 101
 attr = S, SA
 animtype = Hard
 damage    = 120,10
-getpower = 0,63
+getpower = 12,6
 guardflag = M
 hitflag = MA
 pausetime = 15,15
@@ -330,7 +330,7 @@ trigger2 = prevstateno = [300,310]
 attr = S, SA
 animtype = Hard
 damage    = 50,10
-getpower = 0,63
+getpower = 12,6
 guardflag = M
 hitflag = MA
 pausetime = 15,15
@@ -369,7 +369,7 @@ trigger2 = prevstateno = [300,310]
 attr = S, SA
 animtype = Hard
 damage    = 40,10
-getpower = 0,63
+getpower = 12,6
 guardflag = M
 hitflag = MA
 pausetime = 15,15
@@ -408,7 +408,7 @@ trigger2 = prevstateno = [300,310]
 attr = S, SA
 animtype = Hard
 damage    = 30,10
-getpower = 0,63
+getpower = 12,6
 guardflag = M
 hitflag = MA
 pausetime = 15,15
@@ -531,7 +531,7 @@ physics = S
 anim = 1200
 velset = 0,0
 ctrl = 0
-poweradd = 30
+poweradd = 0
 facep2 = 1
 juggle = 8
 
@@ -571,7 +571,7 @@ trigger1 = AnimElem >= 4
 attr = S, SA
 animtype = Hard
 damage    = 100,10
-getpower = 0,63
+getpower = 60,30
 guardflag = M
 hitflag = MAF
 pausetime = 15,15
@@ -765,6 +765,7 @@ trigger1 = Time = 0
 ;-------------------------------------------
 [Statedef 1001]
 type    = U
+poweradd = 0
 movetype= A
 physics = N
 anim = 1000
@@ -860,7 +861,7 @@ velset = 0,0
 ctrl = 0
 sprpriority = 2		;数字が大きいと手前,小さいと奥(-5~5)
 facep2 = 1		;相手側に振り向く
-poweradd = 50
+poweradd = 0
 
 [State 100, Snd];「桃恋火」
 type = PlaySnd
@@ -946,7 +947,7 @@ velocity = 4,0;(20f=80d);	;移動初速度(velxtime=移動距離)
 ;(Hitdef)
 attr = S, SP			;ok
 damage = 97, 23	;ok
-getpower  = 0,100		;ok
+getpower = 5,2;ok
 givepower = 0			;ok
 animtype  = Hard		;ok
 guardflag = M			;ok
@@ -999,7 +1000,7 @@ velocity = 5.5,0;(10f=55d);	;移動初速度(velxtime=移動距離)
 ;(Hitdef)
 attr = S, SP			;ok
 damage = 97, 23	;ok
-getpower  = 0,100		;ok
+getpower = 5,2;ok
 givepower = 0			;ok
 animtype  = Hard		;ok
 guardflag = M			;ok
@@ -1054,7 +1055,7 @@ velocity = 2.8,-2.8;		;移動初速度(velxtime=移動距離)
 ;(Hitdef)
 attr = S, SP			;ok
 damage = 97, 23	;ok
-getpower  = 0,100		;ok
+getpower = 5,2;ok
 givepower = 0			;ok
 animtype  = Hard		;ok
 guardflag = M			;ok
@@ -1109,7 +1110,7 @@ velocity = 5,-2.1;		;移動初速度(velxtime=移動距離)
 ;(Hitdef)
 attr = S, SP			;ok
 damage = 97, 23	;ok
-getpower  = 0,100		;ok
+getpower = 5,2;ok
 givepower = 0			;ok
 animtype  = Hard		;ok
 guardflag = M			;ok
@@ -1163,7 +1164,7 @@ velocity = 5.5,1		;移動初速度
 ;(Hitdef)
 attr = S, SP			;ok
 damage = 97, 23	;ok
-getpower  = 0,100		;ok
+getpower = 5,2;ok
 givepower = 0			;ok
 animtype  = Hard		;ok
 guardflag = M			;ok
@@ -1216,7 +1217,7 @@ velocity = 5,2.1	;	;移動初速度
 ;(Hitdef)
 attr = S, SP			;ok
 damage = 97, 23	;ok
-getpower  = 0,100		;
+getpower = 5,2;
 givepower = 0			;ok
 animtype  = Hard		;ok
 guardflag = M			;ok
@@ -1270,7 +1271,7 @@ velocity = 5,-2.1		;移動初速度
 ;(Hitdef)
 attr = S, SP			;ok
 damage = 97, 23	;ok
-getpower  = 0,100		;ok
+getpower = 5,2;ok
 givepower = 0			;ok
 animtype  = Hard		;ok
 guardflag = M			;ok
@@ -1323,7 +1324,7 @@ velocity = 6.5,0	;	;移動初速度
 ;(Hitdef)
 attr = S, SP			;ok
 damage = 97, 23	;ok
-getpower  = 0,100		;
+getpower = 5,2;
 givepower = 0			;ok
 animtype  = Hard		;ok
 guardflag = M			;ok
@@ -1516,7 +1517,7 @@ juggle  = 15
 anim = 1100
 ctrl = 0
 sprpriority = 2
-poweradd = 50
+poweradd = 0
 
 [State 1000, 4]
 type = ChangeState
@@ -1534,7 +1535,7 @@ juggle  = 15
 anim = 1150
 ctrl = 0
 sprpriority = 2
-poweradd = 50
+poweradd = 0
 
 
 [State 1000, 4]
@@ -1588,7 +1589,7 @@ velocity = 1.5,3.6;x=20f^30d y=20f^72d	;移動初速度
 ;(Hitdef)
 attr = S, SP			;ok
 damage = 97, 23	;ok
-getpower  = 0,100		;ok
+getpower = 15,7;ok
 givepower = 0			;ok
 animtype  = Hard		;ok
 guardflag = M			;ok
@@ -1644,7 +1645,7 @@ velocity = 5,2.1	;	;移動初速度
 ;(Hitdef)
 attr = S, SP			;ok
 damage = 97, 23	;ok
-getpower  = 0,100		;
+getpower = 15,7;
 givepower = 0			;ok
 animtype  = Hard		;ok
 guardflag = M			;ok
@@ -2168,7 +2169,7 @@ physics = S
 ctrl = 0
 Anim = 1300
 velset = 0, 0
-poweradd = 50
+poweradd = 0
 
 [State 183, PlaySnd]
 type = PlaySnd
@@ -2246,7 +2247,7 @@ trigger1 = Time = 0
 attr = A, SA
 animtype = Hard
 damage    = 75,17
-getpower = 0,250
+getpower = 60,30
 guardflag = MA
 hitflag = MAF
 pausetime = 12,11
@@ -2314,7 +2315,7 @@ physics = S
 ctrl = 0
 Anim = 1310
 velset = 0, 0
-poweradd = 50
+poweradd = 0
 
 [State -2,varset(22)]
 type = VarSet
@@ -2401,7 +2402,7 @@ trigger1 = var(22) = 0 && var(21) = 0
 attr = A, SA
 animtype = Hard
 damage    = 52,13
-getpower = 0,63
+getpower = 60,30
 guardflag = MA
 hitflag = MAF
 pausetime = 12,11
@@ -2429,7 +2430,7 @@ trigger1 = var(22) = 1 && var(21) = 0
 attr = A, SA
 animtype = Hard
 damage    = 44,16
-getpower = 0,125
+getpower = 60,30
 guardflag = MA
 hitflag = MAF
 pausetime = 12,11
@@ -2490,7 +2491,7 @@ physics = N
 ctrl = 0
 Anim = 1300
 velset = 0, 0
-poweradd = 50
+poweradd = 0
 
 [State 183, PlaySnd]
 type = PlaySnd
@@ -2588,7 +2589,7 @@ trigger1 = var(22) < 3 && var(21) = 0
 attr = A, SA
 animtype = Hard
 damage    = 41,11
-getpower = 0,38
+getpower = 60,30
 guardflag = M
 hitflag = MAF
 pausetime = 6,5
@@ -2616,7 +2617,7 @@ trigger1 = var(22) >= 3 && var(22) < 4 && var(21) = 0
 attr = A, SA
 animtype = Hard
 damage    = 33,14
-getpower = 0,113
+getpower = 60,30
 guardflag = M
 hitflag = MAF
 pausetime = 14,13
@@ -2687,7 +2688,7 @@ type = S
 movetype = A
 physics = S
 anim = 10000
-poweradd = 50
+poweradd = 20
 sprpriority = 1
 velset = 0, 0
 ctrl = 0
@@ -2723,7 +2724,7 @@ type = S
 movetype = A
 physics = S
 anim = 10100
-poweradd = 50
+poweradd = 20
 sprpriority = 1
 velset = 0, 0
 ctrl = 0
@@ -2889,7 +2890,7 @@ trigger2 = AnimElem = 12
 attr = S, SA
 animtype = Hard
 damage    = 81,11
-getpower = 0,63
+getpower = 30,15
 guardflag = HA
 hitflag = MAF
 pausetime = 14,14
@@ -2922,7 +2923,7 @@ trigger1 = AnimElem = 8
 attr = S, SA
 animtype = Hard
 damage    = 41,11
-getpower = 0,63
+getpower = 30,15
 guardflag = HA
 hitflag = MAF
 pausetime = 14,14
@@ -3185,6 +3186,7 @@ trigger2 = root,StateNo != 1441 || (root,StateNo = 1441 && root,MoveType != A)
 ;------------------------ 開始動作
 [Statedef 1440]
 type = S
+poweradd = 0
 movetype = A
 physics = S
 ctrl = 0
@@ -3252,7 +3254,7 @@ trigger2 = AnimElem = 5 || AnimElem = 9 || AnimElem = 13
 attr = S, SA
 animtype = Hard
 damage    = 87,12
-getpower = 0,63
+getpower = 30,15
 guardflag = HA
 hitflag = MAF
 pausetime = 14,14

@@ -1629,6 +1629,7 @@ guardflag     =
 animtype      = Light
 priority      = 1, Miss
 damage        = 0, 0
+getpower = 60,30
 sparkno       = -1
 guard.sparkno = -1
 sparkxy       = 0, 0

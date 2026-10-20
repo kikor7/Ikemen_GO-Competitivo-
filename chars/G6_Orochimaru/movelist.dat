@@ -1,0 +1,15 @@
+<#f0f000>:Special Moves:</>
+Hashirama Entrada			_QCB^A
+Tobirama Entrada			_QCB^B
+
+<#f0f000>:Hyper Moves:</>
+Partner Assist Animation <#f00000>(1000)</>			^B_+^C
+TagIn <#f00000>(500)</>			^A_+^B
+Hashirama Ataque 1 <#f00000>(1000)</>			_QCF^A
+Hashirama Ataque 2 <#f00000>(2000)</>			_QCF^C
+Hashirama Retirada <#f00000>(1000)</>			_QCB^A
+Tobirama Ataque 1 <#f00000>(1000)</>			_QCF^B
+Tobirama Retirada <#f00000>(1000)</>			_QCB^B
+Kusanagi Sword <#f00000>(1000)</>			_QCF^C
+Poison Snake <#f00000>(500)</>			_QCF^B
+Fuinjutsu Gojuufuin <#f00000>(1000)</>			_QCB^C

@@ -3,7 +3,7 @@
 type    = S
 movetype= A
 physics = N
-poweradd= 40
+poweradd= 20
 ctrl = 0
 velset = 0,0
 anim = 3000
@@ -111,7 +111,7 @@ trigger1 = frontedgedist <= -50 ;-150
 type    = S
 movetype= A
 physics = N
-poweradd= 40
+poweradd= 20
 ctrl = 0
 velset = 0,0
 anim = 3010
@@ -231,7 +231,7 @@ trigger1 = animtime = 0
 type    = S
 movetype= A
 physics = N
-poweradd= 40
+poweradd= 20
 ctrl = 0
 velset = 0,0
 anim = 3020
@@ -390,7 +390,7 @@ physics = S
 anim = 3030
 velset = 0
 ctrl = 0
-poweradd= 40
+poweradd= 20
 
 [State golpe]
 type = PlaySnd
@@ -531,7 +531,7 @@ type    = A
 movetype= A
 physics = N
 juggle  = 4
-poweradd= 110
+poweradd= 0
 velset = 0,-8
 anim = 3040
 ctrl = 0
@@ -643,7 +643,7 @@ type    = A
 movetype= A
 physics = N
 juggle  = 4
-poweradd= 110
+poweradd= 0
 velset = 0,0
 anim = 3041
 ctrl = 0

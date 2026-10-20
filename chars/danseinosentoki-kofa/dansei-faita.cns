@@ -109,12 +109,30 @@ value = 0
 [State 110, 5]
 type = ChangeState
 trigger1 = AnimTime = 0
-value = 0
-ctrl = 1
+value = 1001
+ctrl = 0
 
 ;---------------------- dodge backward 120 ------------------------------
 
 ;Œã•û‹Ù‹}‰ñ”ð
+;---------------------------------------------------------------------------
+; Recuperacion tras esquivar/rodar: sin control y golpeable unos frames,
+; para que no se pueda encadenar sin riesgo.
+;---------------------------------------------------------------------------
+[Statedef 1001]
+type = S
+movetype = I
+physics = S
+ctrl = 0
+anim = 0
+velset = 0,0
+
+[State 1001, Fin de la recuperacion]
+type = ChangeState
+trigger1 = Time >= 12
+value = 0
+ctrl = 1
+
 [Statedef 701]
 type    = S
 movetype= I
@@ -161,8 +179,8 @@ Trans = Add1
 [State 355, 3]
 type = ChangeState
 trigger1 = AnimTime = 0
-value = 0
-ctrl = 1
+value = 1001
+ctrl = 0
 
 ;---------------------------------------------------------------------------
 ; Lose by Time Over
@@ -305,7 +323,7 @@ type = S
 movetype = A
 physics = S
 anim = 200
-poweradd = 30
+poweradd = 0
 velset = 0
 ctrl = 0
 facep2 = 1
@@ -327,6 +345,7 @@ trigger1 = time = 0
 attr = S, NA
 animtype = Light
 damage = 20
+getpower = 30,15
 hitflag = MAF
 guardflag = M
 pausetime = 8,8
@@ -354,7 +373,7 @@ type = S
 movetype = A
 physics = S
 anim = 205
-poweradd = 30
+poweradd = 0
 velset = 0
 ctrl = 0
 facep2 = 1
@@ -376,6 +395,7 @@ trigger1 = time = 0
 attr = S, NA
 animtype = Light
 damage = 20
+getpower = 30,15
 hitflag = MAF
 guardflag = M
 pausetime = 8,8
@@ -403,7 +423,7 @@ type = S
 movetype = A
 physics = S
 anim = 210
-poweradd = 60
+poweradd = 0
 velset = 0
 ctrl = 0
 facep2 = 1
@@ -434,6 +454,7 @@ trigger1 = time = 0
 attr = S, NA
 animtype = Hard
 damage = 45
+getpower = 30,15
 hitflag = MAF
 guardflag = M
 pausetime = 12,12
@@ -462,7 +483,7 @@ type = S
 movetype = A
 physics = S
 anim = 216
-poweradd = 60
+poweradd = 0
 velset = 0
 ctrl = 0
 facep2 = 1
@@ -493,6 +514,7 @@ trigger1 = time = 0
 attr = S, NA
 animtype = Hard
 damage = 45
+getpower = 30,15
 hitflag = MAF
 guardflag = M
 pausetime = 12,12
@@ -523,7 +545,7 @@ type = S
 movetype = A
 physics = S
 anim = 230
-poweradd = 30
+poweradd = 0
 velset = 0
 ctrl = 0
 facep2 = 1
@@ -546,6 +568,7 @@ trigger1 = time = 0
 attr = S, NA
 animtype = Light
 damage = 20
+getpower = 30,15
 guardflag = M
 hitflag = MAF
 pausetime = 8,8
@@ -575,7 +598,7 @@ type = S
 movetype = A
 physics = S
 anim = 235
-poweradd = 30
+poweradd = 0
 velset = 0
 ctrl = 0
 facep2 = 1
@@ -598,6 +621,7 @@ trigger1 = time = 0
 attr = S, NA
 animtype = Light
 damage = 20
+getpower = 30,15
 guardflag = M
 hitflag = MAF
 pausetime = 8,8
@@ -628,7 +652,7 @@ type = S
 movetype = A
 physics = S
 anim = 236
-poweradd = 30
+poweradd = 0
 velset = 0
 ctrl = 0
 facep2 = 1
@@ -651,6 +675,7 @@ trigger1 = time = 0
 attr = S, NA
 animtype = Light
 damage = 20
+getpower = 30,15
 guardflag = M
 hitflag = MAF
 pausetime = 8,8
@@ -679,7 +704,7 @@ type = S
 movetype = A
 physics = S
 anim = 240
-poweradd = 60
+poweradd = 0
 velset = 0
 ctrl = 0
 facep2 = 1
@@ -701,6 +726,7 @@ trigger1 = time = 0
 attr = S, NA
 animtype = Hard
 damage = 45
+getpower = 30,15
 hitflag = MAF
 guardflag = M
 pausetime = 12,12
@@ -734,7 +760,7 @@ type = S
 movetype = A
 physics = S
 anim = 246
-poweradd = 60
+poweradd = 0
 velset = 0
 ctrl = 0
 facep2 = 1
@@ -756,6 +782,7 @@ trigger1 = time = 0
 attr = S, NA
 animtype = Hard
 damage = 45
+getpower = 30,15
 hitflag = MAF
 guardflag = M
 pausetime = 12,12
@@ -783,7 +810,7 @@ type = S
 movetype = A
 physics = S
 anim = 500
-poweradd = 80
+poweradd = 0
 velset = 0
 ctrl = 0
 facep2 = 1
@@ -835,6 +862,7 @@ trigger1 = time = 0
 attr = S, NA
 animtype = Hard
 damage = 100,10
+getpower = 30,15
 guardflag = M
 hitflag = MAF
 pausetime = 15,15
@@ -867,7 +895,7 @@ type = C
 movetype = A
 physics = C
 anim = 400
-poweradd = 30
+poweradd = 0
 velset = 0
 ctrl = 0
 facep2 = 1
@@ -898,6 +926,7 @@ trigger1 = time = 0
 attr = C, NA
 animtype = Light
 damage = 20
+getpower = 30,15
 guardflag = M
 hitflag = MAF
 pausetime = 8,8
@@ -925,7 +954,7 @@ type = C
 movetype = A
 physics = C
 anim = 410
-poweradd = 60
+poweradd = 0
 velset = 0
 ctrl = 0
 facep2 = 1
@@ -956,6 +985,7 @@ trigger1 = time = 0
 attr = C, NA
 animtype = Hard
 damage = 45
+getpower = 30,15
 guardflag = M
 hitflag = MAF
 pausetime = 12,12
@@ -984,7 +1014,7 @@ type = C
 movetype = A
 physics = C
 anim = 430
-poweradd = 30
+poweradd = 0
 velset = 0
 ctrl = 0
 facep2 = 1
@@ -1006,6 +1036,7 @@ trigger1 = time = 0
 attr = C, NA
 animtype = Light
 damage = 20
+getpower = 30,15
 guardflag = L
 hitflag = MAF
 pausetime = 8,8
@@ -1033,7 +1064,7 @@ type = C
 movetype = A
 physics = C
 anim = 440
-poweradd = 60
+poweradd = 0
 velset = 0
 ctrl = 0
 facep2 = 1
@@ -1063,6 +1094,7 @@ type = HitDef
 trigger1 = time = 0
 attr = C, NA
 damage = 45
+getpower = 30,15
 guardflag = L
 hitflag = MAF
 pausetime = 12,12
@@ -1091,7 +1123,7 @@ type = A
 movetype = A
 physics = A
 anim = 600
-poweradd = 30
+poweradd = 0
 ctrl = 0
 
 [State 0, PlaySnd]
@@ -1111,6 +1143,7 @@ trigger1 = time = 0
 attr = A, NA
 animtype = Medium
 damage = 20
+getpower = 30,15
 hitflag = MAF
 guardflag = H
 priority = 3
@@ -1136,7 +1169,7 @@ type = A
 movetype = A
 physics = A
 anim = 610
-poweradd = 60
+poweradd = 0
 ctrl = 0
 
 [State 0, PlaySnd]
@@ -1156,6 +1189,7 @@ trigger1 = time = 0
 attr = A, NA
 animtype = hard
 damage = 45
+getpower = 30,15
 hitflag = MAF
 guardflag = H
 priority = 3
@@ -1179,7 +1213,7 @@ type = A
 movetype = A
 physics = A
 anim = 630
-poweradd = 30
+poweradd = 0
 ctrl = 0
 
 [State 0, PlaySnd]
@@ -1199,6 +1233,7 @@ trigger1 = time = 0
 attr = A, NA
 animtype = Medium
 damage = 20
+getpower = 30,15
 hitflag = MAF
 guardflag = H
 pausetime = 12,12
@@ -1223,7 +1258,7 @@ type = A
 movetype = A
 physics = A
 anim = 640
-poweradd = 60
+poweradd = 0
 ctrl = 0
 
 [State 0, PlaySnd]
@@ -1243,6 +1278,7 @@ trigger1 = time = 0
 attr = A, NA
 animtype = hard
 damage = 45
+getpower = 30,15
 guardflag = H
 pausetime = 12,12
 sparkno = S30002
@@ -1263,7 +1299,7 @@ air.velocity = -2,-4
 type = A
 movetype = A
 physics = A
-poweradd = 80
+poweradd = 0
 anim = 650
 ctrl = 0
 
@@ -1287,6 +1323,7 @@ trigger1 = time = 0
 attr = A, NA
 animtype = Hard
 damage = 100,10
+getpower = 30,15
 guardflag = M
 pausetime = 15,15
 sparkno = S30002
@@ -1336,7 +1373,7 @@ ctrl = 0
 type = HitDef
 trigger1 = animelem= 1
 attr = S, NT
-getpower = 50
+getpower = 60,30
 givepower = 15
 guardflag =
 guard.dist = 0
@@ -1642,6 +1679,7 @@ type = HitDef
 trigger1 = time = 0
 attr = S, SA
 damage = 0
+getpower = 30,15
 animtype = Hard
 guardflag = L
 hitflag = MAF
@@ -1875,7 +1913,7 @@ type = S
 movetype = A
 physics = S
 anim = 1000
-poweradd = 100
+poweradd = 20
 ctrl = 0
 velset = 0
 facep2 = 1
@@ -1975,6 +2013,7 @@ offset = 89,-75
 velocity = 6,0
 hitflag = MAF
 damage = 120,12
+getpower = 30,15
 animtype = Hard
 guardflag = M
 pausetime = 0,12
@@ -2015,7 +2054,7 @@ type = S
 movetype = A
 physics = S
 anim = 1100
-poweradd = 100
+poweradd = 0
 velset = 0
 ctrl = 0
 facep2 = 1
@@ -2111,6 +2150,7 @@ trigger1 = time = 0
 attr = S, NA
 animtype = Hard
 damage = 60,6
+getpower = 60,30
 hitflag = MAF
 guardflag = M
 pausetime = 15,15
@@ -2258,7 +2298,7 @@ type = S
 movetype = A
 physics = S
 anim = 1200
-poweradd = 100
+poweradd = 0
 velset = 0
 ctrl = 0
 facep2 = 1
@@ -2346,6 +2386,7 @@ trigger1 = time = 0
 attr = S, NA
 animtype = Hard
 damage = 120,12
+getpower = 60,30
 guardflag = M
 hitflag = MAF
 pausetime = 15,15
@@ -2441,7 +2482,7 @@ type = S
 movetype = A
 physics = S
 anim = 1300
-poweradd = 100
+poweradd = 0
 velset = 0
 ctrl = 0
 facep2 = 1
@@ -2490,6 +2531,7 @@ trigger1 = time = 0
 attr = S, NA
 animtype = hard
 damage = 60,6
+getpower = 30,15
 guardflag = M
 hitflag = MAF
 pausetime = 15,15
@@ -2605,6 +2647,7 @@ trigger1 = time = 0
 attr = S, NA
 animtype = Hard
 damage = 60,6
+getpower = 30,15
 guardflag = M
 hitflag = MAFD
 pausetime = 15,15
@@ -2640,7 +2683,7 @@ type = S
 movetype = A
 physics = S
 anim = 1400
-poweradd = 100
+poweradd = 0
 velset = 0
 ctrl = 0
 facep2 = 1
@@ -2804,6 +2847,7 @@ trigger5 = animelem = 18
 attr = S, NA
 animtype = Hard
 damage = 20,2
+getpower = 30,15
 hitflag = MAF
 guardflag = M
 pausetime = 7,7
@@ -2826,6 +2870,7 @@ trigger1 = animelem = 21
 attr = S, NA
 animtype = Hard
 damage = 20,
+getpower = 30,15
 hitflag = MAF
 guardflag = M
 pausetime = 15,15

@@ -14,7 +14,7 @@ anim = 1000
 ctrl = 0
 velset = 0,0
 sprPriority = 1
-poweradd = 84 * !var(20)
+poweradd = 20 * !var(20)
 faceP2 = 1
 
 [State 110, Dust Helper]
@@ -169,6 +169,7 @@ fvar(11) = (Root, fvar(10)) * ifElse(var(9), 1.2, 1)
 
 [State 1010, Miss]
 type = HitDef
+getpower = 30,15
 trigger1 = 1
 attr = S,SP
 hitFlag =
@@ -209,7 +210,7 @@ air.fall=1
 fall=1
 fall.recover=!(root,var(20))
 fall.recovertime=30
-getpower= ifelse(p2movetype=H,72,144)*!(root,var(20)), 36*!(root,var(20))
+getpower = 30,15
 givepower=36,36
 envshake.time=14
 envshake.freq=120
@@ -369,7 +370,7 @@ trigger3 = NumHelper(1010) > 1
 type    = A
 movetype= A
 physics = N
-poweradd= 10 * !var(20)
+poweradd= 20 * !var(20)
 ctrl = 0
 anim=1002
 sprpriority = 2
@@ -517,6 +518,7 @@ fvar(11) = (Root, fvar(10)) * ifElse(var(9), 1.2, 1)
 
 [State 1020, Miss]
 type = HitDef
+getpower = 30,15
 trigger1 = 1
 attr = S,SP
 hitFlag =
@@ -552,7 +554,7 @@ air.fall=1
 fall=1
 fall.recover=!(root,var(20))
 fall.recovertime=30
-getpower= ifelse(p2movetype=H,72,144)*!(root,var(20)), 36*!(root,var(20))
+getpower = 30,15
 givepower=36,36
 envshake.time=14
 envshake.freq=120
@@ -587,7 +589,7 @@ type    = S
 movetype= A
 physics = N
 juggle  = 8
-poweradd= 20
+poweradd= 0
 velset = 0,0
 anim = 1100
 sprpriority = 1
@@ -663,6 +665,7 @@ type = HitDef
 trigger1 = TimeMod = 4, 3
 attr = S, SA
 damage = 45
+getpower = 60,30
 animtype = medium
 guardflag = MA
 hitflag = MAF
@@ -813,7 +816,7 @@ type    = S
 movetype= A
 physics = S
 juggle  = 4
-poweradd= 120
+poweradd= 0
 velset = 0,0
 ctrl = 0
 sprpriority = 2

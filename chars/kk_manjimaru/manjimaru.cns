@@ -285,7 +285,7 @@ value = 0,0
 type = HitDef           ;攻击定义
 trigger1 = AnimElem = 4 ;第4个动作（这里表示第三个动作打中敌人）
 attr = S, NA            ;攻击类型(这里表示站立,正常攻击)
-getpower = 0           ;击中得Power
+getpower = 30,15;击中得Power
 givepower = 0          ;击中给敌人Power
 damage = 78, 0         ;击中敌人损伤值！（前面是打中，后面是防御）
 animtype = Light       ;等级：  Light轻 Medium中 Hard重 Back后退 
@@ -414,7 +414,7 @@ value = 0, 12
 type = HitDef
 trigger1 = AnimElem = 4
 attr = S, NA
-getpower = 0
+getpower = 30,15
 givepower = 0
 damage = 98, 0
 animtype = Medium
@@ -559,7 +559,7 @@ value = 0, 13
 type = HitDef
 trigger1 = AnimElem = 9
 attr = S, NA
-getpower = 0
+getpower = 30,15
 givepower = 0
 damage = 168, 0
 animtype = Hard
@@ -681,7 +681,7 @@ value = 0, 14
 type = HitDef
 trigger1 = AnimElem = 2
 attr = S, NA
-getpower = 0
+getpower = 30,15
 givepower = 0
 damage = 30, 0
 animtype = Light
@@ -803,7 +803,7 @@ value = 0, 15
 type = HitDef
 trigger1 = AnimElem = 5
 attr = S, NA
-getpower = 0
+getpower = 30,15
 givepower = 0
 damage = 101, 0
 animtype = Medium
@@ -938,7 +938,7 @@ value = 0, 32
 type = HitDef
 trigger1 = AnimElem = 7
 attr = S, NA
-getpower = 0
+getpower = 30,15
 givepower = 0
 damage = 105, 0
 animtype = Hard
@@ -1073,7 +1073,7 @@ value = 0, 14
 type = HitDef
 trigger1 = AnimElem = 3
 attr = S, NA
-getpower = 0
+getpower = 30,15
 givepower = 0
 damage = 48, 0
 animtype = Light
@@ -1195,7 +1195,7 @@ value = 0, 11
 type = HitDef
 trigger1 = AnimElem = 6
 attr = S, NA
-getpower = 0
+getpower = 30,15
 givepower = 0
 damage = 98, 0
 animtype = Medium
@@ -1317,7 +1317,7 @@ value = 0, 14
 type = HitDef
 trigger1 = AnimElem = 3
 attr = S, NA
-getpower = 0
+getpower = 30,15
 givepower = 0
 damage = 30, 0
 animtype = Light
@@ -1439,7 +1439,7 @@ value = 0, 14
 type = HitDef
 trigger1 = AnimElem = 4
 attr = S, NA
-getpower = 0
+getpower = 30,15
 givepower = 0
 damage = 75, 0
 animtype = Medium
@@ -1561,7 +1561,7 @@ value = 0, 1
 type = HitDef
 trigger1 = AnimElem = 8
 attr = S, NA
-getpower = 0
+getpower = 30,15
 givepower = 0
 damage = 168, 0
 animtype = Hard
@@ -1683,7 +1683,7 @@ value = 0, 15
 type = HitDef
 trigger1 = AnimElem = 5
 attr = S, NA
-getpower = 0
+getpower = 30,15
 givepower = 0
 damage = 107, 0
 animtype = Hard
@@ -1816,7 +1816,7 @@ x = 6
 type = HitDef
 trigger1 = AnimElem = 5
 attr = S, NA
-getpower = 0
+getpower = 60,30
 givepower = 0
 damage = 308, 0
 animtype = Hard
@@ -1961,7 +1961,7 @@ x = 5
 type = HitDef
 trigger1 = AnimElem = 8
 attr = S, NA
-getpower = 0
+getpower = 30,15
 givepower = 0
 damage = 168, 0
 animtype = Hard
@@ -1989,7 +1989,7 @@ guard.velocity = -11
 type = HitDef
 trigger1 = AnimElem = 10
 attr = S, NA
-getpower = 0
+getpower = 30,15
 givepower = 0
 damage = 168, 0
 animtype = Hard
@@ -2066,7 +2066,7 @@ pos = -20,0             ;动画位置（表示在postype哪位置出现）
 type = HitDef
 trigger1 = AnimElem = 2
 attr = S, NA
-getpower = 0
+getpower = 60,30
 givepower = 0
 damage = 146, 0
 animtype = Hard
@@ -2226,7 +2226,7 @@ pos = -20,0
 type = HitDef
 trigger1 = AnimElem = 6
 attr = S, NA
-getpower = 0
+getpower = 60,30
 givepower = 0
 damage = 98, 0
 animtype = Medium
@@ -2378,7 +2378,7 @@ pos = -20,0
 type = HitDef
 trigger1 = AnimElem = 4
 attr = S, NA
-getpower = 0
+getpower = 60,30
 givepower = 0
 damage = 75, 0
 animtype = Medium
@@ -2516,7 +2516,7 @@ value = 0, 14
 type = HitDef
 trigger1 = AnimElem = 4
 attr = C, NA
-getpower = 0
+getpower = 30,15
 givepower = 0
 damage = 48, 0
 animtype = Light
@@ -2636,7 +2636,7 @@ value = 0, 15
 type = HitDef
 trigger1 = AnimElem = 4
 attr = C, NA
-getpower = 0
+getpower = 30,15
 givepower = 0
 damage = 89, 0
 animtype = Medium
@@ -2757,7 +2757,7 @@ value = 0, 19
 type = HitDef
 trigger1 = AnimElem = 12
 attr = C, NA
-getpower = 0
+getpower = 30,15
 givepower = 0
 damage = 168, 0
 animtype = Hard
@@ -2879,7 +2879,7 @@ value = 0, 14
 type = HitDef
 trigger1 = AnimElem = 2
 attr = C, NA
-getpower = 0
+getpower = 30,15
 givepower = 0
 damage = 30, 0
 animtype = Light
@@ -2999,7 +2999,7 @@ value = 0, 15
 type = HitDef
 trigger1 = AnimElem = 7
 attr = C, NA
-getpower = 0
+getpower = 30,15
 givepower = 0
 damage = 70, 0
 animtype = Medium
@@ -3120,7 +3120,7 @@ value = 0, 22
 type = HitDef
 trigger1 = AnimElem = 5
 attr = C, NA
-getpower = 0
+getpower = 30,15
 givepower = 0
 damage = 105, 0
 animtype = Hard
@@ -3245,7 +3245,7 @@ value = 0, 25
 type = HitDef
 trigger1 = AnimElem = 2
 attr = A, NA
-getpower = 0
+getpower = 30,15
 givepower = 0
 damage = 48, 0
 animtype = Light
@@ -3365,7 +3365,7 @@ value = 0, 15
 type = HitDef
 trigger1 = AnimElem = 6
 attr = A, NA
-getpower = 0
+getpower = 30,15
 givepower = 0
 damage = 99, 0
 animtype = Hard
@@ -3484,7 +3484,7 @@ value = 0, 15
 type = HitDef
 trigger1 = AnimElem = 7
 attr = A, NA
-getpower = 0
+getpower = 30,15
 givepower = 0
 damage = 120, 0
 animtype = Hard
@@ -3544,7 +3544,7 @@ value = 0, 14
 type = HitDef
 trigger1 = AnimElem = 6
 attr = A, NA
-getpower = 0
+getpower = 30,15
 givepower = 0
 damage = 48, 0
 animtype = Hard
@@ -3664,7 +3664,7 @@ value = 0, 25
 type = HitDef
 trigger1 = AnimElem = 2
 attr = A, NA
-getpower = 0
+getpower = 30,15
 givepower = 0
 damage = 70, 0
 animtype = Hard
@@ -3784,7 +3784,7 @@ value = 0, 14
 type = HitDef
 trigger1 = AnimElem = 5
 attr = A, NA
-getpower = 0
+getpower = 30,15
 givepower = 0
 damage = 80, 0
 animtype = Hard
@@ -3844,7 +3844,7 @@ value = 0, 32
 type = HitDef
 trigger1 = AnimElem = 8
 attr = A, NA
-getpower = 0
+getpower = 30,15
 givepower = 0
 damage = 120, 0
 animtype = Hard
@@ -3904,7 +3904,7 @@ value = 0, 22
 type = HitDef
 trigger1 = AnimElem = 5
 attr = A, NA
-getpower = 0
+getpower = 30,15
 givepower = 0
 damage = 150, 0
 animtype = Hard
@@ -4024,7 +4024,7 @@ value = 0, 14
 type = HitDef
 trigger1 = AnimElem = 3
 attr = A, NA
-getpower = 0
+getpower = 30,15
 givepower = 0
 damage = 30, 0
 animtype = Hard
@@ -4144,7 +4144,7 @@ value = 0, 15
 type = HitDef
 trigger1 = AnimElem = 3
 attr = A, NA
-getpower = 0
+getpower = 30,15
 givepower = 0
 damage = 115, 0
 animtype = Hard
@@ -4247,6 +4247,7 @@ ctrl = 1
 ;------抛剑的动作-----------------------
 [Statedef 700]
 type    = A
+poweradd = 20
 movetype= A
 physics = N
 juggle  = 1
@@ -4315,7 +4316,7 @@ y = 10
 type = HitDef
 trigger1 = AnimElem = 1
 attr = A, NA
-getpower = 0
+getpower = 30,15
 givepower = 0
 damage = 160, 0
 animtype = Hard
@@ -4598,6 +4599,7 @@ trigger1 = time >= 1
 attr = S, NA
 animtype  = HARD
 damage    = 0
+getpower = 30,15
 hitflag = MAF
 ;guardflag = L
 pausetime = 0,0
@@ -4657,6 +4659,7 @@ trigger1 = time >= 1
 attr = S, NA
 animtype  = HARD
 damage    = 0
+getpower = 30,15
 hitflag = MAF
 ;guardflag = L
 pausetime = 0,0
@@ -4857,6 +4860,7 @@ value = 0, 25
 
 [State 801, 0]
 type = HitDef
+getpower = 60,30
 Trigger1 = Time = 0
 attr = S, NT
 hitflag = M-
@@ -4904,6 +4908,7 @@ sprpriority = 2
 
 [State 801, 0]
 type = HitDef
+getpower = 60,30
 Trigger1 = Time = 0
 attr = S, NT
 hitflag = M-
@@ -5160,7 +5165,7 @@ value = 30,0
 type = HitDef
 trigger1 = AnimElem = 1
 attr = A, NA
-getpower = 0
+getpower = 60,30
 givepower = 0
 damage = 127, 35
 animtype = Hard
@@ -5256,7 +5261,7 @@ value = 0, 15
 type = HitDef
 trigger1 = AnimElem = 8
 attr = S, NA
-getpower = 0
+getpower = 60,30
 givepower = 0
 damage = 96, 0
 animtype = Hard
@@ -5337,7 +5342,7 @@ value = 0, 15
 type = HitDef
 trigger1 = AnimElem = 7
 attr = S, NA
-getpower = 0
+getpower = 60,30
 givepower = 0
 damage = 98, 0
 animtype = Hard
@@ -5418,7 +5423,7 @@ value = 0, 22
 type = HitDef
 trigger1 = AnimElem = 10
 attr = S, NA
-getpower = 0
+getpower = 60,30
 givepower = 0
 damage = 126, 0
 animtype = Hard
@@ -5500,7 +5505,7 @@ value = 0, 15
 type = HitDef
 trigger1 = AnimElem = 8
 attr = S, NA
-getpower = 0
+getpower = 60,30
 givepower = 0
 damage = 96, 0
 animtype = Hard
@@ -5581,7 +5586,7 @@ value = 0, 15
 type = HitDef
 trigger1 = AnimElem = 7
 attr = S, NA
-getpower = 0
+getpower = 60,30
 givepower = 0
 damage = 98, 0
 animtype = Hard
@@ -5662,7 +5667,7 @@ value = 0, 22
 type = HitDef
 trigger1 = AnimElem = 8
 attr = S, NA
-getpower = 0
+getpower = 60,30
 givepower = 0
 damage = 126, 0
 animtype = Hard
@@ -5744,7 +5749,7 @@ value = 0, 15
 type = HitDef
 trigger1 = AnimElem = 8
 attr = S, NA
-getpower = 0
+getpower = 60,30
 givepower = 0
 damage = 96, 0
 animtype = Hard
@@ -5825,7 +5830,7 @@ value = 0, 15
 type = HitDef
 trigger1 = AnimElem = 7
 attr = S, NA
-getpower = 0
+getpower = 60,30
 givepower = 0
 damage = 98, 0
 animtype = Hard
@@ -5906,7 +5911,7 @@ value = 0, 22
 type = HitDef
 trigger1 = AnimElem = 8
 attr = S, NA
-getpower = 0
+getpower = 60,30
 givepower = 0
 damage = 126, 0
 animtype = Hard

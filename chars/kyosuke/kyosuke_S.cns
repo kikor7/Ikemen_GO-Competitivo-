@@ -8,7 +8,7 @@
 	physics		= S
 	anim		= 1000
 	ctrl		= 0
-	poweradd	= 35
+	poweradd	= 0
 
 	[State 1000, 軸位置]
 		type		= PosSet
@@ -481,7 +481,7 @@
 	physics		= S
 	anim		= 1050
 	ctrl		= 0
-	poweradd	= 45
+	poweradd	= 0
 
 	[State 1050, 軸位置]
 		type		= PosSet
@@ -745,7 +745,7 @@
 	physics		= S
 	anim		= 1100
 	ctrl		= 0
-	poweradd	= 45
+	poweradd	= 0
 
 	[State 1100, 物理的なキャラの幅]
 		type			= Width
@@ -997,7 +997,7 @@
 	physics		= S
 	anim		= 1100
 	ctrl		= 0
-	poweradd	= 45
+	poweradd	= 0
 
 	[State 1150, 物理的なキャラの幅]
 		type			= Width
@@ -1230,7 +1230,7 @@
 	physics		= N
 	anim		= 1200
 	ctrl		= 0
-	poweradd	= 20
+	poweradd	= 0
 
 	[State 1200, 音を鳴らす]
 		type		= PlaySnd
@@ -1337,7 +1337,7 @@
 	physics		= S
 	anim		= 1300
 	ctrl		= 0
-	poweradd	= 35
+	poweradd	= 0
 
 	[State 1300, 音を鳴らす]
 		type		= PlaySnd

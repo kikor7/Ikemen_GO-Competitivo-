@@ -1,0 +1,17 @@
+<#f0f000>:Special Moves:</>
+Miyazato Gundan gathers			_B_D_F^A_+^B_+^C
+Tight Chain			_B_D_F^B
+Spiral Chain			_DSF^B
+Spiral Chain			_DSF^C
+Cyclone Chain			_F_D_B^C
+Come on! Saki!			_D_B^A
+Come on! Shoko!			_D_B^B
+My Turn!			_D_B^C
+B Steal			^B_+^C
+Throw			^A_+^B
+
+<#f0f000>:Hyper Moves:</>
+Rumble Chain <#f00000>(1000)</>			_F_D_B^X
+Spiral Chain EX <#f00000>(1000)</>			_DSF^X
+BIGBANG MODE <#f00000>(3000)</>			^A_+^B_+^C
+B Counter <#f00000>(1000)</>			^B_+^C

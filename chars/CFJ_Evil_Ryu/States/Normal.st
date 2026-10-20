@@ -39,7 +39,7 @@ damage = ceil(ifElse(fvar(11) * 23 < 7, 7, fvar(11) * 23)), 0
 guardflag = M
 hitflag = MAF
 ID = 200
-getpower = 10 * !var(20), 0
+getpower = 15,7
 givepower = 30, 30
 priority = 4, Hit
 pausetime = 8, 8
@@ -78,7 +78,7 @@ damage = ceil(ifElse(fvar(11) * 23 < 7, 7, fvar(11) * 23)), 0
 guardflag = M
 hitflag = MAF
 ID = 200
-getpower = 10 * !var(20), 0
+getpower = 15,7
 givepower = 30, 30
 priority = 4, Hit
 pausetime = 8, 8
@@ -127,7 +127,7 @@ physics=S
 juggle=ifelse(numtarget,15,8)
 anim=ifelse(p2bodydist x<25,206+(var(1)=2)*2,205)
 velset=0,0
-poweradd=18*!var(20)
+poweradd=0*!var(20)
 sprpriority=1
 ctrl=0
 facep2=1
@@ -171,7 +171,7 @@ air.type=Low
 air.hittime=18
 air.velocity= ifelse(var(20), -2.5, -5), -7
 air.cornerpush.veloff = 0
-getpower= ifelse(p2movetype=H,72,144)*!var(20), 36*!var(20)
+getpower = 10,5
 givepower=36,36
 yaccel=.5
 fall.recover=0
@@ -203,7 +203,7 @@ air.type=Low
 air.hittime=18
 air.velocity= ifelse(var(20), -2.5, -5), -7
 air.cornerpush.veloff = 0
-getpower= ifelse(p2movetype=H,72,144)*!var(20), 36*!var(20)
+getpower = 10,5
 givepower=36,36
 yaccel=.5
 fall.recover=0
@@ -235,7 +235,7 @@ air.type=Low
 air.hittime=18
 air.velocity= ifelse(var(20), -2.5, -5), -7
 air.cornerpush.veloff = 0
-getpower= ifelse(p2movetype=H,72,144)*!var(20), 36*!var(20)
+getpower = 10,5
 givepower=36,36
 yaccel=.5
 fall.recover=0
@@ -259,7 +259,7 @@ physics=S
 juggle=ifelse(numtarget,15,8)
 anim=207
 velset=0,0
-poweradd=18*!var(20)
+poweradd=0*!var(20)
 sprpriority=1
 ctrl=0
 facep2=1
@@ -359,7 +359,7 @@ physics=S
 juggle=ifelse(numtarget,15,8)
 anim=ifelse((prevstateno=710),210+(var(1)!=1)*3,ifelse(p2bodydist x<25,211,210+(var(1)!=1)*3))
 velset=0,0
-poweradd=18*!var(20)
+poweradd=0*!var(20)
 sprpriority=1
 ctrl=0
 facep2=1
@@ -403,7 +403,7 @@ air.type=Low
 air.hittime=18
 air.velocity= ifelse(var(20), -2.5, -5), -7
 air.cornerpush.veloff = 0
-getpower= ifelse(p2movetype=H,72,216)*!var(20), 36*!var(20)
+getpower = 5,2
 givepower=36,36
 yaccel=.5
 fall.recover=0
@@ -435,7 +435,7 @@ air.type=Low
 air.hittime=18
 air.velocity= ifelse(var(20), -2.5, -5), -7
 air.cornerpush.veloff = 0
-getpower= ifelse(p2movetype=H,72,216)*!var(20), 36*!var(20)
+getpower = 5,2
 givepower=36,36
 yaccel=.5
 fall.recover=0
@@ -468,7 +468,7 @@ air.type=Low
 air.hittime=18
 air.velocity= ifelse(var(20), -2.5, -5), -7
 air.cornerpush.veloff = 0
-getpower= ifelse(p2movetype=H,72,216)*!var(20), 36*!var(20)
+getpower = 5,2
 givepower=36,36
 yaccel=.5
 fall.recover=0
@@ -500,7 +500,7 @@ air.type=Low
 air.hittime=18
 air.velocity= ifelse(var(20), -2.5, -5), -7
 air.cornerpush.veloff = 0
-getpower= ifelse(p2movetype=H,72,216)*!var(20), 36*!var(20)
+getpower = 5,2
 givepower=36,36
 yaccel=.5
 fall.recover=0
@@ -536,7 +536,7 @@ ground.cornerpush.veloff = 0
 guard.velocity= ifelse(var(20), -5.77, -10.52)
 guard.cornerpush.veloff = 0;ifelse(var(20), -6.82, -12.74)
 fall=1
-getpower= ifelse(p2movetype=H,72,216)*!var(20), 36*!var(20)
+getpower = 5,2
 givepower=36,36
 yaccel=.5
 fall.recover=0
@@ -572,7 +572,7 @@ ground.cornerpush.veloff = 0
 guard.velocity= ifelse(var(20), -5.77, -10.52)
 guard.cornerpush.veloff = 0;ifelse(var(20), -6.82, -12.74)
 fall=1
-getpower= ifelse(p2movetype=H,72,216)*!var(20), 36*!var(20)
+getpower = 5,2
 givepower=36,36
 yaccel=.5
 fall.recover=0
@@ -596,7 +596,7 @@ physics=S
 juggle=ifelse(numtarget,15,8)
 anim=212
 velset=0,0
-poweradd=18*!var(20)
+poweradd=0*!var(20)
 sprpriority=1
 ctrl=0
 facep2=1
@@ -645,7 +645,7 @@ air.type=Low
 air.hittime=18
 air.velocity= ifelse(var(20), -2.5, -5), -7
 air.cornerpush.veloff = 0
-getpower= ifelse(p2movetype=H,72,216)*!var(20), 36*!var(20)
+getpower = 30,15
 givepower=36,36
 yaccel=.5
 fall.recover=0
@@ -669,7 +669,7 @@ physics=S
 juggle=ifelse(numtarget,15,8)
 anim=213
 velset=0,0
-poweradd=18*!var(20)
+poweradd=0*!var(20)
 sprpriority=1
 ctrl=0
 facep2=1
@@ -720,7 +720,7 @@ fall=1
 ground.cornerpush.veloff = 0
 guard.velocity= ifelse(var(20), -5.77, -10.52)
 guard.cornerpush.veloff = 0;ifelse(var(20), -6.82, -12.74)
-getpower= ifelse(p2movetype=H,72,216)*!var(20), 36*!var(20)
+getpower = 30,15
 givepower=36,36
 yaccel=.5
 fall.recover=0
@@ -788,7 +788,7 @@ air.type=Low
 air.hittime=18
 air.velocity= ifelse(var(20), -2.5, -5), -7
 air.cornerpush.veloff = 0
-getpower= 72*!var(20), 36*!var(20)
+getpower = 30,15
 givepower=36,36
 yaccel=.5
 fall.recover=0
@@ -812,7 +812,7 @@ physics=S
 juggle=ifelse(numtarget,15,8)
 anim=ifelse((prevstateno=710 || p2bodydist x<25),221,220)
 velset=0,0
-poweradd=18*!var(20)
+poweradd=0*!var(20)
 sprpriority=1
 ctrl=0
 facep2=1
@@ -856,7 +856,7 @@ air.type=Low
 air.hittime=18
 air.velocity= ifelse(var(20), -2.5, -5), -7
 air.cornerpush.veloff = 0
-getpower= ifelse(p2movetype=H,72,144)*!var(20), 36*!var(20)
+getpower = 15,7
 givepower=36,36
 yaccel=.5
 fall.recover=0
@@ -888,7 +888,7 @@ air.type=Low
 air.hittime=18
 air.velocity= ifelse(var(20), -2.5, -5), -7
 air.cornerpush.veloff = 0
-getpower= ifelse(p2movetype=H,72,144)*!var(20), 36*!var(20)
+getpower = 15,7
 givepower=36,36
 yaccel=.5
 fall.recover=0
@@ -912,7 +912,7 @@ physics=N
 juggle=ifelse(numtarget,15,8)
 anim=222
 velset=vel x,0
-poweradd=18*!var(20)
+poweradd=0*!var(20)
 sprpriority=1
 ctrl=0
 facep2=1
@@ -994,7 +994,7 @@ air.type=Low
 air.hittime=18
 air.velocity= ifelse(var(20), -2.5, -5), -7
 air.cornerpush.veloff = 0
-getpower= ifelse(p2movetype=H,72,144)*!var(20), 36*!var(20)
+getpower = 30,15
 givepower=36,36
 yaccel=.5
 fall.recover=0
@@ -1018,7 +1018,7 @@ physics=S
 juggle=ifelse(numtarget,15,8)
 anim=ifelse(p2bodydist x<25,226,225)
 velset=0,0
-poweradd=18*!var(20)
+poweradd=0*!var(20)
 sprpriority=1
 ctrl=0
 facep2=1
@@ -1063,7 +1063,7 @@ air.type=Low
 air.hittime=18
 air.velocity= ifelse(var(20), -2.5, -5), -7
 air.cornerpush.veloff = 0
-getpower= ifelse(p2movetype=H,72,216)*!var(20), 36*!var(20)
+getpower = 10,5
 givepower=36,36
 yaccel=.5
 fall.recover=0
@@ -1095,7 +1095,7 @@ air.type=Low
 air.hittime=18
 air.velocity=-3,-3
 air.cornerpush.veloff = 0
-getpower= ifelse(p2movetype=H,72,216)*!var(20), 36*!var(20)
+getpower = 10,5
 givepower=36,36
 yaccel=.5
 fall.recover=0
@@ -1127,7 +1127,7 @@ air.type=Low
 air.hittime=18
 air.velocity= ifelse(var(20), -4, -8), 8
 air.cornerpush.veloff = 0
-getpower= ifelse(p2movetype=H,72,216)*!var(20), 36*!var(20)
+getpower = 10,5
 givepower=36,36
 yaccel=.5
 air.fall=1
@@ -1197,7 +1197,7 @@ air.type=Low
 air.hittime=18
 air.velocity= ifelse(var(20), -2.5, -5), -7
 air.cornerpush.veloff = 0
-getpower= 72*!var(20), 36*!var(20)
+getpower = 30,15
 givepower=36,36
 yaccel=.5
 fall.recover=0
@@ -1221,7 +1221,7 @@ physics=C
 juggle=ifelse(numtarget,15,8)
 anim=235
 velset=0,0
-poweradd=18*!var(20)
+poweradd=0*!var(20)
 sprpriority=1
 ctrl=0
 facep2=1
@@ -1265,7 +1265,7 @@ air.type=Low
 air.hittime=18
 air.velocity= ifelse(var(20), -2.5, -5), -7
 air.cornerpush.veloff = 0
-getpower= ifelse(p2movetype=H,72,144)*!var(20), 36*!var(20)
+getpower = 30,15
 givepower=36,36
 yaccel=.5
 fall.recover=0
@@ -1289,7 +1289,7 @@ physics=C
 juggle=ifelse(numtarget,15,8)
 anim=240
 velset=0,0
-poweradd=18*!var(20)
+poweradd=0*!var(20)
 sprpriority=1
 ctrl=0
 facep2=1
@@ -1333,7 +1333,7 @@ air.type=Low
 air.hittime=18
 air.velocity= ifelse(var(20), -2.5, -5), -7
 air.cornerpush.veloff = 0
-getpower= ifelse(p2movetype=H,72,216)*!var(20), 36*!var(20)
+getpower = 15,7
 givepower=36,36
 yaccel=.5
 fall.recover=0
@@ -1366,7 +1366,7 @@ air.type=Low
 air.hittime=18
 air.velocity= ifelse(var(20), -2.5, -5), -7
 air.cornerpush.veloff = 0
-getpower= ifelse(p2movetype=H,72,216)*!var(20), 36*!var(20)
+getpower = 15,7
 givepower=36,36
 yaccel=.5
 fall.recover=0
@@ -1435,7 +1435,7 @@ air.hittime=18
 air.velocity= ifelse(var(20), -2.5, -5), -7
 air.cornerpush.veloff = 0
 down.velocity=-2,-2
-getpower= 72*!var(20), 36*!var(20)
+getpower = 30,15
 givepower=36,36
 yaccel=.5
 fall.recover=0
@@ -1459,7 +1459,7 @@ physics=C
 juggle=ifelse(numtarget,15,8)
 anim=250
 velset=0,0 
-poweradd=18*!var(20)
+poweradd=0*!var(20)
 sprpriority=1
 ctrl=0
 facep2=1
@@ -1504,7 +1504,7 @@ air.hittime=18
 air.velocity= ifelse(var(20), -2.5, -5), -7
 air.cornerpush.veloff = 0
 down.velocity=-3,-3
-getpower= ifelse(p2movetype=H,72,144)*!var(20), 36*!var(20)
+getpower = 30,15
 givepower=36,36
 yaccel=.5
 fall.recover=0
@@ -1528,7 +1528,7 @@ physics=C
 juggle= ifelse((p2movetype=H && p2statetype=A), 15, ifelse(var(1)=1,8,7))
 anim=255
 velset=0,0
-poweradd=18*(!var(20) && prevstateno!=750)
+poweradd=0*(!var(20) && prevstateno!=750)
 sprpriority=1
 ctrl=0
 facep2=1
@@ -1580,7 +1580,7 @@ air.cornerpush.veloff = 0
 ground.cornerpush.veloff = 0
 guard.velocity= ifelse(var(20), -5.77, -10.52)
 guard.cornerpush.veloff = 0;ifelse(var(20), -6.82, -12.74)
-getpower= ifelse(p2movetype=H,72,216)*!var(20), 36*!var(20)
+getpower = 15,7
 givepower=36,36
 yaccel=.5
 fall=1
@@ -1614,7 +1614,7 @@ air.cornerpush.veloff = 0
 ground.cornerpush.veloff = 0
 guard.velocity= ifelse(var(20), -5.77, -10.52)
 guard.cornerpush.veloff = 0;ifelse(var(20), -6.82, -12.74)
-getpower=0,0
+getpower = 15,7
 givepower=36,36
 yaccel=.6
 fall=1
@@ -1683,7 +1683,7 @@ air.type=Low
 air.hittime=18
 air.velocity= ifelse(var(20), -2.5, -5), -7
 air.cornerpush.veloff = 0
-getpower= 72*!var(20), 36*!var(20)
+getpower = 30,15
 givepower=36,36
 yaccel=.5
 airguard.ctrltime= 16
@@ -1703,7 +1703,7 @@ movetype=A
 physics=A
 juggle=ifelse(numtarget, 15, ifelse((vel x && var(1)!=2), 1, 8))
 anim=ifelse((vel x && var(1)!=2), 265, 266)
-poweradd=18*!var(20)
+poweradd=0*!var(20)
 sprpriority=1
 ctrl=0
 
@@ -1748,7 +1748,7 @@ air.type=Low
 air.hittime=18
 air.velocity= ifelse(var(20), -1.33, -2.67), -9
 air.cornerpush.veloff = 0
-getpower= ifelse(p2movetype=H,72,144)*!var(20), 36*!var(20)
+getpower = 10,5
 givepower=36,36
 air.fall=1
 fall.recover=0;!var(20)
@@ -1788,7 +1788,7 @@ air.type=High
 air.hittime=18
 air.velocity= ifelse(var(20), -1.33, -2.67), -9
 air.cornerpush.veloff = 0
-getpower= ifelse(p2movetype=H,72,144)*!var(20), 36*!var(20)
+getpower = 10,5
 givepower=36,36
 air.fall=1
 fall.recover=0;!var(20)
@@ -1828,7 +1828,7 @@ air.type=Low
 air.hittime=18
 air.velocity= ifelse(var(20), -2.5, -5), -7
 air.cornerpush.veloff = 0
-getpower= ifelse(p2movetype=H,72,144)*!var(20), 36*!var(20)
+getpower = 10,5
 givepower=36,36
 yaccel=.5
 airguard.ctrltime= 16
@@ -1848,7 +1848,7 @@ movetype=A
 physics=A
 juggle=ifelse(numtarget,15,8)
 anim=270
-poweradd=18*!var(20)
+poweradd=0*!var(20)
 sprpriority=1
 ctrl=0
 
@@ -1893,7 +1893,7 @@ air.type=Low
 air.hittime=18
 air.velocity= ifelse(var(20), -2.5, -5), -7
 air.cornerpush.veloff = 0
-getpower= ifelse(p2movetype=H,72,216)*!var(20), 36*!var(20)
+getpower = 30,15
 givepower=36,36
 yaccel=.5
 airguard.ctrltime= 16
@@ -1958,7 +1958,7 @@ air.type=Low
 air.hittime=18
 air.velocity= ifelse(var(20), -2.5, -5), -7
 air.cornerpush.veloff = 0
-getpower= 72*!var(20), 36*!var(20)
+getpower = 15,7
 givepower=36,36
 yaccel=.5
 airguard.ctrltime= 16
@@ -1995,7 +1995,7 @@ air.type=High
 air.hittime=18
 air.velocity= ifelse(var(20), -2.5, -5), -7
 air.cornerpush.veloff = 0
-getpower= 72*!var(20), 36*!var(20)
+getpower = 15,7
 givepower=36,36
 yaccel=.5
 airguard.ctrltime= 16
@@ -2015,7 +2015,7 @@ movetype=A
 physics=A
 juggle=ifelse(numtarget,15,8)
 anim=ifelse((vel x || var(9)=2),280,281)
-poweradd=18*!var(20)
+poweradd=0*!var(20)
 sprpriority=1
 ctrl=0
 
@@ -2061,7 +2061,7 @@ air.type=Low
 air.hittime=18
 air.velocity= ifelse(var(20), -2.5, -5), -7
 air.cornerpush.veloff = 0
-getpower= ifelse(p2movetype=H,72,144)*!var(20), 36*!var(20)
+getpower = 15,7
 givepower=36,36
 yaccel=.5
 airguard.ctrltime= 16
@@ -2098,7 +2098,7 @@ air.type=High
 air.hittime=18
 air.velocity= ifelse(var(20), -2.5, -5), -7
 air.cornerpush.veloff = 0
-getpower= ifelse(p2movetype=H,72,144)*!var(20), 36*!var(20)
+getpower = 15,7
 givepower=36,36
 yaccel=.5
 airguard.ctrltime= 16
@@ -2120,7 +2120,7 @@ movetype=A
 anim=282
 velset=.3*vel x,.3*vel y
 ctrl=0
-poweradd=18*!var(20)
+poweradd=0*!var(20)
 sprpriority=-1
 juggle=0
 
@@ -2173,7 +2173,7 @@ air.velocity= ifelse(var(20), -2.5, -5), -7
 down.hittime=20
 down.velocity=0,0
 air.cornerpush.veloff = 0
-getpower= ifelse(p2movetype=H,72,144)*!var(20), 36*!var(20)
+getpower = 30,15
 givepower=36,36
 yaccel=.5
 fall=0
@@ -2194,7 +2194,7 @@ movetype=A
 physics=A
 juggle=ifelse(numtarget,15,8)
 anim=ifelse((vel x || var(9)=2),285,286)
-poweradd=18*!var(20)
+poweradd=0*!var(20)
 sprpriority=1
 ctrl=0
 
@@ -2240,7 +2240,7 @@ air.type=Low
 air.hittime=18
 air.velocity= ifelse(var(20), -2.5, -5), -7
 air.cornerpush.veloff = 0
-getpower= ifelse(p2movetype=H,72,216)*!var(20), 36*!var(20)
+getpower = 15,7
 givepower=36,36
 yaccel=.5
 airguard.ctrltime= 16
@@ -2277,7 +2277,7 @@ air.type=Low
 air.hittime=18
 air.velocity= ifelse(var(20), -2.5, -5), -7
 air.cornerpush.veloff = 0
-getpower= ifelse(p2movetype=H,72,216)*!var(20), 36*!var(20)
+getpower = 15,7
 givepower=36,36
 yaccel=.5
 airguard.ctrltime= 16
@@ -2305,7 +2305,7 @@ ctrl=0
 anim=800
 sprpriority=1
 facep2=1
-poweradd=18*!var(20)
+poweradd=0*!var(20)
 
 [State 800, strengthvar]
 type=varset
@@ -2335,6 +2335,7 @@ value=0
 
 [State 800, Hit]
 type=hitdef
+getpower = 60,30
 trigger1= !time && (var(10)=[1,2])
 trigger1= !var(38)
 attr=S,NT 
@@ -2351,6 +2352,7 @@ fall.recover=0
 
 [State 800, Hit]
 type=hitdef
+getpower = 60,30
 trigger1= !time && var(10)=3
 trigger1= !var(38)
 attr=S,NT 
@@ -2628,7 +2630,7 @@ value=36
 [State 805, power]
 type=poweradd
 trigger1= animelem=4 && !var(20)
-value=72
+value=0
 
 [State 805, throw]
 type=targetstate
@@ -2787,7 +2789,7 @@ value=36
 [State 810, power]
 type=poweradd
 trigger1= animelem=4 && !var(20)
-value=72
+value=0
 [State 810, throw]
 type=targetstate
 trigger1= animelem=4

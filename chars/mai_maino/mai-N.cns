@@ -36,7 +36,7 @@ attr                = S, NA
 hitflag             = MAF
 guardflag           = M
 damage              = Floor(37*Fvar(0)),0
-getpower            = 40,20
+getpower = 30,15
 givepower           = 20,0
 animtype            = light
 ;air.animtype        = back
@@ -144,7 +144,7 @@ attr                = S, NA
 hitflag             = MAF
 guardflag           = M
 damage              = Floor(73*Fvar(0)),0
-getpower            = 70,20
+getpower = 30,15
 givepower           = 30,0
 animtype            = Hard
 ;air.animtype        = back
@@ -252,7 +252,7 @@ attr                = S, NA
 hitflag             = MAF
 guardflag           = M
 damage              = Floor(46*Fvar(0)),0
-getpower            = 40,20
+getpower = 30,15
 givepower           = 20,0
 animtype            = midium
 ;air.animtype        = back
@@ -360,7 +360,7 @@ attr                = S, NA
 hitflag             = MAF
 guardflag           = M
 damage              = Floor(88*Fvar(0)),0
-getpower            = 90,40
+getpower = 30,15
 givepower           = 50,0
 animtype            = Hard
 ;air.animtype        = back
@@ -468,7 +468,7 @@ attr                = C, NA
 hitflag             = MAF
 guardflag           = M
 damage              = Floor(33*Fvar(0)),0
-getpower            = 40,20
+getpower = 30,15
 givepower           = 20,0
 animtype            = light
 ;air.animtype        = back
@@ -576,7 +576,7 @@ attr                = C, NA
 hitflag             = MAF
 guardflag           = M
 damage              = Floor(70*Fvar(0)),0
-getpower            = 70,20
+getpower = 30,15
 givepower           = 40,0
 animtype            = Hard
 ;air.animtype        = back
@@ -684,7 +684,7 @@ attr                = C, NA
 hitflag             = MAF
 guardflag           = L
 damage              = Floor(40*Fvar(0)),0
-getpower            = 40,20
+getpower = 30,15
 givepower           = 20,0
 animtype            = light
 ;air.animtype        = back
@@ -785,7 +785,7 @@ attr                = C, NA
 hitflag             = MAF
 guardflag           = L
 damage              = Floor(95*Fvar(0)),0
-getpower            = 80,40
+getpower = 30,15
 givepower           = 50,0
 animtype            = back
 ;air.animtype        = back
@@ -885,7 +885,7 @@ attr                = A, NA
 hitflag             = MAF
 guardflag           = HA
 damage              = Floor(52*Fvar(0)),0
-getpower            = 40,20
+getpower = 30,15
 givepower           = 20,0
 animtype            = midium
 ;air.animtype        = back
@@ -971,7 +971,7 @@ attr                = A, NA
 hitflag             = MAF
 guardflag           = HA
 damage              = Floor(91*Fvar(0)),0
-getpower            = 80,40
+getpower = 30,15
 givepower           = 50,0
 animtype            = hard
 ;air.animtype        = back
@@ -1167,6 +1167,7 @@ sprpriority = 2
 
 [State 800, HitDef]
 type = HitDef
+getpower = 60,30
 trigger1 = Time = 0
 trigger1 = p2movetype!=H
 trigger1 = p2stateno!=[150,155]
@@ -1204,6 +1205,7 @@ sprpriority = 2
 
 [State 800, HitDef]
 type = HitDef
+getpower = 60,30
 trigger1 = Time = 0
 trigger1 = p2movetype!=H
 trigger1 = p2stateno!=[150,155]
@@ -1297,7 +1299,7 @@ kill = 1
 [State 200,poweradd]
 Type = powerAdd
 Trigger1 = time = 0
-Value = 100
+Value = 0
 
 [State 812, ‚¨‚í‚è]
 type = changestate
@@ -1410,7 +1412,7 @@ kill = 1
 [State 200,poweradd]
 Type = powerAdd
 Trigger1 = time = 0
-Value = 100
+Value = 0
 
 [State 812, ‚¨‚í‚è]
 type = changestate

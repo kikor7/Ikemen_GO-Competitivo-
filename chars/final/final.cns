@@ -314,7 +314,7 @@ channel = 12
 [State 0, PowerAdd]
 type = PowerAdd
 trigger1 = animelem = 2 && time != 0
-value = 20
+value = 0
 ignorehitpause = 1
 
 [State 0, ChangeAnim]
@@ -327,6 +327,7 @@ type = HitDef
 trigger1 = AnimElem = 22 && time != 0
 attr = S, NA                     ;Attribute: Standing, Normal Attack
 damage = 65, 0                   ;Damage that move inflicts, guard damage
+getpower = 30,15
 animtype = heavy                 ;Animation type: Light, Medium, Heavy, Back (def: Light)
 guardflag = MA                   ;Flags on how move is to be guarded against
 hitflag = MAF                    ;Flags of conditions that move can hit
@@ -360,6 +361,7 @@ ctrl = 1
 ;Rayo
 [Statedef 1000]
 type    = S
+poweradd = 20
 movetype= A
 physics = S
 juggle  = 4
@@ -392,7 +394,7 @@ channel = 13
 [State 0, PowerAdd]
 type = PowerAdd
 trigger1 = animelem = 2 && time != 0
-value = 110
+value = 0
 ignorehitpause = 1
 
 [State 0, ChangeAnim]
@@ -518,6 +520,7 @@ trigger1 = time=1
 attr = S, SP
 animtype  = up
 damage    = 120,10
+getpower = 30,15
 guardflag = MA
 priority = 4
 pausetime = 5,10
@@ -595,7 +598,7 @@ channel = 12
 [State 0, PowerAdd]
 type = PowerAdd
 trigger1 = animelem = 2 && prevstateno != 5000
-value = 80
+value = 0
 ignorehitpause = 1
 
 [State 0, ChangeAnim]
@@ -609,6 +612,7 @@ trigger1 = animelem = 24 && time != 0
 trigger1 = !movecontact && !movereversed
 attr = S,HA
 damage = 0,0
+getpower = 60,30
 animtype = Hard
 guardflag = M
 hitflag = MAF
@@ -1126,7 +1130,7 @@ freqmul = 1.0+(random/3333.3)
 [State 0, PowerAdd]
 type = PowerAdd
 trigger1 = animelem = 1
-value = 20
+value = 0
 ignorehitpause = 1
 
 [State 170, 1]
@@ -1209,7 +1213,7 @@ channel = 12
 [State 0, PowerAdd]
 type = PowerAdd
 trigger1 = animelem = 2 && prevstateno != 5000
-value = 80
+value = 0
 ignorehitpause = 1
 
 [State 0, ChangeAnim]
@@ -1223,6 +1227,7 @@ trigger1 = animelem = 24 && time != 0
 trigger1 = !movecontact && !movereversed
 attr = S,HA
 damage = 0,0
+getpower = 60,30
 animtype = Hard
 guardflag = M
 hitflag = MAF

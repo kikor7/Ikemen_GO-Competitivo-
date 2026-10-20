@@ -13,6 +13,7 @@ pal.defaults = 1,2,3,4,5,6,7,8,9,10,11,12
 
 ; files for the player
 [files]
+movelist = movelist.dat
 cmd     = evilh.cmd   ;command set
 cns     = evil.cns   ;constants
 st      = evil.cns   ;states

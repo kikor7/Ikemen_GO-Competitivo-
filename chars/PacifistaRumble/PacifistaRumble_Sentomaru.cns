@@ -794,7 +794,7 @@ juggle  = 1
 velset = 0,0
 ctrl = 0
 anim = 17200
-poweradd = 50
+poweradd = 0
 sprpriority = 1
 
 [State 0, PlaySnd]
@@ -916,7 +916,7 @@ juggle  = 1
 velset = 0,0
 ctrl = 0
 anim = 17210
-poweradd = 50
+poweradd = 0
 sprpriority = 1
 
 [State 0, PlaySnd]
@@ -1515,7 +1515,7 @@ type    = A
 movetype = A
 physics = N
 juggle  = 10
-poweradd = 10
+poweradd = 0
 ctrl = 0
 anim = 17230
 sprpriority = 2
@@ -1632,7 +1632,7 @@ anim = 17300
 juggle = 5
 velset = 0,0
 ctrl = 0
-poweradd = 50
+poweradd = 0
 sprpriority = 1
 
 [State 1100, 3]

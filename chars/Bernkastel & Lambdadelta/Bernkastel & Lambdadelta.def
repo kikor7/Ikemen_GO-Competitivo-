@@ -13,6 +13,7 @@ Pal.Defaults = 6,3,4,2
 ;-----------------------------------------------------------------------------
 
 [Files]
+movelist = movelist.dat
 Cmd     = Bern&Lambda.cmd
 Cns     = Bern&Lambda.cns
 St      = Bern&Lambda.cns

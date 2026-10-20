@@ -1,0 +1,18 @@
+<#f0f000>:Special Moves:</>
+Rocket Punch Aire			_QCF^C
+Junk Wall			_HCB^C
+Metal Uppercut			_DSF^B
+Magent Train			_B_F^B
+Eat Trash			_HCB^A
+Crazy Knife			_F_B_F^A
+Tag System  - Start Exit Command - Defensive			^A_+^C
+Burst - Anti Combos			^A_+^B_+^C
+Throw			^B_+^C
+
+<#f0f000>:Hyper Moves:</>
+Magnet Camp <#f00000>(3000)</>			_F_HCF^B_+^C
+Junk Ball <#f00000>(1000)</>			_QCB_QCB^C
+Metal Palm - Stand <#f00000>(1000)</>			_QCF_QCF^B
+Tag System  - Start Exit Command - Super Move 1 <#f00000>(1000)</>			_QCF^X
+Tag System  - Start Exit Command - Super Move 2 <#f00000>(1000)</>			_QCB^X
+Tag System  - Start Exit Command - Offensive <#f00000>(1500)</>			^A_+^C

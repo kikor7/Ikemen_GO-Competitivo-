@@ -4,7 +4,7 @@
 ; Player information
 [Info]
 name="Eustass Kid"
-displayname="~"
+displayname="Eustass Kid"
 versiondate=04,14,2002
 mugenverTasion=1.0
 author="Team One Piece OPOS"
@@ -13,6 +13,7 @@ mugenversion=1.0
 
 ; Files for the player
 [Files]
+movelist = movelist.dat
 cmd=EustassKid.cmd
 sprite=EustassKid.sff
 anim=EustassKid.air

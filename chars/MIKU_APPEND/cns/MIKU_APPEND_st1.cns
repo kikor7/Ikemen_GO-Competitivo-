@@ -50,12 +50,12 @@ persistent=0
 [State ]
 type=Poweradd
 trigger1=fvar(17)=0&&var(20)=0&&time=0&&((var(51)=0&&palno!=12)||(var(51)=1&&palno=12))
-value=20
+value=0
 
 [State ]
 type=Poweradd
 trigger1=fvar(17)=0&&var(20)=0&&time=0&&var(51)=1&&palno!=12
-value=10
+value=0
 
 [State ]
 type=Varadd
@@ -95,7 +95,7 @@ airguard.velocity=-1.9,-.8
 air.velocity=-1.4,-3
 air.hittime=12
 fall.recovertime=20
-getpower=0,0
+getpower = 30,15
 
 [State ]
 type=HitDef
@@ -118,7 +118,7 @@ airguard.velocity=-1.9,-.8
 air.velocity=-2.4,-4
 air.hittime=22
 fall.recovertime=30
-getpower=0,0
+getpower = 30,15
 
 [State ]
 type=PlaySnd
@@ -189,12 +189,12 @@ persistent=0
 [State ]
 type=Poweradd
 trigger1=fvar(17)=0&&var(20)=0&&time=0&&((var(51)=0&&palno!=12)||(var(51)=1&&palno=12))
-value=65
+value=0
 
 [State ]
 type=Poweradd
 trigger1=fvar(17)=0&&var(20)=0&&time=0&&var(51)=1&&palno!=12
-value=32
+value=0
 
 [State ]
 type=Varadd
@@ -247,7 +247,7 @@ ground.hittime=15
 ground.velocity=-5.5
 air.velocity=-2.5,-4
 fall.recovertime=30
-getpower=0,0
+getpower = 30,15
 
 [State ]
 type=HitDef
@@ -267,7 +267,7 @@ ground.hittime=25
 ground.velocity=-6.5
 air.velocity=-3.5,-5
 fall.recovertime=40
-getpower=0,0
+getpower = 30,15
 
 [State ]
 type=ChangeAnim
@@ -340,12 +340,12 @@ persistent=0
 [State ]
 type=Poweradd
 trigger1=fvar(17)=0&&var(20)=0&&time=0&&((var(51)=0&&palno!=12)||(var(51)=1&&palno=12))
-value=80
+value=0
 
 [State ]
 type=Poweradd
 trigger1=fvar(17)=0&&var(20)=0&&time=0&&var(51)=1&&palno!=12
-value=40
+value=0
 
 [State ]
 type=Varadd
@@ -394,7 +394,7 @@ ground.hittime=20
 ground.velocity=-5
 air.velocity=-4,-4
 fall.recovertime=40
-getpower=0,0
+getpower = 30,15
 
 [State ]
 type=HitDef
@@ -415,7 +415,7 @@ ground.hittime=30
 ground.velocity=-5
 air.velocity=-4,-4
 fall.recovertime=50
-getpower=0,0
+getpower = 30,15
 
 [State ]
 type=ChangeState
@@ -475,12 +475,12 @@ persistent=0
 [State ]
 type=Poweradd
 trigger1=fvar(17)=0&&var(20)=0&&time=0&&((var(51)=0&&palno!=12)||(var(51)=1&&palno=12))
-value=15
+value=0
 
 [State ]
 type=Poweradd
 trigger1=fvar(17)=0&&var(20)=0&&time=0&&var(51)=1&&palno!=12
-value=7
+value=0
 
 [State ]
 type=Varadd
@@ -530,7 +530,7 @@ ground.hittime=12
 ground.velocity=-4
 air.velocity=-1.5,-3
 fall.recovertime=20
-getpower=0,0
+getpower = 30,15
 
 [State ]
 type=HitDef
@@ -552,7 +552,7 @@ ground.hittime=22
 ground.velocity=-5
 air.velocity=-2.5,-4
 fall.recovertime=30
-getpower=0,0
+getpower = 30,15
 
 [State ]
 type=CtrlSet
@@ -616,12 +616,12 @@ persistent=0
 [State ]
 type=Poweradd
 trigger1=fvar(17)=0&&var(20)=0&&time=0&&((var(51)=0&&palno!=12)||(var(51)=1&&palno=12))
-value=45
+value=0
 
 [State ]
 type=Poweradd
 trigger1=fvar(17)=0&&var(20)=0&&time=0&&var(51)=1&&palno!=12
-value=22
+value=0
 
 [State ]
 type=Varadd
@@ -670,7 +670,7 @@ ground.hittime=15
 ground.velocity=-7
 air.velocity=-3,-4
 fall.recovertime=30
-getpower=0,0
+getpower = 30,15
 
 [State ]
 type=HitDef
@@ -691,7 +691,7 @@ ground.hittime=25
 ground.velocity=-8
 air.velocity=-4,-5
 fall.recovertime=40
-getpower=0,0
+getpower = 30,15
 
 [State ]
 type=ChangeState
@@ -751,12 +751,12 @@ persistent=0
 [State ]
 type=Poweradd
 trigger1=fvar(17)=0&&var(20)=0&&time=0&&((var(51)=0&&palno!=12)||(var(51)=1&&palno=12))
-value=60
+value=0
 
 [State ]
 type=Poweradd
 trigger1=fvar(17)=0&&var(20)=0&&time=0&&var(51)=1&&palno!=12
-value=30
+value=0
 
 [State ]
 type=Varadd
@@ -807,7 +807,7 @@ air.velocity=-1.2,-3
 guard.velocity=-5
 fall=1
 fall.recover=0
-getpower=0,0
+getpower = 30,15
 
 [State ]
 type=HitDef
@@ -830,7 +830,7 @@ air.velocity=-2.2,-4
 guard.velocity=-6
 fall=1
 fall.recover=0
-getpower=0,0
+getpower = 30,15
 
 [State ]
 type=ChangeState
@@ -890,12 +890,12 @@ persistent=0
 [State ]
 type=Poweradd
 trigger1=fvar(17)=0&&var(20)=0&&time=0&&((var(51)=0&&palno!=12)||(var(51)=1&&palno=12))
-value=50
+value=0
 
 [State ]
 type=Poweradd
 trigger1=fvar(17)=0&&var(20)=0&&time=0&&var(51)=1&&palno!=12
-value=25
+value=0
 
 [State ]
 type=Varadd
@@ -945,7 +945,7 @@ airguard.velocity=-4,-4.5
 p2facing=1
 fall=1
 fall.recovertime=40
-getpower=0,0
+getpower = 60,30
 
 [State ]
 type=HitDef
@@ -971,7 +971,7 @@ airguard.velocity=-4,-4.5
 p2facing=1
 fall=1
 fall.recover=0
-getpower=0,0
+getpower = 60,30
 
 [State ]
 type=ChangeState
@@ -1046,12 +1046,12 @@ x=ifelse((facing=-1&&var(0)=1)||(facing=1&&var(0)=2),-.15,.15)
 [State ]
 type=Poweradd
 trigger1=fvar(17)=0&&var(20)=0&&time=0&&((var(51)=0&&palno!=12)||(var(51)=1&&palno=12))
-value=11
+value=0
 
 [State ]
 type=Poweradd
 trigger1=fvar(17)=0&&var(20)=0&&time=0&&var(51)=1&&palno!=12
-value=5
+value=0
 
 [State ]
 type=Varadd
@@ -1094,7 +1094,7 @@ ground.hittime=10
 ground.velocity=-4
 air.velocity=-1.3,-3
 fall.recovertime=20
-getpower=0,0
+getpower = 30,15
 
 [State ]
 type=HitDef
@@ -1114,7 +1114,7 @@ ground.hittime=15
 ground.velocity=-5
 air.velocity=-2.3,-4
 fall.recovertime=30
-getpower=0,0
+getpower = 30,15
 
 [State ]
 type=CtrlSet
@@ -1194,12 +1194,12 @@ x=ifelse((facing=-1&&var(0)=1)||(facing=1&&var(0)=2),-.15,.15)
 [State ]
 type=Poweradd
 trigger1=fvar(17)=0&&var(20)=0&&time=0&&((var(51)=0&&palno!=12)||(var(51)=1&&palno=12))
-value=42
+value=0
 
 [State ]
 type=Poweradd
 trigger1=fvar(17)=0&&var(20)=0&&time=0&&var(51)=1&&palno!=12
-value=21
+value=0
 
 [State ]
 type=Varadd
@@ -1243,7 +1243,7 @@ ground.hittime=15
 ground.velocity=-5
 air.velocity=-3,-4
 fall.recovertime=30
-getpower=0,0
+getpower = 30,15
 
 [State ]
 type=HitDef
@@ -1264,7 +1264,7 @@ ground.hittime=20
 ground.velocity=-6
 air.velocity=-4,-5
 fall.recovertime=40
-getpower=0,0
+getpower = 30,15
 
 [State ]
 type=CtrlSet
@@ -1344,12 +1344,12 @@ x=ifelse((facing=-1&&var(0)=1)||(facing=1&&var(0)=2),-.15,.15)
 [State ]
 type=Poweradd
 trigger1=fvar(17)=0&&var(20)=0&&time=0&&((var(51)=0&&palno!=12)||(var(51)=1&&palno=12))
-value=65
+value=0
 
 [State ]
 type=Poweradd
 trigger1=fvar(17)=0&&var(20)=0&&time=0&&var(51)=1&&palno!=12
-value=32
+value=0
 
 [State ]
 type=Varadd
@@ -1393,7 +1393,7 @@ ground.hittime=17
 ground.velocity=-8
 air.velocity=-5,4
 fall.recovertime=40
-getpower=0,0
+getpower = 30,15
 air.fall=1
 
 [State ]
@@ -1415,7 +1415,7 @@ ground.hittime=27
 ground.velocity=-9
 air.velocity=-6,5
 fall.recovertime=50
-getpower=0,0
+getpower = 30,15
 air.fall=1
 
 [State ]
@@ -1486,12 +1486,12 @@ fvar(16)=1
 [State ]
 type=Poweradd
 trigger1=fvar(17)=0&&var(20)=0&&time=0&&((var(51)=0&&palno!=12)||(var(51)=1&&palno=12))
-value=65
+value=0
 
 [State ]
 type=Poweradd
 trigger1=fvar(17)=0&&var(20)=0&&time=0&&var(51)=1&&palno!=12
-value=32
+value=0
 
 [State ]
 type=Varadd
@@ -1547,7 +1547,7 @@ ground.velocity=-8
 air.velocity=-6,-4
 air.fall=1
 fall.recovertime=40
-getpower=0,0
+getpower = 30,15
 
 [State ]
 type=HitDef
@@ -1570,7 +1570,7 @@ ground.velocity=-8
 air.velocity=-6,-4
 air.fall=1
 fall.recovertime=50
-getpower=0,0
+getpower = 30,15
 
 [State ]
 type=ChangeState
@@ -1717,12 +1717,12 @@ fvar(16)=1
 [State ]
 type=Poweradd
 trigger1=fvar(17)=0&&var(20)=0&&time=0&&((var(51)=0&&palno!=12)||(var(51)=1&&palno=12))
-value=80
+value=0
 
 [State ]
 type=Poweradd
 trigger1=fvar(17)=0&&var(20)=0&&time=0&&var(51)=1&&palno!=12
-value=40
+value=0
 
 [State ]
 type=VelSet
@@ -1937,12 +1937,12 @@ fvar(16)=1
 [State ]
 type=Poweradd
 trigger1=fvar(17)=0&&var(20)=0&&time=0&&((var(51)=0&&palno!=12)||(var(51)=1&&palno=12))
-value=90
+value=0
 
 [State ]
 type=Poweradd
 trigger1=fvar(17)=0&&var(20)=0&&time=0&&var(51)=1&&palno!=12
-value=45
+value=0
 
 [State ]
 type=VelSet
@@ -2091,7 +2091,7 @@ ground.velocity=-5
 air.velocity=-5,4
 fall=1
 fall.recovertime=40
-getpower=0,0
+getpower = 60,30
 
 [State ]
 type=HitDef
@@ -2114,7 +2114,7 @@ ground.velocity=-6
 air.velocity=-6,5
 fall=1
 fall.recover=0
-getpower=0,0
+getpower = 60,30
 
 [State ]
 type=varset
@@ -2162,12 +2162,12 @@ fvar(16)=1
 [State ]
 type=Poweradd
 trigger1=fvar(17)=0&&var(20)=0&&time=0&&((var(51)=0&&palno!=12)||(var(51)=1&&palno=12))
-value=100
+value=0
 
 [State ]
 type=Poweradd
 trigger1=fvar(17)=0&&var(20)=0&&time=0&&var(51)=1&&palno!=12
-value=50
+value=0
 
 [State ]
 type=VelSet
@@ -2362,7 +2362,7 @@ ground.velocity=-8,-5
 air.velocity=-8,4
 fall=1
 fall.recover=0
-getpower=0,0
+getpower = 60,30
 
 [State ]
 type=HitDef
@@ -2385,7 +2385,7 @@ ground.velocity=-9,-6
 air.velocity=-9,5
 fall=1
 fall.recover=0
-getpower=0,0
+getpower = 60,30
 
 [State ]
 type=ChangeState
@@ -2916,12 +2916,12 @@ fvar(16)=1
 [State ]
 type=Poweradd
 trigger1=fvar(17)=0&&var(20)=0&&time=0&&((var(51)=0&&palno!=12)||(var(51)=1&&palno=12))
-value=80
+value=0
 
 [State ]
 type=Poweradd
 trigger1=fvar(17)=0&&var(20)=0&&time=0&&var(51)=1&&palno!=12
-value=40
+value=0
 
 [State ]
 type=Varadd
@@ -3074,7 +3074,7 @@ ground.hittime=20
 ground.velocity=-8
 air.velocity=-8
 fall.recover=0
-getpower=0,0
+getpower = 60,30
 p2facing=1
 fall=1
 ID=3038
@@ -3099,7 +3099,7 @@ ground.hittime=20
 ground.velocity=-8
 air.velocity=-8
 fall.recover=0
-getpower=0,0
+getpower = 60,30
 p2facing=1
 p2stateno=3048
 fall=1
@@ -3124,7 +3124,7 @@ ground.hittime=20
 ground.velocity=-2,-6
 air.velocity=-2,-6
 fall.recover=0
-getpower=0,0
+getpower = 60,30
 p2facing=1
 fall=1
 
@@ -3519,12 +3519,12 @@ fvar(16)=1
 [State ]
 type=Poweradd
 trigger1=fvar(17)=0&&var(20)=0&&time=0&&((var(51)=0&&palno!=12)||(var(51)=1&&palno=12))
-value=80
+value=0
 
 [State ]
 type=Poweradd
 trigger1=fvar(17)=0&&var(20)=0&&time=0&&var(51)=1&&palno!=12
-value=40
+value=0
 
 [State ]
 type=Varadd
@@ -3651,7 +3651,7 @@ ground.hittime=20
 ground.velocity=-1,-14
 air.velocity=-1,-14
 fall.recover=0
-getpower=0,0
+getpower = 60,30
 p2facing=1
 fall=1
 yaccel=.60
@@ -3676,7 +3676,7 @@ ground.hittime=20
 ground.velocity=-1,-14
 air.velocity=-1,-14
 fall.recover=0
-getpower=0,0
+getpower = 60,30
 p2facing=1
 fall=1
 yaccel=.60
@@ -3702,7 +3702,7 @@ ground.hittime=20
 ground.velocity=-1,-14
 air.velocity=-1,-14
 fall.recover=0
-getpower=0,0
+getpower = 60,30
 p2facing=1
 fall=1
 yaccel=.60
@@ -3806,12 +3806,12 @@ fvar(16)=1
 [State ]
 type=Poweradd
 trigger1=fvar(17)=0&&var(20)=0&&time=0&&((var(51)=0&&palno!=12)||(var(51)=1&&palno=12))
-value=80
+value=0
 
 [State ]
 type=Poweradd
 trigger1=fvar(17)=0&&var(20)=0&&time=0&&var(51)=1&&palno!=12
-value=40
+value=0
 
 [State ]
 type=Varadd
@@ -3938,7 +3938,7 @@ ground.hittime=20
 ground.velocity=-1,-14
 air.velocity=-1,-14
 fall.recover=0
-getpower=0,0
+getpower = 60,30
 p2facing=1
 fall=1
 yaccel=.60
@@ -3963,7 +3963,7 @@ ground.hittime=20
 ground.velocity=-1,-14
 air.velocity=-1,-14
 fall.recover=0
-getpower=0,0
+getpower = 60,30
 p2facing=1
 fall=1
 yaccel=.60
@@ -3989,7 +3989,7 @@ ground.hittime=20
 ground.velocity=-1,-14
 air.velocity=-1,-14
 fall.recover=0
-getpower=0,0
+getpower = 60,30
 p2facing=1
 fall=1
 yaccel=.60
@@ -4203,12 +4203,12 @@ fvar(16)=1
 [State ]
 type=Poweradd
 trigger1=fvar(17)=0&&var(20)=0&&time=0&&((var(51)=0&&palno!=12)||(var(51)=1&&palno=12))
-value=80
+value=0
 
 [State ]
 type=Poweradd
 trigger1=fvar(17)=0&&var(20)=0&&time=0&&var(51)=1&&palno!=12
-value=40
+value=0
 
 [State ]
 type=Varadd
@@ -4339,7 +4339,7 @@ ground.hittime=20
 ground.velocity=-8,-4
 air.velocity=-8,-4
 fall.recover=0
-getpower=0,0
+getpower = 60,30
 p2facing=1
 fall=1
 
@@ -4363,7 +4363,7 @@ ground.hittime=20
 ground.velocity=-8,-4
 air.velocity=-8,-4
 fall.recover=0
-getpower=0,0
+getpower = 60,30
 p2facing=1
 fall=1
 ID=3038
@@ -4388,7 +4388,7 @@ ground.hittime=20
 ground.velocity=-8,-4
 air.velocity=-8,-4
 fall.recover=0
-getpower=0,0
+getpower = 60,30
 p2facing=1
 fall=1
 p2stateno=3048
@@ -4469,7 +4469,7 @@ p2facing=1
 p1stateno=3065
 p2stateno=3067
 fall=1
-getpower=0,0
+getpower = 60,30
 
 [State ]
 type=CtrlSet
@@ -4514,12 +4514,12 @@ time=1
 [State ]
 type=Poweradd
 trigger1=fvar(17)=0&&var(20)=0&&time=0&&((var(51)=0&&palno!=12)||(var(51)=1&&palno=12))
-value=100
+value=0
 
 [State ]
 type=Poweradd
 trigger1=fvar(17)=0&&var(20)=0&&time=0&&var(51)=1&&palno!=12
-value=50
+value=0
 
 [State ]
 type=Varadd
@@ -4688,7 +4688,7 @@ p2facing=1
 p1stateno=810
 p2stateno=820
 fall=1
-getpower=0,0
+getpower = 60,30
 guard.dist=0
 
 [State ]
@@ -4728,12 +4728,12 @@ persistent=0
 [State ]
 type=Poweradd
 trigger1=fvar(17)=0&&var(20)=0&&time=0&&((var(51)=0&&palno!=12)||(var(51)=1&&palno=12))
-value=100
+value=0
 
 [State ]
 type=Poweradd
 trigger1=fvar(17)=0&&var(20)=0&&time=0&&var(51)=1&&palno!=12
-value=50
+value=0
 
 [State ]
 type=Varadd
@@ -4941,7 +4941,7 @@ p2facing=1
 p1stateno=831
 p2stateno=832
 fall=1
-getpower=0,0
+getpower = 60,30
 guard.dist=0
 
 [State ]
@@ -4981,12 +4981,12 @@ persistent=0
 [State ]
 type=Poweradd
 trigger1=fvar(17)=0&&var(20)=0&&time=0&&((var(51)=0&&palno!=12)||(var(51)=1&&palno=12))
-value=100
+value=0
 
 [State ]
 type=Poweradd
 trigger1=fvar(17)=0&&var(20)=0&&time=0&&var(51)=1&&palno!=12
-value=50
+value=0
 
 [State ]
 type=Varadd
@@ -5099,6 +5099,7 @@ ctrl=1
 ;ミクボイスE弱溜め
 [Statedef 1501]
 type=S
+poweradd = 0
 movetype=A
 physics=S
 anim=2189
@@ -5122,6 +5123,7 @@ value=1502
 ;ミクボイスE中溜め
 [Statedef 1503]
 type=S
+poweradd = 0
 movetype=A
 physics=S
 anim=2189
@@ -5145,6 +5147,7 @@ value=1504
 ;ミクボイスE強溜め
 [Statedef 1505]
 type=S
+poweradd = 0
 movetype=A
 physics=S
 anim=2189
@@ -5419,7 +5422,7 @@ ground.hittime=20
 ground.velocity=-2,0
 air.velocity=-1.3,-.1
 fall.recovertime=40
-getpower=0,0
+getpower = 7,3
 
 [State ]
 type=AssertSpecial
@@ -5717,6 +5720,7 @@ value=0
 
 [State ]
 type=HitDef
+getpower = 7,3
 trigger1=time=0
 attr=S,SP
 
@@ -5772,12 +5776,12 @@ var(0)=0
 [State ]
 type=Poweradd
 trigger1=fvar(17)=0&&var(20)=0&&time=0&&((var(51)=0&&palno!=12)||(var(51)=1&&palno=12))
-value=70
+value=0
 
 [State ]
 type=Poweradd
 trigger1=fvar(17)=0&&var(20)=0&&time=0&&var(51)=1&&palno!=12
-value=35
+value=0
 
 [State ]
 type=Varadd
@@ -5890,7 +5894,7 @@ ground.hittime=20
 ground.velocity=-2,0
 air.velocity=-1.3,-.1
 fall.recovertime=50
-getpower=0,0
+getpower = 7,3
 
 [State ]
 type=AssertSpecial
@@ -6188,6 +6192,7 @@ value=0
 
 [State ]
 type=HitDef
+getpower = 7,3
 trigger1=time=0
 attr=S,SP
 
@@ -6243,12 +6248,12 @@ var(0)=0
 [State ]
 type=Poweradd
 trigger1=fvar(17)=0&&var(20)=0&&time=0&&((var(51)=0&&palno!=12)||(var(51)=1&&palno=12))
-value=80
+value=0
 
 [State ]
 type=Poweradd
 trigger1=fvar(17)=0&&var(20)=0&&time=0&&var(51)=1&&palno!=12
-value=40
+value=0
 
 [State ]
 type=Varadd
@@ -6361,7 +6366,7 @@ ground.hittime=20
 ground.velocity=-2,0
 air.velocity=-1.3,-.1
 fall.recovertime=60
-getpower=0,0
+getpower = 6,3
 
 [State ]
 type=AssertSpecial
@@ -7428,6 +7433,7 @@ value=0
 
 [State ]
 type=HitDef
+getpower = 6,3
 trigger1=time=0
 attr=S,SP
 
@@ -7537,12 +7543,12 @@ var(15)=0
 [State ]
 type=Poweradd
 trigger1=fvar(17)=0&&var(20)=0&&time=0&&((var(51)=0&&palno!=12)||(var(51)=1&&palno=12))
-value=90
+value=0
 
 [State ]
 type=Poweradd
 trigger1=fvar(17)=0&&var(20)=0&&time=0&&var(51)=1&&palno!=12
-value=45
+value=0
 
 [State ]
 type=Varadd
@@ -7669,7 +7675,7 @@ ground.hittime=5
 ground.velocity=ifelse(var(0)=0,-2,2),0
 air.velocity=ifelse(var(0)=0,-1.3,1.3),-.1
 fall.recovertime=30
-getpower=0,0
+getpower = 7,3
 
 [State ]
 type=AssertSpecial
@@ -7720,18 +7726,19 @@ value=0
 
 [State ]
 type=HitDef
+getpower = 7,3
 trigger1=time=0
 attr=S,SP
 
 [State ]
 type=Poweradd
 trigger1=fvar(17)=0&&var(20)=0&&time=0&&((var(51)=0&&palno!=12)||(var(51)=1&&palno=12))
-value=50
+value=0
 
 [State ]
 type=Poweradd
 trigger1=fvar(17)=0&&var(20)=0&&time=0&&var(51)=1&&palno!=12
-value=25
+value=0
 
 [State ]
 type=Varadd
@@ -7957,7 +7964,7 @@ ground.hittime=5
 ground.velocity=ifelse(var(0)=0,-2,2)
 air.velocity=ifelse(var(0)=0,-1.3,1.3),-.1
 fall.recovertime=50
-getpower=0,0
+getpower = 6,3
 
 [State ]
 type=AssertSpecial
@@ -8086,7 +8093,7 @@ ground.hittime=5
 ground.velocity=ifelse(var(0)=0,-2,2),0
 air.velocity=ifelse(var(0)=0,-1.3,1.3),-.1
 fall.recovertime=50
-getpower=0,0
+getpower = 6,3
 
 [State ]
 type=AssertSpecial
@@ -8137,18 +8144,19 @@ value=0
 
 [State ]
 type=HitDef
+getpower = 6,3
 trigger1=time=0
 attr=S,SP
 
 [State ]
 type=Poweradd
 trigger1=fvar(17)=0&&var(20)=0&&time=0&&((var(51)=0&&palno!=12)||(var(51)=1&&palno=12))
-value=70
+value=0
 
 [State ]
 type=Poweradd
 trigger1=fvar(17)=0&&var(20)=0&&time=0&&var(51)=1&&palno!=12
-value=35
+value=0
 
 [State ]
 type=Varadd
@@ -8312,7 +8320,7 @@ ground.hittime=5
 ground.velocity=ifelse(var(0)=0,-2,2),0
 air.velocity=ifelse(var(0)=0,-1.3,1.3),-.1
 fall.recovertime=40
-getpower=0,0
+getpower = 7,3
 
 [State ]
 type=AssertSpecial
@@ -8363,18 +8371,19 @@ value=0
 
 [State ]
 type=HitDef
+getpower = 7,3
 trigger1=time=0
 attr=S,SP
 
 [State ]
 type=Poweradd
 trigger1=fvar(17)=0&&var(20)=0&&time=0&&((var(51)=0&&palno!=12)||(var(51)=1&&palno=12))
-value=60
+value=0
 
 [State ]
 type=Poweradd
 trigger1=fvar(17)=0&&var(20)=0&&time=0&&var(51)=1&&palno!=12
-value=30
+value=0
 
 [State ]
 type=Varadd
@@ -8721,12 +8730,12 @@ stateno=2129
 [State ]
 type=Poweradd
 trigger1=fvar(17)=0&&var(20)=0&&time=0&&((var(51)=0&&palno!=12)||(var(51)=1&&palno=12))
-value=110
+value=0
 
 [State ]
 type=Poweradd
 trigger1=fvar(17)=0&&var(20)=0&&time=0&&var(51)=1&&palno!=12
-value=55
+value=0
 
 [State ]
 type=Varadd
@@ -9105,12 +9114,12 @@ stateno=2129
 [State ]
 type=Poweradd
 trigger1=fvar(17)=0&&var(20)=0&&time=0&&((var(51)=0&&palno!=12)||(var(51)=1&&palno=12))
-value=130
+value=0
 
 [State ]
 type=Poweradd
 trigger1=fvar(17)=0&&var(20)=0&&time=0&&var(51)=1&&palno!=12
-value=65
+value=0
 
 [State ]
 type=Varadd
@@ -9166,7 +9175,7 @@ guard.velocity=-7
 air.velocity=-3.5,-7
 fall=1
 fall.recovertime=40
-getpower=0,0
+getpower = 60,30
 
 [State ]
 type=HitDef
@@ -9189,7 +9198,7 @@ guard.velocity=-8
 air.velocity=-4.5,-8
 fall=1
 fall.recover=0
-getpower=0,0
+getpower = 60,30
 
 [State ]
 type=HitDef
@@ -9212,7 +9221,7 @@ guard.velocity=-7
 air.velocity=-3.5,-7
 fall=1
 fall.recovertime=40
-getpower=0,0
+getpower = 60,30
 persistent=0
 
 [State ]
@@ -9236,7 +9245,7 @@ guard.velocity=-8
 air.velocity=-4.5,-8
 fall=1
 fall.recover=0
-getpower=0,0
+getpower = 60,30
 persistent=0
 
 [State ]
@@ -9260,7 +9269,7 @@ guard.velocity=-7
 air.velocity=-3.5,-7
 fall=1
 fall.recovertime=40
-getpower=0,0
+getpower = 60,30
 persistent=0
 
 [State ]
@@ -9284,7 +9293,7 @@ guard.velocity=-8
 air.velocity=-4.5,-8
 fall=1
 fall.recover=0
-getpower=0,0
+getpower = 60,30
 persistent=0
 
 [State ]
@@ -9525,12 +9534,12 @@ stateno=2129
 [State ]
 type=Poweradd
 trigger1=fvar(17)=0&&var(20)=0&&time=0&&((var(51)=0&&palno!=12)||(var(51)=1&&palno=12))
-value=120
+value=0
 
 [State ]
 type=Poweradd
 trigger1=fvar(17)=0&&var(20)=0&&time=0&&var(51)=1&&palno!=12
-value=60
+value=0
 
 [State ]
 type=Varadd
@@ -9586,7 +9595,7 @@ guard.velocity=-7
 air.velocity=-3.5,-7
 fall=1
 fall.recovertime=40
-getpower=0,0
+getpower = 60,30
 
 [State ]
 type=HitDef
@@ -9609,7 +9618,7 @@ guard.velocity=-8
 air.velocity=-4.5,-8
 fall=1
 fall.recover=0
-getpower=0,0
+getpower = 60,30
 
 [State ]
 type=HitDef
@@ -9632,7 +9641,7 @@ guard.velocity=-7
 air.velocity=-3.5,-7
 fall=1
 fall.recovertime=40
-getpower=0,0
+getpower = 60,30
 persistent=0
 
 [State ]
@@ -9656,7 +9665,7 @@ guard.velocity=-8
 air.velocity=-4.5,-8
 fall=1
 fall.recover=0
-getpower=0,0
+getpower = 60,30
 persistent=0
 
 [State ]
@@ -9875,12 +9884,12 @@ persistent=0
 [State ]
 type=Poweradd
 trigger1=fvar(17)=0&&var(20)=0&&time=0&&((var(51)=0&&palno!=12)||(var(51)=1&&palno=12))
-value=70
+value=0
 
 [State ]
 type=Poweradd
 trigger1=fvar(17)=0&&var(20)=0&&time=0&&var(51)=1&&palno!=12
-value=35
+value=0
 
 [State ]
 type=Varadd
@@ -9953,7 +9962,7 @@ ground.slidetime=1
 ground.hittime=15
 ground.velocity=-3.0
 air.velocity=-3,0
-getpower=0,0
+getpower = 30,15
 
 [State ]
 type=HitDef
@@ -9972,7 +9981,7 @@ ground.slidetime=1
 ground.hittime=20
 ground.velocity=-3.0
 air.velocity=-3,0
-getpower=0,0
+getpower = 30,15
 
 [State ]
 type=HitDef
@@ -9991,7 +10000,7 @@ ground.slidetime=1
 ground.hittime=25
 ground.velocity=-3.0
 air.velocity=-3,0
-getpower=0,0
+getpower = 30,15
 
 [State ]
 type=HitDef
@@ -10009,7 +10018,7 @@ ground.slidetime=2
 ground.hittime=20
 ground.velocity=-3.0
 air.velocity=-3,0
-getpower=0,0
+getpower = 30,15
 
 [State ]
 type=HitDef
@@ -10028,7 +10037,7 @@ ground.slidetime=2
 ground.hittime=25
 ground.velocity=-3.0
 air.velocity=-3,0
-getpower=0,0
+getpower = 30,15
 
 [State ]
 type=HitDef
@@ -10047,7 +10056,7 @@ ground.slidetime=2
 ground.hittime=30
 ground.velocity=-3.0
 air.velocity=-3,0
-getpower=0,0
+getpower = 30,15
 
 [State ]
 type=varrandom
@@ -10211,12 +10220,12 @@ statetype=S
 [State ]
 type=Poweradd
 trigger1=fvar(17)=0&&var(20)=0&&time=0&&((var(51)=0&&palno!=12)||(var(51)=1&&palno=12))
-value=50
+value=0
 
 [State ]
 type=Poweradd
 trigger1=fvar(17)=0&&var(20)=0&&time=0&&var(51)=1&&palno!=12
-value=25
+value=0
 
 [State ]
 type=Varadd
@@ -10314,7 +10323,7 @@ ground.velocity=-5.5
 air.velocity=-2.5,-7
 fall.recovertime=40
 ground.cornerpush.veloff=-15
-getpower=0,0
+getpower = 30,15
 
 [State ]
 type=HitDef
@@ -10335,7 +10344,7 @@ ground.velocity=-6.5
 air.velocity=-3.5,-9
 fall.recovertime=50
 ground.cornerpush.veloff=-15
-getpower=0,0
+getpower = 30,15
 
 [State ]
 type=ChangeState
@@ -10441,12 +10450,12 @@ fvar(16)=1
 [State ]
 type=Poweradd
 trigger1=fvar(17)=0&&var(20)=0&&time=0&&((var(51)=0&&palno!=12)||(var(51)=1&&palno=12))
-value=56
+value=0
 
 [State ]
 type=Poweradd
 trigger1=fvar(17)=0&&var(20)=0&&time=0&&var(51)=1&&palno!=12
-value=28
+value=0
 
 [State ]
 type=Varadd
@@ -10528,7 +10537,7 @@ ground.velocity=-5
 air.velocity=-5,-4
 fall=1
 fall.recovertime=40
-getpower=0,0
+getpower = 30,15
 
 [State ]
 type=HitDef
@@ -10551,7 +10560,7 @@ ground.velocity=-5
 air.velocity=-5,-4
 fall=1
 fall.recovertime=50
-getpower=0,0
+getpower = 30,15
 
 [State ]
 type=ChangeState
@@ -10657,12 +10666,12 @@ fvar(16)=1
 [State ]
 type=Poweradd
 trigger1=fvar(17)=0&&var(20)=0&&time=0&&((var(51)=0&&palno!=12)||(var(51)=1&&palno=12))
-value=56
+value=0
 
 [State ]
 type=Poweradd
 trigger1=fvar(17)=0&&var(20)=0&&time=0&&var(51)=1&&palno!=12
-value=28
+value=0
 
 [State ]
 type=Varadd
@@ -10744,7 +10753,7 @@ ground.velocity=-5
 air.velocity=-5,-4
 fall=1
 fall.recovertime=40
-getpower=0,0
+getpower = 30,15
 
 [State ]
 type=HitDef
@@ -10767,7 +10776,7 @@ ground.velocity=-5
 air.velocity=-5,-4
 fall=1
 fall.recovertime=50
-getpower=0,0
+getpower = 30,15
 
 [State ]
 type=ChangeState
@@ -10852,12 +10861,12 @@ time=1
 [State ]
 type=Poweradd
 trigger1=fvar(17)=0&&var(20)=0&&time=0&&((var(51)=0&&palno!=12)||(var(51)=1&&palno=12))
-value=80
+value=0
 
 [State ]
 type=Poweradd
 trigger1=fvar(17)=0&&var(20)=0&&time=0&&var(51)=1&&palno!=12
-value=40
+value=0
 
 [State ]
 type=Varadd
@@ -11113,7 +11122,7 @@ ground.cornerpush.veloff=-15
 fall.recovertime=90
 fall=1
 p2facing=1
-getpower=0,0
+getpower = 60,30
 ID=2871
 
 [State ]
@@ -11137,7 +11146,7 @@ ground.cornerpush.veloff=-15
 fall=1
 fall.recovertime=120
 p2facing=1
-getpower=0,0
+getpower = 60,30
 ID=2871
 
 [State ]
@@ -11170,7 +11179,7 @@ fall.recovertime=90
 fall=1
 p2facing=1
 p2stateno=2871
-getpower=0,0
+getpower = 60,30
 
 [State ]
 type=HitDef
@@ -11194,7 +11203,7 @@ fall=1
 fall.recovertime=120
 p2facing=1
 p2stateno=2871
-getpower=0,0
+getpower = 60,30
 
 [State ]
 type=ChangeState
@@ -11275,12 +11284,12 @@ time=1
 [State ]
 type=Poweradd
 trigger1=fvar(17)=0&&var(20)=0&&time=0&&((var(51)=0&&palno!=12)||(var(51)=1&&palno=12))
-value=80
+value=0
 
 [State ]
 type=Poweradd
 trigger1=fvar(17)=0&&var(20)=0&&time=0&&var(51)=1&&palno!=12
-value=40
+value=0
 
 [State ]
 type=Varadd
@@ -11488,7 +11497,7 @@ ground.cornerpush.veloff=-15
 fall.recovertime=90
 fall=1
 p2facing=1
-getpower=0,0
+getpower = 60,30
 ID=2874
 
 [State ]
@@ -11512,7 +11521,7 @@ ground.cornerpush.veloff=-15
 fall=1
 fall.recovertime=120
 p2facing=1
-getpower=0,0
+getpower = 60,30
 ID=2874
 
 [State ]
@@ -11545,7 +11554,7 @@ fall.recovertime=90
 fall=1
 p2facing=1
 p2stateno=2874
-getpower=0,0
+getpower = 60,30
 ID=2874
 
 [State ]
@@ -11570,7 +11579,7 @@ fall=1
 fall.recovertime=120
 p2facing=1
 p2stateno=2874
-getpower=0,0
+getpower = 60,30
 ID=2874
 
 [State ]
@@ -11658,12 +11667,12 @@ time=1
 [State ]
 type=Poweradd
 trigger1=fvar(17)=0&&var(20)=0&&time=0&&((var(51)=0&&palno!=12)||(var(51)=1&&palno=12))
-value=80
+value=0
 
 [State ]
 type=Poweradd
 trigger1=fvar(17)=0&&var(20)=0&&time=0&&var(51)=1&&palno!=12
-value=40
+value=0
 
 [State ]
 type=Varadd
@@ -11860,7 +11869,7 @@ ground.cornerpush.veloff=-15
 fall.recovertime=90
 fall=1
 p2facing=1
-getpower=0,0
+getpower = 60,30
 ID=2879
 
 [State ]
@@ -11892,7 +11901,7 @@ ground.cornerpush.veloff=-15
 fall.recovertime=90
 fall=1
 p2facing=1
-getpower=0,0
+getpower = 60,30
 ID=2876
 
 [State ]
@@ -11916,7 +11925,7 @@ ground.cornerpush.veloff=-15
 fall=1
 fall.recovertime=120
 p2facing=1
-getpower=0,0
+getpower = 60,30
 ID=2876
 
 [State ]
@@ -11949,7 +11958,7 @@ fall.recovertime=90
 fall=1
 p2facing=1
 p2stateno=2879
-getpower=0,0
+getpower = 60,30
 ID=2879
 
 [State ]
@@ -11974,7 +11983,7 @@ fall.recovertime=90
 fall=1
 p2facing=1
 p2stateno=2876
-getpower=0,0
+getpower = 60,30
 ID=2876
 
 [State ]
@@ -11999,7 +12008,7 @@ fall=1
 fall.recovertime=120
 p2facing=1
 p2stateno=2876
-getpower=0,0
+getpower = 60,30
 ID=2876
 
 [State ]
@@ -12014,7 +12023,7 @@ type=S
 movetype=A
 physics=S
 juggle=1
-poweradd=30
+poweradd=0
 ctrl=0
 velset=0,0
 anim=3343
@@ -12062,12 +12071,12 @@ persistent=0
 [State ]
 type=Poweradd
 trigger1=fvar(17)=0&&var(20)=0&&time=0&&((var(51)=0&&palno!=12)||(var(51)=1&&palno=12))
-value=75
+value=0
 
 [State ]
 type=Poweradd
 trigger1=fvar(17)=0&&var(20)=0&&time=0&&var(51)=1&&palno!=12
-value=37
+value=0
 
 [State ]
 type=Varadd
@@ -12208,7 +12217,7 @@ air.type=low
 air.hittime=40
 fall=1
 p2facing=1
-getpower=0,0
+getpower = 60,30
 ID=2882
 
 [State ]
@@ -12244,7 +12253,7 @@ air.type=low
 air.hittime=40
 fall=1
 p2facing=1
-getpower=0,0
+getpower = 60,30
 ID=2884
 
 [State ]
@@ -12280,7 +12289,7 @@ air.type=low
 air.hittime=40
 fall=1
 p2facing=1
-getpower=0,0
+getpower = 60,30
 p2stateno=2882
 ID=2882
 
@@ -12309,7 +12318,7 @@ air.type=low
 air.hittime=40
 fall=1
 p2facing=1
-getpower=0,0
+getpower = 60,30
 p2stateno=2884
 ID=2884
 
@@ -12330,7 +12339,7 @@ type=S
 movetype=A
 physics=S
 juggle=1
-poweradd=30
+poweradd=0
 ctrl=0
 velset=0,0
 anim=3344
@@ -12378,12 +12387,12 @@ persistent=0
 [State ]
 type=Poweradd
 trigger1=fvar(17)=0&&var(20)=0&&time=0&&((var(51)=0&&palno!=12)||(var(51)=1&&palno=12))
-value=85
+value=0
 
 [State ]
 type=Poweradd
 trigger1=fvar(17)=0&&var(20)=0&&time=0&&var(51)=1&&palno!=12
-value=42
+value=0
 
 [State ]
 type=Varadd
@@ -12525,7 +12534,7 @@ air.type=low
 air.hittime=40
 fall=1
 p2facing=1
-getpower=0,0
+getpower = 60,30
 ID=2884
 
 [State ]
@@ -12561,7 +12570,7 @@ air.type=low
 air.hittime=40
 fall=1
 p2facing=1
-getpower=0,0
+getpower = 60,30
 ID=2886
 
 [State ]
@@ -12598,7 +12607,7 @@ air.hittime=40
 fall=1
 p2facing=1
 p2stateno=2884
-getpower=0,0
+getpower = 60,30
 ID=2884
 
 [State ]
@@ -12627,7 +12636,7 @@ air.hittime=40
 fall=1
 p2facing=1
 p2stateno=2886
-getpower=0,0
+getpower = 60,30
 ID=2886
 
 [State ]
@@ -12647,7 +12656,7 @@ type=S
 movetype=A
 physics=S
 juggle=1
-poweradd=30
+poweradd=0
 ctrl=0
 velset=0,0
 anim=3345
@@ -12695,12 +12704,12 @@ persistent=0
 [State ]
 type=Poweradd
 trigger1=fvar(17)=0&&var(20)=0&&time=0&&((var(51)=0&&palno!=12)||(var(51)=1&&palno=12))
-value=95
+value=0
 
 [State ]
 type=Poweradd
 trigger1=fvar(17)=0&&var(20)=0&&time=0&&var(51)=1&&palno!=12
-value=47
+value=0
 
 [State ]
 type=Varadd
@@ -12840,7 +12849,7 @@ air.type=low
 air.hittime=40
 fall=1
 p2facing=1
-getpower=0,0
+getpower = 60,30
 ID=2886
 
 [State ]
@@ -12876,7 +12885,7 @@ air.type=low
 air.hittime=40
 fall=1
 p2facing=1
-getpower=0,0
+getpower = 60,30
 ID=2887
 
 [State ]
@@ -12912,7 +12921,7 @@ air.type=low
 air.hittime=40
 fall=1
 p2facing=1
-getpower=0,0
+getpower = 60,30
 p2stateno=2886
 ID=2886
 
@@ -12941,7 +12950,7 @@ air.type=low
 air.hittime=40
 fall=1
 p2facing=1
-getpower=0,0
+getpower = 60,30
 p2stateno=2887
 ID=2887
 
@@ -12959,6 +12968,7 @@ ctrl=1
 ;ねんどろいど（弱）
 [Statedef 2779]
 type=S
+poweradd = 20
 movetype=A
 physics=S
 juggle=4
@@ -12973,6 +12983,7 @@ value=0
 
 [State ]
 type=HitDef
+getpower = 10,5
 trigger1=time=0
 attr=S,SP
 
@@ -13041,12 +13052,12 @@ ctrl=1
 [State ]
 type=Poweradd
 trigger1=fvar(17)=0&&var(20)=0&&time=0&&((var(51)=0&&palno!=12)||(var(51)=1&&palno=12))
-value=70
+value=0
 
 [State ]
 type=Poweradd
 trigger1=fvar(17)=0&&var(20)=0&&time=0&&var(51)=1&&palno!=12
-value=35
+value=0
 
 [State ]
 type=Varadd
@@ -13105,6 +13116,7 @@ value=0
 
 [State ]
 type=HitDef
+getpower = 60,30
 trigger1=time=0
 attr=S,SP
 
@@ -13173,12 +13185,12 @@ ctrl=1
 [State ]
 type=Poweradd
 trigger1=fvar(17)=0&&var(20)=0&&time=0&&((var(51)=0&&palno!=12)||(var(51)=1&&palno=12))
-value=70
+value=0
 
 [State ]
 type=Poweradd
 trigger1=fvar(17)=0&&var(20)=0&&time=0&&var(51)=1&&palno!=12
-value=35
+value=0
 
 [State ]
 type=Varadd
@@ -13309,6 +13321,7 @@ value=0
 
 [State ]
 type=HitDef
+getpower = 60,30
 trigger1=time=0
 attr=S,SP
 
@@ -13377,12 +13390,12 @@ ctrl=1
 [State ]
 type=Poweradd
 trigger1=fvar(17)=0&&var(20)=0&&time=0&&((var(51)=0&&palno!=12)||(var(51)=1&&palno=12))
-value=70
+value=0
 
 [State ]
 type=Poweradd
 trigger1=fvar(17)=0&&var(20)=0&&time=0&&var(51)=1&&palno!=12
-value=35
+value=0
 
 [State ]
 type=Varadd
@@ -13533,7 +13546,7 @@ ground.hittime=30
 ground.cornerpush.veloff=0
 fall=1
 fall.recover=0
-getpower=0,0
+getpower = 10,5
 
 [State ]
 type=TargetState
@@ -13562,7 +13575,7 @@ ground.hittime=30
 ground.cornerpush.veloff=0
 fall=1
 fall.recover=0
-getpower=0,0
+getpower = 10,5
 p2stateno=2782
 
 [State ]
@@ -13700,6 +13713,7 @@ trigger1=time=25
 ;ネギロケットプレス
 [Statedef 2943]
 type=S
+poweradd = 20
 movetype=A
 physics=S
 juggle=4
@@ -13714,18 +13728,19 @@ value=0
 
 [State ]
 type=HitDef
+getpower = 10,5
 trigger1=time=0
 attr=S,SP
 
 [State ]
 type=Poweradd
 trigger1=fvar(17)=0&&var(20)=0&&time=0&&((var(51)=0&&palno!=12)||(var(51)=1&&palno=12))
-value=100
+value=0
 
 [State ]
 type=Poweradd
 trigger1=fvar(17)=0&&var(20)=0&&time=0&&var(51)=1&&palno!=12
-value=50
+value=0
 
 [State ]
 type=Varadd
@@ -14034,7 +14049,7 @@ air.velocity=-5,-3
 p2facing=1
 fall=1
 fall.recover=0
-getpower=0,0
+getpower = 10,5
 id=2944
 kill=0
 
@@ -14068,7 +14083,7 @@ hitonce=1
 p2facing=1
 fall=1
 fall.recover=0
-getpower=0,0
+getpower = 10,5
 p2stateno=2945
 id=2944
 kill=0
@@ -15695,6 +15710,7 @@ trigger1=time=10
 ;たぴ･ぱん
 [Statedef 2669]
 type=C
+poweradd = 0
 movetype=A
 physics=S
 anim=2560
@@ -15708,12 +15724,12 @@ value=0
 [State ]
 type=Poweradd
 trigger1=fvar(17)=0&&var(20)=0&&time=0&&((var(51)=0&&palno!=12)||(var(51)=1&&palno=12))
-value=65
+value=0
 
 [State ]
 type=Poweradd
 trigger1=fvar(17)=0&&var(20)=0&&time=0&&var(51)=1&&palno!=12
-value=32
+value=0
 
 [State ]
 type=Varadd
@@ -16052,7 +16068,7 @@ ground.hittime=10
 ground.velocity=0,-4
 air.velocity=0,-4
 fall.recover=0
-getpower=0,0
+getpower = 7,3
 
 [State ]
 type=SprPriority
@@ -16194,7 +16210,7 @@ ground.velocity=ifelse(var(19)=0,-.5,.5),-6
 air.velocity=ifelse(var(19)=0,-.5,.5),-6
 p2facing=1
 fall.recover=0
-getpower=0,0
+getpower = 7,3
 
 [State ]
 type=PlaySnd
@@ -16479,7 +16495,7 @@ airguard.velocity=-.5,-.8
 air.velocity=-.5,-1
 air.hittime=20
 fall.recovertime=20
-getpower=0,0
+getpower = 7,3
 guard.dist=30
 
 [State ]
@@ -16749,7 +16765,7 @@ hitsound=-1
 guardsound=-1
 hitonce=1
 p2stateno=2723
-getpower=0,0
+getpower = 7,3
 affectteam=B
 guard.dist=0
 sprpriority=-5

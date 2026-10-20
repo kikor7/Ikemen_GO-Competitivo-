@@ -266,7 +266,7 @@ juggle = 15
 ctrl = 0
 velset = 0,0
 anim = 1100
-poweradd = 4*var(5)
+poweradd = 0*var(5)
 
 [State 3000]
 type = varset
@@ -364,7 +364,7 @@ juggle = 15
 ctrl = 0
 velset = 0,0
 anim = 1110
-poweradd = 4*var(5)
+poweradd = 0*var(5)
 
 [State 3000]
 type = varset
@@ -462,7 +462,7 @@ juggle = 15
 ctrl = 0
 velset = 0,0
 anim = 1120
-poweradd = 4*var(5)
+poweradd = 0*var(5)
 
 [State 3000]
 type = varset
@@ -564,7 +564,7 @@ juggle = 15
 ctrl = 0
 velset = 0,0
 anim = 1200
-poweradd = 4*var(5)
+poweradd = 0*var(5)
 
 [state -2]
 type = VarSet
@@ -776,7 +776,7 @@ juggle = 15
 ctrl = 0
 velset = 0,0
 anim = 1210
-poweradd = 4*var(5)
+poweradd = 0*var(5)
 
 [state -2]
 type = VarSet
@@ -989,7 +989,7 @@ juggle = 15
 ctrl = 0
 velset = 0,0
 anim = 1220
-poweradd = 4*var(5)
+poweradd = 0*var(5)
 
 [state -2]
 type = VarSet
@@ -1209,7 +1209,7 @@ juggle = 15
 ctrl = 0
 velset = 0,0
 anim = 1300
-poweradd = 4*var(5)
+poweradd = 0*var(5)
 
 [state -2]
 type = VarSet
@@ -1335,7 +1335,7 @@ juggle = 15
 ctrl = 0
 velset = 0,0
 anim = 1300
-poweradd = 4*var(5)
+poweradd = 0*var(5)
 
 [state -2]
 type = VarSet
@@ -1461,7 +1461,7 @@ juggle = 15
 ctrl = 0
 velset = 0,0
 anim = 1300
-poweradd = 4*var(5)
+poweradd = 0*var(5)
 
 [state -2]
 type = VarSet
@@ -1663,7 +1663,7 @@ movetype = A
 physics = S
 ctrl = 0
 juggle = 15
-poweradd = 4*var(5)
+poweradd = 0*var(5)
 velset = 0,0
 anim = 1400
 
@@ -1806,7 +1806,7 @@ movetype = A
 physics = S
 ctrl = 0
 juggle = 15
-poweradd = 4*var(5)
+poweradd = 0*var(5)
 velset = 0,0
 anim = 1410
 
@@ -1976,7 +1976,7 @@ movetype = A
 physics = S
 ctrl = 0
 juggle = 15
-poweradd = 4*var(5)
+poweradd = 0*var(5)
 velset = 0,0
 anim = 1420
 

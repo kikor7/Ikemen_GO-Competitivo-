@@ -447,7 +447,7 @@ triggerall = Var(2) <= 0
 trigger1 = time=0
 attr = S, NA
 damage = 30, 0
-getpower = 7
+getpower = 30,15
 givepower = 7, 0
 animtype = Light
 guardflag = MA
@@ -504,7 +504,7 @@ type = S
 movetype = A
 physics = S
 velset = 0,0
-poweradd = 7
+poweradd = 0
 sprpriority = 2
 juggle = 4
 anim = 210
@@ -524,7 +524,7 @@ type = HitDef
 trigger1 = time=0
 attr = S, NA
 damage = 40, 0
-getpower = 7
+getpower = 30,15
 givepower = 7, 0
 animtype = Medium
 guardflag = MA
@@ -586,7 +586,7 @@ type = S
 movetype = A
 physics = S
 velset = 0,0
-poweradd = 7
+poweradd = 0
 sprpriority = 2
 juggle = 6
 anim = 220
@@ -606,7 +606,7 @@ type = HitDef
 trigger1 = time=0
 attr = S, NA
 damage = 60, 0
-getpower = 7
+getpower = 30,15
 givepower = 7, 0
 animtype = Heavy
 guardflag = MA
@@ -668,7 +668,7 @@ type = S
 movetype = A
 physics = S
 velset = 0,0
-poweradd = 7
+poweradd = 0
 sprpriority = 2
 juggle = 2
 anim = 230
@@ -685,7 +685,7 @@ type = HitDef
 trigger1 = AnimElem = 3
 attr = S, NA
 damage = 30, 0
-getpower = 7
+getpower = 30,15
 givepower = 7, 0
 animtype = Light
 guardflag = MA
@@ -741,7 +741,7 @@ type = S
 movetype = A
 physics = S
 velset = 0,0
-poweradd = 7
+poweradd = 0
 sprpriority = 2
 juggle = 4
 anim = 240
@@ -767,7 +767,7 @@ type = HitDef
 trigger1 = AnimElem = 3
 attr = S, NA
 damage = 40, 0
-getpower = 7
+getpower = 30,15
 givepower = 7, 0
 animtype = Medium
 guardflag = MA
@@ -823,7 +823,7 @@ type = S
 movetype = A
 physics = S
 velset = 0,0
-poweradd = 7
+poweradd = 0
 sprpriority = 2
 juggle = 6
 anim = 250
@@ -843,7 +843,7 @@ type = HitDef
 trigger1 = time=0
 attr = S, NA
 damage = 60, 0
-getpower = 7
+getpower = 30,15
 givepower = 7, 0
 animtype = Heavy
 guardflag = MA
@@ -906,7 +906,7 @@ type = C
 movetype = A
 physics = C
 velset = 0,0
-poweradd = 7
+poweradd = 0
 sprpriority = 2
 juggle = 2
 anim = 400
@@ -924,7 +924,7 @@ triggerall = Var(2) <= 0
 trigger1 = AnimElem = 2
 attr = C, NA
 damage = 30, 0
-getpower = 7, 7
+getpower = 30,15
 givepower = 7, 0
 animtype = Light
 guardflag = L
@@ -980,7 +980,7 @@ type = C
 movetype = A
 physics = C
 velset = 0,0
-poweradd = 7
+poweradd = 0
 sprpriority = 2
 juggle = 4
 anim = 410
@@ -998,7 +998,7 @@ triggerall = Var(2) <= 0
 trigger1 = AnimElem = 2
 attr = C, NA
 damage = 40, 0
-getpower = 7, 7
+getpower = 30,15
 givepower = 7, 0
 animtype = Medium
 guardflag = L
@@ -1054,7 +1054,7 @@ type = C
 movetype = A
 physics = C
 velset = 0,0
-poweradd = 7
+poweradd = 0
 sprpriority = 2
 juggle = 6
 anim = 420
@@ -1071,7 +1071,7 @@ type = HitDef
 trigger1 = time=0
 attr = C, HA
 damage = 60, 0
-getpower = 7, 7
+getpower = 30,15
 givepower = 7, 0
 guardflag = L
 hitflag = MAF
@@ -1130,7 +1130,7 @@ type = C
 movetype = A
 physics = C
 velset = 0,0
-poweradd = 7
+poweradd = 0
 sprpriority = 2
 juggle = 2
 anim = 430
@@ -1147,7 +1147,7 @@ type = HitDef
 trigger1 = time=0
 attr = C, NA
 damage = 30, 0
-getpower = 7, 7
+getpower = 30,15
 givepower = 7, 0
 animtype = Light
 guardflag = L
@@ -1203,7 +1203,7 @@ type = C
 movetype = A
 physics = C
 velset = 0,0
-poweradd = 7
+poweradd = 0
 sprpriority = 2
 juggle = 4
 anim = 440
@@ -1220,7 +1220,7 @@ type = HitDef
 trigger1 = time=0
 attr = C, NA
 damage = 40, 0
-getpower = 7, 7
+getpower = 30,15
 givepower = 7, 0
 animtype = Medium
 guardflag = L
@@ -1276,7 +1276,7 @@ type = C
 movetype = A
 physics = N
 velset = 0,0
-poweradd = 7
+poweradd = 0
 sprpriority = 2
 juggle = 6
 anim = 450
@@ -1293,7 +1293,7 @@ type = HitDef
 trigger1 = time=0
 attr = C, HA
 damage = 60, 0
-getpower = 7, 7
+getpower = 30,15
 givepower = 7, 0
 guardflag = L
 hitflag = MAF
@@ -1356,7 +1356,7 @@ ctrl = 1
 type = A
 movetype = A
 physics = A
-poweradd = 7
+poweradd = 0
 sprpriority = 2
 juggle = 2
 anim = 600
@@ -1381,7 +1381,7 @@ trigger1 = Vel X = 0
 trigger1 = time=0
 attr = A, NA
 damage = 30, 0
-getpower = 7, 7
+getpower = 10,5
 givepower = 7, 0
 animtype = Light
 guardflag = HA
@@ -1406,7 +1406,7 @@ trigger1 = Vel X != 0
 trigger1 = AnimElem = 3
 attr = A, NA
 damage = 35, 0
-getpower = 7, 7
+getpower = 10,5
 givepower = 7, 0
 animtype = Light
 guardflag = HA
@@ -1431,7 +1431,7 @@ trigger1 = Vel X = 0
 trigger1 = AnimElem = 3
 attr = A, HA
 damage = 42, 0
-getpower = 7, 7
+getpower = 10,5
 givepower = 7, 0
 animtype = Light
 guardflag = HA
@@ -1456,7 +1456,7 @@ trigger1 = Vel X != 0
 trigger1 = AnimElem = 3
 attr = A, HA
 damage = 35, 0
-getpower = 7, 7
+getpower = 10,5
 givepower = 7, 0
 animtype = Light
 guardflag = HA
@@ -1501,7 +1501,7 @@ ignorehitpause = 1
 type = A
 movetype = A
 physics = A
-poweradd = 7
+poweradd = 0
 sprpriority = 2
 juggle = 4
 anim = 610
@@ -1524,7 +1524,7 @@ type = HitDef
 trigger1 = time=0
 attr = A, NA
 damage = 40, 0
-getpower = 7
+getpower = 30,15
 givepower = 7, 0
 animtype = Medium
 guardflag = MA
@@ -1572,7 +1572,7 @@ ignorehitpause = 1
 type = A
 movetype = A
 physics = A
-poweradd = 7
+poweradd = 0
 sprpriority = 2
 juggle = 6
 anim = 620
@@ -1595,7 +1595,7 @@ type = HitDef
 trigger1 = time=0
 attr = A, NA
 damage = 60, 0
-getpower = 7
+getpower = 30,15
 givepower = 7, 0
 animtype = Heavy
 guardflag = MA
@@ -1643,7 +1643,7 @@ ignorehitpause = 1
 type = A
 movetype = A
 physics = A
-poweradd = 7
+poweradd = 0
 sprpriority = 2
 juggle = 2
 anim = 630
@@ -1660,7 +1660,7 @@ type = HitDef
 trigger1 = time=0
 attr = A, NA
 damage = 30, 0
-getpower = 7
+getpower = 30,15
 givepower = 7, 0
 animtype = Light
 guardflag = MA
@@ -1714,7 +1714,7 @@ ignorehitpause = 1
 type = A
 movetype = A
 physics = A
-poweradd = 7
+poweradd = 0
 sprpriority = 2
 juggle = 4
 anim = 640
@@ -1725,7 +1725,7 @@ type = HitDef
 trigger1 = time=0
 attr = A, NA
 damage = 40, 0
-getpower = 7
+getpower = 30,15
 givepower = 7, 0
 animtype = Medium
 guardflag = MA
@@ -1785,7 +1785,7 @@ ignorehitpause = 1
 type = A
 movetype = A
 physics = A
-poweradd = 7
+poweradd = 0
 sprpriority = 2
 juggle = 6
 anim = 650
@@ -1796,7 +1796,7 @@ type = HitDef
 trigger1 = time=0
 attr = A, NA
 damage = 60, 0
-getpower = 7
+getpower = 30,15
 givepower = 7, 0
 animtype = Heavy
 guardflag = MA
@@ -1857,13 +1857,14 @@ type = S
 movetype = A
 physics = S
 velset = 0,0
-poweradd = 7
+poweradd = 0
 sprpriority = 2
 anim = 800
 ctrl = 0
 
 [State 800, 1]
 type = HitDef
+getpower = 30,15
 triggerall = Var(2) <= 0
 trigger1 = Time <= 0
 attr = S, NT
@@ -1881,6 +1882,7 @@ fall = 1
 
 [State 800, 2]
 type = HitDef
+getpower = 30,15
 triggerall = Var(2) > 0
 trigger1 = Time <= 0
 attr = S, HT
@@ -2007,11 +2009,12 @@ movetype = A
 physics = A
 sprpriority = 2
 anim = 810
-poweradd = 7
+poweradd = 0
 ctrl = 0
 
 [State 810, 1]
 type = HitDef
+getpower = 60,30
 triggerall = Var(2) <= 0
 trigger1 = Time <= 0
 attr = A, NT
@@ -2031,6 +2034,7 @@ fall = 1
 
 [State 810, 1]
 type = HitDef
+getpower = 60,30
 triggerall = Var(2) > 0
 trigger1 = Time <= 0
 attr = A, HT

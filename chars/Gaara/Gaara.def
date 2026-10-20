@@ -13,6 +13,7 @@ pal.defaults =1
 edit = "Om Hy"
 
 [Files]
+movelist = movelist.dat
 sprite =Gaara.sff
 anim =Gaara.air
 sound =Gaara.snd

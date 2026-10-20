@@ -914,7 +914,7 @@ air.cornerpush.veloff = 0
 down.cornerpush.veloff = 0
 airguard.cornerpush.veloff = 0
 guard.cornerpush.veloff = 0
-getpower= Cond((root,NumHelper(4750)=0),ifelse(p2movetype=H,40,140),0),Cond((root,NumHelper(4750)=0),10,0)
+getpower = 30,15
 givepower = 35,35
 ;ID = 1030
 persistent = 0
@@ -956,7 +956,7 @@ air.cornerpush.veloff = 0
 down.cornerpush.veloff = 0
 airguard.cornerpush.veloff = 0
 guard.cornerpush.veloff = 0
-getpower = 0,0
+getpower = 30,15
 givepower = 0,0
 ;ID = 1030
 persistent = 0
@@ -1929,7 +1929,7 @@ movetype=A
 ctrl=0
 velset=0,0
 sprpriority=4
-poweradd = 100
+poweradd = 0
 
 [State 200, Ki goes SFX]
 type = PlaySnd
@@ -2317,7 +2317,7 @@ air.cornerpush.veloff = 0
 down.cornerpush.veloff = 0
 airguard.cornerpush.veloff = 0
 guard.cornerpush.veloff = 0
-getpower= Cond((root,NumHelper(4750)=0),ifelse(p2movetype=H,40,140),0),Cond((root,NumHelper(4750)=0),10,0)
+getpower = 7,3
 givepower = 35,35
 ;ID = 1030
 persistent = 0
@@ -2360,7 +2360,7 @@ air.cornerpush.veloff = 0
 down.cornerpush.veloff = 0
 airguard.cornerpush.veloff = 0
 guard.cornerpush.veloff = 0
-getpower = 0,0
+getpower = 7,3
 givepower = 0,0
 ;ID = 1030
 persistent = 0

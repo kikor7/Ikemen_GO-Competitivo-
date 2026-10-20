@@ -12161,6 +12161,7 @@ time=1
 ;サイクバースト
 [Statedef 2067]
 type=A
+poweradd = 20
 movetype=I
 physics=S
 velset=0,0
@@ -12282,6 +12283,7 @@ ctrl=0
 ;サイクバーストH
 [Statedef 2068]
 type=A
+poweradd = 20
 movetype=I
 physics=S
 velset=0,0
@@ -12491,7 +12493,7 @@ air.velocity=-3.5,-3
 kill=0
 fall=1
 fall.recover=0
-getpower=0,0
+getpower = 30,15
 
 [State ]
 type=Explod
@@ -12528,7 +12530,7 @@ ignorehitpause=1
 [State ];サイクバースト当てた時のゲージ増加
 type=Poweradd
 trigger1=root,fvar(17)=0&&root,var(20)=0&&movehit&&!MoveReversed
-value=2000
+value=0
 ignorehitpause=1
 persistent=0
 
@@ -12618,7 +12620,7 @@ air.velocity=-3.5,-3
 kill=0
 fall=1
 fall.recover=0
-getpower=0,0
+getpower = 30,15
 
 [State ]
 type=Explod
@@ -21769,7 +21771,7 @@ ground.type=low
 ground.slidetime=60
 ground.hittime=60
 p2stateno=2514
-getpower=0,0
+getpower = 6,3
 
 [State ]
 type=DestroySelf
@@ -22060,7 +22062,7 @@ ground.velocity=-3,-1.5
 air.velocity=-3,-1.5
 fall.recover=0
 fall=1
-getpower=0,0
+getpower = 6,3
 
 [State ]
 type=AngleDraw
@@ -22336,7 +22338,7 @@ ground.type=low
 ground.slidetime=60
 ground.hittime=60
 p2stateno=2519
-getpower=0,0
+getpower = 6,3
 
 [State ]
 type=DestroySelf
@@ -23459,7 +23461,7 @@ guard.sparkno=s2636
 hitsound=-1
 guardsound=-1
 fall.recovertime=40
-getpower=0,0
+getpower = 6,3
 
 [State ]
 type=HitDef
@@ -23481,7 +23483,7 @@ ground.velocity=-5,0
 ground.cornerpush.veloff=-5
 air.velocity=-2,0
 fall.recovertime=40
-getpower=0,0
+getpower = 6,3
 
 [State オヤシロバリア白]
 type=Helper
@@ -23665,6 +23667,7 @@ trigger1=animtime=0
 ;サポートマスコット発動
 [Statedef 2509]
 type=S
+poweradd = 20
 movetype=I
 physics=S
 velset=0,0

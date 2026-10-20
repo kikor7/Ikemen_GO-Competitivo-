@@ -45,7 +45,7 @@ triggerall = !movecontact
 trigger1 =  time = [2,7]
 attr = S, NA
 animtype  = Medium
-getpower = 30,10
+getpower = 10,5
 damage = 50,1
 guardflag = MA
 priority = 4
@@ -191,7 +191,7 @@ triggerall = time > 7
 trigger1 = time%8 = 0
 attr = S, NA
 animtype  = Medium
-getpower = 50,20
+getpower = 7,3
 damage = 5,1
 guardflag = MA
 priority = 4
@@ -381,7 +381,7 @@ trigger2 = Animelem = 3
 trigger3 = Animelem = 4
 attr = C, NA
 animtype  = Medium
-getpower = 30,10
+getpower = 7,3
 damage = 10,5
 guardflag = L
 priority = 4
@@ -649,7 +649,7 @@ type = HitDef
 trigger1 =  animelem = 2
 attr = S, NA
 animtype  = Medium
-getpower = 0,0
+getpower = 7,3
 damage = 10,5
 guardflag = HA
 priority = 4
@@ -831,7 +831,7 @@ triggerall = time >= 15
 trigger1 =  1
 attr = S, SP
 animtype  = Medium
-getpower = 0,0
+getpower = 15,7
 damage = 10,5
 guardflag = HA
 priority = 4
@@ -905,6 +905,7 @@ trigger1 =  1
 attr = S, SP
 animtype  = Medium
 damage = 10,5
+getpower = 15,7
 guardflag = HA
 priority = 4
 pausetime = 8,8
@@ -1219,7 +1220,7 @@ guardflag = MA
 animtype = Hard
 priority = 7, Hit
 animtype  = Medium
-getpower = 0,0
+getpower = 10,5
 damage    = 50
 pausetime = 0,8
 sparkno = -1;s6000
@@ -1279,7 +1280,7 @@ physics = N
 anim = 1100
 velset = 0,0
 ctrl = 0
-poweradd = 100
+poweradd = 0
 sprpriority = 1
 
 
@@ -1678,7 +1679,7 @@ movetype = A
 physics = S
 anim = 1200
 ctrl = 0
-poweradd = 100
+poweradd = 0
 
 
 
@@ -1744,7 +1745,7 @@ triggerall =  time > 16
 trigger1 = time%6 = 0
 attr = S, SA
 animtype  = high
-getpower = 0,0
+getpower = 30,15
 damage    = 7,1
 guardflag = MA
 pausetime = 4,4
@@ -1939,7 +1940,7 @@ type    = A
 movetype= A
 physics = N
 juggle  = 4
-poweradd = 50
+poweradd = 0
 ctrl = 0
 velset = 0,0
 anim = 1220
@@ -2025,7 +2026,7 @@ trigger1 = animelem = 9
 trigger2 = animelem = 10
 attr = A, SA
 animtype  = Medium
-getpower = 0,0
+getpower = 30,15
 damage    = 60,5
 guardflag = HA
 pausetime = 12,12
@@ -2192,7 +2193,7 @@ type    = A
 movetype = A
 physics = N
 juggle  = 2
-poweradd = 100
+poweradd = 20
 ctrl = 0
 anim = 1300
 sprpriority = 1
@@ -2311,7 +2312,7 @@ physics = N
 juggle  = 2
 ctrl = 0
 anim = 1400
-poweradd = 100
+poweradd = 20
 sprpriority = -1
 velset = 0,0
 
@@ -2696,7 +2697,7 @@ trigger2 = animelem = 4
 trigger3 = animelem = 6
 attr = C, SP
 animtype  = Hard
-getpower = 0,0
+getpower = 15,7
 damage    = 20,5
 getpower  = 0
 priority = 5, Hit
@@ -2722,7 +2723,7 @@ type = HitDef
 trigger1 = animelem = 8
 attr = S, SP
 animtype  = Hard
-getpower = 0,0
+getpower = 15,7
 damage    = 40,5
 getpower  = 0
 priority = 5, Hit
@@ -2853,7 +2854,7 @@ physics = N
 juggle  = 1
 ctrl = 0
 anim = 1500
-poweradd = 100
+poweradd = 0
 sprpriority = 1
 
 
@@ -3087,7 +3088,7 @@ trigger1 = animelem = 3
 trigger2 = animelem = 4
 attr = A, SA
 animtype  = Medium
-getpower = 0,0
+getpower = 30,15
 damage = 40,5
 guardflag = HA
 priority = 3
@@ -3245,7 +3246,7 @@ trigger1 = animelem = 2
 trigger2 = animelem = 3
 attr = A, SA
 animtype  = Medium
-getpower = 0,0
+getpower = 30,15
 damage = 40,5
 guardflag = MA
 priority = 3
@@ -3309,7 +3310,7 @@ physics = S
 juggle  = 2
 ctrl = 0
 anim = 1600
-poweradd = 125
+poweradd = 20
 sprpriority = -1
 
 
@@ -3582,7 +3583,7 @@ hitflag	= MAFDP
 guardflag = HA
 animtype = Hard
 priority = 7, Hit
-getpower = 0,0
+getpower = 15,7
 damage    = 60,5
 pausetime = 12,12
 sparkno = -1;s6000
@@ -3669,7 +3670,7 @@ hitflag	= MAFDP
 guardflag = HA
 animtype = Hard
 priority = 7, Hit
-getpower = 0,0
+getpower = 15,7
 damage    = 60,5
 pausetime = 12,12
 sparkno = -1;s6000
@@ -3842,7 +3843,7 @@ physics = S
 juggle  = 2
 ctrl = 0
 anim = 1700
-poweradd = 100
+poweradd = 20
 sprpriority = -1
 
 
@@ -3977,7 +3978,7 @@ triggerall = !movecontact
 trigger1 =  1
 attr = S, SA
 animtype  = Medium
-getpower = 0,0
+getpower = 7,3
 damage    = 80,5
 guardflag = MA
 pausetime = 12,12
@@ -4034,7 +4035,7 @@ physics = N
 juggle  = 1
 ctrl = 0
 anim = 1800
-poweradd = 150
+poweradd = 0
 
 [State 0, PlaySnd]
 type = PlaySnd
@@ -4312,7 +4313,7 @@ guardflag = MA
 animtype = Hard
 priority = 7, Hit
 animtype  = Medium
-getpower = 0,0
+getpower = 30,15
 damage    = 50
 pausetime = 0,8
 sparkno = -1;s6000
@@ -4682,7 +4683,7 @@ guardflag = MA
 animtype = Hard
 priority = 7, Hit
 animtype  = Medium
-getpower = 0,0
+getpower = 10,5
 damage    = 30
 pausetime = 0,5
 sparkno = -1;s6000

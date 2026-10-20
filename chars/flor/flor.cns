@@ -349,7 +349,7 @@ ground.hittime  = 4
 ground.velocity = -3,0
 guard.velocity = -2
 air.velocity = -3,-4
-getpower = 35, 15
+getpower = 30,15
 
 [State 400, end]
 type = ChangeState
@@ -392,7 +392,7 @@ ground.hittime  = 4
 ground.velocity = -3,0
 guard.velocity = -2
 air.velocity = -3,-4
-getpower = 35, 15
+getpower = 30,15
 
 [State 40, 6]
 type = velset
@@ -455,7 +455,7 @@ ground.hittime  = 6
 ground.velocity = -7,0
 guard.velocity = -5
 air.velocity = -6.5,-5
-getpower = 55, 20
+getpower = 30,15
 
 [State 300, end]
 type = ChangeState
@@ -498,7 +498,7 @@ ground.hittime  = 20
 ground.velocity = 0,0
 guard.velocity = -3
 air.velocity = -2,12
-getpower = 50, 20
+getpower = 15,7
 
 [State 400,HitDef]
 type = HitDef
@@ -523,7 +523,7 @@ air.velocity = 0,20
 fall = 1
 fall.xvelocity = 0
 fall.yvelocity = 0
-getpower = 70, 35
+getpower = 15,7
 
 [State 400, Shake]
 type = EnvShake
@@ -599,7 +599,7 @@ ground.hittime  = 20
 ground.velocity = 0,0
 guard.velocity = -3
 air.velocity = -5,0
-getpower = 50, 20
+getpower = 30,15
 
 [State 400,HitDef]
 type = HitDef
@@ -624,7 +624,7 @@ air.velocity = -20,0
 fall = 1
 fall.xvelocity = -20
 fall.yvelocity = 0
-getpower = 70, 35
+getpower = 30,15
 
 [State 400, Shake]
 type = EnvShake
@@ -675,7 +675,7 @@ ground.hittime  = 4
 ground.velocity = -3,0
 guard.velocity = -2
 air.velocity = -3,-4
-getpower = 30, 15
+getpower = 30,15
 
 [State 400]
 type = ChangeAnim
@@ -724,7 +724,7 @@ ground.hittime  = 4
 ground.velocity = -3,0
 guard.velocity = -2
 air.velocity = -3,-4
-getpower = 25, 10
+getpower = 30,15
 
 [State 1000,‰Á‘¬]
 type = Veladd
@@ -845,7 +845,7 @@ ground.hittime  = 4
 ground.velocity = -3,0
 guard.velocity = -2
 air.velocity = -3,-4
-getpower = 30, 15
+getpower = 60,30
 
 [State 1000,‰Á‘¬]
 type = Veladd
@@ -967,7 +967,7 @@ ground.hittime  = 20
 ground.velocity = 0,0
 guard.velocity = -3
 air.velocity = -2,12
-getpower = 40, 20
+getpower = 15,7
 
 [State 400,HitDef]
 type = HitDef
@@ -992,7 +992,7 @@ air.velocity = 0,20
 fall = 1
 fall.xvelocity = 0
 fall.yvelocity = 0
-getpower = 70, 35
+getpower = 15,7
 
 [State 400, Shake]
 type = EnvShake
@@ -1048,6 +1048,7 @@ ctrl = 1
 ;“ä‚Ì”­Œõ‘Ì
 [Statedef 1000]
 type = U
+poweradd = 20
 movetype = I
 physics = U
 ctrl = 0
@@ -1257,6 +1258,7 @@ trigger1 = Time = 0
 attr = S, SA
 animtype  = Up
 damage    = 35, 2
+getpower = 30,15
 priority  = 5
 guardflag = MA
 pausetime = 0,3

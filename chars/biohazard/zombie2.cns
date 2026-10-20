@@ -52,6 +52,7 @@ x = 0
 
 [State 1410, hit]
 type = HitDef
+getpower = 7,3
 Trigger1 = Random <= 500
 attr = S, NT
 hitflag = M-
@@ -954,7 +955,7 @@ sparkno = -1
 guard.sparkno = -1
 sparkxy = 0,0
 hitsound = S1040,2
-getpower = 0
+getpower = 7,3
 guardsound = -1
 pausetime = 0,13
 ground.hittime = 15

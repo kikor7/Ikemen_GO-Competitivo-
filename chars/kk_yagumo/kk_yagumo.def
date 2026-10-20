@@ -6,6 +6,7 @@ mugenversion = 11,22,2000
 author = "Mattasaur"
 
 [Files]
+movelist = movelist.dat
 cmd = yagumo.cmd
 cns = yagumo.cns
 st = yagumo.cns

@@ -921,7 +921,7 @@ air.velocity = -2,var(18)*0.1
 fall.recover = 1
 air.fall = 1
 yaccel = .52
-getpower = 20, 10
+getpower = 30,15
 
 [State 100, 2];ダウン中でない時の浮き
 type = Varset
@@ -1051,7 +1051,7 @@ fall.recover = 0
 fall = 1
 air.fall = 1
 yaccel = .52
-getpower = 40, 20
+getpower = 30,15
 
 [State 100, 2];ダウン中でない時の浮き
 type = Varset
@@ -1311,7 +1311,7 @@ air.velocity = -2.5,var(18)*0.1
 fall.recover = 1
 air.fall = 1
 yaccel = .52
-getpower = 40, 25
+getpower = 30,15
 
 [State 100, 2];ダウン中でない時の浮き
 type = Varset
@@ -1464,7 +1464,7 @@ air.velocity = -2,var(18)*0.1
 fall.recover = 1
 air.fall = 1
 yaccel = .52
-getpower = 40, 25
+getpower = 30,15
 
 [State 100, 2];ダウン中でない時の浮き
 type = Varset
@@ -1611,7 +1611,7 @@ air.velocity = -2.5,var(18)*0.1
 fall.recover = 1
 air.fall = 1
 yaccel = .52
-getpower = 30, 18
+getpower = 30,15
 
 [State 100, 2];ダウン中でない時の浮き
 type = Varset
@@ -1799,7 +1799,7 @@ air.velocity = -3,var(18)*0.1
 fall.recover = 1
 air.fall = 1
 yaccel = .52
-getpower = 60, 40
+getpower = 30,15
 
 [State 100, 2];ダウン中でない時の浮き
 type = Varset
@@ -2257,7 +2257,7 @@ air.velocity = -2,var(18)*0.1
 fall.recover = 1
 air.fall = 1
 yaccel = .52
-getpower = 20, 15
+getpower = 15,7
 
 [State 200, 1]
 type = varrandom
@@ -2322,7 +2322,7 @@ fall.recover = ifelse(movehit, 0, 1)
 fall = 1
 air.fall = 1
 yaccel = .52
-getpower = 40, 25
+getpower = 15,7
 
 [State 100, 2];ダウン中でない時の浮き
 type = Varset
@@ -2485,7 +2485,7 @@ air.velocity = -2.5,var(18)*0.1
 fall.recover = 1
 air.fall = 1
 yaccel = .52
-getpower = 20, 10
+getpower = 30,15
 
 [State 100, 2];ダウン中でない時の浮き
 type = Varset
@@ -2617,7 +2617,7 @@ air.velocity = -2.5,var(18)*0.1
 fall.recover = 1
 air.fall = 1
 yaccel = .52
-getpower = 35, 25
+getpower = 30,15
 
 [State 750, 3];血しぶきエフェクト横斬り
 type = helper
@@ -2783,7 +2783,7 @@ air.velocity = -2,var(18)*0.1
 fall.recover = 1
 air.fall = 1
 yaccel = .52
-getpower = 28, 18
+getpower = 30,15
 
 [State 100, 2];ダウン中でない時の浮き
 type = Varset
@@ -2989,7 +2989,7 @@ air.velocity = -2.5,var(18)*0.1
 fall.recover = 1
 air.fall = 1
 yaccel = .52
-getpower = 55, 38
+getpower = 30,15
 
 [State 100, 2];ダウン中でない時の浮き
 type = Varset
@@ -3142,7 +3142,7 @@ fall.recover = 1
 air.fall = 1
 fall = 1
 yaccel = .52
-getpower = 42, 28
+getpower = 60,30
 
 [State 100, 2];ダウン中でない時の浮き
 type = Varset
@@ -3335,7 +3335,7 @@ air.velocity = var(19)*0.1,var(20)*0.1
 fall.recover = 1
 air.fall = 1
 yaccel = .52
-getpower = 16, 8
+getpower = 30,15
 
 [State 101, 1];通常airvel X
 type = Varset
@@ -3554,7 +3554,7 @@ air.velocity = var(19)*0.1,var(20)*0.1
 fall.recover = 1
 air.fall = 1
 yaccel = .52
-getpower = 43, 30
+getpower = 30,15
 
 [State 101, 1];通常airvel X
 type = Varset
@@ -3739,7 +3739,7 @@ air.velocity = var(19)*0.1,var(20)*0.1
 fall.recover = 1
 air.fall = 1
 yaccel = .52
-getpower = 28, 18
+getpower = 30,15
 
 [State 101, 1];通常airvel X
 type = Varset
@@ -3955,7 +3955,7 @@ air.velocity = var(19)*0.1,var(20)*0.1
 fall.recover = 1
 air.fall = 1
 yaccel = .52
-getpower = 57, 40
+getpower = 30,15
 
 [State 1000 , 2];ヒットエフェクト縦切り
 type = Explod
@@ -4198,7 +4198,7 @@ fall.recover = 1
 air.fall = 1
 fall = 1
 yaccel = .52
-getpower = 50, 35
+getpower = 60,30
 
 [State 101, 1];通常airvel X
 type = Varset
@@ -4254,6 +4254,7 @@ sprpriority = 2
 
 [State 800, 1] ;攻撃予約
 type = HitDef
+getpower = 60,30
 Trigger1 = Time = 0
 attr = S, NT						;立ち通常投げ
 hitflag = M-						;hit中の相手には当たらず空中の相手にも当たらない
@@ -4281,7 +4282,7 @@ type    = S
 movetype= A
 physics = N
 anim = 810
-poweradd = 50
+poweradd = 0
 
 [State 210, 3] 
 type = VarRandom
@@ -4342,7 +4343,7 @@ value = var(6)
 [State 810, Hurt 11] ;自分のpowerを増やす
 type = powerAdd
 trigger1 = AnimElem = 12
-value = 30
+value = 0
 
 [State 810, Throw 11] ;相手のstateを変更（自分のstate）
 type = TargetState
@@ -4498,6 +4499,7 @@ persistent = 0
 
 [State 850, 1] ;攻撃予約
 type = HitDef
+getpower = 60,30
 Trigger1 = animelem = 1
 attr = A, NT						;空中通常投げ
 hitflag = A						;空中の相手のみ
@@ -4526,7 +4528,7 @@ movetype= A
 physics = N
 velset = 0, 0
 anim = 860
-poweradd = 60
+poweradd = 0
 
 [State 210, 5] 
 type = PlaySnd

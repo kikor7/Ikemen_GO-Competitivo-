@@ -17,7 +17,7 @@ trigger1 = AnimElem = 1
 attr = S, NA
 damage    = 0
 animtype = Hard
-getpower = 0,0
+getpower = 7,3
 givepower = 0,0
 guardflag = M
 hitflag = M-
@@ -78,7 +78,7 @@ trigger5 = AnimElem = 9
 attr = S, NA
 damage    = 10
 animtype = Hard
-getpower = 0,0
+getpower = 7,3
 givepower = 0,0
 guardflag = M
 hitflag = M
@@ -113,7 +113,7 @@ trigger5 = AnimElem = 10
 attr = S, NA
 damage    = 10
 animtype = Hard
-getpower = 0,0
+getpower = 7,3
 givepower = 0,0
 guardflag = M
 hitflag = M
@@ -139,7 +139,7 @@ trigger1 = AnimElem = 11
 attr = S, NA
 damage    = 10
 animtype = Hard
-getpower = 0,0
+getpower = 7,3
 givepower = 0,0
 guardflag = M
 hitflag = M

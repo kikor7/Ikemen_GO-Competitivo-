@@ -897,7 +897,7 @@ delta = .895,1
 
 [BG 16]
 type  = anim
-actionno = 160
+actionno = 16
 start = 145, 202
 mask = 1
 layerno = 0
@@ -1034,7 +1034,7 @@ delta = 1.015,1
 
 [BG 17]
 type  = anim
-actionno = 170
+actionno = 17
 start = -179, 202
 mask = 1
 layerno = 0

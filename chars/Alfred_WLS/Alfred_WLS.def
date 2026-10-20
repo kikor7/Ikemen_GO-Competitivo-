@@ -15,6 +15,7 @@ pal.defaults =4,5,6,1,2,3,10,11,12,7,8,9
 
 ; Files for the player
 [Files]
+movelist = movelist.dat
 ai=AI.ai
 cmd=command.cmd
 cns=constants.vns

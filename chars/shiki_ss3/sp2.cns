@@ -653,6 +653,7 @@ sprpriority = -2
 
 [State 2100, 1]
 type = HitDef
+getpower = 60,30
 Trigger1 = Time = 0
 attr = S, sT          
 hitflag = M

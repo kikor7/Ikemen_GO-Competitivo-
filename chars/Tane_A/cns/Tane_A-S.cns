@@ -128,7 +128,7 @@ type = HitDef
 trigger1 = MoveContact = 0
 attr = S,SP
 damage    = Ceil(22 * root,fvar(0)),4
-getpower  = IfElse(root,var(10)<=0&&root,var(11)<=0,50,0)
+getpower = 15,7
 givepower = 20
 hitflag = MAF
 guardflag = MA
@@ -203,7 +203,7 @@ type = HitDef
 trigger1 = movecontact=0
 attr = S,SP
 damage    = Ceil(22 * root,fvar(0)),4
-getpower  = IfElse(root,var(10)<=0&&root,var(11)<=0,50,0)
+getpower = 15,7
 givepower = 20
 hitflag = MAF
 guardflag = MA
@@ -418,7 +418,7 @@ type = HitDef
 trigger1 = MoveContact = 0
 attr = S,SP
 damage    = Ceil(92 * root,fvar(0)),9
-getpower  = IfElse(root,var(10)<=0&&root,var(11)<=0,50,0)
+getpower = 30,15
 givepower = 20
 hitflag = MAF
 guardflag = MA
@@ -575,7 +575,7 @@ trigger1 = animelem = 3
 attr = S, SA
 animtype  = back
 damage    = 88, 8
-getpower  = IfElse(root,var(10)<=0&&var(11)<=0,50,0)
+getpower = 15,7
 priority  = 5, hit
 hitflag = MAF
 guardflag = MA
@@ -658,7 +658,7 @@ trigger1 = animelem = 4
 attr = S,SA
 animtype  = back
 damage    = 28, 3
-getpower  = IfElse(var(10)<=0&&var(11)<=0,50,0)
+getpower = 15,7
 priority  = 5, hit
 hitflag = MAF
 guardflag = M
@@ -733,7 +733,7 @@ trigger1 = hitcount<=2
 attr = A,SA
 animtype  = back
 damage    = 28, 3
-getpower  = IfElse(var(10)<=0&&var(11)<=0,50,0)
+getpower = 15,7
 priority  = 5, hit
 hitflag = MAF
 guardflag = M
@@ -769,7 +769,7 @@ trigger1 = hitcount<=3
 attr = A,SA
 animtype  = back
 damage    = 28, 3
-getpower  = IfElse(var(10)<=0&&var(11)<=0,50,0)
+getpower = 15,7
 priority  = 5, hit
 hitflag = MAF
 guardflag = M
@@ -834,6 +834,7 @@ sprpriority = 2
 
 [State 800, ヒット定義（投げ用）]
 type = HitDef
+getpower = 60,30
 trigger1 = Time = 0
 trigger1 = Enemy,StateNo !=[150,159]
 trigger1 = P2BodyDist X<=26

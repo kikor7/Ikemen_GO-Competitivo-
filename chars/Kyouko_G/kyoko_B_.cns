@@ -15,7 +15,7 @@ juggle = 1
 ;velset = 0, 0
 ctrl = 0
 anim = StateNo
-poweradd = 40
+poweradd = 0
 sprpriority = 2
 
 [State -1, Width]
@@ -61,7 +61,7 @@ guardflag = HLA	;HLA
 animtype = Medium	;Light, Medium, Hard, Back, Up, DiagUp
 priority = 4, Miss	;1-7(def4), Hit, Miss, Dodge(引き分け)
 damage = 60, 6
-getpower = 40, 20
+getpower = 15,7
 givepower = 20, 0
 pausetime = 11, 11
 ;スパーク、音
@@ -93,7 +93,7 @@ juggle = 1
 ;velset = 0, 0
 ctrl = 0
 anim = StateNo
-poweradd = 40
+poweradd = 0
 sprpriority = 2
 
 [State -1, ChangeState]
@@ -134,7 +134,7 @@ guardflag = HLA	;HLA
 animtype = Medium	;Light, Medium, Hard, Back, Up, DiagUp
 priority = 4, Miss	;1-7(def4), Hit, Miss, Dodge(引き分け)
 damage = 50, 5
-getpower = 40, 20
+getpower = 15,7
 givepower = 20, 0
 pausetime = 11, 11
 ;スパーク、音
@@ -166,7 +166,7 @@ juggle = 1
 ;velset = 0, 0
 ctrl = 0
 anim = StateNo
-poweradd = 40
+poweradd = 0
 sprpriority = 2
 
 [State -1, ChangeState]
@@ -221,7 +221,7 @@ guardflag = HLA	;HLA
 animtype = Medium	;Light, Medium, Hard, Back, Up, DiagUp
 priority = 4, Miss	;1-7(def4), Hit, Miss, Dodge(引き分け)
 damage = 40, 4
-getpower = 40, 20
+getpower = 15,7
 givepower = 20, 0
 pausetime = 11, 11
 ;スパーク、音
@@ -253,7 +253,7 @@ juggle = 1
 ;velset = 0, 0
 ctrl = 0
 anim = StateNo
-poweradd = 40
+poweradd = 0
 sprpriority = 2
 
 [State -1, Width]
@@ -278,7 +278,7 @@ guardflag = HLA	;HLA
 animtype = Back	;Light, Medium, Hard, Back, Up, DiagUp
 priority = 4, Hit	;1-7(def4), Hit, Miss, Dodge(引き分け)
 damage = 60, 6
-getpower = 40, 20
+getpower = 15,7
 givepower = 20, 0
 pausetime = 12, 12
 ;スパーク、音
@@ -308,7 +308,7 @@ juggle = 1
 ;velset = 0, 0
 ctrl = 0
 anim = StateNo
-poweradd = 40
+poweradd = 0
 sprpriority = 2
 
 [State -1, Width]
@@ -557,7 +557,7 @@ juggle = 3
 ;velset = 0, 0
 ctrl = 0
 anim = StateNo
-poweradd = 40
+poweradd = 0
 sprpriority = 2
 
 [State -1, ChangeState]
@@ -638,7 +638,7 @@ juggle = 1
 ;velset = 0, 0
 ctrl = 0
 anim = StateNo
-poweradd = 40
+poweradd = 0
 sprpriority = 2
 
 [State -1, Width]
@@ -745,7 +745,7 @@ juggle = 1
 ;velset = 0, 0
 ctrl = 0
 anim = StateNo
-poweradd = 40
+poweradd = 0
 sprpriority = 2
 
 [State -1, Width]
@@ -777,7 +777,7 @@ guardflag = HA	;HLA
 animtype = Back	;Light, Medium, Hard, Back, Up, DiagUp
 priority = 5, Hit	;1-7(def4), Hit, Miss, Dodge(引き分け)
 damage = 120, 12
-getpower = 40, 20
+getpower = 60,30
 givepower = 20, 0
 pausetime = 12, 12
 ;スパーク、音
@@ -813,7 +813,7 @@ juggle = 1
 ;velset = 0, 0
 ctrl = 0
 anim = StateNo
-poweradd = 40
+poweradd = 0
 sprpriority = 2
 
 [State -1, Width]
@@ -837,7 +837,7 @@ guardflag = L	;HLA
 animtype = Hard	;Light, Medium, Hard, Back, Up, DiagUp
 priority = 4, Hit	;1-7(def4), Hit, Miss, Dodge(引き分け)
 damage = 60, 6
-getpower = 40, 20
+getpower = 30,15
 givepower = 20, 0
 pausetime = 10, 10
 ;スパーク、音
@@ -865,7 +865,7 @@ guardflag = HA	;HLA
 animtype = Hard	;Light, Medium, Hard, Back, Up, DiagUp
 priority = 5, Hit	;1-7(def4), Hit, Miss, Dodge(引き分け)
 damage = 90, 9
-getpower = 40, 20
+getpower = 30,15
 givepower = 20, 0
 pausetime = 11, 11
 ;スパーク、音
@@ -899,7 +899,7 @@ juggle = 3
 ;velset = 0, 0
 ctrl = 0
 anim = StateNo
-poweradd = 40
+poweradd = 0
 sprpriority = 2
 
 [State -1, ChangeState]
@@ -922,7 +922,7 @@ guardflag = HLA	;HLA
 animtype = Light	;Light, Medium, Hard, Back, Up, DiagUp
 priority = 3, Hit	;1-7(def4), Hit, Miss, Dodge(引き分け)
 damage = 25, 2
-getpower = 40, 20
+getpower = 30,15
 givepower = 20, 0
 pausetime = 1, 9
 ;スパーク、音
@@ -950,7 +950,7 @@ guardflag = HLA	;HLA
 animtype = Medium	;Light, Medium, Hard, Back, Up, DiagUp
 priority = 6, Hit	;1-7(def4), Hit, Miss, Dodge(引き分け)
 damage = 25, 2
-getpower = 40, 20
+getpower = 30,15
 givepower = 20, 0
 pausetime = 3, 9
 ;スパーク、音
@@ -980,7 +980,7 @@ juggle = 1
 ;velset = 0, 0
 ctrl = 0
 anim = StateNo
-poweradd = 40
+poweradd = 0
 sprpriority = 2
 
 [State -1, Width]
@@ -1231,7 +1231,7 @@ juggle = 1
 velset = 0, 0
 ctrl = 0
 anim = StateNo
-poweradd = 40
+poweradd = 0
 sprpriority = 2
 
 [State -1, Width]
@@ -1386,7 +1386,7 @@ guardflag = HLA	;HLA
 animtype = Back	;Light, Medium, Hard, Back, Up, DiagUp
 priority = 4, Hit	;1-7(def4), Hit, Miss, Dodge(引き分け)
 damage = 70, 7
-getpower = 0, 0
+getpower = 60,30
 givepower = 20, 0
 pausetime = 12, 12
 ;スパーク、音

@@ -1,0 +1,20 @@
+<#f0f000>:Special Moves:</>
+Dasshusurasshukikku			_B_D_F^A
+Dasshutaigaakikku			_DSF^A
+Taigaakikku Kyou			_DSF^B
+Harikeen Appaa Jaku			_B_D_F^X
+Harikeen Appaa Kyou			_B_D_F^Y
+Surasshukikku Kyou			_B_D_F^B
+Ougon No Kakato Jaku			_QCB^A
+Ougon No Kakato Kyou			_QCB^B
+Bakuretsu Kobushi			^X^X^X^X
+Reijikonbineeshon Shidou			^Y_+^B
+
+<#f0f000>:Hyper Moves:</>
+Sukuryuuappaa A <#f00000>(1000)</>			_QCF_QCF^X
+Sukuryuuappaa B <#f00000>(1000)</>			_QCF_QCF^A
+Bakuretsu Harikeentaigaakakato <#f00000>(1000)</>			_QCF_DF_D_DB^X
+Sukuryuuappaa 2 A <#f00000>(2000)</>			_QCF_QCF^Y
+Sukuryuuappaa 2 B <#f00000>(2000)</>			_QCF_QCF^B
+Bakuretsu Harikeentaigaakakato 2 <#f00000>(2000)</>			_QCF_DF_D_DB^Y
+Kuikkureijikonbineeshon Shidou <#f00000>(1000)</>			^Y_+^B

@@ -8,6 +8,7 @@ author =           "Ahuron";edit by R@ce45 ;edit by Thrillo ;edit by ATHO
 pal.defaults =1
 
 [Files]
+movelist = movelist.dat
 cmd     =Oswald_XI.cmd
 cns     =Oswald_XI.cns
 st      =Oswald_XI.cns

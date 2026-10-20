@@ -93,7 +93,7 @@ fall = 1
 air.fall = 1
 fall.recover = 1
 yaccel = .50
-getpower = 50, 30
+getpower = 60,30
 p2facing = 1
 
 [State 850, 2] 

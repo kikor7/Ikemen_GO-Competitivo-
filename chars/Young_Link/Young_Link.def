@@ -17,6 +17,7 @@ y = 1
 z = 1
 
 [Files]
+movelist = movelist.dat
 cmd=Young_Link_unotag\Young_Link.cmd
 cns=Young_Link_unotag\Young_Link.cns
 stcommon=common1.cns

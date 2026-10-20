@@ -12,6 +12,7 @@ author = "Alexlexus"
 pal.defaults = 1,2,3,7,8,9
 
 [Files]
+movelist = movelist.dat
 sprite = Dante.sff
 anim = Dante.air
 sound = Dante.snd

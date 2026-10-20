@@ -869,6 +869,7 @@ trigger1 = Time = 0
 attr = S, NA
 animtype  = High
 damage    = 45
+getpower = 60,30
 hitflag   = FD
 guardflag = MA
 pausetime = 2, 20

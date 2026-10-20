@@ -611,7 +611,7 @@ ampl = 4
 [State 0, PowerAdd]
 type = PowerAdd
 trigger1 = 1
-value = 10
+value = 0
 
 [State 0, PlaySnd]
 type = PlaySnd
@@ -804,7 +804,7 @@ juggle  = 1
 velset = 0,0
 ctrl = 0
 anim = ifelse(var(4) = 1,34200,3420)
-poweradd = 30
+poweradd = 0
 sprpriority = 2
 
 [State 0, Pause]
@@ -983,7 +983,7 @@ juggle  = 1
 velset = 0,0
 ctrl = 0
 anim = ifelse(var(4) = 1,34300,3430)
-poweradd = 30
+poweradd = 20
 sprpriority = 2
 
 [State 0, PlaySnd]
@@ -1287,7 +1287,7 @@ juggle  = 1
 velset = 0,0
 ctrl = 0
 anim = ifelse(var(4) = 1,34400,3440)
-poweradd = 30
+poweradd = 20
 sprpriority = 2
 
 [State 0, PlaySnd]

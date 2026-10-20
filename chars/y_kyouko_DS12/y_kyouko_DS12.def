@@ -7,6 +7,7 @@ versiondate=5/17/2017
 mugenversion=1.0
 
 [Files]
+movelist = movelist.dat
 Cmd      =kyouko.cmd
 Cns      =kyouko.cns
 St       =kyouko.cns

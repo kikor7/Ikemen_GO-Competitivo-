@@ -7,6 +7,7 @@ versiondate=2008-09-25
 mugenversion=
 
 [Files]
+movelist = movelist.dat
 cmd     =250_STPI.cmd
 cns     =250_STPI.cns
 st      =250_STPI.cns

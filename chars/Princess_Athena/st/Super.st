@@ -24,6 +24,7 @@
 ;------------------------------------------------------------------------------;
 [Statedef 1000]
   Type        = S
+poweradd = 0
   MoveType    = A
   Physics     = S
   Juggle      = 0
@@ -389,6 +390,7 @@
   Trigger1         = Time = 0
   Attr             = A, SP
   Damage           = IfElse(Root,Var(3)=0,IfElse(Floor(60*Root,FVar(4))<1,1,Floor(60*Root,FVar(4))),70),10
+getpower = 15,7
   GivePower        = 10,10
   AnimType         = Hard
   HitFlag          = MAF
@@ -414,6 +416,7 @@
   Trigger1         = Time = 0
   Attr             = A, SP
   Damage           = IfElse(Root,Var(3)=0,IfElse(Floor(135*Root,FVar(4))<1,1,Floor(135*Root,FVar(4))),145),20
+getpower = 15,7
   GivePower        = 10,10
   AnimType         = Hard
   HitFlag          = MAF
@@ -567,6 +570,7 @@
   Trigger4         = AnimElem = 4
   Attr             = S, SP
   Damage           = 50, 5
+getpower = 15,7
   AnimType         = Hard
   HitFlag          = MAF
   GuardFlag        = MA
@@ -604,6 +608,7 @@
 ;------------------------------------------------------------------------------;
 [Statedef 1100]
   Type        = A
+poweradd = 0
   MoveType    = A
   Physics     = N
   Juggle      = 0
@@ -993,6 +998,7 @@
   Trigger1         = Time = 0
   Attr             = A, SP
   Damage           = IfElse(Root,Var(3)=0,IfElse(Floor(60*Root,FVar(4))<1,1,Floor(60*Root,FVar(4))),70),10
+getpower = 30,15
   GivePower        = 10,10
   AnimType         = Hard
   HitFlag          = MAF
@@ -1018,6 +1024,7 @@
   Trigger1         = Time = 0
   Attr             = A, SP
   Damage           = IfElse(Root,Var(3)=0,IfElse(Floor(135*Root,FVar(4))<1,1,Floor(135*Root,FVar(4))),145),20
+getpower = 30,15
   GivePower        = 10,10
   AnimType         = Hard
   HitFlag          = MAF
@@ -1074,7 +1081,7 @@
 ;  VelSet      = 0, 0
   Ctrl        = 0
   Anim        = 1200
-  PowerAdd    = 60
+  PowerAdd    = 0
   SprPriority = 2
 
 [State 1200]
@@ -1213,7 +1220,7 @@
   Trigger3         = AnimElem = 8
   Attr             = A, SA
   Damage           = IfElse(Var(3)=0,IfElse(Floor(50*FVar(4))<1,1,Floor(50*FVar(4))),60),10
-  GetPower         = 85,3
+  getpower = 60,30
   GivePower        = 10,10
   AnimType         = Hard
   HitFlag          = MAF
@@ -1259,7 +1266,7 @@
 ;  VelSet      = 0, 0
   Ctrl        = 0
   Anim        = 1250
-  PowerAdd    = 60
+  PowerAdd    = 0
   SprPriority = 2
 
 [State 1250]
@@ -1396,7 +1403,7 @@
   Trigger2         = AnimElem = 5
   Attr             = A, SA
   Damage           = IfElse(Var(3)=0,IfElse(Floor(120*FVar(4))<1,1,Floor(120*FVar(4))),130),24
-  GetPower         = 66,3
+  getpower = 60,30
   GivePower        = 10,10
   AnimType         = Hard
   HitFlag          = MAF
@@ -1443,7 +1450,7 @@
   VelSet      = 0, 0
   Ctrl        = 0
   Anim        = 1300
-  PowerAdd    = 60
+  PowerAdd    = 0
   SprPriority = 2
 
 [State 1300]
@@ -1468,13 +1475,13 @@
 [State 1300]
   Type     = PowerAdd
   Trigger1 = MoveHit = 1
-  Value    = 116; 165
+  Value    = 0; 165
   IgnoreHitPause = 1
 
 [State 1300]
   Type     = PowerAdd
   Trigger1 = MoveGuarded = 1
-  Value    = 10; 20
+  Value    = 0; 20
   IgnoreHitPause = 1
 
 ;---------------------------[ 変数定義 ]-----------------------------;
@@ -1579,7 +1586,7 @@
   Trigger1         = AnimElem = 10
   Attr             = A, SA
   Damage           = IfElse(Var(3)=0,IfElse(Floor(70*FVar(4))<1,1,Floor(70*FVar(4))),80),14
-  GetPower         = 116,10
+  getpower = 30,15
   GivePower        = 10,10
   AnimType         = Hard
   HitFlag          = MAF
@@ -1606,7 +1613,7 @@
   Trigger1         = AnimElem = 11
   Attr             = A, SA
   Damage           = IfElse(Var(3)=0,IfElse(Floor(70*FVar(4))<1,1,Floor(70*FVar(4))),80),14
-  GetPower         = 116,10
+  getpower = 30,15
   GivePower        = 10,10
   AnimType         = Hard
   HitFlag          = MAF
@@ -1652,7 +1659,7 @@
   VelSet      = 0, 0
   Ctrl        = 0
   Anim        = 1350
-  PowerAdd    = 60
+  PowerAdd    = 0
   SprPriority = 2
 
 [State 1350]
@@ -1763,7 +1770,7 @@
   Trigger1         = AnimElem = 11
   Attr             = A, SA
   Damage           = IfElse(Var(3)=0,IfElse(Floor(125*FVar(4))<1,1,Floor(125*FVar(4))),135),25
-  GetPower         = 102,3
+  getpower = 60,30
   GivePower        = 10,10
   AnimType         = Hard
   HitFlag          = MAF
@@ -1804,7 +1811,7 @@
   VelSet      = 0, 0
   Ctrl        = 0
   Anim        = 1400
-  PowerAdd    = 60
+  PowerAdd    = 0
   SprPriority = 2
 
 [State 1400]
@@ -1910,7 +1917,7 @@
   Trigger1         = Time = 0
   Attr             = S, SA
   Damage           = IfElse(Var(3)=0,IfElse(Floor(50*FVar(4))<1,1,Floor(50*FVar(4))),60),10
-  GetPower         = 15,3
+  getpower = 60,30
   GivePower        = 10,10
   AnimType         = Hard
   HitFlag          = MAF
@@ -2055,7 +2062,7 @@
   Trigger1         = Time = 0
   Attr             = S, SA
   Damage           = IfElse(Var(3)=0,IfElse(Floor(50*FVar(4))<1,1,Floor(50*FVar(4))),60),10
-  GetPower         = 15,3
+  getpower = 60,30
   GivePower        = 10,10
   AnimType         = Hard
   HitFlag          = MAF
@@ -2329,7 +2336,7 @@
   Trigger1         = Time = 0
   Attr             = A, SA
   Damage           = IfElse(Var(3)=0,IfElse(Floor(140*FVar(4))<1,1,Floor(140*FVar(4))),150),10
-  GetPower         = 42,3
+  getpower = 30,15
   GivePower        = 10,10
   AnimType         = Hard
   HitFlag          = MAF
@@ -2371,7 +2378,7 @@
   VelSet      = 0, 0
   Ctrl        = 0
   Anim        = 1560
-  PowerAdd    = 60
+  PowerAdd    = 0
   SprPriority = 2
 
 ;---------------------------[ サウンド ]-----------------------------;
@@ -2399,6 +2406,7 @@
 
 [State 1560]
   Type        = HitDef
+getpower = 30,15
   Trigger1    = Time = 0
   Attr        = S, ST
   HitFlag     = M-
@@ -2431,7 +2439,7 @@
   VelSet      = 0, 0
   Ctrl        = 0
   Anim        = 1570
-  PowerAdd    = 150
+  PowerAdd    = 0
   SprPriority = 3
 
 [State 1570]
@@ -2629,6 +2637,7 @@
 ;------------------------------------------------------------------------------;
 [Statedef 1600]
   Type        = S
+poweradd = 20
   MoveType    = A
   Physics     = S
   Juggle      = 0
@@ -2855,6 +2864,7 @@
   Trigger1         = AnimElem = 2
   Attr             = S, SA
   Damage           = 240, 0
+getpower = 30,15
   AnimType         = DiagUp
   HitFlag          = MAF
 ;  GuardFlag       = MA

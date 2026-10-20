@@ -806,6 +806,7 @@ attr                = A, HA
 hitflag             = MAFD
 guardflag           = MA
 damage              = Floor(37*Fvar(0)), 4
+getpower = 20,10
 animtype            = Hard
 ground.type         = High
 priority            = 3, Hit
@@ -855,6 +856,7 @@ attr                = A, HA
 hitflag             = MAFD
 guardflag           = MA
 damage              = Floor(37*Fvar(0)), 4
+getpower = 20,10
 animtype            = Hard
 ground.type         = High
 priority            = 3, Hit
@@ -897,6 +899,7 @@ attr                = A, HA
 hitflag             = MAFD
 guardflag           = MA
 damage              = Floor(125*Fvar(0)), 4
+getpower = 20,10
 animtype            = Hard
 ground.type         = High
 priority            = 3, Hit
@@ -2476,6 +2479,7 @@ Trigger1      = AnimElem = 3
 Trigger1      = P2StateNo != [150, 153]
 attr          = S, HT
 damage        = 0
+getpower = 60,30
 hitflag       = MA
 priority      = 3, miss
 pausetime     = 0, 0
@@ -4210,6 +4214,7 @@ Trigger1      = AnimElem = 3
 Trigger1      = P2StateNo != [150, 153]
 attr          = S, HT
 damage        = 0
+getpower = 30,15
 hitflag       = MA
 priority      = 3, miss
 pausetime     = 0, 0
@@ -5842,6 +5847,7 @@ attr                = C, HA
 hitflag             = MAFD
 guardflag           = 
 damage              = Floor(125*Fvar(0)), 0
+getpower = 30,15
 animtype            = Hard
 ground.type         = High
 priority            = 3, Hit

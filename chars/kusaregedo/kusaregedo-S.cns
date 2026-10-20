@@ -7,6 +7,7 @@
 ;------------------------ “Š‚°ŠJn“®ì
 [Statedef 1000]
 type = S
+poweradd = 20
 movetype = A
 physics = S
 ctrl = 0
@@ -57,6 +58,7 @@ accel = 0,.7
 attr = S, SP
 animtype = Mid
 damage    = 136
+getpower = 30,15
 guardflag = M
 hitflag = MAF
 pausetime = 20,20
@@ -104,6 +106,7 @@ channel = 0
 
 [State 800,HitDef]
 type = Hitdef
+getpower = 60,30
 trigger1 = AnimElem = 1
 trigger1 = P2MoveType != H
 attr = S, NT
@@ -413,6 +416,7 @@ ctrl = 1
 ; ˆ«—ìŒÄ‚Ñ
 [Statedef 1300]
 type = S
+poweradd = 20
 movetype = A
 physics = S
 ctrl = 0
@@ -495,6 +499,7 @@ offset = 0,0
 attr = S, SP
 animtype = hard
 damage = 64
+getpower = 30,15
 hitflag = M-
 guardflag = 
 pausetime = 1,4
@@ -637,6 +642,7 @@ value = 5100
 ; ˆİ‰t“f‚«
 [Statedef 1400]
 type = S
+poweradd = 20
 movetype = A
 physics = S
 ctrl = 0
@@ -674,6 +680,7 @@ projremovetime = 71
 attr = S, SP
 animtype = Hard
 damage = 24,8
+getpower = 30,15
 guardflag = M
 hitflag = MFD
 pausetime = 0,16

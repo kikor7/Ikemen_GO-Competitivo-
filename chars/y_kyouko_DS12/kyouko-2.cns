@@ -4223,7 +4223,7 @@ value = 10,0
 [State -3, ダメージボイス]
 type = poweradd
 trigger1 = AnimElem = 5
-value = 140
+value = 0
 
 
 [state a];ピンポン玉

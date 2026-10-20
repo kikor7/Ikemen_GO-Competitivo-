@@ -17,6 +17,7 @@ sprpriority = 2
 
 [State 800, ヒット定義（投げ用）]
 type = HitDef
+getpower = 60,30
 trigger1 = Time = 0
 attr = S, NT
 hitflag = M-  
@@ -44,7 +45,7 @@ type    = S
 movetype= A
 physics = N
 anim = 810
-poweradd = 60
+poweradd = 0
 
 [State 810, ボイス]
 type = PlaySnd
@@ -172,7 +173,7 @@ type = HitDef
 trigger1 = animelem = 3
 attr = S, NA
 damage = 40, 0
-getpower = 112,112
+getpower = 30,15
 animtype = diagup
 guardflag = MA
 hitflag = MAF
@@ -282,7 +283,7 @@ trigger1 = Time = 0
 attr = A, NA
 id = 700
 damage    = 34
-getpower = 100,100
+getpower = 30,15
 guardflag = HA
 priority = 6, hit
 pausetime = 15,15
@@ -573,7 +574,7 @@ trigger1 = animelem = 6
 trigger1 = var(5) = 0
 attr = S, NA
 damage = 60, 0
-getpower = 112,112
+getpower = 30,15
 animtype = hard
 guardflag = M
 hitflag = MAF
@@ -602,7 +603,7 @@ trigger1 = animelem = 6
 trigger1 = var(5) = 1
 attr = S, NA
 damage = 60, 0
-getpower = 112,112
+getpower = 30,15
 animtype = hard
 guardflag = N
 hitflag = MAF

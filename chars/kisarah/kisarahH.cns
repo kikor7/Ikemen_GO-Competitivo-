@@ -2504,7 +2504,7 @@ type    = S
 movetype= A
 physics = N
 anim = 3250
-poweradd = 60
+poweradd = 0
 
 [State 810, Grab Sound]
 type = PlaySnd
@@ -2558,7 +2558,7 @@ type    = A
 movetype= A
 physics = N
 anim = 3251
-poweradd = 60
+poweradd = 0
 
 [State 810, Throw Sound]
 type = PlaySnd
@@ -3012,7 +3012,7 @@ type    = S
 movetype= A
 physics = N
 anim = 3256
-poweradd = 60
+poweradd = 0
 
 [State 3000,Explod]
 type = Explod

@@ -7,7 +7,7 @@ anim = 1000
 ctrl = 0
 velset = 0,0
 sprPriority = 2
-poweradd = 50 * !var(20)
+poweradd = 0 * !var(20)
 faceP2 = 1
 
 [State 1000, Swing Snd]
@@ -80,7 +80,7 @@ anim = 1010
 ctrl = 0
 velset = 0,0
 sprPriority = 2
-poweradd = 50 * !var(20)
+poweradd = 0 * !var(20)
 faceP2 = 1
 
 [State 1010, Swing Snd]
@@ -153,7 +153,7 @@ anim = 1020
 ctrl = 0
 velset = 0,0
 sprPriority = 2
-poweradd = 50 * !var(20)
+poweradd = 0 * !var(20)
 faceP2 = 1
 
 [State 1020, Swing Snd]
@@ -300,6 +300,7 @@ ctrl = 1
 ;===============================================================================
 [Statedef 1056]
 type    = S
+poweradd = 20
 movetype = I
 physics = N
 juggle  = 8
@@ -361,7 +362,7 @@ movetype = A
 physics = S
 anim = 1012
 juggle = 8
-poweradd = 53
+poweradd = 0
 ctrl = 0
 velset = 0,0
 
@@ -439,7 +440,7 @@ air.type = High
 air.velocity = -4.190948486328125,-6.5
 air.hittime = 13
 air.juggle = ifelse(var(48)=0,16,0)
-getpower = 94,94
+getpower = 10,5
 givepower = 16,16
 ground.cornerpush.veloff = 0
 guard.cornerpush.veloff = 0
@@ -554,7 +555,7 @@ movetype = A
 physics = S
 anim = 1013
 juggle = 8
-poweradd = 53
+poweradd = 0
 ctrl = 0
 
 [State 0, Helper]
@@ -632,7 +633,7 @@ air.type = High
 air.velocity = -4.190948486328125,-6.5
 air.hittime = 13
 air.juggle = ifelse(var(48)=0,16,0)
-getpower = 94,94
+getpower = 10,5
 givepower = 16,16
 ground.cornerpush.veloff = 0
 guard.cornerpush.veloff = 0
@@ -688,6 +689,7 @@ ctrl = 0
 ;===============================================================================
 [Statedef 1060]
 type    = S
+poweradd = 20
 movetype = I
 physics = N
 juggle  = 8
@@ -741,7 +743,7 @@ movetype = A
 physics = S
 anim = 1014
 juggle = 8
-poweradd = 53
+poweradd = 0
 ctrl = 0
 
 [State 0, Helper]
@@ -818,7 +820,7 @@ air.type = High
 air.velocity = -4.190948486328125,-6.5
 air.hittime = 13
 air.juggle = ifelse(var(48)=0,16,0)
-getpower = 94,94
+getpower = 30,15
 givepower = 16,16
 ground.cornerpush.veloff = 0
 guard.cornerpush.veloff = 0
@@ -919,7 +921,7 @@ movetype = A
 physics = S
 anim = 1016
 juggle = 8
-poweradd = 53
+poweradd = 0
 ctrl = 0
 velset = 0,0
 
@@ -970,7 +972,7 @@ attr = S, SP
 damage = ceil(ifElse(fvar(11) * 40 < 7, 7, fvar(11) * 40)), 5
 priority = 4, hit
 animtype = Hard
-getpower = 70 * !var(20), 30 * !var(20)
+getpower = 60,30
 givepower = 35, 35
 guardflag = L
 hitflag = MFD
@@ -1028,7 +1030,7 @@ movetype = A
 physics = S
 anim = 1018
 juggle = 8
-poweradd = 53
+poweradd = 0
 ctrl = 0
 velset = 0,0
 
@@ -1137,7 +1139,7 @@ movetype = A
 physics = S
 anim = 1100
 juggle = 8
-poweradd = 53
+poweradd = 0
 ctrl = 0
 
 [State 0, AssertSpecial]
@@ -1177,7 +1179,7 @@ air.type = High
 air.velocity = -3.5,0.6
 air.hittime = 13
 air.juggle = 0
-getpower = 47,47
+getpower = 60,30
 givepower = 16,16
 fall = 1
 air.fall = 1
@@ -1368,7 +1370,7 @@ air.type = High
 air.velocity = -2.190948486328125,-6.5
 air.hittime = 13
 air.juggle = 0
-getpower = 54,54
+getpower = 60,30
 givepower = 16,16
 ground.cornerpush.veloff = 0
 guard.cornerpush.veloff = 0
@@ -1399,7 +1401,7 @@ movetype = A
 physics = S
 anim = 1300
 juggle = 0
-poweradd = 0
+poweradd = 20
 ctrl = 0
 
 [State 0, VarAdd]
@@ -1484,7 +1486,7 @@ guard.slidetime = 5
 guard.ctrltime = 5
 ground.velocity = 0
 air.velocity = 0,0
-getpower = 0,0
+getpower = 15,7
 givepower = 0,0
 ground.cornerpush.veloff = 0
 guard.cornerpush.veloff = 0
@@ -1586,7 +1588,7 @@ air.type = High
 air.velocity = -9,-6.5;-4;-4.190948486328125,-6.5
 air.hittime = 13
 air.juggle = 0
-getpower = 0,0
+getpower = 15,7
 givepower = 0,0
 ground.cornerpush.veloff = 0
 guard.cornerpush.veloff = 0
@@ -2020,7 +2022,7 @@ movetype = A
 physics = S
 anim = 1400
 juggle = 8
-poweradd = 53
+poweradd = 0
 ctrl = 0
 
 [State 0, AssertSpecial]
@@ -2066,7 +2068,7 @@ air.type = High
 air.velocity = -4.5,0.6
 air.hittime = 13
 air.juggle = 0
-getpower = 47,47
+getpower = 30,15
 givepower = 16,16
 fall = 1
 air.fall = 1
@@ -2086,7 +2088,7 @@ guardflag = M
 hitflag = MAF
 priority = 4, Hit
 damage = 23,9   ;ceil(ifelse(fvar(11)*49<7, 7, fvar(11)*49)), 0
-getpower = ifelse(!var(13), 216, 72)*!var(20), 36*!var(20)
+getpower = 30,15
 givepower = 36, 36
 pausetime = ifelse(var(20), 6, 12), ifelse(var(20), 6, 12)
 guard.pausetime = ifelse(var(20), 6, 12), ifelse(var(20), 6, 12)
@@ -2240,7 +2242,7 @@ attr = S,SA
 priority = 4, hit
 animtype = Up
 damage = 38,0
-getpower = 0, 0
+getpower = 6,3
 givepower = 5, 5
 guardflag = M
 hitflag = MAF
@@ -2312,7 +2314,7 @@ guard.velocity = -0.02
 guard.cornerPush.velOff = 0
 air.velocity = -0.02, -2.81
 air.cornerPush.velOff = 0
-getpower = 0
+getpower = 6,3
 givepower = 36, 36
 envshake.time = 4
 envshake.freq = 120
@@ -2346,7 +2348,7 @@ guard.velocity = -0.02
 guard.cornerPush.velOff = 0
 air.velocity = -0.02, -2.81
 air.cornerPush.velOff = 0
-getpower = 0
+getpower = 6,3
 givepower = 36, 36
 envshake.time = 4
 envshake.freq = 120
@@ -2380,7 +2382,7 @@ guard.velocity = -0.02
 guard.cornerPush.velOff = 0
 air.velocity = -0.02, -2.81
 air.cornerPush.velOff = 0
-getpower = 0
+getpower = 6,3
 givepower = 36, 36
 envshake.time = 4
 envshake.freq = 120
@@ -2414,7 +2416,7 @@ guard.velocity = -0.02
 guard.cornerPush.velOff = 0
 air.velocity = -0.02, -2.81
 air.cornerPush.velOff = 0
-getpower = 0
+getpower = 6,3
 givepower = 36, 36
 envshake.time = 4
 envshake.freq = 120
@@ -2448,7 +2450,7 @@ guard.velocity = -0.02
 guard.cornerPush.velOff = 0
 air.velocity = -0.02, -2.81
 air.cornerPush.velOff = 0
-getpower = 0
+getpower = 6,3
 givepower = 36, 36
 envshake.time = 4
 envshake.freq = 120
@@ -2461,6 +2463,7 @@ type = hitdef
 trigger1 = animelem = 14
 attr = S, SP
 damage = 5,2
+getpower = 6,3
 animtype = heavy
 guardflag = MA
 hitflag = MAF
@@ -2494,6 +2497,7 @@ type = hitdef
 trigger1 = animelem = 15
 attr = S, SP 
 damage = 5,2
+getpower = 6,3
 animtype = heavy
 guardflag = MA
 hitflag = MAF
@@ -2527,6 +2531,7 @@ type = hitdef
 trigger1 = animelem = 16
 attr = S, SP 
 damage = 5,2
+getpower = 6,3
 animtype = heavy
 guardflag = MA
 hitflag = MAF
@@ -2625,7 +2630,7 @@ anim = 1515
 ctrl = 0
 velset = 0,0
 sprPriority = 2
-poweradd = 50 * !var(20)
+poweradd = 20 * !var(20)
 faceP2 = 1
 
 [State 0, Helper]
@@ -2835,7 +2840,7 @@ air.hittime = 14
 air.fall = 1
 fall.recover = 1
 fall.recovertime = 30
-getpower = 1, 1
+getpower = 10,5
 givepower = 1, 1
 yaccel = 0.5
 

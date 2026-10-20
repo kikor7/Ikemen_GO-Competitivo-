@@ -40,7 +40,7 @@ ground.velocity = -8
 air.hittime = 35                 ;空中やられ判定の時間。転ばない技で長すぎるとヤバいらしい。
 fall.recovertime = 42            ;受身。ヒットストップも含む。
 air.velocity = -3.3,-6.7
-getpower = 50,50                 ;p1ゲージ追加増加量
+getpower = 15,7;p1ゲージ追加増加量
 givepower = 30,15                ;p2ゲージ増加量
 
 [State 1000, 4]
@@ -134,7 +134,7 @@ fall.recovertime = 42            ;受身。ヒットストップも含む。
 air.velocity = -3,-6
 guard.hittime = 24             ;ガード硬直(のけぞりと別に設定できる)
 guard.velocity = (Root,fVar(1))  ;ガード後退速度
-getpower = 50,50                 ;p1ゲージ追加増加量
+getpower = 15,7;p1ゲージ追加増加量
 givepower = 30,30                ;p2ゲージ増加量
 
 [State 1010,5]
@@ -247,7 +247,7 @@ ground.velocity = -8
 air.hittime = 35                 ;空中やられ判定の時間。転ばない技で長すぎるとヤバいらしい。
 fall.recovertime = 42            ;受身。ヒットストップも含む。
 air.velocity = -3.3,-6.7
-getpower = 50,50                 ;p1ゲージ追加増加量
+getpower = 15,7;p1ゲージ追加増加量
 givepower = 30,15                ;p2ゲージ増加量
 
 [State 1005, 4]
@@ -325,7 +325,7 @@ fall.recovertime = 42            ;受身。ヒットストップも含む。
 air.velocity = -3,-6
 guard.hittime = 24             ;ガード硬直(のけぞりと別に設定できる)
 guard.velocity = (Root,fVar(1))  ;ガード後退速度
-getpower = 50,50                 ;p1ゲージ追加増加量
+getpower = 15,7;p1ゲージ追加増加量
 givepower = 30,30                ;p2ゲージ増加量
 
 [State 1015,5]
@@ -363,7 +363,7 @@ type    = S
 movetype= A
 physics = S
 juggle  = 4
-poweradd= 30
+poweradd= 20
 velset = 0,0
 anim = 1050
 ctrl = 0
@@ -430,7 +430,7 @@ air.velocity = -3.4,-6.7
 guard.hittime = 24             ;ガード硬直(のけぞりと別に設定できる)
 guard.velocity = (Root,fVar(1))  ;ガード後退速度
 fall = 1                         ;ダウン
-getpower = 30,30                 ;p1ゲージ追加増加量
+getpower = 30,15;p1ゲージ追加増加量
 givepower = 30,15                ;p2ゲージ増加量
 
 [State 1051,5]
@@ -481,7 +481,7 @@ type    = S
 movetype= A
 physics = S
 juggle  = 4
-poweradd= 30
+poweradd= 20
 velset = 0,0
 anim = 1060
 ctrl = 0
@@ -549,7 +549,7 @@ air.velocity = -3.4,-6.7
 guard.hittime = 24             ;ガード硬直(のけぞりと別に設定できる)
 guard.velocity = (Root,fVar(1))  ;ガード後退速度
 fall = 1                         ;ダウン
-getpower = 45,45                 ;p1ゲージ追加増加量
+getpower = 30,15;p1ゲージ追加増加量
 givepower = 30,15                ;p2ゲージ増加量
 
 [State 1061,5]
@@ -581,7 +581,7 @@ type    = S
 movetype= A
 physics = N
 juggle  = 4
-poweradd= 30
+poweradd= 0
 velset = 0,0
 anim = 1100
 ctrl = 0
@@ -640,7 +640,7 @@ ground.velocity = -8             ;地上で攻撃を受けた時、相手が飛�
 air.hittime = 35                 ;空中やられ判定の時間。転ばない技で長すぎるとヤバいらしい。
 fall.recovertime = 42            ;受身。ヒットストップも含む。
 air.velocity = -3.3,-6.7
-getpower = 45,45                 ;p1ゲージ追加増加量
+getpower = 30,15;p1ゲージ追加増加量
 givepower = 30,15                ;p2ゲージ増加量
 
 [State 1100,2] ;攻撃
@@ -669,7 +669,7 @@ air.velocity = -3.3,-6.7
 guard.hittime = 21             ;ガード硬直(のけぞりと別に設定できる)
 guard.velocity = -12             ;ガード後退速度(地上転倒なので設定)
 fall = 1                         ;ダウン
-getpower = 45,45                 ;p1ゲージ追加増加量
+getpower = 30,15;p1ゲージ追加増加量
 givepower = 30,15                ;p2ゲージ増加量
 
 [State 1100, StateTypeSet]
@@ -691,7 +691,7 @@ type    = S
 movetype= A
 physics = N
 juggle  = 4
-poweradd= 30
+poweradd= 0
 velset = 0,0
 anim = 1110
 ctrl = 0
@@ -750,7 +750,7 @@ ground.velocity = -10            ;地上で攻撃を受けた時、相手が飛�
 air.hittime = 35                 ;空中やられ判定の時間。転ばない技で長すぎるとヤバいらしい。
 fall.recovertime = 42            ;受身。ヒットストップも含む。
 air.velocity = -3.3,-6.7
-getpower = 45,45                 ;p1ゲージ追加増加量
+getpower = 30,15;p1ゲージ追加増加量
 givepower = 30,15                ;p2ゲージ増加量
 
 [State 1110,2] ;攻撃
@@ -779,7 +779,7 @@ air.velocity = -3.3,-6.7
 guard.hittime = 21             ;ガード硬直(のけぞりと別に設定できる)
 guard.velocity = -12             ;ガード後退速度(地上転倒なので設定)
 fall = 1                         ;ダウン
-getpower = 45,45                 ;p1ゲージ追加増加量
+getpower = 30,15;p1ゲージ追加増加量
 givepower = 30,15                ;p2ゲージ増加量
 
 [State 1110, StateTypeSet]
@@ -935,7 +935,7 @@ ground.velocity = -8
 air.hittime = 35                 ;空中やられ判定の時間。転ばない技で長すぎるとヤバいらしい。
 fall.recovertime = 42            ;受身。ヒットストップも含む。
 air.velocity = -3.3,-6.7
-getpower = 50,50                 ;p1ゲージ追加増加量
+getpower = 15,7;p1ゲージ追加増加量
 givepower = 30,15                ;p2ゲージ増加量
 
 [State 1200, 4]
@@ -1029,7 +1029,7 @@ fall.recovertime = 42            ;受身。ヒットストップも含む。
 air.velocity = -3,-6
 guard.hittime = 24             ;ガード硬直(のけぞりと別に設定できる)
 guard.velocity = (Root,fVar(1))  ;ガード後退速度
-getpower = 50,50                 ;p1ゲージ追加増加量
+getpower = 15,7;p1ゲージ追加増加量
 givepower = 30,30                ;p2ゲージ増加量
 
 [State 1210,5]
@@ -1100,7 +1100,7 @@ ground.velocity = -8
 air.hittime = 35                 ;空中やられ判定の時間。転ばない技で長すぎるとヤバいらしい。
 fall.recovertime = 42            ;受身。ヒットストップも含む。
 air.velocity = -3.3,-6.7
-getpower = 50,50                 ;p1ゲージ追加増加量
+getpower = 15,7;p1ゲージ追加増加量
 givepower = 30,15                ;p2ゲージ増加量
 
 [State 1205, 4]
@@ -1184,7 +1184,7 @@ fall.recovertime = 42            ;受身。ヒットストップも含む。
 air.velocity = -3,-6
 guard.hittime = 24             ;ガード硬直(のけぞりと別に設定できる)
 guard.velocity = (Root,fVar(1))  ;ガード後退速度
-getpower = 50,50                 ;p1ゲージ追加増加量
+getpower = 15,7;p1ゲージ追加増加量
 givepower = 30,30                ;p2ゲージ増加量
 
 [State 1215,5]

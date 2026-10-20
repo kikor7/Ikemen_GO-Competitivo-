@@ -1,35 +1,20 @@
 <#f0f000>:Special Moves:</>
-Stand 214B                                                  		_D_XFF^Y
-Stand 214A                                                  		_QDB^X
-j.214B                                                      		_D_XFF^Y
-j.214A                                                      		_QDB^X
-Ex Zio                                                      		_D_F^A_+^B
-Light Zio - 236C                                            		_QDF^A
-Heavy Zio - 236D                                            		_QDF^B
-Swift Strike - 214CD                                        		_D_B^A_+^B
-Swift Strike - 214C                                         		_QDB^A
-Swift Strike - 214D                                         		_QDB^B
----------------------------------------------------------------------------		^B_+^Y
----------------------------------------------------------------------------		^B_+^Y
----------------------------------------------------------------------------		[^A/^X]
----------------------------------------------------------------------------		[^B/^A]
----------------------------------------------------------------------------		[^B/^A]
-2AB                                                         		[~D]^X_+^Y
-5AB                                                         		^X_+^Y
-Super Jump                                                  		_D_UB
-Super Jump                                                  		_D_UF
-Super Jump                                                  		
-Jump After Attack                                           		_U_+_B
-Jump After Attack                                           		_U_+_B
-Jump After Attack                                           		_U_+_B
+Stand Raging Lion Heavy			_D_B^Y
+Stand Raging Lion Light			_D_B^X
+236 CD			_QCF^A_+^B
+Light Zio			_QCF^A
+Heavy Zio			_QCF^B
+Swift Strike			_QCB^A_+^B
+Swift Strike			_D_B^A
+Swift Strike			_D_B^B
+j.BD, Aerial Big Gamble			^B_+^Y
+2AB			~D^X_+^Y
+5AB			^X_+^Y
 
 <#f0f000>:Hyper Moves:</>
-214214B(Heavy) <#bebebe>(1000)</>                           		_D_B_D_B^Y
-214214A(Light) <#bebebe>(1000)</>                           		_D_B_D_B^X
-j.236236C(Heavy) <#bebebe>(1000)</>                         		_D_F_D_F^B
-j.236236C(Light) <#bebebe>(1000)</>                         		_D_F_D_F^A
-236236C(Heavy) <#bebebe>(1000)</>                           		_D_F_D_F^B
-236236C(Light) <#bebebe>(1000)</>                           		_D_F_D_F^A
-Stand 214AB EX <#bebebe>(500)</>                            		_D_B^X_+^Y
-j.214AB EX <#bebebe>(500)</>                                		_D_B^X_+^Y
-5AB EX <#bebebe>(500)</>                                    		^X_+^Y
+214214B Cross Slash (Heavy) <#f00000>(1000)</>			_QCB_QCB^Y
+214214A Cross Slash(Light) <#f00000>(1000)</>			_QCB_QCB^X
+Air Zyodine <#f00000>(1000)</>			_QCF_QCF^B
+Air Zyodine <#f00000>(1000)</>			_QCF_QCF^A
+Stand Raging Lion Ex <#f00000>(500)</>			_QCB^X_+^Y
+5AB EX <#f00000>(500)</>			^X_+^Y

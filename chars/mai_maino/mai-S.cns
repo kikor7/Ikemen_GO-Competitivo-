@@ -9,7 +9,7 @@ ctrl     = 0
 anim     = 1000
 velset   = 0,0
 sprpriority = 2
-poweradd = 50
+poweradd = 20
 
 [State a, キャンセルReset]
 type = varset
@@ -66,7 +66,7 @@ ctrl     = 0
 anim     = 1050
 velset   = 0,0
 sprpriority = 2
-poweradd = 50
+poweradd = 20
 
 [State a, キャンセルReset]
 type = varset
@@ -146,7 +146,7 @@ guardflag = MA
 hitflag = MAF
 priority = 4, hit
 pausetime = 10, 10
-getpower            = 90,40
+getpower = 30,15
 givepower           = 40,20
 sparkNo = s6000
 guard.SparkNo = s6010
@@ -228,7 +228,7 @@ guardflag = MA
 hitflag = MAF
 priority = 4, hit
 pausetime = 10, 10
-getpower            = 90,40
+getpower = 30,15
 givepower           = 40,20
 sparkNo = s6000
 guard.SparkNo = s6010
@@ -316,7 +316,7 @@ ctrl     = 0
 anim     = 1100
 velset   = 0,0
 sprpriority = 2
-poweradd = 50
+poweradd = 0
 
 [State 11000]
 type     = HitBy
@@ -368,7 +368,7 @@ attr                = A, SA
 hitflag             = MAF
 guardflag           = M
 damage              = Floor(100*Fvar(0)),15
-getpower            = 110,50
+getpower = 60,30
 givepower           = 70,30
 animtype            = back
 ;air.animtype        = back
@@ -449,7 +449,7 @@ ctrl     = 0
 anim     = 1100
 velset   = 0,0
 sprpriority = 2
-poweradd = 50
+poweradd = 0
 
 [State 11000]
 type     = null;HitBy
@@ -507,7 +507,7 @@ attr                = A, SA
 hitflag             = MAF
 guardflag           = MA
 damage              = Floor(120*Fvar(0)),16
-getpower            = 140,70
+getpower = 60,30
 givepower           = 80,40
 animtype            = back
 ;air.animtype        = back
@@ -614,7 +614,7 @@ ctrl     = 0
 anim     = 1200
 velset   = 0,0
 sprpriority = 2
-poweradd = 50
+poweradd = 0
 
 ;-------------------------------------------------[演出]
 [State 200, 効果音]
@@ -656,7 +656,7 @@ attr                = A, SA
 hitflag             = MAF
 guardflag           = HA
 damage              = Floor(0*Fvar(0)),10
-getpower            = 120,60
+getpower = 60,30
 givepower           = 70,30
 animtype            = back
 ;air.animtype        = back
@@ -812,7 +812,7 @@ ctrl     = 0
 anim     = 1200
 velset   = 0,0
 sprpriority = 2
-poweradd = 50
+poweradd = 0
 
 ;-------------------------------------------------[演出]
 [State 200, 効果音]
@@ -854,7 +854,7 @@ attr                = A, SA
 hitflag             = MAF
 guardflag           = HA
 damage              = Floor(0*Fvar(0)),30
-getpower            = 170,90
+getpower = 60,30
 givepower           = 100,40
 animtype            = back
 ;air.animtype        = back

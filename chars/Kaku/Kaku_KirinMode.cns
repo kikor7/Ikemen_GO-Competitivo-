@@ -516,7 +516,7 @@ triggerall = !movecontact
 trigger1 = animelem = 3
 attr = S, NA
 animtype  = Light
-getpower = 60,30
+getpower = 15,7
 damage    = 30
 guardflag = MA
 pausetime = 10,12
@@ -657,7 +657,7 @@ triggerall = !movecontact
 trigger1 = animelem = 2
 attr = S, NA
 animtype  = Light
-getpower = 60,30
+getpower = 15,7
 damage    = 30
 guardflag = MA
 pausetime = 10,12
@@ -827,7 +827,7 @@ trigger1 = animelem = 3
 trigger2 = animelem = 4
 attr = S, NA
 animtype  = Light
-getpower = 80,60
+getpower = 30,15
 damage    = 30
 guardflag = MA
 pausetime = 12,14
@@ -892,7 +892,7 @@ physics = A
 juggle  = 1
 ctrl = 0
 anim = 2400
-poweradd = 100
+poweradd = 0
 sprpriority = 2
 
 
@@ -961,7 +961,7 @@ trigger2 = animelem = 3
 trigger3 = animelem = 4
 attr = A, NA
 animtype  = Light
-getpower = 60,30
+getpower = 30,15
 damage    = 40
 guardflag = HA
 pausetime = 10,12
@@ -1056,7 +1056,7 @@ type = HitDef
 triggerall = !movecontact
 trigger1 = AnimElem = 3
 attr = A, NA
-getpower = 80,60
+getpower = 30,15
 damage = 40
 guardflag = HA
 priority = 3
@@ -1126,7 +1126,7 @@ physics = S
 anim = 2500
 velset = 0,0
 ctrl = 0
-poweradd = 100
+poweradd = 0
 
 [State 0, PlaySnd]
 type = PlaySnd
@@ -1217,7 +1217,7 @@ triggerall = !movecontact
 trigger1 =  Animelem = 3
 trigger2 =  Animelem = 4
 attr = S, SA
-getpower = 0,0
+getpower = 60,30
 damage    = 80, 10
 guardflag = MA
 priority = 4
@@ -1285,7 +1285,7 @@ juggle = 3
 ctrl = 0
 anim = 2600
 sprpriority = 1
-poweradd = 100
+poweradd = 0
 
 [State 0, VelSet]
 type = VelSet
@@ -1332,7 +1332,7 @@ trigger1 =  animelem = 3
 trigger2 =  animelem = 4
 trigger3 =  animelem = 5
 attr = S, SA
-getpower = 0,0
+getpower = 20,10
 damage    = 30, 5
 guardflag = HA
 priority = 4
@@ -1550,7 +1550,7 @@ trigger1 =  animelem = 3
 trigger2 =  animelem = 5
 trigger3 =  animelem = 7
 attr = S, SA
-getpower = 0,0
+getpower = 20,10
 damage    = 5, 1
 guardflag = MA
 priority = 4
@@ -1698,7 +1698,7 @@ trigger1 =  animelem = 2
 trigger2 =  animelem = 3
 trigger3 =  animelem = 4
 attr = A, SA
-getpower = 0,0
+getpower = 20,10
 damage    = 25, 5
 guardflag = HA
 priority = 4
@@ -1836,7 +1836,7 @@ type    = A
 movetype = A
 physics = N
 juggle  = 0
-poweradd = 100
+poweradd = 0
 ctrl = 0
 anim = 2700
 sprpriority = 2
@@ -2071,7 +2071,7 @@ ignorehitpause  = 0
 type = HitDef
 trigger1 =  animelem = 6
 attr = A, SA
-getpower = 0,0
+getpower = 30,15
 damage    = 15, 2
 guardflag = HA
 priority = 4
@@ -2094,7 +2094,7 @@ Fall = ifelse(hitcount > 1,1,0)
 type = HitDef
 trigger1 =  animelem = 8
 attr = A, SA
-getpower = 0,0
+getpower = 30,15
 damage    = 15, 2
 guardflag = HA
 priority = 4
@@ -2217,7 +2217,7 @@ type = S
 physics = S
 anim = 2800
 ctrl = 0
-poweradd = 50
+poweradd = 20
 
 [State 0, PlaySnd]
 type = PlaySnd
@@ -2283,7 +2283,7 @@ type = S
 physics = S
 anim = 2801
 ctrl = 0
-poweradd = 50
+poweradd = 0
 
 [State 0, VelSet]
 type = VelSet
@@ -2353,7 +2353,7 @@ type = A
 physics = N
 anim = 2802
 ctrl = 0
-poweradd = 50
+poweradd = 0
 
 [State 0, VelSet]
 type = VelSet
@@ -2450,6 +2450,7 @@ ctrl = 0
 ; Rankyaku Shuriken - Air
 [Statedef 2820]
 type = A
+poweradd = 20
 physics = N
 anim = 2820
 ctrl = 0
@@ -2646,7 +2647,7 @@ palmul = .90, .90, .90
 type = HitDef
 trigger1 =  1
 attr = A, SP
-getpower = 0,0
+getpower = 5,2
 damage    = 30, 5
 guardflag = HA
 pausetime = 8,8
@@ -2743,7 +2744,7 @@ type = HitDef
 Triggerall = prevstateno = 2850
 trigger1 =  1
 attr = A, SP
-getpower = 0,0
+getpower = 5,2
 damage    = 30, 5
 guardflag = HA
 pausetime = 8,8
@@ -2830,7 +2831,7 @@ palmul = .90, .90, .90
 type = HitDef
 trigger1 =  1
 attr = A, SP
-getpower = 0,0
+getpower = 5,2
 damage    = 30, 5
 guardflag = HA
 pausetime = 8,8
@@ -2923,7 +2924,7 @@ type = HitDef
 Triggerall = prevstateno = 2851
 trigger1 =  1
 attr = A, SP
-getpower = 0,0
+getpower = 5,2
 damage    = 30, 5
 guardflag = HA
 pausetime = 8,8
@@ -3008,7 +3009,7 @@ palmul = .90, .90, .90
 type = HitDef
 trigger1 =  1
 attr = A, SP
-getpower = 0,0
+getpower = 5,2
 damage    = 30, 5
 guardflag = HA
 pausetime = 10,10
@@ -3119,7 +3120,7 @@ type = HitDef
 Triggerall = prevstateno = 2852
 trigger1 =  1
 attr = A, SP
-getpower = 0,0
+getpower = 5,2
 damage    = 30, 5
 guardflag = HA
 pausetime = 10,10
@@ -3210,7 +3211,7 @@ palmul = .90, .90, .90
 type = HitDef
 trigger1 =  1
 attr = A, SP
-getpower = 0,0
+getpower = 15,7
 damage    = 30, 5
 guardflag = HA
 pausetime = 8,8
@@ -3303,7 +3304,7 @@ type = HitDef
 Triggerall = prevstateno = 2853
 trigger1 =  1
 attr = A, SP
-getpower = 0,0
+getpower = 15,7
 damage    = 30, 5
 guardflag = HA
 pausetime = 10,10
@@ -3546,7 +3547,7 @@ type = S
 physics = S
 anim = 2900
 ctrl = 0
-poweradd = 100
+poweradd = 20
 
 ;--- Guard Cancel --------------------------
 [State 3000, SuperPause]
@@ -3689,7 +3690,7 @@ type    = A
 Movetype = A
 physics = A
 juggle  = 5
-poweradd = 30
+poweradd = 0
 ctrl = 0
 anim = 2901
 sprpriority = 2
@@ -3933,7 +3934,7 @@ trigger1 =  animelem = 2
 trigger2 =  animelem = 4
 trigger3 =  animelem = 6
 attr = A, SP
-getpower = 0,0
+getpower = 30,15
 damage    = 10, 5
 guardflag = MA
 priority = 4

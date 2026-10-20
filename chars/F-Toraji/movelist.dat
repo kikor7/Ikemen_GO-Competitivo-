@@ -1,0 +1,15 @@
+<#f0f000>:Special Moves:</>
+TenRaiDan S -Thunderbolt Fist-			_F_D_B^X
+TenRaiDan L -Thunderbolt Fist-			_F_D_B^Y
+TenRaiDan S -Electro Cutter-			_DSB^X
+TenRaiDan L -Electro Cutter-			_DSB^Y
+Shuu-Raikou S -Thunder Strike-			_QCF^X
+Shuu-Raikou L -Thunder Strike-			_QCF^Y
+RaiKu S -Flash Sprint-			_B_F^A
+RaiKu L -Flash Sprint-			_B_F^B
+Element Barst			^Z_+^C
+
+<#f0f000>:Hyper Moves:</>
+Kyoku-KoGaRaiOuZan -Lightning Tiger Smash-Ultimate- <#f00000>(3000)</>			_QCF_QCF^Y_+^B
+RappaRaiSan -Sparkle Shatterer- <#f00000>(2000)</>			_D_B_D_F^A
+Shuu-Raikou Todoroki -Thunder Strike -Roar-- <#f00000>(1000)</>			_QCF_QCF^X

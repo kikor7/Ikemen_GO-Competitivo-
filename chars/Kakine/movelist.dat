@@ -1,0 +1,22 @@
+<#f0f000>:Special Moves:</>
+Reppuu			_F_D^A
+Reppuu			_F_D^B
+Nazo Juuryoku			_DSB^A
+Nazo Juuryoku			_DSB^B
+Unsou Unsou Jaku			_QCB^A
+Unsou Unsou Kyou			_QCB^B
+Kaisetsu			_QCF^B
+Kaisetsu			_QCF^A
+Nazobaku Ha Ha Jaku			_D_D^A
+Nazobaku Ha Ha Kyou			_D_D^B
+
+<#f0f000>:Hyper Moves:</>
+Hitsuji Genbutsu Shitsu <#f00000>(3000)</>			_HCB^C
+Ren Bakuha <#f00000>(1000)</>			_D_D^C
+Nazo Juuryoku <#f00000>(1000)</>			_DSB^C
+Taan Unsou <#f00000>(1000)</>			_QCB^C
+Tairetsu Kaze <#f00000>(1000)</>			_F_D^C
+Kaisetsu Rensha <#f00000>(1000)</>			_QCF^C
+Kaisetsu <#f00000>(2000)</>			_QCF^C
+Kabutomushi <#f00000>(1000)</>			_QCF^X
+Daakumataachaaji <#f00000>(2000)</>			_D_D^Z

@@ -6,7 +6,7 @@ physics=S
 ctrl=0
 anim=200
 sprpriority=2
-poweradd=5
+poweradd=20
 
 [State ]
 type=Varadd
@@ -70,6 +70,7 @@ type=HitDef
 trigger1=!movecontact&&!movereversed&&animelemtime(2)>=0
 attr=S,NA
 damage=ceil(32*(1+ifelse(var(18)=1,.1,0)+ifelse(var(15)=1,.05,0)+ifelse(var(15)=1&&(var(6)=8||var(7)=8||var(8)=8||palno=12),.35,0))),0
+getpower = 5,2
 guardflag=M
 hitflag=MAFD
 pausetime=10,10
@@ -329,7 +330,7 @@ physics=S
 ctrl=0
 anim=210
 sprpriority=2
-poweradd=10
+poweradd=0
 
 [State ]
 type=Varadd
@@ -393,6 +394,7 @@ type=HitDef
 trigger1=!movecontact&&!movereversed&&animelemtime(2)>=0
 attr=S,NA
 damage=ceil(52*(1+ifelse(var(18)=1,.1,0)+ifelse(var(15)=1,.05,0)+ifelse(var(15)=1&&(var(6)=8||var(7)=8||var(8)=8||palno=12),.35,0))),0
+getpower = 30,15
 animtype=medium
 guardflag=M
 hitflag=MAFD
@@ -655,7 +657,7 @@ physics=S
 ctrl=0
 anim=220
 sprpriority=2
-poweradd=15
+poweradd=0
 
 [State ]
 type=Varadd
@@ -719,6 +721,7 @@ type=HitDef
 trigger1=!movecontact&&!movereversed&&animelemtime(4)>=0
 attr=S,NA
 damage=ceil(70*(1+ifelse(var(18)=1,.1,0)+ifelse(var(15)=1,.05,0)+ifelse(var(15)=1&&(var(6)=8||var(7)=8||var(8)=8||palno=12),.35,0))),0
+getpower = 30,15
 animtype=hard
 guardflag=M
 hitflag=MAFD
@@ -985,7 +988,7 @@ physics=S
 ctrl=0
 anim=230
 sprpriority=2
-poweradd=20
+poweradd=0
 
 [State ]
 type=Varadd
@@ -1049,6 +1052,7 @@ type=HitDef
 trigger1=!movecontact&&!movereversed&&animelemtime(5)>=0
 attr=S,NA
 damage=ceil(80*(1+ifelse(var(18)=1,.1,0)+ifelse(var(15)=1,.05,0)+ifelse(var(15)=1&&(var(6)=8||var(7)=8||var(8)=8||palno=12),.35,0))),5
+getpower = 30,15
 animtype=hard
 guardflag=H
 hitflag=MAFD
@@ -1311,7 +1315,7 @@ physics=S
 ctrl=0
 anim=240
 sprpriority=2
-poweradd=20
+poweradd=0
 
 [State ]
 type=Varadd
@@ -1374,6 +1378,7 @@ type=HitDef
 trigger1=!movecontact&&!movereversed&&animelemtime(3)>=0
 attr=C,NA
 damage=ceil(76*(1+ifelse(var(18)=1,.1,0)+ifelse(var(15)=1,.05,0)+ifelse(var(15)=1&&(var(6)=8||var(7)=8||var(8)=8||palno=12),.35,0))),5
+getpower = 30,15
 animtype=hard
 guardflag=L
 hitflag=MAFD
@@ -1564,7 +1569,7 @@ physics=S
 ctrl=0
 anim=250
 sprpriority=2
-poweradd=5
+poweradd=0
 
 [State ]
 type=Varadd
@@ -1674,7 +1679,7 @@ physics=S
 ctrl=0
 anim=251
 sprpriority=2
-poweradd=20
+poweradd=0
 
 [State ]
 type=Varadd
@@ -1709,6 +1714,7 @@ type=HitDef
 trigger1=!movecontact&&!movereversed&&animelemtime(3)>=0
 attr=S,NA
 damage=ceil((74+ifelse(fvar(7)=34,10,0))*(1+ifelse(var(18)=1,.1,0)+ifelse(var(15)=1,.05,0)+ifelse(var(15)=1&&(var(6)=8||var(7)=8||var(8)=8||palno=12),.35,0))),5
+getpower = 60,30
 animtype=diagup
 guardflag=M
 hitflag=MAFD
@@ -1986,7 +1992,7 @@ physics=S
 ctrl=0
 anim=260
 sprpriority=2
-poweradd=5
+poweradd=0
 
 [State ]
 type=Varadd
@@ -2096,7 +2102,7 @@ physics=S
 ctrl=0
 anim=261
 sprpriority=2
-poweradd=20
+poweradd=0
 
 [State ]
 type=Varadd
@@ -2143,6 +2149,7 @@ type=HitDef
 trigger1=!movecontact&&!movereversed&&animelemtime(3)>=0&&(!(enemy,teammode=simul)||(enemynear,teammode=simul &&enemynear,statetype=A&&var(24)=0)||var(20)!=0)
 attr=S,NA
 damage=ceil((85+ifelse(fvar(7)>=34,10,0))*(1+ifelse(var(18)=1,.1,0)+ifelse(var(15)=1,.05,0)+ifelse(var(15)=1&&(var(6)=8||var(7)=8||var(8)=8||palno=12),.35,0))),5
+getpower = 60,30
 animtype=hard
 guardflag=M
 hitflag=MAF
@@ -2173,6 +2180,7 @@ type=HitDef
 trigger1=!movecontact&&!movereversed&&animelemtime(3)>=0&&var(20)=0&&enemynear,teammode=simul &&fvar(7)>=34
 attr=S,NA
 damage=ceil((85+ifelse(fvar(7)>=34,10,0))*(1+ifelse(var(18)=1,.1,0)+ifelse(var(15)=1,.05,0)+ifelse(var(15)=1&&(var(6)=8||var(7)=8||var(8)=8||palno=12),.35,0))),5
+getpower = 60,30
 animtype=hard
 guardflag=M
 hitflag=MAF
@@ -2205,6 +2213,7 @@ type=HitDef
 trigger1=!movecontact&&!movereversed&&animelemtime(3)>=0&&var(20)=0&&enemynear,teammode=simul &&fvar(7)<=33&&(enemynear,statetype!=A||(enemynear,statetype=A&&(var(24)=[1,4])))
 attr=S,NA
 damage=ceil((85+ifelse(fvar(7)>=34,10,0))*(1+ifelse(var(18)=1,.1,0)+ifelse(var(15)=1,.05,0)+ifelse(var(15)=1&&(var(6)=8||var(7)=8||var(8)=8||palno=12),.35,0))),5
+getpower = 60,30
 animtype=hard
 guardflag=M
 hitflag=MAF
@@ -2600,7 +2609,7 @@ physics=C
 ctrl=0
 anim=400
 sprpriority=2
-poweradd=5
+poweradd=0
 
 [State ]
 type=Varadd
@@ -2664,6 +2673,7 @@ type=HitDef
 trigger1=!movecontact&&!movereversed&&animelemtime(2)>=0
 attr=C,NA
 damage=ceil(30*(1+ifelse(var(18)=1,.1,0)+ifelse(var(15)=1,.05,0)+ifelse(var(15)=1&&(var(6)=8||var(7)=8||var(8)=8||palno=12),.35,0))),0
+getpower = 30,15
 guardflag=L
 hitflag=MAFD
 pausetime=9,10
@@ -2903,7 +2913,7 @@ physics=C
 ctrl=0
 anim=410
 sprpriority=2
-poweradd=10
+poweradd=0
 
 [State ]
 type=Varadd
@@ -2967,6 +2977,7 @@ type=HitDef
 trigger1=!movecontact&&!movereversed&&animelemtime(3)>=0
 attr=C,NA
 damage=ceil(50*(1+ifelse(var(18)=1,.1,0)+ifelse(var(15)=1,.05,0)+ifelse(var(15)=1&&(var(6)=8||var(7)=8||var(8)=8||palno=12),.35,0))),0
+getpower = 30,15
 animtype=medium
 guardflag=L
 hitflag=MAFD
@@ -3207,7 +3218,7 @@ physics=C
 ctrl=0
 anim=420
 sprpriority=2
-poweradd=15
+poweradd=0
 
 [State ]
 type=Varadd
@@ -3271,6 +3282,7 @@ type=HitDef
 trigger1=!movecontact&&!movereversed&&animelemtime(4)>=0
 attr=C,NA
 damage=ceil(68*(1+ifelse(var(18)=1,.1,0)+ifelse(var(15)=1,.05,0)+ifelse(var(15)=1&&(var(6)=8||var(7)=8||var(8)=8||palno=12),.35,0))),0
+getpower = 30,15
 animtype=hard
 guardflag=L
 hitflag=MAFD
@@ -3512,7 +3524,7 @@ physics=A
 ctrl=0
 anim=600
 sprpriority=2
-poweradd=5
+poweradd=0
 
 [State ]
 type=Veladd
@@ -3581,6 +3593,7 @@ type=HitDef
 trigger1=!movecontact&&!movereversed&&animelemtime(2)>=0
 attr=A,NA
 damage=ceil(34*(1+ifelse(var(18)=1,.1,0)+ifelse(var(15)=1,.05,0)+ifelse(var(15)=1&&(var(6)=8||var(7)=8||var(8)=8||palno=12),.35,0))),0
+getpower = 30,15
 guardflag=HA
 hitflag=MAF
 pausetime=8,10
@@ -3808,7 +3821,7 @@ physics=A
 ctrl=0
 anim=610
 sprpriority=2
-poweradd=10
+poweradd=0
 
 [State ]
 type=Veladd
@@ -3877,6 +3890,7 @@ type=HitDef
 trigger1=!movecontact&&!movereversed&&animelemtime(4)>=0
 attr=A,NA
 damage=ceil(54*(1+ifelse(var(18)=1,.1,0)+ifelse(var(15)=1,.05,0)+ifelse(var(15)=1&&(var(6)=8||var(7)=8||var(8)=8||palno=12),.35,0))),0
+getpower = 30,15
 animtype=medium
 guardflag=HA
 hitflag=MAF
@@ -4105,7 +4119,7 @@ physics=A
 ctrl=0
 anim=620
 sprpriority=2
-poweradd=15
+poweradd=0
 
 [State ]
 type=Veladd
@@ -4174,6 +4188,7 @@ type=HitDef
 trigger1=!movecontact&&!movereversed&&animelemtime(6)>=0
 attr=A,NA
 damage=ceil(72*(1+ifelse(var(18)=1,.1,0)+ifelse(var(15)=1,.05,0)+ifelse(var(15)=1&&(var(6)=8||var(7)=8||var(8)=8||palno=12),.35,0))),0
+getpower = 30,15
 animtype=hard
 guardflag=HA
 hitflag=MAF
@@ -4400,7 +4415,7 @@ physics=A
 ctrl=0
 anim=630
 sprpriority=2
-poweradd=10
+poweradd=0
 
 [State ]
 type=Veladd
@@ -4469,6 +4484,7 @@ type=HitDef
 trigger1=!movecontact&&!movereversed&&animelemtime(3)>=0
 attr=A,NA
 damage=ceil(55*(1+ifelse(var(18)=1,.1,0)+ifelse(var(15)=1,.05,0)+ifelse(var(15)=1&&(var(6)=8||var(7)=8||var(8)=8||palno=12),.35,0))),0
+getpower = 30,15
 animtype=medium
 guardflag=HA
 hitflag=MAF
@@ -4697,7 +4713,7 @@ physics=N
 ctrl=0
 anim=2401
 sprpriority=2
-poweradd=15
+poweradd=0
 
 [State ]
 type=Varset
@@ -4786,6 +4802,7 @@ type=HitDef
 trigger1=!movecontact&&!movereversed&&animelemtime(4)>=0
 attr=A,NA
 damage=ceil((72+(var(0)/3)+ifelse(var(0)>=20,30,0))*(1+ifelse(var(18)=1,.1,0)+ifelse(var(15)=1,.05,0)+ifelse(var(15)=1&&(var(6)=8||var(7)=8||var(8)=8||palno=12),.35,0))),0
+getpower = 30,15
 animtype=hard
 guardflag=HA
 hitflag=MAF
@@ -5057,7 +5074,7 @@ physics=N
 ctrl=0
 anim=1580
 sprpriority=2
-poweradd=10
+poweradd=0
 
 [State ]
 type=Varadd
@@ -5353,7 +5370,7 @@ physics=N
 ctrl=0
 anim=1581
 sprpriority=2
-poweradd=20
+poweradd=0
 
 [State ]
 type=Varadd
@@ -5651,7 +5668,7 @@ physics=N
 ctrl=0
 anim=1582
 sprpriority=2
-poweradd=30
+poweradd=0
 
 [State ]
 type=Varadd
@@ -6426,6 +6443,7 @@ type=HitDef
 trigger1=!movecontact&&!movereversed&&animelemtime(4)>=0&&var(0)!=60
 attr=A,SA
 damage=ceil((55+(var(0)/2))*(1+ifelse(var(18)=1,.1,0)+ifelse(var(15)=1,.05,0)+ifelse(var(15)=1&&(var(6)=8||var(7)=8||var(8)=8||palno=12),.35,0))),ceil(5+(var(0)/20))
+getpower = 30,15
 animtype=hard
 guardflag=HA
 hitflag=MAF
@@ -6472,7 +6490,7 @@ ground.cornerpush.veloff=-10
 palfx.time=ifelse(var(15)=1||var(18)=1,10,0)
 palfx.sinadd=ifelse(var(15)=1,255,0),ifelse(var(18)=1,200,0),ifelse(var(18)=1,50,0),ifelse(var(15)=1||var(18)=1,18,0)
 ID=2001
-getpower=0,0
+getpower = 30,15
 
 [State ];‘ŠŽE
 type=ReversalDef
@@ -6714,6 +6732,7 @@ type=HitDef
 trigger1=!movecontact&&!movereversed&&var(0)!=60
 attr=S,SA
 damage=ceil((72+(var(0)/2))*(1+ifelse(var(18)=1,.1,0)+ifelse(var(15)=1,.05,0)+ifelse(var(15)=1&&(var(6)=8||var(7)=8||var(8)=8||palno=12),.35,0))),ceil(7+(var(0)/2))
+getpower = 30,15
 animtype=hard
 guardflag=L
 hitflag=MFD
@@ -6764,7 +6783,7 @@ ground.cornerpush.veloff=-10
 palfx.time=ifelse(var(15)=1||var(18)=1,10,0)
 palfx.sinadd=ifelse(var(15)=1,255,0),ifelse(var(18)=1,200,0),ifelse(var(18)=1,50,0),ifelse(var(15)=1||var(18)=1,18,0)
 ID=2002
-getpower=0,0
+getpower = 30,15
 
 [State ]
 type=Helper
@@ -7032,6 +7051,7 @@ type=HitDef
 trigger1=!movecontact&&!movereversed
 attr=S,SA
 damage=ceil((110+var(0))*(1+ifelse(var(18)=1,.1,0)+ifelse(var(15)=1,.05,0)+ifelse(var(15)=1&&(var(6)=8||var(7)=8||var(8)=8||palno=12),.35,0))),0
+getpower = 60,30
 animtype=hard
 guardflag=L
 hitflag=MFD

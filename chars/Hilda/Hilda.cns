@@ -1203,7 +1203,7 @@ juggle  = 1                      ;Number of air juggle points move takes
 velset = 0,0                     ;Set velocity (x,y) (Def: no change)
 ctrl = 0                         ;Set ctrl (Def: no change)
 anim = 200                       ;Change animation (Def: no change)
-poweradd = 19                    ;Power to add (Def: 0)
+poweradd = 20                    ;Power to add (Def: 0)
 sprpriority = 2                  ;Set p1's sprite layering priority to 2 (in front)
 
 [State -2, Var]
@@ -1368,7 +1368,7 @@ juggle  = 1                      ;Number of air juggle points move takes
 velset = 0,0                     ;Set velocity (x,y) (Def: no change)
 ctrl = 0                         ;Set ctrl (Def: no change)
 anim = 201                       ;Change animation (Def: no change)
-poweradd = 21                    ;Power to add (Def: 0)
+poweradd = 20                    ;Power to add (Def: 0)
 sprpriority = 2                  ;Set p1's sprite layering priority to 2 (in front)
 
 [State 1, ]
@@ -1511,7 +1511,7 @@ juggle  = 1                      ;Number of air juggle points move takes
 velset = 0,0                     ;Set velocity (x,y) (Def: no change)
 ctrl = 0                         ;Set ctrl (Def: no change)
 anim = 202                       ;Change animation (Def: no change)
-poweradd = 17                    ;Power to add (Def: 0)
+poweradd = 0                    ;Power to add (Def: 0)
 sprpriority = 2                  ;Set p1's sprite layering priority to 2 (in front)
 
 [State 202, 1]
@@ -1520,6 +1520,7 @@ trigger1 = animelem = 3
 triggerall = enemynear,movetype != A
 attr = S, NA                     ;Attribute: Standing, Normal Attack
 damage = ceil(20), 2                   ;Damage that move inflicts, guard damage
+getpower = 7,3
 animtype = Heavy                 ;Animation type: Light, Medium, Heavy, Back (def: Light)
 guardflag = MA                   ;Flags on how move is to be guarded against
 hitflag = MAFD                    ;Flags of conditions that move can hit
@@ -1552,6 +1553,7 @@ trigger1 = animelem = 3
 triggerall = enemynear,movetype = A
 attr = S, NA                     ;Attribute: Standing, Normal Attack
 damage = ceil(30), 2                   ;Damage that move inflicts, guard damage
+getpower = 7,3
 animtype = Heavy                 ;Animation type: Light, Medium, Heavy, Back (def: Light)
 guardflag = MA                   ;Flags on how move is to be guarded against
 hitflag = MAFD                    ;Flags of conditions that move can hit
@@ -1584,6 +1586,7 @@ trigger1 = animelem = 6
 triggerall = enemynear,movetype != A
 attr = S, NA                     ;Attribute: Standing, Normal Attack
 damage = ceil(20), 2                   ;Damage that move inflicts, guard damage
+getpower = 7,3
 animtype = Heavy                 ;Animation type: Light, Medium, Heavy, Back (def: Light)
 guardflag = MA                   ;Flags on how move is to be guarded against
 hitflag = MAFD                    ;Flags of conditions that move can hit
@@ -1616,6 +1619,7 @@ trigger1 = animelem = 6
 triggerall = enemynear,movetype = A
 attr = S, NA                     ;Attribute: Standing, Normal Attack
 damage = ceil(30), 2                   ;Damage that move inflicts, guard damage
+getpower = 7,3
 animtype = Heavy                 ;Animation type: Light, Medium, Heavy, Back (def: Light)
 guardflag = MA                   ;Flags on how move is to be guarded against
 hitflag = MAFD                    ;Flags of conditions that move can hit
@@ -1681,7 +1685,7 @@ juggle  = 1                      ;Number of air juggle points move takes
 velset = 0,0                     ;Set velocity (x,y) (Def: no change)
 ctrl = 0                         ;Set ctrl (Def: no change)
 anim = 203                       ;Change animation (Def: no change)
-poweradd = 65                    ;Power to add (Def: 0)
+poweradd = 20                    ;Power to add (Def: 0)
 sprpriority = 2                  ;Set p1's sprite layering priority to 2 (in front)
 
 [State 203, 1]
@@ -1810,7 +1814,7 @@ juggle  = 1                      ;Number of air juggle points move takes
 velset = 0,0                     ;Set velocity (x,y) (Def: no change)
 ctrl = 0                         ;Set ctrl (Def: no change)
 anim = 205                       ;Change animation (Def: no change)
-poweradd = 65                    ;Power to add (Def: 0)
+poweradd = 0                    ;Power to add (Def: 0)
 sprpriority = 2                  ;Set p1's sprite layering priority to 2 (in front)
 
 [State 810]
@@ -1931,7 +1935,7 @@ type    = S
 movetype= A
 physics = S
 juggle  = 4
-poweradd= 38
+poweradd= 20
 ctrl = 0
 velset = 0,0
 anim = 210
@@ -2321,7 +2325,7 @@ juggle  = 1                      ;Number of air juggle points move takes
 velset = 0,0                     ;Set velocity (x,y) (Def: no change)
 ctrl = 0                         ;Set ctrl (Def: no change)
 anim = 211                      ;Change animation (Def: no change)
-poweradd = 25                    ;Power to add (Def: 0)
+poweradd = 20                    ;Power to add (Def: 0)
 sprpriority = 2                  ;Set p1's sprite layering priority to 2 (in front)
 
 [State 1, ]
@@ -2451,7 +2455,7 @@ type    = C
 movetype= A
 physics = C
 juggle  = 4
-poweradd= 45
+poweradd= 20
 ctrl = 0
 velset = 0,0
 anim = 212
@@ -2584,7 +2588,7 @@ type    = S
 movetype= I
 physics = S
 juggle  = 4
-poweradd= 20
+poweradd= 0
 ctrl = 0
 velset = 0,0
 anim = 102
@@ -2618,7 +2622,7 @@ type    = A
 movetype= A
 physics = A
 juggle  = 2
-poweradd= 25
+poweradd= 0
 ctrl = 0
 anim = 600
 sprpriority = 2
@@ -2668,6 +2672,7 @@ trigger1 = !movecontact && !movereversed
 trigger1 = enemynear,movetype != A
 attr = A, NA
 damage    = ceil(50),0
+getpower = 15,7
 hitflag = MAF
 guardflag = HA
 priority = 3
@@ -2695,6 +2700,7 @@ trigger1 = !movecontact && !movereversed
 trigger1 = enemynear,movetype != A
 attr = A, NA
 damage    = ceil(50),0
+getpower = 15,7
 hitflag = MAF
 guardflag = HA
 priority = 3
@@ -2722,6 +2728,7 @@ trigger1 = !movecontact && !movereversed
 trigger1 = enemynear,movetype = A
 attr = A, NA
 damage    = ceil(62),0
+getpower = 15,7
 hitflag = MAF
 guardflag = HA
 priority = 3
@@ -2750,6 +2757,7 @@ trigger1 = !movecontact && !movereversed
 trigger1 = enemynear,movetype = A
 attr = A, NA
 damage    = ceil(62),0
+getpower = 15,7
 hitflag = MAF
 guardflag = HA
 priority = 3
@@ -2788,7 +2796,7 @@ type    = S
 movetype= A
 physics = N
 juggle  = 5
-poweradd= 35
+poweradd= 0
 ctrl = 0
 anim = 230
 sprpriority = 1
@@ -2817,6 +2825,7 @@ trigger1 = enemynear,movetype != A
 attr = S, NA
 animtype  = Hard
 damage    = ceil(35),0
+getpower = 15,7
 hitflag = MAFD
 guardflag = MA
 pausetime = 5,5
@@ -2842,6 +2851,7 @@ trigger1 = enemynear,movetype = A
 attr = S, NA
 animtype  = Hard
 damage    = ceil(46),0
+getpower = 15,7
 hitflag = MAFD
 guardflag = MA
 pausetime = 8,8
@@ -3475,7 +3485,7 @@ type    = C
 movetype= A
 physics = C
 juggle  = 5
-poweradd= 15
+poweradd= 20
 ctrl = 0
 anim = 400
 sprpriority = 2
@@ -3606,7 +3616,7 @@ type    = C
 movetype= A
 physics = C
 juggle  = 5
-poweradd= 15
+poweradd= 20
 ctrl = 0
 anim = 410
 sprpriority = 2
@@ -3731,7 +3741,7 @@ type    = C
 movetype= A
 physics = C
 juggle  = 5
-poweradd= 15
+poweradd= 0
 ctrl = 0
 anim = 411
 sprpriority = 2
@@ -3775,7 +3785,7 @@ type    = C
 movetype= A
 physics = C
 juggle  = 5
-poweradd= 15
+poweradd= 20
 ctrl = 0
 anim = 420
 sprpriority = 2
@@ -3900,7 +3910,7 @@ type    = C
 movetype= A
 physics = C
 juggle  = 5
-poweradd= 15
+poweradd= 0
 ctrl = 0
 anim = 411
 sprpriority = 2
@@ -3944,7 +3954,7 @@ type    = A
 movetype= A
 physics = A
 juggle  = 2
-poweradd= 21
+poweradd= 0
 ctrl = 0
 anim = 600
 sprpriority = 2
@@ -3998,6 +4008,7 @@ trigger1 = !movecontact && !movereversed
 trigger1 = enemynear,movetype != A
 attr = A, NA
 damage    = ceil(32),0
+getpower = 15,7
 hitflag = MAF
 guardflag = HA
 priority = 3
@@ -4024,6 +4035,7 @@ trigger1 = !movecontact && !movereversed
 trigger1 = enemynear,movetype = A
 attr = A, NA
 damage    = ceil(41),0
+getpower = 15,7
 hitflag = MAF
 guardflag = HA
 priority = 3
@@ -4063,7 +4075,7 @@ type    = A
 movetype= A
 physics = A
 juggle  = 2
-poweradd= 21
+poweradd= 0
 ctrl = 0
 anim = 601
 sprpriority = 2
@@ -4079,6 +4091,7 @@ trigger1 = !movecontact && !movereversed
 trigger1 = enemynear,movetype != A
 attr = A, NA
 damage    = ceil(19),1
+getpower = 15,7
 hitflag = MAF
 guardflag = HA
 priority = 3
@@ -4105,6 +4118,7 @@ trigger1 = !movecontact && !movereversed
 trigger1 = enemynear,movetype = A
 attr = A, NA
 damage    = ceil(27),1
+getpower = 15,7
 hitflag = MAF
 guardflag = HA
 priority = 3
@@ -4157,7 +4171,7 @@ type    = A
 movetype= A
 physics = N
 juggle  = 4
-poweradd= 38
+poweradd= 20
 ctrl = 0
 velset = 0,0
 anim = 610
@@ -4347,7 +4361,7 @@ type    = A
 movetype= A
 physics = N
 juggle  = 4
-poweradd= 38
+poweradd= 20
 ctrl = 0
 velset = 0,0
 anim = 611
@@ -4557,7 +4571,7 @@ type    = A
 movetype= A
 physics = N
 juggle  = 4
-poweradd= 65
+poweradd= 0
 ctrl = 0
 anim = 620
 sprpriority = 2
@@ -4602,6 +4616,7 @@ trigger1 = !movecontact && !movereversed
 trigger1 = enemynear,movetype != A
 attr = A, NA
 damage = ceil(49)
+getpower = 15,7
 hitflag = MAFD
 guardflag = HA
 priority = 4
@@ -4630,6 +4645,7 @@ trigger1 = !movecontact && !movereversed
 trigger1 = enemynear,movetype = A
 attr = A, NA
 damage = ceil(60)
+getpower = 15,7
 hitflag = MAFD
 guardflag = HA
 priority = 4
@@ -4744,6 +4760,7 @@ channel = 0
 
 [State 800, 1]
 type = HitDef
+getpower = 15,7
 triggerall = enemynear,movetype != A
 Triggerall = !Movecontact && !movereversed
 triggerall = var(59) = 0
@@ -4765,6 +4782,7 @@ nochainID = 8000
 
 [State 800, 1]
 type = HitDef
+getpower = 15,7
 triggerall = enemynear,movetype = A
 Triggerall = !Movecontact && !movereversed
 triggerall = var(59) = 0
@@ -4786,6 +4804,7 @@ nochainID = 8000
 
 [State 800, 1]
 type = HitDef
+getpower = 15,7
 triggerall = enemynear,movetype != A
 triggerall = !ailevel
 trigger1 = !movecontact && !movereversed
@@ -4807,6 +4826,7 @@ nochainID = 8000
 
 [State 800, 1]
 type = HitDef
+getpower = 15,7
 triggerall = enemynear,movetype = A
 triggerall = !ailevel
 trigger1 = !movecontact && !movereversed
@@ -5088,7 +5108,7 @@ type    = S
 movetype= A
 physics = N
 anim = 810
-poweradd = 35
+poweradd = 0
 sprpriority = 1
 velset = 0,0
 
@@ -5257,7 +5277,7 @@ type    = S
 movetype= A
 physics = N
 anim = 810
-poweradd = 35
+poweradd = 0
 sprpriority = 1
 velset = 0,0
 
@@ -5537,6 +5557,7 @@ bindtime = 1
 
 [State 800, 1]
 type = HitDef
+getpower = 60,30
 trigger1 = !movecontact && !movereversed
 trigger1 = p2stateno != [150,151]
 attr = S, NT        
@@ -5564,7 +5585,7 @@ type    = S
 movetype= A
 physics = N
 anim = 830
-poweradd = 35
+poweradd = 0
 sprpriority = 1
 velset = 0,0
 
@@ -5850,6 +5871,7 @@ sprpriority = 2
 
 [State 800, 1]
 type = HitDef
+getpower = 60,30
 trigger1 = !movecontact && !movereversed
 attr = S, NT        
 hitflag = AF        
@@ -5874,7 +5896,7 @@ type    = A
 movetype= A
 physics = N
 anim = 850
-poweradd = 35
+poweradd = 0
 sprpriority = 1
 velset = 0,0
 
@@ -6655,7 +6677,7 @@ juggle  = 1                      ;Number of air juggle points move takes
 velset = 0,0                     ;Set velocity (x,y) (Def: no change)
 ctrl = 0                         ;Set ctrl (Def: no change)
 anim = 1000                       ;Change animation (Def: no change)
-poweradd = 25                    ;Power to add (Def: 0)
+poweradd = 20                    ;Power to add (Def: 0)
 sprpriority = 2                  ;Set p1's sprite layering priority to 2 (in front)
 
 [State 1, ]
@@ -6697,7 +6719,7 @@ juggle  = 1                      ;Number of air juggle points move takes
 velset = 0,0                     ;Set velocity (x,y) (Def: no change)
 ctrl = 0                         ;Set ctrl (Def: no change)
 anim = 1001                       ;Change animation (Def: no change)
-poweradd = 32                    ;Power to add (Def: 0)
+poweradd = 20                    ;Power to add (Def: 0)
 sprpriority = 2                  ;Set p1's sprite layering priority to 2 (in front)
 
 [State 1, ]
@@ -7010,7 +7032,7 @@ type    = S
 movetype= A
 physics = S
 juggle  = 4
-poweradd= 65
+poweradd= 0
 velset = 0,0
 anim = 1010
 ctrl = 0
@@ -7037,7 +7059,7 @@ juggle  = 1                      ;Number of air juggle points move takes
 velset = 0,0                     ;Set velocity (x,y) (Def: no change)
 ctrl = 0                         ;Set ctrl (Def: no change)
 anim = 1020                       ;Change animation (Def: no change)
-poweradd = 65                    ;Power to add (Def: 0)
+poweradd = 0                    ;Power to add (Def: 0)
 sprpriority = 2                  ;Set p1's sprite layering priority to 2 (in front)
 
 [State 6061,]
@@ -7795,7 +7817,7 @@ juggle  = 1                      ;Number of air juggle points move takes
 velset = 0,0                     ;Set velocity (x,y) (Def: no change)
 ctrl = 0                         ;Set ctrl (Def: no change)
 anim = 1100                       ;Change animation (Def: no change)
-poweradd = 25                    ;Power to add (Def: 0)
+poweradd = 0                    ;Power to add (Def: 0)
 sprpriority = 2                  ;Set p1's sprite layering priority to 2 (in front)
 
 [State 1, ]
@@ -7848,7 +7870,7 @@ juggle  = 1                      ;Number of air juggle points move takes
 velset = 0,0                     ;Set velocity (x,y) (Def: no change)
 ctrl = 0                         ;Set ctrl (Def: no change)
 anim = 1100                       ;Change animation (Def: no change)
-poweradd = 25                    ;Power to add (Def: 0)
+poweradd = 0                    ;Power to add (Def: 0)
 sprpriority = 2                  ;Set p1's sprite layering priority to 2 (in front)
 
 [State 1, ]
@@ -7896,7 +7918,7 @@ type    = A
 movetype= A
 physics = N
 juggle  = 4
-poweradd= 65
+poweradd= 0
 velset = 0,0
 anim = 1100
 ctrl = 0
@@ -8264,7 +8286,7 @@ type    = A
 movetype= A
 physics = N
 juggle  = 4
-poweradd= 65
+poweradd= 0
 velset = 0,0
 anim = 1101
 ctrl = 0
@@ -8712,7 +8734,7 @@ juggle  = 1                      ;Number of air juggle points move takes
 velset = 0,0                     ;Set velocity (x,y) (Def: no change)
 ctrl = 0                         ;Set ctrl (Def: no change)
 anim = 1200                       ;Change animation (Def: no change)
-poweradd = 40                    ;Power to add (Def: 0)
+poweradd = 20                    ;Power to add (Def: 0)
 sprpriority = 2                  ;Set p1's sprite layering priority to 2 (in front)
 
 [State 1, ]
@@ -8900,7 +8922,7 @@ juggle  = 1                      ;Number of air juggle points move takes
 velset = 0,0                     ;Set velocity (x,y) (Def: no change)
 ctrl = 0                         ;Set ctrl (Def: no change)
 anim = 1201                       ;Change animation (Def: no change)
-poweradd = 40                    ;Power to add (Def: 0)
+poweradd = 20                    ;Power to add (Def: 0)
 sprpriority = 2                  ;Set p1's sprite layering priority to 2 (in front)
 
 [State 1, ]
@@ -9127,7 +9149,7 @@ physics = A
 type     = A
 movetype = A
 physics  = N
-poweradd = 35
+poweradd = 0
 ctrl     = 0
 velset = 0,0
 anim     = 1202
@@ -9289,7 +9311,7 @@ ctrl = 0
 type     = A
 movetype = A
 physics  = N
-poweradd = 35
+poweradd = 0
 ctrl     = 0
 velset = 0,0
 anim     = 1202
@@ -9451,7 +9473,7 @@ ctrl = 0
 type     = A
 movetype = A
 physics  = N
-poweradd = 15
+poweradd = 0
 ctrl     = 0
 anim     = 1210
 velset   = 3,-4.5
@@ -9636,7 +9658,7 @@ ctrl = 0
 type     = A
 movetype = A
 physics  = N
-poweradd = 15
+poweradd = 0
 ctrl     = 0
 anim     = 1211
 velset   = 3,-4.5
@@ -10850,7 +10872,7 @@ type    = S
 movetype= A
 physics = S
 juggle  = 4
-poweradd= 65
+poweradd= 0
 velset = 0,0
 anim = 1301
 ctrl = 0
@@ -11353,7 +11375,7 @@ type    = A
 movetype= A
 physics = N
 juggle  = 4
-poweradd= 55
+poweradd= 0
 ctrl = 0
 anim = 1401
 sprpriority = 2
@@ -11602,7 +11624,7 @@ type    = A
 movetype= A
 physics = N
 juggle  = 4
-poweradd= 55
+poweradd= 0
 ctrl = 0
 anim = 1401
 sprpriority = 2
@@ -11869,7 +11891,7 @@ juggle  = 0
 ctrl = 0
 anim = 1400
 sprpriority = 2
-poweradd = 35    
+poweradd = 0    
 
 [State 6061, Effect]
 type = Explod
@@ -11924,7 +11946,7 @@ type    = A
 movetype= A
 physics = N
 juggle  = 4
-poweradd= 55
+poweradd= 0
 ctrl = 0
 anim = 1401
 sprpriority = 2
@@ -12173,7 +12195,7 @@ type    = A
 movetype= A
 physics = N
 juggle  = 4
-poweradd= 55
+poweradd= 0
 ctrl = 0
 anim = 1401
 sprpriority = 2
@@ -12780,7 +12802,7 @@ juggle  = 1                      ;Number of air juggle points move takes
 velset = 0,0                     ;Set velocity (x,y) (Def: no change)
 ctrl = 0                         ;Set ctrl (Def: no change)
 anim = 1500                       ;Change animation (Def: no change)
-poweradd = 25                    ;Power to add (Def: 0)
+poweradd = 20                    ;Power to add (Def: 0)
 sprpriority = 2                  ;Set p1's sprite layering priority to 2 (in front)
 
 [State 1, ]
@@ -12860,7 +12882,7 @@ juggle  = 1                      ;Number of air juggle points move takes
 velset = 0,0                     ;Set velocity (x,y) (Def: no change)
 ctrl = 0                         ;Set ctrl (Def: no change)
 anim = 1500                       ;Change animation (Def: no change)
-poweradd = 25                    ;Power to add (Def: 0)
+poweradd = 20                    ;Power to add (Def: 0)
 sprpriority = 2                  ;Set p1's sprite layering priority to 2 (in front)
 
 [State 1, ]

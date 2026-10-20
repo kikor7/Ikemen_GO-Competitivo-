@@ -101,6 +101,7 @@ type = HitDef
 trigger1 = time = 0
 attr = A, HA
 damage = 0, 0
+getpower = 30,15
 animtype = back
 guardflag = H
 hitflag = MAFD
@@ -1070,7 +1071,7 @@ velset = 0,0
 ctrl = 0
 anim = 2000
 sprpriority = 1
-poweradd = 100
+poweradd = 20
 
 [State 2000];パートナーゲージパワー加算(無条件)
 type = Varadd
@@ -1145,7 +1146,7 @@ juggle  = 0
 ctrl = 0
 anim = 2100
 sprpriority = 1
-poweradd = 100
+poweradd = 20
 
 [State 2100, 掛け声用ランダム]
 Type = VarRandom
@@ -1922,7 +1923,7 @@ juggle  = 0
 velset =0,0
 ctrl = 0
 sprpriority = 2
-poweradd = 100
+poweradd = 0
 anim =7890
 
 
@@ -2242,7 +2243,7 @@ juggle  = 0
 velset = 0,0
 ctrl = 0
 sprpriority = 1
-poweradd = 100
+poweradd = 20
 anim =2400
 
 
@@ -2356,7 +2357,7 @@ juggle  = 0
 velset =0,0
 ctrl = 0
 sprpriority = 0
-poweradd = 100
+poweradd = 0
 anim =2410
 
 
@@ -2443,6 +2444,7 @@ type = HitDef
 trigger1 = animelemtime(7) >= 1
 attr = , SA
 damage = 0, 0
+getpower = 15,7
 animtype = hard
 ;guardflag = M
 hitflag = MAF
@@ -2522,6 +2524,7 @@ type = HitDef
 trigger1 = 1;animelemtime(1) >= 1
 attr = , SA
 damage = 100,100
+getpower = 15,7
 animtype = hard
 ;guardflag = M
 hitflag = MAF
@@ -2697,7 +2700,7 @@ juggle  = 0
 velset = 18,12
 ctrl = 0
 sprpriority = 1
-poweradd = 100
+poweradd = 0
 anim =2510
 
 [State -2];タッチゲージ値を0に
@@ -2874,7 +2877,7 @@ juggle  = 0
 velset = 18,12
 ctrl = 0
 sprpriority = 1
-poweradd = 100
+poweradd = 0
 anim =2510
 
 [State 2505];パートナーゲージパワー加算(無条件)
@@ -3304,7 +3307,7 @@ juggle  = 0
 velset = 12,8
 ctrl = 0
 sprpriority = 1
-poweradd = 100
+poweradd = 0
 anim =2530
 
 ;[State 4200, クールタイム設定]
@@ -3719,6 +3722,7 @@ type = HitDef
 trigger1 = AnimElemTime(1)=1
 attr = A, ST
 damage = 35, 15
+getpower = 30,15
 animtype = medium
 guardflag = MA
 hitflag = MAFD
@@ -14680,7 +14684,7 @@ physics = S
 juggle  = 0
 ctrl = 0
 sprpriority = 1
-poweradd = 0
+poweradd = 20
 anim =3500
 velset = 0,0
 
@@ -14756,7 +14760,7 @@ juggle  = 0
 velset =0,0
 ctrl = 0
 sprpriority = 1
-poweradd = 100
+poweradd = 0
 anim =3510
 
 
@@ -14930,6 +14934,7 @@ type = HitDef
 trigger1 = animelemtime(6) = 1
 attr = , SA
 damage = 90, 40
+getpower = 30,15
 animtype = hard
 guardflag = MA
 hitflag = MAF
@@ -15186,7 +15191,7 @@ juggle  = 0
 velset = 18,12
 ctrl = 0
 sprpriority = 1
-poweradd = 100
+poweradd = 0
 anim =4110
 
 [State 4100,画面外にでないよう位置補正]
@@ -15562,7 +15567,7 @@ juggle  = 0
 velset = 1.5,0
 ctrl = 0
 sprpriority = 1
-poweradd = 100
+poweradd = 0
 anim =4200
 
 [State 4200,画面外にでないよう位置補正]
@@ -15863,7 +15868,7 @@ type    = A
 movetype= I
 physics = N
 juggle  = 0
-poweradd= 0
+poweradd= 20
 anim = 4300
 sprpriority = 1
 velset =0,0
@@ -16158,6 +16163,7 @@ type = HitDef
 Trigger1 = animelemtime(9)>=1
 attr = , HT
 damage = 0, 50
+getpower = 30,15
 hitflag = MAFD
 guardflag = M
 priority = 4, miss
@@ -17216,7 +17222,7 @@ type    = A
 movetype= I
 physics = N
 juggle  = 0
-poweradd= 0
+poweradd= 20
 anim = 4400
 sprpriority = 1
 velset =0,0
@@ -17670,7 +17676,7 @@ type    = A
 movetype= A
 physics = N
 juggle  = 0
-poweradd= 100
+poweradd= 0
 anim = 4410
 sprpriority = 1
 velset =3.5,3.5
@@ -17725,6 +17731,7 @@ type = HitDef
 trigger1 =1
 attr = , HT
 damage = 400, 100
+getpower = 30,15
 animtype = hard;medium
 hitflag = MAFD
 guardflag = M
@@ -17841,7 +17848,7 @@ type    = S
 movetype= I
 physics = N
 juggle  = 0
-poweradd= 100
+poweradd= 0
 anim = 4420
 sprpriority = 1
 velset =0,0

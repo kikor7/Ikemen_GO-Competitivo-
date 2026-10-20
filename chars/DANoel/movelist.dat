@@ -1,0 +1,23 @@
+<#f0f000>:Special Moves:</>
+Exceed Accel			^Y_+^Z
+Shield			^B_+^C
+Noel Somerneige A			_DSF^A
+Noel Somerneige B			_DSF^B
+Skewered Pigeon A			_QCF^A
+Skewered Pigeon B			_QCF^B
+Unfortunate Rain A			_QCB^A
+Unfortunate Rain B			_QCB^B
+Dazzling Echo A			_D_D^A
+Dazzling Echo B			_D_D^B
+Run Fwd			~F^A_+^B
+Back Dash			~B^A_+^B
+
+<#f0f000>:Hyper Moves:</>
+Sleeping Rose Princess Rozay-en <#f00000>(2000)</>			_D_D^A_+^B
+Deafening Echo <#f00000>(1000)</>			_QCB^A_+^B
+Pest Control Expert Paranodahlia <#f00000>(1000)</>			_QCF^A_+^B
+Noel Somerneige EX <#f00000>(500)</>			_DSF^C
+Skewered Pigeon EX <#f00000>(500)</>			_QCF^C
+Unfortunate Rain EX <#f00000>(500)</>			_QCB^C
+Dazzling Echo EX <#f00000>(500)</>			_D_D^C
+Guard Cancel <#f00000>(1000)</>			^B_+^C

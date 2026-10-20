@@ -14,7 +14,7 @@ movetype=A
 ctrl=0
 velset=0,0
 sprpriority=1
-poweradd=72*!var(20)
+poweradd=0*!var(20)
 facep2=1
 
 [state 1000,Posset]
@@ -94,7 +94,7 @@ attr = S,SA
 hitflag =  MAF
 guardflag = MA
 damage = ceil(ifElse(fvar(11) * ifElse(var(10) = 2, 112, ifElse(var(10), 105, 98)) < 7, 7, fvar(11) * ifElse(var(10) = 2, 112, ifElse(var(10), 105, 98)))), 7
-getpower = ifelse(!var(13), 216, 72)*!var(20), 36*!var(20)
+getpower = 60,30
 givepower = 36, 36
 pausetime = ifelse(var(20), 6, 12), ifelse(var(20), 6, 12)
 guard.pausetime = ifelse(var(20), 6, 12), ifelse(var(20), 6, 12)
@@ -452,7 +452,7 @@ movetype=A
 ctrl=0
 velset=0,0
 sprpriority=1
-poweradd=72*!var(20)
+poweradd=0*!var(20)
 facep2=1
 
 [state 1000,Posset]
@@ -670,6 +670,7 @@ triggerall = var(11)<=(ifelse(var(10)=2,2,1))
 trigger1 = 1
 attr = S, SA
 damage = ceil(ifElse(fvar(11) * ifElse(var(10) = 2, 48, ifElse(var(10), 90, 80)) < 7, 7, fvar(11) * ifElse(var(10) = 2, 45, ifElse(var(10), 90, 80)))), 7
+getpower = 60,30
 animtype = Hard
 guardflag = MA
 hitflag = MAF
@@ -1046,7 +1047,7 @@ movetype=A
 ctrl=0
 velset=0,0
 sprpriority=1
-poweradd=72*!var(20)
+poweradd=0*!var(20)
 facep2=1
 
 [state 1000,Posset]
@@ -1119,7 +1120,7 @@ air.velocity = 0,0
 ground.cornerpush.veloff = 0
 guard.cornerpush.veloff = 0
 air.cornerpush.veloff = 0
-getpower = 10,10
+getpower = 30,15
 givepower = 5,5
 envshake.time = 4
 envshake.freq = 60
@@ -1149,7 +1150,7 @@ fall.recover = 0
 ground.cornerpush.veloff = 0
 guard.cornerpush.veloff = 0
 air.cornerpush.veloff = 0
-getpower = 10,10
+getpower = 30,15
 givepower = 5,5
 envshake.time = 6
 envshake.freq = 120
@@ -1185,7 +1186,7 @@ movetype=A
 ctrl=0
 velset = Vel X / 2, Vel Y / 3
 sprpriority=1
-poweradd=72*!var(20)
+poweradd=0*!var(20)
 facep2=1
 
 [State 1000, Button Detect]
@@ -1246,7 +1247,7 @@ air.velocity = 0,0
 ground.cornerpush.veloff = 0
 guard.cornerpush.veloff = 0
 air.cornerpush.veloff = 0
-getpower = 10,10
+getpower = 30,15
 givepower = 5,5
 envshake.time = 4
 envshake.freq = 60
@@ -1276,7 +1277,7 @@ fall.recover = 0
 ground.cornerpush.veloff = 0
 guard.cornerpush.veloff = 0
 air.cornerpush.veloff = 0
-getpower = 10,10
+getpower = 30,15
 givepower = 5,5
 envshake.time = 6
 envshake.freq = 120
@@ -1982,7 +1983,7 @@ movetype=A
 ctrl=0
 velset=0,0
 sprpriority=1
-poweradd=72*!var(20)
+poweradd=0*!var(20)
 facep2=1
 
 [state 1000,Posset]
@@ -2248,7 +2249,7 @@ movetype=A
 ctrl=0
 velset = 0, -.1
 sprpriority=1
-poweradd=72*!var(20)
+poweradd=20*!var(20)
 facep2=1
 
 [State 0, VelAdd]
@@ -2381,7 +2382,7 @@ attr = S,SA
 hitflag = MAF
 guardflag = M
 damage = ceil(ifelse(fvar(11)*55<7, 7, fvar(11)*55)), 7
-getpower = ifelse(!var(13), 216, 72)*!var(20), 36*!var(20)
+getpower = 10,5
 givepower = 36, 36
 pausetime = ifelse(var(20), 6, 12), ifelse(var(20), 14, 20)
 guard.pausetime = ifelse(var(20), 6, 12), ifelse(var(20), 6, 12)
@@ -2465,7 +2466,7 @@ physics = S
 juggle  = 1
 velset = 0,0
 ctrl = 1
-poweradd=72*!var(20)
+poweradd=0*!var(20)
 sprpriority = 2
 
 [state 1000,Posset]

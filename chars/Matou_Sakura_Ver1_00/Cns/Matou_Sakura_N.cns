@@ -25,6 +25,7 @@ numhits = 0
 
 attr = S, NA
 damage = Ceil(fvar(1)*fvar(2)*fvar(3)*fvar(4)*(1+fvar(10)/80)*(1+Floor(fvar(20)/400)*0.05)*6), 0
+getpower = 15,7
 
 yaccel = IfElse(fvar(9)+0.42<=0.99,fvar(9)+0.42,0.99)
 
@@ -80,6 +81,7 @@ numhits = 0
 
 attr = S, NA
 damage = IfElse(Ceil(var(52)/100%10)>=1,Ceil(fvar(1)*fvar(2)*fvar(3)*fvar(4)*(1+fvar(10)/80)*(1+Floor(fvar(20)/400)*0.05)*11),Ceil(fvar(1)*fvar(2)*fvar(3)*fvar(4)*(1+fvar(10)/80)*(1+Floor(fvar(20)/400)*0.05)*16)), 0
+getpower = 15,7
 
 yaccel = IfElse(fvar(9)+0.42<=0.99,fvar(9)+0.42,0.99)
 
@@ -289,6 +291,7 @@ numhits = 0
 
 attr = S, NA
 damage = Ceil(fvar(1)*fvar(2)*fvar(3)*fvar(4)*(1+fvar(10)/80)*(1+Floor(fvar(20)/400)*0.05)*6), 0
+getpower = 30,15
 yaccel = IfElse(fvar(9)+0.42<=0.99,fvar(9)+0.42,0.99)
 
 hitflag = MAF
@@ -344,6 +347,7 @@ numhits = 0
 
 attr = S, NA
 damage = Ceil(fvar(1)*fvar(2)*fvar(3)*fvar(4)*(1+fvar(10)/80)*(1+Floor(fvar(20)/400)*0.05)*30), 0
+getpower = 30,15
 yaccel = IfElse(fvar(9)+0.42<=0.99,fvar(9)+0.42,0.99)
 
 hitflag = MAF
@@ -547,6 +551,7 @@ numhits = 0
 
 attr = S, NA
 damage = Ceil(fvar(1)*fvar(2)*fvar(3)*fvar(4)*(1+fvar(10)/80)*(1+Floor(fvar(20)/400)*0.05)*8), 0
+getpower = 15,7
 yaccel = IfElse(fvar(9)+0.42<=0.99,fvar(9)+0.42,0.99)
 
 hitflag = MAFD
@@ -604,6 +609,7 @@ numhits = 0
 
 attr = S, NA
 damage = Ceil(fvar(1)*fvar(2)*fvar(3)*fvar(4)*(1+fvar(10)/80)*(1+Floor(fvar(20)/400)*0.05)*14), 0
+getpower = 15,7
 yaccel = IfElse(fvar(9)+0.42<=0.99,fvar(9)+0.42,0.99)
 
 hitflag = MAFD
@@ -824,6 +830,7 @@ numhits = 0
 
 attr = S, NA
 damage = Ceil(fvar(1)*fvar(2)*fvar(3)*fvar(4)*(1+fvar(10)/80)*(1+Floor(fvar(20)/400)*0.05)*26), 0
+getpower = 60,30
 yaccel = IfElse(fvar(9)+0.42<=0.99,fvar(9)+0.42,0.99)
 
 hitflag = MAF
@@ -1005,6 +1012,7 @@ numhits = 0
 
 attr = S, NA
 damage = Ceil(fvar(1)*fvar(2)*fvar(3)*fvar(4)*(1+fvar(10)/80)*(1+Floor(fvar(20)/400)*0.05)*12), 0
+getpower = 10,5
 yaccel = IfElse(fvar(9)+0.27<=0.99,fvar(9)+0.27,0.99)
 
 hitflag = MAFD
@@ -1063,6 +1071,7 @@ numhits = 0
 
 attr = S, NA
 damage = Ceil(fvar(1)*fvar(2)*fvar(3)*fvar(4)*(1+fvar(10)/80)*(1+Floor(fvar(20)/400)*0.05)*9), 0
+getpower = 10,5
 yaccel = IfElse(fvar(9)+0.32<=0.99,fvar(9)+0.32,0.99)
 
 hitflag = MAFD
@@ -1122,6 +1131,7 @@ numhits = 0
 
 attr = S, NA
 damage = Ceil(fvar(1)*fvar(2)*fvar(3)*fvar(4)*(1+fvar(10)/80)*(1+Floor(fvar(20)/400)*0.05)*13), 0
+getpower = 10,5
 yaccel = IfElse(fvar(9)+0.58<=0.99,fvar(9)+0.58,0.99)
 
 hitflag = MAFD
@@ -1334,6 +1344,7 @@ numhits = 0
 
 attr = S, NA
 damage = Ceil(fvar(1)*fvar(2)*fvar(3)*fvar(4)*(1+fvar(10)/80)*(1+Floor(fvar(20)/400)*0.05)*28), 0
+getpower = 20,10
 yaccel = IfElse(fvar(9)+0.42<=0.99,fvar(9)+0.42,0.99)
 
 hitflag = MAFD
@@ -1391,6 +1402,7 @@ numhits = 0
 
 attr = S, NA
 damage = IfElse(Ceil(var(52)/100%10)>=1,Ceil(fvar(1)*fvar(2)*fvar(3)*fvar(4)*(1+fvar(10)/80)*(1+Floor(fvar(20)/400)*0.05)*22),Ceil(fvar(1)*fvar(2)*fvar(3)*fvar(4)*(1+fvar(10)/80)*(1+Floor(fvar(20)/400)*0.05)*44)), 0
+getpower = 20,10
 yaccel = IfElse(fvar(9)+0.42<=0.99,fvar(9)+0.42,0.99)
 
 hitflag = M
@@ -1437,6 +1449,7 @@ numhits = 0
 
 attr = S, NA
 damage = Ceil(fvar(1)*fvar(2)*fvar(3)*fvar(4)*(1+fvar(10)/80)*(1+Floor(fvar(20)/400)*0.05)*65), 0
+getpower = 20,10
 yaccel = IfElse(fvar(9)+0.42<=0.99,fvar(9)+0.42,0.99)
 
 hitflag = AFD
@@ -1685,6 +1698,7 @@ numhits = 0
 
 attr = S, NA
 damage = Ceil(fvar(1)*fvar(2)*fvar(3)*fvar(4)*(1+fvar(10)/80)*(1+Floor(fvar(20)/400)*0.05)*(14/Ceil(var(9)/10%10))), 0
+getpower = 20,10
 yaccel = IfElse(fvar(9)+0.40<=0.99,fvar(9)+0.40,0.99)
 
 hitflag = MAFD
@@ -1741,6 +1755,7 @@ numhits = 0
 
 attr = S, NA
 damage = Ceil(fvar(1)*fvar(2)*fvar(3)*fvar(4)*(1+fvar(10)/80)*(1+Floor(fvar(20)/400)*0.05)*(36/Ceil(var(9)/10%10))), 0
+getpower = 20,10
 yaccel = IfElse(fvar(9)+0.32<=0.99,fvar(9)+0.32,0.99)
 
 hitflag = MAFD
@@ -1797,6 +1812,7 @@ numhits = 0
 
 attr = S, NA
 damage = Ceil(fvar(1)*fvar(2)*fvar(3)*fvar(4)*(1+fvar(10)/80)*(1+Floor(fvar(20)/400)*0.05)*(90/Ceil(var(9)/10%10))), 0
+getpower = 20,10
 yaccel = IfElse(fvar(9)+0.32<=0.99,fvar(9)+0.32,0.99)
 
 hitflag = MAFD
@@ -2030,6 +2046,7 @@ numhits = 0
 
 attr = S, NA
 damage = Ceil(fvar(1)*fvar(2)*fvar(3)*fvar(4)*(1+fvar(10)/80)*(1+Floor(fvar(20)/400)*0.05)*16), 0
+getpower = 30,15
 yaccel = IfElse(fvar(9)+0.42<=0.99,fvar(9)+0.42,0.99)
 
 hitflag = MAFDP
@@ -2365,6 +2382,7 @@ numhits = 0
 
 attr = S, NP
 damage = Ceil(root,fvar(1)*root,fvar(2)*root,fvar(3)*root,fvar(4)*(1+root,fvar(10)/80)*(1+Floor(root,fvar(20)/400)*0.05)*var(0)), 2
+getpower = 30,15
 yaccel = IfElse(root,fvar(9)+0.40<=0.99,root,fvar(9)+0.40,0.99)
 
 givepower = IfElse(Ceil(root,var(52)/100%10)<=1,-9,-18),IfElse(Ceil(root,var(52)/100%10)>=1,-3,0)
@@ -2932,6 +2950,7 @@ numhits = 0
 
 attr = S, NP
 damage = Ceil(root,fvar(1)*root,fvar(2)*root,fvar(3)*root,fvar(4)*(1+root,fvar(10)/80)*(1+Floor(root,fvar(20)/400)*0.05)*(var(0)/Ceil(root,var(9)%10))), 3
+getpower = 30,15
 
 
 yaccel = IfElse(root,fvar(9)+0.37<=0.99,root,fvar(9)+0.37,0.99)
@@ -3198,6 +3217,7 @@ numhits = 0
 
 attr = S, NA
 damage = Ceil(fvar(1)*fvar(2)*fvar(3)*fvar(4)*(1+fvar(10)/80)*(1+Floor(fvar(20)/400)*0.05)*(16/Ceil(var(9)/10000%10))), 0
+getpower = 20,10
 yaccel = IfElse(fvar(9)+0.32<=0.99,fvar(9)+0.32,0.99)
 
 hitflag = MAFD
@@ -3254,6 +3274,7 @@ numhits = 0
 
 attr = S, NA
 damage = Ceil(fvar(1)*fvar(2)*fvar(3)*fvar(4)*(1+fvar(10)/80)*(1+Floor(fvar(20)/400)*0.05)*(70/Ceil(var(9)/10000%10))), 0
+getpower = 20,10
 yaccel = IfElse(fvar(9)+0.32<=0.99,fvar(9)+0.32,0.99)
 
 hitflag = MAFD
@@ -3311,6 +3332,7 @@ numhits = 0
 
 attr = S, NA
 damage = Ceil(fvar(1)*fvar(2)*fvar(3)*fvar(4)*(1+fvar(10)/80)*(1+Floor(fvar(20)/400)*0.05)*(38/Ceil(var(9)/10000%10))), 0
+getpower = 20,10
 yaccel = IfElse(fvar(9)+0.32<=0.99,fvar(9)+0.32,0.99)
 
 hitflag = MAFD
@@ -3538,6 +3560,7 @@ numhits = 0
 
 attr = A, NA
 damage = IfElse(Ceil(var(52)/100%10)>=1,Ceil(fvar(1)*fvar(2)*fvar(3)*fvar(4)*(1+fvar(10)/80)*(1+Floor(fvar(20)/400)*0.05)*9),Ceil(fvar(1)*fvar(2)*fvar(3)*fvar(4)*(1+fvar(10)/80)*(1+Floor(fvar(20)/400)*0.05)*18)), 0
+getpower = 30,15
 yaccel = IfElse(fvar(9)+0.35<=0.99,fvar(9)+0.35,0.99)
 
 hitflag = MAF
@@ -3707,6 +3730,7 @@ numhits = 0
 
 attr = A, NA
 damage = Ceil(fvar(1)*fvar(2)*fvar(3)*fvar(4)*(1+fvar(10)/80)*(1+Floor(fvar(20)/400)*0.05)*9), 0
+getpower = 10,5
 yaccel = IfElse(fvar(9)+0.38<=0.99,fvar(9)+0.38,0.99)
 
 hitflag = MAF
@@ -3756,6 +3780,7 @@ numhits = 0
 
 attr = A, NA
 damage = Ceil(fvar(1)*fvar(2)*fvar(3)*fvar(4)*(1+fvar(10)/80)*(1+Floor(fvar(20)/400)*0.05)*13), 0
+getpower = 10,5
 yaccel = IfElse(fvar(9)+0.40<=0.99,fvar(9)+0.40,0.99)
 
 hitflag = MAF
@@ -3806,6 +3831,7 @@ numhits = 0
 
 attr = A, NA
 damage = IfElse(Ceil(var(52)/100%10)>=1,Ceil(fvar(1)*fvar(2)*fvar(3)*fvar(4)*(1+fvar(10)/80)*(1+Floor(fvar(20)/400)*0.05)*28),Ceil(fvar(1)*fvar(2)*fvar(3)*fvar(4)*(1+fvar(10)/80)*(1+Floor(fvar(20)/400)*0.05)*45)), 0
+getpower = 10,5
 yaccel = IfElse(fvar(9)+0.40<=0.99,fvar(9)+0.40,0.99)
 
 hitflag = MAFD
@@ -4011,6 +4037,7 @@ numhits = 0
 
 attr = A, NA
 damage = Ceil(fvar(1)*fvar(2)*fvar(3)*fvar(4)*(1+fvar(10)/80)*(1+Floor(fvar(20)/400)*0.05)*(100/Ceil(var(9)/1000%10))), 0
+getpower = 30,15
 yaccel = IfElse(fvar(9)+0.40<=0.99,fvar(9)+0.40,0.99)
 
 hitflag = MAFD
@@ -4333,6 +4360,7 @@ numhits = 0
 
 attr = S, NP
 damage = Ceil(root,fvar(1)*root,fvar(2)*root,fvar(3)*root,fvar(4)*(1+root,fvar(10)/80)*(1+Floor(root,fvar(20)/400)*0.05)*(var(0)/Ceil(IfElse((root,var(9)/100%10)<=0,1,(root,var(9)/100%10))))), 2
+getpower = 15,7
 
 yaccel = IfElse(root,fvar(9)+0.37<=0.99,root,fvar(9)+0.37,0.99)
 
@@ -4392,6 +4420,7 @@ numhits = 0
 
 attr = S, NP
 damage = Ceil(root,fvar(1)*root,fvar(2)*root,fvar(3)*root,fvar(4)*(1+root,fvar(10)/80)*(1+Floor(root,fvar(20)/400)*0.05)*(var(0)/Ceil(IfElse((root,var(9)/100%10)<=0,1,(root,var(9)/100%10))))), 2
+getpower = 15,7
 
 yaccel = IfElse(root,fvar(9)+0.37<=0.99,root,fvar(9)+0.37,0.99)
 
@@ -5182,6 +5211,7 @@ numhits = 0
 
 attr = S, NP
 damage = Ceil(root,fvar(1)*root,fvar(2)*root,fvar(3)*root,fvar(4)*(1+root,fvar(10)/80)*(1+Floor(root,fvar(20)/400)*0.05)*6), 3
+getpower = 15,7
 yaccel = IfElse(root,fvar(9)+0.42<=0.99,root,fvar(9)+0.42,0.99)
 
 givepower = IfElse(Ceil(root,var(52)/100%10)<=1,-2,-4),IfElse(Ceil(root,var(52)/100%10)>=1,-1,0)
@@ -5561,6 +5591,7 @@ numhits = 0
 
 attr = S, NP
 damage = Ceil(root,fvar(1)*root,fvar(2)*root,fvar(3)*root,fvar(4)*(1+root,fvar(10)/80)*(1+Floor(root,fvar(20)/400)*0.05)*6), 3
+getpower = 15,7
 yaccel = IfElse(root,fvar(9)+0.42<=0.99,root,fvar(9)+0.42,0.99)
 
 givepower = IfElse(Ceil(root,var(52)/100%10)<=1,-2,-4),IfElse(Ceil(root,var(52)/100%10)>=1,-1,0)
@@ -5878,6 +5909,7 @@ physics = N
 
 [State 800, 1HIT目（弱体化モード）]
 type = HitDef
+getpower = 30,15
 trigger1 = Ceil(var(52)/100%10)=0
 trigger1 = time=5
 
@@ -5897,6 +5929,7 @@ fall = 1
 
 [State 800, 1HIT目（ノーマルモード）]
 type = HitDef
+getpower = 30,15
 trigger1 = Ceil(var(52)/100%10)=1
 trigger1 = time=5
 
@@ -5916,6 +5949,7 @@ fall = 1
 
 [State 800, 1HIT目（ボスモード）]
 type = HitDef
+getpower = 30,15
 trigger1 = Ceil(var(52)/100%10)=2
 trigger1 = time=0
 
@@ -6211,7 +6245,7 @@ absolute = 1
 [State -1]
 type = PowerAdd
 trigger1 = time=[30,50]
-value = 10
+value = 0
 
 ;■基底補正
 [State -1]

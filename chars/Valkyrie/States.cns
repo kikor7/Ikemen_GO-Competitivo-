@@ -349,7 +349,7 @@ airguard.velocity = -2,-1
 air.type = Low
 air.velocity = -3,-2
 air.hittime = 10
-getpower = 200,0
+getpower = 15,7
 
 ;Trick Step
 [State 260, State]
@@ -463,7 +463,7 @@ airguard.velocity = -2,-1
 air.type = Low
 air.velocity = -3,-2
 air.hittime = 25
-getpower = 200,0
+getpower = 30,15
 fall = 1
 
 ;Trick Step
@@ -590,7 +590,7 @@ airguard.velocity = -2,-1
 air.type = Low
 air.velocity = -3,-2
 air.hittime = 10
-getpower = 200,0
+getpower = 15,7
 
 ;Trick Step
 [State 260, State]
@@ -724,7 +724,7 @@ air.type = Low
 air.velocity = -3,-2
 air.hittime = 10
 fall = 1
-getpower = 200,0
+getpower = 15,7
 
 [State 0, PlayerPush]
 type = PlayerPush
@@ -853,7 +853,7 @@ air.type = Low
 air.velocity = -2,-5
 air.hittime = 10
 fall = 1
-getpower = 200,0
+getpower = 15,7
 
 
 ;Trick Step
@@ -963,7 +963,7 @@ airguard.velocity = -2,-1
 air.type = Low
 air.velocity = -3,-2
 air.hittime = 10
-getpower = 200,0
+getpower = 30,15
 
 [State 100, State]
 type = ChangeState
@@ -1058,7 +1058,7 @@ airguard.velocity = -2,-1
 air.type = Low
 air.velocity = -3,-2
 air.hittime = 10
-getpower = 200,0
+getpower = 30,15
 
 [State 260, State]
 type = ChangeState
@@ -1166,7 +1166,7 @@ airguard.velocity = -2,-1
 air.type = Low
 air.velocity = -3,-2
 air.hittime = 10
-getpower = 200,0
+getpower = 30,15
 
 [State 260, State]
 type = ChangeState
@@ -1177,6 +1177,7 @@ ctrl = 1
 ; Ice Strike
 [Statedef 280]
 type = S
+poweradd = 20
 movetype = A
 physics = S
 ctrl = 0
@@ -1538,6 +1539,7 @@ type = HitDef
 trigger1 = AnimElem = 3
 attr = S, NA
 damage = 45,0
+getpower = 15,7
 animtype = Light
 guardflag = MA
 hitflag = MAF
@@ -1702,6 +1704,7 @@ type = HitDef
 trigger1 = AnimElem = 3
 attr = S, NA
 damage = 90,0
+getpower = 15,7
 animtype = Light
 guardflag = MA
 hitflag = MAF
@@ -1890,6 +1893,7 @@ type = HitDef
 trigger1 = AnimElem = 3
 attr = S, NA
 damage = 45,0
+getpower = 15,7
 animtype = Light
 guardflag = MA
 hitflag = MAF
@@ -2054,6 +2058,7 @@ type = HitDef
 trigger1 = AnimElem = 3 || animelem = 4
 attr = S, NA
 damage = 60,0
+getpower = 15,7
 animtype = Light
 guardflag = MA
 hitflag = MAF

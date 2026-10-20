@@ -60,7 +60,7 @@ yaccel              = 0.48
 air.fall            = 0
 fall.recover        = 0 + ifelse(var(19)=1,0,1)
 fall.recovertime    = 10
-getpower            = 50, 50
+getpower = 30,15
 givepower           = Floor(20*Fvar(5)), 0
 Ground.CornerPush.VelOff   = -6
 Guard.CornerPush.VelOff    = -6
@@ -210,7 +210,7 @@ yaccel              = 0.48
 air.fall            = 0
 fall.recover        = 0 + ifelse(var(19)=1,0,1)
 fall.recovertime    = 10
-getpower            = 50, 50
+getpower = 30,15
 givepower           = Floor(25*Fvar(5)), 0
 Ground.CornerPush.VelOff   = -8
 Guard.CornerPush.VelOff    = -8
@@ -355,7 +355,7 @@ yaccel              = 0.48
 air.fall            = 0
 fall.recover        = 0 + ifelse(var(19)=1,0,1)
 fall.recovertime    = 15
-getpower            = 80, 80
+getpower = 30,15
 givepower           = Floor(25*Fvar(5)), 0
 Ground.CornerPush.VelOff   = -8
 Guard.CornerPush.VelOff    = -8
@@ -495,7 +495,7 @@ yaccel              = 0.48
 air.fall            = 0
 fall.recover        = 0 + ifelse(var(19)=1,0,1)
 fall.recovertime    = 15
-getpower            = 80, 80
+getpower = 30,15
 givepower           = Floor(40*Fvar(5)), 0
 Ground.CornerPush.VelOff   = -8
 Guard.CornerPush.VelOff    = -8
@@ -631,7 +631,7 @@ yaccel              = 0.48
 air.fall            = 0
 fall.recover        = 0 + ifelse(var(19)=1,0,1)
 fall.recovertime    = 15
-getpower            = 120, 120
+getpower = 30,15
 givepower           = Floor(80*Fvar(5)), 0
 Ground.CornerPush.VelOff   = -8
 Guard.CornerPush.VelOff    = -8
@@ -779,7 +779,7 @@ air.fall            = 0
 fall.recover        = 0 + ifelse(var(19)=1,0,1)
 fall.recovertime    = 15
 Persistent          = 0
-getpower            = 60, 60
+getpower = 15,7
 givepower           = Floor(45*Fvar(5)), 0
 Ground.CornerPush.VelOff   = -5
 Guard.CornerPush.VelOff    = -5
@@ -814,7 +814,7 @@ yaccel              = 0.48
 fall.recover        = 0 + ifelse(var(19)=1,0,1)
 fall.recovertime    = 15
 Persistent          = 0
-getpower            = 60, 60
+getpower = 15,7
 givepower           = Floor(55*Fvar(5)), 0
 Ground.CornerPush.VelOff   = -8
 Guard.CornerPush.VelOff    = -8
@@ -1005,7 +1005,7 @@ yaccel              = 0.48
 air.fall            = 1
 fall.recover        = 0
 fall.recovertime    = 9999
-getpower            = 80, 80
+getpower = 30,15
 givepower           = Floor(70*Fvar(5)), 0
 Ground.CornerPush.VelOff   = -8
 Guard.CornerPush.VelOff    = -8
@@ -1152,7 +1152,7 @@ yaccel              = 0.48
 air.fall            = 0
 fall.recover        = 0 + ifelse(var(19)=1,0,1)
 fall.recovertime    = 15
-getpower            = 120, 120
+getpower = 30,15
 givepower           = Floor(65*Fvar(5)), 0
 Ground.CornerPush.VelOff   = -8
 Guard.CornerPush.VelOff    = -8
@@ -1305,7 +1305,7 @@ air.fall            = 0
 fall.recover        = 0 + ifelse(var(19)=1,0,1)
 fall.recovertime    = 10
 fall.recovertime    = Ceil(25*(1+(0.5*var(7))))
-getpower            = 50, 50
+getpower = 30,15
 givepower           = Floor(25*Fvar(5)), 0
 Ground.CornerPush.VelOff   = -7
 Guard.CornerPush.VelOff    = -7
@@ -1450,7 +1450,7 @@ yaccel              = 0.48
 air.fall            = 0
 fall.recover        = 0 + ifelse(var(19)=1,0,1)
 fall.recovertime    = 15
-getpower            = 80, 80
+getpower = 30,15
 givepower           = Floor(35*Fvar(5)), 0
 Ground.CornerPush.VelOff   = -8
 Guard.CornerPush.VelOff    = -8
@@ -1595,7 +1595,7 @@ yaccel              = 0.48
 air.fall            = 0
 fall.recover        = 0 + ifelse(var(19)=1,0,1)
 fall.recovertime    = 15
-getpower            = 120, 120
+getpower = 30,15
 givepower           = Floor(90*Fvar(5)), 0
 Ground.CornerPush.VelOff   = -8
 Guard.CornerPush.VelOff    = -8
@@ -1734,6 +1734,7 @@ attr                = A, NA
 hitflag             = MAF
 guardflag           = M
 damage              = Floor(70*Fvar(5)*(1.0+var(7)*0.33)),0
+getpower = 30,15
 animtype            = Hard
 ground.type         = Low
 priority            = 3, Hit
@@ -1920,7 +1921,7 @@ yaccel              = 0.48
 air.fall            = 0
 fall.recover        = 0 + ifelse(var(19)=1,0,1)
 fall.recovertime    = 15
-getpower            = 50, 50
+getpower = 30,15
 givepower           = Floor(25*Fvar(5)), 0
 Ground.CornerPush.VelOff   = -4
 Guard.CornerPush.VelOff    = -4
@@ -2056,7 +2057,7 @@ yaccel              = 0.48
 air.fall            = 0
 fall.recover        = 0 + ifelse(var(19)=1,0,1)
 fall.recovertime    = 30
-getpower            = 80, 80
+getpower = 30,15
 givepower           = Floor(45*Fvar(5)), 0
 Ground.CornerPush.VelOff   = -5
 Guard.CornerPush.VelOff    = -5
@@ -2192,7 +2193,7 @@ yaccel              = 0.48
 air.fall            = 0
 fall.recover        = 0 + ifelse(var(19)=1,0,1)
 fall.recovertime    = 45
-getpower            = 150, 150
+getpower = 30,15
 givepower           = Floor(70*Fvar(5)), 0
 Ground.CornerPush.VelOff   = -6
 Guard.CornerPush.VelOff    = -6
@@ -2328,7 +2329,7 @@ yaccel              = 0.48
 air.fall            = 0
 fall.recover        = 0 + ifelse(var(19)=1,0,1)
 fall.recovertime    = 15
-getpower            = 50, 50
+getpower = 30,15
 givepower           = Floor(35*Fvar(5)), 0
 Ground.CornerPush.VelOff   = -4
 Guard.CornerPush.VelOff    = -4
@@ -2464,7 +2465,7 @@ yaccel              = 0.48
 air.fall            = 0
 fall.recover        = 0 + ifelse(var(19)=1,0,1)
 fall.recovertime    = 30
-getpower            = 80, 80
+getpower = 30,15
 givepower           = Floor(45*Fvar(5)), 0
 Ground.CornerPush.VelOff   = -5
 Guard.CornerPush.VelOff    = -5
@@ -2602,7 +2603,7 @@ yaccel              = 0.48
 air.fall            = 0
 fall.recover        = 0 + ifelse(var(19)=1,0,1)
 fall.recovertime    = 45
-getpower            = 150, 150
+getpower = 30,15
 givepower           = Floor(80*Fvar(5)), 0
 Ground.CornerPush.VelOff   = -6
 Guard.CornerPush.VelOff    = -6
@@ -2712,6 +2713,7 @@ Trigger1      = P2StateNo!=150&&151&&152&&153&&130&&131&&140
 Trigger1      = P2StateType=S
 attr          = S, NT
 damage        = 0
+getpower = 60,30
 hitflag       = M-
 priority      = 3, miss
 pausetime     = 1, 1
@@ -2888,7 +2890,7 @@ absolute = 1  ;ñhå‰óÕÇîΩâfÇ∑ÇÈ
 [State 901, ÉQÅ[ÉWëùâ¡]
 type     = PowerAdd
 trigger1 = animelem = 11
-value    = 300
+value    = 0
 
 ;------------------------------------[ëäéËêßå‰2]
 

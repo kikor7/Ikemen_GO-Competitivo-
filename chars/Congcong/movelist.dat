@@ -1,0 +1,15 @@
+<#f0f000>:Special Moves:</>
+Fall Attack Bomb			_QCB^Y
+Fall Attack			_QCB^X
+Jellyfish Attack 3			_QCF^Z
+Jellyfish Attack 2			_QCF^Y
+Jellyfish Attack			_QCF^X
+Taunt Evade			_D_D^X
+Throw			^X_+^Y
+
+<#f0f000>:Hyper Moves:</>
+Hyper Combination <#f00000>(1000)</>			_F_B_F^X_+^Y
+Rapid Bomb <#f00000>(1000)</>			_QCB^Y_+^Z
+Jellyfish Invasion <#f00000>(2000)</>			_QCB^X_+^Y
+Wave Attack <#f00000>(1000)</>			_QCF^X_+^Y
+Fall Attack Healing <#f00000>(500)</>			_QCB^Z

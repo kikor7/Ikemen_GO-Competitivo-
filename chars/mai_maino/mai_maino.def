@@ -7,6 +7,7 @@ author = "NS"
 pal.defaults = 6,5,4,3,2,1
 
 [Files]
+movelist = movelist.dat
 cmd     = mai.cmd.cns      ;’Êí”Å
 cns     = mai.cns
 st      = mai.cns

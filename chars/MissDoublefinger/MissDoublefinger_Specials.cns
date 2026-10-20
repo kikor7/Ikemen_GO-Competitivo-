@@ -8,7 +8,7 @@ movetype = A
 physics = N
 anim = 1100
 ctrl = 0
-poweradd = 100
+poweradd = 0
 sprpriority = 1
 
 
@@ -75,7 +75,7 @@ triggerall = !movecontact
 trigger1 = animelem = 6
 attr = S, SA
 animtype  = Hard
-getpower = 0,0
+getpower = 30,15
 damage    = 50,5
 getpower  = 0
 priority = 5, Hit
@@ -156,7 +156,7 @@ physics = N
 velset = 0,0
 ctrl = 0
 anim = 1110
-poweradd = 50
+poweradd = 0
 
 
 [State 1350 PlaySnd]
@@ -190,7 +190,7 @@ triggerall = !movecontact
 trigger1 = animelem = 2
 attr = S, SA
 animtype  = Hard
-getpower = 0,0
+getpower = 30,15
 damage    = 30,5
 getpower  = 0
 priority = 5, Hit
@@ -246,7 +246,7 @@ movetype = A
 physics = N
 anim = 1120
 ctrl = 0
-poweradd = 100
+poweradd = 0
 sprpriority = 1
 
 
@@ -417,7 +417,7 @@ triggerall = !movecontact
 trigger1 = animelem = 6
 attr = S, SA
 animtype  = Hard
-getpower = 0,0
+getpower = 60,30
 damage    = 50,5
 getpower  = 0
 priority = 5, Hit
@@ -493,7 +493,7 @@ movetype = A
 physics = N
 anim = 1140
 ctrl = 0
-poweradd = 100
+poweradd = 0
 sprpriority = 1
 
 
@@ -564,7 +564,7 @@ triggerall = !movecontact
 trigger1 = animelem = 6
 attr = S, SA
 animtype  = Hard
-getpower = 0,0
+getpower = 60,30
 damage    = 50,5
 getpower  = 0
 priority = 5, Hit
@@ -643,7 +643,7 @@ movetype = A
 physics = N
 anim = 1150
 ctrl = 0
-poweradd = 100
+poweradd = 0
 sprpriority = 1
 
 
@@ -817,7 +817,7 @@ triggerall = !movecontact
 trigger1 = animelem = 6
 attr = S, SA
 animtype  = Hard
-getpower = 0,0
+getpower = 60,30
 damage    = 50,5
 getpower  = 0
 priority = 5, Hit
@@ -902,7 +902,7 @@ movetype = A
 physics = N
 anim = 1200
 ctrl = 0
-poweradd = 100
+poweradd = 0
 velset = 0,0
 
 [State 0, PlaySnd]
@@ -994,7 +994,7 @@ trigger4 = Animelem = 12
 attr = S, SA
 animtype = hard          ;light,medium,hard,back,up,diagup
 priority = 4,Hit
-getpower = 0,0
+getpower = 20,10
 damage    = 15,(helper(7900),var(19)/20) ;Piercing chip damage
 guardflag = MA
 pausetime = 8,8
@@ -1144,7 +1144,7 @@ movetype = A
 physics = N
 anim = 1210
 ctrl = 0
-poweradd = 50
+poweradd = 0
 velset = 0,0
 
 [State 0, PlaySnd]
@@ -1222,7 +1222,7 @@ trigger4 = Animelem = 9
 attr = S, SA
 animtype = hard          ;light,medium,hard,back,up,diagup
 priority = 4,Hit
-getpower = 0,0
+getpower = 20,10
 damage    = 15,(helper(7900),var(19)/20) ;Piercing chip damage
 guardflag = MA
 pausetime = 8,8
@@ -1369,7 +1369,7 @@ movetype = A
 physics = N
 anim = 1220
 ctrl = 0
-poweradd = 50
+poweradd = 0
 velset = 0,0
 
 [State 0, VarSet]
@@ -1503,7 +1503,7 @@ trigger3 = Animelem = 9
 attr = S, SA
 animtype = hard          ;light,medium,hard,back,up,diagup
 priority = 4,Hit
-getpower = 0,0
+getpower = 20,10
 damage    = 15,(helper(7900),var(19)/20) ;Piercing chip damage
 guardflag = MA
 pausetime = 8,8
@@ -1632,7 +1632,7 @@ physics = S
 anim = 1300
 ctrl = 0
 velset = 0
-poweradd = 100
+poweradd = 20
 velset = 0,0
 
 
@@ -1938,7 +1938,7 @@ triggerall = !movecontact
 trigger1 =  animelem = 4
 trigger2 =  animelem = 5
 attr = S, SP
-getpower = 0,0
+getpower = 30,15
 damage    = 40, 5
 guardflag = MA
 priority = 4
@@ -2096,7 +2096,7 @@ movetype = A
 physics = N
 ctrl = 0
 anim = 1400
-poweradd = 100
+poweradd = 0
 
 
 [State 0, VelSet]
@@ -2173,7 +2173,7 @@ triggerall = time > 10
 trigger1 = time%4 = 0
 attr = S, SA
 animtype  = Hard
-getpower = 0,0
+getpower = 60,30
 damage    = 10,(helper(7900),var(19)/20) ;Piercing chip damage
 getpower  = 0
 priority = 5, Hit
@@ -2379,7 +2379,7 @@ physics = S
 anim = 1600
 ctrl = 0
 velset = 0
-poweradd = 100
+poweradd = 20
 velset = 0,0
 
 
@@ -2541,7 +2541,7 @@ trigger1 =  animelem = 5
 trigger2 =  animelem = 7
 trigger3 =  animelem = 9
 attr = A, SP
-getpower = 0,0
+getpower = 30,15
 damage    = 20, (helper(7900),var(19)/15) ;Piercing chip damage
 guardflag = HA
 priority = 4
@@ -2665,7 +2665,7 @@ trigger1 = time = 35
 type    = S
 movetype = A
 physics = S
-poweradd = 100
+poweradd = 0
 ctrl = 0
 velset = 0,0
 anim = 1700
@@ -2765,7 +2765,7 @@ trigger2 = animelem = 7
 trigger3 = animelem = 9
 attr = S, NP
 animtype  = Light
-getpower = 0,0
+getpower = 30,15
 damage    = 10,(helper(7900),var(19)/10) ;Piercing chip damage
 guardflag = MA
 pausetime = 6,6
@@ -2785,7 +2785,7 @@ type = HitDef
 trigger1 = animelem = 11
 attr = S, NP
 animtype  = Light
-getpower = 0,0
+getpower = 30,15
 damage    = 40,(helper(7900),var(19)/10) ;Piercing chip damage
 guardflag = MA
 pausetime = 12,12
@@ -2906,7 +2906,7 @@ type    = A
 movetype= A
 physics = N
 juggle  = 2
-poweradd = 100
+poweradd = 0
 ctrl = 0
 anim = 1800
 sprpriority = 1
@@ -3019,7 +3019,7 @@ trigger2 = animelem = 7
 trigger3 = animelem = 8
 attr = S, NP
 animtype  = Light
-getpower = 0,0
+getpower = 60,30
 damage    = 30, (helper(7900),var(19)/20) ;Piercing chip damage
 guardflag = MA
 pausetime = 6,8

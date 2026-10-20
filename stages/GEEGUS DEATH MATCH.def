@@ -294,7 +294,7 @@ value = 0
 
 [BG 10]
 type  = anim
-actionno = 10
+actionno = 100
 start = 0, 0
 mask = 1
 layerno = 0
@@ -831,7 +831,7 @@ delta = .895,1
 
 [BG 15]
 type  = anim
-actionno = 150
+actionno = 15
 start = 145, 202
 mask = 1
 layerno = 0
@@ -965,7 +965,7 @@ delta = 1.015,1
 
 [BG 16]
 type  = anim
-actionno = 160
+actionno = 16
 start = -179, 202
 mask = 1
 layerno = 0

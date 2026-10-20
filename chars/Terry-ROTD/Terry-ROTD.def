@@ -13,6 +13,7 @@ pal.defaults = 0
 
 ; Files for the player
 [Files]
+movelist = movelist.dat
 cmd      = Terry-ROTD.cmd  
 cns      = Terry-ROTD-P.cns   
 st       = Terry-ROTD-N.cns   

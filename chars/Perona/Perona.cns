@@ -502,7 +502,7 @@ trigger1 = animelem = 3
 trigger2 = animelem = 4
 attr = S, NA
 animtype  = Light
-getpower = 20,10
+getpower = 15,7
 damage    = 15
 guardflag = MA
 pausetime = 8,10
@@ -630,7 +630,7 @@ trigger1 = animelem = 3
 trigger2 = animelem = 4
 attr = S, NA
 animtype  = Light
-getpower = 20,10
+getpower = 15,7
 damage    = 15
 guardflag = MA
 pausetime = 10,14
@@ -727,7 +727,7 @@ triggerall = !movecontact
 trigger1 = animelem = 4
 attr = C, NA
 animtype  = Light
-getpower = 40,20
+getpower = 30,15
 damage    = 30
 guardflag = L
 pausetime = 8,10
@@ -1170,7 +1170,7 @@ triggerall = !movecontact
 trigger1 = 13
 attr = A, NP
 animtype  = Medium
-getpower = 20,10
+getpower = 30,15
 damage    = 10
 guardflag = MA
 pausetime = 8,10
@@ -1411,7 +1411,7 @@ trigger1 = animtime = 0
 [Statedef 220]
 type    = S
 physics = S
-poweradd = 0
+poweradd = 20
 ctrl = 0
 velset = 0,0
 anim = 220
@@ -1581,7 +1581,7 @@ trigger1 = 1
 attr = A, NT
 pausetime = 10,20
 sparkno = -1;s6000
-getpower = 80,40
+getpower = 15,7
 givepower = ifelse(p2name = "Usopp", 0 ,-150),0
 animtype  = Medium
 damage    = ifelse(p2name = "Usopp", 0 , 20)
@@ -1658,7 +1658,7 @@ trigger1 = 1
 attr = A, NP
 pausetime = 10,50
 sparkno = -1;s6000
-getpower = 0,0
+getpower = 15,7
 givepower = ifelse(p2name = "Usopp", 0 ,-150),0
 animtype  = Medium
 damage    = ifelse(p2name = "Usopp", 0 , 20)
@@ -1722,7 +1722,7 @@ trigger1 = animelem = 4
 trigger2 = animelem = 5
 attr = S, NA
 animtype  = Light
-getpower = 40,20
+getpower = 30,15
 damage    = 15
 guardflag = MA
 pausetime = 8,10
@@ -2009,7 +2009,7 @@ triggerall = !movecontact
 trigger1 = AnimElem = 3
 trigger2 = AnimElem = 4
 attr = A, NA
-getpower = 40,20
+getpower = 30,15
 damage = 10
 guardflag = HA
 priority = 3
@@ -2325,7 +2325,7 @@ trigger1 = 1
 attr = A, NT
 pausetime = 10,20
 sparkno = -1;s6000
-getpower = 80,40
+getpower = 15,7
 givepower = ifelse(p2name = "Usopp", 0 ,-150),0
 animtype  = Medium
 damage    = ifelse(p2name = "Usopp", 0 , 20)
@@ -2393,7 +2393,7 @@ Triggerall = prevstateno = 625
 triggerall = !movecontact
 trigger1 = 1
 attr = A, NT
-getpower = 0,0
+getpower = 15,7
 pausetime = 10,20
 sparkno = -1;s6000
 getpower = 0,0
@@ -3567,7 +3567,7 @@ triggerall = p2movetype != H
 Trigger1 = Time = 0
 attr = S, NT
 hitflag = M-
-getpower = 0,0
+getpower = 60,30
 pausetime = 0,0
 sparkno = -1
 guard.dist = 0
@@ -5754,6 +5754,7 @@ trigger1 = animelem = 3
 attr = S, HA
 animtype  = medium
 damage    = 0,0
+getpower = 60,30
 guardflag = MA
 pausetime = 12,12
 sparkno = -1
@@ -5917,6 +5918,7 @@ trigger1 = animelem = 3
 attr = S, HA
 animtype  = medium
 damage    = 0,0
+getpower = 60,30
 guardflag = MA
 pausetime = 12,12
 sparkno = -1

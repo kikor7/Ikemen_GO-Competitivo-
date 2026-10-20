@@ -52,7 +52,7 @@ fall		= 0		;1だと自動立ち直りなし
 fall.recover	= 1		;0だと受身不可能
 fall.recovertime= ceil(fvar(1)*15) + 9
 air.fall	= 1		;1だと自動立ち直りなし
-getpower	= 80, 40
+getpower = 30,15
 givepower	= 20, 0
 yaccel		= 0.4
 ground.slidetime	= 10
@@ -130,7 +130,7 @@ fall		= 0		;1だと自動立ち直りなし
 fall.recover	= 1		;0だと受身不可能
 fall.recovertime= ceil(fvar(1)*15) + 9
 air.fall	= 1		;1だと自動立ち直りなし
-getpower	= 80, 40
+getpower = 30,15
 givepower	= 20, 0
 yaccel		= 0.4
 ground.slidetime	= 10
@@ -274,7 +274,7 @@ fall		= 0		;1だと自動立ち直りなし
 fall.recover	= 1		;0だと受身不可能
 fall.recovertime= ceil(fvar(1)*25*(1+0.5*var(4))) + 9
 air.fall	= 1		;1だと自動立ち直りなし
-getpower	= 60, 40
+getpower = 30,15
 givepower	= 20, 0
 yaccel		= 0.4
 ground.slidetime	= 17+7*var(4)
@@ -537,7 +537,7 @@ fall		= 1		;1だと自動立ち直りなし
 fall.recover	= 0		;0だと受身不可能
 fall.recovertime= 999999
 air.fall	= 1		;1だと自動立ち直りなし
-getpower	= 240, 160
+getpower = 30,15
 givepower	= 80, 0
 yaccel		= 0.4
 ground.slidetime	= 24+10*var(4)
@@ -698,7 +698,7 @@ fall		= 0		;1だと自動立ち直りなし
 fall.recover	= 1		;0だと受身不可能
 fall.recovertime= ceil(fvar(1)*25*(1+0.5*var(4))) + 9
 air.fall	= 1		;1だと自動立ち直りなし
-getpower	= 60, 40
+getpower = 30,15
 givepower	= 20, 0
 yaccel		= 0.4
 ground.slidetime	= 17+7*var(4)
@@ -870,7 +870,7 @@ fall		= 1		;1だと自動立ち直りなし
 fall.recover	= 1		;0だと受身不可能
 fall.recovertime= ceil(fvar(1)*45*(1+0.5*var(4))) + 9
 air.fall	= 1		;1だと自動立ち直りなし
-getpower	= 240, 160
+getpower = 30,15
 givepower	= 80, 0
 yaccel		= 0.4
 ground.slidetime	= 24+10*var(4)
@@ -948,7 +948,7 @@ fall		= 0		;1だと自動立ち直りなし
 fall.recover	= 1		;0だと受身不可能
 fall.recovertime= ceil(fvar(1)*15) + 9
 air.fall	= 1		;1だと自動立ち直りなし
-getpower	= 80, 40
+getpower = 30,15
 givepower	= 20, 0
 yaccel		= 0.4
 ground.slidetime	= 10
@@ -1112,7 +1112,7 @@ fall		= 1		;1だと自動立ち直りなし
 fall.recover	= 1		;0だと受身不可能
 fall.recovertime= ceil(fvar(1)*45*(1+0.5*var(4))) + 9
 air.fall	= 1		;1だと自動立ち直りなし
-getpower	= 240, 160
+getpower = 30,15
 givepower	= 80, 0
 yaccel		= 0.2
 ground.slidetime	= 24+10*var(4)
@@ -1326,7 +1326,7 @@ fall		= 0		;1だと自動立ち直りなし
 fall.recover	= 1		;0だと受身不可能
 fall.recovertime= ceil(fvar(1)*25*(1+0.5*var(4))) + 9
 air.fall	= 1		;1だと自動立ち直りなし
-getpower	= 160, 120
+getpower = 30,15
 givepower	= 60, 0
 yaccel		= 0.4
 ground.slidetime	= 17+7*var(4)
@@ -1496,7 +1496,7 @@ fall		= 1		;1だと自動立ち直りなし
 fall.recover	= 1		;0だと受身不可能
 fall.recovertime= ceil(fvar(1)*45*(1+0.5*var(4))) + 9
 air.fall	= 1		;1だと自動立ち直りなし
-getpower	= 240, 160
+getpower = 30,15
 givepower	= 80, 0
 yaccel		= 0.4
 ground.slidetime	= 24+10*var(4)
@@ -1673,7 +1673,7 @@ fall		= 1		;1だと自動立ち直りなし
 fall.recover	= 1		;0だと受身不可能
 fall.recovertime= ceil(fvar(1)*45*(1+0.5*var(4))) + 4
 air.fall	= 1		;1だと自動立ち直りなし
-getpower	= 60, 40
+getpower = 30,15
 givepower	= 20, 0
 yaccel		= 0.4
 ground.slidetime	= 24+10*var(4)
@@ -2007,7 +2007,7 @@ fall		= 1		;1だと自動立ち直りなし
 fall.recover	= 1		;0だと受身不可能
 fall.recovertime= ceil(fvar(1)*45*(1+0.5*var(4))) + 9
 air.fall	= 1		;1だと自動立ち直りなし
-getpower	= 240, 160
+getpower = 30,15
 givepower	= 80, 0
 yaccel		= 0.4
 ground.slidetime	= 24+10*var(4)
@@ -2145,7 +2145,7 @@ fall		= 0		;1だと自動立ち直りなし
 fall.recover	= 1		;0だと受身不可能
 fall.recovertime= ceil(fvar(1)*25*(1+0.5*var(4))) + 9
 air.fall	= 1		;1だと自動立ち直りなし
-getpower	= 160, 120
+getpower = 30,15
 givepower	= 60, 0
 yaccel		= 0.4
 ground.slidetime	= 17+7*var(4)
@@ -2346,7 +2346,7 @@ fall		= 0		;1だと自動立ち直りなし
 fall.recover	= 1		;0だと受身不可能
 fall.recovertime= ceil(fvar(1)*25*(1+0.5*var(4))) + 1
 air.fall	= 1		;1だと自動立ち直りなし
-getpower	= 20, 14
+getpower = 30,15
 givepower	= 7, 0
 yaccel		= 0.4
 ground.slidetime	= 10+7*var(4)
@@ -2707,7 +2707,7 @@ fall		= 1		;1だと自動立ち直りなし
 fall.recover	= 1		;0だと受身不可能
 fall.recovertime= ceil(fvar(1)*45*(1+0.5*var(4))) + 9
 air.fall	= 1		;1だと自動立ち直りなし
-getpower	= 240, 160
+getpower = 30,15
 givepower	= 80, 0
 yaccel		= 0.4
 ground.slidetime	= 24+10*var(4)
@@ -2821,6 +2821,7 @@ ignorehitpause = 1
 ;--------------------------------------------------------------------------------
 [Statedef 600]
 Type    = U
+poweradd = 20
 Movetype= A
 Physics = N
 Anim = 600 + 5*(StateType = A)
@@ -2865,7 +2866,7 @@ persistent = 0
 [State 600]
 type = Poweradd
 trigger1 = AnimElem = 5
-value = 100
+value = 0
 
 [State 600]
 type = Playsnd
@@ -3045,7 +3046,7 @@ persistent = 0
 [State 610]
 type = Poweradd
 trigger1 = AnimElem = 6
-value = 100
+value = 0
 
 [State 610]
 type = Playsnd
@@ -3175,6 +3176,7 @@ ctrl = 1
 ;--------------------------------------------------------------------------------
 [Statedef 620]
 Type    = U
+poweradd = 20
 Movetype= A
 Physics = N
 Anim = 601 + 5*(StateType = A)
@@ -3219,7 +3221,7 @@ persistent = 0
 [State 620]
 type = Poweradd
 trigger1 = AnimElem = 5
-value = 100
+value = 0
 
 [State 620]
 type = Playsnd
@@ -3454,7 +3456,7 @@ fall		= 0		;1だと自動立ち直りなし
 fall.recover	= 1		;0だと受身不可能
 fall.recovertime= ceil(root,fvar(1)*25)
 air.fall	= 0		;1だと自動立ち直りなし
-getpower	= 30, 30
+getpower = 30,15
 givepower	= 10, 0
 yaccel		= 0.4
 ground.slidetime	= 17
@@ -3789,7 +3791,7 @@ fall		= 0		;1だと自動立ち直りなし
 fall.recover	= 1		;0だと受身不可能
 fall.recovertime= ceil(root,fvar(1)*25)
 air.fall	= 0		;1だと自動立ち直りなし
-getpower	= 30, 30
+getpower = 30,15
 givepower	= 10, 0
 yaccel		= 0.4
 ground.slidetime	= 17
@@ -4114,7 +4116,7 @@ fall		= 0		;1だと自動立ち直りなし
 fall.recover	= 1		;0だと受身不可能
 fall.recovertime= ceil(root,fvar(1)*25) + 9
 air.fall	= 1		;1だと自動立ち直りなし
-getpower	= 16, 16
+getpower = 30,15
 givepower	= 5, 0
 yaccel		= 0.4
 ground.slidetime	= 17
@@ -4250,6 +4252,7 @@ trigger1 = AnimTime = 0
 ;--------------------------------------------------------------------------------
 [Statedef 700]
 Type    = U
+poweradd = 20
 Movetype= A
 Physics = N
 Anim = 700 + 5*(StateType = A)
@@ -4294,7 +4297,7 @@ persistent = 0
 [State 700]
 type = Poweradd
 trigger1 = AnimElemTime(4) = 0
-value = 100
+value = 0
 
 [State 700]
 type = Playsnd
@@ -4621,7 +4624,7 @@ persistent = 0
 [State 715]
 type = Poweradd
 trigger1 = AnimElemTime(2) = 0
-value = 100
+value = 0
 
 [State 715]
 type = PlaySnd
@@ -4697,7 +4700,7 @@ persistent = 0
 [State 720]
 type = Poweradd
 trigger1 = AnimElemTime(4) = 0
-value = 100
+value = 0
 
 [State 720]
 type = Playsnd
@@ -5016,7 +5019,7 @@ fall		= 1		;1だと自動立ち直りなし
 fall.recover	= 1		;0だと受身不可能
 fall.recovertime= ceil(root,fvar(1)*45*(1+0.5*root,var(4))) + 12
 air.fall	= 1		;1だと自動立ち直りなし
-getpower	= 40, 40
+getpower = 30,15
 givepower	= 20, 0
 yaccel		= 0.2
 ground.slidetime	= 24+10*root,var(4)
@@ -5265,7 +5268,7 @@ fall		= 1		;1だと自動立ち直りなし
 fall.recover	= 1		;0だと受身不可能
 fall.recovertime= ceil(root,fvar(1)*35*(1+0.5*root,var(4)))
 air.fall	= 1		;1だと自動立ち直りなし
-getpower	= 40, 40
+getpower = 30,15
 givepower	= 20, 0
 yaccel		= 0.4
 ground.slidetime	= 24+10*root,var(4)
@@ -5617,7 +5620,7 @@ fall		= 1		;1だと自動立ち直りなし
 fall.recover	= 1		;0だと受身不可能
 fall.recovertime= ceil(root,fvar(1)*35) + 9
 air.fall	= 1		;1だと自動立ち直りなし
-getpower	= 30, 30
+getpower = 30,15
 givepower	= 10, 0
 yaccel		= 0.4
 ground.slidetime	= 24

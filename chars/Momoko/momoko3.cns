@@ -4,7 +4,7 @@
 type    = C
 movetype= A
 physics = N
-poweradd= 50
+poweradd= 0
 ctrl = 0
 anim = 1100
 sprpriority = 2
@@ -172,7 +172,7 @@ ctrl = 1
 type    = C
 movetype= A
 physics = N
-poweradd= 50
+poweradd= 0
 ctrl = 0
 anim = 1110
 sprpriority = 2

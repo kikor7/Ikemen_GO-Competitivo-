@@ -347,7 +347,7 @@ trigger3 = time = 36
 trigger4 = time = 40
 trigger5 = time = 44
 damage = 30
-getpower = 300
+getpower = 30,15
 attr = S, HP
 animtype  = Hard
 guardflag = MA

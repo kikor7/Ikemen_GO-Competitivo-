@@ -7723,7 +7723,7 @@ fall.recover=ifelse(var(19),0,1)
 ground.velocity=-4,-8
 air.velocity=-4,-8
 yaccel=.48
-getpower=0,0
+getpower = 60,30
 guard.dist=0
 hitonce=1
 
@@ -7872,7 +7872,7 @@ bindtime=-1
 [State ]
 type=powerAdd
 trigger1=animelem=13
-value=333
+value=0
 
 [State ]
 type=Varadd
@@ -9526,7 +9526,7 @@ p2facing=1
 ground.cornerpush.veloff=0
 palfx.time=ifelse(var(15),10,0)
 palfx.sinadd=ifelse(var(15),255,0),0,0,ifelse(var(15),18,0)
-getpower=0,0
+getpower = 60,30
 
 [State ]
 type=Helper

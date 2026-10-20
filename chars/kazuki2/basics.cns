@@ -1490,7 +1490,7 @@ trigger1 = AnimElem = 2
 attr = S, NA                     
 damage = 50 + (25 * var(23)) + (25 * var(11)), 0 + (25 * var(11))                  
 animtype = Light               
-getpower = 0
+getpower = 30,15
 givepower = 40
 guardflag = MA                   
 hitflag = MA                    
@@ -1518,6 +1518,7 @@ ctrl = 1
 ;Stand Weak Slash Master Arts
 [Statedef 201]
 type    = S                     
+poweradd = 20
 movetype= A                     
 physics = S                   
 juggle  = 1                     
@@ -1576,7 +1577,7 @@ trigger9 = AnimElem = 9
 trigger10= AnimElem = 10
 trigger11 = AnimElem = 11
 attr = S,SP
-getpower = 0
+getpower = 30,15
 damage = 13 + (5 * var(23)) + (5 * var(11)), 1 + (5 * var(11))
 animtype = Heavy
 guardflag = MA
@@ -1640,7 +1641,7 @@ trigger1 = AnimElem = 3
 attr = S, NA                     
 damage = 40 + (20 * var(23)) + (20 * var(11)), 0 + (20 * var(11))                    
 animtype = Light               
-getpower = 0
+getpower = 60,30
 givepower = 40
 guardflag = MA                   
 hitflag = MA                    
@@ -1679,7 +1680,7 @@ anim = 7001
 type = HitDef
 trigger1 = AnimElem = 1
 attr = S, NA
-getpower = 0
+getpower = 30,15
 givepower = 40
 damage = 13 + (5 * var(23)) + (5 * var(11)), 1 + (5 * var(11))
 animtype = Heavy
@@ -1762,7 +1763,7 @@ trigger1 = AnimElem = 3
 attr = S, NA
 animtype = Medium
 damage = 90 + (45 * var(23)) + (45 * var(11)), 0 + (45 * var(11))   
-getpower = 0
+getpower = 30,15
 givepower = 40
 guardflag = MA
 hitflag = MA
@@ -1879,7 +1880,7 @@ trigger1 = AnimElem = 4
 attr = S, NA
 animtype  = Medium
 damage    = 90 + (45 * var(23)) + (45 * var(11)), 0 + (45 * var(11))  
-getpower = 0
+getpower = 60,30
 givepower = 40
 guardflag = MA
 hitflag = MA
@@ -1942,7 +1943,7 @@ anim = 7002
 type = HitDef
 trigger1 = Animelem = 4
 attr = S, NA
-getpower = 0
+getpower = 30,15
 givepower = 40
 damage = 13 + (5 * var(23)) + (5 * var(11)), 1 + (5 * var(11))
 animtype = Heavy
@@ -2040,7 +2041,7 @@ trigger1 = AnimElem = 3
 attr = S, NA
 animtype  = Hard
 damage    = 150 + (75 * var(23)) + (75 * var(11)), 0 + (75 * var(11))  
-getpower = 0
+getpower = 30,15
 givepower = 40
 guardflag = MA
 hitflag = MA
@@ -2112,7 +2113,7 @@ trigger1 = AnimElem = 3 && var(15) != 1 && var(35) != 1
 attr = S, NA
 animtype  = Hard
 damage    = 150 + (75 * var(23)) + (75 * var(11)), 0 + (75 * var(11))  
-getpower = 0
+getpower = 60,30
 givepower = 40
 guardflag = MA
 hitflag = MA
@@ -2138,7 +2139,7 @@ trigger2 = AnimElem = 3 && var(35) = 1
 attr = S, NA
 animtype  = Hard
 damage    = 150 + (75 * var(23)) + (75 * var(11)), 0 + (75 * var(11))  
-getpower = 0
+getpower = 60,30
 givepower = 40
 guardflag = MA
 hitflag = MA
@@ -2234,7 +2235,7 @@ trigger1 = AnimElem = 4 && var(15) != 1
 attr = S, NA
 animtype  = Hard
 damage    = 160 + (80 * var(23)) + (80 * var(11)), 0 + (80 * var(11))  
-getpower = 0
+getpower = 30,15
 givepower = 40
 guardflag = MA
 hitflag   = MA
@@ -2257,7 +2258,7 @@ trigger1 = AnimElem = 4 && var(15) = 1
 attr = S, NA
 animtype  = Hard
 damage    = 160 + (80 * var(23)) + (80 * var(11)), 0 + (80 * var(11))  
-getpower = 0
+getpower = 30,15
 givepower = 40
 guardflag = MA
 hitflag   = MA
@@ -2350,7 +2351,7 @@ trigger1 = AnimElem = 5
 attr = S, NA
 animtype  = Light
 damage    = 50 + (25 * var(23)) + (25 * var(11)), 0 + (25 * var(11))  
-getpower = 0
+getpower = 30,15
 givepower = 40
 guardflag = MA
 hitflag = MA
@@ -2395,7 +2396,7 @@ time = 10
 type = HitDef
 trigger1 = Animelem = 5
 attr = S, NA
-getpower = 0
+getpower = 30,15
 givepower = 40
 damage = 13 + (5 * var(23)) + (5 * var(11)), 1 + (5 * var(11))
 animtype = Heavy
@@ -2460,7 +2461,7 @@ trigger1 = AnimElem = 2
 attr = S, NA
 animtype  = Medium
 damage    = 40 + (20 * var(23)) + (20 * var(11)), 0 + (20 * var(11))  
-getpower = 0
+getpower = 60,30
 givepower = 40
 guardflag = HA
 hitflag = MAFD
@@ -2500,7 +2501,7 @@ sprpriority = 2
 type = HitDef
 trigger1 = Animelem = 2
 attr = S, NA
-getpower = 0
+getpower = 30,15
 givepower = 40
 damage = 13 + (5 * var(23)) + (5 * var(11)), 1 + (5 * var(11))
 animtype = Heavy
@@ -2589,7 +2590,7 @@ type = HitDef
 trigger1 =  AnimElem = 5
 attr = A, NA
 damage    = 140 + (70 * var(23)) + (70 * var(11)), 0 + (70 * var(11))  
-getpower = 0    
+getpower = 60,30
 givepower = 40
 animtype  = Hard
 hitflag = MA
@@ -2649,7 +2650,7 @@ type = HitDef
 trigger1 = AnimElem = 3
 attr = C, NA
 damage    = 40 + (20 * var(23)) + (20 * var(11)), 0 + (20 * var(11))  
-getpower = 0
+getpower = 30,15
 givepower = 40
 animtype  = Light
 hitflag = MA
@@ -2703,7 +2704,7 @@ trigger1 = AnimElem = 4
 attr = C, NA
 animtype  = Medium
 damage    = 70 + (35 * var(23)) + (35 * var(11)), 0 + (35 * var(11))  
-getpower = 0
+getpower = 30,15
 givepower = 40
 priority = 3, Hit
 hitflag = MA
@@ -2803,7 +2804,7 @@ type = HitDef
 trigger1 = AnimElem = 3
 attr = C, NA
 damage    = 150 + (75 * var(23)) + (75 * var(11)), 0 + (75 * var(11))  
-getpower = 0
+getpower = 30,15
 givepower = 40
 animtype  = Hard
 hitflag = MA
@@ -2886,7 +2887,7 @@ value = 15, 8
 type = HitDef
 trigger1 = Animelem = 3
 attr = C, NA
-getpower = 0
+getpower = 30,15
 givepower = 40
 damage = 17 + (6 * var(23)) + (6 * var(11)), 1 + (6 * var(11))
 animtype = Hard
@@ -2978,7 +2979,7 @@ value = 15, 8
 type = HitDef
 trigger1 = Animelem = 3
 attr = C, NA
-getpower = 0
+getpower = 30,15
 givepower = 40
 damage = 17 + (6 * var(23)) + (6 * var(11)), 1 + (6 * var(11))
 animtype = Hard
@@ -3094,7 +3095,7 @@ type = HitDef
 trigger1 =  AnimElem = 3
 attr = C, NA
 damage    = 30 + (15 * var(23)) + (15 * var(11)), 0 + (15 * var(11))  
-getpower = 0
+getpower = 30,15
 givepower = 40
 animtype  = Light
 guardflag = L
@@ -3134,7 +3135,7 @@ sprpriority = 2
 type = HitDef
 trigger1 = Animelem = 3
 attr = C, NA
-getpower = 0
+getpower = 30,15
 givepower = 40
 damage = 13 + (5 * var(23)) + (5 * var(11)), 1 + (5 * var(11))
 animtype = Hard
@@ -3202,7 +3203,7 @@ type = HitDef
 trigger1 =  AnimElem = 4
 attr = C, NA
 damage    = 50 + (25 * var(23)) + (25 * var(11)), 0 + (25 * var(11))  
-getpower = 0
+getpower = 60,30
 givepower = 40
 animtype  = Light
 hitflag = MA
@@ -3243,7 +3244,7 @@ sprpriority = 2
 type = HitDef
 trigger1 = Animelem = 4
 attr = C, NA
-getpower = 0
+getpower = 30,15
 givepower = 40
 damage = 13 + (5 * var(23)) + (5 * var(11)), 1 + (5 * var(11))
 animtype = Heavy
@@ -3330,7 +3331,7 @@ type = HitDef
 trigger1 = AnimElem = 2
 attr = A, NA
 damage    = 70 + (35 * var(23)) + (35 * var(11)), 0 + (35 * var(11))  
-getpower = 0
+getpower = 30,15
 givepower = 40
 animtype  = Hard
 hitflag = MA
@@ -3394,7 +3395,7 @@ type = HitDef
 trigger1 =  AnimElem = 5
 attr = A, NA
 damage    = 80 + (40 * var(23)) + (40 * var(11)), 0 + (40 * var(11))  
-getpower = 0    
+getpower = 30,15
 givepower = 40
 animtype  = Hard
 hitflag = MA
@@ -3461,7 +3462,7 @@ type = HitDef
 trigger1 = AnimElem = 2
 attr = A, NA
 damage = 150 + (75 * var(23)) + (75 * var(11)), 0 + (75 * var(11))  
-getpower = 0
+getpower = 30,15
 givepower = 40
 hitflag = MA
 guardflag = HA
@@ -3538,7 +3539,7 @@ type = HitDef
 trigger1 = AnimElem = 3
 attr = A, NA
 damage = 30 + (15 * var(23)) + (15 * var(11)), 0 + (15 * var(11))  
-getpower = 0
+getpower = 30,15
 givepower = 40
 hitflag = MA
 guardflag = HA
@@ -3580,7 +3581,7 @@ type = HitDef
 trigger1 = AnimElem = 2
 attr = A, NA
 damage    = 50 + (25 * var(23)) + (25 * var(11)), 0 + (25 * var(11))  
-getpower = 0
+getpower = 30,15
 givepower = 40
 animtype  = Light
 hitflag = MA
@@ -3626,7 +3627,7 @@ type = HitDef
 trigger1 = AnimElem = 3
 attr = A, NA
 damage    = 90 + (45 * var(23)) + (45 * var(11)), 0 + (45 * var(11))  
-getpower = 0
+getpower = 30,15
 givepower = 40
 animtype  = Hard
 hitflag = MA
@@ -3779,7 +3780,7 @@ type = HitDef
 trigger1 =  Time = 0
 attr = A, NA
 damage    = 80 + (40 * var(23)) + (40 * var(11)), 0 + (40 * var(11))  
-getpower = 0    
+getpower = 60,30
 givepower = 40
 animtype  = Hard
 hitflag = MADF
@@ -4212,7 +4213,7 @@ trigger1 = AnimElem = 2
 attr = S, NT
 animtype  = Heavy
 damage    = 0
-getpower = 0
+getpower = 60,30
 givepower = 0
 guardflag =
 hitflag = M-
@@ -4312,7 +4313,7 @@ trigger1 = AnimElem = 2
 attr = S, NT
 animtype  = Heavy
 damage    = 0
-getpower = 0
+getpower = 30,15
 givepower = 0
 guardflag = 
 hitflag = M-
@@ -4410,7 +4411,7 @@ trigger1 = AnimElem = 2
 attr = S, NT
 animtype  = Heavy
 damage    = 0
-getpower = 0
+getpower = 30,15
 givepower = 0
 guardflag = 
 hitflag = MA
@@ -4468,7 +4469,7 @@ sprpriority = 2
 type = HitDef
 trigger1 = Animelem = 3
 attr = S, NA
-getpower = 0
+getpower = 30,15
 givepower = 40
 damage = 17 + (6 * var(23)) + (6 * var(11)), 1 + (6 * var(11))
 animtype = Hard
@@ -4549,7 +4550,7 @@ poweradd = 0
 type = HitDef
 trigger1 = AnimElem = 4
 attr = S, NA
-getpower = 0
+getpower = 15,7
 givepower = 40
 damage = 17 + (6 * var(23)) + (6 * var(11)), 1 + (6 * var(11))
 animtype = Heavy
@@ -4630,7 +4631,7 @@ poweradd = 0
 type = HitDef
 trigger1 = AnimElem = 1
 attr = S, NA
-getpower = 0
+getpower = 15,7
 givepower = 40
 damage = 17 + (6 * var(23)) + (6 * var(11)), 1 + (6 * var(11))
 animtype = Heavy
@@ -4684,7 +4685,7 @@ facep2 = 1
 type = HitDef
 trigger1 = AnimElem = 3
 attr = S, NA
-getpower = 0
+getpower = 30,15
 givepower = 40
 damage = 17 + (6 * var(23)) + (6 * var(11)), 1 + (6 * var(11))
 animtype = DiagUp
@@ -4739,6 +4740,7 @@ ctrl = 1
 ;Fire Ball Master Arts 
 [Statedef 970]
 type    = S                     
+poweradd = 20
 movetype= A                     
 physics = S                   
 juggle  = 15                     
@@ -4768,7 +4770,7 @@ accel = 0, 0
 attr = S, HP
 animtype  = Heavy
 damage = 90 + (45 * var(23)) + (45 * var(11)), 45 + (45 * var(11))
-getpower = 1000
+getpower = 30,15
 givepower = 100
 guardflag = MA
 hitflag = MA
@@ -5229,7 +5231,7 @@ poweradd = 0
 type = HitDef
 trigger1 = AnimElem = 4
 attr = S, NA
-getpower = 0
+getpower = 15,7
 givepower = 40
 damage = 17 + (6 * var(23)) + (6 * var(11)), 1 + (6 * var(11))
 animtype = Heavy
@@ -5310,7 +5312,7 @@ poweradd = 0
 type = HitDef
 trigger1 = AnimElem = 1
 attr = S, NA
-getpower = 0
+getpower = 15,7
 givepower = 40
 damage = 13, 1
 animtype = Diagup

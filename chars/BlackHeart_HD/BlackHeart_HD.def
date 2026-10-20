@@ -11,6 +11,7 @@ author="BlackHeart" ; Filtered by bajm.
 
 ; Files for the player
 [Files]
+movelist = movelist.dat
 ;cmd     =MVC2_BlackHeart_Hard.cmd
 cmd     =MVC2_BlackHeart_Medium.cmd
 ;cmd     =MVC2_BlackHeart_Easy.cmd

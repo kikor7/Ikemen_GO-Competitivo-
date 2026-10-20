@@ -1,0 +1,22 @@
+<#f0f000>:Special Moves:</>
+cmt1			_QCB^Z
+tum w			_DSF^A
+tum m			_DSF^B
+tum s			_DSF^C
+qu w			_QCF^A
+qu m			_QCF^B
+qu s			_QCF^C
+qu w			_QCB^A
+qu m			_QCB^B
+qu s			_QCB^C
+qu w			_D_D^A
+qu m			_D_D^B
+qu s			_D_D^C
+qu s			_D_D^Z
+qu s			_D_D^Y
+dex ground			^A_+^B
+
+<#f0f000>:Hyper Moves:</>
+sp1 <#f00000>(1000)</>			_QCB_DB_D_F^A
+sp2 <#f00000>(1000)</>			_QCB_DB_D_F^B
+sp3 <#f00000>(3000)</>			_QCB_DB_D_F^C

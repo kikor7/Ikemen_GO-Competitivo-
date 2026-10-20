@@ -593,7 +593,7 @@ ground.type = low
 hitflag = MAFD
 guardflag= MA
 damage= 80 ,10
-getpower= 30,10
+getpower = 30,15
 pausetime= 6, 15
 guard.pausetime = 0,16
 projID = 6279
@@ -742,7 +742,7 @@ ground.type = low
 hitflag = MAFD
 guardflag= MA
 damage= ceil(465*1000/9500) ,ceil(116.25*1000/9500)
-getpower= 0,10
+getpower = 30,15
 pausetime= 17, 26
 guard.pausetime = 25,16
 projID = 6288
@@ -1287,7 +1287,7 @@ palfx.time = ceil((enemynear,movetype=A)*9)
 palfx.add = 100,-50,-50
 kill=1
 fall = 0
-getpower = random%20+70,random%20
+getpower = 5,2
 ;======================================
 ground.slidetime = ceil(18-1+(enemynear,statetype=C)*2+(enemynear,movetype=A)*4-cond(var(4)<9,var(4),9))
 ground.hittime  = ceil(18-1+(enemynear,statetype=C)*2+(enemynear,movetype=A)*4-cond(var(4)<9,var(4),9))
@@ -1331,7 +1331,7 @@ palfx.time = ceil((enemynear,movetype=A)*9)
 palfx.add = 100,-50,-50
 kill=1
 fall = 0
-getpower = random%20+70,random%20
+getpower = 5,2
 ;======================================
 ground.slidetime = ceil(18-1+(enemynear,statetype=C)*2+(enemynear,movetype=A)*4-cond(var(4)<9,var(4),9))
 ground.hittime  = ceil(18-1+(enemynear,statetype=C)*2+(enemynear,movetype=A)*4-cond(var(4)<9,var(4),9))
@@ -1375,7 +1375,7 @@ palfx.time = ceil((enemynear,movetype=A)*9)
 palfx.add = 100,-50,-50
 kill=1
 fall = 0
-getpower = random%20+70,random%20
+getpower = 5,2
 ;======================================
 ground.slidetime = ceil(18-1+(enemynear,statetype=C)*2+(enemynear,movetype=A)*4-cond(var(4)<9,var(4),9))
 ground.hittime  = ceil(18-1+(enemynear,statetype=C)*2+(enemynear,movetype=A)*4-cond(var(4)<9,var(4),9))
@@ -1800,7 +1800,7 @@ fall.envshake.ampl = 4
 palfx.time = ceil((enemynear,movetype=A)*9)
 palfx.add = 100,-50,-50
 kill=1
-getpower = random%20+70,random%20
+getpower = 15,7
 ;======================================
 ground.slidetime = ceil(18-1+(enemynear,statetype=C)*2+(enemynear,movetype=A)*4-cond(var(4)<9,var(4),9))
 ground.hittime  = ceil(18-1+(enemynear,statetype=C)*2+(enemynear,movetype=A)*4-cond(var(4)<9,var(4),9))
@@ -1846,7 +1846,7 @@ fall.envshake.ampl = 4
 palfx.time = ceil((enemynear,movetype=A)*9)
 palfx.add = 100,-50,-50
 kill=1
-getpower = random%20+70,random%20
+getpower = 15,7
 ;======================================
 ground.slidetime = ceil(18-1+(enemynear,statetype=C)*2+(enemynear,movetype=A)*4-cond(var(4)<9,var(4),9))
 ground.hittime  = ceil(18-1+(enemynear,statetype=C)*2+(enemynear,movetype=A)*4-cond(var(4)<9,var(4),9))
@@ -1951,7 +1951,7 @@ fall.envshake.ampl = 4
 palfx.time = ceil((enemynear,movetype=A)*9)
 palfx.add = 100,-50,-50
 kill=1
-getpower = random%20+70,random%20
+getpower = 15,7
 ;======================================
 ground.slidetime = ceil(18-1+(enemynear,statetype=C)*2+(enemynear,movetype=A)*4-cond(var(4)<9,var(4),9))
 ground.hittime  = ceil(18-1+(enemynear,statetype=C)*2+(enemynear,movetype=A)*4-cond(var(4)<9,var(4),9))

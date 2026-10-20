@@ -12,6 +12,7 @@ Pal.Defaults = 2,3,4,5,6,1
 ;-----------------------------------------------------------
 
 [Files]
+movelist = movelist.dat
 Cmd      = Geisya.cmd
 Cns      = Geisya.cns
 St       = Geisya.cns

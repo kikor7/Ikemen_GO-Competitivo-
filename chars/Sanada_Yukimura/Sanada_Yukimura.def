@@ -9,6 +9,7 @@ Pal.Defaults = 4,5,1,2
 
 
 [Files]
+movelist = movelist.dat
 Cmd      = Yukimura.cmd
 Cns      = Yukimura.cns
 St       = Yukimura.cns

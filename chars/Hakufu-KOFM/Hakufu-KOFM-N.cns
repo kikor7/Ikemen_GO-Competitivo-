@@ -21,6 +21,7 @@ type = HitDef
 trigger1 = time = 0
 attr = S, NA
 damage = 23, 0
+getpower = 30,15
 animtype = Light
 guardflag = MA
 hitflag = MAF
@@ -75,6 +76,7 @@ type = HitDef
 trigger1 = time = 0
 attr = S, NA
 damage = 57, 0
+getpower = 30,15
 animtype = Hard
 guardflag = MA
 hitflag = MAF
@@ -130,6 +132,7 @@ type = HitDef
 trigger1 = time = 0
 attr = S, NA
 damage = 58, 0
+getpower = 30,15
 animtype = Hard
 guardflag = MA
 hitflag = MAF
@@ -186,6 +189,7 @@ trigger1 = time = 0
 attr = S, NA
 animtype  = Medium
 damage    = 26
+getpower = 30,15
 guardflag = MA
 pausetime = 9,10
 sparkno = s4000
@@ -236,6 +240,7 @@ trigger1 = time = 0
 attr = S, NA
 animtype  = Medium
 damage    = 26
+getpower = 30,15
 guardflag = L
 pausetime = 9,10
 sparkno = s4000
@@ -286,6 +291,7 @@ trigger1 = Time = 0
 attr = S, NA
 animtype  = Hard
 damage    = 59
+getpower = 30,15
 guardflag = MA
 pausetime = 10,11
 sparkno = s4010
@@ -336,6 +342,7 @@ trigger1 = time = 0
 attr = S, NA
 animtype  = Hard
 damage    = 60
+getpower = 30,15
 guardflag = MA
 pausetime = 10,11
 sparkno = s4010
@@ -388,6 +395,7 @@ type = HitDef
 trigger1 = time = 0
 attr = C, NA
 damage    = 23
+getpower = 30,15
 priority  = 3
 animtype  = Light
 hitflag = MAF
@@ -439,6 +447,7 @@ type = HitDef
 trigger1 = time = 0
 attr = S, NA
 damage = 57, 0
+getpower = 30,15
 animtype = Hard
 guardflag = MA
 hitflag = MAF
@@ -493,6 +502,7 @@ type = HitDef
 trigger1 = Time = 0
 attr = C, NA
 damage    = 28
+getpower = 30,15
 animtype  = Light
 hitflag = MAF
 guardflag = L
@@ -554,6 +564,7 @@ type = HitDef
 trigger1 = Time = 0
 attr = C, NA
 damage    = 64
+getpower = 30,15
 hitflag = MAF
 guardflag = L
 pausetime = 10,11
@@ -605,6 +616,7 @@ type = HitDef
 trigger1 = Time = 0
 attr = A, NA
 damage    = 20
+getpower = 30,15
 guardflag = HA
 priority = 3
 pausetime = 8,9
@@ -647,6 +659,7 @@ type = HitDef
 trigger1 = Time = 0
 attr = A, NA
 damage = 72
+getpower = 30,15
 guardflag = HA
 priority = 4
 pausetime = 13,13
@@ -690,6 +703,7 @@ type = HitDef
 trigger1 = Time = 0
 attr = A, NA
 damage = 26
+getpower = 30,15
 guardflag = HA
 priority = 3
 pausetime = 9,10
@@ -732,6 +746,7 @@ type = HitDef
 trigger1 = Time = 0
 attr = A, NA
 damage = 26
+getpower = 30,15
 guardflag = HA
 priority = 5
 pausetime = 9,10
@@ -774,6 +789,7 @@ type = HitDef
 trigger1 = Time = 0
 attr = A, NA
 damage = 70
+getpower = 30,15
 guardflag = HA
 priority = 4
 pausetime = 12,13
@@ -817,6 +833,7 @@ type = HitDef
 trigger1 = Time = 0
 attr = A, NA
 damage    = 70
+getpower = 30,15
 guardflag = HA
 priority = 4
 pausetime = 12,13
@@ -870,6 +887,7 @@ type = HitDef
 trigger1 = time = 0
 attr = S, NA
 damage = 25, 0
+getpower = 30,15
 animtype = Hard
 guardflag = H
 hitflag = MAF
@@ -927,6 +945,7 @@ sprpriority = 2
 
 [State 800, ヒット定義（投げ用）]
 type = HitDef
+getpower = 60,30
 trigger1 = Time = 0
 attr = S, NT
 hitflag = M-

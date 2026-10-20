@@ -9,6 +9,7 @@
 ;s3100  ‚Ü‚¸•â‘«–î‚ð‚Í‚È‚Â
 [Statedef 3100]
 type    = S
+poweradd = 20
 movetype= A
 physics = S
 velset = 0,0
@@ -228,6 +229,7 @@ ctrl = 1
 ;s3200   
 [Statedef 3200]
 type    = S
+poweradd = 20
 movetype= A
 physics = S
 velset = 0,0

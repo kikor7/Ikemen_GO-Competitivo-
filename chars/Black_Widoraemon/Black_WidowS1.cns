@@ -631,7 +631,7 @@ type     = U
 movetype = A
 physics  = U
 anim = 3000
-poweradd = 100
+poweradd = 0
 ctrl = 0
 velset = 0,0
 
@@ -789,7 +789,7 @@ type     = U
 movetype = A
 physics  = U
 anim = 3010
-poweradd = 100
+poweradd = 0
 ctrl = 0
 velset = 0,0
 
@@ -939,7 +939,7 @@ type     = U
 movetype = A
 physics  = U
 anim = 3000
-poweradd = 100
+poweradd = 0
 ctrl = 0
 velset = 0,0
 
@@ -3059,7 +3059,7 @@ type     = U
 movetype = A
 physics  = U
 anim     = 4010
-poweradd = 60
+poweradd = 0
 sprpriority = -1
 velset = 0,0
 

@@ -1651,7 +1651,7 @@ trigger1 = AnimElem = 4      ;攻撃判定ボックスがあればアニメーション３番目のコマ
 attr = S, NA                 ;攻撃属性: これは Standing, Normal Attack（立ち通常攻撃）、重要項目です
 damage = ceil((17-6*var(13))*fvar(0)), 1               ;相手に与えるダメージ（ヒットした時,ガードされた時）
 animtype = Light             ;当たった時の相手のアニメの種類: Light, Medium, Hard, Back, Up, DiagUp
-getpower = ceil(-(50-17*var(13))*(var(8)-1)*fvar(1)), 14
+getpower = 6,3
 guardflag = MA               ;相手が立ち・しゃがみ・空中どのガードが出来るかを決めます（MiddleAir 全部ガードされます）
 hitflag = MAF                ;相手がどの状態の時で攻撃を当てられるかを決めます（MiddleAirFall）
 priority = 3         	     ;攻撃優先度: 0 (最低) 7 (最高) 4がデフォルト・種類はHit/Miss/Dodge (デフォルト：Hit)
@@ -1765,7 +1765,7 @@ trigger1 = AnimElem = 4      ;攻撃判定ボックスがあればアニメーション３番目のコマ
 attr = S, NA                 ;攻撃属性: これは Standing, Normal Attack（立ち通常攻撃）、重要項目です
 damage = ceil((17-6*var(13))*fvar(0)), 1               ;相手に与えるダメージ（ヒットした時,ガードされた時）
 animtype = Light             ;当たった時の相手のアニメの種類: Light, Medium, Hard, Back, Up, DiagUp
-getpower = ceil(-(50-17*var(13))*(var(8)-1)*fvar(1)), 14
+getpower = 6,3
 guardflag = MA               ;相手が立ち・しゃがみ・空中どのガードが出来るかを決めます（MiddleAir 全部ガードされます）
 hitflag = MAF                ;相手がどの状態の時で攻撃を当てられるかを決めます（MiddleAirFall）
 priority = 3         	     ;攻撃優先度: 0 (最低) 7 (最高) 4がデフォルト・種類はHit/Miss/Dodge (デフォルト：Hit)
@@ -1878,7 +1878,7 @@ trigger1 = AnimElem = 4      ;攻撃判定ボックスがあればアニメーション３番目のコマ
 attr = S, NA                 ;攻撃属性: これは Standing, Normal Attack（立ち通常攻撃）、重要項目です
 damage = ceil((17-6*var(13))*fvar(0)), 1               ;相手に与えるダメージ（ヒットした時,ガードされた時）
 animtype = Light             ;当たった時の相手のアニメの種類: Light, Medium, Hard, Back, Up, DiagUp
-getpower = ceil(-(50-17*var(13))*(var(8)-1)*fvar(1)), 14
+getpower = 6,3
 guardflag = MA               ;相手が立ち・しゃがみ・空中どのガードが出来るかを決めます（MiddleAir 全部ガードされます）
 hitflag = MAF                ;相手がどの状態の時で攻撃を当てられるかを決めます（MiddleAirFall）
 priority = 3         	     ;攻撃優先度: 0 (最低) 7 (最高) 4がデフォルト・種類はHit/Miss/Dodge (デフォルト：Hit)
@@ -2024,7 +2024,7 @@ trigger1 = anim = 211+var(8)+12000*var(12)
 attr = S, NA
 animtype  = Medium
 damage    = ceil((34-11*var(13))*fvar(0)), 2
-getpower  = ceil(-(80-26*var(13))*(var(8)-1)*fvar(1)), 20
+getpower = 15,7
 guardflag = MA
 priority  = 4
 pausetime = 14,14
@@ -2122,7 +2122,7 @@ trigger2 = AnimElem = 4
 attr = S, NA
 animtype  = hard
 damage    = ceil((50-16*var(13))*fvar(0)), 2
-getpower  = ceil(-(120-40*var(13))*(var(8)-1)*fvar(1)), 20
+getpower = 15,7
 guardflag = MA
 priority  = 4
 pausetime = 15,15
@@ -2220,7 +2220,7 @@ trigger1 = AnimElem = 4
 attr = S, NA
 animtype  = Medium
 damage    = ceil((34-11*var(13))*fvar(0)), 2
-getpower  = ceil(-(80-26*var(13))*(var(8)-1)*fvar(1)), 20
+getpower = 60,30
 guardflag = MA
 priority  = 4
 pausetime = 10,10
@@ -2319,7 +2319,7 @@ trigger1 = AnimElem = 2
 attr = S, NA
 animtype  = Medium
 damage    = ceil((34-11*var(13))*fvar(0)), 2
-getpower  = ceil(-(80-26*var(13))*(var(8)-1)*fvar(1)), 20
+getpower = 6,3
 guardflag = MA
 priority  = 4
 pausetime = 14,14
@@ -2414,7 +2414,7 @@ trigger1 = anim = 220+var(8)+var(12)*12000
 attr = S, NA
 animtype  = Hard
 damage    = ceil((50-16*var(13))*fvar(0)), 3
-getpower  = ceil(-(120-40*var(13))*(var(8)-1)*fvar(1)), 30
+getpower = 30,15
 HitFlag   = MAF
 guardflag = MA
 priority  = 2
@@ -2527,7 +2527,7 @@ trigger1 = anim = 221+var(8)+var(12)*12000
 attr = S, NA
 animtype  = Hard
 damage    = ceil((80-27*var(13))*fvar(0)), 3
-getpower  = ceil(-(200-66*var(13))*(var(8)-1)*fvar(1)), 30
+getpower = 30,15
 HitFlag   = MAF
 guardflag = HA
 priority  = 2
@@ -2612,7 +2612,7 @@ trigger1 = anim = 220+var(8)+var(12)*12000
 attr = S, NA
 animtype  = Hard
 damage    = ceil((50-16*var(13))*fvar(0)), 3
-getpower  = ceil(-(120-40*var(13))*(var(8)-1)*fvar(1)), 30
+getpower = 6,3
 HitFlag   = MAF
 guardflag = MA
 priority  = 2
@@ -2712,7 +2712,7 @@ trigger1 = AnimElem = 4
 attr = C, NA
 animtype  = Hard
 damage    = ceil((50-17*var(13))*fvar(0)), 3
-getpower  = ceil(-(120-40*var(13))*(var(8)-1)*fvar(1)), 30
+getpower = 30,15
 hitflag = MAFD
 guardflag = HA
 pausetime = 12,12
@@ -2811,7 +2811,7 @@ type = HitDef
 trigger1 = AnimElem = 3
 attr = C, NA
 damage    = ceil((17-6*var(13))*fvar(0)), 1
-getpower = ceil(-(50-17*var(13))*fvar(1)*(var(8)-1)), 14
+getpower = 12,6
 priority  = 2
 animtype  = Light
 hitflag = MAF
@@ -2905,7 +2905,7 @@ type = HitDef
 trigger1 = AnimElem = 3
 attr = C, NA
 damage    = ceil((17-6*var(13))*fvar(0)), 1
-getpower = ceil(-(50-17*var(13))*fvar(1)*(var(8)-1)), 14
+getpower = 12,6
 priority  = 2
 animtype  = Light
 hitflag = MAF
@@ -2999,7 +2999,7 @@ type = HitDef
 trigger1 = AnimElem = 3
 attr = C, NA
 damage    = ceil((17-6*var(13))*fvar(0)), 1
-getpower = ceil(-(50-17*var(13))*fvar(1)*(var(8)-1)), 14
+getpower = 12,6
 priority  = 2
 animtype  = Light
 hitflag = MAF
@@ -3097,7 +3097,7 @@ triggerall = anim = 410+var(8)+12000*var(12)
 trigger1 = AnimElem = 3
 attr = C, NA
 damage    = ceil((34-11*var(13))*fvar(0)), 2
-getpower  = ceil(-(80-27*var(13))*fvar(1)*(var(8)-1)),20 
+getpower = 15,7
 animtype  = Medium
 hitflag = MAF
 guardflag = L
@@ -3198,7 +3198,7 @@ attr = C, NA
 animtype  = Hard
 damage    = ceil((50-16*var(13))*fvar(0)), 3
 hitflag = MAFD
-getpower  = ceil(-(120-40*var(13))*fvar(1)*(var(8)-1)), 30
+getpower = 15,7
 guardflag = L
 pausetime = 15,15
 sparkno = s800009
@@ -3256,7 +3256,7 @@ triggerall = anim = 410+var(8)+12000*var(12)
 trigger1 = AnimElem = 3
 attr = C, NA
 damage    = ceil((34-11*var(13))*fvar(0)), 2
-getpower  = ceil(-(80-27*var(13))*fvar(1)*(var(8)-1)),20
+getpower = 12,6
 animtype  = Medium
 hitflag = MAF
 guardflag = L
@@ -3362,7 +3362,7 @@ trigger2 = AnimElem = 6
 attr = S, NA
 animtype  = Hard
 damage    = ceil((50-17*var(13))*fvar(0)), 3
-getpower  = ceil(-(120-40*var(13))*(var(8)-1)*fvar(1)), 30
+getpower = 30,15
 HitFlag   = MAF
 guardflag = MA
 priority  = 2
@@ -3499,7 +3499,7 @@ trigger2 = AnimElem = 6
 attr = S, NA
 animtype  = Hard
 damage    = ceil((50-17*var(13))*fvar(0)), 3
-getpower  = ceil(-(120-40*var(13))*(var(8)-1)*fvar(1)), 30
+getpower = 12,6
 HitFlag   = MAF
 guardflag = MA
 priority  = 2
@@ -3712,7 +3712,7 @@ persistent = 0
 trigger1 = AnimElem = 2
 attr = A, NA
 damage = ceil((20-7*var(13))*fvar(0)),1
-getpower =ceil(-(50-17*var(13))*(var(8)-1)*fvar(1)),14
+getpower = 30,15
 guardflag = HA
 hitflag = MAF
 priority = 4, Hit
@@ -3823,7 +3823,7 @@ trigger1 = AnimElem = 3
 trigger1 = var(3) = 0
 attr = A, NA
 damage = ceil((40-16*var(13))*fvar(0)),2
-getpower = ceil(-(80-27*var(13))*(var(8)-1)*fvar(1)),20
+getpower = 15,7
 guardflag = HA
 hitflag = MAF
 priority = 4, Hit
@@ -3851,7 +3851,7 @@ trigger1 = AnimElem = 4
 trigger1 = var(3) = 0
 attr = A, NA
 damage = ceil((20-7*var(13))*fvar(0)),1
-getpower = ceil(-(40-17*var(13))*(var(8)-1)*fvar(1)),14
+getpower = 15,7
 guardflag = HA
 hitflag = MAF
 priority = 4, Hit
@@ -3950,7 +3950,7 @@ trigger1 = AnimElem = 6
 attr = A, NA
 animtype = Hard
 damage = ceil((60-20*var(13))*fvar(0)), 3
-getpower = ceil(-(120-40*var(13))*fvar(1)*(var(8)-1)), 30
+getpower = 30,15
 guardflag = HA
 priority = 4
 pausetime = 12,12
@@ -4052,7 +4052,7 @@ trigger1 = AnimElem = 3
 attr = S, NA
 animtype  = Medium
 damage    = ceil((80-23*var(13))*fvar(0)), 3
-getpower  = ceil(-(140-43*var(13))*fvar(1)*(var(8)-1)), 30
+getpower = 60,30
 guardflag = MA
 priority  = 7
 pausetime = 10,10
@@ -7103,7 +7103,7 @@ trigger1 = animelem = 1
 attr = S, NA
 animtype  = Medium
 damage    = ceil((44-16*var(13))*fvar(0)), 2
-getpower  = ceil((90-30*var(13))*fvar(1)), 30
+getpower = 60,30
 guardflag = MA
 priority  = 4
 pausetime = 12,12
@@ -7282,7 +7282,7 @@ trigger1 = animelem = 1
 attr = S, NA
 animtype  = Medium
 damage    = ceil((44-16*var(13))*fvar(0)), 2
-getpower  = ceil((90-30*var(13))*fvar(1)), 30
+getpower = 60,30
 guardflag = MA
 priority  = 4
 pausetime = 12,12
@@ -7662,7 +7662,7 @@ trigger1 = var(3) = 0
 attr = S, NA
 animtype  = Medium
 damage    = ceil((60-20*var(13))*fvar(0)), 2
-getpower  = ceil(-(100-33*var(13))*(var(8)-1)*fvar(1)), 20
+getpower = 60,30
 guardflag = MA
 hitflag = MAFD
 priority  = 4
@@ -7800,7 +7800,7 @@ trigger1 = var(3) = 0
 attr = S, NA
 animtype  = Medium
 damage    = ceil((90-30*var(13))*fvar(0)), 2
-getpower  = ceil(-(150-40*var(13))*(var(8)-1)*fvar(1)), 20
+getpower = 60,30
 guardflag = MA
 hitflag = MAFD
 priority  = 4
@@ -7938,7 +7938,7 @@ trigger1 = var(3) = 0
 attr = S, NA
 animtype  = Medium
 damage    = ceil((90-30*var(13))*fvar(0)), 2
-getpower  = ceil(-(150-40*var(13))*(var(8)-1)*fvar(1)), 20
+getpower = 30,15
 guardflag = MA
 hitflag = MAFD
 priority  = 4
@@ -8516,7 +8516,7 @@ physics = A
 anim = 1200
 velset = 0,0
 ctrl = 0
-poweradd = 0
+poweradd = 20
 juggle = 2
 sprpriority = 2
 
@@ -8939,7 +8939,7 @@ attr = S, NA
 animtype  = Medium
 hitflag = AF
 damage    = ceil(60*parent,fvar(5)*parent,fvar(0)), 2
-getpower  = 0, 0
+getpower = 30,15
 priority  = 4
 pausetime = 0,0
 sparkno = s1204  
@@ -9039,6 +9039,7 @@ value = 10, 0
 
 [State 800, 1]
 type = HitDef
+getpower = 60,30
 ;trigger1 = command = "holdfwd" || command = "holdback"
 trigger1 = AnimElem = 4
 trigger1 = P2MoveType != H
@@ -9309,6 +9310,7 @@ value = 10, 0
 
 [State 800, 1]
 type = HitDef
+getpower = 60,30
 ;trigger1 = command = "holdfwd" || command = "holdback"
 trigger1 = AnimElem = 4
 trigger1 = P2MoveType != H
@@ -10683,6 +10685,7 @@ channel = 2
 
 [State 800, 1]
 type = HitDef
+getpower = 60,30
 ;trigger1 = command = "holdfwd" || command = "holdback"
 trigger1 = AnimElem = 5
 attr = S, NT

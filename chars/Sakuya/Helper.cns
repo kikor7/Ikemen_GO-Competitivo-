@@ -722,7 +722,7 @@ Airguard.CornerPush.VelOff = 0
 Fall                       = 1
 Fall.RecoverTime           = IfElse(Ceil(40*Root,FVar(20)) <= 15, 15, Ceil(40*Root,FVar(20)))
 Guard.Kill                 = 0
-GetPower                   = 40,20
+getpower = 30,15
 Hitonce                    = 1
 NumHits                    = 0
 
@@ -873,6 +873,7 @@ Value    = ATan (Vel Y / Vel X) * (-180.0 / Pi)
 
 [State 241,~‰¹—p~]
 Type                       = Projectile
+getpower = 15,7
 TriggerAll                 = Var(0) = 0
 Trigger1                   = Vel Y >= 0 && Pos Y >= 0 || Vel Y <= 0 && ScreenPos Y <= 10
 Trigger2                   = FrontEdgeBodyDist <= 0 || BackEdgeBodyDist <= 0
@@ -924,7 +925,7 @@ Airguard.CornerPush.VelOff = 0
 Air.Fall                   = 1
 Fall.RecoverTime           = IfElse(Ceil(35*Root,FVar(20)) <= 15, 15, Ceil(35*Root,FVar(20)))
 Guard.Kill                 = 0
-GetPower                   = 40,20
+getpower = 15,7
 Hitonce                    = 1
 NumHits                    = 0
 SprPriority                = 3
@@ -956,7 +957,7 @@ Airguard.CornerPush.VelOff = 0
 Air.Fall                   = 1
 Fall.RecoverTime           = IfElse(Ceil(35*Root,FVar(20)) <= 15, 15, Ceil(35*Root,FVar(20)))
 Guard.Kill                 = 0
-GetPower                   = 40,20
+getpower = 15,7
 Hitonce                    = 1
 NumHits                    = 0
 SprPriority                = 3
@@ -1145,7 +1146,7 @@ Airguard.CornerPush.VelOff = 0
 Air.Fall                   = 1
 Fall.RecoverTime           = IfElse(Ceil(25*Root,FVar(20)) <= 15, 15, Ceil(25*Root,FVar(20)))
 Guard.Kill                 = 0
-GetPower                   = 20,10
+getpower = 30,15
 Hitonce                    = 1
 NumHits                    = 0
 
@@ -1463,7 +1464,7 @@ Airguard.CornerPush.VelOff = 0
 Air.Fall                   = 1
 Fall.RecoverTime           = IfElse(Ceil(40*Root,FVar(20)) <= 15, 15, Ceil(40*Root,FVar(20)))
 Guard.Kill                 = 0
-GetPower                   = 40,20
+getpower = 30,15
 Hitonce                    = 1
 NumHits                    = 0
 SprPriority                = 3
@@ -1606,7 +1607,7 @@ Airguard.CornerPush.VelOff = 0
 Air.Fall                   = 1
 Fall.RecoverTime           = IfElse(Ceil(15*Root,FVar(20)) <= 15, 15, Ceil(15*Root,FVar(20)))
 Guard.Kill                 = 0
-GetPower                   = 40,20
+getpower = 30,15
 Hitonce                    = 1
 NumHits                    = 0
 SprPriority                = 3
@@ -1895,6 +1896,7 @@ Value    = ATan (Vel Y / Vel X) * (-180.0 / Pi) - 180
 
 [State 1031,~‰¹—p~]
 Type                       = Projectile
+getpower = 15,7
 TriggerAll                 = Var(0) = 0
 Trigger1                   = Vel Y <= -0.00001 && ScreenPos Y <= 10
 Trigger2                   = Vel X >= 0.00001 && FrontEdgeBodyDist <= -10 || Vel X <= -0.00001 && BackEdgeBodyDist <= 0
@@ -1945,7 +1947,7 @@ Airguard.CornerPush.VelOff = 0
 Air.Fall                   = 1
 Fall.RecoverTime           = IfElse(Ceil(35*Root,FVar(20)) <= 15, 15, Ceil(35*Root,FVar(20)))
 Guard.Kill                 = 0
-GetPower                   = 40,20
+getpower = 15,7
 Hitonce                    = 1
 NumHits                    = 0
 SprPriority                = 3
@@ -1977,7 +1979,7 @@ Airguard.CornerPush.VelOff = 0
 Air.Fall                   = 1
 Fall.RecoverTime           = IfElse(Ceil(35*Root,FVar(20)) <= 15, 15, Ceil(35*Root,FVar(20)))
 Guard.Kill                 = 0
-GetPower                   = 40,20
+getpower = 15,7
 Hitonce                    = 1
 NumHits                    = 0
 SprPriority                = 3
@@ -3193,7 +3195,7 @@ Airguard.CornerPush.VelOff = 0
 Fall                       = 1
 Fall.RecoverTime           = IfElse(Ceil(40*Root,FVar(20)) <= 15, 15, Ceil(40*Root,FVar(20)))
 Guard.Kill                 = 0
-GetPower                   = 0,0
+getpower = 30,15
 Hitonce                    = 1
 NumHits                    = 0
 

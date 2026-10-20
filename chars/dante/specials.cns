@@ -8,7 +8,7 @@ juggle  = 1
 velset = 0,0
 ctrl = 0
 anim = 701
-poweradd = 100
+poweradd = 0
 sprpriority = 2
 
 [state 701,1]
@@ -55,6 +55,7 @@ type = HitDef
 trigger1 = AnimElem = 2 || Animelem = 4
 attr = S, NA
 damage = 100, 5
+getpower = 60,30
 animtype = hard
 guard.sparkno = 1
 guardflag = MA
@@ -380,6 +381,7 @@ ID = 1003
 ; スタンエッジ　プロトタイプ
 [Statedef 1020]
 type    = S
+poweradd = 20
 movetype = A
 physics = N
 Anim = 1020
@@ -636,7 +638,7 @@ palfx.add         = -100,0,256
 palfx.sinadd      = 110,100,200,15
 palfx.color       = 256
 palfx.invertall   = 1
-getpower = 23,23
+getpower = 30,15
 givepower = 0,0
 p2facing = 1
 
@@ -886,6 +888,7 @@ trigger1 = animelem = 3
 attr = S, SA
 animtype  = medium
 damage    = 123,6
+getpower = 60,30
 guardflag = H,M
 pausetime = 0,12
 sparkno = 2
@@ -1223,7 +1226,7 @@ type    = S
 movetype= A
 physics = S
 juggle  = 4
-poweradd= 65
+poweradd= 20
 ctrl = 0
 anim = 2440
 
@@ -1331,6 +1334,7 @@ trigger1 = animelem = 2 || animelem = 5
 attr = S, NA
 animtype  = high
 damage    = 26
+getpower = 30,15
 guardflag = MA
 pausetime = 0,12
 sparkno = 1
@@ -1351,6 +1355,7 @@ trigger1 = animelem = 2 || animelem = 5
 attr = S, NA
 animtype  = high
 damage    = 9
+getpower = 30,15
 guardflag = MA
 pausetime = 0,12
 sparkno = 1
@@ -1507,7 +1512,7 @@ palfx.add         = -100,0,256
 palfx.sinadd      = 110,100,200,15
 palfx.color       = 256
 palfx.invertall   = 1
-getpower = 25,25
+getpower = 30,15
 givepower = 0,0
 p2facing = 1
 
@@ -1543,7 +1548,7 @@ fall.recoverTime = 45*ifelse(fvar(4) >= 75,3,1)
 yeccel = .44
 ground.cornerpush.veloff = -14 -var(21)
 air.cornerpush.veloff = -12 -var(21)
-getpower = 34,34
+getpower = 30,15
 givepower = 0,0
 p2facing = 1
 
@@ -2141,7 +2146,7 @@ fall.recoverTime = 38*ifelse(fvar(4) >= 75,3,1)
 yaccel = .44
 ground.cornerpush.veloff = -12 -var(21)
 air.cornerpush.veloff = -10 -var(21)
-getpower = 25,25
+getpower = 30,15
 givepower = 0,0
 p2facing = 1
 
@@ -2177,7 +2182,7 @@ fall.recoverTime = 38*ifelse(fvar(4) >= 75,3,1)
 yeccel = .44
 ground.cornerpush.veloff = -14 -var(21)
 air.cornerpush.veloff = -12 -var(21)
-getpower = 34,34
+getpower = 30,15
 givepower = 0,0
 palfx.Time        = 32
 palfx.add         = -100,0,256
@@ -3809,7 +3814,7 @@ palfx.add         = -100,0,256
 palfx.sinadd      = 110,100,200,15
 palfx.color       = 256
 palfx.invertall   = 1
-getpower = 55,55
+getpower = 60,30
 givepower = 0,0
 p2facing = 1
 
@@ -4190,7 +4195,7 @@ palfx.add         = -100,0,256
 palfx.sinadd      = 110,100,200,15
 palfx.color       = 256
 palfx.invertall   = 1
-getpower = 42,42
+getpower = 60,30
 givepower = 0,0
 p2facing = 1
 
@@ -4485,7 +4490,7 @@ palfx.add         = -100,0,256
 palfx.sinadd      = 110,100,200,15
 palfx.color       = 256
 palfx.invertall   = 1
-getpower = 55,55
+getpower = 60,30
 givepower = 0,0
 p2facing = 1
 
@@ -4807,7 +4812,7 @@ palfx.add         = -100,0,256
 palfx.sinadd      = 110,100,200,15
 palfx.color       = 256
 palfx.invertall   = 1
-getpower = 42,42
+getpower = 15,7
 givepower = 0,0
 p2facing = 1
 
@@ -4848,7 +4853,7 @@ palfx.add         = -100,0,256
 palfx.sinadd      = 110,100,200,15
 palfx.color       = 256
 palfx.invertall   = 1
-getpower = 42,42
+getpower = 15,7
 givepower = 0,0
 p2facing = 1
 
@@ -5269,7 +5274,7 @@ palfx.add         = -100,0,256
 palfx.sinadd      = 110,100,200,15
 palfx.color       = 256
 palfx.invertall   = 1
-getpower = 42,42
+getpower = 30,15
 givepower = 0,0
 p2facing = 1
 
@@ -5310,7 +5315,7 @@ palfx.add         = -100,0,256
 palfx.sinadd      = 110,100,200,15
 palfx.color       = 256
 palfx.invertall   = 1
-getpower = 42,42
+getpower = 30,15
 givepower = 0,0
 p2facing = 1
 
@@ -5728,7 +5733,7 @@ palfx.add         = -100,0,256
 palfx.sinadd      = 110,100,200,15
 palfx.color       = 256
 palfx.invertall   = 1
-getpower = 42,42
+getpower = 30,15
 givepower = 0,0
 p2facing = 1
 
@@ -5769,7 +5774,7 @@ palfx.add         = -100,0,256
 palfx.sinadd      = 110,100,200,15
 palfx.color       = 256
 palfx.invertall   = 1
-getpower = 42,42
+getpower = 30,15
 givepower = 0,0
 p2facing = 1
 
@@ -6287,7 +6292,7 @@ fall.recoverTime = 47 -var(21)*ifelse(fvar(4) >= 75,3,1)
 yaccel = .46
 ground.cornerpush.veloff = -10 -var(21)
 air.cornerpush.veloff = -10 -var(21)
-getpower = 68,68
+getpower = 15,7
 givepower = 0,0
 palfx.Time        = 32
 palfx.add         = -100,0,256
@@ -6482,7 +6487,7 @@ fall.recoverTime = 62*ifelse(fvar(4) >= 75,3,1)
 yaccel = .44
 ground.cornerpush.veloff = -14 -var(21)
 air.cornerpush.veloff = -14 -var(21)
-getpower = 35,35
+getpower = 15,7
 palfx.Time        = 32
 palfx.add         = -100,0,256
 palfx.sinadd      = 110,100,200,15
@@ -6956,7 +6961,7 @@ palfx.add         = -100,0,256
 palfx.sinadd      = 110,100,200,15
 palfx.color       = 256
 palfx.invertall   = 1
-getpower = 68,68
+getpower = 60,30
 givepower = 0,0
 p2facing = 1
 
@@ -7067,6 +7072,7 @@ value =  50;1410
 ; レイディバイダー
 [Statedef 1060]
 type    = S
+poweradd = 20
 movetype = A
 physics = N
 Anim = 1060
@@ -7344,7 +7350,7 @@ palfx.add         = -100,0,256
 palfx.sinadd      = 110,100,200,15
 palfx.color       = 256
 palfx.invertall   = 1
-getpower = 18,18
+getpower = 30,15
 givepower = 0,0
 p2facing = 1
 
@@ -7559,7 +7565,7 @@ palfx.add         = -100,0,256
 palfx.sinadd      = 110,100,200,15
 palfx.color       = 256
 palfx.invertall   = 1
-getpower = 25,25
+getpower = 60,30
 givepower = 0,0
 p2facing = 1
 
@@ -7677,7 +7683,7 @@ juggle  = 4
 velset = 0,0
 ctrl = 0
 anim = 1530;1520
-poweradd = 100
+poweradd = 0
 sprpriority = 2
 
 
@@ -7719,6 +7725,7 @@ type = HitDef
 trigger1 != time
 attr = S, NA
 damage = 75, 5
+getpower = 60,30
 animtype = Light
 guardflag = MA
 hitflag = MAF
@@ -7887,7 +7894,7 @@ palfx.add         = -100,0,256
 palfx.sinadd      = 110,100,200,15
 palfx.color       = 256
 palfx.invertall   = 1
-getpower = 68,68
+getpower = 60,30
 givepower = 0,0
 p2facing = 1
 
@@ -8199,7 +8206,7 @@ palfx.add         = -100,0,256
 palfx.sinadd      = 110,100,200,15
 palfx.color       = 256
 palfx.invertall   = 1
-getpower = 68,68
+getpower = 60,30
 givepower = 0,0
 p2facing = 1
 
@@ -8341,6 +8348,7 @@ value = 201, 6
 
 [State Hit, 1]
 type = HitDef
+getpower = 60,30
 Trigger1 = Time = 0
 Trigger1 = p2movetype != H
 attr = S,ST
@@ -8392,7 +8400,7 @@ value = 1
 [State PowerA, 1]
 type = Poweradd
 Trigger1 = Time = 0
-value = 80
+value = 0
 
 [State TargetB, 1]
 type = TargetBind
@@ -9119,6 +9127,7 @@ value = 51
 ; レイディバイダー・ドライブ
 [Statedef 1070]
 type    = S
+poweradd = 20
 movetype = A
 physics = N
 Anim = 1070
@@ -9467,7 +9476,7 @@ palfx.add         = -100,0,256
 palfx.sinadd      = 110,100,200,15
 palfx.color       = 256
 palfx.invertall   = 1
-getpower = 12,12
+getpower = 30,15
 givepower = 0,0
 p2facing = 1
 
@@ -9481,6 +9490,7 @@ Trigger1 = Time = 60
 ; スタンブレイズ
 [Statedef 2400]
 type    = S
+poweradd = 20
 movetype = A
 physics = N
 Anim = 2400
@@ -9850,7 +9860,7 @@ palfx.add         = -100,0,256
 palfx.sinadd      = 110,100,200,15
 palfx.color       = 256
 palfx.invertall   = 1
-getpower = 12,12
+getpower = 30,15
 givepower = 0,0
 
 [State Destroy, 1]
@@ -9863,6 +9873,7 @@ Trigger1 = Time = 75
 ; スタンブレイズ・ドライブ
 [Statedef 2450]
 type    = S
+poweradd = 20
 movetype = A
 physics = N
 Anim = 2450
@@ -10254,7 +10265,7 @@ palfx.add         = -100,0,256
 palfx.sinadd      = 110,100,200,15
 palfx.color       = 256
 palfx.invertall   = 1
-getpower = 12,12
+getpower = 10,5
 givepower = 0,0
 
 [State Destroy, 1]
@@ -10463,7 +10474,7 @@ palfx.add         = -100,0,256
 palfx.sinadd      = 110,100,200,15
 palfx.color       = 256
 palfx.invertall   = 1
-getpower = 12,12
+getpower = 10,5
 givepower = 0,0
 
 [State Destroy, 1]
@@ -10672,7 +10683,7 @@ palfx.add         = -100,0,256
 palfx.sinadd      = 110,100,200,15
 palfx.color       = 256
 palfx.invertall   = 1
-getpower = 12,12
+getpower = 10,5
 givepower = 0,0
 
 [State Destroy, 1]

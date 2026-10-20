@@ -147,7 +147,7 @@ hitflag = MA
 guardflag = MA
 animtype = Back
 damage= floor(Ifelse(root,var(20),30,Ifelse(var(10)=3,43,75+7*var(10))*(root,fvar(10)))),10
-getpower=72* !var(20), 36 * !var(20)
+getpower = 30,15
 givepower=35, 35
 pausetime=0,12/((root,var(20)>0)+1)
 guard.pausetime = 3,12
@@ -632,7 +632,7 @@ ground.cornerpush.veloff=Ifelse(root,var(20),0,-5)
 air.velocity=Ifelse(root,var(20),-2,-4), -2
 air.fall=1
 fall.recover=0
-getpower=72* !var(20), 36 * !var(20)
+getpower = 30,15
 givepower=35, 35
 sprpriority=5
 yaccel=Ifelse(root,var(20),.35,.5)

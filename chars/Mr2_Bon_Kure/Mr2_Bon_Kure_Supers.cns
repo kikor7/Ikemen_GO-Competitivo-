@@ -2099,7 +2099,7 @@ ctrl = 0
 type = A
 movetype = A
 physics = N
-poweradd = 50
+poweradd = 0
 ctrl = 0
 anim = 3110
 

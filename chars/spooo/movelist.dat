@@ -1,0 +1,18 @@
+<#f0f000>:Special Moves:</>
+Fast Kung Fu Knee			_B_D_F^A_+^B
+Light Kung Fu Knee			_B_D_F^A
+Strong Kung Fu Knee			_B_D_F^B
+Fast Kung Fu Palm			_QCF^X_+^Y
+Light Kung Fu Palm			_D_F^X
+Strong Kung Fu Palm			_D_F^Y
+Strong Kung Fu Palm			_QCF^S
+Light Kung Fu Upper			_F_D_B^X
+Strong Kung Fu Upper			_F_D_B^Y
+kaeriti			_D_B^X_+^Y
+Light Kung Fu Blow			_D_B^X
+Strong Kung Fu Blow			_D_B^Y
+
+<#f0f000>:Hyper Moves:</>
+Smash Kung Fu Upper <#f00000>(2000)</>			_F_D_B_F_D_B^X
+Triple Kung Fu Palm <#f00000>(3000)</>			_D_F_D_F^Y
+Triple Kung Fu Palm <#f00000>(1000)</>			_D_F_D_F^X

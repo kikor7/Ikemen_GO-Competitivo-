@@ -57,6 +57,8 @@ sav/
 !/stages/**/*.cmd
 !/stages/**/*.air
 !/stages/**/*.st
+!/stages/**/*.const
+!/stages/**/*.CONST
 /sound/
 /video/
 
@@ -81,3 +83,38 @@ desktop.ini
 .env
 .sff
 
+
+# =========================
+# SFF DE PERSONAJES QUE HAY QUE ARREGLAR (retratos / iconos)
+# =========================
+!/chars/oshima/**/*.sff
+!/chars/EustassKid/**/*.sff
+!/chars/MonkeyDGarp/**/*.sff
+!/chars/Wapol/**/*.sff
+!/chars/Jozu/**/*.sff
+!/chars/JesusBurgess/**/*.sff
+!/chars/Buggy/**/*.sff
+!/chars/Kaku/**/*.sff
+!/chars/Jabura/**/*.sff
+!/chars/DonKrieg/**/*.sff
+!/chars/BoaHancock/**/*.sff
+!/chars/Kuro/**/*.sff
+!/chars/QueenBeryl/**/*.sff
+!/chars/Naruto Uzumaki/**/*.sff
+!/chars/w_seth/**/*.sff
+!/stages/psp.sff
+!/chars/Yuno-KOFM/**/*.sff
+!/chars/Rena_LV5/**/*.sff
+!/chars/Maebara_keiichi/**/*.sff
+!/chars/Rosa_Ushiromiya/**/*.sff
+!/chars/Rayleigh/**/*.sff
+!/chars/Tsunade/**/*.sff
+!/chars/Hakufu-KOFM/**/*.sff
+!/chars/CFJ_Evil_Ryu/**/*.sff
+!/chars/DANoel/**/*.sff
+!/chars/Keroro/**/*.sff
+!/chars/PacifistaRumble/**/*.sff
+!/chars/ShipBonus/**/*.sff
+!/chars/MarineRumble1/**/*.sff
+!/chars/MarineRumble2/**/*.sff
+!/chars/MarineRumble3/**/*.sff

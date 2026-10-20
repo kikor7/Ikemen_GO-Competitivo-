@@ -10,6 +10,7 @@ Pal.Defaults = 2,6,3,4         ;CPUで出てくるキャラカラーの順番
 
 ;-----必要なファイルの設定------------------------------------------
 [Files]
+movelist = movelist.dat
 Cmd      = kuroko_s.cmd          ;入力コマンド定義ファイルの登録
 Cns      = kuroko_s.cns          ;基本ステータス情報ファイルの登録
 St       = kuroko_s_0.cns          ;動作プログラムファイルの登録（最大１０個くらい増やせます（St,St0,St1,St2......））

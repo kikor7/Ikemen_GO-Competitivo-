@@ -7,7 +7,7 @@ physics = S
 juggle  = 7
 ctrl = 0
 anim = ifelse(((prevstateno=2200)),2050,2000)
-poweradd = 200
+poweradd = 0
 sprpriority = -4
 
 [State 2000, PosAdd]
@@ -336,7 +336,7 @@ ground.velocity = -2,-12
 airguard.velocity = -1.9,-.8
 air.velocity = -2,-10
 air.hittime = 12
-getpower = 0, 0
+getpower = 15,7
 fall = 1
 fall.recover=0
 
@@ -367,7 +367,7 @@ ground.velocity = 3,-12
 airguard.velocity = -1.9,-.8
 air.velocity = -2,-10
 air.hittime = 12
-getpower = 0, 0
+getpower = 15,7
 fall = 1
 fall.recover=0
 
@@ -397,7 +397,7 @@ ground.velocity = -2,0
 airguard.velocity = -1.9,-.8
 air.velocity = -2,-10
 air.hittime = 12
-getpower = 0, 0
+getpower = 15,7
 
 [State 2005, 1]
 type = HitDef
@@ -425,7 +425,7 @@ airguard.velocity = -1.9,-.8
 air.velocity = -3,-2
 yaccel = .35
 air.hittime = 12
-getpower = 0, 0
+getpower = 15,7
 fall = 1
 fall.recover=0
 
@@ -445,7 +445,7 @@ type    = C
 movetype= A
 physics = N
 juggle  = 7
-poweradd = 200
+poweradd = 0
 velset = 0,0
 ctrl = 0
 anim = 2200
@@ -595,7 +595,7 @@ ground.velocity = -5,0
 airguard.velocity = -1.9,-.8
 air.velocity = -5,0
 air.hittime = 12
-getpower = 0, 0
+getpower = 30,15
 fall = 0
 
 [State 0, ChangeAnim]
@@ -636,7 +636,7 @@ ground.velocity = 0,0
 airguard.velocity = -1.9,-.8
 air.velocity = 0,0
 air.hittime = 12
-getpower = 0, 0
+getpower = 30,15
 fall = 0
 
 [State 2200, RemoveExplod]
@@ -712,7 +712,7 @@ juggle  = 0
 ctrl = 0
 anim= 2250
 velset = 4,0
-poweradd = 200
+poweradd = 0
 movehitpersist = 1
 
 [State 2250, VelMul]
@@ -864,7 +864,7 @@ physics = N
 juggle  = 0
 ctrl = 0
 anim= 2255
-poweradd = 100
+poweradd = 0
 sprpriority = 5
 movehitpersist=1
 
@@ -1498,7 +1498,7 @@ type    = A
 movetype= A
 physics = N
 juggle  = 5
-poweradd = 200
+poweradd = 0
 ctrl = 0
 anim = 2440
 
@@ -1686,7 +1686,7 @@ type    = C
 movetype= A
 physics = C
 juggle  = 3
-poweradd = 200
+poweradd = 0
 velset = 0,0
 ctrl = 0
 anim = 2450
@@ -1887,7 +1887,7 @@ physics = N
 juggle  = 5
 ctrl = 0
 anim = 2500
-poweradd = 200
+poweradd = 0
 velset = 2,0
 sprpriority = 2
 
@@ -2133,7 +2133,7 @@ physics = N
 juggle  = 5
 ctrl = 0
 anim = 2600
-poweradd = 200
+poweradd = 0
 velset = 2,0
 sprpriority = 2
 
@@ -2261,7 +2261,7 @@ ground.velocity = -2,0
 airguard.velocity = -1.9,-.8
 air.velocity = -12,12
 air.hittime = 30
-getpower = 0, 0
+getpower = 60,30
 fall.damage = 20
 fall.xvelocity = -5
 fall.yvelocity = -5
@@ -2300,7 +2300,7 @@ physics = N
 juggle  = 5
 ctrl = 0
 anim = 2800
-poweradd = 200
+poweradd = 0
 velset = 5,0
 sprpriority = 2
 
@@ -2382,7 +2382,7 @@ airguard.velocity = -1.9,-.8
 air.velocity = -4,-6
 yaccel = .38
 air.hittime = 12
-getpower = 0, 0
+getpower = 60,30
 fall = 0
 persistent = 0
 air.fall = 1

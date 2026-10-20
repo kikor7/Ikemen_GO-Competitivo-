@@ -1695,7 +1695,7 @@ MoveType=A
 physics=N
 Anim=850
 Ctrl=0
-Poweradd=55
+Poweradd=0
 
 [State 810,Snd1]
 Type=playSnd
@@ -1892,7 +1892,7 @@ physics=N
 Anim=910
 ctrl=0
 velset=0,0
-Poweradd=55+FVar(11)
+Poweradd=0+FVar(11)
 SprPriority=3
 
 [State 910,move up]

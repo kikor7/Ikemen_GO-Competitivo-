@@ -502,21 +502,21 @@ value = 0
 ;-----------------------------------------------
 ;Record every player's ID at all times
 [State 665, ShowMeYourIDs]
-Trigger1 = var(11) := playerid(getplayerid(1)), ID
-Trigger1 = var(12) := playerid(getplayerid(2)), ID
-Trigger1 = var(13) := playerid(getplayerid(3)), ID
-Trigger1 = var(14) := playerid(getplayerid(4)), ID
-Trigger1 = var(15) := playerid(getplayerid(5)), ID
-Trigger1 = var(16) := playerid(getplayerid(6)), ID
-Trigger1 = var(17) := playerid(getplayerid(7)), ID
-Trigger1 = var(18) := playerid(getplayerid(8)), ID
+Trigger1 = var(11) := player(1), ID
+Trigger1 = var(12) := player(2), ID
+Trigger1 = var(13) := player(3), ID
+Trigger1 = var(14) := player(4), ID
+Trigger1 = var(15) := player(5), ID
+Trigger1 = var(16) := player(6), ID
+Trigger1 = var(17) := player(7), ID
+Trigger1 = var(18) := player(8), ID
 type = null
 
 ;--------------------------------------------------------------------------------------------------------------------
 [State 665, ENABLEFATAL]
 type = ChangeAnim
 ;Round is Over
-triggerall = (Roundstate = 3 && Matchover = 1); || (playerid(getplayerid(1)),TeamMode = Turns && playerid(getplayerid(2)),Win = 1) || (playerid(getplayerid(2)),TeamMode = Turns && playerid(getplayerid(1)),Win = 1)
+triggerall = (Roundstate = 3 && Matchover = 1); || (player(1),TeamMode = Turns && player(2),Win = 1) || (player(2),TeamMode = Turns && player(1),Win = 1)
 ;Someone is Flying, Dead, High
 trigger1 = playerid(Var(11)),Vel Y < 0 && playerid(Var(11)),Pos Y <= Pos Y && playerid(Var(11)),Alive = 0
 trigger2 = playerid(Var(12)),Vel Y < 0 && playerid(Var(12)),Pos Y <= Pos Y && playerid(Var(12)),Alive = 0
@@ -656,7 +656,7 @@ trigger1 = Anim = 0
 trigger1 = playerid(Var(21)),Pos Y <= Pos Y;It's *under* us AND the fatal is enabled
 trigger1 = playerid(Var(21)),Vel Y > 0;It's going down
 persistent = 0;just in case
-ReadPlayerID = playerid(getplayerid(9)),ID
+ReadPlayerID = player(9),ID
 RedirectID = Var(21)
 Value = 820
 
@@ -757,14 +757,14 @@ x= Var(9)+ceil(helper(4101),Pos X);RELATIVE TO STAGE
 ;-------------------------------------------------------------------------------------------------
 ;Record every player's ID at all times
 [State 778, ShowMeYourIDs]
-Trigger1 = var(11) := playerid(getplayerid(1)), ID
-Trigger1 = var(12) := playerid(getplayerid(2)), ID
-Trigger1 = var(13) := playerid(getplayerid(3)), ID
-Trigger1 = var(14) := playerid(getplayerid(4)), ID
-Trigger1 = var(15) := playerid(getplayerid(5)), ID
-Trigger1 = var(16) := playerid(getplayerid(6)), ID
-Trigger1 = var(17) := playerid(getplayerid(7)), ID
-Trigger1 = var(18) := playerid(getplayerid(8)), ID
+Trigger1 = var(11) := player(1), ID
+Trigger1 = var(12) := player(2), ID
+Trigger1 = var(13) := player(3), ID
+Trigger1 = var(14) := player(4), ID
+Trigger1 = var(15) := player(5), ID
+Trigger1 = var(16) := player(6), ID
+Trigger1 = var(17) := player(7), ID
+Trigger1 = var(18) := player(8), ID
 type = null
 
 [State 778, TheTimer]
@@ -882,7 +882,7 @@ type = Explod
 trigger1 = Var(47) = 180
 persistent = 0
 anim = 17
-space = screen
+postype = left ;antes space = screen (Ikemen 1.0 lo colocaba mal)
 pos = ScreenWidth/2,ScreenHeight/2 - 30
 vel = 0,0
 bindtime = 0
@@ -895,7 +895,7 @@ type = Explod
 trigger1 = Var(47) > 210
 trigger1 = NumExplod(8) = 0
 anim = 18
-space = screen
+postype = left ;antes space = screen (Ikemen 1.0 lo colocaba mal)
 pos = ScreenWidth/2,ScreenHeight/2 - 30
 vel = 0,0
 bindtime = 0
@@ -930,7 +930,7 @@ type = helper
 ignorehitpause = 1
 persistent = 0
 trigger1 = RoundState = 2
-trigger1 = playerid(getplayerid(1)),TeamMode = Turns || playerid(getplayerid(2)),TeamMode = Turns
+trigger1 = player(1),TeamMode = Turns || player(2),TeamMode = Turns
 name = "Detector"
 ID = 1
 stateno = 665
@@ -1054,14 +1054,14 @@ value = 2,4
 ;-------------------------------------------------------------------------------------------------
 ;Record every player's ID at all times
 [State 776, ShowMeYourIDs]
-Trigger1 = var(11) := playerid(getplayerid(1)), ID
-Trigger1 = var(12) := playerid(getplayerid(2)), ID
-Trigger1 = var(13) := playerid(getplayerid(3)), ID
-Trigger1 = var(14) := playerid(getplayerid(4)), ID
-Trigger1 = var(15) := playerid(getplayerid(5)), ID
-Trigger1 = var(16) := playerid(getplayerid(6)), ID
-Trigger1 = var(17) := playerid(getplayerid(7)), ID
-Trigger1 = var(18) := playerid(getplayerid(8)), ID
+Trigger1 = var(11) := player(1), ID
+Trigger1 = var(12) := player(2), ID
+Trigger1 = var(13) := player(3), ID
+Trigger1 = var(14) := player(4), ID
+Trigger1 = var(15) := player(5), ID
+Trigger1 = var(16) := player(6), ID
+Trigger1 = var(17) := player(7), ID
+Trigger1 = var(18) := player(8), ID
 type = null
 
 [State 776, TheTimer]
@@ -1360,7 +1360,7 @@ type = Explod
 trigger1 = Var(47) >= 250
 persistent = 0
 anim = 5100
-space = screen
+postype = left ;antes space = screen (Ikemen 1.0 lo colocaba mal)
 pos = ScreenWidth, -20
 vel = -9,0
 accel = 0.19,0.05
@@ -1395,7 +1395,7 @@ type = Explod
 trigger1 = Var(47) >= 750
 persistent = 0
 anim = 5050
-space = screen
+postype = left ;antes space = screen (Ikemen 1.0 lo colocaba mal)
 pos = ScreenWidth*1.25, ScreenHeight/2
 vel = -1.5,0
 bindtime = 0
@@ -1421,7 +1421,7 @@ type = Explod
 trigger1 = Var(47) = 750
 persistent = 0
 anim = 17
-space = screen
+postype = left ;antes space = screen (Ikemen 1.0 lo colocaba mal)
 pos = ScreenWidth/2,ScreenHeight/2 - 30
 vel = 0,0
 bindtime = 0
@@ -1435,7 +1435,7 @@ type = Explod
 trigger1 = Var(47) > 780
 trigger1 = NumExplod(8) = 0
 anim = 18
-space = screen
+postype = left ;antes space = screen (Ikemen 1.0 lo colocaba mal)
 pos = ScreenWidth/2,ScreenHeight/2 - 30
 vel = 0,0
 bindtime = 0
@@ -1469,7 +1469,7 @@ type = helper
 ignorehitpause = 1
 persistent = 0
 trigger1 = RoundState = 2
-trigger1 = playerid(getplayerid(1)),TeamMode = Turns || playerid(getplayerid(2)),TeamMode = Turns
+trigger1 = player(1),TeamMode = Turns || player(2),TeamMode = Turns
 name = "Detector"
 ID = 1
 stateno = 665
@@ -1566,14 +1566,14 @@ x= Var(9)+ceil(helper(4101),Pos X);RELATIVE TO STAGE
 ;-------------------------------------------------------------------------------------------------
 ;Record every player's ID at all times
 [State 777, ShowMeYourIDs]
-Trigger1 = var(11) := playerid(getplayerid(1)), ID
-Trigger1 = var(12) := playerid(getplayerid(2)), ID
-Trigger1 = var(13) := playerid(getplayerid(3)), ID
-Trigger1 = var(14) := playerid(getplayerid(4)), ID
-Trigger1 = var(15) := playerid(getplayerid(5)), ID
-Trigger1 = var(16) := playerid(getplayerid(6)), ID
-Trigger1 = var(17) := playerid(getplayerid(7)), ID
-Trigger1 = var(18) := playerid(getplayerid(8)), ID
+Trigger1 = var(11) := player(1), ID
+Trigger1 = var(12) := player(2), ID
+Trigger1 = var(13) := player(3), ID
+Trigger1 = var(14) := player(4), ID
+Trigger1 = var(15) := player(5), ID
+Trigger1 = var(16) := player(6), ID
+Trigger1 = var(17) := player(7), ID
+Trigger1 = var(18) := player(8), ID
 type = null
 
 [State 777, TheTimer]
@@ -1805,7 +1805,7 @@ Trigger1 = Var(47) <= 110;50
 Trigger1 = Var(47) % 4 = 0
 anim = 823
 space = stage
-pos = Var(22) + CameraPos X + Rand(-50,50),-(ScreenHeight/2) + Rand(10,90);RELATIVE TO STAGE
+pos = Var(22) + CameraPos X + (-50+floor(Random*101/1000.0)),-(ScreenHeight/2) + (10+floor(Random*81/1000.0));RELATIVE TO STAGE
 vel = 0,0
 bindtime = 0
 sprpriority = -9
@@ -1822,7 +1822,7 @@ Trigger1 = Var(47) <= 110
 Trigger1 = Var(47) % 4 = 2
 anim = 823
 space = stage
-pos = Var(22) + CameraPos X + Rand(-50,50),-(ScreenHeight/2) + Rand(10,90);RELATIVE TO STAGE
+pos = Var(22) + CameraPos X + (-50+floor(Random*101/1000.0)),-(ScreenHeight/2) + (10+floor(Random*81/1000.0));RELATIVE TO STAGE
 vel = 0,0
 bindtime = 0
 sprpriority = 9
@@ -1851,7 +1851,7 @@ ignorehitpause = 1
 name = "Big"
 ID = 49
 stateno = 888
-pos = Var(22)+CameraPos X + Rand(-20,20),Rand(-20,20)
+pos = Var(22)+CameraPos X + (-20+floor(Random*41/1000.0)),(-20+floor(Random*41/1000.0))
 keyctrl = 0
 ownpal = 0
 supermovetime = 99999
@@ -1871,7 +1871,7 @@ ignorehitpause = 1
 name = "Mid"
 ID = 50
 stateno = 888
-pos = Var(22)+CameraPos X + Rand(-20,20),Rand(-20,20)
+pos = Var(22)+CameraPos X + (-20+floor(Random*41/1000.0)),(-20+floor(Random*41/1000.0))
 keyctrl = 0
 ownpal = 0
 supermovetime = 99999
@@ -1891,7 +1891,7 @@ ignorehitpause = 1
 name = "Smol"
 ID = 51
 stateno = 888
-pos = Var(22)+CameraPos X + Rand(-20,20),Rand(-20,20)
+pos = Var(22)+CameraPos X + (-20+floor(Random*41/1000.0)),(-20+floor(Random*41/1000.0))
 keyctrl = 0
 ownpal = 0
 supermovetime = 99999
@@ -1911,7 +1911,7 @@ ignorehitpause = 1
 name = "Gibs"
 ID = 52
 stateno = 888
-pos = Var(22)+CameraPos X + Rand(-20,20),Rand(-20,20)
+pos = Var(22)+CameraPos X + (-20+floor(Random*41/1000.0)),(-20+floor(Random*41/1000.0))
 keyctrl = 0
 ownpal = 0
 supermovetime = 99999
@@ -1931,7 +1931,7 @@ ignorehitpause = 1
 name = "Gibspin"
 ID = 53
 stateno = 888
-pos = Var(22)+CameraPos X + Rand(-20,20),Rand(-20,20)
+pos = Var(22)+CameraPos X + (-20+floor(Random*41/1000.0)),(-20+floor(Random*41/1000.0))
 keyctrl = 0
 ownpal = 0
 supermovetime = 99999
@@ -1942,7 +1942,7 @@ type = Explod
 trigger1 = Var(47) = 180
 persistent = 0
 anim = 17
-space = screen
+postype = left ;antes space = screen (Ikemen 1.0 lo colocaba mal)
 pos = ScreenWidth/2,ScreenHeight/2 - 30
 vel = 0,0
 bindtime = 0
@@ -1955,7 +1955,7 @@ type = Explod
 trigger1 = Var(47) > 210
 trigger1 = NumExplod(8) = 0
 anim = 18
-space = screen
+postype = left ;antes space = screen (Ikemen 1.0 lo colocaba mal)
 pos = ScreenWidth/2,ScreenHeight/2 - 30
 vel = 0,0
 bindtime = 0
@@ -1990,7 +1990,7 @@ type = helper
 ignorehitpause = 1
 persistent = 0
 trigger1 = RoundState = 2
-trigger1 = playerid(getplayerid(1)),TeamMode = Turns || playerid(getplayerid(2)),TeamMode = Turns
+trigger1 = player(1),TeamMode = Turns || player(2),TeamMode = Turns
 name = "Detector"
 ID = 1
 stateno = 665
@@ -2049,19 +2049,19 @@ physics = A
 
 [State 820, Stahp]
 trigger1 = Pos Y >= -20 && Vel Y > 1
-trigger1 = PlayerID(getplayerid(9)),Root,Helper(1),StateNo != 665
+trigger1 = player(9),Root,Helper(1),StateNo != 665
 type = VelSet
 y = 0
 
 [State 820, GoNormal];Selfstate
 type = Selfstate
 trigger1 = Time = 340
-trigger1 = PlayerID(getplayerid(9)),Root,Helper(1),StateNo != 665
+trigger1 = player(9),Root,Helper(1),StateNo != 665
 value = 5150
 
 [State 820, GoNormal];Selfstate
 type = Selfstate
-trigger1 = PlayerID(getplayerid(9)),Root,Helper(1),StateNo = 665
+trigger1 = player(9),Root,Helper(1),StateNo = 665
 value = 5050
 
 ;---------------------------------------------------------------------------------------------------
@@ -2278,14 +2278,14 @@ x= Var(9)+ceil(helper(4101),Pos X);RELATIVE TO STAGE
 ;-------------------------------------------------------------------------------------------------
 ;Record every player's ID at all times
 [State 779, ShowMeYourIDs]
-Trigger1 = var(11) := playerid(getplayerid(1)), ID
-Trigger1 = var(12) := playerid(getplayerid(2)), ID
-Trigger1 = var(13) := playerid(getplayerid(3)), ID
-Trigger1 = var(14) := playerid(getplayerid(4)), ID
-Trigger1 = var(15) := playerid(getplayerid(5)), ID
-Trigger1 = var(16) := playerid(getplayerid(6)), ID
-Trigger1 = var(17) := playerid(getplayerid(7)), ID
-Trigger1 = var(18) := playerid(getplayerid(8)), ID
+Trigger1 = var(11) := player(1), ID
+Trigger1 = var(12) := player(2), ID
+Trigger1 = var(13) := player(3), ID
+Trigger1 = var(14) := player(4), ID
+Trigger1 = var(15) := player(5), ID
+Trigger1 = var(16) := player(6), ID
+Trigger1 = var(17) := player(7), ID
+Trigger1 = var(18) := player(8), ID
 type = null
 
 [State 779, TheTimer]
@@ -2403,7 +2403,7 @@ type = Explod
 trigger1 = Var(47) = 180
 persistent = 0
 anim = 17
-space = screen
+postype = left ;antes space = screen (Ikemen 1.0 lo colocaba mal)
 pos = ScreenWidth/2,ScreenHeight/2 - 30
 vel = 0,0
 bindtime = 0
@@ -2416,7 +2416,7 @@ type = Explod
 trigger1 = Var(47) > 210
 trigger1 = NumExplod(8) = 0
 anim = 18
-space = screen
+postype = left ;antes space = screen (Ikemen 1.0 lo colocaba mal)
 pos = ScreenWidth/2,ScreenHeight/2 - 30
 vel = 0,0
 bindtime = 0
@@ -2450,7 +2450,7 @@ type = helper
 ignorehitpause = 1
 persistent = 0
 trigger1 = RoundState = 2
-trigger1 = playerid(getplayerid(1)),TeamMode = Turns || playerid(getplayerid(2)),TeamMode = Turns
+trigger1 = player(1),TeamMode = Turns || player(2),TeamMode = Turns
 name = "Detector"
 ID = 1
 stateno = 669
@@ -2606,14 +2606,14 @@ x= Var(9)+ceil(helper(4101),Pos X);RELATIVE TO STAGE
 ;-------------------------------------------------------------------------------------------------
 ;Record every player's ID at all times
 [State 780, ShowMeYourIDs]
-Trigger1 = var(11) := playerid(getplayerid(1)), ID
-Trigger1 = var(12) := playerid(getplayerid(2)), ID
-Trigger1 = var(13) := playerid(getplayerid(3)), ID
-Trigger1 = var(14) := playerid(getplayerid(4)), ID
-Trigger1 = var(15) := playerid(getplayerid(5)), ID
-Trigger1 = var(16) := playerid(getplayerid(6)), ID
-Trigger1 = var(17) := playerid(getplayerid(7)), ID
-Trigger1 = var(18) := playerid(getplayerid(8)), ID
+Trigger1 = var(11) := player(1), ID
+Trigger1 = var(12) := player(2), ID
+Trigger1 = var(13) := player(3), ID
+Trigger1 = var(14) := player(4), ID
+Trigger1 = var(15) := player(5), ID
+Trigger1 = var(16) := player(6), ID
+Trigger1 = var(17) := player(7), ID
+Trigger1 = var(18) := player(8), ID
 type = null
 
 [State 780, TheTimer]
@@ -2714,7 +2714,7 @@ type = Explod
 trigger1 = Var(47) = 180
 persistent = 0
 anim = 17
-space = screen
+postype = left ;antes space = screen (Ikemen 1.0 lo colocaba mal)
 pos = ScreenWidth/2,ScreenHeight/2 - 30
 vel = 0,0
 bindtime = 0
@@ -2727,7 +2727,7 @@ type = Explod
 trigger1 = Var(47) > 210
 trigger1 = NumExplod(8) = 0
 anim = 18
-space = screen
+postype = left ;antes space = screen (Ikemen 1.0 lo colocaba mal)
 pos = ScreenWidth/2,ScreenHeight/2 - 30
 vel = 0,0
 bindtime = 0
@@ -2762,7 +2762,7 @@ type = helper
 ignorehitpause = 1
 persistent = 0
 trigger1 = RoundState = 2
-trigger1 = playerid(getplayerid(1)),TeamMode = Turns || playerid(getplayerid(2)),TeamMode = Turns
+trigger1 = player(1),TeamMode = Turns || player(2),TeamMode = Turns
 name = "Detector"
 ID = 1
 stateno = 665
@@ -2818,9 +2818,9 @@ add = 128,-128,128
 type = Explod
 trigger1 = Time = 0
 anim = 5050
-space = screen
+postype = left ;antes space = screen (Ikemen 1.0 lo colocaba mal)
 pos = ScreenWidth/2,ScreenHeight/2 + 20
-vel = Rand(-0.5,0.5),-0.25
+vel = (-0.5+Random*1/999.0),-0.25
 accel = 0,0
 bindtime = 0
 sprpriority = 9
@@ -2963,7 +2963,7 @@ RedirectID = PlayerID(Var(18)),ID
 type = Explod
 trigger1 = Time = 600
 anim = 8000
-space = screen
+postype = left ;antes space = screen (Ikemen 1.0 lo colocaba mal)
 pos = ScreenWidth/2,ScreenHeight/2 + 15
 vel = 0,-0.05
 accel = 0,0
@@ -2982,7 +2982,7 @@ ontop = 1
 type = Explod
 trigger1 = Time = 600
 anim = 8001
-space = screen
+postype = left ;antes space = screen (Ikemen 1.0 lo colocaba mal)
 pos = ScreenWidth/2,ScreenHeight/2 + 150
 vel = 0,0
 accel = 0,0
@@ -3001,7 +3001,7 @@ ontop = 1
 type = Explod
 trigger1 = Time = 600
 anim = 5100
-space = screen
+postype = left ;antes space = screen (Ikemen 1.0 lo colocaba mal)
 pos = ScreenWidth/2,-100
 vel = 0,3
 accel = 0,0
@@ -3038,7 +3038,7 @@ RedirectID = Var(21)
 type = Explod
 trigger1 = Time = 600
 anim = 8002
-space = screen
+postype = left ;antes space = screen (Ikemen 1.0 lo colocaba mal)
 pos = ScreenWidth/2,-100
 vel = 0,0
 accel = 0,0
@@ -3083,10 +3083,10 @@ type = DestroySelf
 ;----------------------------------------
 [State 701, Clues]
 type = Explod
-Trigger1 = Rand(1,100) > 50 && Time = 60 && RoundState < 2
+Trigger1 = (1+floor(Random*100/1000.0)) > 50 && Time = 60 && RoundState < 2
 persistent = 1
-anim = Rand(25,37)
-space = screen
+anim = (25+floor(Random*13/1000.0))
+postype = left ;antes space = screen (Ikemen 1.0 lo colocaba mal)
 pos = ScreenWidth/2,ScreenHeight/2 - 50
 vel = 0,0
 bindtime = 0
@@ -3177,189 +3177,189 @@ preserve = 1
 ;GO INTO THE AIR
 [State 701, FlyABit];
 Triggerall = Var(1) > 2 && Var(5) = [1,1013]
-trigger1 = playerid(getplayerid(1)),Pos Y >= -15
+trigger1 = player(1),Pos Y >= -15
 type = PosSet
 y = -16
-RedirectID = playerid(getplayerid(1)),ID
+RedirectID = player(1),ID
 [State 701, FlyABit];
 Trigger1 = Var(1) > 2
 Trigger1 = Var(5) = 1
 persistent = 0
 type = VelSet;Fly a bit
 y = -0.6
-RedirectID = playerid(getplayerid(1)),ID
+RedirectID = player(1),ID
 [State 701, Float];
 Triggerall = (Var(1) > 2 && Var(5) = [1,1013]) || Var(5) = 1020
-trigger1 = playerid(getplayerid(1)),Pos Y >= -20
-Trigger2 = playerid(getplayerid(1)),hitfall = 1;If ye fell
+trigger1 = player(1),Pos Y >= -20
+Trigger2 = player(1),hitfall = 1;If ye fell
 type = VelSet
 y = 0
-RedirectID = playerid(getplayerid(1)),ID
+RedirectID = player(1),ID
 [State 701, ForceFly];
-Triggerall = Var(5) = [1,1013] && playerid(getplayerid(1)),Anim != 41
-Trigger1 = playerid(getplayerid(1)),Anim = 0 || playerid(getplayerid(1)),Anim = 20 || playerid(getplayerid(1)),Anim = 21 || playerid(getplayerid(1)),Anim = 11 || playerid(getplayerid(1)),Anim = 12 || playerid(getplayerid(1)),StateNo = 0 || playerid(getplayerid(1)),Ctrl = 1
+Triggerall = Var(5) = [1,1013] && player(1),Anim != 41
+Trigger1 = player(1),Anim = 0 || player(1),Anim = 20 || player(1),Anim = 21 || player(1),Anim = 11 || player(1),Anim = 12 || player(1),StateNo = 0 || player(1),Ctrl = 1
 type = ChangeAnim
 Value = 41
-RedirectID = playerid(getplayerid(1)),ID
+RedirectID = player(1),ID
 [State 701, ForceFly];
-Triggerall = Var(5) = [1,1013] && playerid(getplayerid(1)),Anim != 44 && playerid(getplayerid(1)),SelfAnimExist(44) = 1
-Trigger1 = playerid(getplayerid(1)),Anim = 0 || playerid(getplayerid(1)),Anim = 20 || playerid(getplayerid(1)),Anim = 21 || playerid(getplayerid(1)),Anim = 11 || playerid(getplayerid(1)),Anim = 12 || playerid(getplayerid(1)),StateNo = 0 || playerid(getplayerid(1)),Ctrl = 1
+Triggerall = Var(5) = [1,1013] && player(1),Anim != 44 && player(1),SelfAnimExist(44) = 1
+Trigger1 = player(1),Anim = 0 || player(1),Anim = 20 || player(1),Anim = 21 || player(1),Anim = 11 || player(1),Anim = 12 || player(1),StateNo = 0 || player(1),Ctrl = 1
 type = ChangeAnim
 Value = 44
-RedirectID = playerid(getplayerid(1)),ID
+RedirectID = player(1),ID
 [State 701, ForceFlyFallen];
 Trigger1 = Var(5) > 0
-Trigger1 = playerid(getplayerid(1)),StateNo = 5100 || playerid(getplayerid(1)),StateNo = 5110 || playerid(getplayerid(1)),StateNo = 5120
+Trigger1 = player(1),StateNo = 5100 || player(1),StateNo = 5110 || player(1),StateNo = 5120
 type = ChangeState
 Value = 5040
-RedirectID = playerid(getplayerid(1)),ID
+RedirectID = player(1),ID
 [State 701, ForceFly];
 Trigger1 = Var(5) = [1,1013]
 type = StateTypeSet
 Value = A
-RedirectID = playerid(getplayerid(1)),ID
+RedirectID = player(1),ID
 
 ;WHILE IN AIR
 [State 701, ForceRecoveryInAir]
 Triggerall = Var(1) > 2 && Var(5) = [10,1013]
-Trigger1 = playerid(getplayerid(1)),Ctrl = 0;has no control
-Trigger1 = playerid(getplayerid(1)),hitfall = 1 || playerid(getplayerid(1)),InCustomState = 1;fell
+Trigger1 = player(1),Ctrl = 0;has no control
+Trigger1 = player(1),hitfall = 1 || player(1),InCustomState = 1;fell
 Trigger2 = Var(5) < 10;beginning of the fall
-trigger3 = playerid(getplayerid(1)),AnimTime = 0 && playerid(getplayerid(1)),Time > 1
-trigger4 = playerid(getplayerid(1)),AnimElemLength = -1
+trigger3 = player(1),AnimTime = 0 && player(1),Time > 1
+trigger4 = player(1),Time > 60 ;(antes AnimElemLength, no existe en Ikemen 1.0)
 type = CtrlSet
 value = 1
-RedirectID = playerid(getplayerid(1)),ID
+RedirectID = player(1),ID
 [State StopWhatYouDo]
 type=AssertSpecial
 trigger1= Var(5) = [1,1013]
 flag = NoAirJump
 flag2 = NoStand
 flag3 = NoCrouch
-RedirectID = playerid(getplayerid(1)),ID
+RedirectID = player(1),ID
 
 [State TurnAround]
 Trigger1 = Var(1) > 2 && Var(5) = [10,1016]
-trigger1 = playerid(getplayerid(1)),Command = "start" && playerid(getplayerid(1)),Command = "holdback"
+trigger1 = player(1),Command = "start" && player(1),Command = "holdback"
 type = Turn
-RedirectID = playerid(getplayerid(1)),ID
+RedirectID = player(1),ID
 
 [State Inertia]
 Trigger1 = Var(1) > 2 && Var(5) = [10,1016]
-trigger1 = playerid(getplayerid(1)),Command = "holdfwd";Required (do not remove)
-trigger1 = playerid(getplayerid(1)),Vel X < 3
+trigger1 = player(1),Command = "holdfwd";Required (do not remove)
+trigger1 = player(1),Vel X < 3
 type = VelAdd
 x = 0.25
-RedirectID = playerid(getplayerid(1)),ID
+RedirectID = player(1),ID
 [State Inertia]
 Trigger1 = Var(1) > 2 && Var(5) = [10,1016]
-trigger1 = playerid(getplayerid(1)),Command = "holdback";Required (do not remove)
-trigger1 = playerid(getplayerid(1)),Vel X > -3
+trigger1 = player(1),Command = "holdback";Required (do not remove)
+trigger1 = player(1),Vel X > -3
 type = VelAdd
 x = -0.25
-RedirectID = playerid(getplayerid(1)),ID
+RedirectID = player(1),ID
 [State Inertia]
 Trigger1 = Var(1) > 2 && Var(5) = [10,1016]
-Trigger1 = playerid(getplayerid(1)),Command != "holdup" 
-trigger1 = playerid(getplayerid(1)),Command != "holddown"
+Trigger1 = player(1),Command != "holdup" 
+trigger1 = player(1),Command != "holddown"
 type = VelSet
 y = 0.3
-RedirectID = playerid(getplayerid(1)),ID
+RedirectID = player(1),ID
 [State Inertia]
 Trigger1 = Var(1) > 2 && Var(5) = [10,1016]
-trigger1 = playerid(getplayerid(1)),Command = "holdup"
-trigger1 = playerid(getplayerid(1)),Pos Y > -200
-trigger1 = playerid(getplayerid(1)),Vel Y > -1.5
+trigger1 = player(1),Command = "holdup"
+trigger1 = player(1),Pos Y > -200
+trigger1 = player(1),Vel Y > -1.5
 type = VelAdd
 y = -0.5
-RedirectID = playerid(getplayerid(1)),ID
+RedirectID = player(1),ID
 [State Inertia]
 Trigger1 = Var(1) > 2 && Var(5) = [10,1016]
-trigger1 = playerid(getplayerid(1)),Command = "holddown";Required (do not remove)
-trigger1 = playerid(getplayerid(1)),Pos Y < -3
+trigger1 = player(1),Command = "holddown";Required (do not remove)
+trigger1 = player(1),Pos Y < -3
 type = VelSet
 y = 0.85
-RedirectID = playerid(getplayerid(1)),ID
+RedirectID = player(1),ID
 
 [State 701, Stahp]
 Trigger1 = Var(1) > 2 && Var(5) = [10,1016]
-trigger1 = playerid(getplayerid(1)),Pos Y < -200
+trigger1 = player(1),Pos Y < -200
 type = PosSet
 y = -200
-RedirectID = playerid(getplayerid(1)),ID
+RedirectID = player(1),ID
 [State 701, Stahp]
 Trigger1 = Var(1) > 2 && Var(5) = [10,1016]
-trigger1 = playerid(getplayerid(1)),Pos X < -200
+trigger1 = player(1),Pos X < -200
 type = PosSet
 x = -200
 [State 701, Stahp]
 Trigger1 = Var(1) > 2 && Var(5) = [10,1016]
-trigger1 = playerid(getplayerid(1)),Pos X > 200
+trigger1 = player(1),Pos X > 200
 type = PosSet
 x = 200
-RedirectID = playerid(getplayerid(1)),ID
+RedirectID = player(1),ID
 
 [State Lookdead]
 Trigger1 = Var(1) > 2 && Var(5) = [10,1016]
-Trigger1 = playerid(getplayerid(1)),Alive = 0 
-trigger1 = playerid(getplayerid(1)),SelfAnimExist(5160) = 1
-trigger1 = playerid(getplayerid(1)),Anim != 5160
+Trigger1 = player(1),Alive = 0 
+trigger1 = player(1),SelfAnimExist(5160) = 1
+trigger1 = player(1),Anim != 5160
 type = ChangeAnim 
 value = 5160
-RedirectID = playerid(getplayerid(1)),ID
+RedirectID = player(1),ID
 [State LandDead]
 Trigger1 = Var(1) > 2 && Var(5) = 1018
-Trigger1 = playerid(getplayerid(1)),Alive = 0 
+Trigger1 = player(1),Alive = 0 
 type = PosSet
 y = 0
-RedirectID = playerid(getplayerid(1)),ID
+RedirectID = player(1),ID
 [State LandDead]
 Trigger1 = Var(1) > 2 && Var(5) = 1018
-Trigger1 = playerid(getplayerid(1)),Alive = 0 
+Trigger1 = player(1),Alive = 0 
 type = ChangeAnim 
 value = 5110
-RedirectID = playerid(getplayerid(1)),ID
+RedirectID = player(1),ID
 
 ;LANDING
 [State 701, Looklikefalling]
-trigger1 = Var(5) > 1013 && playerid(getplayerid(1)),Alive = 1
+trigger1 = Var(5) > 1013 && player(1),Alive = 1
 type = ChangeAnim
 value = 47
-RedirectID = playerid(getplayerid(1)),ID
+RedirectID = player(1),ID
 [State 701, LandIfOver]
 trigger1 = Var(5) = 1017
-trigger1 = RoundState > 2 && playerid(getplayerid(1)),Pos Y > -1
+trigger1 = RoundState > 2 && player(1),Pos Y > -1
 type = PosSet
 y = -1
-RedirectID = playerid(getplayerid(1)),ID
+RedirectID = player(1),ID
 [State 701, LandIfOver]
-trigger1 = Var(5) = 1017 && playerid(getplayerid(1)),Pos X > 200
+trigger1 = Var(5) = 1017 && player(1),Pos X > 200
 type = PosSet
 x = 200
-RedirectID = playerid(getplayerid(1)),ID
+RedirectID = player(1),ID
 [State 701, LandIfOver]
-trigger1 = Var(5) = 1017 && playerid(getplayerid(1)),Pos X < -200
+trigger1 = Var(5) = 1017 && player(1),Pos X < -200
 type = PosSet
 x = -200
-RedirectID = playerid(getplayerid(1)),ID
+RedirectID = player(1),ID
 [State 701, LandIfOver]
 trigger1 = RoundState > 2 && Var(5) = [1,1013]
-trigger2 = Var(5) = 1017 && playerid(getplayerid(1)),Pos Y < -10
+trigger2 = Var(5) = 1017 && player(1),Pos Y < -10
 type = VelSet
 y = 2
-RedirectID = playerid(getplayerid(1)),ID
+RedirectID = player(1),ID
 [State 701, ReturnToNormal];
 Triggerall = Var(5) = 1018
-Trigger1 = playerid(getplayerid(1)),StateNo = 0 && playerid(getplayerid(1)),Pos Y < -1
-Trigger2 = playerid(getplayerid(1)),InCustomState = 1
+Trigger1 = player(1),StateNo = 0 && player(1),Pos Y < -1
+Trigger2 = player(1),InCustomState = 1
 type = SelfState
 Value = 50
-RedirectID = playerid(getplayerid(1)),ID
+RedirectID = player(1),ID
 [State 701, ReturnToNormal];
-Trigger1 = Var(5) = 1018 && playerid(getplayerid(1)),Pos Y >= 0
+Trigger1 = Var(5) = 1018 && player(1),Pos Y >= 0
 type = StateTypeSet
 Value = S
-RedirectID = playerid(getplayerid(1)),ID
+RedirectID = player(1),ID
 
 ;END P1--------------------------------------------
 ;----------------------------------------------------------------------------------------------------------------------------------------
@@ -3367,190 +3367,190 @@ RedirectID = playerid(getplayerid(1)),ID
 ;GO INTO THE AIR
 [State 701, FlyABit];
 Triggerall = Var(1) > 2 && Var(5) = [1,1013]
-trigger1 = playerid(getplayerId(2)),Pos Y >= -15
+trigger1 = player(2),Pos Y >= -15
 type = PosSet
 y = -16
-RedirectID = playerid(getplayerId(2)),ID
+RedirectID = player(2),ID
 [State 701, FlyABit];
 Trigger1 = Var(1) > 2
 Trigger1 = Var(5) = 1
 persistent = 0
 type = VelSet;Fly a bit
 y = -0.6
-RedirectID = playerid(getplayerId(2)),ID
+RedirectID = player(2),ID
 [State 701, Float];
 Triggerall = (Var(1) > 2 && Var(5) = [1,1013]) || Var(5) = 1020
-trigger1 = playerid(getplayerId(2)),Pos Y >= -20
-Trigger2 = playerid(getplayerId(2)),hitfall = 1;If ye fell
+trigger1 = player(2),Pos Y >= -20
+Trigger2 = player(2),hitfall = 1;If ye fell
 type = VelSet
 y = 0
-RedirectID = playerid(getplayerId(2)),ID
+RedirectID = player(2),ID
 [State 701, ForceFly];
-Triggerall = Var(5) = [1,1013] && playerid(getplayerid(2)),Anim != 41
-Trigger1 = playerid(getplayerId(2)),Anim = 0 || playerid(getplayerId(2)),Anim = 20 || playerid(getplayerId(2)),Anim = 21 || playerid(getplayerId(2)),Anim = 11 || playerid(getplayerId(2)),Anim = 12 || playerid(getplayerId(2)),StateNo = 0 || playerid(getplayerId(2)),Ctrl = 1
+Triggerall = Var(5) = [1,1013] && player(2),Anim != 41
+Trigger1 = player(2),Anim = 0 || player(2),Anim = 20 || player(2),Anim = 21 || player(2),Anim = 11 || player(2),Anim = 12 || player(2),StateNo = 0 || player(2),Ctrl = 1
 type = ChangeAnim
 Value = 41
-RedirectID = playerid(getplayerId(2)),ID
+RedirectID = player(2),ID
 [State 701, ForceFly];
-Triggerall = Var(5) = [1,1013] && playerid(getplayerid(2)),Anim != 44 
-trigger1 = playerid(getplayerid(2)),SelfAnimExist(44) = 1
-Trigger1 = playerid(getplayerId(2)),Anim = 0 || playerid(getplayerId(2)),Anim = 20 || playerid(getplayerId(2)),Anim = 21 || playerid(getplayerId(2)),Anim = 11 || playerid(getplayerId(2)),Anim = 12 || playerid(getplayerId(2)),StateNo = 0 || playerid(getplayerId(2)),Ctrl = 1
+Triggerall = Var(5) = [1,1013] && player(2),Anim != 44 
+trigger1 = player(2),SelfAnimExist(44) = 1
+Trigger1 = player(2),Anim = 0 || player(2),Anim = 20 || player(2),Anim = 21 || player(2),Anim = 11 || player(2),Anim = 12 || player(2),StateNo = 0 || player(2),Ctrl = 1
 type = ChangeAnim
 Value = 44
-RedirectID = playerid(getplayerid(2)),ID
+RedirectID = player(2),ID
 [State 701, ForceFlyFallen];
 Trigger1 = Var(5) > 0
-Trigger1 = playerid(getplayerId(2)),StateNo = 5100 || playerid(getplayerId(2)),StateNo = 5110 || playerid(getplayerId(2)),StateNo = 5120
+Trigger1 = player(2),StateNo = 5100 || player(2),StateNo = 5110 || player(2),StateNo = 5120
 type = ChangeState
 Value = 5040
-RedirectID = playerid(getplayerId(2)),ID
+RedirectID = player(2),ID
 [State 701, ForceFly];
 Trigger1 = Var(5) = [1,1013]
 type = StateTypeSet
 Value = A
-RedirectID = playerid(getplayerId(2)),ID
+RedirectID = player(2),ID
 
 ;WHILE IN AIR
 [State 701, ForceRecoveryInAir]
 Triggerall = Var(1) > 2 && Var(5) = [10,1013]
-Trigger1 = playerid(getplayerId(2)),Ctrl = 0;has no control
-Trigger1 = playerid(getplayerId(2)),hitfall = 1 || playerid(getplayerId(2)),InCustomState = 1;fell
+Trigger1 = player(2),Ctrl = 0;has no control
+Trigger1 = player(2),hitfall = 1 || player(2),InCustomState = 1;fell
 Trigger2 = Var(5) < 10;beginning of the fall
-trigger3 = playerid(getplayerId(2)),AnimTime = 0 && playerid(getplayerId(2)),Time > 1
-trigger4 = playerid(getplayerId(2)),AnimElemLength = -1
+trigger3 = player(2),AnimTime = 0 && player(2),Time > 1
+trigger4 = player(2),Time > 60 ;(antes AnimElemLength, no existe en Ikemen 1.0)
 type = CtrlSet
 value = 1
-RedirectID = playerid(getplayerId(2)),ID
+RedirectID = player(2),ID
 [State StopWhatYouDo]
 type=AssertSpecial
 trigger1= Var(5) = [1,1013]
 flag = NoAirJump
 flag2 = NoStand
 flag3 = NoCrouch
-RedirectID = playerid(getplayerId(2)),ID
+RedirectID = player(2),ID
 
 [State TurnAround]
 Trigger1 = Var(1) > 2 && Var(5) = [10,1016]
-trigger1 = playerid(getplayerId(2)),Command = "start" && playerid(getplayerId(2)),Command = "holdback"
+trigger1 = player(2),Command = "start" && player(2),Command = "holdback"
 type = Turn
-RedirectID = playerid(getplayerId(2)),ID
+RedirectID = player(2),ID
 
 [State Inertia]
 Trigger1 = Var(1) > 2 && Var(5) = [10,1016]
-trigger1 = playerid(getplayerId(2)),Command = "holdfwd";Required (do not remove)
-trigger1 = playerid(getplayerId(2)),Vel X < 3
+trigger1 = player(2),Command = "holdfwd";Required (do not remove)
+trigger1 = player(2),Vel X < 3
 type = VelAdd
 x = 0.25
-RedirectID = playerid(getplayerId(2)),ID
+RedirectID = player(2),ID
 [State Inertia]
 Trigger1 = Var(1) > 2 && Var(5) = [10,1016]
-trigger1 = playerid(getplayerId(2)),Command = "holdback";Required (do not remove)
-trigger1 = playerid(getplayerId(2)),Vel X > -3
+trigger1 = player(2),Command = "holdback";Required (do not remove)
+trigger1 = player(2),Vel X > -3
 type = VelAdd
 x = -0.25
-RedirectID = playerid(getplayerId(2)),ID
+RedirectID = player(2),ID
 [State Inertia]
 Trigger1 = Var(1) > 2 && Var(5) = [10,1016]
-Trigger1 = playerid(getplayerId(2)),Command != "holdup" 
-trigger1 = playerid(getplayerId(2)),Command != "holddown"
+Trigger1 = player(2),Command != "holdup" 
+trigger1 = player(2),Command != "holddown"
 type = VelSet
 y = 0.3
-RedirectID = playerid(getplayerId(2)),ID
+RedirectID = player(2),ID
 [State Inertia]
 Trigger1 = Var(1) > 2 && Var(5) = [10,1016]
-trigger1 = playerid(getplayerId(2)),Command = "holdup"
-trigger1 = playerid(getplayerId(2)),Pos Y > -200
-trigger1 = playerid(getplayerId(2)),Vel Y > -1.5
+trigger1 = player(2),Command = "holdup"
+trigger1 = player(2),Pos Y > -200
+trigger1 = player(2),Vel Y > -1.5
 type = VelAdd
 y = -0.5
-RedirectID = playerid(getplayerId(2)),ID
+RedirectID = player(2),ID
 [State Inertia]
 Trigger1 = Var(1) > 2 && Var(5) = [10,1016]
-trigger1 = playerid(getplayerId(2)),Command = "holddown";Required (do not remove)
-trigger1 = playerid(getplayerId(2)),Pos Y < -3
+trigger1 = player(2),Command = "holddown";Required (do not remove)
+trigger1 = player(2),Pos Y < -3
 type = VelSet
 y = 0.85
-RedirectID = playerid(getplayerId(2)),ID
+RedirectID = player(2),ID
 
 [State 701, Stahp]
 Trigger1 = Var(1) > 2 && Var(5) = [10,1016]
-trigger1 = playerid(getplayerId(2)),Pos Y < -200
+trigger1 = player(2),Pos Y < -200
 type = PosSet
 y = -200
-RedirectID = playerid(getplayerId(2)),ID
+RedirectID = player(2),ID
 [State 701, Stahp]
 Trigger1 = Var(1) > 2 && Var(5) = [10,1016]
-trigger1 = playerid(getplayerId(2)),Pos X < -200
+trigger1 = player(2),Pos X < -200
 type = PosSet
 x = -200
 [State 701, Stahp]
 Trigger1 = Var(1) > 2 && Var(5) = [10,1016]
-trigger1 = playerid(getplayerId(2)),Pos X > 200
+trigger1 = player(2),Pos X > 200
 type = PosSet
 x = 200
-RedirectID = playerid(getplayerId(2)),ID
+RedirectID = player(2),ID
 
 [State Lookdead]
 Trigger1 = Var(1) > 2 && Var(5) = [10,1016]
-Trigger1 = playerid(getplayerId(2)),Alive = 0 
-trigger1 = playerid(getplayerId(2)),SelfAnimExist(5160) = 1
-trigger1 = playerid(getplayerId(2)),Anim != 5160
+Trigger1 = player(2),Alive = 0 
+trigger1 = player(2),SelfAnimExist(5160) = 1
+trigger1 = player(2),Anim != 5160
 type = ChangeAnim 
 value = 5160
-RedirectID = playerid(getplayerId(2)),ID
+RedirectID = player(2),ID
 [State LandDead]
 Trigger1 = Var(1) > 2 && Var(5) = 1018
-Trigger1 = playerid(getplayerId(2)),Alive = 0 
+Trigger1 = player(2),Alive = 0 
 type = PosSet
 y = 0
-RedirectID = playerid(getplayerId(2)),ID
+RedirectID = player(2),ID
 [State LandDead]
 Trigger1 = Var(1) > 2 && Var(5) = 1018
-Trigger1 = playerid(getplayerId(2)),Alive = 0 
+Trigger1 = player(2),Alive = 0 
 type = ChangeAnim 
 value = 5110
-RedirectID = playerid(getplayerId(2)),ID
+RedirectID = player(2),ID
 
 ;LANDING
 [State 701, Looklikefalling]
-trigger1 = Var(5) > 1013 && playerid(getplayerId(2)),Alive = 1
+trigger1 = Var(5) > 1013 && player(2),Alive = 1
 type = ChangeAnim
 value = 47
-RedirectID = playerid(getplayerId(2)),ID
+RedirectID = player(2),ID
 [State 701, LandIfOver]
 trigger1 = Var(5) = 1017
-trigger1 = RoundState > 2 && playerid(getplayerId(2)),Pos Y > -1
+trigger1 = RoundState > 2 && player(2),Pos Y > -1
 type = PosSet
 y = -1
-RedirectID = playerid(getplayerId(2)),ID
+RedirectID = player(2),ID
 [State 701, LandIfOver]
-trigger1 = Var(5) = 1017 && playerid(getplayerId(2)),Pos X > 200
+trigger1 = Var(5) = 1017 && player(2),Pos X > 200
 type = PosSet
 x = 200
-RedirectID = playerid(getplayerId(2)),ID
+RedirectID = player(2),ID
 [State 701, LandIfOver]
-trigger1 = Var(5) = 1017 && playerid(getplayerId(2)),Pos X < -200
+trigger1 = Var(5) = 1017 && player(2),Pos X < -200
 type = PosSet
 x = -200
-RedirectID = playerid(getplayerId(2)),ID
+RedirectID = player(2),ID
 [State 701, LandIfOver]
 trigger1 = RoundState > 2 && Var(5) = [1,1013]
-trigger2 = Var(5) = 1017 && playerid(getplayerId(2)),Pos Y < -10
+trigger2 = Var(5) = 1017 && player(2),Pos Y < -10
 type = VelSet
 y = 2
-RedirectID = playerid(getplayerId(2)),ID
+RedirectID = player(2),ID
 [State 701, ReturnToNormal];
 Triggerall = Var(5) = 1018
-Trigger1 = playerid(getplayerId(2)),StateNo = 0 && playerid(getplayerId(2)),Pos Y < -1
-Trigger2 = playerid(getplayerId(2)),InCustomState = 1
+Trigger1 = player(2),StateNo = 0 && player(2),Pos Y < -1
+Trigger2 = player(2),InCustomState = 1
 type = SelfState
 Value = 50
-RedirectID = playerid(getplayerId(2)),ID
+RedirectID = player(2),ID
 [State 701, ReturnToNormal];
-Trigger1 = Var(5) = 1018 && playerid(getplayerId(2)),Pos Y >= 0
+Trigger1 = Var(5) = 1018 && player(2),Pos Y >= 0
 type = StateTypeSet
 Value = S
-RedirectID = playerid(getplayerId(2)),ID
+RedirectID = player(2),ID
 
 ;END P2--------------------------------------------
 ;----------------------------------------------------------------------------------------------------------------------------------------
@@ -3558,190 +3558,190 @@ RedirectID = playerid(getplayerId(2)),ID
 ;GO INTO THE AIR
 [State 701, FlyABit];
 Triggerall = Var(1) > 2 && Var(5) = [1,1013]
-trigger1 = playerid(getplayerId(3)),Pos Y >= -15
+trigger1 = player(3),Pos Y >= -15
 type = PosSet
 y = -16
-RedirectID = playerid(getplayerId(3)),ID
+RedirectID = player(3),ID
 [State 701, FlyABit];
 Trigger1 = Var(1) > 2
 Trigger1 = Var(5) = 1
 persistent = 0
 type = VelSet;Fly a bit
 y = -0.6
-RedirectID = playerid(getplayerId(3)),ID
+RedirectID = player(3),ID
 [State 701, Float];
 Triggerall = (Var(1) > 2 && Var(5) = [1,1013]) || Var(5) = 1020
-trigger1 = playerid(getplayerId(3)),Pos Y >= -20
-Trigger2 = playerid(getplayerId(3)),hitfall = 1;If ye fell
+trigger1 = player(3),Pos Y >= -20
+Trigger2 = player(3),hitfall = 1;If ye fell
 type = VelSet
 y = 0
-RedirectID = playerid(getplayerId(3)),ID
+RedirectID = player(3),ID
 [State 701, ForceFly];
-Triggerall = Var(5) = [1,1013] && playerid(getplayerid(3)),Anim != 41
-Trigger1 = playerid(getplayerId(3)),Anim = 0 || playerid(getplayerId(3)),Anim = 20 || playerid(getplayerId(3)),Anim = 21 || playerid(getplayerId(3)),Anim = 11 || playerid(getplayerId(3)),Anim = 12 || playerid(getplayerId(3)),StateNo = 0 || playerid(getplayerId(3)),Ctrl = 1
+Triggerall = Var(5) = [1,1013] && player(3),Anim != 41
+Trigger1 = player(3),Anim = 0 || player(3),Anim = 20 || player(3),Anim = 21 || player(3),Anim = 11 || player(3),Anim = 12 || player(3),StateNo = 0 || player(3),Ctrl = 1
 type = ChangeAnim
 Value = 41
-RedirectID = playerid(getplayerId(3)),ID
+RedirectID = player(3),ID
 [State 701, ForceFly];
-Triggerall = Var(5) = [1,1013] && playerid(getplayerid(3)),Anim != 44
-Trigger1 = playerid(getplayerId(3)),Anim = 0 || playerid(getplayerId(3)),Anim = 20 || playerid(getplayerId(3)),Anim = 21 || playerid(getplayerId(3)),Anim = 11 || playerid(getplayerId(3)),Anim = 12 || playerid(getplayerId(3)),StateNo = 0 || playerid(getplayerId(3)),Ctrl = 1
-trigger1 = playerid(getplayerid(3)),SelfAnimExist(44) = 1
+Triggerall = Var(5) = [1,1013] && player(3),Anim != 44
+Trigger1 = player(3),Anim = 0 || player(3),Anim = 20 || player(3),Anim = 21 || player(3),Anim = 11 || player(3),Anim = 12 || player(3),StateNo = 0 || player(3),Ctrl = 1
+trigger1 = player(3),SelfAnimExist(44) = 1
 type = ChangeAnim
 Value = 44
-RedirectID = playerid(getplayerid(3)),ID
+RedirectID = player(3),ID
 [State 701, ForceFlyFallen];
 Trigger1 = Var(5) > 0
-Trigger1 = playerid(getplayerId(3)),StateNo = 5100 || playerid(getplayerId(3)),StateNo = 5110 || playerid(getplayerId(3)),StateNo = 5120
+Trigger1 = player(3),StateNo = 5100 || player(3),StateNo = 5110 || player(3),StateNo = 5120
 type = ChangeState
 Value = 5040
-RedirectID = playerid(getplayerId(3)),ID
+RedirectID = player(3),ID
 [State 701, ForceFly];
 Trigger1 = Var(5) = [1,1013]
 type = StateTypeSet
 Value = A
-RedirectID = playerid(getplayerId(3)),ID
+RedirectID = player(3),ID
 
 ;WHILE IN AIR
 [State 701, ForceRecoveryInAir]
 Triggerall = Var(1) > 2 && Var(5) = [10,1013]
-Trigger1 = playerid(getplayerId(3)),Ctrl = 0;has no control
-Trigger1 = playerid(getplayerId(3)),hitfall = 1 || playerid(getplayerId(3)),InCustomState = 1;fell
+Trigger1 = player(3),Ctrl = 0;has no control
+Trigger1 = player(3),hitfall = 1 || player(3),InCustomState = 1;fell
 Trigger2 = Var(5) < 10;beginning of the fall
-trigger3 = playerid(getplayerId(3)),AnimTime = 0 && playerid(getplayerId(3)),Time > 1
-trigger4 = playerid(getplayerId(3)),AnimElemLength = -1
+trigger3 = player(3),AnimTime = 0 && player(3),Time > 1
+trigger4 = player(3),Time > 60 ;(antes AnimElemLength, no existe en Ikemen 1.0)
 type = CtrlSet
 value = 1
-RedirectID = playerid(getplayerId(3)),ID
+RedirectID = player(3),ID
 [State StopWhatYouDo]
 type=AssertSpecial
 trigger1= Var(5) = [1,1013]
 flag = NoAirJump
 flag2 = NoStand
 flag3 = NoCrouch
-RedirectID = playerid(getplayerId(3)),ID
+RedirectID = player(3),ID
 
 [State TurnAround]
 Trigger1 = Var(1) > 2 && Var(5) = [10,1016]
-trigger1 = playerid(getplayerId(3)),Command = "start" && playerid(getplayerId(3)),Command = "holdback"
+trigger1 = player(3),Command = "start" && player(3),Command = "holdback"
 type = Turn
-RedirectID = playerid(getplayerId(3)),ID
+RedirectID = player(3),ID
 
 [State Inertia]
 Trigger1 = Var(1) > 2 && Var(5) = [10,1016]
-trigger1 = playerid(getplayerId(3)),Command = "holdfwd";Required (do not remove)
-trigger1 = playerid(getplayerId(3)),Vel X < 3
+trigger1 = player(3),Command = "holdfwd";Required (do not remove)
+trigger1 = player(3),Vel X < 3
 type = VelAdd
 x = 0.25
-RedirectID = playerid(getplayerId(3)),ID
+RedirectID = player(3),ID
 [State Inertia]
 Trigger1 = Var(1) > 2 && Var(5) = [10,1016]
-trigger1 = playerid(getplayerId(3)),Command = "holdback";Required (do not remove)
-trigger1 = playerid(getplayerId(3)),Vel X > -3
+trigger1 = player(3),Command = "holdback";Required (do not remove)
+trigger1 = player(3),Vel X > -3
 type = VelAdd
 x = -0.25
-RedirectID = playerid(getplayerId(3)),ID
+RedirectID = player(3),ID
 [State Inertia]
 Trigger1 = Var(1) > 2 && Var(5) = [10,1016]
-Trigger1 = playerid(getplayerId(3)),Command != "holdup" 
-trigger1 = playerid(getplayerId(3)),Command != "holddown"
+Trigger1 = player(3),Command != "holdup" 
+trigger1 = player(3),Command != "holddown"
 type = VelSet
 y = 0.3
-RedirectID = playerid(getplayerId(3)),ID
+RedirectID = player(3),ID
 [State Inertia]
 Trigger1 = Var(1) > 2 && Var(5) = [10,1016]
-trigger1 = playerid(getplayerId(3)),Command = "holdup"
-trigger1 = playerid(getplayerId(3)),Pos Y > -200
-trigger1 = playerid(getplayerId(3)),Vel Y > -1.5
+trigger1 = player(3),Command = "holdup"
+trigger1 = player(3),Pos Y > -200
+trigger1 = player(3),Vel Y > -1.5
 type = VelAdd
 y = -0.5
-RedirectID = playerid(getplayerId(3)),ID
+RedirectID = player(3),ID
 [State Inertia]
 Trigger1 = Var(1) > 2 && Var(5) = [10,1016]
-trigger1 = playerid(getplayerId(3)),Command = "holddown";Required (do not remove)
-trigger1 = playerid(getplayerId(3)),Pos Y < -3
+trigger1 = player(3),Command = "holddown";Required (do not remove)
+trigger1 = player(3),Pos Y < -3
 type = VelSet
 y = 0.85
-RedirectID = playerid(getplayerId(3)),ID
+RedirectID = player(3),ID
 
 [State 701, Stahp]
 Trigger1 = Var(1) > 2 && Var(5) = [10,1016]
-trigger1 = playerid(getplayerId(3)),Pos Y < -200
+trigger1 = player(3),Pos Y < -200
 type = PosSet
 y = -200
-RedirectID = playerid(getplayerId(3)),ID
+RedirectID = player(3),ID
 [State 701, Stahp]
 Trigger1 = Var(1) > 2 && Var(5) = [10,1016]
-trigger1 = playerid(getplayerId(3)),Pos X < -200
+trigger1 = player(3),Pos X < -200
 type = PosSet
 x = -200
 [State 701, Stahp]
 Trigger1 = Var(1) > 2 && Var(5) = [10,1016]
-trigger1 = playerid(getplayerId(3)),Pos X > 200
+trigger1 = player(3),Pos X > 200
 type = PosSet
 x = 200
-RedirectID = playerid(getplayerId(3)),ID
+RedirectID = player(3),ID
 
 [State Lookdead]
 Trigger1 = Var(1) > 2 && Var(5) = [10,1016]
-Trigger1 = playerid(getplayerId(3)),Alive = 0 
-trigger1 = playerid(getplayerId(3)),SelfAnimExist(5160) = 1
-trigger1 = playerid(getplayerId(3)),Anim != 5160
+Trigger1 = player(3),Alive = 0 
+trigger1 = player(3),SelfAnimExist(5160) = 1
+trigger1 = player(3),Anim != 5160
 type = ChangeAnim 
 value = 5160
-RedirectID = playerid(getplayerId(3)),ID
+RedirectID = player(3),ID
 [State LandDead]
 Trigger1 = Var(1) > 2 && Var(5) = 1018
-Trigger1 = playerid(getplayerId(3)),Alive = 0 
+Trigger1 = player(3),Alive = 0 
 type = PosSet
 y = 0
-RedirectID = playerid(getplayerId(3)),ID
+RedirectID = player(3),ID
 [State LandDead]
 Trigger1 = Var(1) > 2 && Var(5) = 1018
-Trigger1 = playerid(getplayerId(3)),Alive = 0 
+Trigger1 = player(3),Alive = 0 
 type = ChangeAnim 
 value = 5110
-RedirectID = playerid(getplayerId(3)),ID
+RedirectID = player(3),ID
 
 ;LANDING
 [State 701, Looklikefalling]
-trigger1 = Var(5) > 1013 && playerid(getplayerId(3)),Alive = 1
+trigger1 = Var(5) > 1013 && player(3),Alive = 1
 type = ChangeAnim
 value = 47
-RedirectID = playerid(getplayerId(3)),ID
+RedirectID = player(3),ID
 [State 701, LandIfOver]
 trigger1 = Var(5) = 1017
-trigger1 = RoundState > 2 && playerid(getplayerId(3)),Pos Y > -1
+trigger1 = RoundState > 2 && player(3),Pos Y > -1
 type = PosSet
 y = -1
-RedirectID = playerid(getplayerId(3)),ID
+RedirectID = player(3),ID
 [State 701, LandIfOver]
-trigger1 = Var(5) = 1017 && playerid(getplayerId(3)),Pos X > 200
+trigger1 = Var(5) = 1017 && player(3),Pos X > 200
 type = PosSet
 x = 200
-RedirectID = playerid(getplayerId(3)),ID
+RedirectID = player(3),ID
 [State 701, LandIfOver]
-trigger1 = Var(5) = 1017 && playerid(getplayerId(3)),Pos X < -200
+trigger1 = Var(5) = 1017 && player(3),Pos X < -200
 type = PosSet
 x = -200
-RedirectID = playerid(getplayerId(3)),ID
+RedirectID = player(3),ID
 [State 701, LandIfOver]
 trigger1 = RoundState > 2 && Var(5) = [1,1013]
-trigger2 = Var(5) = 1017 && playerid(getplayerId(3)),Pos Y < -10
+trigger2 = Var(5) = 1017 && player(3),Pos Y < -10
 type = VelSet
 y = 2
-RedirectID = playerid(getplayerId(3)),ID
+RedirectID = player(3),ID
 [State 701, ReturnToNormal];
 Triggerall = Var(5) = 1018
-Trigger1 = playerid(getplayerId(3)),StateNo = 0 && playerid(getplayerId(3)),Pos Y < -1
-Trigger2 = playerid(getplayerId(3)),InCustomState = 1
+Trigger1 = player(3),StateNo = 0 && player(3),Pos Y < -1
+Trigger2 = player(3),InCustomState = 1
 type = SelfState
 Value = 50
-RedirectID = playerid(getplayerId(3)),ID
+RedirectID = player(3),ID
 [State 701, ReturnToNormal];
-Trigger1 = Var(5) = 1018 && playerid(getplayerId(3)),Pos Y >= 0
+Trigger1 = Var(5) = 1018 && player(3),Pos Y >= 0
 type = StateTypeSet
 Value = S
-RedirectID = playerid(getplayerId(3)),ID
+RedirectID = player(3),ID
 
 ;END P3--------------------------------------------
 ;----------------------------------------------------------------------------------------------------------------------------------------
@@ -3749,950 +3749,950 @@ RedirectID = playerid(getplayerId(3)),ID
 ;GO INTO THE AIR
 [State 701, FlyABit];
 Triggerall = Var(1) > 2 && Var(5) = [1,1013]
-trigger1 = playerid(getplayerId(4)),Pos Y >= -15
+trigger1 = player(4),Pos Y >= -15
 type = PosSet
 y = -16
-RedirectID = playerid(getplayerId(4)),ID
+RedirectID = player(4),ID
 [State 701, FlyABit];
 Trigger1 = Var(1) > 2
 Trigger1 = Var(5) = 1
 persistent = 0
 type = VelSet;Fly a bit
 y = -0.6
-RedirectID = playerid(getplayerId(4)),ID
+RedirectID = player(4),ID
 [State 701, Float];
 Triggerall = (Var(1) > 2 && Var(5) = [1,1013]) || Var(5) = 1020
-trigger1 = playerid(getplayerId(4)),Pos Y >= -20
-Trigger2 = playerid(getplayerId(4)),hitfall = 1;If ye fell
+trigger1 = player(4),Pos Y >= -20
+Trigger2 = player(4),hitfall = 1;If ye fell
 type = VelSet
 y = 0
-RedirectID = playerid(getplayerId(4)),ID
+RedirectID = player(4),ID
 [State 701, ForceFly];
-Triggerall = Var(5) = [1,1013] && playerid(getplayerid(4)),Anim != 41
-Trigger1 = playerid(getplayerId(4)),Anim = 0 || playerid(getplayerId(4)),Anim = 20 || playerid(getplayerId(4)),Anim = 21 || playerid(getplayerId(4)),Anim = 11 || playerid(getplayerId(4)),Anim = 12 || playerid(getplayerId(4)),StateNo = 0 || playerid(getplayerId(4)),Ctrl = 1
+Triggerall = Var(5) = [1,1013] && player(4),Anim != 41
+Trigger1 = player(4),Anim = 0 || player(4),Anim = 20 || player(4),Anim = 21 || player(4),Anim = 11 || player(4),Anim = 12 || player(4),StateNo = 0 || player(4),Ctrl = 1
 type = ChangeAnim
 Value = 41
-RedirectID = playerid(getplayerId(4)),ID
+RedirectID = player(4),ID
 [State 701, ForceFly];
-Triggerall = Var(5) = [1,1013] && playerid(getplayerid(4)),Anim != 41
-trigger1 = playerid(getplayerid(4)),SelfAnimExist(44) = 1
-Trigger1 = playerid(getplayerId(4)),Anim = 0 || playerid(getplayerId(4)),Anim = 20 || playerid(getplayerId(4)),Anim = 21 || playerid(getplayerId(4)),Anim = 11 || playerid(getplayerId(4)),Anim = 12 || playerid(getplayerId(4)),StateNo = 0 || playerid(getplayerId(4)),Ctrl = 1
+Triggerall = Var(5) = [1,1013] && player(4),Anim != 41
+trigger1 = player(4),SelfAnimExist(44) = 1
+Trigger1 = player(4),Anim = 0 || player(4),Anim = 20 || player(4),Anim = 21 || player(4),Anim = 11 || player(4),Anim = 12 || player(4),StateNo = 0 || player(4),Ctrl = 1
 type = ChangeAnim
 Value = 44
-RedirectID = playerid(getplayerId(4)),ID
+RedirectID = player(4),ID
 [State 701, ForceFlyFallen];
 Trigger1 = Var(5) > 0
-Trigger1 = playerid(getplayerId(4)),StateNo = 5100 || playerid(getplayerId(4)),StateNo = 5110 || playerid(getplayerId(4)),StateNo = 5120
+Trigger1 = player(4),StateNo = 5100 || player(4),StateNo = 5110 || player(4),StateNo = 5120
 type = ChangeState
 Value = 5040
-RedirectID = playerid(getplayerId(4)),ID
+RedirectID = player(4),ID
 [State 701, ForceFly];
 Trigger1 = Var(5) = [1,1013]
 type = StateTypeSet
 Value = A
-RedirectID = playerid(getplayerId(4)),ID
+RedirectID = player(4),ID
 
 ;WHILE IN AIR
 [State 701, ForceRecoveryInAir]
 Triggerall = Var(1) > 2 && Var(5) = [10,1013]
-Trigger1 = playerid(getplayerId(4)),Ctrl = 0;has no control
-Trigger1 = playerid(getplayerId(4)),hitfall = 1 || playerid(getplayerId(4)),InCustomState = 1;fell
+Trigger1 = player(4),Ctrl = 0;has no control
+Trigger1 = player(4),hitfall = 1 || player(4),InCustomState = 1;fell
 Trigger2 = Var(5) < 10;beginning of the fall
-trigger3 = playerid(getplayerId(4)),AnimTime = 0 && playerid(getplayerId(4)),Time > 1
-trigger4 = playerid(getplayerId(4)),AnimElemLength = -1
+trigger3 = player(4),AnimTime = 0 && player(4),Time > 1
+trigger4 = player(4),Time > 60 ;(antes AnimElemLength, no existe en Ikemen 1.0)
 type = CtrlSet
 value = 1
-RedirectID = playerid(getplayerId(4)),ID
+RedirectID = player(4),ID
 [State StopWhatYouDo]
 type=AssertSpecial
 trigger1= Var(5) = [1,1013]
 flag = NoAirJump
 flag2 = NoStand
 flag3 = NoCrouch
-RedirectID = playerid(getplayerId(4)),ID
+RedirectID = player(4),ID
 
 [State TurnAround]
 Trigger1 = Var(1) > 2 && Var(5) = [10,1016]
-trigger1 = playerid(getplayerId(4)),Command = "start" && playerid(getplayerId(4)),Command = "holdback"
+trigger1 = player(4),Command = "start" && player(4),Command = "holdback"
 type = Turn
-RedirectID = playerid(getplayerId(4)),ID
+RedirectID = player(4),ID
 
 [State Inertia]
 Trigger1 = Var(1) > 2 && Var(5) = [10,1016]
-trigger1 = playerid(getplayerId(4)),Command = "holdfwd";Required (do not remove)
-trigger1 = playerid(getplayerId(4)),Vel X < 3
+trigger1 = player(4),Command = "holdfwd";Required (do not remove)
+trigger1 = player(4),Vel X < 3
 type = VelAdd
 x = 0.25
-RedirectID = playerid(getplayerId(4)),ID
+RedirectID = player(4),ID
 [State Inertia]
 Trigger1 = Var(1) > 2 && Var(5) = [10,1016]
-trigger1 = playerid(getplayerId(4)),Command = "holdback";Required (do not remove)
-trigger1 = playerid(getplayerId(4)),Vel X > -3
+trigger1 = player(4),Command = "holdback";Required (do not remove)
+trigger1 = player(4),Vel X > -3
 type = VelAdd
 x = -0.25
-RedirectID = playerid(getplayerId(4)),ID
+RedirectID = player(4),ID
 [State Inertia]
 Trigger1 = Var(1) > 2 && Var(5) = [10,1016]
-Trigger1 = playerid(getplayerId(4)),Command != "holdup" 
-trigger1 = playerid(getplayerId(4)),Command != "holddown"
+Trigger1 = player(4),Command != "holdup" 
+trigger1 = player(4),Command != "holddown"
 type = VelSet
 y = 0.3
-RedirectID = playerid(getplayerId(4)),ID
+RedirectID = player(4),ID
 [State Inertia]
 Trigger1 = Var(1) > 2 && Var(5) = [10,1016]
-trigger1 = playerid(getplayerId(4)),Command = "holdup"
-trigger1 = playerid(getplayerId(4)),Pos Y > -200
-trigger1 = playerid(getplayerId(4)),Vel Y > -1.5
+trigger1 = player(4),Command = "holdup"
+trigger1 = player(4),Pos Y > -200
+trigger1 = player(4),Vel Y > -1.5
 type = VelAdd
 y = -0.5
-RedirectID = playerid(getplayerId(4)),ID
+RedirectID = player(4),ID
 [State Inertia]
 Trigger1 = Var(1) > 2 && Var(5) = [10,1016]
-trigger1 = playerid(getplayerId(4)),Command = "holddown";Required (do not remove)
-trigger1 = playerid(getplayerId(4)),Pos Y < -3
+trigger1 = player(4),Command = "holddown";Required (do not remove)
+trigger1 = player(4),Pos Y < -3
 type = VelSet
 y = 0.85
-RedirectID = playerid(getplayerId(4)),ID
+RedirectID = player(4),ID
 
 [State 701, Stahp]
 Trigger1 = Var(1) > 2 && Var(5) = [10,1016]
-trigger1 = playerid(getplayerId(4)),Pos Y < -200
+trigger1 = player(4),Pos Y < -200
 type = PosSet
 y = -200
-RedirectID = playerid(getplayerId(4)),ID
+RedirectID = player(4),ID
 [State 701, Stahp]
 Trigger1 = Var(1) > 2 && Var(5) = [10,1016]
-trigger1 = playerid(getplayerId(4)),Pos X < -200
+trigger1 = player(4),Pos X < -200
 type = PosSet
 x = -200
 [State 701, Stahp]
 Trigger1 = Var(1) > 2 && Var(5) = [10,1016]
-trigger1 = playerid(getplayerId(4)),Pos X > 200
+trigger1 = player(4),Pos X > 200
 type = PosSet
 x = 200
-RedirectID = playerid(getplayerId(4)),ID
+RedirectID = player(4),ID
 
 [State Lookdead]
 Trigger1 = Var(1) > 2 && Var(5) = [10,1016]
-Trigger1 = playerid(getplayerId(4)),Alive = 0 
-trigger1 = playerid(getplayerId(4)),SelfAnimExist(5160) = 1
-trigger1 = playerid(getplayerId(4)),Anim != 5160
+Trigger1 = player(4),Alive = 0 
+trigger1 = player(4),SelfAnimExist(5160) = 1
+trigger1 = player(4),Anim != 5160
 type = ChangeAnim 
 value = 5160
-RedirectID = playerid(getplayerId(4)),ID
+RedirectID = player(4),ID
 [State LandDead]
 Trigger1 = Var(1) > 2 && Var(5) = 1018
-Trigger1 = playerid(getplayerId(4)),Alive = 0 
+Trigger1 = player(4),Alive = 0 
 type = PosSet
 y = 0
-RedirectID = playerid(getplayerId(4)),ID
+RedirectID = player(4),ID
 [State LandDead]
 Trigger1 = Var(1) > 2 && Var(5) = 1018
-Trigger1 = playerid(getplayerId(4)),Alive = 0 
+Trigger1 = player(4),Alive = 0 
 type = ChangeAnim 
 value = 5110
-RedirectID = playerid(getplayerId(4)),ID
+RedirectID = player(4),ID
 
 ;LANDING
 [State 701, Looklikefalling]
-trigger1 = Var(5) > 1013 && playerid(getplayerId(4)),Alive = 1
+trigger1 = Var(5) > 1013 && player(4),Alive = 1
 type = ChangeAnim
 value = 47
-RedirectID = playerid(getplayerId(4)),ID
+RedirectID = player(4),ID
 [State 701, LandIfOver]
 trigger1 = Var(5) = 1017
-trigger1 = RoundState > 2 && playerid(getplayerId(4)),Pos Y > -1
+trigger1 = RoundState > 2 && player(4),Pos Y > -1
 type = PosSet
 y = -1
-RedirectID = playerid(getplayerId(4)),ID
+RedirectID = player(4),ID
 [State 701, LandIfOver]
-trigger1 = Var(5) = 1017 && playerid(getplayerId(4)),Pos X > 200
+trigger1 = Var(5) = 1017 && player(4),Pos X > 200
 type = PosSet
 x = 200
-RedirectID = playerid(getplayerId(4)),ID
+RedirectID = player(4),ID
 [State 701, LandIfOver]
-trigger1 = Var(5) = 1017 && playerid(getplayerId(4)),Pos X < -200
+trigger1 = Var(5) = 1017 && player(4),Pos X < -200
 type = PosSet
 x = -200
-RedirectID = playerid(getplayerId(4)),ID
+RedirectID = player(4),ID
 [State 701, LandIfOver]
 trigger1 = RoundState > 2 && Var(5) = [1,1013]
-trigger2 = Var(5) = 1017 && playerid(getplayerId(4)),Pos Y < -10
+trigger2 = Var(5) = 1017 && player(4),Pos Y < -10
 type = VelSet
 y = 2
-RedirectID = playerid(getplayerId(4)),ID
+RedirectID = player(4),ID
 [State 701, ReturnToNormal];
 Triggerall = Var(5) = 1018
-Trigger1 = playerid(getplayerId(4)),StateNo = 0 && playerid(getplayerId(4)),Pos Y < -1
-Trigger2 = playerid(getplayerId(4)),InCustomState = 1
+Trigger1 = player(4),StateNo = 0 && player(4),Pos Y < -1
+Trigger2 = player(4),InCustomState = 1
 type = SelfState
 Value = 50
-RedirectID = playerid(getplayerId(4)),ID
+RedirectID = player(4),ID
 [State 701, ReturnToNormal];
-Trigger1 = Var(5) = 1018 && playerid(getplayerId(4)),Pos Y >= 0
+Trigger1 = Var(5) = 1018 && player(4),Pos Y >= 0
 type = StateTypeSet
 Value = S
-RedirectID = playerid(getplayerId(4)),ID
+RedirectID = player(4),ID
 ;END P4--------------------------------------------
 ;----------------------------------------------------------------------------------------------------------------------------------------
 ;P5
 ;GO INTO THE AIR
 [State 701, FlyABit];
 Triggerall = Var(1) > 2 && Var(5) = [1,1013]
-trigger1 = playerid(getplayerId(5)),Pos Y >= -15
+trigger1 = player(5),Pos Y >= -15
 type = PosSet
 y = -16
-RedirectID = playerid(getplayerId(5)),ID
+RedirectID = player(5),ID
 [State 701, FlyABit];
 Trigger1 = Var(1) > 2
 Trigger1 = Var(5) = 1
 persistent = 0
 type = VelSet;Fly a bit
 y = -0.6
-RedirectID = playerid(getplayerId(5)),ID
+RedirectID = player(5),ID
 [State 701, Float];
 Triggerall = (Var(1) > 2 && Var(5) = [1,1013]) || Var(5) = 1020
-trigger1 = playerid(getplayerId(5)),Pos Y >= -20
-Trigger2 = playerid(getplayerId(5)),hitfall = 1;If ye fell
+trigger1 = player(5),Pos Y >= -20
+Trigger2 = player(5),hitfall = 1;If ye fell
 type = VelSet
 y = 0
-RedirectID = playerid(getplayerId(5)),ID
+RedirectID = player(5),ID
 [State 701, ForceFly];
-Triggerall = Var(5) = [1,1013] && playerid(getplayerid(5)),Anim != 41
-Trigger1 = playerid(getplayerId(5)),Anim = 0 || playerid(getplayerId(5)),Anim = 20 || playerid(getplayerId(5)),Anim = 21 || playerid(getplayerId(5)),Anim = 11 || playerid(getplayerId(5)),Anim = 12 || playerid(getplayerId(5)),StateNo = 0 || playerid(getplayerId(5)),Ctrl = 1
+Triggerall = Var(5) = [1,1013] && player(5),Anim != 41
+Trigger1 = player(5),Anim = 0 || player(5),Anim = 20 || player(5),Anim = 21 || player(5),Anim = 11 || player(5),Anim = 12 || player(5),StateNo = 0 || player(5),Ctrl = 1
 type = ChangeAnim
 Value = 41
-RedirectID = playerid(getplayerId(5)),ID
+RedirectID = player(5),ID
 [State 701, ForceFly];
-Triggerall = Var(5) = [1,1013] && playerid(getplayerid(5)),Anim != 41
-Trigger1 = playerid(getplayerId(5)),Anim = 0 || playerid(getplayerId(5)),Anim = 20 || playerid(getplayerId(5)),Anim = 21 || playerid(getplayerId(5)),Anim = 11 || playerid(getplayerId(5)),Anim = 12 || playerid(getplayerId(5)),StateNo = 0 || playerid(getplayerId(5)),Ctrl = 1
-trigger1 = playerid(getplayerid(5)),SelfAnimExist(44) = 1
+Triggerall = Var(5) = [1,1013] && player(5),Anim != 41
+Trigger1 = player(5),Anim = 0 || player(5),Anim = 20 || player(5),Anim = 21 || player(5),Anim = 11 || player(5),Anim = 12 || player(5),StateNo = 0 || player(5),Ctrl = 1
+trigger1 = player(5),SelfAnimExist(44) = 1
 type = ChangeAnim
 Value = 44
-RedirectID = playerid(getplayerId(5)),ID
+RedirectID = player(5),ID
 [State 701, ForceFlyFallen];
 Trigger1 = Var(5) > 0
-Trigger1 = playerid(getplayerId(5)),StateNo = 5100 || playerid(getplayerId(5)),StateNo = 5110 || playerid(getplayerId(5)),StateNo = 5120
+Trigger1 = player(5),StateNo = 5100 || player(5),StateNo = 5110 || player(5),StateNo = 5120
 type = ChangeState
 Value = 5040
-RedirectID = playerid(getplayerId(5)),ID
+RedirectID = player(5),ID
 [State 701, ForceFly];
 Trigger1 = Var(5) = [1,1013]
 type = StateTypeSet
 Value = A
-RedirectID = playerid(getplayerId(5)),ID
+RedirectID = player(5),ID
 
 ;WHILE IN AIR
 [State 701, ForceRecoveryInAir]
 Triggerall = Var(1) > 2 && Var(5) = [10,1013]
-Trigger1 = playerid(getplayerId(5)),Ctrl = 0;has no control
-Trigger1 = playerid(getplayerId(5)),hitfall = 1 || playerid(getplayerId(5)),InCustomState = 1;fell
+Trigger1 = player(5),Ctrl = 0;has no control
+Trigger1 = player(5),hitfall = 1 || player(5),InCustomState = 1;fell
 Trigger2 = Var(5) < 10;beginning of the fall
-trigger3 = playerid(getplayerId(5)),AnimTime = 0 && playerid(getplayerId(5)),Time > 1
-trigger4 = playerid(getplayerId(5)),AnimElemLength = -1
+trigger3 = player(5),AnimTime = 0 && player(5),Time > 1
+trigger4 = player(5),Time > 60 ;(antes AnimElemLength, no existe en Ikemen 1.0)
 type = CtrlSet
 value = 1
-RedirectID = playerid(getplayerId(5)),ID
+RedirectID = player(5),ID
 [State StopWhatYouDo]
 type=AssertSpecial
 trigger1= Var(5) = [1,1013]
 flag = NoAirJump
 flag2 = NoStand
 flag3 = NoCrouch
-RedirectID = playerid(getplayerId(5)),ID
+RedirectID = player(5),ID
 
 [State TurnAround]
 Trigger1 = Var(1) > 2 && Var(5) = [10,1016]
-trigger1 = playerid(getplayerId(5)),Command = "start" && playerid(getplayerId(5)),Command = "holdback"
+trigger1 = player(5),Command = "start" && player(5),Command = "holdback"
 type = Turn
-RedirectID = playerid(getplayerId(5)),ID
+RedirectID = player(5),ID
 
 [State Inertia]
 Trigger1 = Var(1) > 2 && Var(5) = [10,1016]
-trigger1 = playerid(getplayerId(5)),Command = "holdfwd";Required (do not remove)
-trigger1 = playerid(getplayerId(5)),Vel X < 3
+trigger1 = player(5),Command = "holdfwd";Required (do not remove)
+trigger1 = player(5),Vel X < 3
 type = VelAdd
 x = 0.25
-RedirectID = playerid(getplayerId(5)),ID
+RedirectID = player(5),ID
 [State Inertia]
 Trigger1 = Var(1) > 2 && Var(5) = [10,1016]
-trigger1 = playerid(getplayerId(5)),Command = "holdback";Required (do not remove)
-trigger1 = playerid(getplayerId(5)),Vel X > -3
+trigger1 = player(5),Command = "holdback";Required (do not remove)
+trigger1 = player(5),Vel X > -3
 type = VelAdd
 x = -0.25
-RedirectID = playerid(getplayerId(5)),ID
+RedirectID = player(5),ID
 [State Inertia]
 Trigger1 = Var(1) > 2 && Var(5) = [10,1016]
-Trigger1 = playerid(getplayerId(5)),Command != "holdup" 
-trigger1 = playerid(getplayerId(5)),Command != "holddown"
+Trigger1 = player(5),Command != "holdup" 
+trigger1 = player(5),Command != "holddown"
 type = VelSet
 y = 0.3
-RedirectID = playerid(getplayerId(5)),ID
+RedirectID = player(5),ID
 [State Inertia]
 Trigger1 = Var(1) > 2 && Var(5) = [10,1016]
-trigger1 = playerid(getplayerId(5)),Command = "holdup"
-trigger1 = playerid(getplayerId(5)),Pos Y > -200
-trigger1 = playerid(getplayerId(5)),Vel Y > -1.5
+trigger1 = player(5),Command = "holdup"
+trigger1 = player(5),Pos Y > -200
+trigger1 = player(5),Vel Y > -1.5
 type = VelAdd
 y = -0.5
-RedirectID = playerid(getplayerId(5)),ID
+RedirectID = player(5),ID
 [State Inertia]
 Trigger1 = Var(1) > 2 && Var(5) = [10,1016]
-trigger1 = playerid(getplayerId(5)),Command = "holddown";Required (do not remove)
-trigger1 = playerid(getplayerId(5)),Pos Y < -3
+trigger1 = player(5),Command = "holddown";Required (do not remove)
+trigger1 = player(5),Pos Y < -3
 type = VelSet
 y = 0.85
-RedirectID = playerid(getplayerId(5)),ID
+RedirectID = player(5),ID
 
 [State 701, Stahp]
 Trigger1 = Var(1) > 2 && Var(5) = [10,1016]
-trigger1 = playerid(getplayerId(5)),Pos Y < -200
+trigger1 = player(5),Pos Y < -200
 type = PosSet
 y = -200
-RedirectID = playerid(getplayerId(5)),ID
+RedirectID = player(5),ID
 [State 701, Stahp]
 Trigger1 = Var(1) > 2 && Var(5) = [10,1016]
-trigger1 = playerid(getplayerId(5)),Pos X < -200
+trigger1 = player(5),Pos X < -200
 type = PosSet
 x = -200
 [State 701, Stahp]
 Trigger1 = Var(1) > 2 && Var(5) = [10,1016]
-trigger1 = playerid(getplayerId(5)),Pos X > 200
+trigger1 = player(5),Pos X > 200
 type = PosSet
 x = 200
-RedirectID = playerid(getplayerId(5)),ID
+RedirectID = player(5),ID
 
 [State Lookdead]
 Trigger1 = Var(1) > 2 && Var(5) = [10,1016]
-Trigger1 = playerid(getplayerId(5)),Alive = 0 
-trigger1 = playerid(getplayerId(5)),SelfAnimExist(5160) = 1
-trigger1 = playerid(getplayerId(5)),Anim != 5160
+Trigger1 = player(5),Alive = 0 
+trigger1 = player(5),SelfAnimExist(5160) = 1
+trigger1 = player(5),Anim != 5160
 type = ChangeAnim 
 value = 5160
-RedirectID = playerid(getplayerId(5)),ID
+RedirectID = player(5),ID
 [State LandDead]
 Trigger1 = Var(1) > 2 && Var(5) = 1018
-Trigger1 = playerid(getplayerId(5)),Alive = 0 
+Trigger1 = player(5),Alive = 0 
 type = PosSet
 y = 0
-RedirectID = playerid(getplayerId(5)),ID
+RedirectID = player(5),ID
 [State LandDead]
 Trigger1 = Var(1) > 2 && Var(5) = 1018
-Trigger1 = playerid(getplayerId(5)),Alive = 0 
+Trigger1 = player(5),Alive = 0 
 type = ChangeAnim 
 value = 5110
-RedirectID = playerid(getplayerId(5)),ID
+RedirectID = player(5),ID
 
 ;LANDING
 [State 701, Looklikefalling]
-trigger1 = Var(5) > 1013 && playerid(getplayerId(5)),Alive = 1
+trigger1 = Var(5) > 1013 && player(5),Alive = 1
 type = ChangeAnim
 value = 47
-RedirectID = playerid(getplayerId(5)),ID
+RedirectID = player(5),ID
 [State 701, LandIfOver]
 trigger1 = Var(5) = 1017
-trigger1 = RoundState > 2 && playerid(getplayerId(5)),Pos Y > -1
+trigger1 = RoundState > 2 && player(5),Pos Y > -1
 type = PosSet
 y = -1
-RedirectID = playerid(getplayerId(5)),ID
+RedirectID = player(5),ID
 [State 701, LandIfOver]
-trigger1 = Var(5) = 1017 && playerid(getplayerId(5)),Pos X > 200
+trigger1 = Var(5) = 1017 && player(5),Pos X > 200
 type = PosSet
 x = 200
-RedirectID = playerid(getplayerId(5)),ID
+RedirectID = player(5),ID
 [State 701, LandIfOver]
-trigger1 = Var(5) = 1017 && playerid(getplayerId(5)),Pos X < -200
+trigger1 = Var(5) = 1017 && player(5),Pos X < -200
 type = PosSet
 x = -200
-RedirectID = playerid(getplayerId(5)),ID
+RedirectID = player(5),ID
 [State 701, LandIfOver]
 trigger1 = RoundState > 2 && Var(5) = [1,1013]
-trigger2 = Var(5) = 1017 && playerid(getplayerId(5)),Pos Y < -10
+trigger2 = Var(5) = 1017 && player(5),Pos Y < -10
 type = VelSet
 y = 2
-RedirectID = playerid(getplayerId(5)),ID
+RedirectID = player(5),ID
 [State 701, ReturnToNormal];
 Triggerall = Var(5) = 1018
-Trigger1 = playerid(getplayerId(5)),StateNo = 0 && playerid(getplayerId(5)),Pos Y < -1
-Trigger2 = playerid(getplayerId(5)),InCustomState = 1
+Trigger1 = player(5),StateNo = 0 && player(5),Pos Y < -1
+Trigger2 = player(5),InCustomState = 1
 type = SelfState
 Value = 50
-RedirectID = playerid(getplayerId(5)),ID
+RedirectID = player(5),ID
 [State 701, ReturnToNormal];
-Trigger1 = Var(5) = 1018 && playerid(getplayerId(5)),Pos Y >= 0
+Trigger1 = Var(5) = 1018 && player(5),Pos Y >= 0
 type = StateTypeSet
 Value = S
-RedirectID = playerid(getplayerId(5)),ID
+RedirectID = player(5),ID
 ;END P5--------------------------------------------
 ;----------------------------------------------------------------------------------------------------------------------------------------
 ;P6
 ;GO INTO THE AIR
 [State 701, FlyABit];
 Triggerall = Var(1) > 2 && Var(5) = [1,1013]
-trigger1 = playerid(getplayerId(6)),Pos Y >= -15
+trigger1 = player(6),Pos Y >= -15
 type = PosSet
 y = -16
-RedirectID = playerid(getplayerId(6)),ID
+RedirectID = player(6),ID
 [State 701, FlyABit];
 Trigger1 = Var(1) > 2
 Trigger1 = Var(5) = 1
 persistent = 0
 type = VelSet;Fly a bit
 y = -0.6
-RedirectID = playerid(getplayerId(6)),ID
+RedirectID = player(6),ID
 [State 701, Float];
 Triggerall = (Var(1) > 2 && Var(5) = [1,1013]) || Var(5) = 1020
-trigger1 = playerid(getplayerId(6)),Pos Y >= -20
-Trigger2 = playerid(getplayerId(6)),hitfall = 1;If ye fell
+trigger1 = player(6),Pos Y >= -20
+Trigger2 = player(6),hitfall = 1;If ye fell
 type = VelSet
 y = 0
-RedirectID = playerid(getplayerId(6)),ID
+RedirectID = player(6),ID
 [State 701, ForceFly];
-Triggerall = Var(5) = [1,1013] && playerid(getplayerid(6)),Anim != 41
-Trigger1 = playerid(getplayerId(6)),Anim = 0 || playerid(getplayerId(6)),Anim = 20 || playerid(getplayerId(6)),Anim = 21 || playerid(getplayerId(6)),Anim = 11 || playerid(getplayerId(6)),Anim = 12 || playerid(getplayerId(6)),StateNo = 0 || playerid(getplayerId(6)),Ctrl = 1
+Triggerall = Var(5) = [1,1013] && player(6),Anim != 41
+Trigger1 = player(6),Anim = 0 || player(6),Anim = 20 || player(6),Anim = 21 || player(6),Anim = 11 || player(6),Anim = 12 || player(6),StateNo = 0 || player(6),Ctrl = 1
 type = ChangeAnim
 Value = 41
-RedirectID = playerid(getplayerId(6)),ID
+RedirectID = player(6),ID
 [State 701, ForceFly];
-Triggerall = Var(5) = [1,1013] && playerid(getplayerid(6)),Anim != 41
-Trigger1 = playerid(getplayerId(6)),Anim = 0 || playerid(getplayerId(6)),Anim = 20 || playerid(getplayerId(6)),Anim = 21 || playerid(getplayerId(6)),Anim = 11 || playerid(getplayerId(6)),Anim = 12 || playerid(getplayerId(6)),StateNo = 0 || playerid(getplayerId(6)),Ctrl = 1
-trigger1 = playerid(getplayerid(6)),SelfAnimExist(44) = 1
+Triggerall = Var(5) = [1,1013] && player(6),Anim != 41
+Trigger1 = player(6),Anim = 0 || player(6),Anim = 20 || player(6),Anim = 21 || player(6),Anim = 11 || player(6),Anim = 12 || player(6),StateNo = 0 || player(6),Ctrl = 1
+trigger1 = player(6),SelfAnimExist(44) = 1
 type = ChangeAnim
 Value = 44
-RedirectID = playerid(getplayerId(6)),ID
+RedirectID = player(6),ID
 [State 701, ForceFlyFallen];
 Trigger1 = Var(5) > 0
-Trigger1 = playerid(getplayerId(6)),StateNo = 5100 || playerid(getplayerId(6)),StateNo = 5110 || playerid(getplayerId(6)),StateNo = 5120
+Trigger1 = player(6),StateNo = 5100 || player(6),StateNo = 5110 || player(6),StateNo = 5120
 type = ChangeState
 Value = 5040
-RedirectID = playerid(getplayerId(6)),ID
+RedirectID = player(6),ID
 [State 701, ForceFly];
 Trigger1 = Var(5) = [1,1013]
 type = StateTypeSet
 Value = A
-RedirectID = playerid(getplayerId(6)),ID
+RedirectID = player(6),ID
 
 ;WHILE IN AIR
 [State 701, ForceRecoveryInAir]
 Triggerall = Var(1) > 2 && Var(5) = [10,1013]
-Trigger1 = playerid(getplayerId(6)),Ctrl = 0;has no control
-Trigger1 = playerid(getplayerId(6)),hitfall = 1 || playerid(getplayerId(6)),InCustomState = 1;fell
+Trigger1 = player(6),Ctrl = 0;has no control
+Trigger1 = player(6),hitfall = 1 || player(6),InCustomState = 1;fell
 Trigger2 = Var(5) < 10;beginning of the fall
-trigger3 = playerid(getplayerId(6)),AnimTime = 0 && playerid(getplayerId(6)),Time > 1
-trigger4 = playerid(getplayerId(6)),AnimElemLength = -1
+trigger3 = player(6),AnimTime = 0 && player(6),Time > 1
+trigger4 = player(6),Time > 60 ;(antes AnimElemLength, no existe en Ikemen 1.0)
 type = CtrlSet
 value = 1
-RedirectID = playerid(getplayerId(6)),ID
+RedirectID = player(6),ID
 [State StopWhatYouDo]
 type=AssertSpecial
 trigger1= Var(5) = [1,1013]
 flag = NoAirJump
 flag2 = NoStand
 flag3 = NoCrouch
-RedirectID = playerid(getplayerId(6)),ID
+RedirectID = player(6),ID
 
 [State TurnAround]
 Trigger1 = Var(1) > 2 && Var(5) = [10,1016]
-trigger1 = playerid(getplayerId(6)),Command = "start" && playerid(getplayerId(6)),Command = "holdback"
+trigger1 = player(6),Command = "start" && player(6),Command = "holdback"
 type = Turn
-RedirectID = playerid(getplayerId(6)),ID
+RedirectID = player(6),ID
 
 [State Inertia]
 Trigger1 = Var(1) > 2 && Var(5) = [10,1016]
-trigger1 = playerid(getplayerId(6)),Command = "holdfwd";Required (do not remove)
-trigger1 = playerid(getplayerId(6)),Vel X < 3
+trigger1 = player(6),Command = "holdfwd";Required (do not remove)
+trigger1 = player(6),Vel X < 3
 type = VelAdd
 x = 0.25
-RedirectID = playerid(getplayerId(6)),ID
+RedirectID = player(6),ID
 [State Inertia]
 Trigger1 = Var(1) > 2 && Var(5) = [10,1016]
-trigger1 = playerid(getplayerId(6)),Command = "holdback";Required (do not remove)
-trigger1 = playerid(getplayerId(6)),Vel X > -3
+trigger1 = player(6),Command = "holdback";Required (do not remove)
+trigger1 = player(6),Vel X > -3
 type = VelAdd
 x = -0.25
-RedirectID = playerid(getplayerId(6)),ID
+RedirectID = player(6),ID
 [State Inertia]
 Trigger1 = Var(1) > 2 && Var(5) = [10,1016]
-Trigger1 = playerid(getplayerId(6)),Command != "holdup" 
-trigger1 = playerid(getplayerId(6)),Command != "holddown"
+Trigger1 = player(6),Command != "holdup" 
+trigger1 = player(6),Command != "holddown"
 type = VelSet
 y = 0.3
-RedirectID = playerid(getplayerId(6)),ID
+RedirectID = player(6),ID
 [State Inertia]
 Trigger1 = Var(1) > 2 && Var(5) = [10,1016]
-trigger1 = playerid(getplayerId(6)),Command = "holdup"
-trigger1 = playerid(getplayerId(6)),Pos Y > -200
-trigger1 = playerid(getplayerId(6)),Vel Y > -1.5
+trigger1 = player(6),Command = "holdup"
+trigger1 = player(6),Pos Y > -200
+trigger1 = player(6),Vel Y > -1.5
 type = VelAdd
 y = -0.5
-RedirectID = playerid(getplayerId(6)),ID
+RedirectID = player(6),ID
 [State Inertia]
 Trigger1 = Var(1) > 2 && Var(5) = [10,1016]
-trigger1 = playerid(getplayerId(6)),Command = "holddown";Required (do not remove)
-trigger1 = playerid(getplayerId(6)),Pos Y < -3
+trigger1 = player(6),Command = "holddown";Required (do not remove)
+trigger1 = player(6),Pos Y < -3
 type = VelSet
 y = 0.85
-RedirectID = playerid(getplayerId(6)),ID
+RedirectID = player(6),ID
 
 [State 701, Stahp]
 Trigger1 = Var(1) > 2 && Var(5) = [10,1016]
-trigger1 = playerid(getplayerId(6)),Pos Y < -200
+trigger1 = player(6),Pos Y < -200
 type = PosSet
 y = -200
-RedirectID = playerid(getplayerId(6)),ID
+RedirectID = player(6),ID
 [State 701, Stahp]
 Trigger1 = Var(1) > 2 && Var(5) = [10,1016]
-trigger1 = playerid(getplayerId(6)),Pos X < -200
+trigger1 = player(6),Pos X < -200
 type = PosSet
 x = -200
 [State 701, Stahp]
 Trigger1 = Var(1) > 2 && Var(5) = [10,1016]
-trigger1 = playerid(getplayerId(6)),Pos X > 200
+trigger1 = player(6),Pos X > 200
 type = PosSet
 x = 200
-RedirectID = playerid(getplayerId(6)),ID
+RedirectID = player(6),ID
 
 [State Lookdead]
 Trigger1 = Var(1) > 2 && Var(5) = [10,1016]
-Trigger1 = playerid(getplayerId(6)),Alive = 0 
-trigger1 = playerid(getplayerId(6)),SelfAnimExist(5160) = 1
-trigger1 = playerid(getplayerId(6)),Anim != 5160
+Trigger1 = player(6),Alive = 0 
+trigger1 = player(6),SelfAnimExist(5160) = 1
+trigger1 = player(6),Anim != 5160
 type = ChangeAnim 
 value = 5160
-RedirectID = playerid(getplayerId(6)),ID
+RedirectID = player(6),ID
 [State LandDead]
 Trigger1 = Var(1) > 2 && Var(5) = 1018
-Trigger1 = playerid(getplayerId(6)),Alive = 0 
+Trigger1 = player(6),Alive = 0 
 type = PosSet
 y = 0
-RedirectID = playerid(getplayerId(6)),ID
+RedirectID = player(6),ID
 [State LandDead]
 Trigger1 = Var(1) > 2 && Var(5) = 1018
-Trigger1 = playerid(getplayerId(6)),Alive = 0 
+Trigger1 = player(6),Alive = 0 
 type = ChangeAnim 
 value = 5110
-RedirectID = playerid(getplayerId(6)),ID
+RedirectID = player(6),ID
 
 ;LANDING
 [State 701, Looklikefalling]
-trigger1 = Var(5) > 1013 && playerid(getplayerId(6)),Alive = 1
+trigger1 = Var(5) > 1013 && player(6),Alive = 1
 type = ChangeAnim
 value = 47
-RedirectID = playerid(getplayerId(6)),ID
+RedirectID = player(6),ID
 [State 701, LandIfOver]
 trigger1 = Var(5) = 1017
-trigger1 = RoundState > 2 && playerid(getplayerId(6)),Pos Y > -1
+trigger1 = RoundState > 2 && player(6),Pos Y > -1
 type = PosSet
 y = -1
-RedirectID = playerid(getplayerId(6)),ID
+RedirectID = player(6),ID
 [State 701, LandIfOver]
-trigger1 = Var(5) = 1017 && playerid(getplayerId(6)),Pos X > 200
+trigger1 = Var(5) = 1017 && player(6),Pos X > 200
 type = PosSet
 x = 200
-RedirectID = playerid(getplayerId(6)),ID
+RedirectID = player(6),ID
 [State 701, LandIfOver]
-trigger1 = Var(5) = 1017 && playerid(getplayerId(6)),Pos X < -200
+trigger1 = Var(5) = 1017 && player(6),Pos X < -200
 type = PosSet
 x = -200
-RedirectID = playerid(getplayerId(6)),ID
+RedirectID = player(6),ID
 [State 701, LandIfOver]
 trigger1 = RoundState > 2 && Var(5) = [1,1013]
-trigger2 = Var(5) = 1017 && playerid(getplayerId(6)),Pos Y < -10
+trigger2 = Var(5) = 1017 && player(6),Pos Y < -10
 type = VelSet
 y = 2
-RedirectID = playerid(getplayerId(6)),ID
+RedirectID = player(6),ID
 [State 701, ReturnToNormal];
 Triggerall = Var(5) = 1018
-Trigger1 = playerid(getplayerId(6)),StateNo = 0 && playerid(getplayerId(6)),Pos Y < -1
-Trigger2 = playerid(getplayerId(6)),InCustomState = 1
+Trigger1 = player(6),StateNo = 0 && player(6),Pos Y < -1
+Trigger2 = player(6),InCustomState = 1
 type = SelfState
 Value = 50
-RedirectID = playerid(getplayerId(6)),ID
+RedirectID = player(6),ID
 [State 701, ReturnToNormal];
-Trigger1 = Var(5) = 1018 && playerid(getplayerId(6)),Pos Y >= 0
+Trigger1 = Var(5) = 1018 && player(6),Pos Y >= 0
 type = StateTypeSet
 Value = S
-RedirectID = playerid(getplayerId(6)),ID
+RedirectID = player(6),ID
 ;END P6--------------------------------------------
 ;----------------------------------------------------------------------------------------------------------------------------------------
 ;P7
 ;GO INTO THE AIR
 [State 701, FlyABit];
 Triggerall = Var(1) > 2 && Var(5) = [1,1013]
-trigger1 = playerid(getplayerId(7)),Pos Y >= -15
+trigger1 = player(7),Pos Y >= -15
 type = PosSet
 y = -16
-RedirectID = playerid(getplayerId(7)),ID
+RedirectID = player(7),ID
 [State 701, FlyABit];
 Trigger1 = Var(1) > 2
 Trigger1 = Var(5) = 1
 persistent = 0
 type = VelSet;Fly a bit
 y = -0.6
-RedirectID = playerid(getplayerId(7)),ID
+RedirectID = player(7),ID
 [State 701, Float];
 Triggerall = (Var(1) > 2 && Var(5) = [1,1013]) || Var(5) = 1020
-trigger1 = playerid(getplayerId(7)),Pos Y >= -20
-Trigger2 = playerid(getplayerId(7)),hitfall = 1;If ye fell
+trigger1 = player(7),Pos Y >= -20
+Trigger2 = player(7),hitfall = 1;If ye fell
 type = VelSet
 y = 0
-RedirectID = playerid(getplayerId(7)),ID
+RedirectID = player(7),ID
 [State 701, ForceFly];
-Triggerall = Var(5) = [1,1013] && playerid(getplayerid(7)),Anim != 41
-Trigger1 = playerid(getplayerId(7)),Anim = 0 || playerid(getplayerId(7)),Anim = 20 || playerid(getplayerId(7)),Anim = 21 || playerid(getplayerId(7)),Anim = 11 || playerid(getplayerId(7)),Anim = 12 || playerid(getplayerId(7)),StateNo = 0 || playerid(getplayerId(7)),Ctrl = 1
+Triggerall = Var(5) = [1,1013] && player(7),Anim != 41
+Trigger1 = player(7),Anim = 0 || player(7),Anim = 20 || player(7),Anim = 21 || player(7),Anim = 11 || player(7),Anim = 12 || player(7),StateNo = 0 || player(7),Ctrl = 1
 type = ChangeAnim
 Value = 41
-RedirectID = playerid(getplayerId(7)),ID
+RedirectID = player(7),ID
 [State 701, ForceFly];
-Triggerall = Var(5) = [1,1013] && playerid(getplayerid(7)),Anim != 41
-Trigger1 = playerid(getplayerId(7)),Anim = 0 || playerid(getplayerId(7)),Anim = 20 || playerid(getplayerId(7)),Anim = 21 || playerid(getplayerId(7)),Anim = 11 || playerid(getplayerId(7)),Anim = 12 || playerid(getplayerId(7)),StateNo = 0 || playerid(getplayerId(7)),Ctrl = 1
-trigger1 = playerid(getplayerid(7)),SelfAnimExist(44) = 1
+Triggerall = Var(5) = [1,1013] && player(7),Anim != 41
+Trigger1 = player(7),Anim = 0 || player(7),Anim = 20 || player(7),Anim = 21 || player(7),Anim = 11 || player(7),Anim = 12 || player(7),StateNo = 0 || player(7),Ctrl = 1
+trigger1 = player(7),SelfAnimExist(44) = 1
 type = ChangeAnim
 Value = 44
-RedirectID = playerid(getplayerId(7)),ID
+RedirectID = player(7),ID
 [State 701, ForceFlyFallen];
 Trigger1 = Var(5) > 0
-Trigger1 = playerid(getplayerId(7)),StateNo = 5100 || playerid(getplayerId(7)),StateNo = 5110 || playerid(getplayerId(7)),StateNo = 5120
+Trigger1 = player(7),StateNo = 5100 || player(7),StateNo = 5110 || player(7),StateNo = 5120
 type = ChangeState
 Value = 5040
-RedirectID = playerid(getplayerId(7)),ID
+RedirectID = player(7),ID
 [State 701, ForceFly];
 Trigger1 = Var(5) = [1,1013]
 type = StateTypeSet
 Value = A
-RedirectID = playerid(getplayerId(7)),ID
+RedirectID = player(7),ID
 
 ;WHILE IN AIR
 [State 701, ForceRecoveryInAir]
 Triggerall = Var(1) > 2 && Var(5) = [10,1013]
-Trigger1 = playerid(getplayerId(7)),Ctrl = 0;has no control
-Trigger1 = playerid(getplayerId(7)),hitfall = 1 || playerid(getplayerId(7)),InCustomState = 1;fell
+Trigger1 = player(7),Ctrl = 0;has no control
+Trigger1 = player(7),hitfall = 1 || player(7),InCustomState = 1;fell
 Trigger2 = Var(5) < 10;beginning of the fall
-trigger3 = playerid(getplayerId(7)),AnimTime = 0 && playerid(getplayerId(7)),Time > 1
-trigger4 = playerid(getplayerId(7)),AnimElemLength = -1
+trigger3 = player(7),AnimTime = 0 && player(7),Time > 1
+trigger4 = player(7),Time > 60 ;(antes AnimElemLength, no existe en Ikemen 1.0)
 type = CtrlSet
 value = 1
-RedirectID = playerid(getplayerId(7)),ID
+RedirectID = player(7),ID
 [State StopWhatYouDo]
 type=AssertSpecial
 trigger1= Var(5) = [1,1013]
 flag = NoAirJump
 flag2 = NoStand
 flag3 = NoCrouch
-RedirectID = playerid(getplayerId(7)),ID
+RedirectID = player(7),ID
 
 [State TurnAround]
 Trigger1 = Var(1) > 2 && Var(5) = [10,1016]
-trigger1 = playerid(getplayerId(7)),Command = "start" && playerid(getplayerId(7)),Command = "holdback"
+trigger1 = player(7),Command = "start" && player(7),Command = "holdback"
 type = Turn
-RedirectID = playerid(getplayerId(7)),ID
+RedirectID = player(7),ID
 
 [State Inertia]
 Trigger1 = Var(1) > 2 && Var(5) = [10,1016]
-trigger1 = playerid(getplayerId(7)),Command = "holdfwd";Required (do not remove)
-trigger1 = playerid(getplayerId(7)),Vel X < 3
+trigger1 = player(7),Command = "holdfwd";Required (do not remove)
+trigger1 = player(7),Vel X < 3
 type = VelAdd
 x = 0.25
-RedirectID = playerid(getplayerId(7)),ID
+RedirectID = player(7),ID
 [State Inertia]
 Trigger1 = Var(1) > 2 && Var(5) = [10,1016]
-trigger1 = playerid(getplayerId(7)),Command = "holdback";Required (do not remove)
-trigger1 = playerid(getplayerId(7)),Vel X > -3
+trigger1 = player(7),Command = "holdback";Required (do not remove)
+trigger1 = player(7),Vel X > -3
 type = VelAdd
 x = -0.25
-RedirectID = playerid(getplayerId(7)),ID
+RedirectID = player(7),ID
 [State Inertia]
 Trigger1 = Var(1) > 2 && Var(5) = [10,1016]
-Trigger1 = playerid(getplayerId(7)),Command != "holdup" 
-trigger1 = playerid(getplayerId(7)),Command != "holddown"
+Trigger1 = player(7),Command != "holdup" 
+trigger1 = player(7),Command != "holddown"
 type = VelSet
 y = 0.3
-RedirectID = playerid(getplayerId(7)),ID
+RedirectID = player(7),ID
 [State Inertia]
 Trigger1 = Var(1) > 2 && Var(5) = [10,1016]
-trigger1 = playerid(getplayerId(7)),Command = "holdup"
-trigger1 = playerid(getplayerId(7)),Pos Y > -200
-trigger1 = playerid(getplayerId(7)),Vel Y > -1.5
+trigger1 = player(7),Command = "holdup"
+trigger1 = player(7),Pos Y > -200
+trigger1 = player(7),Vel Y > -1.5
 type = VelAdd
 y = -0.5
-RedirectID = playerid(getplayerId(7)),ID
+RedirectID = player(7),ID
 [State Inertia]
 Trigger1 = Var(1) > 2 && Var(5) = [10,1016]
-trigger1 = playerid(getplayerId(7)),Command = "holddown";Required (do not remove)
-trigger1 = playerid(getplayerId(7)),Pos Y < -3
+trigger1 = player(7),Command = "holddown";Required (do not remove)
+trigger1 = player(7),Pos Y < -3
 type = VelSet
 y = 0.85
-RedirectID = playerid(getplayerId(7)),ID
+RedirectID = player(7),ID
 
 [State 701, Stahp]
 Trigger1 = Var(1) > 2 && Var(5) = [10,1016]
-trigger1 = playerid(getplayerId(7)),Pos Y < -200
+trigger1 = player(7),Pos Y < -200
 type = PosSet
 y = -200
-RedirectID = playerid(getplayerId(7)),ID
+RedirectID = player(7),ID
 [State 701, Stahp]
 Trigger1 = Var(1) > 2 && Var(5) = [10,1016]
-trigger1 = playerid(getplayerId(7)),Pos X < -200
+trigger1 = player(7),Pos X < -200
 type = PosSet
 x = -200
 [State 701, Stahp]
 Trigger1 = Var(1) > 2 && Var(5) = [10,1016]
-trigger1 = playerid(getplayerId(7)),Pos X > 200
+trigger1 = player(7),Pos X > 200
 type = PosSet
 x = 200
-RedirectID = playerid(getplayerId(7)),ID
+RedirectID = player(7),ID
 
 [State Lookdead]
 Trigger1 = Var(1) > 2 && Var(5) = [10,1016]
-Trigger1 = playerid(getplayerId(7)),Alive = 0 
-trigger1 = playerid(getplayerId(7)),SelfAnimExist(5160) = 1
-trigger1 = playerid(getplayerId(7)),Anim != 5160
+Trigger1 = player(7),Alive = 0 
+trigger1 = player(7),SelfAnimExist(5160) = 1
+trigger1 = player(7),Anim != 5160
 type = ChangeAnim 
 value = 5160
-RedirectID = playerid(getplayerId(7)),ID
+RedirectID = player(7),ID
 [State LandDead]
 Trigger1 = Var(1) > 2 && Var(5) = 1018
-Trigger1 = playerid(getplayerId(7)),Alive = 0 
+Trigger1 = player(7),Alive = 0 
 type = PosSet
 y = 0
-RedirectID = playerid(getplayerId(7)),ID
+RedirectID = player(7),ID
 [State LandDead]
 Trigger1 = Var(1) > 2 && Var(5) = 1018
-Trigger1 = playerid(getplayerId(7)),Alive = 0 
+Trigger1 = player(7),Alive = 0 
 type = ChangeAnim 
 value = 5110
-RedirectID = playerid(getplayerId(7)),ID
+RedirectID = player(7),ID
 
 ;LANDING
 [State 701, Looklikefalling]
-trigger1 = Var(5) > 1013 && playerid(getplayerId(7)),Alive = 1
+trigger1 = Var(5) > 1013 && player(7),Alive = 1
 type = ChangeAnim
 value = 47
-RedirectID = playerid(getplayerId(7)),ID
+RedirectID = player(7),ID
 [State 701, LandIfOver]
 trigger1 = Var(5) = 1017
-trigger1 = RoundState > 2 && playerid(getplayerId(7)),Pos Y > -1
+trigger1 = RoundState > 2 && player(7),Pos Y > -1
 type = PosSet
 y = -1
-RedirectID = playerid(getplayerId(7)),ID
+RedirectID = player(7),ID
 [State 701, LandIfOver]
-trigger1 = Var(5) = 1017 && playerid(getplayerId(7)),Pos X > 200
+trigger1 = Var(5) = 1017 && player(7),Pos X > 200
 type = PosSet
 x = 200
-RedirectID = playerid(getplayerId(7)),ID
+RedirectID = player(7),ID
 [State 701, LandIfOver]
-trigger1 = Var(5) = 1017 && playerid(getplayerId(7)),Pos X < -200
+trigger1 = Var(5) = 1017 && player(7),Pos X < -200
 type = PosSet
 x = -200
-RedirectID = playerid(getplayerId(7)),ID
+RedirectID = player(7),ID
 [State 701, LandIfOver]
 trigger1 = RoundState > 2 && Var(5) = [1,1013]
-trigger2 = Var(5) = 1017 && playerid(getplayerId(7)),Pos Y < -10
+trigger2 = Var(5) = 1017 && player(7),Pos Y < -10
 type = VelSet
 y = 2
-RedirectID = playerid(getplayerId(7)),ID
+RedirectID = player(7),ID
 [State 701, ReturnToNormal];
 Triggerall = Var(5) = 1018
-Trigger1 = playerid(getplayerId(7)),StateNo = 0 && playerid(getplayerId(7)),Pos Y < -1
-Trigger2 = playerid(getplayerId(7)),InCustomState = 1
+Trigger1 = player(7),StateNo = 0 && player(7),Pos Y < -1
+Trigger2 = player(7),InCustomState = 1
 type = SelfState
 Value = 50
-RedirectID = playerid(getplayerId(7)),ID
+RedirectID = player(7),ID
 [State 701, ReturnToNormal];
-Trigger1 = Var(5) = 1018 && playerid(getplayerId(7)),Pos Y >= 0
+Trigger1 = Var(5) = 1018 && player(7),Pos Y >= 0
 type = StateTypeSet
 Value = S
-RedirectID = playerid(getplayerId(7)),ID
+RedirectID = player(7),ID
 ;END P7--------------------------------------------
 ;----------------------------------------------------------------------------------------------------------------------------------------
 ;P8
 ;GO INTO THE AIR
 [State 701, FlyABit];
 Triggerall = Var(1) > 2 && Var(5) = [1,1013]
-trigger1 = playerid(getplayerId(8)),Pos Y >= -15
+trigger1 = player(8),Pos Y >= -15
 type = PosSet
 y = -16
-RedirectID = playerid(getplayerId(8)),ID
+RedirectID = player(8),ID
 [State 701, FlyABit];
 Trigger1 = Var(1) > 2
 Trigger1 = Var(5) = 1
 persistent = 0
 type = VelSet;Fly a bit
 y = -0.6
-RedirectID = playerid(getplayerId(8)),ID
+RedirectID = player(8),ID
 [State 701, Float];
 Triggerall = (Var(1) > 2 && Var(5) = [1,1013]) || Var(5) = 1020
-trigger1 = playerid(getplayerId(8)),Pos Y >= -20
-Trigger2 = playerid(getplayerId(8)),hitfall = 1;If ye fell
+trigger1 = player(8),Pos Y >= -20
+Trigger2 = player(8),hitfall = 1;If ye fell
 type = VelSet
 y = 0
-RedirectID = playerid(getplayerId(8)),ID
+RedirectID = player(8),ID
 [State 701, ForceFly];
-Triggerall = Var(5) = [1,1013] && playerid(getplayerid(8)),Anim != 41
-Trigger1 = playerid(getplayerId(8)),Anim = 0 || playerid(getplayerId(8)),Anim = 20 || playerid(getplayerId(8)),Anim = 21 || playerid(getplayerId(8)),Anim = 11 || playerid(getplayerId(8)),Anim = 12 || playerid(getplayerId(8)),StateNo = 0 || playerid(getplayerId(8)),Ctrl = 1
+Triggerall = Var(5) = [1,1013] && player(8),Anim != 41
+Trigger1 = player(8),Anim = 0 || player(8),Anim = 20 || player(8),Anim = 21 || player(8),Anim = 11 || player(8),Anim = 12 || player(8),StateNo = 0 || player(8),Ctrl = 1
 type = ChangeAnim
 Value = 41
-RedirectID = playerid(getplayerId(8)),ID
+RedirectID = player(8),ID
 [State 701, ForceFly];
-Triggerall = Var(5) = [1,1013] && playerid(getplayerid(8)),Anim != 41
-Trigger1 = playerid(getplayerId(8)),Anim = 0 || playerid(getplayerId(8)),Anim = 20 || playerid(getplayerId(8)),Anim = 21 || playerid(getplayerId(8)),Anim = 11 || playerid(getplayerId(8)),Anim = 12 || playerid(getplayerId(8)),StateNo = 0 || playerid(getplayerId(8)),Ctrl = 1
-trigger1 = playerid(getplayerid(8)),SelfAnimExist(44) = 1
+Triggerall = Var(5) = [1,1013] && player(8),Anim != 41
+Trigger1 = player(8),Anim = 0 || player(8),Anim = 20 || player(8),Anim = 21 || player(8),Anim = 11 || player(8),Anim = 12 || player(8),StateNo = 0 || player(8),Ctrl = 1
+trigger1 = player(8),SelfAnimExist(44) = 1
 type = ChangeAnim
 Value = 44
-RedirectID = playerid(getplayerId(8)),ID
+RedirectID = player(8),ID
 [State 701, ForceFlyFallen];
 Trigger1 = Var(5) > 0
-Trigger1 = playerid(getplayerId(8)),StateNo = 5100 || playerid(getplayerId(8)),StateNo = 5110 || playerid(getplayerId(8)),StateNo = 5120
+Trigger1 = player(8),StateNo = 5100 || player(8),StateNo = 5110 || player(8),StateNo = 5120
 type = ChangeState
 Value = 5040
-RedirectID = playerid(getplayerId(8)),ID
+RedirectID = player(8),ID
 [State 701, ForceFly];
 Trigger1 = Var(5) = [1,1013]
 type = StateTypeSet
 Value = A
-RedirectID = playerid(getplayerId(8)),ID
+RedirectID = player(8),ID
 
 ;WHILE IN AIR
 [State 701, ForceRecoveryInAir]
 Triggerall = Var(1) > 2 && Var(5) = [10,1013]
-Trigger1 = playerid(getplayerId(8)),Ctrl = 0;has no control
-Trigger1 = playerid(getplayerId(8)),hitfall = 1 || playerid(getplayerId(8)),InCustomState = 1;fell
+Trigger1 = player(8),Ctrl = 0;has no control
+Trigger1 = player(8),hitfall = 1 || player(8),InCustomState = 1;fell
 Trigger2 = Var(5) < 10;beginning of the fall
-trigger3 = playerid(getplayerId(8)),AnimTime = 0 && playerid(getplayerId(8)),Time > 1
-trigger4 = playerid(getplayerId(8)),AnimElemLength = -1
+trigger3 = player(8),AnimTime = 0 && player(8),Time > 1
+trigger4 = player(8),Time > 60 ;(antes AnimElemLength, no existe en Ikemen 1.0)
 type = CtrlSet
 value = 1
-RedirectID = playerid(getplayerId(8)),ID
+RedirectID = player(8),ID
 [State StopWhatYouDo]
 type=AssertSpecial
 trigger1= Var(5) = [1,1013]
 flag = NoAirJump
 flag2 = NoStand
 flag3 = NoCrouch
-RedirectID = playerid(getplayerId(8)),ID
+RedirectID = player(8),ID
 
 [State TurnAround]
 Trigger1 = Var(1) > 2 && Var(5) = [10,1016]
-trigger1 = playerid(getplayerId(8)),Command = "start" && playerid(getplayerId(8)),Command = "holdback"
+trigger1 = player(8),Command = "start" && player(8),Command = "holdback"
 type = Turn
-RedirectID = playerid(getplayerId(8)),ID
+RedirectID = player(8),ID
 
 [State Inertia]
 Trigger1 = Var(1) > 2 && Var(5) = [10,1016]
-trigger1 = playerid(getplayerId(8)),Command = "holdfwd";Required (do not remove)
-trigger1 = playerid(getplayerId(8)),Vel X < 3
+trigger1 = player(8),Command = "holdfwd";Required (do not remove)
+trigger1 = player(8),Vel X < 3
 type = VelAdd
 x = 0.25
-RedirectID = playerid(getplayerId(8)),ID
+RedirectID = player(8),ID
 [State Inertia]
 Trigger1 = Var(1) > 2 && Var(5) = [10,1016]
-trigger1 = playerid(getplayerId(8)),Command = "holdback";Required (do not remove)
-trigger1 = playerid(getplayerId(8)),Vel X > -3
+trigger1 = player(8),Command = "holdback";Required (do not remove)
+trigger1 = player(8),Vel X > -3
 type = VelAdd
 x = -0.25
-RedirectID = playerid(getplayerId(8)),ID
+RedirectID = player(8),ID
 [State Inertia]
 Trigger1 = Var(1) > 2 && Var(5) = [10,1016]
-Trigger1 = playerid(getplayerId(8)),Command != "holdup" 
-trigger1 = playerid(getplayerId(8)),Command != "holddown"
+Trigger1 = player(8),Command != "holdup" 
+trigger1 = player(8),Command != "holddown"
 type = VelSet
 y = 0.3
-RedirectID = playerid(getplayerId(8)),ID
+RedirectID = player(8),ID
 [State Inertia]
 Trigger1 = Var(1) > 2 && Var(5) = [10,1016]
-trigger1 = playerid(getplayerId(8)),Command = "holdup"
-trigger1 = playerid(getplayerId(8)),Pos Y > -200
-trigger1 = playerid(getplayerId(8)),Vel Y > -1.5
+trigger1 = player(8),Command = "holdup"
+trigger1 = player(8),Pos Y > -200
+trigger1 = player(8),Vel Y > -1.5
 type = VelAdd
 y = -0.5
-RedirectID = playerid(getplayerId(8)),ID
+RedirectID = player(8),ID
 [State Inertia]
 Trigger1 = Var(1) > 2 && Var(5) = [10,1016]
-trigger1 = playerid(getplayerId(8)),Command = "holddown";Required (do not remove)
-trigger1 = playerid(getplayerId(8)),Pos Y < -3
+trigger1 = player(8),Command = "holddown";Required (do not remove)
+trigger1 = player(8),Pos Y < -3
 type = VelSet
 y = 0.85
-RedirectID = playerid(getplayerId(8)),ID
+RedirectID = player(8),ID
 
 [State 701, Stahp]
 Trigger1 = Var(1) > 2 && Var(5) = [10,1016]
-trigger1 = playerid(getplayerId(8)),Pos Y < -200
+trigger1 = player(8),Pos Y < -200
 type = PosSet
 y = -200
-RedirectID = playerid(getplayerId(8)),ID
+RedirectID = player(8),ID
 [State 701, Stahp]
 Trigger1 = Var(1) > 2 && Var(5) = [10,1016]
-trigger1 = playerid(getplayerId(8)),Pos X < -200
+trigger1 = player(8),Pos X < -200
 type = PosSet
 x = -200
 [State 701, Stahp]
 Trigger1 = Var(1) > 2 && Var(5) = [10,1016]
-trigger1 = playerid(getplayerId(8)),Pos X > 200
+trigger1 = player(8),Pos X > 200
 type = PosSet
 x = 200
-RedirectID = playerid(getplayerId(8)),ID
+RedirectID = player(8),ID
 
 [State Lookdead]
 Trigger1 = Var(1) > 2 && Var(5) = [10,1016]
-Trigger1 = playerid(getplayerId(8)),Alive = 0 
-trigger1 = playerid(getplayerId(8)),SelfAnimExist(5160) = 1
-trigger1 = playerid(getplayerId(8)),Anim != 5160
+Trigger1 = player(8),Alive = 0 
+trigger1 = player(8),SelfAnimExist(5160) = 1
+trigger1 = player(8),Anim != 5160
 type = ChangeAnim 
 value = 5160
-RedirectID = playerid(getplayerId(8)),ID
+RedirectID = player(8),ID
 [State LandDead]
 Trigger1 = Var(1) > 2 && Var(5) = 1018
-Trigger1 = playerid(getplayerId(8)),Alive = 0 
+Trigger1 = player(8),Alive = 0 
 type = PosSet
 y = 0
-RedirectID = playerid(getplayerId(8)),ID
+RedirectID = player(8),ID
 [State LandDead]
 Trigger1 = Var(1) > 2 && Var(5) = 1018
-Trigger1 = playerid(getplayerId(8)),Alive = 0 
+Trigger1 = player(8),Alive = 0 
 type = ChangeAnim 
 value = 5110
-RedirectID = playerid(getplayerId(8)),ID
+RedirectID = player(8),ID
 
 ;LANDING
 [State 701, Looklikefalling]
-trigger1 = Var(5) > 1013 && playerid(getplayerId(8)),Alive = 1
+trigger1 = Var(5) > 1013 && player(8),Alive = 1
 type = ChangeAnim
 value = 47
-RedirectID = playerid(getplayerId(8)),ID
+RedirectID = player(8),ID
 [State 701, LandIfOver]
 trigger1 = Var(5) = 1017
-trigger1 = RoundState > 2 && playerid(getplayerId(8)),Pos Y > -1
+trigger1 = RoundState > 2 && player(8),Pos Y > -1
 type = PosSet
 y = -1
-RedirectID = playerid(getplayerId(8)),ID
+RedirectID = player(8),ID
 [State 701, LandIfOver]
-trigger1 = Var(5) = 1017 && playerid(getplayerId(8)),Pos X > 200
+trigger1 = Var(5) = 1017 && player(8),Pos X > 200
 type = PosSet
 x = 200
-RedirectID = playerid(getplayerId(8)),ID
+RedirectID = player(8),ID
 [State 701, LandIfOver]
-trigger1 = Var(5) = 1017 && playerid(getplayerId(8)),Pos X < -200
+trigger1 = Var(5) = 1017 && player(8),Pos X < -200
 type = PosSet
 x = -200
-RedirectID = playerid(getplayerId(8)),ID
+RedirectID = player(8),ID
 [State 701, LandIfOver]
 trigger1 = RoundState > 2 && Var(5) = [1,1013]
-trigger2 = Var(5) = 1017 && playerid(getplayerId(8)),Pos Y < -10
+trigger2 = Var(5) = 1017 && player(8),Pos Y < -10
 type = VelSet
 y = 2
-RedirectID = playerid(getplayerId(8)),ID
+RedirectID = player(8),ID
 [State 701, ReturnToNormal];
 Triggerall = Var(5) = 1018
-Trigger1 = playerid(getplayerId(8)),StateNo = 0 && playerid(getplayerId(8)),Pos Y < -1
-Trigger2 = playerid(getplayerId(8)),InCustomState = 1
+Trigger1 = player(8),StateNo = 0 && player(8),Pos Y < -1
+Trigger2 = player(8),InCustomState = 1
 type = SelfState
 Value = 50
-RedirectID = playerid(getplayerId(8)),ID
+RedirectID = player(8),ID
 [State 701, ReturnToNormal];
-Trigger1 = Var(5) = 1018 && playerid(getplayerId(8)),Pos Y >= 0
+Trigger1 = Var(5) = 1018 && player(8),Pos Y >= 0
 type = StateTypeSet
 Value = S
-RedirectID = playerid(getplayerId(8)),ID
+RedirectID = player(8),ID
 ;END P8--------------------------------------------
 ;END FREEFALL--------------------------------------------------------------
 
@@ -4708,13 +4708,13 @@ Trigger1 = Var(5) = [10,1018]
 type = TeamMapSet 
 map = "_iksys_tagSwitchCooldown"
 value = 5
-RedirectID = PlayerID(GetPlayerID( playerID(getPlayerID(1)),teamLeader )),ID
+RedirectID = player(player(1),teamLeader),ID
 [State NoTag]
 Trigger1 = Var(5) = [10,1018]
 type = TeamMapSet
 map = "_iksys_tagSwitchCooldown"
 value = 5
-RedirectID = PlayerID(GetPlayerID( playerID(getPlayerID(2)),teamLeader )),ID
+RedirectID = player(player(2),teamLeader),ID
 
 [State 701, Landing]
 type = Pause
@@ -4759,39 +4759,39 @@ ampl = -64
 ;----------------------------P1
 [State 701, DetectFall]
 Triggerall = NumExplod(8258231) = 0
-Trigger1 = playerid(getplayerid(1)), Pos Y >= -3 
-Trigger1 = playerid(getplayerid(1)), Time = 1
-Trigger1 = playerid(getplayerid(1)), stateno = 5100 || playerid(getplayerid(1)), stateno = 5110
-Trigger1 = Rand(1,100) > 33
+Trigger1 = player(1), Pos Y >= -3 
+Trigger1 = player(1), Time = 1
+Trigger1 = player(1), stateno = 5100 || player(1), stateno = 5110
+Trigger1 = (1+floor(Random*100/1000.0)) > 33
 type = VarAdd
-value = -1 * Rand(5.0,15.0)
+value = -1 * (5+Random*10/999.0)
 v = 7
 
 [State 701, DetectSlam]
 Triggerall = NumExplod(8258231) = 0
-Trigger1 = playerid(getplayerid(1)), vel Y > 8 && playerid(getplayerid(1)), Pos Y >= -3 && playerid(getplayerid(1)), hitfall = 1
-Trigger1 = Rand(1,100) > 33
+Trigger1 = player(1), vel Y > 8 && player(1), Pos Y >= -3 && player(1), hitfall = 1
+Trigger1 = (1+floor(Random*100/1000.0)) > 33
 type = VarAdd
-value = -1 * (playerid(getplayerid(1)), vel Y) * (Rand(3.0,5.0));Damage is scaled according to speed of the slam
+value = -1 * (player(1), vel Y) * ((3+Random*2/999.0));Damage is scaled according to speed of the slam
 v = 7
 
 [State 701, DetectThrow]
 Triggerall = NumExplod(8258231) = 0
-Trigger1 = Map(P1LastPosYCustomState) < playerid(getplayerid(1)), Pos Y  + CameraPos Y
-Trigger1 = playerid(getplayerid(1)), Pos Y >= -3 
-Trigger1 = playerid(getplayerid(1)), InCustomState = 1 && playerid(getplayerid(1)), Ctrl = 0
-Trigger1 = playerid(getplayerid(1)), Time > 5
-Trigger1 = Rand(1,100) > 33
+Trigger1 = Map(P1LastPosYCustomState) < player(1), Pos Y  + CameraPos Y
+Trigger1 = player(1), Pos Y >= -3 
+Trigger1 = player(1), InCustomState = 1 && player(1), Ctrl = 0
+Trigger1 = player(1), Time > 5
+Trigger1 = (1+floor(Random*100/1000.0)) > 33
 type = VarAdd
-value = -1 * Rand(70.0,90.0)
+value = -1 * (70+Random*20/999.0)
 v = 7
 
 [State 701, Timer]
 Triggerall = NumExplod(8258231) = 0
-Trigger1 = playerid(getplayerid(1)), Pos Y >= -3 
-Trigger1 = playerid(getplayerid(1)), Time = 1
-Trigger1 = playerid(getplayerid(1)), stateno = 5100 || playerid(getplayerid(1)), stateno = 5110 
-Trigger2 = playerid(getplayerid(1)), vel Y > 8 && playerid(getplayerid(1)), Pos Y >= -3 && playerid(getplayerid(1)), hitfall = 1
+Trigger1 = player(1), Pos Y >= -3 
+Trigger1 = player(1), Time = 1
+Trigger1 = player(1), stateno = 5100 || player(1), stateno = 5110 
+Trigger2 = player(1), vel Y > 8 && player(1), Pos Y >= -3 && player(1), hitfall = 1
 ID = 8258231
 type = Explod
 anim = 999
@@ -4803,9 +4803,9 @@ pausemovetime = 99999
 
 [State 701, TimerCustom]
 Triggerall = NumExplod(8258231) = 0
-Trigger1 = Map(P1LastPosYCustomState) < playerid(getplayerid(1)), Pos Y  + CameraPos Y
-Trigger1 = playerid(getplayerid(1)), Pos Y >= -3 
-Trigger1 = playerid(getplayerid(1)), InCustomState = 1 && playerid(getplayerid(1)), Ctrl = 0
+Trigger1 = Map(P1LastPosYCustomState) < player(1), Pos Y  + CameraPos Y
+Trigger1 = player(1), Pos Y >= -3 
+Trigger1 = player(1), InCustomState = 1 && player(1), Ctrl = 0
 ID = 8258231
 type = Explod
 anim = 999
@@ -4816,9 +4816,9 @@ supermovetime = 99999
 pausemovetime = 99999
 
 [State 701, RecordLastPosCustomState]
-Trigger1 = playerid(getplayerid(1)), InCustomState = 1
+Trigger1 = player(1), InCustomState = 1
 type = MapSet
-value = playerid(getplayerid(1)), Pos Y + CameraPos Y
+value = player(1), Pos Y + CameraPos Y
 map = "P1LastPosYCustomState"
 supermovetime = 99999
 pausemovetime = 99999
@@ -4826,39 +4826,39 @@ pausemovetime = 99999
 ;----------------------------P2
 [State 701, DetectFall]
 Triggerall = NumExplod(8258232) = 0
-Trigger1 = playerid(getplayerid(2)), Pos Y >= -3 
-Trigger1 = playerid(getplayerid(2)), Time = 1
-Trigger1 = playerid(getplayerid(2)), stateno = 5100 || playerid(getplayerid(2)), stateno = 5110 
-Trigger1 = Rand(1,100) > 33
+Trigger1 = player(2), Pos Y >= -3 
+Trigger1 = player(2), Time = 1
+Trigger1 = player(2), stateno = 5100 || player(2), stateno = 5110 
+Trigger1 = (1+floor(Random*100/1000.0)) > 33
 type = VarAdd
-value = -1 * Rand(5.0,15.0)
+value = -1 * (5+Random*10/999.0)
 v = 7
 
 [State 701, DetectSlam]
 Triggerall = NumExplod(8258232) = 0
-Trigger1 = playerid(getplayerid(2)), vel Y > 8 && playerid(getplayerid(2)), Pos Y >= -3 && playerid(getplayerid(2)), hitfall = 1
-Trigger1 = Rand(1,100) > 33
+Trigger1 = player(2), vel Y > 8 && player(2), Pos Y >= -3 && player(2), hitfall = 1
+Trigger1 = (1+floor(Random*100/1000.0)) > 33
 type = VarAdd
-value = -1 * (playerid(getplayerid(2)), vel Y) * (Rand(3.0,5.0));Damage is scaled according to speed of the slam
+value = -1 * (player(2), vel Y) * ((3+Random*2/999.0));Damage is scaled according to speed of the slam
 v = 7
 
 [State 701, DetectThrow]
 Triggerall = NumExplod(8258232) = 0
-Trigger1 = Map(P2LastPosYCustomState) < playerid(getplayerid(2)), Pos Y  + CameraPos Y
-Trigger1 = playerid(getplayerid(2)), Pos Y >= -3 
-Trigger1 = playerid(getplayerid(2)), InCustomState = 1 && playerid(getplayerid(2)), Ctrl = 0
-Trigger1 = playerid(getplayerid(2)), Time > 5
-Trigger1 = Rand(1,100) > 33
+Trigger1 = Map(P2LastPosYCustomState) < player(2), Pos Y  + CameraPos Y
+Trigger1 = player(2), Pos Y >= -3 
+Trigger1 = player(2), InCustomState = 1 && player(2), Ctrl = 0
+Trigger1 = player(2), Time > 5
+Trigger1 = (1+floor(Random*100/1000.0)) > 33
 type = VarAdd
-value = -1 * Rand(70.0,90.0)
+value = -1 * (70+Random*20/999.0)
 v = 7
 
 [State 701, Timer]
 Triggerall = NumExplod(8258232) = 0
-Trigger1 = playerid(getplayerid(2)), Pos Y >= -3 
-Trigger1 = playerid(getplayerid(2)), Time = 1
-Trigger1 = playerid(getplayerid(2)), stateno = 5100 || playerid(getplayerid(2)), stateno = 5110 
-Trigger2 = playerid(getplayerid(2)), vel Y > 8 && playerid(getplayerid(2)), Pos Y >= -3 && playerid(getplayerid(2)), hitfall = 1
+Trigger1 = player(2), Pos Y >= -3 
+Trigger1 = player(2), Time = 1
+Trigger1 = player(2), stateno = 5100 || player(2), stateno = 5110 
+Trigger2 = player(2), vel Y > 8 && player(2), Pos Y >= -3 && player(2), hitfall = 1
 ID = 8258232
 type = Explod
 anim = 999
@@ -4870,9 +4870,9 @@ pausemovetime = 99999
 
 [State 701, TimerCustom]
 Triggerall = NumExplod(8258232) = 0
-Trigger1 = Map(P2LastPosYCustomState) < playerid(getplayerid(2)), Pos Y  + CameraPos Y
-Trigger1 = playerid(getplayerid(2)), Pos Y >= -3 
-Trigger1 = playerid(getplayerid(2)), InCustomState = 1 && playerid(getplayerid(2)), Ctrl = 0
+Trigger1 = Map(P2LastPosYCustomState) < player(2), Pos Y  + CameraPos Y
+Trigger1 = player(2), Pos Y >= -3 
+Trigger1 = player(2), InCustomState = 1 && player(2), Ctrl = 0
 ID = 8258232
 type = Explod
 anim = 999
@@ -4883,9 +4883,9 @@ supermovetime = 99999
 pausemovetime = 99999
 
 [State 701, RecordLastPosCustomState]
-Trigger1 = playerid(getplayerid(2)), InCustomState = 1
+Trigger1 = player(2), InCustomState = 1
 type = MapSet
-value = playerid(getplayerid(2)), Pos Y + CameraPos Y
+value = player(2), Pos Y + CameraPos Y
 map = "P2LastPosYCustomState"
 supermovetime = 99999
 pausemovetime = 99999
@@ -4893,39 +4893,39 @@ pausemovetime = 99999
 ;----------------------------P3
 [State 701, DetectFall]
 Triggerall = NumExplod(8258233) = 0
-Trigger1 = playerid(getplayerid(3)), Pos Y >= -3 
-Trigger1 = playerid(getplayerid(3)), Time = 1
-Trigger1 = playerid(getplayerid(3)), stateno = 5100 || playerid(getplayerid(3)), stateno = 5110 
-Trigger1 = Rand(1,100) > 33
+Trigger1 = player(3), Pos Y >= -3 
+Trigger1 = player(3), Time = 1
+Trigger1 = player(3), stateno = 5100 || player(3), stateno = 5110 
+Trigger1 = (1+floor(Random*100/1000.0)) > 33
 type = VarAdd
-value = -1 * Rand(5.0,15.0)
+value = -1 * (5+Random*10/999.0)
 v = 7
 
 [State 701, DetectSlam]
 Triggerall = NumExplod(8258233) = 0
-Trigger1 = playerid(getplayerid(3)), vel Y > 8 && playerid(getplayerid(3)), Pos Y >= -3 && playerid(getplayerid(3)), hitfall = 1
-Trigger1 = Rand(1,100) > 33
+Trigger1 = player(3), vel Y > 8 && player(3), Pos Y >= -3 && player(3), hitfall = 1
+Trigger1 = (1+floor(Random*100/1000.0)) > 33
 type = VarAdd
-value = -1 * (playerid(getplayerid(3)), vel Y) * (Rand(3.0,5.0));Damage is scaled according to speed of the slam
+value = -1 * (player(3), vel Y) * ((3+Random*2/999.0));Damage is scaled according to speed of the slam
 v = 7
 
 [State 701, DetectThrow]
 Triggerall = NumExplod(8258233) = 0
-Trigger1 = Map(P3LastPosYCustomState) < playerid(getplayerid(3)), Pos Y  + CameraPos Y
-Trigger1 = playerid(getplayerid(3)), Pos Y >= -3 
-Trigger1 = playerid(getplayerid(3)), InCustomState = 1 && playerid(getplayerid(3)), Ctrl = 0
-Trigger1 = playerid(getplayerid(3)), Time > 5
-Trigger1 = Rand(1,100) > 33
+Trigger1 = Map(P3LastPosYCustomState) < player(3), Pos Y  + CameraPos Y
+Trigger1 = player(3), Pos Y >= -3 
+Trigger1 = player(3), InCustomState = 1 && player(3), Ctrl = 0
+Trigger1 = player(3), Time > 5
+Trigger1 = (1+floor(Random*100/1000.0)) > 33
 type = VarAdd
-value = -1 * Rand(70.0,90.0)
+value = -1 * (70+Random*20/999.0)
 v = 7
 
 [State 701, Timer]
 Triggerall = NumExplod(8258233) = 0
-Trigger1 = playerid(getplayerid(3)), Pos Y >= -3 
-Trigger1 = playerid(getplayerid(3)), Time = 1
-Trigger1 = playerid(getplayerid(3)), stateno = 5100 || playerid(getplayerid(3)), stateno = 5110 
-Trigger2 = playerid(getplayerid(3)), vel Y > 8 && playerid(getplayerid(3)), Pos Y >= -3 && playerid(getplayerid(3)), hitfall = 1
+Trigger1 = player(3), Pos Y >= -3 
+Trigger1 = player(3), Time = 1
+Trigger1 = player(3), stateno = 5100 || player(3), stateno = 5110 
+Trigger2 = player(3), vel Y > 8 && player(3), Pos Y >= -3 && player(3), hitfall = 1
 ID = 8258233
 type = Explod
 anim = 999
@@ -4937,9 +4937,9 @@ pausemovetime = 99999
 
 [State 701, TimerCustom]
 Triggerall = NumExplod(8258233) = 0
-Trigger1 = Map(P3LastPosYCustomState) < playerid(getplayerid(3)), Pos Y  + CameraPos Y
-Trigger1 = playerid(getplayerid(3)), Pos Y >= -3 
-Trigger1 = playerid(getplayerid(3)), InCustomState = 1 && playerid(getplayerid(3)), Ctrl = 0
+Trigger1 = Map(P3LastPosYCustomState) < player(3), Pos Y  + CameraPos Y
+Trigger1 = player(3), Pos Y >= -3 
+Trigger1 = player(3), InCustomState = 1 && player(3), Ctrl = 0
 ID = 8258233
 type = Explod
 anim = 999
@@ -4950,9 +4950,9 @@ supermovetime = 99999
 pausemovetime = 99999
 
 [State 701, RecordLastPosCustomState]
-Trigger1 = playerid(getplayerid(3)), InCustomState = 1
+Trigger1 = player(3), InCustomState = 1
 type = MapSet
-value = playerid(getplayerid(3)), Pos Y + CameraPos Y
+value = player(3), Pos Y + CameraPos Y
 map = "P3LastPosYCustomState"
 supermovetime = 99999
 pausemovetime = 99999
@@ -4960,39 +4960,39 @@ pausemovetime = 99999
 ;----------------------------P4
 [State 701, DetectFall]
 Triggerall = NumExplod(8258234) = 0
-Trigger1 = playerid(getplayerid(4)), Pos Y >= -3 
-Trigger1 = playerid(getplayerid(4)), Time = 1
-Trigger1 = playerid(getplayerid(4)), stateno = 5100 || playerid(getplayerid(4)), stateno = 5110 
-Trigger1 = Rand(1,100) > 33
+Trigger1 = player(4), Pos Y >= -3 
+Trigger1 = player(4), Time = 1
+Trigger1 = player(4), stateno = 5100 || player(4), stateno = 5110 
+Trigger1 = (1+floor(Random*100/1000.0)) > 33
 type = VarAdd
-value = -1 * Rand(5.0,15.0)
+value = -1 * (5+Random*10/999.0)
 v = 7
 
 [State 701, DetectSlam]
 Triggerall = NumExplod(8258234) = 0
-Trigger1 = playerid(getplayerid(4)), vel Y > 8 && playerid(getplayerid(4)), Pos Y >= -3 && playerid(getplayerid(4)), hitfall = 1
-Trigger1 = Rand(1,100) > 33
+Trigger1 = player(4), vel Y > 8 && player(4), Pos Y >= -3 && player(4), hitfall = 1
+Trigger1 = (1+floor(Random*100/1000.0)) > 33
 type = VarAdd
-value = -1 * (playerid(getplayerid(4)), vel Y) * (Rand(3.0,5.0));Damage is scaled according to speed of the slam
+value = -1 * (player(4), vel Y) * ((3+Random*2/999.0));Damage is scaled according to speed of the slam
 v = 7
 
 [State 701, DetectThrow]
 Triggerall = NumExplod(8258234) = 0
-Trigger1 = Map(P4LastPosYCustomState) < playerid(getplayerid(4)), Pos Y  + CameraPos Y
-Trigger1 = playerid(getplayerid(4)), Pos Y >= -3 
-Trigger1 = playerid(getplayerid(4)), InCustomState = 1 && playerid(getplayerid(4)), Ctrl = 0
-Trigger1 = playerid(getplayerid(4)), Time > 5
-Trigger1 = Rand(1,100) > 33
+Trigger1 = Map(P4LastPosYCustomState) < player(4), Pos Y  + CameraPos Y
+Trigger1 = player(4), Pos Y >= -3 
+Trigger1 = player(4), InCustomState = 1 && player(4), Ctrl = 0
+Trigger1 = player(4), Time > 5
+Trigger1 = (1+floor(Random*100/1000.0)) > 33
 type = VarAdd
-value = -1 * Rand(70.0,90.0)
+value = -1 * (70+Random*20/999.0)
 v = 7
 
 [State 701, Timer]
 Triggerall = NumExplod(8258234) = 0
-Trigger1 = playerid(getplayerid(4)), Pos Y >= -3 
-Trigger1 = playerid(getplayerid(4)), Time = 1
-Trigger1 = playerid(getplayerid(4)), stateno = 5100 || playerid(getplayerid(4)), stateno = 5110 
-Trigger2 = playerid(getplayerid(4)), vel Y > 8 && playerid(getplayerid(4)), Pos Y >= -3 && playerid(getplayerid(4)), hitfall = 1
+Trigger1 = player(4), Pos Y >= -3 
+Trigger1 = player(4), Time = 1
+Trigger1 = player(4), stateno = 5100 || player(4), stateno = 5110 
+Trigger2 = player(4), vel Y > 8 && player(4), Pos Y >= -3 && player(4), hitfall = 1
 ID = 8258234
 type = Explod
 anim = 999
@@ -5004,9 +5004,9 @@ pausemovetime = 99999
 
 [State 701, TimerCustom]
 Triggerall = NumExplod(8258234) = 0
-Trigger1 = Map(P4LastPosYCustomState) < playerid(getplayerid(4)), Pos Y  + CameraPos Y
-Trigger1 = playerid(getplayerid(4)), Pos Y >= -3 
-Trigger1 = playerid(getplayerid(4)), InCustomState = 1 && playerid(getplayerid(4)), Ctrl = 0
+Trigger1 = Map(P4LastPosYCustomState) < player(4), Pos Y  + CameraPos Y
+Trigger1 = player(4), Pos Y >= -3 
+Trigger1 = player(4), InCustomState = 1 && player(4), Ctrl = 0
 ID = 8258234
 type = Explod
 anim = 999
@@ -5017,9 +5017,9 @@ supermovetime = 99999
 pausemovetime = 99999
 
 [State 701, RecordLastPosCustomState]
-Trigger1 = playerid(getplayerid(4)), InCustomState = 1
+Trigger1 = player(4), InCustomState = 1
 type = MapSet
-value = playerid(getplayerid(4)), Pos Y + CameraPos Y
+value = player(4), Pos Y + CameraPos Y
 map = "P4LastPosYCustomState"
 supermovetime = 99999
 pausemovetime = 99999
@@ -5027,39 +5027,39 @@ pausemovetime = 99999
 ;----------------------------P5
 [State 701, DetectFall]
 Triggerall = NumExplod(8258235) = 0
-Trigger1 = playerid(getplayerid(5)), Pos Y >= -3 
-Trigger1 = playerid(getplayerid(5)), Time = 1
-Trigger1 = playerid(getplayerid(5)), stateno = 5100 || playerid(getplayerid(5)), stateno = 5110 
-Trigger1 = Rand(1,100) > 33
+Trigger1 = player(5), Pos Y >= -3 
+Trigger1 = player(5), Time = 1
+Trigger1 = player(5), stateno = 5100 || player(5), stateno = 5110 
+Trigger1 = (1+floor(Random*100/1000.0)) > 33
 type = VarAdd
-value = -1 * Rand(5.0,15.0)
+value = -1 * (5+Random*10/999.0)
 v = 7
 
 [State 701, DetectSlam]
 Triggerall = NumExplod(8258235) = 0
-Trigger1 = playerid(getplayerid(5)), vel Y > 8 && playerid(getplayerid(5)), Pos Y >= -3 && playerid(getplayerid(5)), hitfall = 1
-Trigger1 = Rand(1,100) > 33
+Trigger1 = player(5), vel Y > 8 && player(5), Pos Y >= -3 && player(5), hitfall = 1
+Trigger1 = (1+floor(Random*100/1000.0)) > 33
 type = VarAdd
-value = -1 * (playerid(getplayerid(5)), vel Y) * (Rand(3.0,5.0));Damage is scaled according to speed of the slam
+value = -1 * (player(5), vel Y) * ((3+Random*2/999.0));Damage is scaled according to speed of the slam
 v = 7
 
 [State 701, DetectThrow]
 Triggerall = NumExplod(8258235) = 0
-Trigger1 = Map(P5LastPosYCustomState) < playerid(getplayerid(5)), Pos Y  + CameraPos Y
-Trigger1 = playerid(getplayerid(5)), Pos Y >= -3 
-Trigger1 = playerid(getplayerid(5)), InCustomState = 1 && playerid(getplayerid(5)), Ctrl = 0
-Trigger1 = playerid(getplayerid(5)), Time > 5
-Trigger1 = Rand(1,100) > 33
+Trigger1 = Map(P5LastPosYCustomState) < player(5), Pos Y  + CameraPos Y
+Trigger1 = player(5), Pos Y >= -3 
+Trigger1 = player(5), InCustomState = 1 && player(5), Ctrl = 0
+Trigger1 = player(5), Time > 5
+Trigger1 = (1+floor(Random*100/1000.0)) > 33
 type = VarAdd
-value = -1 * Rand(70.0,90.0)
+value = -1 * (70+Random*20/999.0)
 v = 7
 
 [State 701, Timer]
 Triggerall = NumExplod(8258235) = 0
-Trigger1 = playerid(getplayerid(5)), Pos Y >= -3 
-Trigger1 = playerid(getplayerid(5)), Time = 1
-Trigger1 = playerid(getplayerid(5)), stateno = 5100 || playerid(getplayerid(5)), stateno = 5110 
-Trigger2 = playerid(getplayerid(5)), vel Y > 8 && playerid(getplayerid(5)), Pos Y >= -3 && playerid(getplayerid(5)), hitfall = 1
+Trigger1 = player(5), Pos Y >= -3 
+Trigger1 = player(5), Time = 1
+Trigger1 = player(5), stateno = 5100 || player(5), stateno = 5110 
+Trigger2 = player(5), vel Y > 8 && player(5), Pos Y >= -3 && player(5), hitfall = 1
 ID = 8258235
 type = Explod
 anim = 999
@@ -5071,9 +5071,9 @@ pausemovetime = 99999
 
 [State 701, TimerCustom]
 Triggerall = NumExplod(8258235) = 0
-Trigger1 = Map(P5LastPosYCustomState) < playerid(getplayerid(5)), Pos Y  + CameraPos Y
-Trigger1 = playerid(getplayerid(5)), Pos Y >= -3 
-Trigger1 = playerid(getplayerid(5)), InCustomState = 1 && playerid(getplayerid(5)), Ctrl = 0
+Trigger1 = Map(P5LastPosYCustomState) < player(5), Pos Y  + CameraPos Y
+Trigger1 = player(5), Pos Y >= -3 
+Trigger1 = player(5), InCustomState = 1 && player(5), Ctrl = 0
 ID = 8258235
 type = Explod
 anim = 999
@@ -5084,9 +5084,9 @@ supermovetime = 99999
 pausemovetime = 99999
 
 [State 701, RecordLastPosCustomState]
-Trigger1 = playerid(getplayerid(5)), InCustomState = 1
+Trigger1 = player(5), InCustomState = 1
 type = MapSet
-value = playerid(getplayerid(5)), Pos Y + CameraPos Y
+value = player(5), Pos Y + CameraPos Y
 map = "P5LastPosYCustomState"
 supermovetime = 99999
 pausemovetime = 99999
@@ -5094,39 +5094,39 @@ pausemovetime = 99999
 ;----------------------------P6
 [State 701, DetectFall]
 Triggerall = NumExplod(8258236) = 0
-Trigger1 = playerid(getplayerid(6)), Pos Y >= -3 
-Trigger1 = playerid(getplayerid(6)), Time = 1
-Trigger1 = playerid(getplayerid(6)), stateno = 5100 || playerid(getplayerid(6)), stateno = 5110 
-Trigger1 = Rand(1,100) > 33
+Trigger1 = player(6), Pos Y >= -3 
+Trigger1 = player(6), Time = 1
+Trigger1 = player(6), stateno = 5100 || player(6), stateno = 5110 
+Trigger1 = (1+floor(Random*100/1000.0)) > 33
 type = VarAdd
-value = -1 * Rand(5.0,15.0)
+value = -1 * (5+Random*10/999.0)
 v = 7
 
 [State 701, DetectSlam]
 Triggerall = NumExplod(8258236) = 0
-Trigger1 = playerid(getplayerid(6)), vel Y > 8 && playerid(getplayerid(6)), Pos Y >= -3 && playerid(getplayerid(6)), hitfall = 1
-Trigger1 = Rand(1,100) > 33
+Trigger1 = player(6), vel Y > 8 && player(6), Pos Y >= -3 && player(6), hitfall = 1
+Trigger1 = (1+floor(Random*100/1000.0)) > 33
 type = VarAdd
-value = -1 * (playerid(getplayerid(6)), vel Y) * (Rand(3.0,5.0));Damage is scaled according to speed of the slam
+value = -1 * (player(6), vel Y) * ((3+Random*2/999.0));Damage is scaled according to speed of the slam
 v = 7
 
 [State 701, DetectThrow]
 Triggerall = NumExplod(8258236) = 0
-Trigger1 = Map(P6LastPosYCustomState) < playerid(getplayerid(6)), Pos Y  + CameraPos Y
-Trigger1 = playerid(getplayerid(6)), Pos Y >= -3 
-Trigger1 = playerid(getplayerid(6)), InCustomState = 1 && playerid(getplayerid(6)), Ctrl = 0
-Trigger1 = playerid(getplayerid(6)), Time > 5
-Trigger1 = Rand(1,100) > 33
+Trigger1 = Map(P6LastPosYCustomState) < player(6), Pos Y  + CameraPos Y
+Trigger1 = player(6), Pos Y >= -3 
+Trigger1 = player(6), InCustomState = 1 && player(6), Ctrl = 0
+Trigger1 = player(6), Time > 5
+Trigger1 = (1+floor(Random*100/1000.0)) > 33
 type = VarAdd
-value = -1 * Rand(70.0,90.0)
+value = -1 * (70+Random*20/999.0)
 v = 7
 
 [State 701, Timer]
 Triggerall = NumExplod(8258236) = 0
-Trigger1 = playerid(getplayerid(6)), Pos Y >= -3 
-Trigger1 = playerid(getplayerid(6)), Time = 1
-Trigger1 = playerid(getplayerid(6)), stateno = 5100 || playerid(getplayerid(6)), stateno = 5110 
-Trigger2 = playerid(getplayerid(6)), vel Y > 8 && playerid(getplayerid(6)), Pos Y >= -3 && playerid(getplayerid(6)), hitfall = 1
+Trigger1 = player(6), Pos Y >= -3 
+Trigger1 = player(6), Time = 1
+Trigger1 = player(6), stateno = 5100 || player(6), stateno = 5110 
+Trigger2 = player(6), vel Y > 8 && player(6), Pos Y >= -3 && player(6), hitfall = 1
 ID = 8258236
 type = Explod
 anim = 999
@@ -5138,9 +5138,9 @@ pausemovetime = 99999
 
 [State 701, TimerCustom]
 Triggerall = NumExplod(8258236) = 0
-Trigger1 = Map(P6LastPosYCustomState) < playerid(getplayerid(6)), Pos Y  + CameraPos Y
-Trigger1 = playerid(getplayerid(6)), Pos Y >= -3 
-Trigger1 = playerid(getplayerid(6)), InCustomState = 1 && playerid(getplayerid(6)), Ctrl = 0
+Trigger1 = Map(P6LastPosYCustomState) < player(6), Pos Y  + CameraPos Y
+Trigger1 = player(6), Pos Y >= -3 
+Trigger1 = player(6), InCustomState = 1 && player(6), Ctrl = 0
 ID = 8258236
 type = Explod
 anim = 999
@@ -5151,9 +5151,9 @@ supermovetime = 99999
 pausemovetime = 99999
 
 [State 701, RecordLastPosCustomState]
-Trigger1 = playerid(getplayerid(6)), InCustomState = 1
+Trigger1 = player(6), InCustomState = 1
 type = MapSet
-value = playerid(getplayerid(6)), Pos Y + CameraPos Y
+value = player(6), Pos Y + CameraPos Y
 map = "P6LastPosYCustomState"
 supermovetime = 99999
 pausemovetime = 99999
@@ -5161,39 +5161,39 @@ pausemovetime = 99999
 ;----------------------------P7
 [State 701, DetectFall]
 Triggerall = NumExplod(8258237) = 0
-Trigger1 = playerid(getplayerid(7)), Pos Y >= -3 
-Trigger1 = playerid(getplayerid(7)), Time = 1
-Trigger1 = playerid(getplayerid(7)), stateno = 5100 || playerid(getplayerid(7)), stateno = 5110 
-Trigger1 = Rand(1,100) > 33
+Trigger1 = player(7), Pos Y >= -3 
+Trigger1 = player(7), Time = 1
+Trigger1 = player(7), stateno = 5100 || player(7), stateno = 5110 
+Trigger1 = (1+floor(Random*100/1000.0)) > 33
 type = VarAdd
-value = -1 * Rand(5.0,15.0)
+value = -1 * (5+Random*10/999.0)
 v = 7
 
 [State 701, DetectSlam]
 Triggerall = NumExplod(8258237) = 0
-Trigger1 = playerid(getplayerid(7)), vel Y > 8 && playerid(getplayerid(7)), Pos Y >= -3 && playerid(getplayerid(7)), hitfall = 1
-Trigger1 = Rand(1,100) > 33
+Trigger1 = player(7), vel Y > 8 && player(7), Pos Y >= -3 && player(7), hitfall = 1
+Trigger1 = (1+floor(Random*100/1000.0)) > 33
 type = VarAdd
-value = -1 * (playerid(getplayerid(7)), vel Y) * (Rand(3.0,5.0));Damage is scaled according to speed of the slam
+value = -1 * (player(7), vel Y) * ((3+Random*2/999.0));Damage is scaled according to speed of the slam
 v = 7
 
 [State 701, DetectThrow]
 Triggerall = NumExplod(8258237) = 0
-Trigger1 = Map(P7LastPosYCustomState) < playerid(getplayerid(7)), Pos Y  + CameraPos Y
-Trigger1 = playerid(getplayerid(7)), Pos Y >= -3 
-Trigger1 = playerid(getplayerid(7)), InCustomState = 1 && playerid(getplayerid(7)), Ctrl = 0
-Trigger1 = playerid(getplayerid(7)), Time > 5
-Trigger1 = Rand(1,100) > 33
+Trigger1 = Map(P7LastPosYCustomState) < player(7), Pos Y  + CameraPos Y
+Trigger1 = player(7), Pos Y >= -3 
+Trigger1 = player(7), InCustomState = 1 && player(7), Ctrl = 0
+Trigger1 = player(7), Time > 5
+Trigger1 = (1+floor(Random*100/1000.0)) > 33
 type = VarAdd
-value = -1 * Rand(70.0,90.0)
+value = -1 * (70+Random*20/999.0)
 v = 7
 
 [State 701, Timer]
 Triggerall = NumExplod(8258237) = 0
-Trigger1 = playerid(getplayerid(7)), Pos Y >= -3 
-Trigger1 = playerid(getplayerid(7)), Time = 1
-Trigger1 = playerid(getplayerid(7)), stateno = 5100 || playerid(getplayerid(7)), stateno = 5110 
-Trigger2 = playerid(getplayerid(7)), vel Y > 8 && playerid(getplayerid(7)), Pos Y >= -3 && playerid(getplayerid(7)), hitfall = 1
+Trigger1 = player(7), Pos Y >= -3 
+Trigger1 = player(7), Time = 1
+Trigger1 = player(7), stateno = 5100 || player(7), stateno = 5110 
+Trigger2 = player(7), vel Y > 8 && player(7), Pos Y >= -3 && player(7), hitfall = 1
 ID = 8258237
 type = Explod
 anim = 999
@@ -5205,9 +5205,9 @@ pausemovetime = 99999
 
 [State 701, TimerCustom]
 Triggerall = NumExplod(8258237) = 0
-Trigger1 = Map(P7LastPosYCustomState) < playerid(getplayerid(7)), Pos Y  + CameraPos Y
-Trigger1 = playerid(getplayerid(7)), Pos Y >= -3 
-Trigger1 = playerid(getplayerid(7)), InCustomState = 1 && playerid(getplayerid(7)), Ctrl = 0
+Trigger1 = Map(P7LastPosYCustomState) < player(7), Pos Y  + CameraPos Y
+Trigger1 = player(7), Pos Y >= -3 
+Trigger1 = player(7), InCustomState = 1 && player(7), Ctrl = 0
 ID = 8258237
 type = Explod
 anim = 999
@@ -5218,9 +5218,9 @@ supermovetime = 99999
 pausemovetime = 99999
 
 [State 701, RecordLastPosCustomState]
-Trigger1 = playerid(getplayerid(7)), InCustomState = 1
+Trigger1 = player(7), InCustomState = 1
 type = MapSet
-value = playerid(getplayerid(7)), Pos Y + CameraPos Y
+value = player(7), Pos Y + CameraPos Y
 map = "P7LastPosYCustomState"
 supermovetime = 99999
 pausemovetime = 99999
@@ -5228,39 +5228,39 @@ pausemovetime = 99999
 ;----------------------------P8
 [State 701, DetectFall]
 Triggerall = NumExplod(8258237) = 0
-Trigger1 = playerid(getplayerid(8)), Pos Y >= -3 
-Trigger1 = playerid(getplayerid(8)), Time = 1
-Trigger1 = playerid(getplayerid(8)), stateno = 5100 || playerid(getplayerid(8)), stateno = 5110 
-Trigger1 = Rand(1,100) > 33
+Trigger1 = player(8), Pos Y >= -3 
+Trigger1 = player(8), Time = 1
+Trigger1 = player(8), stateno = 5100 || player(8), stateno = 5110 
+Trigger1 = (1+floor(Random*100/1000.0)) > 33
 type = VarAdd
-value = -1 * Rand(5.0,15.0)
+value = -1 * (5+Random*10/999.0)
 v = 7
 
 [State 701, DetectSlam]
 Triggerall = NumExplod(8258237) = 0
-Trigger1 = playerid(getplayerid(8)), vel Y > 8 && playerid(getplayerid(8)), Pos Y >= -3 && playerid(getplayerid(8)), hitfall = 1
-Trigger1 = Rand(1,100) > 33
+Trigger1 = player(8), vel Y > 8 && player(8), Pos Y >= -3 && player(8), hitfall = 1
+Trigger1 = (1+floor(Random*100/1000.0)) > 33
 type = VarAdd
-value = -1 * (playerid(getplayerid(8)), vel Y) * (Rand(3.0,5.0));Damage is scaled according to speed of the slam
+value = -1 * (player(8), vel Y) * ((3+Random*2/999.0));Damage is scaled according to speed of the slam
 v = 7
 
 [State 701, DetectThrow]
 Triggerall = NumExplod(8258237) = 0
-Trigger1 = Map(P8LastPosYCustomState) < playerid(getplayerid(8)), Pos Y  + CameraPos Y
-Trigger1 = playerid(getplayerid(8)), Pos Y >= -3 
-Trigger1 = playerid(getplayerid(8)), InCustomState = 1 && playerid(getplayerid(8)), Ctrl = 0
-Trigger1 = playerid(getplayerid(8)), Time > 5
-Trigger1 = Rand(1,100) > 33
+Trigger1 = Map(P8LastPosYCustomState) < player(8), Pos Y  + CameraPos Y
+Trigger1 = player(8), Pos Y >= -3 
+Trigger1 = player(8), InCustomState = 1 && player(8), Ctrl = 0
+Trigger1 = player(8), Time > 5
+Trigger1 = (1+floor(Random*100/1000.0)) > 33
 type = VarAdd
-value = -1 * Rand(70.0,90.0)
+value = -1 * (70+Random*20/999.0)
 v = 7
 
 [State 701, Timer]
 Triggerall = NumExplod(8258237) = 0
-Trigger1 = playerid(getplayerid(8)), Pos Y >= -3 
-Trigger1 = playerid(getplayerid(8)), Time = 1
-Trigger1 = playerid(getplayerid(8)), stateno = 5100 || playerid(getplayerid(8)), stateno = 5110 
-Trigger2 = playerid(getplayerid(8)), vel Y > 8 && playerid(getplayerid(8)), Pos Y >= -3 && playerid(getplayerid(8)), hitfall = 1
+Trigger1 = player(8), Pos Y >= -3 
+Trigger1 = player(8), Time = 1
+Trigger1 = player(8), stateno = 5100 || player(8), stateno = 5110 
+Trigger2 = player(8), vel Y > 8 && player(8), Pos Y >= -3 && player(8), hitfall = 1
 ID = 8258237
 type = Explod
 anim = 999
@@ -5272,9 +5272,9 @@ pausemovetime = 99999
 
 [State 701, TimerCustom]
 Triggerall = NumExplod(8258237) = 0
-Trigger1 = Map(P8LastPosYCustomState) < playerid(getplayerid(8)), Pos Y  + CameraPos Y
-Trigger1 = playerid(getplayerid(8)), Pos Y >= -3 
-Trigger1 = playerid(getplayerid(8)), InCustomState = 1 && playerid(getplayerid(8)), Ctrl = 0
+Trigger1 = Map(P8LastPosYCustomState) < player(8), Pos Y  + CameraPos Y
+Trigger1 = player(8), Pos Y >= -3 
+Trigger1 = player(8), InCustomState = 1 && player(8), Ctrl = 0
 ID = 8258237
 type = Explod
 anim = 999
@@ -5285,9 +5285,9 @@ supermovetime = 99999
 pausemovetime = 99999
 
 [State 701, RecordLastPosCustomState]
-Trigger1 = playerid(getplayerid(8)), InCustomState = 1
+Trigger1 = player(8), InCustomState = 1
 type = MapSet
-value = playerid(getplayerid(8)), Pos Y + CameraPos Y
+value = player(8), Pos Y + CameraPos Y
 map = "P8LastPosYCustomState"
 supermovetime = 99999
 pausemovetime = 99999
@@ -5589,11 +5589,11 @@ pos = 0,0
 random = 360,10
 sprpriority = 6
 RemoveTime = 240
-vel = Rand(-4,4),Rand(-4,-1.50)
+vel = (-4+floor(Random*9/1000.0)),(-4+Random*2.5/999.0)
 accel = 0,0.2
 supermovetime = 99999
 pausemovetime = 99999
-under = rand(0,1)
+under = floor(Random*2/1000.0)
 [State 701, Grandes]
 trigger1 = NumExplod(49) < Var(33)
 ID = 49
@@ -5604,11 +5604,11 @@ pos = 0,0
 random = 360,10
 sprpriority = 6
 RemoveTime = 240
-vel = Rand(-4,4),Rand(-4,-1.50)
+vel = (-4+floor(Random*9/1000.0)),(-4+Random*2.5/999.0)
 accel = 0,0.2
 supermovetime = 99999
 pausemovetime = 99999
-under = rand(0,1)
+under = floor(Random*2/1000.0)
 [State 701, Grandes]
 trigger1 = NumExplod(49) < Var(33)
 ID = 49
@@ -5619,11 +5619,11 @@ pos = 0,0
 random = 360,10
 sprpriority = 6
 RemoveTime = 240
-vel = Rand(-4,4),Rand(-4,-1.50)
+vel = (-4+floor(Random*9/1000.0)),(-4+Random*2.5/999.0)
 accel = 0,0.2
 supermovetime = 99999
 pausemovetime = 99999
-under = rand(0,1)
+under = floor(Random*2/1000.0)
 
 [State 701, RandomBig]
 trigger1 = Var(1) = 1
@@ -5660,9 +5660,9 @@ pos = 0,0
 random = 360,10
 sprpriority = 6
 RemoveTime = 240
-vel = Rand(-6,6),Rand(-6,-1.50)
+vel = (-6+floor(Random*13/1000.0)),(-6+Random*4.5/999.0)
 accel = 0,0.2
-under = rand(0,1)
+under = floor(Random*2/1000.0)
 supermovetime = 99999
 pausemovetime = 99999
 
@@ -5676,9 +5676,9 @@ pos = 0,0
 random = 360,10
 sprpriority = 6
 RemoveTime = 240
-vel = Rand(-6,6),Rand(-6,-1.50)
+vel = (-6+floor(Random*13/1000.0)),(-6+Random*4.5/999.0)
 accel = 0,0.2
-under = rand(0,1)
+under = floor(Random*2/1000.0)
 supermovetime = 99999
 pausemovetime = 99999
 
@@ -5692,9 +5692,9 @@ pos = 0,0
 random = 360,10
 sprpriority = 6
 RemoveTime = 240
-vel = Rand(-6,6),Rand(-6,-1.50)
+vel = (-6+floor(Random*13/1000.0)),(-6+Random*4.5/999.0)
 accel = 0,0.2
-under = rand(0,1)
+under = floor(Random*2/1000.0)
 supermovetime = 99999
 pausemovetime = 99999
 
@@ -5708,9 +5708,9 @@ pos = 0,0
 random = 360,10
 sprpriority = 6
 RemoveTime = 240
-vel = Rand(-6,6),Rand(-6,-1.50)
+vel = (-6+floor(Random*13/1000.0)),(-6+Random*4.5/999.0)
 accel = 0,0.2
-under = rand(0,1)
+under = floor(Random*2/1000.0)
 supermovetime = 99999
 pausemovetime = 99999
 
@@ -5724,9 +5724,9 @@ pos = 0,0
 random = 360,10
 sprpriority = 6
 RemoveTime = 240
-vel = Rand(-6,6),Rand(-6,-1.50)
+vel = (-6+floor(Random*13/1000.0)),(-6+Random*4.5/999.0)
 accel = 0,0.2
-under = rand(0,1)
+under = floor(Random*2/1000.0)
 supermovetime = 99999
 pausemovetime = 99999
 
@@ -5740,9 +5740,9 @@ pos = 0,0
 random = 360,10
 sprpriority = 6
 RemoveTime = 240
-vel = Rand(-6,6),Rand(-6,-1.50)
+vel = (-6+floor(Random*13/1000.0)),(-6+Random*4.5/999.0)
 accel = 0,0.2
-under = rand(0,1)
+under = floor(Random*2/1000.0)
 supermovetime = 99999
 pausemovetime = 99999
 
@@ -5756,9 +5756,9 @@ pos = 0,0
 random = 360,10
 sprpriority = 6
 RemoveTime = 240
-vel = Rand(-6,6),Rand(-6,-1.50)
+vel = (-6+floor(Random*13/1000.0)),(-6+Random*4.5/999.0)
 accel = 0,0.2
-under = rand(0,1)
+under = floor(Random*2/1000.0)
 supermovetime = 99999
 pausemovetime = 99999
 
@@ -5797,9 +5797,9 @@ space = stage
 pos = 0,0
 random = 360,10
 sprpriority = 6
-vel = Rand(-6,6),Rand(-6,-2.50)
+vel = (-6+floor(Random*13/1000.0)),(-6+Random*3.5/999.0)
 accel = 0,0.2
-under = rand(0,1)
+under = floor(Random*2/1000.0)
 supermovetime = 99999
 pausemovetime = 99999
 
@@ -5812,9 +5812,9 @@ space = stage
 pos = 0,0
 random = 360,10
 sprpriority = 6
-vel = Rand(-6,6),Rand(-6,-2.50)
+vel = (-6+floor(Random*13/1000.0)),(-6+Random*3.5/999.0)
 accel = 0,0.2
-under = rand(0,1)
+under = floor(Random*2/1000.0)
 supermovetime = 99999
 pausemovetime = 99999
 
@@ -5827,9 +5827,9 @@ space = stage
 pos = 0,0
 random = 360,10
 sprpriority = 6
-vel = Rand(-6,6),Rand(-6,-2.50)
+vel = (-6+floor(Random*13/1000.0)),(-6+Random*3.5/999.0)
 accel = 0,0.2
-under = rand(0,1)
+under = floor(Random*2/1000.0)
 supermovetime = 99999
 pausemovetime = 99999
 
@@ -5842,9 +5842,9 @@ space = stage
 pos = 0,0
 random = 360,10
 sprpriority = 6
-vel = Rand(-6,6),Rand(-6,-2.50)
+vel = (-6+floor(Random*13/1000.0)),(-6+Random*3.5/999.0)
 accel = 0,0.2
-under = rand(0,1)
+under = floor(Random*2/1000.0)
 supermovetime = 99999
 pausemovetime = 99999
 
@@ -5857,9 +5857,9 @@ space = stage
 pos = 0,0
 random = 360,10
 sprpriority = 6
-vel = Rand(-6,6),Rand(-6,-2.50)
+vel = (-6+floor(Random*13/1000.0)),(-6+Random*3.5/999.0)
 accel = 0,0.2
-under = rand(0,1)
+under = floor(Random*2/1000.0)
 supermovetime = 99999
 pausemovetime = 99999
 
@@ -5872,9 +5872,9 @@ space = stage
 pos = 0,0
 random = 360,10
 sprpriority = 6
-vel = Rand(-6,6),Rand(-6,-2.50)
+vel = (-6+floor(Random*13/1000.0)),(-6+Random*3.5/999.0)
 accel = 0,0.2
-under = rand(0,1)
+under = floor(Random*2/1000.0)
 supermovetime = 99999
 pausemovetime = 99999
 
@@ -5887,9 +5887,9 @@ space = stage
 pos = 0,0
 random = 360,10
 sprpriority = 6
-vel = Rand(-6,6),Rand(-6,-2.50)
+vel = (-6+floor(Random*13/1000.0)),(-6+Random*3.5/999.0)
 accel = 0,0.2
-under = rand(0,1)
+under = floor(Random*2/1000.0)
 supermovetime = 99999
 pausemovetime = 99999
 
@@ -5902,9 +5902,9 @@ space = stage
 pos = 0,0
 random = 360,10
 sprpriority = 6
-vel = Rand(-6,6),Rand(-6,-2.50)
+vel = (-6+floor(Random*13/1000.0)),(-6+Random*3.5/999.0)
 accel = 0,0.2
-under = rand(0,1)
+under = floor(Random*2/1000.0)
 supermovetime = 99999
 pausemovetime = 99999
 
@@ -5917,9 +5917,9 @@ space = stage
 pos = 0,0
 random = 360,10
 sprpriority = 6
-vel = Rand(-6,6),Rand(-6,-2.50)
+vel = (-6+floor(Random*13/1000.0)),(-6+Random*3.5/999.0)
 accel = 0,0.2
-under = rand(0,1)
+under = floor(Random*2/1000.0)
 supermovetime = 99999
 pausemovetime = 99999
 
@@ -5932,9 +5932,9 @@ space = stage
 pos = 0,0
 random = 360,10
 sprpriority = 6
-vel = Rand(-6,6),Rand(-6,-2.50)
+vel = (-6+floor(Random*13/1000.0)),(-6+Random*3.5/999.0)
 accel = 0,0.2
-under = rand(0,1)
+under = floor(Random*2/1000.0)
 supermovetime = 99999
 pausemovetime = 99999
 
@@ -5947,9 +5947,9 @@ space = stage
 pos = 0,0
 random = 360,10
 sprpriority = 6
-vel = Rand(-6,6),Rand(-6,-2.50)
+vel = (-6+floor(Random*13/1000.0)),(-6+Random*3.5/999.0)
 accel = 0,0.2
-under = rand(0,1)
+under = floor(Random*2/1000.0)
 supermovetime = 99999
 pausemovetime = 99999
 
@@ -5962,9 +5962,9 @@ space = stage
 pos = 0,0
 random = 360,10
 sprpriority = 6
-vel = Rand(-6,6),Rand(-6,-2.50)
+vel = (-6+floor(Random*13/1000.0)),(-6+Random*3.5/999.0)
 accel = 0,0.2
-under = rand(0,1)
+under = floor(Random*2/1000.0)
 supermovetime = 99999
 pausemovetime = 99999
 
@@ -5977,9 +5977,9 @@ space = stage
 pos = 0,0
 random = 360,10
 sprpriority = 6
-vel = Rand(-6,6),Rand(-6,-2.50)
+vel = (-6+floor(Random*13/1000.0)),(-6+Random*3.5/999.0)
 accel = 0,0.2
-under = rand(0,1)
+under = floor(Random*2/1000.0)
 supermovetime = 99999
 pausemovetime = 99999
 
@@ -5992,9 +5992,9 @@ space = stage
 pos = 0,0
 random = 360,10
 sprpriority = 6
-vel = Rand(-6,6),Rand(-6,-2.50)
+vel = (-6+floor(Random*13/1000.0)),(-6+Random*3.5/999.0)
 accel = 0,0.2
-under = rand(0,1)
+under = floor(Random*2/1000.0)
 supermovetime = 99999
 pausemovetime = 99999
 
@@ -6437,16 +6437,16 @@ v = 33
 trigger1 = NumExplod(49) < Var(33) && Time < 13
 ID = 49
 type = Explod
-anim = Rand(7012,7015)
+anim = (7012+floor(Random*4/1000.0))
 random = 10,10
 sprpriority = 6
 RemoveTime = 240
-vel = Rand(-4,4),Rand(-6,-3.50)
+vel = (-4+floor(Random*9/1000.0)),(-6+Random*2.5/999.0)
 accel = 0,0.2
 supermovetime = 99999
 pausemovetime = 99999
-under = rand(0,1)
-facing = rand(-1,1)
+under = floor(Random*2/1000.0)
+facing = (-1+floor(Random*3/1000.0))
 
 [State 417, KillSawHoles]
 type = RemoveExplod
@@ -6537,11 +6537,11 @@ pos = -30,0
 random = 90,10
 sprpriority = 6
 RemoveTime = 240
-vel = Rand(-4,4),Rand(-6,-3.50)
+vel = (-4+floor(Random*9/1000.0)),(-6+Random*2.5/999.0)
 accel = 0,0.2
 supermovetime = 99999
 pausemovetime = 99999
-under = rand(0,1)
+under = floor(Random*2/1000.0)
 [State 1002, Grandes]
 trigger1 = NumExplod(49) < Var(33)
 ID = 49
@@ -6552,11 +6552,11 @@ pos = -30,0
 random = 90,10
 sprpriority = 6
 RemoveTime = 240
-vel = Rand(-4,4),Rand(-6,-3.50)
+vel = (-4+floor(Random*9/1000.0)),(-6+Random*2.5/999.0)
 accel = 0,0.2
 supermovetime = 99999
 pausemovetime = 99999
-under = rand(0,1)
+under = floor(Random*2/1000.0)
 [State 1002, Grandes]
 trigger1 = NumExplod(49) < Var(33)
 ID = 49
@@ -6567,11 +6567,11 @@ pos = -30,0
 random = 90,10
 sprpriority = 6
 RemoveTime = 240
-vel = Rand(-4,4),Rand(-6,-3.50)
+vel = (-4+floor(Random*9/1000.0)),(-6+Random*2.5/999.0)
 accel = 0,0.2
 supermovetime = 99999
 pausemovetime = 99999
-under = rand(0,1)
+under = floor(Random*2/1000.0)
 
 [State 1002, RandomMid]
 trigger1 = 1
@@ -6594,9 +6594,9 @@ pos = -30,0
 random = 90,10
 sprpriority = 6
 RemoveTime = 240
-vel = Rand(-6,6),Rand(-12,-5.50)
+vel = (-6+floor(Random*13/1000.0)),(-12+Random*6.5/999.0)
 accel = 0,0.2
-under = rand(0,1)
+under = floor(Random*2/1000.0)
 supermovetime = 99999
 pausemovetime = 99999
 
@@ -6610,9 +6610,9 @@ pos = -30,0
 random = 90,10
 sprpriority = 6
 RemoveTime = 240
-vel = Rand(-6,6),Rand(-12,-5.50)
+vel = (-6+floor(Random*13/1000.0)),(-12+Random*6.5/999.0)
 accel = 0,0.2
-under = rand(0,1)
+under = floor(Random*2/1000.0)
 supermovetime = 99999
 pausemovetime = 99999
 
@@ -6626,9 +6626,9 @@ pos = -30,0
 random = 90,10
 sprpriority = 6
 RemoveTime = 240
-vel = Rand(-6,6),Rand(-12,-5.50)
+vel = (-6+floor(Random*13/1000.0)),(-12+Random*6.5/999.0)
 accel = 0,0.2
-under = rand(0,1)
+under = floor(Random*2/1000.0)
 supermovetime = 99999
 pausemovetime = 99999
 
@@ -6642,9 +6642,9 @@ pos = -30,0
 random = 90,10
 sprpriority = 6
 RemoveTime = 240
-vel = Rand(-6,6),Rand(-12,-5.50)
+vel = (-6+floor(Random*13/1000.0)),(-12+Random*6.5/999.0)
 accel = 0,0.2
-under = rand(0,1)
+under = floor(Random*2/1000.0)
 supermovetime = 99999
 pausemovetime = 99999
 
@@ -6658,9 +6658,9 @@ pos = -30,0
 random = 90,10
 sprpriority = 6
 RemoveTime = 240
-vel = Rand(-6,6),Rand(-12,-5.50)
+vel = (-6+floor(Random*13/1000.0)),(-12+Random*6.5/999.0)
 accel = 0,0.2
-under = rand(0,1)
+under = floor(Random*2/1000.0)
 supermovetime = 99999
 pausemovetime = 99999
 
@@ -6674,9 +6674,9 @@ pos = -30,0
 random = 90,10
 sprpriority = 6
 RemoveTime = 240
-vel = Rand(-6,6),Rand(-12,-5.50)
+vel = (-6+floor(Random*13/1000.0)),(-12+Random*6.5/999.0)
 accel = 0,0.2
-under = rand(0,1)
+under = floor(Random*2/1000.0)
 supermovetime = 99999
 pausemovetime = 99999
 
@@ -6690,9 +6690,9 @@ pos = -30,0
 random = 90,10
 sprpriority = 6
 RemoveTime = 240
-vel = Rand(-6,6),Rand(-12,-5.50)
+vel = (-6+floor(Random*13/1000.0)),(-12+Random*6.5/999.0)
 accel = 0,0.2
-under = rand(0,1)
+under = floor(Random*2/1000.0)
 supermovetime = 99999
 pausemovetime = 99999
 
@@ -6716,9 +6716,9 @@ space = stage
 pos = -30,0
 random = 90,10
 sprpriority = 6
-vel = Rand(-6,6),Rand(-15,-8.50)
+vel = (-6+floor(Random*13/1000.0)),(-15+Random*6.5/999.0)
 accel = 0,0.2
-under = rand(0,1)
+under = floor(Random*2/1000.0)
 supermovetime = 99999
 pausemovetime = 99999
 
@@ -6731,9 +6731,9 @@ space = stage
 pos = -30,0
 random = 90,10
 sprpriority = 6
-vel = Rand(-6,6),Rand(-15,-8.50)
+vel = (-6+floor(Random*13/1000.0)),(-15+Random*6.5/999.0)
 accel = 0,0.2
-under = rand(0,1)
+under = floor(Random*2/1000.0)
 supermovetime = 99999
 pausemovetime = 99999
 
@@ -6746,9 +6746,9 @@ space = stage
 pos = -30,0
 random = 90,10
 sprpriority = 6
-vel = Rand(-6,6),Rand(-15,-8.50)
+vel = (-6+floor(Random*13/1000.0)),(-15+Random*6.5/999.0)
 accel = 0,0.2
-under = rand(0,1)
+under = floor(Random*2/1000.0)
 supermovetime = 99999
 pausemovetime = 99999
 
@@ -6761,9 +6761,9 @@ space = stage
 pos = -30,0
 random = 90,10
 sprpriority = 6
-vel = Rand(-6,6),Rand(-15,-8.50)
+vel = (-6+floor(Random*13/1000.0)),(-15+Random*6.5/999.0)
 accel = 0,0.2
-under = rand(0,1)
+under = floor(Random*2/1000.0)
 supermovetime = 99999
 pausemovetime = 99999
 
@@ -6776,9 +6776,9 @@ space = stage
 pos = -30,0
 random = 90,10
 sprpriority = 6
-vel = Rand(-6,6),Rand(-15,-8.50)
+vel = (-6+floor(Random*13/1000.0)),(-15+Random*6.5/999.0)
 accel = 0,0.2
-under = rand(0,1)
+under = floor(Random*2/1000.0)
 supermovetime = 99999
 pausemovetime = 99999
 
@@ -6791,9 +6791,9 @@ space = stage
 pos = -30,0
 random = 90,10
 sprpriority = 6
-vel = Rand(-6,6),Rand(-15,-8.50)
+vel = (-6+floor(Random*13/1000.0)),(-15+Random*6.5/999.0)
 accel = 0,0.2
-under = rand(0,1)
+under = floor(Random*2/1000.0)
 supermovetime = 99999
 pausemovetime = 99999
 
@@ -6806,9 +6806,9 @@ space = stage
 pos = -30,0
 random = 90,10
 sprpriority = 6
-vel = Rand(-6,6),Rand(-15,-8.50)
+vel = (-6+floor(Random*13/1000.0)),(-15+Random*6.5/999.0)
 accel = 0,0.2
-under = rand(0,1)
+under = floor(Random*2/1000.0)
 supermovetime = 99999
 pausemovetime = 99999
 
@@ -6821,9 +6821,9 @@ space = stage
 pos = -30,0
 random = 90,10
 sprpriority = 6
-vel = Rand(-6,6),Rand(-15,-8.50)
+vel = (-6+floor(Random*13/1000.0)),(-15+Random*6.5/999.0)
 accel = 0,0.2
-under = rand(0,1)
+under = floor(Random*2/1000.0)
 supermovetime = 99999
 pausemovetime = 99999
 
@@ -6836,9 +6836,9 @@ space = stage
 pos = -30,0
 random = 90,10
 sprpriority = 6
-vel = Rand(-6,6),Rand(-15,-8.50)
+vel = (-6+floor(Random*13/1000.0)),(-15+Random*6.5/999.0)
 accel = 0,0.2
-under = rand(0,1)
+under = floor(Random*2/1000.0)
 supermovetime = 99999
 pausemovetime = 99999
 
@@ -6851,9 +6851,9 @@ space = stage
 pos = -30,0
 random = 90,10
 sprpriority = 6
-vel = Rand(-6,6),Rand(-15,-8.50)
+vel = (-6+floor(Random*13/1000.0)),(-15+Random*6.5/999.0)
 accel = 0,0.2
-under = rand(0,1)
+under = floor(Random*2/1000.0)
 supermovetime = 99999
 pausemovetime = 99999
 
@@ -6866,9 +6866,9 @@ space = stage
 pos = -30,0
 random = 90,10
 sprpriority = 6
-vel = Rand(-6,6),Rand(-15,-8.50)
+vel = (-6+floor(Random*13/1000.0)),(-15+Random*6.5/999.0)
 accel = 0,0.2
-under = rand(0,1)
+under = floor(Random*2/1000.0)
 supermovetime = 99999
 pausemovetime = 99999
 
@@ -6881,9 +6881,9 @@ space = stage
 pos = -30,0
 random = 90,10
 sprpriority = 6
-vel = Rand(-6,6),Rand(-15,-8.50)
+vel = (-6+floor(Random*13/1000.0)),(-15+Random*6.5/999.0)
 accel = 0,0.2
-under = rand(0,1)
+under = floor(Random*2/1000.0)
 supermovetime = 99999
 pausemovetime = 99999
 
@@ -6896,9 +6896,9 @@ space = stage
 pos = -30,0
 random = 90,10
 sprpriority = 6
-vel = Rand(-6,6),Rand(-15,-8.50)
+vel = (-6+floor(Random*13/1000.0)),(-15+Random*6.5/999.0)
 accel = 0,0.2
-under = rand(0,1)
+under = floor(Random*2/1000.0)
 supermovetime = 99999
 pausemovetime = 99999
 
@@ -6911,9 +6911,9 @@ space = stage
 pos = -30,0
 random = 90,10
 sprpriority = 6
-vel = Rand(-6,6),Rand(-15,-8.50)
+vel = (-6+floor(Random*13/1000.0)),(-15+Random*6.5/999.0)
 accel = 0,0.2
-under = rand(0,1)
+under = floor(Random*2/1000.0)
 supermovetime = 99999
 pausemovetime = 99999
 
@@ -6968,14 +6968,14 @@ type = VarSet
 
 ;Record every player's ID at all times
 [State 1810, ShowMeYourIDs]
-Trigger1 = var(11) := playerid(getplayerid(1)), ID
-Trigger1 = var(12) := playerid(getplayerid(2)), ID
-Trigger1 = var(13) := playerid(getplayerid(3)), ID
-Trigger1 = var(14) := playerid(getplayerid(4)), ID
-Trigger1 = var(15) := playerid(getplayerid(5)), ID
-Trigger1 = var(16) := playerid(getplayerid(6)), ID
-Trigger1 = var(17) := playerid(getplayerid(7)), ID
-Trigger1 = var(18) := playerid(getplayerid(8)), ID
+Trigger1 = var(11) := player(1), ID
+Trigger1 = var(12) := player(2), ID
+Trigger1 = var(13) := player(3), ID
+Trigger1 = var(14) := player(4), ID
+Trigger1 = var(15) := player(5), ID
+Trigger1 = var(16) := player(6), ID
+Trigger1 = var(17) := player(7), ID
+Trigger1 = var(18) := player(8), ID
 type = null
 
 [State 1810, WhoIsFalling]
@@ -7901,11 +7901,11 @@ pos = Var(31),Var(32)
 random = 10,10
 sprpriority = 6
 RemoveTime = 240
-vel = Rand(-2,2),Rand(-3,-1.50)
+vel = (-2+floor(Random*5/1000.0)),(-3+Random*1.5/999.0)
 accel = 0,0.2
 supermovetime = 99999
 pausemovetime = 99999
-under = rand(0,1)
+under = floor(Random*2/1000.0)
 [State 701, Grandes]
 trigger1 = NumExplod(49) < Var(33)
 ID = 49
@@ -7916,11 +7916,11 @@ pos = Var(31),Var(32)
 random = 10,10
 sprpriority = 6
 RemoveTime = 240
-vel = Rand(-2,2),Rand(-3,-1.50)
+vel = (-2+floor(Random*5/1000.0)),(-3+Random*1.5/999.0)
 accel = 0,0.2
 supermovetime = 99999
 pausemovetime = 99999
-under = rand(0,1)
+under = floor(Random*2/1000.0)
 [State 701, Grandes]
 trigger1 = NumExplod(49) < Var(33)
 ID = 49
@@ -7931,11 +7931,11 @@ pos = Var(31),Var(32)
 random = 10,10
 sprpriority = 6
 RemoveTime = 240
-vel = Rand(-2,2),Rand(-3,-1.50)
+vel = (-2+floor(Random*5/1000.0)),(-3+Random*1.5/999.0)
 accel = 0,0.2
 supermovetime = 99999
 pausemovetime = 99999
-under = rand(0,1)
+under = floor(Random*2/1000.0)
 
 [State 701, RandomMid]
 trigger1 = Var(20) = 47
@@ -7960,9 +7960,9 @@ pos = Var(31),Var(32)
 random = 10,10
 sprpriority = 6
 RemoveTime = 240
-vel = Rand(-3,3),Rand(-4,-1.50)
+vel = (-3+floor(Random*7/1000.0)),(-4+Random*2.5/999.0)
 accel = 0,0.2
-under = rand(0,1)
+under = floor(Random*2/1000.0)
 supermovetime = 99999
 pausemovetime = 99999
 [State 701, Medias]
@@ -7975,9 +7975,9 @@ pos = Var(31),Var(32)
 random = 10,10
 sprpriority = 6
 RemoveTime = 240
-vel = Rand(-3,3),Rand(-4,-1.50)
+vel = (-3+floor(Random*7/1000.0)),(-4+Random*2.5/999.0)
 accel = 0,0.2
-under = rand(0,1)
+under = floor(Random*2/1000.0)
 supermovetime = 99999
 pausemovetime = 99999
 [State 701, Medias]
@@ -7990,9 +7990,9 @@ pos = Var(31),Var(32)
 random = 10,10
 sprpriority = 6
 RemoveTime = 240
-vel = Rand(-3,3),Rand(-4,-1.50)
+vel = (-3+floor(Random*7/1000.0)),(-4+Random*2.5/999.0)
 accel = 0,0.2
-under = rand(0,1)
+under = floor(Random*2/1000.0)
 supermovetime = 99999
 pausemovetime = 99999
 [State 701, Medias]
@@ -8005,9 +8005,9 @@ pos = Var(31),Var(32)
 random = 10,10
 sprpriority = 6
 RemoveTime = 240
-vel = Rand(-3,3),Rand(-4,-1.50)
+vel = (-3+floor(Random*7/1000.0)),(-4+Random*2.5/999.0)
 accel = 0,0.2
-under = rand(0,1)
+under = floor(Random*2/1000.0)
 supermovetime = 99999
 pausemovetime = 99999
 [State 701, Medias]
@@ -8020,9 +8020,9 @@ pos = Var(31),Var(32)
 random = 10,10
 sprpriority = 6
 RemoveTime = 240
-vel = Rand(-3,3),Rand(-4,-1.50)
+vel = (-3+floor(Random*7/1000.0)),(-4+Random*2.5/999.0)
 accel = 0,0.2
-under = rand(0,1)
+under = floor(Random*2/1000.0)
 supermovetime = 99999
 pausemovetime = 99999
 [State 701, Medias]
@@ -8035,9 +8035,9 @@ pos = Var(31),Var(32)
 random = 10,10
 sprpriority = 6
 RemoveTime = 240
-vel = Rand(-3,3),Rand(-4,-1.50)
+vel = (-3+floor(Random*7/1000.0)),(-4+Random*2.5/999.0)
 accel = 0,0.2
-under = rand(0,1)
+under = floor(Random*2/1000.0)
 supermovetime = 99999
 pausemovetime = 99999
 [State 701, Medias]
@@ -8050,9 +8050,9 @@ pos = Var(31),Var(32)
 random = 10,10
 sprpriority = 6
 RemoveTime = 240
-vel = Rand(-3,3),Rand(-4,-1.50)
+vel = (-3+floor(Random*7/1000.0)),(-4+Random*2.5/999.0)
 accel = 0,0.2
-under = rand(0,1)
+under = floor(Random*2/1000.0)
 supermovetime = 99999
 pausemovetime = 99999
 
@@ -8078,9 +8078,9 @@ space = stage
 pos = Var(31),Var(32)
 random = 10,10
 sprpriority = 6
-vel = Rand(-4,4),Rand(-5,-2.0)
+vel = (-4+floor(Random*9/1000.0)),(-5+Random*3/999.0)
 accel = 0,0.2
-under = rand(0,1)
+under = floor(Random*2/1000.0)
 supermovetime = 99999
 pausemovetime = 99999
 [State 701, Peques]
@@ -8092,9 +8092,9 @@ space = stage
 pos = Var(31),Var(32)
 random = 10,10
 sprpriority = 6
-vel = Rand(-4,4),Rand(-5,-2.0)
+vel = (-4+floor(Random*9/1000.0)),(-5+Random*3/999.0)
 accel = 0,0.2
-under = rand(0,1)
+under = floor(Random*2/1000.0)
 supermovetime = 99999
 pausemovetime = 99999
 [State 701, Peques]
@@ -8106,9 +8106,9 @@ space = stage
 pos = Var(31),Var(32)
 random = 10,10
 sprpriority = 6
-vel = Rand(-4,4),Rand(-5,-2.0)
+vel = (-4+floor(Random*9/1000.0)),(-5+Random*3/999.0)
 accel = 0,0.2
-under = rand(0,1)
+under = floor(Random*2/1000.0)
 supermovetime = 99999
 pausemovetime = 99999
 [State 701, Peques]
@@ -8120,9 +8120,9 @@ space = stage
 pos = Var(31),Var(32)
 random = 10,10
 sprpriority = 6
-vel = Rand(-4,4),Rand(-5,-2.0)
+vel = (-4+floor(Random*9/1000.0)),(-5+Random*3/999.0)
 accel = 0,0.2
-under = rand(0,1)
+under = floor(Random*2/1000.0)
 supermovetime = 99999
 pausemovetime = 99999
 [State 701, Peques]
@@ -8134,9 +8134,9 @@ space = stage
 pos = Var(31),Var(32)
 random = 10,10
 sprpriority = 6
-vel = Rand(-4,4),Rand(-5,-2.0)
+vel = (-4+floor(Random*9/1000.0)),(-5+Random*3/999.0)
 accel = 0,0.2
-under = rand(0,1)
+under = floor(Random*2/1000.0)
 supermovetime = 99999
 pausemovetime = 99999
 [State 701, Peques]
@@ -8148,9 +8148,9 @@ space = stage
 pos = Var(31),Var(32)
 random = 10,10
 sprpriority = 6
-vel = Rand(-4,4),Rand(-5,-2.0)
+vel = (-4+floor(Random*9/1000.0)),(-5+Random*3/999.0)
 accel = 0,0.2
-under = rand(0,1)
+under = floor(Random*2/1000.0)
 supermovetime = 99999
 pausemovetime = 99999
 [State 701, Peques]
@@ -8162,9 +8162,9 @@ space = stage
 pos = Var(31),Var(32)
 random = 10,10
 sprpriority = 6
-vel = Rand(-4,4),Rand(-5,-2.0)
+vel = (-4+floor(Random*9/1000.0)),(-5+Random*3/999.0)
 accel = 0,0.2
-under = rand(0,1)
+under = floor(Random*2/1000.0)
 supermovetime = 99999
 pausemovetime = 99999
 [State 701, Peques]
@@ -8176,9 +8176,9 @@ space = stage
 pos = Var(31),Var(32)
 random = 10,10
 sprpriority = 6
-vel = Rand(-4,4),Rand(-5,-2.0)
+vel = (-4+floor(Random*9/1000.0)),(-5+Random*3/999.0)
 accel = 0,0.2
-under = rand(0,1)
+under = floor(Random*2/1000.0)
 supermovetime = 99999
 pausemovetime = 99999
 [State 701, Peques]
@@ -8190,9 +8190,9 @@ space = stage
 pos = Var(31),Var(32)
 random = 10,10
 sprpriority = 6
-vel = Rand(-4,4),Rand(-5,-2.0)
+vel = (-4+floor(Random*9/1000.0)),(-5+Random*3/999.0)
 accel = 0,0.2
-under = rand(0,1)
+under = floor(Random*2/1000.0)
 supermovetime = 99999
 pausemovetime = 99999
 [State 701, Peques]
@@ -8204,9 +8204,9 @@ space = stage
 pos = Var(31),Var(32)
 random = 10,10
 sprpriority = 6
-vel = Rand(-4,4),Rand(-5,-2.0)
+vel = (-4+floor(Random*9/1000.0)),(-5+Random*3/999.0)
 accel = 0,0.2
-under = rand(0,1)
+under = floor(Random*2/1000.0)
 supermovetime = 99999
 pausemovetime = 99999
 [State 701, Peques]
@@ -8218,9 +8218,9 @@ space = stage
 pos = Var(31),Var(32)
 random = 10,10
 sprpriority = 6
-vel = Rand(-4,4),Rand(-5,-2.0)
+vel = (-4+floor(Random*9/1000.0)),(-5+Random*3/999.0)
 accel = 0,0.2
-under = rand(0,1)
+under = floor(Random*2/1000.0)
 supermovetime = 99999
 pausemovetime = 99999
 [State 701, Peques]
@@ -8232,9 +8232,9 @@ space = stage
 pos = Var(31),Var(32)
 random = 10,10
 sprpriority = 6
-vel = Rand(-4,4),Rand(-5,-2.0)
+vel = (-4+floor(Random*9/1000.0)),(-5+Random*3/999.0)
 accel = 0,0.2
-under = rand(0,1)
+under = floor(Random*2/1000.0)
 supermovetime = 99999
 pausemovetime = 99999
 [State 701, Peques]
@@ -8246,9 +8246,9 @@ space = stage
 pos = Var(31),Var(32)
 random = 10,10
 sprpriority = 6
-vel = Rand(-4,4),Rand(-5,-2.0)
+vel = (-4+floor(Random*9/1000.0)),(-5+Random*3/999.0)
 accel = 0,0.2
-under = rand(0,1)
+under = floor(Random*2/1000.0)
 supermovetime = 99999
 pausemovetime = 99999
 [State 701, Peques]
@@ -8260,9 +8260,9 @@ space = stage
 pos = Var(31),Var(32)
 random = 10,10
 sprpriority = 6
-vel = Rand(-4,4),Rand(-5,-2.0)
+vel = (-4+floor(Random*9/1000.0)),(-5+Random*3/999.0)
 accel = 0,0.2
-under = rand(0,1)
+under = floor(Random*2/1000.0)
 supermovetime = 99999
 pausemovetime = 99999
 
@@ -8376,19 +8376,19 @@ v = 4
 value = 1
 
 [State 200, P1GotHit]
-trigger1 = playerid(getplayerid(1)),hitfall
+trigger1 = player(1),hitfall
 Type = VarSet
 v = 51
 value = 1
 [State 200, P1isOnGround]
-trigger1 = playerid(getplayerid(1)),pos y = 0
+trigger1 = player(1),pos y = 0
 Type = VarSet
 v = 51
 value = 0
 [State 200, HittingObjectP1]
-trigger1 = playerid(getplayerid(1)),pos x > Var(1) && playerid(getplayerid(1)),pos x < Var(2) 
-trigger1 = playerid(getplayerid(1)),pos y >= playerid(getplayerid(1)),-const(size.height) * 0.5
-trigger1 = playerid(getplayerid(1)),vel y != 0
+trigger1 = player(1),pos x > Var(1) && player(1),pos x < Var(2) 
+trigger1 = player(1),pos y >= -(player(1),const(size.height)) * 0.5
+trigger1 = player(1),vel y != 0
 trigger1 = Var(51) = 1
 trigger1 = Var(3) = 0
 type = VarSet
@@ -8396,123 +8396,123 @@ v = 3
 value = 1
 
 [State 200, HittingObjectP2]
-trigger1 = playerid(getplayerid(2)),pos x > Var(1) && playerid(getplayerid(2)),pos x < Var(2) 
-trigger1 = playerid(getplayerid(2)),pos y <= playerid(getplayerid(2)),pos y;-const(size.height) * 0.5
-trigger1 = playerid(getplayerid(2)),vel y != 0
-trigger1 = playerid(getplayerid(2)),hitfall
+trigger1 = player(2),pos x > Var(1) && player(2),pos x < Var(2) 
+trigger1 = player(2),pos y <= player(2),pos y;-const(size.height) * 0.5
+trigger1 = player(2),vel y != 0
+trigger1 = player(2),hitfall
 type = VarSet
 v = 3
 value = 2
 
 [State 200, P3GotHit]
-trigger1 = playerid(getplayerid(3)),hitfall
+trigger1 = player(3),hitfall
 Type = VarSet
 v = 53
 value = 1
 [State 200, P3isOnGround]
-trigger1 = playerid(getplayerid(3)),pos y = 0
+trigger1 = player(3),pos y = 0
 Type = VarSet
 v = 53
 value = 0
 [State 200, HittingObjectP3]
-trigger1 = playerid(getplayerid(3)),pos x > Var(1) && playerid(getplayerid(3)),pos x < Var(2) 
-trigger1 = playerid(getplayerid(3)),pos y >= playerid(getplayerid(3)),-const(size.height) * 0.5
-trigger1 = playerid(getplayerid(3)),vel y != 0
+trigger1 = player(3),pos x > Var(1) && player(3),pos x < Var(2) 
+trigger1 = player(3),pos y >= -(player(3),const(size.height)) * 0.5
+trigger1 = player(3),vel y != 0
 trigger1 = Var(53) = 1
 trigger1 = Var(3) = 0
 type = VarSet
 v = 3
 value = 3
 [State 200, P4GotHit]
-trigger1 = playerid(getplayerid(4)),hitfall
+trigger1 = player(4),hitfall
 Type = VarSet
 v = 54
 value = 1
 [State 200, P4isOnGround]
-trigger1 = playerid(getplayerid(4)),pos y = 0
+trigger1 = player(4),pos y = 0
 Type = VarSet
 v = 54
 value = 0
 [State 200, HittingObjectP4]
-trigger1 = playerid(getplayerid(4)),pos x > Var(1) && playerid(getplayerid(4)),pos x < Var(2) 
-trigger1 = playerid(getplayerid(4)),pos y >= playerid(getplayerid(4)),-const(size.height) * 0.5
-trigger1 = playerid(getplayerid(4)),vel y != 0
+trigger1 = player(4),pos x > Var(1) && player(4),pos x < Var(2) 
+trigger1 = player(4),pos y >= -(player(4),const(size.height)) * 0.5
+trigger1 = player(4),vel y != 0
 trigger1 = Var(54) = 1
 trigger1 = Var(3) = 0
 type = VarSet
 v = 3
 value = 4
 [State 200, P5GotHit]
-trigger1 = playerid(getplayerid(5)),hitfall
+trigger1 = player(5),hitfall
 Type = VarSet
 v = 55
 value = 1
 [State 200, P5isOnGround]
-trigger1 = playerid(getplayerid(5)),pos y = 0
+trigger1 = player(5),pos y = 0
 Type = VarSet
 v = 55
 value = 0
 [State 200, HittingObjectP5]
-trigger1 = playerid(getplayerid(5)),pos x > Var(1) && playerid(getplayerid(5)),pos x < Var(2) 
-trigger1 = playerid(getplayerid(5)),pos y >= playerid(getplayerid(5)),-const(size.height) * 0.5
-trigger1 = playerid(getplayerid(5)),vel y != 0
+trigger1 = player(5),pos x > Var(1) && player(5),pos x < Var(2) 
+trigger1 = player(5),pos y >= -(player(5),const(size.height)) * 0.5
+trigger1 = player(5),vel y != 0
 trigger1 = Var(55) = 1
 trigger1 = Var(3) = 0
 type = VarSet
 v = 3
 value = 5
 [State 200, P6GotHit]
-trigger1 = playerid(getplayerid(6)),hitfall
+trigger1 = player(6),hitfall
 Type = VarSet
 v = 56
 value = 1
 [State 200, P6isOnGround]
-trigger1 = playerid(getplayerid(6)),pos y = 0
+trigger1 = player(6),pos y = 0
 Type = VarSet
 v = 56
 value = 0
 [State 200, HittingObjectP6]
-trigger1 = playerid(getplayerid(6)),pos x > Var(1) && playerid(getplayerid(6)),pos x < Var(2) 
-trigger1 = playerid(getplayerid(6)),pos y >= playerid(getplayerid(6)),-const(size.height) * 0.5
-trigger1 = playerid(getplayerid(6)),vel y != 0
+trigger1 = player(6),pos x > Var(1) && player(6),pos x < Var(2) 
+trigger1 = player(6),pos y >= -(player(6),const(size.height)) * 0.5
+trigger1 = player(6),vel y != 0
 trigger1 = Var(56) = 1
 trigger1 = Var(3) = 0
 type = VarSet
 v = 3
 value = 6
 [State 200, P7GotHit]
-trigger1 = playerid(getplayerid(7)),hitfall
+trigger1 = player(7),hitfall
 Type = VarSet
 v = 57
 value = 1
 [State 200, P7isOnGround]
-trigger1 = playerid(getplayerid(7)),pos y = 0
+trigger1 = player(7),pos y = 0
 Type = VarSet
 v = 57
 value = 0
 [State 200, HittingObjectP7]
-trigger1 = playerid(getplayerid(7)),pos x > Var(1) && playerid(getplayerid(7)),pos x < Var(2) 
-trigger1 = playerid(getplayerid(7)),pos y >= playerid(getplayerid(7)),-const(size.height) * 0.5
-trigger1 = playerid(getplayerid(7)),vel y != 0
+trigger1 = player(7),pos x > Var(1) && player(7),pos x < Var(2) 
+trigger1 = player(7),pos y >= -(player(7),const(size.height)) * 0.5
+trigger1 = player(7),vel y != 0
 trigger1 = Var(57) = 1
 trigger1 = Var(3) = 0
 type = VarSet
 v = 3
 value = 7
 [State 200, P8GotHit]
-trigger1 = playerid(getplayerid(8)),hitfall
+trigger1 = player(8),hitfall
 Type = VarSet
 v = 58
 value = 1
 [State 200, P8isOnGround]
-trigger1 = playerid(getplayerid(8)),pos y = 0
+trigger1 = player(8),pos y = 0
 Type = VarSet
 v = 58
 value = 0
 [State 200, HittingObjectP8]
-trigger1 = playerid(getplayerid(8)),pos x > Var(1) && playerid(getplayerid(8)),pos x < Var(2) 
-trigger1 = playerid(getplayerid(8)),pos y >= playerid(getplayerid(8)),-const(size.height) * 0.5
-trigger1 = playerid(getplayerid(8)),vel y != 0
+trigger1 = player(8),pos x > Var(1) && player(8),pos x < Var(2) 
+trigger1 = player(8),pos y >= -(player(8),const(size.height)) * 0.5
+trigger1 = player(8),vel y != 0
 trigger1 = Var(58) = 1
 trigger1 = Var(3) = 0
 type = VarSet
@@ -8553,23 +8553,23 @@ v = 7
 value = 1
 
 [State EnemyWeakened]
-trigger1 = playerid(getplayerid(Var(3))),Life < (playerid(getplayerid(Var(3))),LifeMax / 5)
+trigger1 = player(Var(3)),Life < (player(Var(3)),LifeMax / 5)
 persistent = 0
 type = VarAdd
 v = 7
 value = 1
 
 [State OnePower]
-trigger1 = PlayerID(getplayerid(1)),Power > 1000 && (Var(3) != 0) % 2 = 0
-trigger2 = PlayerID(getplayerid(2)),Power > 1000 && (Var(3) != 0) % 2 = 1
+trigger1 = player(1),Power > 1000 && (Var(3) != 0) % 2 = 0
+trigger2 = player(2),Power > 1000 && (Var(3) != 0) % 2 = 1
 persistent = 0
 type = VarAdd
 v = 7
 value = 1
 
 [State 50%OrMoreLife]
-trigger1 = PlayerID(getplayerid(1)),Life > (PlayerID(getplayerid(1)),LifeMax / 2) && (Var(3) != 0) % 2 = 0
-trigger2 = PlayerID(getplayerid(2)),Life > (PlayerID(getplayerid(2)),LifeMax / 2) && (Var(3) != 0) % 2 = 1
+trigger1 = player(1),Life > (player(1),LifeMax / 2) && (Var(3) != 0) % 2 = 0
+trigger2 = player(2),Life > (player(2),LifeMax / 2) && (Var(3) != 0) % 2 = 1
 persistent = 0
 type = VarAdd
 v = 7
@@ -8621,32 +8621,32 @@ value = 1
 [State 777, AhAlmostThere]
 type = PlaySnd
 trigger1 = Var(7) = [9,11]
-trigger1 = (RoundState = 2) && (Var(3) != 0) && Var(4) > 360 && playerid(getplayerid((Var(3)))),alive = 1
+trigger1 = (RoundState = 2) && (Var(3) != 0) && Var(4) > 360 && player((Var(3))),alive = 1
 persistent = 0
 value = 2,1
 [State 777, AhAlmostThere]
 type = PlaySnd
 trigger1 = Var(7) = [9,11]
-trigger1 = (RoundState = 2) && (Var(3) != 0) && Var(4) > 360 && playerid(getplayerid((Var(3)))),alive = 1
+trigger1 = (RoundState = 2) && (Var(3) != 0) && Var(4) > 360 && player((Var(3))),alive = 1
 persistent = 0
 value = 2,1
 [State 777, AhAlmostThere]
 type = PlaySnd
 trigger1 = Var(7) = [9,11]
-trigger1 = (RoundState = 2) && (Var(3) != 0) && Var(4) > 360 && playerid(getplayerid((Var(3)))),alive = 1
+trigger1 = (RoundState = 2) && (Var(3) != 0) && Var(4) > 360 && player((Var(3))),alive = 1
 persistent = 0
 value = 2,1
 [State 777, AhAlmostThere]
 type = PlaySnd
 trigger1 = Var(7) = [9,11]
-trigger1 = (RoundState = 2) && (Var(3) != 0) && Var(4) > 360 && playerid(getplayerid((Var(3)))),alive = 1
+trigger1 = (RoundState = 2) && (Var(3) != 0) && Var(4) > 360 && player((Var(3))),alive = 1
 persistent = 0
 value = 2,1
 
 [State 777, XFound]
 type = PlaySnd
 trigger1 = Var(7) > 11
-trigger1 = (RoundState = 2) && (Var(3) != 0) && Var(4) > 360 && playerid(getplayerid((Var(3)))),alive = 1
+trigger1 = (RoundState = 2) && (Var(3) != 0) && Var(4) > 360 && player((Var(3))),alive = 1
 persistent = 0
 value = 2,2
 supermovetime = 99999
@@ -8654,7 +8654,7 @@ pausemovetime = 99999
 [State 777, XFound]
 type = PlaySnd
 trigger1 = Var(7) > 11
-trigger1 = (RoundState = 2) && (Var(3) != 0) && Var(4) > 360 && playerid(getplayerid((Var(3)))),alive = 1
+trigger1 = (RoundState = 2) && (Var(3) != 0) && Var(4) > 360 && player((Var(3))),alive = 1
 persistent = 0
 value = 2,2
 supermovetime = 99999
@@ -8663,10 +8663,10 @@ pausemovetime = 99999
 [State 701, MESSAGE]
 type = Explod
 trigger1 = Var(7) > 11
-trigger1 = (RoundState = 2) && (Var(3) != 0) && Var(4) > 360 && playerid(getplayerid((Var(3)))),alive = 1
+trigger1 = (RoundState = 2) && (Var(3) != 0) && Var(4) > 360 && player((Var(3))),alive = 1
 persistent = 0
 anim = 41
-space = screen
+postype = left ;antes space = screen (Ikemen 1.0 lo colocaba mal)
 pos = ScreenWidth/2,ScreenHeight/2 - 50
 vel = 0,0
 bindtime = 0
@@ -8679,7 +8679,7 @@ ontop = 1
 scale = 0.15,0.15;RELATIVE TO STAGE
 
 [State 820, Halt];Hacky but it works, meh
-trigger1 = Var(7) = 11 && (RoundState = 2) && (Var(3) != 0) && Var(4) > 360 && playerid(getplayerid((Var(3)))),alive = 1
+trigger1 = Var(7) = 11 && (RoundState = 2) && (Var(3) != 0) && Var(4) > 360 && player((Var(3))),alive = 1
 trigger2 = NumExplod(25) > 0
 persistent = 0
 bgm = "Silent.mp3"
@@ -8688,7 +8688,7 @@ type = playbgm
 
 [State 820, Halt];NotOverYet
 type = AssertSpecial
-trigger1 = (RoundState = 2) && (Var(3) != 0) && Var(4) > 360 && playerid(getplayerid((Var(3)))),alive = 1
+trigger1 = (RoundState = 2) && (Var(3) != 0) && Var(4) > 360 && player((Var(3))),alive = 1
 flag = roundnotover
 supermovetime = 99999
 pausemovetime = 99999
@@ -8702,7 +8702,7 @@ supermovetime = 99999
 pausemovetime = 99999
 ;-----------------------------OUT OF HERE
 [State WasHit];CONDITION: BRIDGE BROKEN && ENEMY THROWN INTO WINDOW
-trigger1 = (RoundState = 2) && (Var(3) != 0) && Var(4) > 360 && playerid(getplayerid((Var(3)))),alive = 1
+trigger1 = (RoundState = 2) && (Var(3) != 0) && Var(4) > 360 && player((Var(3))),alive = 1
 trigger1 = NumExplod(25) = 0
 type= ChangeState
 value = 1096
@@ -8808,7 +8808,7 @@ type = AssertSpecial
 flag = TimerFreeze
 supermovetime = 99999
 pausemovetime = 99999
-RedirectID = playerid(getplayerid(1)),ID
+RedirectID = player(1),ID
 
 ;---------------------------MAKE PLAYERS INVISIBLE AND FROZEN FOR A WHILE
 [State 1096, StahpLook]
@@ -8817,7 +8817,7 @@ persistent = 1
 type = AssertSpecial
 flag = NoInput
 ;flag2 = AnimFreeze
-RedirectID = playerid(getplayerid(1)),ID
+RedirectID = player(1),ID
 supermovetime = 99999
 pausemovetime = 99999
 [State 1096, NoShow]
@@ -8825,7 +8825,7 @@ trigger1 = Var(4) = [200,856]
 persistent = 1
 type = AssertSpecial
 flag = Invisible
-RedirectID = playerid(getplayerid(1)),ID
+RedirectID = player(1),ID
 supermovetime = 99999
 pausemovetime = 99999
 [State 1096, BackToNormal]
@@ -8835,19 +8835,19 @@ type = SelfState
 ;Anim = 0
 value = 0
 ctrl = 1
-RedirectID = playerid(getplayerid(1)),ID
+RedirectID = player(1),ID
 supermovetime = 99999
 pausemovetime = 99999
 [State ISaidStop]
 trigger1 = Var(4) = [200,856]
 type = CtrlSet
 Value = 0
-RedirectID = playerid(getplayerid(1)),ID
+RedirectID = player(1),ID
 [State ISaidGo]
 trigger1 = Var(4) = 858
 type = CtrlSet
 Value = 1
-RedirectID = playerid(getplayerid(1)),ID
+RedirectID = player(1),ID
 
 [State 1096, StahpLook]
 trigger1 = Var(4) < 856
@@ -8855,7 +8855,7 @@ persistent = 1
 type = AssertSpecial
 flag = NoInput
 ;flag2 = AnimFreeze
-RedirectID = playerid(getplayerid(2)),ID
+RedirectID = player(2),ID
 supermovetime = 99999
 pausemovetime = 99999
 [State 1096, NoShow]
@@ -8863,7 +8863,7 @@ trigger1 = Var(4) = [200,856]
 persistent = 1
 type = AssertSpecial
 flag = Invisible
-RedirectID = playerid(getplayerid(2)),ID
+RedirectID = player(2),ID
 supermovetime = 99999
 pausemovetime = 99999
 [State 1096, BackToNormal]
@@ -8873,19 +8873,19 @@ type = SelfState
 value = 0
 ;Anim = 0
 ctrl = 1
-RedirectID = playerid(getplayerid(2)),ID
+RedirectID = player(2),ID
 supermovetime = 99999
 pausemovetime = 99999
 [State ISaidStop]
 trigger1 = Var(4) = [200,856]
 type = CtrlSet
 Value = 0
-RedirectID = playerid(getplayerid(2)),ID
+RedirectID = player(2),ID
 [State ISaidGo]
 trigger1 = Var(4) = 858
 type = CtrlSet
 Value = 1
-RedirectID = playerid(getplayerid(2)),ID
+RedirectID = player(2),ID
 
 [State 1096, StahpLook]
 trigger1 = Var(4) < 856
@@ -8893,7 +8893,7 @@ persistent = 1
 type = AssertSpecial
 flag = NoInput
 ;flag2 = AnimFreeze
-RedirectID = playerid(getplayerid(3)),ID
+RedirectID = player(3),ID
 supermovetime = 99999
 pausemovetime = 99999
 [State 1096, NoShow]
@@ -8901,7 +8901,7 @@ trigger1 = Var(4) = [200,856]
 persistent = 1
 type = AssertSpecial
 flag = Invisible
-RedirectID = playerid(getplayerid(3)),ID
+RedirectID = player(3),ID
 supermovetime = 99999
 pausemovetime = 99999
 [State 1096, BackToNormal]
@@ -8911,19 +8911,19 @@ type = SelfState
 ;Anim = 0
 value = 0
 ctrl = 1
-RedirectID = playerid(getplayerid(3)),ID
+RedirectID = player(3),ID
 supermovetime = 99999
 pausemovetime = 99999
 [State ISaidStop]
 trigger1 = Var(4) = [200,856]
 type = CtrlSet
 Value = 0
-RedirectID = playerid(getplayerid(3)),ID
+RedirectID = player(3),ID
 [State ISaidGo]
 trigger1 = Var(4) = 858
 type = CtrlSet
 Value = 1
-RedirectID = playerid(getplayerid(3)),ID
+RedirectID = player(3),ID
 
 [State 1096, StahpLook]
 trigger1 = Var(4) < 856
@@ -8931,7 +8931,7 @@ persistent = 1
 type = AssertSpecial
 flag = NoInput
 ;flag2 = AnimFreeze
-RedirectID = playerid(getplayerid(4)),ID
+RedirectID = player(4),ID
 supermovetime = 99999
 pausemovetime = 99999
 [State 1096, NoShow]
@@ -8939,7 +8939,7 @@ trigger1 = Var(4) = [200,856]
 persistent = 1
 type = AssertSpecial
 flag = Invisible
-RedirectID = playerid(getplayerid(4)),ID
+RedirectID = player(4),ID
 supermovetime = 99999
 pausemovetime = 99999
 [State 1096, BackToNormal]
@@ -8949,19 +8949,19 @@ type = SelfState
 ;Anim = 0
 value = 0
 ctrl = 1
-RedirectID = playerid(getplayerid(4)),ID
+RedirectID = player(4),ID
 supermovetime = 99999
 pausemovetime = 99999
 [State ISaidStop]
 trigger1 = Var(4) = [200,856]
 type = CtrlSet
 Value = 0
-RedirectID = playerid(getplayerid(4)),ID
+RedirectID = player(4),ID
 [State ISaidGo]
 trigger1 = Var(4) = 858
 type = CtrlSet
 Value = 1
-RedirectID = playerid(getplayerid(4)),ID
+RedirectID = player(4),ID
 
 [State 1096, StahpLook]
 trigger1 = Var(4) < 856
@@ -8969,7 +8969,7 @@ persistent = 1
 type = AssertSpecial
 flag = NoInput
 ;flag2 = AnimFreeze
-RedirectID = playerid(getplayerid(5)),ID
+RedirectID = player(5),ID
 supermovetime = 99999
 pausemovetime = 99999
 [State 1096, NoShow]
@@ -8977,7 +8977,7 @@ trigger1 = Var(4) = [200,856]
 persistent = 1
 type = AssertSpecial
 flag = Invisible
-RedirectID = playerid(getplayerid(5)),ID
+RedirectID = player(5),ID
 supermovetime = 99999
 pausemovetime = 99999
 [State 1096, BackToNormal]
@@ -8987,19 +8987,19 @@ type = SelfState
 ;Anim = 0
 value = 0
 ctrl = 1
-RedirectID = playerid(getplayerid(5)),ID
+RedirectID = player(5),ID
 supermovetime = 99999
 pausemovetime = 99999
 [State ISaidStop]
 trigger1 = Var(4) = [200,856]
 type = CtrlSet
 Value = 0
-RedirectID = playerid(getplayerid(5)),ID
+RedirectID = player(5),ID
 [State ISaidGo]
 trigger1 = Var(4) = 858
 type = CtrlSet
 Value = 1
-RedirectID = playerid(getplayerid(5)),ID
+RedirectID = player(5),ID
 
 [State 1096, StahpLook]
 trigger1 = Var(4) < 856
@@ -9007,7 +9007,7 @@ persistent = 1
 type = AssertSpecial
 flag = NoInput
 ;flag2 = AnimFreeze
-RedirectID = playerid(getplayerid(6)),ID
+RedirectID = player(6),ID
 supermovetime = 99999
 pausemovetime = 99999
 [State 1096, NoShow]
@@ -9015,7 +9015,7 @@ trigger1 = Var(4) = [200,856]
 persistent = 1
 type = AssertSpecial
 flag = Invisible
-RedirectID = playerid(getplayerid(6)),ID
+RedirectID = player(6),ID
 supermovetime = 99999
 pausemovetime = 99999
 [State 1096, BackToNormal]
@@ -9025,19 +9025,19 @@ type = SelfState
 ;Anim = 0
 value = 0
 ctrl = 1
-RedirectID = playerid(getplayerid(6)),ID
+RedirectID = player(6),ID
 supermovetime = 99999
 pausemovetime = 99999
 [State ISaidStop]
 trigger1 = Var(4) = [200,856]
 type = CtrlSet
 Value = 0
-RedirectID = playerid(getplayerid(6)),ID
+RedirectID = player(6),ID
 [State ISaidGo]
 trigger1 = Var(4) = 858
 type = CtrlSet
 Value = 1
-RedirectID = playerid(getplayerid(6)),ID
+RedirectID = player(6),ID
 
 [State 1096, StahpLook]
 trigger1 = Var(4) < 856
@@ -9045,7 +9045,7 @@ persistent = 1
 type = AssertSpecial
 flag = NoInput
 ;flag2 = AnimFreeze
-RedirectID = playerid(getplayerid(7)),ID
+RedirectID = player(7),ID
 supermovetime = 99999
 pausemovetime = 99999
 [State 1096, NoShow]
@@ -9053,7 +9053,7 @@ trigger1 = Var(4) = [200,856]
 persistent = 1
 type = AssertSpecial
 flag = Invisible
-RedirectID = playerid(getplayerid(7)),ID
+RedirectID = player(7),ID
 supermovetime = 99999
 pausemovetime = 99999
 [State 1096, BackToNormal]
@@ -9063,19 +9063,19 @@ type = SelfState
 ;Anim = 0
 value = 0
 ctrl = 1
-RedirectID = playerid(getplayerid(7)),ID
+RedirectID = player(7),ID
 supermovetime = 99999
 pausemovetime = 99999
 [State ISaidStop]
 trigger1 = Var(4) = [200,856]
 type = CtrlSet
 Value = 0
-RedirectID = playerid(getplayerid(7)),ID
+RedirectID = player(7),ID
 [State ISaidGo]
 trigger1 = Var(4) = 858
 type = CtrlSet
 Value = 1
-RedirectID = playerid(getplayerid(7)),ID
+RedirectID = player(7),ID
 
 [State 1096, StahpLook]
 trigger1 = Var(4) < 856
@@ -9083,7 +9083,7 @@ persistent = 1
 type = AssertSpecial
 flag = NoInput
 ;flag2 = AnimFreeze
-RedirectID = playerid(getplayerid(8)),ID
+RedirectID = player(8),ID
 supermovetime = 99999
 pausemovetime = 99999
 [State 1096, NoShow]
@@ -9091,7 +9091,7 @@ trigger1 = Var(4) = [200,856]
 persistent = 1
 type = AssertSpecial
 flag = Invisible
-RedirectID = playerid(getplayerid(8)),ID
+RedirectID = player(8),ID
 supermovetime = 99999
 pausemovetime = 99999
 [State 1096, BackToNormal]
@@ -9101,140 +9101,140 @@ type = SelfState
 ;Anim = 0
 value = 0
 ctrl = 1
-RedirectID = playerid(getplayerid(8)),ID
+RedirectID = player(8),ID
 supermovetime = 99999
 pausemovetime = 99999
 [State ISaidStop]
 trigger1 = Var(4) = [200,856]
 type = CtrlSet
 Value = 0
-RedirectID = playerid(getplayerid(8)),ID
+RedirectID = player(8),ID
 [State ISaidGo]
 trigger1 = Var(4) = 858
 type = CtrlSet
 Value = 1
-RedirectID = playerid(getplayerid(8)),ID
+RedirectID = player(8),ID
 
 ;DRAG THEM RIGHT---------------------------------------------
 [State 1096, GoRight]
 trigger1 = Var(4) = [250,500]
-trigger1 = playerid(getplayerid(1)),facing = 1
+trigger1 = player(1),facing = 1
 persistent = 1
 type = PosAdd
 x = 2000
-RedirectID = playerid(getplayerid(1)),ID
+RedirectID = player(1),ID
 [State 1096, GoRight]
 trigger1 = Var(4) = [250,500]
-trigger1 = playerid(getplayerid(1)),facing = -1
+trigger1 = player(1),facing = -1
 persistent = 1
 type = PosAdd
 x = -2000
-RedirectID = playerid(getplayerid(1)),ID
+RedirectID = player(1),ID
 
 [State 1096, GoRight]
 trigger1 = Var(4) = [250,500]
-trigger1 = playerid(getplayerid(2)),facing = 1
+trigger1 = player(2),facing = 1
 persistent = 1
 type = PosAdd
 x = 2000
-RedirectID = playerid(getplayerid(2)),ID
+RedirectID = player(2),ID
 [State 1096, GoRight]
 trigger1 = Var(4) = [250,500]
-trigger1 = playerid(getplayerid(2)),facing = -1
+trigger1 = player(2),facing = -1
 persistent = 1
 type = PosAdd
 x = -2000
-RedirectID = playerid(getplayerid(2)),ID
+RedirectID = player(2),ID
 
 [State 1096, GoRight]
 trigger1 = Var(4) = [250,500]
-trigger1 = playerid(getplayerid(3)),facing = 1
+trigger1 = player(3),facing = 1
 persistent = 1
 type = PosAdd
 x = 2000
-RedirectID = playerid(getplayerid(3)),ID
+RedirectID = player(3),ID
 [State 1096, GoRight]
 trigger1 = Var(4) = [250,500]
-trigger1 = playerid(getplayerid(3)),facing = -1
+trigger1 = player(3),facing = -1
 persistent = 1
 type = PosAdd
 x = -2000
-RedirectID = playerid(getplayerid(3)),ID
+RedirectID = player(3),ID
 
 [State 1096, GoRight]
 trigger1 = Var(4) = [250,500]
-trigger1 = playerid(getplayerid(4)),facing = 1
+trigger1 = player(4),facing = 1
 persistent = 1
 type = PosAdd
 x = 2000
-RedirectID = playerid(getplayerid(4)),ID
+RedirectID = player(4),ID
 [State 1096, GoRight]
 trigger1 = Var(4) = [250,500]
-trigger1 = playerid(getplayerid(4)),facing = -1
+trigger1 = player(4),facing = -1
 persistent = 1
 type = PosAdd
 x = -2000
-RedirectID = playerid(getplayerid(4)),ID
+RedirectID = player(4),ID
 
 [State 1096, GoRight]
 trigger1 = Var(4) = [250,500]
-trigger1 = playerid(getplayerid(5)),facing = 1
+trigger1 = player(5),facing = 1
 persistent = 1
 type = PosAdd
 x = 2000
-RedirectID = playerid(getplayerid(5)),ID
+RedirectID = player(5),ID
 [State 1096, GoRight]
 trigger1 = Var(4) = [250,500]
-trigger1 = playerid(getplayerid(5)),facing = -1
+trigger1 = player(5),facing = -1
 persistent = 1
 type = PosAdd
 x = -2000
-RedirectID = playerid(getplayerid(5)),ID
+RedirectID = player(5),ID
 
 [State 1096, GoRight]
 trigger1 = Var(4) = [250,500]
-trigger1 = playerid(getplayerid(6)),facing = 1
+trigger1 = player(6),facing = 1
 persistent = 1
 type = PosAdd
 x = 2000
-RedirectID = playerid(getplayerid(6)),ID
+RedirectID = player(6),ID
 [State 1096, GoRight]
 trigger1 = Var(4) = [250,500]
-trigger1 = playerid(getplayerid(6)),facing = -1
+trigger1 = player(6),facing = -1
 persistent = 1
 type = PosAdd
 x = -2000
-RedirectID = playerid(getplayerid(6)),ID
+RedirectID = player(6),ID
 
 [State 1096, GoRight]
 trigger1 = Var(4) = [250,500]
-trigger1 = playerid(getplayerid(7)),facing = 1
+trigger1 = player(7),facing = 1
 persistent = 1
 type = PosAdd
 x = 2000
-RedirectID = playerid(getplayerid(7)),ID
+RedirectID = player(7),ID
 [State 1096, GoRight]
 trigger1 = Var(4) = [250,500]
-trigger1 = playerid(getplayerid(7)),facing = -1
+trigger1 = player(7),facing = -1
 persistent = 1
 type = PosAdd
 x = -2000
-RedirectID = playerid(getplayerid(7)),ID
+RedirectID = player(7),ID
 
 [State 1096, GoRight]
 trigger1 = Var(4) = [250,500]
-trigger1 = playerid(getplayerid(8)),facing = 1
+trigger1 = player(8),facing = 1
 persistent = 1
 type = PosAdd
 x = 2000
-RedirectID = playerid(getplayerid(8)),ID
+RedirectID = player(8),ID
 [State 1096, GoRight]
 trigger1 = Var(4) = [250,500]
-trigger1 = playerid(getplayerid(8)),facing = -1
+trigger1 = player(8),facing = -1
 persistent = 1
 type = PosAdd
 x = -2000
-RedirectID = playerid(getplayerid(8)),ID
+RedirectID = player(8),ID
 ;--------------------------------------------------------------------------------------------------------------------
 ;SE ROMPE EL VIDRIO
 [State ShowWindow]
@@ -9288,12 +9288,12 @@ pausemovetime = 99999
 [State 1096, Glasses]
 type = Explod
 trigger1 = Var(4) = [490,510]
-trigger1 = rand(1,100) > 90
+trigger1 = (1+floor(Random*100/1000.0)) > 90
 anim = 20
 space = stage
 random = 20,30
 pos = 445, -120
-vel = -1 * Rand(2.0,8.0), -1 * Rand(3.0,6.0)
+vel = -1 * (2+Random*6/999.0), -1 * (3+Random*3/999.0)
 accel = 0,0.2
 bindtime = 0
 sprpriority = 9
@@ -9301,16 +9301,16 @@ RemoveTime = 600
 ontop = 1
 ownpal = 1
 ID = 672
-facing = Rand(-1,1)
+facing = (-1+floor(Random*3/1000.0))
 [State 1096, Glasses]
 type = Explod
 trigger1 = Var(4) = [490,510]
-trigger1 = rand(1,100) > 90
+trigger1 = (1+floor(Random*100/1000.0)) > 90
 anim = 21
 space = stage
 random = 20,30
 pos = 445, -120
-vel = -1 * Rand(2.0,8.0), -1 * Rand(3.0,6.0)
+vel = -1 * (2+Random*6/999.0), -1 * (3+Random*3/999.0)
 accel = 0,0.2
 bindtime = 0
 sprpriority = 9
@@ -9318,16 +9318,16 @@ RemoveTime = 600
 ontop = 1
 ownpal = 1
 ID = 672
-facing = Rand(-1,1)
+facing = (-1+floor(Random*3/1000.0))
 [State 1096, Glasses]
 type = Explod
 trigger1 = Var(4) = [490,510]
-trigger1 = rand(1,100) > 90
+trigger1 = (1+floor(Random*100/1000.0)) > 90
 anim = 22
 space = stage
 random = 20,30
 pos = 445, -120
-vel = -1 * Rand(2.0,8.0), -1 * Rand(3.0,6.0)
+vel = -1 * (2+Random*6/999.0), -1 * (3+Random*3/999.0)
 accel = 0,0.2
 bindtime = 0
 sprpriority = 9
@@ -9335,16 +9335,16 @@ RemoveTime = 600
 ontop = 1
 ownpal = 1
 ID = 672
-facing = Rand(-1,1)
+facing = (-1+floor(Random*3/1000.0))
 [State 1096, Glasses]
 type = Explod
 trigger1 = Var(4) = [490,510]
-trigger1 = rand(1,100) > 90
+trigger1 = (1+floor(Random*100/1000.0)) > 90
 anim = 23
 space = stage
 random = 20,30
 pos = 445, -120
-vel = -1 * Rand(2.0,8.0), -1 * Rand(3.0,6.0)
+vel = -1 * (2+Random*6/999.0), -1 * (3+Random*3/999.0)
 accel = 0,0.2
 bindtime = 0
 sprpriority = 9
@@ -9352,16 +9352,16 @@ RemoveTime = 600
 ontop = 1
 ownpal = 1
 ID = 672
-facing = Rand(-1,1)
+facing = (-1+floor(Random*3/1000.0))
 [State 1096, Glasses]
 type = Explod
 trigger1 = Var(4) = [490,510]
-trigger1 = rand(1,100) > 90
+trigger1 = (1+floor(Random*100/1000.0)) > 90
 anim = 24
 space = stage
 random = 20,30
 pos = 445, -120
-vel = -1 * Rand(2.0,8.0), -1 * Rand(3.0,6.0)
+vel = -1 * (2+Random*6/999.0), -1 * (3+Random*3/999.0)
 accel = 0,0.2
 bindtime = 0
 sprpriority = 9
@@ -9369,85 +9369,85 @@ RemoveTime = 600
 ontop = 1
 ownpal = 1
 ID = 672
-facing = Rand(-1,1)
+facing = (-1+floor(Random*3/1000.0))
 [State 1096, Glasses]
 type = Explod
 trigger1 = Var(4) = [490,510]
-trigger1 = rand(1,100) > 90
+trigger1 = (1+floor(Random*100/1000.0)) > 90
 anim = 20
 space = stage
 random = 20,30
 pos = 445, -120
-vel = -1 * Rand(2.0,8.0), -1 * Rand(3.0,6.0)
-accel = 0,Rand(1.0,4.0)
+vel = -1 * (2+Random*6/999.0), -1 * (3+Random*3/999.0)
+accel = 0,(1+Random*3/999.0)
 bindtime = 0
 sprpriority = 9
 RemoveTime = 600
 ontop = 1
 ownpal = 1
 ID = 672
-facing = Rand(-1,1)
+facing = (-1+floor(Random*3/1000.0))
 [State 1096, Glasses]
 type = Explod
 trigger1 = Var(4) = [490,510]
-trigger1 = rand(1,100) > 90
+trigger1 = (1+floor(Random*100/1000.0)) > 90
 anim = 21
 space = stage
 random = 20,30
 pos = 445, -120
-vel = -1 * Rand(2.0,8.0), -1 * Rand(3.0,6.0)
-accel = 0,Rand(1.0,4.0)
+vel = -1 * (2+Random*6/999.0), -1 * (3+Random*3/999.0)
+accel = 0,(1+Random*3/999.0)
 bindtime = 0
 sprpriority = 9
 RemoveTime = 600
 ontop = 1
 ownpal = 1
 ID = 672
-facing = Rand(-1,1)
+facing = (-1+floor(Random*3/1000.0))
 [State 1096, Glasses]
 type = Explod
 trigger1 = Var(4) = [490,510]
-trigger1 = rand(1,100) > 90
+trigger1 = (1+floor(Random*100/1000.0)) > 90
 anim = 22
 space = stage
 random = 20,30
 pos = 445, -120
-vel = -1 * Rand(2.0,8.0), -1 * Rand(3.0,6.0)
-accel = 0,Rand(1.0,4.0)
+vel = -1 * (2+Random*6/999.0), -1 * (3+Random*3/999.0)
+accel = 0,(1+Random*3/999.0)
 bindtime = 0
 sprpriority = 9
 RemoveTime = 600
 ontop = 1
 ownpal = 1
 ID = 672
-facing = Rand(-1,1)
+facing = (-1+floor(Random*3/1000.0))
 [State 1096, Glasses]
 type = Explod
 trigger1 = Var(4) = [490,510]
-trigger1 = rand(1,100) > 90
+trigger1 = (1+floor(Random*100/1000.0)) > 90
 anim = 23
 space = stage
 random = 20,30
 pos = 445, -120
-vel = -1 * Rand(2.0,8.0), -1 * Rand(3.0,6.0)
-accel = 0,Rand(1.0,4.0)
+vel = -1 * (2+Random*6/999.0), -1 * (3+Random*3/999.0)
+accel = 0,(1+Random*3/999.0)
 bindtime = 0
 sprpriority = 9
 RemoveTime = 600
 ontop = 1
 ownpal = 1
 ID = 672
-facing = Rand(-1,1)
+facing = (-1+floor(Random*3/1000.0))
 [State 1096, Glasses]
 type = Explod
 trigger1 = Var(4) = [490,510]
-trigger1 = rand(1,100) > 90
+trigger1 = (1+floor(Random*100/1000.0)) > 90
 anim = 24
 space = stage
 random = 20,30
 pos = 445, -120
-vel = -1 * Rand(2.0,8.0), -1 * Rand(3.0,6.0)
-accel = 0,Rand(1.0,4.0)
+vel = -1 * (2+Random*6/999.0), -1 * (3+Random*3/999.0)
+accel = 0,(1+Random*3/999.0)
 bindtime = 0
 sprpriority = 9
 RemoveTime = 600
@@ -9457,7 +9457,7 @@ ID = 672
 angle = Var(4)
 trans = addalpha
 alpha = 128,64
-facing = Rand(-1,1)
+facing = (-1+floor(Random*3/1000.0))
 
 [State 777, SpinIt]
 type = ModifyExplod
@@ -9482,8 +9482,8 @@ RemoveTime = 800
 under = 1
 scale = 1.0,1.0;RELATIVE TO STAGE
 ownpal = 1
-facing = playerid(getplayerid((Var(3)))),facing
-RedirectID = playerid(getplayerid((Var(3)))),ID
+facing = player((Var(3))),facing
+RedirectID = player((Var(3))),ID
 
 [State 1096, Fade to Black];Special thanks to 2OS
 type= allpalfx
@@ -9500,9 +9500,9 @@ pausemovetime = 99999
 ;MANIPULATE THE VICTIM
 [State 1096, TurnIfLookingLeft]
 trigger1 = Var(4) = 601
-trigger1 = playerid(getplayerid((Var(3)))),facing = -1
+trigger1 = player((Var(3))),facing = -1
 type = Turn
-RedirectID = playerid(getplayerid((Var(3)))),ID 
+RedirectID = player((Var(3))),ID 
 [State 1096, MoveIt]
 trigger1 = Var(4) = [0,250]
 trigger2 = Var(4) = 601
@@ -9510,35 +9510,35 @@ trigger3 = Time < 30
 type = PosSet
 y = Pos Y + 130
 x = -400
-RedirectID = playerid(getplayerid((Var(3)))),ID 
+RedirectID = player((Var(3))),ID 
 [State 1096, StopFall]
 trigger1 = Var(4) < 857
 persistent = 0
 type = VelSet
 y = 0
 x = 0
-RedirectID = playerid(getplayerid(Var(3))),ID
+RedirectID = player(Var(3)),ID
 [State 1096, FallFar]
 trigger1 = Var(4) = 858
-trigger1 = playerid(getplayerid((Var(3)))),facing = -1
+trigger1 = player((Var(3))),facing = -1
 persistent = 0
 type = VelSet
 x = 5
-RedirectID = playerid(getplayerid(Var(3))),ID
+RedirectID = player(Var(3)),ID
 [State 1096, FallFar]
 trigger1 = Var(4) = 858
-trigger1 = playerid(getplayerid((Var(3)))),facing = 1
+trigger1 = player((Var(3))),facing = 1
 persistent = 0
 type = VelSet
 x = -5
-RedirectID = playerid(getplayerid(Var(3))),ID
+RedirectID = player(Var(3)),ID
 
 ;PROTECT THE VICTIM
 [State 1096, NoHit]
 type = NotHitBy
 Trigger1 = Time < 859
 value = SCA
-RedirectID = playerid(getplayerid(Var(3))),ID
+RedirectID = player(Var(3)),ID
 [State 1096, BackToNormal]
 trigger1 = Var(4) < 859
 persistent = 1
@@ -9546,7 +9546,7 @@ type = SelfState
 value = 5050
 ;Anim = 0
 ctrl = 1
-RedirectID = playerid(getplayerid(Var(3))),ID
+RedirectID = player(Var(3)),ID
 supermovetime = 99999
 pausemovetime = 99999
 
@@ -9609,337 +9609,337 @@ pausemovetime = 9999
 [State TimerReset]
 trigger1 = RoundState = 2
 trigger1 = TimeRemaining = 60
-trigger1 = Rand(1,100) > 50
+trigger1 = (1+floor(Random*100/1000.0)) > 50
 type= RoundTimeAdd
 value = 600
 
 ;FLOATY, HIGH JUMP
 [State AddVelWhenJumping];
 trigger1 = RoundState = 2
-trigger1 = PlayerID(getplayerid(1)),Time = 2
-trigger1 = (PlayerID(getplayerid(1)),Vel Y < 0); && (PlayerID(getplayerid(1)),Vel Y > -5)
+trigger1 = player(1),Time = 2
+trigger1 = (player(1),Vel Y < 0); && (player(1),Vel Y > -5)
 persistent = 30
 type= VelAdd
 y = -5
 ignorehitpause=1
 supermovetime = 9999
 pausemovetime = 9999
-RedirectID = PlayerID(getplayerid(1)),ID
+RedirectID = player(1),ID
 [State FallSlow];
 triggerall = RoundState = 2
-trigger1 = PlayerID(getplayerid(1)),Pos Y < 0 && PlayerID(getplayerid(1)),Vel Y > 1
+trigger1 = player(1),Pos Y < 0 && player(1),Vel Y > 1
 type= VelMul
 y = 0.80
 ignorehitpause=1
 supermovetime = 9999
 pausemovetime = 9999
-RedirectID = PlayerID(getplayerid(1)),ID
+RedirectID = player(1),ID
 ;SELF INFINITES WHILE IN AIR
 [State ForceRecoveryInAir]
-Triggerall = playerid(getplayerid(1)),Ctrl = 0;has no control
-trigger1 = playerid(getplayerid(1)),statetype = A;Is in Air
+Triggerall = player(1),Ctrl = 0;has no control
+trigger1 = player(1),statetype = A;Is in Air
 type = CtrlSet
 value = 1
-RedirectID = playerid(getplayerid(1)),ID
+RedirectID = player(1),ID
 [State TurnAround]
-trigger1 = playerid(getplayerid(1)),Pos Y < 0
-trigger1 = playerid(getplayerid(1)),Command = "holdback"
+trigger1 = player(1),Pos Y < 0
+trigger1 = player(1),Command = "holdback"
 type = Turn
-RedirectID = playerid(getplayerid(1)),ID
+RedirectID = player(1),ID
 ;CONSTANT FILLING POWERBAR
 [State TurnAround]
 trigger1 = RoundState > 0
 trigger1 = Time % 2 = 0
 type = PowerAdd
 value = 8
-RedirectID = playerid(getplayerid(1)),ID
+RedirectID = player(1),ID
 
 ;FLOATY, HIGH JUMP
 [State AddVelWhenJumping];
 trigger1 = RoundState = 2
-trigger1 = playerid(getplayerid(2)),Time = 2
-trigger1 = (playerid(getplayerid(2)),Vel Y < 0); && (playerid(getplayerid(2)),Vel Y > -5)
+trigger1 = player(2),Time = 2
+trigger1 = (player(2),Vel Y < 0); && (player(2),Vel Y > -5)
 persistent = 30
 type= VelAdd
 y = -5
 ignorehitpause=1
 supermovetime = 9999
 pausemovetime = 9999
-RedirectID = playerid(getplayerid(2)),ID
+RedirectID = player(2),ID
 [State FallSlow];
 triggerall = RoundState = 2
-trigger1 = playerid(getplayerid(2)),Pos Y < 0 && playerid(getplayerid(2)),Vel Y > 1
+trigger1 = player(2),Pos Y < 0 && player(2),Vel Y > 1
 type= VelMul
 y = 0.80
 ignorehitpause=1
 supermovetime = 9999
 pausemovetime = 9999
-RedirectID = playerid(getplayerid(2)),ID
+RedirectID = player(2),ID
 ;SELF INFINITES WHILE IN AIR
 [State ForceRecoveryInAir]
-Triggerall = playerid(getplayerid(2)),Ctrl = 0;has no control
-trigger1 = playerid(getplayerid(2)),statetype = A;Is in Air
+Triggerall = player(2),Ctrl = 0;has no control
+trigger1 = player(2),statetype = A;Is in Air
 type = CtrlSet
 value = 1
-RedirectID = playerid(getplayerid(2)),ID
+RedirectID = player(2),ID
 [State TurnAround]
-trigger1 = playerid(getplayerid(2)),Pos Y < 0
-trigger1 = playerid(getplayerid(2)),Command = "holdback"
+trigger1 = player(2),Pos Y < 0
+trigger1 = player(2),Command = "holdback"
 type = Turn
-RedirectID = playerid(getplayerid(2)),ID
+RedirectID = player(2),ID
 ;CONSTANT FILLING POWERBAR
 [State TurnAround]
 trigger1 = RoundState > 0
 trigger1 = Time % 2 = 0
 type = PowerAdd
 value = 8
-RedirectID = playerid(getplayerid(2)),ID
+RedirectID = player(2),ID
 
 ;FLOATY, HIGH JUMP
 [State AddVelWhenJumping];
 trigger1 = RoundState = 2
-trigger1 = playerid(getplayerid(3)),Time = 2
-trigger1 = (playerid(getplayerid(3)),Vel Y < 0); && (playerid(getplayerid(3)),Vel Y > -5)
+trigger1 = player(3),Time = 2
+trigger1 = (player(3),Vel Y < 0); && (player(3),Vel Y > -5)
 persistent = 30
 type= VelAdd
 y = -5
 ignorehitpause=1
 supermovetime = 9999
 pausemovetime = 9999
-RedirectID = playerid(getplayerid(3)),ID
+RedirectID = player(3),ID
 [State FallSlow];
 triggerall = RoundState = 2
-trigger1 = playerid(getplayerid(3)),Pos Y < 0 && playerid(getplayerid(3)),Vel Y > 1
+trigger1 = player(3),Pos Y < 0 && player(3),Vel Y > 1
 type= VelMul
 y = 0.80
 ignorehitpause=1
 supermovetime = 9999
 pausemovetime = 9999
-RedirectID = playerid(getplayerid(3)),ID
+RedirectID = player(3),ID
 ;SELF INFINITES WHILE IN AIR
 [State ForceRecoveryInAir]
-Triggerall = playerid(getplayerid(3)),Ctrl = 0;has no control
-trigger1 = playerid(getplayerid(3)),statetype = A;Is in Air
+Triggerall = player(3),Ctrl = 0;has no control
+trigger1 = player(3),statetype = A;Is in Air
 type = CtrlSet
 value = 1
-RedirectID = playerid(getplayerid(3)),ID
+RedirectID = player(3),ID
 [State TurnAround]
-trigger1 = playerid(getplayerid(3)),Pos Y < 0
-trigger1 = playerid(getplayerid(3)),Command = "holdback"
+trigger1 = player(3),Pos Y < 0
+trigger1 = player(3),Command = "holdback"
 type = Turn
-RedirectID = playerid(getplayerid(3)),ID
+RedirectID = player(3),ID
 ;CONSTANT FILLING POWERBAR
 [State TurnAround]
 trigger1 = RoundState > 0
 trigger1 = Time % 2 = 0
 type = PowerAdd
 value = 8
-RedirectID = playerid(getplayerid(3)),ID
+RedirectID = player(3),ID
 
 ;FLOATY, HIGH JUMP
 [State AddVelWhenJumping];
 trigger1 = RoundState = 2
-trigger1 = playerid(getplayerid(4)),Time = 2
-trigger1 = (playerid(getplayerid(4)),Vel Y < 0); && (playerid(getplayerid(4)),Vel Y > -5)
+trigger1 = player(4),Time = 2
+trigger1 = (player(4),Vel Y < 0); && (player(4),Vel Y > -5)
 persistent = 30
 type= VelAdd
 y = -5
 ignorehitpause=1
 supermovetime = 9999
 pausemovetime = 9999
-RedirectID = playerid(getplayerid(4)),ID
+RedirectID = player(4),ID
 [State FallSlow];
 triggerall = RoundState = 2
-trigger1 = playerid(getplayerid(4)),Pos Y < 0 && playerid(getplayerid(4)),Vel Y > 1
+trigger1 = player(4),Pos Y < 0 && player(4),Vel Y > 1
 type= VelMul
 y = 0.80
 ignorehitpause=1
 supermovetime = 9999
 pausemovetime = 9999
-RedirectID = playerid(getplayerid(4)),ID
+RedirectID = player(4),ID
 ;SELF INFINITES WHILE IN AIR
 [State ForceRecoveryInAir]
-Triggerall = playerid(getplayerid(4)),Ctrl = 0;has no control
-trigger1 = playerid(getplayerid(4)),statetype = A;Is in Air
+Triggerall = player(4),Ctrl = 0;has no control
+trigger1 = player(4),statetype = A;Is in Air
 type = CtrlSet
 value = 1
-RedirectID = playerid(getplayerid(4)),ID
+RedirectID = player(4),ID
 [State TurnAround]
-trigger1 = playerid(getplayerid(4)),Pos Y < 0
-trigger1 = playerid(getplayerid(4)),Command = "holdback"
+trigger1 = player(4),Pos Y < 0
+trigger1 = player(4),Command = "holdback"
 type = Turn
-RedirectID = playerid(getplayerid(4)),ID
+RedirectID = player(4),ID
 ;CONSTANT FILLING POWERBAR
 [State TurnAround]
 trigger1 = RoundState > 0
 trigger1 = Time % 2 = 0
 type = PowerAdd
 value = 8
-RedirectID = playerid(getplayerid(4)),ID
+RedirectID = player(4),ID
 
 ;FLOATY, HIGH JUMP
 [State AddVelWhenJumping];
 trigger1 = RoundState = 2
-trigger1 = playerid(getplayerid(5)),Time = 2
-trigger1 = (playerid(getplayerid(5)),Vel Y < 0); && (playerid(getplayerid(5)),Vel Y > -5)
+trigger1 = player(5),Time = 2
+trigger1 = (player(5),Vel Y < 0); && (player(5),Vel Y > -5)
 persistent = 30
 type= VelAdd
 y = -5
 ignorehitpause=1
 supermovetime = 9999
 pausemovetime = 9999
-RedirectID = playerid(getplayerid(5)),ID
+RedirectID = player(5),ID
 [State FallSlow];
 triggerall = RoundState = 2
-trigger1 = playerid(getplayerid(5)),Pos Y < 0 && playerid(getplayerid(5)),Vel Y > 1
+trigger1 = player(5),Pos Y < 0 && player(5),Vel Y > 1
 type= VelMul
 y = 0.80
 ignorehitpause=1
 supermovetime = 9999
 pausemovetime = 9999
-RedirectID = playerid(getplayerid(5)),ID
+RedirectID = player(5),ID
 ;SELF INFINITES WHILE IN AIR
 [State ForceRecoveryInAir]
-Triggerall = playerid(getplayerid(5)),Ctrl = 0;has no control
-trigger1 = playerid(getplayerid(5)),statetype = A;Is in Air
+Triggerall = player(5),Ctrl = 0;has no control
+trigger1 = player(5),statetype = A;Is in Air
 type = CtrlSet
 value = 1
-RedirectID = playerid(getplayerid(5)),ID
+RedirectID = player(5),ID
 [State TurnAround]
-trigger1 = playerid(getplayerid(5)),Pos Y < 0
-trigger1 = playerid(getplayerid(5)),Command = "holdback"
+trigger1 = player(5),Pos Y < 0
+trigger1 = player(5),Command = "holdback"
 type = Turn
-RedirectID = playerid(getplayerid(5)),ID
+RedirectID = player(5),ID
 ;CONSTANT FILLING POWERBAR
 [State TurnAround]
 trigger1 = RoundState > 0
 trigger1 = Time % 2 = 0
 type = PowerAdd
 value = 8
-RedirectID = playerid(getplayerid(5)),ID
+RedirectID = player(5),ID
 
 ;FLOATY, HIGH JUMP
 [State AddVelWhenJumping];
 trigger1 = RoundState = 2
-trigger1 = playerid(getplayerid(6)),Time = 2
-trigger1 = (playerid(getplayerid(6)),Vel Y < 0); && (playerid(getplayerid(6)),Vel Y > -5)
+trigger1 = player(6),Time = 2
+trigger1 = (player(6),Vel Y < 0); && (player(6),Vel Y > -5)
 persistent = 30
 type= VelAdd
 y = -5
 ignorehitpause=1
 supermovetime = 9999
 pausemovetime = 9999
-RedirectID = playerid(getplayerid(6)),ID
+RedirectID = player(6),ID
 [State FallSlow];
 triggerall = RoundState = 2
-trigger1 = playerid(getplayerid(6)),Pos Y < 0 && playerid(getplayerid(6)),Vel Y > 1
+trigger1 = player(6),Pos Y < 0 && player(6),Vel Y > 1
 type= VelMul
 y = 0.80
 ignorehitpause=1
 supermovetime = 9999
 pausemovetime = 9999
-RedirectID = playerid(getplayerid(6)),ID
+RedirectID = player(6),ID
 ;SELF INFINITES WHILE IN AIR
 [State ForceRecoveryInAir]
-Triggerall = playerid(getplayerid(6)),Ctrl = 0;has no control
-trigger1 = playerid(getplayerid(6)),statetype = A;Is in Air
+Triggerall = player(6),Ctrl = 0;has no control
+trigger1 = player(6),statetype = A;Is in Air
 type = CtrlSet
 value = 1
-RedirectID = playerid(getplayerid(6)),ID
+RedirectID = player(6),ID
 [State TurnAround]
-trigger1 = playerid(getplayerid(6)),Pos Y < 0
-trigger1 = playerid(getplayerid(6)),Command = "holdback"
+trigger1 = player(6),Pos Y < 0
+trigger1 = player(6),Command = "holdback"
 type = Turn
-RedirectID = playerid(getplayerid(6)),ID
+RedirectID = player(6),ID
 ;CONSTANT FILLING POWERBAR
 [State TurnAround]
 trigger1 = RoundState > 0
 trigger1 = Time % 2 = 0
 type = PowerAdd
 value = 8
-RedirectID = playerid(getplayerid(6)),ID
+RedirectID = player(6),ID
 
 ;FLOATY, HIGH JUMP
 [State AddVelWhenJumping];
 trigger1 = RoundState = 2
-trigger1 = playerid(getplayerid(7)),Time = 2
-trigger1 = (playerid(getplayerid(7)),Vel Y < 0); && (playerid(getplayerid(7)),Vel Y > -5)
+trigger1 = player(7),Time = 2
+trigger1 = (player(7),Vel Y < 0); && (player(7),Vel Y > -5)
 persistent = 30
 type= VelAdd
 y = -5
 ignorehitpause=1
 supermovetime = 9999
 pausemovetime = 9999
-RedirectID = playerid(getplayerid(7)),ID
+RedirectID = player(7),ID
 [State FallSlow];
 triggerall = RoundState = 2
-trigger1 = playerid(getplayerid(7)),Pos Y < 0 && playerid(getplayerid(7)),Vel Y > 1
+trigger1 = player(7),Pos Y < 0 && player(7),Vel Y > 1
 type= VelMul
 y = 0.80
 ignorehitpause=1
 supermovetime = 9999
 pausemovetime = 9999
-RedirectID = playerid(getplayerid(7)),ID
+RedirectID = player(7),ID
 ;SELF INFINITES WHILE IN AIR
 [State ForceRecoveryInAir]
-Triggerall = playerid(getplayerid(7)),Ctrl = 0;has no control
-trigger1 = playerid(getplayerid(7)),statetype = A;Is in Air
+Triggerall = player(7),Ctrl = 0;has no control
+trigger1 = player(7),statetype = A;Is in Air
 type = CtrlSet
 value = 1
-RedirectID = playerid(getplayerid(7)),ID
+RedirectID = player(7),ID
 [State TurnAround]
-trigger1 = playerid(getplayerid(7)),Pos Y < 0
-trigger1 = playerid(getplayerid(7)),Command = "holdback"
+trigger1 = player(7),Pos Y < 0
+trigger1 = player(7),Command = "holdback"
 type = Turn
-RedirectID = playerid(getplayerid(7)),ID
+RedirectID = player(7),ID
 ;CONSTANT FILLING POWERBAR
 [State TurnAround]
 trigger1 = RoundState > 0
 trigger1 = Time % 2 = 0
 type = PowerAdd
 value = 8
-RedirectID = playerid(getplayerid(7)),ID
+RedirectID = player(7),ID
 
 ;FLOATY, HIGH JUMP
 [State AddVelWhenJumping];
 trigger1 = RoundState = 2
-trigger1 = playerid(getplayerid(8)),Time = 2
-trigger1 = (playerid(getplayerid(8)),Vel Y < 0); && (playerid(getplayerid(8)),Vel Y > -5)
+trigger1 = player(8),Time = 2
+trigger1 = (player(8),Vel Y < 0); && (player(8),Vel Y > -5)
 persistent = 30
 type= VelAdd
 y = -5
 ignorehitpause=1
 supermovetime = 9999
 pausemovetime = 9999
-RedirectID = playerid(getplayerid(8)),ID
+RedirectID = player(8),ID
 [State FallSlow];
 triggerall = RoundState = 2
-trigger1 = playerid(getplayerid(8)),Pos Y < 0 && playerid(getplayerid(8)),Vel Y > 1
+trigger1 = player(8),Pos Y < 0 && player(8),Vel Y > 1
 type= VelMul
 y = 0.80
 ignorehitpause=1
 supermovetime = 9999
 pausemovetime = 9999
-RedirectID = playerid(getplayerid(8)),ID
+RedirectID = player(8),ID
 ;SELF INFINITES WHILE IN AIR
 [State ForceRecoveryInAir]
-Triggerall = playerid(getplayerid(8)),Ctrl = 0;has no control
-trigger1 = playerid(getplayerid(8)),statetype = A;Is in Air
+Triggerall = player(8),Ctrl = 0;has no control
+trigger1 = player(8),statetype = A;Is in Air
 type = CtrlSet
 value = 1
-RedirectID = playerid(getplayerid(8)),ID
+RedirectID = player(8),ID
 [State TurnAround]
-trigger1 = playerid(getplayerid(8)),Pos Y < 0
-trigger1 = playerid(getplayerid(8)),Command = "holdback"
+trigger1 = player(8),Pos Y < 0
+trigger1 = player(8),Command = "holdback"
 type = Turn
-RedirectID = playerid(getplayerid(8)),ID
+RedirectID = player(8),ID
 ;CONSTANT FILLING POWERBAR
 [State TurnAround]
 trigger1 = RoundState > 0
 trigger1 = Time % 2 = 0
 type = PowerAdd
 value = 8
-RedirectID = playerid(getplayerid(8)),ID
+RedirectID = player(8),ID
 
 [State 1313, 1]
 type = AssertSpecial
@@ -10027,49 +10027,49 @@ persistent = 0
 
 [State 4101, DetectSuper]
 type = VarAdd
-trigger1 = playerid(getplayerid(1)),HitDefAttr = SCA, HA
+trigger1 = player(1),HitDefAttr = SCA, HA
 value = 1
 v = 1
 persistent = 1
 [State 4101, DetectSuper]
 type = VarAdd
-trigger1 = playerid(getplayerid(2)),HitDefAttr = , HA
+trigger1 = player(2),HitDefAttr = , HA
 value = 1
 v = 2
 persistent = 1
 [State 4101, DetectSuper]
 type = VarAdd
-trigger1 = playerid(getplayerid(3)),HitDefAttr = , HA
+trigger1 = player(3),HitDefAttr = , HA
 value = 1
 v = 3
 persistent = 1
 [State 4101, DetectSuper]
 type = VarAdd
-trigger1 = playerid(getplayerid(4)),HitDefAttr = , HA
+trigger1 = player(4),HitDefAttr = , HA
 value = 1
 v = 4
 persistent = 1
 [State 4101, DetectSuper]
 type = VarAdd
-trigger1 = playerid(getplayerid(5)),HitDefAttr = , HA
+trigger1 = player(5),HitDefAttr = , HA
 value = 1
 v = 5
 persistent = 1
 [State 4101, DetectSuper]
 type = VarAdd
-trigger1 = playerid(getplayerid(6)),HitDefAttr = , HA
+trigger1 = player(6),HitDefAttr = , HA
 value = 1
 v = 6
 persistent = 1
 [State 4101, DetectSuper]
 type = VarAdd
-trigger1 = playerid(getplayerid(7)),HitDefAttr = , HA
+trigger1 = player(7),HitDefAttr = , HA
 value = 1
 v = 7
 persistent = 1
 [State 4101, DetectSuper]
 type = VarAdd
-trigger1 = playerid(getplayerid(8)),HitDefAttr = , HA
+trigger1 = player(8),HitDefAttr = , HA
 value = 1
 v = 8
 persistent = 1
@@ -10122,7 +10122,7 @@ type = helper
 ignorehitpause = 1
 persistent = 0
 trigger1 = !ishelper
-trigger1 = NumHelper = 1
+trigger1 = NumHelper(66) = 0 ;antes NumHelper = 1 (fallaba si se creaban varios a la vez)
 trigger1 = RoundNo = 1
 name = "Uppercutter"
 ID = 66
@@ -10144,7 +10144,7 @@ type = helper
 ;ignorehitpause = 1
 persistent = 0
 trigger1 = !ishelper
-trigger1 = NumHelper = 2
+trigger1 = NumHelper(3) = 0 ;antes NumHelper = 2
 trigger1 = RoundNo = 1
 name = "StageElements"
 ID = 3
@@ -10166,7 +10166,7 @@ type = helper
 ignorehitpause = 1
 persistent = 0
 trigger1 = !ishelper
-trigger1 = NumHelper = 3
+trigger1 = NumHelper(95) = 0 ;antes NumHelper = 3
 trigger1 = RoundNo = 1
 name = "BottomWindowExit"
 ID = 95
@@ -10186,7 +10186,7 @@ preserve = 1
 [State 1, 1];Spawn Delta Helper
 type = helper
 trigger1 = time = 0
-trigger1 = numhelper < 5
+trigger1 = NumHelper(4101) = 0 ;antes numhelper < 5
 persistent = 0
 helpertype = normal
 name = "Delta_Pos"
@@ -10223,7 +10223,7 @@ flag2 = NoMusic
 [State DTC];
 Trigger1 = IsHelper = 0
 type = DisplayToClipBoard
-params = playerid(getplayerid(1)), Pos X + CameraPos X
+params = player(1), Pos X + CameraPos X
 text="PosX:%v"
 
 

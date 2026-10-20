@@ -8,6 +8,7 @@ pal.defaults = 1,2,3,4,5,6     ;敵としてでるキャラのパレット
 
 ; Files for the player
 [Files]
+movelist = movelist.dat
 cmd     = com.cmd   ;コマンド
 cns     = base.cns   ;基本データ
 st	= base.cns	;イントロ

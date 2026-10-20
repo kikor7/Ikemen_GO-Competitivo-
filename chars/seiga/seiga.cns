@@ -257,7 +257,7 @@ ctrl = 0
 velset = 0,0
 anim = 210
 sprpriority = 1
-poweradd=10
+poweradd=0
 
 [State 200, 音を鳴らす]
 type = PlaySnd
@@ -305,7 +305,7 @@ fall = 0						;落下フラグ (int)
 fall.recover = 0				;受身可能フラグ (int)
 fall.recovertime = 0			;受身可能受付開始時間 (int)
 fall.damage = 0					;damage_amt (int)
-getpower = 10,0
+getpower = 30,15
 givepower = 10,0
 
 
@@ -326,7 +326,7 @@ ctrl = 0
 velset = 2,0
 anim = 250
 sprpriority = 1
-poweradd=10
+poweradd=0
 
 [State 200, 音を鳴らす]
 type = PlaySnd
@@ -374,7 +374,7 @@ fall = 0						;落下フラグ (int)
 fall.recover = 0				;受身可能フラグ (int)
 fall.recovertime = 0			;受身可能受付開始時間 (int)
 fall.damage = 0					;damage_amt (int)
-getpower = 10,0
+getpower = 30,15
 
 [State 200, ステート変更]
 type = ChangeState
@@ -393,7 +393,7 @@ ctrl = 0
 velset = 0,0
 anim = 200
 sprpriority = 1
-poweradd=10
+poweradd=0
 
 [State 200, 音を鳴らす]
 type = PlaySnd
@@ -441,7 +441,7 @@ fall = 0						;落下フラグ (int)
 fall.recover = 0				;受身可能フラグ (int)
 fall.recovertime = 0			;受身可能受付開始時間 (int)
 fall.damage = 0					;damage_amt (int)
-getpower = 10,0
+getpower = 30,15
 
 [State 200, ステート変更]
 type = ChangeState
@@ -460,7 +460,7 @@ ctrl = 0
 velset = 0,0
 anim = 220
 sprpriority = 1
-poweradd=10
+poweradd=0
 
 [State 200, 音を鳴らす]
 type = PlaySnd
@@ -518,7 +518,7 @@ fall = 0						;落下フラグ (int)
 fall.recover = 0				;受身可能フラグ (int)
 fall.recovertime = 0			;受身可能受付開始時間 (int)
 fall.damage = 0					;damage_amt (int)
-getpower = 10,0
+getpower = 30,15
 
 [State 200, 音を鳴らす]
 type = VelSet
@@ -543,7 +543,7 @@ ctrl = 0
 velset = 0,0
 anim = 230
 sprpriority = 1
-poweradd=10
+poweradd=0
 
 [State 200, 音を鳴らす]
 type = PlaySnd
@@ -596,7 +596,7 @@ fall = 0						;落下フラグ (int)
 fall.recover = 0				;受身可能フラグ (int)
 fall.recovertime = 0			;受身可能受付開始時間 (int)
 fall.damage = 0					;damage_amt (int)
-getpower = 10,0
+getpower = 30,15
 
 [State 200, ステート変更]
 type = ChangeState
@@ -615,7 +615,7 @@ ctrl = 0
 velset = 0,0
 anim = 240
 sprpriority = 1
-poweradd=10
+poweradd=0
 
 [State 200, 音を鳴らす]
 type = PlaySnd
@@ -668,7 +668,7 @@ fall = 0						;落下フラグ (int)
 fall.recover = 0				;受身可能フラグ (int)
 fall.recovertime = 0			;受身可能受付開始時間 (int)
 fall.damage = 0					;damage_amt (int)
-getpower = 10,0
+getpower = 30,15
 
 [State 200, ステート変更]
 type = ChangeState
@@ -687,7 +687,7 @@ ctrl = 0
 anim = 1100
 sprpriority = 1
 juggle  = 7
-poweradd=10
+poweradd=20
 velset = 0,0
 
 [State 810, エフェクト]
@@ -776,7 +776,7 @@ ground.velocity = -1.5,0
 air.velocity = -1.2,-3
 guard.velocity = -5
 fall=0
-getpower = 10,10
+getpower = 30,15
 givepower = 10,10
 Persistent = 0
 
@@ -795,7 +795,7 @@ ctrl = 0
 anim = 1100
 sprpriority = 1
 juggle  = 7
-poweradd=10
+poweradd=20
 velset=0,0
 
 [State 810, エフェクト]
@@ -905,7 +905,7 @@ ground.velocity = -1.5,0
 air.velocity = -1.2,-3
 guard.velocity = -5
 fall=0
-getpower = 10,10
+getpower = 15,7
 givepower = 10,10
 Persistent = 0
 
@@ -962,7 +962,7 @@ ground.velocity = -1.5,0
 air.velocity = -1.2,-3
 guard.velocity = -5
 fall=0
-getpower = 10,10
+getpower = 15,7
 givepower = 10,10
 Persistent = 0
 
@@ -982,7 +982,7 @@ ctrl = 0
 anim = 2000
 sprpriority = 1
 juggle  = 2
-poweradd=10
+poweradd=20
 
 [State 810, エフェクト]
 type = velset
@@ -1085,7 +1085,7 @@ fall = 0						;落下フラグ (int)
 fall.recover = 0				;受身可能フラグ (int)
 fall.recovertime = 0			;受身可能受付開始時間 (int)
 fall.damage = 0					;damage_amt (int)
-getpower = 10,10
+getpower = 30,15
 
 projedgebound = 200
 projstagebound = 200

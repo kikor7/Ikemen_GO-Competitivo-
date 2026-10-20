@@ -97,7 +97,7 @@ Trigger1          = AnimElem = 3
 attr              = S,NA
 animtype          = Medium
 damage            = 30,1
-getpower          = 30,30*.85
+getpower = 30,15
 hitflag           = MAF
 guardflag         = MA
 priority          = 2,Hit
@@ -161,7 +161,7 @@ Trigger1          = AnimElem = 4
 attr              = S,NA
 animtype          = Hard
 damage            = 40,1
-getpower          = 30,30*.85
+getpower = 30,15
 hitflag           = MAF
 guardflag         = MA
 priority          = 2,Hit
@@ -218,7 +218,7 @@ Trigger1          = AnimElem = 3
 attr              = S,NA
 damage            = 10,0
 animtype          = Light
-getpower          = 30,30*.85
+getpower = 30,15
 hitflag           = MAF
 guardflag         = MA
 priority          = 2,Hit
@@ -277,7 +277,7 @@ Trigger1          = AnimElem = 4
 attr              = S,NA
 animtype          = Medium
 damage            = 20,0
-getpower          = 30,30*.85
+getpower = 30,15
 hitflag           = MAF
 guardflag         = MA
 priority          = 2,Hit
@@ -341,7 +341,7 @@ Type              = HitDef
 Trigger1          = AnimElem = 5
 attr              = S,NA
 damage            = 40,1
-getpower          = 30,30*.85
+getpower = 30,15
 animtype          = Up
 hitflag           = MAF
 guardflag         = MA
@@ -417,7 +417,7 @@ Trigger1          = AnimElem = 3
 attr              = C,NA
 animtype          = Medium
 damage            = 20,1
-getpower          = 30,30*.85
+getpower = 30,15
 hitflag           = MAFD
 guardflag         = L
 priority          = 2,Hit
@@ -481,7 +481,7 @@ Trigger1          = AnimElem = 4
 attr              = C,NA
 animtype          = Hard
 damage            = 30,1
-getpower          = 30,30*.85
+getpower = 30,15
 hitflag           = MAFD
 guardflag         = L
 priority          = 2,Hit
@@ -540,7 +540,7 @@ Trigger1          = AnimElem = 3
 attr              = C,NA
 damage            = 5,0
 animtype          = Light
-getpower          = 30,30*.85
+getpower = 30,15
 priority          = 2,Hit
 hitflag           = MAF
 guardflag         = L
@@ -599,7 +599,7 @@ Trigger1          = AnimElem = 3
 attr              = C,NA
 animtype          = Medium
 damage            = 15,0
-getpower          = 30,30*.85
+getpower = 30,15
 hitflag           = MAFD
 guardflag         = L
 priority          = 2,Hit
@@ -657,7 +657,7 @@ Trigger1          = AnimElem = 3
 attr              = A,NA
 animtype          = Hard
 damage            = 20,1
-getpower          = 30,30*.85
+getpower = 30,15
 hitflag           = MAFD
 guardflag         = HA
 priority          = 2,Hit
@@ -732,7 +732,7 @@ Trigger1          = AnimElem = 4
 attr              = A,NA
 animtype          = Hard
 damage            = 30,1
-getpower          = 30,30*.85
+getpower = 30,15
 hitflag           = MAFD
 guardflag         = HA
 priority          = 2,Hit
@@ -802,7 +802,7 @@ Trigger1          = AnimElem = 5
 attr              = A,NA
 animtype          = Light
 damage            = 5,0
-getpower          = 30,30*.85
+getpower = 30,15
 hitflag           = MAFD
 guardflag         = HA
 priority          = 2,Hit
@@ -870,7 +870,7 @@ Trigger1          = AnimElem = 4
 attr              = A,NA
 animtype          = Hard
 damage            = 10,0
-getpower          = 30,30*.85
+getpower = 30,15
 hitflag           = MAFD
 guardflag         = HA
 priority          = 2,Hit
@@ -1382,6 +1382,7 @@ ctrl     = 1
 ;地中潜伏
 [Statedef 1010]
 type        = C
+poweradd = 20
 movetype    = I
 physics     = N
 sprpriority = 1
@@ -1396,6 +1397,7 @@ value    = ,AA,AP,AT
 
 [State 1010, 地中潜伏EF.1]
 type            = Projectile
+getpower = 6,3
 trigger1        = Time = 5
 projanim        = 6021
 projID          = 6021
@@ -1408,6 +1410,7 @@ projshadow      = -1
 
 [State 1010, 地中潜伏EF.2]
 type            = Projectile
+getpower = 6,3
 trigger1        = Time = 30
 projanim        = 1012
 projID          = 1012
@@ -1506,6 +1509,7 @@ value    = ,AP,AT
 
 [State 1012, 地中潜伏EF.1]
 type            = Projectile
+getpower = 6,3
 trigger1        = Time = 0
 projanim        = 6021
 projID          = 6021
@@ -1518,6 +1522,7 @@ projshadow      = -1
 
 [State 1012, 地中潜伏EF.2]
 type            = Projectile
+getpower = 6,3
 trigger1        = Time = 30
 projanim        = 1012
 projID          = 1012
@@ -1587,7 +1592,7 @@ sparkno          = -1
 sparkxy          = 0,-50
 hitsound         = s5,3
 guardsound       = S6,1
-getpower         = 30,30*.85
+getpower = 6,3
 givepower        = 10,1
 ground.type      = trip
 air.type         = trip
@@ -3430,6 +3435,7 @@ ctrl     = 1
 ;━━━━━━━━━━━━━━━━
 [Statedef 1400]
 type        = S
+poweradd = 20
 movetype    = I
 physics     = N
 velset      = 0,0
@@ -3745,7 +3751,7 @@ type        = S
 movetype    = A
 physics     = S
 juggle      = 1
-poweradd    = 0
+poweradd    = 20
 velset      = 0,0
 poweradd    = 0
 anim        = 1600
@@ -3818,7 +3824,7 @@ Type              = HitDef
 Trigger1          = AnimElem = 9
 attr              = S,SA
 damage            = 40,1
-getpower          = 0,0
+getpower = 15,7
 animtype          = Up
 hitflag           = MAFDP
 priority          = 2,Hit

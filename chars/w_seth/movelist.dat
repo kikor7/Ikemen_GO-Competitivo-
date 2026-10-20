@@ -1,33 +1,17 @@
-<#f0f000>:Throws:</>
-Throw                                                       		
-
 <#f0f000>:Special Moves:</>
-Kyoukai no Distant                                          		^X_+^Y_+^Z
-Rensa no Nefarious                                          		_B_DF^A
-Zaikyuu no Convict EX                                       		_F_DB_F^Z
-Zaikyuu no Convict                                          		_F_DB_F[^Y/^X]
-Sentsuu no Penetrate EX                                     		_QDB^Z
-Sentsuu no Penetrate B                                      		_QDB^Y
-Sentsuu no Penetrate A                                      		_QDB^X
-Soushitsu no Confusion C                                    		_QDB^Z
-Soushitsu no Confusion B                                    		_QDB^Y
-Soushitsu no Confusion A                                    		_QDB^X
-Soukou no Vengeance EX                                      		_DSF^Z
-Soukou no Vengeance B                                       		_DSF^Y
-Soukou no Vengeance A                                       		_DSF^X
-Air Houkou no Segment EX                                    		_QDF^Z
-Air Houkou no Segment B                                     		_QDF^Y
-Air Houkou no Segment A                                     		_QDF^X
-Houkou no Segment EX                                        		_QDF^Z
-Houkou no Segment B                                         		_QDF^Y
-Houkou no Segment A                                         		_QDF^X
-Fast Fall                                                   		_D_D
-Evasive Air Dash (ground)                                   		
-Force Function                                              		
-66C                                                         		
-66B                                                         		
-3B                                                          		[~D]
-6C                                                          		
-3C                                                          		[~D]
+Kyoukai no Distant			^X_+^Y_+^Z
+Rensa no Nefarious			_HCF^A
+Zaikyuu no Convict EX			_HCB_F^Z
+Zaikyuu no Convict			_HCB_F^X
+Sentsuu no Penetrate EX			_QCB^Z
+Sentsuu no Penetrate B			_QCB^Y
+Sentsuu no Penetrate A			_QCB^X
+Soukou no Vengeance EX			_DSF^Z
+Soukou no Vengeance B			_DSF^Y
+Soukou no Vengeance A			_DSF^X
+Air Houkou no Segment EX			_QCF^Z
+Air Houkou no Segment B			_QCF^Y
+Air Houkou no Segment A			_QCF^X
+Chain Shift			^A^A
+Run Fwd			^X_+^Y
 
-<#f0f000>:Hyper Moves:</>

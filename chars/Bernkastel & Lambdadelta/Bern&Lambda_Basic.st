@@ -12,7 +12,7 @@ juggle  = 1
 velset = 0,0
 ctrl = 0
 anim = 200
-poweradd = 20
+poweradd = 0
 sprpriority = 2
 facep2 = 1
 
@@ -39,6 +39,7 @@ type = HitDef
 trigger1 = AnimElem = 2
 attr = S, NA
 damage = 20, 0
+getpower = 30,15
 animtype = Light
 guardflag = MA
 hitflag = MAF
@@ -111,7 +112,7 @@ type    = S
 movetype= A
 physics = S
 juggle  = 4
-poweradd= 30
+poweradd= 0
 ctrl = 0
 velset = 0,0
 anim = 205
@@ -141,6 +142,7 @@ trigger1 = AnimElem = 3
 attr = S, NA
 animtype  = Medium
 damage    = 52
+getpower = 30,15
 guardflag = MA
 pausetime = 12,12
 sparkno = -1
@@ -217,7 +219,7 @@ type    = S
 movetype= A
 physics = S
 juggle  = 4
-poweradd= 40
+poweradd= 0
 ctrl = 0
 velset = 0,0
 anim = 210+ceil(var(10)*0.01)
@@ -247,6 +249,7 @@ trigger1 = AnimElem = 2
 attr = S, NA
 animtype  = Medium
 damage    = 43
+getpower = 30,15
 guardflag = MA
 pausetime = 10,10
 sparkno = -1
@@ -313,7 +316,7 @@ type    = S
 movetype= A
 physics = S
 juggle  = 5
-poweradd= 70
+poweradd= 0
 ctrl = 0
 velset = 0,0
 anim = 220
@@ -356,6 +359,7 @@ trigger1 = AnimElem = 2
 attr = S, NA
 animtype  = Hard
 damage    = 70
+getpower = 30,15
 guardflag = MA
 pausetime = 8,8
 sparkno = -1
@@ -602,7 +606,7 @@ type    = S
 movetype= A
 physics = S
 juggle  = 4
-poweradd= 65
+poweradd= 0
 ctrl = 0
 velset = 0,0
 anim = 225+ceil(var(11)*0.01)
@@ -650,6 +654,7 @@ trigger1 = AnimElem = 3
 attr = S, NA
 animtype  = Hard
 damage    = 60
+getpower = 30,15
 guardflag = MA
 pausetime = 12,12
 sparkno = -1
@@ -1056,7 +1061,7 @@ type    = C
 movetype= A
 physics = C
 juggle  = 5
-poweradd= 20
+poweradd= 0
 ctrl = 0
 anim = 400
 sprpriority = 2
@@ -1079,6 +1084,7 @@ type = HitDef
 trigger1 = AnimElem = 3
 attr = C, NA
 damage    = 24
+getpower = 30,15
 priority  = 3
 animtype  = Light
 hitflag = MF
@@ -1148,7 +1154,7 @@ type    = C
 movetype= A
 physics = C
 juggle  = 6
-poweradd= 40
+poweradd= 0
 ctrl = 0
 anim = 410+ceil(var(10)*0.01)
 sprpriority = 2
@@ -1170,6 +1176,7 @@ type = HitDef
 trigger1 = AnimElem = 2
 attr = C, NA
 damage    = 48
+getpower = 30,15
 animtype  = Medium
 hitflag = MAF
 guardflag = MA
@@ -1250,7 +1257,7 @@ type    = C
 movetype= A
 physics = C
 juggle  = 7
-poweradd= 70
+poweradd= 0
 ctrl = 0
 anim = 420
 sprpriority = 2
@@ -1294,6 +1301,7 @@ trigger1 = AnimElem = 4
 attr = C, NA
 animtype  = Hard
 damage    = 35
+getpower = 15,7
 hitflag = MAF
 guardflag = MA
 pausetime = 8,8
@@ -1321,6 +1329,7 @@ trigger1 = AnimElem = 8
 attr = C, NA
 animtype  = Hard
 damage    = 35
+getpower = 15,7
 hitflag = MAF
 guardflag = LA
 pausetime = 8,8
@@ -1437,7 +1446,7 @@ type    = A
 movetype= A
 physics = A
 juggle  = 2
-poweradd= 20
+poweradd= 0
 ctrl = 0
 anim = 600
 sprpriority = 2
@@ -1465,6 +1474,7 @@ type = HitDef
 trigger1 = AnimElem = 2
 attr = A, NA
 damage    = 17
+getpower = 30,15
 guardflag = HA
 priority = 3
 pausetime = 7,8
@@ -1532,7 +1542,7 @@ type    = A
 movetype= A
 physics = A
 juggle  = 4
-poweradd= 40
+poweradd= 0
 ctrl = 0
 anim = 610
 sprpriority = 2
@@ -1561,6 +1571,7 @@ trigger1 = Time = 0
 attr = A, NA
 animtype  = medium
 damage = 48
+getpower = 30,15
 guardflag = HA
 priority = 4
 pausetime = 11,11
@@ -1623,7 +1634,7 @@ type    = A
 movetype= A
 physics = A
 juggle  = 4
-poweradd= 70
+poweradd= 0
 ctrl = 0
 anim = 620
 sprpriority = 2
@@ -1665,6 +1676,7 @@ trigger1 = AnimElem = 2
 attr = A, NA
 animtype  = Hard
 damage    = 78
+getpower = 30,15
 guardflag = HA
 priority = 4
 pausetime = 12,12
@@ -1848,6 +1860,7 @@ trigger1 = Time = 0
 attr = S, HA
 animtype  = Hard
 damage    = 17
+getpower = 30,15
 guardflag = -
 pausetime = 0,8
 sparkno = -1
@@ -1870,6 +1883,7 @@ trigger1 = animelem = 5
 attr = S, HA
 animtype  = Hard
 damage    = 18
+getpower = 30,15
 guardflag = -
 pausetime = 8,8
 sparkno = -1
@@ -2579,7 +2593,7 @@ velset = 0,0
 ctrl = 0
 anim = 800
 sprpriority = 2
-poweradd = 30
+poweradd = 0
 
 [State -3, ボイス・ベルン]
 type = PlaySnd
@@ -2597,6 +2611,7 @@ ignorehitpause = 1
 
 [State 800, ヒット定義（投げ用）]
 type = HitDef
+getpower = 60,30
 trigger1 = var(10) = 0
 trigger1 = var(11) = 0
 trigger1 = Time = 0
@@ -2625,7 +2640,7 @@ type    = S
 movetype= A
 physics = N
 anim = 810
-poweradd = 40
+poweradd = 0
 
 [State -3, ボイス・ベルン]
 type = PlaySnd

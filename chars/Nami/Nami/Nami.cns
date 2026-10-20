@@ -973,7 +973,7 @@ physics = S
 juggle  = 2
 ctrl = 0
 anim = 200+var(11)
-poweradd = 100
+poweradd = 0
 velset = 0,0
 sprpriority = 2
 
@@ -1089,7 +1089,7 @@ physics = S
 juggle  = 2
 ctrl = 0
 anim = 610+var(11)
-poweradd = 100
+poweradd = 0
 ;velset = 0,0
 sprpriority = 2
 
@@ -1282,7 +1282,7 @@ physics = S
 juggle  = 2
 ctrl = 0
 anim = 300+var(11)
-poweradd = 100
+poweradd = 0
 velset = 0,0
 sprpriority = 2
 
@@ -1426,7 +1426,7 @@ physics = S
 juggle  = 2
 ctrl = 0
 anim = 310
-poweradd = 100
+poweradd = 0
 velset = 0,0
 sprpriority = 2
 
@@ -1556,7 +1556,7 @@ physics = S
 juggle  = 2
 ctrl = 0
 anim = 2310
-poweradd = 100
+poweradd = 0
 velset = 0,0
 sprpriority = 2
 
@@ -1807,7 +1807,7 @@ physics = S
 juggle  = 2
 ctrl = 0
 anim = 400+var(11)
-poweradd = 100
+poweradd = 20
 velset = 0,0
 sprpriority = 2
 
@@ -2046,7 +2046,7 @@ physics = S
 juggle  = 2
 ctrl = 0
 anim = 450
-poweradd = 100
+poweradd = 0
 velset = 0,0
 sprpriority = 2
 
@@ -2330,7 +2330,7 @@ physics = S
 juggle  = 2
 ctrl = 0
 anim = 400+var(11)
-poweradd = 100
+poweradd = 0
 velset = 0,0
 sprpriority = 2
 
@@ -2614,7 +2614,7 @@ physics = A
 juggle  = 2
 ctrl = 0
 anim = 200+var(11)
-poweradd = 100
+poweradd = 0
 sprpriority = 2
 
 [State 0, PlaySnd]
@@ -2709,7 +2709,7 @@ physics = A
 juggle  = 2
 ctrl = 0
 anim = 610+var(11)
-poweradd = 100
+poweradd = 0
 sprpriority = 2
 
 [State 0, PlaySnd]
@@ -2792,7 +2792,7 @@ physics = A
 juggle  = 2
 ctrl = 0
 anim = 620+var(11)
-poweradd = 100
+poweradd = 20
 sprpriority = 2
 
 [State 0, PlaySnd]

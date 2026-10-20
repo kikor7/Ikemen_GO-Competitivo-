@@ -5,6 +5,7 @@ author = "îjokergamerÉç"
 pal.defaults = 1,2
 
 [Files]
+movelist = movelist.dat
 cmd      = Keroro.cmd
 cns      = Keroro.cns
 st       = Keroro.cns

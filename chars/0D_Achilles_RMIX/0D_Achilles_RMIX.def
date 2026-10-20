@@ -10,6 +10,7 @@ localcoord = 320
 ;localcoord = 426, 240
 
 [Files]
+movelist = movelist.dat
 Cmd      =0D_Achilles.cmd.cns
 Cns      =0D_Achilles.cns
 St       =0D_Achilles.cns

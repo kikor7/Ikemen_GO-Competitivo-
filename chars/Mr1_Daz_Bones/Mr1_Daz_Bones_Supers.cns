@@ -3652,7 +3652,7 @@ movetype = A
 physics = N
 anim = 3810
 ctrl = 0
-poweradd = 50
+poweradd = 0
 
 [State 0, RemoveExplod]
 type = RemoveExplod

@@ -14,7 +14,7 @@ anim = 1000
 ctrl = 0
 velSet = 0,0
 sprPriority = 1
-powerAdd = 72 * !var(20)
+powerAdd = 0 * !var(20)
 faceP2 = 1
 
 [State 1000, Button Detect]
@@ -131,7 +131,7 @@ guard.hittime  = 29
 air.hittime = 30
 ground.velocity = -16
 air.velocity = -2.5,-4
-getPower = ifElse(!var(13), 72, 36) * !var(20), 12 * !var(20)
+getpower = 60,30
 givePower = 36, 36
 palFX.time = 12 * var(9)
 palFX.add = 255, 255, 255
@@ -166,7 +166,7 @@ guard.hittime  = 15
 air.hittime = 16
 ground.velocity = -14
 air.velocity = -2.5,-4
-getPower = ifElse(!var(13), 72, 36) * !var(20), 12 * !var(20)
+getpower = 60,30
 givePower = 36, 36
 palFX.time = 12 * var(9)
 palFX.add = 255, 255, 255
@@ -412,7 +412,7 @@ anim = 1100
 ctrl = 0
 velSet = 0,0
 sprPriority = 1
-powerAdd = 72 * !var(20)
+powerAdd = 0 * !var(20)
 faceP2 = 1
 
 [State 1100, Button Detect]
@@ -510,7 +510,7 @@ ground.hittime  = 16
 guard.hittime  = 15
 air.hittime = 16
 ground.velocity = 14
-getPower = ifElse(!var(13), 72, 36) * !var(20), 12 * !var(20)
+getpower = 60,30
 givePower = 36, 36
 air.velocity = 2.5,-4
 air.fall = 1
@@ -780,7 +780,7 @@ anim = 1200
 ctrl = 0
 velSet = 0,0
 sprPriority = 1
-powerAdd = 72 * !var(20)
+powerAdd = 0 * !var(20)
 faceP2 = 1
 
 [State 1000, Button Detect]
@@ -885,7 +885,7 @@ guard.hittime  = 25
 air.hittime = 26
 ground.velocity = -6
 air.velocity = -2.5,-4
-getPower = ifElse(!var(13), 72, 36) * !var(20), 12 * !var(20)
+getpower = 60,30
 givepower=35, 35
 fall = 1
 down.bounce = 1
@@ -1745,7 +1745,7 @@ anim = 1300
 ctrl = 0
 velSet = 0,0
 sprPriority = 1
-powerAdd = 72 * !var(20)
+powerAdd = 0 * !var(20)
 faceP2 = 1
 
 [State 1000, Button Detect]
@@ -1777,7 +1777,7 @@ sparkXY = -10 + 0 * (var(35) := 143), var(36) := -50
 hitSound = -1 + 0 * (var(31) := 800)
 guardSound = -1 + 0 * (var(32) := 0)
 sprpriority = 1
-getPower = ifElse(!var(13), 72, 36) * !var(20), 12 * !var(20)
+getpower = 60,30
 givepower = 35, 35
 ID = 1300
 p1stateno = 1301

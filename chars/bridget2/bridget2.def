@@ -7,6 +7,7 @@ author = "muteki"
 pal.defaults = 1
 
 [Files]
+movelist = movelist.dat
 cmd     = bridget.cmd   ;Command set
 cns     = bridget_const.txt   ;Constants
 st      = bridget.cns   ;States

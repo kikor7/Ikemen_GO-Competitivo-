@@ -12,6 +12,7 @@ sprpriority = 2
 
 [State 800, 1]
 type = HitDef
+getpower = 60,30
 Trigger1 = Time = 0
 attr = S, NT          ;Attributes: Standing, Normal Throw
 hitflag = M-          ;Affect only ground people who are not being hit
@@ -38,7 +39,7 @@ type    = S
 movetype= A
 physics = N
 anim = 810
-poweradd = 60
+poweradd = 0
 
 [State 810, Grab Sound]
 type = PlaySnd
@@ -166,6 +167,7 @@ sprpriority = 2
 
 [State 822, 1]
 type = HitDef
+getpower = 60,30
 Trigger1 = Time = 0
 attr = S, NT         
 hitflag = M-          
@@ -191,7 +193,7 @@ type    = S
 movetype= A
 physics = N
 anim = 830
-poweradd = 60
+poweradd = 0
 
 [State 810, Grab Sound]
 type = PlaySnd
@@ -313,6 +315,7 @@ sprpriority = 2
 
 [State 826, 1]
 type = HitDef
+getpower = 60,30
 Trigger1 = Time = 0
 attr = S, NT          
 hitflag = M-          
@@ -338,7 +341,7 @@ type    = S
 movetype= A
 physics = N
 anim = 850
-poweradd = 60
+poweradd = 0
 
 [State 810, Grab Sound]
 type = PlaySnd
@@ -392,7 +395,7 @@ type    = A
 movetype= A
 physics = N
 anim = 854
-poweradd = 60
+poweradd = 0
 
 [State 810, Throw Sound]
 type = PlaySnd
@@ -597,6 +600,7 @@ sprpriority = 2
 
 [State 822, 1]
 type = HitDef
+getpower = 60,30
 Trigger1 = Time = 0
 attr = S, NT         
 hitflag = M-          
@@ -622,7 +626,7 @@ type    = S
 movetype= A
 physics = N
 anim = 857
-poweradd = 60
+poweradd = 0
 
 [State 810, Grab Sound]
 type = PlaySnd
@@ -796,6 +800,7 @@ sprpriority = 2
 
 [State 822, 1]
 type = HitDef
+getpower = 60,30
 Trigger1 = Time = 0
 attr = S, NT         
 hitflag = M-          
@@ -821,7 +826,7 @@ type    = S
 movetype= A
 physics = N
 anim = 861
-poweradd = 60
+poweradd = 0
 
 
 [State 810, Grab Sound]
@@ -960,6 +965,7 @@ sprpriority = 2
 
 [State 822, 1]
 type = HitDef
+getpower = 60,30
 Trigger1 = Time = 0
 attr = S, NT         
 hitflag = M-          
@@ -985,7 +991,7 @@ type    = S
 movetype= A
 physics = N
 anim = 863
-poweradd = 60
+poweradd = 0
 
 [State 810, Grab Sound]
 type = PlaySnd
@@ -1139,6 +1145,7 @@ ctrl = 0
 
 [State 822, 1]
 type = HitDef
+getpower = 30,15
 Trigger1 = Time = 0
 attr = S, NT         
 hitflag = M-          
@@ -1164,7 +1171,7 @@ type    = S
 movetype= A
 physics = N
 anim = 865
-poweradd = 60
+poweradd = 0
 
 [State 810, Grab Sound]
 type = PlaySnd
@@ -1326,6 +1333,7 @@ ctrl = 0
 
 [State 822, 1]
 type = HitDef
+getpower = 30,15
 Trigger1 = Time = 0
 attr = S, NT         
 hitflag = M-          
@@ -1351,7 +1359,7 @@ type    = S
 movetype= A
 physics = N
 anim = 868
-poweradd = 60
+poweradd = 0
 
 [State 810, Grab Sound]
 type = PlaySnd
@@ -1500,6 +1508,7 @@ sprpriority = 2
 
 [State 822, 1]
 type = HitDef
+getpower = 30,15
 Trigger1 = Time = 0
 attr = S, NT         
 hitflag = M-          
@@ -1525,7 +1534,7 @@ type    = S
 movetype= A
 physics = N
 anim = 868
-poweradd = 60
+poweradd = 0
 
 [State 810, Grab Sound]
 type = PlaySnd
@@ -1639,6 +1648,7 @@ sprpriority = 2
 
 [State 822, 1]
 type = HitDef
+getpower = 30,15
 Trigger1 = Time = 0
 attr = S, NT         
 hitflag = M-          
@@ -1664,7 +1674,7 @@ type    = S
 movetype= A
 physics = N
 anim = 873
-poweradd = 60
+poweradd = 0
 
 [State 810, Grab Sound]
 type = PlaySnd
@@ -1827,6 +1837,7 @@ sprpriority = 2
 
 [State 1300,HitDef]
 type = HitDef
+getpower = 60,30
 trigger1 = Time = 0
 trigger1 = P2StateNo != [150,155]
 attr = S, ST
@@ -1853,7 +1864,7 @@ type    = S
 movetype= A
 physics = N
 anim = 880
-poweradd = 60
+poweradd = 0
 
 [State 810, Grab Sound]
 type = PlaySnd
@@ -1931,7 +1942,7 @@ physics = S
 juggle  = 1                  
 ctrl = 0                       
 anim = 882                     
-poweradd = 20                    
+poweradd = 0                    
 sprpriority = 2 
 
 [State 810, posadd]

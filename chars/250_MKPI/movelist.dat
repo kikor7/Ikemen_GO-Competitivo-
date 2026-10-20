@@ -1,0 +1,21 @@
+<#f0f000>:Special Moves:</>
+QCF2_x+y+z			_QCF_QCF^X
+DBDF_x+y+z			_D_B_D_F^X
+QCF_x			_QCF^X
+QCF_y			_QCF^Y
+QCF_z			_QCF^Z
+QCB_x			_QCB^X
+QCB_y			_QCB^Y
+QCB_z			_QCB^Z
+DD_xyz			_D_D^X
+
+<#f0f000>:Hyper Moves:</>
+QCF2_x <#f00000>(1000)</>			_QCF_QCF^X
+QCF2_y <#f00000>(1000)</>			_QCF_QCF^Y
+QCF2_z <#f00000>(1000)</>			_QCF_QCF^Z
+QCB2_x <#f00000>(1000)</>			_QCB_QCB^X
+QCB2_y <#f00000>(1000)</>			_QCB_QCB^Y
+QCB2_z <#f00000>(1000)</>			_QCB_QCB^Z
+DBDF2_x <#f00000>(1000)</>			_D_B_D_F^X
+DBDF2_y <#f00000>(1000)</>			_D_B_D_F^Y
+DBDF2_z <#f00000>(1000)</>			_D_B_D_F^Z

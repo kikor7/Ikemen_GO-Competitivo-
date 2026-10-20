@@ -6,7 +6,7 @@ juggle = 0
 velset = 10,0
 ctrl = 0
 anim = 1001
-poweradd = 50
+poweradd = 0
 facep2   = 0
 
 [State 1300, ‰¹‚ğ–Â‚ç‚·] 
@@ -99,7 +99,7 @@ juggle = 0
 velset = 24,0
 ctrl = 0
 anim = 1005
-poweradd = 100
+poweradd = 0
 facep2   = 0
 
 [State 1200,1]
@@ -141,7 +141,7 @@ juggle = 1
 velset = 3,0
 ctrl = 0
 anim = 1000
-poweradd = 100
+poweradd = 0
 facep2   = 0
 
 [state 1201,5]
@@ -704,7 +704,7 @@ juggle = 5
 velset = 0,0
 ctrl = 0
 anim = 1010
-poweradd = 100
+poweradd = 20
 facep2   = 1
 
 [State 1400, ˆÚ“®‘¬“x]
@@ -808,7 +808,7 @@ juggle = 3
 velset = 0,0
 ctrl = 0
 anim = 1020
-poweradd = 80
+poweradd = 20
 facep2   = 1
 
 [State 1500, ˆÚ“®‘¬“x]
@@ -954,7 +954,7 @@ juggle = 0
 velset = 0,0
 ctrl = 0
 anim = 901
-poweradd = 30
+poweradd = 0
 facep2   = 0
 
 [State 902, ²ˆÊ’u]
@@ -1112,7 +1112,7 @@ juggle = 0
 velset = 0,0
 ctrl = 0
 anim = 911
-poweradd = 10
+poweradd = 0
 facep2   = 0
 
 [State 911, ‰¹‚ğ–Â‚ç‚·] 
@@ -1199,7 +1199,7 @@ juggle = 0
 velset = 0,0
 ctrl = 0
 anim = 930
-poweradd = 30
+poweradd = 0
 facep2   = 0
 
 [State 930, •¨—“I‚ÈƒLƒƒƒ‰‚Ì•]
@@ -1376,7 +1376,7 @@ physics  = N        ;‚±‚ÌƒXƒe[ƒg‚ÌuÀÛ‚Ì•¨—“I‚È‘Ì¨v‚ğw’èBu¬ƒlƒ^.txtv
 anim     = 921     ;ƒAƒjƒ‚ğw’èiƒAƒNƒVƒ‡ƒ“ƒiƒ“ƒo[jB‚±‚Ìê‡air‚Ì[Begin Action 1000]‚ğŒÄ‚Ño‚µg‚¤B
 velset   = 0,0      ;‚±‚ÌƒXƒe[ƒg‚ğŠJn‚µ‚½uŠÔ‚ÌˆÚ“®‘¬“xi‚w²,‚x²jBŒø‰Ê‚ÍuVelSetv‚ğQÆB
 ctrl     = 0        ;‚±‚ÌƒXƒe[ƒg’†‚ÉƒL[ƒRƒ“ƒgƒ[ƒ‹‚ğ‰Â”\‚É‚³‚¹‚é‚©‚Ç‚¤‚©B1‚Å‚³‚¹‚éB
-poweradd = 20        ;ƒpƒ[ƒQ[ƒW‚Ì‘Œ¸—ÊB1ˆÈã‚Å‘‚¦A-1ˆÈ‰º‚ÅŒ¸‚éB
+poweradd = 0        ;ƒpƒ[ƒQ[ƒW‚Ì‘Œ¸—ÊB1ˆÈã‚Å‘‚¦A-1ˆÈ‰º‚ÅŒ¸‚éB
 juggle   = 0        ;ƒWƒƒƒOƒ‹ƒ|ƒCƒ“ƒg‚ÌÁ”ï—ÊBƒWƒƒƒOƒ‹‚É‚Â‚¢‚Ä‚Íu¬ƒlƒ^.txtvQÆB
 facep2   = 0        ;‚±‚ÌƒXƒe[ƒg‚ğŠJn‚µ‚½uŠÔ‚É‘Šè‚Ì•û‚ÖU‚èŒü‚­‚©‚Ç‚¤‚©B1‚ÅŒü‚­B
 hitdefpersist = 0   ;‘O‚ÌƒXƒe[ƒg‚ÌuHitDefv‚ÌŒø‰Ê‚ğ‘±‚³‚¹‚é‚©‚Ç‚¤‚©B1‚Å‚³‚¹‚éB
@@ -1438,7 +1438,7 @@ juggle = 0
 velset = 4,-2
 ctrl = 0
 anim = 650
-poweradd = 50
+poweradd = 0
 facep2   = 0
 
 [State 1700, ƒWƒƒƒ“ƒv’†‚Éˆê‰ñ‚Ì‚İ§ŒÀ]

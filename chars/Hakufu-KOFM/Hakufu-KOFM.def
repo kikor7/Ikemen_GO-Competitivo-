@@ -12,6 +12,7 @@ author = "Zelgadis"
 pal.defaults = 1
 
 [Files]
+movelist = movelist.dat
 sprite = Hakufu-KOFM.sff
 anim = Hakufu-KOFM.air
 sound = Hakufu-KOFM.snd

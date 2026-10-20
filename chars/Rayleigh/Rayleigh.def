@@ -12,6 +12,7 @@ author = "ANHTHAI"
 pal.defaults = 1
 
 [Files]
+movelist = movelist.dat
 sprite = Rayleigh.sff
 anim = Rayleigh.air
 sound = Rayleigh.snd

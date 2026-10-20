@@ -11,6 +11,7 @@ pal.defaults=1,2,3,4,5
 
 ; Files for the player
 [Files]
+movelist = movelist.dat
 cmd     =Piranha.cmd
 cns     =Piranha.cns
 st      =Piranha.cns

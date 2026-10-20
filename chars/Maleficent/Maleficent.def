@@ -12,6 +12,7 @@ author = "FlavioCamarao"
 pal.defaults = 1
 
 [Files]
+movelist = movelist.dat
 sprite = Maleficent.sff
 anim = Maleficent.air
 sound = Maleficent.snd

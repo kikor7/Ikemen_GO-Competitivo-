@@ -1,0 +1,16 @@
+<#f0f000>:Special Moves:</>
+Especial 1			_QCB^Y
+Especial 2			_DSF^X
+Especial 3			_DSF^Y
+Especial 4			_D_B^Y
+Especial 5			_D_B^X
+Especial 6			_QCF^X
+Especial 7			_QCF^Y
+Especial 8			_QCB^A
+Especial 9			_QCB^B
+Especial 10			_XFF^Y
+
+<#f0f000>:Hyper Moves:</>
+Kamehameha <#f00000>(1000)</>			_D_F_D_F^Y
+Super 2 <#f00000>(2000)</>			_D_B_F^B
+Ryuken <#f00000>(3000)</>			_D_F_D_F^B

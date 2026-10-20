@@ -1,10 +1,6 @@
-<#f0f000>:Special Moves:</>
-Crouch A                                                    		
-Crouch B                                                    		
-
 <#f0f000>:Hyper Moves:</>
-Cure <#bebebe>(500)</>                                      		_QDB^X
-Ars Arcanum <#bebebe>(1000)</>                              		
-Stop <#bebebe>(2000)</>                                     		_QDB^Y
-Ars Arcanum <#bebebe>(2000)</>                              		_QDF^Y
-Duel Wield Slash <#bebebe>(3000)</>                         		
+Cure <#f00000>(500)</>			_QCB^X
+Ars Arcanum <#f00000>(1000)</>			_QCF^X
+Stop <#f00000>(2000)</>			_QCB^Y
+Ars Arcanum <#f00000>(2000)</>			_QCF^Y
+Dual Wield Slash <#f00000>(3000)</>			_QCF^Z

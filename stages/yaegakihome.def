@@ -53,7 +53,7 @@ tension = 60
 
 StartZoom = 1
 ZoomOut = 0.8
-ZoomIn = 1.1
+ZoomIn = 1.0
 ;--------------------------------------------------------
 [PlayerInfo]
 ;--- Player 1 ---
@@ -291,49 +291,49 @@ start       = -1400,-260
 delta       = 1.8,2.0
 tile        = 0,0
 tilespacing = 0,0
-;width       = 0,55    ;Ò»µãÍ¸Ò•‡í·¨¤Ë¤è¤ë»­Ïñ¤Îºá¤Î·ù£¨ÉÏŞx,ÏÂŞx£©
-;yscalestart = 100      ;Ò»µãÍ¸Ò•‡í·¨¤Ë¤è¤ë£ÙİSÖĞĞÄÎ»ÖÃ
-;yscaledelta = 0.1      ;Ò»µãÍ¸Ò•‡í·¨¤Ë¤è¤ë£ÙİS»­Ïñ‰äĞÎ\Ëã‚
+;width       = 0,55    ;Ò»  Í¸Ò•    Ë¤ ë»­  Îº Î·      x,   x  
+;yscalestart = 100      ;Ò»  Í¸Ò•    Ë¤    S    Î»  
+;yscaledelta = 0.1      ;Ò»  Í¸Ò•    Ë¤    S      Î\ ã‚
 Mask = 1
 
 
-[BG 0];ÊÒÄÚ
+[BG 0];    
 type        = normal
 spriteno    = 0,0
 start       = -1400,-260
 delta       = 2,2.0
 tile        = 0,0
 tilespacing = 0,0
-;width       = 0,55    ;Ò»µãÍ¸Ò•‡í·¨¤Ë¤è¤ë»­Ïñ¤Îºá¤Î·ù£¨ÉÏŞx,ÏÂŞx£©
-;yscalestart = 100      ;Ò»µãÍ¸Ò•‡í·¨¤Ë¤è¤ë£ÙİSÖĞĞÄÎ»ÖÃ
-;yscaledelta = 0.1      ;Ò»µãÍ¸Ò•‡í·¨¤Ë¤è¤ë£ÙİS»­Ïñ‰äĞÎ\Ëã‚
+;width       = 0,55    ;Ò»  Í¸Ò•    Ë¤ ë»­  Îº Î·      x,   x  
+;yscalestart = 100      ;Ò»  Í¸Ò•    Ë¤    S    Î»  
+;yscaledelta = 0.1      ;Ò»  Í¸Ò•    Ë¤    S      Î\ ã‚
 Mask = 1
 
 
-;[BG 3];ÊÖÇ°
+;[BG 3];  Ç°
 ;type        = normal
 ;spriteno    = 0,1
 ;start       = -1400,-260
 ;delta       = 2,2.0
 ;tile        = 0,0
 ;tilespacing = 0,0
-;width       = 0,55    ;Ò»µãÍ¸Ò•‡í·¨¤Ë¤è¤ë»­Ïñ¤Îºá¤Î·ù£¨ÉÏŞx,ÏÂŞx£©
-;yscalestart = 100      ;Ò»µãÍ¸Ò•‡í·¨¤Ë¤è¤ë£ÙİSÖĞĞÄÎ»ÖÃ
-;yscaledelta = 0.1      ;Ò»µãÍ¸Ò•‡í·¨¤Ë¤è¤ë£ÙİS»­Ïñ‰äĞÎ\Ëã‚
+;width       = 0,55    ;Ò»  Í¸Ò•    Ë¤ ë»­  Îº Î·      x,   x  
+;yscalestart = 100      ;Ò»  Í¸Ò•    Ë¤    S    Î»  
+;yscaledelta = 0.1      ;Ò»  Í¸Ò•    Ë¤    S      Î\ ã‚
 ;Mask = 1
 
 
-[BG 1];ÊÖÇ°
+[BG 1];  Ç°
 type        = normal
 spriteno    = 0,1
 start       = -1400,-260
 delta       = 2,2.0
 tile        = 0,0
 tilespacing = 0,0
-;width       = 0,55    ;Ò»µãÍ¸Ò•‡í·¨¤Ë¤è¤ë»­Ïñ¤Îºá¤Î·ù£¨ÉÏŞx,ÏÂŞx£©
-;yscalestart = 100      ;Ò»µãÍ¸Ò•‡í·¨¤Ë¤è¤ë£ÙİSÖĞĞÄÎ»ÖÃ
-;yscaledelta = 0.1      ;Ò»µãÍ¸Ò•‡í·¨¤Ë¤è¤ë£ÙİS»­Ïñ‰äĞÎ\Ëã‚
+;width       = 0,55    ;Ò»  Í¸Ò•    Ë¤ ë»­  Îº Î·      x,   x  
+;yscalestart = 100      ;Ò»  Í¸Ò•    Ë¤    S    Î»  
+;yscaledelta = 0.1      ;Ò»  Í¸Ò•    Ë¤    S      Î\ ã‚
 Mask = 1
 layerNo = 1
 trans = addalpha
-alpha = 128,156 ;(Ã÷¤ë¤µ0¡«256,°ëÍ¸Ã÷ÂÊ0¡«256)
+alpha = 128,156 ;(   ë¤µ0  256,  Í¸    0  256)

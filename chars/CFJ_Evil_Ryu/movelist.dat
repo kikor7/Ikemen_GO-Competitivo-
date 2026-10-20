@@ -1,0 +1,23 @@
+<#f0f000>:Special Moves:</>
+ashurasenkuu			_DSF^X_+^Y
+shoryuken			_DSF^X
+classickuchuutatsumaki			_HCB^A
+kuchuutatsumaki			_QCB^A
+joudansokutougeri			_QCF^A
+shakunetsuhadouken			_HCB^X
+hadouken			_QCF^X
+throw			^A_+^B
+hado no kamae			_QCF^S
+
+<#f0f000>:Hyper Moves:</>
+aUltra <#f00000>(3000)</>			_QCF_D_DF^A_+^B
+shungokusatsu <#f00000>(3000)</>			^X^X_F^A^Z
+metsuhadouken <#f00000>(3000)</>			_QCB_QCB^X
+denjinhadouken <#f00000>(1000)</>			_QCB_QCB^X
+messatsugoushoryuu <#f00000>(1000)</>			_QCF_D_DF^A
+shinkuuhadouken <#f00000>(1000)</>			_QCF_QCF^X
+reppujinraishou <#f00000>(2000)</>			_D_F_D_B^X
+EXshoryuken <#f00000>(500)</>			_DSF^X_+^Y
+EXkuchuutatsumaki <#f00000>(500)</>			_QCB^A_+^B
+EXjoudan <#f00000>(500)</>			_QCF^A_+^B
+EXhadouken <#f00000>(500)</>			_QCF^X_+^Y

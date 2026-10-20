@@ -1071,7 +1071,7 @@ juggle   = 0
 ;velset   = 0,0
 ctrl     = 0
 anim     = 200
-poweradd = 20
+poweradd = 0
 sprpriority = 2
 
 [State 200, ヒット定義]
@@ -1079,6 +1079,7 @@ type = HitDef
 trigger1 = AnimElemTime(3) = 1
 attr = S, NA
 damage = 24, 0
+getpower = 30,15
 animtype = Light
 guardflag = M
 hitflag = MAF
@@ -1183,7 +1184,7 @@ juggle   = 0
 ;velset   = 0,0
 ctrl     = 0
 anim     = 210
-poweradd = 30
+poweradd = 0
 sprpriority = 1
 
 [State 210]
@@ -1196,6 +1197,7 @@ type = HitDef
 trigger1 = AnimElemTime(3)=1
 attr = S, NA
 damage = 35, 0
+getpower = 30,15
 animtype = medium
 guardflag = M
 hitflag = MAF
@@ -1294,7 +1296,7 @@ juggle   = 6
 ;velset   =0,0
 ctrl     = 0
 anim     = 220
-poweradd = 50
+poweradd = 0
 sprpriority = 2
 
 [State 220, 掛け声用ランダム]
@@ -1336,6 +1338,7 @@ type = HitDef
 trigger1 = animelemtime(6)=1
 attr = S, NA
 damage = 52, 0
+getpower = 30,15
 animtype = medium
 guardflag = HA
 hitflag = MAF
@@ -1430,7 +1433,7 @@ juggle   = 0
 ;velset   = 0.0,0
 ctrl     = 0
 anim     = 400
-poweradd = 20
+poweradd = 0
 sprpriority = 2
 
 [State 400, ヒット定義]
@@ -1438,6 +1441,7 @@ type = HitDef
 trigger1 = AnimElemTime(3) = 1
 attr = C, NA
 damage = 20, 0
+getpower = 30,15
 animtype = Light
 guardflag = L
 hitflag = MAF
@@ -1539,7 +1543,7 @@ physics  = C
 juggle   = 0
 ctrl     = 0
 anim     = 410
-poweradd = 30
+poweradd = 0
 sprpriority = 2
 
 [State 410, ヒット定義]
@@ -1547,6 +1551,7 @@ type = HitDef
 trigger1 = AnimElemTime(3) =1
 attr = C, NA
 damage = 35, 0
+getpower = 30,15
 animtype = medium
 guardflag = L
 hitflag = MAF
@@ -1645,7 +1650,7 @@ physics  = C
 juggle   = 6
 ctrl     = 0
 anim     = 420
-poweradd = 50
+poweradd = 0
 sprpriority = 1
 
 
@@ -1655,6 +1660,7 @@ type = HitDef
 trigger1 = AnimElemTime(4) =1
 attr = C, NA
 damage = 50, 0
+getpower = 30,15
 animtype = hard
 guardflag = L
 hitflag = MAF
@@ -1753,7 +1759,7 @@ type    = A
 movetype= A
 physics = A
 juggle  = 0
-poweradd= 30
+poweradd= 0
 ctrl = 0
 anim = 600
 sprpriority = 2
@@ -1765,6 +1771,7 @@ type = HitDef
 trigger1 = 1
 attr = A, NA
 damage = 30, 0
+getpower = 30,15
 animtype = Light
 guardflag = MA
 hitflag = MAF
@@ -1867,7 +1874,7 @@ type    = A
 movetype= A
 physics = A
 juggle  = 0
-poweradd= 15
+poweradd= 0
 ctrl = 0
 anim = 605
 sprpriority = 2
@@ -2028,7 +2035,7 @@ type    = A
 movetype= A
 physics = A
 juggle  = 0
-poweradd= 40
+poweradd= 0
 ctrl = 0
 anim = 610
 sprpriority = 1
@@ -2044,6 +2051,7 @@ type = HitDef
 trigger1 = 1
 attr = A, NA
 damage = 40
+getpower = 30,15
 guardflag = HA
 priority = 3,hit
 pausetime = 22,28+ifelse((var(45)=1),1,0)
@@ -2142,7 +2150,7 @@ type    = A
 movetype= A
 physics = A
 juggle  = 0
-poweradd= 60
+poweradd= 0
 ctrl = 0
 anim = 620
 sprpriority = 1
@@ -2215,6 +2223,7 @@ type = HitDef
 trigger1 = animelemtime(4)=1
 attr = A, NA
 damage = 70, 0
+getpower = 30,15
 animtype = medium
 guardflag = HA
 hitflag = MAF
@@ -2393,7 +2402,7 @@ juggle   = 0                     ;攻撃を当てた時に溜まるジャグルポイントの設定
 ;velset   = 0,0                   ;移動初速度の設定（このステートでは0,0なので移動せず止まります）
 ctrl     = 0                     ;コントロールの可否（0=キー操作不可・1=キー操作可能）
 anim     = 800                   ;airファイルの[Begin Action 200]のアニメを使っています
-poweradd = 150                    ;パワーゲージの増加量を設定
+poweradd = 0                    ;パワーゲージの増加量を設定
 sprpriority = 1                  ;画像表示優先度　数値が多いと手前に、少ないと奥に優先されます
 
 [State 800, しばらく無敵]
@@ -2405,6 +2414,7 @@ Time = 4
 
 [State 800, ヒット定義]
 type = HitDef
+getpower = 60,30
 Trigger1 = 1;animelem =5
 attr = S, ST          ;攻撃属性: これは Standing, Normal Throw（立ち通常投げ）
 hitflag = M-       
@@ -2554,7 +2564,7 @@ juggle   = 0                     ;攻撃を当てた時に溜まるジャグルポイントの設定
 ;velset   = 0,0                   ;移動初速度の設定（このステートでは0,0なので移動せず止まります）
 ctrl     = 0                     ;コントロールの可否（0=キー操作不可・1=キー操作可能）
 anim     = 810                   ;airファイルの[Begin Action 200]のアニメを使っています
-poweradd = 150                    ;パワーゲージの増加量を設定
+poweradd = 0                    ;パワーゲージの増加量を設定
 sprpriority = 1                  ;画像表示優先度　数値が多いと手前に、少ないと奥に優先されます
 
 [State 810, 音]

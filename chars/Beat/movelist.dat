@@ -1,0 +1,17 @@
+<#f0f000>:Special Moves:</>
+Sliding Kick Strong			_QCB^Z
+Sliding Kick Medium			_QCB^Y
+Sliding Kick Light			_QCB^X
+Shoulder Rush Strong			_DSF^Z
+Shoulder Rush Medium			_DSF^Y
+Shoulder Rush Light			_DSF^X
+Spray Can Strong			_QCF^Z
+Spray Can Medium			_QCF^Y
+Spray Can Light			_QCF^X
+Throw Forward			^X_+^Y
+Especial 11			^A_+^B_+^C
+
+<#f0f000>:Hyper Moves:</>
+Jet Set Grinder <#f00000>(3000)</>			_DSF^Y_+^Z
+Flame Spray <#f00000>(2000)</>			_QCF^Y_+^Z
+Counter Attack <#f00000>(1000)</>			_QCB^Y_+^Z

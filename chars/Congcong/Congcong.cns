@@ -612,7 +612,7 @@ physics = S
 velset = 0,0
 ctrl = 0
 anim = 200
-poweradd = 10
+poweradd = 0
 sprpriority = 2
 
 [State 0, PlaySnd]
@@ -630,7 +630,7 @@ trigger2 = animelemtime(3) = 1
 trigger3 = animelemtime(4) = 1
 trigger4 = animelemtime(5) = 1
 givepower = 10,5
-getpower = 10,10
+getpower = 30,15
 attr = S, NA
 damage = 5, 2
 animtype = Light
@@ -774,7 +774,7 @@ type    = S
 movetype= A
 physics = S
 anim = 210
-poweradd= 30
+poweradd= 0
 ctrl = 0
 velset = 0,0
 sprpriority = -1
@@ -804,7 +804,7 @@ type = HitDef
 trigger1 = animelem = 3
 trigger2 = animelem = 4
 givepower = 10,5
-getpower = 20,10
+getpower = 30,15
 attr = S, NA
 animtype  = Medium
 damage    = 20,5
@@ -833,7 +833,7 @@ ctrl = 1
 type    = S
 movetype= A
 ;physics = S
-poweradd= 50
+poweradd= 0
 anim = 220
 ctrl = 0
 sprpriority = -1
@@ -888,7 +888,7 @@ channel = 0
 type = HitDef
 trigger1 = time = 0
 givepower = 30,15
-getpower = 60,30
+getpower = 30,15
 attr = S, NA
 animtype  = Medium
 damage    = 30,10
@@ -922,7 +922,7 @@ ctrl = 1
 type    = S
 movetype= A
 physics = S
-poweradd= 70
+poweradd= 0
 ctrl = 0
 velset = 0,0
 anim = 230
@@ -943,7 +943,7 @@ channel = 0
 [State 230, 2]
 type = HitDef
 givepower = 40,20
-getpower = 80,40
+getpower = 30,15
 trigger1 = Time = 0
 attr = S, NA
 animtype  = Med
@@ -976,7 +976,7 @@ ctrl = 1
 type    = C
 movetype= A
 physics = C
-poweradd= 10
+poweradd= 0
 ctrl = 0
 anim = 400
 sprpriority = 2
@@ -993,7 +993,7 @@ channel = 0
 type = HitDef
 trigger1 = Time = 0
 givepower = 5,3
-getpower = 10,5
+getpower = 30,15
 attr = C, NA
 damage    = 5
 priority  = 3
@@ -1028,7 +1028,7 @@ value = 11
 type    = C
 movetype= A
 physics = C
-poweradd= 30
+poweradd= 0
 ctrl = 0
 anim = 410
 sprpriority = 2
@@ -1045,7 +1045,7 @@ channel = 0
 type = HitDef
 trigger1 = Time = 0
 givepower = 10,5
-getpower = 20,10
+getpower = 30,15
 attr = C, NA
 damage    = 10
 animtype  = Medium
@@ -1075,7 +1075,7 @@ ctrl = 1
 type    = C
 movetype= A
 physics = C
-poweradd= 50
+poweradd= 0
 ctrl = 0
 anim = 420
 sprpriority = 2
@@ -1127,7 +1127,7 @@ ctrl = 1
 type    = A
 movetype= A
 physics = A
-poweradd= 10
+poweradd= 0
 ctrl = 0
 anim = 600
 sprpriority = 2
@@ -1145,7 +1145,7 @@ type = HitDef
 trigger1 = animelemTime(animelemno(0)) = 0
 attr = A, NA
 givepower = 5,3
-getpower = 10,5
+getpower = 30,15
 damage    = 10,2
 guardflag = HA
 priority = 3
@@ -1178,7 +1178,7 @@ value = 1
 type    = A
 movetype= A
 physics = A
-poweradd= 30
+poweradd= 0
 ctrl = 0
 anim = 610
 sprpriority = 2
@@ -1201,7 +1201,7 @@ type = HitDef
 trigger1 = AnimElemtime(4) = 0
 trigger2 = AnimElemtime(5) = 0
 givepower = 10,5
-getpower = 20,10
+getpower = 30,15
 attr = A, NA
 damage = 20,4
 guardflag = HA
@@ -1225,7 +1225,7 @@ type    = A
 movetype= A
 physics = A
 ;juggle  = 4
-poweradd= 50
+poweradd= 0
 ctrl = 0
 anim = 620
 sprpriority = 2
@@ -1254,7 +1254,7 @@ type = HitDef
 trigger1 = time = 0
 attr = A, NA
 givepower = 15,7
-getpower = 40,15
+getpower = 30,15
 damage = 35,10
 guardflag = HA
 priority = 4
@@ -1277,7 +1277,7 @@ ID = 620
 type    = A
 movetype= A
 physics = A
-poweradd= 70
+poweradd= 0
 ctrl = 0
 juggle = 1
 anim = 630
@@ -1299,7 +1299,7 @@ channel = 0
 type = HitDef
 trigger1 = Time = 0
 givepower = 20,10
-getpower = 40,20
+getpower = 30,15
 attr = A, NA
 damage = 40,5
 guardflag = HA
@@ -1334,6 +1334,7 @@ sprpriority = 2
 
 [State 800, 1]
 type = HitDef
+getpower = 30,15
 Trigger1 = Time = 0
 trigger1 = prevstateno != 200
 attr = S, NT          ;Attributes: Standing, Normal Throw
@@ -1352,6 +1353,7 @@ ID = 800
 
 [State 800, 1]
 type = HitDef
+getpower = 30,15
 trigger1 = prevstateno = 200
 Trigger1 = Time = 0
 attr = S, NT          ;Attributes: Standing, Normal Throw
@@ -1528,6 +1530,7 @@ sprpriority = 2
 
 [State 800, 1]
 type = HitDef
+getpower = 30,15
 Trigger1 = Time = 0
 trigger1 = prevstateno != 600
 attr = A, NT          ;Attributes: Standing, Normal Throw
@@ -1546,6 +1549,7 @@ ID = 830
 
 [State 800, 1]
 type = HitDef
+getpower = 30,15
 Trigger1 = Time = 0
 trigger1 = prevstateno = 600
 attr = A, NT          ;Attributes: Standing, Normal Throw
@@ -1573,7 +1577,7 @@ movetype= A
 physics = N
 velset = 0,0
 anim = 831
-poweradd = 60
+poweradd = 0
 
 [State 810, Holding fwd?]
 type = VarSet
@@ -1787,7 +1791,7 @@ type = S
 movetype = A
 physics = S
 ctrl = 0
-poweradd = 80
+poweradd = 0
 anim = 1000
 
 [State 0, PlaySnd]
@@ -1841,7 +1845,7 @@ type = A
 movetype = A
 physics = N
 velset = 0,-0.5
-poweradd = 80
+poweradd = 0
 ctrl = 0
 anim = 1000
 
@@ -1901,7 +1905,7 @@ type = S
 movetype = A
 physics = S
 ctrl = 0
-poweradd = 80
+poweradd = 0
 anim = 1000
 
 [State 0, PlaySnd]
@@ -1957,7 +1961,7 @@ movetype = A
 physics = N
 velset = 0,-0.5
 ctrl = 0
-poweradd = 80
+poweradd = 0
 anim = 1000
 
 [State 0, PlaySnd]
@@ -2016,7 +2020,7 @@ type = S
 movetype = A
 physics = S
 ctrl = 0
-poweradd = 80
+poweradd = 0
 anim = 1000
 
 [State 0, PlaySnd]
@@ -2072,7 +2076,7 @@ movetype = A
 physics = N
 velset = 0,-0.5
 ctrl = 0
-poweradd = 80
+poweradd = 0
 anim = 1000
 
 [State 0, PlaySnd]
@@ -2133,7 +2137,7 @@ movetype = A
 physics = N
 ctrl = 0
 velset = 2,-0.6
-poweradd = 50
+poweradd = 0
 anim = 1201
 
 [State 0, PlaySnd]
@@ -2192,6 +2196,7 @@ persistent = 0
 attr = S, SA
 animtype  = Medium
 damage    = 70
+getpower = 60,30
 hitflag = MAFD
 guardflag = MA
 pausetime = 4,12
@@ -2247,7 +2252,7 @@ movetype = A
 physics = N
 ctrl = 0
 velset = 2,-0.6
-poweradd = 50
+poweradd = 0
 anim = 1201
 
 [State 0, PlaySnd]
@@ -2306,6 +2311,7 @@ persistent = 0
 attr = S, SA
 animtype  = Medium
 damage    = 5
+getpower = 10,5
 hitflag = MAFD
 guardflag = MA
 pausetime = 6,7
@@ -2572,6 +2578,7 @@ trigger1 = IShelper(1303)
 trigger1 = time = 0
 attr = A, SP                     ;Attribute: Standing, Normal Attack
 damage = 2, 1                  ;Damage that move inflicts, guard damage
+getpower = 10,5
 animtype = Diagup                 ;Animation type: Light, Medium, Heavy, Back (def: Light)
 guardflag = MA                   ;Flags on how move is to be guarded against
 hitflag = MAFD
@@ -2603,6 +2610,7 @@ trigger1 = IShelper(1304)
 trigger1 = time = 0
 attr = A, HP                     ;Attribute: Standing, Normal Attack
 damage = 5, 1                  ;Damage that move inflicts, guard damage
+getpower = 10,5
 animtype = Hard                 ;Animation type: Light, Medium, Heavy, Back (def: Light)
 guardflag = MA                   ;Flags on how move is to be guarded against
 hitflag = MAFD                    ;Flags of conditions that move can hit
@@ -2637,6 +2645,7 @@ trigger1 = IShelper(1305)
 trigger1 = time = 0
 attr = A, HP                     ;Attribute: Standing, Normal Attack
 damage = 20, 5                  ;Damage that move inflicts, guard damage
+getpower = 10,5
 animtype = Hard                 ;Animation type: Light, Medium, Heavy, Back (def: Light)
 guardflag = MA                   ;Flags on how move is to be guarded against
 hitflag = MAFD                    ;Flags of conditions that move can hit
@@ -2715,6 +2724,7 @@ trigger1 = IShelper(1303)
 trigger1 = time = 0
 attr = A, SP                     ;Attribute: Standing, Normal Attack
 damage = 30, 20                  ;Damage that move inflicts, guard damage
+getpower = 10,5
 animtype = Hard                 ;Animation type: Light, Medium, Heavy, Back (def: Light)
 guardflag = MA                   ;Flags on how move is to be guarded against
 hitflag = MAFD                    ;Flags of conditions that move can hit
@@ -2745,6 +2755,7 @@ trigger1 = IShelper(1304)
 trigger1 = time = 0
 attr = A, HP                     ;Attribute: Standing, Normal Attack
 damage = 30, 20                  ;Damage that move inflicts, guard damage
+getpower = 10,5
 animtype = Hard                 ;Animation type: Light, Medium, Heavy, Back (def: Light)
 guardflag = MA                   ;Flags on how move is to be guarded against
 hitflag = MAFD                    ;Flags of conditions that move can hit

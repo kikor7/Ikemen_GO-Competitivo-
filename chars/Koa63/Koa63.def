@@ -12,6 +12,7 @@ author = "Daniel9999999"
 pal.defaults = 1
 
 [Files]
+movelist = movelist.dat
 sprite = Koa63.sff
 anim = Koa63.air
 sound = Koa63.snd

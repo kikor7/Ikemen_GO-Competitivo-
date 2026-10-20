@@ -689,7 +689,7 @@ juggle  = 1
 velset = 0,0
 ctrl = 0
 anim = 10200
-poweradd = 50
+poweradd = 0
 sprpriority = 2
 
 [State 0, VelSet]
@@ -794,7 +794,7 @@ juggle  = 1
 velset = 0,0
 ctrl = 0
 anim = 10201
-poweradd = 50
+poweradd = 0
 sprpriority = 2
 
 [State 0, VelSet]

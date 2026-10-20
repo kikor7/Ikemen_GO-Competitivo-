@@ -48,7 +48,7 @@ attr = S, NA
 hitflag = MAF
 guardflag = M
 damage = ceil(ifelse(fvar(11) * 21 < 7, 7, fvar(11) * 21)), 0
-getpower = 42 * !var(20), 36 * !var(20)
+getpower = 30,15
 givepower = 36, 36
 pausetime = ifelse(var(20), 4, 8), ifelse(var(20), 4, 8)
 guard.pausetime = ifelse(var(20), 4, 8), ifelse(var(20), 4, 8)
@@ -100,7 +100,7 @@ movetype= A
 ctrl = 0
 velset = 0,0
 sprPriority = 1
-powerAdd = 18 * !var(20)
+powerAdd = 0 * !var(20)
 faceP2 = 1
 
 [State 210, Anim]
@@ -134,7 +134,7 @@ attr = S,NA
 hitflag = MAF
 guardflag = M
 damage = ceil(ifElse(fvar(11) * 36 < 7, 7, fvar(11) * 36)), 0
-getpower = 44,36   ;ifelse(!var(13),144,72)*!var(20), 36*!var(20)
+getpower = 30,15;ifelse(!var(13),144,72)*!var(20), 36*!var(20)
 givepower = 36, 36
 pausetime = ifelse(var(20), 5, 10), ifelse(var(20), 5, 10)
 guard.pausetime = ifelse(var(20), 5, 10), ifelse(var(20), 5, 10)
@@ -186,7 +186,7 @@ moveType = A
 ctrl = 0
 velSet = 0,0
 sprPriority = 1
-powerAdd = 18 * !var(20)
+powerAdd = 0 * !var(20)
 facep2 = 1
 
 [State 220, Anim]
@@ -220,7 +220,7 @@ attr = S,NA
 hitflag = MAF
 guardflag = M
 damage = ceil(ifelse(fvar(11)*48<7, 7, fvar(11)*48)), 0
-getpower = 46,36   ;ifelse(!var(13), 216, 72)*!var(20), 36*!var(20)
+getpower = 30,15;ifelse(!var(13), 216, 72)*!var(20), 36*!var(20)
 givepower = 36, 36
 pausetime = ifelse(var(20), 6, 12), ifelse(var(20), 6, 12)
 guard.pausetime = ifelse(var(20), 6, 12), ifelse(var(20), 6, 12)
@@ -306,7 +306,7 @@ attr = S,NA
 hitflag = MAF
 guardflag = M
 damage = ceil(ifelse(fvar(11)*25<7, 7, fvar(11)*25)), 0
-getpower = 32*!var(20), 36*!var(20)
+getpower = 30,15
 givepower = 36, 36
 pausetime = ifelse(var(20), 4, 8), ifelse(var(20), 4, 8)
 guard.pausetime = ifelse(var(20), 4, 8), ifelse(var(20), 4, 8)
@@ -358,7 +358,7 @@ moveType = A
 ctrl = 0
 velSet = 0,0
 sprPriority = 1
-powerAdd = 18 * !var(20)
+powerAdd = 0 * !var(20)
 faceP2 = 1
 
 [State 240, Anim]
@@ -392,7 +392,7 @@ attr = S,NA
 hitflag = MAF
 guardflag = M
 damage = ceil(ifelse(fvar(11)*36<7, 7, fvar(11)*36)), 0
-getpower = 44,36   ;ifelse(!var(13),144,72)*!var(20), 36*!var(20)
+getpower = 30,15;ifelse(!var(13),144,72)*!var(20), 36*!var(20)
 givepower = 36, 36
 pausetime = ifelse(var(20), 5, 13), ifelse(var(20), 5, 13)
 guard.pausetime = ifelse(var(20), 5, 10), ifelse(var(20), 5, 10)
@@ -445,7 +445,7 @@ moveType = A
 ctrl = 0
 velSet = 0,0
 sprPriority = 1
-powerAdd = 18 * !var(20)
+powerAdd = 0 * !var(20)
 faceP2 = 1
 
 [State 250, Anim]
@@ -480,7 +480,7 @@ guardflag = M
 hitflag = MAF
 priority = 4, Hit
 damage = ceil(ifelse(fvar(11)*49<7, 7, fvar(11)*49)), 0
-getpower = 46,36   ;ifelse(!var(13), 216, 72)*!var(20), 36*!var(20)
+getpower = 30,15;ifelse(!var(13), 216, 72)*!var(20), 36*!var(20)
 givepower = 36, 36
 pausetime = ifelse(var(20), 6, 12), ifelse(var(20), 6, 12)
 guard.pausetime = ifelse(var(20), 6, 12), ifelse(var(20), 6, 12)
@@ -563,7 +563,7 @@ attr = C,NA
 hitflag = MAF
 guardflag = M
 damage = ceil(ifelse(fvar(11)*21<7, 7, fvar(11)*21)), 0
-getpower = 32,26   ;72*!var(20), 36*!var(20)
+getpower = 30,15;72*!var(20), 36*!var(20)
 givepower = 36, 36
 pausetime = ifelse(var(20), 4, 8), ifelse(var(20), 4, 8)
 guard.pausetime = ifelse(var(20), 4, 8), ifelse(var(20), 4, 8)
@@ -615,7 +615,7 @@ moveType = A
 ctrl = 0
 velSet = 0,0
 sprPriority = 1
-powerAdd = 18 * !var(20)
+powerAdd = 0 * !var(20)
 faceP2 = 1
 
 [State 410, Anim]
@@ -649,7 +649,7 @@ attr = C,NA
 hitflag = MAF
 guardflag = M
 damage = ceil(ifelse(fvar(11)*36<7, 7, fvar(11)*36)), 0
-getpower = 44,36   ;ifelse(!var(13),144,72)*!var(20), 36*!var(20)
+getpower = 30,15;ifelse(!var(13),144,72)*!var(20), 36*!var(20)
 givepower = 36, 36
 pausetime = ifelse(var(20), 5, 10), ifelse(var(20), 5, 10)
 guard.pausetime = ifelse(var(20), 5, 10), ifelse(var(20), 5, 10)
@@ -701,7 +701,7 @@ moveType = A
 ctrl = 0
 velSet = 0,0
 sprPriority = 1
-powerAdd = 18 * !var(20)
+powerAdd = 0 * !var(20)
 faceP2 = 1
 
 [State 420, Anim]
@@ -735,7 +735,7 @@ attr = C,NA
 hitflag = MAF
 guardflag = M
 damage = ceil(ifelse(fvar(11)*48<7, 7, fvar(11)*48)), 0
-getpower = 46,36   ;ifelse(!var(13), 216, 72)*!var(20), 36*!var(20)
+getpower = 30,15;ifelse(!var(13), 216, 72)*!var(20), 36*!var(20)
 givepower = 36, 36
 pausetime = ifelse(var(20), 6, 12), ifelse(var(20), 6, 12)
 guard.pausetime = ifelse(var(20), 6, 12), ifelse(var(20), 6, 12)
@@ -821,7 +821,7 @@ attr = C,NA
 hitflag = MAF
 guardflag = M
 damage = ceil(ifelse(fvar(11)*25<7, 7, fvar(11)*25)), 0
-getpower = 44,36   ;ifelse(!var(13),144,72)*!var(20), 36*!var(20)
+getpower = 30,15;ifelse(!var(13),144,72)*!var(20), 36*!var(20)
 givepower = 36, 36
 pausetime = ifelse(var(20), 5, 10), ifelse(var(20), 5, 10)
 guard.pausetime = ifelse(var(20), 5, 10), ifelse(var(20), 5, 10)
@@ -875,7 +875,7 @@ moveType = A
 ctrl = 0
 velSet = 0,0
 sprPriority = 1
-powerAdd = 18 * !var(20)
+powerAdd = 0 * !var(20)
 faceP2 = 1
 
 [State 440, Anim]
@@ -909,7 +909,7 @@ attr = C,NA
 hitflag = MAF
 guardflag = L
 damage = ceil(ifelse(fvar(11)*36<7, 7, fvar(11)*36)), 0
-getpower = 44,36   ;ifelse(!var(13),144,72)*!var(20), 36*!var(20)
+getpower = 30,15;ifelse(!var(13),144,72)*!var(20), 36*!var(20)
 givepower = 36, 36
 pausetime = ifelse(var(20), 5, 10), ifelse(var(20), 5, 10)
 guard.pausetime = ifelse(var(20), 5, 10), ifelse(var(20), 5, 10)
@@ -961,7 +961,7 @@ moveType = A
 ctrl = 0
 velSet = 0,0
 sprPriority = 1
-powerAdd = 18 * !var(20)
+powerAdd = 0 * !var(20)
 faceP2 = 1
 
 [State 450, Anim]
@@ -995,7 +995,7 @@ attr = C,NA
 hitflag = MAF
 guardflag = L
 damage = ceil(ifelse(fvar(11)*49<7, 7, fvar(11)*49)), 0
-getpower = 46,36   ;ifelse(!var(13), 216, 72)*!var(20), 36*!var(20)
+getpower = 30,15;ifelse(!var(13), 216, 72)*!var(20), 36*!var(20)
 givepower = 36, 36
 pausetime = ifelse(var(20), 6, 12), ifelse(var(20), 6, 12)
 guard.pausetime = ifelse(var(20), 6, 12), ifelse(var(20), 6, 12)
@@ -1133,7 +1133,7 @@ attr = A,NA
 hitflag = MAF
 guardflag = HA
 damage = ceil(ifelse(fvar(11)*25<7, 7, fvar(11)*25)), 0
-getpower = 36,26  ;72*!var(20), 36*!var(20)
+getpower = 30,15;72*!var(20), 36*!var(20)
 givepower = 36, 36
 pausetime = ifelse(var(20), 4, 8), ifelse(var(20), 4, 8)
 guard.pausetime = ifelse(var(20), 4, 8), ifelse(var(20), 4, 8)
@@ -1199,7 +1199,7 @@ physics  = N
 moveType = A
 ctrl = 0
 sprPriority = 1
-powerAdd = 18 * !var(20)
+powerAdd = 0 * !var(20)
 
 [State 610, Anim]
 type=changeanim
@@ -1228,7 +1228,7 @@ hitFlag = MAF
 guardFlag = HA
 priority = 4, Hit
 damage = 36,0    ;Ifelse(var(20), 50, Ifelse(var(55),72,84)), 0
-getPower = 44,36  ;ifElse(!var(13), 216, 72) * !var(20), 36 * !var(20)
+getpower = 30,15;ifElse(!var(13), 216, 72) * !var(20), 36 * !var(20)
 givePower = 36, 36
 pauseTime = ifElse(var(20), 6, 12), ifElse(var(20), 6, 12)
 guard.pauseTime = ifElse(var(20), 6, 12), ifElse(var(20), 6, 12)
@@ -1285,7 +1285,7 @@ physics = N
 moveType = A
 ctrl = 0
 sprPriority = 1
-powerAdd = 18 * !var(20)
+powerAdd = 0 * !var(20)
 
 [State 620, Anim]
 type=changeanim
@@ -1314,7 +1314,7 @@ hitFlag = MAF
 guardFlag = HA
 priority = 4, Hit
 damage = 50,0    ;Ifelse(var(20), 50, Ifelse(var(55),72,84)), 0
-getPower = 46,36    ;ifElse(!var(13), 216, 72) * !var(20), 36 * !var(20)
+getpower = 30,15;ifElse(!var(13), 216, 72) * !var(20), 36 * !var(20)
 givePower = 36, 36
 pauseTime = ifElse(var(20), 6, 12), ifElse(var(20), 6, 12)
 guard.pauseTime = ifElse(var(20), 6, 12), ifElse(var(20), 6, 12)
@@ -1408,7 +1408,7 @@ attr = A,NA
 hitflag = MAF
 guardflag = HA
 damage = ceil(ifelse(fvar(11)*25<7, 7, fvar(11)*25)), 0
-getpower = 32,26   ;72*!var(20), 36*!var(20)
+getpower = 30,15;72*!var(20), 36*!var(20)
 givepower = 36, 36
 pausetime = ifelse(var(20), 4, 8), ifelse(var(20), 4, 8)
 guard.pausetime = ifelse(var(20), 4, 8), ifelse(var(20), 4, 8)
@@ -1475,7 +1475,7 @@ physics = N
 moveType = A
 ctrl = 0
 sprPriority = 1
-powerAdd = 18 * !var(20)
+powerAdd = 0 * !var(20)
 
 [State 640, Anim]
 type=changeanim
@@ -1503,7 +1503,7 @@ attr = A,NA
 hitflag = MAF
 guardflag = HA
 damage = ceil(ifelse(fvar(11)*36<7, 7, fvar(11)*36)), 0
-getpower = 44,36   ;ifelse(!var(13),144,72)*!var(20), 36*!var(20)
+getpower = 30,15;ifelse(!var(13),144,72)*!var(20), 36*!var(20)
 givepower = 36, 36
 pausetime = ifelse(var(20), 5, 10), ifelse(var(20), 5, 10)
 guard.pausetime = ifelse(var(20), 5, 10), ifelse(var(20), 5, 10)
@@ -1569,7 +1569,7 @@ physics = N
 moveType = A
 ctrl = 0
 sprPriority = 1
-powerAdd = 18 * !var(20)
+powerAdd = 0 * !var(20)
 
 [State 650, Anim]
 type=changeanim
@@ -1598,7 +1598,7 @@ hitFlag = MAF
 guardFlag = HA
 priority = 4, Hit
 damage = ceil(ifElse(fvar(11) * 49 < 7, 7, fvar(11) * 49)), 0
-getPower = 46,36  ;ifElse(!var(13), 216, 72) * !var(20), 36 * !var(20)
+getpower = 30,15;ifElse(!var(13), 216, 72) * !var(20), 36 * !var(20)
 givePower = 36, 36
 pauseTime = ifElse(var(20), 5, 12), ifElse(var(20), 6, 12)
 guard.pauseTime = ifElse(var(20), 5, 12), ifElse(var(20), 6, 12)
@@ -1660,6 +1660,7 @@ anim = 800
 
 [State 900, Grab Attempt] ; Taken from OrochiKOF97's Tutorial
 type = HitDef
+getpower = 60,30
 triggerall = p2stateno != 40 && p2stateno !=52 ; Cannot grab during jump start / jump land
 trigger1 = p2bodydist X <= 55 && p2dist X >= -20
 ;trigger1 = EnemyNear,HitOver && EnemyNear,GetHitVar(ctrltime)=0

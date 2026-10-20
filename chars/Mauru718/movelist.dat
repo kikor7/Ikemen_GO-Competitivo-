@@ -1,0 +1,30 @@
+<#f0f000>:Special Moves:</>
+Especial 1			_DSF^A
+Especial 2			_QCB^Y
+Especial 3			_QCB^Z
+Especial 4			_QCB^B
+Especial 5			_QCB^C
+Especial 6			_QCB^A
+BonusKun			_QCB^X
+Especial 8			_DSF^X
+Especial 9			_DSF^Y
+Especial 10			_DSF^Z
+Especial 11			_QCF^X
+Especial 12			_QCF^Y
+Especial 13			_QCF^Z
+Especial 14			_DSB^A
+Especial 15			_DSB^B
+BodyPress _a			_QCF^A
+BodyPress _b			_QCF^B
+BodyPress _c			_QCF^C
+PUSH BLOCK S			^X_+^Y
+
+<#f0f000>:Hyper Moves:</>
+Super 1 <#f00000>(1000)</>			_D_D^A_+^B
+Super 2 <#f00000>(2000)</>			_QCB^X_+^Z
+Super 3 <#f00000>(1000)</>			^A_+^B_+^X_+^Y
+Super 4 <#f00000>(2000)</>			^A_+^B_+^X_+^Y
+BodyPress _ab <#f00000>(1000)</>			_QCF^A_+^B
+Super 6 <#f00000>(1000)</>			_DSF^X_+^Y
+Ellowell <#f00000>(1000)</>			_QCB^A_+^C
+Super 8 <#f00000>(1000)</>			_QCF^X_+^Y

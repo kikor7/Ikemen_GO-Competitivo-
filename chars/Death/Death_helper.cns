@@ -517,7 +517,7 @@ trigger1 = Anim = 4020
 trigger1 = AnimElemTime(1) = 0
 attr = A, NA
 damage = ceil(60*root,fvar(38)),ceil(15*root,fvar(38))
-getpower = 0,0
+getpower = 10,5
 givepower = 0,0
 animtype = Medium
 ground.type = high
@@ -552,7 +552,7 @@ trigger1 = root,Anim = 1150
 trigger1 = root,AnimElemTime(6) >= 0
 attr = C, NA
 damage = ceil(40*root,fvar(38)),ceil(10*root,fvar(38))
-getpower = 0,0
+getpower = 10,5
 givepower = 0,0
 animtype = Medium
 ground.type = low
@@ -585,7 +585,7 @@ trigger1 = Anim = 4021
 trigger1 = AnimElemTime(1) = 0
 attr = S, SA
 damage = ceil(120*root,fvar(38)),ceil(30*root,fvar(38))
-getpower = 0,0
+getpower = 10,5
 givepower = 0,0
 animtype = Hard
 ground.type = high
@@ -729,7 +729,7 @@ type = HitDef
 trigger1 = Time = 0
 attr = A, SP
 damage = ceil(10*root,fvar(38)),ceil(2.5*root,fvar(38))
-getpower = 0,0
+getpower = 30,15
 givepower = 0,0
 animtype = Light
 ground.type = high
@@ -1000,7 +1000,7 @@ type = HitDef
 trigger1 = var(2) = 0
 attr = A, SP
 damage = ceil(65*root,fvar(38)),ceil(16.25*root,fvar(38))
-getpower = 0,0
+getpower = 30,15
 givepower = 0,0
 animtype = Hard
 ground.type = high
@@ -1262,7 +1262,7 @@ trigger1 = IsHelper(2053) = 1
 trigger1 = var(3) = 0
 attr = S, SP
 damage = ceil(90*root,fvar(38)),ceil(22.5*root,fvar(38))
-getpower = 0,0
+getpower = 30,15
 givepower = 0,0
 animtype = Hard
 ground.type = high
@@ -1342,7 +1342,7 @@ type = HitDef
 trigger1 = Time = 0
 attr = A, SA
 damage = ceil(140*root,fvar(38)),ceil(35*root,fvar(38))
-getpower = 0,0
+getpower = 30,15
 givepower = 0,0
 animtype = Hard
 ground.type = high
@@ -5911,7 +5911,7 @@ trigger1 = Time = 0
 trigger1 = var(3) < 32
 attr = A, SP
 damage = ceil(30*root,fvar(38)),ceil(7.5*root,fvar(38))
-getpower = 0,0
+getpower = 15,7
 givepower = 0,0
 animtype = Light
 ground.type = high
@@ -6137,7 +6137,7 @@ type = HitDef
 trigger1 = var(3) = 0
 attr = A, SA
 damage = ceil(120*root,fvar(38)),ceil(30*root,fvar(38))
-getpower = 0,0
+getpower = 15,7
 givepower = 0,0
 animtype = Hard
 ground.type = high
@@ -6275,7 +6275,7 @@ type = HitDef
 trigger1 = Time = 0
 attr = A, SA
 damage = ceil(140*root,fvar(38)),ceil(35*root,fvar(38))
-getpower = 0,0
+getpower = 30,15
 givepower = 0,0
 animtype = Hard
 ground.type = high
@@ -7400,7 +7400,7 @@ trigger1 = Time = 0
 trigger2 = var(3) = -1
 attr = A, SA
 damage = ceil(120*root,fvar(38)),ceil(30*root,fvar(38))
-getpower = 0,0
+getpower = 15,7
 givepower = 0,0
 animtype = Hard
 ground.type = high
@@ -7464,7 +7464,7 @@ type = HitDef
 trigger1 = Time = 0
 attr = A, SA
 damage = ceil(60*root,fvar(38)),ceil(15*root,fvar(38))
-getpower = 0,0
+getpower = 15,7
 givepower = 0,0
 animtype = Medium
 ground.type = high
@@ -7751,7 +7751,7 @@ type = HitDef
 trigger1 = Time = 154
 attr = S, SP
 damage = ceil(120*root,fvar(38)),ceil(30*root,fvar(38))
-getpower = 0,0
+getpower = 30,15
 givepower = 0,0
 animtype = Hard
 ground.type = high
@@ -7909,7 +7909,7 @@ type = HitDef
 trigger1 = var(1) = 0
 attr = S, SP
 damage = ceil(60*root,fvar(38)),ceil(15*root,fvar(38))
-getpower = 0,0
+getpower = 30,15
 givepower = 0,0
 animtype = Medium
 ground.type = high
@@ -8040,7 +8040,7 @@ trigger1 = Time = 1
 trigger1 = var(2) = [4512,4548]
 attr = A, SA
 damage = ceil(80*root,fvar(38)),ceil(20*root,fvar(38))
-getpower = 0,0
+getpower = 30,15
 givepower = 0,0
 animtype = Medium
 ground.type = high
@@ -8640,7 +8640,7 @@ type = HitDef
 trigger1 = var(1) = 20
 attr = S, SP
 damage = ceil(80*root,fvar(38)),ceil(20*root,fvar(38))
-getpower = 0,0
+getpower = 30,15
 givepower = 0,0
 animtype = Medium
 ground.type = high
@@ -9053,7 +9053,7 @@ type = HitDef
 trigger1 = var(1) = 0
 attr = S, SP
 damage = ceil(70*root,fvar(38)),ceil(17.5*root,fvar(38))
-getpower = 0,0
+getpower = 30,15
 givepower = 0,0
 animtype = Medium
 ground.type = high
@@ -9121,7 +9121,7 @@ type = HitDef
 trigger1 = Time = 0
 attr = S, SP
 damage = ceil(100*root,fvar(38)),ceil(25*root,fvar(38))
-getpower = 0,0
+getpower = 10,5
 givepower = 0,0
 animtype = Medium
 ground.type = high
@@ -9338,7 +9338,7 @@ type = HitDef
 trigger1 = Time = 0
 attr = S, SP
 damage = ceil(100*root,fvar(38)),ceil(25*root,fvar(38))
-getpower = 0,0
+getpower = 10,5
 givepower = 0,0
 animtype = Hard
 ground.type = high
@@ -9372,7 +9372,7 @@ type = HitDef
 trigger1 = Anim = 6204
 attr = S, SP
 damage = ceil(50*root,fvar(38)),ceil(12.5*root,fvar(38))
-getpower = 0,0
+getpower = 10,5
 givepower = 0,0
 animtype = Medium
 ground.type = high

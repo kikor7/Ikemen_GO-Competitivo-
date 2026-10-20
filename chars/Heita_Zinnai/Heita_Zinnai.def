@@ -11,6 +11,7 @@ Pal.Defaults = 1                ;CPUで出てくるキャラカラーの順番
 ;-----必要なファイルの設定------------------------------------------
 
 [Files]
+movelist = movelist.dat
 Cmd      = Heita_Zinnai.cmd              ;入力コマンド定義ファイルの登録
 Cns      = cns/Heita_Zinnai.st           ;基本ステータス情報ファイルの登録
 St       = cns/Heita_Zinnai.cns          ;動作プログラムファイルの登録1

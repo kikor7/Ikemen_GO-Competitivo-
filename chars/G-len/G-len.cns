@@ -966,7 +966,7 @@ type    = S
 movetype= A
 physics = S
 juggle  = 1
-poweradd= 75
+poweradd= 0
 ctrl = 0
 velset = 0,0
 anim = 211
@@ -1126,7 +1126,7 @@ physics = S
 juggle  = 1
 ctrl = 0
 anim = 201
-poweradd = 60
+poweradd = 0
 sprpriority = 5
 
 [state 0,0]
@@ -1201,7 +1201,7 @@ physics = S
 juggle  = 1
 ctrl = 0
 anim = 202
-poweradd = 60
+poweradd = 0
 sprpriority = 5
 
 [State 1000,0]
@@ -1225,7 +1225,7 @@ type    = S
 movetype= A
 physics = S
 juggle  = 1
-poweradd= 75
+poweradd= 20
 ctrl = 0
 velset = 0,0
 anim = 211
@@ -1339,7 +1339,7 @@ physics = S
 juggle  = 1
 ctrl = 0
 anim = 211
-poweradd = 70
+poweradd = 0
 sprpriority = 5
 
 [State 235, 3];u‚Ó‚«‚Æ‚Î‚µ‚Ä‚ ‚°‚Ü‚·v
@@ -1903,7 +1903,7 @@ physics = S
 juggle  = 1
 anim = 223
 ctrl = 0
-poweradd = 90
+poweradd = 0
 sprpriority = 5
 
 [State 1000,0]
@@ -2035,7 +2035,7 @@ type    = S
 movetype= A
 physics = N
 juggle  = 1
-poweradd= 3
+poweradd= 0
 ctrl = 0
 anim = 230
 sprpriority = 4
@@ -2197,7 +2197,7 @@ type    = S
 movetype= A
 physics = N
 juggle  = 1
-poweradd= 3
+poweradd= 0
 ctrl = 0
 anim = 233
 sprpriority = 4
@@ -2243,7 +2243,7 @@ trigger1 = time > 5
 attr = S, NA
 animtype  = medium
 damage    = ifelse(enemy,GetHitVar(hitcount)<=30,9,3),2
-getpower = 5
+getpower = 60,30
 givepower = 4
 hitflag = MAF
 priority = 4, Hit
@@ -2283,7 +2283,7 @@ type    = S
 movetype= A
 physics = N
 juggle  = 1
-poweradd= 3
+poweradd= 0
 ctrl = 0
 sprpriority = 4
 
@@ -2307,7 +2307,7 @@ type    = S
 movetype= A
 physics = S
 juggle  = 1
-poweradd= 66
+poweradd= 0
 ctrl = 0
 anim = 240
 sprpriority = 4
@@ -2344,7 +2344,7 @@ physics = S
 juggle  = 1
 ctrl = 0
 anim = 240
-poweradd = 70
+poweradd = 0
 sprpriority = 5
 
 [State 1000, beam]

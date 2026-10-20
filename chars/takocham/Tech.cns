@@ -385,6 +385,7 @@ y = 0
 
 [State 800, ヒット定義（投げ用）];空中
 type = HitDef
+getpower = 60,30
 triggerall = (StateType = A)
 trigger1 = Time = 0
 attr = A, NT
@@ -413,7 +414,7 @@ movetype = A
 physics  = N
 anim     = 801
 ctrl     = 0
-poweradd = 60
+poweradd = 0
 velset   = 0,0
 
 [State 801, 変数]
@@ -884,7 +885,7 @@ type    = S
 movetype= A
 physics = S
 velset = 0,0
-poweradd= 15
+poweradd= 0
 ctrl = 0
 anim = 900
 
@@ -900,6 +901,7 @@ attr = S, NT
 animtype  = Medium
 hitflag = M
 damage    = 5
+getpower = 20,10
 guardflag = 
 pausetime = 8,5  
 sparkno = s(var(45))
@@ -932,7 +934,7 @@ type    = C
 movetype= A
 physics = C
 velset = 0.00001,0
-poweradd= 135
+poweradd= 0
 ctrl = 0
 anim = 901
 
@@ -949,6 +951,7 @@ trigger8 = AnimElem = 24
 attr = S, NA
 animtype  = Light
 damage    = 5
+getpower = 20,10
 guardflag = MA
 pausetime = 0,2  
 sparkno = s(var(43))
@@ -974,6 +977,7 @@ trigger1 = AnimElem = 27
 attr = S, NA
 animtype  = back
 damage    = 30
+getpower = 20,10
 guardflag = MA
 pausetime = 15,15  
 sparkno     = s(var(45))

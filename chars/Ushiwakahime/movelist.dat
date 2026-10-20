@@ -1,0 +1,20 @@
+<#f0f000>:Special Moves:</>
+Especial 1			_QCB^X
+Especial 2			_QCB^Y
+Especial 3			_QCB^A
+Especial 4			_QCB^B
+Especial 5			_QCF^A
+Especial 6			_QCF^B
+Especial 7			_QCF^X
+Especial 8			_QCF^Y
+Especial 9			^A_+^B
+Especial 10			^Y_+^B
+Especial 11			^X_+^B
+
+<#f0f000>:Hyper Moves:</>
+MAX Boushi <#f00000>(2000)</>			_QCF_QCF^C
+MAX Daburu <#f00000>(2000)</>			_QCF_QCF^Z
+Boushi <#f00000>(1000)</>			_QCF_QCF^A
+Daburu <#f00000>(1000)</>			_QCF_QCF^X
+Super 5 <#f00000>(1000)</>			^A_+^B
+Super 6 <#f00000>(1000)</>			^Y_+^B

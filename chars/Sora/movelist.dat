@@ -1,0 +1,10 @@
+<#f0f000>:Special Moves:</>
+Air Dash Back			^A_+^B
+Switch to Ground Combo Finisher			_QCB^X
+Aerial Sweep, Ground			_DSF^X
+Sliding Dash, Ground			_QCB^Y
+Explosion			_QCF^B
+Guard Break			_QCB^B
+
+<#f0f000>:Hyper Moves:</>
+Empty Magic <#f00000>(1000)</>			^X_+^Y_+^A_+^B

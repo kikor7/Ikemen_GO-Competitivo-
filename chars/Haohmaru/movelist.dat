@@ -1,0 +1,25 @@
+<#f0f000>:Special Moves:</>
+Roll Forward			^A_+^X
+Shitatari			_QCB^A
+Gouha			_DSF^A
+Aerial Ougi: Senpuu Retsu Zan			_QCF^X
+Ougi: Zankousen			_HCB^A
+Sake Kogeki			_DSB^A
+Ougi: Resshin Zan			_QCB^X
+Ougi: Kogetsu Zan			_DSF^X
+Fake Senpuu Retsu Zan			_QCF^A
+Throw			^X_+^Y
+Taunt			_D_D^S
+
+<#f0f000>:Hyper Moves:</>
+MAX Issen <#f00000>(3000)</>			_QCB_D_DF^X_+^Y
+Zoubu Eguri <#f00000>(3000)</>			_HCB_F^X_+^Y
+MAX Hiougi Tenha: Fujin Zan <#f00000>(2000)</>			_QCF_D_DF^X_+^Y
+Issen <#f00000>(1000)</>			_QCB_D_DF^X
+Hiougi Tenha: Fujin Zan <#f00000>(1000)</>			_QCF_D_DF^X
+EX Aerial Ougi: Senpuu Retsu Zan <#f00000>(500)</>			_QCF^X_+^Y
+EX Sake Kogeki <#f00000>(500)</>			_DSB^A_+^B
+EX Ougi: Resshin Zan <#f00000>(500)</>			_QCB^X_+^Y
+EX Ougi: Kogetsu Zan <#f00000>(500)</>			_DSF^X_+^Y
+Zero Counter <#f00000>(1000)</>			_B_DB_D^X
+Custom Combo <#f00000>(1000)</>			^C_+^Z

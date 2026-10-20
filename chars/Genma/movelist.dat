@@ -1,0 +1,17 @@
+<#f0f000>:Special Moves:</>
+hien			_QCF^B
+yagura			_F_DF_D^A
+sekka-jin			_QCF^C
+oh-thubute			_QCF^A
+enraku-C			_DSF^C
+enraku-C			_DSF^B
+enraku-A			_DSF^A
+hajyo-tsui			_QCB^C
+hajyo-tsui			_QCB^B
+hajyo-tsui			_QCB^A
+burst			^A_+^B_+^C
+Small Jump			~D^B_+^C
+
+<#f0f000>:Hyper Moves:</>
+seki-kuzushi <#f00000>(1000)</>			_QCF_QCF^A
+hajyo-tsui <#f00000>(1000)</>			^A_+^B

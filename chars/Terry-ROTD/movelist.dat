@@ -1,0 +1,21 @@
+<#f0f000>:Special Moves:</>
+Dasshubaannakkuru			_QCB^X
+Raijingutakkuru Jaku			_DSF^X
+Raijingutakkuru Kyou			_DSF^Y
+Pawaaueibu Jaku			_QCF^X
+Pawaaueibu Kyou			_QCF^Y
+Baannakkuru Kyou			_QCB^Y
+Kurakkushuuto Jaku			_QCB^A
+Kurakkushuuto Kyou			_QCB^B
+Faiyaakikku Jaku			_HCF^A
+Faiyaakikku Kyou			_HCF^B
+Pawaadoraibu			_QCF^A
+Pawaashuuto			_QCF^B
+Reijikonbineeshon Shidou			^Y_+^B
+
+<#f0f000>:Hyper Moves:</>
+Pawaageizaa <#f00000>(1000)</>			_QCB_DB_QCF^X
+Haiangurugeizaa <#f00000>(1000)</>			_QCF_QCF^A
+Pawaageizaa 2 <#f00000>(2000)</>			_QCB_DB_QCF^Y
+Haiangurugeizaa 2 <#f00000>(2000)</>			_QCF_QCF^B
+Kuikkureijikonbineeshon Shidou <#f00000>(1000)</>			^Y_+^B

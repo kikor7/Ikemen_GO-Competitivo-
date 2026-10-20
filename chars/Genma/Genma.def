@@ -12,6 +12,7 @@ pal.defaults = 1            ;Default palettes in order of preference
 
 ; Files for the player
 [Files]
+movelist = movelist.dat
 cmd     = Genma.cmd   ;Command set
 cns     = Genma.cns   ;Constants
 st      = Genma.cns   ;States

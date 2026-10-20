@@ -8,7 +8,7 @@ movetype = a
 physics = s
 anim = 1000
 juggle = 1
-poweradd = 160
+poweradd = 20
 ctrl = 0
 
 [state 1000, nothitby];
@@ -105,7 +105,7 @@ type = s
 movetype = a
 physics = s
 anim = 1100
-poweradd = 150
+poweradd = 0
 ctrl = 0
 
 [state 1100, playsnd]
@@ -121,7 +121,7 @@ attr = s,st
 hitflag = h-
 priority = 1,miss
 sparkno = -1
-getpower = 0,0
+getpower = 60,30
 p1sprpriority = 0
 p1facing = 1
 p2facing = 1
@@ -141,7 +141,7 @@ type    = s
 movetype= a
 physics = s
 anim = 1101
-poweradd = 300
+poweradd = 0
 
 [state 1101, width]
 type = width
@@ -534,7 +534,7 @@ movetype = a
 physics = s
 anim = 1200
 juggle = 1
-poweradd = 200
+poweradd = 0
 ctrl = 0
 
 [state 1200, helper]
@@ -584,7 +584,7 @@ type = a
 movetype = a
 physics = a
 anim = 1300
-poweradd = 120
+poweradd = 0
 velset = 0,0
 ctrl = 0
 
@@ -672,7 +672,7 @@ ground.type = trip
 priority = 4,hit
 sprpriority = 1
 damage = floor(95*fvar(1)),15
-getpower = 80,5
+getpower = 60,30
 givepower = 20,5
 ground.hittime = 30
 air.hittime = 40
@@ -721,7 +721,7 @@ type = a
 movetype = a
 physics = a
 anim = 1300
-poweradd = 120
+poweradd = 0
 velset = 0,0
 ctrl = 0
 
@@ -804,7 +804,7 @@ ground.type = trip
 priority = 4,hit
 sprpriority = 1
 damage = floor(95*fvar(1)),15
-getpower = 80,5
+getpower = 60,30
 givepower = 20,5
 ground.hittime = 30
 air.hittime = 40

@@ -6,7 +6,7 @@ Physics  = N
 Anim     = 505
 Ctrl     = 0
 Facep2   = 1
-PowerAdd = 50
+PowerAdd = 20
 
 [State 500]
 Type=Gravity
@@ -52,7 +52,7 @@ Type = Projectile
 Trigger1 = time= 12
 Attr              = A, NP
 Damage            = floor(Cond(Ishelper,root,fvar(39),fvar(39))*(70+20*(Numhelper(12901)+Numhelper(12911)))),5+10*(Numhelper(12901)+Numhelper(12911))
-GetPower          = 90,50
+getpower = 30,15
 AnimType          = Hard
 PauseTime         = 0,10
 Guard.PauseTime   = 0,10
@@ -106,7 +106,7 @@ Physics  = S
 Anim     = 504
 Ctrl     = 0
 Facep2   = 1
-PowerAdd = 70
+PowerAdd = 20
 
 [State 500]
 Type=VarAdd
@@ -129,7 +129,7 @@ Type = Projectile
 Trigger1 = time= 6
 Attr              = S, SP
 Damage            = floor(Cond(Ishelper,root,fvar(39),fvar(39))*85),15
-GetPower          = 0
+getpower = 30,15
 AnimType          = DiagUp
 PauseTime         = 0,5
 Guard.PauseTime   = 0,19
@@ -258,7 +258,7 @@ Physics  = N
 Anim     = 504
 Ctrl     = 0
 Facep2   = 1
-PowerAdd = 120
+PowerAdd = 20
 
 [State 500]
 Type=Gravity
@@ -303,7 +303,7 @@ Type = Projectile
 Trigger1 = time= 19
 Attr              = A, SP
 Damage            = floor(Cond(Ishelper,root,fvar(39),fvar(39))*75),10
-GetPower          = 0
+getpower = 30,15
 AnimType          = DiagUp
 PauseTime         = 0,5
 Guard.PauseTime   = 0,5
@@ -358,7 +358,7 @@ Physics  = C
 Anim     = 505
 Ctrl     = 0
 Facep2   = 1
-PowerAdd = 120
+PowerAdd = 0
 
 [State 500]
 Type=VarAdd
@@ -454,7 +454,7 @@ Trigger1 = !Movecontact
 Trigger1 = !Movereversed
 Attr              = C, SP
 Damage            = floor(root,fvar(39)*parent,fvar(39)*31),0
-GetPower          = 0
+getpower = 30,15
 AnimType          = DiagUp
 PauseTime         = 0,0
 Guard.PauseTime   = 0,0
@@ -513,7 +513,7 @@ Physics  = N
 Anim     = 504
 Ctrl     = 0
 Facep2   = 1
-PowerAdd = 120
+PowerAdd = 0
 
 [State 500]
 Type=Gravity
@@ -705,7 +705,7 @@ Type = Projectile
 Trigger1 = 1
 Attr              = A, NP
 Damage            = floor(root,fvar(39)*75),8*(P2statetype=A)
-GetPower          = 0
+getpower = 30,15
 AnimType          = DiagUp
 PauseTime         = 0,0
 Guard.PauseTime   = 0,0

@@ -6,7 +6,7 @@ movetype = A
 physics = N
 ctrl = 0
 velset = 0,0
-poweradd = 72 * !var(20)
+poweradd = 20 * !var(20)
 sprpriority = 1
 facep2 = 1
 
@@ -285,7 +285,7 @@ movetype = A
 physics = N
 ctrl = 0
 velset = 0,0
-poweradd = 72 * !var(20)
+poweradd = 0 * !var(20)
 sprpriority = 1
 facep2 = 1
 
@@ -948,7 +948,7 @@ movetype = A
 physics = N
 ctrl = 0
 velset = 0,0
-poweradd = 72 * !var(20)
+poweradd = 0 * !var(20)
 sprpriority = 1
 facep2 = 1
 
@@ -1146,7 +1146,7 @@ movetype = A
 physics = N
 ctrl = 0
 velset = 0,0
-poweradd = 72 * !var(20)
+poweradd = 0 * !var(20)
 sprpriority = 1
 facep2 = 1
 
@@ -1781,7 +1781,7 @@ movetype = A
 physics = N
 ctrl = 0
 velset = 0,0
-poweradd = 72 * !var(20)
+poweradd = 0 * !var(20)
 sprpriority = 1
 facep2 = 1
 
@@ -2328,7 +2328,7 @@ movetype = A
 physics = N
 ctrl = 0
 velset = 0,0
-poweradd = 72 * !var(20)
+poweradd = 0 * !var(20)
 sprpriority = 1
 facep2 = 1
 

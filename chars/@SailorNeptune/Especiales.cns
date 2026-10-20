@@ -9,7 +9,7 @@ juggle  = 1
 velset = 1,0                     
 ctrl = 0                         
 anim = 2500                     
-poweradd = 20                    
+poweradd = 0                    
 sprpriority = 2
 
 [State 2027, 5]
@@ -222,7 +222,7 @@ juggle  = 1
 velset = 0,0                     
 ctrl = 0                         
 anim = 1004                    
-poweradd = 20                    
+poweradd = 0                    
 sprpriority = 2
 
 
@@ -265,7 +265,7 @@ juggle  = 1
 velset = 0,0                     
 ctrl = 0                         
 anim = 1004                    
-poweradd = 20                    
+poweradd = 0                    
 sprpriority = 2
 
 [State 1027, hitss]
@@ -322,7 +322,7 @@ juggle  = 1
 velset = 2,0                    
 ctrl = 0                         
 anim = 332255
-poweradd = 20                    
+poweradd = 0                    
 sprpriority = 2
 
 [State 2027, 5]
@@ -409,6 +409,7 @@ type = HitDef
 trigger1 = time = 0
 attr = S, NA                     
 damage = 50, 05                   
+getpower = 10,5
 animtype = hard                 
 guardflag = L                   
 hitflag = MAF                    
@@ -454,7 +455,7 @@ juggle  = 1
 velset = 1,0                    
 ctrl = 0                         
 anim = 332255
-poweradd = 20                    
+poweradd = 0                    
 sprpriority = 2
 
 [State 7000,HitBy]
@@ -538,6 +539,7 @@ type = HitDef
 trigger1 = time = 0
 attr = S, NA                     
 damage = 50, 05                   
+getpower = 10,5
 animtype = hard                 
 guardflag = MA                   
 hitflag = MAF                    
@@ -596,7 +598,7 @@ juggle  = 1
 velset = 1,3.5                     
 ctrl = 0                         
 anim = 332255
-poweradd = 20                    
+poweradd = 0                    
 sprpriority = 2
 
 [State 7000,HitBy]
@@ -675,6 +677,7 @@ type = HitDef
 trigger1 = time = 0
 attr = S, NA                     
 damage = 50, 05                   
+getpower = 10,5
 animtype = hard                 
 guardflag = MA                   
 hitflag = MAF                    
@@ -720,7 +723,7 @@ juggle  = 1
 velset = 0,0                     
 ctrl = 0                         
 anim = 1004                    
-poweradd = 20                    
+poweradd = 0                    
 sprpriority = 2
 
 [State 184, 1]
@@ -823,7 +826,7 @@ juggle  = 1
 velset = 0,0                     
 ctrl = 0                         
 anim = 1500                     
-poweradd = 20                    
+poweradd = 0                    
 sprpriority = 2
 
 [State 1027, bola]
@@ -850,6 +853,7 @@ type = HitDef
 trigger1 = time = 0
 attr = S, NA                     
 damage = 43, 0                   
+getpower = 30,15
 animtype = hard                 
 guardflag = MA                   
 hitflag = MAF                    
@@ -888,7 +892,7 @@ juggle  = 1
 velset = 3,-6                     
 ctrl = 0                         
 anim = 1501                     
-poweradd = 20                    
+poweradd = 0                    
 sprpriority = 2
 
 [State 200, 7]
@@ -917,6 +921,7 @@ type = HitDef
 trigger1 = time = 0
 attr = S, NA                     
 damage = 43, 0                   
+getpower = 30,15
 animtype = hard                 
 guardflag = MA                   
 hitflag = MAF                    
@@ -959,7 +964,7 @@ juggle  = 1
 velset = 0,0                     
 ctrl = 0                         
 anim = 1502                     
-poweradd = 20                    
+poweradd = 0                    
 sprpriority = 2
 
 [State 1027, bola]
@@ -987,6 +992,7 @@ type = HitDef
 trigger1 = time = 0
 attr = S, NA                     
 damage = 43, 0                   
+getpower = 20,10
 animtype = hard                 
 guardflag = MA                   
 hitflag = MAF                    
@@ -1025,7 +1031,7 @@ juggle  = 1
 velset = 5,-8                     
 ctrl = 0                         
 anim = 1503                     
-poweradd = 20                    
+poweradd = 0                    
 sprpriority = 2
 
 [State 200, 7]
@@ -1054,6 +1060,7 @@ type = HitDef
 trigger1 = animelem = 1
 attr = S, NA                     
 damage = 43, 0                   
+getpower = 20,10
 animtype = hard                 
 guardflag = MA                   
 hitflag = MAF                    
@@ -1084,6 +1091,7 @@ type = HitDef
 trigger1 = animelem = 2
 attr = S, NA                     
 damage = 43, 0                   
+getpower = 20,10
 animtype = hard                 
 guardflag = MA                   
 hitflag = MAF                    
@@ -1125,7 +1133,7 @@ juggle  = 1
 velset = 4,0                     
 ctrl = 0                         
 anim = 1700                     
-poweradd = 20                    
+poweradd = 0                    
 sprpriority = 2
 
 [State 9523, Super B]
@@ -1137,6 +1145,7 @@ channel=3
                 
 [State 800, 1]
 type = HitDef
+getpower = 60,30
 Trigger1 = Time = 0
 attr = S, NT          ;Attributes: Standing, Normal Throw
 hitflag = M-          ;Affect only ground people who are not being hit
@@ -1163,7 +1172,7 @@ type    = S
 movetype= A
 physics = N
 anim = 1710
-poweradd = 60
+poweradd = 0
 velset=0,0
 
 [State 1027, agarre]
@@ -1321,7 +1330,7 @@ juggle  = 1
 ;velset = 0,0                     
 ctrl = 0                         
 anim = 1600                     
-poweradd = 20                    
+poweradd = 0                    
 sprpriority = 2
 
 
@@ -1342,7 +1351,7 @@ juggle  = 1
 velset = 3,-1                     
 ctrl = 0                         
 anim = 1601                     
-poweradd = 20                    
+poweradd = 0                    
 sprpriority = 2
 
 [State 1027, labial]
@@ -1377,6 +1386,7 @@ type = HitDef
 trigger1 = animelem = 2
 attr = S, NA                     
 damage = 43, 0                   
+getpower = 30,15
 animtype = hard                 
 guardflag = MA                   
 hitflag = MAF                    
@@ -1406,6 +1416,7 @@ type = HitDef
 trigger1 = animelem = 5
 attr = S, NA                     
 damage = 43, 0                   
+getpower = 30,15
 animtype = hard                 
 guardflag = MA                   
 hitflag = MAF                    
@@ -1447,7 +1458,7 @@ juggle  = 1
 ;velset = 0,-1                     
 ctrl = 0                         
 anim = 1601                     
-poweradd = 20                    
+poweradd = 0                    
 sprpriority = 2
 
 [State 1027, labial]
@@ -1486,6 +1497,7 @@ type = HitDef
 trigger1 = animelem = 2
 attr = S, NA                     
 damage = 43, 0                   
+getpower = 30,15
 animtype = hard                 
 guardflag = MA                   
 hitflag = MAF                    
@@ -1515,6 +1527,7 @@ type = HitDef
 trigger1 = animelem = 5
 attr = S, NA                     
 damage = 43, 0                   
+getpower = 30,15
 animtype = hard                 
 guardflag = MA                   
 hitflag = MAF                    
@@ -1820,7 +1833,7 @@ juggle  = 1
 velset = 1,0                     
 ctrl = 0                         
 anim = 1800                     
-poweradd = 20                    
+poweradd = 0                    
 sprpriority = 2
 
 [State 3110]
@@ -2161,7 +2174,7 @@ juggle  = 1
 velset = 4,-8                     
 ctrl = 0                         
 anim = 1801                     
-poweradd = 20                    
+poweradd = 0                    
 sprpriority = 2
 
 [State 3110]
@@ -2682,7 +2695,7 @@ juggle  = 1
 velset = 4,-8                     
 ctrl = 0                         
 anim = 1503                     
-poweradd = 20                    
+poweradd = 0                    
 sprpriority = 2
 
 [State 200, 7]
@@ -3122,7 +3135,7 @@ juggle  = 1
 velset = 0,0                     
 ctrl = 0                         
 anim = 80001
-poweradd = 20                    
+poweradd = 0                    
 sprpriority = 2
 
 [State 1027, spark]
@@ -3461,7 +3474,7 @@ juggle  = 1
 velset = 0,0                     
 ctrl = 0                         
 anim = 80002
-poweradd = 20                    
+poweradd = 0                    
 sprpriority = 2
 
 [State 1027, spark]
@@ -3622,7 +3635,7 @@ juggle  = 1
 velset = 0,0                     
 ctrl = 0                         
 anim = 80206
-poweradd = 20                    
+poweradd = 0                    
 sprpriority = 2
 
 [State 9523, Super B]
@@ -3665,7 +3678,7 @@ juggle  = 1
 ;velset = 3,0                     
 ctrl = 0                         
 anim = 80207
-poweradd = 20                    
+poweradd = 0                    
 sprpriority = 2
 
 [State 7000,HitBy]
@@ -3767,7 +3780,7 @@ juggle  = 1
 velset = 0,0                     
 ctrl = 0                         
 anim = 80208
-poweradd = 20                    
+poweradd = 0                    
 sprpriority = 2
 
 [State 184, 1]
@@ -4017,7 +4030,7 @@ juggle  = 1
 velset = 5,0                     
 ctrl = 0                         
 anim = 80310
-poweradd = 20                    
+poweradd = 0                    
 sprpriority = 2
 
 [State 1027, ola]
@@ -4088,7 +4101,7 @@ juggle  = 1
 velset = 3,0                     
 ctrl = 0                         
 anim = 80311
-poweradd = 20                    
+poweradd = 0                    
 sprpriority = 2
 
 [State 3110]
@@ -4215,7 +4228,7 @@ juggle  = 1
 ;velset = -4,-4                     
 ctrl = 0                         
 anim = 80312
-poweradd = 20                    
+poweradd = 0                    
 sprpriority = 2
 
 [State 9523, Super B]

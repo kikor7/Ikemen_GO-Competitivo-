@@ -1,0 +1,14 @@
+<#f0f000>:Special Moves:</>
+joelhada			_D_U^Y
+joelhada			_D_U^X
+pulo			_D_U^B
+pulo			_D_U^A
+cotovelada 3			_QCB^X
+magia forte			_B_F^Y
+magia fraca			_B_F^X
+rapid punch			^X^X^X
+
+<#f0f000>:Hyper Moves:</>
+special <#f00000>(1999)</>			_F_B_D_F^A
+joelhada EX <#f00000>(999)</>			_D_U^X_+^Y
+magia EX <#f00000>(999)</>			_B_F^X_+^Y

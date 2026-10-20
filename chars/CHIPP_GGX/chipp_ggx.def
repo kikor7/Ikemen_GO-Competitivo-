@@ -9,6 +9,7 @@ pal.defaults = 6,3,4,2      ;Default palettes in order of preference
 
 ; Files for the player
 [Files]
+movelist = movelist.dat
 cmd	= chipp.cmd   
 cns     = CNS/chipp.cns   
 st      = CNS/chipp_normal.cns

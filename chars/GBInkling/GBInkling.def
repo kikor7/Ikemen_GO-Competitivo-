@@ -12,6 +12,7 @@ pal.defaults = 1  ;Default palettes in order of preference
 
 ; Files for the player
 [Files]
+movelist = movelist.dat
 cmd     = inkling.cmd   ;Command set
 cns     = inkling.cns   ;Constants
 st      = inkling.cns   ;States

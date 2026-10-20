@@ -7,6 +7,7 @@ Author       = "T-JIRO"     ;キャラクターの作成者（必要な項目なので省略不可）
 Pal.Defaults = 1        ;ＣＰＵで出てきた時のカラーパレットの順番
 
 [Files]
+movelist = movelist.dat
 Cmd     = DECARABIA.cmd       
 Cns     = DECARABIA.cns       
 St      = DECARABIA.cns       

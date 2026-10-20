@@ -512,7 +512,7 @@ movetype= A
 physics = N
 anim = 1400
 velset = 0,0
-poweradd= 55
+poweradd= 0
 ctrl = 0
 sprpriority = 2
 

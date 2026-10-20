@@ -1,0 +1,18 @@
+<#f0f000>:Special Moves:</>
+Dasshu Hissatsu Nin Hachi			_HCF^A
+Kachousen			_QCF^X
+Midare Kachousen			_QCF^Y
+Hissatsu Nin Hachi Kyou			_HCF^B
+Musasabi No Mai Jaku			_QCB^X
+Musasabi No Mai Kyou			_QCB^Y
+Sayo Chidori Jaku			_QCB^A
+Sayo Chidori Kyou			_QCB^B
+Kagerou No Mai			_D_D^Y
+Reijikonbineeshon Shidou			^Y_+^B
+
+<#f0f000>:Hyper Moves:</>
+Chou Hissatsu Nin Hachi <#f00000>(1000)</>			_QCB_DB_QCF^A
+Hanaarashi <#f00000>(1000)</>			_QCF_QCF^X
+Reotaado Nin Hachi <#f00000>(2000)</>			_QCB_DB_QCF^B
+Hanaarashi 2 <#f00000>(2000)</>			_QCF_QCF^Y
+Kuikkureijikonbineeshon Shidou <#f00000>(1000)</>			^Y_+^B

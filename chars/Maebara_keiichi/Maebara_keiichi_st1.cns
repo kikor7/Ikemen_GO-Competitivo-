@@ -8,7 +8,7 @@ ctrl=0
 velset=0,0
 anim=1101
 sprpriority=2
-poweradd = 75
+poweradd = 20
 
 [State 1100, ‰¹‚ð–Â‚ç‚·]
 type = PlaySnd
@@ -85,7 +85,7 @@ ctrl=0
 velset=12,-4
 anim=1103
 sprpriority=4
-poweradd = 75
+poweradd = 0
 
 [State 1103,1]
 type = AssertSpecial
@@ -102,6 +102,7 @@ trigger1 = 1
 attr = A, NP
 animtype  = hard
 damage    = 50,5
+getpower = 30,15
 guardflag = HA
 pausetime = 2,18
 sparkno = s760
@@ -205,7 +206,7 @@ ctrl=0
 velset=0,0
 anim=1101
 sprpriority=2
-poweradd = 75
+poweradd = 20
 
 [State 1150, ‰¹‚ð–Â‚ç‚·]
 type = PlaySnd
@@ -283,7 +284,7 @@ ctrl=0
 velset=10,-8
 anim=1103
 sprpriority=4
-poweradd = 75
+poweradd = 0
 
 [State 1153,1]
 type = AssertSpecial
@@ -300,6 +301,7 @@ trigger1 = 1
 attr = A, NP
 animtype  = hard
 damage    = 50,5
+getpower = 30,15
 guardflag = HA
 pausetime = 2,18
 sparkno = s760
@@ -365,7 +367,7 @@ ctrl=0
 velset=0,0
 anim=1200
 sprpriority=2
-poweradd = 60
+poweradd = 0
 juggle   = 3
 
 [State 1];–³“G‚Ìó‘Ô‚ðì‚é
@@ -403,6 +405,7 @@ trigger1 = AnimElem >= 2
 attr = A, NA
 animtype  = medium
 damage    = 50
+getpower = 30,15
 guardflag = MA
 pausetime = 12,20
 sparkno = s720
@@ -480,7 +483,7 @@ ctrl=0
 velset=1,-0.5
 anim=651
 sprpriority=2
-poweradd = 20
+poweradd = 0
 
 [State 1250, ‰¹‚ð–Â‚ç‚·]
 type = PlaySnd
@@ -506,6 +509,7 @@ trigger1 = AnimElem = 4
 attr = A, NA
 animtype  = harf
 damage    = 40
+getpower = 30,15
 guardflag = MA
 pausetime = 10,20
 sparkno = s720
@@ -2887,7 +2891,7 @@ velset = 0,0
 ctrl = 0
 anim = 2500
 sprpriority = 2
-poweradd = 60
+poweradd = 0
 
 [State 2500]
 type = ReversalDef
@@ -3005,6 +3009,7 @@ trigger1 = 1
 attr = A, NA
 animtype  = hard
 damage    = 50,10
+getpower = 30,15
 guardflag = MA
 pausetime = 0,14
 sparkno = s1005

@@ -13,6 +13,7 @@ localcoord = 320,240        ;Local coordinate space width and height
 
 ; Files for the player
 [Files]
+movelist = movelist.dat
 cmd     = omegashenron.cmd           ;Command set
 cns     = omegashenron.cns           ;Constants
 st      = omegashenron.cns           ;States

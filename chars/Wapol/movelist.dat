@@ -1,0 +1,19 @@
+<#f0f000>:Special Moves:</>
+Royal Drum Crown 7			_F_HCF^C
+Mortar Cannon			_QCB^C
+Double Cannon			_QCF^C
+Vomit Toy			_QCF^B
+Yukigeshou			_HCB^B
+Gourmet Road			_QCB^A
+Spin Society			_DSF^A
+Tag System  - Start Exit Command - Defensive			^A_+^C
+Throw			^B_+^C
+Burst - Anti Combos			^A_+^B_+^C
+
+<#f0f000>:Hyper Moves:</>
+Wapol House <#f00000>(2000)</>			_QCF_DF_QCB^B_+^C
+Ningen Heiki <#f00000>(1000)</>			_QCB_QCB^C
+Slim Up Wapol <#f00000>(1000)</>			_QCF_QCF^B
+Tag System  - Start Exit Command - Super Move 1 <#f00000>(1000)</>			_QCF^X
+Tag System  - Start Exit Command - Super Move 2 <#f00000>(1000)</>			_QCB^X
+Tag System  - Start Exit Command - Offensive <#f00000>(1500)</>			^A_+^C

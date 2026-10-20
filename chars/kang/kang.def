@@ -12,6 +12,7 @@ author ="Warner"
 pal.defaults = 1,2,3,4
 
 [files]
+movelist = movelist.dat
 sprite = kang.sff
 anim = kang.air
 sound = kang.snd

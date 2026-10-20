@@ -777,6 +777,7 @@ ctrl = 1
 ;立ちA射撃
 [Statedef 200]
 type     = S
+poweradd = 20
 movetype = A
 physics  = S
 juggle   = 1
@@ -1112,7 +1113,7 @@ fall = 0
 air.fall = ifelse(P2movetype = H,1,0)
 fall.recover = 0
 kill = 1
-getpower = 100, 50
+getpower = 15,7
 givepower = 50, 0
 
 [State 4000, DestroySelf]
@@ -1233,7 +1234,7 @@ fall = 0
 air.fall = ifelse(P2movetype = H,1,0)
 fall.recover = 0
 kill = 1
-getpower = 100, 50
+getpower = 15,7
 givepower = 50, 0
 
 [State 4000, DestroySelf]
@@ -1423,7 +1424,7 @@ fall = 0
 air.fall = ifelse(P2movetype = H,1,0)
 fall.recover = 0
 kill = 1
-getpower = 40, 20
+getpower = 30,15
 givepower = 20, 0
 fall.envshake.time = ifelse(p2statetype = L,0,10)
 fall.envshake.freq = ifelse(p2statetype = L,0,15)
@@ -1445,6 +1446,7 @@ ctrl = 1
 ;立ちB射撃
 [Statedef 210]
 type     = S
+poweradd = 20
 movetype = A
 physics  = S
 juggle   = 1
@@ -1549,7 +1551,7 @@ fall = 0
 air.fall = ifelse(P2movetype = H,1,0)
 fall.recover = 0
 kill = 1
-getpower = 100, 50
+getpower = 30,15
 givepower = 50, 0
 ;palfx.time = 30
 ;palfx.sinadd = 120,120,120,12
@@ -1701,7 +1703,7 @@ fall = 0
 air.fall = ifelse(P2movetype = H,1,0)
 fall.recover = 0
 kill = 1
-getpower = 40, 20
+getpower = 30,15
 givepower = 20, 0
 fall.envshake.time = ifelse(p2statetype = L,0,10)
 fall.envshake.freq = ifelse(p2statetype = L,0,15)
@@ -1718,6 +1720,7 @@ ctrl = 1
 ;立ちC射撃
 [Statedef 220]
 type     = S
+poweradd = 20
 movetype = A
 physics  = S
 juggle   = 1
@@ -1881,7 +1884,7 @@ fall = 1
 air.fall = ifelse(P2movetype = H,1,0)
 fall.recover = 0
 kill = 1
-getpower = 100, 50
+getpower = 30,15
 givepower = 50, 0
 
 [State 4000, DestroySelf]
@@ -1930,7 +1933,7 @@ type     = S
 movetype = A
 physics  = N
 juggle   = 1
-poweradd = 45
+poweradd = 0
 ctrl     = 0
 anim     = 250
 sprpriority = 2
@@ -1981,7 +1984,7 @@ fall = 1
 air.fall = 1
 fall.recover = 0
 kill = 1
-getpower = 60, 30
+getpower = 30,15
 givepower = 30, 0
 fall.envshake.time = ifelse(p2statetype = L,0,10)
 fall.envshake.freq = ifelse(p2statetype = L,0,15)
@@ -2006,7 +2009,7 @@ type     = S
 movetype = A
 physics  = N
 juggle   = 1
-poweradd = 45
+poweradd = 0
 ctrl     = 0
 anim     = 225
 sprpriority = 2
@@ -2057,7 +2060,7 @@ fall = 1
 air.fall = 1
 fall.recover = 0
 kill = 1
-getpower = 60, 30
+getpower = 30,15
 givepower = 30, 0
 fall.envshake.time = ifelse(p2statetype = L,0,10)
 fall.envshake.freq = ifelse(p2statetype = L,0,15)
@@ -2079,6 +2082,7 @@ ctrl = 1
 ;しゃがみA射撃
 [Statedef 400]
 type     = C
+poweradd = 20
 movetype = A
 physics  = C
 juggle   = 1
@@ -2183,7 +2187,7 @@ fall = 0
 air.fall = ifelse(P2movetype = H,1,0)
 fall.recover = 0
 kill = 1
-getpower = 100, 50
+getpower = 30,15
 givepower = 50, 0
 ;palfx.time = 30
 ;palfx.sinadd = 120,120,120,12
@@ -2324,7 +2328,7 @@ fall = 0
 air.fall = ifelse(P2movetype = H,1,0)
 fall.recover = 0
 kill = 1
-getpower = 40, 20
+getpower = 30,15
 givepower = 20, 0
 fall.envshake.time = ifelse(p2statetype = L,0,10)
 fall.envshake.freq = ifelse(p2statetype = L,0,15)
@@ -2341,6 +2345,7 @@ ctrl = 1
 ;しゃがみB射撃
 [Statedef 410]
 type     = C
+poweradd = 20
 movetype = A
 physics  = C
 juggle   = 1
@@ -2445,7 +2450,7 @@ fall = 0
 air.fall = ifelse(P2movetype = H,1,0)
 fall.recover = 0
 kill = 1
-getpower = 100, 50
+getpower = 30,15
 givepower = 50, 0
 ;palfx.time = 30
 ;palfx.sinadd = 120,120,120,12
@@ -2478,7 +2483,7 @@ type     = C
 movetype = A
 physics  = C
 juggle   = 1
-poweradd = 20
+poweradd = 0
 ctrl     = 0
 anim     = 415
 velset   = 0,0
@@ -2594,7 +2599,7 @@ fall = 0
 air.fall = ifelse(P2movetype = H,1,0)
 fall.recover = 0
 kill = 1
-getpower = 60, 30
+getpower = 30,15
 givepower = 30, 0
 fall.envshake.time = ifelse(p2statetype = L,0,10)
 fall.envshake.freq = ifelse(p2statetype = L,0,15)
@@ -2611,6 +2616,7 @@ ctrl = 1
 ;しゃがみC射撃
 [Statedef 420]
 type     = C
+poweradd = 20
 movetype = A
 physics  = C
 juggle   = 1
@@ -2715,7 +2721,7 @@ fall = 0
 air.fall = ifelse(P2movetype = H,1,0)
 fall.recover = 0
 kill = 1
-getpower = 100, 50
+getpower = 30,15
 givepower = 50, 0
 ;palfx.time = 30
 ;palfx.sinadd = 120,120,120,12
@@ -2748,7 +2754,7 @@ type     = C
 movetype = A
 physics  = N
 juggle   = 1
-poweradd = 30
+poweradd = 0
 ctrl     = 0
 anim     = 425
 velset   = 0,0
@@ -2806,7 +2812,7 @@ fall = 1
 air.fall = 1
 fall.recover = 0
 kill = 1
-getpower = 80, 40
+getpower = 30,15
 givepower = 40, 0
 fall.envshake.time = ifelse(p2statetype = L,0,10)
 fall.envshake.freq = ifelse(p2statetype = L,0,15)
@@ -2828,6 +2834,7 @@ ctrl = 1
 ;ジャンプA射撃
 [Statedef 600]
 type     = A
+poweradd = 20
 movetype = A
 physics  = N
 juggle   = 1
@@ -2914,7 +2921,7 @@ fall = 0
 air.fall = ifelse(P2movetype = H,1,0)
 fall.recover = 0
 kill = 1
-getpower = 100, 50
+getpower = 30,15
 givepower = 50, 0
 ;palfx.time = 30
 ;palfx.sinadd = 120,120,120,12
@@ -3003,7 +3010,7 @@ fall = 0
 air.fall = ifelse(P2movetype = H,1,0)
 fall.recover = 0
 kill = 1
-getpower = 40, 20
+getpower = 30,15
 givepower = 20, 0
 fall.envshake.time = ifelse(p2statetype = L,0,10)
 fall.envshake.freq = ifelse(p2statetype = L,0,15)
@@ -3020,6 +3027,7 @@ ctrl = 1
 ;ジャンプB射撃
 [Statedef 610]
 type     = A
+poweradd = 20
 movetype = A
 physics  = N
 juggle   = 1
@@ -3164,7 +3172,7 @@ fall = 0
 air.fall = ifelse(P2movetype = H,1,0)
 fall.recover = 0
 kill = 1
-getpower = 100, 50
+getpower = 30,15
 givepower = 50, 0
 
 [State 4000, DestroySelf]
@@ -3272,7 +3280,7 @@ fall = 0
 air.fall = ifelse(P2movetype = H,1,0)
 fall.recover = 0
 kill = 1
-getpower = 40, 20
+getpower = 30,15
 givepower = 20, 0
 fall.envshake.time = ifelse(p2statetype = L,0,10)
 fall.envshake.freq = ifelse(p2statetype = L,0,15)
@@ -3289,6 +3297,7 @@ ctrl = 1
 ;ジャンプC射撃
 [Statedef 620]
 type     = A
+poweradd = 20
 movetype = A
 physics  = N
 juggle   = 1
@@ -3375,7 +3384,7 @@ fall = 1
 air.fall = ifelse(P2movetype = H,1,0)
 fall.recover = 0
 kill = 1
-getpower = 100, 50
+getpower = 30,15
 givepower = 50, 0
 ;palfx.time = 30
 ;palfx.sinadd = 120,120,120,12
@@ -3464,7 +3473,7 @@ fall = 0
 air.fall = ifelse(P2movetype = H,1,0)
 fall.recover = 0
 kill = 1
-getpower = 40, 20
+getpower = 30,15
 givepower = 20, 0
 fall.envshake.time = ifelse(p2statetype = L,0,10)
 fall.envshake.freq = ifelse(p2statetype = L,0,15)
@@ -3604,7 +3613,7 @@ fall = 0
 air.fall = ifelse(P2movetype = H,1,0)
 fall.recover = 0
 kill = 1
-getpower = 40, 20
+getpower = 30,15
 givepower = 20, 0
 fall.envshake.time = ifelse(p2statetype = L,0,10)
 fall.envshake.freq = ifelse(p2statetype = L,0,15)
@@ -3705,7 +3714,7 @@ priority = 1,Miss
 sparkno = -1
 hitsound = S2, 0
 sprpriority = 1
-getpower = 90, 45
+getpower = 60,30
 givepower = 40, 0
 p2facing = ifelse(Var(0) = 1,-1,1)
 p1stateno = 510
@@ -3960,7 +3969,7 @@ priority = 1,Miss
 sparkno = -1
 hitsound = S2, 0
 sprpriority = 1
-getpower = 90, 0
+getpower = 60,30
 givepower = 0, 0
 p2facing = 1
 p1stateno = 710

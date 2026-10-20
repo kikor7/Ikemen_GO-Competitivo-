@@ -1,0 +1,20 @@
+<#f0f000>:Special Moves:</>
+Especial 1			_F_D_B_F^A
+Especial 2			_F_D_B_F^X
+Especial 3			_F_D_B^A
+Especial 4			_F_D_B^X
+Especial 5			_F_D_B^Y
+Especial 6			_B_D_F^A
+Especial 7			_B_D_F^B
+Especial 8			_B_D_F^X
+Especial 9			_D_F^A
+Especial 10			_D_F^B
+cheerleader			_D_B^A
+cheerleader			_D_B^B
+
+<#f0f000>:Hyper Moves:</>
+Hyperthrow <#f00000>(3000)</>			_F_D_B_F_D_B^X
+Super 2 <#f00000>(2000)</>			_D_F_D_F^X
+Super 3 <#f00000>(1000)</>			_D_F_D_F^A
+Super 4 <#f00000>(2000)</>			_D_B_D_F^B
+Super 5 <#f00000>(1000)</>			_D_F_D_B^A

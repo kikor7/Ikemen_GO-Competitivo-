@@ -962,7 +962,7 @@ Kill = 0
 Fall = 1
 Air.Fall = 1
 Fall.Recover = IfElse(P2MoveType = A,0,1)
-GetPower = 0
+getpower = 60,30
 GivePower = Ceil(IfElse(FVar(16)=0,1,FVar(16))*11)
 P2StateNo = 5610
 ID = 5610
@@ -1001,7 +1001,7 @@ Kill = 0
 Fall = 1
 Air.Fall = 1
 Fall.Recover = IfElse(P2MoveType = A,0,1)
-GetPower = 0
+getpower = 60,30
 GivePower = Ceil(IfElse(FVar(16)=0,1,FVar(16))*11)
 EnvShake.Time = 15
 EnvShake.Ampl = 5
@@ -1244,7 +1244,7 @@ Kill = 0
 Fall = 1
 Air.Fall = 1
 Fall.Recover = IfElse(P2MoveType = A,0,1)
-GetPower = 0
+getpower = 60,30
 GivePower = Ceil(IfElse(FVar(16)=0,1,FVar(16))*11)
 P2StateNo = 5610
 ID = 5610
@@ -1283,7 +1283,7 @@ Kill = 0
 Fall = 1
 Air.Fall = 1
 Fall.Recover = IfElse(P2MoveType = A,0,1)
-GetPower = 0
+getpower = 60,30
 GivePower = Ceil(IfElse(FVar(16)=0,1,FVar(16))*11)
 EnvShake.Time = 15
 EnvShake.Ampl = 5
@@ -7173,7 +7173,7 @@ Physics  = S
 Anim     = 3000
 Ctrl     = 0
 VelSet   = 0,0
-PowerAdd = 0
+PowerAdd = 20
 Facep2 = 1
 
 [State -1]
@@ -7312,7 +7312,7 @@ Physics  = S
 Anim     = 3050
 Ctrl     = 0
 VelSet   = 0,0
-PowerAdd = 0
+PowerAdd = 20
 Facep2 = 1
 
 [State -1]

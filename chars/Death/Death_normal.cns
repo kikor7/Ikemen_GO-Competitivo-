@@ -550,6 +550,7 @@ value = 1022
 ; Š™a‚èã‚°
 [Statedef 1030]
 type     = A
+poweradd = 20
 movetype = A
 physics  = N
 sprpriority = -2
@@ -764,6 +765,7 @@ value = 1030
 ; ¬Š™˜AË
 [Statedef 1040]
 type     = A
+poweradd = 20
 movetype = I
 physics  = N
 sprpriority = -2
@@ -892,6 +894,7 @@ value = 1040
 ; ’†Š™¢ŠÒ
 [Statedef 1050]
 type     = A
+poweradd = 20
 movetype = I
 physics  = N
 sprpriority = -2
@@ -1022,6 +1025,7 @@ value = 1050
 ; €—ì¢ŠÒ
 [Statedef 1060]
 type     = A
+poweradd = 20
 movetype = I
 physics  = N
 sprpriority = -2
@@ -1262,6 +1266,7 @@ value = 1060
 ; Š™“ã‚¬•¥‚¢
 [Statedef 1190]
 type     = A
+poweradd = 20
 movetype = A
 physics  = N
 sprpriority = -2
@@ -2048,6 +2053,7 @@ value = 1202
 ; ¬Š™İ’u
 [Statedef 1210]
 type     = A
+poweradd = 20
 movetype = I
 physics  = N
 sprpriority = -2
@@ -2424,7 +2430,7 @@ type = Projectile
 trigger1 = var(4) = [55,118]
 attr = A, SP
 damage = ceil(16*fvar(38)),ceil(4*fvar(38))
-getpower = 0,0
+getpower = 30,15
 givepower = 0,0
 animtype = Light
 ground.type = high
@@ -2518,6 +2524,7 @@ value = 1210
 ; ‘åŠ™“Š‚°1
 [Statedef 1070]
 type     = A
+poweradd = 20
 movetype = I
 physics  = N
 sprpriority = -2
@@ -2630,6 +2637,7 @@ value = 1070
 ; •ªgUŒ‚
 [Statedef 1080]
 type     = A
+poweradd = 20
 movetype = I
 physics  = N
 sprpriority = -2
@@ -3307,6 +3315,7 @@ value = 1100
 ; ‘åŠ™…•½“Š‚°
 [Statedef 1110]
 type     = A
+poweradd = 20
 movetype = A
 physics  = N
 sprpriority = -2
@@ -3453,6 +3462,7 @@ value = 1110
 ; Œõ’ŒUŒ‚1
 [Statedef 1160]
 type     = A
+poweradd = 20
 movetype = I
 physics  = N
 sprpriority = -2
@@ -3572,6 +3582,7 @@ value = 1160
 ; –‚—Í’e
 [Statedef 1170]
 type     = A
+poweradd = 20
 movetype = I
 physics  = N
 sprpriority = -2
@@ -3722,6 +3733,7 @@ value = 1170
 ; ‹øh‚µ
 [Statedef 1180]
 type     = A
+poweradd = 20
 movetype = I
 physics  = N
 sprpriority = -2
@@ -4089,6 +4101,7 @@ value = 1130
 ; é‘éUŒ‚
 [Statedef 1140]
 type     = A
+poweradd = 20
 movetype = I
 physics  = N
 sprpriority = -2
@@ -4375,6 +4388,7 @@ value = 1140
 ; ’n–‚ÌŠ™
 [Statedef 1150]
 type     = A
+poweradd = 20
 movetype = I
 physics  = N
 sprpriority = -2
@@ -4628,6 +4642,7 @@ value = 1150
 ; €‚Ì—’
 [Statedef 1220]
 type     = A
+poweradd = 20
 movetype = I
 physics  = N
 sprpriority = -2

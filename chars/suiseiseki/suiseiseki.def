@@ -9,6 +9,7 @@ pal.defaults = 1
 
 ; Files for the player
 [Files]
+movelist = movelist.dat
 cmd     = suiseiseki.cmd   ;Command set
 cns     = suiseiseki.cns   ;Constants
 st      = suiseiseki.cns   ;States

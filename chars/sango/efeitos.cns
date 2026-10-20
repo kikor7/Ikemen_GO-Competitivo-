@@ -78,6 +78,7 @@ trigger1 = time = 0
 attr = S, SA
 animtype  = High
 damage    = 80
+getpower = 30,15
 hitflag = MAFDP 
 guardflag = ML
 pausetime = 4,6
@@ -157,6 +158,7 @@ trigger1 = time = 0
 attr = S, SA
 animtype  = High
 damage    = 65
+getpower = 15,7
 hitflag = MAFP
 guardflag = ML
 pausetime = 0,6
@@ -231,6 +233,7 @@ trigger1 = time = 0
 attr = S, SA
 animtype  = High
 damage    = 50
+getpower = 15,7
 hitflag = MAFP
 guardflag = ML
 pausetime = 0,6

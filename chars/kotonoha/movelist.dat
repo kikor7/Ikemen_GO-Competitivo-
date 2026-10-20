@@ -1,0 +1,13 @@
+<#f0f000>:Special Moves:</>
+Light Kung Fu Knee			_XFF^A
+Fast Kung Fu Palm			_QCF^A_+^B
+Light Kung Fu Palm			_QCF^A
+Strong Kung Fu Palm			_QCF^B
+Nata Mawashi			_XFF^Y
+Hirate Uchi			_XFF^X
+Imo No Bentou Oto Shi			_XFF^B
+
+<#f0f000>:Hyper Moves:</>
+Triple Kung Fu Palm <#f00000>(3000)</>			_QCF^X_+^Y
+Tobiori <#f00000>(2000)</>			_QCB_D_DB^A
+TKFP <#f00000>(1000)</>			_QCF^X

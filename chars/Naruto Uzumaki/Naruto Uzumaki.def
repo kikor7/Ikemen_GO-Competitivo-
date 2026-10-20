@@ -15,6 +15,7 @@ Uzumaki Naruto made by ="Mikel8888"
 
 
 [Files]
+movelist = movelist.dat
 sprite =Naruto Uzumaki.sff
 anim =Naruto Uzumaki.air
 sound =Naruto Uzumaki.snd

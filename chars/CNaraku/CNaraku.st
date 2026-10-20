@@ -691,6 +691,7 @@ value = 0
 
 [State 800, HD]
 type = hitdef
+getpower = 60,30
 trigger1 = 1
 attr = A, NT
 hitflag = MAF
@@ -1027,6 +1028,7 @@ value = 5100 ;Hit ground
 ;--------------------------
 [Statedef 1000]
 type = A
+poweradd = 0
 movetype = A
 physics = S
 ctrl = 0
@@ -1105,6 +1107,7 @@ ctrl = ifelse(var(58)>0,0,1)
 ;----------------------------
 [Statedef 1100]
 type = A
+poweradd = 0
 movetype = A
 physics = S
 velSet = 0,0
@@ -1143,6 +1146,7 @@ ctrl = ifelse(var(58)>0,0,1)
 ;----------------------------
 [Statedef 1200]
 type = A
+poweradd = 20
 movetype = A
 physics = S
 velSet = 0,0
@@ -1197,6 +1201,7 @@ ctrl = ifelse(var(58)>0,0,1)
 ;----------------------------
 [Statedef 1300]
 type = A
+poweradd = 20
 movetype = A
 physics = S
 velSet = 0,0
@@ -1262,7 +1267,7 @@ ground.slidetime = 40
 ground.hittime  = 40
 ground.velocity = -3,-0.5
 air.velocity = -3,-1
-getpower = 0,0
+getpower = 30,15
 bindtime = -1
 
 [State 1000, PlaySnd]

@@ -371,7 +371,7 @@ type    = S
 movetype= A
 physics = S
 juggle  = 4
-poweradd= 65
+poweradd= 0
 ctrl = 0
 velset = 0,0
 anim = 2011
@@ -2581,6 +2581,7 @@ trigger1 = time = 55
 ;ソニックアロー射撃
 [Statedef 3410]
 type    = S
+poweradd = 20
 movetype= I
 physics = S
 juggle  = 4
@@ -2708,7 +2709,7 @@ ground.slidetime = 12
 ground.hittime  = 15
 ground.velocity = -5
 air.velocity = -2.5,-5
-getpower          = 60,30
+getpower = 30,15
 givepower         = 10,5
 guard.dist	= 0        ;相手がガード状態に移行出来る距離（現在は0なのでガード不可）
 
@@ -2741,7 +2742,7 @@ ground.slidetime = 12
 ground.hittime  = 15
 ground.velocity = -8
 air.velocity = -3,-5
-getpower          = 60,30
+getpower = 30,15
 givepower         = 10,5
 
 [State 1100, チャージ2]
@@ -2773,7 +2774,7 @@ ground.slidetime = 12
 ground.hittime  = 15
 ground.velocity = -10
 air.velocity = -4,-5
-getpower          = 60,30
+getpower = 30,15
 givepower         = 10,5
 
 
@@ -2806,7 +2807,7 @@ ground.slidetime = 12
 ground.hittime  = 15
 ground.velocity = -11
 air.velocity = -5,-6
-getpower          = 60,30
+getpower = 30,15
 givepower         = 10,5
 
 
@@ -2844,7 +2845,7 @@ fall	= 1
 air.fall= 1
 air.recover	= 0
 fall.recover	= 0
-getpower          = 90,30
+getpower = 30,15
 givepower         = 10,5
 
 
@@ -2914,7 +2915,7 @@ fall	= 1
 air.fall= 1
 air.recover	= 0
 fall.recover	= 0
-getpower          = 100,50
+getpower = 30,15
 givepower         = 10,5
 
 [State 191,斬撃]
@@ -3008,7 +3009,7 @@ ground.hittime  = 12
 ground.velocity = -5
 air.velocity = -2.5,-3.5
 fall = 1
-getpower	= 100, 50
+getpower = 30,15
 givepower	= 5, 5
 
 [State 200];乗算補正
@@ -3080,7 +3081,7 @@ ground.hittime  = 12
 ground.velocity = -5
 air.velocity = -2.5,-3.5
 fall = 1
-getpower	= 100, 50
+getpower = 30,15
 givepower	= 5, 5
 
 
@@ -3195,7 +3196,7 @@ air.hittime = 12                 ;空中でコンボが繋がる時間
 fall=1
 fall.recover=0
 kill = 0
-getpower =0
+getpower = 30,15
 givepower =0
 ground.cornerpush.veloff = 0
 
@@ -3252,7 +3253,7 @@ air.velocity = -4,-5
 guard.cornerpush.veloff=-10
 ground.cornerpush.veloff =-12
 fall=1
-getpower	= 0, 0
+getpower = 30,15
 givepower	= 5, 5
 
 
@@ -5656,7 +5657,7 @@ type    = S
 movetype= A
 physics = S
 juggle  = 0
-poweradd= 0
+poweradd= 20
 velset = 0,0
 anim = 3610
 ctrl = 0
@@ -5726,7 +5727,7 @@ attr = S, HP               ;攻撃の属性「(状態), (属性１)(属性２)」の順番に分かれ
                            ;(属性２):A=打撃・P=飛び道具・T=投げ
 ID = 3502                           
 damage = 10, 4              ;ダメージ（ﾋｯﾄ，ｶﾞｰﾄﾞ）
-getpower = 20,2             ;ゲージ回収（ヒット，ガード）
+getpower = 30,15;ゲージ回収（ヒット，ガード）
 
 animtype = Hard            ;攻撃を当てた時の「相手の食らいアニメの強さ」を指定
                            ;Light=弱・Medium=中・Hard=強・Back=最強
@@ -5847,7 +5848,7 @@ ground.hittime  = 15
 ground.velocity = -4
 air.velocity = -4,-2.5
 fall = 0
-getpower	= 90,20
+getpower = 15,7
 givepower = 5,5
 
 
@@ -5878,7 +5879,7 @@ fall	= 1
 air.fall= 1
 air.recover	= 0
 fall.recover	= 0
-getpower          = 100,50
+getpower = 15,7
 givepower         = 10,5
 
 
@@ -5962,7 +5963,7 @@ ground.hittime  = 12
 ground.velocity = -5
 air.velocity = -2.5,-3.5
 fall = 1
-getpower          = 100,50
+getpower = 30,15
 givepower         = 10,5
 
 [State 200];乗算補正
@@ -6031,7 +6032,7 @@ ground.hittime  = 12
 ground.velocity = -5
 air.velocity = -2.5,-3.5
 fall = 1
-getpower          = 100,50
+getpower = 30,15
 givepower         = 10,5
 
 [State 200];乗算補正
@@ -6327,7 +6328,7 @@ ground.hittime  = 32
 ground.velocity = -4
 air.velocity = -4,-5.5
 fall = 0
-getpower	= 90,20
+getpower = 60,30
 givepower = 5,5
 
 ;大橙スラッシュ（派生)
@@ -6510,7 +6511,7 @@ ground.velocity = -4,-1.2
 air.velocity = -4,-2.2
 fall = 1
 fall.recover = 0
-getpower	= 90,45
+getpower = 60,30
 givepower = 5,5
 
 [State 200];乗算補正
@@ -6547,6 +6548,7 @@ time	= 8
 
 [State 800, ヒット定義（投げ用）]
 type		= HitDef
+getpower = 60,30
 trigger1	= AnimElemTime(2) = 0
 attr		= S, ST		;攻撃属性: これは Standing, Normal Throw（立ち通常投げ）
 hitflag		= AF		;相手が空中の時でしか掴む事が出来ません
@@ -6579,7 +6581,7 @@ MoveType= A
 physics = N
 anim = 3641
 sprpriority = 4
-poweradd = 105
+poweradd = 0
 
 
 
@@ -6842,7 +6844,7 @@ type    = S
 movetype= A
 physics = S
 juggle  = 0
-poweradd= 0
+poweradd= 20
 velset = 0,0
 anim = 3645
 ctrl = 0
@@ -6946,7 +6948,7 @@ type = HitDef
 trigger1 = Time >= 2
 attr = S, SP
 damage = Ceil(105*(Const(Data.Attack)*0.01))*root,fvar(1),28
-getpower = 100,12
+getpower = 30,15
 animtype = Heavy
 pausetime = 12,12
 sparkxy = 0,0
@@ -7275,7 +7277,7 @@ anim = 3700
 velset = 0,0
 movetype = I
 physics = S
-PowerAdd = 0
+PowerAdd = 20
 
 ;-------------------[演出・エフェクト]
 
@@ -7650,7 +7652,7 @@ ground.slidetime = 5
 ground.hittime  = 8
 ground.velocity = -2,-6
 air.velocity = -6,-6
-getpower	= 0,0
+getpower = 2,1
 givepower = 0,0
 fall = 1
 air.fall = 1
@@ -7714,7 +7716,7 @@ ground.slidetime = 5
 ground.hittime  = 8
 ground.velocity = -2,-6
 air.velocity = -6,-6
-getpower	= 0,0
+getpower = 2,1
 givepower = 0,0
 fall = 1
 air.fall = 1
@@ -7779,7 +7781,7 @@ ground.slidetime = 5
 ground.hittime  = 8
 ground.velocity = -2,-6
 air.velocity = -6,-6
-getpower	= 0,0
+getpower = 2,1
 givepower = 0,0
 fall = 1
 air.fall = 1
@@ -7843,7 +7845,7 @@ ground.slidetime = 5
 ground.hittime  = 8
 ground.velocity = -2,-6
 air.velocity = -6,-6
-getpower	= 0,0
+getpower = 2,1
 givepower = 0,0
 fall = 1
 air.fall = 1
@@ -7907,7 +7909,7 @@ ground.slidetime = 5
 ground.hittime  = 8
 ground.velocity = -2,-6
 air.velocity = -6,-6
-getpower	= 0,0
+getpower = 2,1
 givepower = 0,0
 fall = 1
 air.fall = 1
@@ -7972,7 +7974,7 @@ ground.slidetime = 5
 ground.hittime  = 8
 ground.velocity = -2,-6
 air.velocity = -6,-6
-getpower	= 0,0
+getpower = 2,1
 givepower = 0,0
 fall = 1
 air.fall = 1
@@ -8043,7 +8045,7 @@ ground.slidetime = 5
 ground.hittime  = 8
 ground.velocity = -2,-6
 air.velocity = -6,-6
-getpower	= 0,0
+getpower = 2,1
 givepower = 0,0
 fall = 1
 air.fall = 1
@@ -8107,7 +8109,7 @@ ground.slidetime = 5
 ground.hittime  = 8
 ground.velocity = -2,-6
 air.velocity = -6,-6
-getpower	= 0,0
+getpower = 2,1
 givepower = 0,0
 fall = 1
 air.fall = 1
@@ -8171,7 +8173,7 @@ ground.slidetime = 5
 ground.hittime  = 8
 ground.velocity = -2,-6
 air.velocity = -6,-6
-getpower	= 0,0
+getpower = 2,1
 givepower = 0,0
 fall = 1
 air.fall = 1
@@ -8235,7 +8237,7 @@ ground.slidetime = 5
 ground.hittime  = 8
 ground.velocity = -2,-6
 air.velocity = -6,-6
-getpower	= 0,0
+getpower = 2,1
 givepower = 0,0
 fall = 1
 air.fall = 1
@@ -8298,7 +8300,7 @@ ground.slidetime = 5
 ground.hittime  = 8
 ground.velocity = -2,-6
 air.velocity = -6,-6
-getpower	= 0,0
+getpower = 2,1
 givepower = 0,0
 fall = 1
 air.fall = 1
@@ -8366,7 +8368,7 @@ ground.slidetime = 5
 ground.hittime  = 8
 ground.velocity = -2,-6
 air.velocity = -6,-6
-getpower	= 0,0
+getpower = 2,1
 givepower = 0,0
 fall = 1
 air.fall = 1
@@ -8392,6 +8394,7 @@ trigger1 = ParentDist X = [-5,5]
 ;ウェポン召喚(キウイ撃輪・ドリノコ・ドンカチ)
 [Statedef 3710]
 type    = S
+poweradd = 20
 MoveType= A
 physics = S
 juggle  = 4
@@ -8472,7 +8475,7 @@ ground.slidetime = 6
 ground.hittime = 16
 ground.velocity = -8,0
 air.velocity = -8,-2
-getpower	= 50,15
+getpower = 7,3
 givepower = 2,2
 
 
@@ -8503,7 +8506,7 @@ ground.slidetime = 15
 ground.hittime = 15
 ground.velocity = -1,0
 air.velocity = -2,2
-getpower	= 50,15
+getpower = 7,3
 givepower = 2,2
 
 [State 1100, ドリノコ2]
@@ -8533,7 +8536,7 @@ ground.slidetime = 20
 ground.hittime = 20
 ground.velocity = -8
 air.velocity = -2.5,-5
-getpower	= 50,15
+getpower = 7,3
 givepower = 2,2
 
 
@@ -8565,7 +8568,7 @@ ground.slidetime = 20
 ground.hittime = 20
 ground.velocity = -2,0
 air.velocity = 4,-5
-getpower	= 50,15
+getpower = 7,3
 givepower = 2,2
 
 
@@ -8604,6 +8607,7 @@ ctrl = 1
 ;ウェポン召喚(バナスピアー・マンゴパニッシャー・イチゴクナイ)
 [Statedef 3714]
 type    = S
+poweradd = 20
 MoveType= A
 physics = S
 juggle  = 4
@@ -8682,7 +8686,7 @@ ground.slidetime = 15
 ground.hittime = 20
 ground.velocity = -8,0
 air.velocity = -8,-2
-getpower	= 50,15
+getpower = 15,7
 givepower = 2,2
 
 
@@ -8817,7 +8821,7 @@ ground.slidetime = 6
 ground.hittime = 16
 ground.velocity = -2,-8
 air.velocity = -2.5,-5
-getpower	= 50,15
+getpower = 15,7
 givepower = 2,2
 fall = 1
 fall.recover = 0
@@ -8844,6 +8848,7 @@ trigger3 = Pos Y >= 0
 ;ウェポン召喚(影松・影松真)
 [Statedef 3715]
 type    = S
+poweradd = 20
 MoveType= A
 physics = S
 juggle  = 4
@@ -8975,7 +8980,7 @@ ground.slidetime = 6
 ground.hittime = 16
 ground.velocity = -2,-1
 air.velocity = -2.5,-5
-getpower	= 50,15
+getpower = 15,7
 givepower = 2,2
 fall = 1
 fall.recover = 0
@@ -9041,7 +9046,7 @@ ground.slidetime = 6
 ground.hittime = 16
 ground.velocity = -2,-1
 air.velocity = -2.5,-5
-getpower	= 50,15
+getpower = 15,7
 givepower = 2,2
 fall = 1
 fall.recover = 0
@@ -9074,6 +9079,7 @@ trigger2 = Pos Y >= 0
 ;ウェポン召喚(クルミボンバー)
 [Statedef 3716]
 type    = S
+poweradd = 20
 MoveType= A
 physics = S
 juggle  = 4
@@ -9189,7 +9195,7 @@ ground.slidetime = 6
 ground.hittime = 16
 ground.velocity = 0,0
 air.velocity = 0,0
-getpower	= 50,15
+getpower = 30,15
 givepower = 2,2
 fall = 1
 fall.recover = 0
@@ -9317,7 +9323,7 @@ fall	= 1
 air.fall= 1
 air.recover	= 0
 fall.recover	= 0
-getpower          = 120,60
+getpower = 30,15
 givepower         = 10,5
 
 
@@ -9399,7 +9405,7 @@ ground.hittime  = 15
 ground.velocity = -2,0
 air.velocity = -2,-2
 fall = 0
-getpower	= 40,15
+getpower = 30,15
 givepower = 5,5
 
 [State 1010, ヒット定義]
@@ -9425,7 +9431,7 @@ ground.velocity = 6,-4.5
 air.velocity = 6,-4.4
 fall = 1
 fall.recover = 0
-getpower	= 30,15
+getpower = 30,15
 givepower = 5,5
 
 [State 200];乗算補正
@@ -9486,7 +9492,7 @@ ground.hittime  = 15
 ground.velocity = -2,0
 air.velocity = -2,-2
 fall = 0
-getpower	= 90,45
+getpower = 30,15
 givepower = 5,5
 
 [State 200];乗算補正
@@ -9537,7 +9543,7 @@ trigger1 = var(30) = 0
 attr = A, SA
 animtype  = Medium
 damage    = 78,25
-getpower  = 110,60
+getpower = 30,15
 priority  = 5
 guardflag = HA
 pausetime = 12,12
@@ -9563,7 +9569,7 @@ trigger1 = var(30) = 1
 attr = A, SA
 animtype  = Medium
 damage    = 78,25
-getpower  = 110,60
+getpower = 30,15
 priority  = 5
 guardflag = HA
 pausetime = 12,12
@@ -10110,7 +10116,7 @@ fall = 1
 fall.recover = 0
 fall.recovertime = 20
 ID = 850
-getpower = 100,50
+getpower = 60,30
 givepower = 10,5
 
 
@@ -10196,7 +10202,7 @@ fall = 1
 fall.recover = 0
 fall.recovertime = 20
 ID = 850
-getpower = 100,50
+getpower = 30,15
 givepower = 10,5
 
 
@@ -10274,7 +10280,7 @@ fall = 1
 fall.recover = 0
 fall.recovertime = 20
 ID = 850
-getpower = 100,50
+getpower = 30,15
 givepower = 10,5
 
 
@@ -10385,6 +10391,7 @@ attr = S, NA
 animtype = Heavy
 hitflag = MAF
 damage = 150,30
+getpower = 30,15
 guardflag = MA
 pausetime = 0,5
 sparkxy = -5,-30

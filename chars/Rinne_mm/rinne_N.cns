@@ -12,7 +12,7 @@ physics = S
 velset = 0,0
 ctrl = 0
 anim = 200
-poweradd = 20
+poweradd = 0
 sprpriority = 2
 facep2 = 1
 
@@ -101,7 +101,7 @@ type = HitDef
 trigger1 = AnimElemtime(5) = 0
 attr = S, NA
 damage = 70
-getpower = 60,60
+getpower = 30,15
 animtype = Hard
 hitflag = MAF
 guardflag = M
@@ -135,7 +135,7 @@ ctrl = 1
 type    = S
 movetype= A
 physics = S
-poweradd= 20
+poweradd= 0
 ctrl = 0
 velset = 0,0
 anim = 230
@@ -253,7 +253,7 @@ type = HitDef
 trigger1 = AnimElemtime(5) = 0
 attr = S, NA
 damage = 33,0
-getpower = 20,20
+getpower = 10,5
 animtype = hard
 hitflag = MAF
 guardflag = M
@@ -274,7 +274,7 @@ type = HitDef
 trigger1 = AnimElemtime(6) = 0
 attr = S, NA
 damage = 33,0
-getpower = 20,20
+getpower = 10,5
 animtype = hard
 hitflag = MAF
 guardflag = M
@@ -295,7 +295,7 @@ type = HitDef
 trigger1 = AnimElemtime(7) = 0
 attr = S, NA
 damage = 33,0
-getpower = 20,20
+getpower = 10,5
 animtype = hard
 hitflag = MAF
 guardflag = M
@@ -350,7 +350,7 @@ type = HitDef
 trigger1 = AnimElem = 5
 attr = S, NA
 damage = 90,0
-getpower = 60,60
+getpower = 30,15
 animtype = Heavy
 hitflag = MAF
 guardflag = H
@@ -401,7 +401,7 @@ type = HitDef
 trigger1 = AnimElem = 5
 attr = S, NA
 damage = 40,0
-getpower = 30,30
+getpower = 30,15
 animtype = hard
 hitflag = MAF
 guardflag = M
@@ -456,7 +456,7 @@ type = HitDef
 trigger1 = AnimElemtime(3) = 0
 attr = C, NA
 damage = 25
-getpower = 20,20
+getpower = 30,15
 animtype = light
 hitflag = MAF
 guardflag = M
@@ -512,7 +512,7 @@ type = HitDef
 trigger1 = AnimElemtime(4) = 0
 attr = C, NA
 damage = 65
-getpower = 60,60
+getpower = 30,15
 animtype = Hard
 hitflag = MAF
 guardflag = M
@@ -568,7 +568,7 @@ type = HitDef
 trigger1 = AnimElemtime(3) = 0
 attr = C, NA
 damage = 35
-getpower = 40,40
+getpower = 30,15
 animtype = light
 hitflag = MAF
 guardflag = L
@@ -625,7 +625,7 @@ type = HitDef
 trigger1 = AnimElemtime(5) = 0
 attr = C, NA
 damage = 100
-getpower = 90,90
+getpower = 30,15
 animtype = heavy
 hitflag = MAFD
 guardflag = L
@@ -662,7 +662,7 @@ ctrl = 1
 type    = A
 movetype= A
 physics = A
-poweradd= 20
+poweradd= 0
 ctrl = 0
 anim = 2465
 sprpriority = 2
@@ -727,7 +727,7 @@ type = HitDef
 trigger1 = AnimElem = 4
 attr = A, NA
 damage = 65
-getpower = 60,60
+getpower = 30,15
 animtype = hard
 hitflag = MAF
 guardflag = HA
@@ -756,7 +756,7 @@ movetype = I
 type    = A
 movetype= A
 physics = A
-poweradd= 20
+poweradd= 0
 ctrl = 0
 anim = 2464
 sprpriority = 2
@@ -869,7 +869,7 @@ trigger7 = AnimElem = 3,3 && MoveGuarded!
 trigger8 = AnimElem = 4,3 && MoveGuarded!
 attr = A, NA
 damage = 20,0
-getpower = 15,15
+getpower = 10,5
 animtype = hard
 hitflag = MAF
 guardflag = HA
@@ -892,7 +892,7 @@ triggerall = p2statetype = A
 trigger1 = AnimElem = 4
 attr = A, NA
 damage = 30,0
-getpower = 15,15
+getpower = 10,5
 animtype = hard
 hitflag = MAF
 guardflag = HA
@@ -951,7 +951,7 @@ type = HitDef
 trigger1 = AnimElem=7
 attr = S, NA
 damage = 120,0
-getpower = 100,100
+getpower = 30,15
 animtype = Diagup
 hitflag = MAF
 guardflag = M
@@ -1107,7 +1107,7 @@ type = HitDef
 trigger1 = animelem = 8
 attr = A, NA
 damage = 110,0
-getpower = 100,100
+getpower = 30,15
 animtype = up
 hitflag = MAF
 guardflag = HA
@@ -1298,6 +1298,7 @@ sprpriority = 2
 
 [State 1]
 type = HitDef
+getpower = 60,30
 trigger1 = Time = 0
 attr = S, NT ;立ち通常投げ（Standing, Normal Throw）
 hitflag = M-  ;マイナスが付加されてるので相手が食らい中の時は掴めない
@@ -1325,7 +1326,7 @@ type    = S
 movetype= A
 physics = N
 anim = 755
-poweradd = 100
+poweradd = 0
 sprpriority = 2
 
 [State 1];
@@ -1542,6 +1543,7 @@ sprpriority = 2
 
 [State 1]
 type = HitDef
+getpower = 60,30
 trigger1 = Time = 0
 attr = S, NT ;立ち通常投げ（Standing, Normal Throw）
 hitflag = M-  ;マイナスが付加されてるので相手が食らい中の時は掴めない
@@ -1569,7 +1571,7 @@ type    = S
 movetype= A
 physics = N
 anim = 801
-poweradd = 100
+poweradd = 20
 sprpriority = 2
 
 [State 1];

@@ -166,7 +166,7 @@ trigger1 = P2Dist X < 0
 type = HitDef
 Trigger1 = Time = 0
 attr = S, NT
-getpower  = 0
+getpower = 60,30
 givepower = 40
 hitflag = M-
 priority = 1, Miss 
@@ -194,7 +194,7 @@ type    = S
 movetype= A
 physics = N
 anim     = 810
-poweradd = 80
+poweradd = 0
 velset   = 0,0
 sprpriority = 2
 

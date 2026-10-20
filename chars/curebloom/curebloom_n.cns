@@ -44,7 +44,7 @@ physics = S
 juggle = 1
 velset = 0,0
 ctrl = 0
-poweradd = 10
+poweradd = 0
 
 [State 200, チェーンコンボ用var50]
 type = VarSet
@@ -106,7 +106,7 @@ physics = S
 juggle = 1
 velset = 0,0
 ctrl = 0
-poweradd = 15
+poweradd = 0
 
 [State 201, チェーンコンボ用var50]
 type = VarSet
@@ -168,7 +168,7 @@ physics = S
 juggle = 1
 velset = 0,0
 ctrl = 0
-poweradd = 20
+poweradd = 0
 
 [State 202, チェーンコンボ用var50]
 type = VarSet
@@ -239,7 +239,7 @@ physics = S
 juggle = 1
 velset = 0,0
 ctrl = 0
-poweradd = 10
+poweradd = 0
 
 [State 250, チェーンコンボ用var50]
 type = VarSet
@@ -302,7 +302,7 @@ physics = S
 juggle = 1
 velset = 0,0
 ctrl = 0
-poweradd = 15
+poweradd = 0
 
 [State 251, チェーンコンボ用var50]
 type = VarSet
@@ -363,7 +363,7 @@ physics = S
 juggle = 1
 velset = 0,0
 ctrl = 0
-poweradd = 20
+poweradd = 0
 
 [State 252, チェーンコンボ用var50]
 type = VarSet
@@ -432,7 +432,7 @@ physics = C
 juggle = 1
 velset = 0,0
 ctrl = 0
-poweradd = 10
+poweradd = 0
 
 [State 300, チェーンコンボ用var50]
 type = VarSet
@@ -493,7 +493,7 @@ physics = C
 juggle = 1
 velset = 0,0
 ctrl = 0
-poweradd = 15
+poweradd = 0
 
 [State 301, チェーンコンボ用var50]
 type = VarSet
@@ -554,7 +554,7 @@ physics = C
 juggle = 1
 velset = 0,0
 ctrl = 0
-poweradd = 20
+poweradd = 0
 
 [State 302, チェーンコンボ用var50]
 type = VarSet
@@ -630,7 +630,7 @@ movetype = A
 physics = C
 juggle = 1
 ctrl = 0
-poweradd = 10
+poweradd = 0
 
 [State 350, チェーンコンボ用var50]
 type = VarSet
@@ -713,7 +713,7 @@ movetype = A
 physics = N
 juggle = 1
 ctrl = 0
-poweradd = 10
+poweradd = 0
 
 [State 400, チェーンコンボ用var50]
 type = VarSet
@@ -804,7 +804,7 @@ movetype = A
 physics = N
 juggle = 1
 ctrl = 0
-poweradd = 15
+poweradd = 0
 
 [State 401, チェーンコンボ用var50]
 type = VarSet
@@ -895,7 +895,7 @@ movetype = A
 physics = N
 juggle = 1
 ctrl = 0
-poweradd = 20
+poweradd = 0
 
 [State 402, チェーンコンボ用var50]
 type = VarSet
@@ -994,7 +994,7 @@ movetype = A
 physics = N
 juggle = 1
 ctrl = 0
-poweradd = 10
+poweradd = 0
 
 [State 450, チェーンコンボ用var50]
 type = VarSet
@@ -1086,7 +1086,7 @@ movetype = A
 physics = N
 juggle = 1
 ctrl = 0
-poweradd = 15
+poweradd = 0
 
 [State 451, チェーンコンボ用var50]
 type = VarSet
@@ -1179,7 +1179,7 @@ physics = N
 juggle = 1
 velset = 0,0
 ctrl = 0
-poweradd = 20
+poweradd = 0
 
 [State 452, チェーンコンボ用var50]
 type = VarSet

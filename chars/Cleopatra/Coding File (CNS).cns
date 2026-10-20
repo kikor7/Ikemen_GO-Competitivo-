@@ -1077,6 +1077,7 @@ ctrl = 1
 ;==================================================================================
 [Statedef 2000]
 type = S
+poweradd = 20
 ctrl = 0
 anim = 999
 movetype = A
@@ -1113,7 +1114,7 @@ projremovetime = 90
 velocity = 0,0
 remvelocity = 0,0
 accel = 0,0
-getpower=300,0
+getpower = 30,15
 ProjID = 1000
 projanim = 1000
 projhits = 1
@@ -1484,7 +1485,7 @@ physics = N
 anim = 300
 ctrl = 0
 sprpriority = 2
-poweradd = 10
+poweradd = 0
 
 ;[State 7001]
 ;type = PlaySnd
@@ -1624,7 +1625,7 @@ physics = N
 anim = 300
 ctrl = 0
 sprpriority = 2
-poweradd = 20
+poweradd = 0
 
 ;[State 7001]
 ;type = PlaySnd

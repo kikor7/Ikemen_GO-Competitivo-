@@ -7,6 +7,7 @@ mugenversion=04,14,2002
 author="Doggiedoo"
 pal.defaults=
 [Files]
+movelist = movelist.dat
 sprite=hydron.sff
 sound=hydron.snd
 anim=hydron.air

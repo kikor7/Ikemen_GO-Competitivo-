@@ -6,6 +6,7 @@ Author = "TightRiam"
 Pal.Defaults = 1      
 
 [Files]
+movelist = movelist.dat
 Cmd = Suija_Kof.cmd   
 Cns = Suija_Kof.cns  
 St = Suija_Kof.cns   

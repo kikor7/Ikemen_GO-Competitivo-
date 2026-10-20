@@ -8,7 +8,7 @@ physics = S
 velset = 0,0
 ctrl = 0
 anim = 1000
-poweradd = 100
+poweradd = 20
 
 [State 0, PlaySnd]
 type = PlaySnd
@@ -145,7 +145,7 @@ type = HitDef
 trigger1 = AnimElem = 2
 attr = S, SP
 animtype  = high
-getpower = 0,0
+getpower = 15,7
 damage    = 30,5
 guardflag = MA
 pausetime = 10,8
@@ -298,7 +298,7 @@ Triggerall = prevstateno = 1005
 trigger1 = AnimElem = 2
 attr = S, SP
 animtype  = high
-getpower = 0,0
+getpower = 15,7
 damage    = 30,5
 guardflag = MA
 pausetime = 10,8
@@ -506,7 +506,7 @@ physics = N
 anim = ifelse(var(14) = 1,1100,1105)
 velset = 0,0
 ctrl = 0
-poweradd = 125
+poweradd = 0
 juggle = 1
 
 [State 1100, 2]
@@ -603,7 +603,7 @@ type = HitDef
 trigger1 =  animelem = 3
 trigger2 =  animelem = 4
 attr = A, SA
-getpower = 0,0
+getpower = 30,15
 damage    = 30, 5
 guardflag = MA
 priority = 3
@@ -885,7 +885,7 @@ physics = A
 ;velset = 0,0
 ctrl = 0
 anim = 1150
-poweradd = 50
+poweradd = 0
 juggle = 3
 
 [State 2701, Veladd]
@@ -937,7 +937,7 @@ type = HitDef
 trigger1 = AnimElem = 5 || AnimElem = 6
 attr = A, SA
 animtype  = high
-getpower = 0,0
+getpower = 30,15
 damage    = 20,5
 guardflag = HA
 pausetime = 8,10
@@ -1021,7 +1021,7 @@ physics = N
 juggle  = 1
 ctrl = 0
 anim = 1200
-poweradd = 100
+poweradd = 0
 sprpriority = 2
 
 ;--- Guard Cancel --------------------------
@@ -1321,7 +1321,7 @@ trigger2 = animelem = 4
 trigger3 = animelem = 5
 attr = A, SA
 animtype  = Light
-getpower = 0,0
+getpower = 30,15
 damage    = 30,5
 guardflag = HA
 pausetime = 8,10
@@ -1497,7 +1497,7 @@ type = HitDef
 triggerall = !movecontact
 trigger1 = AnimElem = 3
 attr = A, SA
-getpower = 0,0
+getpower = 30,15
 damage = 30,5
 guardflag = HA
 priority = 3
@@ -1713,7 +1713,7 @@ type = A
 physics = N
 ctrl = 0
 anim = 1320
-poweradd = 100
+poweradd = 20
 
 [State 1350:	PlaySnd]
 type			= PlaySnd
@@ -2478,7 +2478,7 @@ type = HitDef
 trigger1 = animelem = 2
 attr = A, SP
 animtype  = Hard
-getpower = 0,0
+getpower = 15,7
 damage    = 20,5
 getpower  = 0
 priority = 5, Hit
@@ -2589,7 +2589,7 @@ Triggerall = prevstateno = 1380
 trigger1 = animelem = 2
 attr = A, SP
 animtype  = Hard
-getpower = 0,0
+getpower = 15,7
 damage    = 20,5
 getpower  = 0
 priority = 5, Hit
@@ -2676,7 +2676,7 @@ movetype = A
 physics = S
 anim = 1400
 ctrl = 0
-poweradd = 150
+poweradd = 0
 
 
 [State 0, PlaySnd]
@@ -2779,7 +2779,7 @@ trigger7 = AnimElem = 13
 attr = S, ST
 animtype  = Hard
 damage    = 10,0
-getpower = 0,0
+getpower = 60,30
 priority = 5, Hit
 guardflag = MA
 pausetime = 0,0
@@ -3134,7 +3134,7 @@ physics = N
 velset = 0,0
 ctrl = 0
 anim = 1500
-poweradd = 100
+poweradd = 0
 
 
 ;--- Guard Cancel --------------------------
@@ -3312,7 +3312,7 @@ trigger2 = animelem = 5
 trigger3 = animelem = 6
 attr = S, ST
 animtype  = Medium
-getpower = 0,0
+getpower = 60,30
 damage    = 10
 guardflag = MA
 pausetime = 1,1
@@ -3744,7 +3744,7 @@ anim = 1800
 velset = 0,0
 ctrl = 0
 sprpriority = 1
-poweradd = 125
+poweradd = 20
 
 [State 0, PlaySnd]
 type = PlaySnd
@@ -3833,7 +3833,7 @@ trigger1 = animelem = 1
 attr = C, ST
 animtype  = Hard
 damage    = 0,0
-getpower = 0,0
+getpower = 15,7
 priority = 5, Hit
 guardflag = L
 pausetime = 0,0
@@ -4038,7 +4038,7 @@ triggerall = !movecontact
 trigger1 = animelem = 1
 attr = S, NA
 animtype  = Medium
-getpower = 40,20
+getpower = 15,7
 damage    = 20
 guardflag = MA
 pausetime = 8,10

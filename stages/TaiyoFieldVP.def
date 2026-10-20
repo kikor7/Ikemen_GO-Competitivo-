@@ -17,8 +17,8 @@ boundlow = 0
 verticalfollow = .9
 floortension = 300
 tension = 90
-startzoom 	= 1,1
-zoomin 		= 1.1
+startzoom 	= 0.9 ;antes 1: empezaba muy cerca
+zoomin 		= 0.95 ;antes 1.1
 zoomout 	= .8
 ;--------------------------------------------------------
 [PlayerInfo]

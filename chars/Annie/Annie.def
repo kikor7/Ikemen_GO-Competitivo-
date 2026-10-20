@@ -13,6 +13,7 @@ pal.defaults = 0
 
 ; Files for the player
 [Files]
+movelist = movelist.dat
 cmd      = Annie.cmd  
 cns      = Annie-P.cns   
 st       = Annie-N.cns   

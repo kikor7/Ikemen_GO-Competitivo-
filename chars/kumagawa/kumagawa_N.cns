@@ -7,7 +7,7 @@
 	movetype= A
 	physics = S
 	anim = 200
-	poweradd = 5
+	poweradd = 0
 	ctrl = 0
 	sprpriority = 2
 	facep2 = 1
@@ -475,7 +475,7 @@
 	physics = C
 	anim = 400
 	velset = 0,0
-	poweradd = 5
+	poweradd = 0
 ;	juggle  = 1
 	ctrl = 0
 	sprpriority = 2
@@ -1027,7 +1027,7 @@
 	movetype= A
 	physics = N
 	anim = 600
-	poweradd = 5
+	poweradd = 0
 	ctrl = 0
 	sprpriority = 2
 	facep2 = 1

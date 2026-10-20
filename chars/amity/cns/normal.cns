@@ -14,7 +14,7 @@ juggle   = 1
 velset   = 0,0                   
 ctrl     = 0                     
 anim     = 200                   
-poweradd = 60                    
+poweradd = 20                    
 sprpriority = 2  
 
 
@@ -144,7 +144,7 @@ type    = S
 movetype= A
 physics = S
 juggle  = 4
-poweradd= 100
+poweradd= 20
 ctrl = 0
 velset = 0,0
 anim = 210
@@ -197,7 +197,7 @@ type    = S
 movetype= A
 physics = S
 juggle  = 4
-poweradd= 100
+poweradd= 0
 ctrl = 0
 velset = 0,0
 anim = 230
@@ -372,7 +372,7 @@ Palfx.SinAdd = 10,10,30,9
 EnvShake.Time = 10
 EnvShake.Ampl = 5
 EnvShake.Freq = 90
-getpower = 20,5
+getpower = 30,15
 givepower = 20,0
 
 
@@ -461,7 +461,7 @@ type    = A
 movetype= A
 physics = A
 juggle  = 1
-poweradd= 80
+poweradd= 20
 ctrl = 0
 anim = 200
 sprpriority = 2

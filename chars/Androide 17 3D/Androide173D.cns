@@ -275,7 +275,7 @@ ampl = 2
 [State 195, 3]
 type = PowerAdd
 trigger1 = Time >=4
-value = 10
+value = 0
 
 [State 195, 2]
 type = ChangeState
@@ -414,7 +414,7 @@ air.type = High
 air.velocity = -1.4,-3
 air.hittime = 12
 envshake.time = 8
-getpower = 15,10
+getpower = 30,15
 givepower = 10,5
 
 [State 230, Spark CVS]
@@ -523,7 +523,7 @@ air.type = High
 air.velocity = -11,-2
 air.hittime = 12
 ENVSHAKE.TIME  =10
-GETPOWER = 15,10
+getpower = 30,15
 GIVEPOWER = 10,5
 
 [State 230, Spark CVS]
@@ -591,7 +591,7 @@ juggle  = 1
 velset = 0,0
 ctrl = 0
 anim = 202
-poweradd = 0
+poweradd = 20
 sprpriority = 0
 
 [State 0, PlaySnd]
@@ -738,7 +738,7 @@ airguard.velocity = -2
 air.type = High
 air.velocity = 0,-8
 air.hittime = 20
-getpower = 5,1
+getpower = 30,15
 GIVEPOWER = 3,1
 FALL = 1
 FALL.RECOVER = 0
@@ -808,7 +808,7 @@ air.type = High
 air.velocity = -1.4,-3
 air.hittime = 12
 envshake.time = 8
-getpower = 15,10
+getpower = 30,15
 givepower = 10,5
 
 [State 230, Spark CVS]
@@ -954,7 +954,7 @@ air.type = High
 air.velocity = -1.4,-8
 air.hittime = 12
 envshake.time = 8
-getpower = 15,10
+getpower = 30,15
 givepower = 10,5
 fall = 1
 fall.recover = 0
@@ -1084,7 +1084,7 @@ air.type = High
 air.velocity = -1.4,-8
 air.hittime = 12
 envshake.time = 8
-getpower = 15,10
+getpower = 30,15
 givepower = 10,5
 fall = 1
 fall.recover = 0
@@ -1220,7 +1220,7 @@ air.type = High
 air.velocity = -4,14
 air.hittime = 12
 envshake.time = 8
-getpower = 15,10
+getpower = 30,15
 givepower = 10,5
 fall = 1
 fall.recover = 0
@@ -1300,7 +1300,7 @@ air.type = High
 air.velocity = -1.4,-3
 air.hittime = 12
 ENVSHAKE.TIME = 8
-GETPOWER = 15,10
+getpower = 30,15
 GIVEPOWER = 10,5
 
 [State 0, VelSet]
@@ -1409,7 +1409,7 @@ air.type = High
 air.velocity = -1.4,-3
 air.hittime = 12
 ENVSHAKE.TIME = 8
-GETPOWER = 15,10
+getpower = 30,15
 GIVEPOWER = 10,5
 
 [State 0, VelSet]
@@ -1520,7 +1520,7 @@ air.type = High
 air.velocity = -8,-1
 air.hittime = 12
 ENVSHAKE.TIME = 8
-GETPOWER = 20,15
+getpower = 30,15
 GIVEPOWER = 15,10
 
 [State 0, VelSet]
@@ -1606,6 +1606,7 @@ type = HitDef
 trigger1 = AnimElem = 2
 attr = S, NA
 damage = 20,8
+getpower = 30,15
 animtype = Medium
 guardflag = MA
 hitflag = MAFDE
@@ -1727,6 +1728,7 @@ type = HitDef
 trigger1 = AnimElem = 4
 attr = S, NA
 damage = 25,8
+getpower = 30,15
 animtype = Medium
 guardflag = MA
 hitflag = MAFDE
@@ -2008,7 +2010,7 @@ airguard.velocity = -1.9,-.8
 air.type = High
 air.velocity = -3,-6
 air.hittime = 12
-getpower = 15,10
+getpower = 30,15
 givepower = 10,5
 fall = 1
 envshake.time =8
@@ -2163,7 +2165,7 @@ air.type = High
 air.velocity = -4,-5
 air.hittime = 12
 envshake.time = 8
-getpower = 15,10
+getpower = 30,15
 givepower = 10,5
 fall = 1
 fall.recover = 0
@@ -2310,7 +2312,7 @@ air.type = High
 air.velocity = -8,-1
 air.hittime = 12
 envshake.time = 8
-getpower = 15,10
+getpower = 30,15
 givepower = 10,5
 fall = 1
 fall.recover = 0
@@ -2392,7 +2394,7 @@ airguard.velocity = -1.9,-.8
 air.type = High
 air.velocity = -6,-3
 air.hittime = 12
-getpower = 15,10
+getpower = 30,15
 givepower = 10,5
 fall = 1
 fall.recover = 0
@@ -2460,7 +2462,7 @@ airguard.velocity = -1.9,-.8
 air.type = High
 air.velocity = -1,-6
 air.hittime = 12
-getpower = 15,10
+getpower = 30,15
 givepower = 10,5
 fall = 1
 envshake.time =8
@@ -2522,7 +2524,7 @@ airguard.velocity = -1.9,-.8
 air.type = High
 air.velocity = -7,13
 air.hittime = 12
-getpower = 15,10
+getpower = 30,15
 givepower = 10,5
 fall = 1
 fall.recover = 0
@@ -3250,7 +3252,7 @@ movetype= A
 physics = S
 anim = 6011
 sprpriority = 5
-poweradd = 5
+poweradd = 0
 juggle = 1
 
 

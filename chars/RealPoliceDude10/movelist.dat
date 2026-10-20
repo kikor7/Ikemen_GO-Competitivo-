@@ -1,0 +1,27 @@
+<#f0f000>:Special Moves:</>
+BANG!			_QCB^X
+BANG! BANG!			_QCB^Y
+BANG! BANG! BANG!			_QCB^Z
+Excessive Force (Magnum)			_QCF^X
+Excessive Force ("Machine Gun")			_QCF^Y
+Excessive Force (Rocket Launcher)			_QCF^Z
+Police Brutality			_QCF^C
+Police Brutality (Ground n' Pound)			_QCF^A
+Police Brutality (Handcuffs)			_QCF^B
+Speedrunning Tactics			_DSF^X
+Speedrunning Tactics			_DSF^Y
+Speedrunning Tactics			_DSF^Z
+Quick Time Event (Dodge)			_QCB^A
+Quick Time Event (Fail)			_QCB^B
+Quick Time Event (Chris)			_QCB^C
+Mind Blowing Suplex			^X_+^A
+HUAGH!			~B^Y_+^B
+HUAGH!			^Y_+^B
+Out of Bounds Suplex			^Z_+^C
+Armored Ashley			_QCB^S
+
+<#f0f000>:Hyper Moves:</>
+Real Undercover Mission <#f00000>(2000)</>			_DSF^X_+^Y
+Real Undercover Mission <#f00000>(2000)</>			_QCF^A_+^B
+Real Cavity Search <#f00000>(1000)</>			_QCB^X_+^Y
+Real Original Ending <#f00000>(1000)</>			_QCF^X_+^Y

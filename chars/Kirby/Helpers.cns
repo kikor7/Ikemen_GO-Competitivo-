@@ -2949,6 +2949,7 @@ trigger1 = !movecontact
 trigger1 = enemynear,movetype != A
 attr = A, SP
 damage = ceil(55*root,fvar(4)),8
+getpower = 7,3
 hitflag = MAFD
 guardflag = MA
 animtype = hard
@@ -2974,6 +2975,7 @@ trigger1 = !movecontact
 trigger1 = enemynear,movetype = A
 attr = A, SP
 damage = ceil(65*root,fvar(4)),8
+getpower = 7,3
 hitflag = MAFD
 guardflag = MA
 animtype = hard
@@ -3115,6 +3117,7 @@ trigger1 = !movecontact
 trigger1 = enemynear,movetype != A
 attr = A, SP
 damage = ceil(70*root,fvar(4)),9
+getpower = 7,3
 hitflag = MAFD
 guardflag = MA
 animtype = hard
@@ -3140,6 +3143,7 @@ trigger1 = !movecontact
 trigger1 = enemynear,movetype = A
 attr = A, SP
 damage = ceil(85*root,fvar(4)),9
+getpower = 7,3
 hitflag = MAFD
 guardflag = MA
 animtype = hard
@@ -3276,6 +3280,7 @@ trigger1 = !movecontact
 trigger1 = enemynear,movetype != A
 attr = A, SP
 damage = ceil(150*root,fvar(4)),25
+getpower = 7,3
 hitflag = MAFD
 guardflag = MA
 animtype = hard
@@ -3303,6 +3308,7 @@ trigger1 = !movecontact
 trigger1 = enemynear,movetype = A
 attr = A, SP
 damage = ceil(175*root,fvar(4)),25
+getpower = 7,3
 hitflag = MAFD
 guardflag = MA
 animtype = hard
@@ -3611,6 +3617,7 @@ trigger1 = !movecontact
 trigger1 = enemynear,movetype != A
 attr = A, SA
 damage    = ceil(32*root,fvar(4)),3
+getpower = 7,3
 hitflag = MAF
 guardflag = MA
 priority = 2
@@ -3637,6 +3644,7 @@ trigger1 = !movecontact
 trigger1 = enemynear,movetype = A
 attr = A, SA
 damage    = ceil(53*root,fvar(4)),3
+getpower = 7,3
 hitflag = MAF
 guardflag = MA
 priority = 3
@@ -3663,6 +3671,7 @@ trigger1 = !movecontact
 trigger1 = enemynear,movetype != A
 attr = A, SA
 damage    = ceil(44*root,fvar(4)),3
+getpower = 7,3
 hitflag = MAFD
 guardflag = MA
 priority = 2
@@ -3689,6 +3698,7 @@ trigger1 = !movecontact
 trigger1 = enemynear,movetype = A
 attr = A, SA
 damage    = ceil(61*root,fvar(4)),3
+getpower = 7,3
 hitflag = MAFD
 guardflag = MA
 priority = 3
@@ -4631,7 +4641,7 @@ trigger1 = enemynear,movetype != A
 trigger1 = enemynear,movetype != H
 attr = A, SP
 damage = Ceil(48*root,fvar(4)),9
-getpower = 23, 12
+getpower = 2,1
 animtype = Hard
 guardflag = MA
 hitflag = MAFD
@@ -4658,7 +4668,7 @@ trigger1 = !movecontact
 trigger1 = enemynear,movetype = H
 attr = A, SP
 damage = Ceil(48*root,fvar(4)),9
-getpower = 23, 12
+getpower = 2,1
 animtype = Hard
 guardflag = MA
 hitflag = MAFD
@@ -4685,7 +4695,7 @@ trigger1 = !movecontact
 trigger1 = enemynear,movetype = A
 attr = A, SP
 damage = Ceil(70*root,fvar(4)),9
-getpower = 23, 12
+getpower = 2,1
 animtype = Hard
 guardflag = MA
 hitflag = MAFD
@@ -4800,7 +4810,7 @@ trigger1 = enemynear,movetype != A
 trigger1 = enemynear,movetype != H
 attr = A, SP
 damage = Ceil(40*root,fvar(4)),9
-getpower = 23, 12
+getpower = 2,1
 animtype = Hard
 guardflag = M
 hitflag = MAFD
@@ -4827,7 +4837,7 @@ trigger1 = !movecontact
 trigger1 = enemynear,movetype = H
 attr = A, SP
 damage = Ceil(40*root,fvar(4)),9
-getpower = 23, 12
+getpower = 2,1
 animtype = Hard
 guardflag = MA
 hitflag = MAFD
@@ -4854,7 +4864,7 @@ trigger1 = !movecontact
 trigger1 = enemynear,movetype = A
 attr = A, SP
 damage = Ceil(60*root,fvar(4)),9
-getpower = 23, 12
+getpower = 2,1
 animtype = Hard
 guardflag = M
 hitflag = MAFD
@@ -4969,7 +4979,7 @@ trigger1 = enemynear,movetype != A
 trigger1 = enemynear,movetype != H
 attr = A, SP
 damage = Ceil(40*root,fvar(4)),9
-getpower = 23, 12
+getpower = 2,1
 animtype = Hard
 guardflag = M
 hitflag = MAFD
@@ -4996,7 +5006,7 @@ trigger1 = !movecontact
 trigger1 = enemynear,movetype = H
 attr = A, SP
 damage = Ceil(40*root,fvar(4)),9
-getpower = 23, 12
+getpower = 2,1
 animtype = Hard
 guardflag = MA
 hitflag = MAFD
@@ -5023,7 +5033,7 @@ trigger1 = !movecontact
 trigger1 = enemynear,movetype = A
 attr = A, SP
 damage = Ceil(60*root,fvar(4)),9
-getpower = 23, 12
+getpower = 2,1
 animtype = Hard
 guardflag = M
 hitflag = MAFD
@@ -5138,7 +5148,7 @@ trigger1 = enemynear,movetype != A
 trigger1 = enemynear,movetype != H
 attr = A, SP
 damage = Ceil(40*root,fvar(4)),9
-getpower = 23, 12
+getpower = 2,1
 animtype = Hard
 guardflag = M
 hitflag = MAFD
@@ -5165,7 +5175,7 @@ trigger1 = !movecontact
 trigger1 = enemynear,movetype = H
 attr = A, SP
 damage = Ceil(40*root,fvar(4)),9
-getpower = 23, 12
+getpower = 2,1
 animtype = Hard
 guardflag = MA
 hitflag = MAFD
@@ -5192,7 +5202,7 @@ trigger1 = !movecontact
 trigger1 = enemynear,movetype = A
 attr = A, SP
 damage = Ceil(60*root,fvar(4)),9
-getpower = 23, 12
+getpower = 2,1
 animtype = Hard
 guardflag = M
 hitflag = MAFD
@@ -5313,7 +5323,7 @@ trigger1 = !movecontact
 trigger1 = enemynear,movetype != A
 attr = A, SP
 damage = Ceil(7*root,fvar(4)),2
-getpower = 23, 12
+getpower = 7,3
 animtype = Hard
 guardflag = MA
 hitflag = MAFD
@@ -5340,7 +5350,7 @@ trigger1 = !movecontact
 trigger1 = enemynear,movetype = A
 attr = A, SP
 damage = Ceil(18*root,fvar(4)),2
-getpower = 23, 12
+getpower = 7,3
 animtype = Hard
 guardflag = MA
 hitflag = MAFD
@@ -5479,7 +5489,7 @@ trigger1 = !movecontact
 trigger1 = enemynear,movetype != A
 attr = A, SP
 damage = Ceil(7*root,fvar(4)),2
-getpower = 23, 12
+getpower = 15,7
 animtype = Hard
 guardflag = MA
 hitflag = MAFD
@@ -5507,7 +5517,7 @@ trigger1 = !movecontact
 trigger1 = enemynear,movetype = A
 attr = A, SP
 damage = Ceil(18*root,fvar(4)),2
-getpower = 23, 12
+getpower = 15,7
 animtype = Hard
 guardflag = MA
 hitflag = MAFD
@@ -5690,6 +5700,7 @@ trigger1 = !movecontact
 trigger1 = enemynear,movetype != A
 attr = A, SP
 damage = ceil(80*root,fvar(4)),12
+getpower = 7,3
 hitflag = MAFD
 guardflag = MA
 animtype = hard
@@ -5717,6 +5728,7 @@ trigger1 = !movecontact
 trigger1 = enemynear,movetype = A
 attr = A, SP
 damage = ceil(100*root,fvar(4)),13
+getpower = 7,3
 hitflag = MAFD
 guardflag = MA
 animtype = hard
@@ -7343,7 +7355,7 @@ trigger1 = !movecontact
 trigger1 = enemynear,movetype != A
 attr = A, SP
 damage = Ceil(25*root,fvar(4)),9
-getpower = 23, 12
+getpower = 15,7
 animtype = Hard
 guardflag = MA
 hitflag = MAFD
@@ -7369,7 +7381,7 @@ trigger1 = !movecontact
 trigger1 = enemynear,movetype = A
 attr = A, SP
 damage = Ceil(40*root,fvar(4)),9
-getpower = 23, 12
+getpower = 15,7
 animtype = Hard
 guardflag = MA
 hitflag = MAFD

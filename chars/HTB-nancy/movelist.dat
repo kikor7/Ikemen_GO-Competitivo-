@@ -1,0 +1,9 @@
+<#f0f000>:Special Moves:</>
+Ki Ki Gori Saka E Kan U Kan A			_DSF^Y
+Ren Gan Gan Tei J Kan Ou Phi Kan Shita Shita Shi Myou A			_D_B^Y
+Un So Kan Shi Kan Ou Ou Sa Kan Yu Kan Ou Sa Kan U Kan Dai Phi Kan A			_D_F^Y
+
+<#f0f000>:Hyper Moves:</>
+Kan E Un Ku Un A Kan Saka Saka Shi Un Ki Kan A Kan U Kan Kan Kan Shi Kan Un Un Type Changestate Type Changestatevalue 3100 Type Changestatevalue 3100Triggerall Power 2000 Type Changestatevalue 3100Triggerall Power 2000Triggerall Command Kaifuku Type Changestatevalue 3100Triggerall Power 2000Triggerall Command Kaifuku Triggerall Alive Var 1 Type Changestatevalue 3100Triggerall Power 2000Triggerall Command Kaifuku Triggerall Alive Var 1Trigger1 Ctrl Statetype A A A --------------------------------------------------------------------------- A --------------------------------------------------------------------------- --------------------------------------------------------------------------- A --------------------------------------------------------------------------- --------------------------------------------------------------------------- State -1 Ki Ki Gori Saka E Kan U Kan X <#f00000>(1000)</>			_DSF^X_+^Y
+Ren Gan Gan Tei J Kan Ou Phi Kan Shita Shita Shi Ex <#f00000>(1000)</>			_D_B^X_+^Y
+Un So Kan Shi Kan Ou Ou Sa Kan Yu Kan Ou Sa Kan U Kan Dai Phi Kan X <#f00000>(1000)</>			_D_F^X_+^Y

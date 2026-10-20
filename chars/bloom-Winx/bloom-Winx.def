@@ -6,6 +6,7 @@ mugenversion=1.0
 author="Justin kaiser"
 pal.defaults=1,2
 [Files]
+movelist = movelist.dat
 sprite=bloom.sff
 sound=bloom.snd
 anim=bloom.air

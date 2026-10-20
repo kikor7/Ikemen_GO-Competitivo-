@@ -13,6 +13,7 @@ Pal.Defaults = 1,4,7,10
 ;-----------------------------------------------------------------------------
 
 [Files]
+movelist = movelist.dat
 Cmd      = biollente.cmd      ;コマンドファイルの登録
 Cns      = biollente.cns      ;コンスタンツファイルの登録
 St       = biollente.cns      ;｝

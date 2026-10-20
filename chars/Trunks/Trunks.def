@@ -7,6 +7,7 @@ author = "ShinLucho"
 localcoord = 320,240
 
 [Files]
+movelist = movelist.dat
 sprite = Files/sprites.sff
 anim = Files/animations.air
 sound = Files/sounds.snd

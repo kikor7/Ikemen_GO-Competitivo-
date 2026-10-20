@@ -12,6 +12,7 @@ Pal.Defaults = 6,3,4,2        ;ＣＰＵで出てきた時のカラーパレットの順番
 
 
 [Files]
+movelist = movelist.dat
 Cmd      = DENJI_cmd.cmd       
 Cns      = DENJI_CNS.cns
 StCommon = DENJI_COMMON.cns

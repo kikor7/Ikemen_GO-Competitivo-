@@ -2833,6 +2833,7 @@ ctrl = 1
 ;Power Charge
 [StateDef 900]
 type = S
+poweradd = 20
 movetype = I
 physics = S
 anim = 900
@@ -2841,6 +2842,7 @@ ctrl = 0
 
 [State 4900, Projectile] ;EMO Killer
 type = Projectile
+getpower = 30,15
 trigger1 = var(54)>0 ;EMO Exit active
 ProjID = 4900
 projanim = 9999
@@ -4787,7 +4789,7 @@ ctrl		= 0
 anim		= 951
 sprpriority	= 1
 facep2		= 1
-poweradd		= 20
+poweradd		= 0
 
 [State 800, Don't Guard]
 type		= attackdist
@@ -4796,6 +4798,7 @@ value		= 0
 
 [State 800, hit]
 type		= HitDef
+getpower = 6,3
 trigger1		= AnimElem = 1
 attr		= S,NT
 hitflag		= M- 

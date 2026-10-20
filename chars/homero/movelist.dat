@@ -1,0 +1,25 @@
+<#f0f000>:Special Moves:</>
+Overdrive			_QCB_QCB^S
+Kuzukaze			_QCB^Z
+212 Shiki: Kototsuki In_a			_QCB^A
+212 Shiki: Kototsuki In_b			_QCB^B
+100 Shiki: Oniyaki_x			_XFF^X
+100 Shiki: Oniyaki_y			_XFF^Y
+Especial 7			_QCF^X
+Especial 8			_QCF^Y
+Especial 9			_QCF^Z
+127 Shiki: Aoi Hana			_QCB^X
+Especial 11			_QCB^C
+
+<#f0f000>:Hyper Moves:</>
+Super 1 <#f00000>(1000)</>			_QCB^Y_+^Z
+Super 2 <#f00000>(1000)</>			_QCB^X_+^Y
+Super 3 <#f00000>(1000)</>			_QCB^X_+^Z
+Super 4 <#f00000>(1000)</>			_QCF^Y_+^Z
+Kin 1211 Shiki: Ya Otome_LV.2 <#f00000>(1000)</>			_QCF^X_+^Z
+Kin 1211 Shiki: Ya Otome_LV.1 <#f00000>(1000)</>			_QCF^X_+^Y
+Ura 100 Shiki: Oni homura_LV.3 <#f00000>(3000)</>			_D_F_D_F^X_+^Y
+Ura 100 Shiki: Oni homura_LV.2 <#f00000>(2000)</>			_D_F_D_F^Y
+Ura 100 Shiki: Oni homura_LV.1 <#f00000>(1000)</>			_D_F_D_F^X
+Hyper <#f00000>(2000)</>			_QCF^A_+^B
+Triple Kung Fu Palm <#f00000>(3000)</>			_QCF_QCF^S

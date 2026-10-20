@@ -379,7 +379,7 @@ triggerall = !movecontact
 trigger1 = animelem = 4
 attr = S, NA
 animtype  = Light
-getpower = 35,10
+getpower = 30,15
 damage    = 30
 guardflag = MA
 pausetime = 8,10
@@ -488,7 +488,7 @@ triggerall = !movecontact
 trigger1 = animelem = 4
 attr = C, NA
 animtype  = Medium
-getpower = 30,20
+getpower = 30,15
 damage    = 10
 guardflag = L
 pausetime = 8,10
@@ -747,7 +747,7 @@ triggerall = !movecontact
 trigger1 = animelem = 4
 attr = S, NA
 animtype  = Light
-getpower = 35,10
+getpower = 30,15
 damage    = 30
 guardflag = MA
 pausetime = 10,12
@@ -842,7 +842,7 @@ triggerall = !movecontact
 trigger1 = animelem = 4
 attr = S, NA
 animtype  = Medium
-getpower = 50,20
+getpower = 30,15
 damage    = 50
 guardflag = MA
 pausetime = 12,14
@@ -945,7 +945,7 @@ triggerall = !movecontact
 trigger1 = animelem = 3
 attr = C, NA
 animtype  = Medium
-getpower = 40,20
+getpower = 30,15
 damage    = 40
 guardflag = MA
 pausetime = 12,14
@@ -1333,7 +1333,7 @@ triggerall = !movecontact
 trigger1 = animelem = 3
 attr = S, NA
 animtype  = Light
-getpower = 70,10
+getpower = 15,7
 damage    = 70
 guardflag = MA
 pausetime = 14,18
@@ -1497,7 +1497,7 @@ triggerall = !movecontact
 trigger1 = animelem = 3
 attr = S, NA
 animtype  = Medium
-getpower = 70,10
+getpower = 15,7
 damage    = 70
 guardflag = MA
 pausetime = 16,18
@@ -1622,7 +1622,7 @@ triggerall = !movecontact
 trigger1 = animelem = 4
 attr = S, NA
 animtype  = Light
-getpower = 30,10
+getpower = 30,15
 damage    = 30
 guardflag = MA
 pausetime = 8,10
@@ -1736,7 +1736,7 @@ triggerall = !movecontact
 trigger1 = animelem = 4
 attr = S, NA
 animtype  = Medium
-getpower = 50,20
+getpower = 30,15
 damage    = 50
 guardflag = MA
 pausetime = 12,14
@@ -1940,7 +1940,7 @@ type = HitDef
 triggerall = !movecontact
 trigger1 = AnimElem = 2
 attr = A, NA
-getpower = 30,20
+getpower = 30,15
 damage = 30
 guardflag = HA
 priority = 3
@@ -2042,7 +2042,7 @@ type = HitDef
 triggerall = !movecontact
 trigger1 = AnimElem = 5
 attr = A, NA
-getpower = 50,30
+getpower = 30,15
 damage = 50
 guardflag = HA
 priority = 3
@@ -2166,7 +2166,7 @@ type = HitDef
 triggerall = !movecontact
 trigger1 = AnimElem = 3
 attr = A, NA
-getpower = 60,30
+getpower = 30,15
 damage = 50
 guardflag = HA
 priority = 3
@@ -3369,7 +3369,7 @@ triggerall = ifelse(p2stateno = 1030, p2statetype = A, p2movetype != H)
 Trigger1 = Time = 0
 attr = S, NT
 hitflag = M-
-getpower = 0,0
+getpower = 60,30
 pausetime = 0,0
 sparkno = -1
 guard.dist = 0
@@ -5333,6 +5333,7 @@ trigger1 = animelem = 3
 attr = S, HA
 animtype  = medium
 damage    = 0,0
+getpower = 60,30
 guardflag = MA
 pausetime = 12,12
 sparkno = -1
@@ -5496,6 +5497,7 @@ trigger1 = animelem = 3
 attr = S, HA
 animtype  = medium
 damage    = 0,0
+getpower = 60,30
 guardflag = MA
 pausetime = 12,12
 sparkno = -1

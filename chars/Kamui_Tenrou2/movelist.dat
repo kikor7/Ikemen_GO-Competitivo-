@@ -1,0 +1,20 @@
+<#f0f000>:Special Moves:</>
+Ten Mai Zan A			_DSF^X
+Ten Mai Zan B			_DSF^Y
+Ten Ryuu Zan A			_QCB^X
+Ten Ryuu Zan B			_QCB^Y
+Tentsuki Zan A			_QCF^X
+Tentsuki Zan B			_QCF^Y
+Uke Nagashi			_QCB^A
+Ten Ha Ashi			_D_D^A
+Tendou Ashi			_D_D^B
+Nage			^X_+^C
+Nage			^A_+^C
+
+<#f0f000>:Hyper Moves:</>
+Tenrou Zan <#f00000>(4000)</>			_HCB_F^C
+Ten Retsu Zan <#f00000>(1000)</>			_QCB^X_+^C
+Ten Baku Zan <#f00000>(2000)</>			_QCB^X_+^C
+Tenkuu Zan A <#f00000>(1000)</>			_DSF^Y_+^C
+Ten Gatsu Zan <#f00000>(1000)</>			_QCF^X_+^C
+B Kauntaa <#f00000>(1000)</>			~F^X_+^C

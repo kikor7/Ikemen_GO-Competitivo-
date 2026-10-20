@@ -54,7 +54,7 @@ anim = 10561
 ctrl = 0
 velset = 0,0
 sprpriority = 5
-poweradd=120
+poweradd=0
 
 [State 501]
 Type=Posset
@@ -230,7 +230,7 @@ MoveType = A
 Physics  = N
 Anim     = 10240
 SprPriority = 4
-PowerAdd = 30
+PowerAdd = 0
 
 [State 541]
 Type=Assertspecial
@@ -390,7 +390,7 @@ Size.YScale = 1
 [State 520]
 Type=PowerAdd
 Trigger1=1
-value=1
+value=0
 
 [State 520]
 Type=Turn
@@ -717,7 +717,7 @@ MoveType=A
 Physics=N
 Type=A
 sprpriority=3
-PowerAdd = 60
+PowerAdd = 0
 
 [State 1061]
 Type=Attackdist
@@ -824,7 +824,7 @@ velset=0,0
 juggle  = 1
 ctrl=0
 anim=320
-poweradd=40
+poweradd=0
 facep2=1
 
 [State 221]
@@ -1025,7 +1025,7 @@ Movetype=A
 Physics=N
 anim=571
 sprpriority=-20
-PowerAdd = 60
+PowerAdd = 0
 
 [State 571]
 Type=Attackdist
@@ -1263,7 +1263,7 @@ Type=A
 Movetype=A
 Physics=N
 anim=581
-poweradd=5
+poweradd=0
 sprpriority=4
 velset = -4,(random %91-40)*0.1
 
@@ -1415,7 +1415,7 @@ Type=A
 Movetype=A
 Physics=N
 anim=581
-poweradd=5
+poweradd=0
 sprpriority=4
 velset = -4,(random %91-40)*0.1
 

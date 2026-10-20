@@ -1,0 +1,17 @@
+<#f0f000>:Special Moves:</>
+Shadouneiru Jaku			_QCF^X
+Shadouneiru Kyou			_QCF^Y
+Buraindomiraaju X			_B_F_B^X
+Buraindomiraaju Y			_B_F_B^Y
+Buraindomiraaju A			_B_F_B^A
+Shadoufangu Jaku			_D_U^X
+Shadoufangu Kyou			_D_U^Y
+Shadousukureipaa Jaku			_B_F^A
+Shadousukureipaa Kyou			_B_F^B
+
+<#f0f000>:Hyper Moves:</>
+Shadoupurizun <#f00000>(2000)</>			_F_HCF^A_+^B
+Toku Kyou Shadouneiru <#f00000>(1000)</>			_QCF^X_+^Y
+Toku Kyou Shadousukureipaa <#f00000>(1000)</>			_B_F^A_+^B
+Toku Kyou Shadoufangu <#f00000>(1000)</>			_D_U^X_+^Y
+Toku Kyou Buraindomiraaju <#f00000>(1000)</>			_B_F_B^X_+^Y

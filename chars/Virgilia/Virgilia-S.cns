@@ -125,6 +125,7 @@ ctrl = 1
 ;šššššššššššššššššššššššššššššššššššššššššššš
 [StateDef 1001]
 type = C
+poweradd = 20
 movetype = I
 physics = N
 juggle  = 1
@@ -521,6 +522,7 @@ ctrl = 1
 ;šššššššššššššššššššššššššššššššššššššššššššš
 [StateDef 1075]
 type = C
+poweradd = 20
 movetype= A
 physics = N
 juggle  = 1
@@ -4568,6 +4570,7 @@ ignorehitpause = 1
 ;===========================================================================
 [StateDef 1200]
 type = S
+poweradd = 20
 movetype= A
 physics = N
 juggle  = 1
@@ -4702,6 +4705,7 @@ ctrl = 1
 ;šššššššššššššššššššššššššššššššššššššššššššš
 [StateDef 1225]
 type = S
+poweradd = 20
 movetype= A
 physics = N
 juggle  = 1
@@ -4836,6 +4840,7 @@ ctrl = 1
 ;šššššššššššššššššššššššššššššššššššššššššššš
 [StateDef 1250]
 type = S
+poweradd = 20
 movetype= A
 physics = N
 juggle  = 1
@@ -5459,6 +5464,7 @@ trigger1 = AnimTime = 0
 ;===========================================================================
 [StateDef 1300]
 type = S
+poweradd = 20
 movetype= A
 physics = N
 juggle  = 1
@@ -5640,6 +5646,7 @@ ctrl = 1
 ;===========================================================================
 [StateDef 1375]
 type = S
+poweradd = 0
 movetype= A
 physics = S
 juggle  = 0
@@ -7057,6 +7064,7 @@ ctrl = 0
 ;šššššššššššššššššššššššššššššššššššššššššššš
 [StateDef 1575]
 type = S
+poweradd = 20
 movetype= A
 physics = N
 juggle  = 0
@@ -7981,7 +7989,7 @@ damage = 0,0
 animtype = Hard
 guardflag = M
 hitflag = MAF
-getpower = ceil(125*fvar(8)),ceil(125*fvar(8))
+getpower = 8,4
 givepower = Ceil(150*fvar(9)*enemynear,powermax/5000*!var(54)),Ceil(100*fvar(9)*enemynear,powermax/5000*!var(54))
 priority = 9, Hit
 pausetime = 0,0
@@ -8680,7 +8688,7 @@ damage = 0,0
 animtype = Hard
 guardflag = 
 hitflag = MAFD
-getpower = ceil(125*fvar(8)),ceil(125*fvar(8))
+getpower = 8,4
 givepower = Ceil(150*fvar(9)*enemynear,powermax/5000*!var(54)),Ceil(100*fvar(9)*enemynear,powermax/5000*!var(54))
 priority = 4, Hit
 pausetime = 0,0
@@ -8715,7 +8723,7 @@ damage = 0,0
 animtype = Hard
 guardflag = 
 hitflag = MAFD
-getpower = ceil(125*fvar(8)),ceil(125*fvar(8))
+getpower = 8,4
 givepower = Ceil(150*fvar(9)*enemynear,powermax/5000*!var(54)),Ceil(100*fvar(9)*enemynear,powermax/5000*!var(54))
 priority = 4, Hit
 pausetime = 0,0
@@ -8750,7 +8758,7 @@ damage = 0,0
 animtype = Hard
 guardflag = 
 hitflag = MAFD
-getpower = ceil(125*fvar(8)),ceil(125*fvar(8))
+getpower = 8,4
 givepower = Ceil(150*fvar(9)*enemynear,powermax/5000*!var(54)),Ceil(100*fvar(9)*enemynear,powermax/5000*!var(54))
 priority = 4, Hit
 pausetime = 0,0
@@ -8785,7 +8793,7 @@ damage = 0,0
 animtype = Hard
 guardflag = 
 hitflag = MAFD
-getpower = ceil(125*fvar(8)),ceil(125*fvar(8))
+getpower = 8,4
 givepower = Ceil(150*fvar(9)*enemynear,powermax/5000*!var(54)),Ceil(100*fvar(9)*enemynear,powermax/5000*!var(54))
 priority = 6, Hit
 pausetime = 0, 1
@@ -8835,7 +8843,7 @@ damage = 0,0
 animtype = Up
 guardflag = 
 hitflag = MAFD
-getpower = ceil(125*fvar(8)),ceil(125*fvar(8))
+getpower = 8,4
 givepower = Ceil(150*fvar(9)*enemynear,powermax/5000*!var(54)),Ceil(100*fvar(9)*enemynear,powermax/5000*!var(54))
 priority = 6, Hit
 pausetime = 0, 1
@@ -8884,7 +8892,7 @@ damage = Ceil(645*fvar(14)*fvar(15))
 animtype = Diagup
 guardflag = 
 hitflag = MAFD
-getpower = ceil(125*fvar(8)),ceil(125*fvar(8))
+getpower = 8,4
 givepower = Ceil(150*fvar(9)*enemynear,powermax/5000*!var(54)),Ceil(100*fvar(9)*enemynear,powermax/5000*!var(54))
 priority = 6, Hit
 pausetime = 0, 1

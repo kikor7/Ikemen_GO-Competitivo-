@@ -22,6 +22,7 @@ pal.defaults = 1
 ;━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 [Files]
+movelist = movelist.dat
 Cmd     = Anonym.cmd    		   ;コマンドファイルの登録
 StCommon = common1.cns    		  ;コモンステートファイルの登録
 Sprite  = Anonym.sff     		  ;複数のＰＣＸ画像をまとめたスプライトファイルの登録

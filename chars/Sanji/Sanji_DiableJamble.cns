@@ -457,6 +457,7 @@ trigger1 = animelem = 3
 attr = S, SA
 animtype  = Light
 damage    = 20,2
+getpower = 30,15
 guardflag = MA
 pausetime = 8,10
 sparkno = -1;s6000
@@ -665,6 +666,7 @@ trigger3 = animelem = 5
 attr = S, SA
 animtype  = Light
 damage    = 30
+getpower = 30,15
 guardflag = MA
 pausetime = 10,12
 sparkno = -1;s6000
@@ -856,6 +858,7 @@ trigger1 = animelem = 5
 attr = S, SA
 animtype  = Light
 damage    = 30,5
+getpower = 60,30
 guardflag = MA
 pausetime = 10,12
 sparkno = -1;s6000
@@ -1083,6 +1086,7 @@ trigger2 = animelem = 4
 attr = C, SA
 animtype  = Light
 damage    = 30,5
+getpower = 60,30
 guardflag = L
 pausetime = 8,10
 sparkno = -1;s6000
@@ -1313,6 +1317,7 @@ trigger4 = animelem = 7
 attr = A, SA
 animtype  = High
 damage    = 60,5
+getpower = 60,30
 guardflag = MA
 pausetime = 12,12
 sparkno = -1;s6000
@@ -1512,6 +1517,7 @@ trigger3 = animelem = 5
 attr = A, SA
 animtype  = Light
 damage    = 30,5
+getpower = 30,15
 guardflag = HA
 pausetime = 10,12
 sparkno = -1;s6000
@@ -1718,6 +1724,7 @@ trigger4 = animelem = 6
 attr = A, SA
 animtype  = Light
 damage    = 30,5
+getpower = 30,15
 guardflag = HA
 pausetime = 10,12
 sparkno = -1;s6000
@@ -1898,6 +1905,7 @@ trigger1 = time = 20
 ; Frit Assorité
 [Statedef 2700]
 type    = S
+poweradd = 20
 physics = N
 ctrl = 0
 anim = 2700
@@ -2441,6 +2449,7 @@ type = HitDef
 trigger1 =  animelem = 2
 attr = A, SP
 damage    = 30, 2
+getpower = 10,5
 guardflag = HA
 priority = 4
 pausetime = 6,6
@@ -2598,6 +2607,7 @@ type = HitDef
 trigger1 =  animelem = 2
 attr = A, SP
 damage    = 30, 2
+getpower = 10,5
 guardflag = HA
 priority = 4
 pausetime = 6,6
@@ -2755,6 +2765,7 @@ type = HitDef
 trigger1 =  animelem = 2
 attr = A, SP
 damage    = 30, 2
+getpower = 10,5
 guardflag = HA
 priority = 4
 pausetime = 6,6
@@ -3046,6 +3057,7 @@ trigger1 =  animelem = 3
 trigger2 =  animelem = 5
 attr = A, SA
 damage    = 10, 2
+getpower = 30,15
 guardflag = MA
 priority = 4
 pausetime = 6,6
@@ -3295,6 +3307,7 @@ trigger1 = animelem = 4
 attr = A, SA
 animtype  = Light
 damage    = 30,5
+getpower = 30,15
 guardflag = HA
 pausetime = 15,15
 sparkno = -1;s6000
@@ -3473,6 +3486,7 @@ trigger1 =  animelem = 4
 trigger2 =  animelem = 7
 attr = A, SA
 damage    = 5, 1
+getpower = 30,15
 guardflag = HA
 priority = 4
 pausetime = 6,6
@@ -3664,7 +3678,7 @@ trigger2 = animelem = 3
 attr = A, SA
 animtype  = Hard
 damage    = 80,5
-getpower  = 0
+getpower = 30,15
 priority = 7, Hit
 guardflag = HA
 pausetime = 12,12
@@ -3895,6 +3909,7 @@ trigger1 =  animelem = 4
 trigger2 =  animelem = 7
 attr = A, SA
 damage    = 5, 1
+getpower = 60,30
 guardflag = HA
 priority = 4
 pausetime = 6,6

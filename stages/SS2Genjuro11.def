@@ -128,21 +128,22 @@ start = 0,0
 delta = 1,1
 mask = 1
 
-[BG 4]
-type = anim
-actionno = 4
-start = 0,0
-delta = 1,1
-layerno = 1
-mask = 1
+;Desactivado: su accion (4) no existe (renumerada a 999994) y Ikemen se cerraba
+;[BG 4]
+;type = anim
+;actionno = 4
+;start = 0,0
+;delta = 1,1
+;layerno = 1
+;mask = 1
 
-[BG 5]
-type = anim
-actionno = 5
-start = 0,0
-delta = 1,1
-layerno = 1
-mask = 1
+;[BG 5]
+;type = anim
+;actionno = 5
+;start = 0,0
+;delta = 1,1
+;layerno = 1
+;mask = 1
 
 [Begin Action 3]
 3,0,0,0, 7

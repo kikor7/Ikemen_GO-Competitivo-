@@ -172,7 +172,7 @@ physics = S
 juggle  = 2
 ctrl = 0
 anim = 200
-poweradd = 100
+poweradd = 0
 velset = 0,0
 sprpriority = 2
 
@@ -200,6 +200,7 @@ trigger1 = 1
 attr = S, NA
 animtype  = Light
 damage    = 15
+getpower = 5,2
 guardflag = MA
 pausetime = 2,10
 sparkno = -1
@@ -257,7 +258,7 @@ physics = S
 juggle  = 2
 ctrl = 0
 anim = 205
-poweradd = 50
+poweradd = 0
 velset = 0,0
 sprpriority = 2
 
@@ -334,6 +335,7 @@ trigger1 = 1
 attr = S, NA
 animtype  = Medium
 damage    = 15
+getpower = 5,2
 guardflag = MA
 pausetime = 2,10
 sparkno = -1
@@ -391,7 +393,7 @@ physics = S
 juggle  = 2
 ctrl = 0
 anim = 210
-poweradd = 50
+poweradd = 0
 velset = 0,0
 sprpriority = 2
 
@@ -468,6 +470,7 @@ trigger1 = 1
 attr = S, NA
 animtype  = Medium
 damage    = 20
+getpower = 5,2
 guardflag = MA
 pausetime = 2,15
 sparkno = -1
@@ -525,7 +528,7 @@ physics = S
 juggle  = 2
 ctrl = 0
 anim = 215
-poweradd = 100
+poweradd = 0
 velset = 0,0
 sprpriority = 4
 
@@ -561,8 +564,8 @@ stateno = 216
 helpertype = normal
 name = "216"
 ownpal = 1
-size.xscale = .90
-size.yscale = .90
+size.xscale = const(size.xscale) ;clon con el mismo tamano que Naruto
+size.yscale = const(size.yscale)
 
 [State 1000, Helper]
 type = Helper
@@ -574,8 +577,8 @@ stateno = 217
 helpertype = normal
 name = "217"
 ownpal = 1
-size.xscale = .90
-size.yscale = .90
+size.xscale = const(size.xscale) ;clon con el mismo tamano que Naruto
+size.yscale = const(size.yscale)
 
 [State 200, End]
 type = ChangeState
@@ -670,6 +673,7 @@ trigger1 = 1
 attr = A, NP
 animtype  = Heavy
 damage    = 15
+getpower = 5,2
 Hitflag = MAFDE
 guardflag = MA
 pausetime = 10,30
@@ -836,6 +840,7 @@ trigger1 = 1
 attr = S, NP
 animtype  = Up
 damage    = 30
+getpower = 5,2
 Hitflag = MAFDE
 guardflag = MA
 pausetime = 10,10
@@ -987,7 +992,7 @@ physics = S
 juggle  = 2
 ctrl = 0
 anim = 220
-poweradd = 100
+poweradd = 0
 velset = 0,0
 sprpriority = 4
 
@@ -1049,6 +1054,7 @@ trigger1 = 1
 attr = S, NP
 animtype  = Up
 damage    = 30
+getpower = 5,2
 Hitflag = MAFDE
 guardflag = MA
 pausetime = 10,0
@@ -1101,7 +1107,7 @@ physics = S
 juggle  = 2
 ctrl = 0
 anim = 300
-poweradd = 100
+poweradd = 0
 velset = 0,0
 sprpriority = 2
 
@@ -1157,6 +1163,7 @@ trigger1 = 1
 attr = S, NA
 animtype  = Light
 damage    = 15
+getpower = 4,2
 guardflag = MA
 pausetime = 10,15
 sparkno = -1
@@ -1213,7 +1220,7 @@ physics = S
 juggle  = 2
 ctrl = 0
 anim = 305
-poweradd = 100
+poweradd = 0
 velset = 0,0
 sprpriority = 2
 
@@ -1241,6 +1248,7 @@ trigger1 = 1
 attr = S, NA
 animtype  = Light
 damage    = 15
+getpower = 4,2
 guardflag = MA
 pausetime = 10,15
 sparkno = -1
@@ -1297,7 +1305,7 @@ physics = S
 juggle  = 2
 ctrl = 0
 anim = 310
-poweradd = 100
+poweradd = 0
 velset = 0,0
 sprpriority = 4
 
@@ -1333,8 +1341,8 @@ stateno = 315
 helpertype = normal
 name = "315"
 ownpal = 1
-size.xscale = .90
-size.yscale = .90
+size.xscale = const(size.xscale) ;clon con el mismo tamano que Naruto
+size.yscale = const(size.yscale)
 
 [State 200, End]
 type = ChangeState
@@ -1453,7 +1461,7 @@ juggle  = 1
 velset = 0,0
 ctrl = 0
 anim = 316
-poweradd = 30
+poweradd = 0
 sprpriority = 1
 
 [State 0, PlaySnd]
@@ -1532,6 +1540,7 @@ trigger1 = 1
 attr = S, NA
 animtype  = Light
 damage    = 5
+getpower = 4,2
 guardflag = MA
 pausetime = 2,2
 sparkno = -1
@@ -1555,6 +1564,7 @@ trigger1 = 1
 attr = S, NA
 animtype  = Light
 damage    = 15
+getpower = 4,2
 guardflag = MA
 pausetime = 2,2
 sparkno = -1
@@ -1731,7 +1741,7 @@ physics = S
 juggle  = 2
 ctrl = 0
 anim = 320
-poweradd = 100
+poweradd = 0
 velset = 0,0
 sprpriority = 4
 
@@ -1746,8 +1756,8 @@ helpertype = normal
 name = "321"
 facing = 1
 ownpal = 1
-size.xscale = .90
-size.yscale = .90
+size.xscale = const(size.xscale) ;clon con el mismo tamano que Naruto
+size.yscale = const(size.yscale)
 
 [State 200, End]
 type = ChangeState
@@ -1848,6 +1858,7 @@ trigger1 = 1
 attr = S, NA
 animtype  = Light
 damage    = 5
+getpower = 4,2
 guardflag = MA
 pausetime = 2,2
 sparkno = -1
@@ -1870,6 +1881,7 @@ trigger1 = 1
 attr = S, NA
 animtype  = Light
 damage    = 25
+getpower = 4,2
 guardflag = MA
 pausetime = 10,15
 sparkno = -1
@@ -2087,6 +2099,7 @@ trigger1 = 1
 attr = S, NA
 animtype  = Hard
 damage    = 20,10
+getpower = 4,2
 guardflag = MA
 pausetime = 15,15
 sparkno = -1
@@ -3570,8 +3583,8 @@ stateno = 580
 helpertype = normal
 name = "580"
 ownpal = 1
-size.xscale = .90
-size.yscale = .90
+size.xscale = const(size.xscale) ;clon con el mismo tamano que Naruto
+size.yscale = const(size.yscale)
 supermovetime = 999
 
 [State 0, PlaySnd]
@@ -3811,8 +3824,8 @@ stateno = 580
 helpertype = normal
 name = "580"
 ownpal = 1
-size.xscale = .90
-size.yscale = .90
+size.xscale = const(size.xscale) ;clon con el mismo tamano que Naruto
+size.yscale = const(size.yscale)
 supermovetime = 999
 
 [State 0, PlaySnd]
@@ -3989,7 +4002,7 @@ physics = A
 juggle  = 2
 ctrl = 0
 anim = 600+var(11)
-poweradd = 100
+poweradd = 0
 sprpriority = 2
 
 [State 0, PlaySnd]
@@ -4078,7 +4091,7 @@ physics = A
 juggle  = 2
 ctrl = 0
 anim = 605+var(11)
-poweradd = 100
+poweradd = 0
 sprpriority = 2
 
 [State 0, PlaySnd]
@@ -4167,7 +4180,7 @@ physics = A
 juggle  = 2
 ctrl = 0
 anim = 610+var(11)
-poweradd = 100
+poweradd = 0
 sprpriority = 2
 
 [State 0, VelSet]
@@ -4252,7 +4265,7 @@ physics = A
 juggle  = 2
 ctrl = 0
 anim = 620+var(11)
-poweradd = 100
+poweradd = 0
 sprpriority = 2
 
 [State 0, PlaySnd]

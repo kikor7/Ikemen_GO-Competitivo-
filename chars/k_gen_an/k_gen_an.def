@@ -33,6 +33,7 @@ Pal.Defaults =6,3,4,2
 ;-----------------------------------------------------------------------------
 
 [Files]
+movelist = movelist.dat
 Cmd     =k_gen_an.cmd
 Cns     =k_gen_an.cns
 St      =k_gen_an.cns

@@ -923,7 +923,7 @@ sprpriority = 2
 fall = 1
 fall.recovertime = 5 + ceil(24*var(9)*fvar(1)*fvar(2))
 id = StateNo
-getpower = 0, 0
+getpower = 30,15
 givepower = 0, 0
 
 [State Set]

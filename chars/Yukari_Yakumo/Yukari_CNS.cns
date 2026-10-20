@@ -935,7 +935,7 @@ Guard.Kill        = 0				;この攻撃をガードで殺せるか
 Fall              = 0				;地面に叩き付けられるか
 Air.Fall          = 1				;地面に叩き付けられるか
 Fall.RecoverTime  = Floor(IfElse(Var(49)=1,25,15)*FVar(13));リカバーできるか
-GetPower          = Floor(IfElse(Var(40)=3,80,40)*IfElse(Power>=4000,0.5,IfElse((Power=[3000,3999]),0.66,1.0))),Floor(IfElse(Var(40)=3,40,20)*IfElse(Power>=4000,0.5,IfElse((Power=[3000,3999]),0.66,1.0)));ヒット時のパワー増減
+getpower = 30,15;ヒット時のパワー増減
 GivePower         = 0,0
 
 [State -1]
@@ -1088,7 +1088,7 @@ Guard.Kill        = 0				;この攻撃をガードで殺せるか
 Fall              = 0				;地面に叩き付けられるか
 Air.Fall          = 1				;地面に叩き付けられるか
 Fall.RecoverTime  = Floor(IfElse(Var(49)=1,40,25)*FVar(13));リカバーできるか
-GetPower          = Floor(IfElse(Var(40)=3,160,80)*IfElse(Power>=4000,0.5,IfElse((Power=[3000,3999]),0.66,1.0))),Floor(IfElse(Var(40)=3,120,60)*IfElse(Power>=4000,0.5,IfElse((Power=[3000,3999]),0.66,1.0)));ヒット時のパワー増減
+getpower = 30,15;ヒット時のパワー増減
 GivePower         = 0,0
 ID                = 1
 
@@ -1275,7 +1275,7 @@ Guard.Kill        = 0				;この攻撃をガードで殺せるか
 Fall              = 0				;地面に叩き付けられるか
 Air.Fall          = 1				;地面に叩き付けられるか
 Fall.RecoverTime  = Floor(IfElse(Var(49)=1,25,15)*FVar(13));リカバーできるか
-GetPower          = Floor(IfElse(Var(40)=3,80,40)*IfElse(Power>=4000,0.5,IfElse((Power=[3000,3999]),0.66,1.0))),Floor(IfElse(Var(40)=3,40,20)*IfElse(Power>=4000,0.5,IfElse((Power=[3000,3999]),0.66,1.0)));ヒット時のパワー増減
+getpower = 30,15;ヒット時のパワー増減
 GivePower         = 0,0
 
 [State -1]
@@ -1430,7 +1430,7 @@ Guard.Kill        = 0				;この攻撃をガードで殺せるか
 Fall              = 0				;地面に叩き付けられるか
 Air.Fall          = 1				;地面に叩き付けられるか
 Fall.RecoverTime  = Floor(IfElse(Var(49)=1,40,25)*FVar(13));リカバーできるか
-GetPower          = Floor(IfElse(Var(40)=3,160,80)*IfElse(Power>=4000,0.5,IfElse((Power=[3000,3999]),0.66,1.0))),Floor(IfElse(Var(40)=3,120,60)*IfElse(Power>=4000,0.5,IfElse((Power=[3000,3999]),0.66,1.0)));ヒット時のパワー増減
+getpower = 30,15;ヒット時のパワー増減
 GivePower         = 0,0
 ID                = 1
 
@@ -1631,7 +1631,7 @@ Guard.Kill        = 0				;この攻撃をガードで殺せるか
 Fall              = 1				;地面に叩き付けられるか
 Air.Fall          = 1				;地面に叩き付けられるか
 Fall.RecoverTime  = Floor(IfElse(Var(49)=1,90,60)*FVar(13));リカバーできるか
-GetPower          = Floor(IfElse(Var(40)=3,240,120)*IfElse(Power>=4000,0.5,IfElse((Power=[3000,3999]),0.66,1.0))),Floor(IfElse(Var(40)=3,160,80)*IfElse(Power>=4000,0.5,IfElse((Power=[3000,3999]),0.66,1.0)));ヒット時のパワー増減
+getpower = 15,7;ヒット時のパワー増減
 GivePower         = 0,0
 ID                = 1
 
@@ -1855,7 +1855,7 @@ Guard.Kill        = 0				;この攻撃をガードで殺せるか
 Fall              = 1				;地面に叩き付けられるか
 Air.Fall          = 1				;地面に叩き付けられるか
 Fall.RecoverTime  = Floor(IfElse(Var(49)=1,70,45)*FVar(13));リカバーできるか
-GetPower          = Floor(IfElse(Var(40)=3,240,120)*IfElse(Power>=4000,0.5,IfElse((Power=[3000,3999]),0.66,1.0))),Floor(IfElse(Var(40)=3,160,80)*IfElse(Power>=4000,0.5,IfElse((Power=[3000,3999]),0.66,1.0)));ヒット時のパワー増減
+getpower = 15,7;ヒット時のパワー増減
 GivePower         = 0,0
 ID                = 1
 
@@ -2116,7 +2116,7 @@ Guard.Kill        = 0				;この攻撃をガードで殺せるか
 Fall              = 1				;地面に叩き付けられるか
 Air.Fall          = 1				;地面に叩き付けられるか
 Fall.RecoverTime  = Floor(IfElse(Var(49)=1,90,60)*FVar(13));リカバーできるか
-GetPower          = Floor(IfElse(Var(40)=3,240,120)*IfElse(Power>=4000,0.5,IfElse((Power=[3000,3999]),0.66,1.0))),Floor(IfElse(Var(40)=3,160,80)*IfElse(Power>=4000,0.5,IfElse((Power=[3000,3999]),0.66,1.0)));ヒット時のパワー増減
+getpower = 15,7;ヒット時のパワー増減
 GivePower         = 0,0
 ID                = 1
 
@@ -2322,7 +2322,7 @@ Guard.Kill        = 0				;この攻撃をガードで殺せるか
 Fall              = 0				;地面に叩き付けられるか
 Air.Fall          = 1				;地面に叩き付けられるか
 Fall.RecoverTime  = Floor(IfElse(Var(49)=1,50,35)*FVar(13));リカバーできるか
-GetPower          = Floor(IfElse(Var(40)=3,240,120)*IfElse(Power>=4000,0.5,IfElse((Power=[3000,3999]),0.66,1.0))),Floor(IfElse(Var(40)=3,160,80)*IfElse(Power>=4000,0.5,IfElse((Power=[3000,3999]),0.66,1.0)));ヒット時のパワー増減
+getpower = 30,15;ヒット時のパワー増減
 GivePower         = 0,0
 ID                = 1
 
@@ -2514,7 +2514,7 @@ Guard.Kill        = 0				;この攻撃をガードで殺せるか
 Fall              = IfElse(Var(49)=1,1,0)	;地面に叩き付けられるか
 Air.Fall          = 1				;地面に叩き付けられるか
 Fall.RecoverTime  = Floor(IfElse(Var(49)=1,60,40)*FVar(13));リカバーできるか
-GetPower          = Floor(IfElse(Var(40)=3,240,120)*IfElse(Power>=4000,0.5,IfElse((Power=[3000,3999]),0.66,1.0))),Floor(IfElse(Var(40)=3,160,80)*IfElse(Power>=4000,0.5,IfElse((Power=[3000,3999]),0.66,1.0)));ヒット時のパワー増減
+getpower = 30,15;ヒット時のパワー増減
 GivePower         = 0,0
 ID                = 1
 
@@ -2717,7 +2717,7 @@ Guard.Kill        = 0				;この攻撃をガードで殺せるか
 Fall              = 1				;地面に叩き付けられるか
 Air.Fall          = 1				;地面に叩き付けられるか
 Fall.RecoverTime  = Floor(IfElse(Var(49)=1,60,40)*FVar(13));リカバーできるか
-GetPower          = Floor(IfElse(Var(40)=3,320,160)*IfElse(Power>=4000,0.5,IfElse((Power=[3000,3999]),0.66,1.0))),Floor(IfElse(Var(40)=3,240,120)*IfElse(Power>=4000,0.5,IfElse((Power=[3000,3999]),0.66,1.0)));ヒット時のパワー増減
+getpower = 30,15;ヒット時のパワー増減
 GivePower         = 0,0
 ID                = 1
 
@@ -2898,6 +2898,7 @@ Ctrl     = 1
 ;＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
 [StateDef 300]
 Type     = S
+poweradd = 0
 MoveType = A
 Physics  = S
 Ctrl     = 0
@@ -4028,7 +4029,7 @@ Guard.Kill        = 0				;この攻撃をガードで殺せるか
 Fall              = 0				;地面に叩き付けられるか
 Air.Fall          = 1				;地面に叩き付けられるか
 Fall.RecoverTime  = Floor(IfElse(Var(49)=1,25,15)*FVar(13));リカバーできるか
-GetPower          = Floor(IfElse(Var(40)=3,80,40)*IfElse(Power>=4000,0.5,IfElse((Power=[3000,3999]),0.66,1.0))),Floor(IfElse(Var(40)=3,40,20)*IfElse(Power>=4000,0.5,IfElse((Power=[3000,3999]),0.66,1.0)));ヒット時のパワー増減
+getpower = 30,15;ヒット時のパワー増減
 GivePower         = 0,0
 ID                = 1
 
@@ -4235,7 +4236,7 @@ Guard.Kill        = 0				;この攻撃をガードで殺せるか
 Fall              = 1				;地面に叩き付けられるか
 Air.Fall          = 1				;地面に叩き付けられるか
 Fall.RecoverTime  = Floor(IfElse(Var(49)=1,70,45)*FVar(13));リカバーできるか
-GetPower          = Floor(IfElse(Var(40)=3,240,120)*IfElse(Power>=4000,0.5,IfElse((Power=[3000,3999]),0.66,1.0))),Floor(IfElse(Var(40)=3,160,80)*IfElse(Power>=4000,0.5,IfElse((Power=[3000,3999]),0.66,1.0)));ヒット時のパワー増減
+getpower = 30,15;ヒット時のパワー増減
 GivePower         = 0,0
 ID                = 1
 
@@ -4423,6 +4424,7 @@ Ctrl     = 1
 ;＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
 [StateDef 500]
 Type     = S
+poweradd = 20
 MoveType = A
 Physics  = S
 Ctrl     = 0
@@ -4544,6 +4546,7 @@ Ctrl     = 1
 ;＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
 [StateDef 505]
 Type     = S
+poweradd = 20
 MoveType = A
 Physics  = S
 Ctrl     = 0
@@ -5242,7 +5245,7 @@ Guard.Kill        = 0				;この攻撃をガードで殺せるか
 Fall              = 0				;地面に叩き付けられるか
 Air.Fall          = 1				;地面に叩き付けられるか
 Fall.RecoverTime  = Floor(IfElse(Var(49)=1,40,25)*FVar(13));リカバーできるか
-GetPower          = Floor(IfElse(Var(40)=3,160,80)*IfElse(Power>=4000,0.5,IfElse((Power=[3000,3999]),0.66,1.0))),Floor(IfElse(Var(40)=3,120,60)*IfElse(Power>=4000,0.5,IfElse((Power=[3000,3999]),0.66,1.0)));ヒット時のパワー増減
+getpower = 30,15;ヒット時のパワー増減
 GivePower         = 0,0
 ID                = 1
 
@@ -5466,7 +5469,7 @@ Guard.Kill        = 0				;この攻撃をガードで殺せるか
 Fall              = 1				;地面に叩き付けられるか
 Air.Fall          = 1				;地面に叩き付けられるか
 Fall.RecoverTime  = Floor(IfElse(Var(49)=1,70,45)*FVar(13));リカバーできるか
-GetPower          = Floor(IfElse(Var(40)=3,240,120)*IfElse(Power>=4000,0.5,IfElse((Power=[3000,3999]),0.66,1.0))),Floor(IfElse(Var(40)=3,160,80)*IfElse(Power>=4000,0.5,IfElse((Power=[3000,3999]),0.66,1.0)));ヒット時のパワー増減
+getpower = 30,15;ヒット時のパワー増減
 GivePower         = 0,0
 ID                = 1
 
@@ -5694,7 +5697,7 @@ Guard.Kill        = 0				;この攻撃をガードで殺せるか
 Fall              = 1				;地面に叩き付けられるか
 Air.Fall          = 1				;地面に叩き付けられるか
 Fall.RecoverTime  = Floor(IfElse(Var(49)=1,70,45)*FVar(13));リカバーできるか
-GetPower          = Floor(IfElse(Var(40)=3,240,120)*IfElse(Power>=4000,0.5,IfElse((Power=[3000,3999]),0.66,1.0))),Floor(IfElse(Var(40)=3,160,80)*IfElse(Power>=4000,0.5,IfElse((Power=[3000,3999]),0.66,1.0)));ヒット時のパワー増減
+getpower = 30,15;ヒット時のパワー増減
 GivePower         = 0,0
 ID                = 1
 
@@ -5943,7 +5946,7 @@ Guard.Kill        = 0				;この攻撃をガードで殺せるか
 Fall              = 1				;地面に叩き付けられるか
 Air.Fall          = 1				;地面に叩き付けられるか
 Fall.RecoverTime  = Floor(IfElse(Var(49)=1,70,45)*FVar(13));リカバーできるか
-GetPower          = Floor(IfElse(Var(40)=3,240,120)*IfElse(Power>=4000,0.5,IfElse((Power=[3000,3999]),0.66,1.0))),Floor(IfElse(Var(40)=3,160,80)*IfElse(Power>=4000,0.5,IfElse((Power=[3000,3999]),0.66,1.0)));ヒット時のパワー増減
+getpower = 30,15;ヒット時のパワー増減
 GivePower         = 0,0
 ID                = 1
 
@@ -6091,6 +6094,24 @@ Ctrl     = 1
 ;＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
 ; ワープ
 ;＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+;---------------------------------------------------------------------------
+; Recuperacion tras esquivar/rodar: sin control y golpeable unos frames,
+; para que no se pueda encadenar sin riesgo.
+;---------------------------------------------------------------------------
+[Statedef 1002]
+type = S
+movetype = I
+physics = S
+ctrl = 0
+anim = 0
+velset = 0,0
+
+[State 1002, Fin de la recuperacion]
+type = ChangeState
+trigger1 = Time >= 8
+value = 0
+ctrl = 1
+
 [StateDef 700]
 Type     = S
 MoveType = I
@@ -6171,8 +6192,8 @@ Persistent = 0
 Type     = ChangeState
 Trigger1 = Anim = 701
 Trigger1 = AnimTime = 0
-Value    = 0
-Ctrl     = 1
+Value    = 1002
+Ctrl     = 0
 
 [State -1]
 Type     = DisplayToClipBoard

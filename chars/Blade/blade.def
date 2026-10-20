@@ -13,6 +13,7 @@ pal.defaults = 1      ;Default palettes in order of preference
 
 ; Files for the player
 [Files]
+movelist = movelist.dat
 cmd     = blade.cmd   ;Command set
 cns     = blade.cns   ;Constants
 st      = blade.cns   ;States

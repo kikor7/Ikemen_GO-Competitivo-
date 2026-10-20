@@ -1055,7 +1055,7 @@ physics = S                      ;Physics: S-stand, C-crouch, A-air
 juggle  = 1                      ;Number of air juggle points move takes
 ctrl = 0                         ;Set ctrl (Def: no change)
 anim = 200                       ;Change animation (Def: no change)
-poweradd = 15                    ;Power to add (Def: 0)
+poweradd = 0                    ;Power to add (Def: 0)
 sprpriority = 2                  ;Set p1's sprite layering priority to 2 (in front)
 
 [State -2, 2];ÉRÉìÉ{ï‚ê≥
@@ -1133,6 +1133,7 @@ type = HitDef
 trigger1 = AnimElem = 3
 attr = S, NA                     ;Attribute: Standing, Normal Attack
 damage = floor(18*((10.0-var(40))/10)), 0                   ;Damage that move inflicts, guard damage
+getpower = 30,15
 animtype = Light                 ;Animation type: Light, Medium, Heavy, Back (def: Light)
 guardflag = MA                   ;Flags on how move is to be guarded against
 hitflag = MAF                    ;Flags of conditions that move can hit
@@ -1173,7 +1174,7 @@ type    = S
 movetype= A
 physics = S
 juggle  = 2
-poweradd= 30
+poweradd= 0
 ctrl = 0
 anim = 205
 sprpriority = -1
@@ -1306,6 +1307,7 @@ trigger1 = AnimElem = 4
 attr = S, NA
 animtype  = Medium
 damage    = floor(25*((10.0-var(40))/10)), 0
+getpower = 15,7
 guardflag = MA
 pausetime = 7,9
 sparkno = s30031
@@ -1331,6 +1333,7 @@ trigger1 = AnimElem = 5
 attr = S, NA
 animtype  = Medium
 damage    = floor(45*((10.0-var(40))/10)), 0
+getpower = 15,7
 guardflag = MA
 pausetime = 10,12
 sparkno = s30031
@@ -1433,7 +1436,7 @@ type    = S
 movetype= A
 physics = S
 juggle  = 3
-poweradd= 65
+poweradd= 0
 ctrl = 0
 anim = 210
 sprpriority = -1
@@ -1525,6 +1528,7 @@ trigger1 = AnimElem = 3
 attr = S, NA
 animtype  = hard
 damage    = floor(90*((10.0-var(40))/10)), 0
+getpower = 30,15
 guardflag = MA
 pausetime = 12,12
 sparkno = s38100+(random%5)
@@ -1551,6 +1555,7 @@ trigger1 = AnimElem = 3
 attr = S, NA
 animtype  = hard
 damage    = 110
+getpower = 30,15
 guardflag = M
 pausetime = 20,20
 sparkno = s38100+(random%5)
@@ -1587,7 +1592,7 @@ type    = C
 movetype= A
 physics = C
 juggle  = 1
-poweradd= 15
+poweradd= 0
 ctrl = 0
 anim = 400
 sprpriority = 2
@@ -1672,6 +1677,7 @@ type = HitDef
 trigger1 = Time = 0
 attr = C, NA
 damage    = floor(13*((10.0-var(40))/10)),0
+getpower = 30,15
 priority  = 3
 animtype  = Light
 hitflag = MAF
@@ -1706,7 +1712,7 @@ type    = C
 movetype= A
 physics = C
 juggle  = 3
-poweradd= 50
+poweradd= 0
 ctrl = 0
 anim = 410
 sprpriority = 2
@@ -1796,6 +1802,7 @@ type = HitDef
 trigger1 = var(45) < 500 || var(50) = 0
 trigger1 = AnimElem = 5
 damage    = floor(70*((10.0-var(40))/10)) ,0
+getpower = 30,15
 attr = C, NA
 animtype  = Hard
 hitflag = MAF
@@ -1821,6 +1828,7 @@ trigger1 = var(45) >= 500
 trigger1 = var(50) >= 1
 trigger1 = AnimElem = 5
 damage    = floor(90*((10.0-var(40))/10)) ,0
+getpower = 30,15
 attr = C, NA
 animtype  = Hard
 hitflag = MAF
@@ -1853,7 +1861,7 @@ type    = C
 movetype= A
 physics = C
 juggle  = 2
-poweradd= 22
+poweradd= 0
 ctrl = 0
 anim = 430
 sprpriority = 2
@@ -1996,6 +2004,7 @@ animtype  = Medium
 hitflag = MAFD
 guardflag = L
 damage    = floor(15*((10.0-var(40))/10)) ,0
+getpower = 15,7
 pausetime = 5,5
 sparkno = s30031
 sparkxy = -15,-20
@@ -2025,6 +2034,7 @@ animtype  = Medium
 hitflag = MAFD
 guardflag = L
 damage    = floor(35*((10.0-var(40))/10)) ,0
+getpower = 15,7
 pausetime = 10,12
 sparkno = s30031
 sparkxy = -15,-20
@@ -2060,7 +2070,7 @@ type    = A
 movetype= A
 physics = A
 juggle  = 1
-poweradd= 11
+poweradd= 0
 ctrl = 0
 anim = 600
 sprpriority = 2
@@ -2111,6 +2121,7 @@ type = HitDef
 trigger1 = Time = 0
 attr = A, NA
 damage    = floor(15*((10.0-var(40))/10)), 0
+getpower = 30,15
 guardflag = HA
 priority = 3
 pausetime = 11,11
@@ -2137,7 +2148,7 @@ type    = A
 movetype= A
 physics = A
 juggle  = 3
-poweradd= 65
+poweradd= 0
 ctrl = 0
 anim = 610
 sprpriority = 2
@@ -2217,6 +2228,7 @@ type = HitDef
 trigger1 = AnimElem = 5
 attr = A, NA
 damage = floor(60*((10.0-var(40))/10)) ,0
+getpower = 15,7
 guardflag = HA
 priority = 4
 pausetime = 8,8
@@ -2248,6 +2260,7 @@ trigger1 = movecontact = 0
 trigger1 = AnimElem = 6
 attr = A, NA
 damage = floor(72*((10.0-var(40))/10)) ,0
+getpower = 15,7
 guardflag = HA
 priority = 4
 pausetime = 12,12
@@ -2280,6 +2293,7 @@ trigger1 = movecontact = 0
 trigger1 = AnimElem = 6
 attr = A, NA
 damage = floor(90*((10.0-var(40))/10)) ,0
+getpower = 15,7
 guardflag = H
 priority = 4
 pausetime = 20,20
@@ -2312,7 +2326,7 @@ type    = A
 movetype= A
 physics = A
 juggle  = 2
-poweradd= 20
+poweradd= 0
 ctrl = 0
 anim = 630
 sprpriority = 5
@@ -2405,6 +2419,7 @@ type = HitDef
 trigger1 = Time = 0
 attr = A, NA
 damage = 26
+getpower = 30,15
 guardflag = HA
 priority = 3
 pausetime = 12,12
@@ -2468,7 +2483,7 @@ sprpriority = 3
 [State 800, 1]
 type = HitDef
 Trigger1 = Time = 0
-getpower = 100
+getpower = 60,30
 givepower = 15,15
 attr = S, NT
 pausetime = 0,0
@@ -2503,7 +2518,7 @@ type    = S
 movetype= A
 physics = S
 juggle  = 4
-poweradd= 100
+poweradd= 0
 ctrl = 0
 anim = 801
 sprpriority = 1

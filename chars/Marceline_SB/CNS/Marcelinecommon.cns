@@ -4204,7 +4204,7 @@ ctrl = 0
 anim = 7015
 velset = 0,0
 sprpriority = 2
-poweradd = 70
+poweradd = 0
 facep2 = 1
 
 [State 760, HitBy]
@@ -4345,7 +4345,7 @@ ctrl = 0
 anim = 7015
 velset = 0,0
 sprpriority = 2
-poweradd = 70
+poweradd = 0
 facep2 = 1
 
 [State 760, HitBy]
@@ -4448,7 +4448,7 @@ ctrl = 0
 anim = 7015
 velset = 0,1
 sprpriority = 2
-poweradd = 70
+poweradd = 0
 facep2 = 1
 
 [State 760, HitBy]

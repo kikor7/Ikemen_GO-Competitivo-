@@ -1,0 +1,18 @@
+<#f0f000>:Special Moves:</>
+Pirahna Copter			_DSF^B
+Fire Ball A			_QCF^A
+Fire Ball B			_QCF^B
+Spike Ball Spit A			_QCB^A
+Spike Ball Spit B			_QCB^B
+Spike Ball Spit C			_QCB^C
+Teleport A			_D_D^A
+Teleport B			_D_D^B
+Teleport C			_D_D^C
+Ultra Burst			^Y_+^Z
+
+<#f0f000>:Hyper Moves:</>
+Pipe Maze <#f00000>(2000)</>			_D_D^A_+^B
+Rapid Chomp <#f00000>(1000)</>			_QCB^A_+^B
+Poison Breath <#f00000>(1000)</>			_QCF^A_+^B
+Fire Ball EX <#f00000>(500)</>			_QCF^C
+Guard Cancel <#f00000>(1000)</>			^B_+^C

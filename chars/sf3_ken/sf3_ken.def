@@ -12,6 +12,7 @@ pal.defaults = 1,2,4,9 ;Default palettes in order of preference
 
 ; Files for the Player
 [Files]
+movelist = movelist.dat
 cmd = sf3_ken.cmd
 cns = data-sf3_ken.cns
 st  = system.cns

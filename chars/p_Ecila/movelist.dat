@@ -1,0 +1,20 @@
+<#f0f000>:Special Moves:</>
+Strong Kung Fu Palm			_QCB^X
+Strong Kung Fu Palm			_QCB^Y
+Strong Kung Fu Palm			_QCF^Y
+Strong Kung Fu Palm			_DSF^Y
+Strong Kung Fu Palm			_D_D^Y
+Strong Kung Fu Palm			_D_D^Z
+Strong Kung Fu Palm			_D_D^X
+Strong Kung Fu Palm			_QCF^X
+Stand Strong Punch			~F^X_+^A
+Stand Strong Punch			~B^X_+^A
+
+<#f0f000>:Hyper Moves:</>
+Stand Light Punch <#f00000>(3000)</>			_QCF^Y_+^Z
+Strong Kung Fu Palm <#f00000>(1000)</>			_DSF^X_+^Y
+Strong Kung Fu Palm <#f00000>(2000)</>			_QCB^X_+^Y
+Strong Kung Fu Palm <#f00000>(1000)</>			_QCF^X_+^Y
+Strong Kung Fu Palm <#f00000>(1000)</>			_D_D^X_+^Y
+Strong Kung Fu Palm <#f00000>(1000)</>			~F^Y_+^Z
+Strong Kung Fu Palm <#f00000>(2000)</>			^A_+^Z

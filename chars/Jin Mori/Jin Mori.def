@@ -6,6 +6,7 @@ mugenversion=1.1
 author="Soulfire"
 pal.defaults=
 [Files]
+movelist = movelist.dat
 sprite=Jin Mori.sff
 sound=Jin Mori.snd
 anim=Jin Mori.air

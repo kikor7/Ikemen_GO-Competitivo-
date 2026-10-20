@@ -776,7 +776,7 @@ physics = S
 anim = 19200
 velset = 0,0
 ctrl = 0
-poweradd = 50
+poweradd = 0
 sprpriority = 1
 
 
@@ -878,7 +878,7 @@ physics = S
 anim = 19201
 velset = 0,0
 ctrl = 0
-poweradd = 50
+poweradd = 0
 sprpriority = 1
 
 [State 0, PlaySnd]
@@ -985,7 +985,7 @@ physics = N
 anim = 19250
 velset = 0,0
 ctrl = 0
-poweradd = 50
+poweradd = 0
 sprpriority = 1
 
 [State 0, PlaySnd]
@@ -1126,7 +1126,7 @@ physics = S
 anim = 19220
 velset = 0,0
 ctrl = 0
-poweradd = 50
+poweradd = 0
 sprpriority = 1
 
 [State 0, PlaySnd]
@@ -1226,7 +1226,7 @@ physics = N
 anim = 19230
 velset = 0,0
 ctrl = 0
-poweradd = 50
+poweradd = 0
 sprpriority = 1
 
 [State 0, PlaySnd]
@@ -1350,7 +1350,7 @@ physics = N
 anim = 19240
 velset = 0,0
 ctrl = 0
-poweradd = 50
+poweradd = 0
 sprpriority = 1
 
 [State 0, PlaySnd]

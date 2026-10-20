@@ -4471,7 +4471,7 @@ guard.cornerpush.veloff=0
 air.velocity=Ifelse(root,var(20)||var(10)=3,-3,-6), -7
 fall=1
 fall.recover=0
-getpower=Ifelse(root,var(20)||var(10)=3,0,72),Ifelse(root,var(20)||var(10)=3,0,36)
+getpower = 30,15
 givepower=36,36
 envshake.time=12
 envshake.ampl=5
@@ -4511,7 +4511,7 @@ guard.cornerpush.veloff=0
 air.velocity=Ifelse(root,var(20)||var(10)=3,-2,-6), -7
 fall=1
 fall.recover=0
-getpower=Ifelse(root,var(20)||var(10)=3,0,72),Ifelse(root,var(20)||var(10)=3,0,36)
+getpower = 30,15
 givepower=36,36
 envshake.time=12
 envshake.ampl=5

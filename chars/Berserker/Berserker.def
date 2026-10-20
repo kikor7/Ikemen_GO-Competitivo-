@@ -8,6 +8,7 @@ Pal.Defaults = 1,1          ;ＣＰＵで出てきた時のカラーパレットの順番
 
 
 [Files]
+movelist = movelist.dat
 Cmd     = etc/Berserker.cmd   ;コマンドファイルの登録
 Cns     = cns/Berserker.cns   ;コンスタンツファイルの登録
 St      = cns/Berserker.cns   ;ステートファイルの登録・最大１１個まで増やせます

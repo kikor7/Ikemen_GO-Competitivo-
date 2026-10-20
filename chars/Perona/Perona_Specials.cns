@@ -271,7 +271,7 @@ type = S
 physics = S
 anim = 1100
 ctrl = 0
-poweradd = 150
+poweradd = 0
 
 [State 0, VelSet]
 type = VelSet
@@ -345,7 +345,7 @@ trigger1 = Animelem = 1
 trigger2 = Animelem = 2
 attr = A,SA
 animtype  = high
-getpower = 0,0
+getpower = 30,15
 damage    = 60,5
 guardflag = HA
 pausetime = 10,10
@@ -442,7 +442,7 @@ triggerall = !movecontact
 trigger1 = 1
 attr = A, SA
 animtype  = high
-getpower = 0,0
+getpower = 30,15
 damage    = 10
 guardflag = MA
 pausetime = 8,8
@@ -863,7 +863,7 @@ trigger1 = 1
 attr = C, NP
 guardflag = L
 animtype = Hard
-getpower = 0,0
+getpower = 30,15
 damage    = 50,5
 pausetime = 6,8
 sparkno = -1;s6000
@@ -891,7 +891,7 @@ hitflag	= MAFDP
 guardflag = MA
 animtype = Hard
 priority = 7, Hit
-getpower = 0,0
+getpower = 30,15
 damage    = 50,5
 pausetime = 6,8
 sparkno = -1;s6000
@@ -1002,7 +1002,7 @@ type    = A
 physics = N
 ctrl = 0
 anim = 1320
-poweradd = 50
+poweradd = 20
 
 
 ;--- Guard Cancel --------------------------
@@ -1672,7 +1672,7 @@ triggerall = !movecontact
 trigger1 = animelem = 2
 attr = A, SP
 animtype  = Medium
-getpower = 0,0
+getpower = 15,7
 damage    = 50,5
 guardflag = HA
 pausetime = 2,10
@@ -1694,7 +1694,7 @@ type = HitDef
 trigger1 = animelem = 4
 attr = A, SP
 animtype  = Medium
-getpower = 0,0
+getpower = 15,7
 damage    = 50,5
 guardflag = HA
 pausetime = 2,12
@@ -1726,7 +1726,7 @@ trigger1 = animtime = 0
 [Statedef 1400]
 type    = S
 physics = S
-poweradd = 50
+poweradd = 0
 velset = 0,0
 ctrl = 0
 anim = 1400
@@ -2532,7 +2532,7 @@ triggerall = !movecontact
 trigger1 = time = [2,16]
 attr = A, SP
 animtype  = Medium
-getpower = 0,0
+getpower = 20,10
 damage    = 35
 guardflag = MA
 pausetime = 8,10
@@ -2635,7 +2635,7 @@ physics = S
 ctrl = 0
 anim = 1500
 Velset = 0,0
-poweradd = 150
+poweradd = 20
 
 
 [State 600, 2]
@@ -2732,7 +2732,7 @@ triggerall = !movecontact
 trigger1 = 1
 attr = A, SP
 animtype  = Medium
-getpower = 0,0
+getpower = 30,15
 damage    = 10,1
 guardflag = MA
 pausetime = 8,10
@@ -2768,7 +2768,7 @@ physics = S
 anim = 1600
 velset = 0,0
 ctrl = 0
-poweradd = 150
+poweradd = 0
 
 
 [State 0, PlaySnd]
@@ -3227,7 +3227,7 @@ type = HitDef
 triggerall = !movecontact
 trigger1 = 1
 attr = A, SP
-getpower = 0,0
+getpower = 60,30
 pausetime = 10,10
 sparkno = -1;s6000
 getpower = 0,0

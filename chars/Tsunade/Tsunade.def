@@ -12,6 +12,7 @@ author = "WS1993"
 pal.defaults = 1
 
 [Files]
+movelist = movelist.dat
 sprite = Tsunade.sff
 anim = Tsunade.air
 sound = Tsunade.snd

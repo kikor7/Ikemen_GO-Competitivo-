@@ -1,0 +1,20 @@
+<#f0f000>:Special Moves:</>
+Gold Spin			_QCB^B
+Gold Spin			_QCB^A
+Gold Spin			_QCB^Y
+Gold Spin			_QCB^X
+Gold Spin			_QCF^B
+Gold Spin			_QCF^A
+GoldWave			_QCF^Y
+GoldWave			_QCF^X
+
+<#f0f000>:Hyper Moves:</>
+Super 1 <#f00000>(3000)</>			_D_D^Z
+Super 2 <#f00000>(2000)</>			_QCB_QCB^A_+^B
+Jackhammer <#f00000>(2000)</>			_QCB_QCB^X_+^Y
+Trigger Explosion <#f00000>(1000)</>			_QCF_QCF^A_+^B
+Splat Sniper <#f00000>(1000)</>			_QCF_QCF^X_+^Y
+Gold Spin <#f00000>(500)</>			_QCB^A_+^B
+Gold Spin <#f00000>(500)</>			_QCB^X_+^Y
+Gold Spin <#f00000>(500)</>			_QCF^A_+^B
+GoldWave EX <#f00000>(500)</>			_QCF^X_+^Y

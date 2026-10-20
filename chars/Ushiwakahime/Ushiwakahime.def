@@ -8,6 +8,7 @@ pal.defaults = 1,2,3,4
 
 ; Files for the player
 [Files]
+movelist = movelist.dat
 cmd     = Ushiwakahime.cmd
 cns     = Ushiwakahime.cns
 st      = Ushiwakahime.cns

@@ -1,0 +1,22 @@
+<#f0f000>:Special Moves:</>
+Throw			^X_+^Y
+SIdestep/Dodge			^A_+^X
+
+<#f0f000>:Hyper Moves:</>
+OmniSlash <#f00000>(3000)</>			_QCB_QCB^A_+^X
+Finishing Touch <#f00000>(3000)</>			_QCF_QCF^A_+^X
+Max Limit Break Braver <#f00000>(2000)</>			_QCB_QCB^A_+^C
+Limit Break Braver <#f00000>(1000)</>			_QCB_QCB^A
+Max Cross Slash <#f00000>(2000)</>			_QCB_QCB^X_+^Y
+Cross Slash <#f00000>(1000)</>			_QCB_QCB^X
+Max Limit Break Climhazard <#f00000>(2000)</>			_QCF_QCF^A_+^C
+Limit Break Climhazard <#f00000>(1000)</>			_QCF_QCF^A
+Max Meteor Rain <#f00000>(2000)</>			_QCF_QCF^X_+^Y
+Meteor Rain <#f00000>(1000)</>			_QCF_QCF^X
+Climhazard <#f00000>(500)</>			_DSF^X_+^Y
+Blade Beam <#f00000>(500)</>			_QCF^X_+^Z
+Sonic Rave <#f00000>(500)</>			_QCF^A_+^B
+Braver <#f00000>(500)</>			_QCB^A_+^B
+Mad Shift <#f00000>(500)</>			_QCB^X_+^Y
+Zero Counter <#f00000>(1000)</>			_B_DB_D^X
+Custom Combo <#f00000>(1000)</>			^C_+^Z

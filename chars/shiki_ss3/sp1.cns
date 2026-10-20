@@ -49,7 +49,7 @@ ground.velocity = -3,-6
 air.type = High                
 air.velocity = -1.4,-5          
 air.hittime = 20                 
-getpower = 0,0
+getpower = 60,30
 fall = 1
 fall.revover = 0
 
@@ -105,7 +105,7 @@ ground.velocity = -1,-7
 air.type = High                
 air.velocity = -1.4,-5          
 air.hittime = 20                 
-getpower = 0,0
+getpower = 30,15
 fall = 0
 fall.revover = 0
 persistent = 0
@@ -135,7 +135,7 @@ ground.velocity = -3,-5
 air.type = High                
 air.velocity = -3.5,-4          
 air.hittime = 30                 
-getpower = 0,0
+getpower = 30,15
 fall = 1
 fall.revover = 0
 persistent = 0
@@ -192,7 +192,7 @@ ground.velocity = -1,-8
 air.type = High                
 air.velocity = -1.4,-5          
 air.hittime = 20                 
-getpower = 0,0
+getpower = 30,15
 fall = 0
 fall.revover = 0
 persistent = 0
@@ -221,7 +221,7 @@ ground.velocity = -3,-5
 air.type = High                
 air.velocity = -3.5,-4          
 air.hittime = 30                 
-getpower = 0,0
+getpower = 30,15
 fall = 1
 fall.revover = 0
 persistent = 0
@@ -308,7 +308,7 @@ ground.velocity = -2.5
 air.type = High                
 air.velocity = -3.0,-1.5          
 air.hittime = 25                 
-getpower = 0,0
+getpower = 60,30
 
 [state 1120,]
 type = changestate
@@ -427,7 +427,7 @@ ground.velocity = -1.8,-10
 air.type = High                
 air.velocity = -1.8,-9          
 air.hittime = 25                 
-getpower = 0,0
+getpower = 60,30
 fall = 1
 fall.recover = 0
 
@@ -465,7 +465,7 @@ ground.velocity = -2.0,-8
 air.type = High                
 air.velocity = -2.0,-7.5          
 air.hittime = 25                 
-getpower = 0,0
+getpower = 60,30
 fall = 1
 fall.recover = 0
 
@@ -503,7 +503,7 @@ ground.velocity = -2.0,-8
 air.type = High                
 air.velocity = -2.0,-7.5          
 air.hittime = 25                 
-getpower = 0,0
+getpower = 60,30
 fall = 1
 fall.recover = 0
 
@@ -587,7 +587,7 @@ ground.velocity = -4             ;’nã‚ÅUŒ‚‚ğ‚­‚ç‚Á‚½ê‡‚Ì‘Šè‚ÌˆÚ“®ó‹µi‚˜‚Æ
 air.type = low                  ;‹ó’†‚Å‘Šè‚ª‚­‚ç‚Á‚½êŠiã‚Æ“¯‚¶j
 air.velocity = -3,-2           ;‹ó’†‚ÅUŒ‚‚ğ‚­‚ç‚Á‚½ê‡‚Ì‘Šè‚ÌˆÚ“®ó‹µi‚˜‚Æ‚™‚Å¬”“_‰Âj
 air.hittime = 20                 ;‹ó’†‚ÅƒRƒ“ƒ{‚ªŒq‚ª‚éŠÔ
-getpower = 0,0
+getpower = 60,30
 
 [state 000,bloodw];
 type = Explod
@@ -687,7 +687,7 @@ ground.velocity = -4             ;’nã‚ÅUŒ‚‚ğ‚­‚ç‚Á‚½ê‡‚Ì‘Šè‚ÌˆÚ“®ó‹µi‚˜‚Æ
 air.type = low                  ;‹ó’†‚Å‘Šè‚ª‚­‚ç‚Á‚½êŠiã‚Æ“¯‚¶j
 air.velocity = -3,-2           ;‹ó’†‚ÅUŒ‚‚ğ‚­‚ç‚Á‚½ê‡‚Ì‘Šè‚ÌˆÚ“®ó‹µi‚˜‚Æ‚™‚Å¬”“_‰Âj
 air.hittime = 20                 ;‹ó’†‚ÅƒRƒ“ƒ{‚ªŒq‚ª‚éŠÔ
-getpower = 0,0
+getpower = 60,30
 
 [state 000,bloodw];
 type = Explod
@@ -787,7 +787,7 @@ ground.velocity = -4             ;’nã‚ÅUŒ‚‚ğ‚­‚ç‚Á‚½ê‡‚Ì‘Šè‚ÌˆÚ“®ó‹µi‚˜‚Æ
 air.type = low                  ;‹ó’†‚Å‘Šè‚ª‚­‚ç‚Á‚½êŠiã‚Æ“¯‚¶j
 air.velocity = -3,-2           ;‹ó’†‚ÅUŒ‚‚ğ‚­‚ç‚Á‚½ê‡‚Ì‘Šè‚ÌˆÚ“®ó‹µi‚˜‚Æ‚™‚Å¬”“_‰Âj
 air.hittime = 20                 ;‹ó’†‚ÅƒRƒ“ƒ{‚ªŒq‚ª‚éŠÔ
-getpower = 0,0
+getpower = 60,30
 
 [state 000,bloodw];
 type = Explod
@@ -886,7 +886,7 @@ ground.velocity = -3,-3             ;’nã‚ÅUŒ‚‚ğ‚­‚ç‚Á‚½ê‡‚Ì‘Šè‚ÌˆÚ“®ó‹µi‚
 air.type = low                  ;‹ó’†‚Å‘Šè‚ª‚­‚ç‚Á‚½êŠiã‚Æ“¯‚¶j
 air.velocity = -3,-2           ;‹ó’†‚ÅUŒ‚‚ğ‚­‚ç‚Á‚½ê‡‚Ì‘Šè‚ÌˆÚ“®ó‹µi‚˜‚Æ‚™‚Å¬”“_‰Âj
 air.hittime = 20                 ;‹ó’†‚ÅƒRƒ“ƒ{‚ªŒq‚ª‚éŠÔ
-getpower = 0,0
+getpower = 60,30
 fall = 1
 
 [state 1405,end next];‹¤’Êd’¼ƒXƒe[ƒgƒw
@@ -950,7 +950,7 @@ ground.velocity = -4,-3             ;’nã‚ÅUŒ‚‚ğ‚­‚ç‚Á‚½ê‡‚Ì‘Šè‚ÌˆÚ“®ó‹µi‚
 air.type = low                  ;‹ó’†‚Å‘Šè‚ª‚­‚ç‚Á‚½êŠiã‚Æ“¯‚¶j
 air.velocity = -3,-2           ;‹ó’†‚ÅUŒ‚‚ğ‚­‚ç‚Á‚½ê‡‚Ì‘Šè‚ÌˆÚ“®ó‹µi‚˜‚Æ‚™‚Å¬”“_‰Âj
 air.hittime = 20                 ;‹ó’†‚ÅƒRƒ“ƒ{‚ªŒq‚ª‚éŠÔ
-getpower = 0,0
+getpower = 60,30
 fall = 1
 fall.recover = 0
 
@@ -1015,7 +1015,7 @@ ground.velocity = -0.5,7             ;’nã‚ÅUŒ‚‚ğ‚­‚ç‚Á‚½ê‡‚Ì‘Šè‚ÌˆÚ“®ó‹µi
 air.type = trip                   ;‹ó’†‚Å‘Šè‚ª‚­‚ç‚Á‚½êŠiã‚Æ“¯‚¶j
 air.velocity = -0.5,5           ;‹ó’†‚ÅUŒ‚‚ğ‚­‚ç‚Á‚½ê‡‚Ì‘Šè‚ÌˆÚ“®ó‹µi‚˜‚Æ‚™‚Å¬”“_‰Âj
 air.hittime = 20                 ;‹ó’†‚ÅƒRƒ“ƒ{‚ªŒq‚ª‚éŠÔ
-getpower = 0,0
+getpower = 60,30
 fall = 1
 fall.recover = 0
 

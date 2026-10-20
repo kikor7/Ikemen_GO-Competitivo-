@@ -1,0 +1,21 @@
+<#f0f000>:Special Moves:</>
+sp1			_QCF_QCF^C
+sp1			_QCF_QCF^B
+sp1			_HCF_DSB^C
+Standing dash wwepon			_DF_QCB_QCB^Y
+tum w			_QCF^Y
+sp1			^A_+^B
+Standing dash wwepon			^A_+^B_+^C
+op w			_HCF^A
+op w			_HCF^B
+op w			_HCF^C
+tum w			_DSF^A
+tum m			_DSF^B
+tum s			_DSF^C
+sp1			_DSF^Z
+op s			_DSB^Z
+op w			_DSB^A
+op m			_DSB^B
+op s			_DSB^C
+op s			_DSB^Y
+

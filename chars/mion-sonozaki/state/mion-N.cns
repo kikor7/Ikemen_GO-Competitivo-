@@ -153,7 +153,7 @@ trigger1 = AnimElem = 3
 attr              = S, NA ;立ち通常打撃（Standing, Normal Attack）
 damage            = ceil(20*(1-(var(4)*0.1))), 0
 animtype          = Light
-getpower          = ifelse(var(23)>=1,0,20),ifelse(var(23)>=1,0,10)
+getpower = 30,15
 guardflag         = MA
 hitflag           = MAF
 priority          = 3,Hit
@@ -265,7 +265,7 @@ trigger1 = AnimElem = 3
 attr              = S, NA
 damage            = ceil(53*(1-(var(4)*0.1))),0
 animtype          = Medium
-getpower          = ifelse(var(23)>=1,0,30),ifelse(var(23)>=1,0,10)
+getpower = 30,15
 guardflag         = MA
 hitflag           = MAF
 pausetime         = 15,18
@@ -338,7 +338,7 @@ trigger1 = AnimElem = 3 && var(5) = 0
 attr              = S, NA
 damage            = ceil(83*(1-(var(4)*0.05))),0
 animtype          = Back
-getpower          = ifelse(var(23)>=1,0,30),ifelse(var(23)>=1,0,10)
+getpower = 30,15
 guardflag         = MA
 hitflag           = MAF
 priority          = 6,Hit
@@ -368,7 +368,7 @@ trigger1 = AnimElem = 3 && var(5) = 1
 attr              = S, NA
 damage            = ceil(93*(1-(var(4)*0.05))),0
 animtype          = Back
-getpower          = 30,10
+getpower = 30,15
 guardflag         = MA
 hitflag           = MAF
 priority          = 6,Hit
@@ -456,7 +456,7 @@ attr              = S, NA
 damage            = ceil(55*(1-(var(4)*0.1))),0
 animtype          = Hard
 air.animtype      = Up
-getpower          = ifelse(var(23)>=1,0,20),ifelse(var(23)>=1,0,10)
+getpower = 30,15
 guardflag         = M
 hitflag           = MAFP
 sparkno           = s6021
@@ -544,7 +544,7 @@ attr              = S, NA
 damage            = ceil(59*(1-(var(4)*0.1))),0
 animtype          = Hard
 air.animtype      = Up
-getpower          = ifelse(var(23)>=1,0,10),ifelse(var(23)>=1,0,5)
+getpower = 30,15
 guardflag         = MA
 hitflag           = MAFP
 sparkno           = s6022
@@ -579,7 +579,7 @@ attr              = S, NA
 damage            = ceil(69*(1-(var(4)*0.1))),0
 animtype          = Hard
 air.animtype      = Up
-getpower          = ifelse(var(23)>=1,0,10),ifelse(var(23)>=1,0,5)
+getpower = 30,15
 guardflag         = MA
 hitflag           = MAFP
 sparkno           = s6022
@@ -685,7 +685,7 @@ attr                = S, NA
 damage              = ceil(85*(1-(var(4)*0.1))),0
 animtype            = Hard
 ;air.animtype       = Low
-getpower            = ifelse(var(23)>=1,0,10),ifelse(var(23)>=1,0,5)
+getpower = 60,30
 guardflag           = H
 hitflag             = MAFP
 sparkno             = s6022
@@ -726,7 +726,7 @@ attr              = S, NA
 damage            = ceil(75*(1-(var(4)*0.1))),0
 animtype          = Hard
 air.animtype      = Up
-getpower          = ifelse(var(23)>=1,0,10),ifelse(var(23)>=1,0,5)
+getpower = 60,30
 guardflag         = H
 hitflag           = MAFP
 sparkno           = s6022
@@ -764,7 +764,7 @@ attr              = S, NA
 damage            = ceil(90*(1-(var(4)*0.1))),0
 animtype          = Hard
 air.animtype      = Up
-getpower          = 20,10
+getpower = 60,30
 guardflag         = H
 hitflag           = MAFP
 sparkno           = s6022
@@ -1053,7 +1053,7 @@ trigger1 = AnimElem = 3
 attr              = C, NA ;しゃがみ通常打撃（Crouching, Normal Attack）
 damage            = ceil(20*(1-(var(4)*0.1))),0;ceil(ifelse(var(50) = 1,8*fvar(8),80*fvar(8))),6;
 animtype          = Light
-getpower          = ifelse(var(23)>=1,0,20),ifelse(var(23)>=1,0,10)
+getpower = 30,15
 guardflag         = L  ;相手はしゃがみガードしか出来ない
 hitflag           = MAFD
 priority          = 3
@@ -1116,7 +1116,7 @@ attr              = C, NA
 damage            = ceil(60*(1-(var(4)*0.05))),0
 animtype          = Medium
 priority          = 4, Hit 
-getpower          = ifelse(var(23)>=1,0,30),ifelse(var(23)>=1,0,15)
+getpower = 30,15
 hitflag           = MAFD
 guardflag         = L
 pausetime         = 13,12
@@ -1191,7 +1191,7 @@ trigger1 = Time = 0
 attr              = C, NA
 damage            = ceil(81*(1-(var(4)*0.05))),0
 animtype          = Back
-getpower          = ifelse(var(23)>=1,0,30),ifelse(var(23)>=1,0,10)
+getpower = 15,7
 guardflag         = M
 hitflag           = MAFD
 pausetime         = 10,9
@@ -1217,7 +1217,7 @@ trigger1 = Time = 0 && var(5) = 1
 attr              = C, NA
 damage            = ceil(90*(1-(var(4)*0.05))),0
 animtype          = DiagUp
-getpower          = 30,10
+getpower = 15,7
 guardflag         = M
 hitflag           = MAFD
 pausetime         = 10,20
@@ -1308,7 +1308,7 @@ trigger1 = AnimElem = 4
 attr              = C,NA
 damage            = ceil(90*(1-(var(4)*0.1))),0
 animtype          = Medium
-getpower          = ifelse(var(23)>=1,0,30),ifelse(var(23)>=1,0,10) 
+getpower = 30,15
 guardflag         = L
 hitflag           = MAFD
 pausetime         = 15,15
@@ -1336,7 +1336,7 @@ trigger1 = AnimElem = 4 && var(5) = 1
 attr              = C,NA
 damage            = 95,0
 animtype          = Medium
-getpower          = ifelse(var(23)>=1,0,50),ifelse(var(23)>=1,0,10) 
+getpower = 30,15
 guardflag         = L
 hitflag           = MAFD
 pausetime         = 17,30
@@ -1417,7 +1417,7 @@ trigger1 = Time = 0
 attr              = A, NA ;空中通常打撃（Air, Normal Attack）
 damage            = ceil(20*(1-(var(4)*0.1))),0
 animtype          = Light
-getpower          = ifelse(var(23)>=1,0,30),ifelse(var(23)>=1,0,10) 
+getpower = 30,15
 guardflag         = HA ;相手はしゃがみガードが出来ない
 priority          = 3
 pausetime         = 9,10
@@ -1466,7 +1466,7 @@ trigger1 = Time = 0
 attr              = A, NA
 damage            = ceil(60*(1-(var(4)*0.1))),0
 animtype          = Medium
-getpower          = ifelse(var(23)>=1,0,30),ifelse(var(23)>=1,0,10) 
+getpower = 30,15
 guardflag         = HA
 priority          = 4
 pausetime         = 12,12
@@ -1530,7 +1530,7 @@ trigger1 = Time = 0
 attr              = A, NA
 damage            = ceil(85*(1-(var(4)*0.1))),0
 animtype          = Hard
-getpower          = ifelse(var(23)>=1,0,30),ifelse(var(23)>=1,0,10) 
+getpower = 30,15
 guardflag         = MA
 priority          = 3
 ;pausetime         = 5,5
@@ -1582,7 +1582,7 @@ trigger1          = Time = 0
 attr              = A, NA
 damage            = ceil(50*(1-(var(4)*0.1))),0
 animtype          = Back
-getpower          = ifelse(var(23)>=1,0,15),ifelse(var(23)>=1,0,7)
+getpower = 60,30
 hitflag           = MAFDP 
 guardflag         = MA
 pausetime         = 13,16
@@ -1685,7 +1685,7 @@ animtype 　　       = Medium
 priority             = 3, Hit
 pausetime            = 10,10
 guard.pausetime      = 10,10
-getpower             = ifelse(var(23)>=1,0,10),ifelse(var(23)>=1,0,5)
+getpower = 30,15
 hitsound             = s0,33
 guardsound           = s0,10 
 sparkno              = s6014
@@ -2031,6 +2031,7 @@ sprpriority = 2
 
 [State 800, ヒット定義（投げ用）];地上
 type = HitDef
+getpower = 60,30
 triggerall = (StateType != A)
 trigger1 = P2StateNo != 2051
 Trigger1 = p2stateno != 150 && 151 && 152 && 153 && 130 && 131 && 140
@@ -2073,7 +2074,7 @@ movetype = A
 physics  = N
 anim     = 801
 ctrl     = 0
-poweradd = 60
+poweradd = 0
 velset   = 0,0
 
 [State 801, 掴んだ相手の方向]
@@ -2225,6 +2226,7 @@ sprpriority = 2
 
 [State 802, ヒット定義（投げ用）];地上
 type = HitDef
+getpower = 60,30
 triggerall = (StateType != A)
 trigger1 = P2StateNo != 2051
 Trigger1 = p2stateno != 150 && 151 && 152 && 153 && 130 && 131 && 140
@@ -2267,7 +2269,7 @@ movetype = A
 physics  = N
 anim     = 801
 ctrl     = 0
-poweradd = 60
+poweradd = 0
 velset   = 0,0
 
 [State 804];逆投げ
@@ -2434,7 +2436,7 @@ trigger1 = AnimElem = 3
 attr = A,NT
 damage = 0
 animtype = Hard
-getpower = 0,0
+getpower = 30,15
 givepower = 0,0
 hitflag = A-
 numhits = 0
@@ -2461,7 +2463,7 @@ trigger1 = AnimElem = 3
 attr = A,NA
 damage = 0
 animtype = Hard
-getpower = 0,0
+getpower = 30,15
 givepower = 0,0
 hitflag = MA-
 numhits = 0
@@ -2518,7 +2520,7 @@ physics = N
 ctrl = 0
 anim = 811
 velset   = 0,0
-PowerAdd = 20
+PowerAdd = 0
 
 [State 810]
 type = PlaySnd

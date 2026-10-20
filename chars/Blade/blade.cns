@@ -678,7 +678,7 @@ physics = S
 juggle  = 15
 ;Commonly-used controllers:
 ctrl = 0    
-poweradd = 20
+poweradd = 0
 sprpriority = 2
 hitdefpersist = 1
 movehitpersist = 1
@@ -746,6 +746,7 @@ trigger2 = var(6) := 300
 attr = S, NA
 animtype  = Back
 damage    = 130, 26
+getpower = 30,15
 hitflag = MA
 guardflag = MA
 pausetime = 13,13
@@ -786,6 +787,7 @@ trigger2 = var(6) := 300
 attr = S, NA
 animtype  = Back
 damage    = 130, 26
+getpower = 30,15
 hitflag = MA
 guardflag = MA
 pausetime = 13,13
@@ -837,7 +839,7 @@ type    = S
 movetype= A
 physics = S
 juggle  = 15
-poweradd= 40
+poweradd= 0
 ctrl = 0
 sprpriority = -1
 hitdefpersist = 1
@@ -903,6 +905,7 @@ trigger2 = var(6) := 300 + 100*(var(17) != 0)
 attr = S, NA
 animtype  = Hard
 damage    = 130, 26
+getpower = 30,15
 priority  = 5
 hitflag = MA
 guardflag = MA
@@ -938,6 +941,7 @@ trigger2 = var(6) := 300 + 100*(var(17) != 0)
 attr = S, NA
 animtype  = Hard
 damage    = 130, 26
+getpower = 30,15
 priority  = 5
 hitflag = MA
 guardflag = MA
@@ -974,6 +978,7 @@ trigger2 = var(6) := 300 + 100*(var(17) != 0)
 attr = S, NA
 animtype  = daigup
 damage    = 130 + 30*(var(17) != 0), 26 + 6*(var(17) != 0)
+getpower = 30,15
 priority  = 5
 hitflag = MA
 guardflag = MA
@@ -1011,6 +1016,7 @@ trigger2 = var(6) := 300 + 100*(var(17) != 0)
 attr = S, NA
 animtype  = daigup
 damage    = 130 + 30*(var(17) != 0), 26 + 6*(var(17) != 0)
+getpower = 30,15
 priority  = 5
 hitflag = MA
 guardflag = MA
@@ -1075,7 +1081,7 @@ type    = S
 movetype= A
 physics = S
 juggle  = 1
-poweradd= 45
+poweradd= 0
 ctrl = 0
 sprpriority = 2
 hitdefpersist = 1
@@ -1165,6 +1171,7 @@ trigger1 = var(6) := 240
 attr = S, NA
 animtype  = Medium
 damage    = 100, 20
+getpower = 7,3
 hitflag = MA
 guardflag = MA
 pausetime = 11,11
@@ -1194,6 +1201,7 @@ trigger1 = var(6) := 240
 attr = S, NA
 animtype  = Medium
 damage    = 100, 20
+getpower = 7,3
 hitflag = MA
 guardflag = MA
 pausetime = 11,11
@@ -1224,6 +1232,7 @@ trigger1 = var(6) := 120
 attr = S, NA
 animtype  = Medium
 damage    = 50, 10
+getpower = 7,3
 hitflag = MA
 guardflag = MA
 pausetime = 11,11
@@ -1253,6 +1262,7 @@ trigger1 = var(6) := 120
 attr = S, NA
 animtype  = Medium
 damage    = 50, 10
+getpower = 7,3
 hitflag = MA
 guardflag = MA
 pausetime = 11,11
@@ -1283,6 +1293,7 @@ trigger1 = var(6) := 35
 attr = S, NA
 animtype  = Medium
 damage    = 15, 3
+getpower = 7,3
 hitflag = MA
 guardflag = MA
 pausetime = 5,5
@@ -1310,6 +1321,7 @@ trigger1 = var(6) := 35
 attr = S, NA
 animtype  = Medium
 damage    = 15, 3
+getpower = 7,3
 hitflag = MA
 guardflag = MA
 pausetime = 5,5
@@ -1344,6 +1356,7 @@ trigger4 = var(6) := 35
 attr = S, NA
 animtype  = Medium
 damage    = 15, 3
+getpower = 7,3
 hitflag = MA
 guardflag = MA
 pausetime = 3,3
@@ -1377,6 +1390,7 @@ trigger4 = var(6) := 35
 attr = S, NA
 animtype  = Medium
 damage    = 15, 3
+getpower = 7,3
 hitflag = MA
 guardflag = MA
 pausetime = 3,3
@@ -1463,7 +1477,7 @@ type    = C
 movetype= A
 physics = N
 juggle  = 15
-poweradd= 15
+poweradd= 0
 ctrl = 0
 sprpriority = 2
 hitdefpersist = 1
@@ -1551,6 +1565,7 @@ trigger2 = target(var(13)), stateno = [5000, 5110]
 trigger2 = var(6) := 150
 attr = C, NA
 damage    = 100
+getpower = 30,15
 hitflag = MA
 guardflag = L
 pausetime = 8,8
@@ -1587,6 +1602,7 @@ trigger2 = target(var(13)), stateno = [5000, 5110]
 trigger2 = var(6) := 150
 attr = C, NA
 damage    = 100
+getpower = 30,15
 hitflag = MA
 guardflag = L
 pausetime = 8,8
@@ -1629,7 +1645,7 @@ type    = A
 movetype= A
 physics = A
 juggle  = 15
-poweradd= 20
+poweradd= 0
 ctrl = 0
 sprpriority = 2
 hitdefpersist = 1
@@ -1693,6 +1709,7 @@ trigger2 = target(var(13)), stateno = [5000, 5110]
 trigger2 = var(6) := 200
 attr = A, NA
 damage = 100, 20
+getpower = 30,15
 hitflag = MA
 guardflag = HA
 priority = 4
@@ -1729,6 +1746,7 @@ trigger2 = target(var(13)), stateno = [5000, 5110]
 trigger2 = var(6) := 200
 attr = A, NA
 damage = 100, 20
+getpower = 30,15
 hitflag = MA
 guardflag = HA
 priority = 4
@@ -1789,6 +1807,7 @@ y = fvar(1)
 
 [State 800, 1]
 type = HitDef
+getpower = 60,30
 trigger1 = animelem = 1
 trigger1 = p2bodydist x < const(size.xscale)*(65 - const(size.ground.front))
 attr = S, NT          ;Attributes: Standing, Normal Throw
@@ -1995,7 +2014,7 @@ physics = N
 juggle  = 15
 ;Commonly-used controllers:
 ctrl = 0    
-poweradd = 70
+poweradd = 20
 sprpriority = 2
 
 [State Armour StateNo]
@@ -2048,6 +2067,7 @@ trigger1 = animelem = 1
 attr = S, SA
 animtype  = Light
 damage    = 15, 3
+getpower = 15,7
 hitflag = MA
 guardflag = MA
 pausetime = 3,3
@@ -2068,6 +2088,7 @@ trigger1 = animelem = 1
 attr = S, SA
 animtype  = Light
 damage    = 15, 3
+getpower = 15,7
 hitflag = MA
 guardflag = MA
 pausetime = 3,3
@@ -2182,7 +2203,7 @@ physics = S
 juggle  = 15
 ;Commonly-used controllers:
 ctrl = 0    
-poweradd = 70
+poweradd = 0
 sprpriority = 2
 hitdefpersist = 1
 
@@ -2310,6 +2331,7 @@ trigger3 = var(6) := 25
 attr = S, SP
 animtype  = Medium
 damage    = 60, 12
+getpower = 30,15
 hitflag = MA
 guardflag = MA
 pausetime = 7,7
@@ -2345,6 +2367,7 @@ trigger3 = var(6) := 25
 attr = S, SP
 animtype  = Medium
 damage    = 60, 12
+getpower = 30,15
 hitflag = MA
 guardflag = MA
 pausetime = 7,7
@@ -2379,6 +2402,7 @@ trigger2 = var(6) := 25
 attr = S, SP
 animtype  = Medium
 damage    = 60, 12
+getpower = 30,15
 guardflag = MA
 pausetime = 7,7
 sparkno = 2
@@ -2411,6 +2435,7 @@ trigger2 = var(6) := 25
 attr = S, SP
 animtype  = Medium
 damage    = 60, 12
+getpower = 30,15
 guardflag = MA
 pausetime = 7,7
 sparkno = s7001

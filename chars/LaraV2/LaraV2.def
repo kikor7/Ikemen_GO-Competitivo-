@@ -6,6 +6,7 @@ mugenversion=1.0
 author="Diogo M Soulfire"
 pal.defaults=1,2
 [Files]
+movelist = movelist.dat
 sprite=Lara.sff
 sound=Lara.snd
 anim=Lara.air

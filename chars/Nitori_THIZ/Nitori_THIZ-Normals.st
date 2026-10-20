@@ -62,7 +62,7 @@ ground.hittime  = cond((var(32):=14+2*(var(42)!=0)+var(34))<=1,1,var(32))
 guard.slidetime = cond((var(32):=12+2*(var(42)!=0)+var(34))<=1,1,var(32))
 guard.hittime = cond((var(32):=12+2*(var(42)!=0)+var(34))<=1,1,var(32))
 air.hittime = cond((var(32):=16+2*(var(42)!=0)+var(34))<=1,1,var(32))
-getpower = ceil(var(11)*1.6*(fvar(11)/cond(var(55)=1,(fvar(30)),1))*ifelse(var(42),1.25,1.0)),ceil(var(11)*0.4) ;160% & 40% of base damage
+getpower = 30,15;160% & 40% of base damage
 givepower = ceil(var(11)*0.8*(fvar(11)/cond(var(55)=1,(fvar(30)),1))*ifelse(var(42),1.25,1.0)),ceil(var(11)*0.2) ;80% & 20% of base damage
 p2facing = 1
 ground.cornerpush.veloff = 0
@@ -232,7 +232,7 @@ air.cornerpush.veloff = 0
 fall = 0
 fall.recover = 1
 fall.recovertime = cond((var(32):=20+3*(var(42)!=0)+var(34))<=1,1,var(32))+10;hitstun+pausetime value
-getpower = ceil(var(11)*1.6*(fvar(11)/cond(var(55)=2,(fvar(30)),1))*ifelse(var(42),1.25,1.0)),ceil(var(11)*0.4) ;160%/40%
+getpower = 30,15;160%/40%
 givepower = ceil(var(11)*0.8*(fvar(11)/cond(var(55)=2,(fvar(30)),1))*ifelse(var(42),1.25,1.0)),ceil(var(11)*0.2) ;80%/20%
 p2facing = 1
 id = 555
@@ -415,7 +415,7 @@ air.velocity = -6.0,-4.0
 ground.cornerpush.veloff = 0
 air.cornerpush.veloff = 0
 y.accel = 0.5
-getpower = ceil(var(11)*1.6*fvar(11)*ifelse(var(42),1.25,1.0)),ceil(var(11)*0.4)
+getpower = 15,7
 givepower = ceil(var(11)*0.8*fvar(11)*ifelse(var(42),1.25,1.0)),ceil(var(11)*0.2)
 p2facing = 1
 id = 555
@@ -451,7 +451,7 @@ air.velocity = -6.0,-4.0
 ground.cornerpush.veloff = 0
 air.cornerpush.veloff = 0
 y.accel = 0.5
-getpower = ceil(var(11)*1.6*fvar(11)*ifelse(var(42),1.25,1.0)),ceil(var(11)*0.4)
+getpower = 15,7
 givepower = ceil(var(11)*0.8*fvar(11)*ifelse(var(42),1.25,1.0)),ceil(var(11)*0.2)
 p2facing = 1
 id = 555
@@ -556,7 +556,7 @@ air.velocity = -3.0,-7.0
 ground.cornerpush.veloff = 0
 air.cornerpush.veloff = 0
 y.accel = 0.5
-getpower = ceil(var(11)*1.6*fvar(11)*ifelse(var(42),1.25,1.0)),ceil(var(11)*0.4)
+getpower = 30,15
 givepower = ceil(var(11)*0.8*fvar(11)*ifelse(var(42),1.25,1.0)),ceil(var(11)*0.2)
 p2facing = 1
 id = 555
@@ -668,7 +668,7 @@ air.velocity = -12.0,cond(var(15)=0&&sysvar(4)=0,-8.0,-4.0)
 ground.cornerpush.veloff = 0
 air.cornerpush.veloff = 0
 y.accel = 0.5
-getpower = ceil(var(11)*1.6*fvar(11)*ifelse(var(42),1.25,1.0)),ceil(var(11)*0.4)
+getpower = 30,15
 givepower = ceil(var(11)*0.8*fvar(11)*ifelse(var(42),1.25,1.0)),ceil(var(11)*0.2)
 p2facing = 1
 id = 225
@@ -774,7 +774,7 @@ air.type = Low
 ground.velocity = -3.5
 air.velocity = -3.5,-5.0
 yaccel = 0.5
-getpower = ceil(var(11)*1.6*fvar(11)*ifelse(var(42),1.25,1.0)),ceil(var(11)*0.4)
+getpower = 30,15
 givepower = ceil(var(11)*0.8*fvar(11)*ifelse(var(42),1.25,1.0)),ceil(var(11)*0.2)
 p2facing = 1
 ground.cornerpush.veloff = 0
@@ -908,7 +908,7 @@ air.hittime = cond((var(32):=20+3*(var(42)!=0)+var(34))<=1,1,var(32))
 air.fall = 1
 fall.recover = 1
 fall.recovertime = cond((var(32):=20+3*(var(42)!=0)+var(34))<=1,1,var(32))+10;hitstun+pausetime value
-getpower = ceil(var(11)*1.6*fvar(11)*ifelse(var(42),1.25,1.0)),ceil(var(11)*0.4) ;160%/40%
+getpower = 30,15;160%/40%
 givepower = ceil(var(11)*0.8*fvar(11)*ifelse(var(42),1.25,1.0)),ceil(var(11)*0.2) ;80%/20%
 p2facing = 1
 id = 555
@@ -1035,7 +1035,7 @@ air.hittime = cond((var(32):=29+3*(var(42)!=0)+var(34))<=1,1,var(32))
 fall = 1
 fall.recover = 0
 fall.yvelocity = 0
-getpower = ceil(var(11)*1.6*fvar(11)*ifelse(var(42),1.25,1.0)),ceil(var(11)*0.4)
+getpower = 30,15
 givepower = ceil(var(11)*0.8*fvar(11)*ifelse(var(42),1.25,1.0)),ceil(var(11)*0.2)
 p2facing = 1
 p2stateno = cond(sysvar(4)=0,470,-1)
@@ -1132,7 +1132,7 @@ guardsound = s2,0
 ground.type = High
 ground.velocity = -4.0
 air.velocity = -4.0,-2.0
-getpower = ceil(var(11)*1.6*(fvar(11)/cond(var(55)=3,(fvar(30)),1))*ifelse(var(42),1.25,1.0)),ceil(var(11)*0.4)
+getpower = 30,15
 givepower = ceil(var(11)*0.8*(fvar(11)/cond(var(55)=3,(fvar(30)),1))*ifelse(var(42),1.25,1.0)),ceil(var(11)*0.2)
 p2facing = 1
 ground.slidetime = cond((var(32):=18+2*(var(42)!=0)+var(34))<=1,1,var(32))
@@ -1267,7 +1267,7 @@ air.hittime = cond((var(32):=20+3*(var(42)!=0)+var(34))<=1,1,var(32))
 air.fall = 1
 fall.recover = 1
 fall.recovertime = cond((var(32):=20+3*(var(42)!=0)+var(34))<=1,1,var(32))+10;hitstun+pausetime value
-getpower = ceil(var(11)*1.6*(fvar(11)/cond(var(55)=4,(fvar(30)),1))*ifelse(var(42),1.25,1.0)),ceil(var(11)*0.4)
+getpower = 30,15
 givepower = ceil(var(11)*0.8*(fvar(11)/cond(var(55)=4,(fvar(30)),1))*ifelse(var(42),1.25,1.0)),ceil(var(11)*0.2)
 p2facing = 1
 id = 555
@@ -1417,7 +1417,7 @@ ground.type = High
 ground.velocity = -6.0,0.0
 air.velocity = -6.0,-4.0
 yaccel = 0.5
-getpower = ceil(var(11)*1.6*(fvar(11)/cond(var(55)=5,(fvar(30)),1))*ifelse(var(42),1.25,1.0)),ceil(var(11)*0.4)
+getpower = 30,15
 givepower = ceil(var(11)*0.8*(fvar(11)/cond(var(55)=5,(fvar(30)),1))*ifelse(var(42),1.25,1.0)),ceil(var(11)*0.2)
 p2facing = 1
 id = 555
@@ -1658,7 +1658,7 @@ ground.velocity = -12.0,-8.0
 airguard.velocity = -8.0,-8.0
 air.velocity = -12.0,-8.0
 yaccel = 0.5
-getpower = ceil(var(11)*1.6*fvar(11)*ifelse(var(42),1.25,1.0)),ceil(var(11)*0.4)
+getpower = 30,15
 givepower = ceil(var(11)*0.8*fvar(11)*ifelse(var(42),1.25,1.0)),ceil(var(11)*0.2)
 p2facing = 1
 ;id = 555
@@ -1765,7 +1765,7 @@ guard.dist = 0
 ;fall = 1
 ;fall.recover = 0
 y.accel = 0.5
-getpower = 0,0
+getpower = 60,30
 givepower = 0,0
 guard.dist = 0
 ID = 800
@@ -2062,7 +2062,7 @@ guard.dist = 0
 ;fall = 1
 ;fall.recover = 0
 y.accel = 0.5
-getpower = 0,0
+getpower = 60,30
 givepower = 0,0
 guard.dist = 0
 ID = 810

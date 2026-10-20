@@ -504,6 +504,24 @@ ctrl = 1
 
 ;---------------------------------------------------------------------------
 ;避け
+;---------------------------------------------------------------------------
+; Recuperacion tras esquivar/rodar: sin control y golpeable unos frames,
+; para que no se pueda encadenar sin riesgo.
+;---------------------------------------------------------------------------
+[Statedef 1002]
+type = S
+movetype = I
+physics = S
+ctrl = 0
+anim = 0
+velset = 0,0
+
+[State 1002, Fin de la recuperacion]
+type = ChangeState
+trigger1 = Time >= 12
+value = 0
+ctrl = 1
+
 [Statedef 850]
 type = S
 movetype = I
@@ -557,8 +575,8 @@ value = SCA, NT,ST,HT
 [State 850, ステート変更]
 type = ChangeState
 trigger1 = AnimTime = 0
-value = 0
-ctrl = 1
+value = 1002
+ctrl = 0
 
 ;---------------------------------------------------------------------------
 ;---------------------------------------------------------------------------
@@ -802,7 +820,7 @@ juggle  = 1
 velset = 0,0
 ctrl = 0
 anim = 200
-poweradd = 70
+poweradd = 0
 sprpriority = 2
 facep2 = 1
 
@@ -822,6 +840,7 @@ type = HitDef
 trigger1 = AnimElem =2 
 attr = S, NA ;立ち通常打撃（Standing, Normal Attack）
 damage = 13, 5
+getpower = 30,15
 animtype = Light
 guardflag = M
 hitflag = MAF
@@ -870,7 +889,7 @@ type    = S
 movetype= A
 physics = S
 juggle  = 4
-poweradd= 140
+poweradd= 0
 ctrl = 0
 velset = 4,0
 anim = 210
@@ -935,6 +954,7 @@ trigger1 = AnimElem = 3||AnimElem = 5
 attr = S, NA
 animtype  = Medium
 damage    = 13,6
+getpower = 15,7
 priority = 5, Hit
 guardflag = M
 pausetime = 2,5
@@ -958,6 +978,7 @@ attr = S, NA
 animtype  = Medium
 priority = 5, Hit
 damage    = 10,5
+getpower = 15,7
 guardflag = M
 pausetime = 8,10
 sparkno = S10006
@@ -986,7 +1007,7 @@ type    = A
 movetype= A
 physics = A
 juggle  = 3
-poweradd= 120
+poweradd= 0
 ctrl = 0
 anim = 220
 sprpriority = 2
@@ -1030,6 +1051,7 @@ type = HitDef
 trigger1 = AnimElem = 3
 attr = A, NA
 damage = 18,8
+getpower = 30,15
 priority = 5, Hit
 guardflag = HA
 pausetime = 0,10
@@ -1059,7 +1081,7 @@ type    = C
 movetype= A
 physics = C
 juggle  = 2
-poweradd= 90
+poweradd= 0
 ctrl = 0
 anim = 230
 sprpriority = 2
@@ -1091,6 +1113,7 @@ type = HitDef
 trigger1 = AnimElem =3 
 attr = C, NA ;立ち通常打撃（Standing, Normal Attack）
 damage = 14, 8
+getpower = 30,15
 animtype = Light
 guardflag = L
 hitflag = MAF
@@ -1131,7 +1154,7 @@ type    = S
 movetype= A
 physics = S
 juggle  = 0
-poweradd= 80
+poweradd= 0
 velset = 0,0
 anim = 400
 ctrl = 0
@@ -1182,7 +1205,7 @@ ground.velocity = -2,-6
 air.velocity = -2,-4
 fall = 1
 air.fall = 1
-getpower = 0
+getpower = 60,30
 
 [State 620, 5]
 type = ChangeState
@@ -1206,6 +1229,7 @@ sprpriority = 2
 
 [State 800, ヒット定義（投げ用）]
 type = HitDef
+getpower = 30,15
 trigger1 = Time = 0
 attr = S, NA ;立ち通常投げ（Standing, Normal Throw）
 hitflag = M-  ;マイナスが付加されてるので相手が食らい中の時は掴めない
@@ -1232,7 +1256,7 @@ type    = S
 movetype= A
 physics = S
 anim = 810
-poweradd = 100
+poweradd = 0
 sprpriority = 2
 velset = 0,0
 

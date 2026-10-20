@@ -6,7 +6,7 @@ type    = S
 movetype = A
 physics = S
 juggle  = 7
-poweradd = 100
+poweradd = 20
 velset = 0,0
 ctrl = 0
 anim = 1000
@@ -109,7 +109,7 @@ trigger1 = animelem = 1
 trigger2 = animelem = 3
 attr = S, SP
 animtype  = Light
-getpower = 40,20
+getpower = 10,5
 damage    = 20,3
 guardflag = MA
 pausetime = 6,8
@@ -194,7 +194,7 @@ trigger1 = animelem = 1
 trigger2 = animelem = 3
 attr = S, SP
 animtype  = Light
-getpower = 0,0
+getpower = 10,5
 damage    = 20,3
 guardflag = MA
 pausetime = 6,8
@@ -259,7 +259,7 @@ type = HitDef
 trigger1 = animelem = 1
 attr = S, SP
 animtype  = Light
-getpower = 20,10
+getpower = 10,5
 damage    = 10
 guardflag = MA
 pausetime = 6,8
@@ -311,7 +311,7 @@ trigger1 = Parentdist x > -10
 type    = S
 physics = S
 juggle  = 7
-poweradd = 100
+poweradd = 20
 velset = 0,0
 ctrl = 0
 anim = 1100
@@ -421,7 +421,7 @@ trigger2 = animelem = 4
 trigger3 = animelem = 6
 attr = S, SP
 animtype  = Hard
-getpower = 40,20
+getpower = 15,7
 damage    = 20,5
 getpower  = 0
 priority = 5, Hit
@@ -827,7 +827,7 @@ trigger6 =  animelem = 9
 trigger7 =  animelem = 10
 trigger8 =  animelem = 11
 attr = S, SP
-getpower = 0,0
+getpower = 15,7
 damage  = 20, 5
 guardflag = MA
 priority = 4, dodge
@@ -1594,7 +1594,7 @@ movetype = A
 physics = N
 juggle  = 7
 velset = 0,0
-poweradd = 125
+poweradd = 0
 ctrl = 0
 anim = 1400
 sprpriority = 2
@@ -1679,7 +1679,7 @@ type = HitDef
 trigger1 =  animelem = 1
 trigger2 =  animelem = 2
 attr = S, SA
-getpower = 0,0
+getpower = 10,5
 damage  = 30, 10
 guardflag = MA
 priority = 4, dodge
@@ -1900,7 +1900,7 @@ triggerall = var(10) > 50
 trigger1 = 1
 attr = S, ST
 animtype = Medium
-getpower = 0,0
+getpower = 10,5
 pausetime = 0,0
 getpower  = 0
 priority = 5, Hit
@@ -2246,7 +2246,7 @@ type = HitDef
 trigger1 =  animelem = 2
 trigger2 =  animelem = 4
 attr = A, SP
-getpower = 0,0
+getpower = 10,5
 damage  = 10, 5
 guardflag = MA
 priority = 4, dodge
@@ -4118,7 +4118,7 @@ trigger1 = time = 15
 type    = S
 physics = S
 juggle  = 10
-poweradd = 100
+poweradd = 0
 ctrl = 0
 velset = 0,0
 anim = 1800
@@ -4222,7 +4222,7 @@ type = HitDef
 trigger1 = animelem = 2
 attr = S, SA
 animtype  = Light
-getpower = 40,20
+getpower = 30,15
 damage    = 10
 guardflag = MA
 pausetime = 8,10
@@ -4264,7 +4264,7 @@ triggerall = time < 39
 trigger1 = animelem = 4
 attr = S, NA
 animtype  = Light
-getpower = 0,0
+getpower = 30,15
 damage    = 30,3
 guardflag = MA
 pausetime = 8,10

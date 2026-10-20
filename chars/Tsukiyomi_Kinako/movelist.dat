@@ -1,0 +1,16 @@
+<#f0f000>:Special Moves:</>
+Descent			_B_D_F^A_+^B_+^C
+Spinning Thrust			_B_D_F^C
+Tasting			_F_D_B^A
+Fly in the fly			_QCB^B
+Shield of the Grimoire			_QCB^A
+Introduce My Big Friends			_DSF^A
+Introduce My Friends			_QCF^A
+B Steal			^B_+^C
+Throw			^A_+^B
+
+<#f0f000>:Hyper Moves:</>
+Grimoire Hard Punch <#f00000>(1000)</>			_QCF^X
+Crucifixion <#f00000>(1000)</>			_F_D_B^X
+BIGBANG MODE <#f00000>(3000)</>			^A_+^B_+^C
+B Counter <#f00000>(1000)</>			^B_+^C

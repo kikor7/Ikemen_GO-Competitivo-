@@ -7,7 +7,7 @@ physics = s
 ctrl = 0
 anim = 1000
 sprpriority = 2
-poweradd = 25
+poweradd = 20
 facep2 = 1
 
 [state voice]
@@ -62,7 +62,7 @@ physics = s
 ctrl = 0
 anim = 1000
 sprpriority = 2
-poweradd = 25
+poweradd = 20
 facep2 = 1
 
 [state voice]
@@ -117,7 +117,7 @@ physics = s
 ctrl = 0
 anim = 1000
 sprpriority = 2
-poweradd = 25
+poweradd = 20
 facep2 = 1
 
 [state voice]
@@ -172,7 +172,7 @@ physics = n
 ctrl = 0
 anim = 1100
 sprpriority = 2
-poweradd = 25
+poweradd = 20
 facep2 = 1
 
 [state velmul]
@@ -247,7 +247,7 @@ physics = n
 ctrl = 0
 anim = 1100
 sprpriority = 2
-poweradd = 25
+poweradd = 20
 facep2 = 1
 
 [state velmul]
@@ -322,7 +322,7 @@ physics = n
 ctrl = 0
 anim = 1100
 sprpriority = 2
-poweradd = 25
+poweradd = 20
 facep2 = 1
 
 [state velmul]
@@ -631,7 +631,7 @@ physics = n
 ctrl = 0
 anim = 1200
 sprpriority = 2
-poweradd = 25
+poweradd = 0
 facep2 = 1
 velset = 0,0
 
@@ -707,7 +707,7 @@ ground.cornerpush.veloff = 0
 fall = 1
 fall.recover = 0
 forcestand = 1
-getpower = 100,100
+getpower = 60,30
 givepower = 40,40
 envshake.time = 15
 envshake.freq = 100
@@ -765,7 +765,7 @@ physics = n
 ctrl = 0
 anim = 1200
 sprpriority = 2
-poweradd = 25
+poweradd = 0
 facep2 = 1
 velset = 0,0
 
@@ -841,7 +841,7 @@ ground.cornerpush.veloff = 0
 fall = 1
 fall.recover = 0
 forcestand = 1
-getpower = 100,100
+getpower = 60,30
 givepower = 40,40
 envshake.time = 15
 envshake.freq = 100
@@ -861,7 +861,7 @@ physics = n
 ctrl = 0
 anim = 1200
 sprpriority = 2
-poweradd = 25
+poweradd = 0
 facep2 = 1
 velset = 0,0
 
@@ -937,7 +937,7 @@ ground.cornerpush.veloff = 0
 fall = 1
 fall.recover = 0
 forcestand = 1
-getpower = 100,100
+getpower = 60,30
 givepower = 40,40
 envshake.time = 15
 envshake.freq = 100
@@ -958,7 +958,7 @@ physics = s
 anim = 1300
 ctrl = 0
 sprpriority = 2
-poweradd = 25
+poweradd = 0
 facep2 = 1
 velset = 0,0
 
@@ -993,7 +993,7 @@ physics = s
 anim = 1300
 ctrl = 0
 sprpriority = 2
-poweradd = 25
+poweradd = 0
 facep2 = 1
 velset = 0,0
 
@@ -1028,7 +1028,7 @@ physics = s
 anim = 1300
 ctrl = 0
 sprpriority = 2
-poweradd = 25
+poweradd = 0
 facep2 = 1
 velset = 0,0
 
@@ -1134,7 +1134,7 @@ ground.cornerpush.veloff = 0
 fall = 1
 fall.recover = 0
 forcestand = 1
-getpower = 100,100
+getpower = 60,30
 givepower = 40,40
 envshake.time = 15
 envshake.freq = 100

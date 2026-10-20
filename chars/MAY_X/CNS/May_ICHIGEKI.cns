@@ -347,6 +347,7 @@ value = 6000, 3
 
 [State 800, 1] ;UŒ‚—\–ñ
 type = HitDef
+getpower = 60,30
 Trigger1 = animelem = 9
 attr = S, HT						;—§‚¿’Êí“Š‚°
 hitflag = M-						;hit’†‚Ì‘Šè‚É‚Í“–‚½‚ç‚¸‹ó’†‚Ì‘Šè‚É‚à“–‚½‚ç‚È‚¢

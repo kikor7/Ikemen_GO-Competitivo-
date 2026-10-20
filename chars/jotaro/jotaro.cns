@@ -4539,7 +4539,7 @@ physics = N
 juggle = 0
 ctrl = 0
 anim = ifelse((prevstateno = [100,105]),201,200)
-poweradd = 30*(var(0)!=1)*(var(8)!=3)*(prevstateno!=[100,105])
+poweradd = 0*(var(0)!=1)*(var(8)!=3)*(prevstateno!=[100,105])
 
 [State 3001, Width]
 type = Width
@@ -4647,7 +4647,7 @@ guard.velocity = -5.5
 air.velocity = ifelse(-.85*.9**((var(42)-1)+!var(42))>-.17,-.17,-.85*.9**((var(42)-1)+!var(42))), ifelse((-5.5+(1.1*((var(42)-1)+!var(42))))>0,0,(-5.5+(1.1*((var(42)-1)+!var(42)))))
 ground.cornerpush.veloff = 0
 air.cornerpush.veloff = 0
-getpower = 40*!var(0)*(var(8)!=3),0
+getpower = 10,5
 givepower = 20*!var(0)*(var(8)!=3),0
 persistent = 0
 air.fall = 0
@@ -4686,7 +4686,7 @@ guard.velocity = -5.5
 air.velocity = ifelse(-.85*.9**((var(42)-1)+!var(42))>-.17,-.17,-.85*.9**((var(42)-1)+!var(42))), ifelse((-5.5+(1.1*((var(42)-1)+!var(42))))>0,0,(-5.5+(1.1*((var(42)-1)+!var(42)))))
 ground.cornerpush.veloff = 0
 air.cornerpush.veloff = 0
-getpower = 40*!var(0)*(var(8)!=3),0
+getpower = 10,5
 givepower = 20*!var(0)*(var(8)!=3),0
 persistent = 0
 air.fall = 0
@@ -4724,7 +4724,7 @@ guard.velocity = -5.5
 air.velocity = ifelse(-.85*.9**((var(42)-1)+!var(42))>-.17,-.17,-.85*.9**((var(42)-1)+!var(42))), ifelse((-5.5+(1.1*((var(42)-1)+!var(42))))>0,0,(-5.5+(1.1*((var(42)-1)+!var(42)))))
 ground.cornerpush.veloff = 0
 air.cornerpush.veloff = 0
-getpower = 0,0
+getpower = 10,5
 givepower = 0,0
 persistent = 0
 air.fall = 0
@@ -4790,7 +4790,7 @@ physics = N
 juggle = 0
 ctrl = 0
 anim = ifelse((prevstateno = [100,105]),211,210)
-poweradd = 40*(var(0)!=1)*(var(8)!=3)
+poweradd = 0*(var(0)!=1)*(var(8)!=3)
 
 [State 3001, Width]
 type = Width
@@ -4940,7 +4940,7 @@ guard.velocity = -8
 air.velocity = ifelse(-5.5*.9**((var(42)-1)+!var(42))>-1.1,-1.1,-5.5*.9**((var(42)-1)+!var(42))), ifelse((-3.2+(.65*((var(42)-1)+!var(42))))>0,0,(-3.2+(.65*((var(42)-1)+!var(42)))))
 ground.cornerpush.veloff = 0
 air.cornerpush.veloff = 0
-getpower = 50*!var(0)*(var(8)!=3),0
+getpower = 30,15
 givepower = 25*!var(0)*(var(8)!=3),0
 persistent = 0
 air.fall = 0
@@ -4978,7 +4978,7 @@ guard.velocity = -8
 air.velocity = ifelse(-5.5*.9**((var(42)-1)+!var(42))>-1.1,-1.1,-5.5*.9**((var(42)-1)+!var(42))), ifelse((-3.2+(.65*((var(42)-1)+!var(42))))>0,0,(-3.2+(.65*((var(42)-1)+!var(42)))))
 ground.cornerpush.veloff = 0
 air.cornerpush.veloff = 0
-getpower = 0,0
+getpower = 30,15
 givepower = 0,0
 persistent = 0
 air.fall = 0
@@ -5020,7 +5020,7 @@ physics = N
 juggle = 0
 ctrl = 0
 anim = 220
-poweradd = 50*(var(0)!=1)*(var(8)!=3)
+poweradd = 0*(var(0)!=1)*(var(8)!=3)
 velset = 0,0
 
 [State 3001, Width]
@@ -5347,7 +5347,7 @@ physics = S
 juggle = 0
 ctrl = 0
 anim = 230
-poweradd = 40*(var(0)!=1)*(var(8)!=3)
+poweradd = 0*(var(0)!=1)*(var(8)!=3)
 velset = 0,0
 
 [State 3001, Width]
@@ -5461,7 +5461,7 @@ guard.velocity = -8
 air.velocity = ifelse(-2.5*.9**((var(42)-1)+!var(42))>-.5,-.5,-2.5*.9**((var(42)-1)+!var(42))), ifelse((-6.5+(1.3*((var(42)-1)+!var(42))))>0,0,(-6.5+(1.3*((var(42)-1)+!var(42)))))
 ground.cornerpush.veloff = 0
 air.cornerpush.veloff = 0
-getpower = 50*!var(0)*(var(8)!=3),0
+getpower = 30,15
 givepower = 25*!var(0)*(var(8)!=3),0
 persistent = 0
 air.fall = 0
@@ -5499,7 +5499,7 @@ guard.velocity = -8
 air.velocity = ifelse(-2.5*.9**((var(42)-1)+!var(42))>-.5,-.5,-2.5*.9**((var(42)-1)+!var(42))), ifelse((-6.5+(1.3*((var(42)-1)+!var(42))))>0,0,(-6.5+(1.3*((var(42)-1)+!var(42)))))
 ground.cornerpush.veloff = 0
 air.cornerpush.veloff = 0
-getpower = 0,0
+getpower = 30,15
 givepower = 0,0
 persistent = 0
 air.fall = 0
@@ -5537,7 +5537,7 @@ physics = N
 juggle = 0
 ctrl = 0
 anim = 240
-poweradd = 50*(var(0)!=1)*(var(8)!=3)
+poweradd = 0*(var(0)!=1)*(var(8)!=3)
 velset = 0,0
 
 [State 3001, Width]
@@ -5609,7 +5609,7 @@ guard.velocity = -8
 air.velocity = ifelse(-12.5*.9**((var(42)-1)+!var(42))>-2.5,-2.5,-12.5*.9**((var(42)-1)+!var(42))), ifelse((-6.5+(1.3*((var(42)-1)+!var(42))))>0,0,(-6.5+(1.3*((var(42)-1)+!var(42)))))
 ground.cornerpush.veloff = 0
 air.cornerpush.veloff = 0
-getpower = 60*!var(0)*(var(8)!=3),0
+getpower = 30,15
 givepower = 30*!var(0)*(var(8)!=3),0
 persistent = 0
 air.fall = 1
@@ -5648,7 +5648,7 @@ guard.velocity = -8
 air.velocity = ifelse(-12.5*.9**((var(42)-1)+!var(42))>-2.5,-2.5,-12.5*.9**((var(42)-1)+!var(42))), ifelse((-6.5+(1.3*((var(42)-1)+!var(42))))>0,0,(-6.5+(1.3*((var(42)-1)+!var(42)))))
 ground.cornerpush.veloff = 0
 air.cornerpush.veloff = 0
-getpower = 0,0
+getpower = 30,15
 givepower = 0,0
 persistent = 0
 air.fall = 1
@@ -5687,7 +5687,7 @@ physics = N
 juggle = 0
 ctrl = 0
 anim = ifelse((prevstateno = [100,105]),401,400)
-poweradd = 30*(var(0)!=1)*(var(8)!=3)*(prevstateno!=[100,105])
+poweradd = 0*(var(0)!=1)*(var(8)!=3)*(prevstateno!=[100,105])
 
 [State 3001, Width]
 type = Width
@@ -5775,7 +5775,7 @@ guard.velocity = -5.5
 air.velocity = ifelse(-2.5*.9**((var(42)-1)+!var(42))>-.5,-.5,-2.5*.9**((var(42)-1)+!var(42))), ifelse((-6.5+(1.3*((var(42)-1)+!var(42))))>0,0,(-6.5+(1.3*((var(42)-1)+!var(42)))))
 ground.cornerpush.veloff = 0
 air.cornerpush.veloff = 0
-getpower = 40*!var(0)*(var(8)!=3),0
+getpower = 30,15
 givepower = 20*!var(0)*(var(8)!=3),0
 persistent = 0
 air.fall = 0
@@ -5813,7 +5813,7 @@ guard.velocity = -5.5
 air.velocity = ifelse(-2.5*.9**((var(42)-1)+!var(42))>-.5,-.5,-2.5*.9**((var(42)-1)+!var(42))), ifelse((-6.5+(1.3*((var(42)-1)+!var(42))))>0,0,(-6.5+(1.3*((var(42)-1)+!var(42)))))
 ground.cornerpush.veloff = 0
 air.cornerpush.veloff = 0
-getpower = 0,0
+getpower = 30,15
 givepower = 0,0
 persistent = 0
 air.fall = 0
@@ -5884,7 +5884,7 @@ physics = N
 juggle = 0
 ctrl = 0
 anim = 410
-poweradd = 40*(var(0)!=1)*(var(8)!=3)
+poweradd = 0*(var(0)!=1)*(var(8)!=3)
 sprpriority = 2
 velset = 0,0
 
@@ -6033,7 +6033,7 @@ physics = N
 juggle = 0
 ctrl = 0
 anim = 411
-poweradd = 40*(var(0)!=1)*(var(8)!=3)
+poweradd = 0*(var(0)!=1)*(var(8)!=3)
 sprpriority = 2
 
 [State 3001, Width]
@@ -6107,7 +6107,7 @@ physics = N
 juggle = 0
 ctrl = 0
 anim = 420
-poweradd = 50*(var(0)!=1)*(var(8)!=3)
+poweradd = 0*(var(0)!=1)*(var(8)!=3)
 velset = 0,0
 
 [State 3001, Width]
@@ -6257,7 +6257,7 @@ physics = N
 juggle = 0
 ctrl = 0
 anim = 421
-poweradd = 50*(var(0)!=1)*(var(8)!=3)
+poweradd = 0*(var(0)!=1)*(var(8)!=3)
 
 [State 3001, Width]
 type = Width
@@ -6330,7 +6330,7 @@ physics = C
 juggle = 0
 ctrl = 0
 anim = 430
-poweradd = 50*(var(0)!=1)*(var(8)!=3)
+poweradd = 0*(var(0)!=1)*(var(8)!=3)
 velset = 0,0
 
 [State 3001, Width]
@@ -6402,7 +6402,7 @@ guard.velocity = -8
 air.velocity = ifelse(-2.5*.9**((var(42)-1)+!var(42))>-.5,-.5,-2.5*.9**((var(42)-1)+!var(42))), ifelse((-6.5+(1.3*((var(42)-1)+!var(42))))>0,0,(-6.5+(1.3*((var(42)-1)+!var(42)))))
 ground.cornerpush.veloff = 0
 air.cornerpush.veloff = 0
-getpower = 60*!var(0)*(var(8)!=3),0
+getpower = 30,15
 givepower = 30*!var(0)*(var(8)!=3),0
 persistent = 0
 air.fall = 1
@@ -6441,7 +6441,7 @@ guard.velocity = -8
 air.velocity = ifelse(-2.5*.9**((var(42)-1)+!var(42))>-.5,-.5,-2.5*.9**((var(42)-1)+!var(42))), ifelse((-6.5+(1.3*((var(42)-1)+!var(42))))>0,0,(-6.5+(1.3*((var(42)-1)+!var(42)))))
 ground.cornerpush.veloff = 0
 air.cornerpush.veloff = 0
-getpower = 0,0
+getpower = 30,15
 givepower = 0,0
 persistent = 0
 air.fall = 1
@@ -6480,7 +6480,7 @@ physics = N
 juggle = 0                  
 ctrl = 0
 anim = 600
-poweradd = 30*(var(0)!=1)*(var(8)!=3)
+poweradd = 0*(var(0)!=1)*(var(8)!=3)
 
 [State 3001, Width]
 type = Width
@@ -6531,7 +6531,7 @@ air.velocity = ifelse(-2.5*.9**((var(42)-1)+!var(42))>-.5,-.5,-2.5*.9**((var(42)
 airguard.velocity = -3.5,-3.2
 ground.cornerpush.veloff = 0
 air.cornerpush.veloff = 0
-getpower = 40*!var(0)*(var(8)!=3),0
+getpower = 30,15
 givepower = 20*!var(0)*(var(8)!=3),0
 persistent = 0
 air.fall = 0
@@ -6569,7 +6569,7 @@ guard.velocity = -5.5
 air.velocity = ifelse(-2.5*.9**((var(42)-1)+!var(42))>-.5,-.5,-2.5*.9**((var(42)-1)+!var(42))), ifelse((-6.5+(1.3*((var(42)-1)+!var(42))))>0,0,(-6.5+(1.3*((var(42)-1)+!var(42)))))
 ground.cornerpush.veloff = 0
 air.cornerpush.veloff = 0
-getpower = 0,0
+getpower = 30,15
 givepower = 0,0
 persistent = 0
 air.fall = 0
@@ -6622,7 +6622,7 @@ physics = N
 juggle = 0
 ctrl = 0
 anim = 610
-poweradd = 40*(var(0)!=1)*(var(8)!=3)
+poweradd = 0*(var(0)!=1)*(var(8)!=3)
 
 [State 3001, Width]
 type = Width
@@ -6673,7 +6673,7 @@ air.velocity = ifelse(-2.5*.9**((var(42)-1)+!var(42))>-.5,-.5,-2.5*.9**((var(42)
 airguard.velocity = -3.5,-3.2
 ground.cornerpush.veloff = 0
 air.cornerpush.veloff = 0
-getpower = 50*!var(0)*(var(8)!=3),0
+getpower = 30,15
 givepower = 25*!var(0)*(var(8)!=3),0
 persistent = 0
 air.fall = 0
@@ -6711,7 +6711,7 @@ guard.velocity = -5.5
 air.velocity = ifelse(-2.5*.9**((var(42)-1)+!var(42))>-.5,-.5,-2.5*.9**((var(42)-1)+!var(42))), ifelse((-6.5+(1.3*((var(42)-1)+!var(42))))>0,0,(-6.5+(1.3*((var(42)-1)+!var(42)))))
 ground.cornerpush.veloff = 0
 air.cornerpush.veloff = 0
-getpower = 0,0
+getpower = 30,15
 givepower = 0,0
 persistent = 0
 air.fall = 0
@@ -6764,7 +6764,7 @@ physics = N
 juggle = 0
 ctrl = 0
 anim = 620
-poweradd = 50*(var(0)!=1)*(var(8)!=3)
+poweradd = 0*(var(0)!=1)*(var(8)!=3)
 
 [State 3001, Width]
 type = Width
@@ -6815,7 +6815,7 @@ air.velocity = ifelse(-2.5*.9**((var(42)-1)+!var(42))>-.5,-.5,-2.5*.9**((var(42)
 airguard.velocity = -3.5,-3.2
 ground.cornerpush.veloff = 0
 air.cornerpush.veloff = 0
-getpower = 60*!var(0)*(var(8)!=3),0
+getpower = 30,15
 givepower = 30*!var(0)*(var(8)!=3),0
 persistent = 0
 air.fall = 0
@@ -6853,7 +6853,7 @@ guard.velocity = -5.5
 air.velocity = ifelse(-2.5*.9**((var(42)-1)+!var(42))>-.5,-.5,-2.5*.9**((var(42)-1)+!var(42))), ifelse((-6.5+(1.3*((var(42)-1)+!var(42))))>0,0,(-6.5+(1.3*((var(42)-1)+!var(42)))))
 ground.cornerpush.veloff = 0
 air.cornerpush.veloff = 0
-getpower = 0,0
+getpower = 30,15
 givepower = 0,0
 persistent = 0
 air.fall = 0
@@ -8101,7 +8101,7 @@ p1facing = ifelse(command = "holdfwd", 1, -1)
 p2facing = 1
 p2stateno = 909
 guard.dist = 0
-getpower = 0,0
+getpower = 60,30
 givepower = 0,0
 air.fall = 1
 fall = 1
@@ -9254,7 +9254,7 @@ physics = N
 juggle = 0
 ctrl = 0
 anim = ifelse((prevstateno = [100,105]),301,ifelse(IsHelper,305,300))
-poweradd = 30*(var(0)!=1)*!IsHelper
+poweradd = 0*(var(0)!=1)*!IsHelper
 sprpriority = 1
 
 [State 1100, VarSet]
@@ -9480,7 +9480,7 @@ guard.velocity = -5.5
 air.velocity = ifelse(-1.6*.9**((var(42)-1)+!var(42))>-.32,-.32,-1.6*.9**((var(42)-1)+!var(42))), ifelse((-4.2+(.8*((var(42)-1)+!var(42))))>0,0,(-4.2+(.8*((var(42)-1)+!var(42)))))
 ground.cornerpush.veloff = 0
 air.cornerpush.veloff = 0
-getpower = 40*!var(0),0
+getpower = 30,15
 givepower = 20*!var(0),0
 persistent = 0
 air.fall = 1
@@ -9520,7 +9520,7 @@ guard.velocity = -5.5
 air.velocity = ifelse(-1.6*.9**((var(42)-1)+!var(42))>-.32,-.32,-1.6*.9**((var(42)-1)+!var(42))), ifelse((-4.2+(.8*((var(42)-1)+!var(42))))>0,0,(-4.2+(.8*((var(42)-1)+!var(42)))))
 ground.cornerpush.veloff = 0
 air.cornerpush.veloff = 0
-getpower = 0,0
+getpower = 30,15
 givepower = 0,0
 persistent = 0
 air.fall = 1
@@ -9559,7 +9559,7 @@ guard.velocity = -5.5
 air.velocity = ifelse(-1.6*.9**((var(42)-1)+!var(42))>-.32,-.32,-1.6*.9**((var(42)-1)+!var(42))), ifelse((-4.2+(.8*((var(42)-1)+!var(42))))>0,0,(-4.2+(.8*((var(42)-1)+!var(42)))))
 ground.cornerpush.veloff = 0
 air.cornerpush.veloff = 0
-getpower = 0,0
+getpower = 30,15
 givepower = 0,0
 persistent = 0
 air.fall = 1
@@ -10096,7 +10096,7 @@ physics = N
 juggle = 0
 ctrl = 0
 anim = ifelse((prevstateno = [100,105]),311,ifelse(IsHelper,315,310))
-poweradd = 40*(var(0)!=1)*!IsHelper
+poweradd = 0*(var(0)!=1)*!IsHelper
 sprpriority = 1
 
 [State 1100, VarSet]
@@ -10312,7 +10312,7 @@ guard.velocity = -8
 air.velocity = ifelse(-2.5*.9**((var(42)-1)+!var(42))>-.5,-.5,-2.5*.9**((var(42)-1)+!var(42))), ifelse((-6.5+(1.3*((var(42)-1)+!var(42))))>0,0,(-6.5+(1.3*((var(42)-1)+!var(42)))))
 ground.cornerpush.veloff = 0
 air.cornerpush.veloff = 0
-getpower = 50*!var(0),0
+getpower = 10,5
 givepower = 25*!var(0),0
 persistent = 0
 air.fall = 1
@@ -10352,7 +10352,7 @@ guard.velocity = -5.5
 air.velocity = ifelse(-2.5*.9**((var(42)-1)+!var(42))>-.5,-.5,-2.5*.9**((var(42)-1)+!var(42))), ifelse((-6.5+(1.3*((var(42)-1)+!var(42))))>0,0,(-6.5+(1.3*((var(42)-1)+!var(42)))))
 ground.cornerpush.veloff = 0
 air.cornerpush.veloff = 0
-getpower = 0,0
+getpower = 10,5
 givepower = 0,0
 persistent = 0
 air.fall = 1
@@ -10393,7 +10393,7 @@ guard.velocity = -8
 air.velocity = ifelse(-2.5*.9**((var(42)-1)+!var(42))>-.5,-.5,-2.5*.9**((var(42)-1)+!var(42))), ifelse((-6.5+(1.3*((var(42)-1)+!var(42))))>0,0,(-6.5+(1.3*((var(42)-1)+!var(42)))))
 ground.cornerpush.veloff = 0
 air.cornerpush.veloff = 0
-getpower = 50*!var(0),0
+getpower = 10,5
 givepower = 25*!var(0),0
 persistent = 0
 air.fall = 1
@@ -10432,7 +10432,7 @@ guard.velocity = ifelse(IsHelper,-8,-5.5)
 air.velocity = ifelse(-2.5*.9**((var(42)-1)+!var(42))>-.5,-.5,-2.5*.9**((var(42)-1)+!var(42))), ifelse((-6.5+(1.3*((var(42)-1)+!var(42))))>0,0,(-6.5+(1.3*((var(42)-1)+!var(42)))))
 ground.cornerpush.veloff = 0
 air.cornerpush.veloff = 0
-getpower = 0,0
+getpower = 10,5
 givepower = 0,0
 persistent = 0
 air.fall = 1
@@ -10939,7 +10939,7 @@ physics = N
 juggle = 0
 ctrl = 0
 anim = ifelse((prevstateno = [100,105]),322,ifelse(IsHelper,325,320))
-poweradd = 50*(var(0)!=1)*!IsHelper
+poweradd = 0*(var(0)!=1)*!IsHelper
 sprpriority = 1
 
 [State 1100, VarSet]
@@ -11191,7 +11191,7 @@ guard.velocity = -8
 air.velocity = ifelse(-5.5*.9**((var(42)-1)+!var(42))>-1.1,-1.1,-5.5*.9**((var(42)-1)+!var(42))), ifelse((-4.2+(.8*((var(42)-1)+!var(42))))>0,0,(-4.2+(.8*((var(42)-1)+!var(42)))))
 ground.cornerpush.veloff = 0
 air.cornerpush.veloff = 0
-getpower = 60*!var(0),0
+getpower = 10,5
 givepower = 30*!var(0),0
 persistent = 0
 air.fall = 1
@@ -11231,7 +11231,7 @@ guard.velocity = -5.5
 air.velocity = ifelse(-5.5*.9**((var(42)-1)+!var(42))>-1.1,-1.1,-5.5*.9**((var(42)-1)+!var(42))), ifelse((-4.2+(.8*((var(42)-1)+!var(42))))>0,0,(-4.2+(.8*((var(42)-1)+!var(42)))))
 ground.cornerpush.veloff = 0
 air.cornerpush.veloff = 0
-getpower = 0,0
+getpower = 10,5
 givepower = 0,0
 persistent = 0
 air.fall = 1
@@ -11272,7 +11272,7 @@ guard.velocity = -8
 air.velocity = ifelse(-5.5*.9**((var(42)-1)+!var(42))>-1.1,-1.1,-5.5*.9**((var(42)-1)+!var(42))), ifelse((-4.2+(.8*((var(42)-1)+!var(42))))>0,0,(-4.2+(.8*((var(42)-1)+!var(42)))))
 ground.cornerpush.veloff = 0
 air.cornerpush.veloff = 0
-getpower = 60*!var(0),0
+getpower = 10,5
 givepower = 30*!var(0),0
 persistent = 0
 air.fall = 1
@@ -11311,7 +11311,7 @@ guard.velocity = ifelse(IsHelper,-5.5,-8)
 air.velocity = ifelse(-5.5*.9**((var(42)-1)+!var(42))>-1.1,-1.1,-5.5*.9**((var(42)-1)+!var(42))), ifelse((-4.2+(.8*((var(42)-1)+!var(42))))>0,0,(-4.2+(.8*((var(42)-1)+!var(42)))))
 ground.cornerpush.veloff = 0
 air.cornerpush.veloff = 0
-getpower = 0,0
+getpower = 10,5
 givepower = 0,0
 persistent = 0
 air.fall = 1
@@ -11788,7 +11788,7 @@ physics = N
 juggle = 0
 ctrl = 0
 anim = ifelse(IsHelper,335,330)
-poweradd = 40*(var(0)!=1)*!IsHelper
+poweradd = 0*(var(0)!=1)*!IsHelper
 sprpriority = 1
 velset = 0,0
 
@@ -11965,7 +11965,7 @@ guard.velocity = -8
 air.velocity = ifelse(-2.5*.9**((var(42)-1)+!var(42))>-.5,-.5,-2.5*.9**((var(42)-1)+!var(42))), ifelse((-6.5+(1.3*((var(42)-1)+!var(42))))>0,0,(-6.5+(1.3*((var(42)-1)+!var(42)))))
 ground.cornerpush.veloff = 0
 air.cornerpush.veloff = 0
-getpower = 50*!var(0),0
+getpower = 30,15
 givepower = 25*!var(0),0
 persistent = 0
 air.fall = 1
@@ -12005,7 +12005,7 @@ guard.velocity = -5.5
 air.velocity = ifelse(-2.5*.9**((var(42)-1)+!var(42))>-.5,-.5,-2.5*.9**((var(42)-1)+!var(42))), ifelse((-6.5+(1.3*((var(42)-1)+!var(42))))>0,0,(-6.5+(1.3*((var(42)-1)+!var(42)))))
 ground.cornerpush.veloff = 0
 air.cornerpush.veloff = 0
-getpower = 0,0
+getpower = 30,15
 givepower = 0,0
 persistent = 0
 air.fall = 1
@@ -12044,7 +12044,7 @@ guard.velocity = ifelse(IsHelper,-5.5,-8)
 air.velocity = ifelse(-2.5*.9**((var(42)-1)+!var(42))>-.5,-.5,-2.5*.9**((var(42)-1)+!var(42))), ifelse((-6.5+(1.3*((var(42)-1)+!var(42))))>0,0,(-6.5+(1.3*((var(42)-1)+!var(42)))))
 ground.cornerpush.veloff = 0
 air.cornerpush.veloff = 0
-getpower = 0,0
+getpower = 30,15
 givepower = 0,0
 persistent = 0
 air.fall = 1
@@ -12503,7 +12503,7 @@ physics = N
 juggle = 0
 ctrl = 0
 anim = ifelse(IsHelper,345,340)
-poweradd = 50*(var(0)!=1)*!IsHelper
+poweradd = 0*(var(0)!=1)*!IsHelper
 sprpriority = 1
 velset = 0,0
 
@@ -12682,7 +12682,7 @@ guard.velocity = -8
 air.velocity = ifelse(-2.5*.9**((var(42)-1)+!var(42))>-.5,-.5,-2.5*.9**((var(42)-1)+!var(42))), ifelse((-6.5+(1.3*((var(42)-1)+!var(42))))>0,0,(-6.5+(1.3*((var(42)-1)+!var(42)))))
 ground.cornerpush.veloff = 0
 air.cornerpush.veloff = 0
-getpower = 60*!var(0),0
+getpower = 30,15
 givepower = 30*!var(0),0
 persistent = 0
 air.fall = 1
@@ -12722,7 +12722,7 @@ guard.velocity = -5.5
 air.velocity = ifelse(-2.5*.9**((var(42)-1)+!var(42))>-.5,-.5,-2.5*.9**((var(42)-1)+!var(42))), ifelse((-6.5+(1.3*((var(42)-1)+!var(42))))>0,0,(-6.5+(1.3*((var(42)-1)+!var(42)))))
 ground.cornerpush.veloff = 0
 air.cornerpush.veloff = 0
-getpower = 0,0
+getpower = 30,15
 givepower = 0,0
 persistent = 0
 air.fall = 1
@@ -12761,7 +12761,7 @@ guard.velocity = ifelse(IsHelper,-5.5,-8)
 air.velocity = ifelse(-2.5*.9**((var(42)-1)+!var(42))>-.5,-.5,-2.5*.9**((var(42)-1)+!var(42))), ifelse((-6.5+(1.3*((var(42)-1)+!var(42))))>0,0,(-6.5+(1.3*((var(42)-1)+!var(42)))))
 ground.cornerpush.veloff = 0
 air.cornerpush.veloff = 0
-getpower = 0,0
+getpower = 30,15
 givepower = 0,0
 persistent = 0
 air.fall = 1
@@ -13227,7 +13227,7 @@ physics = N
 juggle = 0
 ctrl = 0
 anim = ifelse((prevstateno = [100,105]),501,ifelse(IsHelper,505,500))
-poweradd = 30*(var(0)!=1)*!IsHelper
+poweradd = 0*(var(0)!=1)*!IsHelper
 sprpriority = 1
 
 [State 1100, VarSet]
@@ -13427,7 +13427,7 @@ guard.velocity = -5.5
 air.velocity = ifelse(-2.5*.9**((var(42)-1)+!var(42))>-.5,-.5,-2.5*.9**((var(42)-1)+!var(42))), ifelse((-6.5+(1.3*((var(42)-1)+!var(42))))>0,0,(-6.5+(1.3*((var(42)-1)+!var(42)))))
 ground.cornerpush.veloff = 0
 air.cornerpush.veloff = 0
-getpower = 40*!var(0),0
+getpower = 10,5
 givepower = 20*!var(0),0
 persistent = 0
 air.fall = 1
@@ -13467,7 +13467,7 @@ guard.velocity = -5.5
 air.velocity = ifelse(-2.5*.9**((var(42)-1)+!var(42))>-.5,-.5,-2.5*.9**((var(42)-1)+!var(42))), ifelse((-6.5+(1.3*((var(42)-1)+!var(42))))>0,0,(-6.5+(1.3*((var(42)-1)+!var(42)))))
 ground.cornerpush.veloff = 0
 air.cornerpush.veloff = 0
-getpower = 0,0
+getpower = 10,5
 givepower = 0,0
 persistent = 0
 air.fall = 1
@@ -13508,7 +13508,7 @@ guard.velocity = -5.5
 air.velocity = ifelse(-2.5*.9**((var(42)-1)+!var(42))>-.5,-.5,-2.5*.9**((var(42)-1)+!var(42))), ifelse((-6.5+(1.3*((var(42)-1)+!var(42))))>0,0,(-6.5+(1.3*((var(42)-1)+!var(42)))))
 ground.cornerpush.veloff = 0
 air.cornerpush.veloff = 0
-getpower = 40*!var(0),0
+getpower = 10,5
 givepower = 20*!var(0),0
 persistent = 0
 air.fall = 1
@@ -13548,7 +13548,7 @@ guard.velocity = -5.5
 air.velocity = ifelse(-2.5*.9**((var(42)-1)+!var(42))>-.5,-.5,-2.5*.9**((var(42)-1)+!var(42))), ifelse((-6.5+(1.3*((var(42)-1)+!var(42))))>0,0,(-6.5+(1.3*((var(42)-1)+!var(42)))))
 ground.cornerpush.veloff = 0
 air.cornerpush.veloff = 0
-getpower = 0,0
+getpower = 10,5
 givepower = 0,0
 persistent = 0
 air.fall = 1
@@ -13588,7 +13588,7 @@ guard.velocity = -5.5
 air.velocity = ifelse(-2.5*.9**((var(42)-1)+!var(42))>-.5,-.5,-2.5*.9**((var(42)-1)+!var(42))), ifelse((-6.5+(1.3*((var(42)-1)+!var(42))))>0,0,(-6.5+(1.3*((var(42)-1)+!var(42)))))
 ground.cornerpush.veloff = 0
 air.cornerpush.veloff = 0
-getpower = 0,0
+getpower = 10,5
 givepower = 0,0
 persistent = 0
 air.fall = 1
@@ -14109,7 +14109,7 @@ physics = N
 juggle = 0
 ctrl = 0
 anim = ifelse((prevstateno = [100,105]),511,ifelse(IsHelper,515,510))
-poweradd = 40*(var(0)!=1)*!IsHelper
+poweradd = 0*(var(0)!=1)*!IsHelper
 sprpriority = 1
 
 [State 1100, VarSet]
@@ -14336,7 +14336,7 @@ guard.velocity = -8
 air.velocity = ifelse(-2.5*.9**((var(42)-1)+!var(42))>-.5,-.5,-2.5*.9**((var(42)-1)+!var(42))), ifelse((-6.5+(1.3*((var(42)-1)+!var(42))))>0,0,(-6.5+(1.3*((var(42)-1)+!var(42)))))
 ground.cornerpush.veloff = 0
 air.cornerpush.veloff = 0
-getpower = 50*!var(0),0
+getpower = 10,5
 givepower = 25*!var(0),0
 persistent = 0
 air.fall = 1
@@ -14376,7 +14376,7 @@ guard.velocity = -5.5
 air.velocity = ifelse(-2.5*.9**((var(42)-1)+!var(42))>-.5,-.5,-2.5*.9**((var(42)-1)+!var(42))), ifelse((-6.5+(1.3*((var(42)-1)+!var(42))))>0,0,(-6.5+(1.3*((var(42)-1)+!var(42)))))
 ground.cornerpush.veloff = 0
 air.cornerpush.veloff = 0
-getpower = 0,0
+getpower = 10,5
 givepower = 0,0
 persistent = 0
 air.fall = 1
@@ -14417,7 +14417,7 @@ guard.velocity = -8
 air.velocity = ifelse(-2.5*.9**((var(42)-1)+!var(42))>-.5,-.5,-2.5*.9**((var(42)-1)+!var(42))), ifelse((-6.5+(1.3*((var(42)-1)+!var(42))))>0,0,(-6.5+(1.3*((var(42)-1)+!var(42)))))
 ground.cornerpush.veloff = 0
 air.cornerpush.veloff = 0
-getpower = 50*!var(0),0
+getpower = 10,5
 givepower = 25*!var(0),0
 persistent = 0
 air.fall = 1
@@ -14456,7 +14456,7 @@ guard.velocity = ifelse(IsHelper,-5.5,-8)
 air.velocity = ifelse(-2.5*.9**((var(42)-1)+!var(42))>-.5,-.5,-2.5*.9**((var(42)-1)+!var(42))), ifelse((-6.5+(1.3*((var(42)-1)+!var(42))))>0,0,(-6.5+(1.3*((var(42)-1)+!var(42)))))
 ground.cornerpush.veloff = 0
 air.cornerpush.veloff = 0
-getpower = 0,0
+getpower = 10,5
 givepower = 0,0
 persistent = 0
 air.fall = 1
@@ -14923,7 +14923,7 @@ physics = N
 juggle = 0
 ctrl = 0
 anim = ifelse(IsHelper,525,520)
-poweradd = 50*(var(0)!=1)*!IsHelper
+poweradd = 0*(var(0)!=1)*!IsHelper
 sprpriority = 1
 velset = 0,0
 
@@ -15112,7 +15112,7 @@ guard.velocity = -8
 air.velocity = ifelse(-1.6*.9**((var(42)-1)+!var(42))>-.32,-.32,-1.6*.9**((var(42)-1)+!var(42))), ifelse((-8.6+(.125*((var(42)-1)+!var(42))))>0,0,(-8.6+(.125*((var(42)-1)+!var(42)))))
 ground.cornerpush.veloff = 0
 air.cornerpush.veloff = 0
-getpower = 60*!var(0),0
+getpower = 10,5
 givepower = 30*!var(0),0
 persistent = 0
 fall = 1
@@ -15154,7 +15154,7 @@ guard.velocity = -8
 air.velocity = ifelse(-1.6*.9**((var(42)-1)+!var(42))>-.32,-.32,-1.6*.9**((var(42)-1)+!var(42))), ifelse((-8.6+(.125*((var(42)-1)+!var(42))))>0,0,(-8.6+(.125*((var(42)-1)+!var(42)))))
 ground.cornerpush.veloff = 0
 air.cornerpush.veloff = 0
-getpower = 60*!var(0),0
+getpower = 10,5
 givepower = 30*!var(0),0
 persistent = 0
 fall = 1
@@ -15195,7 +15195,7 @@ guard.velocity = -5.5
 air.velocity = ifelse(-1.6*.9**((var(42)-1)+!var(42))>-.32,-.32,-1.6*.9**((var(42)-1)+!var(42))), ifelse((-8.6+(.125*((var(42)-1)+!var(42))))>0,0,(-8.6+(.125*((var(42)-1)+!var(42)))))
 ground.cornerpush.veloff = 0
 air.cornerpush.veloff = 0
-getpower = 0,0
+getpower = 10,5
 givepower = 0,0
 persistent = 0
 fall = 1
@@ -15236,7 +15236,7 @@ guard.velocity = ifelse(IsHelper,-5.5,-8)
 air.velocity = ifelse(-1.6*.9**((var(42)-1)+!var(42))>-.32,-.32,-1.6*.9**((var(42)-1)+!var(42))), ifelse((-8.6+(.125*((var(42)-1)+!var(42))))>0,0,(-8.6+(.125*((var(42)-1)+!var(42)))))
 ground.cornerpush.veloff = 0
 air.cornerpush.veloff = 0
-getpower = 0,0
+getpower = 10,5
 givepower = 0,0
 persistent = 0
 air.fall = 1
@@ -15279,7 +15279,7 @@ guard.velocity = ifelse(IsHelper,-5.5,-8)
 air.velocity = ifelse(-1.6*.9**((var(42)-1)+!var(42))>-.32,-.32,-1.6*.9**((var(42)-1)+!var(42))), ifelse((-8.6+(.125*((var(42)-1)+!var(42))))>0,0,(-8.6+(.125*((var(42)-1)+!var(42)))))
 ground.cornerpush.veloff = 0
 air.cornerpush.veloff = 0
-getpower = 0,0
+getpower = 10,5
 givepower = 0,0
 persistent = 0
 air.fall = 1
@@ -15738,7 +15738,7 @@ physics = N
 juggle = 0
 ctrl = 0
 anim = 530
-poweradd = 50*(var(0)!=1)
+poweradd = 0*(var(0)!=1)
 sprpriority = 1
 
 [State 1100, VarSet]
@@ -15824,7 +15824,7 @@ guard.velocity = -8
 air.velocity = -3.3,-3.2
 ground.cornerpush.veloff = 0
 air.cornerpush.veloff = 0
-getpower = 60*!var(0),0
+getpower = 30,15
 givepower = 30*!var(0),0
 persistent = 0
 fall = 1
@@ -15864,7 +15864,7 @@ guard.velocity = -8
 air.velocity = -3.3,-3.2
 ground.cornerpush.veloff = 0
 air.cornerpush.veloff = 0
-getpower = 0,0
+getpower = 30,15
 givepower = 0,0
 persistent = 0
 fall = 1
@@ -15900,7 +15900,7 @@ physics = N
 juggle = 0                  
 ctrl = 0
 anim = 700
-poweradd = 30*(var(0)!=1)
+poweradd = 0*(var(0)!=1)
 sprpriority = 1
 
 [State 3001, Width]
@@ -15960,7 +15960,7 @@ air.velocity = ifelse(-2.5*.9**((var(42)-1)+!var(42))>-.5,-.5,-2.5*.9**((var(42)
 airguard.velocity = -3.5,-3.2
 ground.cornerpush.veloff = 0
 air.cornerpush.veloff = 0
-getpower = 40*!var(0),0
+getpower = 30,15
 givepower = 20*!var(0),0
 persistent = 0
 air.fall = 1
@@ -15999,7 +15999,7 @@ guard.velocity = -5.5
 air.velocity = ifelse(-2.5*.9**((var(42)-1)+!var(42))>-.5,-.5,-2.5*.9**((var(42)-1)+!var(42))), ifelse((-6.5+(1.3*((var(42)-1)+!var(42))))>0,0,(-6.5+(1.3*((var(42)-1)+!var(42)))))
 ground.cornerpush.veloff = 0
 air.cornerpush.veloff = 0
-getpower = 0,0
+getpower = 30,15
 givepower = 0,0
 persistent = 0
 air.fall = 1
@@ -16053,7 +16053,7 @@ physics = N
 juggle = 0
 ctrl = 0
 anim = 710
-poweradd = 40*(var(0)!=1)
+poweradd = 0*(var(0)!=1)
 sprpriority = 1
 
 [State 3001, Width]
@@ -16113,7 +16113,7 @@ air.velocity = ifelse(-2.5*.9**((var(42)-1)+!var(42))>-.5,-.5,-2.5*.9**((var(42)
 airguard.velocity = -3.5,-3.2
 ground.cornerpush.veloff = 0
 air.cornerpush.veloff = 0
-getpower = 50*!var(0),0
+getpower = 30,15
 givepower = 25*!var(0),0
 persistent = 0
 air.fall = 1
@@ -16152,7 +16152,7 @@ guard.velocity = -5.5
 air.velocity = ifelse(-2.5*.9**((var(42)-1)+!var(42))>-.5,-.5,-2.5*.9**((var(42)-1)+!var(42))), ifelse((-6.5+(1.3*((var(42)-1)+!var(42))))>0,0,(-6.5+(1.3*((var(42)-1)+!var(42)))))
 ground.cornerpush.veloff = 0
 air.cornerpush.veloff = 0
-getpower = 0,0
+getpower = 30,15
 givepower = 0,0
 persistent = 0
 air.fall = 1
@@ -16206,7 +16206,7 @@ physics = N
 juggle = 0
 ctrl = 0
 anim = 720
-poweradd = 50*(var(0)!=1)
+poweradd = 0*(var(0)!=1)
 sprpriority = 1
 
 [State 3001, Width]
@@ -16266,7 +16266,7 @@ air.velocity = ifelse(-2.5*.9**((var(42)-1)+!var(42))>-.5,-.5,-2.5*.9**((var(42)
 airguard.velocity = -3.5,-3.2
 ground.cornerpush.veloff = 0
 air.cornerpush.veloff = 0
-getpower = 60*!var(0),0
+getpower = 30,15
 givepower = 30*!var(0),0
 persistent = 0
 air.fall = 1
@@ -16305,7 +16305,7 @@ guard.velocity = -5.5
 air.velocity = ifelse(-2.5*.9**((var(42)-1)+!var(42))>-.5,-.5,-2.5*.9**((var(42)-1)+!var(42))), ifelse((-6.5+(1.3*((var(42)-1)+!var(42))))>0,0,(-6.5+(1.3*((var(42)-1)+!var(42)))))
 ground.cornerpush.veloff = 0
 air.cornerpush.veloff = 0
-getpower = 0,0
+getpower = 30,15
 givepower = 0,0
 persistent = 0
 air.fall = 1
@@ -16359,7 +16359,7 @@ physics = N
 juggle = 0
 ctrl = 0
 anim = ifelse(IsHelper,305,300)
-poweradd = 30*(var(0)!=1)*!IsHelper
+poweradd = 0*(var(0)!=1)*!IsHelper
 sprpriority = 1
 velset = 0,0
 
@@ -16540,7 +16540,7 @@ guard.velocity = -5.5
 air.velocity = ifelse(-1.6*.9**((var(42)-1)+!var(42))>-.32,-.32,-1.6*.9**((var(42)-1)+!var(42))), ifelse((-4.2+(.8*((var(42)-1)+!var(42))))>0,0,(-4.2+(.8*((var(42)-1)+!var(42)))))
 ground.cornerpush.veloff = 0
 air.cornerpush.veloff = 0
-getpower = 40*!var(0),0
+getpower = 30,15
 givepower = 20*!var(0),0
 persistent = 0
 air.fall = 1
@@ -16580,7 +16580,7 @@ guard.velocity = -5.5
 air.velocity = ifelse(-1.6*.9**((var(42)-1)+!var(42))>-.32,-.32,-1.6*.9**((var(42)-1)+!var(42))), ifelse((-4.2+(.8*((var(42)-1)+!var(42))))>0,0,(-4.2+(.8*((var(42)-1)+!var(42)))))
 ground.cornerpush.veloff = 0
 air.cornerpush.veloff = 0
-getpower = 0,0
+getpower = 30,15
 givepower = 0,0
 persistent = 0
 air.fall = 1
@@ -16619,7 +16619,7 @@ guard.velocity = -5.5
 air.velocity = ifelse(-1.6*.9**((var(42)-1)+!var(42))>-.32,-.32,-1.6*.9**((var(42)-1)+!var(42))), ifelse((-4.2+(.8*((var(42)-1)+!var(42))))>0,0,(-4.2+(.8*((var(42)-1)+!var(42)))))
 ground.cornerpush.veloff = 0
 air.cornerpush.veloff = 0
-getpower = 0,0
+getpower = 30,15
 givepower = 0,0
 persistent = 0
 air.fall = 1
@@ -17106,7 +17106,7 @@ physics = N
 juggle = 0
 ctrl = 0
 anim = ifelse(IsHelper,315,310)
-poweradd = 30*(var(0)!=1)*!IsHelper
+poweradd = 0*(var(0)!=1)*!IsHelper
 sprpriority = 1
 velset = 0,0
 
@@ -17297,7 +17297,7 @@ guard.velocity = -8
 air.velocity = ifelse(-2.5*.9**((var(42)-1)+!var(42))>-.5,-.5,-2.5*.9**((var(42)-1)+!var(42))), ifelse((-6.5+(1.3*((var(42)-1)+!var(42))))>0,0,(-6.5+(1.3*((var(42)-1)+!var(42)))))
 ground.cornerpush.veloff = 0
 air.cornerpush.veloff = 0
-getpower = 30*!var(0),0
+getpower = 30,15
 givepower = 15*!var(0),0
 persistent = 0
 air.fall = 1
@@ -17337,7 +17337,7 @@ guard.velocity = -5.5
 air.velocity = ifelse(-2.5*.9**((var(42)-1)+!var(42))>-.5,-.5,-2.5*.9**((var(42)-1)+!var(42))), ifelse((-6.5+(1.3*((var(42)-1)+!var(42))))>0,0,(-6.5+(1.3*((var(42)-1)+!var(42)))))
 ground.cornerpush.veloff = 0
 air.cornerpush.veloff = 0
-getpower = 0,0
+getpower = 30,15
 givepower = 0,0
 persistent = 0
 air.fall = 1
@@ -17376,7 +17376,7 @@ guard.velocity = ifelse(IsHelper,-5.5,-8)
 air.velocity = ifelse(-2.5*.9**((var(42)-1)+!var(42))>-.5,-.5,-2.5*.9**((var(42)-1)+!var(42))), ifelse((-6.5+(1.3*((var(42)-1)+!var(42))))>0,0,(-6.5+(1.3*((var(42)-1)+!var(42)))))
 ground.cornerpush.veloff = 0
 air.cornerpush.veloff = 0
-getpower = 0,0
+getpower = 30,15
 givepower = 0,0
 persistent = 0
 air.fall = 1
@@ -17903,7 +17903,7 @@ physics = N
 juggle = 0
 ctrl = 0
 anim = ifelse(IsHelper,326,322)
-poweradd = 30*(var(0)!=1)*!IsHelper
+poweradd = 0*(var(0)!=1)*!IsHelper
 sprpriority = 1
 velset = 0,0
 
@@ -18083,7 +18083,7 @@ guard.velocity = -8
 air.velocity = ifelse(-13.5*.9**((var(42)-1)+!var(42))>-2.7,-2.7,-13.5*.9**((var(42)-1)+!var(42))), 0
 ground.cornerpush.veloff = 0
 air.cornerpush.veloff = 0
-getpower = 30*!var(0),0
+getpower = 30,15
 givepower = 15*!var(0),0
 persistent = 0
 air.fall = 1
@@ -18123,7 +18123,7 @@ guard.velocity = -8
 air.velocity = ifelse(-13.5*.9**((var(42)-1)+!var(42))>-2.7,-2.7,-13.5*.9**((var(42)-1)+!var(42))), 0
 ground.cornerpush.veloff = 0
 air.cornerpush.veloff = 0
-getpower = 0,0
+getpower = 30,15
 givepower = 0,0
 persistent = 0
 air.fall = 1
@@ -18162,7 +18162,7 @@ guard.velocity = ifelse(IsHelper,-5.5,-8)
 air.velocity = ifelse(-13.5*.9**((var(42)-1)+!var(42))>-2.7,-2.7,-13.5*.9**((var(42)-1)+!var(42))), 0
 ground.cornerpush.veloff = 0
 air.cornerpush.veloff = 0
-getpower = 0,0
+getpower = 30,15
 givepower = 0,0
 persistent = 0
 air.fall = 1
@@ -18601,7 +18601,7 @@ physics = N
 juggle = 0
 ctrl = 0
 anim = ifelse(IsHelper,336,331)
-poweradd = 30*(var(0)!=1)*!IsHelper
+poweradd = 0*(var(0)!=1)*!IsHelper
 sprpriority = 1
 
 [State 1100, VarSet]
@@ -18788,7 +18788,7 @@ guard.velocity = -8
 air.velocity = ifelse(-2.5*.9**((var(42)-1)+!var(42))>-.5,-.5,-2.5*.9**((var(42)-1)+!var(42))), ifelse((-6.5+(1.3*((var(42)-1)+!var(42))))>0,0,(-6.5+(1.3*((var(42)-1)+!var(42)))))
 ground.cornerpush.veloff = 0
 air.cornerpush.veloff = 0
-getpower = 30*!var(0),0
+getpower = 30,15
 givepower = 15*!var(0),0
 persistent = 0
 air.fall = 1
@@ -18828,7 +18828,7 @@ guard.velocity = -5.5
 air.velocity = ifelse(-2.5*.9**((var(42)-1)+!var(42))>-.5,-.5,-2.5*.9**((var(42)-1)+!var(42))), ifelse((-6.5+(1.3*((var(42)-1)+!var(42))))>0,0,(-6.5+(1.3*((var(42)-1)+!var(42)))))
 ground.cornerpush.veloff = 0
 air.cornerpush.veloff = 0
-getpower = 0,0
+getpower = 30,15
 givepower = 0,0
 persistent = 0
 air.fall = 1
@@ -18867,7 +18867,7 @@ guard.velocity = -8
 air.velocity = ifelse(-2.5*.9**((var(42)-1)+!var(42))>-.5,-.5,-2.5*.9**((var(42)-1)+!var(42))), ifelse((-6.5+(1.3*((var(42)-1)+!var(42))))>0,0,(-6.5+(1.3*((var(42)-1)+!var(42)))))
 ground.cornerpush.veloff = 0
 air.cornerpush.veloff = 0
-getpower = 0,0
+getpower = 30,15
 givepower = 0,0
 persistent = 0
 air.fall = 1
@@ -19300,7 +19300,7 @@ physics = N
 juggle = 0
 ctrl = 0
 anim = ifelse(IsHelper,346,341)
-poweradd = 30*(var(0)!=1)*!IsHelper
+poweradd = 0*(var(0)!=1)*!IsHelper
 sprpriority = 1
 velset = 0,0
 
@@ -19473,7 +19473,7 @@ guard.velocity = -5.5
 air.velocity = ifelse(-2.5*.9**((var(42)-1)+!var(42))>-.5,-.5,-2.5*.9**((var(42)-1)+!var(42))), ifelse((-6.5+(1.3*((var(42)-1)+!var(42))))>0,0,(-6.5+(1.3*((var(42)-1)+!var(42)))))
 ground.cornerpush.veloff = 0
 air.cornerpush.veloff = 0
-getpower = 30*!var(0),0
+getpower = 30,15
 givepower = 15*!var(0),0
 persistent = 0
 air.fall = 1
@@ -19513,7 +19513,7 @@ guard.velocity = -5.5
 air.velocity = ifelse(-2.5*.9**((var(42)-1)+!var(42))>-.5,-.5,-2.5*.9**((var(42)-1)+!var(42))), ifelse((-6.5+(1.3*((var(42)-1)+!var(42))))>0,0,(-6.5+(1.3*((var(42)-1)+!var(42)))))
 ground.cornerpush.veloff = 0
 air.cornerpush.veloff = 0
-getpower = 0,0
+getpower = 30,15
 givepower = 0,0
 persistent = 0
 air.fall = 1
@@ -19552,7 +19552,7 @@ guard.velocity = -5.5
 air.velocity = ifelse(-2.5*.9**((var(42)-1)+!var(42))>-.5,-.5,-2.5*.9**((var(42)-1)+!var(42))), ifelse((-6.5+(1.3*((var(42)-1)+!var(42))))>0,0,(-6.5+(1.3*((var(42)-1)+!var(42)))))
 ground.cornerpush.veloff = 0
 air.cornerpush.veloff = 0
-getpower = 0,0
+getpower = 30,15
 givepower = 0,0
 persistent = 0
 air.fall = 1
@@ -20042,7 +20042,7 @@ physics = N
 juggle = 0
 ctrl = 0
 anim = ifelse(IsHelper,346,341)
-poweradd = 30*(var(0)!=1)*!IsHelper
+poweradd = 0*(var(0)!=1)*!IsHelper
 sprpriority = 1
 velset = 0,0
 
@@ -20215,7 +20215,7 @@ guard.velocity = -5.5
 air.velocity = ifelse(-2.5*.9**((var(42)-1)+!var(42))>-.5,-.5,-2.5*.9**((var(42)-1)+!var(42))), ifelse((-6.5+(1.3*((var(42)-1)+!var(42))))>0,0,(-6.5+(1.3*((var(42)-1)+!var(42)))))
 ground.cornerpush.veloff = 0
 air.cornerpush.veloff = 0
-getpower = 30*!var(0),0
+getpower = 30,15
 givepower = 15*!var(0),0
 persistent = 0
 air.fall = 1
@@ -20255,7 +20255,7 @@ guard.velocity = -5.5
 air.velocity = ifelse(-2.5*.9**((var(42)-1)+!var(42))>-.5,-.5,-2.5*.9**((var(42)-1)+!var(42))), ifelse((-6.5+(1.3*((var(42)-1)+!var(42))))>0,0,(-6.5+(1.3*((var(42)-1)+!var(42)))))
 ground.cornerpush.veloff = 0
 air.cornerpush.veloff = 0
-getpower = 0,0
+getpower = 30,15
 givepower = 0,0
 persistent = 0
 air.fall = 1
@@ -20294,7 +20294,7 @@ guard.velocity = -5.5
 air.velocity = ifelse(-2.5*.9**((var(42)-1)+!var(42))>-.5,-.5,-2.5*.9**((var(42)-1)+!var(42))), ifelse((-6.5+(1.3*((var(42)-1)+!var(42))))>0,0,(-6.5+(1.3*((var(42)-1)+!var(42)))))
 ground.cornerpush.veloff = 0
 air.cornerpush.veloff = 0
-getpower = 0,0
+getpower = 30,15
 givepower = 0,0
 persistent = 0
 air.fall = 1
@@ -20733,7 +20733,7 @@ physics = N
 juggle = 0
 ctrl = 0
 anim = ifelse(IsHelper,506,502)
-poweradd = 30*(var(0)!=1)*!IsHelper
+poweradd = 0*(var(0)!=1)*!IsHelper
 sprpriority = 1
 velset = 0,0
 
@@ -20896,7 +20896,7 @@ guard.velocity = -5.5
 air.velocity = ifelse(-2.5*.9**((var(42)-1)+!var(42))>-.5,-.5,-2.5*.9**((var(42)-1)+!var(42))), ifelse((-6.5+(1.3*((var(42)-1)+!var(42))))>0,0,(-6.5+(1.3*((var(42)-1)+!var(42)))))
 ground.cornerpush.veloff = 0
 air.cornerpush.veloff = 0
-getpower = 30*!var(0),0
+getpower = 30,15
 givepower = 15*!var(0),0
 persistent = 0
 air.fall = 1
@@ -20936,7 +20936,7 @@ guard.velocity = -5.5
 air.velocity = ifelse(-2.5*.9**((var(42)-1)+!var(42))>-.5,-.5,-2.5*.9**((var(42)-1)+!var(42))), ifelse((-6.5+(1.3*((var(42)-1)+!var(42))))>0,0,(-6.5+(1.3*((var(42)-1)+!var(42)))))
 ground.cornerpush.veloff = 0
 air.cornerpush.veloff = 0
-getpower = 0,0
+getpower = 30,15
 givepower = 0,0
 persistent = 0
 air.fall = 1
@@ -20975,7 +20975,7 @@ guard.velocity = -5.5
 air.velocity = ifelse(-2.5*.9**((var(42)-1)+!var(42))>-.5,-.5,-2.5*.9**((var(42)-1)+!var(42))), ifelse((-6.5+(1.3*((var(42)-1)+!var(42))))>0,0,(-6.5+(1.3*((var(42)-1)+!var(42)))))
 ground.cornerpush.veloff = 0
 air.cornerpush.veloff = 0
-getpower = 0,0
+getpower = 30,15
 givepower = 0,0
 persistent = 0
 air.fall = 1
@@ -21449,7 +21449,7 @@ physics = N
 juggle = 0
 ctrl = 0
 anim = ifelse(IsHelper,516,512)
-poweradd = 30*(var(0)!=1)*!IsHelper
+poweradd = 0*(var(0)!=1)*!IsHelper
 sprpriority = 1
 velset = 0,0
 
@@ -21615,7 +21615,7 @@ guard.velocity = -5.5
 air.velocity = ifelse(-2.5*.9**((var(42)-1)+!var(42))>-.5,-.5,-2.5*.9**((var(42)-1)+!var(42))), ifelse((-6.5+(1.3*((var(42)-1)+!var(42))))>0,0,(-6.5+(1.3*((var(42)-1)+!var(42)))))
 ground.cornerpush.veloff = 0
 air.cornerpush.veloff = 0
-getpower = 30*!var(0),0
+getpower = 15,7
 givepower = 15*!var(0),0
 persistent = 0
 air.fall = 1
@@ -21655,7 +21655,7 @@ guard.velocity = -5.5
 air.velocity = ifelse(-2.5*.9**((var(42)-1)+!var(42))>-.5,-.5,-2.5*.9**((var(42)-1)+!var(42))), ifelse((-6.5+(1.3*((var(42)-1)+!var(42))))>0,0,(-6.5+(1.3*((var(42)-1)+!var(42)))))
 ground.cornerpush.veloff = 0
 air.cornerpush.veloff = 0
-getpower = 0,0
+getpower = 15,7
 givepower = 0,0
 persistent = 0
 air.fall = 1
@@ -21694,7 +21694,7 @@ guard.velocity = -5.5
 air.velocity = ifelse(-2.5*.9**((var(42)-1)+!var(42))>-.5,-.5,-2.5*.9**((var(42)-1)+!var(42))), ifelse((-6.5+(1.3*((var(42)-1)+!var(42))))>0,0,(-6.5+(1.3*((var(42)-1)+!var(42)))))
 ground.cornerpush.veloff = 0
 air.cornerpush.veloff = 0
-getpower = 0,0
+getpower = 15,7
 givepower = 0,0
 persistent = 0
 air.fall = 1
@@ -22230,7 +22230,7 @@ physics = N
 juggle = 0
 ctrl = 0
 anim = ifelse(IsHelper,516,512)
-poweradd = 30*(var(0)!=1)*!IsHelper
+poweradd = 0*(var(0)!=1)*!IsHelper
 sprpriority = 1
 velset = 0,0
 
@@ -22396,7 +22396,7 @@ guard.velocity = -5.5
 air.velocity = ifelse(-2.5*.9**((var(42)-1)+!var(42))>-.5,-.5,-2.5*.9**((var(42)-1)+!var(42))), ifelse((-6.5+(1.3*((var(42)-1)+!var(42))))>0,0,(-6.5+(1.3*((var(42)-1)+!var(42)))))
 ground.cornerpush.veloff = 0
 air.cornerpush.veloff = 0
-getpower = 30*!var(0),0
+getpower = 15,7
 givepower = 15*!var(0),0
 persistent = 0
 air.fall = 1
@@ -22436,7 +22436,7 @@ guard.velocity = -5.5
 air.velocity = ifelse(-2.5*.9**((var(42)-1)+!var(42))>-.5,-.5,-2.5*.9**((var(42)-1)+!var(42))), ifelse((-6.5+(1.3*((var(42)-1)+!var(42))))>0,0,(-6.5+(1.3*((var(42)-1)+!var(42)))))
 ground.cornerpush.veloff = 0
 air.cornerpush.veloff = 0
-getpower = 0,0
+getpower = 15,7
 givepower = 0,0
 persistent = 0
 air.fall = 1
@@ -22475,7 +22475,7 @@ guard.velocity = -5.5
 air.velocity = ifelse(-2.5*.9**((var(42)-1)+!var(42))>-.5,-.5,-2.5*.9**((var(42)-1)+!var(42))), ifelse((-6.5+(1.3*((var(42)-1)+!var(42))))>0,0,(-6.5+(1.3*((var(42)-1)+!var(42)))))
 ground.cornerpush.veloff = 0
 air.cornerpush.veloff = 0
-getpower = 0,0
+getpower = 15,7
 givepower = 0,0
 persistent = 0
 air.fall = 1
@@ -22908,7 +22908,7 @@ physics = N
 juggle = 0
 ctrl = 0
 anim = ifelse(IsHelper,526,521)
-poweradd = 30*(var(0)!=1)*!IsHelper
+poweradd = 0*(var(0)!=1)*!IsHelper
 sprpriority = 1
 velset = 0,0
 
@@ -23087,7 +23087,7 @@ guard.velocity = -8
 air.velocity = ifelse(-1.6*.9**((var(42)-1)+!var(42))>-.32,-.32,-1.6*.9**((var(42)-1)+!var(42))), ifelse((-8.6+(.125*((var(42)-1)+!var(42))))>0,0,(-8.6+(.125*((var(42)-1)+!var(42)))))
 ground.cornerpush.veloff = 0
 air.cornerpush.veloff = 0
-getpower = 30*!var(0),0
+getpower = 10,5
 givepower = 15*!var(0),0
 persistent = 0
 fall = 1
@@ -23129,7 +23129,7 @@ guard.velocity = -8
 air.velocity = ifelse(-1.6*.9**((var(42)-1)+!var(42))>-.32,-.32,-1.6*.9**((var(42)-1)+!var(42))), ifelse((-8.6+(.125*((var(42)-1)+!var(42))))>0,0,(-8.6+(.125*((var(42)-1)+!var(42)))))
 ground.cornerpush.veloff = 0
 air.cornerpush.veloff = 0
-getpower = 30*!var(0),0
+getpower = 10,5
 givepower = 15*!var(0),0
 persistent = 0
 fall = 1
@@ -23170,7 +23170,7 @@ guard.velocity = -5.5
 air.velocity = ifelse(-1.6*.9**((var(42)-1)+!var(42))>-.32,-.32,-1.6*.9**((var(42)-1)+!var(42))), ifelse((-8.6+(.125*((var(42)-1)+!var(42))))>0,0,(-8.6+(.125*((var(42)-1)+!var(42)))))
 ground.cornerpush.veloff = 0
 air.cornerpush.veloff = 0
-getpower = 0,0
+getpower = 10,5
 givepower = 0,0
 persistent = 0
 fall = 1
@@ -23211,7 +23211,7 @@ guard.velocity = ifelse(IsHelper,-5.5,-8)
 air.velocity = ifelse(-1.6*.9**((var(42)-1)+!var(42))>-.32,-.32,-1.6*.9**((var(42)-1)+!var(42))), ifelse((-8.6+(.125*((var(42)-1)+!var(42))))>0,0,(-8.6+(.125*((var(42)-1)+!var(42)))))
 ground.cornerpush.veloff = 0
 air.cornerpush.veloff = 0
-getpower = 0,0
+getpower = 10,5
 givepower = 0,0
 persistent = 0
 fall = 1
@@ -23255,7 +23255,7 @@ guard.velocity = ifelse(IsHelper,-5.5,-8)
 air.velocity = ifelse(-1.6*.9**((var(42)-1)+!var(42))>-.32,-.32,-1.6*.9**((var(42)-1)+!var(42))), ifelse((-8.6+(.125*((var(42)-1)+!var(42))))>0,0,(-8.6+(.125*((var(42)-1)+!var(42)))))
 ground.cornerpush.veloff = 0
 air.cornerpush.veloff = 0
-getpower = 0,0
+getpower = 10,5
 givepower = 0,0
 persistent = 0
 fall = 1
@@ -23689,7 +23689,7 @@ physics = N
 juggle = 0
 ctrl = 0
 anim = ifelse(IsHelper,536,531)
-poweradd = 30*(var(0)!=1)*!IsHelper
+poweradd = 0*(var(0)!=1)*!IsHelper
 sprpriority = 1
 velset = 0,0
 
@@ -23874,7 +23874,7 @@ guard.velocity = -8
 air.velocity = -3.3,-3.2
 ground.cornerpush.veloff = 0
 air.cornerpush.veloff = 0
-getpower = 30*!var(0),0
+getpower = 30,15
 givepower = 15*!var(0),0
 persistent = 0
 fall = 1
@@ -23915,7 +23915,7 @@ guard.velocity = -8
 air.velocity = -3.3,-3.2
 ground.cornerpush.veloff = 0
 air.cornerpush.veloff = 0
-getpower = 0,0
+getpower = 30,15
 givepower = 0,0
 persistent = 0
 fall = 1
@@ -23955,7 +23955,7 @@ guard.velocity = ifelse(IsHelper,-5.5,-8)
 air.velocity = -3.3,-3.2
 ground.cornerpush.veloff = 0
 air.cornerpush.veloff = 0
-getpower = 0,0
+getpower = 30,15
 givepower = 0,0
 persistent = 0
 fall = 1
@@ -24418,7 +24418,7 @@ physics = N
 juggle = 0
 ctrl = 0
 anim = ifelse(IsHelper,536,532)
-poweradd = 30*(var(0)!=1)*!IsHelper
+poweradd = 0*(var(0)!=1)*!IsHelper
 sprpriority = 1
 velset = 0,0
 
@@ -24603,7 +24603,7 @@ guard.velocity = -8
 air.velocity = -3.3,-3.2
 ground.cornerpush.veloff = 0
 air.cornerpush.veloff = 0
-getpower = 30*!var(0),0
+getpower = 30,15
 givepower = 15*!var(0),0
 persistent = 0
 fall = 1
@@ -24644,7 +24644,7 @@ guard.velocity = -8
 air.velocity = -3.3,-3.2
 ground.cornerpush.veloff = 0
 air.cornerpush.veloff = 0
-getpower = 0,0
+getpower = 30,15
 givepower = 0,0
 persistent = 0
 fall = 1
@@ -24684,7 +24684,7 @@ guard.velocity = ifelse(IsHelper,-5.5,-8)
 air.velocity = -3.3,-3.2
 ground.cornerpush.veloff = 0
 air.cornerpush.veloff = 0
-getpower = 0,0
+getpower = 30,15
 givepower = 0,0
 persistent = 0
 fall = 1
@@ -28804,7 +28804,7 @@ physics = N
 juggle = 0
 ctrl = 0
 velset = 0,0
-poweradd = 20*(root,var(0)!=1)
+poweradd = 0*(root,var(0)!=1)
 
 [State 1100, VarSet]
 type = VarSet
@@ -29736,7 +29736,7 @@ juggle = 0
 ctrl = 0
 velset = 0,0
 sprpriority = 1
-poweradd = 80*(var(0)!=1)*!IsHelper
+poweradd = 0*(var(0)!=1)*!IsHelper
 
 [State 1100, VarSet]
 type = VarSet
@@ -30030,7 +30030,7 @@ air.velocity = ifelse(-3.2*.9**((var(42)-1)+!var(42))>-.8,-.8,-3.2*.9**((var(42)
 ground.cornerpush.veloff = 0
 air.cornerpush.veloff = 0
 guard.cornerpush.veloff = 0
-getpower = 40*!var(0),0
+getpower = 15,7
 givepower = 20*!var(0),0
 persistent = 1
 fall = 0
@@ -30081,7 +30081,7 @@ air.velocity = ifelse(-3.2*.9**((var(42)-1)+!var(42))>-.8,-.8,-3.2*.9**((var(42)
 ground.cornerpush.veloff = 0
 air.cornerpush.veloff = 0
 guard.cornerpush.veloff = 0
-getpower = 40*!var(0),0
+getpower = 15,7
 givepower = 20*!var(0),0
 persistent = 1
 fall = 0
@@ -30131,7 +30131,7 @@ air.velocity = ifelse(-3.2*.9**((var(42)-1)+!var(42))>-.8,-.8,-3.2*.9**((var(42)
 ground.cornerpush.veloff = 0
 air.cornerpush.veloff = 0
 guard.cornerpush.veloff = 0
-getpower = 40*!var(0),0
+getpower = 15,7
 givepower = 20*!var(0),0
 persistent = 1
 fall = 0
@@ -30176,7 +30176,7 @@ air.velocity = ifelse(-3.2*.9**((var(42)-1)+!var(42))>-.8,-.8,-3.2*.9**((var(42)
 ground.cornerpush.veloff = 0
 air.cornerpush.veloff = 0
 guard.cornerpush.veloff = 0
-getpower = 40*!var(0),0
+getpower = 15,7
 givepower = 20*!var(0),0
 persistent = 1
 fall = 1
@@ -30220,7 +30220,7 @@ air.velocity = ifelse(-3.2*.9**((var(42)-1)+!var(42))>-.8,-.8,-3.2*.9**((var(42)
 ground.cornerpush.veloff = 0
 air.cornerpush.veloff = 0
 guard.cornerpush.veloff = 0
-getpower = 0,0
+getpower = 15,7
 givepower = 0,0
 persistent = 1
 fall = 0
@@ -30271,7 +30271,7 @@ air.velocity = ifelse(-3.2*.9**((var(42)-1)+!var(42))>-.8,-.8,-3.2*.9**((var(42)
 ground.cornerpush.veloff = 0
 air.cornerpush.veloff = 0
 guard.cornerpush.veloff = 0
-getpower = 0,0
+getpower = 15,7
 givepower = 0,0
 persistent = 1
 fall = 0
@@ -30321,7 +30321,7 @@ air.velocity = ifelse(-3.2*.9**((var(42)-1)+!var(42))>-.8,-.8,-3.2*.9**((var(42)
 ground.cornerpush.veloff = 0
 air.cornerpush.veloff = 0
 guard.cornerpush.veloff = 0
-getpower = 0,0
+getpower = 15,7
 givepower = 0,0
 persistent = 1
 fall = 0
@@ -30366,7 +30366,7 @@ air.velocity = ifelse(-3.2*.9**((var(42)-1)+!var(42))>-.8,-.8,-3.2*.9**((var(42)
 ground.cornerpush.veloff = 0
 air.cornerpush.veloff = 0
 guard.cornerpush.veloff = 0
-getpower = 0,0
+getpower = 15,7
 givepower = 0,0
 persistent = 1
 fall = 1
@@ -30406,7 +30406,7 @@ guard.velocity = -12
 air.velocity = ifelse(-3.2*.9**((var(42)-1)+!var(42))>-.8,-.8,-3.2*.9**((var(42)-1)+!var(42))), ifelse((-4.5+(1.8*((var(42)-1)+!var(42))))>0,0,(-4.5+(1.8*((var(42)-1)+!var(42)))))
 ground.cornerpush.veloff = 0
 air.cornerpush.veloff = 0
-getpower = 0,0
+getpower = 15,7
 givepower = 0,0
 persistent = 1
 fall = 0
@@ -30453,7 +30453,7 @@ guard.velocity = -12
 air.velocity = ifelse(-3.2*.9**((var(42)-1)+!var(42))>-.8,-.8,-3.2*.9**((var(42)-1)+!var(42))), ifelse((-4.5+(1.8*((var(42)-1)+!var(42))))>0,0,(-4.5+(1.8*((var(42)-1)+!var(42)))))
 ground.cornerpush.veloff = 0
 air.cornerpush.veloff = 0
-getpower = 0,0
+getpower = 15,7
 givepower = 0,0
 persistent = 1
 fall = 0
@@ -30499,7 +30499,7 @@ guard.velocity = -12
 air.velocity = ifelse(-3.2*.9**((var(42)-1)+!var(42))>-.8,-.8,-3.2*.9**((var(42)-1)+!var(42))), ifelse((-4.5+(1.8*((var(42)-1)+!var(42))))>0,0,(-4.5+(1.8*((var(42)-1)+!var(42)))))
 ground.cornerpush.veloff = 0
 air.cornerpush.veloff = 0
-getpower = 0,0
+getpower = 15,7
 givepower = 0,0
 persistent = 1
 fall = 0
@@ -30540,7 +30540,7 @@ guard.velocity = -12
 air.velocity = ifelse(-3.2*.9**((var(42)-1)+!var(42))>-.8,-.8,-3.2*.9**((var(42)-1)+!var(42))), ifelse((-4.5+(1.8*((var(42)-1)+!var(42))))>0,0,(-4.5+(1.8*((var(42)-1)+!var(42)))))
 ground.cornerpush.veloff = 0
 air.cornerpush.veloff = 0
-getpower = 0,0
+getpower = 15,7
 givepower = 0,0
 persistent = 1
 fall = 1
@@ -31459,7 +31459,7 @@ airguard.velocity = -5,-2.2
 ground.cornerpush.veloff = 0
 air.cornerpush.veloff = 0
 guard.cornerpush.veloff = 0
-getpower = 40*!var(0),0
+getpower = 20,10
 givepower = 20*!var(0),0
 persistent = 1
 fall = 0
@@ -31509,7 +31509,7 @@ airguard.velocity = -5,-2.2
 ground.cornerpush.veloff = 0
 air.cornerpush.veloff = 0
 guard.cornerpush.veloff = 0
-getpower = 40*!var(0),0
+getpower = 20,10
 givepower = 20*!var(0),0
 persistent = 1
 fall = 0
@@ -31559,7 +31559,7 @@ airguard.velocity = -5,-2.2
 ground.cornerpush.veloff = 0
 air.cornerpush.veloff = 0
 guard.cornerpush.veloff = 0
-getpower = 40*!var(0),0
+getpower = 20,10
 givepower = 20*!var(0),0
 persistent = 1
 fall = 0
@@ -31599,7 +31599,7 @@ guard.velocity = -12
 air.velocity = ifelse(-12.5*.9**((var(42)-1)+!var(42))>-2.5,-2.5,-12.5*.9**((var(42)-1)+!var(42))), ifelse((-4.5+(1.8*((var(42)-1)+!var(42))))>0,0,(-4.5+(1.8*((var(42)-1)+!var(42)))))
 ground.cornerpush.veloff = 0
 air.cornerpush.veloff = 0
-getpower = 0,0
+getpower = 20,10
 givepower = 0,0
 persistent = 1
 fall = 0
@@ -31645,7 +31645,7 @@ guard.velocity = -12
 air.velocity = ifelse(-12.5*.9**((var(42)-1)+!var(42))>-2.5,-2.5,-12.5*.9**((var(42)-1)+!var(42))), ifelse((-4.5+(1.8*((var(42)-1)+!var(42))))>0,0,(-4.5+(1.8*((var(42)-1)+!var(42)))))
 ground.cornerpush.veloff = 0
 air.cornerpush.veloff = 0
-getpower = 0,0
+getpower = 20,10
 givepower = 0,0
 persistent = 1
 fall = 0
@@ -31691,7 +31691,7 @@ guard.velocity = -12
 air.velocity = ifelse(-12.5*.9**((var(42)-1)+!var(42))>-2.5,-2.5,-12.5*.9**((var(42)-1)+!var(42))), ifelse((-4.5+(1.8*((var(42)-1)+!var(42))))>0,0,(-4.5+(1.8*((var(42)-1)+!var(42)))))
 ground.cornerpush.veloff = 0
 air.cornerpush.veloff = 0
-getpower = 0,0
+getpower = 20,10
 givepower = 0,0
 persistent = 1
 fall = 0
@@ -32878,7 +32878,7 @@ guard.velocity = -8
 air.velocity = ifelse(-10*.9**((var(42)-1)+!var(42))>-2,-2,-10*.9**((var(42)-1)+!var(42))), ifelse((-6.5+(2*((var(42)-1)+!var(42))))>0,0,(-6.5+(2*((var(42)-1)+!var(42)))))
 ground.cornerpush.veloff = 0
 air.cornerpush.veloff = 0
-getpower = 40+(var(5)*10),0
+getpower = 60,30
 givepower = 20+(var(5)*5),0
 persistent = 0
 air.fall = 1
@@ -32921,7 +32921,7 @@ guard.velocity = -8
 air.velocity = ifelse(-10*.9**((var(42)-1)+!var(42))>-2,-2,-10*.9**((var(42)-1)+!var(42))), ifelse((-6.5+(2*((var(42)-1)+!var(42))))>0,0,(-6.5+(2*((var(42)-1)+!var(42)))))
 ground.cornerpush.veloff = 0
 air.cornerpush.veloff = 0
-getpower = 0,0
+getpower = 60,30
 givepower = 0,0
 persistent = 0
 air.fall = 1
@@ -32963,7 +32963,7 @@ guard.velocity = -8
 air.velocity = ifelse(-10*.9**((var(42)-1)+!var(42))>-2,-2,-10*.9**((var(42)-1)+!var(42))), ifelse((-6.5+(2*((var(42)-1)+!var(42))))>0,0,(-6.5+(2*((var(42)-1)+!var(42)))))
 ground.cornerpush.veloff = 0
 air.cornerpush.veloff = 0
-getpower = 0,0
+getpower = 60,30
 givepower = 0,0
 persistent = 0
 air.fall = 1
@@ -33608,7 +33608,7 @@ physics = N
 juggle = 0
 ctrl = 0
 anim = 11160
-poweradd = 30*(var(0)!=1)
+poweradd = 0*(var(0)!=1)
 velset = 0,0
 sprpriority = 2
 
@@ -33721,7 +33721,7 @@ guard.velocity = -8
 air.velocity = -3.3,-3.2
 ground.cornerpush.veloff = 0
 air.cornerpush.veloff = 0
-getpower = 40+(var(5)*10),0
+getpower = 60,30
 givepower = 20+(var(5)*5),0
 persistent = 0
 fall = 1
@@ -33761,7 +33761,7 @@ guard.velocity = -8
 air.velocity = -3.3,-3.2
 ground.cornerpush.veloff = 0
 air.cornerpush.veloff = 0
-getpower = 0,0
+getpower = 60,30
 givepower = 0,0
 persistent = 0
 fall = 1
@@ -33796,7 +33796,7 @@ physics = N
 juggle = 0
 ctrl = 0
 anim = 11170
-poweradd = 30*(var(0)!=1)
+poweradd = 0*(var(0)!=1)
 velset = 0,0
 sprpriority = 1
 
@@ -33927,7 +33927,7 @@ guard.velocity = -8
 air.velocity = -1.6, -8.6
 ground.cornerpush.veloff = 0
 air.cornerpush.veloff = 0
-getpower = 40+(var(5)*10),0
+getpower = 30,15
 givepower = 20+(var(5)*5),0
 persistent = 0
 fall = 1
@@ -33968,7 +33968,7 @@ guard.velocity = -8
 air.velocity = -1.6, -8.6
 ground.cornerpush.veloff = 0
 air.cornerpush.veloff = 0
-getpower = 40+(var(5)*10),0
+getpower = 30,15
 givepower = 20+(var(5)*5),0
 persistent = 0
 fall = 1
@@ -34008,7 +34008,7 @@ guard.velocity = -8
 air.velocity = -1.6, -8.6
 ground.cornerpush.veloff = 0
 air.cornerpush.veloff = 0
-getpower = 0,0
+getpower = 30,15
 givepower = 0,0
 persistent = 0
 fall = 1
@@ -34049,7 +34049,7 @@ guard.velocity = -8
 air.velocity = -1.6, -8.6
 ground.cornerpush.veloff = 0
 air.cornerpush.veloff = 0
-getpower = 0,0
+getpower = 30,15
 givepower = 0,0
 persistent = 0
 fall = 1
@@ -34084,7 +34084,7 @@ physics = N
 juggle = 0
 ctrl = 0
 anim = 11180
-poweradd = 30*(var(0)!=1)
+poweradd = 0*(var(0)!=1)
 velset = 0,0
 sprpriority = 1
 
@@ -34209,7 +34209,7 @@ guard.velocity = -12
 air.velocity = ifelse(-8.5*.9**((var(42)-1)+!var(42))>-6.8,-6.8,-8.5*.9**((var(42)-1)+!var(42))),10
 ground.cornerpush.veloff = 0
 air.cornerpush.veloff = 0
-getpower = 40+(var(5)*10),0
+getpower = 60,30
 givepower = 20+(var(5)*5),0
 persistent = 0
 fall = 1
@@ -34249,7 +34249,7 @@ guard.velocity = -12
 air.velocity = ifelse(-8.5*.9**((var(42)-1)+!var(42))>-6.8,-6.8,-8.5*.9**((var(42)-1)+!var(42))),10
 ground.cornerpush.veloff = 0
 air.cornerpush.veloff = 0
-getpower = 0,0
+getpower = 60,30
 givepower = 0,0
 persistent = 0
 fall = 1
@@ -35227,7 +35227,7 @@ guard.velocity = 8.3
 air.velocity = ifelse(-.8*.9**((var(42)-1)+!var(42))>-.16,-.16,-.8*.9**((var(42)-1)+!var(42))), ifelse((-7.5+(1.5*((var(42)-1)+!var(42))))>0,0,(-7.5+(1.5*((var(42)-1)+!var(42)))))
 ground.cornerpush.veloff = 0
 air.cornerpush.veloff = 0
-getpower = 40+(var(5)*10),0
+getpower = 60,30
 givepower = 20+(var(5)*5),0
 persistent = 0
 air.fall = 1
@@ -35269,7 +35269,7 @@ guard.velocity = 8.3
 air.velocity = ifelse(-.8*.9**((var(42)-1)+!var(42))>-.16,-.16,-.8*.9**((var(42)-1)+!var(42))), ifelse((-7.5+(1.5*((var(42)-1)+!var(42))))>0,0,(-7.5+(1.5*((var(42)-1)+!var(42)))))
 ground.cornerpush.veloff = 0
 air.cornerpush.veloff = 0
-getpower = 40+(var(5)*10),0
+getpower = 60,30
 givepower = 20+(var(5)*5),0
 persistent = 0
 air.fall = 1
@@ -35310,7 +35310,7 @@ guard.velocity = 8.3
 air.velocity = ifelse(-.8*.9**((var(42)-1)+!var(42))>-.16,-.16,-.8*.9**((var(42)-1)+!var(42))), ifelse((-7.5+(1.5*((var(42)-1)+!var(42))))>0,0,(-7.5+(1.5*((var(42)-1)+!var(42)))))
 ground.cornerpush.veloff = 0
 air.cornerpush.veloff = 0
-getpower = 0,0
+getpower = 60,30
 givepower = 0,0
 persistent = 0
 air.fall = 1
@@ -35350,7 +35350,7 @@ guard.velocity = 8.3
 air.velocity = ifelse(-.8*.9**((var(42)-1)+!var(42))>-.16,-.16,-.8*.9**((var(42)-1)+!var(42))), ifelse((-7.5+(1.5*((var(42)-1)+!var(42))))>0,0,(-7.5+(1.5*((var(42)-1)+!var(42)))))
 ground.cornerpush.veloff = 0
 air.cornerpush.veloff = 0
-getpower = 0,0
+getpower = 60,30
 givepower = 0,0
 persistent = 0
 air.fall = 1

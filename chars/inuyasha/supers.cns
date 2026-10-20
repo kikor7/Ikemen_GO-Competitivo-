@@ -13,7 +13,7 @@ physics             = S
 ctrl                = 0                        
 anim                = 1000                                    
               
-poweradd            = 100
+poweradd            = 0
 
 [State 1000:         Playsnd]
 type                = playsnd
@@ -110,6 +110,7 @@ type                = HitDef
 trigger1            = time = 2
 attr                = S, NA                  
 damage              = 70, 0                
+getpower = 60,30
 animtype            = Up                 
 guardflag           = M                 
 hitflag             = MAF  
@@ -150,7 +151,7 @@ physics             = S
 ctrl                = 0                        
 anim                = 1000                                    
                
-poweradd            = 100
+poweradd            = 0
 
 [State 1000:         Playsnd]
 type                = playsnd
@@ -248,7 +249,7 @@ type                = HitDef
 trigger1            = time = 1
 attr                = S, NA                  
 damage              = 90, 0
-getpower            = 0,0                
+getpower = 60,30
 animtype            = Up                 
 guardflag           = M                
 hitflag             = MAF                 
@@ -290,13 +291,14 @@ physics             = S
 ctrl                = 0                        
 anim                = 1010                                                         
 
-poweradd            = 100
+poweradd            = 20
 
 [State 1011:        Hitdef ]
 type                = HitDef
 trigger1            = animelem = 10
 attr                = S, NA                  
 damage              = 30, 0                
+getpower = 15,7
 animtype            = medium                 
 guardflag           = M                 
 hitflag             = MAF  
@@ -328,6 +330,7 @@ hitflag             = MAFDP
 priority            = 4, Hit               
 pausetime           = 8, 10                
 damage              = 70,0
+getpower = 15,7
 sparkno             = s14020           
 guard.sparkno       = s14110
 sparkxy             = 35, -50
@@ -410,13 +413,14 @@ physics             = S
 ctrl                = 0                        
 anim                = 1010                                                         
 
-poweradd            = 100
+poweradd            = 20
 
 [State 1011:        Hitdef ]
 type                = HitDef
 trigger1            = animelem = 10
 attr                = S, NA                  
 damage              = 30, 0                
+getpower = 15,7
 animtype            = medium                 
 guardflag           = M                 
 hitflag             = MAF  
@@ -448,6 +452,7 @@ hitflag             = MAFDP
 priority            = 4, Hit               
 pausetime           = 8, 10                
 damage              = 90,0
+getpower = 15,7
 sparkno             = s14020           
 guard.sparkno       = S14110
 sparkxy             = 35, -50
@@ -533,7 +538,7 @@ physics             = S
 ctrl                = 0                        
 anim                = 1020                                                         
 
-poweradd            = 100                                                        
+poweradd            = 20                                                        
 
 [State 2021:        Projectile]
 type                = Projectile   
@@ -545,6 +550,7 @@ hitflag             = MAF
 priority            = 4, Hit               
 pausetime           = 9, 10                
 damage              = 70,0
+getpower = 30,15
 sparkno             = s14020           
 guard.sparkno       = S14110
 sparkxy             = 30, 0
@@ -627,7 +633,7 @@ physics             = S
 ctrl                = 0                        
 anim                = 1020                                                         
 
-poweradd            = 100                                                        
+poweradd            = 20                                                        
 
 [State 2021:        Projectile]
 type                = Projectile   
@@ -639,6 +645,7 @@ hitflag             = MAF
 priority            = 4, Hit               
 pausetime           = 9, 10                
 damage              = 90,0
+getpower = 30,15
 sparkno             = s14020          
 guard.sparkno       = S14110
 sparkxy             = 30, 0
@@ -723,7 +730,7 @@ physics             = N
 ctrl                = 0
                        
 anim                = 1030 
-poweradd            = 100                                                        
+poweradd            = 20                                                        
 
 [State 2021:        Projectile]
 type                = Projectile   
@@ -735,6 +742,7 @@ hitflag             = MA
 priority            = 4, Hit               
 pausetime           = 9, 10                
 damage              = 70,0
+getpower = 30,15
 sparkno             = s14020           
 guard.sparkno       = S14110
 sparkxy             = 30, 0
@@ -829,7 +837,7 @@ physics             = N
 ctrl                = 0
                      
 anim                = 1030 
-poweradd            = 100                                                           
+poweradd            = 20                                                           
 
 [State 1054:        salto]
 type                = VelSet
@@ -847,6 +855,7 @@ hitflag             = MA
 priority            = 4, Hit               
 pausetime           = 9, 10                
 damage              = 90,0
+getpower = 30,15
 sparkno             = s14020          
 guard.sparkno       = S14110
 sparkxy             = 30, 0
@@ -930,7 +939,7 @@ physics             = S
 ctrl                = 0
                     
 anim                = 1040 
-poweradd            = 100                                                           
+poweradd            = 20                                                           
 
 [State 2021:        Projectile]
 type                = Projectile   
@@ -1028,7 +1037,7 @@ physics             = S
 ctrl                = 0
                        
 anim                = 1040 
-poweradd            = 100                                                         
+poweradd            = 20                                                         
 
 [State 2021:        Projectile]
 type                = Projectile   
@@ -1128,7 +1137,7 @@ physics             = C
 ctrl                = 0
                      
 anim                = 1050 
-poweradd            = 100                                                         
+poweradd            = 20                                                         
 
 [State 2021:        Projectile]
 type                = Projectile   
@@ -1226,7 +1235,7 @@ physics             = C
 ctrl                = 0
                        
 anim                = 1050 
-poweradd            = 100                                                         
+poweradd            = 20                                                         
 
 [State 2021:        Projectile]
 type                = Projectile   
@@ -1325,7 +1334,7 @@ movetype            = A
 physics             = S                                                           
 ctrl                = 0                   
 anim                = 1060
-poweradd            = 100  
+poweradd            = 0  
 
 [State 1011:        Hitdef ]
 type                = HitDef
@@ -1333,6 +1342,7 @@ trigger1            = AnimElem = 4
 trigger2            = AnimElem = 5
 attr                = S, NA                  
 damage              = 60, 0                
+getpower = 60,30
 animtype            = Up                 
 guardflag           = M                 
 hitflag             = MAF 
@@ -1407,7 +1417,7 @@ movetype            = A
 physics             = S                                                           
 ctrl                = 0                   
 anim                = 1061
-poweradd            = 100  
+poweradd            = 0  
 
 [State 1011:        Hitdef ]
 type                = HitDef
@@ -1416,6 +1426,7 @@ trigger2            = AnimElem = 5
 trigger3            = AnimElem = 6
 attr                = S, NA                  
 damage              = 60, 0                
+getpower = 60,30
 animtype            = Up                 
 guardflag           = M                 
 hitflag             = MAF 

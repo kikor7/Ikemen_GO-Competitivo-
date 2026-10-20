@@ -3,6 +3,7 @@
 ; ドンナー・シュラーク
 [Statedef 1000]
 type    = S
+poweradd = 20
 movetype = A
 physics = N
 Anim = 1000
@@ -255,7 +256,7 @@ palfx.add         = -100,0,256
 palfx.sinadd      = 110,100,200,15
 palfx.color       = 256
 palfx.invertall   = 1
-getpower = ceil(96*root,fvar(31)*0.01),ceil(96*root,fvar(31)*0.01)
+getpower = 30,15
 givepower = 0,0
 p2facing = 1
 
@@ -2518,7 +2519,7 @@ palfx.add         = -100,0,256
 palfx.sinadd      = 110,100,200,15
 palfx.color       = 256
 palfx.invertall   = 1
-getpower = ceil(96*fvar(31)*0.01),ceil(96*fvar(31)*0.01)
+getpower = 30,15
 givepower = 0,0
 p2facing = 1
 
@@ -2559,7 +2560,7 @@ palfx.add         = -100,0,256
 palfx.sinadd      = 110,100,200,15
 palfx.color       = 256
 palfx.invertall   = 1
-getpower = ceil(96*fvar(31)*0.01),ceil(96*fvar(31)*0.01)
+getpower = 30,15
 givepower = 0,0
 p2facing = 1
 
@@ -3015,7 +3016,7 @@ palfx.add         = -100,0,256
 palfx.sinadd      = 110,100,200,15
 palfx.color       = 256
 palfx.invertall   = 1
-getpower = ceil(96*fvar(31)*0.01),ceil(96*fvar(31)*0.01)
+getpower = 60,30
 givepower = 0,0
 p2facing = 1
 
@@ -3056,7 +3057,7 @@ palfx.add         = -100,0,256
 palfx.sinadd      = 110,100,200,15
 palfx.color       = 256
 palfx.invertall   = 1
-getpower = ceil(96*fvar(31)*0.01),ceil(96*fvar(31)*0.01)
+getpower = 60,30
 givepower = 0,0
 p2facing = 1
 
@@ -3303,7 +3304,7 @@ fall.recoverTime = 47 -ceil(fvar(21))*ifelse(fvar(21) = 1,3,1)
 yaccel = .46
 ground.cornerpush.veloff = -10 -fvar(21)
 air.cornerpush.veloff = -10 -fvar(21)
-getpower = ceil(48*fvar(31)*0.01),ceil(48*fvar(31)*0.01)
+getpower = 30,15
 givepower = 0,0
 p2facing = 1
 
@@ -3464,12 +3465,14 @@ volume = helper(10000),var(5)
 
 [State HitD, 1]
 type = hitdef
+getpower = 15,7
 trigger1 = 1
 attr = S,NT
 hitflag =
 
 [State HitD, 1]
 type = HitDef
+getpower = 15,7
 triggerall = p2stateno != 40
 triggerall = p2stateno != [150,155]
 Trigger1 = AnimElem = 9
@@ -3489,6 +3492,7 @@ fall = 1
 
 [State HitD, 1]
 type = HitDef
+getpower = 15,7
 triggerall = p2stateno != 40
 triggerall = p2stateno != [150,155]
 Trigger1 = AnimElem = 10
@@ -3508,6 +3512,7 @@ fall = 1
 
 [State HitD, 1]
 type = HitDef
+getpower = 15,7
 triggerall = p2stateno != 40
 triggerall = p2stateno != [150,155]
 Trigger1 = AnimElem = 11
@@ -4485,7 +4490,7 @@ palfx.add         = -100,0,256
 palfx.sinadd      = 110,100,200,15
 palfx.color       = 256
 palfx.invertall   = 1
-getpower = ceil(96*fvar(31)*0.01),ceil(96*fvar(31)*0.01)
+getpower = 60,30
 givepower = 0,0
 p2facing = 1
 
@@ -4746,7 +4751,7 @@ palfx.add         = -100,0,256
 palfx.sinadd      = 110,100,200,15
 palfx.color       = 256
 palfx.invertall   = 1
-getpower = ceil(52*fvar(31)*0.01),ceil(52*fvar(31)*0.01)
+getpower = 60,30
 givepower = 0,0
 p2facing = 1
 p2stateno = 6200
@@ -4786,7 +4791,7 @@ fall.recoverTime = ceil(82*ifelse(fvar(21) <= 3,1-(fvar(21)*0.01),0.7))*ifelse(f
 yaccel = .44
 ground.cornerpush.veloff = -14 -fvar(21)
 air.cornerpush.veloff = -14 -fvar(21)
-getpower = ceil(70*fvar(31)*0.01),ceil(76*fvar(31)*0.01)
+getpower = 60,30
 palfx.Time        = 38
 palfx.add         = -100,0,256
 palfx.sinadd      = 110,100,200,15
@@ -5052,7 +5057,7 @@ palfx.add         = -100,0,256
 palfx.sinadd      = 110,100,200,15
 palfx.color       = 256
 palfx.invertall   = 1
-getpower = ceil(52*fvar(31)*0.01),ceil(52*fvar(31)*0.01)
+getpower = 60,30
 givepower = 0,0
 p2facing = 1
 p2stateno = 6200
@@ -5092,7 +5097,7 @@ fall.recoverTime = ceil(82*ifelse(fvar(21) <= 3,1-(fvar(21)*0.01),0.7))*ifelse(f
 yaccel = .44
 ground.cornerpush.veloff = -14 -fvar(21)
 air.cornerpush.veloff = -14 -fvar(21)
-getpower = ceil(70*fvar(31)*0.01),ceil(76*fvar(31)*0.01)
+getpower = 60,30
 palfx.Time        = 38
 palfx.add         = -100,0,256
 palfx.sinadd      = 110,100,200,15
@@ -5319,6 +5324,7 @@ x = 2
 type = HitDef
 trigger1 = AnimElem = 5
 damage = ceil(ifelse(var(50) = 1,15*fvar(8),45*fvar(8))),8
+getpower = 30,15
 attr = S,SA
 hitflag = MAFD
 guardflag = MA
@@ -5552,7 +5558,7 @@ physics = N
 anim = 1252
 sprpriority = 2
 ctrl = 0
-poweradd = 300
+poweradd = 0
 
 [State VelM, 1]
 type = Velmul

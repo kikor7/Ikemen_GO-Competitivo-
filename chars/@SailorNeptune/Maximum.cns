@@ -672,7 +672,7 @@ juggle  = 1
 velset = 0,0                     
 ctrl = 0                         
 anim = 4001                     
-poweradd = 20                    
+poweradd = 0                    
 sprpriority = 2
 
 ;[State 4000, Ppush]
@@ -716,7 +716,7 @@ juggle  = 1
 velset = 0,0                     
 ctrl = 0                         
 anim = 4001                     
-poweradd = 20                    
+poweradd = 0                    
 sprpriority = 2
 
 
@@ -1046,7 +1046,7 @@ juggle  = 1
 velset = 1,0                     
 ctrl = 0                         
 anim = 4100                     
-poweradd = 20                    
+poweradd = 0                    
 sprpriority = 2
 
 [State 3110]
@@ -1400,7 +1400,7 @@ juggle  = 1
 velset = 4,-10                     
 ctrl = 0                         
 anim = 4101                     
-poweradd = 20                    
+poweradd = 0                    
 sprpriority = 2
 
 [State 3110]
@@ -1962,7 +1962,7 @@ juggle  = 1
 velset = 4,-8                     
 ctrl = 0                         
 anim = 4200                     
-poweradd = 20                    
+poweradd = 0                    
 sprpriority = 2
 
 [State 200, 7]
@@ -2360,7 +2360,7 @@ juggle  = 1
 velset = 0,0                     
 ctrl = 0                         
 anim = 80002
-poweradd = 20                    
+poweradd = 0                    
 sprpriority = 2
 
 [State 1027, spark]
@@ -2438,7 +2438,7 @@ juggle  = 1
 velset = 0,0                     
 ctrl = 0                         
 anim = 80008
-poweradd = 20                    
+poweradd = 0                    
 sprpriority = 2
 
 [State 1027, bola]
@@ -2718,7 +2718,7 @@ juggle  = 1
 velset = 3,0                     
 ctrl = 0                         
 anim = 80403
-poweradd = 20                    
+poweradd = 0                    
 sprpriority = 2
 
 [State 1027, ola]
@@ -2815,7 +2815,7 @@ juggle  = 1
 velset = 3,0                     
 ctrl = 0                         
 anim = 80403
-poweradd = 20                    
+poweradd = 0                    
 sprpriority = 2
 
 [State 1027, ola]
@@ -2921,7 +2921,7 @@ juggle  = 1
 velset = 3,0                     
 ctrl = 0                         
 anim = 80403
-poweradd = 20                    
+poweradd = 0                    
 sprpriority = 2
 
 [State 1027, hola]
@@ -2945,7 +2945,7 @@ juggle  = 1
 velset = 3,0                     
 ctrl = 0                         
 anim = 80419
-poweradd = 20                    
+poweradd = 0                    
 sprpriority = 2
 
 
@@ -3320,7 +3320,7 @@ juggle  = 1
 velset = 3,0                     
 ctrl = 0                         
 anim = 80504
-poweradd = 20                    
+poweradd = 0                    
 sprpriority = 2
 
 

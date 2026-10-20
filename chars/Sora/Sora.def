@@ -12,6 +12,7 @@ author 		="Lone Star Cal"
 pal.defaults	=1,2,3,4,5,6
 
 [Files]
+movelist = movelist.dat
 cmd		=Sora.cmd
 cns		=Sora.cns
 stcommon	=Soracommon1.cns

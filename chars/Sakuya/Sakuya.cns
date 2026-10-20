@@ -399,7 +399,7 @@ Ground.Velocity            = -4,0
 Air.Velocity               = -4,-4
 Air.Fall                   = 1
 Fall.RecoverTime           = IfElse(Ceil(25*FVar(20)) <= 15, 15, Ceil(25*FVar(20)))
-GetPower                   = 20,10
+getpower = 30,15
 
 [State 200,~ヒットエフェ~]
 Type     = Helper
@@ -498,7 +498,7 @@ Ground.Velocity            = -6,0
 Air.Velocity               = -6,-4
 Air.Fall                   = 1
 Fall.RecoverTime           = IfElse(Ceil(35*FVar(20)) <= 15, 15, Ceil(35*FVar(20)))
-GetPower                   = 60,40
+getpower = 30,15
 
 [State 205,~ヒットエフェ~]
 Type     = Helper
@@ -586,7 +586,7 @@ Ground.Velocity            = -5,0
 Air.Velocity               = -5,-4
 Air.Fall                   = 1
 Fall.RecoverTime           = IfElse(Ceil(35*FVar(20)) <= 15, 15, Ceil(35*FVar(20)))
-GetPower                   = 60,40
+getpower = 30,15
 
 [State 210,~ヒットエフェ~]
 Type     = Helper
@@ -725,7 +725,7 @@ Ground.Velocity            = -4,8
 Air.Velocity               = -4,8
 Fall                       = 1
 Fall.RecoverTime           = IfElse(Ceil(40*FVar(20)) <= 15, 15, Ceil(40*FVar(20)))
-GetPower                   = 60,40
+getpower = 30,15
 
 [State 215,~ヒットエフェ~]
 Type     = Helper
@@ -779,6 +779,7 @@ Ctrl     = 1
 ;━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 [Statedef 230]
 Type     = S
+poweradd = 20
 MoveType = A
 Physics  = S
 Ctrl     = 0
@@ -907,6 +908,7 @@ Ctrl     = 1
 ;━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 [Statedef 240]
 Type     = S
+poweradd = 20
 MoveType = A
 Physics  = S
 Ctrl     = 0
@@ -1054,6 +1056,7 @@ Ctrl     = 1
 ;━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 [Statedef 250]
 Type     = S
+poweradd = 20
 MoveType = A
 Physics  = S
 Ctrl     = 0
@@ -1451,7 +1454,7 @@ Ground.Velocity            = -9,0
 Air.Velocity               = -3,-5
 Air.Fall                   = 1
 Fall.RecoverTime           = IfElse(Ceil(35*FVar(20)) <= 15, 15, Ceil(35*FVar(20)))
-GetPower                   = 60,40
+getpower = 30,15
 
 [State 400,~ヒットエフェ~]
 Type     = Helper
@@ -1539,7 +1542,7 @@ Ground.Velocity            = -5,0
 Air.Velocity               = -3,-3.5
 Air.Fall                   = 1
 Fall.RecoverTime           = IfElse(Ceil(35*FVar(20)) <= 15, 15, Ceil(35*FVar(20)))
-GetPower                   = 60,40
+getpower = 30,15
 
 [State 410,~ヒットエフェ~]
 Type     = Helper
@@ -1995,7 +1998,7 @@ Ground.Velocity            = -5,0
 Air.Velocity               = -5,-4
 Air.Fall                   = 1
 Fall.RecoverTime           = IfElse(Ceil(35*FVar(20)) <= 15, 15, Ceil(35*FVar(20)))
-GetPower                   = 60,40
+getpower = 30,15
 
 [State 500,~ヒットエフェ~]
 Type     = Helper
@@ -2125,7 +2128,7 @@ Ground.Velocity            = -5,8
 Air.Velocity               = -5,8
 Fall                       = 1
 Fall.RecoverTime           = IfElse(Ceil(40*FVar(20)) <= 15, 15, Ceil(40*FVar(20)))
-GetPower                   = 80,60
+getpower = 30,15
 
 [State 510,~ヒットエフェ~]
 Type     = Helper
@@ -2254,7 +2257,7 @@ Ground.Velocity            = -4,-7
 Air.Velocity               = -4,-7
 Fall                       = 1
 Fall.RecoverTime           = IfElse(Ceil(40*FVar(20)) <= 15, 15, Ceil(40*FVar(20)))
-GetPower                   = 80,60
+getpower = 30,15
 
 [State 520,~ヒットエフェ~]
 Type     = Helper
@@ -2353,7 +2356,7 @@ Ground.Velocity            = 0,-1
 Air.Velocity               = 0,-1
 Fall                       = 1
 Fall.RecoverTime           = IfElse(Ceil(35*FVar(20)) <= 15, 15, Ceil(35*FVar(20)))
-GetPower                   = 60,40
+getpower = 30,15
 
 [State 530,~ヒットエフェ~]
 Type     = Helper
@@ -2451,7 +2454,7 @@ Ground.Velocity            = -6,0
 Air.Velocity               = -4,-6
 Air.Fall                   = 1
 Fall.RecoverTime           = IfElse(Ceil(40*FVar(20)) <= 15, 15, Ceil(40*FVar(20)))
-GetPower                   = 60,40
+getpower = 30,15
 
 [State 600,~ヒットエフェ~]
 Type     = Helper
@@ -2537,7 +2540,7 @@ Ground.Velocity            = -6,0
 Air.Velocity               = -4,-4
 Air.Fall                   = 1
 Fall.RecoverTime           = IfElse(Ceil(40*FVar(20)) <= 15, 15, Ceil(40*FVar(20)))
-GetPower                   = 80,60
+getpower = 30,15
 
 [State 610,~ヒットエフェ~]
 Type     = Helper
@@ -3090,7 +3093,7 @@ Ground.Velocity            = -3,-7
 Air.Velocity               = -3,-7
 Fall                       = 1
 Fall.RecoverTime           = IfElse(Ceil(40*FVar(20)) <= 15, 15, Ceil(40*FVar(20)))
-GetPower                   = 80,60
+getpower = 60,30
 
 [State 700,~ヒットエフェ~]
 Type     = Helper
@@ -3217,7 +3220,7 @@ Guard.Velocity             = -6
 Air.Velocity               = 0,-4.2
 Fall                       = 1
 Fall.RecoverTime           = IfElse(Ceil(40*FVar(20)) <= 15, 15, Ceil(40*FVar(20)))
-GetPower                   = 80,60
+getpower = 60,30
 
 [State 710,~ヒットエフェ~]
 Type     = Helper
@@ -3355,6 +3358,7 @@ HitFlag                    = MAF
 GuardFlag                  = MA
 AnimType                   = Herd
 Damage                     = 0
+getpower = 30,15
 PauseTime                  = 0,0
 SparkNo                    = -1
 Guard.SparkNo              = -1
@@ -3379,6 +3383,7 @@ HitFlag                    = MAF
 GuardFlag                  = MA
 AnimType                   = Up
 Damage                     = 50
+getpower = 30,15
 PauseTime                  = 0,0
 SparkNo                    = -1
 Guard.SparkNo              = -1

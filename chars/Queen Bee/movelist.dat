@@ -1,0 +1,20 @@
+<#f0f000>:Special Moves:</>
+Roll Forward			^A_+^X
+O.M.			_F_DF_D_DB^X
+C->R			_B_DB_D_DF^X
+Triangle A			_QCB^A
+Sxp			^A^A^A
+Throw			^X_+^Y
+
+<#f0f000>:Hyper Moves:</>
+Reincarnation <#f00000>(3000)</>			_QCF_QCF^X_+^Y_+^Z
+MAX Qj <#f00000>(2000)</>			_QCF_QCF^X_+^Z
+MAX +B <#f00000>(2000)</>			_QCF_QCF^A_+^B
+Qj <#f00000>(1000)</>			_QCF_QCF^X
++B <#f00000>(1000)</>			_QCF_QCF^A
+EX O.M. <#f00000>(500)</>			_F_DF_D_DB^X_+^Y
+EX C->R <#f00000>(500)</>			_B_DB_D_DF^X_+^Y
+EX Triangle A <#f00000>(500)</>			_QCB^A_+^B
+EX Sxp <#f00000>(500)</>			^A_+^B
+Zero Counter <#f00000>(1000)</>			_B_DB_D^X
+Custom Combo <#f00000>(1000)</>			^C_+^Z

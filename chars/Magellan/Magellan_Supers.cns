@@ -388,7 +388,7 @@ ctrl = 1
 [Statedef 3050]
 Movetype = A
 juggle  = 5
-poweradd = 30
+poweradd = 0
 ctrl = 0
 anim = 7050
 sprpriority = -2
@@ -942,7 +942,7 @@ trigger1 		= animtime = 0
 [Statedef 3057]
 Movetype = A
 juggle  = 5
-poweradd = 30
+poweradd = 0
 ctrl = 0
 anim = 7057
 sprpriority = -6

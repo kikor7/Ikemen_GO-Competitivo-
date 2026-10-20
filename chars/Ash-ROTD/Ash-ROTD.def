@@ -13,6 +13,7 @@ pal.defaults = 0
 
 ; Files for the player
 [Files]
+movelist = movelist.dat
 cmd      = Ash-ROTD.cmd  
 cns      = Ash-ROTD-P.cns   
 st       = Ash-ROTD-N.cns   

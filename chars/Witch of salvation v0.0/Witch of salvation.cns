@@ -299,6 +299,7 @@ time = 1
 ;-------------------------------my--------------------------------------------
 [Statedef 200]
 type = S
+poweradd = 20
 ctrl = 0
 velset = 0,0
 sprpriority = -4
@@ -356,6 +357,7 @@ type = HitDef
 trigger1 = Time = 0
 attr = C, NA
 damage    = 50
+getpower = 30,15
 hitflag = MAFD
 guardflag = L
 pausetime = 0,12
@@ -530,6 +532,7 @@ trigger1 = Time = 10
 ;-------------------------------my--------------------------------------------
 [Statedef 250]
 type = S
+poweradd = 20
 ctrl = 0
 velset = 0,0
 sprpriority = -4
@@ -657,7 +660,7 @@ type = Projectile
 trigger1 = time%1 = 0
 attr = S, SP 
 damage = 20,1 
-getpower = 0,0
+getpower = 30,15
 animtype = Hard
 pausetime = 5,-5
 ;-----------------------------------
@@ -755,6 +758,7 @@ ctrl = 1
 ;-------------------------------my--------------------------------------------
 [Statedef 300]
 type = S
+poweradd = 20
 ctrl = 0
 velset = 0,0
 sprpriority = -4
@@ -847,7 +851,7 @@ type = Projectile
 trigger1 = time%1 = 0
 attr = S, SP 
 damage = 20,1 
-getpower = 0,0
+getpower = 30,15
 animtype = Hard
 pausetime = 5,-5
 ;-----------------------------------

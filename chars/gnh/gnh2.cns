@@ -10,7 +10,7 @@ velset = 0,0
 ctrl = 0
 facep2   = 1
 anim = 1000
-poweradd = 50
+poweradd = 20
 sprpriority = 1
 
 [State -2, UŒ‚—Í‰ºŒÀ•Ûá]
@@ -476,7 +476,7 @@ attr = S, SA
 animtype  = back
 damage    = 20+(time*2),10
 priority = 5, Hit
-getpower = 95,28
+getpower = 7,3
 guardflag = M
 hitflag = MAF
 pausetime = 11,12
@@ -522,7 +522,7 @@ trigger1 = movecontact = 1
 trigger1 = time < 83
 attr = S, HP ;—§‚¿•KE”ò‚Ñ“¹‹ïiStanding, Special Projectilej
 damage = 0,0 
-getpower = 0,0
+getpower = 7,3
 animtype  = Hard
 pausetime = 0,12
 ;-----------------------------------Projectileê—p‚Ìƒpƒ‰ƒ[ƒ^
@@ -573,7 +573,7 @@ trigger1 = (numtarget != 0)&&(movehit=1)
 trigger1 = time >= 83
 attr = S, HP ;—§‚¿•KE”ò‚Ñ“¹‹ïiStanding, Special Projectilej
 damage = 0,0 
-getpower = 0,0
+getpower = 7,3
 animtype  = Hard
 pausetime = 0,12
 ;-----------------------------------Projectileê—p‚Ìƒpƒ‰ƒ[ƒ^
@@ -624,7 +624,7 @@ trigger1 = time >= 83
 trigger1 = (moveguarded = 1)
 attr = S, SP ;—§‚¿•KE”ò‚Ñ“¹‹ïiStanding, Special Projectilej
 damage = 5,0 
-getpower = 0,0
+getpower = 7,3
 animtype = back
 pausetime = 0,42
 ;-----------------------------------Projectileê—p‚Ìƒpƒ‰ƒ[ƒ^
@@ -839,7 +839,7 @@ pausemovetime = 999999999999999999999999999999999999999
 type    = S
 movetype= I
 physics = S
-poweradd = 50
+poweradd = 0
 velset = 0,0
 anim = 1050
 ctrl = 0
@@ -877,7 +877,7 @@ ctrl = 0
 velset = 0,0
 facep2   = 1
 anim = 1030
-poweradd = 50
+poweradd = 20
 sprpriority = 1
 
 [State -2, UŒ‚—Í‰ºŒÀ•Ûá]
@@ -1526,7 +1526,7 @@ attr = S, SA
 animtype  = medium
 damage    = 12+(numtarget=0)*20,4
 priority = 5, Hit
-getpower = 30,10
+getpower = 3,1
 guardflag = MA
 hitflag = MAF
 pausetime = 2,5
@@ -1556,7 +1556,7 @@ attr = S, SA
 animtype  = hard
 damage    = 12+(numtarget=0)*20,4
 priority = 5, Hit
-getpower = 30,10
+getpower = 3,1
 guardflag = M
 hitflag = MAF
 pausetime = 2,5
@@ -1587,7 +1587,7 @@ attr = S, SA
 animtype  = medium
 damage    = 12+(numtarget=0)*20,4
 priority = 5, Hit
-getpower = 30,10
+getpower = 3,1
 guardflag = HA
 hitflag = MAF
 pausetime = 2,5
@@ -1618,7 +1618,7 @@ attr = S, SA
 animtype  = hard
 damage    = 11+(numtarget=0)*20,4
 priority = 5, Hit
-getpower = 30,10
+getpower = 3,1
 guardflag = HA
 hitflag = MAF
 pausetime = 2,5
@@ -1648,7 +1648,7 @@ attr = S, SA
 animtype  = hard
 damage    = 12+(numtarget=0)*20,4
 priority = 5, Hit
-getpower = 30,10
+getpower = 3,1
 guardflag = H
 hitflag = MAF
 pausetime = 2,5
@@ -1679,7 +1679,7 @@ attr = S, SA
 animtype  = back
 damage    = 12+(numtarget=0)*20,5
 priority = 5, Hit
-getpower = 30,10
+getpower = 3,1
 guardflag = H
 hitflag = MAF
 pausetime = 2,7
@@ -1726,7 +1726,7 @@ attr = S, SA
 animtype  = back
 damage    = 20,5
 priority = 5, Hit
-getpower = 30,10
+getpower = 3,1
 guardflag = H
 hitflag = MAF
 pausetime = 2,7
@@ -1763,7 +1763,7 @@ trigger1 = target(1030),gethitvar(hitcount) <= 10
 trigger1 = movehit = 1
 attr = S, HP ;—§‚¿•KE”ò‚Ñ“¹‹ïiStanding, Special Projectilej
 damage = 0,0 
-getpower = 0,0
+getpower = 3,1
 animtype  = Hard
 pausetime = 12,12
 ;-----------------------------------Projectileê—p‚Ìƒpƒ‰ƒ[ƒ^
@@ -2319,7 +2319,7 @@ ctrl = 0
 velset = 0,0
 facep2   = 1
 anim = 1130
-poweradd = 50
+poweradd = 20
 sprpriority = 1
 
 [State -2, UŒ‚—Í‰ºŒÀ•Ûá]
@@ -2965,7 +2965,7 @@ attr = S, SA
 animtype  = medium
 damage    = 3,2
 priority = 5, Hit
-getpower = 30,10
+getpower = 6,3
 guardflag = MA
 hitflag = MAF
 pausetime = 2,5
@@ -2996,7 +2996,7 @@ attr = S, SA
 animtype  = hard
 damage    =3,2
 priority = 5, Hit
-getpower = 30,10
+getpower = 6,3
 guardflag = MA
 hitflag = MAF
 pausetime = 2,10
@@ -3034,7 +3034,7 @@ trigger8 = (AnimElemTime(79) = 0)
 trigger9 = (AnimElemTime(86) = 0)
 attr = S, ST ;—§‚¿•KE”ò‚Ñ“¹‹ïiStanding, Special Projectilej
 damage = 6+(numtarget=0)*30,3 
-getpower = 30,10
+getpower = 6,3
 animtype  = Hard
 pausetime = 0,5
 ;-----------------------------------Projectileê—p‚Ìƒpƒ‰ƒ[ƒ^
@@ -3079,7 +3079,7 @@ trigger1 = (AnimElemTime(44) = 0)
 trigger2 = (AnimElemTime(72) = 0)
 attr = S, SP ;—§‚¿•KE”ò‚Ñ“¹‹ïiStanding, Special Projectilej
 damage = 8+(numtarget=0)*30,5 
-getpower = 30,10
+getpower = 6,3
 animtype  = Hard
 pausetime = 0,5
 ;-----------------------------------Projectileê—p‚Ìƒpƒ‰ƒ[ƒ^
@@ -3129,7 +3129,7 @@ trigger6 = (AnimElemTime(79) = 0)
 trigger7 = (AnimElemTime(86) = 0)
 attr = S, SP ;—§‚¿•KE”ò‚Ñ“¹‹ïiStanding, Special Projectilej
 damage = 8+(numtarget=0)*30,3 
-getpower = 30,10
+getpower = 6,3
 animtype  = Hard
 pausetime = 0,5
 ;-----------------------------------Projectileê—p‚Ìƒpƒ‰ƒ[ƒ^
@@ -3173,7 +3173,7 @@ type = Projectile
 Trigger1 = (AnimElemTime (92) >= 0)
 attr = S, HP ;—§‚¿•KE”ò‚Ñ“¹‹ïiStanding, Special Projectilej
 damage = 20+(numtarget=0)*30,5 
-getpower = 30,10
+getpower = 6,3
 animtype  = Hard
 pausetime = 0,7
 ;-----------------------------------Projectileê—p‚Ìƒpƒ‰ƒ[ƒ^
@@ -3373,7 +3373,7 @@ ctrl = 1
 type    = S
 movetype= A
 physics = S
-poweradd = 50
+poweradd = 20
 velset = 0,0
 anim = 1100
 ctrl = 0
@@ -3818,7 +3818,7 @@ trigger1 = time <= 88
 trigger1 = AnimElemtime(27) = 0
 attr = S, ST ;—§‚¿•KE”ò‚Ñ“¹‹ïiStanding, Special Projectilej
 damage = 80,7 
-getpower = 30,10
+getpower = 10,5
 animtype = DiagUp
 pausetime = 0,1
 ;-----------------------------------Projectileê—p‚Ìƒpƒ‰ƒ[ƒ^
@@ -3868,7 +3868,7 @@ trigger1 = time > 88
 trigger1 = AnimElemtime(27) = 0
 attr = S, ST ;—§‚¿•KE”ò‚Ñ“¹‹ïiStanding, Special Projectilej
 damage = 80,7 
-getpower = 30,10
+getpower = 10,5
 animtype = DiagUp
 pausetime = 0,1
 ;-----------------------------------Projectileê—p‚Ìƒpƒ‰ƒ[ƒ^
@@ -3917,7 +3917,7 @@ type = Projectile
 trigger1 = AnimElem = 27
 attr = S, ST ;—§‚¿•KE”ò‚Ñ“¹‹ïiStanding, Special Projectilej
 damage = 0,0 
-getpower = 0,0
+getpower = 10,5
 animtype = DiagUp
 pausetime = 0,1
 ;-----------------------------------Projectileê—p‚Ìƒpƒ‰ƒ[ƒ^
@@ -4065,7 +4065,7 @@ ctrl = 1
 type    = S
 movetype= A
 physics = S
-poweradd = 50
+poweradd = 20
 velset = 0,0
 anim = 33
 ctrl = 0
@@ -4410,7 +4410,7 @@ ctrl = 1
 type    = S
 movetype= I
 physics = S
-poweradd = 50
+poweradd = 0
 velset = 0,0
 anim = 1105
 ctrl = 0
@@ -4447,7 +4447,7 @@ ctrl = 1
 type    = S
 movetype= A
 physics = S
-poweradd = 50
+poweradd = 20
 anim = 1200
 ctrl = 0
 facep2   = 1
@@ -4688,6 +4688,7 @@ trigger1 = animelem = 10
 attr = A, SA
 animtype  = up
 damage    = 30, 6
+getpower = 15,7
 guardflag=M
 hitflag=MAF
 priority=4,Hit
@@ -4733,7 +4734,7 @@ type = Projectile
 trigger1 = (numtarget != 0)&&(movehit=1)
 attr = S, HT
 damage = 0,0 
-getpower = 0,0
+getpower = 15,7
 animtype  = Hard
 pausetime = 0,12
 ;-----------------------------------Projectileê—p‚Ìƒpƒ‰ƒ[ƒ^
@@ -4875,7 +4876,7 @@ value = 1260
 type    = A
 movetype= A
 physics = N
-poweradd = 50
+poweradd = 0
 anim = 1210
 ctrl = 0
 sprpriority = 2
@@ -4957,6 +4958,7 @@ trigger1 = AnimElem = 15
 attr = S, SA
 animtype  = Hard
 damage    = 40, 9
+getpower = 30,15
 priority  = 5
 guardflag = HA
 pausetime = 15,15
@@ -5060,7 +5062,7 @@ velset = 0,0
 ctrl = 0
 anim = 1230
 facep2   = 1
-poweradd = 50
+poweradd = 0
 sprpriority = -1
 
 ;---------------------------------------------------------------------------
@@ -5477,7 +5479,7 @@ ctrl = 0
 facep2   = 1
 velset = 0,0
 anim = 2500
-poweradd = 50
+poweradd = 0
 sprpriority = 2
 
 ;---------------------------------------------------------------------------
@@ -5823,7 +5825,7 @@ movetype= A
 physics = N
 ctrl = 0
 anim = 2506
-poweradd = 50
+poweradd = 0
 sprpriority = 2
 
 [State -2, ‰Ÿ‚µ”»’è]
@@ -5918,7 +5920,7 @@ type = HitDef
 trigger1 = movecontact = 0
 attr = A, SA
 damage = 40
-getpower = 60,30
+getpower = 30,15
 guardflag = HA
 priority = 4
 pausetime = 10,10
@@ -5946,7 +5948,7 @@ trigger1 = movecontact = 0
 trigger1 = (prevstateno=1230)
 attr = A, ST
 damage = 20
-getpower = 60,30
+getpower = 30,15
 guardflag = MA
 priority = 4
 pausetime = 10,10
@@ -6365,7 +6367,7 @@ ctrl = 1
 type    = S
 movetype= A
 physics = S
-poweradd = 50
+poweradd = 0
 anim = 1270
 ctrl = 0
 facep2   = 1
@@ -6654,6 +6656,7 @@ trigger1 = movecontact = 0
 attr = S, SA
 animtype  = hard
 damage    = 45, 6
+getpower = 60,30
 guardflag = HA
 hitflag = MAF
 priority=4,Hit
@@ -6785,7 +6788,7 @@ Ctrl = 1
 type    = C
 movetype= A
 physics = C
-poweradd = 50
+poweradd = 0
 anim = 1280
 ctrl = 0
 facep2   = 1
@@ -7109,6 +7112,7 @@ trigger1 = time = 0
 attr = A, SA
 animtype  = hard
 damage    = 50, 6
+getpower = 30,15
 guardflag = L
 hitflag = MAF
 priority=4,Hit
@@ -7158,6 +7162,7 @@ trigger1 = AnimElem = 40
 attr = A, SA
 animtype  = Hard
 damage    = 40, 9
+getpower = 30,15
 priority  = 5
 guardflag = HA
 hitflag = MAF
@@ -7652,7 +7657,7 @@ movetype= A
 physics = N
 ctrl = 0
 anim = 1310
-poweradd = 50
+poweradd = 0
 sprpriority = 1
 
 [State 1000, “Ëi‰¹]
@@ -7732,7 +7737,7 @@ attr = S, SA
 animtype  = back
 damage    = 100,10
 priority = 5, Hit
-getpower = 98,28
+getpower = 15,7
 guardflag = MA
 pausetime = 15,15
 sparkxy = -12,-90
@@ -7776,7 +7781,7 @@ type = Projectile
 trigger1 = (numtarget != 0) && movecontact = 1
 attr = S, HT ;—§‚¿•KE”ò‚Ñ“¹‹ïiStanding, Special Projectilej
 damage = 0,0 
-getpower = 0,0
+getpower = 15,7
 animtype  = Hard
 pausetime = 0,12
 ;-----------------------------------Projectileê—p‚Ìƒpƒ‰ƒ[ƒ^
@@ -7890,7 +7895,7 @@ physics = S
 velset = 0,0
 ctrl = 0
 anim = 1320
-poweradd = 50
+poweradd = 20
 facep2   = 1
 sprpriority = -1
 
@@ -8111,7 +8116,7 @@ projremovetime = 1            ;”ò‚Ñ“¹‹ï‚ÌÁ‚¦‚é‚Ü‚Å‚ÌŠÔiƒtƒŒ[ƒ€j¦-1‚È‚ç“–‚
 animtype  = light
 damage    = 0
 priority = 5, Hit
-getpower = 0,0
+getpower = 30,15
 hitflag = MAFD
 pausetime = 0,0
 sparkno = -1
@@ -8316,7 +8321,7 @@ physics = N
 velset = 0,0
 anim = 1300
 ctrl = 0
-poweradd = 50
+poweradd = 20
 sprpriority = 1
 
 ;---------------------------------------------------------------------------
@@ -8537,7 +8542,7 @@ projremovetime = 1            ;”ò‚Ñ“¹‹ï‚ÌÁ‚¦‚é‚Ü‚Å‚ÌŠÔiƒtƒŒ[ƒ€j¦-1‚È‚ç“–‚
 animtype  = light
 damage    = 0
 priority = 5, Hit
-getpower = 0,0
+getpower = 30,15
 hitflag = MAFD
 pausetime = 0,0
 sparkno = -1
@@ -8734,7 +8739,7 @@ physics = N
 velset = 0,0
 anim = 1300
 ctrl = 0
-poweradd = 50
+poweradd = 20
 sprpriority = 1
 
 ;---------------------------------------------------------------------------
@@ -8955,7 +8960,7 @@ projremovetime = 1            ;”ò‚Ñ“¹‹ï‚ÌÁ‚¦‚é‚Ü‚Å‚ÌŠÔiƒtƒŒ[ƒ€j¦-1‚È‚ç“–‚
 animtype  = light
 damage    = 0
 priority = 5, Hit
-getpower = 0,0
+getpower = 30,15
 hitflag = MAFD
 pausetime = 0,0
 sparkno = -1
@@ -9204,7 +9209,7 @@ ctrl = 1
 type    = S
 movetype= A
 physics = S
-poweradd = 50
+poweradd = 0
 anim = 1350
 ctrl = 0
 facep2   = 1
@@ -9428,6 +9433,7 @@ persistent= 0
 ;---------------------[UŒ‚]
 [State 800, ƒqƒbƒg’è‹`i“Š‚°—pj]
 type = HitDef
+getpower = 60,30
 trigger1 = Time = 0
 attr = S, ST 
 hitflag = MAF 
@@ -9496,7 +9502,7 @@ ctrl = 1
 type    = S
 movetype= A
 physics = S
-poweradd = 80 
+poweradd = 20 
 anim = 1360
 ctrl = 0
 sprpriority = 2
@@ -10418,7 +10424,7 @@ persistent= 0
 [State -2, ’@‚«—‚Æ‚µ¬Œ÷ƒQ[ƒWã¸]
 type = Poweradd
 Trigger1 = numexplod(1430) != 0
-value = 300
+value = 0
 supermovetime = 999999999999
 pausemovetime = 999999999999
 ignorehitpause	= 1 
@@ -10812,6 +10818,7 @@ trigger1 = movecontact = 0
 attr = S, SA
 animtype  = Medium
 damage    = 5+(pos Y < 0)*20
+getpower = 15,7
 hitflag = MAF
 guardflag = MA
 pausetime = 12,12
@@ -10853,7 +10860,7 @@ type = Projectile
 trigger1 = movehit >= 1
 attr = S, NT ;—§‚¿•KE”ò‚Ñ“¹‹ïiStanding, Special Projectilej
 damage = 0,0 
-getpower = 0,0
+getpower = 15,7
 animtype  = Hard
 pausetime = 0,12
 ;-----------------------------------Projectileê—p‚Ìƒpƒ‰ƒ[ƒ^
@@ -10930,7 +10937,7 @@ ctrl = 1
 type    = C
 movetype= A
 physics = N
-poweradd = 50
+poweradd = 0
 anim = 1460
 velset = 0,0
 ctrl = 0
@@ -11206,6 +11213,7 @@ trigger2 = movecontact = 9
 attr = C, SA
 animtype  = hard
 damage    = 15, 6
+getpower = 30,15
 guardflag = L
 hitflag = M
 priority=4,Hit
@@ -11310,7 +11318,7 @@ value = 101
 type    = C
 movetype= A
 physics = N
-poweradd = 50
+poweradd = 0
 anim = 1460
 velset = 0,0
 ctrl = 0
@@ -11587,6 +11595,7 @@ trigger2 = movecontact = 9
 attr = C, SA
 animtype  = hard
 damage    = 15, 6
+getpower = 30,15
 guardflag = L
 hitflag = M
 priority=4,Hit
@@ -11691,7 +11700,7 @@ value = 101
 type    = S
 movetype= A
 physics = N
-poweradd = 50
+poweradd = 0
 anim = 1465
 ctrl = 0
 sprpriority = 2
@@ -11784,6 +11793,7 @@ trigger1 = movecontact = 0
 attr = S, SA
 animtype  = hard
 damage    = 40, 6
+getpower = 30,15
 guardflag = HA
 hitflag = MAF
 priority=4,Hit
@@ -11920,7 +11930,7 @@ Ctrl = 1
 type    = C
 movetype= A
 physics = C
-poweradd = 50
+poweradd = 0
 anim = 1470
 ctrl = 0
 sprpriority = 2
@@ -12004,6 +12014,7 @@ trigger1 = movecontact = 0
 attr = A, SA
 animtype  = hard
 damage    = 40, 6
+getpower = 30,15
 guardflag = L
 hitflag = MAF
 priority=4,Hit
@@ -12112,7 +12123,7 @@ type    = S
 movetype= A
 physics = S
 velset = 0,0
-poweradd = 50
+poweradd = 0
 ctrl = 0
 facep2   = 1
 anim = 1500
@@ -12318,7 +12329,7 @@ value = 1510+(command = "holdup")*20
 type    = S
 movetype= A
 physics = S
-poweradd = 90
+poweradd = 0
 velset = 0,0
 anim = 1510
 ctrl = 0
@@ -12327,6 +12338,7 @@ sprpriority = 2
 
 [State 800, ƒqƒbƒg’è‹`iƒK[ƒh‚µ‚È‚¢—pj]
 type = HitDef
+getpower = 10,5
 trigger1 = Time = 0
 attr = S, ST 
 hitflag = M 
@@ -12346,7 +12358,7 @@ type = Projectile
 Trigger1 = (AnimElemTime (20) >= 0)
 attr = S,ST ;—§‚¿•KE”ò‚Ñ“¹‹ïiStanding, Special Projectilej
 damage = 0,0 
-getpower = 0,0
+getpower = 10,5
 animtype = Medium
 pausetime = 0,5
 ;-----------------------------------Projectileê—p‚Ìƒpƒ‰ƒ[ƒ^
@@ -12473,6 +12485,7 @@ persistent= 2
 
 [State 800, ƒqƒbƒg’è‹`i“Š‚°—pj]
 type = HitDef
+getpower = 10,5
 trigger1 = Time = 0
 attr = S, ST 
 hitflag = M 
@@ -12520,7 +12533,7 @@ movetype= A
 physics = N
 velset = 0,0
 anim = 1520
-poweradd = 80
+poweradd = 20
 
 [State 610, ’Í‚İ—p]
 type = Projectile
@@ -13056,7 +13069,7 @@ ctrl = 1
 type    = S
 movetype= A
 physics = S
-poweradd = 90
+poweradd = 20
 velset = 0,0
 anim = 1550
 ctrl = 0
@@ -13385,7 +13398,7 @@ movetype= A
 physics = N
 anim = 1560
 velset = 0,0
-poweradd = 80
+poweradd = 20
 
 [State 610, ’Í‚İ—p]
 type = Projectile
@@ -13752,7 +13765,7 @@ velset = 0,0
 ctrl = 0
 facep2   = 1
 anim = 1580
-poweradd = 50
+poweradd = 0
 sprpriority = 2
 
 
@@ -13773,7 +13786,7 @@ ctrl = 1
 type    = A
 movetype= A
 physics = N
-poweradd = 50
+poweradd = 20
 ctrl = 0
 facep2   = 1
 anim = 1600
@@ -14058,6 +14071,7 @@ trigger1 = movecontact = 0
 trigger2 = movecontact = 8
 attr = A, SA
 damage = 40
+getpower = 15,7
 guardflag = HA
 priority = 4
 pausetime = 5,5
@@ -14101,7 +14115,7 @@ type = Projectile
 trigger1 = (numtarget != 0) && movecontact = 1
 attr = S, HT ;—§‚¿•KE”ò‚Ñ“¹‹ïiStanding, Special Projectilej
 damage = 0,0 
-getpower = 0,0
+getpower = 15,7
 animtype  = Hard
 pausetime = 0,5
 ;-----------------------------------Projectileê—p‚Ìƒpƒ‰ƒ[ƒ^
@@ -14257,7 +14271,7 @@ value = 1260
 type    = A
 movetype= A
 physics = N
-poweradd = 50
+poweradd = 20
 ctrl = 0
 facep2   = 1
 anim = 1620
@@ -14559,7 +14573,7 @@ type = Projectile
 trigger1 = AnimElem = 13
 attr = S, ST ;—§‚¿•KE”ò‚Ñ“¹‹ïiStanding, Special Projectilej
 damage = 80,7 
-getpower = 30,10
+getpower = 30,15
 animtype = back
 pausetime = 0,10
 ;-----------------------------------Projectileê—p‚Ìƒpƒ‰ƒ[ƒ^
@@ -14608,7 +14622,7 @@ type = Projectile
 trigger1 = AnimElem = 13
 attr = S, ST ;—§‚¿•KE”ò‚Ñ“¹‹ïiStanding, Special Projectilej
 damage = 80,7 
-getpower = 30,10
+getpower = 30,15
 animtype = back
 pausetime = 0,10
 ;-----------------------------------Projectileê—p‚Ìƒpƒ‰ƒ[ƒ^
@@ -14777,7 +14791,7 @@ velset = 0,0
 ctrl = 0
 facep2   = 1
 anim = 1640
-poweradd = 50
+poweradd = 20
 sprpriority = -1
 
 ;---------------------------------------------------------------------------
@@ -14994,7 +15008,7 @@ projremovetime = 1            ;”ò‚Ñ“¹‹ï‚ÌÁ‚¦‚é‚Ü‚Å‚ÌŠÔiƒtƒŒ[ƒ€j¦-1‚È‚ç“–‚
 animtype  = back
 damage    = 0
 priority = 5, Hit
-getpower = 0,0
+getpower = 10,5
 hitflag = AF
 pausetime = 0,25
 sparkno = -1
@@ -15033,7 +15047,7 @@ projremovetime = 30            ;”ò‚Ñ“¹‹ï‚ÌÁ‚¦‚é‚Ü‚Å‚ÌŠÔiƒtƒŒ[ƒ€j¦-1‚È‚ç“–
 animtype  = back
 damage    = 5
 priority = 5, Hit
-getpower = 5,0
+getpower = 10,5
 hitflag = AF
 pausetime = 0,5
 sparkno = -1
@@ -15071,7 +15085,7 @@ projremovetime = 32            ;”ò‚Ñ“¹‹ï‚ÌÁ‚¦‚é‚Ü‚Å‚ÌŠÔiƒtƒŒ[ƒ€j¦-1‚È‚ç“–
 animtype  = back
 damage    = 30
 priority = 5, Hit
-getpower = 10,0
+getpower = 10,5
 hitflag = AF
 pausetime = 0,5
 sparkno = -1
@@ -15131,7 +15145,7 @@ projremovetime = 20            ;”ò‚Ñ“¹‹ï‚ÌÁ‚¦‚é‚Ü‚Å‚ÌŠÔiƒtƒŒ[ƒ€j¦-1‚È‚ç“–
 animtype  = back
 damage    = 8
 priority = 5, Hit
-getpower = 10,0
+getpower = 10,5
 hitflag = M
 guardflag = M
 pausetime = 0,10
@@ -15236,7 +15250,7 @@ ctrl = 1
 type    = A
 movetype= A
 physics = N
-poweradd = 50
+poweradd = 0
 ctrl = 0
 facep2   = 1
 anim = 1650
@@ -15409,6 +15423,7 @@ persistent= 0
 
 [State 800, ƒqƒbƒg’è‹`i“Š‚°—pj]
 type = HitDef
+getpower = 60,30
 trigger1 = movecontact = 0
 attr = A, ST 
 hitflag = -AF 
@@ -15441,7 +15456,7 @@ value = 1260
 type    = A
 movetype= A
 physics = N
-poweradd = 50
+poweradd = 20
 ctrl = 0
 facep2   = 1
 anim = 1660
@@ -15650,6 +15665,7 @@ type = HitDef
 trigger1 = movecontact = 0 
 attr = A, SA
 damage = 60
+getpower = 15,7
 guardflag = HA
 priority = 4
 pausetime = 12,12
@@ -15696,7 +15712,7 @@ type = Projectile
 trigger1 = (numtarget(1660) != 0)&&(movehit=1)
 attr = S, SP ;—§‚¿•KE”ò‚Ñ“¹‹ïiStanding, Special Projectilej
 damage = 0,0 
-getpower = 30,10
+getpower = 15,7
 animtype = hard
 pausetime = 0,5
 ;-----------------------------------Projectileê—p‚Ìƒpƒ‰ƒ[ƒ^
@@ -15854,7 +15870,7 @@ value = 1260
 type    = A
 movetype= A
 physics = N
-poweradd = 50
+poweradd = 20
 ctrl = 0
 facep2   = 1
 anim = 1700
@@ -16138,6 +16154,7 @@ type = HitDef
 trigger1 = movecontact = 0
 attr = A, SA
 damage = 45
+getpower = 15,7
 guardflag = HA
 priority = 4
 pausetime = 5,5
@@ -16179,7 +16196,7 @@ type = Projectile
 trigger1 = (numtarget != 0)&&(movehit=1)
 attr = S, SP ;—§‚¿•KE”ò‚Ñ“¹‹ïiStanding, Special Projectilej
 damage = 0,0 
-getpower = 30,10
+getpower = 15,7
 animtype = hard
 pausetime = 0,10
 ;-----------------------------------Projectileê—p‚Ìƒpƒ‰ƒ[ƒ^
@@ -16537,7 +16554,7 @@ value = 970
 type    = A
 movetype= A
 physics = N
-poweradd = 50
+poweradd = 20
 ctrl = 0
 facep2   = 1
 anim = 1705
@@ -16802,6 +16819,7 @@ type = HitDef
 trigger1 = movecontact = 0 
 attr = A, SA
 damage = 45
+getpower = 15,7
 guardflag = HA
 priority = 4
 pausetime = 15,15
@@ -16845,7 +16863,7 @@ type = Projectile
 trigger1 = (numtarget != 0)&&(movehit=1)
 attr = S, SP ;—§‚¿•KE”ò‚Ñ“¹‹ïiStanding, Special Projectilej
 damage = 0,0 
-getpower = 30,10
+getpower = 15,7
 animtype = hard
 pausetime = 0,15
 ;-----------------------------------Projectileê—p‚Ìƒpƒ‰ƒ[ƒ^
@@ -17177,7 +17195,7 @@ value = 970
 type    = S
 movetype= A
 physics = S
-poweradd = 50
+poweradd = 0
 ctrl = 0
 facep2   = 1
 anim = 1750
@@ -17481,6 +17499,7 @@ trigger1 = movecontact = 0
 trigger2 = movecontact = 3
 attr = A, SA
 damage = 30+(numtarget = 0)*70
+getpower = 60,30
 guardflag = M
 priority = 4
 pausetime = 10,8
@@ -17587,7 +17606,7 @@ value = 1610
 type    = S
 movetype= A
 physics = S
-poweradd = 50
+poweradd = 20
 ctrl = 0
 facep2   = 1
 anim = 1755
@@ -17852,7 +17871,7 @@ type = Projectile
 trigger1 = AnimElem = 18
 attr = S, ST ;—§‚¿•KE”ò‚Ñ“¹‹ïiStanding, Special Projectilej
 damage = 80,7 
-getpower = 30,10
+getpower = 30,15
 animtype = DiagUp
 pausetime = 0,15
 ;-----------------------------------Projectileê—p‚Ìƒpƒ‰ƒ[ƒ^
@@ -17986,7 +18005,7 @@ velset = 0,0
 ctrl = 0
 facep2   = 1
 anim = 1770
-poweradd = 50
+poweradd = 20
 sprpriority = -1
 
 ;---------------------------------------------------------------------------
@@ -18228,7 +18247,7 @@ projremovetime = 1            ;”ò‚Ñ“¹‹ï‚ÌÁ‚¦‚é‚Ü‚Å‚ÌŠÔiƒtƒŒ[ƒ€j¦-1‚È‚ç“–‚
 animtype  = back
 damage    = 0
 priority = 5, Hit
-getpower = 0,0
+getpower = 15,7
 hitflag = -AF
 pausetime = 0,25
 sparkno = -1
@@ -18267,7 +18286,7 @@ projremovetime = 1            ;”ò‚Ñ“¹‹ï‚ÌÁ‚¦‚é‚Ü‚Å‚ÌŠÔiƒtƒŒ[ƒ€j¦-1‚È‚ç“–‚
 animtype  = back
 damage    = 0
 priority = 5, Hit
-getpower = 0,0
+getpower = 15,7
 hitflag = +AF
 pausetime = 0,25
 sparkno = -1
@@ -18306,7 +18325,7 @@ projremovetime = 30            ;”ò‚Ñ“¹‹ï‚ÌÁ‚¦‚é‚Ü‚Å‚ÌŠÔiƒtƒŒ[ƒ€j¦-1‚È‚ç“–
 animtype  = back
 damage    = 5
 priority = 5, Hit
-getpower = 10,0
+getpower = 15,7
 hitflag = AF
 pausetime = 0,5
 sparkno = -1
@@ -18344,7 +18363,7 @@ projremovetime = 32            ;”ò‚Ñ“¹‹ï‚ÌÁ‚¦‚é‚Ü‚Å‚ÌŠÔiƒtƒŒ[ƒ€j¦-1‚È‚ç“–
 animtype  = back
 damage    = 30
 priority = 5, Hit
-getpower = 20,0
+getpower = 15,7
 hitflag = AF
 pausetime = 0,5
 sparkno = -1
@@ -18431,7 +18450,7 @@ physics = S
 ctrl = 0
 facep2   = 1
 anim = 700
-poweradd = 50
+poweradd = 20
 velset = 0,0
 sprpriority = 3
 
@@ -18675,7 +18694,7 @@ trigger1 = time >= 20
 trigger1 = anim = 700
 attr = S, HP ;—§‚¿•KE”ò‚Ñ“¹‹ïiStanding, Special Projectilej
 damage = 50,5 
-getpower = 50,10
+getpower = 15,7
 animtype  = Hard
 pausetime = 0,0
 ;-----------------------------------Projectileê—p‚Ìƒpƒ‰ƒ[ƒ^
@@ -18725,7 +18744,7 @@ trigger1 = anim = 700
 trigger1 = numtarget(1800)!=0
 attr = S, HP ;—§‚¿•KE”ò‚Ñ“¹‹ïiStanding, Special Projectilej
 damage = 0,0
-getpower = 0,0
+getpower = 15,7
 animtype  = Hard
 pausetime = 0,0
 ;-----------------------------------Projectileê—p‚Ìƒpƒ‰ƒ[ƒ^
@@ -18777,7 +18796,7 @@ trigger1 = time >= 20
 trigger1 = anim = 700
 attr = S, HP ;—§‚¿•KE”ò‚Ñ“¹‹ïiStanding, Special Projectilej
 damage = 10,0
-getpower = 10,10
+getpower = 15,7
 animtype  = Hard
 pausetime = 0,0
 ;-----------------------------------Projectileê—p‚Ìƒpƒ‰ƒ[ƒ^
@@ -18858,6 +18877,7 @@ ctrl = 1
 ;‚Ô‚¿‚©‚Ü‚µ‚Ä‚±‚¢!!
 [Statedef 1850]
 type    = S
+poweradd = 20
 movetype= A
 physics = S
 velset = 0,0
@@ -19205,7 +19225,7 @@ triggerall = anim = 1480
 trigger1 = AnimElemtime(85) >= 0
 attr = S, ST ;—§‚¿•KE”ò‚Ñ“¹‹ïiStanding, Special Projectilej
 damage = 0,0 
-getpower = 0,0
+getpower = 30,15
 animtype = hard
 pausetime = 0,1
 ;-----------------------------------Projectileê—p‚Ìƒpƒ‰ƒ[ƒ^
@@ -19249,7 +19269,7 @@ triggerall = anim = 1480
 trigger1 = AnimElemtime(85) >= 0
 attr = S, SP ;—§‚¿•KE”ò‚Ñ“¹‹ïiStanding, Special Projectilej
 damage = 0,0 
-getpower = 0,0
+getpower = 30,15
 animtype = hard
 pausetime = 0,1
 ;-----------------------------------Projectileê—p‚Ìƒpƒ‰ƒ[ƒ^
@@ -19294,7 +19314,7 @@ triggerall = anim = 1480
 trigger1 = AnimElemtime(85) >= 0
 attr = S, ST ;—§‚¿•KE”ò‚Ñ“¹‹ïiStanding, Special Projectilej
 damage = 0,0 
-getpower = 0,0
+getpower = 30,15
 animtype = hard
 pausetime = 0,0
 ;-----------------------------------Projectileê—p‚Ìƒpƒ‰ƒ[ƒ^
@@ -19474,7 +19494,7 @@ ctrl = 1
 type    = S
 movetype= A
 physics = S
-poweradd = 50
+poweradd = 20
 anim = 1900
 ctrl = 0
 facep2   = 1
@@ -19719,7 +19739,7 @@ trigger1 = AnimElemtime(10) >= 0
 trigger1 = AnimElemtime(21) < 0
 attr = S, ST 
 damage = 0,0 
-getpower = 0,0
+getpower = 10,5
 animtype =  Medium
 pausetime = 0,0
 ;-----------------------------------Projectileê—p‚Ìƒpƒ‰ƒ[ƒ^
@@ -19765,7 +19785,7 @@ trigger1 = AnimElemtime(26) >= 0
 trigger1 = AnimElemtime(29) < 0
 attr = S, ST 
 damage = 0,0 
-getpower = 0,0
+getpower = 10,5
 animtype =  Medium
 pausetime = 0,12
 ;-----------------------------------Projectileê—p‚Ìƒpƒ‰ƒ[ƒ^
@@ -19822,7 +19842,7 @@ type = Projectile
 trigger1 = AnimElem = 29
 attr = S, SP 
 damage = 10,0 
-getpower = 80,10
+getpower = 10,5
 animtype = hard
 pausetime = 0,10
 ;-----------------------------------Projectileê—p‚Ìƒpƒ‰ƒ[ƒ^
@@ -20083,7 +20103,7 @@ ctrl = 1
 type    = S
 movetype= A
 physics = S
-poweradd = 50
+poweradd = 20
 anim = 1900
 ctrl = 0
 facep2   = 1
@@ -20334,7 +20354,7 @@ type = Projectile
 trigger1 = AnimElem = 29
 attr = S, SP ;—§‚¿•KE”ò‚Ñ“¹‹ïiStanding, Special Projectilej
 damage = 10,0 
-getpower = 80,10
+getpower = 30,15
 animtype = hard
 pausetime = 5,15
 ;-----------------------------------Projectileê—p‚Ìƒpƒ‰ƒ[ƒ^

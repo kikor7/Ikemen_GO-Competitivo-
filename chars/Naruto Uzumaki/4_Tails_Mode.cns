@@ -11,7 +11,7 @@ juggle  = 1
 velset = 0,0
 ctrl = 0
 anim = 11200
-poweradd = 30
+poweradd = 0
 sprpriority = 2
 
 [State 0, FX Corte]
@@ -142,7 +142,7 @@ juggle  = 1
 velset = 0,0
 ctrl = 0
 anim = 11210
-poweradd = 30
+poweradd = 0
 sprpriority = 2
 
 [State 0, FX Corte]
@@ -253,7 +253,7 @@ juggle  = 1
 velset = 0,0
 ctrl = 0
 anim = 11220
-poweradd = 30
+poweradd = 0
 sprpriority = 2
 
 [State 0, FX Corte]
@@ -370,7 +370,7 @@ juggle  = 1
 velset = 0,0
 ctrl = 0
 anim = 11230
-poweradd = 30
+poweradd = 0
 sprpriority = 2
 
 [State 0, PlaySnd]
@@ -459,7 +459,7 @@ juggle  = 1
 velset = 0,0
 ctrl = 0
 anim = 11240
-poweradd = 30
+poweradd = 0
 sprpriority = 2
 
 [State 0, PlaySnd]
@@ -597,7 +597,7 @@ physics = S
 juggle  = 2
 ctrl = 0
 anim = 11250
-poweradd = 100
+poweradd = 0
 velset = 0,0
 sprpriority = 2
 
@@ -652,7 +652,7 @@ juggle  = 1
 velset = 0,0
 ctrl = 0
 anim = 11210
-poweradd = 30
+poweradd = 0
 sprpriority = 2
 
 [State 0, FX Corte]
@@ -770,7 +770,7 @@ juggle  = 1
 velset = 0,0
 ctrl = 0
 anim = 11260
-poweradd = 30
+poweradd = 0
 sprpriority = 2
 
 [State 0, PlaySnd]
@@ -2032,7 +2032,7 @@ physics = A
 juggle  = 2
 ctrl = 0
 anim = 11600
-poweradd = 100
+poweradd = 0
 sprpriority = 2
 
 [State 0, FX Corte]

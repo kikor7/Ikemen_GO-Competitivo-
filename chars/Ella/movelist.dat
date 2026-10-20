@@ -1,0 +1,32 @@
+<#f0f000>:Special Moves:</>
+ABoriginal			_D_F^C
+teleportino			_DSF^A
+teleportino2			_DSF^B
+Uppercut			_DSF^X
+oriuken			_DSF^Y
+Vanati			_QCF^A
+Vanati			_QCF^B
+presa speciale			_HCF^X
+Slap Happy			^X^X^X
+Slap Happy			^Y^Y^Y
+Face			_QCF^X
+Face			_QCF^Y
+Nautilus			_QCB^A
+Nautilus			_QCB^B
+rev1			_QCB^X
+rev2			_QCB^Y
+Especial 17			^Y_+^B
+Especial 18			^X_+^A
+
+<#f0f000>:Hyper Moves:</>
+BloodShower <#f00000>(2000)</>			_QCB_QCB^X_+^Y
+insistiscici <#f00000>(1000)</>			_QCB_QCB^X
+Chain'O'Saw <#f00000>(2000)</>			_QCF_QCF^A_+^B
+Grab'O'Rama <#f00000>(1000)</>			_QCF_QCF^A
+HrevMAX <#f00000>(2000)</>			_D_F_D_B^X_+^Y
+Hrev <#f00000>(1000)</>			_D_F_QCB^X
+4 Uper Cannone A Due <#f00000>(2000)</>			_QCF_QCF^X_+^Y
+Super Sparo a Uno <#f00000>(1000)</>			_QCF_QCF^X
+Super 9 <#f00000>(1000)</>			^Y_+^B
+Super 10 <#f00000>(1000)</>			^X_+^A
+Super 11 <#f00000>(500)</>			^Y_+^A

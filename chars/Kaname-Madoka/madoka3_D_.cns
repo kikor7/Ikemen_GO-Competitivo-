@@ -75,7 +75,7 @@ juggle = 2
 ;velset = 0, 0
 ctrl = 0
 anim = StateNo
-poweradd = 10
+poweradd = 0
 sprpriority = 2
 
 [State -2, Width]
@@ -189,7 +189,7 @@ juggle = 2
 ;velset = 0, 0
 ctrl = 0
 anim = StateNo
-poweradd = 10
+poweradd = 0
 sprpriority = 2
 
 [State -2, PosAdd]
@@ -306,7 +306,7 @@ juggle = 2
 ;velset = 0, 0
 ctrl = 0
 anim = StateNo
-poweradd = 10
+poweradd = 0
 sprpriority = 2
 
 [State -2, ChangeState]
@@ -879,7 +879,7 @@ juggle = 1
 ;velset = 0, 0
 ctrl = 0
 anim = StateNo
-poweradd = 20
+poweradd = 0
 sprpriority = 1
 
 ;--------------------------------------
@@ -1025,7 +1025,7 @@ juggle = 1
 ;velset = 0, 0
 ctrl = 0
 anim = StateNo
-poweradd = 20
+poweradd = 0
 sprpriority = 1
 
 [State 200, 1]
@@ -1101,7 +1101,7 @@ juggle = 1
 ;velset = 0, 0
 ctrl = 0
 anim = StateNo
-poweradd = 20
+poweradd = 0
 sprpriority = 1
 
 [State -2, ReversalDef]

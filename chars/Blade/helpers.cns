@@ -255,6 +255,7 @@ id = 1006 + var(1)*(var(59) = 2 || root, var(17) = 0)
 attr = S, SP
 animtype  = back
 damage    = 45 + 20*var(59), 8 + 4*var(59)
+getpower = 15,7
 hitflag = MA
 guardflag = MA
 pausetime = 0,6 + 3*var(59)
@@ -296,6 +297,7 @@ id = 1006 + var(1)*(var(59) = 2 || root, var(17) = 0)
 attr = S, SP
 animtype  = back
 damage    = 45 + 20*var(59), 8 + 4*var(59)
+getpower = 15,7
 hitflag = MA
 guardflag = MA
 pausetime = 0,6 + 3*var(59)
@@ -333,6 +335,7 @@ id = 1006 + var(1)*(var(59) = 2 || root, var(17) = 0)
 attr = S, SP
 animtype  = back
 damage    = 45 + 20*var(59), 8 + 4*var(59)
+getpower = 15,7
 hitflag = MA
 guardflag = MA
 pausetime = 0,6 + 3*var(59)
@@ -375,6 +378,7 @@ id = 1006 + var(1)*(var(59) = 2 || root, var(17) = 0)
 attr = S, SP
 animtype  = back
 damage    = 45 + 20*var(59), 8 + 4*var(59)
+getpower = 15,7
 hitflag = MA
 guardflag = MA
 pausetime = 0,6 + 3*var(59)
@@ -413,6 +417,7 @@ id = 1006 + var(1)*(var(59) = 2 || root, var(17) = 0)
 attr = S, SP
 animtype  = back
 damage    = 45 + 20*var(59), 8 + 4*var(59)
+getpower = 15,7
 hitflag = MAF
 guardflag = MA
 pausetime = 0,6 + 3*var(59)
@@ -454,6 +459,7 @@ id = 1006 + var(1)*(var(59) = 2 || root, var(17) = 0)
 attr = S, SP
 animtype  = back
 damage    = 45 + 20*var(59), 8 + 4*var(59)
+getpower = 15,7
 hitflag = MAF
 guardflag = MA
 pausetime = 0,6 + 3*var(59)
@@ -491,6 +497,7 @@ id = 1006 + var(1)*(var(59) = 2 || root, var(17) = 0)
 attr = S, SP
 animtype  = back
 damage    = 45 + 20*var(59), 8 + 4*var(59)
+getpower = 15,7
 hitflag = MAF
 guardflag = MA
 pausetime = 0,6 + 3*var(59)
@@ -533,6 +540,7 @@ id = 1006 + var(1)*(var(59) = 2 || root, var(17) = 0)
 attr = S, SP
 animtype  = back
 damage    = 45 + 20*var(59), 8 + 4*var(59)
+getpower = 15,7
 hitflag = MAF
 guardflag = MA
 pausetime = 0,6 + 3*var(59)

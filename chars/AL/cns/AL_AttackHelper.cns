@@ -137,6 +137,7 @@ trigger1=AnimElem=7
 attr=S,NA
 animtype=up
 damage=ceil(90*root,fvar(29))
+getpower = 30,15
 hitflag=MAF
 guardflag=M
 pausetime=12,15
@@ -348,6 +349,7 @@ trigger1=(enemy,TeamMode=single ||enemy,TeamMode=turns)&&AnimElem=7
 attr=S,SP
 animtype=hard
 damage=ceil(65*root,fvar(29)),5
+getpower = 15,7
 hitflag=MAF
 guardflag=M
 pausetime=0,5
@@ -372,6 +374,7 @@ trigger1=AnimElem=7&&enemy,TeamMode=simul
 attr=S,SP
 animtype=hard
 damage=ceil(65*root,fvar(29)),5
+getpower = 15,7
 hitflag=MAF
 guardflag=M
 pausetime=0,5
@@ -650,6 +653,7 @@ trigger1=(enemy,TeamMode=single ||enemy,TeamMode=turns)&&time=0
 attr=S,SP
 animtype=hard
 damage=ceil(45*root,fvar(29)),5
+getpower = 5,2
 hitflag=MAF
 guardflag=M
 pausetime=0,5
@@ -675,6 +679,7 @@ trigger1=time=0&&enemy,TeamMode=simul
 attr=S,SP
 animtype=hard
 damage=ceil(45*root,fvar(29)),5
+getpower = 5,2
 hitflag=MAF
 guardflag=M
 pausetime=0,5
@@ -927,6 +932,7 @@ trigger1=(enemy,TeamMode=single ||enemy,TeamMode=turns)&&time=0
 attr=S,SP
 animtype=hard
 damage=ceil(45*root,fvar(29)),5
+getpower = 5,2
 hitflag=MAF
 guardflag=M
 pausetime=0,5
@@ -952,6 +958,7 @@ trigger1=time=0&&enemy,TeamMode=simul
 attr=S,SP
 animtype=hard
 damage=ceil(45*root,fvar(29)),5
+getpower = 5,2
 hitflag=MAF
 guardflag=M
 pausetime=0,5
@@ -1229,6 +1236,7 @@ trigger1=(enemy,TeamMode=single ||enemy,TeamMode=turns)&&time=0
 attr=S,SP
 animtype=hard
 damage=ceil(45*root,fvar(29)),5
+getpower = 5,2
 hitflag=MAF
 guardflag=M
 pausetime=0,5
@@ -1254,6 +1262,7 @@ trigger1=time=0&&enemy,TeamMode=simul
 attr=S,SP
 animtype=hard
 damage=ceil(45*root,fvar(29)),5
+getpower = 5,2
 hitflag=MAF
 guardflag=M
 pausetime=0,5
@@ -1454,6 +1463,7 @@ trigger1=(enemy,TeamMode=single ||enemy,TeamMode=turns)&&time=3
 attr=S,SP
 animtype=hard
 damage=ceil(100*root,fvar(29)),5
+getpower = 15,7
 hitflag=MAF
 guardflag=M
 pausetime=0,5
@@ -1478,6 +1488,7 @@ trigger1=time=3&&enemy,TeamMode=simul
 attr=S,SP
 animtype=hard
 damage=ceil(100*root,fvar(29)),5
+getpower = 15,7
 hitflag=MAF
 guardflag=M
 pausetime=0,5
@@ -1832,6 +1843,7 @@ trigger1=(enemy,TeamMode=single ||enemy,TeamMode=turns)&&time=3
 attr=S,SP
 animtype=hard
 damage=ceil(110*root,fvar(29)),5
+getpower = 15,7
 hitflag=MAF
 guardflag=M
 pausetime=0,5
@@ -1857,6 +1869,7 @@ trigger1=time=3&&enemy,TeamMode=simul
 attr=S,SP
 animtype=hard
 damage=ceil(110*root,fvar(29)),5
+getpower = 15,7
 hitflag=MAF
 guardflag=M
 pausetime=0,5
@@ -2212,6 +2225,7 @@ trigger1=(enemy,TeamMode=single ||enemy,TeamMode=turns)&&time=3
 attr=S,SP
 animtype=hard
 damage=ceil(120*root,fvar(29)),5
+getpower = 15,7
 hitflag=MAF
 guardflag=M
 pausetime=0,5
@@ -2237,6 +2251,7 @@ trigger1=time=3&&enemy,TeamMode=simul
 attr=S,SP
 animtype=hard
 damage=ceil(120*root,fvar(29)),5
+getpower = 15,7
 hitflag=MAF
 guardflag=M
 pausetime=0,5
@@ -2589,6 +2604,7 @@ x=24
 
 [State ]
 type=HitDef
+getpower = 15,7
 trigger1=(enemy,TeamMode=single ||enemy,TeamMode=turns)&&time=0
 attr=S,SP
 animtype=hard
@@ -2611,6 +2627,7 @@ ID=355
 
 [State ]
 type=HitDef
+getpower = 15,7
 trigger1=time=0&&enemy,TeamMode=simul
 attr=S,SP
 animtype=hard
@@ -2758,6 +2775,7 @@ invertall=0
 
 [State ]
 type=HitDef
+getpower = 15,7
 trigger1=(enemy,TeamMode=single ||enemy,TeamMode=turns)&&time=0
 attr=S,SP
 animtype=hard
@@ -2780,6 +2798,7 @@ ID=351
 
 [State ]
 type=HitDef
+getpower = 15,7
 trigger1=time=0&&enemy,TeamMode=simul
 attr=S,SP
 animtype=hard

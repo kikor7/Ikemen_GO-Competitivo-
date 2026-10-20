@@ -12,6 +12,7 @@ pal.defaults =              ;Default palettes in order of preference
 
 ; Files for the player
 [Files]
+movelist = movelist.dat
 cmd     = spooo.cmd.cns   ;Command set
 cns     = spooo.cns   ;Constants
 st      = spooo.cns   ;States

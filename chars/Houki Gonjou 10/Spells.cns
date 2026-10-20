@@ -2,6 +2,7 @@
 ; Fireball 
 [Statedef 1000]
 type    = S
+poweradd = 20
 movetype= I
 physics = S                 
 velset = 0,0
@@ -247,7 +248,7 @@ ground.hittime  = 21
 ground.velocity = -5.5
 air.velocity = -5.0,-3
 air.juggle = 1
-getpower = 0
+getpower = 10,5
 
 [State 1005, ChangeState]
 type = ChangeState
@@ -309,7 +310,7 @@ ground.hittime  = 28
 ground.velocity = -6.7
 air.velocity = -5.0,-3
 air.juggle = 1
-getpower = 0
+getpower = 10,5
 
 [State 1010, ChangeState]
 type = ChangeState
@@ -373,7 +374,7 @@ air.velocity = -5.0,-3
 air.juggle = 1
 fall = 1
 fall.recover = 0
-getpower = 0 
+getpower = 10,5
 
 [State 1011, VelAdd]
 type = VelAdd

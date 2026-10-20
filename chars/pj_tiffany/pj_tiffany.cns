@@ -3281,7 +3281,7 @@ juggle = 8
 velset = 0,0
 ctrl = 0
 anim = 200
-poweradd = 20
+poweradd = 0
 sprpriority = 2
 facep2 = 1
 
@@ -3335,7 +3335,7 @@ airguard.velocity = -4,-1
 ground.cornerpush.veloff = -8.5
 air.cornerpush.veloff = 0
 airguard.cornerpush.veloff = 0
-getpower = 35,35
+getpower = 30,15
 givepower = 35, 35
 yaccel = .5
 
@@ -3355,7 +3355,7 @@ juggle = 8
 velset = 0,0
 ctrl = 0
 anim = 210
-poweradd = 40
+poweradd = 0
 sprpriority = 2
 facep2 = 1
 
@@ -3397,7 +3397,7 @@ airguard.velocity = -5,-1
 ground.cornerpush.veloff = -11.5
 air.cornerpush.veloff = 0
 airguard.cornerpush.veloff = 0
-getpower = 35,35
+getpower = 30,15
 givepower = 35, 35
 yaccel = .5
 
@@ -3418,7 +3418,7 @@ juggle = 8
 velset = 0,0
 ctrl = 0
 anim = 215
-poweradd = 40
+poweradd = 0
 sprpriority = 2
 facep2 = 1
 
@@ -3489,7 +3489,7 @@ airguard.velocity = -5,-1
 ground.cornerpush.veloff = -11.5
 air.cornerpush.veloff = 0
 airguard.cornerpush.veloff = 0
-getpower = 35,35
+getpower = 30,15
 givepower = 35, 35
 yaccel = .5
 
@@ -3509,7 +3509,7 @@ juggle = 8
 velset = 0,0
 ctrl = 0
 anim = 220
-poweradd = 40
+poweradd = 0
 sprpriority = 2
 facep2 = 1
 
@@ -3569,7 +3569,7 @@ airguard.velocity = -6.67,-1
 ground.cornerpush.veloff = -14
 air.cornerpush.veloff = 0
 airguard.cornerpush.veloff = 0
-getpower = 35,35
+getpower = 15,7
 givepower = 35, 35
 yaccel = .5
 
@@ -3605,7 +3605,7 @@ airguard.velocity = -6.67,-1
 ground.cornerpush.veloff = -14
 air.cornerpush.veloff = 0
 airguard.cornerpush.veloff = 0
-getpower = 35,35
+getpower = 15,7
 givepower = 35, 35
 yaccel = .5
 
@@ -3624,7 +3624,7 @@ physics = S
 juggle = 8
 velset = 0,0
 ctrl = 0
-poweradd = 40
+poweradd = 0
 sprpriority = 2
 facep2 = 1
 
@@ -3735,7 +3735,7 @@ airguard.velocity = -6.67,-1
 ground.cornerpush.veloff = -14
 air.cornerpush.veloff = 0
 airguard.cornerpush.veloff = 0
-getpower = 35,35
+getpower = 30,15
 givepower = 35, 35
 yaccel = .5
 
@@ -3756,7 +3756,7 @@ juggle = 8
 velset = 0,0
 ctrl = 0
 anim = 230
-poweradd = 20
+poweradd = 0
 sprpriority = 2
 facep2 = 1
 
@@ -3805,7 +3805,7 @@ airguard.velocity = -4,-1
 ground.cornerpush.veloff = -8.5
 air.cornerpush.veloff = 0
 airguard.cornerpush.veloff = 0
-getpower = 35,35
+getpower = 30,15
 givepower = 35, 35
 yaccel = .5
 
@@ -3826,7 +3826,7 @@ juggle = 8
 velset = 0,0
 ctrl = 0
 anim = 240
-poweradd = 40
+poweradd = 0
 sprpriority = 2
 facep2 = 1
 
@@ -3869,7 +3869,7 @@ airguard.velocity = -5,-1
 ground.cornerpush.veloff = -11
 air.cornerpush.veloff = 0
 airguard.cornerpush.veloff = 0
-getpower = 35,35
+getpower = 30,15
 givepower = 35, 35
 yaccel = .5
 
@@ -3889,7 +3889,7 @@ juggle = 8
 velset = 0,0
 ctrl = 0
 anim = 250
-poweradd = 60
+poweradd = 0
 sprpriority = 2
 facep2 = 1
 
@@ -3943,7 +3943,7 @@ airguard.velocity = -6.5,-1
 ground.cornerpush.veloff = -14
 air.cornerpush.veloff = 0
 airguard.cornerpush.veloff = 0
-getpower = 35,35
+getpower = 30,15
 givepower = 35, 35
 yaccel = .5
 
@@ -3963,7 +3963,7 @@ physics = S
 juggle = 8
 velset = 0,0
 ctrl = 0
-poweradd = 60
+poweradd = 0
 sprpriority = 2
 facep2 = 1
 
@@ -4037,7 +4037,7 @@ airguard.velocity = -6.5,-1
 ground.cornerpush.veloff = -14
 air.cornerpush.veloff = 0
 airguard.cornerpush.veloff = 0
-getpower = 35,35
+getpower = 30,15
 givepower = 35, 35
 yaccel = .5
 
@@ -4057,7 +4057,7 @@ juggle = 8
 velset = 0,0
 ctrl = 0
 anim = 400
-poweradd = 20
+poweradd = 0
 sprpriority = 2
 facep2 = 1
 
@@ -4111,7 +4111,7 @@ airguard.velocity = -4,-1
 ground.cornerpush.veloff = -8.5
 air.cornerpush.veloff = 0
 airguard.cornerpush.veloff = 0
-getpower = 35,35
+getpower = 30,15
 givepower = 35, 35
 yaccel = .5
 
@@ -4131,7 +4131,7 @@ juggle = 8
 velset = 0,0
 ctrl = 0
 anim = 410
-poweradd = 40
+poweradd = 0
 sprpriority = 2
 facep2 = 1
 
@@ -4173,7 +4173,7 @@ airguard.velocity = -5,-1
 ground.cornerpush.veloff = -11.5
 air.cornerpush.veloff = 0
 airguard.cornerpush.veloff = 0
-getpower = 35,35
+getpower = 30,15
 givepower = 35, 35
 yaccel = .5
 
@@ -4193,7 +4193,7 @@ juggle = 8
 velset = 0,0
 ctrl = 0
 anim = 420
-poweradd = 40
+poweradd = 0
 sprpriority = 2
 facep2 = 1
 
@@ -4267,7 +4267,7 @@ airguard.velocity = -6.67,-1
 ground.cornerpush.veloff = -14
 air.cornerpush.veloff = 0
 airguard.cornerpush.veloff = 0
-getpower = 35,35
+getpower = 15,7
 givepower = 35, 35
 yaccel = .5
 
@@ -4303,7 +4303,7 @@ airguard.velocity = -6.67,-1
 ground.cornerpush.veloff = -14
 air.cornerpush.veloff = 0
 airguard.cornerpush.veloff = 0
-getpower = 35,35
+getpower = 15,7
 givepower = 35, 35
 yaccel = .5
 
@@ -4323,7 +4323,7 @@ juggle = 8
 velset = 0,0
 ctrl = 0
 anim = 430
-poweradd = 20
+poweradd = 0
 sprpriority = 2
 facep2 = 1
 
@@ -4372,7 +4372,7 @@ airguard.velocity = -4,-1
 ground.cornerpush.veloff = -8.5
 air.cornerpush.veloff = 0
 airguard.cornerpush.veloff = 0
-getpower = 35,35
+getpower = 30,15
 givepower = 35, 35
 yaccel = .5
 
@@ -4393,7 +4393,7 @@ juggle = 8
 velset = 0,0
 ctrl = 0
 anim = 440
-poweradd = 40
+poweradd = 0
 sprpriority = 2
 facep2 = 1
 
@@ -4436,7 +4436,7 @@ airguard.velocity = -5,-1
 ground.cornerpush.veloff = -11
 air.cornerpush.veloff = 0
 airguard.cornerpush.veloff = 0
-getpower = 35,35
+getpower = 30,15
 givepower = 35, 35
 yaccel = .5
 
@@ -4456,7 +4456,7 @@ juggle = 8
 velset = 0,0
 ctrl = 0
 anim = 450
-poweradd = 60
+poweradd = 0
 sprpriority = 2
 facep2 = 1
 
@@ -4506,7 +4506,7 @@ airguard.velocity = -6.5,-1
 ground.cornerpush.veloff = -12
 air.cornerpush.veloff = 0
 airguard.cornerpush.veloff = 0
-getpower = 35,35
+getpower = 30,15
 givepower = 35, 35
 yaccel = .5
 fall = 1
@@ -4541,7 +4541,7 @@ airguard.velocity = -6.67,-1
 ground.cornerpush.veloff = -14
 air.cornerpush.veloff = 0
 airguard.cornerpush.veloff = 0
-getpower = 35,35
+getpower = 30,15
 givepower = 35, 35
 yaccel = .5
 
@@ -4560,7 +4560,7 @@ physics = A
 juggle = 8
 ctrl = 0
 anim = 600
-poweradd = 20
+poweradd = 0
 sprpriority = 2
 
 [State 600, 1]
@@ -4608,7 +4608,7 @@ airguard.velocity = -4,-1
 ground.cornerpush.veloff = 0
 air.cornerpush.veloff = 0
 airguard.cornerpush.veloff = 0
-getpower = 35,35
+getpower = 30,15
 givepower = 35, 35
 yaccel = .5
 
@@ -4634,7 +4634,7 @@ physics = A
 juggle = 8
 ctrl = 0
 anim = 610
-poweradd = 40
+poweradd = 0
 sprpriority = 2
 
 [State 610, 1]
@@ -4676,7 +4676,7 @@ airguard.velocity = -5,-1
 ground.cornerpush.veloff = 0
 air.cornerpush.veloff = 0
 airguard.cornerpush.veloff = 0
-getpower = 35,35
+getpower = 30,15
 givepower = 35, 35
 yaccel = .5
 
@@ -4701,7 +4701,7 @@ movetype = A
 physics = A
 juggle = 8
 ctrl = 0
-poweradd = 60
+poweradd = 0
 sprpriority = 2
 
 [State 620, 1]
@@ -4748,7 +4748,7 @@ airguard.velocity = -6.5,-1
 ground.cornerpush.veloff = 0
 air.cornerpush.veloff = 0
 airguard.cornerpush.veloff = 0
-getpower = 35,35
+getpower = 30,15
 givepower = 35, 35
 yaccel = .5
 
@@ -4774,7 +4774,7 @@ physics = A
 juggle = 8
 ctrl = 0
 anim = 630
-poweradd = 20
+poweradd = 0
 sprpriority = 2
 
 [State 630, 1]
@@ -4816,7 +4816,7 @@ airguard.velocity = -4,-1
 ground.cornerpush.veloff = 0
 air.cornerpush.veloff = 0
 airguard.cornerpush.veloff = 0
-getpower = 35,35
+getpower = 30,15
 givepower = 35, 35
 yaccel = .5
 
@@ -4842,7 +4842,7 @@ physics = A
 juggle = 8
 ctrl = 0
 anim = 640
-poweradd = 40
+poweradd = 0
 sprpriority = 2
 
 [State 640, 1]
@@ -4884,7 +4884,7 @@ airguard.velocity = -5,-1
 ground.cornerpush.veloff = 0
 air.cornerpush.veloff = 0
 airguard.cornerpush.veloff = 0
-getpower = 35,35
+getpower = 30,15
 givepower = 35, 35
 yaccel = .5
 
@@ -4909,7 +4909,7 @@ movetype = A
 physics = A
 juggle = 8
 ctrl = 0
-poweradd = 60
+poweradd = 0
 sprpriority = 2
 anim = 650
 
@@ -4960,7 +4960,7 @@ airguard.velocity = -6.5,-1
 ground.cornerpush.veloff = 0
 air.cornerpush.veloff = 0
 airguard.cornerpush.veloff = 0
-getpower = 35,35
+getpower = 15,7
 givepower = 35, 35
 yaccel = .5
 
@@ -4992,7 +4992,7 @@ airguard.velocity = -6.5,-1
 ground.cornerpush.veloff = 0
 air.cornerpush.veloff = 0
 airguard.cornerpush.veloff = 0
-getpower = 35,35
+getpower = 15,7
 givepower = 35, 35
 yaccel = .5
 
@@ -5018,7 +5018,7 @@ physics = S
 juggle = 8
 velset = 0,0
 ctrl = 0
-poweradd = 40
+poweradd = 0
 sprpriority = 2
 facep2 = 1
 
@@ -5186,7 +5186,7 @@ airguard.velocity = -6.67,-1
 ground.cornerpush.veloff = -14
 air.cornerpush.veloff = 0
 airguard.cornerpush.veloff = 0
-getpower = 35,35
+getpower = 30,15
 givepower = 35, 35
 yaccel = .5
 
@@ -5207,7 +5207,7 @@ physics = S
 juggle = 8
 velset = 0,0
 ctrl = 0
-poweradd = 60
+poweradd = 0
 sprpriority = 2
 facep2 = 1
 
@@ -5353,7 +5353,7 @@ fall = 1
 air.fall = 1
 fall.recover = 0
 air.recover = 0
-getpower = 35,35
+getpower = 30,15
 givepower = 35,35
 yaccel = .5
 
@@ -5374,7 +5374,7 @@ physics = S
 juggle = 8
 velset = 0,0
 ctrl = 0
-poweradd = 60
+poweradd = 0
 sprpriority = 2
 facep2 = 1
 
@@ -5540,7 +5540,7 @@ fall = 1
 air.fall = 1
 fall.recover = 0
 air.recover = 0
-getpower = 35,35
+getpower = 30,15
 givepower = 35,35
 yaccel = .5
 
@@ -5561,7 +5561,7 @@ physics = S
 juggle = 8
 velset = 0,0
 ctrl = 0
-poweradd = 60
+poweradd = 0
 sprpriority = 2
 facep2 = 1
 
@@ -5705,7 +5705,7 @@ physics = S
 juggle = 8
 velset = 0,0
 ctrl = 0
-poweradd = 60
+poweradd = 0
 sprpriority = 2
 facep2 = 1
 
@@ -6059,7 +6059,7 @@ movetype = A
 physics = S
 juggle = 8
 ctrl = 0
-poweradd = 70
+poweradd = 0
 sprpriority = 2
 velset = 0,0
 facep2 = 1
@@ -6203,7 +6203,7 @@ air.fall = 1
 air.recover = 0
 yaccel = .49
 persistent = 1
-getpower = 35,35
+getpower = 30,15
 givepower = 35,35
 id = 720
 
@@ -6231,7 +6231,7 @@ movetype = A
 physics = S
 juggle = 8
 ctrl = 0
-poweradd = 70
+poweradd = 0
 sprpriority = 2
 velset = 0,0
 facep2 = 1
@@ -6368,7 +6368,7 @@ air.fall = 1
 air.recover = 0
 yaccel = .49
 persistent = 1
-getpower = 35,35
+getpower = 30,15
 givepower = 35,35
 id = 730
 
@@ -6399,7 +6399,7 @@ juggle = 8
 velset = 0,0
 ctrl = 0
 anim = 740
-poweradd = 40
+poweradd = 0
 sprpriority = 2
 
 [State 740, 1]
@@ -6454,7 +6454,7 @@ fall = 1
 air.fall = 1
 fall.recover = 0
 air.recover = 0
-getpower = 35,35
+getpower = 30,15
 givepower = 35,35
 yaccel = .5
 
@@ -6475,7 +6475,7 @@ juggle = 8
 velset = 0,0
 ctrl = 0
 anim = 750
-poweradd = 60
+poweradd = 0
 sprpriority = 2
 facep2 = 1
 
@@ -6529,7 +6529,7 @@ fall = 1
 air.fall = 1
 fall.recover = 0
 air.recover = 0
-getpower = 35,35
+getpower = 30,15
 givepower = 35,35
 yaccel = .5
 
@@ -6550,7 +6550,7 @@ juggle = 8
 velset = 0,0
 ctrl = 0
 anim = 760
-poweradd = 60
+poweradd = 0
 sprpriority = 2
 
 [State 760, 1]
@@ -6631,7 +6631,7 @@ fall = 1
 air.fall = 1
 fall.recover = 0
 air.recover = 0
-getpower = 35,35
+getpower = 30,15
 givepower = 35,35
 yaccel = .5
 
@@ -6650,7 +6650,7 @@ movetype = A
 physics = A
 juggle = 8
 ctrl = 0
-poweradd = 60
+poweradd = 0
 sprpriority = 2
 
 [State 770, 1]
@@ -6792,7 +6792,7 @@ air.fall = 1
 fall.recover = 0
 air.recover = 0
 yaccel = .5
-getpower = 35,35
+getpower = 30,15
 givepower = 35,35
 
 ;---------------------------------------------------------------------------;
@@ -6803,7 +6803,7 @@ movetype = A
 physics = A
 juggle = 8
 ctrl = 0
-poweradd = 60
+poweradd = 0
 sprpriority = 2
 
 [State 780, 1]
@@ -6944,7 +6944,7 @@ air.fall = 0
 fall.recover = 0
 air.recover = 0
 yaccel = .49
-getpower = 35,35
+getpower = 30,15
 givepower = 35,35
 
 
@@ -6958,7 +6958,7 @@ juggle = 8
 velset = 0,0
 ctrl = 0
 anim = 220
-poweradd = 40
+poweradd = 0
 sprpriority = 2
 facep2 = 1
 
@@ -7012,7 +7012,7 @@ airguard.velocity = -5,-1
 ground.cornerpush.veloff = -11.5
 air.cornerpush.veloff = 0
 airguard.cornerpush.veloff = 0
-getpower = 35,35
+getpower = 30,15
 givepower = 35, 35
 yaccel = .5
 
@@ -7030,7 +7030,7 @@ movetype = A
 physics = A
 juggle = 8
 ctrl = 0
-poweradd = 60
+poweradd = 0
 sprpriority = 2
 
 [State 795, 1]
@@ -7171,7 +7171,7 @@ air.fall = 0
 fall.recover = 0
 air.recover = 0
 yaccel = .49
-getpower = 35,35
+getpower = 30,15
 givepower = 35,35
 id = 795
 
@@ -7238,6 +7238,7 @@ var(2) = ifelse(command = "z", 1, 0)
 
 [State 800, 3]
 type = HitDef
+getpower = 60,30
 Trigger1 = Time = 0
 attr = S, NT
 hitflag = M-
@@ -7271,7 +7272,7 @@ type = S
 movetype = A
 physics = N
 anim = 805
-poweradd = 60
+poweradd = 0
 
 [State 805, 1]
 type = PlaySnd
@@ -7439,7 +7440,7 @@ type = S
 movetype = A
 physics = N
 anim = 820
-poweradd = 60
+poweradd = 0
 
 [State 820, 1]
 type = PlaySnd
@@ -8400,7 +8401,7 @@ movetype = I
 physics = N
 juggle = 8
 ctrl = 0
-poweradd = 70
+poweradd = 0
 sprpriority = 2
 velset = 0,0
 facep2 = 1
@@ -8654,7 +8655,7 @@ airguard.velocity = -6.67,-1
 ground.cornerpush.veloff = -14
 air.cornerpush.veloff = 0
 airguard.cornerpush.veloff = 0
-getpower = 35,35
+getpower = 60,30
 givepower = 35, 35
 yaccel = .5
 envshake.time = 10
@@ -8676,7 +8677,7 @@ movetype = A
 physics = S
 juggle = 8
 ctrl = 0
-poweradd = 70
+poweradd = 0
 sprpriority = 1
 velset = 0,0
 
@@ -8926,7 +8927,7 @@ air.fall = 1
 air.recover = 0
 yaccel = .5
 persistent = 1
-getpower = 35,35
+getpower = 60,30
 givepower = 35,35
 
 [State 1100, 17]
@@ -8967,7 +8968,7 @@ air.fall = 1
 air.recover = 0
 yaccel = .5
 persistent = 1
-getpower = 35,35
+getpower = 60,30
 givepower = 35,35
 
 [State 1100, 18]
@@ -9043,7 +9044,7 @@ air.fall = 1
 air.recover = 0
 yaccel = .5
 persistent = 1
-getpower = 35,35
+getpower = 60,30
 givepower = 35,35
 
 [State 1100, 19]
@@ -9267,7 +9268,7 @@ movetype = A
 physics = S
 juggle = 8
 ctrl = 0
-poweradd = 70
+poweradd = 0
 sprpriority = 2
 velset = 0,0
 facep2 = 1
@@ -9407,7 +9408,7 @@ trigger2 = animelem = 11, = 1
 trigger3 = animelem = 19, = 1
 trigger4 = animelem = 27, = 1
 trigger5 = animelem = 35, = 1
-value = 25
+value = 0
 
 [State 1200, 6]
 type = playsnd
@@ -9552,7 +9553,7 @@ airguard.velocity = -6.67,-1
 ground.cornerpush.veloff = -14
 air.cornerpush.veloff = 0
 airguard.cornerpush.veloff = 0
-getpower = 35,35
+getpower = 30,15
 givepower = 35, 35
 yaccel = .5
 envshake.time = 10
@@ -9585,7 +9586,7 @@ airguard.velocity = -6.67,-1
 ground.cornerpush.veloff = -14
 air.cornerpush.veloff = 0
 airguard.cornerpush.veloff = 0
-getpower = 35,35
+getpower = 30,15
 givepower = 35, 35
 yaccel = .5
 envshake.time = 10
@@ -9623,7 +9624,7 @@ fall = 1
 air.fall = 1
 fall.recover = 0
 air.recover = 0
-getpower = 35,35
+getpower = 30,15
 givepower = 35,35
 yaccel = .5
 envshake.time = 10
@@ -9661,7 +9662,7 @@ fall = 1
 air.fall = 1
 fall.recover = 0
 air.recover = 0
-getpower = 35,35
+getpower = 30,15
 givepower = 35,35
 yaccel = .5
 envshake.time = 10
@@ -9700,7 +9701,7 @@ air.fall = 1
 fall.recover = 0
 air.recover = 0
 p2stateno = 1250
-getpower = 35,35
+getpower = 30,15
 givepower = 35,35
 envshake.time = 30
 envshake.ampl = 4
@@ -10152,7 +10153,7 @@ type = S
 movetype = A
 physics = N
 ctrl = 0
-poweradd = 70
+poweradd = 0
 sprpriority = 2
 velset = 0,0
 juggle = 8
@@ -10369,7 +10370,7 @@ air.fall = 1
 air.recover = 0
 yaccel = .49
 persistent = 1
-getpower = 70,35
+getpower = 30,15
 givepower = 35,35
 
 [State 1300, 12]
@@ -10406,7 +10407,7 @@ air.fall = 1
 air.recover = 0
 yaccel = .49
 persistent = 1
-getpower = 70,35
+getpower = 30,15
 givepower = 35,35
 
 [State 1300, 13]
@@ -10445,7 +10446,7 @@ air.fall = 1
 air.recover = 0
 yaccel = .49
 persistent = 1
-getpower = 70,35
+getpower = 30,15
 givepower = 35,35
 
 [State 1300, 14]
@@ -11043,7 +11044,7 @@ fall.recover = 0
 air.fall = 1
 air.recover = 0
 yaccel = .49
-getpower = 35,35
+getpower = 60,30
 givepower = 35,35
 air.juggle = 8
 id = ifelse(prevstateno = 3200, 1406, 1405)

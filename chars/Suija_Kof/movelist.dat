@@ -1,0 +1,26 @@
+<#f0f000>:Special Moves:</>
+Sosu P P Sosu Sosu Sosu Sosu Sosu Sosu C			_U_D^B
+Sosu P P Sosu Sosu Sosu Sosu Sosu Sosu A			_U_D^A
+Sosuto Koi Sosu Sosu Sosu Sosu B			_QCF^B
+Sosuto Koi Sosu Sosu Sosu Sosu			_QCF^A
+Sosu Sosu Sosu Sosu Sosuyo Nami Nami Sosu Sosu B			_DSB^Y
+Sosu Sosu Sosu Sosu Sosuyo Nami Nami Sosu Sosu			_DSB^X
+Sosu Sosu Sosu Sosu Sosu Sosu Sosu C			_DSF^B
+Sosu Sosu Sosu Sosu Sosu Sosu Sosu B			_DSF^Y
+Sosu Sosu Sosu Sosu Sosu Sosu Sosu A			_DSF^A
+Sosu Sosu Sosu Sosu Sosu Sosu Sosu			_DSF^X
+Sosu Sosu Sosu Sosu Sosu Sosu Sosu Sosu Sosu Sosu B			_QCB^Y
+Sosu Sosu Sosu Sosu Sosu Sosu Sosu Sosu Sosu Sosu			_QCB^X
+Sosu Sosu Sosu Sosu Sosu Sosu Sosu			^X_+^A
+Sosumo E Sosuni Bae Sosu			^Y_+^B
+
+<#f0f000>:Hyper Moves:</>
+Sosu Sosu Sosu Sosu Sosu M <#f00000>(3000)</>			^Y_+^A_+^B
+Sosu L L Sosu Sosu W W Sosu Sosu Sosu Sosu Sosu V V Sosu Sosu E <#f00000>(2000)</>			_QCF_DF_QCB^X_+^Y
+Sosu L L Sosu Sosu W W Sosu Sosuho Sosuho Sosu Sosu Sosu Sosu Sosu Sosu Sosu Sosu Sosufu Tsutsumi Sosu <#f00000>(2000)</>			_QCF_QCF^A_+^B
+Sosu L L Sosu Sosu W W Sosu V V Sosu Sosu Sosu Sosu Sosu E E Sosu Sosu Sosu Sosu Sosu Sosu Sosu Sosu Sosu G <#f00000>(2000)</>			_QCF_QCF^X_+^Y
+Sosu Sosu Sosu Sosu Sosu V V Sosu Sosu E <#f00000>(1000)</>			_QCF_DF_QCB^X
+Sosu Sosuho Sosuho Sosu Sosu Sosu Sosu Sosu Sosu Sosu Sosu Sosufu Tsutsumi Sosu <#f00000>(1000)</>			_QCF_QCF^A
+Sosu V V Sosu Sosu Sosu Sosu Sosu E E Sosu Sosu Sosu Sosu Sosu Sosu Sosu Sosu Sosu G <#f00000>(1000)</>			_QCF_QCF^X
+Sosu F F Sosu B B Sosuru Kyuu Kyuu Sosu Sosu Sosu Sosu Sosu Sosu Sosu Sosu Sosu Sosu Sosu Sosu <#f00000>(1000)</>			^X_+^A
+Sosu K K Sosu Sosu H H Sosu L L Sosu Sosu Sosu Sosu Sosu Sosu Sosu Sosu Sosu Z Z Sosu Sosu Sosu Sosu Sosumo E Sosuni Bae Sosu <#f00000>(1000)</>			^Y_+^B

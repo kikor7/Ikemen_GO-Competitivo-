@@ -4178,7 +4178,7 @@ juggle  = 1
 velset = 0,0
 ctrl = 0
 anim = ifelse(var(2) = 1,1153,1152)
-poweradd = 50
+poweradd = 0
 sprpriority = 2
 
 [state 180 1]
@@ -11648,7 +11648,7 @@ type    = S
 movetype= A
 physics = S
 juggle  = 4
-poweradd= 100
+poweradd= 0
 ctrl = 0
 velset = 0,0
 anim = 530

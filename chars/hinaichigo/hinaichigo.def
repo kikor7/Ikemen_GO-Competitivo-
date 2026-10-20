@@ -9,6 +9,7 @@ pal.defaults = 1
 
 ; Files for the player
 [Files]
+movelist = movelist.dat
 cmd     = hina.cmd          ;Command set
 cns     = hina.cns          ;Constants
 st      = hina.cns          ;States

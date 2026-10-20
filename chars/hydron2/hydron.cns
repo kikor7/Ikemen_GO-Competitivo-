@@ -440,7 +440,7 @@ physics = S				;Physics: S-stand, C-crouch, A-air
 velset = 0,0			;Set velocity (x,y) (Def: no change)
 ctrl = 0				;Set ctrl (Def: no change)
 anim = 200				;Change animation (Def: no change)
-poweradd = 40			;Power to add (Def: 0)
+poweradd = 0			;Power to add (Def: 0)
 sprpriority = 2			;Set layering priority to 2 (in front)
 
 [State 200, VarSet]
@@ -458,6 +458,7 @@ trigger1 = var(6) := floor(fvar(12)*500) || 1
 id = 0*(var(14) := stateno + (var(18)%1000)*10000 + id%10) + var(14)
 attr = S, NA
 damage = 104, 0
+getpower = 30,15
 animtype = Medium
 guardflag = MA
 hitflag = MA
@@ -489,6 +490,7 @@ trigger1 = var(6) := floor(fvar(12)*500) || 1
 id = 0*(var(14) := stateno + (var(18)%1000)*10000 + id%10) + var(14)
 attr = S, NA
 damage = 104, 0
+getpower = 30,15
 animtype = Medium
 guardflag = MA
 hitflag = MA
@@ -623,7 +625,7 @@ scale = const(size.xscale), const(size.yscale)
 type    = S
 movetype= A
 physics = S
-poweradd = 65
+poweradd = 0
 ctrl = 0
 velset = 0,0
 anim = 211
@@ -656,6 +658,7 @@ trigger1 = var(6) := floor(fvar(12)*fvar(8)*500) || 1
 id = 0*(var(14) := stateno + (var(18)%1000)*10000 + id%10) + var(14)
 attr = S, NA
 damage = 120
+getpower = 30,15
 animtype = Back
 guardflag = MA
 hitflag = MA
@@ -692,6 +695,7 @@ trigger1 = var(6) := floor(fvar(12)*fvar(8)*500) || 1
 id = 0*(var(14) := stateno + (var(18)%1000)*10000 + id%10) + var(14)
 attr = S, NA
 damage = 120
+getpower = 30,15
 animtype = Back
 guardflag = MA
 hitflag = MA
@@ -844,7 +848,7 @@ scale = const(size.xscale), const(size.yscale)
 type    = S
 movetype= A
 physics = S
-poweradd = 75
+poweradd = 0
 ctrl = 0
 velset = 0,0
 anim = 220
@@ -914,6 +918,7 @@ trigger1 = var(6) := floor(fvar(12)*500) || 1
 id = 0*(var(14) := stateno + (var(18)%1000)*10000 + id%10) + var(14)
 attr = S, NA
 damage = 88, 0
+getpower = 30,15
 animtype = Heavy
 guardflag = MA
 hitflag = MA
@@ -946,6 +951,7 @@ trigger1 = var(6) := floor(fvar(12)*500) || 1
 id = 0*(var(14) := stateno + (var(18)%1000)*10000 + id%10) + var(14)
 attr = S, NA
 damage = 88, 0
+getpower = 30,15
 animtype = Heavy
 guardflag = MA
 hitflag = MA
@@ -970,6 +976,7 @@ guard.dist = 320
 
 [State 220, 2]
 type = HitDef
+getpower = 30,15
 triggerall = animelem = 8
 triggerall = enemynear, stateno != [120, 135]
 triggerall = enemynear, stateno != [150, 155]
@@ -1166,7 +1173,7 @@ trigger3 = time = 27
 type    = C
 movetype= A
 physics = C
-poweradd = 80
+poweradd = 20
 ctrl = 0
 velset = 0,0
 anim = 401
@@ -1413,6 +1420,7 @@ projheightbound = -480, 240
 id = 405
 attr = C, NA
 damage = 96, 0
+getpower = 15,7
 animtype = Heavy
 guardflag = LA			;Flags on how move is to be guarded against
 hitflag = MAD			;Flags of conditions that move can hit
@@ -1454,6 +1462,7 @@ projheightbound = -480, 240
 id = 405
 attr = C, NA
 damage = 96, 0
+getpower = 15,7
 animtype = Heavy
 guardflag = MA			;Flags on how move is to be guarded against
 hitflag = MAD			;Flags of conditions that move can hit
@@ -1493,6 +1502,7 @@ projheightbound = -480, 240
 id = 405
 attr = C, NA
 damage = 96, 0
+getpower = 15,7
 animtype = Heavy
 guardflag = LA			;Flags on how move is to be guarded against
 hitflag = MAD			;Flags of conditions that move can hit
@@ -1533,6 +1543,7 @@ projheightbound = -480, 240
 id = 405
 attr = C, NA
 damage = 96, 0
+getpower = 15,7
 animtype = Heavy
 guardflag = MA			;Flags on how move is to be guarded against
 hitflag = MAD			;Flags of conditions that move can hit
@@ -1567,7 +1578,7 @@ persistent = 0
 type    = S
 movetype= A
 physics = S
-poweradd = 100
+poweradd = 20
 ctrl = 0
 velset = 0,0
 anim = 1000
@@ -1852,6 +1863,7 @@ trigger1 = 1
 id = 0*(var(14) := stateno + (var(18)%1000)*10000 + id%10) + var(14)
 attr = S, SP
 damage = ceil((ifelse(root, var(16), 80.0, 96.0)+16.0*var(13))*root, fvar(13)), ceil(24.0*root, fvar(13))
+getpower = 10,5
 animtype = Medium
 guardflag = MA
 hitflag = MA
@@ -1883,6 +1895,7 @@ trigger1 = 1
 id = 0*(var(14) := stateno + (var(18)%1000)*10000 + id%10) + var(14)
 attr = S, SP
 damage = ceil((ifelse(root, var(16), 80.0, 96.0)+16.0*var(13))*root, fvar(13)), ceil(24.0*root, fvar(13))
+getpower = 10,5
 animtype = Back
 guardflag = MA
 hitflag = MA
@@ -2033,6 +2046,7 @@ pan = floor(p2dist x)
 
 [State 1060, Dummy Hitdef]
 type = HitDef
+getpower = 10,5
 trigger1 = !time
 hitflag =
 attr = S, NT
@@ -2056,7 +2070,7 @@ persistent = 0
 type    = S
 movetype= A
 physics = S
-poweradd = 100
+poweradd = 0
 ctrl = 0
 velset = 0,0
 anim = 1100
@@ -2116,6 +2130,7 @@ trigger1 = var(6) := floor(fvar(12)*fvar(8)*500) || 1
 id = 0*(var(14) := stateno + (var(18)%1000)*10000 + id%10) + var(14)
 attr = S, SA
 damage = ceil((80.0 + 16.0*var(13))/fvar(0)), 16
+getpower = 15,7
 animtype = Back
 guardflag = MA
 hitflag = MA
@@ -2153,6 +2168,7 @@ trigger1 = var(6) := floor(fvar(12)*fvar(8)*500) || 1
 id = 0*(var(14) := stateno + (var(18)%1000)*10000 + id%10) + var(14)
 attr = S, SA
 damage = ceil((80.0 + 16.0*var(13))/fvar(0)), 16
+getpower = 15,7
 animtype = Back
 guardflag = MA
 hitflag = MA
@@ -2189,6 +2205,7 @@ trigger1 = var(6) := floor(fvar(12)*200) || 1
 id = 0*(var(14) := stateno + (var(18)%1000)*10000 + id%10) + var(14)
 attr = A, SA
 damage = ceil((64.0 + 8.0*var(13))/fvar(0)), 16
+getpower = 15,7
 animtype = Medium
 guardflag = MA
 hitflag = MA
@@ -2222,6 +2239,7 @@ trigger1 = var(6) := floor(fvar(12)*200) || 1
 id = 0*(var(14) := stateno + (var(18)%1000)*10000 + id%10) + var(14)
 attr = A, SA
 damage = ceil((64.0 + 8.0*var(13))/fvar(0)), 16
+getpower = 15,7
 animtype = Medium
 guardflag = MA
 hitflag = MA
@@ -2484,7 +2502,7 @@ ctrl = 1
 type    = S
 movetype= A
 physics = S
-poweradd = 100
+poweradd = 0
 ctrl = 0
 velset = 0,0
 anim = 1200
@@ -2660,6 +2678,7 @@ id = 0*(var(14) := stateno + (var(18)%1000)*10000 + id%10) + var(14)
 attr = S, SA
 ;damage = 64 + 16*var(13), 16
 damage = ceil((96.0 + 8.0*var(13))/fvar(0)), 16
+getpower = 60,30
 animtype = Heavy
 guardflag = MA
 hitflag = MAF
@@ -2700,6 +2719,7 @@ id = 0*(var(14) := stateno + (var(18)%1000)*10000 + id%10) + var(14)
 attr = S, SA
 ;damage = 64 + 16*var(13), 16
 damage = ceil((96.0 + 8.0*var(13))/fvar(0)), 16
+getpower = 60,30
 animtype = Heavy
 guardflag = MA
 hitflag = MAF
@@ -2844,7 +2864,7 @@ ignorehitpause = 1
 type    = S
 movetype= A
 physics = S
-poweradd = 100
+poweradd = 0
 ctrl = 0
 velset = 0,0
 anim = 1300
@@ -3758,6 +3778,7 @@ trigger1 = pos y < enemynear, const(size.mid.pos.y)
 id = 0*(var(14) := stateno + (var(18)%1000)*10000 + id%10) + var(14)
 attr = A, SP
 damage = ceil(80.0*root, fvar(13)), ceil(8.0*root, fvar(13))
+getpower = 10,5
 animtype = Light
 guardflag = MA
 hitflag = MA
@@ -3785,6 +3806,7 @@ trigger1 = pos y >= enemynear, const(size.mid.pos.y)
 id = 0*(var(14) := stateno + (var(18)%1000)*10000 + id%10) + var(14)
 attr = A, SP
 damage = ceil(80.0*root, fvar(13)), ceil(8.0*root, fvar(13))
+getpower = 10,5
 animtype = Light
 guardflag = MA
 hitflag = MA
@@ -3878,6 +3900,7 @@ movehitpersist = 1
 
 [State 1360, 1]
 type = HitDef
+getpower = 10,5
 trigger1 = !time
 attr = S, NT
 hitflag = M
@@ -3959,7 +3982,7 @@ persistent = 0
 type    = S
 movetype= A
 physics = S
-poweradd = 70
+poweradd = 20
 ctrl = 0
 velset = 0,0
 anim = 1400
@@ -4240,6 +4263,7 @@ projheightbound = -480, 240
 id = 51499
 attr = S, SP
 damage = 128, 24
+getpower = 30,15
 animtype = Heavy
 guardflag = MA
 hitflag = MA
@@ -4284,7 +4308,7 @@ physics = S				;Physics: S-stand, C-crouch, A-air
 velset = 0,0			;Set velocity (x,y) (Def: no change)
 ctrl = 0				;Set ctrl (Def: no change)
 anim = 1500				;Change animation (Def: no change)
-poweradd = 65			;Power to add (Def: 0)
+poweradd = 0			;Power to add (Def: 0)
 sprpriority = 2			;Set layering priority to 2 (in front)
 
 [State 1500, VarSet]
@@ -4330,6 +4354,7 @@ trigger1 = var(6) := floor(fvar(12)*500) || 1
 id = 0*(var(14) := stateno + (var(18)%1000)*10000 + id%10) + var(14)
 attr = S, SA
 damage = 56, 0
+getpower = 30,15
 animtype = Heavy
 guardflag = MA
 hitflag = MA
@@ -4361,6 +4386,7 @@ trigger1 = var(6) := floor(fvar(12)*500) || 1
 id = 0*(var(14) := stateno + (var(18)%1000)*10000 + id%10) + var(14)
 attr = S, SA
 damage = 56, 0
+getpower = 30,15
 animtype = Heavy
 guardflag = MA
 hitflag = MA
@@ -4384,6 +4410,7 @@ sprpriority = 2
 
 [State 1500, 2]
 type = HitDef
+getpower = 30,15
 triggerall = animelemno(-1) = 3
 triggerall = var(13)
 triggerall = enemynear, stateno != [120, 135]

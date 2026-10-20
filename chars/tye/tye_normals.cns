@@ -464,7 +464,7 @@ physics = S
 juggle  = 7
 ctrl = 0
 anim = 200
-poweradd = 5
+poweradd = 0
 sprpriority = 2
 
 [State 200, PlaySnd]
@@ -501,7 +501,7 @@ ground.velocity = -5,0
 airguard.velocity = -1.9,-.8
 air.velocity = -5,-3
 air.hittime = 8
-getpower = 0, 0
+getpower = 30,15
 fall = 0
 
 [State 200, 5]
@@ -518,7 +518,7 @@ type    = S
 movetype= A
 physics = S
 juggle  = 7
-poweradd= 10
+poweradd= 0
 ctrl = 0
 anim = 210
 
@@ -566,7 +566,7 @@ ground.velocity = -8,0
 airguard.velocity = -1.9,-.8
 air.velocity = -5,1
 air.hittime = 12
-getpower = 0, 0
+getpower = 30,15
 fall = 0
 air.fall = 1
 
@@ -584,7 +584,7 @@ type    = S
 movetype= A
 physics = S
 juggle  = 7
-poweradd= 10
+poweradd= 0
 ctrl = 0
 anim = 215
 
@@ -631,7 +631,7 @@ airguard.velocity = -1.9,-.8
 air.velocity = -2,-8
 yaccel = .40
 air.hittime = 12
-getpower = 0, 0
+getpower = 30,15
 fall = 0
 air.fall = 1
 
@@ -649,7 +649,7 @@ type    = S
 movetype= A
 physics = S
 juggle  = 7
-poweradd= 15
+poweradd= 0
 ctrl = 0
 anim = 220
 
@@ -703,7 +703,7 @@ ground.velocity = -8,0
 airguard.velocity = -1.9,-.8
 air.velocity = -5,1
 air.hittime = 12
-getpower = 0, 0
+getpower = 30,15
 fall = 0
 air.fall = 1
 
@@ -721,7 +721,7 @@ type    = S
 movetype= A
 physics = S
 juggle  = 7
-poweradd= 15
+poweradd= 0
 ctrl = 0
 anim = 225
 
@@ -775,7 +775,7 @@ ground.velocity = -8,0
 airguard.velocity = -1.9,-.8
 air.velocity = -5,1
 air.hittime = 12
-getpower = 0, 0
+getpower = 30,15
 fall = 0
 air.fall = 1
 
@@ -792,7 +792,7 @@ type    = S
 movetype= A
 physics = S
 juggle  = 7
-poweradd= 5
+poweradd= 0
 ctrl = 0
 anim = 230
 
@@ -829,7 +829,7 @@ ground.velocity = -3,0
 airguard.velocity = -1.9,-.8
 air.velocity = -1.4,0
 air.hittime = 12
-getpower = 0, 0
+getpower = 30,15
 fall = 0
 
 [State 230, 5]
@@ -846,7 +846,7 @@ type    = S
 movetype= A
 physics = S
 juggle  = 7
-poweradd= 40
+poweradd= 0
 ctrl = 0
 sprpriority = -2
 anim = 235
@@ -896,7 +896,7 @@ airguard.velocity = -1.9,-.8
 air.type = Low
 air.velocity = -1.4,-3
 air.hittime = 12
-getpower = 0, 0
+getpower = 15,7
 
 [State 235, 1]
 type = HitDef
@@ -921,7 +921,7 @@ airguard.velocity = -1.9,-.8
 air.type = Low
 air.velocity = -1.4,-3
 air.hittime = 12
-getpower = 0, 0
+getpower = 15,7
 
 [State 235, 5]
 type = ChangeState
@@ -937,7 +937,7 @@ type    = S
 movetype= A
 physics = S
 juggle  = 4
-poweradd= 10
+poweradd= 0
 ctrl = 0
 sprpriority = 4
 anim = 240
@@ -978,7 +978,7 @@ airguard.velocity = -1.9,-.8
 air.type = Low
 air.velocity = -1.4,-3
 air.hittime = 12
-getpower = 0, 0
+getpower = 30,15
 fall = 1
 air.fall = 1
 fall.recover = 0
@@ -997,7 +997,7 @@ type    = S
 movetype= A
 physics = N
 juggle  = 4
-poweradd= 10
+poweradd= 0
 ctrl = 0
 sprpriority = 4
 anim = 243
@@ -1043,7 +1043,7 @@ airguard.velocity = -1.9,-.8
 air.type = Low
 air.velocity = -1.4,-3
 air.hittime = 12
-getpower = 0, 0
+getpower = 30,15
 fall = 1
 air.fall = 1
 fall.recover = 0
@@ -1086,7 +1086,7 @@ type    = S
 movetype= A
 physics = S
 juggle  = 7
-poweradd= 40
+poweradd= 0
 ctrl = 0
 sprpriority = 2
 anim = 245
@@ -1138,7 +1138,7 @@ airguard.velocity = -1.9,-.8
 air.type = Low
 air.velocity = -1.4,-3
 air.hittime = 12
-getpower = 0, 0
+getpower = 30,15
 
 [State 245, 5]
 type = ChangeState
@@ -1153,7 +1153,7 @@ type    = S
 movetype= A
 physics = N
 juggle  = 3
-poweradd= 40
+poweradd= 0
 ctrl = 0
 velset = 0,0
 anim = 250
@@ -1198,7 +1198,7 @@ airguard.velocity = -1.9,-.8
 air.type = Low
 air.velocity = -4,-6
 air.hittime = 5
-getpower = 0, 0
+getpower = 15,7
 fall = 0
 persistent = 0
 
@@ -1225,7 +1225,7 @@ airguard.velocity = -1.9,-.8
 air.type = Low
 air.velocity = -4,-2
 air.hittime = 5
-getpower = 0, 0
+getpower = 15,7
 fall = 0
 persistent = 0
 
@@ -1243,7 +1243,7 @@ type    = A
 movetype= A
 physics = S
 juggle  = 1
-poweradd= 40
+poweradd= 0
 velset = 0,0
 ctrl = 0
 anim = 255
@@ -1307,7 +1307,7 @@ airguard.velocity = -1.9,-.8
 air.type = Low
 air.velocity = -2,-8
 air.hittime = 25
-getpower = 0, 0
+getpower = 30,15
 fall = 1
 fall.recover = 0
 persistent = 0
@@ -1329,7 +1329,7 @@ type    = C
 movetype= A
 physics = C
 juggle  = 5
-poweradd= 5
+poweradd= 0
 ctrl = 0
 anim = 410
 
@@ -1383,7 +1383,7 @@ airguard.velocity = -1.9,-.8
 air.type = High
 air.velocity = -2,3
 air.hittime = 0
-getpower = 0, 0
+getpower = 30,15
 fall = 0
 air.fall = 1
 
@@ -1403,7 +1403,7 @@ type    = C
 movetype= A
 physics = C
 juggle  = 6
-poweradd= 30
+poweradd= 0
 ctrl = 0
 anim = 420
 
@@ -1444,7 +1444,7 @@ air.type = High
 ground.cornerpush.veloff = .25
 air.velocity = -1.8,-3
 yaccel = .35
-getpower = 0, 0
+getpower = 30,15
 fall = 0
 air.fall = 1
 air.fall.recover = 0
@@ -1463,7 +1463,7 @@ type    = C
 movetype= A
 physics = C
 juggle  = 8
-poweradd= 5
+poweradd= 0
 ctrl = 0
 anim = 430
 
@@ -1510,7 +1510,7 @@ airguard.velocity = -1.9,-.8
 air.type = High
 air.velocity = -1.4,-3
 air.hittime = 12
-getpower = 0, 0
+getpower = 30,15
 fall = 0
 
 [State 430, 5]
@@ -1527,7 +1527,7 @@ type    = C
 movetype= A
 physics = C
 juggle  = 8
-poweradd= 10
+poweradd= 0
 sprpriority = 5
 ctrl = 0
 anim = 440
@@ -1574,7 +1574,7 @@ airguard.velocity = -1.9,-.8
 air.type = Low
 air.velocity = -1.4,-3
 air.hittime = 12
-getpower = 0, 0
+getpower = 30,15
 fall = 1
 
 [State 440, 5]
@@ -1592,7 +1592,7 @@ type    = C
 movetype= A
 physics = C
 juggle  = 8
-poweradd= 30
+poweradd= 0
 ctrl = 0
 anim = 450
 
@@ -1667,7 +1667,7 @@ guard.slidetime = 12
 airguard.velocity = -1.9,-.8
 air.velocity = 3,-3
 air.hittime = 12
-getpower = 0, 0
+getpower = 15,7
 fall = 0
 
 [State 450, 1]
@@ -1694,7 +1694,7 @@ guard.slidetime = 12
 airguard.velocity = -1.9,-.8
 air.velocity = -1,-2
 air.hittime = 12
-getpower = 0, 0
+getpower = 15,7
 fall = 1
 fall.recover = 0
 persistent = 0
@@ -1713,7 +1713,7 @@ type    = A
 movetype= A
 physics = A
 juggle  = 2
-poweradd= 5
+poweradd= 0
 ctrl = 0
 anim = 600
 
@@ -1758,7 +1758,7 @@ ground.velocity = -8,0
 airguard.velocity = -1.9,-.8
 air.velocity = -5,1
 air.hittime = 12
-getpower = 0, 0
+getpower = 30,15
 fall = 0
 ;---------------------------------------------------------------------------
 ; Jump Medium Punch
@@ -1768,7 +1768,7 @@ type    = A
 movetype= A
 physics = A
 juggle  = 4
-poweradd= 20
+poweradd= 0
 ctrl = 0
 anim = 610
 
@@ -1813,7 +1813,7 @@ ground.velocity = -8,0
 airguard.velocity = -1.9,-.8
 air.velocity = -5,1
 air.hittime = 20
-getpower = 0, 0
+getpower = 30,15
 fall = 0
 ;---------------------------------------------------------------------------
 ; Jump Strong Punch
@@ -1823,7 +1823,7 @@ type    = A
 movetype= A
 physics = A
 juggle  = 4
-poweradd= 25
+poweradd= 0
 ctrl = 0
 anim = 620
 
@@ -1868,7 +1868,7 @@ ground.velocity = -3,0
 airguard.velocity = -1.9,-.8
 air.velocity = -5,-8
 air.hittime = 20
-getpower = 0, 0
+getpower = 30,15
 fall = 0
 air.fall = 1
 ;---------------------------------------------------------------------------
@@ -1879,7 +1879,7 @@ type    = A
 movetype= A
 physics = A
 juggle  = 3
-poweradd= 20
+poweradd= 0
 ctrl = 0
 anim = 630
 
@@ -1917,7 +1917,7 @@ ground.velocity = -2,0
 airguard.velocity = -1.9,-.8
 air.velocity = -5,1
 air.hittime = 16
-getpower = 0, 0
+getpower = 30,15
 fall = 0
 
 ;---------------------------------------------------------------------------
@@ -1928,7 +1928,7 @@ type    = A
 movetype= A
 physics = A
 juggle  = 7
-poweradd= 25
+poweradd= 0
 ctrl = 0
 anim = 640
 
@@ -1974,7 +1974,7 @@ ground.velocity = -8,0
 airguard.velocity = -1.9,-.8
 air.velocity = -3,-5
 air.hittime = 12
-getpower = 0, 0
+getpower = 30,15
 fall = 0
 air.hittime = 12
 getpower = 0, 0
@@ -1989,7 +1989,7 @@ type    = A
 movetype= A
 physics = A
 juggle  = 3
-poweradd= 30
+poweradd= 0
 ctrl = 0
 anim = 650
 
@@ -2027,7 +2027,7 @@ ground.velocity = -2,0
 airguard.velocity = -1.9,-.8
 air.velocity = -5,1
 air.hittime = 12
-getpower = 0, 0
+getpower = 30,15
 fall = 0
 
 ;---------------------------------------------------------------------------
@@ -2038,7 +2038,7 @@ type    = A
 movetype= A
 physics = A
 juggle  = 4
-poweradd= 40
+poweradd= 0
 ctrl = 0
 anim = 655
 
@@ -2077,7 +2077,7 @@ ground.velocity = -2,0
 airguard.velocity = -1.9,-.8
 air.velocity = -5,-3
 air.hittime = 20
-getpower = 0, 0
+getpower = 30,15
 fall = 0
 air.fall = 1
 air.fall.recover = 0
@@ -2214,7 +2214,7 @@ p2getp1state = 1
 id = 800
 envshake.time = 20
 envshake.freq =20
-getpower = 0, 0
+getpower = 60,30
 
 [State 800, 5]
 type = Changestate
@@ -2268,7 +2268,7 @@ p2getp1state = 1
 id = 800
 envshake.time = 20
 envshake.freq =20
-getpower = 0, 0
+getpower = 60,30
 
 [State 801, 5]
 type = Changestate
@@ -2531,7 +2531,7 @@ id = 850
 ground.hittime = 80
 envshake.time = 20
 envshake.freq =20
-getpower = 0, 0
+getpower = 60,30
 
 [State 850, 5]
 type = Changestate

@@ -321,7 +321,7 @@ juggle  = 1
 velset = 0,0
 ctrl = 0
 anim = 200
-poweradd = 20
+poweradd = 0
 sprpriority = 2
 facep2 = 1
 
@@ -335,6 +335,7 @@ type = HitDef
 trigger1 = AnimElem = 3
 attr = S, NA ;立ち通常打撃（Standing, Normal Attack）
 damage = 23, 0
+getpower = 30,15
 animtype = Light
 guardflag = MA
 hitflag = MAF
@@ -366,7 +367,7 @@ type    = S
 movetype= A
 physics = S
 juggle  = 4
-poweradd= 65
+poweradd= 0
 ctrl = 0
 velset = 0,0
 anim = 210
@@ -404,6 +405,7 @@ trigger1 = AnimElem = 3
 attr = S, NA
 animtype  = Medium
 damage    = 57
+getpower = 30,15
 guardflag = MA
 pausetime = 12,12
 sparkno = 1
@@ -429,7 +431,7 @@ type    = S
 movetype= A
 physics = S
 juggle  = 4
-poweradd= 22
+poweradd= 0
 ctrl = 0
 velset = 0,0
 anim = 230
@@ -446,6 +448,7 @@ trigger1 = Time = 0
 attr = S, NA
 animtype  = Medium
 damage    = 26
+getpower = 30,15
 guardflag = MA
 pausetime = 12,12
 sparkno = 0
@@ -471,7 +474,7 @@ type    = S
 movetype= A
 physics = S
 juggle  = 5
-poweradd= 65
+poweradd= 0
 ctrl = 0
 velset = 0,0
 anim = 240
@@ -499,6 +502,7 @@ trigger1 = Time = 0
 attr = S, NA
 animtype  = Medium
 damage    = 70;63
+getpower = 30,15
 guardflag = MA
 pausetime = 12,12
 sparkno = 1
@@ -525,7 +529,7 @@ type    = C
 movetype= A
 physics = C
 juggle  = 5
-poweradd= 15
+poweradd= 0
 ctrl = 0
 anim = 400
 sprpriority = 2
@@ -541,6 +545,7 @@ type = HitDef
 trigger1 = Time = 0
 attr = C, NA ;しゃがみ通常打撃（Crouching, Normal Attack）
 damage    = 23
+getpower = 30,15
 priority  = 3
 animtype  = Light
 hitflag = MAF
@@ -574,7 +579,7 @@ type    = C
 movetype= A
 physics = C
 juggle  = 6
-poweradd= 50
+poweradd= 0
 ctrl = 0
 anim = 410
 sprpriority = 2
@@ -589,6 +594,7 @@ type = HitDef
 trigger1 = AnimElem = 3
 attr = C, NA
 damage    = 37
+getpower = 15,7
 animtype  = Medium
 hitflag = MAF
 guardflag = M
@@ -608,6 +614,7 @@ type = HitDef
 trigger1 = AnimElem = 4
 attr = C, NA
 damage    = 36
+getpower = 15,7
 animtype  = Medium
 hitflag = MAF
 guardflag = MA
@@ -634,7 +641,7 @@ type    = C
 movetype= A
 physics = C
 juggle  = 5
-poweradd= 22
+poweradd= 0
 ctrl = 0
 anim = 430
 sprpriority = 2
@@ -649,6 +656,7 @@ type = HitDef
 trigger1 = Time = 0
 attr = C, NA
 damage    = 28
+getpower = 30,15
 animtype  = Light
 hitflag = MAFD
 guardflag = L
@@ -679,7 +687,7 @@ type    = C
 movetype= A
 physics = C
 juggle  = 7
-poweradd= 70
+poweradd= 0
 ctrl = 0
 anim = 440
 sprpriority = 2
@@ -694,6 +702,7 @@ type = HitDef
 trigger1 = Time = 0
 attr = C, NA
 damage    = 72
+getpower = 30,15
 hitflag = MAFD
 guardflag = L
 pausetime = 12,12
@@ -723,7 +732,7 @@ type    = A
 movetype= A
 physics = A
 juggle  = 2
-poweradd= 11
+poweradd= 0
 ctrl = 0
 anim = 600
 sprpriority = 2
@@ -738,6 +747,7 @@ type = HitDef
 trigger1 = Time = 0
 attr = A, NA ;空中通常打撃（Air, Normal Attack）
 damage    = 20
+getpower = 30,15
 guardflag = HA ;相手はしゃがみガードが出来ない
 priority = 3
 pausetime = 7,8
@@ -763,7 +773,7 @@ type    = A
 movetype= A
 physics = A
 juggle  = 4
-poweradd= 65
+poweradd= 0
 ctrl = 0
 anim = 610
 sprpriority = 2
@@ -778,6 +788,7 @@ type = HitDef
 trigger1 = Time = 0
 attr = A, NA
 damage = 72
+getpower = 30,15
 guardflag = HA
 priority = 4
 pausetime = 12,12
@@ -799,7 +810,7 @@ type    = A
 movetype= A
 physics = A
 juggle  = 3
-poweradd= 20
+poweradd= 0
 ctrl = 0
 anim = 630
 sprpriority = 2
@@ -814,6 +825,7 @@ type = HitDef
 trigger1 = Time = 0
 attr = A, NA
 damage = 26
+getpower = 30,15
 guardflag = HA
 priority = 3
 pausetime = 8,8
@@ -834,7 +846,7 @@ type    = A
 movetype= A
 physics = A
 juggle  = 4
-poweradd= 65
+poweradd= 0
 ctrl = 0
 anim = 640
 sprpriority = 2
@@ -849,6 +861,7 @@ type = HitDef
 trigger1 = Time = 0
 attr = A, NA
 damage    = 70
+getpower = 30,15
 guardflag = HA
 priority = 4
 pausetime = 12,12
@@ -881,6 +894,7 @@ sprpriority = 2
 
 [State 800, ヒット定義（投げ用）]
 type = HitDef
+getpower = 60,30
 trigger1 = Time = 0
 attr = S, NT ;立ち通常投げ（Standing, Normal Throw）
 hitflag = M-  ;マイナスが付加されてるので相手が食らい中の時は掴めない
@@ -907,7 +921,7 @@ type    = S
 movetype= A
 physics = N
 anim = 805
-poweradd = 60
+poweradd = 0
 
 [State 1905, 無敵]
 type = NotHitBy
@@ -1200,7 +1214,7 @@ type    = S
 movetype= A
 physics = S
 juggle  = 4
-poweradd= 110
+poweradd= 0
 velset = 0,0
 anim = 1000
 ctrl = 0
@@ -1258,6 +1272,7 @@ trigger1 = Time = 0;trigger1 = AnimElem = 5
 attr = S, SA ;立ち必殺技（Standing, Special Attack）
 animtype  = Hard
 damage    = 80, 4
+getpower = 60,30
 priority  = 5
 guardflag = MA
 pausetime = 15,15
@@ -1307,7 +1322,7 @@ type    = S
 movetype= A
 physics = S
 juggle  = 4
-poweradd= 120
+poweradd= 0
 velset = 0,0
 anim = 1010
 ctrl = 0
@@ -1363,6 +1378,7 @@ trigger1 = Time = 0;trigger1 = AnimElem = 5
 attr = S, SA
 animtype  = Hard
 damage    = 90, 4
+getpower = 60,30
 priority  = 5
 guardflag = MA
 pausetime = 12,12
@@ -1892,7 +1908,7 @@ type    = A
 movetype= A
 physics = A
 juggle  = 3
-poweradd= 100
+poweradd= 0
 ctrl = 0
 anim = 1030
 sprpriority = 2
@@ -1943,6 +1959,7 @@ trigger1 = Time = 0
 attr = A, SA
 animtype  = DiagUp
 damage = 80, 5
+getpower = 60,30
 guardflag = HA
 priority = 3
 pausetime = 12,12
@@ -1971,7 +1988,7 @@ type    = A
 movetype= A
 physics = A
 juggle  = 3
-poweradd= 100
+poweradd= 0
 ctrl = 0
 anim = 1030
 sprpriority = 2
@@ -2022,6 +2039,7 @@ trigger1 = Time = 0
 attr = A, SA
 animtype  = DiagUp
 damage = 90, 5
+getpower = 60,30
 guardflag = HA
 priority = 3
 pausetime = 12,12
@@ -2186,7 +2204,7 @@ type    = S
 movetype= A
 physics = S
 juggle  = 4
-poweradd= 110
+poweradd= 0
 velset = 0,0
 anim = 1050
 ctrl = 0
@@ -2221,6 +2239,7 @@ trigger1 = Time = 0
 attr = A, SA
 animtype  = DiagUp;Medium
 damage    = 80, 4
+getpower = 30,15
 priority  = 5
 guardflag = MA
 pausetime = 12,12
@@ -2341,6 +2360,7 @@ trigger1 = Time = 0
 attr = A, SA
 animtype  = Med
 damage    = 20 + (prevstateno = 1061)*5, 2 ;（※７）;35 + (prevstateno = 1061)*5, 2 ;（※７）
+getpower = 30,15
 priority  = 4
 guardflag = MA
 pausetime = 12,12
@@ -2397,7 +2417,7 @@ type    = S
 movetype= A
 physics = S
 juggle  = 4
-poweradd= 120
+poweradd= 0
 velset = 0,0
 anim = 1060
 ctrl = 0
@@ -2432,6 +2452,7 @@ trigger1 = Time = 0
 attr = A, SA
 animtype  = DiagUp;Medium
 damage    = 90, 4
+getpower = 60,30
 priority  = 5
 guardflag = MA
 pausetime = 12,12
@@ -2715,7 +2736,7 @@ type    = S
 movetype= A
 physics = S
 juggle  = 4
-poweradd= 110
+poweradd= 0
 velset = 0,0
 anim = 1100
 ctrl = 0
@@ -2737,6 +2758,7 @@ trigger1 = Time = 0
 attr = S, SA
 animtype  = Med
 damage    = 40, 4;52, 4
+getpower = 30,15
 priority  = 5
 guardflag = HA;guardflag = MA
 pausetime = 0,10;4,8
@@ -2759,6 +2781,7 @@ trigger1 = AnimElem = 7
 attr = S, SA
 animtype  = Up ;相手のアニメが『垂直吹っ飛び』になる（相手のairに[Begin Action 5051]がある場合）
 damage    = 40, 4;60, 4
+getpower = 30,15
 priority  = 5
 guardflag = HA;guardflag = MA
 pausetime = 10,10;12,12
@@ -2794,7 +2817,7 @@ type    = S
 movetype= A
 physics = S
 juggle  = 4
-poweradd= 120
+poweradd= 0
 velset = 0,0
 anim = 1110
 ctrl = 0
@@ -2816,6 +2839,7 @@ trigger1 = Time = 0
 attr = S, SA
 animtype  = Med
 damage    = 40, 4;57, 4
+getpower = 30,15
 priority  = 5
 guardflag = HA;guardflag = MA
 pausetime = 1,10;4,8
@@ -2838,6 +2862,7 @@ trigger1 = AnimElem = 7
 attr = S, SA
 animtype  = Up
 damage    = 50, 4;75, 4
+getpower = 30,15
 priority  = 5
 guardflag = HA;guardflag = MA
 pausetime = 10,10;12,12
@@ -4459,7 +4484,7 @@ ctrl = 1
 type    = S
 movetype= A
 physics = S
-poweradd= 100
+poweradd= 20
 velset = 0,0
 anim = 1300;1300
 ctrl = 0
@@ -4509,7 +4534,7 @@ type = Projectile
 trigger1 = AnimElem = 7
 attr = S, SP ;立ち必殺飛び道具（Standing, Special Projectile）
 damage = ceil(50+var(5)*10),7 ;Var(5)をここなどに代入すれば活かされる ceil(70+var(5)*10),7 
-getpower = 30,10
+getpower = 30,15
 animtype = Hard
 pausetime = 0,20;12
 ;-----------------------------------Projectile専用のパラメータ
@@ -4556,7 +4581,7 @@ ctrl = 1
 type    = S
 movetype= A
 physics = S
-poweradd= 100
+poweradd= 20
 velset = 0,0
 anim = 1310;1300
 ctrl = 0
@@ -4600,7 +4625,7 @@ trigger2 = Time = 68
 trigger3 = Time = 77
 attr = S, SP ;立ち必殺飛び道具（Standing, Special Projectile）
 damage = 15,2;ceil(50+var(5)*10),7 ;Var(5)をここなどに代入すれば活かされる ceil(70+var(5)*10),7 
-getpower = 3,1
+getpower = 10,5
 animtype = Hard
 pausetime = 0,12
 ;-----------------------------------Projectile専用のパラメータ
@@ -4644,7 +4669,7 @@ trigger3 = Time = 74
 trigger4 = Time = 83
 attr = S, SP ;立ち必殺飛び道具（Standing, Special Projectile）
 damage = 15,2;ceil(50+var(5)*10),7 ;Var(5)をここなどに代入すれば活かされる ceil(70+var(5)*10),7 
-getpower = 3,1
+getpower = 10,5
 animtype = Hard
 pausetime = 0,15;0,12
 ;-----------------------------------Projectile専用のパラメータ
@@ -4684,7 +4709,7 @@ trigger2 = Time = 71
 trigger3 = Time = 80
 attr = S, SP ;立ち必殺飛び道具（Standing, Special Projectile）
 damage = 15,2;ceil(50+var(5)*10),7 ;Var(5)をここなどに代入すれば活かされる ceil(70+var(5)*10),7 
-getpower = 3,1
+getpower = 10,5
 animtype = Hard
 pausetime = 0,12
 ;-----------------------------------Projectile専用のパラメータ

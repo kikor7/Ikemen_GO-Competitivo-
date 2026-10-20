@@ -1,0 +1,30 @@
+<#f0f000>:Special Moves:</>
+Ray			_QCB^X
+Surprise Roar			_QCF^A
+Thunder Cloud			_QCF^X
+Lightning Rod			_QCB^A
+Rising Shock			_DSF^X
+Roll Forward			^A_+^X
+Throw			^X_+^Y
+
+<#f0f000>:Hyper Moves:</>
+Serpent's Overload <#f00000>(3000)</>			_F_D_B_F_D_B^A_+^X
+MAX Millennium Clap <#f00000>(2000)</>			_QCB_QCF^X_+^Y
+MAX Illuminative Sparks <#f00000>(2000)</>			_QCF_QCF^X_+^Y
+MAX Lightning Storm <#f00000>(2000)</>			_QCB_QCB^X_+^Y
+MAX Slice'n Dice <#f00000>(2000)</>			_QCF_QCF^A_+^B
+MAX Lightning Barrage <#f00000>(2000)</>			_QCB_QCB^A_+^B
+Millennium Clap <#f00000>(1000)</>			_QCB_QCF^X
+Illuminative Sparks <#f00000>(1000)</>			_QCF_QCF^X
+Lightning Storm <#f00000>(1000)</>			_QCB_QCB^X
+Slice'n Dice <#f00000>(1000)</>			_QCF_QCF^A
+Lightning Barrage <#f00000>(1000)</>			_QCB_QCB^A
+EX Ray <#f00000>(500)</>			_QCB^X_+^Y
+EX Surprise Roar <#f00000>(500)</>			_QCF^A_+^B
+EX Thunder Cloud <#f00000>(500)</>			_QCF^X_+^Y
+EX Static Slash <#f00000>(500)</>			_QCB^A_+^B
+EX Rising Shock <#f00000>(500)</>			_DSF^X_+^Y
+Zero Counter <#f00000>(1000)</>			_B_DB_D^X
+Zero Counter <#f00000>(1000)</>			^B_+^Y
+Custom Combo <#f00000>(1000)</>			^C_+^Z
+Fall Recovery (Air) <#f00000>(2000)</>			^A_+^X

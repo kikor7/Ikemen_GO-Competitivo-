@@ -750,7 +750,7 @@ physics = A
 juggle  = 2
 ctrl = 0
 anim = 11600
-poweradd = 30
+poweradd = 0
 sprpriority = 2
 ;-------------------------------------------------
 [State 0, ScreenBound]
@@ -877,7 +877,7 @@ physics = A
 juggle  = 2
 ctrl = 0
 anim = 11610
-poweradd = 40
+poweradd = 0
 sprpriority = 2
 
 [State 0, PlaySnd]
@@ -961,7 +961,7 @@ physics = A
 juggle  = 2
 ctrl = 0
 anim = 11610
-poweradd = 40
+poweradd = 0
 sprpriority = 2
 
 [State 0, PlaySnd]

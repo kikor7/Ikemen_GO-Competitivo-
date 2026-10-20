@@ -12,6 +12,7 @@ author="Mmaluco10"
 pal.defaults=1,4,2,6,5,3,9,7,8
 
 [Files]
+movelist = movelist.dat
 sprite=atsugessho.sff
 sound=atsugessho.snd
 anim=atsugessho.air

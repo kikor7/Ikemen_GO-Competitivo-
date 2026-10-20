@@ -222,7 +222,7 @@ juggle  = 1
 velset = 0,0
 ctrl = 0
 anim = 200
-poweradd = 50
+poweradd = 0
 sprpriority = 2
 
 [State 60, Whip FX]
@@ -338,7 +338,7 @@ juggle  = 1
 velset = 0,0
 ctrl = 0
 anim = 201
-poweradd = 50
+poweradd = 0
 sprpriority = 1
 
 [State 60, Whip FX]
@@ -554,7 +554,7 @@ juggle  = 1
 velset = 0,0
 ctrl = 0
 anim = 210
-poweradd = 50
+poweradd = 0
 sprpriority = 1
 
 
@@ -642,7 +642,7 @@ ctrl = 1
 type    = S
 movetype = A
 physics = N
-poweradd = 50
+poweradd = 0
 ctrl = 0
 velset = 0,0
 anim = 220
@@ -775,7 +775,7 @@ physics = N
 juggle  = 1
 ctrl = 0
 anim = 300
-poweradd = 50
+poweradd = 0
 sprpriority = 2
 
 [State 0, AssertSpecial]
@@ -886,7 +886,7 @@ physics = N
 juggle  = 1
 ctrl = 0
 anim = 210
-poweradd = 50
+poweradd = 0
 sprpriority = 1
 
 
@@ -984,7 +984,7 @@ ctrl = 1
 type    = S
 movetype = A
 physics = N
-poweradd = 50
+poweradd = 0
 ctrl = 0
 anim = 220
 sprpriority = 1

@@ -6,6 +6,7 @@ MugenVersion = 2001,04,14
 Author       = "Shiroto"
 
 [Files]
+movelist = movelist.dat
 cmd       = osiris.cmd
 cns       = osiris.cns
 st        = osiris.cns   ;common_re.act

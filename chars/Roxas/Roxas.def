@@ -14,6 +14,7 @@ localcoord = 320,240        ;Local coordinate space width and height
 
 ; Files for the player
 [Files] 
+movelist = movelist.dat
 cmd     = Roxas.cmd           ;Command set
 cns     = Roxas.cns           ;Constants
 st      = Roxas.cns            ;States

@@ -44,6 +44,7 @@ offset = 0, 0
 postype = p1
 attr = S, NA
 damage = 100, 10
+getpower = 30,15
 animtype = Hard
 guardflag = MA
 hitflag = MAFD
@@ -231,6 +232,7 @@ offset = 0, 0
 postype = p1
 attr = S, NA
 damage = 200, 40
+getpower = 30,15
 animtype = Hard
 guardflag = H
 hitflag = MAFD
@@ -423,6 +425,7 @@ offset = 0, 0
 postype = p1
 attr = S, NA
 damage = 250, 0
+getpower = 30,15
 animtype = Hard
 guardflag = H
 hitflag = MAFD
@@ -468,6 +471,7 @@ offset = 0, 0
 postype = p1
 attr = S, NA
 damage = 250, 250
+getpower = 30,15
 animtype = Hard
 guardflag = 
 hitflag = MAFD
@@ -1040,6 +1044,7 @@ trigger1 = time = 0
 trigger1 = root,var(55) <= 2
 attr = S, NP
 damage = 50, 5
+getpower = 15,7
 animtype = Hard
 guardflag = MA
 hitflag = MAFD
@@ -1068,6 +1073,7 @@ trigger1 = time = 0
 trigger1 = root,var(55) > 2
 attr = S, NP
 damage = 50, 5
+getpower = 15,7
 animtype = Hard
 guardflag = H
 hitflag = MAFD
@@ -1208,6 +1214,7 @@ trigger1 = time = 0
 trigger1 = root,var(55) <= 2
 attr = S, NP
 damage = 50, 5
+getpower = 15,7
 animtype = Hard
 guardflag = MA
 hitflag = MAFD
@@ -1236,6 +1243,7 @@ trigger1 = time = 0
 trigger1 = root,var(55) > 2
 attr = S, NP
 damage = 50, 5
+getpower = 15,7
 animtype = Hard
 guardflag = H
 hitflag = MAFD
@@ -1390,6 +1398,7 @@ trigger1 = time = 0
 trigger1 = root,var(55) <= 2
 attr = S, NP
 damage = 50, 5
+getpower = 30,15
 animtype = Hard
 guardflag = MA
 hitflag = MAFD
@@ -1418,6 +1427,7 @@ trigger1 = time = 0
 trigger1 = root,var(55) > 2
 attr = S, NP
 damage = 50, 5
+getpower = 30,15
 animtype = Hard
 guardflag = H
 hitflag = MAFD
@@ -1560,6 +1570,7 @@ trigger1 = time = 0
 trigger1 = root,var(55) <= 2
 attr = S, NP
 damage = 50, 5
+getpower = 30,15
 animtype = Hard
 guardflag = MA
 hitflag = MAFD
@@ -1589,6 +1600,7 @@ trigger1 = time = 0
 trigger1 = root,var(55) > 2
 attr = S, NP
 damage = 50, 5
+getpower = 30,15
 animtype = Hard
 guardflag = H
 hitflag = MAFD
@@ -1991,6 +2003,7 @@ trigger1 = time = 0
 trigger1 = root,var(55) < 2
 attr = S, NP
 damage = 0, 0
+getpower = 30,15
 animtype = Hard
 guardflag = MA
 hitflag = MAFP
@@ -2022,6 +2035,7 @@ trigger1 = time = 0
 trigger1 = root,var(55) >= 2
 attr = S, NP
 damage = 0, 0
+getpower = 30,15
 animtype = Hard
 guardflag = 
 hitflag = MAFP
@@ -2814,6 +2828,7 @@ trigger1 = time = 0
 trigger1 = root,var(55) = 1
 attr = S, HP
 damage = 180, 0
+getpower = 30,15
 animtype = Hard
 guardflag = MA
 hitflag = MAFP
@@ -2844,6 +2859,7 @@ trigger1 = time = 0
 trigger1 = root,var(55) > 1
 attr = S, HP
 damage = 180, 180
+getpower = 30,15
 animtype = Hard
 guardflag = 
 hitflag = MAFP

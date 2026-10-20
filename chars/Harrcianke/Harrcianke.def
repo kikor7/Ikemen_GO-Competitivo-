@@ -7,6 +7,7 @@ author = "Wani_Shimamura"          ;島村鰐
 Pal.Defaults = 4,5,6,1,2,3
 
 [Files]
+movelist = movelist.dat
 cmd = Harrcianke.cmd
 cns = Harrcianke.cns
 st  = Harrcianke.cns

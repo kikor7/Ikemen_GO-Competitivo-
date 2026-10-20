@@ -160,7 +160,7 @@ juggle  = 1                      ;Number of air juggle points move takes
 velset = 0,0                     ;Set velocity (x,y) (Def: no change)
 ctrl = 0                         ;Set ctrl (Def: no change)
 anim = 200                       ;Change animation (Def: no change)
-poweradd = 10                    ;Power to add (Def: 0)
+poweradd = 0                    ;Power to add (Def: 0)
 sprpriority = 2                 ;Set p1's sprite layering priority to 2 (in front)
 
 [State 200, 1]
@@ -168,6 +168,7 @@ type = HitDef
 trigger1 = Time = 0
 attr = S, NA                     ;Attribute: Standing, Normal Attack
 damage = 46, 0                   ;Damage that move inflicts, guard damage
+getpower = 30,15
 animtype = Medium                ;Animation type: Light, Medium, Heavy, Back (def: Light)
 guardflag = MA                   ;Flags on how move is to be guarded against
 hitflag = MAF                    ;Flags of conditions that move can hit
@@ -223,7 +224,7 @@ juggle  = 1                      ;Number of air juggle points move takes
 velset = 0,0                     ;Set velocity (x,y) (Def: no change)
 ctrl = 0                         ;Set ctrl (Def: no change)
 anim = 210                       ;Change animation (Def: no change)
-poweradd = 10                    ;Power to add (Def: 0)
+poweradd = 0                    ;Power to add (Def: 0)
 sprpriority = 2                 ;Set p1's sprite layering priority to 2 (in front)
 
 [State 200, 1]
@@ -231,6 +232,7 @@ type = HitDef
 trigger1 = Time = 0
 attr = S, NA                     ;Attribute: Standing, Normal Attack
 damage = 49, 0                   ;Damage that move inflicts, guard damage
+getpower = 30,15
 animtype = Hard               ;Animation type: Light, Medium, Heavy, Back (def: Light)
 guardflag = MA                   ;Flags on how move is to be guarded against
 hitflag = MAF                    ;Flags of conditions that move can hit
@@ -277,6 +279,24 @@ value = 0
 ctrl = 1
 ;---------------------------------------------------------------------------
 ; Buff
+;---------------------------------------------------------------------------
+; Recuperacion tras esquivar/rodar: sin control y golpeable unos frames,
+; para que no se pueda encadenar sin riesgo.
+;---------------------------------------------------------------------------
+[Statedef 1001]
+type = S
+movetype = I
+physics = S
+ctrl = 0
+anim = 0
+velset = 0,0
+
+[State 1001, Fin de la recuperacion]
+type = ChangeState
+trigger1 = Time >= 12
+value = 0
+ctrl = 1
+
 [Statedef 230]
 type    = S                      ;State-type: S-stand, C-crouch, A-air, L-liedown
 movetype= I                      ;Move-type: A-attack, I-idle, H-gethit
@@ -303,8 +323,8 @@ value = 2
 [State 200, 3]
 type = ChangeState
 trigger1 = AnimTime = 0
-value = 0
-ctrl = 1
+value = 1001
+ctrl = 0
 ;==================================================================================
 ;==================================================================================
 ;==================================================================================

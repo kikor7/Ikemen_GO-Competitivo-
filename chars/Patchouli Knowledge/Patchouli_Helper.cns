@@ -248,7 +248,7 @@ Guard.Kill        = 0				;この攻撃をガードで殺せるか
 Fall              = 0				;地面に叩き付けられるか
 Air.Fall          = 1				;地面に叩き付けられるか
 Fall.RecoverTime  = Floor(60*Root,FVar(0))	;リカバーできるか
-GetPower          = 150,150			;ヒット時のパワー増減
+getpower = 15,7;ヒット時のパワー増減
 GivePower         = 0,0
 NumHits           = 1
 ID                = 1
@@ -677,7 +677,7 @@ Guard.Kill        = 0				;この攻撃をガードで殺せるか
 Fall              = 1				;地面に叩き付けられるか
 Air.Fall          = 1				;地面に叩き付けられるか
 Fall.RecoverTime  = Floor(30*Root,FVar(0))	;リカバーできるか
-GetPower          = 50,50			;ヒット時のパワー増減
+getpower = 30,15;ヒット時のパワー増減
 GivePower         = 0,0
 NumHits           = 1
 ID                = 1
@@ -987,7 +987,7 @@ Guard.Kill        = 0				;この攻撃をガードで殺せるか
 Fall              = 1				;地面に叩き付けられるか
 Air.Fall          = 1				;地面に叩き付けられるか
 Fall.RecoverTime  = Floor(60*Root,FVar(0))	;リカバーできるか
-GetPower          = 50,50			;ヒット時のパワー増減
+getpower = 30,15;ヒット時のパワー増減
 GivePower         = 0,0
 NumHits           = 1
 ID                = 1
@@ -1620,7 +1620,7 @@ Guard.Kill        = 0				;この攻撃をガードで殺せるか
 Fall              = 0				;地面に叩き付けられるか
 Air.Fall          = 1				;地面に叩き付けられるか
 Fall.RecoverTime  = Floor(25*Root,FVar(0))	;リカバーできるか
-GetPower          = 20,20			;ヒット時のパワー増減
+getpower = 30,15;ヒット時のパワー増減
 GivePower         = 0,0
 NumHits           = 1
 ID                = 1
@@ -2031,7 +2031,7 @@ Guard.Kill        = 0				;この攻撃をガードで殺せるか
 Fall              = 0				;地面に叩き付けられるか
 Air.Fall          = 1				;地面に叩き付けられるか
 Fall.RecoverTime  = Floor(60*Root,FVar(0))	;リカバーできるか
-GetPower          = 150,150			;ヒット時のパワー増減
+getpower = 30,15;ヒット時のパワー増減
 GivePower         = 0,0
 NumHits           = 1
 ID                = 1
@@ -2358,7 +2358,7 @@ Guard.Kill        = 0				;この攻撃をガードで殺せるか
 Fall              = 1				;地面に叩き付けられるか
 Air.Fall          = 1				;地面に叩き付けられるか
 Fall.RecoverTime  = Floor(40*Root,FVar(0))	;リカバーできるか
-GetPower          = 40,40			;ヒット時のパワー増減
+getpower = 30,15;ヒット時のパワー増減
 GivePower         = 0,0
 NumHits           = 1
 ID                = 1
@@ -2696,7 +2696,7 @@ Guard.Kill        = 0				;この攻撃をガードで殺せるか
 Fall              = 0				;地面に叩き付けられるか
 Air.Fall          = 1				;地面に叩き付けられるか
 Fall.RecoverTime  = Floor(25*Root,FVar(0))	;リカバーできるか
-GetPower          = 120,120			;ヒット時のパワー増減
+getpower = 15,7;ヒット時のパワー増減
 GivePower         = 0,0
 NumHits           = 1
 ID                = 1
@@ -2729,7 +2729,7 @@ Guard.Kill        = 0				;この攻撃をガードで殺せるか
 Fall              = 0				;地面に叩き付けられるか
 Air.Fall          = 1				;地面に叩き付けられるか
 Fall.RecoverTime  = Floor(25*Root,FVar(0))	;リカバーできるか
-GetPower          = 80,80			;ヒット時のパワー増減
+getpower = 15,7;ヒット時のパワー増減
 GivePower         = 0,0
 NumHits           = 1
 ID                = 1
@@ -3218,7 +3218,7 @@ Guard.Kill        = 0				;この攻撃をガードで殺せるか
 Fall              = 0				;地面に叩き付けられるか
 Air.Fall          = 1				;地面に叩き付けられるか
 Fall.RecoverTime  = Floor(25*Root,FVar(0))	;リカバーできるか
-GetPower          = 50,50			;ヒット時のパワー増減
+getpower = 30,15;ヒット時のパワー増減
 GivePower         = 0,0
 NumHits           = 1
 ID                = 1
@@ -3662,7 +3662,7 @@ Guard.Kill        = 0				;この攻撃をガードで殺せるか
 Fall              = 1				;地面に叩き付けられるか
 Air.Fall          = 1				;地面に叩き付けられるか
 Fall.RecoverTime  = Floor(40*Root,FVar(0))	;リカバーできるか
-GetPower          = 200,200			;ヒット時のパワー増減
+getpower = 30,15;ヒット時のパワー増減
 GivePower         = 0,0
 NumHits           = 1
 ID                = 1
@@ -4122,7 +4122,7 @@ Guard.Kill        = 0				;この攻撃をガードで殺せるか
 Fall              = 1				;地面に叩き付けられるか
 Air.Fall          = 1				;地面に叩き付けられるか
 Fall.RecoverTime  = Floor(40*Root,FVar(0))	;リカバーできるか
-GetPower          = 200,200			;ヒット時のパワー増減
+getpower = 30,15;ヒット時のパワー増減
 GivePower         = 0,0
 NumHits           = 1
 ID                = 1
@@ -4837,7 +4837,7 @@ Guard.Kill        = 0				;この攻撃をガードで殺せるか
 Fall              = 1				;地面に叩き付けられるか
 Air.Fall          = 1				;地面に叩き付けられるか
 Fall.RecoverTime  = Floor(20*Root,FVar(0))	;リカバーできるか
-GetPower          = 80,80			;ヒット時のパワー増減
+getpower = 10,5;ヒット時のパワー増減
 GivePower         = 0,0
 NumHits           = 1
 ID                = 1
@@ -4871,7 +4871,7 @@ Guard.Kill        = 0				;この攻撃をガードで殺せるか
 Fall              = 1				;地面に叩き付けられるか
 Air.Fall          = 1				;地面に叩き付けられるか
 Fall.RecoverTime  = Floor(40*Root,FVar(0))	;リカバーできるか
-GetPower          = 80,80			;ヒット時のパワー増減
+getpower = 10,5;ヒット時のパワー増減
 GivePower         = 0,0
 NumHits           = 1
 ID                = 1
@@ -4880,6 +4880,7 @@ P1SprPriority     = 8
 
 [State -1]
 Type     = Projectile
+getpower = 10,5
 Trigger1 = MoveHit && P2MoveType = H && P2StateNo != [120,159]
 ProjID   = 1010
 ProjAnim = 9999
@@ -4889,6 +4890,7 @@ Persistent = 0
 
 [State -1]
 Type     = Projectile
+getpower = 10,5
 Trigger1 = MoveGuarded && P2MoveType = H
 ProjID   = 1011
 ProjAnim = 9999
@@ -4900,6 +4902,7 @@ Persistent = 0
 
 [State -1]
 Type     = Projectile
+getpower = 10,5
 Trigger1 = MoveHit && P2MoveType = H && P2StateNo != [120,159]
 Trigger1 = P2MoveType = A || Enemy,NumProj >= 1 || EnemyNear,NumProj >= 1
 ProjID   = 1012
@@ -4911,6 +4914,7 @@ IgnoreHitPause = 1
 
 [State -1]
 Type     = Projectile
+getpower = 10,5
 Trigger1 = MoveGuarded && P2MoveType = H
 Trigger1 = P2MoveType = A || Enemy,NumProj >= 1 || EnemyNear,NumProj >= 1
 ProjID   = 1012
@@ -4922,6 +4926,7 @@ IgnoreHitPause = 1
 
 [State -1]
 Type     = Projectile
+getpower = 10,5
 Trigger1 = MoveContact && P2StateNo = [5300,5310]
 Trigger1 = P2MoveType = A || Enemy,NumProj >= 1 || EnemyNear,NumProj >= 1
 ProjID   = 1012
@@ -5356,7 +5361,7 @@ Guard.Kill        = 0				;この攻撃をガードで殺せるか
 Fall              = 0				;地面に叩き付けられるか
 Air.Fall          = 1				;地面に叩き付けられるか
 Fall.RecoverTime  = Floor(40*Root,FVar(0))	;リカバーできるか
-GetPower          = 40,40			;ヒット時のパワー増減
+getpower = 60,30;ヒット時のパワー増減
 GivePower         = 0,0
 NumHits           = 1
 ID                = 1
@@ -5980,7 +5985,7 @@ Guard.Kill        = 0				;この攻撃をガードで殺せるか
 Fall              = 1				;地面に叩き付けられるか
 Air.Fall          = 1				;地面に叩き付けられるか
 Fall.RecoverTime  = Floor(40*Root,FVar(0))	;リカバーできるか
-GetPower          = 80,80			;ヒット時のパワー増減
+getpower = 10,5;ヒット時のパワー増減
 GivePower         = 0,0
 NumHits           = 1
 ID                = 1
@@ -5988,6 +5993,7 @@ P1SprPriority     = 8
 
 [State -1]
 Type     = Projectile
+getpower = 10,5
 Trigger1 = MoveHit && P2MoveType = H && P2StateNo != [120,159]
 ProjID   = 1025
 ProjAnim = 9999
@@ -5997,6 +6003,7 @@ Persistent = 0
 
 [State -1]
 Type     = Projectile
+getpower = 10,5
 Trigger1 = MoveGuarded && P2MoveType = H
 ProjID   = 1026
 ProjAnim = 9999
@@ -6008,6 +6015,7 @@ Persistent = 0
 
 [State -1]
 Type     = Projectile
+getpower = 10,5
 Trigger1 = MoveHit && P2MoveType = H && P2StateNo != [120,159]
 Trigger1 = P2MoveType = A || Enemy,NumProj >= 1 || EnemyNear,NumProj >= 1
 ProjID   = 1027
@@ -6019,6 +6027,7 @@ IgnoreHitPause = 1
 
 [State -1]
 Type     = Projectile
+getpower = 10,5
 Trigger1 = MoveGuarded && P2MoveType = H
 Trigger1 = P2MoveType = A || Enemy,NumProj >= 1 || EnemyNear,NumProj >= 1
 ProjID   = 1027
@@ -6030,6 +6039,7 @@ IgnoreHitPause = 1
 
 [State -1]
 Type     = Projectile
+getpower = 10,5
 Trigger1 = MoveContact && P2StateNo = [5300,5310]
 Trigger1 = P2MoveType = A || Enemy,NumProj >= 1 || EnemyNear,NumProj >= 1
 ProjID   = 1027
@@ -6177,6 +6187,7 @@ Trans    = Add
 
 [State -1]
 Type     = Projectile
+getpower = 10,5
 Trigger1 = Time = 0
 ProjID   = 1028
 ProjAnim = 9999
@@ -11947,6 +11958,7 @@ VelSet   = 0,0
 
 [State -1]
 Type           = Projectile
+getpower = 15,7
 TriggerAll     = Time = 0
 Trigger1       = Root,FVar(17) < 1.00
 ProjID         = 2270
@@ -11956,6 +11968,7 @@ IgnoreHitPause = 1
 
 [State -1]
 Type           = Projectile
+getpower = 15,7
 TriggerAll     = Time = 0
 Trigger1       = Root,FVar(18) != 0
 ProjID         = 2271

@@ -9,6 +9,7 @@ pal.defaults = 1
 
 ; Files for the player
 [Files]
+movelist = movelist.dat
 cmd     = suigin.cmd   ;Command set
 cns     = suigin.cns   ;Constants
 st      = suigin.cns   ;States

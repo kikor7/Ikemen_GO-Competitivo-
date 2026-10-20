@@ -11,6 +11,7 @@ pal.defaults =1
 
 ; Files for the player
 [Files]
+movelist = movelist.dat
 cmd     =Athena_XIV.cmd
 cns     =Athena_XIV.cns
 st      =Athena_XIV.cns

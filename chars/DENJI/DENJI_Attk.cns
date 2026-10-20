@@ -14,7 +14,7 @@ physics = S
 juggle  = 1
 ctrl = 0
 anim = 210
-poweradd = 5
+poweradd = 0
 sprpriority = 2
 
 [State 0, VelSet]
@@ -52,7 +52,7 @@ type = HitDef
 trigger1 = 1
 attr = S, NA
 damage = 8
-GetPower = 20,8
+getpower = 30,15
 animtype = Light
 guardflag = MA
 hitflag = MAF
@@ -100,7 +100,7 @@ physics = S
 juggle  = 2
 ctrl = 0
 anim = 200
-poweradd = 5
+poweradd = 0
 sprpriority = 2
 
 [State 0, VelSet]
@@ -138,7 +138,7 @@ type = HitDef
 trigger1 = time = 0
 attr = S, NA
 damage = 8
-GetPower = 20,8
+getpower = 30,15
 animtype = medium
 guardflag = MA
 hitflag = MAF
@@ -185,7 +185,7 @@ physics = S
 juggle  = 3
 ctrl = 0
 anim = 220
-poweradd = 80
+poweradd = 0
 sprpriority = 1
 
 [State , ボイス]
@@ -282,7 +282,7 @@ type = HitDef
 trigger1 = animelem=3,>0 && animelem=13,<0
 attr = S, SA
 damage = 8
-GetPower = 11,7
+getpower = 30,15
 animtype = medium
 guardflag = HA
 hitflag = MAF
@@ -337,7 +337,7 @@ physics = S
 juggle  = 3
 ctrl = 0
 anim = 230
-poweradd = 70
+poweradd = 0
 sprpriority = 1
 
 [State , VelSet]
@@ -440,7 +440,7 @@ type = HitDef
 trigger1 = animelem=9,<0
 attr = S, NA
 damage = 5
-GetPower = 9,5
+getpower = 15,7
 animtype = hard
 guardflag = MA
 hitflag = MAF
@@ -466,6 +466,7 @@ type = HitDef
 trigger1 = animelem=9
 attr = S, NA
 damage = 50
+getpower = 15,7
 animtype = hard
 guardflag = MA
 hitflag = MAF
@@ -514,7 +515,7 @@ physics = S
 juggle  = 2
 ctrl = 0
 anim = 240
-poweradd = 15
+poweradd = 0
 sprpriority = 2
 
 [State , ボイス]
@@ -545,7 +546,7 @@ type = HitDef
 trigger1 = movecontact=0 && enemynear(0),movetype!=A
 attr = S, NA
 damage = 30
-GetPower = 50,10
+getpower = 15,7
 animtype = Light
 guardflag = LA
 hitflag = MAF
@@ -573,7 +574,7 @@ ID=240
 trigger1 = movecontact=0 && enemynear(0),movetype=A
 attr = S, NA
 damage = 80
-GetPower = 100,5
+getpower = 15,7
 animtype = Light
 guardflag = LA
 hitflag = MAF
@@ -648,7 +649,7 @@ type    = C
 movetype= A
 physics = C
 juggle  = 3
-poweradd= 15
+poweradd= 0
 ctrl = 0
 anim = 400
 sprpriority = 2
@@ -682,7 +683,7 @@ trigger1 = animelem=2
 attr = C, NA
 animtype  = L
 damage    = 30
-GetPower = 50,8
+getpower = 30,15
 hitflag = MAFD
 guardflag = LA
 pausetime = 2,4
@@ -718,7 +719,7 @@ physics = C
 juggle  = 1
 ctrl = 0
 anim = 410
-poweradd = 20
+poweradd = 0
 sprpriority = 2
 
 [State 0, VelSet]
@@ -756,7 +757,7 @@ type = HitDef
 trigger1 = 1
 attr = C, NA
 damage = 7
-GetPower = 12,6
+getpower = 30,15
 animtype = Light
 guardflag = LA
 hitflag = MAF
@@ -804,7 +805,7 @@ type    = C
 movetype= A
 physics = C
 juggle  = 3
-poweradd= 60
+poweradd= 0
 ctrl = 0
 anim = 420
 sprpriority = 1
@@ -873,7 +874,7 @@ trigger1 = animelem=3
 attr = S, NA
 animtype  = heavy
 damage    = 60
-GetPower = 80,15
+getpower = 30,15
 hitflag = MAF
 guardflag = MA
 pausetime = 4,7
@@ -919,7 +920,7 @@ type    = A
 movetype= A
 physics = A
 juggle  = 1
-poweradd= 50
+poweradd= 0
 ctrl = 0
 anim = 600
 sprpriority = 1
@@ -966,7 +967,7 @@ type = HitDef
 trigger1 = 1
 attr = A, NA
 damage    = 13
-GetPower = 17,8
+getpower = 30,15
 animtype = medium
 guardflag = HA
 priority = 3
@@ -1009,7 +1010,7 @@ type    = A
 movetype= A
 physics = A
 juggle  = 2
-poweradd= 40
+poweradd= 0
 ctrl = 0
 anim = 610
 sprpriority = 1
@@ -1036,7 +1037,7 @@ type = HitDef
 trigger1 = movecontact=0
 attr = A, NA
 damage    = 40
-GetPower = 40,10
+getpower = 30,15
 animtype = medium
 guardflag = HA
 priority = 3
@@ -1062,7 +1063,7 @@ type    = A
 movetype= A
 physics = A
 juggle  = 2
-poweradd= 50
+poweradd= 0
 ctrl = 0
 anim = 620
 sprpriority = 2
@@ -1178,7 +1179,7 @@ type = HitDef
 trigger1 = animelem=8,<0
 attr = A, NA
 damage = 7
-GetPower = 12,8
+getpower = 15,7
 animtype = hard
 guardflag = HA
 hitflag = MAF
@@ -1204,6 +1205,7 @@ type = HitDef
 trigger1 = animelem=8
 attr = A, NA
 damage = 70
+getpower = 15,7
 animtype = hard
 guardflag = HA
 hitflag = MAF
@@ -1246,7 +1248,7 @@ type    = A
 movetype= A
 physics = A
 juggle  = 2
-poweradd= 120
+poweradd= 0
 ctrl = 0
 anim = 630
 sprpriority = 2
@@ -1313,7 +1315,7 @@ type = HitDef
 trigger1 = 1
 attr = A, SA
 damage    = 12
-GetPower = 30,15
+getpower = 30,15
 animtype = medium
 guardflag = HA
 hitflag = MAFD
@@ -1376,6 +1378,7 @@ sprpriority = 2
 
 [State 700, HitDef]
 Type = HitDef
+getpower = 60,30
 
 Trigger1 = 1  
 attr = S, NT          ;三文字目をＴにするのを忘れないでください。
@@ -1469,12 +1472,12 @@ pos = 30,-8
 [State 710, ゲージ増加]
 type = PowerAdd
 trigger1 =  AnimElem = 3,>0 && AnimElem = 18,<0
-value = 4
+value = 0
 
 [State 710, ゲージ増加]
 type = PowerAdd
 trigger1 =  AnimElem = 20
-value = 60
+value = 0
 
 [State 710, 体力回復]
 type = lifeAdd

@@ -1,0 +1,17 @@
+<#f0f000>:Special Moves:</>
+mimi1			_QCF^X
+mimi2			_QCF^Y
+hone1			_QCB^X
+hone2			_QCB^Y
+takle1			_QCF^A
+takle2			_QCF^B
+buun1			_QCB^A
+buun2			_QCB^B
+Especial 9			^B_+^Y
+Especial 10			^A_+^X
+Especial 11			~B^A_+^X
+Especial 12			^A_+^Y
+
+<#f0f000>:Hyper Moves:</>
+kuma <#f00000>(1000)</>			^X^A^Y
+Super 2 <#f00000>(1000)</>			^B_+^Y

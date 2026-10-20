@@ -1,0 +1,18 @@
+<#f0f000>:Special Moves:</>
+Needle Machine Gun			_HCF^C
+Kaen Hosha			_QCB^C
+Dai Sensou			_QCF^B
+Shield Ground			_QCB^B
+Tetsu no Ami			_QCF^A
+Morning Star			_QCB^A
+Tag System  - Start Exit Command - Defensive			^A_+^C
+Burst - Anti Combos			^A_+^B_+^C
+Throw			^B_+^C
+
+<#f0f000>:Hyper Moves:</>
+Dangan <#f00000>(3000)</>			_B_F_B_F^B_+^C
+Bakudan <#f00000>(1000)</>			_QCB_QCB^A
+Modoku Gas Dan MH5 <#f00000>(1000)</>			_QCF_QCF^C
+Tag System  - Start Exit Command - Super Move 1 <#f00000>(1000)</>			_QCF^X
+Tag System  - Start Exit Command - Super Move 2 <#f00000>(1000)</>			_QCB^X
+Tag System  - Start Exit Command - Offensive <#f00000>(1500)</>			^A_+^C

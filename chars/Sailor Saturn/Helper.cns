@@ -315,6 +315,7 @@ Projhits         = 1
 projremove       = 0
 attr             = C,SA
 damage           = 30,1
+getpower = 30,15
 animtype         = Heavy
 hitflag          = MAFDP
 guardflag        = H
@@ -1022,7 +1023,7 @@ Type              = HitDef
 Trigger1          = time = 0
 attr              = A,SA
 damage            = (Enemynear,const(data.Life)/500),(Enemynear,const(data.Life)/500)
-getpower          = 0,0
+getpower = 15,7
 givepower         = -100,-100
 animtype          = Up
 hitflag           = MAFDP
@@ -2111,7 +2112,7 @@ trigger2          = AnimElem = 4
 trigger3          = AnimElem = 7
 attr              = S,NA
 damage            = 10,1
-getpower          = 100,100
+getpower = 30,15
 givepower         = 0,0
 hitflag           = MAFDP
 guardflag         = MA
@@ -2453,7 +2454,7 @@ type              = Hitdef
 trigger1          = time = 0
 attr              = S,NA
 damage            = 1,1
-getpower          = 10,10
+getpower = 30,15
 givepower         = 0,0
 hitflag           = MAFDP
 guardflag         = MA

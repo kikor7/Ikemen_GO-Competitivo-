@@ -398,6 +398,7 @@ trigger1 = var(6) := floor(fvar(12)*500) || 1
 id = 0*(var(14) := stateno + (var(18)%1000)*10000 + id%10) + var(14)
 attr = S, NA
 damage = 140, 28*(var(44) != 0)
+getpower = 30,15
 animtype = Heavy
 guardflag = MA
 hitflag = MA
@@ -429,6 +430,7 @@ trigger1 = var(6) := floor(fvar(12)*500) || 1
 id = 0*(var(14) := stateno + (var(18)%1000)*10000 + id%10) + var(14)
 attr = S, NA
 damage = 140, 28*(var(44) != 0)
+getpower = 30,15
 animtype = Heavy
 guardflag = MA
 hitflag = MA
@@ -1427,6 +1429,7 @@ trigger1 = var(6) := floor(fvar(12)*400) || 1
 id = 0*(var(14) := stateno + (var(18)%1000)*10000 + id%10) + var(14)
 attr = S, NA
 damage = 120, 24*(var(44) != 0)
+getpower = 30,15
 animtype = Back
 guardflag = LA
 hitflag = MA
@@ -1464,6 +1467,7 @@ trigger1 = var(6) := floor(fvar(12)*400) || 1
 id = 0*(var(14) := stateno + (var(18)%1000)*10000 + id%10) + var(14)
 attr = S, NA
 damage = 120, 24*(var(44) != 0)
+getpower = 30,15
 animtype = Back
 guardflag = LA
 hitflag = MA
@@ -1577,6 +1581,7 @@ trigger1 = var(6) := floor(fvar(12)*500) || 1
 id = 0*(var(14) := stateno + (var(18)%1000)*10000 + id%10) + var(14)
 attr = C, NA
 damage = 140, 28*(var(44) != 0)
+getpower = 10,5
 animtype = Up
 guardflag = MA
 hitflag = MA
@@ -1615,6 +1620,7 @@ trigger1 = var(6) := floor(fvar(12)*500) || 1
 id = 0*(var(14) := stateno + (var(18)%1000)*10000 + id%10) + var(14)
 attr = C, NA
 damage = 120, 24*(var(44) != 0)
+getpower = 10,5
 animtype = Up
 guardflag = MA
 hitflag = MA
@@ -1653,6 +1659,7 @@ trigger1 = var(6) := floor(fvar(12)*500) || 1
 id = 0*(var(14) := stateno + (var(18)%1000)*10000 + id%10) + var(14)
 attr = C, NA
 damage = 120, 24*(var(44) != 0)
+getpower = 10,5
 animtype = Up
 guardflag = MA
 hitflag = MA
@@ -1691,6 +1698,7 @@ trigger1 = var(6) := floor(fvar(12)*500) || 1
 id = 0*(var(14) := stateno + (var(18)%1000)*10000 + id%10) + var(14)
 attr = C, NA
 damage = 140, 28*(var(44) != 0)
+getpower = 10,5
 animtype = Up
 guardflag = MA
 hitflag = MA
@@ -1728,6 +1736,7 @@ trigger1 = var(6) := floor(fvar(12)*500) || 1
 id = 0*(var(14) := stateno + (var(18)%1000)*10000 + id%10) + var(14)
 attr = C, NA
 damage = 120, 24*(var(44) != 0)
+getpower = 10,5
 animtype = Up
 guardflag = MA
 hitflag = MA
@@ -1765,6 +1774,7 @@ trigger1 = var(6) := floor(fvar(12)*500) || 1
 id = 0*(var(14) := stateno + (var(18)%1000)*10000 + id%10) + var(14)
 attr = C, NA
 damage = 120, 24*(var(44) != 0)
+getpower = 10,5
 animtype = Up
 guardflag = MA
 hitflag = MA
@@ -1925,6 +1935,7 @@ trigger1 = var(6) := floor(fvar(12)*500) || 1
 id = 0*(var(14) := stateno + (var(18)%1000)*10000 + id%10) + var(14)
 attr = A, NA
 damage = 120, 24*(var(44) != 0)
+getpower = 30,15
 animtype = Heavy
 guardflag = MA
 hitflag = MA
@@ -1957,6 +1968,7 @@ trigger1 = var(6) := floor(fvar(12)*500) || 1
 id = 0*(var(14) := stateno + (var(18)%1000)*10000 + id%10) + var(14)
 attr = A, NA
 damage = 120, 24*(var(44) != 0)
+getpower = 30,15
 animtype = Heavy
 guardflag = MA
 hitflag = MA
@@ -1996,6 +2008,7 @@ trigger1 = var(6) := floor(fvar(12)*500) || 1
 id = 0*(var(14) := stateno + (var(18)%1000)*10000 + id%10) + var(14)
 attr = A, NA
 damage = 120, 24*(var(44) != 0)
+getpower = 30,15
 animtype = Heavy
 guardflag = MA
 hitflag = MA
@@ -2027,6 +2040,7 @@ trigger1 = var(6) := floor(fvar(12)*500) || 1
 id = 0*(var(14) := stateno + (var(18)%1000)*10000 + id%10) + var(14)
 attr = A, NA
 damage = 120, 24*(var(44) != 0)
+getpower = 30,15
 animtype = Heavy
 guardflag = MA
 hitflag = MA
@@ -2060,6 +2074,7 @@ trigger1 = var(11)
 id = 0*(var(14) := stateno + (var(18)%1000)*10000 + id%10) + var(14)
 attr = A, NA
 damage = 0, 0
+getpower = 30,15
 animtype = Heavy
 guardflag = MA
 hitflag = 
@@ -2242,6 +2257,7 @@ trigger1 = var(6) := floor(fvar(12)*500) || 1
 id = 0*(var(14) := stateno + (var(18)%1000)*10000 + id%10) + var(14)
 attr = S, NA
 damage = 100, 20*(var(44) != 0)
+getpower = 30,15
 animtype = Heavy
 guardflag = MA
 hitflag = MA
@@ -2273,6 +2289,7 @@ trigger1 = var(6) := floor(fvar(12)*500) || 1
 id = 0*(var(14) := stateno + (var(18)%1000)*10000 + id%10) + var(14)
 attr = S, NA
 damage = 100, 20*(var(44) != 0)
+getpower = 30,15
 animtype = Heavy
 guardflag = MA
 hitflag = MA
@@ -2296,6 +2313,7 @@ yaccel = .536
 
 [State 800, 2]
 type = HitDef
+getpower = 30,15
 trigger1 = movehit || movereversed
 trigger1 = numtarget
 trigger1 = p2bodydist x < 104.0*const(size.xscale)
@@ -2397,7 +2415,7 @@ type    = S
 movetype= A
 physics = S
 anim = 810
-poweradd = 60
+poweradd = 0
 sprpriority = -1
 velset = 0, 0
 
@@ -2680,6 +2698,7 @@ trigger1 = var(6) := floor(fvar(12)*500) || 1
 id = 0*(var(14) := stateno + (var(18)%1000)*10000 + id%10) + var(14)
 attr = S, SA
 damage = ifelse(var(16), 80+10*var(13), 100), ifelse(var(16), 16+2*var(13), 20)
+getpower = 30,15
 animtype = Heavy
 guardflag = MA
 hitflag = MA
@@ -2711,6 +2730,7 @@ trigger1 = var(6) := floor(fvar(12)*500) || 1
 id = 0*(var(14) := stateno + (var(18)%1000)*10000 + id%10) + var(14)
 attr = S, SA
 damage = ifelse(var(16), 80+10*var(13), 100), ifelse(var(16), 16+2*var(13), 20)
+getpower = 30,15
 animtype = Heavy
 guardflag = MA
 hitflag = MA
@@ -2884,6 +2904,7 @@ trigger1 = root, var(22)
 id = 0*(var(14) := stateno + (var(18)%1000)*10000 + id%10) + var(14)
 attr = S, SP
 damage = ifelse(root, var(16), 60+10*var(13), 80) + ifelse(p2movetype = H, 0, 27), ifelse(root, var(16), 12+2*var(13), 16) + ifelse(p2movetype = H, 0, 5)
+getpower = 30,15
 priority = 1, miss
 animtype = Heavy
 guardflag = MA
@@ -2914,6 +2935,7 @@ trigger1 = !root, var(22)
 id = 0*(var(14) := stateno + (var(18)%1000)*10000 + id%10) + var(14)
 attr = S, SP
 damage = ifelse(root, var(16), 60+10*var(13), 80) + ifelse(p2movetype = H, 0, 27), ifelse(root, var(16), 12+2*var(13), 16) + ifelse(p2movetype = H, 0, 5)
+getpower = 30,15
 priority = 1, miss
 animtype = Heavy
 guardflag = MA
@@ -3039,6 +3061,7 @@ trigger1 = var(6) := floor(fvar(12)*500) || 1
 id = 0*(var(14) := stateno + (var(18)%1000)*10000 + id%10) + var(14)
 attr = A, SA
 damage = 100, 20
+getpower = 15,7
 animtype = Heavy
 guardflag = MA
 hitflag = MA
@@ -3070,6 +3093,7 @@ trigger1 = var(6) := floor(fvar(12)*500) || 1
 id = 0*(var(14) := stateno + (var(18)%1000)*10000 + id%10) + var(14)
 attr = A, SA
 damage = 100, 20
+getpower = 15,7
 animtype = Heavy
 guardflag = MA
 hitflag = MA
@@ -3281,6 +3305,7 @@ trigger1 = root, var(22)
 id = 0*(var(14) := stateno + (var(18)%1000)*10000 + id%10) + var(14)
 attr = A, SP
 damage = ifelse(p2movetype = H, 80, 107), ifelse(p2movetype = H, 16, 21)
+getpower = 15,7
 priority = 1, miss
 animtype = Heavy
 guardflag = MA
@@ -3311,6 +3336,7 @@ trigger1 = !root, var(22)
 id = 0*(var(14) := stateno + (var(18)%1000)*10000 + id%10) + var(14)
 attr = A, SP
 damage = ifelse(p2movetype = H, 80, 107), ifelse(p2movetype = H, 16, 21)
+getpower = 15,7
 priority = 1, miss
 animtype = Heavy
 guardflag = MA
@@ -3477,6 +3503,7 @@ trigger2 = var(6) := floor(fvar(12)*ifelse( animelemno(0) < 25, 200, 100 )) || 1
 id = 0*(var(14) := stateno + (var(18)%1000)*10000 + id%10) + var(14)
 attr = S, SA
 damage = ifelse(animelemno(0) < 25, 100, ifelse(p2movetype = H, 20, ifelse(var(16) && var(13) = 3, 60, 87))), ifelse(animelemno(0) < 25, 20, ifelse(p2movetype = H, 4, ifelse(var(16) && var(13) = 3, 12, 17)))
+getpower = 30,15
 animtype = Light
 guardflag = MA
 hitflag = MA
@@ -3521,6 +3548,7 @@ trigger2 = var(6) := floor(fvar(12)*ifelse( animelemno(0) < 25, 200, 100 )) || 1
 id = 0*(var(14) := stateno + (var(18)%1000)*10000 + id%10) + var(14)
 attr = S, SA
 damage = ifelse(animelemno(0) < 25, 100, ifelse(p2movetype = H, 20, ifelse(var(16) && var(13) = 3, 60, 87))), ifelse(animelemno(0) < 25, 20, ifelse(p2movetype = H, 4, ifelse(var(16) && var(13) = 3, 12, 17)))
+getpower = 30,15
 animtype = Light
 guardflag = MA
 hitflag = MA
@@ -3563,6 +3591,7 @@ trigger2 = var(6) := floor(fvar(12)*400) || 1
 id = 0*(var(14) := stateno + (var(18)%1000)*10000 + id%10) + var(14)
 attr = S, SA
 damage = ifelse( p2movetype = H, 50, 100 + 25*(var(16) != 0 && var(13) = 1) ), ifelse( p2movetype = H, 10, 20 + 5*(var(16) != 0 && var(13) = 1)  )
+getpower = 30,15
 animtype = Back
 guardflag = MA
 hitflag = MA
@@ -3609,6 +3638,7 @@ trigger2 = var(6) := floor(fvar(12)*ifelse( animelemno(0) < 25, 200, 100 )) || 1
 id = 0*(var(14) := stateno + (var(18)%1000)*10000 + id%10) + var(14)
 attr = S, SA
 damage = ifelse(animelemno(0) < 25, 100, ifelse(p2movetype = H, 20, ifelse(var(16) && var(13) = 3, 60, 87))), ifelse(animelemno(0) < 25, 20, ifelse(p2movetype = H, 4, ifelse(var(16) && var(13) = 3, 12, 17)))
+getpower = 30,15
 animtype = Light
 guardflag = MA
 hitflag = MA
@@ -3649,6 +3679,7 @@ trigger2 = var(6) := floor(fvar(12)*ifelse( animelemno(0) < 25, 200, 100 )) || 1
 id = 0*(var(14) := stateno + (var(18)%1000)*10000 + id%10) + var(14)
 attr = S, SA
 damage = ifelse(animelemno(0) < 25, 100, ifelse(p2movetype = H, 20, ifelse(var(16) && var(13) = 3, 60, 87))), ifelse(animelemno(0) < 25, 20, ifelse(p2movetype = H, 4, ifelse(var(16) && var(13) = 3, 12, 17)))
+getpower = 30,15
 animtype = Light
 guardflag = MA
 hitflag = MA
@@ -3689,6 +3720,7 @@ trigger2 = var(6) := floor(fvar(12)*400) || 1
 id = 0*(var(14) := stateno + (var(18)%1000)*10000 + id%10) + var(14)
 attr = S, SA
 damage = ifelse( p2movetype = H, 50, 100 + 25*(var(16) != 0 && var(13) = 1) ), ifelse( p2movetype = H, 10, 20 + 5*(var(16) != 0 && var(13) = 1)  )
+getpower = 30,15
 animtype = Back
 guardflag = MA
 hitflag = MA
@@ -3743,6 +3775,7 @@ channel = 2
 
 [Statedef 1200]
 type    = S
+poweradd = 20
 movetype= A
 physics = S
 sprpriority = 0
@@ -4130,6 +4163,7 @@ projheightbound = -480, 240
 id = 1205
 attr = S, SP
 damage = 100, 20
+getpower = 30,15
 animtype = Heavy
 numhits = 2
 guardflag = MA
@@ -4235,6 +4269,7 @@ trigger1 = var(6) := floor(fvar(12)*500) || 1
 id = 0*(var(14) := stateno + (var(18)%1000)*10000 + id%10) + var(14)
 attr = S, NA
 damage = 120, 24
+getpower = 60,30
 animtype = Heavy
 guardflag = MA
 hitflag = MA
@@ -4271,6 +4306,7 @@ trigger1 = var(6) := floor(fvar(12)*500) || 1
 id = 0*(var(14) := stateno + (var(18)%1000)*10000 + id%10) + var(14)
 attr = S, NA
 damage = 120, 24
+getpower = 60,30
 animtype = Heavy
 guardflag = MA
 hitflag = MA
@@ -4694,6 +4730,7 @@ trigger1 = var(6) := floor(fvar(12)*500) || 1
 id = 0*(var(14) := stateno + (var(18)%1000)*10000 + id%10) + var(14)
 attr = A, SA
 damage = ifelse(var(16), 90 + 25*var(13), 140), ifelse(var(16), 18 + 5*var(13), 28)*(var(44) != 0)
+getpower = 60,30
 animtype = Heavy
 guardflag = MA
 hitflag = MA
@@ -4726,6 +4763,7 @@ trigger1 = var(6) := floor(fvar(12)*500) || 1
 id = 0*(var(14) := stateno + (var(18)%1000)*10000 + id%10) + var(14)
 attr = A, NA
 damage = ifelse(var(16), 90 + 25*var(13), 140), ifelse(var(16), 18 + 5*var(13), 28)*(var(44) != 0)
+getpower = 60,30
 nimtype = Heavy
 guardflag = MA
 hitflag = MA
@@ -4765,6 +4803,7 @@ trigger1 = var(6) := floor(fvar(12)*500) || 1
 id = 0*(var(14) := stateno + (var(18)%1000)*10000 + id%10) + var(14)
 attr = A, SA
 damage = 140, 28*(var(44) != 0)
+getpower = 60,30
 animtype = Heavy
 guardflag = MA
 hitflag = MA
@@ -4796,6 +4835,7 @@ trigger1 = var(6) := floor(fvar(12)*500) || 1
 id = 0*(var(14) := stateno + (var(18)%1000)*10000 + id%10) + var(14)
 attr = A, NA
 damage = 140, 28*(var(44) != 0)
+getpower = 60,30
 animtype = Heavy
 guardflag = MA
 hitflag = MA
@@ -4829,6 +4869,7 @@ trigger1 = var(11)
 id = 0*(var(14) := stateno + (var(18)%1000)*10000 + id%10) + var(14)
 attr = A, NA
 damage = 0, 0
+getpower = 60,30
 animtype = Heavy
 guardflag = MA
 hitflag = 

@@ -1363,7 +1363,7 @@ physics = N
 anim = 1038
 ctrl = 0
 velset = 0,0
-poweradd = 70 * !var(20)
+poweradd = 0 * !var(20)
 sprpriority = 2
 facep2 = 1
 

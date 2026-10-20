@@ -1,0 +1,14 @@
+<#f0f000>:Special Moves:</>
+dmb			_F_HCF^A_+^B
+dmb			_QCF^X
+dmb			_QCB^X
+dmb			_QCB^Y
+dmb			_QCB^A
+dmb			_QCB^B
+usiro			^X_+^A
+comb			^Y_+^B
+
+<#f0f000>:Hyper Moves:</>
+ippa <#f00000>(2000)</>			_HCF_DF_D^Y
+sdr <#f00000>(1000)</>			_QCF_QCF^Y
+g <#f00000>(1000)</>			^Y_+^B

@@ -6,6 +6,7 @@ author = ".DAT"         ;Character author name
 pal.defaults = 6,3,4,2      ;Default palettes in order of preference
 
 [Files]
+movelist = movelist.dat
 cmd     = nz.cmd   ;Command set
 cns     = nz.cns   ;Constants
 st      = nz.cns   ;States

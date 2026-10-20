@@ -285,6 +285,7 @@ type = HitDef
 trigger1 = AnimElem = 4
 attr = S, NA
 damage = 100
+getpower = 30,15
 animtype = Light
 guardflag = MA
 pausetime = 12,12
@@ -325,6 +326,7 @@ type = HitDef
 trigger1 = AnimElem = 3
 attr = S, NA
 damage = 105
+getpower = 30,15
 animtype = Medium
 guardflag = MA
 pausetime = 12,12
@@ -365,6 +367,7 @@ type = HitDef
 trigger1 = AnimElem = 4
 attr = S, NA
 damage = 100
+getpower = 30,15
 animtype = Hard
 guardflag = MA
 pausetime = 16,11
@@ -405,6 +408,7 @@ type = HitDef
 trigger1 = AnimElem = 3
 attr = S, NA
 damage = 80
+getpower = 30,15
 animtype = Back
 guardflag = MA
 pausetime = 18,7
@@ -446,6 +450,7 @@ type = HitDef
 trigger1 = AnimElem = 3
 attr = S, NA
 damage = 90
+getpower = 30,15
 animtype = Back
 guardflag = MA
 pausetime = 10,11
@@ -487,6 +492,7 @@ type = HitDef
 trigger1 = AnimElem = 4
 attr = C, NA
 damage = 105
+getpower = 30,15
 animtype = Hard
 guardflag = LA
 pausetime = 4,13
@@ -525,6 +531,7 @@ type = HitDef
 trigger1 = AnimElem = 2
 attr = A, NA
 damage = 90
+getpower = 30,15
 animtype = Light
 guardflag = MA
 pausetime = 8,10
@@ -564,6 +571,7 @@ type = HitDef
 trigger1 = AnimElem = 3
 attr = A, NA
 damage = 90
+getpower = 30,15
 animtype = Light
 guardflag = MA
 pausetime = 9,7
@@ -594,6 +602,7 @@ ctrl = 1
 ; Flame Thrower
 [Statedef 1000]
 type = S
+poweradd = 20
 movetype = A
 physics = S
 anim = 1000
@@ -638,6 +647,7 @@ trigger1 = (Time%4) = 1 && (Time = [26,58])
 attr = S, SA
 animtype = Back
 damage    = 35,6
+getpower = 3,1
 priority = 3
 pausetime = 0,10
 numhits = 1
@@ -672,6 +682,7 @@ trigger2 = AnimTime = 0
 ;---- Machine Gun ----------------------------------------------------------
 [Statedef 1005]
 type = S
+poweradd = 20
 movetype = A
 physics = S
 anim = 1005
@@ -748,7 +759,7 @@ velocity = 60,0
 attr = S, SP
 damage    = 30, 7
 animtype  = Medium
-getpower  = 50
+getpower = 30,15
 givepower = 30
 guardflag = MA
 pausetime = 0,12
@@ -799,6 +810,7 @@ trigger1 = Time = [9,75]
 attr = S, NA
 animtype = High
 damage    = 6
+getpower = 3,1
 priority = 3
 pausetime = 1,10
 numhits = 1
@@ -844,6 +856,7 @@ trigger1 = Time = [4,32]
 attr = S, NA
 animtype = Back
 damage = 35
+getpower = 8,4
 priority = 3
 pausetime = 1,10
 numhits = 1

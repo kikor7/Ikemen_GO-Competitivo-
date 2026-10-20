@@ -1,0 +1,28 @@
+<#f0f000>:Special Moves:</>
+Psychic			_F_D_F^Y
+FireDragon			_F_D_F^B
+FireMouth			_F_D_F^X
+PhychicBall			_QCF^Y
+FireBall Attack			_QCF^X
+Thunder			_F_D_F^A
+Darklightning			_QCF^A
+Bats			_QCF^B
+Fire Waves			_U_U^X
+SynnSuper			_B_DB_B^X
+SynnSuper			_B_DB_B^A
+Especial 12			_QCB^X
+Goblin			_QCB^A
+Ork			_QCB^Y
+Troll			_QCB^B
+
+<#f0f000>:Hyper Moves:</>
+SauronEyePower <#f00000>(3000)</>			_QCF^A_+^B
+Invisible <#f00000>(1000)</>			_QCF^X_+^Y
+Nazgul <#f00000>(3000)</>			_QCB^A_+^B
+Army <#f00000>(3000)</>			_QCB^X_+^Y
+Sword GiantWave <#f00000>(500)</>			_B_D_F^B
+DarkBall <#f00000>(800)</>			_B_D_F^A
+meteor <#f00000>(500)</>			_B_D_F^X
+Tornado <#f00000>(500)</>			_B_D_F^Y
+SynnSuper <#f00000>(900)</>			_B_DB_B^B
+SynnSuper <#f00000>(600)</>			_B_DB_B^Y

@@ -143,7 +143,7 @@ triggerall          = !movecontact&&!movereversed&&roundstate=2&&!var(0)
 trigger1            = ishelper(221)
 trigger2            = ishelper(223)
 givepower           = floor(400*0.027),floor(400*0.008)
-getpower            = 0,0
+getpower = 30,15
 attr                = A, NP
 hitflag             = MAFD
 guardflag           = MA
@@ -186,7 +186,7 @@ trigger1            = ishelper(220)
 trigger2            = ishelper(222)
 trigger3            = ishelper(224)
 givepower           = floor(400*0.027),floor(400*0.008)
-getpower            = 0,0
+getpower = 30,15
 attr                = A, NP
 hitflag             = MAFD
 guardflag           = MA
@@ -1129,7 +1129,7 @@ fall.yvelocity      = (-4.5+(enemynear,pos y)*0.010)*(root,var(19)=0)
 triggerall          = !movecontact&&!movereversed&&roundstate=2&&!var(0)
 trigger1            = 1
 givepower           = floor(800*0.027),floor(800*0.008)
-getpower            = 0,0
+getpower = 15,7
 attr                = A, NP
 hitflag             = MAFD
 guardflag           = MA
@@ -1373,7 +1373,7 @@ fall.yvelocity      = (-4.5+(enemynear,pos y)*0.010)*(root,var(19)=0)
 triggerall          = !movecontact&&!movereversed&&roundstate=2&&!var(0)
 trigger1            = var(4)%2=1
 givepower           = floor(800*0.027),floor(800*0.008)
-getpower            = 0,0
+getpower = 15,7
 attr                = A, NP
 hitflag             = MAFD
 guardflag           = MA
@@ -1415,7 +1415,7 @@ fall.yvelocity      = (-4.5+(enemynear,pos y)*0.010)*(root,var(19)=0)
 triggerall          = !movecontact&&!movereversed&&roundstate=2&&!var(0)
 trigger1            = var(4)%2=0
 givepower           = floor(800*0.027),floor(800*0.008)
-getpower            = 0,0
+getpower = 15,7
 attr                = C, NP
 hitflag             = MAFD
 guardflag           = MA
@@ -2252,7 +2252,7 @@ fall.yvelocity      = (-4.5+(enemynear,pos y)*0.010)*(root,var(19)=0)
 triggerall          = !movecontact&&!movereversed&&roundstate=2&&!var(0)
 trigger1            = Anim=421
 givepower           = floor((1000+200*((root,var(50)>=300)+(root,var(50)>=600)))*0.027),floor((1000+200*((root,var(50)>=300)+(root,var(50)>=600)))*0.008)
-getpower            = 0,0
+getpower = 30,15
 attr                = C, NP
 hitflag             = MAFD
 guardflag           = MA
@@ -3083,7 +3083,7 @@ triggerall          = !movecontact&&!movereversed&&roundstate=2&&!var(0)
 trigger1            = ishelper(625)
 trigger2            = ishelper(627)
 givepower           = floor(400*0.027),floor(400*0.008)
-getpower            = 0,0
+getpower = 30,15
 attr                = A, NP
 hitflag             = MAFD
 guardflag           = MA
@@ -3126,7 +3126,7 @@ trigger1            = ishelper(624)
 trigger2            = ishelper(626)
 trigger3            = ishelper(628)
 givepower           = floor(400*0.027),floor(400*0.008)
-getpower            = 0,0
+getpower = 30,15
 attr                = A, NP
 hitflag             = MAFD
 guardflag           = MA
@@ -4154,7 +4154,7 @@ triggerall          = AnimElemtime(3) >= 0
 triggerall          = !var(1)
 trigger1            = anim = 930
 givepower           = floor(2000*0.027),floor(2000*0.008)
-getpower            = 0,0
+getpower = 10,5
 attr                = , NA
 hitflag             = MAFD
 guardflag           = MA
@@ -4198,7 +4198,7 @@ triggerall          = AnimElemtime(3) >= 0
 triggerall          = !var(1)
 trigger1            = anim = [931,932]
 givepower           = floor(2000*0.027),floor(2000*0.008)
-getpower            = 0,0
+getpower = 10,5
 attr                = , NA
 hitflag             = MAFD
 guardflag           = MA
@@ -4243,7 +4243,7 @@ triggerall          = AnimElemtime(3) >= 0
 triggerall          = !var(1)
 trigger1            = anim = [933,934]
 givepower           = floor(2000*0.027),floor(2000*0.008)
-getpower            = 0,0
+getpower = 10,5
 attr                = , NA
 hitflag             = MAFD
 guardflag           = MA
@@ -7603,7 +7603,7 @@ persistent          = 1
 fall.yvelocity      = 0
 trigger1            = 1
 givepower           = 0,0
-getpower            = 0,0
+getpower = 30,15
 attr                = , SP
 hitflag             = P
 damage              = 0,0

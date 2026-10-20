@@ -917,6 +917,7 @@ type = HitDef
 trigger1 = AnimElem = 2
 attr = S, NA
 damage = 20
+getpower = 30,15
 animtype = Light
 guardflag = M
 hitflag = MA
@@ -960,6 +961,7 @@ type = HitDef
 trigger1 = AnimElem = 2
 attr = S, NA
 damage = 20
+getpower = 30,15
 animtype = Light
 guardflag = M
 hitflag = MA
@@ -1011,6 +1013,7 @@ type = HitDef
 trigger1 = AnimElem = 3
 attr = S, NA
 damage = 40
+getpower = 30,15
 animtype = Light
 guardflag = M
 hitflag = MA
@@ -1054,6 +1057,7 @@ type = HitDef
 trigger1 = AnimElem = 3
 attr = S, NA
 damage = 20
+getpower = 30,15
 animtype = Light
 guardflag = M
 hitflag = MA
@@ -1106,6 +1110,7 @@ trigger1 = AnimElem = 2
 attr = S, NA
 animtype  = hard
 damage    = 60
+getpower = 30,15
 hitflag = MA
 guardflag = M
 pausetime = 14,14
@@ -1154,6 +1159,7 @@ trigger1 = AnimElem = 2
 attr = S, NA
 animtype  = hard
 damage    = 60
+getpower = 30,15
 hitflag = MA
 guardflag = M
 pausetime = 14,14
@@ -1188,7 +1194,7 @@ juggle  = 3
 velset = ifelse(prevstateno = 105,const(velocity.run.back.x)-4,const(velocity.run.fwd.x)+4),0
 ctrl = 0
 anim = 222
-poweradd = 20
+poweradd = 0
 sprpriority = 2
 
 [State 1200, 9]
@@ -1212,6 +1218,7 @@ type = HitDef
 trigger1 = AnimElem = 3
 attr = S, NA
 damage = 40
+getpower = 30,15
 animtype = hard
 guardflag = M
 hitflag = MA
@@ -1268,6 +1275,7 @@ trigger1 = AnimElem = 2
 attr = S, NA
 animtype  = Medium
 damage    = 30
+getpower = 30,15
 hitflag = MA
 guardflag = M
 pausetime = 12,12
@@ -1312,6 +1320,7 @@ trigger1 = time = 0
 attr = S, NA
 animtype  = hard
 damage    = 30
+getpower = 30,15
 hitflag = MA
 guardflag = M
 pausetime = 14,14
@@ -1382,6 +1391,7 @@ trigger1 = AnimElem = 2
 attr = A, NA
 animtype  = hard
 damage    = 60
+getpower = 30,15
 hitflag = MAF
 guardflag = MA
 priority = 6,Hit
@@ -1441,6 +1451,7 @@ ctrl = 1
 
 [Statedef 240];?íiçU?********************************************************************************
 type    = S
+poweradd = 20
 movetype= A
 physics = S
 velset = 0,0
@@ -1482,6 +1493,7 @@ ctrl = 1
 
 [Statedef 241]
 type    = S
+poweradd = 0
 movetype= A
 physics = S
 velset = 0,0
@@ -1547,6 +1559,7 @@ trigger1 = time = 0
 attr = S, NA
 animtype  = hard
 damage = 80
+getpower = 30,15
 hitflag = MA
 guardflag = HA
 pausetime = 1,1
@@ -1624,6 +1637,7 @@ trigger1 = time = 0
 attr = S, NA
 animtype  = diagup
 damage    = ifelse(P2movetype = H,40,80)
+getpower = 30,15
 hitflag = MA
 guardflag = HA
 pausetime = 1,1
@@ -1667,6 +1681,7 @@ type = HitDef
 trigger1 = AnimElem = 3
 attr = C, NA
 damage = 20
+getpower = 30,15
 animtype = Light
 guardflag = L
 hitflag = MA
@@ -1699,7 +1714,7 @@ type    = C
 movetype= A
 physics = C
 juggle  = 6
-poweradd= 0
+poweradd= 20
 ctrl = 0
 anim = 410
 sprpriority = 2
@@ -1762,6 +1777,7 @@ trigger1 = time = 0
 attr = S, NA
 animtype  = hard
 damage = 40
+getpower = 30,15
 hitflag = MA
 guardflag = HA
 pausetime = 1,1
@@ -1814,6 +1830,7 @@ type = HitDef
 trigger1 = time = 0
 attr = C, NA
 damage = 60
+getpower = 30,15
 animtype = back
 guardflag = L
 hitflag = MA
@@ -1862,6 +1879,7 @@ type = HitDef
 trigger1 = Time = 0
 attr = A, NA
 damage    = 20
+getpower = 30,15
 guardflag = HA
 priority = 2
 pausetime = 8,8
@@ -1907,6 +1925,7 @@ type = HitDef
 trigger1 = animelem = 2
 attr = A, NA
 damage = 30
+getpower = 30,15
 guardflag = HA
 pausetime = 10,10
 sparkno = 1
@@ -1957,6 +1976,7 @@ type = HitDef
 trigger1 = animelem = 2
 attr = A, NA
 damage = 60
+getpower = 30,15
 guardflag = HA
 pausetime = 12,12
 sparkno = 1
@@ -2008,6 +2028,7 @@ type = HitDef
 trigger1 = AnimElem = 2
 attr = A, NA
 damage = 80
+getpower = 30,15
 hitflag = MAFDP
 guardflag = MA
 pausetime = 12,12
@@ -2050,6 +2071,7 @@ type = HitDef
 trigger1 = animelem = 2
 attr = A, NA
 damage    = 40
+getpower = 30,15
 guardflag = HA
 pausetime = 10,10
 sparkno = 2
@@ -2088,7 +2110,7 @@ juggle  = 3
 velset = ifelse(prevstateno = 105,const(velocity.run.back.x)-4,const(velocity.run.fwd.x)+4),0
 ctrl = 0
 anim = 700
-poweradd = 20
+poweradd = 0
 sprpriority = 2
 
 [State 1200, 9]
@@ -2117,6 +2139,7 @@ type = HitDef
 trigger1 = AnimElem = 3
 attr = S, NA
 damage = 40
+getpower = 30,15
 animtype = hard
 guardflag = M
 hitflag = MA
@@ -2164,7 +2187,7 @@ physics = S
 juggle  = 12
 ctrl = 0
 velset = ifelse(prevstateno = 105,const(velocity.run.back.x)-2,const(velocity.run.fwd.x)+2),0
-poweradd = 20
+poweradd = 0
 anim = 230
 sprpriority = 2
 
@@ -2204,6 +2227,7 @@ trigger1 = AnimElem = 2
 attr = A, NA
 animtype  = hard
 damage    = 100
+getpower = 30,15
 hitflag = MAF
 guardflag = MA
 priority = 6,Hit
@@ -2539,6 +2563,7 @@ value = 0
 
 [State 800, 1]
 type = HitDef
+getpower = 60,30
 Trigger1 = P2bodyDist X <= 20
 attr = S, NT
 hitflag = M-
@@ -2680,7 +2705,7 @@ kill = 0
 [State 810, Throw 11]
 type = poweradd
 trigger1 = time = 2
-value = 5
+value = 0
 
 [State 5120, 4]
 type = HitAdd
@@ -2885,7 +2910,7 @@ value = 200,4
 [State 810, Throw 11]
 type = poweradd
 trigger1 = AnimTime = 0
-value = 20
+value = 0
 
 [State 800, 2]
 type = ChangeState
@@ -3174,7 +3199,7 @@ physics = S
 velset = 0,0
 ctrl = 0
 anim = 1000
-poweradd = 50
+poweradd = 20
 sprpriority = 2
 
 [State 123, Light Hit Sound]
@@ -3221,7 +3246,7 @@ physics = S
 velset = 0,0
 ctrl = 0
 anim = 1005
-poweradd = 50
+poweradd = 20
 sprpriority = 2
 
 [State 123, Light Hit Sound]
@@ -3280,7 +3305,7 @@ type = HitDef
 trigger1 = time = 0
 attr = A, SP
 damage = 40,4
-getpower = 25
+getpower = 10,5
 givepower = 25,8
 animtype = hard
 guardflag = MA
@@ -3390,7 +3415,7 @@ type = HitDef
 trigger1 = !MoveContact && !MoveReversed && Vel X < 0
 attr = A, SP
 damage = 40,4
-getpower = 25
+getpower = 10,5
 givepower = 25,8
 animtype = hard
 guardflag = MA
@@ -3417,7 +3442,7 @@ type = HitDef
 trigger1 = !MoveContact && !MoveReversed && Vel X >= 0
 attr = A, SP
 damage = 40,4
-getpower = 25
+getpower = 10,5
 givepower = 25,8
 animtype = hard
 guardflag = MA
@@ -3516,7 +3541,7 @@ type = HitDef
 trigger1 = time = 0
 attr = A, SP
 damage = 40,4
-getpower = 25
+getpower = 30,15
 givepower = 25,8
 animtype = hard
 guardflag = MA
@@ -3562,7 +3587,7 @@ physics = S
 velset = 0,0
 ctrl = 0
 anim = 1000
-poweradd = 50
+poweradd = 20
 sprpriority = 2
 
 [State 123, Light Hit Sound]
@@ -3609,7 +3634,7 @@ physics = S
 velset = 0,0
 ctrl = 0
 anim = 1005
-poweradd = 50
+poweradd = 20
 sprpriority = 2
 
 [State 123, Light Hit Sound]
@@ -3669,7 +3694,7 @@ type = HitDef
 trigger1 = time = 0
 attr = A, SP
 damage = 40,4
-getpower = 25
+getpower = 30,15
 givepower = 25,8
 animtype = hard
 guardflag = MA
@@ -3728,7 +3753,7 @@ type = HitDef
 trigger1 = time = 0
 attr = A, SP
 damage = 40,4
-getpower = 25
+getpower = 30,15
 givepower = 25,8
 animtype = hard
 guardflag = MA
@@ -3771,7 +3796,7 @@ value = 1012
 type    = S
 movetype= A
 physics = S
-poweradd= 50
+poweradd= 20
 velset = 0,0
 anim = 1100
 ctrl = 0
@@ -3813,7 +3838,7 @@ animtype = hard
 guardflag = MA
 hitflag = MAF
 damage = var(45),10
-getpower = 50
+getpower = 30,15
 givepower = 50,15
 pausetime = 0,12
 sparkno = -1
@@ -3877,7 +3902,7 @@ physics = S
 velset = 0,0
 ctrl = 0
 anim = 1200
-poweradd = 50
+poweradd = 0
 sprpriority = 2
 
 [State 123, Light Hit Sound]
@@ -3994,6 +4019,7 @@ trigger1 = time = 0
 attr = S, SA
 animtype  = hard
 damage    = 100,10
+getpower = 60,30
 hitflag = MAF
 guardflag = M
 pausetime = 5,10
@@ -4100,6 +4126,7 @@ type = HitDef
 trigger1 = AnimElem = 3
 attr = S, NA
 damage = 20
+getpower = 60,30
 animtype = Light
 guardflag = M
 hitflag = MA
@@ -4168,6 +4195,7 @@ type = HitDef
 trigger1 = AnimElem = 3
 attr = S, NA
 damage = 40
+getpower = 30,15
 animtype = Light
 guardflag = M
 hitflag = MA
@@ -4236,6 +4264,7 @@ type = HitDef
 trigger1 = AnimElem = 3
 attr = S, NA
 damage = 60
+getpower = 30,15
 animtype = Light
 guardflag = M
 hitflag = MA
@@ -4277,7 +4306,7 @@ ctrl = 1
 type    = S
 movetype= A
 physics = S
-poweradd= 50
+poweradd= 0
 velset = 0,0
 anim = 1500
 ctrl = 0
@@ -4585,7 +4614,7 @@ ctrl = 1
 type    = S
 movetype= A
 physics = S
-poweradd= 50
+poweradd= 20
 velset = 0,0
 anim = 1500
 ctrl = 0
@@ -4667,7 +4696,7 @@ ctrl = 1
 type    = S
 movetype= A
 physics = S
-poweradd= 50
+poweradd= 20
 velset = 0,0
 anim = 1500
 ctrl = 0

@@ -11,6 +11,7 @@ pal.defaults = 1      ;Default palettes in order of preference
 
 ; Files for the player
 [Files]
+movelist = movelist.dat
 cmd     = flor.cmd   ;Command set
 cns     = flor.cns   ;Constants
 st      = flor.cns   ;States

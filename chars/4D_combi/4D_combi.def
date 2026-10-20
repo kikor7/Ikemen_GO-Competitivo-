@@ -16,6 +16,7 @@ Author       = "haguremono"     ;ƒLƒƒƒ‰ƒNƒ^[‚Ìì¬Òi•K—v‚È€–Ú‚È‚Ì‚ÅÈ—ª•s‰Â
 Pal.Defaults = 1,4,       ;‚b‚o‚t‚Åo‚Ä‚«‚½‚ÌƒJƒ‰[ƒpƒŒƒbƒg‚Ì‡”Ô
 ;-----------------------------------------------------------------------------
 [Files]
+movelist = movelist.dat
 Cmd     = 4D_combi.cmd 
 Cns     = state/4D_combi.cns
 St       = state/4D_combi.cns

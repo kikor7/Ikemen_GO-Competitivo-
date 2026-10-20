@@ -12,6 +12,7 @@ author = "chuchoryu,joestar"
 pal.defaults = 1,2,11,12
 
 [Files]
+movelist = movelist.dat
 sprite = Gargos.sff
 anim = Gargos.air
 sound = Gargos.snd

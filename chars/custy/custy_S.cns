@@ -834,7 +834,7 @@ trigger2 = var(2) <= 15
 attr = S, SA
 damage = ceil(120*fvar(0)),12
 priority = 4, Hit
-getpower = ceil(384*var(12)/10),ceil(192*var(12)/10)
+getpower = 60,30
 givepower = 35,35
 hitflag = MAF
 guardflag = MA
@@ -939,7 +939,7 @@ trigger1 = AnimElemTime(4) = 0
 attr = S, SA
 damage = ceil(var(0)*0.09*fvar(0)),ceil(var(0)*0.009)
 priority = 6, Hit
-getpower = ceil(216*var(12)/10),ceil(108*var(12)/10)
+getpower = 30,15
 givepower = 35,35
 hitflag = MAF
 guardflag = MA
@@ -1040,7 +1040,7 @@ trigger1 = AnimElemTime(4) = 0
 attr = S, SA
 damage = ceil(var(0)*0.1*fvar(0)),ceil(var(0)*0.01)
 priority = 5, Hit
-getpower = ceil(216*var(12)/10),ceil(108*var(12)/10)
+getpower = 30,15
 givepower = 35,35
 hitflag = MAF
 guardflag = MA
@@ -1180,7 +1180,7 @@ trigger1 = time = 14
 attr = A, SA
 damage = ceil(100*fvar(0)),15
 priority = 5, Hit
-getpower = ceil(216*var(12)/10),ceil(108*var(12)/10)
+getpower = 60,30
 givepower = 35,35
 hitflag = MAF
 guardflag = MA
@@ -1286,6 +1286,7 @@ sprpriority = 0
 
 [State 1400, HitDef]
 type = HitDef
+getpower = 60,30
 trigger1 = var(10) <= 0
 trigger1 = time = 0
 trigger1 = p2movetype != H
@@ -1819,7 +1820,7 @@ juggle   = 0
 ctrl     = 0
 velset   = 0,0
 anim     = 1500
-poweradd = 0
+poweradd = 20
 sprpriority = 0
 
 [State 1500, PlaySnd]
@@ -2026,7 +2027,7 @@ projstagebound = 70
 projheightbound = -1000,70
 attr = A, SA
 damage = ceil(root,var(0)*root,fvar(0)*0.025),1
-getpower = ceil(54*root,var(12)/10),ceil(27*root,var(12)/10)
+getpower = 30,15
 givepower = 0,0
 animtype = medium
 hitflag = MAF
@@ -2155,7 +2156,7 @@ juggle   = 0
 ctrl     = 0
 velset   = 0,0
 anim     = 1700
-poweradd = 0
+poweradd = 20
 sprpriority = 0
 
 [State 1700, NotHitBy]
@@ -2241,7 +2242,7 @@ pausemovetime = 64
 attr = A, SA
 damage = ceil(var(0)*0.1*fvar(0)),ceil(var(0)*0.01)
 priority = 7, Hit
-getpower = ceil(384*var(12)/10),ceil(192*var(12)/10)
+getpower = 30,15
 givepower = 35,35
 animtype = hard
 hitflag = MAF
@@ -2414,7 +2415,7 @@ juggle   = 0
 ctrl     = 0
 velset   = 0,0
 anim     = 1705
-poweradd = 0
+poweradd = 20
 sprpriority = 0
 
 [State 1760, NotHitBy]
@@ -2483,7 +2484,7 @@ pausemovetime = 64
 attr = A, SA
 damage = ceil(var(0)*0.05*fvar(0)),ceil(var(0)*0.005)
 priority = 5, Hit
-getpower = ceil(144*var(12)/10),ceil(72*var(12)/10)
+getpower = 30,15
 givepower = 35,35
 animtype = hard
 hitflag = MAF

@@ -488,7 +488,7 @@ time = 9999
 [State 9530, 5]
 type = poweradd
 trigger1 = animelem = 4
-value = 100
+value = 0
 
 [State 9530, Super B]
 type = PlaySnd
@@ -745,7 +745,7 @@ time = 9999
 [State 9000, 5]
 type = poweradd
 trigger1 = animelem = 4
-value = 100
+value = 0
 
 ;[State 9000, Super B]
 ;type = PlaySnd
@@ -909,7 +909,7 @@ juggle  = 1                      ;Number of air juggle points move takes
 velset = 0,0                     ;Set velocity (x,y) (Def: no change)
 ctrl = 0                         ;Set ctrl (Def: no change)
 anim = 2802                       ;Change animation (Def: no change)
-poweradd = 20                    ;Power to add (Def: 0)
+poweradd = 0                    ;Power to add (Def: 0)
 sprpriority = 1                  ;Set layering priority to 2 (in front)
 
 [State 250, 1]
@@ -961,7 +961,7 @@ type    = S
 movetype= A                      
 physics = S                     
 anim = 2803                      
-poweradd = 20                    
+poweradd = 0                    
 sprpriority = -1                
 
 [State 251, 1]

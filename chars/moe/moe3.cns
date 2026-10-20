@@ -5,7 +5,7 @@ type    = S
 movetype= A
 physics = S
 juggle  = 3
-poweradd= 2
+poweradd= 0
 ctrl = 0
 anim = 1200
 velset = 0,0,0
@@ -92,6 +92,7 @@ trigger1 = Var(1) = 0
 trigger1 = AnimElem = 5
 attr = C, NA
 damage = floor(90*FVar(0)),floor(9*FVar(0))
+getpower = 15,7
 animtype  = Hard
 guardflag = M
 hitflag = HAF
@@ -123,6 +124,7 @@ trigger1 = Var(1) = 0
 trigger1 = AnimElem = 6
 attr = C, NA
 damage = floor(60*FVar(0)),floor(6*FVar(0))
+getpower = 15,7
 animtype  = Hard
 guardflag = M
 hitflag = HAF
@@ -154,6 +156,7 @@ trigger1 = Var(1) = 0
 trigger1 = AnimElem = 7
 attr = C, NA
 damage = floor(40*FVar(0)),floor(4*FVar(0))
+getpower = 15,7
 animtype  = Hard
 guardflag = MA
 hitflag = HAF
@@ -185,6 +188,7 @@ trigger1 = Var(1) = 0
 trigger1 = AnimElem = 8
 attr = C, NA
 damage = floor(30*FVar(0)),floor(3*FVar(0))
+getpower = 15,7
 animtype  = Hard
 guardflag = MA
 hitflag = HAF
@@ -230,7 +234,7 @@ type    = S
 movetype= A
 physics = S
 juggle  = 3
-poweradd= 2
+poweradd= 0
 ctrl = 0
 anim = 1210
 velset = 0,0,0
@@ -327,6 +331,7 @@ trigger1 = AnimElem = 7
 Persistent = 0
 attr = S, SA
 damage = floor(60*FVar(0)),floor(6*FVar(0))
+getpower = 15,7
 animtype  = Hard
 guardflag = M
 hitflag = MAF
@@ -359,6 +364,7 @@ trigger1 = AnimElem = 8
 Persistent = 0
 attr = S, SA
 damage = floor(50*FVar(0)),floor(5*FVar(0))
+getpower = 15,7
 animtype  = Hard
 guardflag = M
 hitflag = MAF
@@ -391,6 +397,7 @@ trigger1 = AnimElem = 9
 Persistent = 0
 attr = S, SA
 damage = floor(40*FVar(0)),floor(4*FVar(0))
+getpower = 15,7
 animtype  = Hard
 guardflag = MA
 hitflag = MAF
@@ -423,6 +430,7 @@ trigger1 = AnimElem = 10
 Persistent = 0
 attr = S, SA
 damage = floor(30*FVar(0)),floor(3*FVar(0))
+getpower = 15,7
 animtype  = Hard
 guardflag = MA
 hitflag = MAF

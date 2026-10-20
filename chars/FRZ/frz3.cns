@@ -956,7 +956,7 @@ anim = 200222
 [State 2502, 4]
 type = poweradd
 trigger1 = time > 0
-value = 5
+value = 0
 
 
 [State 200, Hit]
@@ -1036,7 +1036,7 @@ anim = 200222
 [State 2502, 4]
 type = poweradd
 trigger1 = time > 0
-value = 5
+value = 0
 
 
 [State 200, Hit]
@@ -1427,7 +1427,7 @@ anim = 200202
 [State 2502, 4]
 type = poweradd
 trigger1 = time > 0
-value = 5
+value = 0
 
 [State 203, 2]
 type = HitDef
@@ -1518,7 +1518,7 @@ number=10
 type   =S
 movetype= A
 physics=S
-poweradd= 60
+poweradd= 0
 ctrl=0
 anim=100234
 velset=0
@@ -1591,7 +1591,7 @@ anim = 200250
 [State 2502, 4]
 type = poweradd
 trigger1 = time > 0
-value = 3
+value = 0
 
 [State 250, 2]
 type = HitDef
@@ -1656,7 +1656,7 @@ anim = 200210
 [State 2502, 4]
 type = poweradd
 trigger1 = time > 0
-value = 3
+value = 0
 
  [State 0, PlaySnd]
 type = PlaySnd
@@ -1720,7 +1720,7 @@ anim = 200230
 [State 2502, 4]
 type = poweradd
 trigger1 = time > 0
-value = 3
+value = 0
 
 [State 230, 2]
 type = HitDef
@@ -1776,7 +1776,7 @@ anim = 200201
 [State 2502, 4]
 type = poweradd
 trigger1 = time > 0
-value = 5
+value = 0
 
 [State 201, 2]
 type = HitDef
@@ -1831,7 +1831,7 @@ anim = 200201
 [State 2502, 4]
 type = poweradd
 trigger1 = time > 0
-value = 5
+value = 0
 
  [State 0, PlaySnd]
 type = PlaySnd
@@ -1944,7 +1944,7 @@ anim = 200201
 [State 2502, 4]
 type = poweradd
 trigger1 = time > 0
-value = 5
+value = 0
 
 [State 201, 2]
 type = HitDef
@@ -2029,7 +2029,7 @@ anim = 20025199
 [State 2502, 4]
 type = poweradd
 trigger1 = time > 0
-value = 3
+value = 0
 
 
 
@@ -2129,7 +2129,7 @@ type    = C
 movetype= A
 physics = C
 juggle  = 5
-poweradd= 15
+poweradd= 0
 ctrl = 0
 anim = 200400
 sprpriority = 2
@@ -2190,7 +2190,7 @@ type    = C
 movetype= A
 physics = C
 juggle  = 5
-poweradd= 15
+poweradd= 0
 ctrl = 0
 anim = 200430
 sprpriority = 2
@@ -2345,7 +2345,7 @@ juggle  = 1
 velset = 0,0
 ctrl = 0
 anim = 200440
-poweradd = 20
+poweradd = 0
 sprpriority = 2
 
 
@@ -2402,7 +2402,7 @@ juggle  = 1
 velset = 0,0
 ctrl = 0
 anim = 200410
-poweradd = 20
+poweradd = 0
 sprpriority = 2
 
 
@@ -2455,7 +2455,7 @@ type    = A
 movetype= A
 physics = A
 juggle  = 2
-poweradd= 11
+poweradd= 0
 ctrl = 0
 anim = 200600
 sprpriority = 2
@@ -2496,7 +2496,7 @@ type    = A
 movetype= A
 physics = A
 juggle  = 4
-poweradd= 65
+poweradd= 0
 ctrl = 0
 anim = 200610
 sprpriority = 2
@@ -2534,7 +2534,7 @@ type    = A
 movetype= A
 physics = A
 juggle  = 4
-poweradd= 65
+poweradd= 0
 ctrl = 0
 anim = 200650
 sprpriority = 2
@@ -2572,7 +2572,7 @@ type    = A
 movetype= A
 physics = A
 juggle  = 4
-poweradd= 65
+poweradd= 0
 ctrl = 0
 anim = 200640
 sprpriority = 2
@@ -3146,7 +3146,7 @@ type    = A
 movetype= A
 physics = A
 juggle  = 4
-poweradd= 65
+poweradd= 0
 ctrl = 0
 anim = 620
 sprpriority = 2
@@ -4476,7 +4476,7 @@ physics= S
 velset= 0,0
 ctrl= 0
 anim= 21122
-poweradd= 20
+poweradd= 0
 
 
 [State 8747, 1]
@@ -4654,7 +4654,7 @@ physics= S
 velset= 0,0
 ctrl= 0
 anim= 20087486
-poweradd= 20
+poweradd= 0
 
 
 	[State 200: 	AfterImage]
@@ -4794,7 +4794,7 @@ physics= S
 velset= 0,0
 ctrl= 0
 anim= 21122
-poweradd= 20
+poweradd= 0
 
 
 [State 8747, 1]
@@ -4966,7 +4966,7 @@ physics= S
 velset= 0,0
 ctrl= 0
 anim= 20087487
-poweradd= 20
+poweradd= 0
 
 
 
@@ -5311,7 +5311,7 @@ physics= S
 velset= 0,0
 ctrl= 0
 anim= 21122
-poweradd= 20
+poweradd= 0
 
 
 [State 8747, 1]
@@ -5483,7 +5483,7 @@ physics= S
 velset= 0,0
 ctrl= 0
 anim= 20087487
-poweradd= 20
+poweradd= 0
 
 
 
@@ -6861,7 +6861,7 @@ type    = S
 movetype= A
 physics = S
 juggle  = 2
-poweradd = 55
+poweradd = 0
 ctrl = 0
 anim = 2005267
 sprpriority = 5
@@ -8019,7 +8019,7 @@ physics= S
 velset= 0,0
 ctrl= 0
 anim= 1122
-poweradd= 20
+poweradd= 0
 
 [State 0, SuperPause]
 type = SuperPause
@@ -10833,7 +10833,7 @@ physics= S
 velset= 0,0
 ctrl= 0
 anim= 1122
-poweradd= 20
+poweradd= 0
 
 [State 0, SuperPause]
 type = SuperPause
@@ -11107,7 +11107,7 @@ juggle  = 1
 velset = 0,0
 ctrl = 0
 anim = 2005
-poweradd = 60
+poweradd = 20
 
 [State 201, 6]
 type = PlaySnd
@@ -12153,7 +12153,7 @@ movetype = A
 physics = S
 anim = 2060
 pos = 0,5
-poweradd = 400
+poweradd = 0
 juggle = 5
 velset = 0
 ctrl = 0
@@ -12923,7 +12923,7 @@ physics= S
 velset= 0,0
 ctrl= 0
 anim= 2005300
-poweradd= 20
+poweradd= 0
 
 [State 0, ChangeAnim]
 type = ChangeAnim
@@ -13212,7 +13212,7 @@ physics= S
 velset= 0,0
 ctrl= 0
 anim= 21122
-poweradd= 20
+poweradd= 0
 
 [State 0, aura]
 type = Explod
@@ -13430,7 +13430,7 @@ physics= S
 velset= 0,0
 ctrl= 0
 anim= 20087487
-poweradd= 20
+poweradd= 0
 
 
 
@@ -16793,7 +16793,7 @@ type    = S
 movetype= A
 phySicS = S
 juggle  = 0
-poweradd= 150
+poweradd= 0
 ctrl = 0
 anim =205527
 velSet = 0,0,0
@@ -16887,7 +16887,7 @@ type    = S
 movetype= A
 phySicS = S
 juggle  = 0
-poweradd= 150
+poweradd= 0
 ctrl = 0
 anim = 205527
 velSet = 0,0,0
@@ -17211,7 +17211,7 @@ physics= S
 velset= 0,0
 ctrl= 0
 anim= 21122
-poweradd= 20
+poweradd= 0
 
 
 [State 8747, 1]
@@ -18502,7 +18502,7 @@ physics= S
 velset= 0,0
 ctrl= 0
 anim= 1122
-poweradd= 20
+poweradd= 0
 
 [State 0,efecto]
 type = Explod
@@ -20556,7 +20556,7 @@ physics= S
 velset= 0,0
 ctrl= 0
 anim= 3005300
-poweradd= 20
+poweradd= 0
 
 [State 0, ChangeAnim]
 type = ChangeAnim

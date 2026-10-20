@@ -12,6 +12,7 @@ author		= "Hh"
 
 ; Files for the Player
 [Files]
+movelist = movelist.dat
 cmd     = kusaregedo.cmd
 cns     = kusaregedo-N.cns	;Constants
 st      = kusaregedo-N.cns	;States (Normal)

@@ -11,6 +11,7 @@ pal.defaults = 10,11,12
 ;localcoord = 320,240		;ローカルコード（コメントアウト中）
 
 [Files]
+movelist = movelist.dat
 cmd      = Matou_Sakura.cmd
 cns      = Cns/Matou_Sakura.cns
 st       = Cns/Matou_Sakura.cns

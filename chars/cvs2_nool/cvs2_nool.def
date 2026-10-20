@@ -15,6 +15,7 @@ pal.defaults=4,5,6,10
 
 ; Files for the Player
 [Files]
+movelist = movelist.dat
 cmd = cvs2_nool.cmd
 cns = data-cvs2_nool.cns
 st  = cvs2_system.cns   

@@ -589,7 +589,7 @@ type = a
 movetype = a
 physics = n
 anim = 6500
-poweradd = 120
+poweradd = 0
 ctrl = 0
 
 [state 6500, veladd]

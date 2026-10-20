@@ -397,7 +397,7 @@ type = HitDef
 trigger1 = AnimElem = 9
 attr = S, SA
 animtype  = Hard
-getpower = var(10),floor(var(10)/2)
+getpower = 30,15
 givepower= var(10),0
 damage = var(12),ceil(var(10)*0.3)
 priority  = 5
@@ -472,7 +472,7 @@ type = HitDef
 trigger1 = animelem = 5
 attr = C, SA
 animtype  = Medium
-getpower = var(10),floor(var(10)/2)
+getpower = 30,15
 givepower= var(10),0
 damage = var(12),0
 animtype  = Light
@@ -534,7 +534,7 @@ type = HitDef
 trigger1 = animelem = 6
 attr = A, SA
 animtype  = Medium
-getpower = var(10),floor(var(10)/2)
+getpower = 30,15
 givepower= var(10),0
 damage = var(12),0
 hitflag=MAF
@@ -907,6 +907,7 @@ attr = S, HA
 hitflag= MA
 animtype  = Medium
 damage    = 0
+getpower = 60,30
 guardflag = M
 pausetime = 14,14
 sparkno = s1516

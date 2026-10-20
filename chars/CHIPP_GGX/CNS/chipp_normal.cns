@@ -751,7 +751,7 @@ air.hittime = 12
 fall.recover = 1
 air.fall = 1
 yaccel = .50
-getpower = 20, 10
+getpower = 30,15
 
 [State 200, 2] ;‘fU‚è‚Ì‰¹
 type = PlaySnd
@@ -854,7 +854,7 @@ air.velocity = -2.5,var(18)*0.1
 fall.recover = 1
 air.fall = 1
 yaccel = .50
-getpower = 20, 11
+getpower = 15,7
 
 [State 200, 1]
 type = varrandom
@@ -904,7 +904,7 @@ air.velocity = -2.5,var(18)*0.1
 fall.recover = 1
 air.fall = 1
 yaccel = .50
-getpower = 22, 12
+getpower = 15,7
 
 [State 220, 2] ;‘fU‚è‚Ì‰¹
 type = PlaySnd
@@ -1022,7 +1022,7 @@ air.velocity = -2,var(18)*0.1
 fall.recover = 1
 air.fall = 1
 yaccel = .50
-getpower = 52, 31
+getpower = 30,15
 
 [State 750, 3];ŒŒ‚µ‚Ô‚«ƒGƒtƒFƒNƒg‰¡a‚è
 type = helper
@@ -1142,7 +1142,7 @@ air.velocity = -2.5,var(18)*0.1
 fall.recover = 1
 air.fall = 1
 yaccel = .50
-getpower = 54, 33
+getpower = 30,15
 
 [State 750, 3];ŒŒ‚µ‚Ô‚«ƒGƒtƒFƒNƒg‰¡a‚è
 type = helper
@@ -1262,7 +1262,7 @@ air.velocity = -2.5,var(18)*0.1
 fall.recover = 1
 air.fall = 1
 yaccel = .50
-getpower = 30, 15
+getpower = 30,15
 
 [State 230, 6] ;I—¹
 type = ChangeState
@@ -1378,7 +1378,7 @@ air.velocity = -2.5,-5.5
 fall.recover = 1
 air.fall = 1
 yaccel = .50
-getpower = 48, 35
+getpower = 30,15
 
 [State 260, 10]
 type = Gravity
@@ -1571,7 +1571,7 @@ air.velocity = -3,var(18)*0.1
 fall.recover = 1
 air.fall = 1
 yaccel = .50
-getpower = 65, 45
+getpower = 30,15
 
 [State 240, 7] ;I—¹
 type = ChangeState
@@ -1679,7 +1679,7 @@ air.velocity = -3,var(18)*0.1
 fall.recover = 1
 air.fall = 1
 yaccel = .50
-getpower = 65, 45
+getpower = 30,15
 
 [State 750, 3];ŒŒ‚µ‚Ô‚«ƒGƒtƒFƒNƒgca‚è
 type = helper
@@ -1801,7 +1801,7 @@ air.velocity = -3,var(18)*0.1
 fall.recover = 1
 air.fall = 1
 yaccel = .50
-getpower = 18, 10
+getpower = 30,15
 
 [State 400, 4] ;I—¹
 type = ChangeState
@@ -1916,7 +1916,7 @@ air.velocity = -2,var(18)*0.1
 fall.recover = 1
 air.fall = 1
 yaccel = .50
-getpower = 48, 33
+getpower = 30,15
 
 [State 750, 3];ŒŒ‚µ‚Ô‚«ƒGƒtƒFƒNƒgca‚è
 type = helper
@@ -2048,7 +2048,7 @@ down.hittime = 20
 fall.recover = 1
 air.fall = 1
 yaccel = .50
-getpower = 23, 13
+getpower = 30,15
 
 [State 430, 6] ;I—¹
 type = ChangeState
@@ -2157,7 +2157,7 @@ fall.recover = 1
 fall = 1
 air.fall = 1
 yaccel = .50
-getpower = 62, 43
+getpower = 30,15
 
 [State 750, 3];ŒŒ‚µ‚Ô‚«ƒGƒtƒFƒNƒgca‚è
 type = helper
@@ -2288,7 +2288,7 @@ air.velocity = -2,var(18)*0.1
 fall.recover = 1
 air.fall = 1
 yaccel = .50
-getpower = 53, 35
+getpower = 60,30
 
 [State 450, 6] ;I—¹
 type = ChangeState
@@ -2422,7 +2422,7 @@ air.velocity = var(19)*0.1,var(20)*0.1
 fall.recover = 1
 air.fall = 1
 yaccel = .50
-getpower = 16, 8
+getpower = 30,15
 
 [State 101, 1];’Êíairvel X
 type = Varset
@@ -2594,7 +2594,7 @@ air.velocity = var(19)*0.1,var(20)*0.1
 fall.recover = 1
 air.fall = 1
 yaccel = .50
-getpower = 42, 24
+getpower = 30,15
 
 [State 101, 1];’Êíairvel X
 type = Varset
@@ -2791,7 +2791,7 @@ air.velocity = var(19)*0.1,var(20)*0.1
 fall.recover = 1
 air.fall = 1
 yaccel = .50
-getpower = 32, 19
+getpower = 15,7
 
 [State 101, 1];’Êíairvel X
 type = Varset
@@ -2844,7 +2844,7 @@ air.velocity = -1,9
 fall.recover = 1
 air.fall = 1
 yaccel = .50
-getpower = 32, 19
+getpower = 15,7
 
 [State 600, 3]
 type = changestate
@@ -2962,7 +2962,7 @@ air.velocity = -2.5,-6.5
 fall.recover = 1
 air.fall = 1
 yaccel = .50
-getpower = 32, 19
+getpower = 7,3
 
 [State 400, 6] ;UŒ‚—\–ñ
 type = HitDef
@@ -2987,7 +2987,7 @@ air.velocity = -2.5,-6.5
 fall.recover = 1
 air.fall = 1
 yaccel = .50
-getpower = 32, 19
+getpower = 7,3
 
 [State 400, 6] ;UŒ‚—\–ñ
 type = HitDef
@@ -3012,7 +3012,7 @@ air.velocity = -2.5,-6.5
 fall.recover = 1
 air.fall = 1
 yaccel = .50
-getpower = 32, 19
+getpower = 7,3
 
 [State 400, 6] ;UŒ‚—\–ñ
 type = HitDef
@@ -3037,7 +3037,7 @@ air.velocity = -2.5,-6.5
 fall.recover = 1
 air.fall = 1
 yaccel = .50
-getpower = 32, 19
+getpower = 7,3
 
 [State 260, 11] ;I—¹
 type = ChangeState
@@ -3176,7 +3176,7 @@ air.velocity = var(19)*0.1,var(20)*0.1
 fall.recover = 1
 air.fall = 1
 yaccel = .50
-getpower = 43, 28
+getpower = 15,7
 
 [State 400, 6] ;UŒ‚—\–ñ
 type = HitDef
@@ -3201,7 +3201,7 @@ air.velocity = var(19)*0.1,var(20)*0.1
 fall.recover = 1
 air.fall = 1
 yaccel = .50
-getpower = 43, 28
+getpower = 15,7
 
 [State 101, 1];’Êíairvel X
 type = Varset
@@ -3311,6 +3311,7 @@ sprpriority = 2
 
 [State 800, 1] ;UŒ‚—\–ñ
 type = HitDef
+getpower = 60,30
 Trigger1 = animelem = 1
 attr = S, NT						;—§‚¿’Êí“Š‚°
 hitflag = M-						;hit’†‚Ì‘Šè‚É‚Í“–‚½‚ç‚¸‹ó’†‚Ì‘Šè‚É‚à“–‚½‚ç‚È‚¢
@@ -3338,7 +3339,7 @@ type    = S
 movetype= A
 physics = N
 anim = 810
-poweradd = 60
+poweradd = 0
 
 [State 1210 , 1]
 type = screenbound

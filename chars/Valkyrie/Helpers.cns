@@ -138,6 +138,7 @@ type = HitDef
 trigger1 = time = 0
 attr = S, SA
 damage = 30, 0
+getpower = 30,15
 animtype = Hard
 guardflag = MA
 hitflag = MAF

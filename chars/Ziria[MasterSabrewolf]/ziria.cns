@@ -327,6 +327,7 @@ type = HitDef
 trigger1 = AnimElem = 4
 attr = S, NA
 damage = 20, 10
+getpower = 30,15
 animtype = Light
 guardflag = MA
 hitflag = MAF
@@ -374,6 +375,7 @@ type = HitDef
 trigger1 = AnimElem = 2
 attr = S, NA
 damage = 30, 25
+getpower = 30,15
 animtype = Light
 guardflag = MA
 hitflag = MAF
@@ -478,6 +480,7 @@ type = HitDef
 trigger1 = AnimElem = 3
 attr = S, NA
 damage = 50, 30
+getpower = 30,15
 animtype = Light
 guardflag = MA
 hitflag = MAF
@@ -573,6 +576,7 @@ type = HitDef
 trigger1 = AnimElem = 3
 attr = S, NA
 damage = 40, 20
+getpower = 30,15
 animtype = Light
 guardflag = MA
 hitflag = MAF
@@ -619,6 +623,7 @@ type = HitDef
 trigger1 = AnimElem = 6
 attr = S, NA
 damage = 50, 35
+getpower = 30,15
 animtype = Light
 guardflag = MA
 hitflag = MAF
@@ -714,6 +719,7 @@ type = HitDef
 trigger1 = AnimElem = 2
 attr = S, NA
 damage = 20, 10
+getpower = 30,15
 animtype = Light
 guardflag = MA
 hitflag = MAF
@@ -762,6 +768,7 @@ trigger1 = AnimElem = 3
 attr = S, NA
 animtype  = Medium
 damage    = 30, 15
+getpower = 30,15
 guardflag = MA
 pausetime = 13,18
 sparkno = S302
@@ -855,6 +862,7 @@ trigger1 = AnimElem = 4
 attr = S, NA
 animtype  = Medium
 damage    = 50, 30
+getpower = 30,15
 guardflag = MA
 pausetime = 13,18
 sparkno = S300
@@ -950,6 +958,7 @@ trigger1 = AnimElem = 5
 attr = S, NA
 animtype  = Medium
 damage    = 50, 30
+getpower = 30,15
 guardflag = MA
 pausetime = 13,10
 sparkno = S300
@@ -1051,6 +1060,7 @@ type = HitDef
 trigger1 = AnimElem = 2
 attr = C, NA
 damage    = 30, 15
+getpower = 30,15
 priority  = 3
 animtype  = Light
 hitflag = MAF
@@ -1096,6 +1106,7 @@ type = HitDef
 trigger1 = AnimElem = 4
 attr = C, NA
 damage    = 50, 25
+getpower = 30,15
 priority  = 3
 animtype  = Light
 hitflag = MAF
@@ -1140,6 +1151,7 @@ type = HitDef
 trigger1 = AnimElem = 6
 attr = C, NA
 damage    = 70, 35
+getpower = 30,15
 priority  = 3
 animtype  = Light
 hitflag = MAF
@@ -1190,6 +1202,7 @@ type = HitDef
 trigger1 = AnimElem = 2
 attr = C, NA
 damage    = 30, 15
+getpower = 30,15
 priority  = 3
 animtype  = Light
 hitflag = MAF
@@ -1229,6 +1242,7 @@ type = HitDef
 trigger1 = AnimElem = 3
 attr = C, NA
 damage    = 50, 25
+getpower = 30,15
 priority  = 3
 animtype  = Light
 hitflag = MAF
@@ -1274,6 +1288,7 @@ type = HitDef
 trigger1 = AnimElem = 4
 attr = C, NA
 damage    = 70, 35
+getpower = 30,15
 priority  = 3
 animtype  = Light
 hitflag = MAF
@@ -1325,6 +1340,7 @@ type = HitDef
 trigger1 = AnimElem = 3
 attr = A, NA
 damage    = 32, 15
+getpower = 30,15
 guardflag = HA
 priority = 3
 pausetime = 7,8
@@ -1373,6 +1389,7 @@ type = HitDef
 trigger1 = AnimElem = 2
 attr = A, NA
 damage    = 50, 25
+getpower = 30,15
 guardflag = HA
 priority = 3
 pausetime = 7,8
@@ -1421,6 +1438,7 @@ type = HitDef
 trigger1 = AnimElem = 2
 attr = A, NA
 damage    = 70, 35
+getpower = 30,15
 guardflag = HA
 priority = 3
 pausetime = 7,8
@@ -1463,6 +1481,7 @@ type = HitDef
 trigger1 = AnimElem = 2
 attr = A, NA
 damage    = 30, 15
+getpower = 30,15
 guardflag = HA
 priority = 3
 pausetime = 7,8
@@ -1507,6 +1526,7 @@ type = HitDef
 trigger1 = AnimElem = 2
 attr = A, NA
 damage    = 50, 25
+getpower = 30,15
 guardflag = HA
 priority = 3
 pausetime = 7,8
@@ -1549,6 +1569,7 @@ type = HitDef
 trigger1 = AnimElem = 2
 attr = A, NA
 damage    = 70, 35
+getpower = 30,15
 guardflag = HA
 priority = 3
 pausetime = 0,0
@@ -1724,7 +1745,7 @@ type    = S
 movetype= A
 physics = N
 anim = 801
-poweradd = 80
+poweradd = 0
 
 [State 810, 1]
 type = TargetBind

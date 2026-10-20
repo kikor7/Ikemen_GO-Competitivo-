@@ -5,6 +5,7 @@
 ; ‚¨—F’B‚ðÐ‰î‚µ‚Ü‚·
 [Statedef 1000]
 type    = S
+poweradd = 20
 movetype= I
 physics = S
 anim = 1000
@@ -239,6 +240,7 @@ ctrl = 1
 ; ‘å‚«‚È‚¨—F’B‚ðÐ‰î‚µ‚Ü‚·
 [Statedef 1100]
 type    = S
+poweradd = 20
 movetype= I
 physics = S
 anim = 1100
@@ -687,7 +689,7 @@ guardflag = MA
 animtype = Hard
 ground.type = High
 priority = 1,miss
-getpower = 115,115
+getpower = 60,30
 givepower = 0,0
 pausetime = 0,37
 guard.pausetime = 4,3
@@ -1071,7 +1073,7 @@ animtype = Hard
 ground.type = High
 ;priority = 5,Hit
 damage = ifelse(floor(50*fvar(0))>1,floor(50*fvar(0)),1)+floor(fvar(11)),floor(fvar(10))+5
-getpower = 30,20
+getpower = 20,10
 givepower = 50,10
 pausetime = 14+(enemynear(var(2)),movetype=A),13+(enemynear(var(2)),movetype=A)
 guard.pausetime = 14,13
@@ -1126,7 +1128,7 @@ animtype = Hard
 ground.type = High
 ;priority = 5,Hit
 damage = ifelse(floor(50*fvar(0))>1,floor(50*fvar(0)),1)+floor(fvar(11)),floor(fvar(10))+5
-getpower = 25,60
+getpower = 20,10
 givepower = 40,10
 pausetime = 14+(enemynear(var(2)),movetype=A),13+(enemynear(var(2)),movetype=A)
 guard.pausetime = 14,13
@@ -1345,7 +1347,7 @@ animtype = Hard
 ground.type = Low
 ;priority = 5,Hit
 damage = ifelse(floor(60*fvar(0))>1,floor(60*fvar(0)),1)+floor(fvar(11)),floor(fvar(10))+6
-getpower = 30,15
+getpower = 20,10
 givepower = 45,10
 pausetime = 13+(enemynear(var(2)),movetype=A),13+(enemynear(var(2)),movetype=A)
 guard.pausetime = 13,13
@@ -1607,7 +1609,7 @@ animtype = Hard
 ground.type = High
 ;priority = 5,Hit
 damage = ifelse(floor(60*fvar(0))>1,floor(60*fvar(0)),1)+floor(fvar(11)),floor(fvar(10))+6
-getpower = 30,20
+getpower = 30,15
 givepower = 50,10
 pausetime = 13+(enemynear(var(2)),movetype=A),13+(enemynear(var(2)),movetype=A)
 guard.pausetime = 13,13
@@ -1664,7 +1666,7 @@ animtype = Hard
 ground.type = High
 ;priority = 5,Hit
 damage = ifelse(floor(60*fvar(0))>1,floor(60*fvar(0)),1)+floor(fvar(11)),floor(fvar(10))+6
-getpower = 25,60
+getpower = 30,15
 givepower = 40,10
 pausetime = 13+(enemynear(var(2)),movetype=A),13+(enemynear(var(2)),movetype=A)
 guard.pausetime = 13,13
@@ -2349,6 +2351,7 @@ ctrl = 1
 ; ‚²Œõ—Õ
 [Statedef 2500]
 type    = S
+poweradd = 0
 movetype= A
 physics = S
 anim = 2500
@@ -2383,6 +2386,7 @@ persistent = 0
 
 [State 2500]
 type = HitDef
+getpower = 10,5
 triggerall = ifelse(enemynear,ID=enemy,ID,var(20)%10<3,var(20)/10%10<3)||enemynear,statetype=L&&ifelse(enemynear,ID=enemy,ID,var(20)/10%10<3,var(20)%10<3)
 triggerall = !movecontact && !movereversed
 triggerall = var(57)/1000000%10 = 0
@@ -2419,6 +2423,7 @@ numhits = 0
 
 [State 2500]
 type = HitDef
+getpower = 10,5
 triggerall = ifelse(enemynear,ID=enemy,ID,var(20)%10<3,var(20)/10%10<3)||enemynear,statetype=L&&ifelse(enemynear,ID=enemy,ID,var(20)/10%10<3,var(20)%10<3)
 triggerall = !movecontact && !movereversed
 triggerall = var(57)/1000000%10 = 1

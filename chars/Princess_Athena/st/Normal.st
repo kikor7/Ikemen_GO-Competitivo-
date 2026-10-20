@@ -111,7 +111,7 @@
   Trigger1         = Var(11) < 10
   Attr             = S, NA
   Damage           = IfElse(Var(3)=0,IfElse(Floor(20*FVar(4))<1,1,Floor(20*FVar(4))),30),0
-  GetPower         = 30,15
+  getpower = 30,15
   GivePower        = 5,10
   AnimType         = Light
   HitFlag          = MAF
@@ -224,7 +224,7 @@
   Trigger1         = Var(11) < 10
   Attr             = S, NA
   Damage           = IfElse(Var(3)=0,IfElse(Floor(20*FVar(4))<1,1,Floor(20*FVar(4))),30),0
-  GetPower         = 30,15
+  getpower = 30,15
   GivePower        = 5,10
   AnimType         = Light
   HitFlag          = MAF
@@ -266,7 +266,7 @@
   VelSet      = 0, 0
   Ctrl        = 0
   Anim        = 210
-  PowerAdd    = 30
+  PowerAdd    = 0
   SprPriority = 2
 
 ;---------------------------[ 変数定義 ]-----------------------------;
@@ -346,7 +346,7 @@
   Trigger1         = Var(11) < 10
   Attr             = S, NA
   Damage           = IfElse(Var(3)=0,IfElse(Floor(70*FVar(4))<1,1,Floor(70*FVar(4))),80),0
-  GetPower         = 30,15
+  getpower = 30,15
   GivePower        = 5,10
   AnimType         = Hard
   HitFlag          = MAF
@@ -388,7 +388,7 @@
   VelSet      = 0, 0
   Ctrl        = 0
   Anim        = 215
-  PowerAdd    = 30
+  PowerAdd    = 0
   SprPriority = 2
 
 ;---------------------------[ 変数定義 ]-----------------------------;
@@ -466,7 +466,7 @@
   Trigger1         = Var(11) < 10
   Attr             = S, NA
   Damage           = IfElse(Var(3)=0,IfElse(Floor(55*FVar(4))<1,1,Floor(55*FVar(4))),65),0
-  GetPower         = 30,15
+  getpower = 30,15
   GivePower        = 5,10
   AnimType         = Hard
   HitFlag          = MAF
@@ -585,7 +585,7 @@
   Trigger1         = Var(11) < 10
   Attr             = S, NA
   Damage           = IfElse(Var(3)=0,IfElse(Floor(40*FVar(4))<1,1,Floor(40*FVar(4))),50),0
-  GetPower         = 30,15
+  getpower = 30,15
   GivePower        = 5,10
   AnimType         = Light
   HitFlag          = MAF
@@ -699,7 +699,7 @@
   Trigger1         = Var(11) < 10
   Attr             = S, NA
   Damage           = IfElse(Var(3)=0,IfElse(Floor(20*FVar(4))<1,1,Floor(20*FVar(4))),30),0
-  GetPower         = 30,15
+  getpower = 30,15
   GivePower        = 5,10
   AnimType         = Light
   HitFlag          = MAF
@@ -741,7 +741,7 @@
   VelSet      = 0, 0
   Ctrl        = 0
   Anim        = 240
-  PowerAdd    = 30
+  PowerAdd    = 0
   SprPriority = 2
 
 ;---------------------------[ 変数定義 ]-----------------------------;
@@ -814,7 +814,7 @@
   Trigger1         = Var(11) < 10
   Attr             = S, NA
   Damage           = IfElse(Var(3)=0,IfElse(Floor(65*FVar(4))<1,1,Floor(65*FVar(4))),75),0
-  GetPower         = 30,15
+  getpower = 30,15
   GivePower        = 5,10
   AnimType         = Hard
   HitFlag          = MAF
@@ -856,7 +856,7 @@
   VelSet      = 0, 0
   Ctrl        = 0
   Anim        = 245
-  PowerAdd    = 30
+  PowerAdd    = 0
   SprPriority = 2
 
 ;---------------------------[ 変数定義 ]-----------------------------;
@@ -928,7 +928,7 @@
   Trigger1         = Var(11) < 10
   Attr             = S, NA
   Damage           = IfElse(Var(3)=0,IfElse(Floor(55*FVar(4))<1,1,Floor(55*FVar(4))),65),0
-  GetPower         = 30,15
+  getpower = 30,15
   GivePower        = 5,10
   AnimType         = Hard
   HitFlag          = MAF
@@ -1044,7 +1044,7 @@
   Trigger1         = Var(11) < 10
   Attr             = C, NA
   Damage           = IfElse(Var(3)=0,IfElse(Floor(20*FVar(4))<1,1,Floor(20*FVar(4))),30),0
-  GetPower         = 30,15
+  getpower = 30,15
   GivePower        = 5,10
   AnimType         = Light
   HitFlag          = MAF
@@ -1086,7 +1086,7 @@
   VelSet      = 0, 0
   Ctrl        = 0
   Anim        = 410
-  PowerAdd    = 30
+  PowerAdd    = 0
   SprPriority = 2
 
 ;---------------------------[ 変数定義 ]-----------------------------;
@@ -1165,7 +1165,7 @@
   Trigger1         = Var(11) < 10
   Attr             = C, NA
   Damage           = IfElse(Var(3)=0,IfElse(Floor(60*FVar(4))<1,1,Floor(60*FVar(4))),70),0
-  GetPower         = 30,15
+  getpower = 30,15
   GivePower        = 5,10
   AnimType         = Hard
   HitFlag          = MAF
@@ -1284,7 +1284,7 @@
   Trigger1         = Var(11) < 10
   Attr             = C, NA
   Damage           = IfElse(Var(3)=0,IfElse(Floor(20*FVar(4))<1,1,Floor(20*FVar(4))),30),0
-  GetPower         = 30,15
+  getpower = 30,15
   GivePower        = 5,10
   AnimType         = Light
   HitFlag          = MAF
@@ -1326,7 +1326,7 @@
   VelSet      = 0, 0
   Ctrl        = 0
   Anim        = 440
-  PowerAdd    = 30
+  PowerAdd    = 0
   SprPriority = 2
 
 ;---------------------------[ 変数定義 ]-----------------------------;
@@ -1412,7 +1412,7 @@
   Trigger1         = Var(11) < 10
   Attr             = C, NA
   Damage           = IfElse(Var(3)=0,IfElse(Floor(55*FVar(4))<1,1,Floor(55*FVar(4))),65),0
-  GetPower         = 30,15
+  getpower = 30,15
   GivePower        = 5,10
   AnimType         = Hard
   HitFlag          = MAF
@@ -1523,7 +1523,7 @@
   Trigger1         = Var(11) < 10
   Attr             = A, NA
   Damage           = IfElse(Var(3)=0,IfElse(Floor(20*FVar(4))<1,1,Floor(20*FVar(4))),30),0
-  GetPower         = 30,15
+  getpower = 30,15
   GivePower        = 5,10
   AnimType         = Light
   HitFlag          = MAF
@@ -1556,7 +1556,7 @@
   ;Commonly-used controllers:
   Ctrl        = 0
   Anim        = 610
-  PowerAdd    = 30
+  PowerAdd    = 0
   SprPriority = 2
 
 ;---------------------------[ 変数定義 ]-----------------------------;
@@ -1635,7 +1635,7 @@
   Trigger1         = Var(11) < 10
   Attr             = A, NA
   Damage           = IfElse(Var(3)=0,IfElse(Floor(60*FVar(4))<1,1,Floor(60*FVar(4))),70),0
-  GetPower         = 30,15
+  getpower = 30,15
   GivePower        = 5,10
   AnimType         = Hard
   HitFlag          = MAF
@@ -1746,7 +1746,7 @@
   Trigger1         = Var(11) < 10
   Attr             = A, NA
   Damage           = IfElse(Var(3)=0,IfElse(Floor(22*FVar(4))<1,1,Floor(22*FVar(4))),32),0
-  GetPower         = 30,15
+  getpower = 30,15
   GivePower        = 5,10
   AnimType         = Light
   HitFlag          = MAF
@@ -1779,7 +1779,7 @@
   ;Commonly-used controllers:
   Ctrl        = 0
   Anim        = 640
-  PowerAdd    = 30
+  PowerAdd    = 0
   SprPriority = 2
 
 ;---------------------------[ 変数定義 ]-----------------------------;
@@ -1852,7 +1852,7 @@
   Trigger1         = Var(11) < 10
   Attr             = A, NA
   Damage           = IfElse(Var(3)=0,IfElse(Floor(70*FVar(4))<1,1,Floor(70*FVar(4))),80),0
-  GetPower         = 30,15
+  getpower = 30,15
   GivePower        = 5,10
   AnimType         = Hard
   HitFlag          = MAF
@@ -2057,6 +2057,7 @@
   Trigger1         = Var(11) < 10
   Attr             = S, NA
   Damage           = IfElse(Var(3)=0,IfElse(Floor(70*FVar(4))<1,1,Floor(70*FVar(4))),80),0
+getpower = 30,15
   AnimType         = Hard
   HitFlag          = MAF
   GuardFlag        = HA
@@ -2083,6 +2084,7 @@
   Trigger1         = Time = 0
   Attr             = S, NA
   Damage           = IfElse(Var(3)=0,IfElse(Floor(50*FVar(4))<1,1,Floor(50*FVar(4))),60),0
+getpower = 30,15
   AnimType         = Hard
   HitFlag          = MAF
   GuardFlag        = MA
@@ -2158,6 +2160,7 @@
 
 [State 800]
   Type          = HitDef
+getpower = 60,30
   TriggerAll    = Var(30) = 0 || Var(30) = 5
   Trigger1      = Time = 0
   Attr          = S, NT
@@ -2177,6 +2180,7 @@
 
 [State 800]
   Type          = HitDef
+getpower = 60,30
   TriggerAll    = Var(30) = [1,2]
   Trigger1      = Time = 0
   Attr          = S, NT

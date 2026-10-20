@@ -9,6 +9,7 @@ author       = "Dronekiller"
 ;Localcoord = 420 ; < Widescreen
 
 [Files]
+movelist = movelist.dat
 cmd      = Congcong.cmd
 cns      = Congcong.cns 
 st       = Congcong.cns

@@ -4888,7 +4888,7 @@ physics = N
 juggle = 0
 ctrl = 0
 anim = ifelse((prevstateno = [100,105]),201,200)
-poweradd = 30*(var(0)!=1)*(var(8)!=3)*(prevstateno!=[100,105])
+poweradd = 0*(var(0)!=1)*(var(8)!=3)*(prevstateno!=[100,105])
 
 [State 3001, Width]
 type = Width
@@ -5149,7 +5149,7 @@ physics = N
 juggle = 0
 ctrl = 0
 anim = ifelse((prevstateno = [100,105]),211,210)
-poweradd = 40*(var(0)!=1)*(var(8)!=3)
+poweradd = 0*(var(0)!=1)*(var(8)!=3)
 
 [State 3001, Width]
 type = Width
@@ -5386,7 +5386,7 @@ physics = N
 juggle = 0
 ctrl = 0
 anim = 220
-poweradd = 50*(var(0)!=1)*(var(8)!=3)
+poweradd = 0*(var(0)!=1)*(var(8)!=3)
 velset = 0,0
 
 [State 3001, Width]
@@ -5713,7 +5713,7 @@ physics = S
 juggle = 0
 ctrl = 0
 anim = 230
-poweradd = 40*(var(0)!=1)*(var(8)!=3)
+poweradd = 0*(var(0)!=1)*(var(8)!=3)
 velset = 0,0
 
 [State 3001, Width]
@@ -5903,7 +5903,7 @@ physics = N
 juggle = 0
 ctrl = 0
 anim = 240
-poweradd = 50*(var(0)!=1)*(var(8)!=3)
+poweradd = 0*(var(0)!=1)*(var(8)!=3)
 velset = 0,0
 
 [State 3001, Width]
@@ -6053,7 +6053,7 @@ physics = N
 juggle = 0
 ctrl = 0
 anim = ifelse((prevstateno = [100,105]),401,400)
-poweradd = 30*(var(0)!=1)*(var(8)!=3)*(prevstateno!=[100,105])
+poweradd = 0*(var(0)!=1)*(var(8)!=3)*(prevstateno!=[100,105])
 
 [State 3001, Width]
 type = Width
@@ -6266,7 +6266,7 @@ physics = N
 juggle = 0
 ctrl = 0
 anim = 410
-poweradd = 40*(var(0)!=1)*(var(8)!=3)
+poweradd = 0*(var(0)!=1)*(var(8)!=3)
 sprpriority = 2
 velset = 0,0
 
@@ -6415,7 +6415,7 @@ physics = N
 juggle = 0
 ctrl = 0
 anim = 411
-poweradd = 40*(var(0)!=1)*(var(8)!=3)
+poweradd = 0*(var(0)!=1)*(var(8)!=3)
 sprpriority = 2
 
 [State 3001, Width]
@@ -6489,7 +6489,7 @@ physics = N
 juggle = 0
 ctrl = 0
 anim = 420
-poweradd = 50*(var(0)!=1)*(var(8)!=3)
+poweradd = 0*(var(0)!=1)*(var(8)!=3)
 velset = 0,0
 
 [State 3001, Width]
@@ -6639,7 +6639,7 @@ physics = N
 juggle = 0
 ctrl = 0
 anim = 421
-poweradd = 50*(var(0)!=1)*(var(8)!=3)
+poweradd = 0*(var(0)!=1)*(var(8)!=3)
 
 [State 3001, Width]
 type = Width
@@ -6712,7 +6712,7 @@ physics = C
 juggle = 0
 ctrl = 0
 anim = 430
-poweradd = 50*(var(0)!=1)*(var(8)!=3)
+poweradd = 0*(var(0)!=1)*(var(8)!=3)
 velset = 0,0
 
 [State 3001, Width]
@@ -6862,7 +6862,7 @@ physics = N
 juggle = 0                  
 ctrl = 0
 anim = 600
-poweradd = 30*(var(0)!=1)*(var(8)!=3)
+poweradd = 0*(var(0)!=1)*(var(8)!=3)
 
 [State 3001, Width]
 type = Width
@@ -7004,7 +7004,7 @@ physics = N
 juggle = 0
 ctrl = 0
 anim = 610
-poweradd = 40*(var(0)!=1)*(var(8)!=3)
+poweradd = 0*(var(0)!=1)*(var(8)!=3)
 
 [State 3001, Width]
 type = Width
@@ -7146,7 +7146,7 @@ physics = N
 juggle = 0
 ctrl = 0
 anim = 620
-poweradd = 50*(var(0)!=1)*(var(8)!=3)
+poweradd = 0*(var(0)!=1)*(var(8)!=3)
 
 [State 3001, Width]
 type = Width
@@ -11620,7 +11620,7 @@ physics = N
 juggle = 0
 ctrl = 0
 anim = ifelse((prevstateno = [100,105]),301,ifelse(IsHelper,305,300))
-poweradd = 30*(var(0)!=1)*!IsHelper
+poweradd = 0*(var(0)!=1)*!IsHelper
 sprpriority = 1
 
 [State 1100, VarSet]
@@ -12465,7 +12465,7 @@ physics = N
 juggle = 0
 ctrl = 0
 anim = ifelse((prevstateno = [100,105]),311,ifelse(IsHelper,315,310))
-poweradd = 40*(var(0)!=1)*!IsHelper
+poweradd = 0*(var(0)!=1)*!IsHelper
 sprpriority = 1
 
 [State 1100, VarSet]
@@ -13311,7 +13311,7 @@ physics = N
 juggle = 0
 ctrl = 0
 anim = ifelse((prevstateno = [100,105]),322,ifelse(IsHelper,325,320))
-poweradd = 50*(var(0)!=1)*!IsHelper
+poweradd = 0*(var(0)!=1)*!IsHelper
 sprpriority = 1
 
 [State 1100, VarSet]
@@ -14163,7 +14163,7 @@ physics = N
 juggle = 0
 ctrl = 0
 anim = ifelse(IsHelper,335,330)
-poweradd = 40*(var(0)!=1)*!IsHelper
+poweradd = 0*(var(0)!=1)*!IsHelper
 sprpriority = 1
 velset = 0,0
 
@@ -14881,7 +14881,7 @@ physics = N
 juggle = 0
 ctrl = 0
 anim = ifelse(IsHelper,345,340)
-poweradd = 50*(var(0)!=1)*!IsHelper
+poweradd = 0*(var(0)!=1)*!IsHelper
 sprpriority = 1
 velset = 0,0
 
@@ -15608,7 +15608,7 @@ physics = N
 juggle = 0
 ctrl = 0
 anim = ifelse((prevstateno = [100,105]),501,ifelse(IsHelper,505,500))
-poweradd = 30*(var(0)!=1)*!IsHelper
+poweradd = 0*(var(0)!=1)*!IsHelper
 sprpriority = 1
 
 [State 1100, VarSet]
@@ -16493,7 +16493,7 @@ physics = N
 juggle = 0
 ctrl = 0
 anim = ifelse((prevstateno = [100,105]),511,ifelse(IsHelper,515,510))
-poweradd = 40*(var(0)!=1)*!IsHelper
+poweradd = 0*(var(0)!=1)*!IsHelper
 sprpriority = 1
 
 [State 1100, VarSet]
@@ -17310,7 +17310,7 @@ physics = N
 juggle = 0
 ctrl = 0
 anim = ifelse(IsHelper,525,520)
-poweradd = 50*(var(0)!=1)*!IsHelper
+poweradd = 0*(var(0)!=1)*!IsHelper
 sprpriority = 1
 velset = 0,0
 
@@ -18128,7 +18128,7 @@ physics = N
 juggle = 0
 ctrl = 0
 anim = 530
-poweradd = 50*(var(0)!=1)
+poweradd = 0*(var(0)!=1)
 sprpriority = 1
 
 [State 1100, VarSet]
@@ -18290,7 +18290,7 @@ physics = N
 juggle = 0                  
 ctrl = 0
 anim = 700
-poweradd = 30*(var(0)!=1)
+poweradd = 0*(var(0)!=1)
 sprpriority = 1
 
 [State 3001, Width]
@@ -18443,7 +18443,7 @@ physics = N
 juggle = 0
 ctrl = 0
 anim = 710
-poweradd = 40*(var(0)!=1)
+poweradd = 0*(var(0)!=1)
 sprpriority = 1
 
 [State 3001, Width]
@@ -18596,7 +18596,7 @@ physics = N
 juggle = 0
 ctrl = 0
 anim = 720
-poweradd = 50*(var(0)!=1)
+poweradd = 0*(var(0)!=1)
 sprpriority = 1
 
 [State 3001, Width]
@@ -18749,7 +18749,7 @@ physics = N
 juggle = 0
 ctrl = 0
 anim = ifelse(IsHelper,305,300)
-poweradd = 30*(var(0)!=1)*!IsHelper
+poweradd = 0*(var(0)!=1)*!IsHelper
 sprpriority = 1
 velset = 0,0
 
@@ -19499,7 +19499,7 @@ physics = N
 juggle = 0
 ctrl = 0
 anim = ifelse(IsHelper,315,310)
-poweradd = 30*(var(0)!=1)*!IsHelper
+poweradd = 0*(var(0)!=1)*!IsHelper
 sprpriority = 1
 velset = 0,0
 
@@ -20299,7 +20299,7 @@ physics = N
 juggle = 0
 ctrl = 0
 anim = ifelse(IsHelper,326,322)
-poweradd = 30*(var(0)!=1)*!IsHelper
+poweradd = 0*(var(0)!=1)*!IsHelper
 sprpriority = 1
 velset = 0,0
 
@@ -21000,7 +21000,7 @@ physics = N
 juggle = 0
 ctrl = 0
 anim = ifelse(IsHelper,336,331)
-poweradd = 30*(var(0)!=1)*!IsHelper
+poweradd = 0*(var(0)!=1)*!IsHelper
 sprpriority = 1
 
 [State 1100, VarSet]
@@ -21702,7 +21702,7 @@ physics = N
 juggle = 0
 ctrl = 0
 anim = ifelse(IsHelper,346,341)
-poweradd = 30*(var(0)!=1)*!IsHelper
+poweradd = 0*(var(0)!=1)*!IsHelper
 sprpriority = 1
 velset = 0,0
 
@@ -22447,7 +22447,7 @@ physics = N
 juggle = 0
 ctrl = 0
 anim = ifelse(IsHelper,346,341)
-poweradd = 30*(var(0)!=1)*!IsHelper
+poweradd = 0*(var(0)!=1)*!IsHelper
 sprpriority = 1
 velset = 0,0
 
@@ -23141,7 +23141,7 @@ physics = N
 juggle = 0
 ctrl = 0
 anim = ifelse(IsHelper,506,502)
-poweradd = 30*(var(0)!=1)*!IsHelper
+poweradd = 0*(var(0)!=1)*!IsHelper
 sprpriority = 1
 velset = 0,0
 
@@ -23860,7 +23860,7 @@ physics = N
 juggle = 0
 ctrl = 0
 anim = ifelse(IsHelper,516,512)
-poweradd = 30*(var(0)!=1)*!IsHelper
+poweradd = 0*(var(0)!=1)*!IsHelper
 sprpriority = 1
 velset = 0,0
 
@@ -24644,7 +24644,7 @@ physics = N
 juggle = 0
 ctrl = 0
 anim = ifelse(IsHelper,516,512)
-poweradd = 30*(var(0)!=1)*!IsHelper
+poweradd = 0*(var(0)!=1)*!IsHelper
 sprpriority = 1
 velset = 0,0
 
@@ -25325,7 +25325,7 @@ physics = N
 juggle = 0
 ctrl = 0
 anim = ifelse(IsHelper,526,521)
-poweradd = 30*(var(0)!=1)*!IsHelper
+poweradd = 0*(var(0)!=1)*!IsHelper
 sprpriority = 1
 velset = 0,0
 
@@ -26109,7 +26109,7 @@ physics = N
 juggle = 0
 ctrl = 0
 anim = ifelse(IsHelper,536,531)
-poweradd = 30*(var(0)!=1)*!IsHelper
+poweradd = 0*(var(0)!=1)*!IsHelper
 sprpriority = 1
 velset = 0,0
 
@@ -26841,7 +26841,7 @@ physics = N
 juggle = 0
 ctrl = 0
 anim = ifelse(IsHelper,536,532)
-poweradd = 30*(var(0)!=1)*!IsHelper
+poweradd = 0*(var(0)!=1)*!IsHelper
 sprpriority = 1
 velset = 0,0
 
@@ -31400,7 +31400,7 @@ physics = N
 juggle = 0
 ctrl = 0
 velset = 0,0
-poweradd = 20*(root,var(0)!=1)
+poweradd = 0*(root,var(0)!=1)
 
 [State 1100, VarSet]
 type = VarSet
@@ -32339,7 +32339,7 @@ juggle = 0
 ctrl = 0
 velset = 0,0
 sprpriority = 1
-poweradd = 80*(var(0)!=1)*!IsHelper
+poweradd = 0*(var(0)!=1)*!IsHelper
 
 [State 1100, VarSet]
 type = VarSet
@@ -36303,7 +36303,7 @@ physics = N
 juggle = 0
 ctrl = 0
 anim = 11160
-poweradd = 30*(var(0)!=1)
+poweradd = 0*(var(0)!=1)
 velset = 0,0
 sprpriority = 2
 
@@ -36491,7 +36491,7 @@ physics = N
 juggle = 0
 ctrl = 0
 anim = 11170
-poweradd = 30*(var(0)!=1)
+poweradd = 0*(var(0)!=1)
 velset = 0,0
 sprpriority = 1
 
@@ -36779,7 +36779,7 @@ physics = N
 juggle = 0
 ctrl = 0
 anim = 11180
-poweradd = 30*(var(0)!=1)
+poweradd = 0*(var(0)!=1)
 velset = 0,0
 sprpriority = 1
 

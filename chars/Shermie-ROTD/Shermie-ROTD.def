@@ -13,6 +13,7 @@ pal.defaults = 0
 
 ; Files for the player
 [Files]
+movelist = movelist.dat
 cmd      = Shermie-ROTD.cmd  
 cns      = Shermie-ROTD-P.cns   
 st       = Shermie-ROTD-N.cns   

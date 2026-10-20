@@ -12,6 +12,7 @@ pal.defaults = 1,2,3,4
 
 ; Files for the player
 [Files]
+movelist = movelist.dat
 cmd      = Coding/Marceline.cmd
 cns      = CNS/Marceline.cns
 stcommon = CNS/Marcelinecommon.cns

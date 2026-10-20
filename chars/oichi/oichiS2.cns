@@ -101,7 +101,7 @@ ground.velocity = -15,-2
 guard.velocity = -3
 air.velocity = -15,-2
 fall = 1
-getpower = 30
+getpower = 2,1
 
 ;ヒットエフェクト----------------
 [state 1200, ヒット]
@@ -443,7 +443,7 @@ trigger1 = AnimElem = 1
 attr = S, SA
 animtype  = medium
 damage    = 57, 5
-getpower  = 80,80
+getpower = 2,1
 priority  = 4
 guardflag = L
 pausetime = 8,9
@@ -637,7 +637,7 @@ trigger1 = AnimElem = 1
 attr = S, SA
 animtype  = medium
 damage    = 45, 5
-getpower  = 80,80
+getpower = 2,1
 priority  = 4
 guardflag = M
 pausetime = 0,9
@@ -762,7 +762,7 @@ projID = 1320
 attr = S, SP
 animtype  = medium
 damage    = 30, 3
-getpower  = 80,80
+getpower = 2,1
 priority  = 4
 guardflag = MAF
 pausetime = 5,10
@@ -961,7 +961,7 @@ trigger1 = AnimElem = 3
 attr = S, SP
 animtype  = Hard
 damage    = 57, 5
-getpower  = 50,50
+getpower = 2,1
 priority  = 4
 guardflag = M
 pausetime = 8,9
@@ -988,7 +988,7 @@ trigger1 = AnimElem = 4
 attr = S, SP
 animtype  = Hard
 damage    = 57, 5
-getpower  = 50,50
+getpower = 2,1
 priority  = 4
 guardflag = L
 pausetime = 0,9
@@ -1205,7 +1205,7 @@ trigger1 = AnimElem = 1
 attr = S, SA
 animtype  = Hard
 damage    = 60, 5
-getpower  = 80
+getpower = 2,1
 priority  = 4
 guardflag = H
 pausetime = 8,9
@@ -1401,7 +1401,7 @@ trigger3 = AnimElem = 11
 attr = S, SA
 animtype  = medium
 damage    = 43, 5
-getpower  = 40,40
+getpower = 2,1
 priority  = 4
 guardflag = H
 pausetime = 5,6
@@ -1698,7 +1698,7 @@ trigger3 = AnimElem = 6
 attr = S, SA
 animtype  = medium
 damage    = 52, 5
-getpower  = 40,40
+getpower = 2,1
 priority  = 4
 guardflag = H
 pausetime = 3,3
@@ -1925,7 +1925,7 @@ trigger1 = AnimElem = 7
 attr = S, SA
 animtype  = medium
 damage    = 40, 5
-getpower  = 80,80
+getpower = 2,1
 priority  = 4
 guardflag = H
 pausetime = 5,6
@@ -2109,7 +2109,7 @@ trigger1 = AnimElem = 4
 attr = S, SA
 animtype  = medium
 damage    = 26, 5
-getpower  = 80,80
+getpower = 2,1
 priority  = 4
 guardflag = H
 pausetime = 5,6
@@ -2606,7 +2606,7 @@ trigger2 = AnimElem = 8
 attr = S, SA
 animtype  = medium
 damage    = 36, 5
-getpower  = 50,50
+getpower = 2,1
 priority  = 4
 guardflag = MAF
 pausetime = 5,6

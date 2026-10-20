@@ -5,7 +5,7 @@ physics = S
 velset = 0,0
 ctrl = 0
 juggle = 0
-poweradd = 50
+poweradd = 20
 
 [state 1000]
 type = ChangeAnim
@@ -53,7 +53,7 @@ projremove = 0
 projpriority = 8
 projhitanim = -1
 projremovetime = 18
-getpower = 50,10
+getpower = 30,15
 ownpal = 1
 attr = S, SP
 animtype = up
@@ -531,7 +531,7 @@ animtype = medium
 air.animtype = medium 
 fall.animtype = medium 
 damage    = 120,10
-getpower = 50,0
+getpower = 15,7
 givepower = 0,0
 pausetime = 0,14
 guard.sparkno = S6040
@@ -560,7 +560,7 @@ movetype = A
 physics = S
 velset = 0,0
 ctrl = 0
-poweradd = 50
+poweradd = 20
 
 [State 1100]
 type = changeanim
@@ -754,7 +754,7 @@ animtype = medium
 air.animtype = medium 
 fall.animtype = medium 
 damage    = 20,2
-getpower = 50,0
+getpower = 15,7
 givepower = 0,0
 pausetime = 0,8
 guard.sparkno = S6040
@@ -835,7 +835,7 @@ animtype = medium
 air.animtype = medium 
 fall.animtype = medium 
 damage    = 30,5
-getpower = 50,0
+getpower = 30,15
 givepower = 0,0
 pausetime = 0,8
 guard.sparkno = S6040
@@ -879,7 +879,7 @@ physics = S
 velset = 0,0
 ctrl = 0
 juggle = 0
-poweradd = 50
+poweradd = 20
 
 [state 1000]
 type = ChangeAnim
@@ -978,7 +978,7 @@ animtype = hard
 air.animtype = hard
 fall.animtype = hard
 damage    = ceil(70/(var(23)+1))+10,5
-getpower = 50,0
+getpower = 30,15
 givepower = 30,10
 pausetime = 10,10
 sparkno = S6070
@@ -1077,7 +1077,7 @@ physics = S
 velset = 0,0
 ctrl = 0
 juggle = 0
-poweradd = 50
+poweradd = 20
 
 [state 1000]
 type = ChangeAnim
@@ -1174,7 +1174,7 @@ animtype = hard
 air.animtype = hard
 fall.animtype = hard
 damage    = ceil(70/(var(23)+1))+10,5
-getpower = 50,0
+getpower = 30,15
 givepower = 30,10
 pausetime = 10,10
 sparkno = S6070
@@ -1275,7 +1275,7 @@ physics = S
 velset = 0,0
 ctrl = 0
 juggle = 0
-poweradd = 50
+poweradd = 0
 
 [State 1220]
 type = ChangeAnim
@@ -1327,7 +1327,7 @@ physics = S
 velset = 0,0
 ctrl = 0
 juggle = 0
-poweradd = 50
+poweradd = 20
 
 [state 1225]
 type = ChangeAnim
@@ -1655,7 +1655,7 @@ physics = S
 velset = 0,0
 ctrl = 0
 juggle = 0
-poweradd = 50
+poweradd = 0
 
 [state 1310]
 type = ChangeAnim
@@ -1717,7 +1717,7 @@ animtype = hard
 air.animtype = hard
 fall.animtype = hard
 damage    = 30,5
-getpower = 20,0
+getpower = 12,6
 givepower = 10,0
 pausetime = 6,6
 sparkno = S6010
@@ -1763,7 +1763,7 @@ animtype = hard
 air.animtype = hard
 fall.animtype = hard
 damage    = 50,10
-getpower = 20,0
+getpower = 12,6
 givepower = 10,0
 pausetime = 6,6
 sparkno = S6010
@@ -1795,7 +1795,7 @@ animtype = hard
 air.animtype = hard
 fall.animtype = hard
 damage    = floor(100/(hitcount+1)),10
-getpower = 20,0
+getpower = 12,6
 givepower = 10,0
 pausetime = 6,6
 sparkno = S6025
@@ -1828,7 +1828,7 @@ animtype = hard
 air.animtype = hard
 fall.animtype = hard
 damage    = floor(100/(hitcount+1)),10
-getpower = 60,0
+getpower = 12,6
 givepower = 10,0
 pausetime = 6,6
 sparkno = S6025
@@ -1861,7 +1861,7 @@ animtype = hard
 air.animtype = hard
 fall.animtype = hard
 damage    = 10,10
-getpower = 60,0
+getpower = 12,6
 givepower = 10,0
 pausetime = 6,6
 sparkno = S6025
@@ -2115,7 +2115,7 @@ ground.velocity = -4,0
 guard.velocity = -4
 air.velocity = -4,4
 airguard.velocity = -4,-2.5
-getpower = 50
+getpower = 60,30
 givepower = 15
 id = 1500
 p2stateno = 11410
@@ -2191,7 +2191,7 @@ ground.velocity = -4,0
 guard.velocity = -4
 air.velocity = -4,4
 airguard.velocity = -4,-2.5
-getpower = 50
+getpower = 60,30
 givepower = 15
 id = 1500
 p2stateno = 11410
@@ -2413,7 +2413,7 @@ guard.cornerpush.veloff = -12
 down.velocity = -3.7,0	
 down.hittime = 12
 down.Bounce = 1
-getpower = 50
+getpower = 60,30
 givepower = 15
 id = 1500
 
@@ -2450,7 +2450,7 @@ guard.cornerpush.veloff = -12
 down.velocity = -3.7,0	
 down.hittime = 12
 down.Bounce = 1
-getpower = 50
+getpower = 60,30
 givepower = 15
 
 [State 1500]
@@ -2580,7 +2580,7 @@ guard.cornerpush.veloff = -12
 down.velocity = -3.7,0	
 down.hittime = 12
 down.Bounce = 1
-getpower = 50
+getpower = 30,15
 givepower = 15
 id = 1500
 
@@ -2617,7 +2617,7 @@ guard.cornerpush.veloff = -12
 down.velocity = -3.7,0	
 down.hittime = 12
 down.Bounce = 1
-getpower = 50
+getpower = 30,15
 givepower = 15
 
 [State 1505]
@@ -2723,7 +2723,7 @@ down.velocity = -3.7,0
 down.hittime = 12
 down.Bounce = 1
 air.fall = 1
-getpower = 50
+getpower = 60,30
 givepower = 15
 id = 1500
 
@@ -2761,7 +2761,7 @@ down.velocity = -3.7,0
 down.hittime = 12
 down.Bounce = 1
 air.fall = 1
-getpower = 50
+getpower = 60,30
 givepower = 15
 
 [state 1510]
@@ -2878,7 +2878,7 @@ down.velocity = -3.7,0
 down.hittime = 12
 down.Bounce = 1
 air.fall = 1
-getpower = 50
+getpower = 60,30
 givepower = 15
 id = 1500
 
@@ -2916,7 +2916,7 @@ down.velocity = -3.7,0
 down.hittime = 12
 down.Bounce = 1
 air.fall = 1
-getpower = 50
+getpower = 60,30
 givepower = 15
 
 [state 1515]
@@ -3353,7 +3353,7 @@ airguard.velocity = -2,-2
 fall = 1
 air.fall = 1
 fall.recover = 0
-getpower = 50
+getpower = 15,7
 givepower = 15
 snap = 30,30
 id = 1500
@@ -3393,7 +3393,7 @@ fall.envshake.time = 14
 fall.envshake.ampl = -4
 fall.envshake.freq = 90
 fall.envshake.phase = 92
-getpower = 50
+getpower = 15,7
 givepower = 15
 snap = 30,30
 id = 1500
@@ -3504,7 +3504,7 @@ ground.cornerpush.veloff = 0
 air.cornerpush.veloff = 0
 guard.cornerpush.veloff = -16
 fall = 1
-getpower = 50
+getpower = 15,7
 givepower = 15
 
 [State 1550]
@@ -3611,7 +3611,7 @@ airguard.velocity = -2,-2
 fall = 1
 air.fall = 1
 fall.recover = 0
-getpower = 50
+getpower = 20,10
 givepower = 15
 snap = 30,30
 id = 1500
@@ -3651,7 +3651,7 @@ fall.envshake.time = 14
 fall.envshake.ampl = -4
 fall.envshake.freq = 90
 fall.envshake.phase = 92
-getpower = 50
+getpower = 20,10
 givepower = 15
 snap = 30,30
 id = 1500
@@ -3762,7 +3762,7 @@ ground.cornerpush.veloff = 0
 air.cornerpush.veloff = 0
 guard.cornerpush.veloff = -16
 fall = 1
-getpower = 50
+getpower = 20,10
 givepower = 15
 
 [State 1550]
@@ -3808,6 +3808,7 @@ ctrl = 0
 
 [State 800]
 Type = hitdef
+getpower = 15,7
 triggerall = p2statetype = L && palno = 6
 trigger1 = var(59) = 0 && (command = "c") && command = "holddown"
 trigger2 = var(59)
@@ -4351,7 +4352,7 @@ type = S
 movetype = A
 physics = S
 juggle = 0
-poweradd = 50
+poweradd = 20
 velset = 0,0
 ctrl = 0
 sprpriority = 5
@@ -4408,6 +4409,7 @@ trigger1 = palno <= 1
 trigger1 = AnimElem = 5
 attr = S,SA
 damage    = ceil(enemynear,lifemax/12/(var(23)+1))+10,5
+getpower = 30,15
 animtype = Hard
 guardflag = M
 pausetime = 0,10
@@ -4433,6 +4435,7 @@ trigger1 = palno >= 2
 trigger1 = AnimElem = 5
 attr = S,SA
 damage    = ceil(90/(var(23)+1))+10,5
+getpower = 30,15
 animtype = Hard
 guardflag = M
 pausetime = 10,10
@@ -4468,7 +4471,7 @@ type = S
 movetype = A
 physics = S
 juggle = 0
-poweradd = 50
+poweradd = 20
 velset = 0,0
 ctrl = 0
 sprpriority = 5
@@ -4744,6 +4747,7 @@ movetype = A
 
 [State 1900]
 Type = hitdef
+getpower = 60,30
 trigger1 = animelem = 3
 attr = S, ST
 hitflag = MAF

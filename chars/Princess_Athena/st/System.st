@@ -359,7 +359,7 @@
   Trigger1         = Var(11) < 60
   Attr             = A, NA
   Damage           = IfElse(Var(3)=0,IfElse(Floor(140*FVar(4))<1,1,Floor(140*FVar(4))),180),0
-  GetPower         = 30,15
+  getpower = 30,15
   GivePower        = 5,10
   AnimType         = Hard
   HitFlag          = MAF

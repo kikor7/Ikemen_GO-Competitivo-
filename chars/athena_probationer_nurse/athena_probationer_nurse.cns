@@ -752,7 +752,7 @@ type = S
 movetype = A
 physics = S
 anim = 200
-poweradd = 30
+poweradd = 0
 ctrl = 0
 velset = 0, 0
 
@@ -762,7 +762,7 @@ trigger1 = Time = 0
 attr = S, NA
 damage = 25
 animtype = L
-getpower = 20,10
+getpower = 30,15
 guardflag = MAF
 hitflag = MA
 pausetime = 9, 9
@@ -813,7 +813,7 @@ type = S
 movetype = A
 physics = S
 anim = 220
-poweradd = 30
+poweradd = 0
 ctrl = 0
 velset = 0, 0
 
@@ -861,7 +861,7 @@ type = S
 movetype = A
 physics = S
 anim = 225
-poweradd = 30
+poweradd = 0
 ctrl = 0
 velset = 0, 0
 
@@ -909,7 +909,7 @@ type = S
 movetype = A
 physics = S
 anim = 210
-poweradd = 60
+poweradd = 0
 ctrl = 0
 velset = 0, 0
 
@@ -1000,7 +1000,7 @@ type = S
 movetype = A
 physics = S
 anim = 215
-poweradd = 40
+poweradd = 0
 ctrl = 0
 velset = 0, 0
 
@@ -1062,7 +1062,7 @@ type = S
 movetype = A
 physics = S
 anim = 230
-poweradd = 60
+poweradd = 0
 ctrl = 0
 velset = 0, 0
 
@@ -1111,7 +1111,7 @@ type = S
 movetype = A
 physics = S
 anim = 235
-poweradd = 60
+poweradd = 0
 ctrl = 0
 velset = 0, 0
 
@@ -1184,7 +1184,7 @@ type = C
 movetype = A
 physics = C
 anim = 400
-poweradd = 30
+poweradd = 0
 ctrl = 1
 velset = 0, 0
 
@@ -1194,7 +1194,7 @@ trigger1 = Time = 0
 attr = C, NA
 damage = 25
 animtype = L
-getpower = 20, 10
+getpower = 30,15
 guardflag = MA
 hitflag = MAF
 pausetime = 8,8
@@ -1243,7 +1243,7 @@ type = C
 movetype = A
 physics = C
 anim = 420
-poweradd = 30
+poweradd = 0
 ctrl = 1
 velset = 0, 0
 
@@ -1253,7 +1253,7 @@ trigger1 = Time = 0
 attr = C, NA
 damage = 25
 animtype = L
-getpower = 20, 10
+getpower = 30,15
 hitflag = MAFD
 guardflag = L
 pausetime = 8, 8
@@ -1290,7 +1290,7 @@ value = 11
 type = C
 movetype = A
 physics = C
-poweradd = 60
+poweradd = 0
 anim = 410
 velset = 0, 0
 ctrl = 0
@@ -1301,7 +1301,7 @@ trigger1 = AnimElem = 1
 attr = C, NA
 damage = 80
 animtype = H
-getpower = 50, 25
+getpower = 30,15
 guardflag = MA
 hitflag = MAF
 pausetime = 12,12
@@ -1350,7 +1350,7 @@ type = C
 movetype = A
 physics = C
 anim = 430
-poweradd = 60
+poweradd = 0
 ctrl = 0
 velset = 0, 0
 
@@ -1360,7 +1360,7 @@ trigger1 = AnimElem = 4
 attr = C, NA
 damage = 80
 animtype = H
-getpower = 50, 25
+getpower = 30,15
 hitflag = MA
 guardflag = L
 pausetime = 14, 14
@@ -1403,7 +1403,7 @@ type = A
 movetype = A
 physics = A
 anim = 600
-poweradd = 30
+poweradd = 0
 ctrl = 1
 
 [State 600]
@@ -1444,7 +1444,7 @@ type = A
 movetype = A
 physics = A
 anim = 605
-poweradd = 30
+poweradd = 0
 ctrl = 1
 
 [State 605]
@@ -1496,7 +1496,7 @@ type = A
 movetype = A
 physics = A
 anim = 620
-poweradd = 30
+poweradd = 0
 juggle = 1
 ctrl = 1
 
@@ -1537,7 +1537,7 @@ type = A
 movetype = A
 physics = A
 anim = 625
-poweradd = 30
+poweradd = 0
 ctrl = 1
 
 [State 625]
@@ -1578,7 +1578,7 @@ type = A
 movetype = A
 physics = A
 anim = 610
-poweradd = 60
+poweradd = 0
 ctrl = 0
 
 [State 610]
@@ -1586,7 +1586,7 @@ type = HitDef
 trigger1 = Time = 0
 attr = A, NA
 damage = 80
-getpower = 50, 25
+getpower = 30,15
 guardflag = HA
 hitflag = MAF
 priority = 3
@@ -1630,7 +1630,7 @@ type = A
 movetype = A
 physics = A
 anim = 630
-poweradd = 60
+poweradd = 0
 ctrl = 0
 
 [State 630]
@@ -1671,7 +1671,7 @@ type = A
 movetype = A
 physics = A
 anim = 635
-poweradd = 60
+poweradd = 0
 ctrl = 0
 
 [State 635]
@@ -1713,7 +1713,7 @@ type = S
 movetype= A
 physics = S
 anim = 300
-poweradd = 100
+poweradd = 0
 ctrl = 0
 velset = 0, 0
 
@@ -1723,7 +1723,7 @@ trigger1 = Time = 0
 attr = S, NA
 damage = 110
 animtype = U
-getpower = 60, 30
+getpower = 60,30
 guardflag = MA
 hitflag = MA
 pausetime = 14, 14
@@ -1772,7 +1772,7 @@ value = 0
 type = A
 movetype = A
 physics = A
-poweradd = 80
+poweradd = 0
 anim = 305
 ctrl = 0
 
@@ -1782,7 +1782,7 @@ trigger1 = Time = 0
 attr = A, NA
 damage = 110
 animtype = U
-getpower = 60, 30
+getpower = 60,30
 guardflag = MA
 hitflag = MA
 pausetime = 14, 14
@@ -1829,7 +1829,7 @@ type = S
 movetype = A
 physics = S
 anim = 500
-poweradd = 30
+poweradd = 0
 ctrl = 0
 velset = 0, 0
 
@@ -1856,7 +1856,7 @@ trigger1 = AnimElem = 6
 attr = S, NA
 damage = 20
 animtype = M
-getpower = 0, 0
+getpower = 15,7
 guardflag = HA
 hitflag = MAF
 pausetime = 12, 12
@@ -1877,7 +1877,7 @@ trigger1 = AnimElem = 7
 attr = S, NA
 damage = 12
 animtype = M
-getpower = 0, 0
+getpower = 15,7
 guardflag = HA
 hitflag = MAF
 pausetime = 11, 12
@@ -1915,7 +1915,7 @@ type = S
 movetype = A
 physics = S
 anim = 500
-poweradd = 30
+poweradd = 0
 ctrl = 0
 velset = 0, 0
 
@@ -1945,7 +1945,7 @@ trigger1 = AnimElem = 6
 attr = S, NA
 damage = 25
 animtype = M
-getpower = 10, 5
+getpower = 15,7
 guardflag = MA
 hitflag = MAF
 pausetime = 12, 12
@@ -1966,7 +1966,7 @@ trigger1 = AnimElem = 7
 attr = S, NA
 damage = 20
 animtype = M
-getpower = 10, 5
+getpower = 15,7
 guardflag = MA
 hitflag = MAF
 pausetime = 11, 12
@@ -2012,6 +2012,7 @@ type = HitDef
 trigger1 = time = 0
 attr = S, NT
 damage = 0, 0
+getpower = 60,30
 animtype = L
 hitflag = M-
 priority = 1, Miss
@@ -2171,7 +2172,7 @@ movetype = A
 physics = S
 anim = 1000
 ctrl = 0
-poweradd = 120
+poweradd = 20
 
 [State 1000] ;¿Â«≥
 type = Projectile
@@ -2181,7 +2182,7 @@ projhitanim = 1030 ;∏Ì¡ﬂ∏º«
 projID = 1000
 offset = 20, -80
 velocity = 3.6, 0
-getpower = 50, 20
+getpower = 30,15
 givepower = 40, 20
 attr = S, SP
 damage = 80, 10
@@ -2239,7 +2240,7 @@ physics = S
 anim = 1200
 juggle = 1
 ctrl = 0
-poweradd = 140
+poweradd = 20
 
 [State 1200] ;¿Â«≥
 type = Projectile
@@ -2268,7 +2269,7 @@ guard.ctrltime = 20
 ground.velocity = -10
 air.velocity = -4.6, -5
 air.fall = 1
-getpower = 50, 20
+getpower = 30,15
 givepower = 40, 20
 
 [State 1200] ;º’ø°º≠ º°
@@ -2306,7 +2307,7 @@ physics = S
 anim = 1400
 ctrl = 0
 velset = 0, 0
-poweradd = 120
+poweradd = 0
 
 [State 1400]
 type = velset
@@ -2347,7 +2348,7 @@ fall = 1
 air.fall = 1
 fall.recover = 0
 air.recover = 0
-getpower = 80, 40
+getpower = 60,30
 
 [State 1400]
 type = Explod
@@ -2395,7 +2396,7 @@ physics = S
 anim = 1600
 ctrl = 0
 velset = 0,0
-poweradd = 140
+poweradd = 0
 
 [State 1600]
 type = velset
@@ -2446,7 +2447,7 @@ fall = 1
 air.fall = 1
 fall.recover = 0
 air.recover = 0
-getpower = 80, 40
+getpower = 60,30
 
 [State 1600] ;««
 type = Explod

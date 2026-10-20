@@ -349,6 +349,7 @@ ctrl = 1
 ;------------------------------------------------------------すんがん
 [statedef 1500]
 type    = S
+poweradd = 20
 movetype= A
 physics = S
 ctrl = 0
@@ -396,6 +397,7 @@ ctrl = 1
 ;------待機解除・itibann temae
 [statedef 1510]
 type    = S
+poweradd = 20
 movetype= A
 physics = S
 ctrl = 0
@@ -536,6 +538,7 @@ ctrl = 1
 ;------------------------------------------------天弓心  1枚目を15->12にしてみる
 [statedef 1600];待機時間消滅、すぐジャンプして射る
 type    = A
+poweradd = 20
 movetype= A
 physics = n
 ctrl = 0
@@ -623,6 +626,7 @@ ignorehitpause = 1
 ;------------------------------------------------地弓心　　弱４ひｔ、中５ひｔ　　強は天弓です5hit
 [statedef 1700];待機時間消滅、射る
 type    = s
+poweradd = 20
 movetype= A
 physics = s
 ctrl = 0
@@ -973,7 +977,7 @@ air.slidetime = 60             ;相手が後にすべる時間
 air.hittime  = 60             ;コンボが繋がる時間（高くしすぎない事）
 air.velocity = -1, -8            ;地上で攻撃をくらった場合の相手の移動状況（ｘとｙで小数点可）
 airground.velocity = -5, 0            ;地上で攻撃をくらったpalfx.time = 100
-getpower = 0,0
+getpower = 30,15
 fall = 0
 fall.recover = 0
 air.fall.recover = 0
@@ -1103,7 +1107,7 @@ air.slidetime = 60             ;相手が後にすべる時間
 air.hittime  = 60             ;コンボが繋がる時間（高くしすぎない事）
 air.velocity = -1, -8            ;地上で攻撃をくらった場合の相手の移動状況（ｘとｙで小数点可）
 airground.velocity = -5, 0            ;地上で攻撃をくらったpalfx.time = 100
-getpower = 0,0
+getpower = 30,15
 kill = 1
 fall = 0
 fall.recover = 0

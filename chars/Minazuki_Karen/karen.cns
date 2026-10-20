@@ -549,6 +549,7 @@ triggerall = anim = 200
 trigger1 = AnimElem = 3
 attr = S, NA
 damage = ifelse(40 - var(5)*6 < 15,15,40 - var(5)*6), 0
+getpower = 7,3
 animtype = Med
 guardflag = MA
 hitflag = MAF
@@ -572,6 +573,7 @@ triggerall = anim = 20200
 trigger1 = AnimElem = 4
 attr = S, NA
 damage = 10, 0
+getpower = 7,3
 animtype = Light
 guardflag = MA
 hitflag = MAF
@@ -594,6 +596,7 @@ triggerall = anim = 20200
 trigger1 = AnimElem = 9
 attr = S, NA
 damage = 10, 0
+getpower = 7,3
 animtype = Med
 guardflag = MA
 hitflag = MAF
@@ -649,6 +652,7 @@ type = HitDef
 trigger1 = AnimElem = 3
 attr = S, NA
 damage = 30, 0
+getpower = 7,3
 animtype = UP
 guardflag = MA
 hitflag = MAF
@@ -700,6 +704,7 @@ triggerall = anim = 210
 trigger1 = AnimElem = 7
 attr = S, NA
 damage = ifelse(60 - var(5)*5 < 40,40,60 - var(5)*5), 0
+getpower = 7,3
 animtype = Hard
 guardflag = MA
 hitflag = MAF
@@ -724,6 +729,7 @@ triggerall = anim = 20210
 trigger1 = AnimElem = 7
 attr = S, NA
 damage = ifelse(35 - var(5) < 15,15,35 - var(5)), 0
+getpower = 7,3
 animtype = Hard
 guardflag = MA
 hitflag = MAF
@@ -787,6 +793,7 @@ type = HitDef
 trigger1 = AnimElem = 7
 attr = S, NA
 damage = ifelse(35 - var(5)*5 < 15,15,35 - var(5)*5), 0
+getpower = 7,3
 animtype = Hard
 guardflag = MA
 hitflag = MAF
@@ -810,6 +817,7 @@ type = HitDef
 trigger1 = AnimElem = 16
 attr = S, NA
 damage = ifelse(35 - var(5)*5 < 15,15,35 - var(5)*5), 0
+getpower = 7,3
 animtype = Hard
 air.animtype = diagup
 guardflag = MA
@@ -898,6 +906,7 @@ triggerall = anim = 220
 trigger1 = AnimElem = 12
 attr = A, NA
 damage = ifelse(80 - var(5)*11 < 35,35,80 - var(5)*11), 0
+getpower = 10,5
 animtype = Hard
 air.animtype = Diagup
 guardflag = M
@@ -994,6 +1003,7 @@ triggerall = anim = 20220
 trigger1 = AnimElem = 19
 attr = A, NA
 damage = ifelse(50 - var(5)*5 < 30,30,50 - var(5)*5), 0
+getpower = 10,5
 animtype = Hard
 guardflag = H
 hitflag = MAF
@@ -1019,6 +1029,7 @@ triggerall = anim = 20220
 trigger1 = AnimElem = 21 && !movecontact
 attr = A, NA
 damage = ifelse(40 - var(5)*5 < 30,30,40 - var(5)*5), 0
+getpower = 10,5
 animtype = Hard
 guardflag = H
 hitflag = MAF
@@ -1061,6 +1072,7 @@ triggerall = anim = 400
 trigger1 = AnimElem = 3
 attr = C, NA
 damage = ifelse(35 - var(5)*7 < 5,5,35 - var(5)*7), 0
+getpower = 15,7
 animtype = Med
 guardflag = L
 hitflag = MFD
@@ -1083,6 +1095,7 @@ triggerall = anim = 20400
 trigger1 = AnimElem = 3
 attr = C, NA
 damage = ifelse(10 - var(5)*2 < 3,2,10 - var(5)*2), 0
+getpower = 15,7
 animtype = Light
 guardflag = L
 hitflag = MFD
@@ -1150,6 +1163,7 @@ triggerall = anim = 410
 trigger1 = AnimElem = 7
 attr = C, NA
 damage = ifelse(45 - var(5)*6 < 20,20,45 - var(5)*6), 0
+getpower = 10,5
 animtype = Hard
 guardflag = MA
 hitflag = MAF
@@ -1173,6 +1187,7 @@ triggerall = anim = 410
 trigger1 = AnimElem = 10
 attr = C, NA
 damage = ifelse(45 - var(5)*6 < 10,10,45 - var(5)*6), 0
+getpower = 10,5
 animtype = Hard
 guardflag = L
 hitflag = M
@@ -1213,6 +1228,7 @@ triggerall = anim = 20410
 trigger1 = AnimElem = 5
 attr = C, NA
 damage = ifelse(25 - var(5) < 20,20,25 - var(5)), 0
+getpower = 10,5
 animtype = Med
 guardflag = M
 hitflag = MAF
@@ -1257,6 +1273,7 @@ triggerall = anim = 20420
 trigger1 = AnimElem = 5
 attr = C, NA
 damage = ifelse(45 - var(5)*7 < 20,20,45 - var(5)*7), 0
+getpower = 15,7
 animtype = Hard
 air.animtype = Diagup
 guardflag = M
@@ -1348,6 +1365,7 @@ type = HitDef
 trigger1 = AnimElem = 2
 attr = A, NA
 damage = ifelse(75 - var(5)*7 < 25,25,75 - var(5)*7), 0
+getpower = 15,7
 animtype = UP
 guardflag = HA
 hitflag = MAF
@@ -1453,6 +1471,7 @@ type = HitDef
 trigger1 = AnimElem = 6
 attr = A, NA
 damage = 50, 0
+getpower = 30,15
 animtype = Hard
 guardflag = HA
 hitflag = MAF
@@ -1628,6 +1647,7 @@ type = HitDef
 trigger1 = AnimElem = 9
 attr = C, NA
 damage = 50, 0
+getpower = 30,15
 animtype = Hard
 guardflag = L
 hitflag = MFD
@@ -1702,6 +1722,7 @@ type = HitDef
 trigger1 = AnimElem = 4
 attr = S, NA
 damage = 90, 0
+getpower = 30,15
 animtype = Hard
 guardflag = M
 hitflag = MAF
@@ -1941,6 +1962,7 @@ triggerall = anim = 600
 trigger1 = AnimElem = 3
 attr = A, NA
 damage = 25, 0
+getpower = 10,5
 animtype = Med
 guardflag = HA
 hitflag = MAF
@@ -1964,6 +1986,7 @@ triggerall = anim = 600
 trigger1 = AnimElem = 9
 attr = A, NA
 damage = 25, 0
+getpower = 10,5
 animtype = Med
 guardflag = HA
 hitflag = MAF
@@ -1999,6 +2022,7 @@ triggerall = anim = 20600
 trigger1 = AnimElem = 4
 attr = A, NA
 damage = 5, 0
+getpower = 10,5
 animtype = Med
 guardflag = HA
 hitflag = MAF
@@ -2053,6 +2077,7 @@ triggerall = anim = 610
 trigger1 = AnimElem = 5
 attr = A, NA
 damage = 60, 0
+getpower = 15,7
 animtype = Hard
 guardflag = HA
 hitflag = MAF
@@ -2083,6 +2108,7 @@ triggerall = anim = 20610
 trigger1 = AnimElem = 4
 attr = A, NA
 damage = ifelse(35 - var(5)*3 < 20,20,35 - var(5)*3), 0
+getpower = 15,7
 animtype = Hard
 guardflag = HA
 hitflag = MAF
@@ -2150,6 +2176,7 @@ triggerall = anim = 20620
 trigger1 = AnimElem = 6
 attr = A, NA
 damage = ifelse(60 - var(5)*4 < 20,20,60 - var(5)*4), 0
+getpower = 7,3
 animtype = Hard
 guardflag = H
 hitflag = MAF
@@ -2175,6 +2202,7 @@ triggerall = anim = 20620
 trigger1 = AnimElem = 7 && !movecontact
 attr = A, NA
 damage = 55, 0
+getpower = 7,3
 animtype = Hard
 guardflag = H
 hitflag = MAF
@@ -2200,6 +2228,7 @@ triggerall = anim = 20620
 trigger1 = AnimElem = 9 && !movecontact
 attr = A, NA
 damage = 50, 0
+getpower = 7,3
 animtype = Hard
 guardflag = H
 hitflag = MAF
@@ -2284,6 +2313,7 @@ triggerall = anim = 625
 trigger1 = AnimElem = 2
 attr = A, NA
 damage = 35 + Ceil(time * 1.55) - (var(5) * 15), 0
+getpower = 7,3
 animtype = Hard
 guardflag = HA
 hitflag = MAF
@@ -2324,6 +2354,7 @@ value = 4, 0
 
 [State 800, 1]
 type = HitDef
+getpower = 60,30
 Trigger1 = Time = 0
 attr = S, NT
 hitflag = M-
@@ -2732,6 +2763,7 @@ persistent = 0
 
 [State 800, 1]
 type = HitDef
+getpower = 60,30
 Trigger1 = Time = 0
 attr = A, NT
 hitflag = AF
@@ -3040,6 +3072,7 @@ type = HitDef
 trigger1 = time%10 = 4
 attr = S, SA
 damage = ifelse(65 - var(5)*9 < 15,15,65 - var(5)*9), 5
+getpower = 60,30
 animtype = Diagup
 guardflag = MA
 hitflag = MAF
@@ -3219,6 +3252,7 @@ type = HitDef
 trigger1 = time%10 = 4
 attr = S, SA
 damage = ifelse(66 - var(5)*9 < 18,18,66 - var(5)*9), 5
+getpower = 60,30
 animtype = Diagup
 guardflag = MA
 hitflag = MAF
@@ -3402,6 +3436,7 @@ type = HitDef
 trigger1 = time%10 = 4
 attr = S, SA
 damage = ifelse(68 - var(5)*9 < 20,20,68 - var(5)*9), 5
+getpower = 60,30
 animtype = Diagup
 guardflag = MA
 hitflag = MAF
@@ -4387,6 +4422,7 @@ type = HitDef
 trigger1 = time < 24 && AnimElemtime(3) = 0
 attr = A, SA
 damage = ifelse(45 - var(5)*9 < 15,15,45 - var(5)*9), 5
+getpower = 30,15
 animtype = hard
 guardflag = M
 hitflag = MAF
@@ -4411,6 +4447,7 @@ type = HitDef
 trigger1 = time > 24 && AnimElemtime(3) = 0
 attr = A, SA
 damage = ifelse(75 - var(5)*5 < 25,25,75 - var(5)*5), 5
+getpower = 30,15
 animtype = diagup
 guardflag = M
 hitflag = MAF
@@ -4515,6 +4552,7 @@ type = HitDef
 trigger1 = animelem = 6
 attr = A, SA
 damage = ifelse(99 - var(5)*15 < 75,75,99 - var(5)*15), 5
+getpower = 60,30
 animtype = Hard
 guardflag = HA
 hitflag = MAFD
@@ -4607,6 +4645,7 @@ type = HitDef
 trigger1 = animelem = 6
 attr = A, SA
 damage = ifelse(99 - var(5)*15 < 75,75,99 - var(5)*15), 5
+getpower = 60,30
 animtype = Hard
 guardflag = HA
 hitflag = MAFD
@@ -4694,6 +4733,7 @@ type = HitDef
 trigger1 = animelem = 6
 attr = A, SA
 damage = ifelse(99 - var(5)*15 < 75,75,99 - var(5)*15), 5
+getpower = 60,30
 animtype = Hard
 guardflag = HA
 hitflag = MAFD

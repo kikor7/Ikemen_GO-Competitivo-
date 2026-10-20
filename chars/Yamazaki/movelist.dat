@@ -1,0 +1,17 @@
+<#f0f000>:Special Moves:</>
+Fierce Sand Kick			_QCF^C
+Light Sand Kick			_QCF^A
+Sado Mazo			_QCB^A
+Bakudan Pachiki			_HCB^X
+Snake Hand			_DSB^X
+Snake Hand			_DSB^Z
+Bai Gaeshi			_QCF^X
+Bai Gaeshi			_QCF^Z
+Hebi Tsukai			_QCB^Z
+Neutral Dodge			^A_+^X
+
+<#f0f000>:Hyper Moves:</>
+Madness <#f00000>(1000)</>			_QCF^A_+^B
+Max Drill <#f00000>(1000)</>			_QCB^A_+^B
+Max Guillotine <#f00000>(1000)</>			_QCF^Y_+^Z
+Max Guillotine <#f00000>(1000)</>			_QCB^X_+^Y

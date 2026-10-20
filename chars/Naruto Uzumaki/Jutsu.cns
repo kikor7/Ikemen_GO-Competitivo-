@@ -135,8 +135,8 @@ stateno = 1010
 helpertype = normal
 name = "1010"
 ownpal = 1
-size.xscale = .90
-size.yscale = .90
+size.xscale = const(size.xscale) ;clon con el mismo tamano que Naruto
+size.yscale = const(size.yscale)
 
 [State 200, End]
 type = ChangeState
@@ -5189,8 +5189,8 @@ stateno = 1403
 helpertype = normal
 name = "1403"
 ownpal = 1
-size.xscale = .90
-size.yscale = .90
+size.xscale = const(size.xscale) ;clon con el mismo tamano que Naruto
+size.yscale = const(size.yscale)
 
 [State 0, Explod]
 type = Explod
@@ -5895,8 +5895,8 @@ stateno = 1510
 helpertype = normal
 name = "1510"
 ownpal = 1
-size.xscale = .90
-size.yscale = .90
+size.xscale = const(size.xscale) ;clon con el mismo tamano que Naruto
+size.yscale = const(size.yscale)
 
 [State 200, End]
 type = ChangeState
@@ -6051,8 +6051,8 @@ stateno = 1511
 helpertype = normal
 name = "1511"
 ownpal = 1
-size.xscale = .90
-size.yscale = .90
+size.xscale = const(size.xscale) ;clon con el mismo tamano que Naruto
+size.yscale = const(size.yscale)
 
 [State 0, Andando]
 type = PlaySnd
@@ -6269,8 +6269,8 @@ stateno = 1513
 helpertype = normal
 name = "1513"
 ownpal = 1
-size.xscale = .90
-size.yscale = .90
+size.xscale = const(size.xscale) ;clon con el mismo tamano que Naruto
+size.yscale = const(size.yscale)
 
 [State 0, RemoveExplod]
 type = RemoveExplod

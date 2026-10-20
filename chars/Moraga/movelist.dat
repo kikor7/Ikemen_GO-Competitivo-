@@ -1,0 +1,13 @@
+<#f0f000>:Special Moves:</>
+Ji Pitaa Ooku Ebo Shi			_D_B_F^X
+Ji Pitaa Ooku Ebo Shi			_D_B_F^Y
+Especial 3			_QCB^X
+Especial 4			_QCB^Y
+Shi Pu Sa Daa Do Go			_QCF^X
+Run Back			^X_+^A
+Kung Fu Throw			^X_+^Y
+
+<#f0f000>:Hyper Moves:</>
+Do <#f00000>(3000)</>			_QCF_QCF^A
+Ji Pitaa Kikku <#f00000>(2000)</>			_QCF_QCF^Y
+Fu Ha Kee <#f00000>(1000)</>			_QCF_QCF^X

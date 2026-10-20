@@ -2697,7 +2697,7 @@ X = 10.8
 Type = PowerAdd
 Trigger1 = NumHelper(1670) > 0
 Trigger1 = Helper(1670),Pos X - Pos X = [-10,10]
-Value = 28
+Value = 0
 Persistent = 0
 
 [State -1]
@@ -3069,7 +3069,7 @@ X = 7.8
 Type = PowerAdd
 Trigger1 = NumHelper(1670) > 0
 Trigger1 = Helper(1670),Pos X - Pos X = [-10,10]
-Value = 28
+Value = 0
 Persistent = 0
 
 [State -1]
@@ -3441,7 +3441,7 @@ X = 5.85
 Type = PowerAdd
 Trigger1 = NumHelper(1670) > 0
 Trigger1 = Helper(1670),Pos X - Pos X = [-10,10]
-Value = 28
+Value = 0
 Persistent = 0
 
 [State -1]
@@ -3823,7 +3823,7 @@ Type = PowerAdd
 Trigger1 = NumHelper(1670) > 0
 Trigger1 = Helper(1670),Pos X - Pos X = [-10,10]
 Trigger1 = Helper(1670),Pos Y - Pos Y <= 22
-Value = 28
+Value = 0
 Persistent = 0
 
 [State -1]
@@ -4311,7 +4311,7 @@ Type = PowerAdd
 Trigger1 = NumHelper(1670) > 0
 Trigger1 = Helper(1670),Pos X - Pos X = [-10,10]
 Trigger1 = Helper(1670),Pos Y - Pos Y <= 20
-Value = 28
+Value = 0
 Persistent = 0
 
 [State -1]
@@ -4826,7 +4826,7 @@ Y = 0
 Type = PowerAdd
 Trigger1 = NumHelper(1670) > 0
 Trigger1 = Helper(1670),Pos X - Pos X = [-10,10]
-Value = 28
+Value = 0
 Persistent = 0
 
 [State -1]
@@ -8429,7 +8429,7 @@ Type = PowerAdd
 Trigger1 = Anim = 3015
 Trigger1 = NumHelper(1670) > 0
 Trigger1 = Helper(1670),Pos X - Pos X = [-10,10]
-Value = 28
+Value = 0
 Persistent = 0
 
 [State -1]
@@ -8786,7 +8786,7 @@ Type = PowerAdd
 Trigger1 = Anim = 3025
 Trigger1 = NumHelper(1670) > 0
 Trigger1 = Helper(1670),Pos X - Pos X = [-10,10]
-Value = 28
+Value = 0
 Persistent = 0
 
 [State -1]
@@ -9134,7 +9134,7 @@ Type = PowerAdd
 Trigger1 = Anim = 3035
 Trigger1 = NumHelper(1670) > 0
 Trigger1 = Helper(1670),Pos X - Pos X = [-10,10]
-Value = 28
+Value = 0
 Persistent = 0
 
 [State -1]

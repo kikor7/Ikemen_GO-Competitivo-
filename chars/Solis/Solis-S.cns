@@ -9,7 +9,7 @@ type     = S
 movetype = A
 physics  = S
 juggle   = 4
-poweradd = 0
+poweradd = 20
 velset   = 0,0
 anim     = 1000
 ctrl     = 0
@@ -222,7 +222,7 @@ trigger1 = Time <= 16
 attr = S, SP
 animtype  = Medium
 damage    = 72, 9
-getpower = 0,25
+getpower = 10,5
 givepower = 50,0
 priority  = 4
 hitflag   = MAFD
@@ -247,7 +247,7 @@ trigger1 = Time >= 17
 attr = S, SP
 animtype  = Medium
 damage    = 36, 9
-getpower = 0,25
+getpower = 10,5
 givepower = 50,0
 priority  = 4
 hitflag   = MAFD
@@ -419,6 +419,7 @@ sprpriority = 4
 
 [State 1008, ヒット定義];変形後ヒットはよろける
 type = HitDef
+getpower = 10,5
 triggerall = p2StateType != A
 triggerall = p2StateNo = [5000,5199]
 Trigger1 = Time = 0
@@ -436,6 +437,7 @@ numhits = 0
 
 [State 1008, ヒット定義]
 type = HitDef
+getpower = 10,5
 triggerall = p2StateType = A
 triggerall = p2StateNo = [5000,5199]
 Trigger1 = Time = 0
@@ -559,7 +561,7 @@ type     = S
 movetype = A
 physics  = S
 juggle   = 4
-poweradd = 0
+poweradd = 20
 ;velset   = 0,0
 anim     = 1000
 ctrl     = 0
@@ -772,7 +774,7 @@ trigger1 = Time <= 16
 attr = S, SP
 animtype  = Medium
 damage    = 81, 9
-getpower = 0,25
+getpower = 15,7
 givepower = 50,0
 priority  = 4
 hitflag   = MAFD
@@ -797,7 +799,7 @@ trigger1 = Time >= 17
 attr = S, SP
 animtype  = Medium
 damage    = 45, 9
-getpower = 0,25
+getpower = 15,7
 givepower = 50,0
 priority  = 4
 hitflag   = MAFD
@@ -862,7 +864,7 @@ type     = S
 movetype = A
 physics  = S
 juggle   = 4
-poweradd = 0
+poweradd = 20
 ;velset   = 0,0
 anim     = 1000
 ctrl     = 0
@@ -1074,7 +1076,7 @@ trigger1 = Time <= 16
 attr = S, SP
 animtype  = Medium
 damage    = 90, 9
-getpower = 0,25
+getpower = 15,7
 givepower = 50,0
 priority  = 4
 hitflag   = MAFD
@@ -1099,7 +1101,7 @@ trigger1 = Time >= 17
 attr = S, SP
 animtype  = Medium
 damage    = 54, 9
-getpower = 0,25
+getpower = 15,7
 givepower = 50,0
 priority  = 4
 hitflag   = MAFD
@@ -1184,7 +1186,7 @@ trigger1 = AnimTime = 0
 type     = S
 movetype = A
 physics  = S
-poweradd = 0
+poweradd = 20
 velset   = 0,0
 anim     = 1050
 ctrl     = 0
@@ -1335,7 +1337,7 @@ trigger1 = Time = 0
 attr = S, SP
 animtype  = Light
 damage    = 63, 9
-getpower = 0,25
+getpower = 15,7
 givepower = 50,0
 priority  = 1
 sprpriority = 3
@@ -1485,7 +1487,7 @@ ignorehitpause = 1
 [State 1051, 相手ガードによるパワーゲージ増加]
 type = PowerAdd
 trigger1 = MoveGuarded = 1
-value = 40
+value = 0
 
 [State 1051, 相手のステート変更]
 type = TargetState
@@ -1517,6 +1519,7 @@ sprpriority = 3
 
 [State 1055, ヒット定義]
 type = HitDef
+getpower = 15,7
 triggerall = p2StateNo = [5000,5199]
 Trigger1 = Time = 0
 attr = S, SP
@@ -1709,7 +1712,7 @@ value = 50
 type     = S
 movetype = A
 physics  = S
-poweradd = 0
+poweradd = 20
 velset   = 0,0
 anim     = 1060
 ctrl     = 0
@@ -1860,7 +1863,7 @@ trigger1 = Time = 0
 attr = S, SP
 animtype  = Light
 damage    = 63, 9
-getpower = 0,25
+getpower = 15,7
 givepower = 50,0
 priority  = 1
 sprpriority = 3
@@ -2009,7 +2012,7 @@ ignorehitpause = 1
 [State 1061, 相手ガードによるパワーゲージ増加]
 type = PowerAdd
 trigger1 = MoveGuarded = 1
-value = 40
+value = 0
 
 [State 1061, 相手のステート変更]
 type = TargetState
@@ -2041,6 +2044,7 @@ sprpriority = 3
 
 [State 1065, ヒット定義]
 type = HitDef
+getpower = 15,7
 triggerall = p2StateNo = [5000,5199]
 Trigger1 = Time = 0
 attr = S, SP
@@ -2289,7 +2293,7 @@ value = 50
 type     = S
 movetype = A
 physics  = S
-poweradd = 0
+poweradd = 20
 ;velset   = 0,0
 anim     = 1070
 ctrl     = 0
@@ -2440,7 +2444,7 @@ trigger1 = Time = 0
 attr = S, SP
 animtype  = Light
 damage    = 63, 9
-getpower = 0,25
+getpower = 15,7
 givepower = 50,0
 priority  = 1
 sprpriority = 3
@@ -2589,7 +2593,7 @@ ignorehitpause = 1
 [State 1071, 相手ガードによるパワーゲージ増加]
 type = PowerAdd
 trigger1 = MoveGuarded = 1
-value = 40
+value = 0
 
 [State 1071, 相手のステート変更]
 type = TargetState
@@ -2621,6 +2625,7 @@ sprpriority = 3
 
 [State 1075, ヒット定義]
 type = HitDef
+getpower = 15,7
 triggerall = p2StateNo = [5000,5199]
 Trigger1 = Time = 0
 attr = S, SP
@@ -2928,7 +2933,7 @@ type     = A
 movetype = A
 physics  = N
 juggle   = 4
-poweradd = 0
+poweradd = 20
 velset   = 0,0
 anim     = 1100
 ctrl     = 0
@@ -3049,7 +3054,7 @@ trigger1 = Time = 0
 attr = S, SP
 animtype  = Light
 damage    = 63, 9
-getpower = 0,25
+getpower = 15,7
 givepower = 50,0
 priority  = 1
 sprpriority = 3
@@ -3199,7 +3204,7 @@ ignorehitpause = 1
 [State 1101, 相手ガードによるパワーゲージ増加]
 type = PowerAdd
 trigger1 = MoveGuarded = 1
-value = 40
+value = 0
 
 [State 1101, 相手のステート変更]
 type = TargetState
@@ -3231,6 +3236,7 @@ sprpriority = 3
 
 [State 1105, ヒット定義]
 type = HitDef
+getpower = 15,7
 triggerall = p2StateNo = [5000,5199]
 Trigger1 = Time = 0
 attr = S, SP
@@ -3566,7 +3572,7 @@ ignorehitpause = 1
 [State 1111, 相手ガードによるパワーゲージ増加]
 type = PowerAdd
 trigger1 = MoveGuarded = 1
-value = 40
+value = 0
 
 [State 1111, 相手のステート変更]
 type = TargetState
@@ -3663,7 +3669,7 @@ type     = A
 movetype = A
 physics  = N
 juggle   = 4
-poweradd = 0
+poweradd = 20
 velset   = 0,0
 anim     = 1120
 ctrl     = 0
@@ -3784,7 +3790,7 @@ trigger1 = Time = 0
 attr = S, SP
 animtype  = Light
 damage    = 63, 9
-getpower = 0,25
+getpower = 15,7
 givepower = 50,0
 priority  = 1
 sprpriority = 3
@@ -3933,7 +3939,7 @@ ignorehitpause = 1
 [State 1121, 相手ガードによるパワーゲージ増加]
 type = PowerAdd
 trigger1 = MoveGuarded = 1
-value = 40
+value = 0
 
 [State 1121, 相手のステート変更]
 type = TargetState
@@ -3965,6 +3971,7 @@ sprpriority = 3
 
 [State 1125, ヒット定義]
 type = HitDef
+getpower = 15,7
 triggerall = p2StateNo = [5000,5199]
 Trigger1 = Time = 0
 attr = S, SP
@@ -4121,7 +4128,7 @@ trigger1 = Time = 0
 attr = A, SA
 animtype  = Hard
 damage    = 45, 9
-getpower = 0,5
+getpower = 30,15
 givepower = 10,0
 priority  = 5
 guardflag = MA
@@ -4177,7 +4184,7 @@ trigger1 = Time = 0
 attr = A, SA
 animtype  = Medium
 damage    = 63, 9
-getpower = 0,25
+getpower = 30,15
 givepower = 50,0
 priority  = 5
 guardflag = MA
@@ -4301,7 +4308,7 @@ trigger1 = Time = 0
 attr = A, SA
 animtype  = Hard
 damage    = 54, 9
-getpower = 0,5
+getpower = 30,15
 givepower = 150,0
 priority  = 5
 guardflag = MA
@@ -4362,7 +4369,7 @@ trigger1 = Time = 0
 attr = A, SA
 animtype  = Medium
 damage    = 72, 9
-getpower = 0,25
+getpower = 30,15
 givepower = 50,0
 priority  = 5
 guardflag = MA
@@ -4486,7 +4493,7 @@ trigger1 = Time = 0
 attr = A, SA
 animtype  = Hard
 damage    = 63, 9
-getpower = 0,5
+getpower = 30,15
 givepower = 10,0
 priority  = 5
 guardflag = MA
@@ -4547,7 +4554,7 @@ trigger1 = Time = 0
 attr = A, SA
 animtype  = Medium
 damage    = 81, 9
-getpower = 0,25
+getpower = 30,15
 givepower = 50,0
 priority  = 5
 guardflag = MA
@@ -8236,7 +8243,7 @@ trigger1 = Time = 0
 attr = S, SA
 animtype  = Hard
 damage    = 36, 9
-getpower = 0,5
+getpower = 60,30
 givepower = 10,0
 priority  = 5
 guardflag = MA
@@ -8345,7 +8352,7 @@ trigger1 = Time = 0
 attr = S, SA
 animtype  = Hard
 damage    = 36, 9
-getpower = 0,5
+getpower = 60,30
 givepower = 10,0
 priority  = 5
 hitflag   = MA
@@ -8465,7 +8472,7 @@ trigger1 = Time = 0
 attr = S, SA
 animtype  = Hard
 damage    = 72, 9
-getpower = 0,10
+getpower = 60,30
 givepower = 20,0
 priority  = 5
 guardflag = MA

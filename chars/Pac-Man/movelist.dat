@@ -1,0 +1,20 @@
+<#f0f000>:Special Moves:</>
+Blinky			_QCF^A
+Inky			_QCF^B
+Pinky & Clyde			_QCF^C
+Bonus Fruit			_QCF^X
+Pac-Jump			_QCB^A
+Pac-Dot Trail			_QCB^X
+Pac-Dot Trail 2			_QCB^Y
+Pac-Dot Trail 3			_QCB^Z
+Fire Hydrant			_QCB^B
+Single Galaxian Posse			_QCB^C
+
+<#f0f000>:Hyper Moves:</>
+Super Pac-Man <#f00000>(1000)</>			_QCF^A_+^B
+Galaxian Posse <#f00000>(1000)</>			_QCF^X_+^Y
+Dig-Dug <#f00000>(2000)</>			_QCF^C_+^Z
+Mappy <#f00000>(1000)</>			_QCB^A_+^B
+The Legend of Valkyrie <#f00000>(1000)</>			_QCB^X_+^Y
+Special Flag <#f00000>(2000)</>			_QCB^C_+^Z
+Fatal Move - Death Pallet <#f00000>(3000)</>			_QCF_QCF^S

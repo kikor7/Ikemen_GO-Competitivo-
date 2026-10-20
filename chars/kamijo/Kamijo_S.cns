@@ -2702,6 +2702,7 @@ IgnoreHitPause=1
 
 [State 800,hitdef]
 Type=HitDef
+getpower = 60,30
 Trigger1=!MoveContAct
 Trigger1=!MoveReversed
 Attr=S,NT
@@ -2731,7 +2732,7 @@ MoveType=A
 physics=N
 Anim=1810
 Ctrl=0
-Poweradd=55
+Poweradd=0
 
 [State 810, 9]
 type = Width

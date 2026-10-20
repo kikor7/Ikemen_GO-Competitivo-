@@ -7,6 +7,7 @@ author = "Songfu"         ;Character author name
 pal.defaults = 1      ;Default palettes in order of preference
 
 [Files]
+movelist = movelist.dat
 cmd      = Erika_States/Erika.cmd		;Command set
 cns      = Erika_States/Erika_N.cns		;Constants
 st       = Erika_States/Erika_N.cns		;States

@@ -35,7 +35,7 @@ guardflag = HL
 priority = 2,Hit
 numhits = 1
 damage = Ceil((var(50)*0.8)*(fvar(38)*0.01))
-getpower = Ceil((var(50)*0.8)*(fvar(38)*0.01))*2,Ceil((var(50)*0.8)*(fvar(38)*0.01))
+getpower = 15,7
 givepower = Ceil((var(50)*0.8)*(fvar(38)*0.01)),0
 ;- - - - - - - - - - - - - - - -
 animtype = medium
@@ -118,7 +118,7 @@ guardflag = HL
 priority = 2,Hit
 numhits = 1
 damage = Ceil((var(50)*1.0)*(fvar(38)*0.01))
-getpower = Ceil((var(50)*1.0)*(fvar(38)*0.01))*2,Ceil((var(50)*1.0)*(fvar(38)*0.01))
+getpower = 15,7
 givepower = Ceil((var(50)*1.0)*(fvar(38)*0.01)),0
 ;- - - - - - - - - - - - - - - -
 animtype = medium
@@ -201,7 +201,7 @@ guardflag = H
 priority = 2,Hit
 numhits = 1
 damage = Ceil((var(50)*1.2)*(fvar(38)*0.01))
-getpower = Ceil((var(50)*1.2)*(fvar(38)*0.01))*2,Ceil((var(50)*1.2)*(fvar(38)*0.01))
+getpower = 15,7
 givepower = Ceil((var(50)*1.2)*(fvar(38)*0.01)),0
 ;- - - - - - - - - - - - - - - -
 animtype = hard
@@ -279,7 +279,7 @@ guardflag = H
 priority = 2,Hit
 numhits = 1
 damage = Ceil((var(50)*1.0)*(fvar(38)*0.01))
-getpower = Ceil((var(50)*1.0)*(fvar(38)*0.01))*2,Ceil((var(50)*1.0)*(fvar(38)*0.01))
+getpower = 30,15
 givepower = Ceil((var(50)*1.0)*(fvar(38)*0.01)),0
 ;- - - - - - - - - - - - - - - -
 animtype = hard
@@ -551,7 +551,7 @@ guardflag = HL
 priority = 2,Hit
 numhits = 1
 damage = Ceil((var(50)*(1.5+var(18))+39+19*var(18))*(fvar(38)*0.01))
-getpower = Ceil((var(50)*(1.5+var(18))+39+19*var(18))*(fvar(38)*0.01))*2,Ceil((var(50)*(1.5+var(18))+39+19*var(18))*(fvar(38)*0.01))
+getpower = 30,15
 givepower = Ceil((var(50)*(1.5+var(18))+39+19*var(18))*(fvar(38)*0.01)),0
 ;- - - - - - - - - - - - - - - -
 animtype = medium
@@ -730,7 +730,7 @@ guardflag = L
 priority = 2,Hit
 numhits = 1
 damage = Ceil((var(50)*1.1)*(fvar(38)*0.01))
-getpower = Ceil((var(50)*1.1)*(fvar(38)*0.01))*2,Ceil((var(50)*1.1)*(fvar(38)*0.01))
+getpower = 30,15
 givepower = Ceil((var(50)*1.1)*(fvar(38)*0.01)),0
 ;- - - - - - - - - - - - - - - -
 animtype = medium
@@ -850,7 +850,7 @@ guardflag = L
 priority = 2,Hit
 numhits = 1
 damage = Ceil((var(50)*1.5)*(fvar(38)*0.01))
-getpower = Ceil((var(50)*1.5)*(fvar(38)*0.01))*2,Ceil((var(50)*1.5)*(fvar(38)*0.01))
+getpower = 30,15
 givepower = Ceil((var(50)*1.5)*(fvar(38)*0.01)),0
 ;- - - - - - - - - - - - - - - -
 animtype = hard
@@ -968,7 +968,7 @@ guardflag = HA
 priority = 2,Hit
 numhits = 1
 damage = Ceil((var(50)*1.2)*(fvar(38)*0.01))
-getpower = Ceil((var(50)*1.2)*(fvar(38)*0.01))*2,Ceil((var(50)*1.2)*(fvar(38)*0.01))
+getpower = 15,7
 givepower = Ceil((var(50)*1.2)*(fvar(38)*0.01)),0
 ;- - - - - - - - - - - - - - - -
 animtype = medium
@@ -1069,7 +1069,7 @@ guardflag = HA
 priority = 2,Hit
 numhits = 1
 damage = Ceil((var(50)*1.4)*(fvar(38)*0.01))
-getpower = Ceil((var(50)*1.4)*(fvar(38)*0.01))*2,Ceil((var(50)*1.4)*(fvar(38)*0.01))
+getpower = 15,7
 givepower = Ceil((var(50)*1.4)*(fvar(38)*0.01)),0
 ;- - - - - - - - - - - - - - - -
 animtype = medium

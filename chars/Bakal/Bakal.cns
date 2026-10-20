@@ -432,7 +432,7 @@ juggle  = 1
 velset = 0,0
 ctrl = 0
 anim = 403
-poweradd = 20
+poweradd = 0
 sprpriority = 6
 
 [State 202, HitDef]
@@ -490,7 +490,7 @@ juggle  = 1
 velset = 0,0
 ctrl = 0
 anim = 404
-poweradd = 20
+poweradd = 0
 sprpriority = 6
 
 [State 0, VelSet]
@@ -610,7 +610,7 @@ juggle  = 1
 velset = 0,0
 ctrl = 0
 anim = 200
-poweradd = 20
+poweradd = 0
 sprpriority = 2
 
 [State 200, 1]
@@ -618,6 +618,7 @@ type = HitDef
 trigger1 = AnimElem = 3
 attr = S, NA
 damage = 93, 33
+getpower = 30,15
 animtype = Hard
 guardflag = MA
 hitflag = MAF
@@ -672,7 +673,7 @@ juggle  = 1
 velset = 0,0
 ctrl = 0
 anim = 600
-poweradd = 20
+poweradd = 0
 sprpriority = 2
 
 [State 200, 1]
@@ -725,7 +726,7 @@ juggle  = 1
 velset = 0,0
 ctrl = 0
 anim = 602
-poweradd = 20
+poweradd = 0
 sprpriority = 3
 
 [State 0, ChangeState]
@@ -743,7 +744,7 @@ juggle  = 1
 velset = 0,0
 ctrl = 0
 anim = 603
-poweradd = 20
+poweradd = 0
 sprpriority = 3
 
 [State 603, PosSet]
@@ -769,6 +770,7 @@ guardflag = MA         ;HLA         ;B,E,F
 animtype = hard          ;light,medium,hard,back,up,diagup
 air.animtype = hard
 damage = 70,0
+getpower = 30,15
 pausetime = 8 ,8
 sparkno = -1
 sparkxy = -10,30
@@ -801,7 +803,7 @@ juggle  = 1
 velset = 0,0
 ctrl = 0
 anim = 196
-poweradd = 20
+poweradd = 0
 sprpriority = 2
 
 [State 0, PlaySnd]
@@ -838,7 +840,7 @@ physics = N
 juggle  = 1
 ctrl = 0
 anim = 800
-poweradd = 20
+poweradd = 0
 sprpriority = 2
 
 [State 0, VelSet]
@@ -1036,7 +1038,7 @@ juggle  = 1
 velset = 0,0
 ctrl = 0
 anim = 803
-poweradd = 20
+poweradd = 0
 sprpriority = 3
 
 [State 200, VelSet]
@@ -1060,7 +1062,7 @@ juggle  = 1
 velset = 0,0
 ctrl = 0
 anim = 804
-poweradd = 20
+poweradd = 0
 sprpriority = 3
 
 [State 0, AssertSpecial]
@@ -1110,7 +1112,7 @@ juggle  = 1
 velset = 0,0
 ctrl = 0
 anim = 1100
-poweradd = 20
+poweradd = 0
 sprpriority = 2
 
 [State 0, PlaySnd]
@@ -1243,6 +1245,7 @@ guardflag = MA         ;HLA         ;B,E,F
 animtype = hard          ;light,medium,hard,back,up,diagup
 air.animtype = hard
 damage = 10,10
+getpower = 30,15
 pausetime = 8 ,8
 sparkno = -1
 sparkxy = -10,30

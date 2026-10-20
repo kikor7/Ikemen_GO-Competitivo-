@@ -1,0 +1,27 @@
+<#f0f000>:Special Moves:</>
+Stand Light Kick			_D_B_D_F^A
+Stand Light Kick			_D_B_D_F^X
+Stand Light Kick			_D_F_D_B^B
+Stand Light Kick			_D_F_D_B^A
+Stand Light Kick			_D_F_D_B^Z
+Stand Light Kick			_D_F_D_B^Y
+Stand Light Kick			_D_F_D_B^X
+Stand Light Punch			_D_F_D_F^X
+Stand Light Punch			_D_F_D_F^Y
+Stand Light Punch			_D_F_D_F^Z
+Stand Light Punch			_D_F^Z
+Stand Light Punch			_D_F^Y
+Stand Light Punch			_D_F^X
+Stand Light Punch			^A_+^Y
+Stand Light Punch			_U_U^X
+Stand Light Punch			_U_U^Y
+Stand Light Punch			_U_U^Z
+Stand Light Punch			_XFF^X
+Stand Light Punch			_XFF^Y
+Stand Light Punch			_XFF^Z
+Stand Light Punch			~F^A_+^Y
+Stand Light Punch			^X_+^Y
+Standing Strong Kick			^A_+^B
+Crouching Strong Punch			~D^X_+^Y
+Crouching Strong Kick			~D^A_+^B
+

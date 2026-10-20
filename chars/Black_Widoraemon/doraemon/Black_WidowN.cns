@@ -62,7 +62,7 @@ air.velocity = -4,-2
 air.type = High
 air.velocity = -1.4,-3
 air.hittime = 12
-getpower = 20
+getpower = 30,15
 givepower = 5
 
 [State 200, ステート変更]
@@ -78,7 +78,7 @@ type     = S
 movetype = A
 physics  = S
 juggle   = 4
-poweradd = 80
+poweradd = 0
 ctrl     = 0
 velset   = 0,0
 anim     = ifelse(p2bodydist X <30,211,210)
@@ -121,7 +121,7 @@ envshake.time = 10
 envshake.freq = 5
 envshake.ampl = 5
 envshake.phase = 5
-getpower = 60
+getpower = 30,15
 givepower = 20
 
 
@@ -174,7 +174,7 @@ ground.slidetime = 5
 ground.hittime  = 10
 ground.velocity = -6
 air.velocity = -2.5,-3.5
-getpower = 20
+getpower = 30,15
 givepower = 5
 
 
@@ -191,7 +191,7 @@ type     = S
 movetype = A
 physics  = S
 juggle   = 5
-poweradd = 80
+poweradd = 0
 ctrl     = 0
 velset   = 0,0
 anim     = ifelse(p2bodydist X <30,241,240)
@@ -234,7 +234,7 @@ envshake.time = 10
 envshake.freq = 5
 envshake.ampl = 5
 envshake.phase = 5
-getpower = 60
+getpower = 10,5
 givepower = 20
 
 [State 230, 音を鳴らす]
@@ -267,7 +267,7 @@ envshake.time = 10
 envshake.freq = 5
 envshake.ampl = 5
 envshake.phase = 5
-getpower = 30
+getpower = 10,5
 givepower = 10
 
 [State 230, ヒット定義]
@@ -293,7 +293,7 @@ envshake.time = 10
 envshake.freq = 5
 envshake.ampl = 5
 envshake.phase = 5
-getpower = 30
+getpower = 10,5
 givepower = 10
 
 [State 240, ステート変更]
@@ -339,7 +339,7 @@ ground.slidetime = 5
 ground.hittime  = 10
 ground.velocity = -12
 air.velocity = -4,-2
-getpower = 20
+getpower = 30,15
 givepower = 5
 
 [State 400, ステート変更]
@@ -356,7 +356,7 @@ type     = C
 movetype = A
 physics  = C
 juggle   = 6
-poweradd = 80
+poweradd = 0
 ctrl     = 0
 anim     = 410
 sprpriority = 2
@@ -396,7 +396,7 @@ envshake.time = 10
 envshake.freq = 5
 envshake.ampl = 5
 envshake.phase = 5
-getpower = 60
+getpower = 30,15
 givepower = 20
 
 [State 410, ステート変更]
@@ -442,7 +442,7 @@ ground.slidetime = 5
 ground.hittime  = 10
 ground.velocity = -12
 air.velocity = -4,-2
-getpower = 20
+getpower = 30,15
 givepower = 5
 
 [State 430, ステート変更]
@@ -460,7 +460,7 @@ type     = C
 movetype = A
 physics  = C
 juggle   = 7
-poweradd = 80
+poweradd = 0
 ctrl     = 0
 anim     = 440
 sprpriority = 2
@@ -503,7 +503,7 @@ envshake.time = 10
 envshake.freq = 5
 envshake.ampl = 5
 envshake.phase = 5
-getpower = 60
+getpower = 30,15
 givepower = 20
 
 [State 440, ステート変更]
@@ -560,7 +560,7 @@ ground.slidetime = 5
 ground.hittime  = 10
 ground.velocity = -12
 air.velocity = -4
-getpower = 20
+getpower = 15,7
 givepower = 5
 
 [State 600, ヒット定義]
@@ -582,7 +582,7 @@ ground.slidetime = 5
 ground.hittime  = 10
 ground.velocity = -12
 air.velocity = -4
-getpower = 20
+getpower = 15,7
 givepower = 5
 ;---------------------------------------------------------------------------
 ; ジャンプ強パンチ
@@ -591,7 +591,7 @@ type     = A
 movetype = A
 physics  = A
 juggle   = 4
-poweradd = 80
+poweradd = 0
 ctrl     = 0
 sprpriority = 2
 
@@ -644,7 +644,7 @@ envshake.time = 10
 envshake.freq = 5
 envshake.ampl = 5
 envshake.phase = 5
-getpower = 60
+getpower = 10,5
 givepower = 20
 
 [State 610, ヒット定義]
@@ -671,7 +671,7 @@ envshake.time = 10
 envshake.freq = 5
 envshake.ampl = 5
 envshake.phase = 5
-getpower = 30
+getpower = 10,5
 givepower = 10
 
 [State 610, ヒット定義]
@@ -698,7 +698,7 @@ envshake.time = 10
 envshake.freq = 5
 envshake.ampl = 5
 envshake.phase = 5
-getpower = 60
+getpower = 10,5
 givepower = 20
 fall = 1
 air.fall = 1
@@ -752,7 +752,7 @@ ground.slidetime = 5
 ground.hittime  = 10
 ground.velocity = -12
 air.velocity = -4
-getpower = 20
+getpower = 10,5
 givepower = 5
 
 [State 630, ヒット定義]
@@ -774,7 +774,7 @@ ground.slidetime = 5
 ground.hittime  = 10
 ground.velocity = -12
 air.velocity = -4
-getpower = 20
+getpower = 10,5
 givepower = 5
 
 [State 630, ヒット定義]
@@ -796,7 +796,7 @@ ground.slidetime = 5
 ground.hittime  = 10
 ground.velocity = -12
 air.velocity = -4
-getpower = 20
+getpower = 10,5
 givepower = 5
 ;---------------------------------------------------------------------------
 ; ジャンプ強キック
@@ -805,7 +805,7 @@ type     = A
 movetype = A
 physics  = A
 juggle   = 7
-poweradd = 80
+poweradd = 0
 ctrl     = 0
 sprpriority = 2
 
@@ -856,7 +856,7 @@ envshake.time = 10
 envshake.freq = 5
 envshake.ampl = 5
 envshake.phase = 5
-getpower = 60
+getpower = 10,5
 givepower = 20
 
 [State 640, ヒット定義]
@@ -882,7 +882,7 @@ envshake.time = 10
 envshake.freq = 5
 envshake.ampl = 5
 envshake.phase = 5
-getpower = 30
+getpower = 10,5
 givepower = 10
 
 [State 640, ヒット定義]
@@ -911,7 +911,7 @@ envshake.time = 10
 envshake.freq = 5
 envshake.ampl = 5
 envshake.phase = 5
-getpower = 30
+getpower = 10,5
 givepower = 10
 
 ;---------------------------------------------------------------------------
@@ -921,7 +921,7 @@ type     = S
 movetype = A
 physics  = S
 juggle   = 3
-poweradd = 80
+poweradd = 0
 ctrl     = 0
 anim     = 700
 
@@ -968,7 +968,7 @@ envshake.time = 20
 envshake.freq = 60
 envshake.ampl = 5
 envshake.phase = 90
-getpower = 60
+getpower = 30,15
 givepower = 20
 air.fall = 1
 fall.recover = 0
@@ -986,7 +986,7 @@ type     = S
 movetype = A
 physics  = S
 juggle   = 3
-poweradd = 80
+poweradd = 0
 ctrl     = 0
 anim     = 710
 
@@ -1037,7 +1037,7 @@ envshake.time = 20
 envshake.freq = 60
 envshake.ampl = 5
 envshake.phase = 90
-getpower = 60
+getpower = 30,15
 givepower = 20
 
 [State 440, ステート変更]
@@ -1053,7 +1053,7 @@ type     = S
 movetype = A
 physics  = S
 juggle   = 3
-poweradd = 80
+poweradd = 0
 ctrl     = 0
 anim     = 720
 
@@ -1101,7 +1101,7 @@ envshake.time = 20
 envshake.freq = 60
 envshake.ampl = 5
 envshake.phase = 90
-getpower = 30
+getpower = 30,15
 givepower = 10
 air,Fall = 1
 fall.recover = 0
@@ -1119,7 +1119,7 @@ type     = C
 movetype = A
 physics  = S
 juggle   = 3
-poweradd = 80
+poweradd = 0
 ctrl     = 0
 anim     = 730
 
@@ -1176,7 +1176,7 @@ airguard.velocity = -3
 Fall = 1
 air.fall = 1
 fall.recover = 0
-getpower = 30
+getpower = 30,15
 givepower = 10
 
 [State 440, ステート変更]
@@ -1520,7 +1520,7 @@ type    = A
 movetype= A
 physics = N
 juggle  = 0
-poweradd = 50
+poweradd = 0
 ctrl = 0
 anim = 790
 sprpriority = 2
@@ -1564,7 +1564,7 @@ envshake.phase = 5
 fall = 1
 air.fall = 1
 fall.recover = 0
-getpower = 30
+getpower = 15,7
 givepower = 10
 
 [State 700, 着地へ]
@@ -1638,7 +1638,7 @@ envshake.phase = 5
 fall = 1
 air.fall = 1
 fall.recover = 0
-getpower = 60
+getpower = 15,7
 givepower = 20
 
 [State 701, チェンジステート]
@@ -1719,7 +1719,7 @@ envshake.time = 10
 envshake.freq = 5
 envshake.ampl = 5
 envshake.phase = 5
-getpower = 20
+getpower = 30,15
 givepower = 10
 
 [State 701, チェンジステート]
@@ -1735,7 +1735,7 @@ type    = S
 movetype= A
 physics = N
 juggle  = 0
-poweradd = 50
+poweradd = 0
 ctrl = 0
 anim = 793
 sprpriority = 2
@@ -1793,7 +1793,7 @@ envshake.phase = 5
 fall = 1
 air.fall = 1
 fall.recover = 0
-getpower = 30
+getpower = 30,15
 givepower = 10
 
 [State 4];速度を与える
@@ -1833,7 +1833,7 @@ type     = S
 movetype = A
 physics  = S
 juggle   = 4
-poweradd = 60
+poweradd = 20
 velset   = 0,0
 ctrl     = 0
 sprpriority = 2
@@ -1936,7 +1936,7 @@ envshake.time = 10
 envshake.freq = 5
 envshake.ampl = 5
 envshake.phase = 5
-getpower = 60
+getpower = 15,7
 givepower = 20
 
 [State 1000, C] 
@@ -1982,7 +1982,7 @@ envshake.time = 10
 envshake.freq = 5
 envshake.ampl = 5
 envshake.phase = 5
-getpower = 60
+getpower = 15,7
 givepower = 20
 
 [State 640, 音を鳴らす]
@@ -2049,7 +2049,7 @@ type     = S
 movetype = A
 physics  = N
 juggle   = 5
-poweradd = 60
+poweradd = 0
 ctrl     = 0
 anim     = 1100
 sprpriority = 2
@@ -2126,7 +2126,7 @@ envshake.time = 20
 envshake.freq = 60
 envshake.ampl = -4
 envshake.phase = 90
-getpower = 20
+getpower = 30,15
 givepower = 5
 
 [State 230, ヒット定義]
@@ -2156,7 +2156,7 @@ envshake.time = 20
 envshake.freq = 60
 envshake.ampl = -4
 envshake.phase = 90
-getpower = 20
+getpower = 30,15
 givepower = 5
 
 [State 3000, NotHitby]
@@ -2199,7 +2199,7 @@ type     = S
 movetype = A
 physics  = N
 juggle   = 5
-poweradd = 60
+poweradd = 0
 ctrl     = 0
 velset = 0,0
 sprpriority = 1
@@ -2291,7 +2291,7 @@ envshake.time = 10
 envshake.freq = 5
 envshake.ampl = 5
 envshake.phase = 5
-getpower = 20
+getpower = 30,15
 givepower = 5
 
 [State 240, ヒット定義]
@@ -2318,7 +2318,7 @@ envshake.time = 10
 envshake.freq = 5
 envshake.ampl = 5
 envshake.phase = 5
-getpower = 20
+getpower = 30,15
 givepower = 5
 
 [State 240, ステート変更]

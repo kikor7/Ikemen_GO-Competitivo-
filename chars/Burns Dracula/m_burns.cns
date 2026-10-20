@@ -1446,7 +1446,7 @@ type = S
 ctrl = 0
 movetype = A
 physics = S
-poweradd = 10
+poweradd = 0
 anim = 195
 velset = 0,0
 sprpriority = 2
@@ -1502,7 +1502,7 @@ juggle  = 1
 velset = 0,0                     
 ctrl = 0                        
 anim = 200                        
-poweradd = 14                   
+poweradd = 0                   
 sprpriority = 2      
 facep2 = 1           
 
@@ -1536,7 +1536,7 @@ airguard.velocity = -1.9,-.8
 air.type = High                  
 air.velocity = -1.4,-3           
 air.hittime = 12                 
-getpower = 14,7
+getpower = 30,15
 ;fall = 1
 ;air.fall = 1
 ;fall.recover =0
@@ -1579,7 +1579,7 @@ type    = S
 movetype= A
 physics = S
 juggle  = 4
-poweradd= 27
+poweradd= 0
 ctrl = 0
 velset = 0,0
 anim = 210
@@ -1611,7 +1611,7 @@ ground.slidetime = 10
 ground.hittime  = 15
 ground.velocity = -5
 air.velocity = -5
-getpower = 27,14
+getpower = 30,15
 ;fall.animtype = Up
 ;fall = 1
 ;air.fall = 1
@@ -1653,7 +1653,7 @@ type    = S
 movetype= A
 physics = S
 juggle  = 4
-poweradd= 50
+poweradd= 0
 ctrl = 0
 velset = 0,0
 anim = 220
@@ -1710,7 +1710,7 @@ ground.slidetime = 15
 ground.hittime  = 20
 ground.velocity = -7
 air.velocity = -7
-getpower = 20,10
+getpower = 30,15
 ;fall.animtype = Up
 ;fall = 1
 ;air.fall = 1
@@ -1751,7 +1751,7 @@ type    = S
 movetype= A
 physics = S
 juggle  = 4
-poweradd= 13
+poweradd= 0
 ctrl = 0
 velset = 0,0
 anim = 300
@@ -1788,7 +1788,7 @@ ground.slidetime = 10
 ground.hittime  = 10
 ground.velocity = -3
 air.velocity = -3
-getpower = 13,7
+getpower = 30,15
 ;fall = 1
 ;air.fall = 1
 ;fall.recover =0
@@ -1822,7 +1822,7 @@ type    = S
 movetype= A
 physics = S
 juggle  = 4
-poweradd= 27
+poweradd= 0
 ctrl = 0
 velset = 0,0
 anim = 310
@@ -1871,7 +1871,7 @@ ground.slidetime = 10
 ground.hittime  = 15
 ground.velocity = -5
 air.velocity = -5
-getpower = 27,14
+getpower = 30,15
 ;fall = 1
 ;air.fall = 1
 ;fall.recover =0
@@ -1910,7 +1910,7 @@ type    = S
 movetype= A
 physics = N
 juggle  = 4
-poweradd= 50
+poweradd= 0
 ctrl = 0
 velset = 0,0
 anim = 320
@@ -1952,7 +1952,7 @@ ground.slidetime = 15
 ground.hittime  = 20
 ground.velocity = -7
 air.velocity = -7
-getpower = 50,20
+getpower = 30,15
 ;fall = 1
 ;air.fall = 1
 ;fall.recover =0
@@ -2039,7 +2039,7 @@ type    = C
 movetype= A
 physics = C
 juggle  = 5
-poweradd= 13
+poweradd= 0
 ctrl = 0
 anim = 400
 sprpriority = 2
@@ -2074,7 +2074,7 @@ ground.hittime  = 10
 ground.velocity = -2    
 ;ground.velocity = -1,-9     
 air.velocity = -1.4                    
-getpower = 13,7
+getpower = 30,15
 ;fall = 1
 ;air.fall = 1
 ;fall.recover =0
@@ -2116,7 +2116,7 @@ type    = C
 movetype= A
 physics = C
 juggle  = 5
-poweradd= 27
+poweradd= 0
 ctrl = 0
 anim = 410
 sprpriority = 2
@@ -2152,7 +2152,7 @@ ground.hittime  = 15
 ground.velocity = -5    
 ;ground.velocity = -1,-9     
 air.velocity = -4                    
-getpower = 27,14
+getpower = 30,15
 ;fall = 1
 ;air.fall = 1
 ;fall.recover =0
@@ -2193,7 +2193,7 @@ type    = C
 movetype= A
 physics = C
 juggle  = 6
-poweradd= 50
+poweradd= 0
 ctrl = 0
 anim = 420
 sprpriority = 2
@@ -2251,7 +2251,7 @@ ground.slidetime = 15
 ground.hittime  = 20
 ground.velocity = -7;0,-15
 air.velocity = -7;0,-14
-getpower = 50,20
+getpower = 30,15
 ;fall = 1
 ;air.fall = 1
 ;fall.recover =0
@@ -2296,7 +2296,7 @@ type    = C
 movetype= A
 physics = C
 juggle  = 5
-poweradd= 13
+poweradd= 0
 ctrl = 0
 anim = 500
 sprpriority = 2
@@ -2336,7 +2336,7 @@ ground.hittime  = 10
 ground.velocity = -3    
 ;ground.velocity = -1,-9     
 air.velocity = -1.4                    
-getpower = 13,7
+getpower = 30,15
 ;fall = 1
 ;air.fall = 1
 ;fall.recover =0
@@ -2376,7 +2376,7 @@ type    = C
 movetype= A
 physics = C
 juggle  = 5
-poweradd= 27
+poweradd= 0
 ctrl = 0
 anim = 510
 sprpriority = 2
@@ -2430,7 +2430,7 @@ ground.slidetime = 10
 ground.hittime  = 15
 ground.velocity = 0,-13
 air.velocity = 0,-12
-getpower = 27,14
+getpower = 30,15
 ;fall = 1
 ;air.fall = 1
 ;fall.recover =0
@@ -2485,7 +2485,7 @@ type    = C
 movetype= A
 physics = C
 juggle  = 4
-poweradd= 50
+poweradd= 0
 ctrl = 0
 velset = 0,0
 anim = 520
@@ -2524,7 +2524,7 @@ ground.slidetime = 15
 ground.hittime  = 20
 ground.velocity = -9,0
 air.velocity = -9,0
-getpower = 50,20
+getpower = 30,15
 ;fall = 1
 ;air.fall = 1
 ;fall.recover =0
@@ -2568,7 +2568,7 @@ type    = A
 movetype= A
 physics = N
 juggle  = 1
-poweradd= 13
+poweradd= 0
 ctrl = 0
 anim = 600
 sprpriority = 2
@@ -2601,7 +2601,7 @@ ground.slidetime = 10
 ground.hittime  = 10
 ground.velocity = -3
 air.velocity = 0,((vel y)-.2)
-getpower = 13,7
+getpower = 30,15
 
 
 [State 600]
@@ -2673,7 +2673,7 @@ type    = A
 movetype= A
 physics = N
 juggle  = 1
-poweradd= 27
+poweradd= 0
 ctrl = 0
 anim = 610
 sprpriority = 2
@@ -2706,7 +2706,7 @@ ground.slidetime = 15
 ground.hittime  = 15
 ground.velocity = -5
 air.velocity = 0,((vel y)-.2)
-getpower = 27,14
+getpower = 30,15
 
 
 [State 610]
@@ -2781,7 +2781,7 @@ type    = A
 movetype= A
 physics = N
 juggle  = 1
-poweradd= 50
+poweradd= 0
 ctrl = 0
 anim = 620
 sprpriority = 2
@@ -2825,7 +2825,7 @@ ground.hittime  = 20
 air.hittime = 25
 ground.velocity = -9
 air.velocity = -7,17*(hitcount > 2)
-getpower = 50,20
+getpower = 30,15
 fall = (enemynear,statetype = A)
 air.fall = 1
 fall.recover =0
@@ -3008,7 +3008,7 @@ type    = A
 movetype= A
 physics = N
 juggle  = 1
-poweradd= 13
+poweradd= 0
 ctrl = 0
 anim = 700
 sprpriority = 2
@@ -3050,7 +3050,7 @@ ground.slidetime = 10
 ground.hittime  = 10
 ground.velocity = -3
 air.velocity = 0,((vel y)-.2)
-getpower = 13,7
+getpower = 30,15
 
 
 [State 700]
@@ -3128,7 +3128,7 @@ type    = A
 movetype= A
 physics = N
 juggle  = 1
-poweradd= 27
+poweradd= 0
 ctrl = 0
 anim = 710
 sprpriority = 2
@@ -3170,7 +3170,7 @@ ground.slidetime = 15
 ground.hittime  = 15
 ground.velocity = -5
 air.velocity = 0,((vel y)-.2)
-getpower = 27,14
+getpower = 30,15
 
 
 [State 710]
@@ -3246,7 +3246,7 @@ type    = A
 movetype= A
 physics = N
 juggle  = 1
-poweradd= 50
+poweradd= 0
 ctrl = 0
 anim = 720
 sprpriority = 2
@@ -3284,7 +3284,7 @@ ground.slidetime = 15
 ground.hittime  = 20
 ground.velocity = -9
 air.velocity = -7,17
-getpower = 50,20
+getpower = 30,15
 fall = (enemynear,statetype = A)
 air.fall = 1
 fall.recover =0
@@ -3395,6 +3395,7 @@ sprpriority = 2
 ;   otherwise strange behavior can result.
 [State 800]
 type = HitDef
+getpower = 60,30
 trigger1 = hitcount < 1
 attr = S, NT          ;Attributes: Standing, Normal Throw
 hitflag = M-          ;Affect only ground people who are not being hit
@@ -3432,7 +3433,7 @@ type    = S
 movetype= A
 physics = N
 anim = 810
-poweradd = 60
+poweradd = 0
 juggle  = 0
 velset = 0,0
 ctrl = 0
@@ -3538,7 +3539,7 @@ value = 1
 [State 810]
 type = PowerAdd
 trigger1 = AnimElem = 4
-value = 50
+value = 0
 
 
 [State 810]
@@ -3633,7 +3634,7 @@ value = -5*var(30)
 [State 811]
 type = PowerAdd
 trigger1 = AnimElem = 3
-value = 50
+value = 0
 
 [State 811]
 type = TargetState
@@ -4101,7 +4102,7 @@ type    = S
 movetype= A
 physics = N
 anim = 840
-poweradd = 60
+poweradd = 0
 juggle  = 0
 velset = 0,0
 ctrl = 0
@@ -4183,7 +4184,7 @@ value = -10*var(30)
 [State 840]
 type = PowerAdd
 trigger1 = AnimElem = 8
-value = 50
+value = 0
 
 
 [State 840]
@@ -4585,6 +4586,7 @@ sprpriority = 2
 
 [State 920]
 type = HitDef
+getpower = 60,30
 trigger1 = hitcount < 1
 attr = A, NT          ;Attributes: Standing, Normal Throw
 hitflag = A-          ;Affect only ground people who are not being hit
@@ -4649,7 +4651,7 @@ type    = A
 movetype= A
 physics = N
 anim = 930
-poweradd = 60
+poweradd = 0
 juggle  = 0
 velset = 0,0
 ctrl = 0
@@ -4895,7 +4897,7 @@ value = -10*var(30)
 [State 932]
 type = PowerAdd
 trigger1 = Time = 0
-value = 50
+value = 0
 
 [State 932]
 type = TargetState
@@ -4973,7 +4975,7 @@ value = -10*var(30)
 [State 933]
 type = PowerAdd
 trigger1 = AnimElem = 2, = 3
-value = 50
+value = 0
 
 [State 933]
 type = TargetState
@@ -5392,7 +5394,7 @@ type    = A
 movetype= A
 physics = N
 anim = 840
-poweradd = 60
+poweradd = 0
 juggle  = 0
 velset = 0,0
 ctrl = 0
@@ -5457,7 +5459,7 @@ value = -10*var(30)
 [State 960]
 type = PowerAdd
 trigger1 = AnimElem = 16
-value = 50
+value = 0
 
 
 [State 960]
@@ -5595,7 +5597,7 @@ value = -10*var(30)
 [State 960]
 type = PowerAdd
 trigger1 = AnimElem = 5
-value = 50
+value = 0
 
 
 [State 960]
@@ -5661,7 +5663,7 @@ type    = S
 movetype= A
 physics = S
 juggle  = 3
-poweradd= 60
+poweradd= 0
 ctrl = 0
 velset = 0,0
 anim = 1240
@@ -5698,6 +5700,7 @@ trigger1 = AnimElem = 6
 attr = S, SA
 animtype  = Hard
 damage    = 85, 4
+getpower = 60,30
 priority  = 4
 guardflag = MA
 pausetime = 15,15
@@ -5726,7 +5729,7 @@ type    = S
 movetype= A
 physics = S
 juggle  = 3
-poweradd= 60
+poweradd= 0
 ctrl = 0
 velset = 0,0
 anim = 1242
@@ -5750,6 +5753,7 @@ trigger1 = AnimElem = 4
 attr = S, SA
 animtype  = Hard
 damage    = 85, 4
+getpower = 60,30
 priority  = 4
 guardflag = MA
 pausetime = 15,15
@@ -5779,7 +5783,7 @@ type    = S
 movetype= A
 physics = S
 juggle  = 3
-poweradd= 60
+poweradd= 0
 ctrl = 0
 velset = 0,0
 anim = 1243
@@ -5809,6 +5813,7 @@ trigger1 = AnimElem = 5
 attr = S, SA
 animtype  = Hard
 damage    = 85, 4
+getpower = 60,30
 priority  = 4
 guardflag = MA
 pausetime = 15,15
@@ -5852,7 +5857,7 @@ type    = U
 movetype= A
 physics = N
 juggle  = 3
-poweradd= 60
+poweradd= 20
 ctrl = 0
 velset = 0,0
 anim = 1241
@@ -5917,7 +5922,7 @@ type    = U
 movetype= A
 physics = N
 juggle  = 3
-poweradd= 60
+poweradd= 20
 ctrl = 0
 velset = 0,0
 anim = 1241
@@ -5980,7 +5985,7 @@ type    = U
 movetype= A
 physics = N
 juggle  = 3
-poweradd= 60
+poweradd= 20
 ctrl = 0
 velset = 0,0
 anim = 1241
@@ -7734,7 +7739,7 @@ type    = U
 movetype= A
 physics = N
 juggle  = 3
-poweradd= 50
+poweradd= 0
 ctrl = 0
 velset = 0,0
 anim = 1450
@@ -7812,7 +7817,7 @@ airguard.cornerpush.veloff = 0
 ;fall.recover = 0
 ;fall.animtype = Up
 ;p2stateno = 9020
-getpower = 10,5
+getpower = 60,30
 ;palfx.time = 1
 ;palfx.add = 256,256,256
 
@@ -7853,7 +7858,7 @@ type    = U
 movetype= A
 physics = N
 juggle  = 3
-poweradd= 50
+poweradd= 0
 ctrl = 0
 velset = 0,0
 anim = 1450
@@ -7929,7 +7934,7 @@ airguard.cornerpush.veloff = 0
 ;fall.recover = 0
 ;fall.animtype = Up
 ;p2stateno = 9020
-getpower = 10,5
+getpower = 60,30
 ;palfx.time = 1
 ;palfx.add = 256,256,256
 
@@ -7970,7 +7975,7 @@ type    = U
 movetype= A
 physics = N
 juggle  = 3
-poweradd= 50
+poweradd= 0
 ctrl = 0
 velset = 0,0
 anim = 1450
@@ -8048,7 +8053,7 @@ airguard.cornerpush.veloff = 0
 ;fall.recover = 0
 ;fall.animtype = Up
 ;p2stateno = 9020
-getpower = 10,5
+getpower = 60,30
 ;palfx.time = 1
 ;palfx.add = 256,256,256
 
@@ -8089,7 +8094,7 @@ type    = A
 movetype= A
 physics = N
 juggle  = 3
-poweradd= 50
+poweradd= 0
 ctrl = 0
 velset = 0,0
 anim = 1480
@@ -8114,6 +8119,7 @@ value = 810,0
 
 [State 1480]
 type = HitDef
+getpower = 60,30
 trigger1 = hitcount < 1
 trigger1 = moveguarded < 1
 attr = A, ST          ;Attributes: Standing, Normal Throw
@@ -8180,7 +8186,7 @@ type    = A
 movetype= A
 physics = N
 juggle  = 3
-poweradd= 50
+poweradd= 0
 ctrl = 0
 velset = 0,0
 anim = 1480
@@ -8205,6 +8211,7 @@ value = 810,0
 
 [State 1490]
 type = HitDef
+getpower = 60,30
 trigger1 = hitcount < 1
 trigger1 = moveguarded < 1
 attr = A, ST          ;Attributes: Standing, Normal Throw
@@ -8271,7 +8278,7 @@ type    = A
 movetype= A
 physics = N
 juggle  = 3
-poweradd= 50
+poweradd= 0
 ctrl = 0
 velset = 0,0
 anim = 1480
@@ -8296,6 +8303,7 @@ value = 810,0
 
 [State 1500]
 type = HitDef
+getpower = 60,30
 trigger1 = hitcount < 1
 trigger1 = moveguarded < 1
 attr = A, ST          ;Attributes: Standing, Normal Throw
@@ -8361,7 +8369,7 @@ type    = S
 movetype= A
 physics = N
 juggle  = 3
-poweradd= 50
+poweradd= 0
 ctrl = 0
 velset = 0,0
 anim = 800
@@ -8381,6 +8389,7 @@ ownpal = 1
 
 [State 1540]
 type = HitDef
+getpower = 60,30
 trigger1 = hitcount < 1
 trigger1 = moveguarded < 1
 attr = S, ST          ;Attributes: Standing, Normal Throw
@@ -8419,7 +8428,7 @@ type    = U
 movetype= A
 physics = N
 juggle  = 3
-poweradd= 50
+poweradd= 0
 ctrl = 0
 velset = 0,0
 anim = 1570
@@ -8476,7 +8485,7 @@ airguard.cornerpush.veloff = 0
 ;fall.recover = 0
 ;fall.animtype = Up
 ;p2stateno = 9020
-getpower = 10,5
+getpower = 60,30
 ;palfx.time = 1
 ;palfx.add = 256,256,256
 
@@ -8531,7 +8540,7 @@ type    = U
 movetype= A
 physics = N
 juggle  = 3
-poweradd= 50
+poweradd= 0
 ctrl = 0
 velset = 0,0
 anim = 1570
@@ -8588,7 +8597,7 @@ airguard.cornerpush.veloff = 0
 ;fall.recover = 0
 ;fall.animtype = Up
 ;p2stateno = 9020
-getpower = 10,5
+getpower = 60,30
 ;palfx.time = 1
 ;palfx.add = 256,256,256
 
@@ -8643,7 +8652,7 @@ type    = U
 movetype= A
 physics = N
 juggle  = 3
-poweradd= 50
+poweradd= 0
 ctrl = 0
 velset = 0,0
 anim = 1570
@@ -8700,7 +8709,7 @@ airguard.cornerpush.veloff = 0
 ;fall.recover = 0
 ;fall.animtype = Up
 ;p2stateno = 9020
-getpower = 10,5
+getpower = 60,30
 ;palfx.time = 1
 ;palfx.add = 256,256,256
 
@@ -12282,6 +12291,24 @@ ctrl = 0
 ;---------------------------------------------------------------------------
 ;Roll Recovery Forward
 
+;---------------------------------------------------------------------------
+; Recuperacion tras esquivar/rodar: sin control y golpeable unos frames,
+; para que no se pueda encadenar sin riesgo.
+;---------------------------------------------------------------------------
+[Statedef 1002]
+type = C
+movetype = I
+physics = C
+ctrl = 0
+anim = 11
+velset = 0,0
+
+[State 1002, Fin de la recuperacion]
+type = ChangeState
+trigger1 = Time >= 8
+value = 11
+ctrl = 1
+
 [Statedef 7800]
 type    = S
 movetype= I
@@ -12316,8 +12343,8 @@ time = 1
 type = ChangeState
 trigger1 = AnimTime = 0
 ;trigger2 = FrontEdgeBodyDist <= 10
-value = 11
-ctrl = 1
+value = 1002
+ctrl = 0
 
 ;---------------------------------------------------------------------------
 ;Roll Recovery Backward
@@ -12357,8 +12384,8 @@ time = 1
 type = ChangeState
 trigger1 = AnimTime = 0
 ;trigger2 = FrontEdgeBodyDist <= 10
-value = 11
-ctrl = 1
+value = 1002
+ctrl = 0
 
 
 ;---------------------------------------------------------------------------
@@ -12556,7 +12583,7 @@ juggle  = 1
 velset = 5,0                    
 ctrl = 0                         
 anim = 200                      
-poweradd = 20                    
+poweradd = 0                    
 sprpriority = 2                  
 
 
@@ -12649,7 +12676,7 @@ type    = A
 movetype= A
 physics = N
 juggle  = 4
-poweradd= 40
+poweradd= 0
 ctrl = 0
 velset = 0,0
 anim = 8016
@@ -12750,7 +12777,7 @@ type    = A
 movetype= A
 physics = N
 juggle  = 4
-poweradd= 40
+poweradd= 0
 ctrl = 0
 velset = 0,0
 anim = 8017
@@ -12846,7 +12873,7 @@ type    = A
 movetype= A
 physics = N
 juggle  = 4
-poweradd= 40
+poweradd= 0
 ctrl = 0
 velset = 0,0
 anim = 8018
@@ -14821,7 +14848,7 @@ type    = A
 movetype= A
 physics = N
 anim = 1481
-poweradd = 60
+poweradd = 0
 juggle  = 0
 velset = 0,0
 ctrl = 0
@@ -15124,7 +15151,7 @@ value = -var(30)
 [State 21482]
 type = PowerAdd
 trigger1 = Time = 0
-value = 50
+value = 0
 
 [State 21482]
 type = TargetState
@@ -15323,7 +15350,7 @@ type    = S
 movetype= A
 physics = N
 anim = 21512
-poweradd = 60
+poweradd = 0
 juggle  = 0
 velset = 0,0
 ctrl = 0
@@ -15496,7 +15523,7 @@ type    = S
 movetype= A
 physics = N
 anim = 1540
-poweradd = 60
+poweradd = 0
 juggle  = 0
 velset = 0,0
 ctrl = 0
@@ -16436,7 +16463,7 @@ type    = S
 movetype= A
 physics = N
 anim = 23003
-poweradd = 60
+poweradd = 0
 juggle  = 0
 velset = 0,0
 ctrl = 0
@@ -17452,7 +17479,7 @@ type    = S
 movetype= A
 physics = N
 anim = 23044
-poweradd = 60
+poweradd = 0
 juggle  = 0
 velset = 0,0
 ctrl = 0

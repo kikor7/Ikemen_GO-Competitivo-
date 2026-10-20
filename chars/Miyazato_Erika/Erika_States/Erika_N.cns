@@ -525,7 +525,7 @@ animtype = Light
 ground.type = Low
 priority = 1,Hit
 damage = ifelse(floor(15*fvar(0))>1,floor(15*fvar(0)),1),0
-getpower = 20,10
+getpower = 30,15
 givepower = 10,0
 pausetime = 6+(enemynear(var(2)),movetype=A),6+(enemynear(var(2)),movetype=A)
 guard.pausetime = 6,6
@@ -670,7 +670,7 @@ animtype = Medium
 ground.type = Low
 priority = 2,Hit
 damage = ifelse(floor(50*fvar(0))>1,floor(50*fvar(0)),1),0
-getpower = 28,20
+getpower = 30,15
 givepower = 47,10
 pausetime = 6+(enemynear(var(2)),movetype=A),6+(enemynear(var(2)),movetype=A)
 guard.pausetime = 6,6
@@ -817,7 +817,7 @@ animtype = Hard
 ground.type = High
 priority = 3,Hit
 damage = ifelse(AnimElemTime(6)<0,ifelse(floor(75*fvar(0))>1,floor(75*fvar(0)),1),ifelse(floor(3*fvar(0))>1,floor(3*fvar(0)),1)),0
-getpower = 28*(AnimElemTime(6)<0),20*(AnimElemTime(6)<0)
+getpower = 30,15
 givepower = 72*(AnimElemTime(6)<0),10*(AnimElemTime(6)<0)
 pausetime = 10+(enemynear(var(2)),movetype=A),10+(enemynear(var(2)),movetype=A)
 guard.pausetime = 10,10
@@ -949,7 +949,7 @@ animtype = Light
 ground.type = Low
 priority = 1,Hit
 damage = ifelse(floor(10*fvar(0))>1,floor(10*fvar(0)),1),0
-getpower = 20,10
+getpower = 30,15
 givepower = 10,0
 pausetime = 6+(enemynear(var(2)),movetype=A),6+(enemynear(var(2)),movetype=A)
 guard.pausetime = 6,6
@@ -1078,7 +1078,7 @@ animtype = Medium
 ground.type = Low
 priority = 2,Hit
 damage = ifelse(floor(40*fvar(0))>1,floor(40*fvar(0)),1),0
-getpower = 28,20
+getpower = 30,15
 givepower = 47,10
 pausetime = 6+(enemynear(var(2)),movetype=A),6+(enemynear(var(2)),movetype=A)
 guard.pausetime = 6,6
@@ -1209,7 +1209,7 @@ animtype = Hard
 ground.type = Low
 priority = 3,Hit
 damage = ifelse(floor(65*fvar(0))>1,floor(65*fvar(0)),1),0
-getpower = 28,20
+getpower = 30,15
 givepower = 72,10
 pausetime = 10+(enemynear(var(2)),movetype=A),10+(enemynear(var(2)),movetype=A)
 guard.pausetime = 10,10
@@ -1343,7 +1343,7 @@ animtype = Light
 ground.type = High
 priority = 1,Hit
 damage = ifelse(floor(10*fvar(0))>1,floor(10*fvar(0)),1),0
-getpower = 20,10
+getpower = 30,15
 givepower = 10,0
 pausetime = 6+(enemynear(var(2)),movetype=A),6+(enemynear(var(2)),movetype=A)
 guard.pausetime = 6,6
@@ -1465,7 +1465,7 @@ animtype = Medium
 ground.type = High
 priority = 2,Hit
 damage = ifelse(floor(60*fvar(0))>1,floor(60*fvar(0)),1),0
-getpower = 28,20
+getpower = 30,15
 givepower = 47,10
 pausetime = 6+(enemynear(var(2)),movetype=A),6+(enemynear(var(2)),movetype=A)
 guard.pausetime = 6,6
@@ -1593,7 +1593,7 @@ animtype = Medium
 ground.type = High
 priority = 2,Hit
 damage = ifelse(floor(70*fvar(0))>1,floor(70*fvar(0)),1),0
-getpower = 28,20
+getpower = 30,15
 givepower = 72,10
 pausetime = 10+(enemynear(var(2)),movetype=A),10+(enemynear(var(2)),movetype=A)
 guard.pausetime = 10,10
@@ -1735,7 +1735,7 @@ ground.type = Low
 forcestand = 1
 priority = 3,Hit
 damage = ifelse(floor(60*fvar(0))>1,floor(60*fvar(0)),1),0
-getpower = 30,20
+getpower = 30,15
 givepower = 60,10
 pausetime = 10+(enemynear(var(2)),movetype=A),10+(enemynear(var(2)),movetype=A)
 guard.pausetime = 10,10
@@ -1872,7 +1872,7 @@ animtype = Medium
 ground.type = High
 priority = 2,Hit
 damage = ifelse(floor(60*fvar(0))>1,floor(60*fvar(0)),1),0
-getpower = 30,20
+getpower = 10,5
 givepower = 60,10
 pausetime = 7+(enemynear(var(2)),movetype=A),6+(enemynear(var(2)),movetype=A)
 guard.pausetime = 7,6
@@ -2127,6 +2127,7 @@ value = 810
 
 [State 800]
 type = HitDef
+getpower = 60,30
 triggerall = var(28) = 0
 trigger1 = AnimElemTime(1) = 5
 trigger1 = p2bodydist X <= 15

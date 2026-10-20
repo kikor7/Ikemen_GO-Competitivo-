@@ -1,0 +1,31 @@
+<#f0f000>:Special Moves:</>
+Fat Fake Teleport Back			_DSB^A
+Fat Fake Teleport Foward			_DSF^A
+Fat Replica Attack			_QCB^A
+Fat Breath			_QCB^X
+Fat Chainsaw			_DSF^X
+Fat Burst			_QCF^X
+Throw 1			^X_+^Y
+Throw 2			^A_+^B
+SIdestep/Dodge			^A_+^X
+
+<#f0f000>:Hyper Moves:</>
+Fat Catastrophe <#f00000>(3000)</>			_QCF_QCF^A_+^X
+Fat Carnival <#f00000>(3000)</>			_QCB_QCF^A_+^X
+Max Fat Guilty <#f00000>(2000)</>			_QCF_QCF^A_+^C
+Fat Guilty <#f00000>(1000)</>			_QCF_QCF^A
+Max Super Fat Breath <#f00000>(2000)</>			_QCB_QCB^X_+^Y
+Super Fat Breath <#f00000>(1000)</>			_QCB_QCB^X
+Max Super Fat Chainsaw Bound <#f00000>(2000)</>			_QCB_QCF^A_+^C
+Super Fat Chainsaw Bound <#f00000>(1000)</>			_QCB_QCF^A
+Max Fat Chain Beatdown <#f00000>(2000)</>			_QCB_QCF^X_+^Y
+Fat Chain Beatdown <#f00000>(1000)</>			_QCB_QCF^X
+Max Earth Gaddemu 2003 <#f00000>(2000)</>			_QCF_QCF^X_+^Y
+Earth Gaddemu 2003 <#f00000>(1000)</>			_QCF_QCF^X
+EX Air Fat Chainsaw <#f00000>(500)</>			_QCF^X_+^Y
+EX Fat Replica Attack <#f00000>(500)</>			_QCB^A_+^B
+EX Fat Bound <#f00000>(500)</>			_D^A_+^B
+EX Fat Breath <#f00000>(500)</>			_QCB^X_+^Y
+EX Fat Chainsaw <#f00000>(500)</>			_DSF^X_+^Y
+Zero Counter <#f00000>(1000)</>			_B_DB_D^X
+Custom Combo <#f00000>(1000)</>			^C_+^Z

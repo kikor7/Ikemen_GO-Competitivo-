@@ -3125,7 +3125,7 @@ anim = 934+random%6
 sprpriority = 1
 ctrl = 0
 velset = 0,0
-poweradd = 200
+poweradd = 0
 
 [State 0, VelSet]
 type = VelSet

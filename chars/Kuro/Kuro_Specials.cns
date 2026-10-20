@@ -10,7 +10,7 @@ physics = N
 juggle  = 1
 ctrl = 0
 Anim = 1000
-poweradd= 125
+poweradd= 0
 
 [State 2000, 0]
 type = PlaySnd
@@ -64,7 +64,7 @@ type = HitDef
 trigger1 = AnimElem = 5
 attr = A, SA
 animtype = Hard
-getpower = 0,0
+getpower = 15,7
 damage    = 40,10
 guardflag = HA
 hitflag = MAF
@@ -234,7 +234,7 @@ type = HitDef
 trigger1 = animelem = 2
 attr = A, SA
 animtype = Hard
-getpower = 0,0
+getpower = 15,7
 damage    = 5,1
 guardflag = HA
 hitflag = MAF
@@ -261,7 +261,7 @@ type = HitDef
 trigger1 =  animelem = 4
 attr = A, SA
 animtype = Hard
-getpower = 0,0
+getpower = 15,7
 damage    = 5,1
 guardflag = HA
 hitflag = MAF
@@ -288,7 +288,7 @@ type = HitDef
 trigger1 =  animelem = 6
 attr = A, SA
 animtype = Hard
-getpower = 0,0
+getpower = 15,7
 damage    = 5,1
 guardflag = HA
 hitflag = MAF
@@ -479,7 +479,7 @@ anim = 1100
 velset = 0,0
 ctrl = 0
 juggle = 2
-poweradd = 100
+poweradd = 0
 
 [State 0, VelSet]
 type = VelSet
@@ -532,7 +532,7 @@ trigger1 =  animelem = 3
 trigger2 =  animelem = 4
 trigger3 =  animelem = 5
 attr = A, SA
-getpower = 0,0
+getpower = 60,30
 damage    = 20,5
 guardflag = HA
 priority = 4
@@ -738,7 +738,7 @@ physics = S
 anim = 1200
 ctrl = 0
 juggle = 1
-poweradd = 100
+poweradd = 0
 
 [State 0, Velset]
 type = Velset
@@ -789,7 +789,7 @@ Y = -5
 type = HitDef
 trigger1 =  animelem = 2
 attr = A, SA
-getpower = 0,0
+getpower = 15,7
 damage    = 10, 2
 guardflag = MA
 priority = 4
@@ -831,7 +831,7 @@ ignorehitpause  = 0
 type = HitDef
 trigger1 =  animelem = 4
 attr = A, SA
-getpower = 0,0
+getpower = 15,7
 damage    = 10, 2
 guardflag = HA
 priority = 4
@@ -875,7 +875,7 @@ ignorehitpause  = 0
 type = HitDef
 trigger1 =  animelem = 6
 attr = A, SA
-getpower = 0,0
+getpower = 15,7
 damage    = 10, 2
 guardflag = HA
 priority = 4
@@ -917,7 +917,7 @@ ignorehitpause  = 0
 type = HitDef
 trigger1 =  animelem = 8
 attr = A, SA
-getpower = 0,0
+getpower = 15,7
 damage    = 10, 2
 guardflag = HA
 priority = 4
@@ -1226,7 +1226,7 @@ physics = N
 anim = 1300
 velset = 0,0
 ctrl = 0
-poweradd = 150
+poweradd = 0
 
 [State 0, ScreenBound]
 type = ScreenBound
@@ -1442,7 +1442,7 @@ y = 0.3
 type = HitDef
 trigger1 =  animelem = 3
 attr = A, SA
-getpower = 0,0
+getpower = 12,6
 damage    = 10, 2
 guardflag = HA
 priority = 4
@@ -1485,7 +1485,7 @@ ignorehitpause  = 1
 type = HitDef
 trigger1 =  animelem = 5
 attr = A, SA
-getpower = 0,0
+getpower = 12,6
 damage    = 10, 2
 guardflag = HA
 priority = 4
@@ -1529,7 +1529,7 @@ ignorehitpause  = 1
 type = HitDef
 trigger1 =  animelem = 7
 attr = A, SA
-getpower = 0,0
+getpower = 12,6
 damage    = 10, 2
 guardflag = HA
 priority = 4
@@ -1571,7 +1571,7 @@ ignorehitpause  = 1
 type = HitDef
 trigger1 =  animelem = 9
 attr = A, SA
-getpower = 0,0
+getpower = 12,6
 damage    = 10, 2
 guardflag = HA
 priority = 4
@@ -1745,7 +1745,7 @@ type = HitDef
 triggerall = !movecontact
 trigger1 = AnimElem = 5
 attr = A, SA
-getpower = 0,0
+getpower = 12,6
 damage = 60,5
 guardflag = HA
 priority = 3
@@ -1881,7 +1881,7 @@ type    = A
 movetype= A
 physics = N
 juggle  = 2
-poweradd = 25
+poweradd = 0
 ctrl = 0
 anim = 1340
 sprpriority = 2
@@ -2024,7 +2024,7 @@ triggerall = !movecontact
 trigger1 = AnimElem = 3
 trigger2 = AnimElem = 4
 attr = A, SA
-getpower = 0,0
+getpower = 60,30
 damage = 60,5
 guardflag = HA
 priority = 3
@@ -2306,7 +2306,7 @@ movetype = A
 physics = C
 velset = 0, 0
 anim = 1400
-poweradd = 100
+poweradd = 0
 ctrl = 0
 sprpriority = 1
 
@@ -2365,7 +2365,7 @@ triggerall = !movecontact
 trigger1 = animelem = 5
 attr = S, SP
 animtype  = Hard
-getpower = 0,0
+getpower = 30,15
 damage    = 50,5
 getpower  = 0
 priority = 5, Hit
@@ -2399,7 +2399,7 @@ trigger1 = animelem = 6
 trigger2 = animelem = 7
 attr = S, SP
 animtype  = Hard
-getpower = 0,0
+getpower = 30,15
 damage    = 50,5
 getpower  = 0
 priority = 5, Hit
@@ -2474,7 +2474,7 @@ physics = S
 velset = 0, 0
 anim = 1600
 juggle  = 2
-poweradd = 150
+poweradd = 20
 ctrl = 0
 sprpriority = 1
 
@@ -2757,7 +2757,7 @@ trigger7 = animelem = 12
 trigger8 = animelem = 13
 attr = S, SA
 animtype  = Hard
-getpower = 0,0
+getpower = 30,15
 damage    = 10,5
 getpower  = 0
 priority = 5, Hit
@@ -2874,7 +2874,7 @@ physics = S
 velset = 0, 0
 anim = 1700
 juggle  = 2
-poweradd = 150
+poweradd = 20
 ctrl = 0
 sprpriority = 1
 
@@ -2989,7 +2989,7 @@ trigger7 = animelem = 12
 trigger8 = animelem = 13
 attr = S, SA
 animtype  = Hard
-getpower = 0,0
+getpower = 30,15
 damage    = 20,5
 getpower  = 0
 priority = 5, Hit

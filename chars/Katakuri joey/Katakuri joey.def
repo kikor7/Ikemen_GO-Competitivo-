@@ -8,6 +8,7 @@ author = "joey jostar TW"
 pal.defaults = 1
 
 [Files]
+movelist = movelist.dat
 sprite = Katakuri.sff
 anim = Katakuri.air
 sound = Katakuri.snd

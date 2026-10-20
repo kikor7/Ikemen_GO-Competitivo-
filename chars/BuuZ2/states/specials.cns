@@ -24,7 +24,7 @@ velset = 0,0
 anim = 1000
 ctrl = 0
 sprpriority = 2
-poweradd = 35
+poweradd = 20
 
 [State 2300, superpause]
 type = superpause
@@ -314,7 +314,7 @@ velset = 0,0
 anim = 1100
 ctrl = 0
 sprpriority = 5
-poweradd = 35
+poweradd = 20
 
 [State 0, Width]
 type = Width
@@ -427,7 +427,7 @@ velset = 0,0
 anim = 1200
 ctrl = 0
 sprpriority = 2
-poweradd = 35
+poweradd = 20
 
 [State 0, NotHitBy]
 type = NotHitBy
@@ -1157,7 +1157,7 @@ airguard.velocity = -3.5,-4
 air.type = High
 air.velocity = -3.5,-6
 air.hittime = 9
-getpower = 101,101
+getpower = 10,5
 givepower = 35,35
 ground.cornerpush.veloff = -7.25
 air.cornerpush.veloff = 0
@@ -1196,7 +1196,7 @@ airguard.velocity = -3.5,-4
 air.type = High
 air.velocity = -3.5,-6
 air.hittime = 9
-getpower = 101,101
+getpower = 10,5
 givepower = 35,35
 ground.cornerpush.veloff = -7.25
 air.cornerpush.veloff = 0
@@ -1237,7 +1237,7 @@ airguard.velocity = -3.5,-4
 air.type = High
 air.velocity = -3.5,-6
 air.hittime = 9
-getpower = 101,101
+getpower = 10,5
 givepower = 35,35
 ground.cornerpush.veloff = -7.25
 air.cornerpush.veloff = 0
@@ -1281,7 +1281,7 @@ airguard.velocity = -3.5,-4
 air.type = High
 air.velocity = -3.5,-6
 air.hittime = 9
-getpower = 101,101
+getpower = 10,5
 givepower = 35,35
 ground.cornerpush.veloff = -7.25
 air.cornerpush.veloff = 0
@@ -1602,7 +1602,7 @@ juggle  = 7
 velset = 0,0
 ctrl = 0
 sprpriority = 2
-poweradd = 35
+poweradd = 0
 hitcountpersist = 1
 movehitpersist = 1
 
@@ -1853,7 +1853,7 @@ ground.hittime = 15
 ground.velocity = -2,-11 ;-6,-4
 guard.velocity = -2
 air.velocity =-2,-5 ;-4,-4
-getpower = 0,0
+getpower = 30,15
 givepower = 35,35
 fall = 1
 fall.recover = 0
@@ -1920,7 +1920,7 @@ juggle  = 7
 velset = 0,0
 anim = 1401
 ctrl = 0
-poweradd = 35
+poweradd = 0
 sprpriority = 2
 hitcountpersist = 1
 movehitpersist = 1
@@ -2415,7 +2415,7 @@ ground.hittime = 15
 ground.velocity = -2,-11 ;-6,-4
 guard.velocity = -2
 air.velocity =-2,-5 ;-4,-4
-getpower = 0,0 ;cond(p2movetype=H,40,140), 35
+getpower = 30,15;cond(p2movetype=H,40,140), 35
 givepower = 35,35
 fall = 1
 fall.recover = 0
@@ -3862,7 +3862,7 @@ ctrl = 0
 anim = 1620
 sprpriority = 1
 facep2 = 1
-poweradd = 20
+poweradd = 0
 
 [State 800, Don't Guard]
 type = attackdist
@@ -3876,6 +3876,7 @@ value = 0, 1
 
 [State 800, hit]
 type = hitdef
+getpower = 60,30
 triggerall = NumHelper(1605) ;Candy mode
 ;triggerall = Helper(1605),numtarget(1600) ;Candy mode
 trigger1 = animelem=4 ;&& !var(38)
@@ -4666,7 +4667,7 @@ type     = S
 movetype = A
 physics  = S
 juggle   = 0
-poweradd = 35
+poweradd = 0
 ctrl     = 0
 velset   = 0,0
 anim     = 1702 ;1700
@@ -4955,7 +4956,7 @@ hitflag = MAFD
 priority = 7,Hit
 ;damage = 10,1
 damage = ceil(cond(fvar(11) * 30 < 7, 7, fvar(11) * 30)), 1
-getpower = 0,0
+getpower = 30,15
 givepower = 20,20
 pausetime = 0, 8
 animtype = Back

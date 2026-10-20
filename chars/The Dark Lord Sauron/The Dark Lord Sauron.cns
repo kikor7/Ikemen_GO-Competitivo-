@@ -2903,7 +2903,7 @@ volume = 999
 [State 0, PowerAdd]
 type = PowerAdd
 trigger1 = animelem = 2 && time != 0
-value = 50
+value = 0
 ignorehitpause = 1
 
 [State 0, ChangeAnim]
@@ -2958,6 +2958,7 @@ trigger1 = !time
 attr = S, NA
 animtype = diagup
 damage = 40,1
+getpower = 30,15
 hitflag = MAF
 guardflag = MAF
 pausetime = 8, 8
@@ -3014,7 +3015,7 @@ volume = 999
 [State 0, PowerAdd]
 type = PowerAdd
 trigger1 = animelem = 2 && time != 0
-value = 50
+value = 0
 ignorehitpause = 1
 
 [State 0, ChangeAnim]
@@ -3069,6 +3070,7 @@ trigger1 = !time
 attr = S, NA
 animtype = diagup
 damage = 40,1
+getpower = 30,15
 hitflag = MAF
 guardflag = MAF
 pausetime = 8, 8
@@ -3124,7 +3126,7 @@ volume = 999
 [State 0, PowerAdd]
 type = PowerAdd
 trigger1 = animelem = 2 && time != 0
-value = 50
+value = 0
 ignorehitpause = 1
 
 [State 0, ChangeAnim]
@@ -3180,6 +3182,7 @@ trigger1 = !time
 attr = S, SA
 hitflag = HA
 damage = 40,1
+getpower = 30,15
 animtype  = Diagup
 guardflag = HA
 pausetime = 3, 3
@@ -3265,7 +3268,7 @@ ignorehitpause = 1
 [State 0, PowerAdd]
 type = PowerAdd
 trigger1 = animelem = 2 && time != 0
-value = 50
+value = 0
 ignorehitpause = 1
 
 [State 0, ChangeAnim]
@@ -3319,6 +3322,7 @@ type = HitDef
 trigger1 = !time
 attr = S, NA                     ;Attribute: Standing, Normal Attack
 damage = 40,1                  ;Damage that move inflicts, guard damage
+getpower = 30,15
 animtype = heavy                 ;Animation type: Light, Medium, Heavy, Back (def: Light)
 guardflag = MA                   ;Flags on how move is to be guarded against
 hitflag = MAF                    ;Flags of conditions that move can hit
@@ -3394,7 +3398,7 @@ value = 0,29
 [State 0, PowerAdd]
 type = PowerAdd
 trigger1 = animelem = 1
-value = 20
+value = 0
 ignorehitpause = 1
 
 [State 170, 1]
@@ -3566,7 +3570,7 @@ value = 0,29
 [State 0, PowerAdd]
 type = PowerAdd
 trigger1 = animelem = 1
-value = 20
+value = 0
 ignorehitpause = 1
 
 [State 170, 1]

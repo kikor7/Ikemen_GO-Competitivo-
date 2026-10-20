@@ -1,0 +1,20 @@
+<#f0f000>:Special Moves:</>
+Kouryuu-Geki			_QCF^X
+Throw			^X_+^Y
+SIdestep/Dodge			^A_+^X
+
+<#f0f000>:Hyper Moves:</>
+Tenshou Bakushingeki <#f00000>(3000)</>			_QCF_QCB^X_+^Y
+Bakushin <#f00000>(2000)</>			^Y^X^A^Y
+Max Kohyou Rengeki <#f00000>(2000)</>			_QCF_QCF^A_+^B
+Kohyou Rengeki <#f00000>(1000)</>			_QCF_QCF^A
+Max Tatsu: Gekiken <#f00000>(2000)</>			_QCF_QCF^X_+^Y
+Tatsu: Gekiken <#f00000>(1000)</>			_QCF_QCF^Y
+TenrenKen <#f00000>(500)</>			_DSF^A_+^B
+Saikou Hougeki <#f00000>(500)</>			_F_D_B^A_+^B
+Fukuko-Geki <#f00000>(500)</>			_QCB^X_+^Y
+Zenbuu Tenshin <#f00000>(500)</>			_QCF^A_+^B
+Kouhau Tenshin <#f00000>(500)</>			_QCB^A_+^B
+Geki-Ken <#f00000>(500)</>			_QCF^X_+^Y
+Zero Counter <#f00000>(1000)</>			_B_DB_D^X
+Custom Combo <#f00000>(1000)</>			^C_+^Z

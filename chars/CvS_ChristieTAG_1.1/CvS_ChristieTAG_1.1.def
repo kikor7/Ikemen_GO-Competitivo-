@@ -8,6 +8,7 @@ pal.defaults = 1
 ;Mugen 1.1 Version = jlas
 
 [Files]
+movelist = movelist.dat
 cmd     = Christie.cmd
 cns     = Christie.cns
 st      = Christie.cns

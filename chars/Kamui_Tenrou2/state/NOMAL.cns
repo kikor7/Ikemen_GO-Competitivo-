@@ -11,7 +11,7 @@ physics = S
 juggle  = 0
 ctrl = 0
 ;anim = 200
-poweradd = 10
+poweradd = 0
 sprpriority = 2
 facep2 = 1
 
@@ -156,7 +156,7 @@ type    = S
 movetype= A
 physics = S
 juggle  = 0
-poweradd= 15
+poweradd= 0
 ctrl = 0
 anim = 201
 sprpriority = 2
@@ -203,6 +203,7 @@ trigger1 = AnimElem = 2
 attr = S, NA
 animtype  = Light
 damage    = 15, 0
+getpower = 30,15
 guardflag = L
 hitflag = MAF
 priority = 2, Hit
@@ -241,6 +242,7 @@ trigger1 = AnimElem = 2
 attr = S, NA
 animtype  = Light
 damage    = 23, 0
+getpower = 30,15
 guardflag = L
 hitflag = MAF
 priority = 2, Hit
@@ -307,7 +309,7 @@ physics = S
 juggle  = 0
 ctrl = 0
 ;anim = 200
-poweradd = 15
+poweradd = 0
 sprpriority = 2
 facep2 = 1
 
@@ -452,7 +454,7 @@ type    = S
 movetype= A
 physics = S
 juggle  = 0
-poweradd= 20
+poweradd= 0
 ctrl = 0
 ;anim = 210
 sprpriority = 2
@@ -523,7 +525,7 @@ fall.recover = 1
 fall.recoverTime = 36
 down.bounce = 1
 yaccel = 0.5
-getpower = 30
+getpower = 10,5
 givepower = 30
 persistent = 0
 ground.cornerpush.veloff = 0
@@ -540,6 +542,7 @@ trigger1 = AnimElem = 3
 attr = S, NA
 animtype  = Medium
 damage    = 38, 0
+getpower = 10,5
 guardflag = MA
 hitflag = MAF
 priority = 2, Hit
@@ -581,6 +584,7 @@ trigger1 = animelem = 4
 attr = S, NA
 animtype  = Medium
 damage    = 15, 0
+getpower = 10,5
 guardflag = MA
 hitflag = MAF
 priority = 2, Hit
@@ -619,6 +623,7 @@ trigger1 = animelem = 4
 attr = S, NA
 animtype  = Medium
 damage    = 23, 0
+getpower = 10,5
 guardflag = MA
 hitflag = MAF
 priority = 2, Hit
@@ -686,7 +691,7 @@ fall.recover = 0
 fall.recoverTime = 0
 down.bounce = 1
 yaccel = 0.5
-getpower = 50
+getpower = 10,5
 givepower = 50
 persistent = 0
 envshake.time = 15
@@ -777,7 +782,7 @@ type    = S
 movetype= A
 physics = S
 juggle  = 0
-poweradd= 40
+poweradd= 0
 ctrl = 0
 anim = 220
 sprpriority = 2
@@ -854,6 +859,7 @@ trigger1 = animelem = 6
 attr = S, NA
 animtype  = Hard
 damage    = 50, 0
+getpower = 30,15
 guardflag = MA
 priority = 3, Hit
 hitflag = MAF
@@ -891,6 +897,7 @@ trigger1 = animelem = 6
 attr = S, NA
 animtype  = Hard
 damage    = 50, 0
+getpower = 30,15
 guardflag = MA
 priority = 3, Hit
 hitflag = MAF
@@ -930,6 +937,7 @@ trigger1 = animelem = 6
 attr = S, NA
 animtype  = Hard
 damage    = 75, 0
+getpower = 30,15
 guardflag = MA
 priority = 3, Hit
 hitflag = MAF
@@ -995,7 +1003,7 @@ type    = C
 movetype= A
 physics = C
 juggle  = 0
-poweradd= 10
+poweradd= 0
 ctrl = 0
 anim = 400
 sprpriority = 2
@@ -1025,6 +1033,7 @@ type = HitDef
 trigger1 = AnimElem = 3
 attr = C, NA
 damage    = 8, 0
+getpower = 30,15
 priority = 1, Hit
 animtype  = Light
 hitflag = MAF
@@ -1062,6 +1071,7 @@ trigger1 = P2movetype = A
 trigger1 = AnimElem = 3
 attr = C, NA
 damage    = 12, 0
+getpower = 30,15
 priority = 1, Hit
 animtype  = Light
 hitflag = MAF
@@ -1126,7 +1136,7 @@ type    = C
 movetype= A
 physics = C
 juggle  = 0
-poweradd= 20
+poweradd= 0
 ctrl = 0
 anim = 401
 sprpriority = 2
@@ -1156,6 +1166,7 @@ type = HitDef
 trigger1 = AnimElem = 3
 attr = C, NA
 damage    = 12, 0
+getpower = 30,15
 animtype  = Light
 hitflag = MAF
 guardflag = L
@@ -1193,6 +1204,7 @@ trigger1 = P2movetype = A
 trigger1 = AnimElem = 3
 attr = C, NA
 damage    = 18, 0
+getpower = 30,15
 animtype  = Light
 hitflag = MAF
 guardflag = L
@@ -1257,7 +1269,7 @@ type    = C
 movetype= A
 physics = C
 juggle  = 0
-poweradd= 25
+poweradd= 0
 ctrl = 0
 anim = 411
 sprpriority = 2
@@ -1307,6 +1319,7 @@ type = HitDef
 trigger1 = time = 0
 attr = C, NA
 damage    = 30, 0
+getpower = 15,7
 animtype  = Medium
 hitflag = MAF
 guardflag = L
@@ -1345,6 +1358,7 @@ trigger1 = P2movetype = A
 trigger1 = animelem = 4
 attr = C, NA
 damage    = 45, 0
+getpower = 15,7
 animtype  = Medium
 hitflag = MAF
 guardflag = L
@@ -1410,7 +1424,7 @@ type    = C
 movetype= A
 physics = C
 juggle  = 0
-poweradd= 45
+poweradd= 0
 ctrl = 0
 anim = 421
 sprpriority = 2
@@ -1440,6 +1454,7 @@ type = HitDef
 trigger1 = time = 0
 attr = C, NA
 damage    = 80, 0
+getpower = 15,7
 animtype = up
 hitflag = MAF
 guardflag = L
@@ -1478,6 +1493,7 @@ trigger1 = P2movetype = A
 trigger1 = AnimElem = 3
 attr = C, NA
 damage    = 120, 0
+getpower = 15,7
 animtype = up
 hitflag = MAF
 guardflag = L
@@ -1543,7 +1559,7 @@ type    = A
 movetype= A
 physics = A
 juggle  = 0
-poweradd= 10
+poweradd= 0
 ctrl = 0
 anim = 600
 sprpriority = 2
@@ -1572,6 +1588,7 @@ type = HitDef
 trigger1 = AnimElem = 3
 attr = A, NA
 damage    = 10, 0
+getpower = 30,15
 HitFlag = MAF
 guardflag = HA
 priority = 1, Hit
@@ -1606,6 +1623,7 @@ trigger1 = P2movetype = A
 trigger1 = AnimElem = 3
 attr = A, NA
 damage    = 15, 0
+getpower = 30,15
 HitFlag = MAF
 guardflag = HA
 priority = 1, Hit
@@ -1666,7 +1684,7 @@ type    = A
 movetype= A
 physics = A
 juggle  = 0
-poweradd= 15
+poweradd= 0
 ctrl = 0
 anim = 601
 sprpriority = 2
@@ -1695,6 +1713,7 @@ type = HitDef
 trigger1 = AnimElem = 2
 attr = A, NA
 damage = 15, 0
+getpower = 30,15
 guardflag = HA
 HitFlag = MAF
 priority = 1, Hit
@@ -1729,6 +1748,7 @@ trigger1 = P2movetype = A
 trigger1 = AnimElem = 2
 attr = A, NA
 damage = 23, 0
+getpower = 30,15
 guardflag = HA
 HitFlag = MAF
 priority = 1, Hit
@@ -1789,7 +1809,7 @@ type    = A
 movetype= A
 physics = A
 juggle  = 0
-poweradd= 30
+poweradd= 0
 ctrl = 0
 anim = 610
 sprpriority = 2
@@ -1818,6 +1838,7 @@ type = HitDef
 trigger1 = AnimElem >= 4
 attr = A, NA
 damage = 30, 0
+getpower = 30,15
 guardflag = HA
 HitFlag = MAF
 priority = 2, hit
@@ -1853,6 +1874,7 @@ trigger1 = P2movetype = A
 trigger1 = AnimElem >= 4
 attr = A, NA
 damage = 45, 0
+getpower = 30,15
 guardflag = HA
 HitFlag = MAF
 priority = 2, hit
@@ -1914,7 +1936,7 @@ type    = A
 movetype= A
 physics = A
 juggle  = 0
-poweradd= 40
+poweradd= 0
 ctrl = 0
 anim = 620
 sprpriority = 2
@@ -1943,6 +1965,7 @@ type = HitDef
 trigger1 = AnimElem = 5
 attr = A, NA
 damage    = 40, 0
+getpower = 30,15
 guardflag = HA
 HitFlag = MAF
 priority = 2, hit
@@ -1978,6 +2001,7 @@ trigger1 = P2StateType != S && P2StateType != C;p2statetype = A
 trigger1 = AnimElem = 5
 attr = A, NA
 damage    = 40, 0
+getpower = 30,15
 guardflag = HA
 HitFlag = MAF
 priority = 2, hit
@@ -2015,6 +2039,7 @@ trigger1 = P2movetype = A
 trigger1 = AnimElem = 5
 attr = A, NA
 damage    = 60, 0
+getpower = 30,15
 guardflag = HA
 HitFlag = MAF
 priority = 2, hit
@@ -2083,7 +2108,7 @@ type    = S
 movetype= A
 physics = S
 juggle  = 0
-poweradd= 25
+poweradd= 0
 ctrl = 0
 anim = 700
 sprpriority = 2
@@ -2165,6 +2190,7 @@ trigger1 = animelem >= 4
 attr = S, NA
 animtype  = Hard
 damage    = 50, 0
+getpower = 15,7
 priority = 2, Hit
 guardflag = H
 hitflag = MAF
@@ -2203,6 +2229,7 @@ trigger1 = P2movetype = A
 attr = S, NA
 animtype  = Hard
 damage    = 75, 0
+getpower = 15,7
 priority = 2, Hit
 guardflag = H
 hitflag = MAF
@@ -2244,6 +2271,7 @@ trigger1 = animelem >= 4
 attr = S, NA
 animtype  = Hard
 damage    = 30, 0
+getpower = 15,7
 priority = 2, Hit
 guardflag = MA
 hitflag = MAF
@@ -2282,6 +2310,7 @@ trigger1 = P2movetype = A
 attr = S, NA
 animtype  = Hard
 damage    = 45, 0
+getpower = 15,7
 priority = 2, Hit
 guardflag = MA
 hitflag = MAF
@@ -2353,7 +2382,7 @@ type    = S
 movetype= A
 physics = S
 juggle  = 0
-poweradd= 20
+poweradd= 0
 ctrl = 0
 anim = 702
 sprpriority = 2
@@ -2416,6 +2445,7 @@ trigger1 = AnimElem = 5
 attr = S, NA
 animtype  = Hard
 damage    = 40, 0
+getpower = 30,15
 guardflag = MA
 hitflag = MAF
 priority = 2, Hit
@@ -2453,6 +2483,7 @@ trigger1 = AnimElem = 5
 attr = S, NA
 animtype  = Hard
 damage    = 60, 0
+getpower = 30,15
 guardflag = MA
 hitflag = MAF
 priority = 2, Hit
@@ -2516,7 +2547,7 @@ type    = C
 movetype= A
 physics = C
 juggle  = 0
-poweradd= 45
+poweradd= 0
 ctrl = 0
 anim = 704
 sprpriority = 2
@@ -2714,6 +2745,7 @@ triggerall = anim = 705
 trigger1 = animelem >= 5;time = 0
 attr = S, NA
 damage    = 80, 0
+getpower = 15,7
 animtype = up
 hitflag = MAFD
 guardflag = M
@@ -2757,6 +2789,7 @@ trigger1 = P2movetype = A
 trigger1 = animelem >= 5;time = 0
 attr = S, NA
 damage    = 120, 0
+getpower = 15,7
 animtype = up
 hitflag = MAFD
 guardflag = MA
@@ -2798,6 +2831,7 @@ triggerall = anim = 704
 trigger1 = animelem >= 5;time = 0
 attr = S, NA
 damage    = 45, 0
+getpower = 15,7
 animtype = up
 hitflag = MAF
 guardflag = M
@@ -2836,6 +2870,7 @@ trigger1 = P2movetype = A
 trigger1 = animelem >= 5;time = 0
 attr = S, NA
 damage    = 68, 0
+getpower = 15,7
 animtype = up
 hitflag = MAF
 guardflag = MA
@@ -2965,6 +3000,7 @@ Channel = 0
 
 [State 800, ヒット定義（投げ用）]
 type = HitDef
+getpower = 60,30
 trigger1 = Time = 0
 trigger1 = p2stateno != [150,159]
 trigger1 = p2movetype != H
@@ -3041,6 +3077,7 @@ Channel = 0
 
 [State 800, ヒット定義（投げ用）]
 type = HitDef
+getpower = 60,30
 trigger1 = Time = 0
 trigger1 = p2stateno != [150,159]
 trigger1 = p2movetype != H
@@ -3080,7 +3117,7 @@ type    = S
 movetype= A
 physics = N
 anim = 810
-poweradd = 60
+poweradd = 0
 
 [State 810, 画像表示優先度]
 type = SprPriority
@@ -3224,7 +3261,7 @@ type    = S
 movetype= A
 physics = N
 anim = 812;811
-poweradd = 60
+poweradd = 0
 
 [State 811, 画像表示優先度]
 type = SprPriority

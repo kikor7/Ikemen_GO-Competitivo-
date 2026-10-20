@@ -788,7 +788,7 @@ physics = S
 juggle  = 2
 ctrl = 0
 anim = 2102
-poweradd = 40
+poweradd = 0
 velset = 0,0
 sprpriority = 3
 

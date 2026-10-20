@@ -1,0 +1,13 @@
+<#f0f000>:Special Moves:</>
+Kung Fu Throw			^C_+^Z
+Air Carapace			_QCF^X
+Light Kung Fu Knee			_QCB^A
+Strong Kung Fu Knee			_QCB^B
+Light Kung Fu Palm			_QCF^A
+Roll			^X_+^A
+
+<#f0f000>:Hyper Moves:</>
+Smash Kung Fu Upper <#f00000>(3000)</>			_QCF^A_+^B
+Triple Kung Fu Palm <#f00000>(1000)</>			_QCB^X_+^Y
+Triple Kung Fu Palm <#f00000>(1000)</>			_QCF^X_+^Y
+Triple Kung Fu Palm <#f00000>(1000)</>			_QCB^A_+^B

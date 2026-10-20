@@ -404,7 +404,7 @@ air.animtype = diagup
 fall.animtype = diagup
 air.velocity = -2,-1
 air.hittime = 10
-getpower = 0,0
+getpower = 60,30
 palfx.time = 50
 palfx.add = 100, 0, 0
 
@@ -496,7 +496,7 @@ air.animtype = diagup
 fall.animtype = diagup
 air.velocity = -2,-3
 air.hittime = 20
-getpower = 0,0
+getpower = 60,30
 palfx.time = 50
 palfx.add = 100, 0, 0
 
@@ -601,7 +601,7 @@ air.animtype = diagup
 fall.animtype = diagup
 air.velocity = -10,-1
 air.hittime = 45
-getpower = 0,0
+getpower = 60,30
 palfx.time = 50
 palfx.add = 100, 0, 0
 fall = 1
@@ -697,7 +697,7 @@ type = hitdef
 trigger1 = time = 0
 attr = S, ST 
 damage = 0 
-getpower = 0,0
+getpower = 60,30
 animtype = high
 Persistent = 0
 pausetime = 0,30

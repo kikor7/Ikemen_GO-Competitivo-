@@ -12,6 +12,7 @@ pal.defaults =
 
 ; Files for the player
 [Files]
+movelist = movelist.dat
 cmd     = ella.cmd   
 cns     = ella.cns   
 st      = ella.cns   

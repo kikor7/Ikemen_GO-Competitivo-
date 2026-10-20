@@ -1,0 +1,28 @@
+<#f0f000>:Special Moves:</>
+Kuuchuu Kyou Furagarahha			_QCF^X
+Kuuchuu Naka Furagarahha			_QCF^B
+Kuuchuu Jaku Furagarahha			_QCF^A
+Kuuchuu Karadoborugu Kyou			_QCB^X
+Kuuchuu Karadoborugu Naka			_QCB^B
+Kuuchuu Karadoborugu Jaku			_QCB^A
+Kyou Deyurandaru			_DSF^X
+Naka Deyurandaru			_DSF^B
+Jaku Deyurandaru			_DSF^A
+Kyou Vajura			_DSB^X
+Naka Vajura			_DSB^B
+Jaku Vajura			_DSB^A
+Kyou Teirufingu			^X^X^X
+Naka Teirufingu			^B^B^B
+Jaku Teirufingu			^A^A^A
+Nage			~B^X_+^A
+Nage			^A_+^X
+
+<#f0f000>:Hyper Moves:</>
+Apokaripusu <#f00000>(2000)</>			_D_D^A_+^B
+Totsukanotsurugi <#f00000>(1000)</>			_QCB^A_+^B
+Gunguniru <#f00000>(1000)</>			_QCF^A_+^B
+Kuuchuu Kyou Furagarahha <#f00000>(1000)</>			_QCF^Y
+Kuuchuu Karadoborugu Ex <#f00000>(1000)</>			_QCB^Y
+Ex Deyurandaru <#f00000>(1000)</>			_DSF^Y
+Ex Vajura <#f00000>(1000)</>			_DSB^Y
+Ex Teirufingu <#f00000>(1000)</>			^Y^Y^Y

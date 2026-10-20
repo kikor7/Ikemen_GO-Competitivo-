@@ -5,6 +5,7 @@
 
 [Statedef 1500]
 type    = S
+poweradd = 20
 movetype= A
 physics = S
 ctrl = 0
@@ -201,6 +202,7 @@ x = 0
 
 [State 1510, hit]
 type = HitDef
+getpower = 15,7
 Trigger1 = Random <= 500
 attr = S, NT
 hitflag = M-
@@ -1925,7 +1927,7 @@ sparkno = -1
 guard.sparkno = -1
 sparkxy = 0,0
 hitsound = S1040,2
-getpower = 0
+getpower = 15,7
 guardsound = -1
 pausetime = 0,13
 ground.hittime = 15

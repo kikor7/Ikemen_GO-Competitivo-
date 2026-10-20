@@ -8,6 +8,7 @@ pal.defaults =1,2,3,4,5,6
 localcoord = 1338,756 ; 1338.75,756
 ;408,305
 [Files]
+movelist = movelist.dat
 sprite=YuNarukami.sff
 sound=Yu.snd
 anim=Yu.air

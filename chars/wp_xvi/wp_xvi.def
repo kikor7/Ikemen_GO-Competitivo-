@@ -12,6 +12,7 @@ author = "Tanic2KXX"
 pal.defaults = 1,4,2,3,5,6
 
 [Files]
+movelist = movelist.dat
 sprite = w_peach.sff
 anim = w_peach.air
 sound = w_peach.snd

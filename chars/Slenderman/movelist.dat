@@ -1,0 +1,19 @@
+<#f0f000>:Special Moves:</>
+a			_B_F^X
+a			_B_F^Y
+a			_DSB^B
+a			_B_F^A
+a			_QCB^X
+a			_QCF^A
+a			_QCB^A
+a			_QCF^X
+Taunt			~B^X_+^A
+Kung Fu Throw			^Y_+^B
+
+<#f0f000>:Hyper Moves:</>
+ACE <#f00000>(1500)</>			_QCF^A_+^B
+Wildcards <#f00000>(1000)</>			_B_F^X_+^Y
+JOKER <#f00000>(2100)</>			_QCB^B_+^C
+SHDC <#f00000>(1000)</>			_QCF^X_+^Y
+Strong Kung Fu Palm <#f00000>(1000)</>			_QCB^X_+^Y
+Super 6 <#f00000>(1000)</>			~B^X_+^A

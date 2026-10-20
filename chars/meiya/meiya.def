@@ -33,6 +33,7 @@ Pal.Defaults =6,3,4,2
 ;-----------------------------------------------------------------------------
 
 [Files]
+movelist = movelist.dat
 Cmd     =meiya_cmd.cmd
 Cns     =meiya.cns
 St      =meiya.cns

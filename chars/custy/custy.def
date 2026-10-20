@@ -7,6 +7,7 @@ author = "robo"
 pal.defaults = 1
 
 [Files]
+movelist = movelist.dat
 cmd     = custy.cmd
 cns     = custy.cns
 st      = custy.cns

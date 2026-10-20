@@ -216,7 +216,7 @@ sprpriority = 2                  ;表示した絵の重なり具合(2一番前　0通常　-1奥)
 type = HitDef
 trigger1 = AnimElem = 3
 attr = S, NA                     ;立ち状態で、通常の攻撃(ｓは立ち、ｎは通常、aは攻撃を表す)
-getpower = var(10)*(var(41)=0),floor(var(10)/2)*(var(41)=0)
+getpower = 30,15
 givepower= var(10),var(10)
 damage = var(12),0
 animtype = Light                 ;当てた時の相手のポーズ（light/midium/hard/back）から選択
@@ -281,7 +281,7 @@ type = HitDef
 trigger1 = animelem = 4
 attr = S, NA
 animtype  = back
-getpower = var(10)*(var(41)=0),floor(var(10)/2)*(var(41)=0)
+getpower = 30,15
 givepower= var(10),var(10)
 damage = var(12),0
 guardflag = M
@@ -361,7 +361,7 @@ type = HitDef
 trigger1 = animelem = 6
 attr = S, NA
 animtype  = Medium
-getpower = var(10)*(var(41)=0),floor(var(10)/2)*(var(41)=0)
+getpower = 30,15
 givepower= var(10),var(10)
 damage = var(12),0
 guardflag = MA
@@ -411,7 +411,7 @@ type = HitDef
 trigger1 = animelem = 4
 attr = S, NA
 animtype  = Medium
-getpower = var(10)*(var(41)=0),floor(var(10)/2)*(var(41)=0)
+getpower = 30,15
 givepower= var(10),var(10)
 damage = var(12),0
 guardflag = MA
@@ -460,7 +460,7 @@ type = HitDef
 trigger1 = animelem = 3
 attr = C, NA
 animtype  = Medium
-getpower = var(10)*(var(41)=0),floor(var(10)/2)*(var(41)=0)
+getpower = 30,15
 givepower= var(10),var(10)
 damage = var(12),0
 priority  = 3
@@ -512,7 +512,7 @@ type = HitDef
 trigger1 = animelem = 5
 attr = C, NA
 animtype  = Medium
-getpower = var(10)*(var(41)=0),floor(var(10)/2)*(var(41)=0)
+getpower = 30,15
 givepower= var(10),var(10)
 damage = var(12),0
 animtype  = Light
@@ -565,7 +565,7 @@ type = HitDef
 trigger1 = animelem = 4
 attr = C, NA
 animtype  = Medium
-getpower = var(10)*(var(41)=0),floor(var(10)/2)*(var(41)=0)
+getpower = 30,15
 givepower= var(10),var(10)
 damage = var(12),0
 hitflag = MAF
@@ -599,7 +599,7 @@ type    = A
 movetype= A
 physics = A
 juggle  = 0
-poweradd= 11
+poweradd= 0
 ctrl = 0
 anim = 600
 sprpriority = 2
@@ -615,7 +615,7 @@ type = HitDef
 trigger1 = animelem = 3
 attr = A, NA
 animtype  = Medium
-getpower = var(10)*(var(41)=0),floor(var(10)/2)*(var(41)=0)
+getpower = 30,15
 givepower= var(10),var(10)
 damage = var(12),0
 hitflag=MAF
@@ -668,7 +668,7 @@ type = HitDef
 trigger1 = animelem = 6
 attr = A, NA
 animtype  = Medium
-getpower = var(10)*(var(41)=0),floor(var(10)/2)*(var(41)=0)
+getpower = 30,15
 givepower= var(10),var(10)
 damage = var(12),0
 hitflag=MAF
@@ -713,7 +713,7 @@ type = HitDef
 trigger1 = animelem = 4 
 attr = A, NA
 animtype  = Medium
-getpower = var(10)*(var(41)=0),floor(var(10)/2)*(var(41)=0)
+getpower = 30,15
 givepower= var(10),var(10)
 damage = var(12),0
 hitflag=MAF
@@ -774,7 +774,7 @@ type = HitDef
 trigger1 = animelem = 6
 attr = A, NA
 animtype  = Medium
-getpower = var(10)*(var(41)=0),floor(var(10)/2)*(var(41)=0)
+getpower = 30,15
 givepower= var(10),var(10)
 damage = var(12),0
 guardflag = H
@@ -869,7 +869,7 @@ trigger1 = animelem = 3
 trigger1 =var(3) >=74
 attr = S, NA
 animtype  = Medium
-getpower = var(10)*(var(41)=0),floor(var(10)/2)*(var(41)=0)
+getpower = 30,15
 givepower= var(10),var(10)
 damage = var(12),0
 guardflag = 
@@ -918,7 +918,7 @@ trigger1 = animelem = 3
 trigger1 =var(3) = [40,73]
 attr = S, NA
 animtype  = Medium
-getpower = var(10)*(var(41)=0),floor(var(10)/2)*(var(41)=0)
+getpower = 30,15
 givepower= var(10),var(10)
 damage = var(12),0
 guardflag = H
@@ -946,7 +946,7 @@ trigger1 = animelem = 3
 trigger1 =var(3)<40
 attr = S, NA
 animtype  = Medium
-getpower = var(10)*(var(41)=0),floor(var(10)/2)*(var(41)=0)
+getpower = 30,15
 givepower= var(10),var(10)
 damage = var(12),0
 guardflag = HA
@@ -1097,6 +1097,7 @@ value = 300,0
 
 [State 800, 1]
 type = HitDef
+getpower = 60,30
 triggerall = (P2StateNo != [150,155]) && (P2StateNo != [40,51]) && animelem = 2
 triggerall = !(teamside = 2 && (P2Stateno != 0 || P2Stateno != 11) && Enemynear(var(53)),time <= 1 && Enemynear(var(53)),ctrl = 1)
 trigger1 = !Numtarget && P2Movetype != H
@@ -1155,6 +1156,7 @@ value = 300,0
 
 [State 800, 1]
 type = HitDef
+getpower = 60,30
 triggerall = (P2StateNo != [150,155]) && (P2StateNo != [40,51]) && animelem = 2
 triggerall = !(teamside = 2 && (P2Stateno != 0 || P2Stateno != 11) && Enemynear(var(53)),time <= 1 && Enemynear(var(53)),ctrl = 1)
 trigger1 = !Numtarget && P2Movetype != H
@@ -1447,6 +1449,7 @@ value = 0
 
 [State 800, 1]
 type = HitDef
+getpower = 60,30
 Trigger1 = Time = 0
 attr = S, NT          ;ｓ：立ち　ｎ：通常　ｔ：投げ
 hitflag = A-          ;コンボの途中から投げが入らないよう設定してある

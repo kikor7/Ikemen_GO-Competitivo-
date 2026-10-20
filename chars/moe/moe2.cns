@@ -7,7 +7,7 @@ physics = S
 juggle = 0
 anim = 1000
 ctrl = 0
-poweradd = 90
+poweradd = 20
 sprpriority = 2
 velset = 0,0
 
@@ -170,6 +170,7 @@ trigger1 = time >= 0
 Persistent = 0
 attr = S, SP
 damage = floor(80*parent,FVar(0)),floor(8*parent,FVar(0))
+getpower = 30,15
 animtype  = Heavy
 guardflag = MA
 pausetime = 0,9
@@ -243,7 +244,7 @@ physics = S
 juggle = 0
 anim = 1000
 ctrl = 0
-poweradd = 90
+poweradd = 20
 sprpriority = 2
 velset = 0,0
 
@@ -646,7 +647,7 @@ physics = S
 juggle = 0
 anim = 1050
 ctrl = 0
-poweradd = 90
+poweradd = 20
 sprpriority = 2
 velset = 0,0
 
@@ -770,7 +771,7 @@ physics = S
 juggle = 0
 anim = 1050
 ctrl = 0
-poweradd = 90
+poweradd = 20
 sprpriority = 2
 velset = 0,0
 
@@ -840,7 +841,7 @@ physics = S
 juggle = 0
 anim = 1050
 ctrl = 0
-poweradd = 90
+poweradd = 20
 sprpriority = 2
 velset = 0,0
 

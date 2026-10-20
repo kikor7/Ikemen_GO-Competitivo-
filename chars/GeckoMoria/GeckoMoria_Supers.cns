@@ -439,7 +439,7 @@ triggerall = !movecontact
 trigger1 = time > 5
 attr = C, HT
 animtype = Hard
-getpower = 0,0
+getpower = 1,0
 damage    = 250,10
 guardflag = L
 pausetime = 6,6
@@ -469,7 +469,7 @@ guardflag = L
 animtype = Hard
 priority = 7, Hit
 animtype  = Medium
-getpower = 0,0
+getpower = 1,0
 damage    = 250,10
 pausetime = 6,14
 sparkno = -1;s6000
@@ -1958,7 +1958,7 @@ trigger1 = animelem = 7
 trigger2 = animelem = 8
 attr = S, HA
 animtype  = Medium
-getpower = 0,0
+getpower = 1,0
 damage    = 30,5
 guardflag = MA
 pausetime = 8,10
@@ -1981,7 +1981,7 @@ trigger1 = animelem = 7
 trigger2 = animelem = 8
 attr = S, HA
 animtype  = Medium
-getpower = 0,0
+getpower = 1,0
 damage    = 30,5
 guardflag = MA
 pausetime = 8,10
@@ -2117,7 +2117,7 @@ trigger1 = animelem = 7
 trigger2 = animelem = 8
 attr = S, HA
 animtype  = Medium
-getpower = 0,0
+getpower = 1,0
 damage    = 10,2
 guardflag = MA
 pausetime = 8,10
@@ -2140,7 +2140,7 @@ trigger1 = animelem = 7
 trigger2 = animelem = 8
 attr = S, HA
 animtype  = Medium
-getpower = 0,0
+getpower = 1,0
 damage    = 10,2
 guardflag = MA
 pausetime = 8,10
@@ -2238,7 +2238,7 @@ trigger2 = animelem = 7
 trigger3 = animelem = 8
 attr = S, HA
 animtype  = Medium
-getpower = 0,0
+getpower = 1,0
 damage    = 10,2
 guardflag = MA
 pausetime = 8,10
@@ -2262,7 +2262,7 @@ trigger2 = animelem = 7
 trigger3 = animelem = 8
 attr = S, HA
 animtype  = Medium
-getpower = 0,0
+getpower = 1,0
 damage    = 10,2
 guardflag = MA
 pausetime = 8,10
@@ -2380,7 +2380,7 @@ trigger1 = animelem = 6
 trigger2 = animelem = 7
 attr = S, HA
 animtype  = Medium
-getpower = 0,0
+getpower = 1,0
 damage    = 10,2
 guardflag = MA
 pausetime = 8,10
@@ -2403,7 +2403,7 @@ trigger1 = animelem = 6
 trigger2 = animelem = 7
 attr = S, HA
 animtype  = Medium
-getpower = 0,0
+getpower = 1,0
 damage    = 10,2
 guardflag = MA
 pausetime = 8,10
@@ -2518,7 +2518,7 @@ trigger1 = animelem = 4
 trigger2 = animelem = 5
 attr = S, HA
 animtype  = Medium
-getpower = 0,0
+getpower = 1,0
 damage    = 10,2
 guardflag = MA
 pausetime = 8,10
@@ -2541,7 +2541,7 @@ trigger1 = animelem = 4
 trigger2 = animelem = 5
 attr = S, HA
 animtype  = Medium
-getpower = 0,0
+getpower = 1,0
 damage    = 10,2
 guardflag = MA
 pausetime = 8,10
@@ -2658,7 +2658,7 @@ trigger1 = animelem = 6
 trigger2 = animelem = 7
 attr = S, HA
 animtype  = Medium
-getpower = 0,0
+getpower = 1,0
 damage    = 10,2
 guardflag = MA
 pausetime = 8,10
@@ -2681,7 +2681,7 @@ trigger1 = animelem = 6
 trigger2 = animelem = 7
 attr = S, HA
 animtype  = Medium
-getpower = 0,0
+getpower = 1,0
 damage    = 10,2
 guardflag = MA
 pausetime = 8,10
@@ -2799,7 +2799,7 @@ trigger1 = animelem = 4
 trigger2 = animelem = 5
 attr = S, HA
 animtype  = Medium
-getpower = 0,0
+getpower = 1,0
 damage    = 10,2
 guardflag = MA
 pausetime = 8,10
@@ -2822,7 +2822,7 @@ trigger1 = animelem = 4
 trigger2 = animelem = 5
 attr = S, HA
 animtype  = Medium
-getpower = 0,0
+getpower = 1,0
 damage    = 10,2
 guardflag = MA
 pausetime = 8,10
@@ -2941,7 +2941,7 @@ trigger1 = animelem = 6
 trigger2 = animelem = 7
 attr = S, HA
 animtype  = Medium
-getpower = 0,0
+getpower = 1,0
 damage    = 10,2
 guardflag = MA
 pausetime = 8,10
@@ -2964,7 +2964,7 @@ trigger1 = animelem = 6
 trigger2 = animelem = 7
 attr = S, HA
 animtype  = Medium
-getpower = 0,0
+getpower = 1,0
 damage    = 10
 guardflag = MA
 pausetime = 8,10
@@ -3079,7 +3079,7 @@ trigger1 = animelem = 4
 trigger2 = animelem = 5
 attr = S, HA
 animtype  = Medium
-getpower = 0,0
+getpower = 1,0
 damage    = 10,2
 guardflag = MA
 pausetime = 6,12
@@ -3102,7 +3102,7 @@ trigger1 = animelem = 4
 trigger2 = animelem = 5
 attr = S, HA
 animtype  = Medium
-getpower = 0,0
+getpower = 1,0
 damage    = 10,2
 guardflag = MA
 pausetime = 6,12
@@ -3240,7 +3240,7 @@ triggerall = !movecontact
 trigger1 = animelem = 5
 attr = S, HA
 animtype  = Medium
-getpower = 0,0
+getpower = 1,0
 damage    = 50,5
 guardflag = MA
 pausetime = 10,12
@@ -3408,7 +3408,7 @@ triggerall = !movecontact
 trigger1 = animelem = 14
 attr = S, HA
 animtype  = Medium
-getpower = 0,0
+getpower = 1,0
 damage    = 100,10
 guardflag = MA
 pausetime = 12,14

@@ -1631,7 +1631,7 @@ type    = S
 movetype= A
 physics = S
 ctrl = 0
-poweradd = 30
+poweradd = 0
 anim = 210
 
 [State ê∫]
@@ -1748,7 +1748,7 @@ movetype= A
 physics = C
 ctrl = 0
 anim = 410
-poweradd = 30
+poweradd = 0
 
 [State ê∫]
 type = playsnd
@@ -1923,7 +1923,7 @@ movehitpersist = 1
 juggle  = 1
 ctrl = 0
 anim = 610
-poweradd  = 20
+poweradd  = 0
 
 [State ê∫]
 type = playsnd
@@ -1985,7 +1985,7 @@ physics = S
 velset = 0,0
 ctrl = 0
 anim = 700
-poweradd = 20
+poweradd = 0
 
 [State 1000, 1]
 type = HitDef
@@ -2289,7 +2289,7 @@ movetype= A
 physics = S
 ctrl = 0
 anim = 1100
-poweradd = 40
+poweradd = 20
 facep2 = 1
 
 [State ê∫]
@@ -2327,7 +2327,7 @@ type = A
 movetype= A
 ctrl = 0
 anim = 1100
-poweradd = 40
+poweradd = 20
 facep2 = 1
 
 [state 100,2]
@@ -2460,7 +2460,7 @@ movetype= A
 physics = S
 ctrl = 0
 anim = 1110
-poweradd = 40
+poweradd = 20
 facep2 = 1
 
 [State ê∫]
@@ -2498,7 +2498,7 @@ type = A
 movetype= A
 ctrl = 0
 anim = 1100
-poweradd = 40
+poweradd = 20
 facep2 = 1
 
 [state 100,2]
@@ -2631,7 +2631,7 @@ movetype= A
 physics = S
 ctrl = 0
 anim = 1120
-poweradd = 40
+poweradd = 20
 facep2 = 1
 
 [State ê∫]
@@ -2669,7 +2669,7 @@ type = A
 movetype= A
 ctrl = 0
 anim = 1100
-poweradd = 40
+poweradd = 20
 facep2 = 1
 
 [state 100,2]
@@ -2880,7 +2880,7 @@ physics = S
 velset = 0,0
 ctrl = 0
 anim = 1200
-poweradd = 20
+poweradd = 0
 
 [State 1000, 1]
 type = HitDef
@@ -3402,7 +3402,7 @@ type    = S
 movetype= A
 physics = S
 ctrl = 0
-poweradd = 50
+poweradd = 20
 anim = 1300
 
 [State ê∫]
@@ -3657,7 +3657,7 @@ type    = S
 movetype= A
 physics = S
 ctrl = 0
-poweradd = 50
+poweradd = 20
 anim = 1300
 
 [state 710,0]

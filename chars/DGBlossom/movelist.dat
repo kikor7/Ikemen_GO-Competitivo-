@@ -1,0 +1,22 @@
+<#f0f000>:Special Moves:</>
+Harpoon			_XBB^X
+Laser Beam			_D_F^Y
+Laser Beam Aerial 2			_D_F^X
+Ice Clone			_D_B^A
+Especial 5			_QCF^B
+Ice Blast Aerial 1			_QCB^B
+Especial 7			_QCB^A
+Tackle Strike			_B_D_F^A
+Dash			_D_B^X
+Super Dash			_D_B^Y
+
+<#f0f000>:Hyper Moves:</>
+Detonator Blossom <#f00000>(1000)</>			_D_F_D_B^X
+Maximum Blossom <#f00000>(1000)</>			_D_B_D_F^X
+Mega Laser Beam <#f00000>(1000)</>			_D_B_D_F^A
+Super Ice Breath <#f00000>(2000)</>			_D_F_D_B^B
+Electric Fingers <#f00000>(2000)</>			_D_F_D_B^Y
+Lightning Beam <#f00000>(3000)</>			_D_F_D_F^X_+^Y
+Triple Lasers <#f00000>(4000)</>			_D_F_D_F^A_+^B
+Bio Force Rosa (BFR) <#f00000>(4000)</>			_D_F_D_F^C_+^Z
+Boomerang Bow <#f00000>(1000)</>			_D_F_D_F^C

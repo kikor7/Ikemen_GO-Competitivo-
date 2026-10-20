@@ -1840,7 +1840,7 @@ air.velocity = -2.5,var(18)*0.1
 fall.recover = 1
 air.fall = 1
 yaccel = .52
-getpower = 20, 10
+getpower = 30,15
 
 [State 100, 2];ダウン中でない時の浮き
 type = Varset
@@ -1956,7 +1956,7 @@ fall.recover = 0
 fall = 1
 air.fall = 1
 yaccel = .51
-getpower = 45, 30
+getpower = 30,15
 
 [State 100, 2];ダウン中でない時の浮き
 type = Varset
@@ -2079,7 +2079,7 @@ air.velocity = -2.7,var(18)*0.1
 fall.recover = 1
 air.fall = 1
 yaccel = .51
-getpower = 40, 25
+getpower = 30,15
 
 [State 100, 2];ダウン中でない時の浮き
 type = Varset
@@ -2201,7 +2201,7 @@ air.velocity = -2.5,var(18)*0.1
 fall.recover = 1
 air.fall = 1
 yaccel = .51
-getpower = 40, 25
+getpower = 30,15
 
 [State 100, 2];ダウン中でない時の浮き
 type = Varset
@@ -2323,7 +2323,7 @@ air.velocity = -2.8,var(18)*0.1
 fall.recover = 1
 air.fall = 1
 yaccel = .51
-getpower = 30, 18
+getpower = 30,15
 
 [State 100, 2];ダウン中でない時の浮き
 type = Varset
@@ -2445,7 +2445,7 @@ air.velocity = -2,var(18)*0.1
 fall.recover = 1
 air.fall = 1
 yaccel = .51
-getpower = 60, 40
+getpower = 15,7
 
 [State 240, 6] ;攻撃予約
 type = HitDef
@@ -2471,7 +2471,7 @@ air.velocity = -2,var(18)*0.1
 fall.recover = 1
 air.fall = 1
 yaccel = .51
-getpower = 60, 40
+getpower = 15,7
 
 [State 100, 2];ダウン中でない時の浮き
 type = Varset
@@ -2593,7 +2593,7 @@ air.velocity = -2.5,var(18)*0.1
 fall.recover = 1
 air.fall = 1
 yaccel = .51
-getpower = 70, 55
+getpower = 15,7
 
 [State 240, 6] ;攻撃予約
 type = HitDef
@@ -2619,7 +2619,7 @@ air.velocity = -2.5,var(18)*0.1
 fall.recover = 1
 air.fall = 1
 yaccel = .51
-getpower = 70, 55
+getpower = 15,7
 
 [State 100, 2];ダウン中でない時の浮き
 type = Varset
@@ -2741,7 +2741,7 @@ air.velocity = -2.5,var(18)*0.1
 fall.recover = 1
 air.fall = 1
 yaccel = .51
-getpower = 20, 10
+getpower = 30,15
 
 [State 100, 2];ダウン中でない時の浮き
 type = Varset
@@ -2863,7 +2863,7 @@ air.velocity = -2.5,var(18)*0.1
 fall.recover = 1
 air.fall = 1
 yaccel = .51
-getpower = 35, 25
+getpower = 30,15
 
 [State 100, 2];ダウン中でない時の浮き
 type = Varset
@@ -2986,7 +2986,7 @@ air.velocity = -2,var(18)*0.1
 fall.recover = 1
 air.fall = 1
 yaccel = .51
-getpower = 28, 18
+getpower = 30,15
 
 [State 100, 2];ダウン中でない時の浮き
 type = Varset
@@ -3141,7 +3141,7 @@ fall.recover = 1
 fall = 1
 air.fall = 1
 yaccel = .51
-getpower = 39, 24
+getpower = 30,15
 
 [State 100, 2];ダウン中でない時の浮き
 type = Varset
@@ -3258,7 +3258,7 @@ fall.recover = 1
 fall = 1
 air.fall = 1
 yaccel = .51
-getpower = 55, 38
+getpower = 30,15
 
 [State 100, 2];ダウン中でない時の浮き
 type = Varset
@@ -3374,7 +3374,7 @@ fall.recover = 1
 fall = 1
 air.fall = 1
 yaccel = .51
-getpower = 47, 28
+getpower = 60,30
 
 [State 100, 2];ダウン中でない時の浮き
 type = Varset
@@ -3527,7 +3527,7 @@ air.velocity = var(19)*0.1,var(20)*0.1
 fall.recover = 1
 air.fall = 1
 yaccel = .51
-getpower = 16, 8
+getpower = 30,15
 
 [State 101, 1];通常airvel X
 type = Varset
@@ -3719,7 +3719,7 @@ air.velocity = var(19)*0.1,var(20)*0.1
 fall.recover = 1
 air.fall = 1
 yaccel = .51
-getpower = 43, 30
+getpower = 30,15
 
 [State 101, 1];通常airvel X
 type = Varset
@@ -3898,7 +3898,7 @@ air.velocity = var(19)*0.1,var(20)*0.1
 fall.recover = 1
 air.fall = 1
 yaccel = .51
-getpower = 28, 18
+getpower = 30,15
 
 [State 101, 1];通常airvel X
 type = Varset
@@ -4071,7 +4071,7 @@ air.velocity = var(19)*0.1,var(20)*0.1
 fall.recover = 1
 air.fall = 1
 yaccel = .51
-getpower = 57, 40
+getpower = 30,15
 
 [State 101, 1];通常airvel X
 type = Varset
@@ -4280,7 +4280,7 @@ air.velocity = var(19)*0.1,var(20)*0.1
 fall.recover = 1
 air.fall = 1
 yaccel = .51
-getpower = 57, 40
+getpower = 30,15
 
 [State 101, 1];通常airvel X
 type = Varset
@@ -4330,6 +4330,7 @@ sprpriority = 2
 
 [State 800, 1] ;攻撃予約
 type = HitDef
+getpower = 60,30
 Trigger1 = animelem = 1
 attr = S, NT						;立ち通常投げ
 hitflag = M-						;hit中の相手には当たらず空中の相手にも当たらない
@@ -4357,7 +4358,7 @@ type    = S
 movetype= A
 physics = N
 anim = 810
-poweradd = 60
+poweradd = 0
 
 [State 810, Grab Sound] ;相手をつかんだ音
 type = PlaySnd

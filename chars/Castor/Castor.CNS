@@ -383,7 +383,7 @@ juggle  = 5
 velset = 0,0
 ctrl = 0
 anim = 200
-poweradd = 100
+poweradd = 0
 sprpriority = 2
 
 [State 200, PlaySnd]
@@ -481,7 +481,7 @@ juggle  = 5
 velset = 0,0
 ctrl = 0
 anim = 220
-poweradd = 100
+poweradd = 0
 sprpriority = 2
 
 [State 200, PlaySnd]
@@ -530,7 +530,7 @@ juggle  = 5
 velset = 0,0
 ctrl = 0
 anim = 230
-poweradd = 150
+poweradd = 0
 sprpriority = 2
 
 [State 200, PlaySnd]
@@ -579,7 +579,7 @@ juggle  = 7
 velset = 0,0
 ctrl = 0
 anim = 400
-poweradd = 100
+poweradd = 0
 sprpriority = 2
 
 [State 200, PlaySnd]
@@ -628,7 +628,7 @@ juggle  = 7
 velset = 0,0
 ctrl = 0
 anim = 410
-poweradd = 150
+poweradd = 0
 sprpriority = 2
 
 [State 200, PlaySnd]
@@ -700,7 +700,7 @@ juggle  = 7
 velset = 0,0
 ctrl = 0
 anim = 420
-poweradd = 100
+poweradd = 0
 sprpriority = 2
 
 [State 200, PlaySnd]
@@ -749,7 +749,7 @@ juggle  = 7
 velset = 0,0
 ctrl = 0
 anim = 430
-poweradd = 100
+poweradd = 0
 sprpriority = 2
 
 [State 200, PlaySnd]
@@ -815,7 +815,7 @@ physics = A
 juggle  = 7
 ctrl = 0
 anim = 600
-poweradd = 100
+poweradd = 0
 sprpriority = 2
 
 [State 200, PlaySnd]
@@ -858,7 +858,7 @@ physics = A
 juggle  = 7
 ctrl = 0
 anim = 610
-poweradd = 150
+poweradd = 0
 sprpriority = 2
 
 [State 200, PlaySnd]
@@ -901,7 +901,7 @@ physics = A
 juggle  = 7
 ctrl = 0
 anim = 620
-poweradd = 100
+poweradd = 0
 sprpriority = 2
 
 [State 200, PlaySnd]
@@ -944,7 +944,7 @@ physics = A
 juggle  = 7
 ctrl = 0
 anim = 630
-poweradd = 200
+poweradd = 0
 sprpriority = 2
 
 [State 200, PlaySnd]
@@ -1021,7 +1021,7 @@ juggle  = 1
 velset = 0,0
 ctrl = 0
 anim = 801
-poweradd = 20
+poweradd = 0
 
 [State 550, 1]
 type = PlaySnd
@@ -1346,7 +1346,7 @@ movetype= A                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S                      ;Physics: S-stand, C-crouch, A-air
 ctrl = 0                         ;Set ctrl (Def: no change)
 anim = 1010                      ;Change animation (Def: no change)
-poweradd = 40
+poweradd = 20
 
 [State 200, PlaySnd]
 type = PlaySnd
@@ -1413,7 +1413,7 @@ movetype= A                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S                      ;Physics: S-stand, C-crouch, A-air
 ctrl = 0                         ;Set ctrl (Def: no change)
 anim = 1012                      ;Change animation (Def: no change)
-poweradd = 40
+poweradd = 0
 
 [State 200, PlaySnd]
 type = PlaySnd
@@ -1480,7 +1480,7 @@ movetype= A                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S                      ;Physics: S-stand, C-crouch, A-air
 ctrl = 0                         ;Set ctrl (Def: no change)
 anim = 1010                      ;Change animation (Def: no change)
-poweradd = 40
+poweradd = 20
 
 [State 200, PlaySnd]
 type = PlaySnd
@@ -1553,7 +1553,7 @@ movetype= A                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S                      ;Physics: S-stand, C-crouch, A-air
 ctrl = 0                         ;Set ctrl (Def: no change)
 anim = 1012                      ;Change animation (Def: no change)
-poweradd = 40
+poweradd = 0
 
 [State 200, PlaySnd]
 type = PlaySnd
@@ -1620,7 +1620,7 @@ movetype= A                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S                      ;Physics: S-stand, C-crouch, A-air
 ctrl = 0                         ;Set ctrl (Def: no change)
 anim = 1020                      ;Change animation (Def: no change)
-poweradd = 40
+poweradd = 20
 
 [State 200, PlaySnd]
 type = PlaySnd
@@ -1691,7 +1691,7 @@ movetype= A                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S                      ;Physics: S-stand, C-crouch, A-air
 ctrl = 0                         ;Set ctrl (Def: no change)
 anim = 1020                      ;Change animation (Def: no change)
-poweradd = 40
+poweradd = 20
 
 [State 200, PlaySnd]
 type = PlaySnd
@@ -1763,7 +1763,7 @@ movetype= A                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S                      ;Physics: S-stand, C-crouch, A-air
 ctrl = 0                         ;Set ctrl (Def: no change)
 anim = 1030                      ;Change animation (Def: no change)
-poweradd = 40
+poweradd = 0
 velset = 0,-6
 
 [State 1100, 7]
@@ -1781,7 +1781,7 @@ physics = A
 juggle  = 7
 ctrl = 0
 anim = 1031
-poweradd = 200
+poweradd = 0
 sprpriority = 2
 
 [State -3,PlaySnd]
@@ -1844,7 +1844,7 @@ movetype= A                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S                      ;Physics: S-stand, C-crouch, A-air
 ctrl = 0                         ;Set ctrl (Def: no change)
 anim = 1030                      ;Change animation (Def: no change)
-poweradd = 40
+poweradd = 0
 velset = 0,-6
 
 [State 1100, 7]
@@ -1862,7 +1862,7 @@ physics = A
 juggle  = 7
 ctrl = 0
 anim = 1031
-poweradd = 200
+poweradd = 20
 sprpriority = 2
 
 [State -3,PlaySnd]
@@ -1970,7 +1970,7 @@ type    = S
 movetype= A
 physics = S
 juggle  = 4
-poweradd= 60
+poweradd= 20
 ctrl = 0
 velset = 0,0,0
 anim = 1040
@@ -2041,7 +2041,7 @@ type    = S
 movetype= A
 physics = S
 juggle  = 4
-poweradd= 60
+poweradd= 20
 ctrl = 0
 velset = 0,0,0
 anim = 1040

@@ -367,8 +367,8 @@ stateno = 6002
 helpertype = normal
 name = "60002"
 ownpal = 1
-size.xscale = .9
-size.yscale = .9
+size.xscale = const(size.xscale) ;clon con el mismo tamano que Naruto
+size.yscale = const(size.yscale)
 
 [State 0, FX Corte]
 type = Explod
@@ -434,7 +434,7 @@ juggle  = 1
 velset = 0,0
 ctrl = 0
 anim = 9999
-poweradd = 20
+poweradd = 0
 sprpriority = 2
 
 [State 0, ParentVarAdd]
@@ -468,7 +468,7 @@ juggle  = 1
 velset = 0,0
 ctrl = 0
 anim = 6602
-poweradd = 20
+poweradd = 0
 sprpriority = -2
 
 [State 0, VelSet]
@@ -506,7 +506,7 @@ juggle  = 1
 velset = 0,0
 ctrl = 0
 anim = 6610
-poweradd = 20
+poweradd = 0
 sprpriority = -2
 
 [State 200, End]

@@ -13,14 +13,14 @@ sprpriority = 9                  ;Set p1's sprite layering priority to 2 (in fro
 
 ;Record every player's ID at all times
 [State 334, ShowMeYourIDs]
-Trigger1 = var(11) := playerid(getplayerid(1)), ID
-Trigger1 = var(12) := playerid(getplayerid(2)), ID
-Trigger1 = var(13) := playerid(getplayerid(3)), ID
-Trigger1 = var(14) := playerid(getplayerid(4)), ID
-Trigger1 = var(15) := playerid(getplayerid(5)), ID
-Trigger1 = var(16) := playerid(getplayerid(6)), ID
-Trigger1 = var(17) := playerid(getplayerid(7)), ID
-Trigger1 = var(18) := playerid(getplayerid(8)), ID
+Trigger1 = var(11) := player(1), ID
+Trigger1 = var(12) := player(2), ID
+Trigger1 = var(13) := player(3), ID
+Trigger1 = var(14) := player(4), ID
+Trigger1 = var(15) := player(5), ID
+Trigger1 = var(16) := player(6), ID
+Trigger1 = var(17) := player(7), ID
+Trigger1 = var(18) := player(8), ID
 Trigger1 = 1
 type = null
 

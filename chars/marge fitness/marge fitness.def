@@ -14,6 +14,7 @@ localcoord = 320,240
 
 ; Files for the player
 [Files]
+movelist = movelist.dat
 cmd     = AI-marge.cmd           
 cns     = margef.cns           
 st      = margef.cns           

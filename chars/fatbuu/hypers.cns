@@ -649,7 +649,7 @@ movetype= A
 physics = N
 anim = 2003
 velset = 0,0
-poweradd = 60
+poweradd = 0
 
 [State 3000, playsnd]
 type = PlaySnd

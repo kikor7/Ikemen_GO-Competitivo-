@@ -1,0 +1,20 @@
+<#f0f000>:Special Moves:</>
+Especial 1			_QCB^A
+Especial 2			_QCB^C
+Especial 3			_QCB^B
+Especial 4			_QCB^X
+Especial 5			_QCB^Y
+Especial 6			_QCB^Z
+Especial 7			_B_D_F_U^A
+Especial 8			_B_D_F_U^B
+Especial 9			_B_D_F_U^C
+Especial 10			_DSF^X
+Especial 11			_DSF^Y
+Especial 12			_DSF^Z
+Especial 13			_QCF^X
+Especial 14			_QCF^Y
+Especial 15			_QCF^Z
+
+<#f0f000>:Hyper Moves:</>
+Super 1 <#f00000>(1000)</>			_QCB_QCB^X
+Super 2 <#f00000>(2000)</>			_D_F_D_B^A

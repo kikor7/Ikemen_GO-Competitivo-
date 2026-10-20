@@ -189,7 +189,7 @@ guard.cornerpush.veloff = 0
 air.cornerpush.veloff = 0
 ground.velocity = -13.0+4.0*(var(10)=2),-5.0-4.0*(var(10)=2)
 air.velocity = -13.0+4.0*(var(10)=2),-5.0-4.0*(var(10)=2)
-getpower = ceil(var(11)*1.6*(fvar(11)/cond(var(55)=6,(fvar(30)),1))),ceil(var(11)*0.4)
+getpower = 30,15
 givepower = ceil(var(11)*0.8*(fvar(11)/cond(var(55)=6,(fvar(30)),1))),ceil(var(11)*0.2)
 yaccel = 0.5
 fall = 1
@@ -2409,7 +2409,7 @@ guard.cornerpush.veloff = 0
 air.cornerpush.veloff = 0
 ground.velocity = -4.0
 air.velocity = -4.0,-2.0
-getpower = ceil(var(11)*1.6*(fvar(11)/cond(var(55)=9,(fvar(30)),1))),ceil(var(11)*0.4)
+getpower = 30,15
 givepower = ceil(var(11)*0.8*(fvar(11)/cond(var(55)=9,(fvar(30)),1))),ceil(var(11)*0.2)
 yaccel = 0.5
 fall = 0
@@ -2959,7 +2959,7 @@ ground.velocity = -5.0-7.5*(((var(10)<=1&&animelemno(0)=29)||(var(10)=2&&animele
 guard.velocity = -5.0
 air.velocity = -5.0-7.5*(((var(10)<=1&&animelemno(0)=29)||(var(10)=2&&animelemno(0)=31)||(var(10)>=3&&animelemno(0)=33))),-3.0-cond(var(24),5.0,0.0)*(((var(10)<=1&&animelemno(0)=29)||(var(10)=2&&animelemno(0)=31)||(var(10)>=3&&animelemno(0)=33)))
 airguard.velocity = -5.0,-3.0
-getpower = ceil(var(11)*1.6*(fvar(11)/cond(var(55)=10,(fvar(30)),1)))*(prevstateno!=1900),ceil(var(11)*0.4)*(prevstateno!=1900)
+getpower = 30,15
 givepower = ceil(var(11)*0.8*(fvar(11)/cond(var(55)=10,(fvar(30)),1))),ceil(var(11)*0.2)
 yaccel = 0.5
 fall = 0+1*(((var(10)<=1&&animelemno(0)=29)||(var(10)=2&&animelemno(0)=31)||(var(10)>=3&&animelemno(0)=33)))
@@ -4277,7 +4277,7 @@ ground.velocity = -8.5,-6.5
 guard.velocity = -8.5
 air.velocity = -8.5,-6.5
 airguard.velocity = -4.5,-6.5
-getpower = 1000,40
+getpower = 30,15
 givepower = ceil(80.0*fvar(11)*ifelse(var(42),1.25,1.0)),20
 yaccel = 0.5
 ground.slidetime = cond((var(32):=32+3*(var(42)!=0)+var(34))<=1,1,var(32))

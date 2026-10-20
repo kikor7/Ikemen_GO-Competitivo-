@@ -5,13 +5,14 @@
 
 [Info]
 name ="Don Krieg"
-displayname ="3"
+displayname ="Don Krieg"
 versiondate =11/01/2017
 mugenversion =1.0
 author ="Mikel8888 & Wenchu"
 pal.defaults =1,2,3,4,5,6
 
 [Files]
+movelist = movelist.dat
 sprite =DonKrieg.sff
 anim =DonKrieg.air
 sound =DonKrieg.snd

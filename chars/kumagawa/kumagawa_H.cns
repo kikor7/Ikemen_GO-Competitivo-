@@ -1235,7 +1235,7 @@ type    = S
 movetype= A
 physics = N
 anim = 2210
-poweradd = 60
+poweradd = 0
 sprpriority = 5
 
 	[State 2210,裸エプロン使用制限]
@@ -1535,7 +1535,7 @@ type    = S
 movetype= A
 physics = N
 anim = 2211
-poweradd = 60
+poweradd = 0
 sprpriority = 2
 
 [State 2210,暗転処理]
@@ -1610,7 +1610,7 @@ type    = S
 movetype= A
 physics = N
 anim = 2212
-poweradd = 60
+poweradd = 0
 sprpriority = 5
 
 [State 2210,暗転処理]

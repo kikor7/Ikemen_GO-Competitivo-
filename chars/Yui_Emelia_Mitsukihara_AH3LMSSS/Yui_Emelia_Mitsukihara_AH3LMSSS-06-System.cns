@@ -1390,7 +1390,7 @@ sprpriority = 2
 fall = 1
 fall.recovertime = 10 + 36
 id = StateNo
-getpower = 0, 0
+getpower = 60,30
 givepower = 0, 0
 p2facing = 1
 
@@ -1431,6 +1431,7 @@ anim = 51
 
 [Statedef 4200];Extend Force
 type = S
+poweradd = 20
 movetype = A
 physics = S
 sprpriority = 2
@@ -1557,7 +1558,7 @@ guard.velocity = -10
 air.velocity = -5, -5
 fall = 1
 fall.recovertime = ceil(5 * 2 / 0.35)
-getpower = 0, 0
+getpower = 30,15
 givepower = 0, 0
 
 [State helper]

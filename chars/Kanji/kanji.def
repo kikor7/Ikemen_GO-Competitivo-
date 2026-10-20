@@ -6,6 +6,7 @@ mugenversion = 04,14,2001
 author = "Silencer"
 
 [Files]
+movelist = movelist.dat
 cmd     = kanji.cmd
 cns     = kanji.cns
 st      = kanji.cns

@@ -1,0 +1,18 @@
+<#f0f000>:Special Moves:</>
+Shinryu			_QCF_DF_F^A
+ShouryuReppa			_QCF_DF_F^X
+Shinryu			_QCF_DF^A
+tatsumaki_c			_QCB^C
+Shouryuken			_DSF^Z
+Hadouken			_QCF^Z
+throw			^A_+^X
+leap			^B_+^Y
+personal action			^C_+^Z
+Especial 10			^X_+^Y
+
+<#f0f000>:Hyper Moves:</>
+Jinrai <#f00000>(1500)</>			_QCB_DB^A
+tatsumaki_EX <#f00000>(750)</>			_QCB^A
+Shouryuken_EX <#f00000>(750)</>			_DSF^X
+Hadouken_EX <#f00000>(750)</>			_QCF^X
+leap <#f00000>(1500)</>			^B_+^Y

@@ -2564,7 +2564,7 @@ physics = S
 ctrl = 0
 anim = 6100
 SprPriority = 3
-poweradd = 200
+poweradd = 0
 velset = 0,0
 
 [State 0, VelSet]
@@ -2635,7 +2635,7 @@ physics = S
 ctrl = 0
 anim = 6101
 SprPriority = 3
-poweradd = 200
+poweradd = 0
 velset = 0,0
 
 

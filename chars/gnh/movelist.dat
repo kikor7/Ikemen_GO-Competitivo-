@@ -1,0 +1,52 @@
+<#f0f000>:Special Moves:</>
+Buchikamashi Kyou			_B_D_F^B_+^Y
+Buchikamashi Jaku			_B_D_F^A_+^X
+Kiai Chuunyuu			^X_+^A
+Mahha De Taihi			_QCB^Y_+^B
+Mahha De Taihi			_QCB^X_+^A
+Kuuchuu Sugo Pa			_QCF^X
+Kuuchuu Sugo Pa			_QCF^Y
+Raitoningu			~D^X_+^Y
+Kuuchuu Nage			_QCB^Y
+Kuuchuu Kakato			_QCB^A
+Kuuchuu Sugo Ki			_QCF^A
+Kuuchuu Sugo Ki			_QCF^B
+Sugo Pa Renda			_F_B^X
+Sugo Pa Renda			_F_B^Y
+Sugoi Tobi Hiza Keri			_F_B^B
+Sugoikakato Oto Shi			_F_B^A
+Gurandobaipaa Chi			_B_D_F^A
+Gurandobaipaa Sora			_B_D_F^B
+Noboru Kaminari			_DSF^X_+^Y
+Sugoi Taikuu Panchi Butsuri			_DSF^X
+Sugoi Taikuu Panchi Tokushu			_DSF^Y
+Senpuu			_B_D_F^X
+Tataki Oto Shi			_QCB^X
+Sugoi Kikku			_DSF^A_+^B
+Sugoi Kikku			_DSF^A
+Sugoi Kikku			_DSF^B
+Mahha De Kita			_QCB^B
+Sugoi Gaado			^C_+^Z
+Seiken			^A_+^B
+Shagami Kyoku Kikku			~D^A_+^B
+
+<#f0f000>:Hyper Moves:</>
+Chou Rasshu Konjou Furukaunto 3 Geeji Waza <#f00000>(3000)</>			_F_D_B^B_+^Y
+Chou Tsu Sugoi Paaanchi Tsuujou 3 Geeji Waza <#f00000>(3000)</>			_F_D_B^A_+^X
+Chou Denkousekka 2 Geeji Waza <#f00000>(2000)</>			_F_D_B^X_+^Y
+Nnuooooo 2 Geeji Waza <#f00000>(2000)</>			_B_D_F^X_+^Y
+Tairanreibu 2 Geeji Waza <#f00000>(2000)</>			_QCF_QCF^X_+^Y
+Konjou Max 2 Geeji Waza <#f00000>(2000)</>			~D^Y_+^B
+Chou Sugoi Panchigeeji Han <#f00000>(1000)</>			_QCF_QCF^X
+Chou Sugoi Panchigeeji Han <#f00000>(1000)</>			_QCF_QCF^Y
+Chou Mahha Nage Geeji Han <#f00000>(1000)</>			_QCB_QCB^X
+Chou Mahha Nage Geeji Han <#f00000>(1000)</>			_QCB_QCB^Y
+Chou Sugoi Kikku <#f00000>(1000)</>			_QCF_QCF^B
+Chou Sugoi Keri Age <#f00000>(1000)</>			_QCF_QCF^A
+Konjou Chuunyuu <#f00000>(1000)</>			^Y_+^B
+Shun Kyokuteki Na <#f00000>(1000)</>			_QCB^A_+^B
+Mahha Kabe Ban <#f00000>(1000)</>			_QCB^X_+^Y
+Funka <#f00000>(1000)</>			_B_D_F^Y
+Denkousekka <#f00000>(1000)</>			_QCF^X_+^Y
+Denkousekka <#f00000>(1000)</>			_QCF^A_+^B
+Gaakyan <#f00000>(500)</>			^Y_+^B

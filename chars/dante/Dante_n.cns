@@ -85,7 +85,7 @@ fall.recoverTime = 20*ifelse(fvar(4) >= 75,3,1)
 yaccel = .44
 ground.cornerpush.veloff = -7
 air.cornerpush.veloff = -5
-getpower = 20,20
+getpower = 30,15
 p2facing = 1
 
 [State PlayS, 1]
@@ -280,7 +280,7 @@ fall.recoverTime = 20*ifelse(fvar(4) >= 75,3,1)
 yaccel = .44
 ground.cornerpush.veloff = -8
 air.cornerpush.veloff = -5
-getpower = 20,20
+getpower = 30,15
 p2facing = 1
 
 [State Hit, 1]
@@ -316,7 +316,7 @@ fall.recoverTime = 20*ifelse(fvar(4) >= 75,3,1)
 yaccel = .44
 ground.cornerpush.veloff = -8
 air.cornerpush.veloff = -5
-getpower = 20,20
+getpower = 30,15
 p2facing = 1
 
 [State PlayS, 1]
@@ -536,7 +536,7 @@ fall.recoverTime = 28*ifelse(fvar(4) >= 75,3,1)
 yaccel = .44
 ground.cornerpush.veloff = -11 -var(21)
 air.cornerpush.veloff = -11 -var(21)
-getpower = 28,28
+getpower = 30,15
 p2facing = 1
 
 [State PlayS, 1]
@@ -764,7 +764,7 @@ fall.recoverTime = 32*ifelse(fvar(4) >= 75,3,1)
 yaccel = .44
 ground.cornerpush.veloff = -11 -var(21)
 air.cornerpush.veloff = -11 -var(21)
-getpower = 28,28
+getpower = 30,15
 p2facing = 1
 
 [State PlayS, 1]
@@ -1011,7 +1011,7 @@ palfx.add         = -100,0,256
 palfx.sinadd      = 110,100,200,15
 palfx.color       = 256
 palfx.invertall   = 1
-getpower = 41,41
+getpower = 30,15
 p2facing = 1
 
 [State PlayS, 1]
@@ -1227,7 +1227,7 @@ yaccel = .44
 ground.cornerpush.veloff = -14 -var(21)
 air.cornerpush.veloff = -14 -var(21)
 palfx.Time        = 0
-getpower = 41,41
+getpower = 30,15
 p2facing = 1
 
 [State PlayS, 1]
@@ -1437,7 +1437,7 @@ fall.recoverTime = 28*ifelse(fvar(4) >= 75,3,1)
 yaccel = .44
 ground.cornerpush.veloff = -10
 air.cornerpush.veloff = -10
-getpower = 28,28
+getpower = 30,15
 givepower = 0,0
 p2facing = 1
 
@@ -1638,7 +1638,7 @@ fall.recoverTime = 43*ifelse(fvar(4) >= 75,3,1)
 yaccel = .44
 ground.cornerpush.veloff = -10
 air.cornerpush.veloff = -10
-getpower = 28,28
+getpower = 30,15
 givepower = 0,0
 p2facing = 1
 p2stateno = 6200
@@ -1824,7 +1824,7 @@ fall.recoverTime = 27*ifelse(fvar(4) >= 75,3,1)
 yaccel = .44
 ground.cornerpush.veloff = -11 -var(21)
 air.cornerpush.veloff = -10 -var(21)
-getpower = 32,32
+getpower = 30,15
 givepower = 0,0
 p2facing = 1
 
@@ -1999,7 +1999,7 @@ fall.recoverTime = 27*ifelse(fvar(4) >= 75,3,1)
 yaccel = .44
 ground.cornerpush.veloff = -11 -var(21)
 air.cornerpush.veloff = -10 -var(21)
-getpower = 32,32
+getpower = 30,15
 givepower = 0,0
 p2facing = 1
 
@@ -2227,7 +2227,7 @@ palfx.add         = -100,0,256
 palfx.sinadd      = 110,100,200,15
 palfx.color       = 256
 palfx.invertall   = 1
-getpower = 24,24
+getpower = 15,7
 givepower = 0,0
 p2facing = 1
 
@@ -2268,7 +2268,7 @@ palfx.add         = -100,0,256
 palfx.sinadd      = 110,100,200,15
 palfx.color       = 256
 palfx.invertall   = 1
-getpower = 24,24
+getpower = 15,7
 givepower = 0,0
 p2facing = 1
 
@@ -2618,7 +2618,7 @@ palfx.add         = -100,0,256
 palfx.sinadd      = 110,100,200,15
 palfx.color       = 256
 palfx.invertall   = 1
-getpower = 41,41
+getpower = 30,15
 p2facing = 1
 p2stateno = ifelse(p2statetype = A,6200,6100)
 
@@ -2662,7 +2662,7 @@ palfx.add         = -100,0,256
 palfx.sinadd      = 110,100,200,15
 palfx.color       = 256
 palfx.invertall   = 1
-getpower = 41,41
+getpower = 30,15
 p2facing = 1
 
 [State PlayS, 1]
@@ -2891,7 +2891,7 @@ fall = 1
 fall.recoverTime = 40*ifelse(fvar(4) >= 75,3,1)
 ground.cornerpush.veloff = 0
 air.cornerpush.veloff = -11
-getpower = 20,5
+getpower = 15,7
 givepower = 0,0
 p2facing = 1
 
@@ -2930,7 +2930,7 @@ fall = 1
 fall.recoverTime = 40*ifelse(fvar(4) >= 75,3,1)
 ground.cornerpush.veloff = 0
 air.cornerpush.veloff = -11
-getpower = 20,5
+getpower = 15,7
 givepower = 0,0
 p2facing = 1
 p2stateno = 6000
@@ -3174,7 +3174,7 @@ fall.recoverTime = 20*ifelse(fvar(4) >= 75,3,1)
 yaccel = .44
 ground.cornerpush.veloff = -7
 air.cornerpush.veloff = -5
-getpower = 20,20
+getpower = 30,15
 givepower = 0,0
 p2facing = 1
 
@@ -3377,7 +3377,7 @@ fall.recoverTime = 20*ifelse(fvar(4) >= 75,3,1)
 yaccel = .44
 ground.cornerpush.veloff = -7
 air.cornerpush.veloff = -5
-getpower = 20,20
+getpower = 30,15
 givepower = 0,0
 p2facing = 1
 
@@ -3595,7 +3595,7 @@ fall.recoverTime = 20*ifelse(fvar(4) >= 75,3,1)
 yaccel = .44
 ground.cornerpush.veloff = -9
 air.cornerpush.veloff = -7
-getpower = 28,28
+getpower = 30,15
 givepower = 0,0
 p2facing = 1
 
@@ -3820,7 +3820,7 @@ fall = ifelse(var(50) = 1,1,0)
 fall.recoverTime = 32*ifelse(fvar(4) >= 75,3,1)
 ground.cornerpush.veloff = -10
 air.cornerpush.veloff = -10
-getpower = 22,22
+getpower = 15,7
 givepower = 0,0
 p2facing = 1
 
@@ -3855,7 +3855,7 @@ fall = ifelse(var(50) = 1,1,0)
 fall.recoverTime = 32*ifelse(fvar(4) >= 75,3,1)
 ground.cornerpush.veloff = -10
 air.cornerpush.veloff = -10
-getpower = 22,22
+getpower = 15,7
 givepower = 0,0
 p2facing = 1
 
@@ -4176,7 +4176,7 @@ fall.recoverTime = 32*ifelse(fvar(4) >= 75,3,1)
 yaccel = .44
 ground.cornerpush.veloff = -10
 air.cornerpush.veloff = -10
-getpower = 22,22
+getpower = 30,15
 givepower = 0,0
 p2facing = 1
 
@@ -4397,7 +4397,7 @@ fall.recoverTime = 32*ifelse(fvar(4) >= 75,3,1)
 yaccel = .44
 ground.cornerpush.veloff = -9
 air.cornerpush.veloff = -7
-getpower = 38,38
+getpower = 30,15
 givepower = 0,0
 p2facing = 1
 
@@ -4671,7 +4671,7 @@ fall.recoverTime = 20*ifelse(fvar(4) >= 75,3,1)
 yaccel = .44
 ground.cornerpush.veloff = -3 -var(21)
 air.cornerpush.veloff = -3 -var(21)
-getpower = 20,20
+getpower = 15,7
 givepower = 0,0
 p2facing = 1
 
@@ -4711,7 +4711,7 @@ fall.recoverTime = 20*ifelse(fvar(4) >= 75,3,1)
 yaccel = .44
 ground.cornerpush.veloff = -1
 air.cornerpush.veloff = -1
-getpower = 20,20
+getpower = 15,7
 givepower = 0,0
 p2facing = 1
 p2stateno = 6000
@@ -5015,7 +5015,7 @@ fall.recoverTime = 25*ifelse(fvar(4) >= 75,3,1)
 yaccel = .44
 ground.cornerpush.veloff = -5 -var(21)
 air.cornerpush.veloff = -5 -var(21)
-getpower = 26,26
+getpower = 15,7
 givepower = 0,0
 p2facing = 1
 
@@ -5055,7 +5055,7 @@ fall.recoverTime = 25*ifelse(fvar(4) >= 75,3,1)
 yaccel = .44
 ground.cornerpush.veloff = -1 -var(21)
 air.cornerpush.veloff = -1 -var(21)
-getpower = 26,26
+getpower = 15,7
 givepower = 0,0
 p2facing = 1
 p2stateno = 6000
@@ -5445,7 +5445,7 @@ palfx.add         = -100,0,256
 palfx.sinadd      = 110,100,200,15
 palfx.color       = 256
 palfx.invertall   = 1
-getpower = 32,32
+getpower = 15,7
 givepower = 0,0
 p2facing = 1
 
@@ -5490,7 +5490,7 @@ palfx.add         = -100,0,256
 palfx.sinadd      = 110,100,200,15
 palfx.color       = 256
 palfx.invertall   = 1
-getpower = 32,32
+getpower = 15,7
 givepower = 0,0
 p2facing = 1
 p2stateno = 6000
@@ -5810,7 +5810,7 @@ fall.recoverTime = 27*ifelse(fvar(4) >= 75,3,1)
 yaccel = .44
 ground.cornerpush.veloff = -9 -var(21)
 air.cornerpush.veloff = -9 -var(21)
-getpower = 42,42
+getpower = 15,7
 givepower = 0,0
 p2facing = 1
 
@@ -5850,7 +5850,7 @@ fall.recoverTime = 27*ifelse(fvar(4) >= 75,3,1)
 yaccel = .44
 ground.cornerpush.veloff = -4 -var(21)
 air.cornerpush.veloff = -4 -var(21)
-getpower = 42,42
+getpower = 15,7
 givepower = 0,0
 p2facing = 1
 p2stateno = 6000
@@ -6008,7 +6008,7 @@ type    = a
 movetype= a
 physics = a
 juggle  = 4
-poweradd= 65
+poweradd= 0
 ctrl = 0
 anim = 640
 
@@ -6069,6 +6069,7 @@ trigger1 = animelem = 3
 attr = S, NA
 animtype  = medium
 damage    = 26
+getpower = 30,15
 guardflag = MA
 pausetime = 0,12
 sparkno = 1
@@ -6429,7 +6430,7 @@ fall.recoverTime = 42*ifelse(fvar(4) >= 75,3,1)
 yaccel = .44
 ground.cornerpush.veloff = -12 -var(21)
 air.cornerpush.veloff = -8 -var(21)
-getpower = 34,34
+getpower = 15,7
 givepower = 0,0
 p2facing = 1
 
@@ -6469,7 +6470,7 @@ fall.recoverTime = 42*ifelse(fvar(4) >= 75,3,1)
 yaccel = .44
 ground.cornerpush.veloff = -1 -var(21)
 air.cornerpush.veloff = -1 -var(21)
-getpower = 26,26
+getpower = 15,7
 givepower = 0,0
 p2facing = 1
 p2stateno = 6000
@@ -6636,6 +6637,7 @@ ctrl = 0
 
 [State Hit, 1]
 type = HitDef
+getpower = 60,30
 Trigger1 = Time = 0
 Trigger1 = p2movetype != H
 attr = S,NT
@@ -6700,7 +6702,7 @@ value = 1
 [State PowerA, 1]
 type = Poweradd
 Trigger1 = Time = 0
-value = 60
+value = 0
 
 [State TargetB, 1]
 type = TargetBind
@@ -7059,6 +7061,7 @@ ctrl = 0
 
 [State Hit, 1]
 type = HitDef
+getpower = 60,30
 Trigger1 = Time = 0
 Trigger1 = p2movetype != H
 attr = A,NT
@@ -7110,7 +7113,7 @@ value = 1
 [State PowerA, 1]
 type = Poweradd
 Trigger1 = Time = 0
-value = 60
+value = 0
 
 [State TargetB, 1]
 type = TargetBind

@@ -10,6 +10,7 @@ Author       = "souken"      ;このキャラの作成者の名前
 Pal.Defaults = 1         ;CPUで出てくるキャラカラーの順番
 
 [Files]
+movelist = movelist.dat
 Cmd      = jinmen.cmd          ;入力コマンド定義ファイルの登録
 Cns      = jinmen.cns          ;基本ステータス情報ファイルの登録
 St       = jinmen.cns          ;動作プログラムファイルの登録（最大１０個くらい増やせます（St,St0,St1,St2......））

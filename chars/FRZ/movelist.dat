@@ -1,0 +1,31 @@
+<#f0f000>:Special Moves:</>
+Fatality			_QCB_F^A
+Especial 2			_D_B^Y
+Especial 3			_D_B^X
+Especial 4			_D_B^Z
+Especial 5			_QCB^A
+Especial 6			_QCB^B
+Especial 7			_QCB^C
+Especial 8			_D_D^X
+Especial 9			_D_D^Y
+Especial 10			_D_D^Z
+rugal			_QCF^B
+rugal			_QCF^C
+Final Strong Back Kick			_QCF^A
+Especial 14			_QCF^Y
+Especial 15			_QCF^X
+fw			^B_+^Y
+Especial 17			_QCF^Y
+Especial 18			^C_+^Z
+Especial 19			_QCF^Y
+
+<#f0f000>:Hyper Moves:</>
+Fatality <#f00000>(1000)</>			_QCB_F^A
+Super 2 <#f00000>(1000)</>			_QCB_F^X
+Super 3 <#f00000>(2000)</>			_QCB_F^Z
+Super 4 <#f00000>(800)</>			_D_F^Z
+fw <#f00000>(2000)</>			^X_+^Y
+zarbon <#f00000>(2000)</>			^Y_+^Z
+Super 7 <#f00000>(1000)</>			_QCB_F^Y
+Super 8 <#f00000>(2000)</>			_QCB_F^Y
+Super 9 <#f00000>(2000)</>			_QCB_F^X

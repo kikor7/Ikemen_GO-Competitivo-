@@ -12,6 +12,7 @@ author ="Alexei Roschak"
 pal.defaults =1,2,3,4
 
 [Files]
+movelist = movelist.dat
 sprite =miroku.sff
 anim =miroku.air
 sound =miroku.jp.snd

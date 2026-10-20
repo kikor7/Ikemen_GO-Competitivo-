@@ -98,7 +98,7 @@ movetype= a
 physics = s
 ctrl = 0
 anim = 200
-poweradd = 10
+poweradd = 0
 
 [state 200, playsnd]
 type = playsnd
@@ -117,7 +117,7 @@ ground.type = high
 priority = 3,hit
 sprpriority = 1
 damage = floor(8*fvar(1)),0
-getpower = 13,7
+getpower = 30,15
 givepower = 8,5
 ground.hittime  = 19
 air.hittime = 19
@@ -146,7 +146,7 @@ ctrl = 1
 type    = s
 movetype= a
 physics = s
-poweradd= 30
+poweradd= 0
 ctrl = 0
 anim = 210
 
@@ -181,7 +181,7 @@ ground.type = high
 priority = 3,hit
 sprpriority = 1
 damage = floor(15*fvar(1)),0
-getpower = 36,18
+getpower = 30,15
 givepower = 10,5
 ground.hittime  = 22
 air.hittime = 27
@@ -212,7 +212,7 @@ movetype= a
 physics = s
 ctrl = 0
 anim = 220
-poweradd = 60
+poweradd = 0
 
 [state 220, varrandom]
 type = varrandom
@@ -275,7 +275,7 @@ ground.type = high
 priority = 5,hit
 sprpriority = 1
 damage = floor(28*fvar(1)),0
-getpower = 90,30
+getpower = 30,15
 givepower = 20,5
 ground.hittime  = 40
 air.hittime = 60
@@ -307,7 +307,7 @@ movetype= a
 physics = s
 ctrl = 0
 anim = 230
-poweradd = 16
+poweradd = 0
 
 [state 230, playsnd]
 type = playsnd
@@ -326,7 +326,7 @@ ground.type = low
 priority = 3,hit
 sprpriority = 1
 damage = floor(7*fvar(1)),0
-getpower = 15,9
+getpower = 30,15
 givepower = 8,5
 ground.hittime  = 23
 air.hittime = 26
@@ -357,7 +357,7 @@ movetype= a
 physics = c
 ctrl = 0
 anim = 240
-poweradd = 40
+poweradd = 0
 
 [state 240, playsnd]
 type = playsnd
@@ -406,7 +406,7 @@ ground.type = low
 priority = 3,hit
 sprpriority = 1
 damage = floor(14*fvar(1)),0
-getpower = 36,18
+getpower = 30,15
 givepower = 10,5
 ground.hittime  = 23
 air.hittime = 28
@@ -435,7 +435,7 @@ ctrl = 1
 type    = s
 movetype= a
 physics = s
-poweradd= 40
+poweradd= 0
 ctrl = 0
 anim = 250
 
@@ -507,7 +507,7 @@ ground.type = trip
 priority = 3,hit
 sprpriority = 1
 damage = floor(36*fvar(1)),0
-getpower = 50,10
+getpower = 30,15
 givepower = 10,5
 ground.hittime  = 30
 air.hittime = 50
@@ -539,7 +539,7 @@ movetype= a
 physics = c
 ctrl = 0
 anim = 300
-poweradd = 12
+poweradd = 0
 
 [state 300, playsnd]
 type = playsnd
@@ -558,7 +558,7 @@ ground.type = low
 priority = 3,hit
 sprpriority = 1
 damage = floor(5*fvar(1)),0
-getpower = 15,9
+getpower = 30,15
 givepower = 8,5
 ground.hittime  = 15
 air.hittime = 26
@@ -587,7 +587,7 @@ ctrl = 1
 type    = c
 movetype= a
 physics = c
-poweradd= 25
+poweradd= 0
 ctrl = 0
 anim = 310
 
@@ -622,7 +622,7 @@ ground.type = high
 priority = 3,hit
 sprpriority = 1
 damage = floor(13*fvar(1)),0
-getpower = 33,16
+getpower = 30,15
 givepower = 10,5
 ground.hittime  = 19
 air.hittime = 19
@@ -651,7 +651,7 @@ ctrl = 1
 type    = c
 movetype= a
 physics = c
-poweradd= 36
+poweradd= 0
 ctrl    = 0
 anim    = 320
 
@@ -707,7 +707,7 @@ ground.type = high
 priority = 4,hit
 sprpriority = 1
 damage = floor(25*fvar(1)),0
-getpower = 80,36
+getpower = 30,15
 givepower = 20,5
 ground.hittime  = 30
 air.hittime = 90
@@ -738,7 +738,7 @@ movetype= a
 physics = c
 ctrl = 0
 anim = 330
-poweradd = 12
+poweradd = 0
 
 [state 330, playsnd]
 type = playsnd
@@ -757,7 +757,7 @@ ground.type = low
 priority = 3,hit
 sprpriority = 1
 damage = floor(7*fvar(1)),0
-getpower = 15,9
+getpower = 30,15
 givepower = 8,5
 ground.hittime  = 23
 air.hittime = 26
@@ -786,7 +786,7 @@ ctrl = 1
 type    = c
 movetype= a
 physics = c
-poweradd= 25
+poweradd= 0
 ctrl = 0
 anim = 340
 
@@ -873,7 +873,7 @@ ground.type = high
 priority = 3,hit
 sprpriority = 1
 damage = floor(14*fvar(1)),0
-getpower = 20,16
+getpower = 30,15
 givepower = 10,5
 ground.hittime  = 21
 air.hittime = 17
@@ -902,7 +902,7 @@ ctrl = 1
 type    = c
 movetype= a
 physics = c
-poweradd= 60
+poweradd= 0
 ctrl    = 0
 anim    = 350
 
@@ -928,7 +928,7 @@ ground.type = low
 priority = 4,hit
 sprpriority = 1
 damage = floor(31*fvar(1)),0
-getpower = 90,60
+getpower = 30,15
 givepower = 25,5
 ground.hittime  = 24
 air.hittime = 90
@@ -960,7 +960,7 @@ ctrl = 1
 type    = a
 movetype= a
 physics = a
-poweradd= 10
+poweradd= 0
 ctrl = 0
 anim = 400
 
@@ -981,7 +981,7 @@ ground.type = high
 priority = 4,hit
 sprpriority = 1
 damage = floor(7*fvar(1)),0
-getpower = 12,10
+getpower = 30,15
 givepower = 8,5
 ground.hittime  = 15-14*(var(13)=2)
 air.hittime = 15
@@ -1012,7 +1012,7 @@ ctrl = 1
 type    = a
 movetype= a
 physics = a
-poweradd= 30
+poweradd= 0
 ctrl = 0
 anim = 410
 
@@ -1047,7 +1047,7 @@ ground.type = high
 priority = 4,hit
 sprpriority = 1
 damage = floor(12*fvar(1)),0
-getpower = 30,14
+getpower = 30,15
 givepower = 10,5
 ground.hittime  = 20-19*(var(13)=2)
 air.hittime = 22
@@ -1078,7 +1078,7 @@ ctrl = 1
 type    = a
 movetype= a
 physics = a
-poweradd= 45
+poweradd= 0
 ctrl = 0
 anim = 420
 
@@ -1116,7 +1116,7 @@ ground.type = low
 priority = 4,hit
 sprpriority = 1
 damage = floor(22*fvar(1))+(animelemtime(6)>=0)*11,0
-getpower = 90,60
+getpower = 30,15
 givepower = 25,5
 ground.hittime  = 24
 air.hittime = 90
@@ -1173,7 +1173,7 @@ ctrl = 1
 type    = a
 movetype= a
 physics = a
-poweradd= 16
+poweradd= 0
 ctrl = 0
 anim = 430
 
@@ -1194,7 +1194,7 @@ ground.type = high
 priority = 4,hit
 sprpriority = 1
 damage = floor(9*fvar(1)),0
-getpower = 18,10
+getpower = 30,15
 givepower = 9,5
 ground.hittime  = 16-15*(var(13)=2)
 air.hittime = 19
@@ -1225,7 +1225,7 @@ ctrl = 1
 type    = a
 movetype= a
 physics = a
-poweradd= 40
+poweradd= 0
 ctrl = 0
 anim = 440
 
@@ -1246,7 +1246,7 @@ ground.type = high
 priority = 4,hit
 sprpriority = 1
 damage = floor(13*fvar(1)),0
-getpower = 35,17
+getpower = 30,15
 givepower = 12,5
 ground.hittime  = 24-23*(var(13)=2)
 air.hittime = 26
@@ -1277,7 +1277,7 @@ ctrl = 1
 type    = a
 movetype= i
 physics = a
-poweradd= 80
+poweradd= 0
 ctrl = 0
 velset = 0,0
 anim = 460
@@ -1326,7 +1326,7 @@ ground.type = high
 priority = 4,hit
 sprpriority = 1
 damage = floor(20*fvar(1)),0
-getpower = 120,5
+getpower = 60,30
 givepower = 20,5
 ground.hittime = 27
 air.hittime = 33
@@ -1405,7 +1405,7 @@ attr = s,nt
 hitflag = m-
 priority = 1,miss
 sparkno = -1
-getpower = 100,0
+getpower = 20,10
 p1sprpriority = 1
 p1facing = ifelse(var(7)=1,1,-1)
 p2facing = 1
@@ -1448,7 +1448,7 @@ type    = s
 movetype= a
 physics = s
 anim = 501
-poweradd = 50
+poweradd = 0
 
 [state 501, playsnd]
 type = playsnd
@@ -1490,7 +1490,7 @@ ground.type = low
 priority = 4,hit
 sprpriority = 1
 damage = floor(20*fvar(1)),0
-getpower = 50,25
+getpower = 20,10
 givepower = 10,5
 ground.hittime  = 35
 air.hittime = 35
@@ -1531,7 +1531,7 @@ type    = s
 movetype= a
 physics = s
 anim = 502
-poweradd = 50
+poweradd = 0
 
 [state 502, velset]
 type = velset
@@ -1550,7 +1550,7 @@ ground.type = low
 priority = 4,hit
 sprpriority = 1
 damage = floor(25*fvar(1)),0
-getpower = 50,25
+getpower = 20,10
 givepower = 10,5
 ground.hittime  = 35
 air.hittime = 35
@@ -1627,7 +1627,7 @@ movetype= a
 physics = a
 ctrl = 0
 anim = 550
-poweradd = 20
+poweradd = 0
 
 [state 550, varset]
 type = varset
@@ -1642,6 +1642,7 @@ value = 0,0
 
 [state 550, hitdef]
 type = hitdef
+getpower = 60,30
 trigger1 = animelemtime(2) = 0
 affectteam = e
 attr = a,nt
@@ -1679,7 +1680,7 @@ type    = a
 movetype= a
 physics = a
 anim = 551
-poweradd = 50
+poweradd = 0
 
 [state 551, width]
 type = width

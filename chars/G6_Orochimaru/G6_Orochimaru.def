@@ -12,6 +12,7 @@ author ="CobraG6"
 pal.defaults =1
 
 [Files]
+movelist = movelist.dat
 sprite =Orochimaru.sff
 anim =Orochimaru.air
 sound =Orochimaru.snd

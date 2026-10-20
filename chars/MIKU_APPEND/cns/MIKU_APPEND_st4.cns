@@ -8979,7 +8979,7 @@ air.velocity=-1.5,-1
 air.hittime=60
 fall=1
 fall.recover=0
-getpower=0,0
+getpower = 30,15
 
 [State ]
 type=HitDef
@@ -9003,7 +9003,7 @@ air.velocity=-1.5,-1
 air.hittime=120
 fall=1
 fall.recover=0
-getpower=0,0
+getpower = 30,15
 
 [State ]
 type=Explod

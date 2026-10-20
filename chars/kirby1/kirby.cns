@@ -712,7 +712,7 @@ juggle  = 1                      ;Number of air juggle points move takes
 velset = 0,0                     ;Set velocity (x,y) (Def: no change)
 ctrl = 0                         ;Set ctrl (Def: no change)
 anim = 200                       ;Change animation (Def: no change)
-poweradd = 25                    ;Power to add (Def: 0)
+poweradd = 0                    ;Power to add (Def: 0)
 sprpriority = 2                  ;Set p1's sprite layering priority to 2 (in front)
 
 [State 200, 1]
@@ -720,6 +720,7 @@ type = HitDef
 trigger1 = !Time
 attr = S, NA                     ;Attribute: Standing, Normal Attack
 damage = 20, ifelse(palno >= 10, 10, 0)                   ;Damage that move inflicts, guard damage
+getpower = 30,15
 animtype = Light                 ;Animation type: Light, Medium, Heavy, Back (def: Light)
 guardflag = MA                   ;Flags on how move is to be guarded against
 hitflag = MAF                    ;Flags of conditions that move can hit
@@ -772,7 +773,7 @@ type    = S
 movetype= A
 physics = S
 juggle  = 4
-poweradd= 45
+poweradd= 0
 ctrl = 0
 velset = 0,0
 anim = 210
@@ -789,6 +790,7 @@ trigger1 = !Time
 attr = S, NA
 animtype  = Med
 damage    = 40, ifelse(palno >= 10, 20, 0)  
+getpower = 30,15
 guardflag = MA
 pausetime = 9,9
 sparkno = s6100
@@ -820,7 +822,7 @@ type    = S
 movetype= A
 physics = S
 juggle  = 4
-poweradd= 65
+poweradd= 0
 ctrl = 0
 velset = 0,0
 anim = 220
@@ -844,6 +846,7 @@ trigger1 = !Time
 attr = S, NA
 animtype  = Heavy
 damage    = 60, ifelse(palno >= 10, 30, 0)  
+getpower = 30,15
 guardflag = MA
 pausetime = 12,12
 sparkno = s6200
@@ -874,7 +877,7 @@ type    = S
 movetype= A
 physics = S
 juggle  = 4
-poweradd= 25
+poweradd= 0
 ctrl = 0
 velset = 0,0
 anim = 230
@@ -898,6 +901,7 @@ trigger1 = Time = 0
 attr = S, NA
 animtype  = light
 damage    = 20, ifelse(palno >= 10, 10, 0)  
+getpower = 30,15
 guardflag = MA
 pausetime = 7,7
 sparkno = s6000
@@ -931,7 +935,7 @@ type    = S
 movetype= A
 physics = S
 juggle  = 5
-poweradd= 45
+poweradd= 0
 ctrl = 0
 velset = 0,0
 anim = 240
@@ -955,6 +959,7 @@ trigger1 = Time = 0
 attr = S, NA
 animtype  = Medium
 damage    = 40, ifelse(palno >= 10, 20, 0)  
+getpower = 30,15
 guardflag = MA
 pausetime = 9,9
 sparkno = s6100
@@ -985,7 +990,7 @@ type    = S
 movetype= A
 physics = S
 juggle  = 5
-poweradd= 65
+poweradd= 0
 ctrl = 0
 velset = 0,0
 anim = 250
@@ -1026,6 +1031,7 @@ trigger1 = Time = 0
 attr = S, NA
 animtype  = Hard
 damage    = 60, ifelse(palno >= 10, 30, 0)  
+getpower = 30,15
 guardflag = MA
 pausetime = 12,12
 sparkno = s6200
@@ -1081,7 +1087,7 @@ type    = C
 movetype= A
 physics = C
 juggle  = 3
-poweradd= 25
+poweradd= 0
 ctrl = 0
 anim = 400
 sprpriority = 2
@@ -1096,6 +1102,7 @@ type = HitDef
 trigger1 = Time = 0
 attr = C, NA
 damage    = 20, ifelse(palno >= 10, 10, 0)  
+getpower = 30,15
 priority  = 3
 animtype  = Light
 hitflag = MAFD
@@ -1141,7 +1148,7 @@ type    = C
 movetype= A
 physics = C
 juggle  = 3
-poweradd= 45
+poweradd= 0
 ctrl = 0
 anim = 410
 sprpriority = 2
@@ -1158,6 +1165,7 @@ attr = S, NA
 animtype  = Med
 hitflag = MAFD
 damage    = 40, ifelse(palno >= 10, 20, 0)  
+getpower = 30,15
 guardflag = M
 pausetime = 9,9
 sparkno = s6100
@@ -1212,6 +1220,7 @@ type = HitDef
 trigger1 = !Time
 attr = C, NA
 damage    = 60, ifelse(palno >= 10, 30, 0)  
+getpower = 30,15
 animtype  = Heavy
 hitflag = MAFD
 guardflag = M
@@ -1257,7 +1266,7 @@ type    = C
 movetype= A
 physics = C
 juggle  = 5
-poweradd= 25
+poweradd= 0
 ctrl = 0
 anim = 430
 sprpriority = 2
@@ -1272,6 +1281,7 @@ type = HitDef
 trigger1 = Time = 0
 attr = C, NA
 damage    = 20, ifelse(palno >= 10, 10, 0)  
+getpower = 30,15
 animtype  = Light
 hitflag = MAFD
 guardflag = L
@@ -1307,7 +1317,7 @@ type    = C
 movetype= A
 physics = C
 juggle  = 5
-poweradd= 45
+poweradd= 0
 ctrl = 0
 anim = 440
 sprpriority = 2
@@ -1322,6 +1332,7 @@ type = HitDef
 trigger1 = Time = 0
 attr = C, NA
 damage    = 40, ifelse(palno >= 10, 20, 0)  
+getpower = 30,15
 animtype  = Medium
 hitflag = MAFD
 guardflag = L
@@ -1355,7 +1366,7 @@ type    = C
 movetype= A
 physics = C
 juggle  = 7
-poweradd= 65
+poweradd= 0
 ctrl = 0
 anim = 450
 sprpriority = 2
@@ -1370,6 +1381,7 @@ type = HitDef
 trigger1 = Time = 0
 attr = C, NA
 damage    = 60, ifelse(palno >= 10, 30, 0)  
+getpower = 30,15
 hitflag = MAFD
 guardflag = L
 pausetime = 12,12
@@ -1410,7 +1422,7 @@ type    = A
 movetype= A
 physics = A
 juggle  = 2
-poweradd= 20
+poweradd= 0
 ctrl = 0
 anim = 600
 sprpriority = 2
@@ -1425,6 +1437,7 @@ type = HitDef
 trigger1 = Time = 0
 attr = A, NA
 damage    = 20, ifelse(palno >= 10, 10, 0)  
+getpower = 30,15
 guardflag = HA
 priority = 3
 pausetime = 7,8
@@ -1465,7 +1478,7 @@ type    = A
 movetype= A
 physics = A
 juggle  = 4
-poweradd= 40
+poweradd= 0
 ctrl = 0
 anim = 610
 sprpriority = 2
@@ -1482,6 +1495,7 @@ type = HitDef
 trigger1 = !Time
 attr = A, NA
 damage = 40, ifelse(palno >= 10, 20, 0)  
+getpower = 30,15
 guardflag = HA
 priority = 4
 pausetime = 9,9
@@ -1520,7 +1534,7 @@ type    = A
 movetype= A
 physics = A
 juggle  = 4
-poweradd= 60
+poweradd= 0
 ctrl = 0
 anim = 620
 sprpriority = 2
@@ -1535,6 +1549,7 @@ type = HitDef
 trigger1 = !Time
 attr = A, NA
 damage = 60, ifelse(palno >= 10, 30, 0)  
+getpower = 30,15
 guardflag = HA
 priority = 4
 pausetime = 12,12
@@ -1573,7 +1588,7 @@ type    = A
 movetype= A
 physics = A
 juggle  = 3
-poweradd= 20
+poweradd= 0
 ctrl = 0
 anim = 630
 sprpriority = 2
@@ -1588,6 +1603,7 @@ type = HitDef
 trigger1 = !Time
 attr = A, NA
 damage = 20, ifelse(palno >= 10, 10, 0)  
+getpower = 30,15
 guardflag = HA
 priority = 3
 pausetime = 8,8
@@ -1626,7 +1642,7 @@ type    = A
 movetype= A
 physics = A
 juggle  = 4
-poweradd= 40
+poweradd= 0
 ctrl = 0
 anim = 640
 sprpriority = 2
@@ -1641,6 +1657,7 @@ type = HitDef
 trigger1 = !Time
 attr = A, NA
 damage = 40, ifelse(palno >= 10, 20, 0)  
+getpower = 30,15
 guardflag = HA
 priority = 4
 pausetime = 8,8
@@ -1681,7 +1698,7 @@ type    = A
 movetype= A
 physics = A
 juggle  = 4
-poweradd= 60
+poweradd= 0
 ctrl = 0
 anim = 650
 sprpriority = 2
@@ -1696,6 +1713,7 @@ type = HitDef
 trigger1 = Time = 0
 attr = A, NA
 damage    = 60, ifelse(palno >= 10, 30, 0)  
+getpower = 30,15
 guardflag = HA
 priority = 4
 pausetime = 12,12
@@ -1738,7 +1756,7 @@ type    = A
 movetype= A
 physics = A
 juggle  = 8
-poweradd= 65
+poweradd= 0
 ctrl = 0
 anim = 660
 sprpriority = 2
@@ -1765,6 +1783,7 @@ type = HitDef
 trigger1 = !Time
 attr = A, NA
 damage    = 30, ifelse(palno >= 10, 15, 0)  
+getpower = 30,15
 hitflag = MAFD
 guardflag = HA
 animtype = Hard
@@ -1829,6 +1848,7 @@ value = 1
 ; CNS difficulty: easy
 [Statedef 670]
 type    = A
+poweradd = 20
 movetype= A
 physics = A
 ctrl = 0
@@ -1905,6 +1925,7 @@ type = HitDef
 trigger1 = !time
 attr = A, NP
 damage = 15
+getpower = 30,15
 animtype = Hard
 hitflag = MAFD
 guardflag = MA
@@ -1941,7 +1962,7 @@ type    = A
 movetype= I
 physics = N
 juggle  = 4
-poweradd= 65
+poweradd= 0
 ctrl = 0
 anim = 680
 sprpriority = 2
@@ -2003,6 +2024,7 @@ type = HitDef
 trigger1 = !Time
 attr = A, NA
 damage    = 90, ifelse(palno >= 10, 45, 0)  
+getpower = 15,7
 hitflag = MAFD
 guardflag = HA
 priority = 4
@@ -2089,6 +2111,7 @@ type = HitDef
 trigger1 = !Time
 attr = A, NA
 damage    = 20, ifelse(palno >= 10, 10, 0)  
+getpower = 15,7
 hitflag = M
 guardflag = HA
 priority = 4
@@ -2379,6 +2402,7 @@ sprpriority = 2
 ;   otherwise strange behavior can result.
 [State 800, 1]
 type = HitDef
+getpower = 60,30
 Trigger1 = Time = 0
 attr = S, NT          ;Attributes: Standing, Normal Throw
 hitflag = M-          ;Affect only ground people who are not being hit
@@ -2856,6 +2880,7 @@ sprpriority = 2
 ;   otherwise strange behavior can result.
 [State 800, 1]
 type = HitDef
+getpower = 60,30
 Trigger1 = Time = 0
 attr = A, NT          ;Attributes: Standing, Normal Throw
 hitflag = AF
@@ -3085,6 +3110,7 @@ value = 5110 ;Hit ground
 ;Inhale
 [Statedef 1000]
 type    = S
+poweradd = 20
 movetype= I
 physics = S
 juggle  = 0
@@ -3287,6 +3313,7 @@ anim = 1040
 
 [State 800, 1]
 type = HitDef
+getpower = 15,7
 triggerall = enemynear,prevstateno != 1051
 trigger1 = root,stateno = 1000
 ;rigger1 = Time = 0
@@ -3305,6 +3332,7 @@ id = 1050
 
 [State 800, 1]
 type = HitDef
+getpower = 15,7
 triggerall = enemynear,prevstateno = 1051
 trigger1 = root,stateno = 1000
 ;Trigger1 = Time = 0
@@ -3431,7 +3459,7 @@ type    = S
 movetype= A
 physics = S
 juggle  = 5
-poweradd= 65
+poweradd= 0
 velset = 0,0
 anim = 1100
 ctrl = 0
@@ -3491,6 +3519,7 @@ trigger1 = !Time
 attr = S, SA
 animtype  = Hard
 damage    = 100, ifelse(palno >= 10, 64, 14)
+getpower = 60,30
 priority  = 7
 guardflag = MA
 pausetime = 15,15
@@ -3517,6 +3546,7 @@ trigger1 = !Time
 attr = S, SA
 animtype  = Hard
 damage    = 100, ifelse(palno >= 10, 64, 14)
+getpower = 60,30
 priority  = 7
 guardflag = MA
 pausetime = 15,15
@@ -3729,7 +3759,7 @@ type    = A
 movetype= A
 physics = A
 juggle  = 4
-poweradd= 65
+poweradd= 0
 ;velset = 0,0
 anim = 1110
 ctrl = 0
@@ -3779,6 +3809,7 @@ trigger1 = AnimElem = 3
 attr = A, SA
 animtype  = Hard
 damage    = 45, ifelse(palno >= 10, 28, 5)
+getpower = 30,15
 priority  = 7
 guardflag = MA
 pausetime = 10,10
@@ -3807,6 +3838,7 @@ trigger1 = AnimElem = 11
 attr = A, SA
 animtype  = Hard
 damage    = 65, ifelse(palno >= 10, 38, 5)
+getpower = 30,15
 priority  = 7
 guardflag = MA
 pausetime = 15,15
@@ -3864,7 +3896,7 @@ velset = 0,0
 anim = 1200
 ctrl = 0
 sprpriority = 2
-poweradd = 60
+poweradd = 0
 
 [State 0, PlaySnd]
 type = PlaySnd
@@ -3952,6 +3984,7 @@ trigger1 = !Time
 attr = S, SA
 animtype  = Up
 damage    = 80, ifelse(palno >= 10, 47, 7)
+getpower = 60,30
 hitflag = MAFD
 priority  = 6
 guardflag = MA
@@ -4616,7 +4649,7 @@ type    = S
 movetype= A
 physics = N
 juggle  = 5
-poweradd= 65
+poweradd= 0
 velset = 0,0
 anim = 1400
 ctrl = 0
@@ -4921,7 +4954,7 @@ ignorehitpause = 1
 type    = S
 movetype= I
 physics = S
-poweradd= 65
+poweradd= 20
 velset = 0,0
 anim = 1500
 ctrl = 0
@@ -5285,6 +5318,7 @@ type = HitDef
 trigger1 = Time % 7 = 0
 attr = S, SP
 damage = 15,1
+getpower = 10,5
 animtype = Heavy
 air.animtype = Up
 guardflag = MA
@@ -5387,6 +5421,7 @@ type = HitDef
 trigger1 = Time % 7 = 0
 attr = S, SP
 damage = 20,4
+getpower = 10,5
 animtype = Heavy
 air.animtype = Up
 guardflag = MA
@@ -5489,6 +5524,7 @@ type = HitDef
 trigger1 = Time % 7 = 0
 attr = S, SP
 damage = 25,7
+getpower = 10,5
 animtype = Heavy
 air.animtype = Up
 guardflag = MA
@@ -5536,7 +5572,7 @@ type    = S
 movetype= A
 physics = N
 juggle  = 5
-poweradd= 65
+poweradd= 0
 velset = 0,0
 anim = 1600
 ctrl = 0

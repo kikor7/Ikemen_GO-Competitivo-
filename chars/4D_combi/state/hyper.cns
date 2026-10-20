@@ -4402,6 +4402,7 @@ time = 1
 
 [State 3500, ヒット定義（投げ用）]
 type = HitDef
+getpower = 60,30
 trigger1 = Animelem = 4
 attr = S, HT
 hitflag = M-

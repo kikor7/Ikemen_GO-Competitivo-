@@ -13,7 +13,7 @@ physics = S
 velset = 0,0
 ctrl = 0
 anim = 1000
-poweradd = 100
+poweradd = 20
 sprpriority = 2
 facep2 = 1
 
@@ -121,7 +121,7 @@ fall.recover = 0
 envshake.time = 14
 envshake.ampl = 4
 envshake.freq = 120
-getpower = 0,0
+getpower = 30,15
 givepower = 0,0
 ground.cornerpush.veloff = 0
 air.cornerpush.veloff = 0
@@ -130,7 +130,7 @@ air.cornerpush.veloff = 0
 type = PowerAdd
 trigger1 = movecontact = 1
 trigger1 = numtarget
-value = 40
+value = 0
 ignorehitpause = 1
 
 [State 1001, Damage Dampen]
@@ -180,7 +180,7 @@ movetype = A
 physics = N
 velset = 0,0
 ctrl = 0
-poweradd = 100
+poweradd = 0
 sprpriority = 2
 facep2 = 1
 
@@ -249,7 +249,7 @@ fall.recover = 0
 yaccel = 0.5
 envshake.time = 14
 envshake.ampl = 8
-getpower = 40,40
+getpower = 60,30
 givepower = 0,0
 
 [State 1010, Damage Dampen]
@@ -328,7 +328,7 @@ physics = S
 velset = 0,0
 ctrl = 0
 anim = 1020
-poweradd = 100
+poweradd = 20
 sprpriority = 2
 facep2 = 1
 
@@ -435,7 +435,7 @@ fall.recover = 0
 envshake.time = 14
 envshake.ampl = 4
 envshake.freq = 120
-getpower = 0,0
+getpower = 30,15
 givepower = 0,0
 ground.cornerpush.veloff = 0
 air.cornerpush.veloff = 0
@@ -444,7 +444,7 @@ air.cornerpush.veloff = 0
 type = PowerAdd
 trigger1 = movecontact = 1
 trigger1 = numtarget
-value = 40
+value = 0
 ignorehitpause = 1
 
 [State 1021, Damage Dampen]
@@ -495,7 +495,7 @@ physics = N
 velset = 0,0
 ctrl = 0
 anim = 1030
-poweradd = 100
+poweradd = 0
 sprpriority = 2
 facep2 = 1
 
@@ -583,7 +583,7 @@ yaccel = 0.5
 envshake.time = 14
 envshake.ampl = 4
 envshake.freq = 120
-getpower = 40,40
+getpower = 60,30
 givepower = 0,0
 ground.cornerpush.veloff = 0
 air.cornerpush.veloff = 0
@@ -664,7 +664,7 @@ physics = N
 velset = 0,0
 ctrl = 0
 anim = 1040
-poweradd = 100
+poweradd = 0
 sprpriority = 2
 
 [State 1040, VarSet]
@@ -728,7 +728,7 @@ fall.recover = 0
 yaccel = 0.5
 envshake.time = 14
 envshake.ampl = 8
-getpower = 40,40
+getpower = 60,30
 givepower = 0,0
 
 [State 1040, Damage Dampen]

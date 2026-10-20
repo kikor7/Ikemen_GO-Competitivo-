@@ -8141,7 +8141,7 @@ ground.cornerpush.veloff = 0
 air.cornerpush.veloff = 0
 palfx.Time        = 0
 p2facing = 1
-getpower = 0,0
+getpower = 60,30
 
 [State PlayS, 1]
 type = PlaySnd
@@ -9172,7 +9172,7 @@ palfx.add         = -100,0,256
 palfx.sinadd      = 110,100,200,15
 palfx.color       = 256
 palfx.invertall   = 1
-getpower = 42,42
+getpower = 30,15
 givepower = 0,0
 p2facing = 1
 
@@ -9221,7 +9221,7 @@ palfx.add         = -100,0,256
 palfx.sinadd      = 110,100,200,15
 palfx.color       = 256
 palfx.invertall   = 1
-getpower = 0,0
+getpower = 30,15
 givepower = 0,0
 p2facing = 1
 
@@ -18975,7 +18975,7 @@ type = s
 movetype = a
 physics = s
 ctrl = 0
-poweradd = 50
+poweradd = 0
 anim = 99200
 
 [State 0, ]

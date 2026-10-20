@@ -4,7 +4,7 @@
 ; Player information
 [Info]
 name="Jabura"
-displayname="T"
+displayname="Jabura"
 versiondate=04,14,2002
 mugenversion=1.0
 author="Team One Piece OPOS"
@@ -12,6 +12,7 @@ pal.defaults=1,2,3,4,5,6
 
 ; Files for the player
 [Files]
+movelist = movelist.dat
 cmd=Jabura.cmd
 sprite=Jabura.sff
 anim=Jabura.air

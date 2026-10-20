@@ -1,0 +1,15 @@
+<#f0f000>:Special Moves:</>
+at field			^X_+^Y_+^Z
+twinkle pile bunker			_DSF^A
+angel ray			_QCB^X
+kitty call attack			_QCF^X
+shadow sphere 4			_QCB^A
+
+<#f0f000>:Hyper Moves:</>
+the last supper <#f00000>(3000)</>			_U_U^S
+kitty call hazard <#f00000>(1000)</>			_QCB_F^A
+dia-loagaeth <#f00000>(3000)</>			_QCF_DF_QCB^X
+sephirothic tree <#f00000>(2000)</>			_D_D^S
+deus ex machina <#f00000>(2000)</>			_F_HCF^X
+sea of dirac <#f00000>(1000)</>			_QCB_QCB^A
+sword of cherubim <#f00000>(1000)</>			_QCF_QCF^X

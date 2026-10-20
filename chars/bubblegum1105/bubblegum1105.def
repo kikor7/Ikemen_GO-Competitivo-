@@ -7,6 +7,7 @@ author=""
 pal.defaults=1,2,3,4,5
 localcoord = 640,480
 [Files]
+movelist = movelist.dat
 sprite=bubblegum1105.sff
 sound=bubblegum1105.snd
 anim=bubblegum1105.air

@@ -476,7 +476,7 @@ physics  = S
 juggle   = 5
 ctrl     = 0
 anim     = 200
-poweradd = 10
+poweradd = 0
 velset   = 0,0
 
 [State 200, 音を鳴らす]
@@ -490,7 +490,7 @@ trigger1 = AnimElem = 1
 attr              = S, NA
 damage            = 20
 animtype          = Light
-getpower          = 70,15
+getpower = 30,15
 guardflag         = MA
 priority          = 3
 pausetime         = 11,11
@@ -517,7 +517,7 @@ ctrl = 1
 type    = S
 movetype= A
 physics = S
-poweradd= 22
+poweradd= 0
 ctrl = 0
 velset = 0,0
 anim = 230
@@ -553,6 +553,7 @@ trigger1 = Time = 0
 attr = S, NA
 animtype  = Medium
 damage    = 37
+getpower = 30,15
 guardflag = MA
 pausetime = 12,12
 sparkno = s8200
@@ -587,7 +588,7 @@ type    = S
 movetype= A
 physics = S
 juggle  = 5
-poweradd= 65
+poweradd= 0
 ctrl = 0
 velset = 0,0
 anim = 240
@@ -615,6 +616,7 @@ trigger1 = Time = 0
 attr = S, NA
 animtype  = hard
 damage    = 55
+getpower = 30,15
 guardflag = MA
 pausetime = 12,12
 sparkno = s8300
@@ -657,7 +659,7 @@ ctrl = 1
 type    = C
 movetype= A
 physics = C
-poweradd= 15
+poweradd= 0
 ctrl = 0
 anim = 400
 facep2 = 1
@@ -672,6 +674,7 @@ type = HitDef
 trigger1 = AnimElem = 2
 attr = C, NA
 damage = 15
+getpower = 30,15
 animtype = light
 hitflag = MAF
 guardflag = MA
@@ -702,7 +705,7 @@ value = 11 ;しゃがむステートへ（コモンステート）
 type    = C
 movetype= A
 physics = C
-poweradd= 22
+poweradd= 0
 ctrl = 0
 anim = 430
 
@@ -722,6 +725,7 @@ type = HitDef
 trigger1 = Time = 0
 attr = C, NA
 damage    = 32,7
+getpower = 30,15
 animtype  = Light
 hitflag = MAFD
 guardflag = L
@@ -768,7 +772,7 @@ ctrl = 1
 type    = C
 movetype= A
 physics = C
-poweradd= 70
+poweradd= 0
 ctrl = 0
 anim = 440
 
@@ -802,6 +806,7 @@ type = HitDef
 trigger1 = Time = 0
 attr = C, NA
 damage    = 50
+getpower = 30,15
 hitflag = MAFD
 guardflag = L
 pausetime = 12,12
@@ -864,6 +869,7 @@ type = HitDef
 trigger1 = Time = 0
 attr = A, NA ;空中通常打撃（Air, Normal Attack）
 damage    = 20
+getpower = 30,15
 guardflag = HA ;相手はしゃがみガードが出来ない
 priority = 3
 pausetime = 8,10
@@ -920,6 +926,7 @@ guardflag        = HA
 animtype         = Medium
 priority         = 4, Hit
 damage           = 40
+getpower = 30,15
 pausetime        = 5, 9
 sparkno          = S8200
 guard.sparkno    = 1
@@ -958,7 +965,7 @@ value = 1
 type    = A
 movetype= A
 physics = A
-poweradd= 65
+poweradd= 0
 ctrl = 0
 anim = 640
 
@@ -978,6 +985,7 @@ type = HitDef
 trigger1 = Time = 0
 attr = A, NA
 damage    = 45
+getpower = 30,15
 guardflag = HA
 priority = 4
 pausetime = 5,9
@@ -1026,6 +1034,7 @@ type = HitDef
 trigger1 = Time = 0
 attr = A, NA ;空中通常打撃（Air, Normal Attack）
 damage    = 75
+getpower = 30,15
 guardflag = HA ;相手はしゃがみガードが出来ない
 priority = 3
 pausetime = 5,10
@@ -1059,7 +1068,7 @@ movetype= A
 physics = S
 ctrl = 0
 anim = 320
-poweradd = 50
+poweradd = 20
 
 [State 320, VelSet]
 type = VelSet
@@ -1095,7 +1104,7 @@ type = Projectile
 trigger1 = AnimElem = 3
 attr = S, SP 
 damage = 95,2
-getpower = 100,45
+getpower = 30,15
 animtype = Hard
 pausetime = 70,15
 projhitanim = 10950
@@ -1141,7 +1150,7 @@ type    = A
 movetype= A
 physics = A
 juggle  = 4
-poweradd= 65
+poweradd= 20
 ctrl = 0
 anim = 660
 sprpriority = 2
@@ -1465,7 +1474,7 @@ trigger1 = AnimElem = 2
 attr = S, NP 
 damage    = 70 * root,FVar(1),5
 animtype = up
-getpower = 140
+getpower = 30,15
 givepower = 50,20
 guardflag = MA
 priority = 1 
@@ -1496,7 +1505,7 @@ physics = S
 velset = 0,0
 ctrl = 0
 anim = 910
-poweradd = 20
+poweradd = 0
 sprpriority = 2
 juggle  = 1
 
@@ -1539,6 +1548,7 @@ trigger3 = animelem = 7
 trigger4 = animelem = 8
 attr = A, NP
 damage    = 30
+getpower = 30,15
 guardflag = HAL
 priority = 4
 sparkno = s8300
@@ -1558,6 +1568,7 @@ type = HitDef
 trigger1 = animelem = 9
 attr = A, NA
 damage    = 30
+getpower = 30,15
 guardflag = HAL
 priority = 4
 pausetime = 5,1
@@ -1608,7 +1619,7 @@ type    = S
 movetype= A
 physics = S
 anim = 920
-poweradd = 20
+poweradd = 0
 juggle  = 1
 
 [State 920,velset]
@@ -1628,6 +1639,7 @@ trigger2 = animelem = 5
 trigger3 = animelem = 6
 attr = A, NA
 damage    = 20
+getpower = 30,15
 guardflag = HA
 priority = 4
 sparkno = s8300
@@ -2198,7 +2210,7 @@ physics  = N
 juggle  = 3
 ctrl = 0
 anim = 470
-poweradd = 50
+poweradd = 0
 
 [State 470, 音を鳴らす]
 type = PlaySnd
@@ -2239,6 +2251,7 @@ Time = 10
 type = HitDef
 trigger1 = animelemtime(4) = 0
 damage = 110
+getpower = 60,30
 attr = S,SA
 guardflag = MA
 animtype = back
@@ -2307,7 +2320,7 @@ physics = S
 velset = 0,0
 ctrl = 0
 anim = 270
-poweradd = 20
+poweradd = 0
 sprpriority = 2
 juggle  = 1
 
@@ -2337,7 +2350,7 @@ trigger1 = AnimElem = 2
 attr = S, SP
 damage    = 100
 animtype = hard
-getpower = 240,0
+getpower = 60,30
 givepower = 20,30
 guardflag = L
 priority = 1 
@@ -2461,7 +2474,7 @@ type    = C
 movetype= A
 physics = N
 juggle  = 6
-poweradd = 40
+poweradd = 0
 ctrl = 0
 anim = 370
 sprpriority = 2
@@ -2497,6 +2510,7 @@ type = HitDef
 trigger1 = AnimElem = 2
 attr = C, NA
 damage    = 67, 2
+getpower = 30,15
 animtype = Hard
 hitflag = MAFD
 guardflag = L
@@ -2541,6 +2555,24 @@ ctrl = 1
 
 ;---------------------------------------------------------------------------
 ; 回避
+;---------------------------------------------------------------------------
+; Recuperacion tras esquivar/rodar: sin control y golpeable unos frames,
+; para que no se pueda encadenar sin riesgo.
+;---------------------------------------------------------------------------
+[Statedef 1001]
+type = S
+movetype = I
+physics = S
+ctrl = 0
+anim = 0
+velset = 0,0
+
+[State 1001, Fin de la recuperacion]
+type = ChangeState
+trigger1 = Time >= 12
+value = 0
+ctrl = 1
+
 [Statedef 330]
 type = S
 ctrl = 0
@@ -2564,8 +2596,8 @@ trans = add1
 [State 330, ]
 type = ChangeState
 trigger1 = AnimTime = 0
-value = 0
-ctrl = 1
+value = 1001
+ctrl = 0
 
 
 ;---------------------------------------------------------------------------
@@ -3300,7 +3332,7 @@ type    = S
 movetype= A
 physics = S
 juggle  = 4
-poweradd= 65
+poweradd= 0
 ctrl = 0
 anim = 740
 
@@ -3329,6 +3361,7 @@ type = HitDef
 trigger1 = AnimElem = 5
 attr = S, NP
 damage    = 72
+getpower = 60,30
 animtype = Hard
 hitflag = MAFD
 guardflag = MA
@@ -3375,11 +3408,12 @@ physics  = S
 juggle   = 1
 ctrl     = 0
 anim     = 760
-poweradd = 10
+poweradd = 0
 velset   = 0,0
 
 [State 820,　hitdef]
 type = HitDef
+getpower = 60,30
 trigger1 = animelem = 1
 attr = S,NT
 hitflag = M-
@@ -3408,7 +3442,7 @@ physics  = S
 juggle   = 1
 ctrl     = 0
 anim     = 750
-poweradd = 10
+poweradd = 0
 
 [State 790, ]
 type = TargetBind

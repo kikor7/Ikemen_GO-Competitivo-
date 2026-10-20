@@ -2761,7 +2761,7 @@ MoveType=A
 physics=N
 Anim=1810
 Ctrl=0
-Poweradd=55+FVar(11)
+Poweradd=0+FVar(11)
 
 [State 810, 9]
 type = Width

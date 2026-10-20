@@ -8,6 +8,7 @@ pal.defaults = 1,2,3      ;敵としてでるキャラのパレット
 
 ; Files for the player
 [Files]
+movelist = movelist.dat
 stcommon = common1.cns
 cmd     = baki.cmd.cns   ;キャラのコマンド
 cns     = baki.cns   ;キャラのプログラム

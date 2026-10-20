@@ -358,6 +358,7 @@ sprpriority = 2
 
 [State 801, ヒット定義投げ用]
 type = HitDef
+getpower = 60,30
 trigger1 = time = 0
 attr = S, NT
 hitflag = M-
@@ -397,7 +398,7 @@ type = S
 movetype= A
 physics = N
 anim = 810
-poweradd = 100
+poweradd = 20
 juggle = 1
 ctrl = 0
 velset = 0,0

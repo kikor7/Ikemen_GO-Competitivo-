@@ -427,7 +427,7 @@ guard.velocity = -4.65/ifelse(var(21),2,1)
 air.velocity = -5.0,-6.0
 air.cornerpush.veloff = 0
 yaccel = .5
-getpower = 4*var(5),2*var(5)
+getpower = 30,15
 givepower = 2*var(6),2*var(6)
 ground.cornerpush.veloff = -8.65/ifelse(var(21),2,1)
 guard.cornerpush.veloff = ifelse((fvar(23)-ifelse(var(21),1,ceil(3/2)))<0,0,-8.65/ifelse(var(21),2,1))
@@ -466,7 +466,7 @@ juggle = 15
 ctrl = 0
 velset = 0,0
 anim = 210
-poweradd = 1*var(5)
+poweradd = 0*var(5)
 
 [State 1000,PlaySnd]
 type = PlaySnd
@@ -504,7 +504,7 @@ guard.velocity = -7.65/ifelse(var(21),2,1)
 air.velocity = -5.0,-6.0
 air.cornerpush.veloff = 0
 yaccel = .5
-getpower = ifelse(var(16),4,8)*var(5),2*var(5)
+getpower = 30,15
 givepower = 2*var(6),2*var(6)
 ground.cornerpush.veloff = -14.25/ifelse(var(21),2,1)
 guard.cornerpush.veloff = ifelse((fvar(23)-ifelse(var(21),1,ceil(8*1.0/2)))<0,0,-14.25/ifelse(var(21),2,1))
@@ -550,7 +550,7 @@ juggle = 15
 ctrl = 0
 velset = 0,0
 anim = 220
-poweradd = 1*var(5)
+poweradd = 0*var(5)
 
 [State 1000,PlaySnd]
 type = PlaySnd
@@ -591,7 +591,7 @@ air.cornerpush.veloff = 0
 yaccel = .5
 fall.recover= 0
 air.recover=0
-getpower = ifelse(var(16),4,12)*var(5),2*var(5)
+getpower = 30,15
 givepower = 2*var(6),2*var(6)
 ground.cornerpush.veloff = -18.65/ifelse(var(21),2,1)
 guard.cornerpush.veloff = ifelse((fvar(23)-ifelse(var(21),1,ceil(ifelse((AnimElem=4),10,13)*1.0/2)))<0,0,-18.65/ifelse(var(21),2,1))
@@ -671,7 +671,7 @@ guard.cornerpush.veloff = ifelse((fvar(23)-ifelse(var(21),1,ceil(5*1.0/2)))<0,0,
 yaccel = .5
 fall.recover= 0
 air.recover=0
-getpower = 4*var(5),2*var(5)
+getpower = 30,15
 givepower = 2*var(6),2*var(6)
 palfx.time = 10*var(14)
 palfx.add = 255,255,255
@@ -708,7 +708,7 @@ juggle = 15
 ctrl = 0
 velset = 0,0
 anim = 240
-poweradd = 1*var(5)
+poweradd = 0*var(5)
 
 [State 1000,PlaySnd]
 type = PlaySnd
@@ -750,7 +750,7 @@ guard.cornerpush.veloff = ifelse((fvar(23)-ifelse(var(21),1,ceil(10*1.0/2)))<0,0
 yaccel = .5
 fall.recover= 0
 air.recover=0
-getpower = ifelse(var(16),4,8)*var(5),2*var(5)
+getpower = 30,15
 givepower = 2*var(6),2*var(6)
 palfx.time = 10*var(14)
 palfx.add = 255,255,255
@@ -787,7 +787,7 @@ juggle = 15
 ctrl = 0
 velset = 0,0
 anim = 250
-poweradd = 1*var(5)
+poweradd = 0*var(5)
 
 [State 2400]
 type = ChangeState
@@ -838,7 +838,7 @@ fall = 1
 air.fall = 1
 fall.recover= 0
 air.recover=0
-getpower = ifelse(var(16),4,12)*var(5),2*var(5)
+getpower = 30,15
 givepower = 2*var(6),2*var(6)
 palfx.time = 10*var(14)
 palfx.add = 255,255,255
@@ -916,7 +916,7 @@ guard.cornerpush.veloff = ifelse((fvar(23)-ifelse(var(21),1,ceil(2*1.0/2)))<0,0,
 yaccel = .5
 fall.recover= 0
 air.recover=0
-getpower = 4*var(5),2*var(5)
+getpower = 30,15
 givepower = 2*var(6),2*var(6)
 palfx.time = 10*var(14)
 palfx.add = 255,255,255
@@ -953,7 +953,7 @@ juggle = 15
 ctrl = 0
 velset = 0,0
 anim = 410
-poweradd = 1*var(5)
+poweradd = 0*var(5)
 
 [State 1000,PlaySnd]
 type = PlaySnd
@@ -995,7 +995,7 @@ guard.cornerpush.veloff = ifelse((fvar(23)-ifelse(var(21),1,ceil(10*1.0/2)))<0,0
 yaccel = .5
 fall.recover= 0
 air.recover=0
-getpower = ifelse(var(16),4,8)*var(5),2*var(5)
+getpower = 30,15
 givepower = 2*var(6),2*var(6)
 palfx.time = 10*var(14)
 palfx.add = 255,255,255
@@ -1032,7 +1032,7 @@ juggle = 15
 ctrl = 0
 velset = 0,0
 anim = 420
-poweradd = 1*var(5)
+poweradd = 0*var(5)
 
 [State 1000,PlaySnd]
 type = PlaySnd
@@ -1076,7 +1076,7 @@ guard.cornerpush.veloff = ifelse((fvar(23)-ifelse(var(21),1,ceil(14*1.0/2)))<0,0
 yaccel = .5
 fall.recover= 0
 air.recover=0
-getpower = ifelse(var(16),4,12)*var(5),2*var(5)
+getpower = 30,15
 givepower = 2*var(6),2*var(6)
 palfx.time = 10*var(14)
 palfx.add = 255,255,255
@@ -1113,7 +1113,7 @@ juggle = 15
 ctrl = 0
 velset = 0,0
 anim = 430
-poweradd = 1*var(5)
+poweradd = 0*var(5)
 
 [state -2]
 type = RemoveExplod
@@ -1235,7 +1235,7 @@ guard.cornerpush.veloff = ifelse((fvar(23)-ifelse(var(21),1,ceil(15*1.0/2)))<0,0
 yaccel = .5
 fall.recover=0
 air.recover=0
-getpower = 4*var(5),2*var(5)
+getpower = 30,15
 givepower = 2*var(6),2*var(6)
 palfx.time = 10*var(14)
 palfx.add = 255,255,255
@@ -1274,7 +1274,7 @@ juggle = 15
 ctrl = 0
 velset = 0,0
 anim = 440
-poweradd = 1*var(5)
+poweradd = 0*var(5)
 
 [state -2]
 type = RemoveExplod
@@ -1398,7 +1398,7 @@ fall.recover = 0
 air.recover = 0
 fall = 1
 air.fall = 1
-getpower = ifelse(var(16),4,8)*var(5),2*var(5)
+getpower = 30,15
 givepower = 2*var(6),2*var(6)
 palfx.time = 10*var(14)
 palfx.add = 255,255,255
@@ -1435,7 +1435,7 @@ juggle = 15
 ctrl = 0
 velset = 0,0
 anim = 450
-poweradd = 1*var(5)
+poweradd = 0*var(5)
 
 [State 2400]
 type = ChangeState
@@ -1559,7 +1559,7 @@ fall = 1
 air.fall = 1
 fall.recover= 0
 air.recover=0
-getpower = ifelse(var(16),4,12)*var(5),2*var(5)
+getpower = 30,15
 givepower = 2*var(6),2*var(6)
 palfx.time = 10*var(14)
 palfx.add = 255,255,255
@@ -1640,7 +1640,7 @@ air.recover=0
 ground.cornerpush.veloff = -8.65/ifelse(var(21),2,1)
 guard.cornerpush.veloff = ifelse((fvar(23)-ifelse(var(21),1,ceil(6*1.0/2)))<0,0,-8.65/ifelse(var(21),2,1))
 air.cornerpush.veloff = 0
-getpower = 4*var(5),2*var(5)
+getpower = 30,15
 givepower = 2*var(6),2*var(6)
 palfx.time = 10*var(14)
 palfx.add = 255,255,255
@@ -1670,7 +1670,7 @@ physics = A
 ctrl = 0
 anim = 610
 juggle = 15
-poweradd = 1*var(5)
+poweradd = 0*var(5)
 
 [State 1000,PlaySnd]
 type = PlaySnd
@@ -1717,7 +1717,7 @@ air.recover=0
 ground.cornerpush.veloff = -8.65/ifelse(var(21),2,1)
 guard.cornerpush.veloff = ifelse((fvar(23)-ifelse(var(21),1,ceil(11*1.0/2)))<0,0,-14.25/ifelse(var(21),2,1))
 air.cornerpush.veloff = 0
-getpower = ifelse(var(16),4,8)*var(5),2*var(5)
+getpower = 30,15
 givepower = 2*var(6),2*var(6)
 palfx.time = 10*var(14)
 palfx.add = 255,255,255
@@ -1747,7 +1747,7 @@ physics = A
 ctrl = 0
 anim = 620
 juggle = 15
-poweradd = 1*var(5)
+poweradd = 0*var(5)
 
 [State 1000,PlaySnd]
 type = PlaySnd
@@ -1793,7 +1793,7 @@ guard.cornerpush.veloff = ifelse((fvar(23)-ifelse(var(21),1,ceil(13*1.0/2)))<0,0
 fall.recover= 0
 air.recover=0
 air.cornerpush.veloff = 0
-getpower = ifelse(var(16),4,12)*var(5),2*var(5)
+getpower = 30,15
 givepower = 2*var(6),2*var(6)
 palfx.time = 10*var(14)
 palfx.add = 255,255,255
@@ -1869,7 +1869,7 @@ air.recover=0
 ground.cornerpush.veloff = -8.65/ifelse(var(21),2,1)
 guard.cornerpush.veloff = ifelse((fvar(23)-ifelse(var(21),1,ceil(7*1.0/2)))<0,0,-8.65/ifelse(var(21),2,1))
 air.cornerpush.veloff = 0
-getpower = 4*var(5),2*var(5)
+getpower = 30,15
 givepower = 2*var(6),2*var(6)
 palfx.time = 10*var(14)
 palfx.add = 255,255,255
@@ -1899,7 +1899,7 @@ physics = A
 ctrl = 0
 anim = 640
 juggle = 15
-poweradd = 1*var(5)
+poweradd = 0*var(5)
 
 [State 1000,PlaySnd]
 type = PlaySnd
@@ -1945,7 +1945,7 @@ air.recover=0
 ground.cornerpush.veloff = -8.65/ifelse(var(21),2,1)
 guard.cornerpush.veloff = ifelse((fvar(23)-ifelse(var(21),1,ceil(10*1.0/2)))<0,0,-14.25/ifelse(var(21),2,1))
 air.cornerpush.veloff = 0
-getpower = ifelse(var(16),4,8)*var(5),2*var(5)
+getpower = 30,15
 givepower = 2*var(6),2*var(6)
 palfx.time = 10*var(14)
 palfx.add = 255,255,255
@@ -1975,7 +1975,7 @@ physics = A
 ctrl = 0
 anim = 650
 juggle = 15
-poweradd = 1*var(5)
+poweradd = 0*var(5)
 
 [State 2400]
 type = ChangeState
@@ -2026,7 +2026,7 @@ air.recover=0
 ground.cornerpush.veloff = -8.65/ifelse(var(21),2,1)
 guard.cornerpush.veloff = ifelse((fvar(23)-ifelse(var(21),1,ceil(15*1.0/2)))<0,0,-18.65/ifelse(var(21),2,1))
 air.cornerpush.veloff = 0
-getpower = ifelse(var(16),4,12)*var(5),2*var(5)
+getpower = 30,15
 givepower = 2*var(6),2*var(6)
 palfx.time = 10*var(14)
 palfx.add = 255,255,255
@@ -2086,7 +2086,7 @@ p1stateno = 811
 p2stateno = 816
 guard.dist = 0
 numhits = 0
-getpower = 8*var(5)
+getpower = 60,30
 
 [State 800, 1]
 type = HitDef
@@ -2106,7 +2106,7 @@ p1stateno = 811
 p2stateno = 816
 guard.dist = 0
 numhits = 0
-getpower = 8*var(5)
+getpower = 60,30
 
 [State 800, Voice]
 type = PlaySnd
@@ -2375,7 +2375,7 @@ p2facing = 1
 p1stateno = 821
 p2stateno = 826
 guard.dist = 0
-getpower = 8*var(5)
+getpower = 60,30
 numhits = 0
 
 [State 800, 1]
@@ -2395,7 +2395,7 @@ p2facing = 1
 p1stateno = 821
 p2stateno = 826
 guard.dist = 0
-getpower = 8*var(5)
+getpower = 60,30
 numhits = 0
 
 [State 800, Voice]

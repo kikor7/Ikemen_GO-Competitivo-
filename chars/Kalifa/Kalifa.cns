@@ -222,7 +222,7 @@ juggle  = 1
 velset = 0,0
 ctrl = 0
 anim = 200
-poweradd = 50
+poweradd = 0
 sprpriority = 2
 
 [State 60, Whip FX]
@@ -254,7 +254,7 @@ trigger1 = animelem = 5
 trigger2 = animelem = 6
 attr = S, NA
 animtype  = Light
-getpower = 20,10
+getpower = 15,7
 damage    = 15
 guardflag = MA
 pausetime = 8,10
@@ -338,7 +338,7 @@ juggle  = 1
 velset = 0,0
 ctrl = 0
 anim = 201
-poweradd = 50
+poweradd = 0
 sprpriority = 1
 
 [State 60, Whip FX]
@@ -369,7 +369,7 @@ trigger1 = animelem = 3
 trigger2 = animelem = 4
 attr = S, NA
 animtype  = Light
-getpower = 20,10
+getpower = 15,7
 damage    = 10
 guardflag = MA
 pausetime = 8,10
@@ -484,7 +484,7 @@ trigger1 = animelem = 4
 trigger2 = animelem = 6
 attr = C, NA
 animtype  = Light
-getpower = 20,10
+getpower = 30,15
 damage    = 20
 guardflag = L
 pausetime = 8,10
@@ -554,7 +554,7 @@ juggle  = 1
 velset = 0,0
 ctrl = 0
 anim = 210
-poweradd = 50
+poweradd = 0
 sprpriority = 1
 
 
@@ -572,7 +572,7 @@ trigger1 = animelem = 5
 trigger2 = animelem = 6
 attr = S, NA
 animtype  = Light
-getpower = 60,30
+getpower = 30,15
 damage    = 20
 guardflag = MA
 pausetime = 10,12
@@ -642,7 +642,7 @@ ctrl = 1
 type    = S
 movetype = A
 physics = N
-poweradd = 50
+poweradd = 0
 ctrl = 0
 velset = 0,0
 anim = 220
@@ -717,7 +717,7 @@ triggerall = time = [10,39]
 trigger1 = time%8 = 0
 attr = S, NP
 animtype  = Light
-getpower = 30,15
+getpower = 7,3
 damage    = 5
 guardflag = MA
 pausetime = 6,8
@@ -775,7 +775,7 @@ physics = N
 juggle  = 1
 ctrl = 0
 anim = 300
-poweradd = 50
+poweradd = 0
 sprpriority = 2
 
 [State 0, AssertSpecial]
@@ -886,7 +886,7 @@ physics = N
 juggle  = 1
 ctrl = 0
 anim = 210
-poweradd = 50
+poweradd = 0
 sprpriority = 1
 
 
@@ -984,7 +984,7 @@ ctrl = 1
 type    = S
 movetype = A
 physics = N
-poweradd = 50
+poweradd = 0
 ctrl = 0
 anim = 220
 sprpriority = 1
@@ -1345,7 +1345,7 @@ trigger1 = AnimElem = 3
 trigger2 = AnimElem = 4
 trigger3 = AnimElem = 5
 attr = A, NA
-getpower = 20,10
+getpower = 30,15
 damage = 10
 guardflag = HA
 priority = 3
@@ -1477,7 +1477,7 @@ triggerall = !movecontact
 trigger1 = AnimElem = 3
 trigger2 = AnimElem = 4
 attr = A, NA
-getpower = 60,30
+getpower = 30,15
 damage = 30
 guardflag = HA
 priority = 3

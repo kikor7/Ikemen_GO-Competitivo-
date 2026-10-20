@@ -13,6 +13,7 @@ pal.defaults = 0
 
 ; Files for the player
 [Files]
+movelist = movelist.dat
 cmd      = Kula-ROTD.cmd  
 cns      = Kula-ROTD-P.cns   
 st       = Kula-ROTD-N.cns   

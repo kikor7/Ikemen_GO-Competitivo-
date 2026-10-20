@@ -814,6 +814,7 @@ trigger1 = time = 0
 attr = A, NA
 animtype  = Hard
 damage    = 80
+getpower = 60,30
 priority = 5
 pausetime = 11,12
 sparkno = s4010

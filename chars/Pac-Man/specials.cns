@@ -7,7 +7,7 @@ physics = N
 juggle  = 4
 ctrl = 0
 velset = 0,0
-poweradd = 65
+poweradd = 0
 anim = 1000
 
 [State 1000, 1]
@@ -48,6 +48,7 @@ trigger1 = animelem = 3
 trigger2 = animelem = 7
 attr = S, SA
 damage = 30,0
+getpower = 15,7
 animtype =  medium
 guardflag = MA
 hitflag = MAF
@@ -72,6 +73,7 @@ type = HitDef
 trigger1 = animelem = 11
 attr = S, SA
 damage = 30,0
+getpower = 15,7
 animtype =  medium
 guardflag = MA
 hitflag = MAF
@@ -154,7 +156,7 @@ type    = A
 movetype= A
 physics = N
 juggle  = 4
-poweradd= 70
+poweradd= 0
 velset = 0,-1
 ctrl = 0
 anim = 1010
@@ -212,6 +214,7 @@ type = HitDef
 trigger1 = time = 0
 attr = A, SA
 damage = 25, 0
+getpower = 7,3
 animtype = light
 guardflag = MA
 hitflag = MAF
@@ -303,7 +306,7 @@ type    = A
 movetype= A
 physics = N
 juggle  = 4
-poweradd= 70
+poweradd= 0
 velset = 0,-1
 ctrl = 0
 anim = 1010
@@ -361,6 +364,7 @@ type = HitDef
 trigger1 = time = 0
 attr = A, SA
 damage = 45, 0
+getpower = 7,3
 animtype = medium
 guardflag = MA
 hitflag = MAF
@@ -452,7 +456,7 @@ type    = A
 movetype= A
 physics = N
 juggle  = 4
-poweradd= 70
+poweradd= 0
 velset = 0,-1
 ctrl = 0
 anim = 1010
@@ -510,6 +514,7 @@ type = HitDef
 trigger1 = time = 0
 attr = A, SA
 damage = 65, 0
+getpower = 7,3
 animtype = hard
 guardflag = MA
 hitflag = MAF
@@ -647,6 +652,7 @@ type = HitDef
 trigger1 = time = 0
 attr = S, SA
 damage = 25, 0
+getpower = 7,3
 animtype = light
 guardflag = MA
 hitflag = MAF
@@ -794,6 +800,7 @@ type = HitDef
 trigger1 = time = 0
 attr = S, SA
 damage = 25,0
+getpower = 10,5
 animtype = light
 guardflag = MA
 hitflag = MAF
@@ -880,7 +887,7 @@ airguard.velocity = -1.9,-.8
 air.type = Low
 air.velocity =  -6,-7
 air.hittime = 12
-getpower = 0
+getpower = 10,5
 fall = 1
 
 [State 1022, end]
@@ -951,7 +958,7 @@ air.type = Low
 air.velocity = -20,-10
 air.hittime = 12
 fall = 1
-getpower = 0,0
+getpower = 10,5
 envshake.time = 30
 envshake.ampl = 50
 getpower = 0
@@ -1015,7 +1022,7 @@ physics = S
 juggle  = 4
 ctrl = 0
 velset = 0,0
-poweradd = 65
+poweradd = 20
 anim = 1100
 
 [State 1100, AfterImage]
@@ -1097,6 +1104,7 @@ type = HitDef
 trigger1 = time = 0
 attr = S, SA
 damage = 45, 0
+getpower = 30,15
 animtype = medium
 guardflag = MA
 hitflag = MAF
@@ -1153,7 +1161,7 @@ physics = S
 juggle  = 0
 ctrl = 0
 velset = 0,0
-poweradd = 65
+poweradd = 20
 anim = 1200
 
 [State 1200, AfterImage]
@@ -1196,6 +1204,7 @@ type = HitDef
 trigger1 = animelem = 7
 attr = S, SA
 damage = 45, 0
+getpower = 15,7
 animtype = medium
 guardflag = MA
 hitflag = MAF
@@ -1274,6 +1283,7 @@ type = HitDef
 trigger1 = time = 0
 attr = S, SA
 damage = 45, 0
+getpower = 15,7
 animtype = medium
 guardflag = MA
 hitflag = MAF
@@ -1332,7 +1342,7 @@ physics = S
 juggle  = 4
 ctrl = 0
 velset = 0,0
-poweradd = 65
+poweradd = 20
 anim = 1300
 
 [State 1200, PlaySnd]
@@ -1398,6 +1408,7 @@ type = HitDef
 trigger1 = time = 0
 attr = S, SA
 damage = 65, 0
+getpower = 15,7
 animtype = hard
 guardflag = MA
 hitflag = MAF
@@ -1473,6 +1484,7 @@ type = HitDef
 trigger1 = time = 0
 attr = S, SA
 damage = 65, 0
+getpower = 15,7
 animtype = hard
 guardflag = MA
 hitflag = MAF
@@ -1533,7 +1545,7 @@ physics = S
 juggle = 0
 anim = 1400
 velset = 0,0
-poweradd = 65
+poweradd = 20
 ctrl = 0
 
 [State 1401, 1]
@@ -1852,6 +1864,7 @@ type = HitDef
 trigger1 = time = 0
 attr = A, SP
 damage = 15, 0
+getpower = 1,0
 animtype = light
 guardflag = MA
 hitflag = MAF
@@ -1921,6 +1934,7 @@ type = HitDef
 trigger1 = time = 0
 attr = A, SP
 damage = 25, 0
+getpower = 1,0
 animtype = light
 guardflag = MA
 hitflag = MAF
@@ -2118,6 +2132,7 @@ type = HitDef
 trigger1 = time = 0
 attr = A, SP
 damage = 25, 0
+getpower = 1,0
 animtype = light
 guardflag = MA
 hitflag = MAF
@@ -2174,6 +2189,7 @@ type = HitDef
 trigger1 = time = 0
 attr = A, SP
 damage = 20, 0
+getpower = 1,0
 animtype = light
 guardflag = MA
 hitflag = MAF
@@ -2371,6 +2387,7 @@ type = HitDef
 trigger1 = time = 0
 attr = A, SP
 damage = 25, 0
+getpower = 1,0
 animtype = light
 guardflag = MA
 hitflag = MAF
@@ -2558,6 +2575,7 @@ type = HitDef
 trigger1 = time = 0
 attr = A, SP
 damage = 40, 0
+getpower = 1,0
 animtype = medium
 guardflag = MA
 hitflag = MAF
@@ -2628,6 +2646,7 @@ type = HitDef
 trigger1 = time = 0
 attr = A, SP
 damage = 40, 0
+getpower = 1,0
 animtype = medium
 guardflag = MA
 hitflag = MAF
@@ -2707,6 +2726,7 @@ type = HitDef
 trigger1 = time = 0
 attr = A, SP
 damage = 40, 0
+getpower = 1,0
 animtype = medium
 guardflag = MA
 hitflag = MAF
@@ -2786,6 +2806,7 @@ type = HitDef
 trigger1 = time = 0
 attr = A, SP
 damage = 40, 0
+getpower = 1,0
 animtype = medium
 guardflag = MA
 hitflag = MAF
@@ -2984,6 +3005,7 @@ type = HitDef
 trigger1 = time = 0
 attr = A, SP
 damage = 45, 0
+getpower = 1,0
 animtype = medium
 guardflag = MA
 hitflag = MAF
@@ -3058,6 +3080,7 @@ type = HitDef
 trigger1 = time = 0
 attr = A, SP
 damage = 45, 0
+getpower = 1,0
 animtype = medium
 guardflag = MA
 hitflag = MAF
@@ -3269,6 +3292,7 @@ type = HitDef
 trigger1 = time = 0
 attr = A, SP
 damage = 45, 0
+getpower = 1,0
 animtype = medium
 guardflag = MA
 hitflag = MAF
@@ -3333,6 +3357,7 @@ trigger1 = !Time
 trigger2 = Time%40 = 0
 attr = A, SP
 damage = 45, 0
+getpower = 1,0
 animtype = medium
 guardflag = MA
 hitflag = MAF
@@ -3481,6 +3506,7 @@ type = HitDef
 trigger1 = time = 0
 attr = A, SP
 damage = 60, 0
+getpower = 1,0
 animtype = hard
 guardflag = MA
 hitflag = MAF
@@ -3555,6 +3581,7 @@ type = HitDef
 trigger1 = time = 0
 attr = A, SP
 damage = 60, 0
+getpower = 1,0
 animtype = hard
 guardflag = MA
 hitflag = MAF
@@ -3812,6 +3839,7 @@ type = HitDef
 trigger1 = time = [0,10]
 attr = A, SP
 damage = 35, 1
+getpower = 1,0
 animtype = hard
 guardflag = MA
 hitflag = MAF

@@ -12,6 +12,7 @@ Pal.Defaults = 2,4,5,6,3,1
 ;-----------------------------------------------------------
 
 [Files]
+movelist = movelist.dat
 Cmd      = Ja-koh.cmd
 Cns      = Ja-koh.cns
 St       = Ja-koh.cns

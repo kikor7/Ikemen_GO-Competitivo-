@@ -12,6 +12,7 @@ author ="Mikel8888"
 pal.defaults =1,2
 
 [Files]
+movelist = movelist.dat
 sprite =Sakura_JUS.sff
 anim =Sakura_JUS.air
 sound =Sakura_JUS.snd

@@ -886,7 +886,7 @@ air.velocity=-4,-4
 air.fall=1
 fall.recover=!(root,var(20))
 fall.recovertime=30
-getpower= ifelse(p2movetype=H,72,144)*!(root,var(20)), 36*!(root,var(20))
+getpower = 30,15
 givepower=36,36
 envshake.time=14
 envshake.freq=120
@@ -1198,7 +1198,7 @@ fall=(time<=18)
 fall.recover=!(root,var(20))
 fall.recovertime=29
 air.fall=1
-getpower= ifelse(p2movetype=H,72,144)*!(root,var(20)), 36*!(root,var(20))
+getpower = 30,15
 givepower=36,36
 envshake.time=14
 envshake.freq=120

@@ -1,0 +1,19 @@
+<#f0f000>:Special Moves:</>
+Kuuchuu Toku Kou Angerusu			_QCB^B_+^C
+C Torinitasu			_QCF^C
+B Torinitasu			_QCF^B
+A Torinitasu			_QCF^A
+C Kurukusu			_D_D^C
+B Kurukusu			_D_D^B
+A Kurukusu			_D_D^A
+Kuuchuu C Angerusu			_QCB^C
+Kuuchuu B Angerusu			_QCB^B
+Kuuchuu A Angerusu			_QCB^A
+Chijou Nage			^A_+^B
+Kuuchuu Kou Sei Bougyo			^B_+^C
+Kutsu Kou Sei Bougyo			~D^B_+^C
+
+<#f0f000>:Hyper Moves:</>
+Toku Kou Torinitasu <#f00000>(1000)</>			_QCF^B_+^C
+Toku Kou Kurukusu <#f00000>(1000)</>			_D_D^B_+^C
+Toku Kou Angerusu <#f00000>(1000)</>			_QCB^B_+^C

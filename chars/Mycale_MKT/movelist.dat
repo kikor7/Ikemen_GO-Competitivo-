@@ -1,0 +1,25 @@
+<#f0f000>:Special Moves:</>
+632A			_F_DF_D^X
+632B			_F_DF_D^Y
+632C			_F_DF_D^Z
+22A			_D_D^X
+22B			_D_D^Y
+22C			_D_D^Z
+214A			_QCB^X
+214B			_QCB^Y
+214C			_QCB^Z
+236A			_QCF^X
+236B			_QCF^Y
+236C			_QCF^Z
+Kuuchuu Kou Sei Bougyo			^Y_+^Z
+Nage			^X_+^Y
+Gensaku Han Chouhatsu			^X_+^Z
+
+<#f0f000>:Hyper Moves:</>
+Saishuu Tokkou <#f00000>(3000)</>			^X_+^Y_+^Z
+Tokkou <#f00000>(1000)</>			_F_DF_D^Y_+^Z
+Tokkou <#f00000>(1000)</>			_QCF^Y_+^Z
+Tokkou <#f00000>(1000)</>			_QCB^Y_+^Z
+Tokkou <#f00000>(1000)</>			_D_D^Y_+^Z
+Kutsu Kou Sei Bougyo <#f00000>(1000)</>			~D^Y_+^Z
+Chijou Kou Sei Bougyo <#f00000>(1000)</>			^Y_+^Z

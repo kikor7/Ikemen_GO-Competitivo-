@@ -1051,7 +1051,7 @@ juggle   = 0
 ;velset   = 1,0
 ctrl     = 0
 anim     = 200+(var(50)!=0)*30000
-poweradd = 40
+poweradd = 0
 sprpriority = 2
 
 [State 200, ヒット定義]
@@ -1084,6 +1084,7 @@ type = HitDef
 trigger1 = AnimElem = 3
 attr = S, NA
 damage = 15, 0
+getpower = 30,15
 animtype = Light
 guardflag = MA
 hitflag = MAF
@@ -1123,7 +1124,7 @@ juggle   = 0
 velset   = 3,0
 ctrl     = 0
 anim     = 200+(var(50)!=0)*30000
-poweradd = 40
+poweradd = 0
 sprpriority = 2
 
 [State 201, ヒット定義]
@@ -1131,6 +1132,7 @@ type = HitDef
 trigger1 = AnimElem = 3
 attr = S, NA
 damage = 15, 0
+getpower = 30,15
 animtype = Light
 guardflag = MA
 hitflag = MAF
@@ -1171,7 +1173,7 @@ juggle   = 0
 velset   = 0,0
 ctrl     = 0
 anim     = 202+(var(50)!=0)*30000
-poweradd = 20
+poweradd = 0
 sprpriority = 2
 
 [State 202,vetadd]
@@ -1184,6 +1186,7 @@ type = HitDef
 trigger1 = AnimElem = 3
 attr = S, NA
 damage = 10, 0
+getpower = 30,15
 animtype = medium
 guardflag = MA
 hitflag = MAF
@@ -1236,7 +1239,7 @@ juggle   = 1
 velset   = 4,-3
 ctrl     = 0
 anim     = 203+(var(50)!=0)*30000
-poweradd = 80
+poweradd = 0
 sprpriority = 2
 
 ;[State 203,vetadd]
@@ -1255,6 +1258,7 @@ type = HitDef
 trigger1 = AnimElem = 4
 attr = A, NA
 damage = 30, 0
+getpower = 30,15
 animtype = Hard
 guardflag = HA
 hitflag = MAF
@@ -1401,7 +1405,7 @@ juggle   = 0
 velset   = 0,0
 ctrl     = 0
 anim     = 210+(var(50)!=0)*30000
-poweradd = 60
+poweradd = 0
 sprpriority = 2
 
 [State 210]
@@ -1434,6 +1438,7 @@ type = HitDef
 trigger1 = AnimElem = 6
 attr = S, NA
 damage = 30, 0
+getpower = 30,15
 animtype = Hard
 guardflag = MA
 hitflag = MAF
@@ -1475,7 +1480,7 @@ juggle   = 6
 ;velset   = 0,0
 ctrl     = 0
 anim     = 220
-poweradd = 60
+poweradd = 0
 sprpriority = 2
 
 [State 220, NotHitBy]
@@ -1509,6 +1514,7 @@ type = HitDef
 trigger1 = AnimElem >= 5
 attr = S, NA
 damage = 45, 0
+getpower = 30,15
 animtype = up
 guardflag = MA
 hitflag = MAF
@@ -1687,7 +1693,7 @@ movetype= A
 physics = C
 juggle  = 0
 ;velset   = 0,0
-poweradd= 40
+poweradd= 0
 ctrl = 0
 anim = 400+(var(50)!=0)*30000
 sprpriority = 2
@@ -1714,6 +1720,7 @@ type = HitDef
 trigger1 = AnimElem = 4
 attr = C, NA
 damage    = 13
+getpower = 30,15
 animtype  = Light
 hitflag = MAF
 guardflag = L
@@ -1767,7 +1774,7 @@ type    = C
 movetype= A
 physics = C
 juggle  = 0
-poweradd= 60
+poweradd= 0
 velset   = 4,0
 ctrl = 0
 anim = 410+(var(50)!=0)*30000
@@ -1816,6 +1823,7 @@ type = HitDef
 trigger1 = AnimElem = 4
 attr = C, NA
 damage    = 25
+getpower = 30,15
 animtype  = medium
 hitflag = MAF
 guardflag = L
@@ -1858,7 +1866,7 @@ type    = C
 movetype= A
 physics = N
 juggle  = 5
-poweradd= 80
+poweradd= 0
 velset   = 0,0
 ctrl = 0
 anim = 420
@@ -1919,6 +1927,7 @@ type = HitDef
 trigger1 = AnimElem >= 5
 attr = C, NA
 damage    = 45
+getpower = 30,15
 animtype  = up
 hitflag = MAF
 guardflag = L
@@ -2079,7 +2088,7 @@ type    = A
 movetype= A
 physics = A
 juggle  = 0
-poweradd= 40
+poweradd= 0
 ctrl = 0
 anim = 600+(var(50)!=0)*30000
 sprpriority = 2
@@ -2106,6 +2115,7 @@ type = HitDef
 trigger1 = AnimElem = 3
 attr = A, NA
 damage = 13
+getpower = 30,15
 guardflag = HA
 priority = 3
 pausetime = 10,10
@@ -2144,7 +2154,7 @@ type    = A
 movetype= A
 physics = A
 juggle  = 0
-poweradd= 40
+poweradd= 0
 ctrl = 0
 anim = 610+(var(50)!=0)*30000
 sprpriority = 2
@@ -2179,6 +2189,7 @@ trigger1 = AnimElem = 3
 trigger2 = AnimElem = 4
 attr = A, NA
 damage    = 25
+getpower = 30,15
 guardflag = HA
 priority = 4
 pausetime = 16,18
@@ -2221,7 +2232,7 @@ type    = A
 movetype= A
 physics = A
 juggle  = 0
-poweradd= 40
+poweradd= 0
 ctrl = 0
 anim = 611+(var(50)!=0)*30000
 sprpriority = 2
@@ -2256,6 +2267,7 @@ type = HitDef
 trigger1 = AnimElem = 4
 attr = A, NA
 damage    = 15
+getpower = 30,15
 guardflag = HA
 priority = 4
 pausetime = 18,20
@@ -2280,7 +2292,7 @@ type    = A
 movetype= A
 physics = N
 juggle  = 1
-poweradd= 60
+poweradd= 0
 velset   = 7,0
 ctrl = 0
 anim = 620
@@ -2396,6 +2408,7 @@ type = HitDef
 trigger1 = AnimElem >= 4 
 attr = A, NA
 damage    = 40
+getpower = 30,15
 guardflag = HA
 priority = 4
 pausetime = 16,20
@@ -2618,7 +2631,7 @@ type    = S
 movetype= A
 physics = S
 juggle  = 4
-poweradd= 65
+poweradd= 0
 ctrl = 0
 anim = 700+(var(50)!=0)*30000
 sprpriority = 1
@@ -2658,6 +2671,7 @@ type = HitDef
 trigger1 = AnimElem = 4 
 attr = S, NA
 damage    = 30
+getpower = 30,15
 hitflag =MAF
 guardflag = HA
 priority = 5,hit
@@ -2832,7 +2846,7 @@ type    = S
 movetype= A
 physics = N
 juggle  = 4
-poweradd= 90
+poweradd= 0
 ctrl = 0
 anim = 710
 sprpriority = 2
@@ -2951,7 +2965,7 @@ juggle  = 0
 ctrl = 0
 anim = 800
 sprpriority = 2
-poweradd = 100
+poweradd = 0
 
 ; hitflagのパラメータの後に「-」を付けると、やられ状態の相手には攻撃を当てる事が出来なくなります。
 ; これは打撃攻撃から掴む連続技にならないようにするためです。
@@ -3048,7 +3062,7 @@ type    = S
 movetype= A
 physics = S
 anim = 810
-poweradd = 150
+poweradd = 0
 
 ;[State 810, 掴んだ音を鳴らす]
 ;type = PlaySnd
@@ -3177,7 +3191,7 @@ movetype= A
 physics = N
 anim = 811
 velset = 3,-5
-poweradd = 100
+poweradd = 0
 
 [State 600, 4]
 type = Gravity
@@ -3338,7 +3352,7 @@ juggle   = 0
 velset   = 6,0
 ctrl     = 0
 anim     = 30900
-poweradd = 60
+poweradd = 0
 sprpriority = 2
 
 [State 900, ヒット定義]
@@ -3346,6 +3360,7 @@ type = HitDef
 trigger1 = AnimElem = 5
 attr = S, NA
 damage = 40, 0
+getpower = 30,15
 animtype = hard
 guardflag = MA
 hitflag = MAF
@@ -3458,7 +3473,7 @@ juggle   = 0
 ;velset   = 0,0
 ctrl     = 0
 anim     = 30901
-poweradd = 60
+poweradd = 0
 sprpriority = 2
 
 [state 901]
@@ -3478,6 +3493,7 @@ type = HitDef
 trigger1 = AnimElem = 3
 attr = S, NA
 damage = 15, 0
+getpower = 30,15
 animtype = hard
 guardflag = MA
 hitflag = MAF
@@ -3604,7 +3620,7 @@ juggle   = 0
 ;velset   = 0,0
 ctrl     = 0
 anim     = 30902
-poweradd = 60
+poweradd = 0
 sprpriority = 2
 
 [state 902]
@@ -3624,6 +3640,7 @@ type = HitDef
 trigger1 = AnimElem = 4
 attr = S, NA
 damage = 15, 0
+getpower = 30,15
 animtype = hard
 guardflag = MA
 hitflag = MAF
@@ -3732,7 +3749,7 @@ juggle   = 0
 ;velset   = 0,0
 ctrl     = 0
 anim     = 30910
-poweradd = 60
+poweradd = 0
 sprpriority = 2
 
 ;[state 910]
@@ -3745,6 +3762,7 @@ type = HitDef
 trigger1 = AnimElem = 4
 attr = S, NA
 damage = 30, 0
+getpower = 30,15
 animtype = hard
 guardflag = MA
 hitflag = MAF
@@ -3872,7 +3890,7 @@ juggle   = 0
 ;velset   = 0,0
 ctrl     = 0
 anim     = 30920
-poweradd = 60
+poweradd = 0
 sprpriority = 2
 
 ;[State 920]
@@ -3892,6 +3910,7 @@ type = HitDef
 trigger1 = AnimElem = 4
 attr = A, NA
 damage    = 40
+getpower = 30,15
 guardflag = HA
 priority = 4
 pausetime = 12,18
@@ -4000,7 +4019,7 @@ juggle   = 0
 velset   = 0,0
 ctrl     = 0
 anim     = 30921
-poweradd = 60
+poweradd = 0
 sprpriority = 2
 
 [State 921]
@@ -4020,6 +4039,7 @@ type = HitDef
 trigger1 = AnimElem = 4
 attr = A, NA
 damage    = 15
+getpower = 30,15
 hitflag = MAFD
 guardflag = HA
 priority = 4
@@ -4128,7 +4148,7 @@ juggle   = 0
 velset   = 0,0
 ctrl     = 0
 anim     = 30922
-poweradd = 60
+poweradd = 0
 sprpriority = 2
 
 [State 922]
@@ -4148,6 +4168,7 @@ type = HitDef
 trigger1 = AnimElem = 3
 attr = A, NA
 damage    = 15
+getpower = 30,15
 hitflag = MAFD
 guardflag = HA
 priority = 4

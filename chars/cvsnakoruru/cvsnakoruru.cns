@@ -1046,7 +1046,7 @@ juggle = 8
 velset = 0,0
 ctrl = 0
 anim = 210
-poweradd = 17*(1000+var(24))/1000*!(var(15)||var(16))
+poweradd = 0*(1000+var(24))/1000*!(var(15)||var(16))
 
 [State 220, Position]
 type = PosSet
@@ -1152,7 +1152,7 @@ juggle = 8
 velset = 0,0
 ctrl = 0
 anim = 211
-poweradd = 17*(1000+var(24))/1000*!(var(15)||var(16))
+poweradd = 0*(1000+var(24))/1000*!(var(15)||var(16))
 
 [State 220, Position]
 type = PosSet
@@ -1259,7 +1259,7 @@ juggle = 8
 ctrl = 0
 velset = 0,0
 anim = 220
-poweradd = 17*(1000+var(24))/1000*!(var(15)||var(16))
+poweradd = 0*(1000+var(24))/1000*!(var(15)||var(16))
 
 [State 220, Position]
 type = PosSet
@@ -1365,7 +1365,7 @@ juggle = 8
 ctrl = 0
 velset = 0,0
 anim = 221
-poweradd = 17*(1000+var(24))/1000*!(var(15)||var(16))
+poweradd = 0*(1000+var(24))/1000*!(var(15)||var(16))
 
 [State 220, Position]
 type = PosSet
@@ -1711,7 +1711,7 @@ juggle = 8
 velset = 0,0
 ctrl = 0
 anim = 240
-poweradd = 17*(1000+var(24))/1000*!(var(15)||var(16))
+poweradd = 0*(1000+var(24))/1000*!(var(15)||var(16))
 
 [State 220, Position]
 type = PosSet
@@ -1808,7 +1808,7 @@ juggle = 8
 velset = 0,0
 ctrl = 0
 anim = 241
-poweradd = 17*(1000+var(24))/1000*!(var(15)||var(16))
+poweradd = 0*(1000+var(24))/1000*!(var(15)||var(16))
 
 [State 220, Position]
 type = PosSet
@@ -1900,7 +1900,7 @@ juggle = 8
 ctrl = 0
 velset = 0,0
 anim = 250
-poweradd = 17*(1000+var(24))/1000*!(var(15)||var(16))
+poweradd = 0*(1000+var(24))/1000*!(var(15)||var(16))
 
 [State 220, Position]
 type = PosSet
@@ -2129,7 +2129,7 @@ juggle = 8
 ctrl = 0
 velset = 0,0
 anim = 251
-poweradd = 17*(1000+var(24))/1000*!(var(15)||var(16))
+poweradd = 0*(1000+var(24))/1000*!(var(15)||var(16))
 
 [State 220, Position]
 type = PosSet
@@ -2373,7 +2373,7 @@ physics = C
 juggle = 8
 ctrl = 0
 anim = 410
-poweradd = 17*(1000+var(24))/1000*!(var(15)||var(16))
+poweradd = 0*(1000+var(24))/1000*!(var(15)||var(16))
 velset = 0,0
 
 [State 220, Position]
@@ -2479,7 +2479,7 @@ physics = C
 juggle = 8
 ctrl = 0
 anim = 420
-poweradd = 17*(1000+var(24))/1000*!(var(15)||var(16))
+poweradd = 0*(1000+var(24))/1000*!(var(15)||var(16))
 velset = 0,0
 
 [State 220, Position]
@@ -2724,7 +2724,7 @@ juggle = 8
 velset = 0,0
 ctrl = 0
 anim = 440
-poweradd = 17*(1000+var(24))/1000*!(var(15)||var(16))
+poweradd = 0*(1000+var(24))/1000*!(var(15)||var(16))
 
 [State 220, Position]
 type = PosSet
@@ -2815,7 +2815,7 @@ physics = C
 juggle = 8
 ctrl = 0
 anim = 450
-poweradd = 17*(1000+var(24))/1000*!(var(15)||var(16))
+poweradd = 0*(1000+var(24))/1000*!(var(15)||var(16))
 velset = 0,0
 
 [State 3001, Width]
@@ -3011,7 +3011,7 @@ physics = N
 juggle = 8
 ctrl = 0
 anim = 610
-poweradd = 17*(1000+var(24))/1000*!(var(15)||var(16))
+poweradd = 0*(1000+var(24))/1000*!(var(15)||var(16))
 
 [State 3001, Width]
 type = Width
@@ -3125,7 +3125,7 @@ physics = N
 juggle = 8
 ctrl = 0
 anim = 620
-poweradd = 17*(1000+var(24))/1000*!(var(15)||var(16))
+poweradd = 0*(1000+var(24))/1000*!(var(15)||var(16))
 
 [State 3001, Width]
 type = Width
@@ -3333,7 +3333,7 @@ physics = N
 juggle = 8
 ctrl = 0
 anim = 640
-poweradd = 17*(1000+var(24))/1000*!(var(15)||var(16))
+poweradd = 0*(1000+var(24))/1000*!(var(15)||var(16))
 
 [State 3001, Width]
 type = Width
@@ -3427,7 +3427,7 @@ physics = N
 juggle = 8
 ctrl = 0
 anim = 650
-poweradd = 17*(1000+var(24))/1000*!(var(15)||var(16))
+poweradd = 0*(1000+var(24))/1000*!(var(15)||var(16))
 
 [State 3001, Width]
 type = Width
@@ -3520,7 +3520,7 @@ physics = N
 juggle = 8
 ctrl = 0
 anim = 500
-poweradd = 17*(1000+var(24))/1000*!(var(15)||var(16))
+poweradd = 0*(1000+var(24))/1000*!(var(15)||var(16))
 velset = 0,0
 
 [State 3001, Width]
@@ -3657,7 +3657,7 @@ physics = N
 juggle = 8
 ctrl = 0
 anim = 700
-poweradd = 17*(1000+var(24))/1000*!(var(15)||var(16))
+poweradd = 0*(1000+var(24))/1000*!(var(15)||var(16))
 
 [State 3001, Width]
 type = Width
@@ -4527,7 +4527,7 @@ juggle  = 0
 velset = 0,0
 ctrl = 0
 anim = ifelse(Command = "z"||(var(59)&&(random%2=0)), 900, 910)
-poweradd = 89*(1000+var(24))/1000*!(var(15)||var(16))
+poweradd = 0*(1000+var(24))/1000*!(var(15)||var(16))
 
 [State 900, 1]
 type = HitDef
@@ -5235,7 +5235,7 @@ physics = N
 juggle = 0
 ctrl = 0
 anim = 920
-poweradd = 89*(1000+var(24))/1000*!(var(15)||var(16))
+poweradd = 0*(1000+var(24))/1000*!(var(15)||var(16))
 
 [State 900, 1]
 type = HitDef
@@ -5646,7 +5646,7 @@ physics = N
 juggle = 8
 velset = 0,0
 ctrl = 0
-poweradd = 70*(1000+var(24))/1000*!(var(15)||var(16))
+poweradd = 0*(1000+var(24))/1000*!(var(15)||var(16))
 
 [State 106, 2]
 type = PosSet
@@ -5788,7 +5788,7 @@ physics = N
 juggle = 8
 velset = 0,0
 ctrl = 0
-poweradd = 70*(1000+var(24))/1000*!(var(15)||var(16))
+poweradd = 0*(1000+var(24))/1000*!(var(15)||var(16))
 
 [State 106, 2]
 type = PosSet
@@ -5973,7 +5973,7 @@ physics = S
 anim = 1200
 velset = 0,0
 ctrl = 0
-poweradd = 70*(1000+var(24))/1000*!(var(15)||var(16))
+poweradd = 0*(1000+var(24))/1000*!(var(15)||var(16))
 
 [State 106, 2]
 type = PosSet
@@ -6719,7 +6719,7 @@ physics = N
 juggle = 8
 velset = 0,0
 ctrl = 0
-poweradd = 70*(1000+var(24))/1000*!(var(15)||var(16))
+poweradd = 0*(1000+var(24))/1000*!(var(15)||var(16))
 anim = 1400
 
 [State 1100, VarSet]
@@ -6965,7 +6965,7 @@ juggle = 8
 anim = 1600
 velset = 0,0
 ctrl = 0
-poweradd = 70*(1000+var(24))/1000*!(var(15)||var(16))
+poweradd = 20*(1000+var(24))/1000*!(var(15)||var(16))
 
 [State 106, 2]
 type = PosSet
@@ -7147,7 +7147,7 @@ juggle = 8
 anim = 1650
 velset = 0,0
 ctrl = 0
-poweradd = 70*(1000+var(24))/1000*!(var(15)||var(16))
+poweradd = 0*(1000+var(24))/1000*!(var(15)||var(16))
 
 [State 106, 2]
 type = PosSet

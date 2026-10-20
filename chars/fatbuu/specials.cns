@@ -75,6 +75,7 @@ type = HitDef
 trigger1 = animelem = 3
 attr = A, SA
 damage = 120,10
+getpower = 30,15
 animtype = diagup
 hitflag = MAF
 guardflag = MA
@@ -276,6 +277,7 @@ type = HitDef
 trigger1 = animelem = 2
 attr = A, SA
 damage = 100,10
+getpower = 30,15
 animtype = diagup
 hitflag = MAFd
 guardflag = HA
@@ -426,6 +428,7 @@ type = HitDef
 trigger1 = animelem = 3
 attr = A, SA
 damage = 120,10
+getpower = 30,15
 animtype = diagup
 hitflag = MAF
 guardflag = MA
@@ -581,6 +584,7 @@ type = HitDef
 trigger1 = animelem = 2
 attr = A, SA
 damage = 100,10
+getpower = 30,15
 animtype = diagup
 hitflag = MAFd
 guardflag = HA
@@ -617,7 +621,7 @@ type = S
 movetype = A
 physics = S
 anim = 1100
-poweradd = 100
+poweradd = 0
 velset = 0
 ctrl = 0
 
@@ -1844,7 +1848,7 @@ trigger1 = Animelem = 2
 attr = S, SA
 damage    = 120,10
 animtype = Diagup
-getpower = 50
+getpower = 60,30
 givepower = 15
 guardflag = MA
 hitflag = MAF
@@ -1906,7 +1910,7 @@ trigger1 = Animelem = 2
 attr = A, SA
 damage = 100,10
 animtype = Diagup
-getpower = 50
+getpower = 60,30
 givepower = 15
 guardflag = MA
 hitflag = MAF
@@ -2098,7 +2102,7 @@ trigger1 = Animelem = 2
 attr = S, SA
 damage = 120,10
 animtype = Diagup
-getpower = 50
+getpower = 30,15
 givepower = 15
 guardflag = MA
 hitflag = MAF
@@ -2164,7 +2168,7 @@ trigger1 = Animelem = 2
 attr = A, SA
 damage = 100,10
 animtype = Diagup
-getpower = 50
+getpower = 30,15
 givepower = 15
 guardflag = MA
 hitflag = MAF
@@ -2221,6 +2225,7 @@ anim = 1300
 
 [State 1300, 1]
 type = HitDef
+getpower = 60,30
 Trigger1 = Time = 0
 attr = S, NT
 hitflag = M
@@ -2245,7 +2250,7 @@ type = S
 movetype= A
 physics = N
 anim = 1301
-poweradd = 60
+poweradd = 0
 
 [State 810, SprPriority]
 type = SprPriority
@@ -2449,7 +2454,7 @@ type = s
 movetype = a
 physics = s
 anim = 1700
-poweradd = 50
+poweradd = 0
 ctrl = 0
 
 [State 1700]
@@ -2481,7 +2486,7 @@ type = a
 movetype = a
 physics = s
 anim = 1701
-poweradd = 50
+poweradd = 0
 ctrl = 0
 velset = 0,0
 
@@ -2539,6 +2544,7 @@ guarDFlag = ma
 animtype = hard
 priority = 7,hit
 damage = 40,5
+getpower = 60,30
 pausetime = 30,45
 guard.pausetime = 15,10
 guard.sparkno = s4500
@@ -2614,6 +2620,7 @@ guarDFlag = ma
 animtype = hard
 priority = 7,hit
 damage = 40,5
+getpower = 60,30
 pausetime = 30,35
 guard.pausetime = 15,10
 guard.sparkno = s4500

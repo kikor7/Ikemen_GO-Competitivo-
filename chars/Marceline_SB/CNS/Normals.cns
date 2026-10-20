@@ -9,7 +9,7 @@
 type    = S
 movetype= A
 physics = S
-poweradd = 25
+poweradd = 0
 ctrl = 0
 velset = 0,0
 anim = 200
@@ -48,6 +48,7 @@ trigger1 = Time = 0
 attr = S, NA
 animtype  = Medium
 damage    = 22
+getpower = 30,15
 animtype = Light
 air.animtype = Back
 ground.type = Low
@@ -99,7 +100,7 @@ ctrl = 1
 type    = S
 movetype= A
 physics = S
-poweradd = 50
+poweradd = 0
 ctrl = 0
 velset = 0,0
 anim = 210
@@ -142,6 +143,7 @@ ground.type = High
 guardflag = MA
 hitflag = MAF
 damage    = 43
+getpower = 30,15
 pausetime = 10,10
 sparkno = s8001
 guard.sparkno = s8003
@@ -188,7 +190,7 @@ ctrl = 1
 type    = S
 movetype= A
 physics = S
-poweradd = 65
+poweradd = 0
 velset = 0,0
 anim = 700
 ctrl = 0
@@ -215,6 +217,7 @@ trigger1 = AnimElemTime(4) = 0
 attr = S, NA
 animtype  = Hard
 damage    = 69
+getpower = 30,15
 hitflag = MAF
 guardflag = MA
 pausetime = 10, 10
@@ -284,7 +287,7 @@ ctrl = 1
 type    = C
 movetype= A
 physics = C
-poweradd = 25
+poweradd = 0
 ctrl = 0
 anim = 400
 sprpriority = 2
@@ -316,6 +319,7 @@ trigger1 = (movecontact=0&&movereversed=0)
 trigger1 = Time = 0
 attr = C, NA
 damage    = 25
+getpower = 30,15
 animtype = Light
 air.animtype = back
 guardflag = MA
@@ -361,7 +365,7 @@ ctrl = 1
 type    = C
 movetype= A
 physics = C
-poweradd = 50
+poweradd = 0
 ctrl = 0
 anim = 410
 sprpriority = 2
@@ -393,6 +397,7 @@ trigger1 = (movecontact=0&&movereversed=0)
 trigger1 = time = 0
 attr = C, NA
 damage    = 46
+getpower = 30,15
 animtype = Heavy
 guardflag = MA
 hitflag = MAF
@@ -448,7 +453,7 @@ ctrl = 1
 type    = C
 movetype= A
 physics = C
-poweradd = 65
+poweradd = 0
 ctrl = 0
 anim = 420
 sprpriority = 2
@@ -480,6 +485,7 @@ trigger1 = (movecontact=0&&movereversed=0)
 trigger1 = Time = 0
 attr = C, NA
 damage    = 69
+getpower = 30,15
 animtype = Hard
 air.animtype = back
 guardflag = L
@@ -540,7 +546,7 @@ ctrl = 1
 type    = A
 movetype= A
 physics = A
-poweradd = 25
+poweradd = 0
 ctrl = 0
 anim = 600
 sprpriority = 2
@@ -571,6 +577,7 @@ trigger1 = (movecontact=0&&movereversed=0)
 trigger1 = animelemtime(2) = 0
 attr = A, NA
 damage = 26
+getpower = 30,15
 animtype = medium
 guardflag = HA
 hitflag = MAF
@@ -607,7 +614,7 @@ ctrl = 1
 type    = A
 movetype= A
 physics = A
-poweradd = 50
+poweradd = 0
 ctrl = 0
 anim = 610
 sprpriority = 2
@@ -638,6 +645,7 @@ trigger1 = (movecontact=0&&movereversed=0)
 trigger1 = animelemtime(3) = 0
 attr = A, NA
 damage = 48
+getpower = 30,15
 animtype = medium
 guardflag = HA
 hitflag = MAF
@@ -686,7 +694,7 @@ ctrl = 1
 type    = A
 movetype= A
 physics = A
-poweradd = 65
+poweradd = 0
 ctrl = 0
 anim = 620
 sprpriority = 2
@@ -717,6 +725,7 @@ trigger1 = (movecontact=0&&movereversed=0)
 trigger1 = animelemtime(3) = 0
 attr = A, NA
 damage    = 78
+getpower = 7,3
 animtype = medium
 guardflag = HA
 hitflag = MAF
@@ -775,7 +784,7 @@ ctrl = 0
 anim = 717
 sprpriority = 2
 velset = 8,-6
-poweradd = 80
+poweradd = 0
 
 [State 0, VarAdd]
 type = VarAdd
@@ -820,6 +829,7 @@ ground.type = High
 guardflag = MA
 hitflag = MAF
 damage    = 38
+getpower = 15,7
 pausetime = 6,8
 sparkno = s8002
 guard.sparkno = s8003
@@ -892,6 +902,7 @@ ground.type = High
 guardflag = MA
 hitflag = MAFD
 damage    = 56
+getpower = 15,7
 pausetime = 8,10
 sparkno = s8002
 guard.sparkno = s8003
@@ -1070,7 +1081,7 @@ trigger3 = movecontact
 type    = A
 movetype= A
 physics = N
-poweradd= 25
+poweradd= 0
 ctrl = 0
 anim = 705
 sprpriority = 2
@@ -1115,6 +1126,7 @@ type = HitDef
 trigger1 = animelemtime(3) = 0
 attr = A, NA
 damage    = 13
+getpower = 7,3
 animtype = medium
 guardflag = HA
 hitflag = MAF
@@ -1149,6 +1161,7 @@ triggerall = Var(19) <= 15
 trigger1 = animelemtime(7) = 0
 attr = A, NA
 damage    = 19
+getpower = 7,3
 animtype = medium
 guardflag = HA
 hitflag = MAF
@@ -1183,6 +1196,7 @@ triggerall = Var(19) <= 15
 trigger1 = animelemtime(10) = 0
 attr = A, NA
 damage    = 29
+getpower = 7,3
 animtype = medium
 guardflag = HA
 hitflag = MAF
@@ -1258,6 +1272,7 @@ var(5) = 7
 
 [State 700, HitDef]
 type = HitDef
+getpower = 60,30
 trigger1 = Animelemtime(2) = 0
 trigger1 = var(30) = 0
 attr = S, NT          ;Attributes: Standing, Normal Throw
@@ -1356,7 +1371,7 @@ value = -1
 [State 710, PowerAdd]
 type = PowerAdd
 trigger1 = AnimElemTime(3) >= 0
-value = 1
+value = 0
 
 [State 710, TargetPowerAdd]
 type = TargetPowerAdd
@@ -1479,6 +1494,7 @@ sprpriority = 2
 
 [State 800, HitDef]
 type = HitDef
+getpower = 60,30
 trigger1 = Animelemtime(2) = 0
 trigger1 = var(30) = 0
 attr = A, NT          ;Attributes: Standing, Normal Throw
@@ -1790,7 +1806,7 @@ value = 25
 [State 826, PowerAdd]
 type = PowerAdd
 trigger1 = !time
-value = 25
+value = 0
 
 [State 1305, Type]
 type = statetypeset

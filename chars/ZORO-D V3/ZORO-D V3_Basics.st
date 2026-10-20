@@ -10,7 +10,7 @@ physics = S
 juggle  = 1
 ctrl = 0
 anim = 200
-poweradd = 30
+poweradd = 0
 sprpriority = 2
 
 ;-------dash--------------
@@ -48,6 +48,7 @@ triggerall = hitcount < 1
 trigger1 = animelem = 3
 attr = S, NA
 damage = 10,2
+getpower = 15,7
 animtype = light
 guardflag = MA
 hitflag = MAF
@@ -455,7 +456,7 @@ juggle  = 1
 velset = 0,0
 ctrl = 0
 anim = 201
-poweradd = 30
+poweradd = 0
 sprpriority = 2
 
 [State 203, 1]
@@ -464,6 +465,7 @@ triggerall = hitcount < 1
 trigger1 = animelem =2 || animelem =3
 attr = S, NA
 damage = 10,1;2
+getpower = 15,7
 animtype = light
 guardflag = MA
 hitflag = MAF
@@ -868,7 +870,7 @@ juggle  = 1
 velset = 0,0
 ctrl = 0
 anim = 202
-poweradd = 30
+poweradd = 0
 sprpriority = 2
 
 [State 0, PosAdd]
@@ -882,6 +884,7 @@ triggerall = hitcount < 1
 trigger1 = animelem = 3 || animelem = 4
 attr = S, NA
 damage =15, 2;
+getpower = 15,7
 animtype = hard
 guardflag = MA
 hitflag = MAF
@@ -1329,7 +1332,7 @@ physics = N
 juggle  = 1
 ctrl = 0
 anim = 305
-poweradd = 30
+poweradd = 0
 sprpriority = 2
 
 [State 0, VelSet]
@@ -1403,6 +1406,7 @@ triggerall = hitcount < 1
 trigger1 = animelem = 2
 attr = S, NA
 damage =15, 3
+getpower = 60,30
 animtype = hard
 guardflag = MA
 hitflag = MAF
@@ -1815,7 +1819,7 @@ type    = S
 movetype= A
 physics = S
 juggle  = 4
-poweradd = 30
+poweradd = 0
 ctrl = 0
 anim = 210
 sprpriority = 2
@@ -1855,6 +1859,7 @@ trigger1 = animelem = 4  || animelem = 5
 attr = S, NA
 animtype  = Medium
 damage    = 15,2;
+getpower = 10,5
 guardflag = MA
 pausetime =  5,7
 sparkno = -1;s6000
@@ -2259,7 +2264,7 @@ juggle  = 1
 velset = 0,0
 ctrl = 0
 anim = 211
-poweradd = 30
+poweradd = 0
 sprpriority = 2
 
 [State 211, 1]
@@ -2269,6 +2274,7 @@ trigger1 = animelem = 3 || animelem = 4
 attr = S, NA
 animtype  = Medium
 damage    = 15,2;3
+getpower = 10,5
 guardflag = MA
 pausetime = 8,10
 sparkno = -1;s6000
@@ -2685,7 +2691,7 @@ juggle  = 1
 velset = 0,0
 ctrl = 0
 anim = 212
-poweradd = 30
+poweradd = 0
 sprpriority = 2
 
 [State 0, VelSet]
@@ -2700,6 +2706,7 @@ trigger1 = animelem = 2
 attr = S, NA
 animtype  = Medium
 damage    = 20,4
+getpower = 10,5
 guardflag = MA
 pausetime = 8,10
 sparkno = -1;s6000
@@ -3157,7 +3164,7 @@ physics = N
 anim = 1403
 velset = 0,0
 ctrl = 0
-poweradd = 30
+poweradd = 0
 sprpriority = 2
 
 ;-------RUN--------------
@@ -3224,6 +3231,7 @@ trigger1 = animelem = 4 || animelem = 5 || animelem = 6
 attr = S, NA
 animtype  = Medium
 damage    = 20,2;4
+getpower = 30,15
 guardflag = MA
 pausetime = 8,10
 sparkno = -1;s6000
@@ -3691,6 +3699,7 @@ triggerall = hitcount < 1
 trigger1 =  animelem = 4
 attr = A, NA
 damage    = 10,0
+getpower = 30,15
 guardflag =
 animtype= up
 priority = 3
@@ -3880,7 +3889,7 @@ ctrl = 0
 type    = S
 movetype = A
 physics = S
-poweradd = 30
+poweradd = 0
 ctrl = 0
 velset = 0,0
 anim = 220
@@ -3923,6 +3932,7 @@ trigger1 = animelem = 4 || animelem = 5
 attr = S, NA
 animtype  = hard
 damage    = 20,2;4
+getpower = 7,3
 guardflag = MA
 pausetime = 5,7
 sparkno = -1;s6000
@@ -4350,7 +4360,7 @@ ctrl = 1
 type    = S
 movetype = A
 physics = S
-poweradd = 30
+poweradd = 0
 ctrl = 0
 velset = 0,0
 anim = 300
@@ -4364,6 +4374,7 @@ trigger1 = animelem = 2
 attr = S, NA
 animtype  = medium;hard
 damage    = 20,4
+getpower = 7,3
 guardflag = MA
 pausetime = 5,7
 sparkno = -1;s6000
@@ -4768,7 +4779,7 @@ ctrl = 0
 type    = S
 movetype = A
 physics = S
-poweradd = 30
+poweradd = 0
 ctrl = 0
 velset = 0,0
 anim = 301
@@ -4782,6 +4793,7 @@ trigger1 = animelem = 4 || animelem = 5
 attr = S, NA
 animtype  = hard
 damage    = 25,2;5
+getpower = 7,3
 guardflag = MA
 pausetime = 5,7
 sparkno = -1;s6000
@@ -5259,7 +5271,7 @@ type    = S
 movetype = A
 physics = S
 juggle  = 10
-poweradd = 30
+poweradd = 0
 ctrl = 0
 velset = 0,0
 anim = 222
@@ -5302,6 +5314,7 @@ trigger2 = movehit>1
 attr = S, NA
 animtype  = up;hard
 damage    = 4,1
+getpower = 7,3
 priority = 5, Hit
 guardflag = MA
 pausetime = 6,7
@@ -5488,7 +5501,7 @@ type    = A
 movetype= A
 physics = A
 juggle  = 2
-poweradd = 30
+poweradd = 0
 ctrl = 0
 anim = 230
 sprpriority = 2
@@ -5517,6 +5530,7 @@ trigger1 = AnimElem = 1 || AnimElem = 2
 animtype  = light
 attr = A, NA
 damage = 15,1;3
+getpower = 30,15
 guardflag = HA
 priority = 3
 pausetime = 6,8
@@ -5664,7 +5678,7 @@ type    = A
 movetype= A
 physics = A
 juggle  = 2
-poweradd = 30
+poweradd = 0
 ctrl = 0
 anim = 240
 sprpriority = 2
@@ -5693,6 +5707,7 @@ trigger1 = AnimElem = 4 || AnimElem = 5
 attr = A, NA
 animtype  = medium
 damage    = 20,2;4
+getpower = 30,15
 guardflag = MA
 pausetime = 9,8
 sparkno = -1
@@ -5859,7 +5874,7 @@ type    = A
 movetype= A
 physics = A
 juggle  = 4
-poweradd = 30
+poweradd = 0
 ctrl = 0
 anim = 250
 sprpriority = 2
@@ -5888,6 +5903,7 @@ trigger1 = AnimElem = 5 || AnimElem = 6
 attr = A, NA
 animtype  = hard
 damage = 25, 2;5
+getpower = 30,15
 guardflag = HA
 priority = 3
 pausetime = 6,15
@@ -6086,7 +6102,7 @@ juggle  = 2
 ctrl = 0
 anim = 224
 sprpriority = 2
-poweradd=30
+poweradd=0
 
 ;--------dash---------------
 [State 40, Velocity]
@@ -6112,6 +6128,7 @@ trigger1 = animelem = 6 || animelem = 7
 attr = A, NA
 animtype  = hard
 damage    = 25,2;5
+getpower = 30,15
 guardflag = MA
 pausetime = 10,12
 sparkno = -1;s6000
@@ -6302,7 +6319,7 @@ ctrl = 0
 type    = A
 movetype= A
 physics = A
-poweradd = 30
+poweradd = 0
 ctrl = 0
 anim = 270
 sprpriority = 2
@@ -6332,6 +6349,7 @@ trigger2 = movehit>1
 attr = A, NA
 animtype  = medium
 damage = 2,0
+getpower = 15,7
 guardflag = HA
 priority = 3
 pausetime = ifelse(hitcount < 2,7,ifelse(hitcount < 5,4,0)),ifelse(hitcount < 2,7,ifelse(hitcount < 5,4,0));5,7
@@ -6508,6 +6526,7 @@ trigger1 = AnimElem = 2
 attr = A, NA
 animtype  = hard
 damage    = 10
+getpower = 15,7
 pausetime = 20,20
 sparkno = -1
 guard.sparkno = -1;s7000
@@ -6638,7 +6657,7 @@ type    = A
 movetype= A
 physics = A
 juggle  = 2
-poweradd = 30
+poweradd = 0
 ctrl = 0
 anim = 280
 sprpriority = 2
@@ -6667,6 +6686,7 @@ trigger1 = AnimElem = 3 ||  AnimElem = 4
 attr = A, NA
 animtype  = hard
 damage    = 25,2;5
+getpower = 30,15
 guardflag = MA
 pausetime = 20,20
 guard.pausetime=5,5
@@ -6827,7 +6847,7 @@ type = A
 movetype = A
 physics = A
 juggle = 1
-poweradd = 0
+poweradd = 20
 ctrl = 0
 velset = 0,0
 anim = 285
@@ -6878,6 +6898,7 @@ type = HitDef
 trigger1 = Time%2=0
 attr = S, NA
 damage = Ceil(FVar(0):=5),Ceil(Fvar(0)/3.0)
+getpower = 15,7
 animtype = Light
 guardflag = MA
 hitflag = MAFD
@@ -7085,6 +7106,7 @@ type = HitDef
 trigger1 = Time%2=0
 attr = S, NA
 damage = Ceil(FVar(0):=5),Ceil(Fvar(0)/3.0)
+getpower = 15,7
 animtype = Light
 guardflag = MA
 hitflag = MAFD
@@ -7279,7 +7301,7 @@ physics = S
 velset = 0,0
 ctrl = 0
 anim = 263
-poweradd = 30
+poweradd = 0
 sprpriority = 2
 
 ;------counter---------------
@@ -7339,7 +7361,7 @@ envshake.time = 15
 envshake.ampl = 5
 envshake.freq = 120
 envshake.phase = 120
-getpower=0
+getpower = 60,30
 
 [State 1000, EnvColor]
 type = EnvColor
@@ -7936,7 +7958,7 @@ juggle = 0
 velset = 0,0
 ctrl = 0
 anim = 290
-poweradd = 30
+poweradd = 0
 sprpriority = 2
 
 
@@ -7947,6 +7969,7 @@ trigger1 = animelem = 3
 attr = S, NA
 animtype  = light
 damage    = 5
+getpower = 30,15
 guardflag = ;MA
 pausetime = 8,9
 sparkno = -1;s6000
@@ -8015,6 +8038,7 @@ pos = 40, 0
 
 [State 800, 1]
 type = HitDef
+getpower = 15,7
 triggerall=hitcount<1
 Trigger1 = animelem = 5
 Trigger2 = animelem = 6

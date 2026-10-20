@@ -29,6 +29,7 @@ x = 15
 
 [State 2000, ƒqƒbƒg’è‹`]
 type = HitDef
+getpower = 60,30
 trigger1 = time = 0
 attr = S, NT
 ;guardflag = MA
@@ -57,7 +58,7 @@ movetype= A
 physics = S
 velset = 0,0
 anim = 2005
-poweradd = 90
+poweradd = 0
 sprpriority = 3
 
 [State 2005]
@@ -355,7 +356,7 @@ movetype= A
 physics = S
 velset = 0,0
 anim = 2250
-poweradd = 50
+poweradd = 0
 sprpriority = 2
 
 [State 2250]
@@ -672,7 +673,7 @@ movetype= A
 physics = S
 velset = 0,0
 anim = 2060
-poweradd = 90
+poweradd = 0
 sprpriority = 1
 
 [State 2060]
@@ -1198,7 +1199,7 @@ movetype= A
 physics = S
 velset = 0,0
 anim = 2155
-poweradd = 90
+poweradd = 0
 sprpriority = 1
 
 [State 2155]
@@ -1507,7 +1508,7 @@ movetype= A
 physics = S
 velset = 0,0
 anim = 2200
-poweradd = 50
+poweradd = 0
 sprpriority = 2
 
 [State 2200]

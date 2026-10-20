@@ -11,6 +11,7 @@ Pal.Defaults =1,2
 ;--| 必要なファイルの設定 |---------------------------------------------------
 
 [Files]
+movelist = movelist.dat
 Cmd     =oichi.cmd
 Cns     =oichi.cns
 St      =oichi.cns

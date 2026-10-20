@@ -1,0 +1,10 @@
+<#f0f000>:Special Moves:</>
+Un Ke Un A Un Un Un Tsu Kan Yu Un Wo Myou A			_D_U^B
+Un Ke Un A Un Un Un Tsu Kan Yu Un Wo Hiki Juu Juu Type Changestate Type Changestatevalue 1050 Type Changestatevalue 1050Triggerall Command Taiku X Helper Var 1050 Helper Var 0 Triggerall Alive Var 1 Triggerall Alive Var 1Trigger1 Ctrl Statetype A Atrigger2 Var Use Combo Condition Atrigger2 Var Use Combo Condition Atrigger2 Var Use Combo Condition --------------------------------------------------------------------------- Atrigger2 Var Use Combo Condition --------------------------------------------------------------------------- State -1 Kan Kan Kan Kyuu Gamma Kan U Kan I Ka Un Un Kan U Un Ke Un So Kan Shi Myou A			_B_F^B
+Kan Kan Kan Kyuu Gamma Kan U Kan I Ka Un Un Kan U Un Ke Un So Kan Shi Hiki Juu Juu Type Changestate Type Changestatevalue 1100 Type Changestatevalue 1100Triggerall Command Keri X Helper Var 1100 Helper Var 0 Triggerall Alive Var 1 Triggerall Alive Var 1Trigger1 Ctrl Statetype A Atrigger2 Var Use Combo Condition Atrigger2 Var Use Combo Condition Atrigger2 Var Use Combo Condition --------------------------------------------------------------------------- Atrigger2 Var Use Combo Condition --------------------------------------------------------------------------- State -1 Kan Shita Chi Kan Suke Lambda Un Un Kan Suke I Kan U Kan I Beta Myou A			_B_F^Y
+
+<#f0f000>:Hyper Moves:</>
+Un Ku Kan A Kan Shi Un O Kan Shi Kan Kan Un Un Kan Kan Un Un Un Ki Kan A Kan U <#f00000>(1000)</>			_B_F^Y_+^B
+Gc Un Ke Un A Un Un Un Tsu Kan Yu Un Wo Myou A <#f00000>(1000)</>			_D_U^B
+Gc Kan Kan Kan Kyuu Gamma Kan U Kan I Ka Un Un Kan U Un Ke Un So Kan Shi Myou A <#f00000>(1000)</>			_B_F^B
+Gc Kan Shita Chi Kan Suke Lambda Un Un Kan Suke I Kan U Kan I Beta Myou A <#f00000>(1000)</>			_B_F^Y

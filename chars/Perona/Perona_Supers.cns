@@ -4239,7 +4239,7 @@ movetype = A
 physics = N
 anim = 3220
 ctrl = 0
-poweradd = 50
+poweradd = 0
 
 [State 0, AssertSpecial]
 type = AssertSpecial

@@ -8,6 +8,7 @@
 ;-----------------------------------------------連続斬りいりこみスタート５００
 [statedef 500]
 type = s
+poweradd = 0
 movetype = a
 physics = s
 velset = 0,0
@@ -53,7 +54,7 @@ air.velocity = -3,-4
 air.fall = 0
 fall = 0                 
 air.hittime = 15                
-getpower = 0,0
+getpower = 3,1
 ID=500
 
 [State 2500x, ];よろけで
@@ -184,7 +185,7 @@ air.velocity = -3,-3
 air.fall = 0
 fall = 0                 
 air.hittime = 15                
-getpower = 0,0
+getpower = 3,1
 
 [state 200x,];ヒット音　とどめの時の。またhitdef使用不可・・
 type = playsnd
@@ -272,7 +273,7 @@ air.velocity = -3,-3
 air.fall = 0
 fall = 0                 
 air.hittime = 15                
-getpower = 0,0
+getpower = 3,1
 
 [state 200x,];ヒット音　とどめの時の。またhitdef使用不可・・
 type = playsnd
@@ -928,7 +929,7 @@ air.velocity = -3,-3
 air.fall = 0
 fall = 0                 
 air.hittime = 15                
-getpower = 0,0
+getpower = 3,1
 
 [state 200x,];ヒット音　とどめの時の。またhitdef使用不可・・
 type = playsnd
@@ -1017,7 +1018,7 @@ air.velocity = -3,-3
 air.fall = 0
 fall = 0                 
 air.hittime = 15                
-getpower = 0,0
+getpower = 3,1
 
 [state 200x,];ヒット音　とどめの時の。またhitdef使用不可・・
 type = playsnd
@@ -1114,7 +1115,7 @@ air.fall = 1
 fall = 0
 fall.recover = 0                 
 air.hittime = 15                
-getpower = 0,0
+getpower = 3,1
 id=240
 
 [state 200x,];ヒット音　とどめの時の。またhitdef使用不可・・
@@ -1211,7 +1212,7 @@ air.velocity = -3,-3
 air.fall = 0
 fall = 0                 
 air.hittime = 15                
-getpower = 0,0
+getpower = 3,1
 
 [state 200x,];ヒット音　とどめの時の。またhitdef使用不可・・
 type = playsnd
@@ -1327,7 +1328,7 @@ air.velocity = -3,-3
 air.fall = 0
 fall = 0                 
 air.hittime = 15                
-getpower = 0,0
+getpower = 3,1
 
 [state 200x,];ヒット音　とどめの時の。またhitdef使用不可・・
 type = playsnd
@@ -1416,7 +1417,7 @@ air.fall = 1
 fall = 1
 fall.recover = 0                 
 air.hittime = 15                
-getpower = 0,0
+getpower = 3,1
 
 [state 200x,];ヒット音　とどめの時の。またhitdef使用不可・・
 type = playsnd

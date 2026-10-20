@@ -4,7 +4,7 @@
 ; Player information
 [Info]
 name="Captain Kuro"
-displayname="2"
+displayname="Captain Kuro"
 versiondate=04,14,2002
 mugenversion=1.0
 author=""
@@ -12,6 +12,7 @@ pal.defaults=1,2,3,4,5,6
 
 ; Files for the player
 [Files]
+movelist = movelist.dat
 cmd=Kuro.cmd
 sprite=Kuro.sff
 anim=Kuro.air

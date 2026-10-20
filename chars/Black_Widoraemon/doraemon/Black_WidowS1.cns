@@ -24,6 +24,7 @@ channel = 0
 
 [State 800, ヒット定義（投げ用）]
 type = HitDef
+getpower = 60,30
 triggerall = EnemyNear(var(30)),stateno != [150,155]
 trigger1 = Time = 0
 attr = S, ST
@@ -79,6 +80,7 @@ id = 1000
 
 [State 800, ヒット定義（投げ用）]
 type = HitDef
+getpower = 60,30
 triggerall = EnemyNear(var(30)),stateno = 4007
 trigger1 = Time = 0
 attr = S, HT
@@ -169,6 +171,7 @@ ownpal = 1
 
 [State 800, ヒット定義（投げ用）]
 type = HitDef
+getpower = 60,30
 triggerall = EnemyNear(var(30)),stateno != [150,155]
 trigger1 = Time = 0
 attr = S, ST
@@ -631,7 +634,7 @@ type     = U
 movetype = A
 physics  = U
 anim = 3000
-poweradd = 100
+poweradd = 0
 ctrl = 0
 velset = 0,0
 
@@ -789,7 +792,7 @@ type     = U
 movetype = A
 physics  = U
 anim = 3010
-poweradd = 100
+poweradd = 0
 ctrl = 0
 velset = 0,0
 
@@ -939,7 +942,7 @@ type     = U
 movetype = A
 physics  = U
 anim = 3000
-poweradd = 100
+poweradd = 0
 ctrl = 0
 velset = 0,0
 
@@ -3065,7 +3068,7 @@ type     = U
 movetype = A
 physics  = U
 anim     = 4010
-poweradd = 60
+poweradd = 0
 sprpriority = -1
 velset = 0,0
 

@@ -760,7 +760,7 @@ juggle  = 1
 velset = 0,0
 ctrl = 0
 anim = 3103
-poweradd = 25
+poweradd = 0
 sprpriority = 2
 
 [State 1651, PlaySnd]
@@ -795,7 +795,7 @@ juggle  = 1
 velset = -20,0
 ctrl = 0
 anim = 3102
-poweradd = 15
+poweradd = 0
 sprpriority = 2
 
 [State 3101, Explod]
@@ -1663,7 +1663,7 @@ juggle  = 1
 velset = -5,0
 ctrl = 0
 anim = 3207
-poweradd = 35
+poweradd = 0
 sprpriority = 2
 
 [State 0, PlaySnd]

@@ -4023,7 +4023,7 @@ ground.hittime  = 15
 ground.velocity = -2,-11
 air.velocity = -2,-11
 Fall = 1
-Getpower = 0,0
+getpower = 60,30
 
 [State 0, Hit Spark]
 type = Explod
@@ -4367,6 +4367,7 @@ trigger1 = 1
 attr = S, NA
 animtype  = heavy
 damage    = 160,80
+getpower = 30,15
 guardflag = MA
 pausetime = 0,20
 sparkno = -1
@@ -4462,6 +4463,7 @@ trigger1 = 1
 attr = S, NA
 animtype  = heavy
 damage    = 0,0
+getpower = 30,15
 guardflag = MA
 pausetime = 0,20
 sparkno = -1

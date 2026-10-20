@@ -1546,6 +1546,7 @@ trigger1 = timemod=5,0 && time > 5 && time < 10
 attr = S, SP
 animtype  = Heavy
 damage    = 350
+getpower = 15,7
 Hitflag = MAFDE
 guardflag = MA
 pausetime = 0,4
@@ -1577,6 +1578,7 @@ trigger1 = 1
 attr = S, SA
 animtype  = Heavy
 damage    = 350
+getpower = 15,7
 Hitflag = MAFDE
 guardflag = MA
 pausetime = 0,0

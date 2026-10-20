@@ -1,0 +1,18 @@
+<#f0f000>:Special Moves:</>
+Picker Hat			_D_D^X
+Toutsuisen			_QCB^Z
+Aqua Gush			_QCB^Y
+Sudden Blast			_QCB^X
+Hishouken			_QCF^Z
+Maximum Voice			_QCF^Y
+Microwave			_QCF^X
+
+<#f0f000>:Hyper Moves:</>
+Kururu Jikuu <#f00000>(3000)</>			_QCF_QCF^S
+Pleasant Noise <#f00000>(1000)</>			_QCF^X_+^Y
+Energy Ball <#f00000>(1000)</>			_QCB^Y_+^Z
+Graph Glaive <#f00000>(2000)</>			_D_D^X_+^Z
+Chrono Solid <#f00000>(2000)</>			_D_D^Y_+^Z
+Hell Burst <#f00000>(2000)</>			_D_D^X_+^Y
+Dug Blast <#f00000>(500)</>			_D_D^Z
+Heal <#f00000>(500)</>			_D_D^Y

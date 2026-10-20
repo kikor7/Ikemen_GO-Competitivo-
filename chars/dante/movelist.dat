@@ -1,0 +1,26 @@
+<#f0f000>:Special Moves:</>
+Starfall Kick			_QCF^A
+Especial 2			_QCF_QCF^B
+Especial 3			_DSF^Y
+Especial 4			_DSF^B
+Especial 5			_QCF^Y
+Especial 6			_QCF^B
+rain storm			_QCB^X
+Especial 8			_QCB^Y
+Elegant			_DSF^X
+Especial 10			_D_D^X
+Especial 11			_D_D^A
+Especial 12			_D_D^Y
+Especial 13			_D_D^B
+Stan_Edge 2			_QCF^X
+Especial 15			^Z_+^X
+
+<#f0f000>:Hyper Moves:</>
+Devil x <#f00000>(1000)</>			^A_+^B
+million stab <#f00000>(1000)</>			_QCF_QCF^Y
+Blazing Guns <#f00000>(1000)</>			^Y_+^B
+Super 4 <#f00000>(1000)</>			_DSF^B
+Super 5 <#f00000>(1000)</>			_HCB_F^X
+Super 6 <#f00000>(1000)</>			_QCB_QCB^Y
+Super 7 <#f00000>(500)</>			^X_+^A_+^B
+Super 8 <#f00000>(1000)</>			^X_+^A_+^B

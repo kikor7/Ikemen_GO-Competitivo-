@@ -5983,7 +5983,7 @@ absolute = 1
 type = PowerAdd
 trigger1 = time=[80,210]
 trigger1 = time%4=0
-value = 10
+value = 0
 
 ;¡Šî’ê•â³
 [State -1]

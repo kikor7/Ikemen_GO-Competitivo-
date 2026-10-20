@@ -9,7 +9,7 @@ physics = S
 ;velset = 0,0
 ctrl = 0
 anim = 1000
-poweradd = 100
+poweradd = 0
 
 [State 0, PlaySnd]
 type = PlaySnd
@@ -81,7 +81,7 @@ type = HitDef
 trigger1 = AnimElem = 13 || AnimElem = 15
 attr = S, SA
 animtype  = high
-getpower = 0,0
+getpower = 20,10
 damage    = 5,2
 guardflag = MA
 pausetime = 5,4
@@ -233,7 +233,7 @@ physics = S
 ;velset = 0,0
 ctrl = 0
 anim = 1001
-poweradd = 50
+poweradd = 0
 
 [State 0, VelSet]
 type = VelSet
@@ -275,7 +275,7 @@ type = HitDef
 trigger1 = AnimElem = 1 || AnimElem = 3
 attr = S, SA
 animtype  = high
-getpower = 0,0
+getpower = 20,10
 damage    = 5,2
 guardflag = MA
 pausetime = 5,4
@@ -428,7 +428,7 @@ physics = S
 ;velset = 0,0
 ctrl = 0
 anim = 1001
-poweradd = 50
+poweradd = 0
 
 [State 0, VelSet]
 type = VelSet
@@ -629,7 +629,7 @@ type    = S
 movetype= A
 physics = S
 juggle  = 4
-poweradd = 50
+poweradd = 0
 ctrl = 0
 velset = 0,0
 anim = 1020
@@ -726,7 +726,7 @@ trigger1 = animelem = 3
 trigger2 = animelem = 4
 attr = S, SA
 animtype  = Medium
-getpower = 0,0
+getpower = 20,10
 damage    = 50
 guardflag = MA
 pausetime = 12,14
@@ -843,7 +843,7 @@ physics = S
 anim = 1100
 velset = 0,0
 ctrl = 0
-poweradd = 100
+poweradd = 20
 
 
 
@@ -873,7 +873,7 @@ trigger1 = animelem = 9
 trigger2 = animelem = 10
 attr = S, SA
 animtype  = high
-getpower = 0,0
+getpower = 10,5
 damage    = 40
 guardflag = MA
 pausetime = 10,12
@@ -976,7 +976,7 @@ anim = 1110
 velset = 0,0
 ctrl = 0
 sprpriority = 1
-poweradd = 50
+poweradd = 0
 juggle = 1
 
 [State 60, Arena Grande atras]
@@ -1088,7 +1088,7 @@ type = HitDef
 trigger1 = animelem = 5
 attr = S, SA
 animtype  = Medium
-getpower = 0,0
+getpower = 10,5
 damage    = 15
 guardflag = MA
 pausetime = 8,10
@@ -1317,7 +1317,7 @@ trigger3 = animelem = 5
 trigger4 = animelem = 7
 attr = A, SP
 animtype  = Light
-getpower = 0,0
+getpower = 10,5
 damage    = 5
 guardflag = MA
 pausetime = 6,8
@@ -1587,7 +1587,7 @@ ctrl = 0
 type    = S
 movetype= A
 physics = S
-poweradd = 100
+poweradd = 0
 velset = 0,0
 ctrl = 0
 anim = 1300
@@ -1905,7 +1905,7 @@ ctrl = 0
 [Statedef 1400]
 type    = S
 physics = S
-poweradd = 100
+poweradd = 20
 velset = 0,0
 ctrl = 0
 anim = 1400
@@ -2101,7 +2101,7 @@ physics = N
 anim = 1410
 ctrl = 0
 sprpriority = 1
-poweradd = 50
+poweradd = 0
 
 
 [State 0, VelSet]
@@ -2250,7 +2250,7 @@ type = HitDef
 trigger1 = animelem = 5
 attr = S, SA
 animtype  = Medium
-getpower = 0,0
+getpower = 6,3
 damage    = 15
 guardflag = MA
 pausetime = 8,10
@@ -2332,7 +2332,7 @@ anim = 1420
 ctrl = 0
 sprpriority = 1
 velset = 0,0
-poweradd = 50
+poweradd = 0
 
 [State 0, PlayerPush]
 type = PlayerPush
@@ -2407,7 +2407,7 @@ physics = N
 anim = 1430
 ctrl = 0
 sprpriority = 1
-poweradd = 50
+poweradd = 0
 
 
 ;--- Guard Cancel --------------------------
@@ -2681,7 +2681,7 @@ trigger3 = animelem = 5
 trigger4 = animelem = 7
 attr = A, SA
 animtype  = Light
-getpower = 0,0
+getpower = 6,3
 damage    = 5
 guardflag = MA
 pausetime = 6,6
@@ -2830,7 +2830,7 @@ triggerall = !movecontact
 trigger1 = time = [9,22]
 attr = C, SA
 animtype  = Medium
-getpower = 0,0
+getpower = 6,3
 damage    = 30,5
 guardflag = L
 pausetime = 8,10
@@ -2916,7 +2916,7 @@ triggerall = !movecontact
 trigger1 = 1
 attr = A, SA
 animtype  = Medium
-getpower = 0,0
+getpower = 10,5
 damage    = 30,5
 guardflag = HA
 pausetime = 8,8
@@ -2998,7 +2998,7 @@ triggerall = !movecontact
 trigger1 = 1
 attr = A, SA
 animtype  = Medium
-getpower = 0,0
+getpower = 10,5
 damage    = 30
 guardflag = HA
 pausetime = 8,8
@@ -3075,7 +3075,7 @@ triggerall = !movecontact
 trigger1 = 1
 attr = A, SA
 animtype  = Medium
-getpower = 0,0
+getpower = 10,5
 damage    = 8
 guardflag = HA
 pausetime = 8,10
@@ -3756,7 +3756,7 @@ physics = S
 anim = 1600
 velset = 0,0
 ctrl = 0
-poweradd = 125
+poweradd = 20
 
 [State 0, RemoveExplod]
 type = RemoveExplod
@@ -3974,7 +3974,7 @@ trigger1 =  animelem = 4
 trigger2 =  animelem = 6
 trigger3 =  animelem = 7
 trigger4 =  animelem = 8
-getpower = 0,0
+getpower = 30,15
 attr = A, SP
 hitflag	= MAFDP
 damage    = 60, 5
@@ -4082,7 +4082,7 @@ physics = S
 anim = 1700
 velset = 0,0
 ctrl = 0
-poweradd = 100
+poweradd = 0
 
 
 ;--- Guard Cancel --------------------------
@@ -4295,7 +4295,7 @@ phase = 90
 type = HitDef
 trigger1 =  animelem = 6
 attr = S, SA
-getpower = 0,0
+getpower = 60,30
 damage    = 20, 3
 guardflag = MA
 priority = 4

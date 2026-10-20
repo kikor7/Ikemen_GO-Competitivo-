@@ -219,7 +219,7 @@ juggle   = 1
 velset   = 0,0
 ctrl     = 0
 anim     = 903
-poweradd = 100
+poweradd = 0
 sprpriority = 2
 
 [State 903, –³“G]
@@ -399,7 +399,7 @@ juggle   = 1
 velset   = 0,0
 ctrl     = 0
 anim     = 904
-poweradd = 100
+poweradd = 0
 sprpriority = 2
 
 [State 904, ‰¹]
@@ -682,7 +682,7 @@ physics  = S
 velset   = 0,0
 ctrl     = 0
 anim     = 913
-poweradd = 100
+poweradd = 0
 sprpriority = 2
 
 [State 913, –³“G]
@@ -862,7 +862,7 @@ juggle   = 1
 velset   = 0,0
 ctrl     = 0
 anim     = 914
-poweradd = 100
+poweradd = 0
 sprpriority = 2
 
 [State 914, ‰¹]
@@ -1214,7 +1214,7 @@ movetype = A
 physics  = N
 ctrl     = 0
 anim     = 923
-poweradd = 100
+poweradd = 0
 sprpriority = 2
 
 [State 923, –³“G]
@@ -1450,7 +1450,7 @@ physics  = N
 juggle   = 1
 ctrl     = 0
 anim     = 924
-poweradd = 100
+poweradd = 0
 sprpriority = 2
 
 [State 924, ‰¹]

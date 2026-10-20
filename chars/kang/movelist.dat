@@ -1,0 +1,17 @@
+<#f0f000>:Special Moves:</>
+FATALITY 2			_QCF^B
+FATALITY 3			_XFF_F^A
+Fast Kung Fu Palm			_QCF^Z
+Light Kung Fu Palm			_QCF^X
+Strong Kung Fu Palm			_QCF^Y
+Fast Kung Fu Blow			_QCB^Z
+Light Kung Fu Blow			_QCB^X
+Strong Kung Fu Blow			_QCB^Y
+Light Kung Fu Zankou			_QCF^A
+Kung Fu Throw			^X_+^Y
+
+<#f0f000>:Hyper Moves:</>
+Smash Kung Fu Upper <#f00000>(1000)</>			_QCB^A_+^B
+Triple ninja kicks <#f00000>(1000)</>			_QCF^X_+^Y
+Triple ninja kicks <#f00000>(1000)</>			_QCF^Y_+^Z
+MB <#f00000>(1000)</>			_QCB^B_+^C

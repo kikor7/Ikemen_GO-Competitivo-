@@ -1,0 +1,25 @@
+<#f0f000>:Special Moves:</>
+Especial 1			_DSF^X
+Especial 2			_DSF^Y
+Especial 3			_QCF^X
+Especial 4			_QCF^Y
+Especial 5			_QCB^X
+Especial 6			_QCB^Y
+Especial 7			_QCB^A
+Especial 8			_QCB^B
+Especial 9			_DSF^A
+Especial 10			_DSF^B
+Especial 11			_QCF^A
+Especial 12			_QCF^B
+Tsuujou Nage			^X_+^A
+
+<#f0f000>:Hyper Moves:</>
+Super 1 <#f00000>(2000)</>			_QCB_DB_QCF^A
+Super 2 <#f00000>(1000)</>			_QCF_QCF^X
+Super 3 <#f00000>(1000)</>			_QCF_QCF^A
+Super 4 <#f00000>(500)</>			_DSF^Z
+Super 5 <#f00000>(500)</>			_QCF^Z
+Super 6 <#f00000>(500)</>			_QCB^Z
+Super 7 <#f00000>(500)</>			_QCB^C
+Super 8 <#f00000>(500)</>			_DSF^C
+Super 9 <#f00000>(500)</>			_QCF^C

@@ -14,6 +14,7 @@ localcoord = 320,240        ;Local coordinate space width and height
 
 ; Files for the player
 [Files]
+movelist = movelist.dat
 
 cmd     = gnh.cmd           ;Command set
 ;cmd     = gnh-AI.cmd           ;ŠÈˆÕAI‹N“®

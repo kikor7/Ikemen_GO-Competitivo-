@@ -365,22 +365,22 @@ removeongethit = 1
 [State 4500, 4]
 type = poweradd
 trigger1 = Time >= 0
-value = 3
+value = 0
 
 [State 4500, 5]
 type = poweradd
 trigger1 = Time >= 25
-value = 4
+value = 0
 
 [State 4500, 6]
 type = poweradd
 trigger1 = Time >= 75
-value = 5
+value = 0
 
 [State 4500, 7]
 type = poweradd
 trigger1 = Time >= 120
-value = 6
+value = 0
 
 
 ;[State 0, ]
@@ -1441,10 +1441,28 @@ scale = .7, .7
 [State 371, 3]
 type = ChangeState
 trigger1 = AnimTime = 0
+value = 1003
+ctrl = 0
+
+;--------高速移動（後方）
+;---------------------------------------------------------------------------
+; Recuperacion tras esquivar/rodar: sin control y golpeable unos frames,
+; para que no se pueda encadenar sin riesgo.
+;---------------------------------------------------------------------------
+[Statedef 1003]
+type = S
+movetype = I
+physics = S
+ctrl = 0
+anim = 0
+velset = 0,0
+
+[State 1003, Fin de la recuperacion]
+type = ChangeState
+trigger1 = Time >= 12
 value = 0
 ctrl = 1
 
-;--------高速移動（後方）
 [Statedef 370]
 type = S
 physics = S
@@ -1529,8 +1547,8 @@ scale = .7, .7
 [State 370, 3]
 type = ChangeState
 trigger1 = AnimTime = 0
-value = 0
-ctrl = 1
+value = 1003
+ctrl = 0
 
 ;------------------------------------------------------------
 ;--------------------残像拳---------------------------------
@@ -1654,7 +1672,7 @@ ctrl = 1
 type =A
 movetype = A
 physics = N
-poweradd = 40
+poweradd = 0
 velset = 0, 0
 ctrl = 0
 juggle =4
@@ -1750,7 +1768,7 @@ ignorehitpause = 1
 type = A
 movetype = A
 physics = N
-poweradd = 40
+poweradd = 0
 velset = 0, 0
 ctrl = 0
 anim = 512

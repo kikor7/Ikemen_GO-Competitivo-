@@ -6,6 +6,7 @@ mugenversion=06,14,2003
 author="Tiger mask"
 pal.defaults=1,2,3
 [Files]
+movelist = movelist.dat
 sprite=Guy.D.sff
 sound=Guy.D.snd
 anim=Guy.D.air

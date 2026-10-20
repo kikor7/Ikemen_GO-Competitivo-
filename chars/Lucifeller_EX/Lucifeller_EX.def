@@ -12,6 +12,7 @@ author = "Snowwolf"
 pal.defaults = 1,2,3,4,5,6
 
 [Files]
+movelist = movelist.dat
 sprite = Lucifeller_EX.sff
 anim = Lucifeller_EX.air
 sound = Lucifeller_EX.snd

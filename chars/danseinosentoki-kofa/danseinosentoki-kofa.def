@@ -7,6 +7,7 @@ author = "Duracelleur"
 pal.defaults = 6,3,4,2
 
 [Files]
+movelist = movelist.dat
 cmd     = dansei-faita.cmd
 cns     = dansei-faita.cns
 st      = dansei-faita.cns

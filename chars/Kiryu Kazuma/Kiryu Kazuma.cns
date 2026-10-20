@@ -599,7 +599,7 @@ physics = S
 juggle  = 4
 ctrl = 0
 anim = 200
-poweradd = 15
+poweradd = 0
 sprpriority = 2
 
 [State 200, PlaySnd]
@@ -617,6 +617,7 @@ type = HitDef
 trigger1 = time = 0
 attr = S,NA
 damage = 20
+getpower = 30,15
 animtype = Light
 guardflag = MA
 hitflag = MAF
@@ -652,7 +653,7 @@ physics = S
 juggle  = 4
 ctrl = 0
 anim = 210
-poweradd = 35
+poweradd = 0
 sprpriority = 2
 
 [State 210, PlaySnd]
@@ -705,7 +706,7 @@ physics = S
 juggle  = 4
 ctrl = 0
 anim = 210
-poweradd = 35
+poweradd = 0
 sprpriority = 2
 
 [State 211, PlaySnd]
@@ -758,7 +759,7 @@ juggle  = 4
 ctrl = 0
 anim = 220
 velset = 3,0
-poweradd = 55
+poweradd = 0
 sprpriority = 2
 
 [State 220, PlaySnd]
@@ -808,7 +809,7 @@ physics = S
 juggle  = 4
 ctrl = 0
 anim = 220
-poweradd = 55
+poweradd = 0
 velset = 3,0
 sprpriority = 2
 
@@ -860,7 +861,7 @@ physics = S
 juggle  = 4
 ctrl = 0
 anim = 230
-poweradd = 15
+poweradd = 0
 sprpriority = 2
 
 [State 230, PlaySnd]
@@ -878,6 +879,7 @@ type = HitDef
 trigger1 =  time = 0
 attr = S,NA
 damage = 25
+getpower = 30,15
 animtype = Light
 guardflag = MA
 hitflag = MAF
@@ -912,7 +914,7 @@ juggle  = 4
 ctrl = 0
 anim = 240
 velset = 3,0
-poweradd = 35
+poweradd = 0
 sprpriority = 2
 
 [State 240, PlaySnd]
@@ -963,7 +965,7 @@ physics = S
 juggle  = 4
 ctrl = 0
 anim = 240
-poweradd = 35
+poweradd = 0
 sprpriority = 2
 
 [State 241, PlaySnd]
@@ -1015,7 +1017,7 @@ juggle  = 4
 ctrl = 0
 velset = 3,0
 anim = 250
-poweradd = 55
+poweradd = 0
 sprpriority = 2
 
 [State 250, PlaySnd]
@@ -1070,7 +1072,7 @@ juggle  = 4
 ctrl = 0
 velset = 3,0
 anim = 251
-poweradd = 55
+poweradd = 0
 sprpriority = 2
 
 [State 251, PlaySnd]
@@ -1126,7 +1128,7 @@ physics = C
 juggle  = 4
 ctrl = 0
 anim = 400
-poweradd = 15
+poweradd = 0
 sprpriority = 2
 
 [State 200, PlaySnd]
@@ -1144,6 +1146,7 @@ type = HitDef
 trigger1 = time = 0
 attr = C,NA
 damage = 25
+getpower = 30,15
 animtype = Light
 guardflag = MA
 hitflag = MAF
@@ -1177,7 +1180,7 @@ physics = C
 juggle  = 4
 ctrl = 0
 anim = 410
-poweradd = 35
+poweradd = 0
 sprpriority = 2
 
 [State 410, PlaySnd]
@@ -1195,6 +1198,7 @@ type = HitDef
 trigger1 = time = 0
 attr = C,NA
 damage = 40
+getpower = 30,15
 animtype = Medium
 guardflag = MA
 hitflag = MAF
@@ -1229,7 +1233,7 @@ juggle  = 4
 ctrl = 0
 anim = 420
 velset = 3,0
-poweradd = 55
+poweradd = 0
 sprpriority = 2
 
 [State 420, PlaySnd]
@@ -1247,6 +1251,7 @@ type = HitDef
 trigger1 = time = 0
 attr = C,NA
 damage = 55
+getpower = 30,15
 animtype = up
 guardflag = MA
 hitflag = MAF
@@ -1314,7 +1319,7 @@ physics = C
 juggle  = 4
 ctrl = 0
 anim = 430
-poweradd = 15
+poweradd = 0
 sprpriority = 2
 
 [State 430, PlaySnd]
@@ -1332,6 +1337,7 @@ type = HitDef
 trigger1 = time = 0
 attr = C,NA
 damage = 25
+getpower = 30,15
 animtype = Light
 hitflag = MA
 guardflag = L
@@ -1365,7 +1371,7 @@ physics = C
 juggle  = 4
 ctrl = 0
 anim = 440
-poweradd = 35
+poweradd = 0
 sprpriority = 2
 
 [State 440, PlaySnd]
@@ -1383,6 +1389,7 @@ type = HitDef
 trigger1 = time = 0
 attr = C,NA
 damage = 40
+getpower = 30,15
 animtype = Medium
 hitflag = MA
 guardflag = L
@@ -1416,7 +1423,7 @@ physics = C
 juggle  = 4
 ctrl = 0
 anim = 450
-poweradd = 55
+poweradd = 0
 velset = 3,0
 sprpriority = 2
 
@@ -1435,6 +1442,7 @@ type = HitDef
 trigger1 = time = 0
 attr = C,NA
 damage = 55
+getpower = 30,15
 animtype = High
 hitflag = MA
 guardflag = L
@@ -1468,7 +1476,7 @@ physics = A
 juggle  = 4
 ctrl = 0
 anim = 600
-poweradd = 15
+poweradd = 0
 sprpriority = 2
 
 [State 600, PlaySnd]
@@ -1481,6 +1489,7 @@ type = HitDef
 trigger1 = time = 0
 attr = A,NA
 damage = 25
+getpower = 30,15
 animtype = Light
 guardflag = MA
 hitflag = MAF
@@ -1512,7 +1521,7 @@ physics = A
 juggle  = 4
 ctrl = 0
 anim = 610
-poweradd = 35
+poweradd = 0
 sprpriority = 2
 
 [State 610, PlaySnd]
@@ -1530,6 +1539,7 @@ type = HitDef
 trigger1 = time = 0
 attr = A,NA
 damage = 40
+getpower = 30,15
 animtype = medium
 guardflag = MA
 hitflag = MAF
@@ -1562,7 +1572,7 @@ physics = A
 juggle  = 4
 ctrl = 0
 anim = 620
-poweradd = 55
+poweradd = 0
 sprpriority = 2
 
 [State 620, PlaySnd]
@@ -1580,6 +1590,7 @@ type = HitDef
 trigger1 = time = 0
 attr = A,NA
 damage = 45,1
+getpower = 30,15
 animtype = High
 guardflag = MA
 hitflag = MAF
@@ -1620,7 +1631,7 @@ physics = A
 juggle  = 4
 ctrl = 0
 anim = 630
-poweradd = 15
+poweradd = 0
 sprpriority = 2
 
 [State 630, PlaySnd]
@@ -1633,6 +1644,7 @@ type = HitDef
 trigger1 = time = 0
 attr = A,NA
 damage = 25
+getpower = 30,15
 animtype = Light
 guardflag = MA
 hitflag = MAF
@@ -1665,7 +1677,7 @@ physics = A
 juggle  = 4
 ctrl = 0
 anim = 640
-poweradd = 35
+poweradd = 0
 sprpriority = 2
 
 [State 640, PlaySnd]
@@ -1683,6 +1695,7 @@ type = HitDef
 trigger1 = time = 0
 attr = A,NA
 damage = 40
+getpower = 30,15
 animtype = Medium
 guardflag = MA
 hitflag = MAF
@@ -1715,7 +1728,7 @@ physics = A
 juggle  = 4
 ctrl = 0
 anim = 650
-poweradd = 55
+poweradd = 0
 sprpriority = 2
 
 [State 650, PlaySnd]
@@ -1733,6 +1746,7 @@ type = HitDef
 trigger1 = time = 0
 attr = A,NA
 damage = 45,1
+getpower = 30,15
 animtype = High
 guardflag = MA
 hitflag = MAF
@@ -1852,7 +1866,7 @@ value = 8600,0
 [State 810, PowerAdd]
 type = PowerAdd
 trigger1 = AnimElem = 5
-value = 50
+value = 0
 
 [State 810, TargetLifeAdd]
 type = TargetLifeAdd
@@ -2026,7 +2040,7 @@ trigger1 = AnimElem = 7
 [State 830, PowerAdd]
 type = PowerAdd
 trigger1 = animelem = 5
-value = 50
+value = 0
 persistent = 0
 
 [State 830, ChangeState]
@@ -2347,6 +2361,24 @@ trigger1 = Time >= 18
 ;---------------------------------------------------------------------------
 ;Foward Recovery Roll
 
+;---------------------------------------------------------------------------
+; Recuperacion tras esquivar/rodar: sin control y golpeable unos frames,
+; para que no se pueda encadenar sin riesgo.
+;---------------------------------------------------------------------------
+[Statedef 1002]
+type = C
+movetype = I
+physics = C
+ctrl = 0
+anim = 11
+velset = 0,0
+
+[State 1002, Fin de la recuperacion]
+type = ChangeState
+trigger1 = Time >= 8
+value = 11
+ctrl = 1
+
 [Statedef 890]
 type    = C
 movetype= I
@@ -2388,8 +2420,8 @@ time = 10
 [State 890, 6]
 type = ChangeState
 trigger1 = AnimTime = 0
-value = 11
-ctrl = 1
+value = 1002
+ctrl = 0
 
 [State 890, Dead]
 type = ChangeState
@@ -2441,8 +2473,8 @@ time = 10
 [State 895, 6]
 type = ChangeState
 trigger1 = AnimTime = 0
-value = 11
-ctrl = 1
+value = 1002
+ctrl = 0
 
 [State 895, Dead]
 type = ChangeState
@@ -2463,7 +2495,7 @@ movetype= A
 physics = N
 juggle  = 1
 velset = 0,0
-poweradd = 55
+poweradd = 20
 anim = 1000
 ctrl = 0
 sprpriority = 2
@@ -2498,6 +2530,7 @@ offset = 47,-53
 velocity = 5
 attr = S, SP
 damage   = 50
+getpower = 30,15
 animtype = heavy
 guardflag = MA
 hitflag = MAFDP
@@ -2534,7 +2567,7 @@ movetype= A
 physics = N
 juggle  = 1
 velset = 0,0
-poweradd = 55
+poweradd = 20
 anim = 1000
 ctrl = 0
 sprpriority = 2
@@ -2569,6 +2602,7 @@ offset = 47,-53
 velocity = 5
 attr = S, SP
 damage   = 50
+getpower = 30,15
 animtype = heavy
 guardflag = MA
 hitflag = MAFDP
@@ -2605,7 +2639,7 @@ movetype= A
 physics = N
 juggle  = 1
 velset = 0,0
-poweradd = 55
+poweradd = 20
 anim = 1000
 ctrl = 0
 sprpriority = 2
@@ -2640,6 +2674,7 @@ offset = 47,-53
 velocity = 5
 attr = S, SP
 damage   = 50
+getpower = 30,15
 animtype = heavy
 guardflag = MA
 hitflag = MAFDP
@@ -2676,7 +2711,7 @@ movetype= A
 physics = N
 juggle  = 1
 velset = 2,0
-poweradd = 55
+poweradd = 0
 anim = 1100
 ctrl = 0
 sprpriority = 2
@@ -2695,6 +2730,7 @@ guardflag = MA
 animtype = hard
 air.animtype = hard
 damage = 85,10
+getpower = 60,30
 pausetime = 12,12
 sparkno = S7702
 sparkxy = -10,-60
@@ -2731,7 +2767,7 @@ movetype= A
 physics = N
 juggle  = 1
 velset = 2,0
-poweradd = 55
+poweradd = 0
 anim = 1100
 ctrl = 0
 sprpriority = 2
@@ -2750,6 +2786,7 @@ guardflag = MA
 animtype = hard
 air.animtype = hard
 damage = 85,10
+getpower = 60,30
 pausetime = 12,12
 sparkno = S7702
 sparkxy = -10,-60
@@ -2786,7 +2823,7 @@ movetype= A
 physics = N
 juggle  = 1
 velset = 2,0
-poweradd = 55
+poweradd = 0
 anim = 1100
 ctrl = 0
 sprpriority = 2
@@ -2805,6 +2842,7 @@ guardflag = MA
 animtype = hard
 air.animtype = hard
 damage = 85,10
+getpower = 60,30
 pausetime = 12,12
 sparkno = S7702
 sparkxy = -10,-60
@@ -2841,7 +2879,7 @@ movetype= A
 physics = N
 juggle  = 1
 velset = 2,0
-poweradd = 55
+poweradd = 0
 anim = 1200
 ctrl = 0
 sprpriority = 2
@@ -2865,6 +2903,7 @@ guardflag = MA
 animtype = hard
 air.animtype = hard
 damage = 85,10
+getpower = 60,30
 pausetime = 12,12
 sparkno = S7702
 sparkxy = -10,-60
@@ -2901,7 +2940,7 @@ movetype= A
 physics = N
 juggle  = 1
 velset = 2,0
-poweradd = 55
+poweradd = 0
 anim = 1200
 ctrl = 0
 sprpriority = 2
@@ -2925,6 +2964,7 @@ guardflag = MA
 animtype = hard
 air.animtype = hard
 damage = 85,10
+getpower = 60,30
 pausetime = 12,12
 sparkno = S7702
 sparkxy = -10,-60
@@ -2961,7 +3001,7 @@ movetype= A
 physics = N
 juggle  = 1
 velset = 2,0
-poweradd = 55
+poweradd = 0
 anim = 1200
 ctrl = 0
 sprpriority = 2
@@ -2985,6 +3025,7 @@ guardflag = MA
 animtype = hard
 air.animtype = hard
 damage = 85,10
+getpower = 60,30
 pausetime = 12,12
 sparkno = S7702
 sparkxy = -10,-60
@@ -3021,7 +3062,7 @@ movetype= A
 physics = N
 juggle  = 1
 velset = 3,0
-poweradd = 55
+poweradd = 0
 anim = 1300
 ctrl = 0
 sprpriority = 2
@@ -3045,6 +3086,7 @@ guardflag = MA
 animtype = hard
 air.animtype = hard
 damage = 85,10
+getpower = 60,30
 pausetime = 12,12
 sparkno = S7702
 sparkxy = -10,-60
@@ -3081,7 +3123,7 @@ movetype= A
 physics = N
 juggle  = 1
 velset = 3,0
-poweradd = 55
+poweradd = 0
 anim = 1300
 ctrl = 0
 sprpriority = 2
@@ -3105,6 +3147,7 @@ guardflag = MA
 animtype = hard
 air.animtype = hard
 damage = 85,10
+getpower = 60,30
 pausetime = 12,12
 sparkno = S7702
 sparkxy = -10,-60
@@ -3141,7 +3184,7 @@ movetype= A
 physics = N
 juggle  = 1
 velset = 3,0
-poweradd = 55
+poweradd = 0
 anim = 1300
 ctrl = 0
 sprpriority = 2
@@ -3165,6 +3208,7 @@ guardflag = MA
 animtype = hard
 air.animtype = hard
 damage = 85,10
+getpower = 60,30
 pausetime = 12,12
 sparkno = S7702
 sparkxy = -10,-60

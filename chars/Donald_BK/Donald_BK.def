@@ -9,6 +9,7 @@ Pal.Defaults = 1
 
 
 [Files]
+movelist = movelist.dat
 Cmd      = Donald.cmd
 Cns      = Donald.cns
 St       = Donald.cns

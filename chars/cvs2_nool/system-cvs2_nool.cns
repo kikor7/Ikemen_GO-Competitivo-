@@ -660,7 +660,7 @@ juggle = 15
 ctrl = 0
 velset = 0,0
 anim = 220
-poweradd = 1*var(5)
+poweradd = 0*var(5)
 
 [State 920, 0]
 type = AfterImageTime
@@ -708,7 +708,7 @@ fall = 1
 air.fall = 1
 fall.recover= 0
 air.recover=0
-getpower = ifelse(var(16),4,12)*var(5),2*var(5)
+getpower = 30,15
 givepower = 2*var(6),2*var(6)
 ground.cornerpush.veloff = -22.0/ifelse(var(21),2,1)
 guard.cornerpush.veloff = ifelse((fvar(23)-ifelse(var(21),1,ceil(ifelse((AnimElem=4),10,13)*1.0/2)))<0,0,-22.0/ifelse(var(21),2,1))
@@ -747,7 +747,7 @@ juggle = 15
 ctrl = 0
 velset = 0,0
 anim = 240
-poweradd = 1*var(5)
+poweradd = 0*var(5)
 
 [State 920, 0]
 type = AfterImageTime
@@ -794,7 +794,7 @@ guard.cornerpush.veloff = ifelse((fvar(23)-ifelse(var(21),1,ceil(10*1.0/2)))<0,0
 yaccel = .5
 fall.recover= !var(21)
 air.recover=0
-getpower = ifelse(var(16),4,8)*var(5),2*var(5)
+getpower = 30,15
 givepower = 2*var(6),2*var(6)
 palfx.time = 10*var(14)
 palfx.add = 255,255,255

@@ -1509,6 +1509,7 @@ type = HitDef
 trigger1 = AnimElem = 3
 attr = S, NA
 damage = 20,0
+getpower = 15,7
 animtype = Light
 guardflag = M
 hitflag = MAF
@@ -1535,6 +1536,7 @@ type = HitDef
 trigger1 = AnimElem = 6
 attr = S, NA
 damage = 20,0
+getpower = 15,7
 animtype = Light
 guardflag = M
 hitflag = MAF
@@ -1592,6 +1594,7 @@ type = HitDef
 trigger1 = AnimElem = 4
 attr = S, NA
 damage = 45
+getpower = 30,15
 animtype = Light
 guardflag = M
 hitflag = MAF
@@ -1650,6 +1653,7 @@ trigger1 = AnimElem = 4
 attr = S, NA
 animtype  = Hard
 damage    = 82,0
+getpower = 30,15
 guardflag = M
 hitflag = MAF
 pausetime = 12,13
@@ -1708,6 +1712,7 @@ trigger1 = AnimElem = 5
 attr = S, NA
 animtype  = Hard
 damage    = 65,0
+getpower = 15,7
 guardflag = M
 hitflag = MAF
 pausetime = 12,13
@@ -1735,6 +1740,7 @@ trigger1 = AnimElem = 8
 attr = S, NA
 animtype  = Hard
 damage    = 35,0
+getpower = 15,7
 guardflag = M
 hitflag = MAF
 pausetime = 12,13
@@ -1798,6 +1804,7 @@ type = HitDef
 trigger1 = AnimElem = 4
 attr = S, NA
 damage = 45,0
+getpower = 30,15
 animtype = Light
 guardflag = M
 hitflag = MAF
@@ -1855,6 +1862,7 @@ type = HitDef
 trigger1 = AnimElem = 2
 attr = S, NA
 damage = 45,0
+getpower = 30,15
 animtype = Light
 guardflag = M
 hitflag = MAF
@@ -1913,6 +1921,7 @@ trigger1 = AnimElem = 4
 attr = S, NA
 animtype  = Hard
 damage    = 82,0
+getpower = 30,15
 guardflag = M
 hitflag = MAF
 pausetime = 12,13
@@ -1971,6 +1980,7 @@ trigger1 = AnimElem = 8
 attr = S, NA
 animtype  = Hard
 damage    = 82,0
+getpower = 30,15
 guardflag = M
 hitflag = MAF
 pausetime = 12,13
@@ -2045,6 +2055,7 @@ trigger1 = AnimElem = 3
 attr = S, NA
 animtype  = Hard
 damage    = 75,0
+getpower = 30,15
 guardflag = M
 hitflag = MAF
 pausetime = 12,13
@@ -2153,6 +2164,7 @@ trigger1 = AnimElem = 5
 attr = S, NA
 animtype  = Hard
 damage    = 65,0
+getpower = 30,15
 guardflag = H
 hitflag = MAF
 pausetime = 12,13
@@ -2251,6 +2263,7 @@ trigger1 = AnimElem = 5
 attr = S, NA
 animtype  = Hard
 damage    = 65,0
+getpower = 30,15
 guardflag = L
 hitflag = MA
 pausetime = 12,13
@@ -2406,6 +2419,7 @@ trigger1 = AnimElem = 9
 attr = S, NA
 animtype  = Hard
 damage    = 75,0
+getpower = 15,7
 guardflag = M
 hitflag = MAF
 pausetime = 10,13
@@ -2580,6 +2594,7 @@ trigger1 = AnimElem = 8
 attr = S, NA
 animtype  = Up
 damage    = 65,0
+getpower = 30,15
 guardflag = H
 hitflag = MAF
 pausetime = 12,13
@@ -2664,7 +2679,7 @@ type    = S
 movetype= A
 physics = S
 juggle  = 8
-poweradd= 65
+poweradd= 0
 ctrl = 0
 velset = 0,0
 anim = 291
@@ -2709,6 +2724,7 @@ trigger1 = AnimElem = 6
 attr = S, NA
 animtype  = Up
 damage    = 65,0
+getpower = 15,7
 guardflag = H
 hitflag = MAF
 pausetime = 12,13
@@ -2846,6 +2862,7 @@ type = HitDef
 trigger1 = Time = 0
 attr = C, NA
 damage = 45,0
+getpower = 30,15
 priority = 3
 animtype = Light
 hitflag = MAF
@@ -2902,6 +2919,7 @@ type = HitDef
 trigger1 = AnimElem = 3
 attr = C, NA
 damage    = 82,0
+getpower = 30,15
 animtype  = Hard
 hitflag = MAF
 guardflag = M
@@ -2959,6 +2977,7 @@ type = HitDef
 trigger1 = AnimElem = 4
 attr = C, NA
 damage    = 45,0
+getpower = 30,15
 animtype  = Light
 guardflag = L
 hitflag = MA
@@ -3037,7 +3056,7 @@ guard.velocity = -11.1796875
 air.velocity = -3,-9.5
 air.fall = 1
 air.type = low
-getpower = 94,94
+getpower = 30,15
 givepower = 16,16
 fall = 1
 fall.recover = 1
@@ -3094,6 +3113,7 @@ trigger1 = Time = 0
 attr = A, NA
 animtype = light
 damage    = 45,0
+getpower = 30,15
 guardflag = H
 hitflag = MAF
 priority = 3
@@ -3145,6 +3165,7 @@ trigger1 = Time = 0
 attr = A, NA
 animtype = Hard
 damage = 82,0
+getpower = 30,15
 guardflag = H
 hitflag = MAF
 priority = 4
@@ -3196,6 +3217,7 @@ trigger1 = Time = 0
 attr = A, NA
 animtype = light
 damage = 45,0
+getpower = 30,15
 guardflag = H
 hitflag = MAF
 priority = 3
@@ -3247,6 +3269,7 @@ trigger1 = Time = 0
 attr = A, NA
 animtype = Hard
 damage    = 82,0
+getpower = 30,15
 guardflag = H
 hitflag = MAF
 priority = 4
@@ -3298,6 +3321,7 @@ trigger1 = Time = 0
 attr = A, NA
 animtype = hard
 damage    = 55,0
+getpower = 30,15
 guardflag = H
 hitflag = MAF
 priority = 4
@@ -3355,6 +3379,7 @@ trigger1 = Time = 0
 attr = A, NA
 animtype = hard
 damage    = 55,0
+getpower = 30,15
 guardflag = H
 hitflag = MAF
 priority = 4
@@ -3502,6 +3527,7 @@ trigger1 = AnimElem = 6
 attr = S, NA
 animtype  = Hard
 damage    = 92,0
+getpower = 30,15
 guardflag = M
 hitflag = MAF
 pausetime = 12,13
@@ -3532,6 +3558,7 @@ trigger1 = AnimElem = 6
 attr = S, NA
 animtype  = Hard
 damage    = 92,0
+getpower = 30,15
 guardflag = M
 hitflag = MAF
 pausetime = 12,13
@@ -3591,6 +3618,7 @@ triggerall = enemynear,movetype != A
 trigger1 = Time = 0
 attr = A, NA
 damage    = 92,0
+getpower = 30,15
 guardflag = M
 hitflag = MAF
 priority = 4
@@ -3620,6 +3648,7 @@ triggerall = enemynear,movetype = A
 trigger1 = Time = 0
 attr = A, NA
 damage    = 92,0
+getpower = 30,15
 guardflag = M
 hitflag = MAF
 priority = 4
@@ -3817,6 +3846,7 @@ sprpriority = 2
 
 [State 800]
 type = HitDef
+getpower = 60,30
 Trigger1 = Time = 0
 attr = S, NT
 hitflag = M-
@@ -3849,6 +3879,7 @@ sprpriority = 2
 
 [State 805]
 type = HitDef
+getpower = 60,30
 Trigger1 = Time = 0
 attr = S, NT
 hitflag = M-

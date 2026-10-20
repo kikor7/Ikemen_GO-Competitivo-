@@ -1,0 +1,15 @@
+<#f0f000>:Special Moves:</>
+Special1			_QCF^X
+Special1			_QCF^Y
+Special1			_QCF^Z
+SpecialDuro			_QCB^X
+Special2			_QCB^A
+Special2			_QCB^B
+Special2			_QCB^C
+Especial 8			^B_+^Y
+
+<#f0f000>:Hyper Moves:</>
+Hyper2 <#f00000>(1000)</>			_QCF^X_+^Y
+Hyper3 <#f00000>(1000)</>			_QCF^Y_+^Z
+Hyper1 <#f00000>(1000)</>			_QCB^B_+^C
+Hyper4 <#f00000>(1000)</>			_QCB^A_+^B

@@ -201,7 +201,7 @@ airguard.velocity = -1.9,-.8
 air.velocity = -2,-2
 air.hittime = 12
 air.animtype = back
-getpower= Cond(!NumHelper(4750),40,0),Cond(!NumHelper(4750),35,0)
+getpower = 30,15
 givepower = 35,35
 yaccel = 0.5
 numhits = 0
@@ -241,7 +241,7 @@ airguard.velocity = -1.9,-.8
 air.velocity = -2,-2
 air.hittime = 12
 air.animtype = back
-getpower= Cond(!NumHelper(4750),40,0),Cond(!NumHelper(4750),35,0)
+getpower = 30,15
 givepower = 35,35
 yaccel = 0.5
 numhits = 0
@@ -421,7 +421,7 @@ airguard.velocity = -1.9,-.8
 air.velocity = -2,-2
 air.hittime = 12
 air.animtype = back
-getpower= Cond(!NumHelper(4750),40,0),Cond(!NumHelper(4750),35,0)
+getpower = 30,15
 givepower = 35,35
 yaccel = 0.5
 numhits = 0
@@ -461,7 +461,7 @@ airguard.velocity = -1.9,-.8
 air.velocity = -2,-2
 air.hittime = 12
 air.animtype = back
-getpower= Cond(!NumHelper(4750),40,0),Cond(!NumHelper(4750),35,0)
+getpower = 30,15
 givepower = 35,35
 yaccel = 0.5
 numhits = 0
@@ -648,7 +648,7 @@ air.type = High
 air.velocity = -3,-3
 air.hittime = 12
 air.animtype = back
-getpower= Cond(!NumHelper(4750),ifelse(p2movetype=H,40,140),0),Cond(!NumHelper(4750),35,0)
+getpower = 30,15
 givepower = 35,35
 yaccel = 0.5
 numhits = 0
@@ -687,7 +687,7 @@ air.type = High
 air.velocity = -3,-3
 air.hittime = 12
 air.animtype = back
-getpower= Cond(!NumHelper(4750),ifelse(p2movetype=H,40,140),0),Cond(!NumHelper(4750),35,0)
+getpower = 30,15
 givepower = 35,35
 yaccel = 0.5
 numhits = 0
@@ -874,7 +874,7 @@ air.type = Low
 air.velocity = -0.5,-1.5
 air.hittime = 10
 air.animtype = back
-getpower= Cond(!NumHelper(4750),ifelse(p2movetype=H,40,140),0),Cond(!NumHelper(4750),35,0)
+getpower = 15,7
 givepower = 35,35
 yaccel = 0.5
 numhits = 0
@@ -912,7 +912,7 @@ air.type = Low
 air.velocity = -0.5,-1.5
 air.hittime = 10
 air.animtype = back
-getpower= Cond(!NumHelper(4750),ifelse(p2movetype=H,40,140),0),Cond(!NumHelper(4750),35,0)
+getpower = 15,7
 givepower = 35,35
 yaccel = 0.5
 numhits = 0
@@ -977,7 +977,7 @@ airguard.velocity = -2,-1.1
 air.velocity = -3,-3
 air.hittime = 12
 air.animtype = back
-getpower= Cond(!NumHelper(4750),ifelse(p2movetype=H,40,140),0),Cond(!NumHelper(4750),35,0)
+getpower = 15,7
 givepower = 35,35
 yaccel = 0.5
 numhits = 0
@@ -1015,7 +1015,7 @@ airguard.velocity = -2,-1.1
 air.velocity = -3,-3
 air.hittime = 12
 air.animtype = back
-getpower= Cond(!NumHelper(4750),ifelse(p2movetype=H,40,140),0),Cond(!NumHelper(4750),35,0)
+getpower = 15,7
 givepower = 35,35
 yaccel = 0.5
 numhits = 0
@@ -1214,7 +1214,7 @@ airguard.velocity = -2.5,-1.3
 air.velocity = -4,-4
 air.hittime = 12
 air.animtype = back
-getpower= Cond(!NumHelper(4750),ifelse(p2movetype=H,40,210),0),Cond(!NumHelper(4750),35,0)
+getpower = 15,7
 givepower = 35,35
 yaccel = 0.5
 numhits = 0
@@ -1254,7 +1254,7 @@ airguard.velocity = -2.5,-1.3
 air.velocity = -4,-4
 air.hittime = 12
 air.animtype = back
-getpower= Cond(!NumHelper(4750),ifelse(p2movetype=H,40,210),0),Cond(!NumHelper(4750),35,0)
+getpower = 15,7
 givepower = 35,35
 yaccel = 0.5
 numhits = 0
@@ -1309,7 +1309,7 @@ airguard.velocity = -2.5,-1.3
 air.velocity = -4,-4
 air.hittime = 12
 air.animtype = back
-getpower= Cond(!NumHelper(4750),ifelse(p2movetype=H,40,210),0),Cond(!NumHelper(4750),35,0)
+getpower = 15,7
 givepower = 35,35
 yaccel = 0.5
 numhits = 0
@@ -1349,7 +1349,7 @@ airguard.velocity = -2.5,-1.3
 air.velocity = -4,-4
 air.hittime = 12
 air.animtype = back
-getpower= Cond(!NumHelper(4750),ifelse(p2movetype=H,40,210),0),Cond(!NumHelper(4750),35,0)
+getpower = 15,7
 givepower = 35,35
 yaccel = 0.5
 numhits = 0
@@ -1520,7 +1520,7 @@ ground.velocity = -2.5
 guard.velocity = -4.5
 air.velocity = -2,-3
 air.animtype = back
-getpower= Cond(!NumHelper(4750),40,0),Cond(!NumHelper(4750),35,0)
+getpower = 30,15
 givepower = 35,35
 yaccel = 0.5
 numhits = 0
@@ -1555,7 +1555,7 @@ ground.velocity = -2.5
 guard.velocity = -4.5
 air.velocity = -2,-3
 air.animtype = back
-getpower= Cond(!NumHelper(4750),40,0),Cond(!NumHelper(4750),35,0)
+getpower = 30,15
 givepower = 35,35
 yaccel = 0.5
 numhits = 0
@@ -1757,7 +1757,7 @@ guard.velocity = -6
 air.velocity = -3,-3
 airguard.velocity = -2,-1.1
 air.animtype = back
-getpower= Cond(!NumHelper(4750),ifelse(p2movetype=H,40,140),0),Cond(!NumHelper(4750),35,0)
+getpower = 30,15
 givepower = 35,35
 yaccel = 0.5
 numhits = 0
@@ -1796,7 +1796,7 @@ guard.velocity = -6
 air.velocity = -3,-3
 airguard.velocity = -2,-1.1
 air.animtype = back
-getpower= Cond(!NumHelper(4750),ifelse(p2movetype=H,40,140),0),Cond(!NumHelper(4750),35,0)
+getpower = 30,15
 givepower = 35,35
 yaccel = 0.5
 numhits = 0
@@ -2003,7 +2003,7 @@ guard.velocity = -3
 air.velocity = -3,-3
 airguard.velocity = -2,-1.1
 air.animtype = back
-getpower= Cond(!NumHelper(4750),ifelse(p2movetype=H,40,140),0),Cond(!NumHelper(4750),35,0)
+getpower = 6,3
 givepower = 35,35
 yaccel = 0.5
 numhits = 0
@@ -2041,7 +2041,7 @@ guard.velocity = -3
 air.velocity = -3,-3
 airguard.velocity = -2,-1.1
 air.animtype = back
-getpower= Cond(!NumHelper(4750),ifelse(p2movetype=H,40,140),0),Cond(!NumHelper(4750),35,0)
+getpower = 6,3
 givepower = 35,35
 yaccel = 0.5
 numhits = 0
@@ -2262,7 +2262,7 @@ air.velocity = -3,-3
 airguard.velocity = -2,-1.1
 air.animtype = back
 ground.cornerpush.veloff = 0
-getpower= Cond(!NumHelper(4750),ifelse(p2movetype=H,40,140),0),Cond(!NumHelper(4750),35,0)
+getpower = 6,3
 givepower = 35,35
 yaccel = 0.5
 numhits = 0
@@ -2301,7 +2301,7 @@ air.velocity = -3,-3
 airguard.velocity = -2,-1.1
 air.animtype = back
 ground.cornerpush.veloff = 0
-getpower= Cond(!NumHelper(4750),ifelse(p2movetype=H,40,140),0),Cond(!NumHelper(4750),35,0)
+getpower = 6,3
 givepower = 35,35
 yaccel = 0.5
 numhits = 0
@@ -2347,7 +2347,7 @@ air.velocity = -3,-3
 airguard.velocity = -2,-1.1
 air.animtype = back
 ground.cornerpush.veloff = 0
-getpower= Cond(!NumHelper(4750),ifelse(p2movetype=H,40,140),0),Cond(!NumHelper(4750),35,0)
+getpower = 6,3
 givepower = 35,35
 yaccel = 0.5
 numhits = 0
@@ -2386,7 +2386,7 @@ air.velocity = -3,-3
 airguard.velocity = -2,-1.1
 air.animtype = back
 ground.cornerpush.veloff = 0
-getpower= Cond(!NumHelper(4750),ifelse(p2movetype=H,40,140),0),Cond(!NumHelper(4750),35,0)
+getpower = 6,3
 givepower = 35,35
 yaccel = 0.5
 numhits = 0
@@ -2432,7 +2432,7 @@ air.velocity = -3,-3
 airguard.velocity = -2,-1.1
 air.animtype = back
 ground.cornerpush.veloff = 0
-getpower= Cond(!NumHelper(4750),ifelse(p2movetype=H,40,140),0),Cond(!NumHelper(4750),35,0)
+getpower = 6,3
 givepower = 35,35
 yaccel = 0.5
 numhits = 0
@@ -2471,7 +2471,7 @@ air.velocity = -3,-3
 airguard.velocity = -2,-1.1
 air.animtype = back
 ground.cornerpush.veloff = 0
-getpower= Cond(!NumHelper(4750),ifelse(p2movetype=H,40,140),0),Cond(!NumHelper(4750),35,0)
+getpower = 6,3
 givepower = 35,35
 yaccel = 0.5
 numhits = 0
@@ -2711,7 +2711,7 @@ airguard.velocity = -2,-1.1
 fall = 1
 fall.recover = 0
 air.animtype = back
-getpower= Cond(!NumHelper(4750),ifelse(p2movetype=H,40,140),0),Cond(!NumHelper(4750),35,0)
+getpower = 6,3
 givepower = 35,35
 yaccel = 0.45
 numhits = 0
@@ -2751,7 +2751,7 @@ airguard.velocity = -2,-1.1
 fall = 1
 fall.recover = 0
 air.animtype = back
-getpower= Cond(!NumHelper(4750),ifelse(p2movetype=H,40,140),0),Cond(!NumHelper(4750),35,0)
+getpower = 6,3
 givepower = 35,35
 yaccel = 0.45
 numhits = 0
@@ -2963,7 +2963,7 @@ ground.hittime = 18 ;15
 ground.velocity = -9
 air.velocity = -4,-4
 air.animtype = back
-getpower= Cond(!NumHelper(4750),ifelse(p2movetype=H,40,210),0),Cond(!NumHelper(4750),35,0)
+getpower = 15,7
 givepower = 35,35
 yaccel = 0.5
 fall = 0
@@ -3000,7 +3000,7 @@ ground.hittime = 18 ;15
 ground.velocity = -9
 air.velocity = -4,-4
 air.animtype = back
-getpower= Cond(!NumHelper(4750),ifelse(p2movetype=H,40,210),0),Cond(!NumHelper(4750),35,0)
+getpower = 15,7
 givepower = 35,35
 yaccel = 0.5
 fall = 0
@@ -3052,7 +3052,7 @@ ground.hittime = 15
 ground.velocity = -5
 air.velocity = -2,-2
 air.animtype = back
-getpower= Cond(!NumHelper(4750),ifelse(p2movetype=H,40,210),0),Cond(!NumHelper(4750),35,0)
+getpower = 15,7
 givepower = 35,35
 yaccel = 0.5
 fall = 0
@@ -3088,7 +3088,7 @@ ground.hittime = 15
 ground.velocity = -5
 air.velocity = -2,-2
 air.animtype = back
-getpower= Cond(!NumHelper(4750),ifelse(p2movetype=H,40,210),0),Cond(!NumHelper(4750),35,0)
+getpower = 15,7
 givepower = 35,35
 yaccel = 0.5
 fall = 0
@@ -3270,7 +3270,7 @@ ground.hittime = 18 ;15
 ground.velocity = -9
 air.velocity = -4,-4
 air.animtype = back
-getpower= Cond(!NumHelper(4750),ifelse(p2movetype=H,40,210),0),Cond(!NumHelper(4750),35,0)
+getpower = 30,15
 givepower = 35,35
 yaccel = 0.5
 fall = 0
@@ -3308,7 +3308,7 @@ ground.hittime = 18 ;15
 ground.velocity = -9
 air.velocity = -4,-4
 air.animtype = back
-getpower= Cond(!NumHelper(4750),ifelse(p2movetype=H,40,210),0),Cond(!NumHelper(4750),35,0)
+getpower = 30,15
 givepower = 35,35
 yaccel = 0.5
 fall = 0
@@ -3362,7 +3362,7 @@ ground.hittime = 18 ;15
 ground.velocity = -9,-11
 air.velocity = -4,-4
 air.animtype = back
-getpower= Cond(!NumHelper(4750),ifelse(p2movetype=H,40,210),0),Cond(!NumHelper(4750),35,0)
+getpower = 30,15
 givepower = 35,35
 yaccel = 0.5
 ID = 888
@@ -3401,7 +3401,7 @@ ground.hittime = 18 ;15
 ground.velocity = -9,-11
 air.velocity = -4,-4
 air.animtype = back
-getpower= Cond(!NumHelper(4750),ifelse(p2movetype=H,40,210),0),Cond(!NumHelper(4750),35,0)
+getpower = 30,15
 givepower = 35,35
 yaccel = 0.5
 ID = 888
@@ -3622,7 +3622,7 @@ airguard.velocity = -2,-1.1
 air.velocity = -3,-3
 air.hittime = 12
 air.animtype = back
-getpower= Cond(!NumHelper(4750),ifelse(p2movetype=H,40,140),0),Cond(!NumHelper(4750),35,0)
+getpower = 30,15
 givepower = 35,35
 yaccel = 0.5
 fall = (numhelper(15999) || prevstateno=600 || prevstateno=630 || NumExplod(52)=3)
@@ -3661,7 +3661,7 @@ airguard.velocity = -2,-1.1
 air.velocity = -3,-3
 air.hittime = 12
 air.animtype = back
-getpower= Cond(!NumHelper(4750),ifelse(p2movetype=H,40,140),0),Cond(!NumHelper(4750),35,0)
+getpower = 30,15
 givepower = 35,35
 yaccel = 0.5
 fall = (numhelper(15999) || prevstateno=600 || prevstateno=630 || NumExplod(52)=3)
@@ -3854,7 +3854,7 @@ airguard.velocity = -2,-1.1
 air.velocity = -2,-2
 air.hittime = 12
 air.animtype = back
-getpower= Cond(!NumHelper(4750),ifelse(p2movetype=H,40,140),0),Cond(!NumHelper(4750),35,0)
+getpower = 30,15
 givepower = 35,35
 yaccel = 0.5
 numhits = 0
@@ -3891,7 +3891,7 @@ airguard.velocity = -2,-1.1
 air.velocity = -2,-2
 air.hittime = 12
 air.animtype = back
-getpower= Cond(!NumHelper(4750),ifelse(p2movetype=H,40,140),0),Cond(!NumHelper(4750),35,0)
+getpower = 30,15
 givepower = 35,35
 yaccel = 0.5
 numhits = 0
@@ -4076,7 +4076,7 @@ airguard.velocity = -2,-1.1
 air.velocity = -2.2,-1
 air.hittime = 12
 air.animtype = back
-getpower= Cond(!NumHelper(4750),ifelse(p2movetype=H,40,140),0),Cond(!NumHelper(4750),35,0)
+getpower = 30,15
 givepower = 35,35
 yaccel = 0.5
 numhits = 0
@@ -4113,7 +4113,7 @@ airguard.velocity = -2,-1.1
 air.velocity = -2.2,-1
 air.hittime = 12
 air.animtype = back
-getpower= Cond(!NumHelper(4750),ifelse(p2movetype=H,40,140),0),Cond(!NumHelper(4750),35,0)
+getpower = 30,15
 givepower = 35,35
 yaccel = 0.5
 numhits = 0
@@ -4480,7 +4480,7 @@ air.velocity = ifelse(p2movetype=H,-3,-1),ifelse(p2movetype=H,-5,-10)
 fall = 1
 fall.recover = 0
 air.animtype = DiagUp
-getpower= Cond(!NumHelper(4750),ifelse(p2movetype=H,40,210),0),Cond(!NumHelper(4750),35,0)
+getpower = 30,15
 givepower = 35,35
 yaccel = 0.45
 numhits = 0
@@ -4519,7 +4519,7 @@ air.velocity = ifelse(p2movetype=H,-3,-1),ifelse(p2movetype=H,-5,-10)
 fall = 1
 fall.recover = 0
 air.animtype = DiagUp
-getpower= Cond(!NumHelper(4750),ifelse(p2movetype=H,40,210),0),Cond(!NumHelper(4750),35,0)
+getpower = 30,15
 givepower = 35,35
 yaccel = 0.45
 numhits = 0
@@ -4820,7 +4820,7 @@ airguard.velocity = -2,-1.1
 air.velocity = -2,-2
 air.hittime = 12
 air.animtype = back
-getpower= Cond(!NumHelper(4750),ifelse(p2movetype=H,40,140),0),Cond(!NumHelper(4750),35,0)
+getpower = 30,15
 givepower = 35,35
 yaccel = 0.5
 numhits = 0
@@ -4857,7 +4857,7 @@ airguard.velocity = -2,-1.1
 air.velocity = -2,-2
 air.hittime = 12
 air.animtype = back
-getpower= Cond(!NumHelper(4750),ifelse(p2movetype=H,40,140),0),Cond(!NumHelper(4750),35,0)
+getpower = 30,15
 givepower = 35,35
 yaccel = 0.5
 numhits = 0
@@ -5041,7 +5041,7 @@ guard.velocity = -6
 air.velocity = -2,-1
 down.velocity = -3,0
 down.hittime = 20
-getpower= Cond(!NumHelper(4750),ifelse(p2movetype=H,40,140),0),Cond(!NumHelper(4750),35,0)
+getpower = 30,15
 givepower = 35,35
 yaccel = 0.5
 numhits = 0
@@ -5078,7 +5078,7 @@ guard.velocity = -6
 air.velocity = -2,-1
 down.velocity = -3,0
 down.hittime = 20
-getpower= Cond(!NumHelper(4750),ifelse(p2movetype=H,40,140),0),Cond(!NumHelper(4750),35,0)
+getpower = 30,15
 givepower = 35,35
 yaccel = 0.5
 numhits = 0
@@ -5265,7 +5265,7 @@ down.velocity = -3,0
 down.hittime = 20
 fall = 1
 fall.recover = 0
-getpower= Cond(!NumHelper(4750),ifelse(p2movetype=H,40,140),0),Cond(!NumHelper(4750),35,0)
+getpower = 30,15
 givepower = 35,35
 yaccel = 0.5
 numhits = 0
@@ -5303,7 +5303,7 @@ down.velocity = -3,0
 down.hittime = 20
 fall = 1
 fall.recover = 0
-getpower= Cond(!NumHelper(4750),ifelse(p2movetype=H,40,140),0),Cond(!NumHelper(4750),35,0)
+getpower = 30,15
 givepower = 35,35
 yaccel = 0.5
 numhits = 0
@@ -5493,7 +5493,7 @@ ground.hittime  = 15
 ground.velocity = -3
 air.velocity = -2,-4
 airguard.cornerpush.veloff= 0
-getpower= Cond(!NumHelper(4750),40,0),Cond(!NumHelper(4750),35,0)
+getpower = 15,7
 givepower = 35,35
 yaccel = 0.5
 fall = (numhelper(15999) || NumExplod(52)=3)
@@ -5531,7 +5531,7 @@ ground.hittime  = 15
 ground.velocity = -3
 air.velocity = -2,-4
 airguard.cornerpush.veloff= 0
-getpower= Cond(!NumHelper(4750),40,0),Cond(!NumHelper(4750),35,0)
+getpower = 15,7
 givepower = 35,35
 yaccel = 0.5
 fall = (numhelper(15999) || NumExplod(52)=3)
@@ -5569,7 +5569,7 @@ ground.hittime  = 15
 ground.velocity = -3
 air.velocity = -2,-4
 airguard.cornerpush.veloff= 0
-getpower= Cond(!NumHelper(4750),40,0),Cond(!NumHelper(4750),35,0)
+getpower = 15,7
 givepower = 35,35
 yaccel = 0.5
 fall = (numhelper(15999) || NumExplod(52)=3)
@@ -5607,7 +5607,7 @@ ground.hittime  = 15
 ground.velocity = -3
 air.velocity = -2,-4
 airguard.cornerpush.veloff= 0
-getpower= Cond(!NumHelper(4750),40,0),Cond(!NumHelper(4750),35,0)
+getpower = 15,7
 givepower = 35,35
 yaccel = 0.5
 fall = (numhelper(15999) || NumExplod(52)=3)
@@ -5801,7 +5801,7 @@ airguard.velocity = -2,-1.1
 air.velocity = -3,-3
 air.hittime = 12
 air.animtype = back
-getpower= Cond(!NumHelper(4750),ifelse(p2movetype=H,40,140),0),Cond(!NumHelper(4750),35,0)
+getpower = 15,7
 givepower = 35,35
 yaccel = 0.5
 fall = (numhelper(15999) || prevstateno=600 || prevstateno=630 || NumExplod(52)=3)
@@ -5842,7 +5842,7 @@ airguard.velocity = -2,-1.1
 air.velocity = -3,-3
 air.hittime = 12
 air.animtype = back
-getpower= Cond(!NumHelper(4750),ifelse(p2movetype=H,40,140),0),Cond(!NumHelper(4750),35,0)
+getpower = 15,7
 givepower = 35,35
 yaccel = 0.5
 fall = (numhelper(15999) || prevstateno=600 || prevstateno=630 || NumExplod(52)=3)
@@ -5883,7 +5883,7 @@ airguard.velocity = -2,-1.1
 air.velocity = -3,-3
 air.hittime = 12
 air.animtype = back
-getpower= Cond(!NumHelper(4750),ifelse(p2movetype=H,40,140),0),Cond(!NumHelper(4750),35,0)
+getpower = 15,7
 givepower = 35,35
 yaccel = 0.5
 fall = (numhelper(15999) || prevstateno=600 || prevstateno=630 || NumExplod(52)=3)
@@ -5924,7 +5924,7 @@ airguard.velocity = -2,-1.1
 air.velocity = -3,-3
 air.hittime = 12
 air.animtype = back
-getpower= Cond(!NumHelper(4750),ifelse(p2movetype=H,40,140),0),Cond(!NumHelper(4750),35,0)
+getpower = 15,7
 givepower = 35,35
 yaccel = 0.5
 fall = (numhelper(15999) || prevstateno=600 || prevstateno=630 || NumExplod(52)=3)
@@ -6118,7 +6118,7 @@ airguard.velocity = -2,-1.1
 air.velocity = -3,-3
 air.hittime = 12
 air.animtype = back
-getpower= Cond(!NumHelper(4750),ifelse(p2movetype=H,40,140),0),Cond(!NumHelper(4750),35,0)
+getpower = 15,7
 givepower = 35,35
 yaccel = 0.5
 fall = (p2statetype=A) ;(numhelper(15999) || prevstateno=600 || prevstateno=630 || NumExplod(52)=3)
@@ -6160,7 +6160,7 @@ airguard.velocity = -2,-1.1
 air.velocity = -3,-3
 air.hittime = 12
 air.animtype = back
-getpower= Cond(!NumHelper(4750),ifelse(p2movetype=H,40,140),0),Cond(!NumHelper(4750),35,0)
+getpower = 15,7
 givepower = 35,35
 yaccel = 0.5
 fall = (p2statetype=A) ;(numhelper(15999) || prevstateno=600 || prevstateno=630 || NumExplod(52)=3)
@@ -6202,7 +6202,7 @@ airguard.velocity = -2,-1.1
 air.velocity = -3,-3
 air.hittime = 12
 air.animtype = back
-getpower= Cond(!NumHelper(4750),ifelse(p2movetype=H,40,140),0),Cond(!NumHelper(4750),35,0)
+getpower = 15,7
 givepower = 35,35
 yaccel = 0.5
 fall = (p2statetype=A) ;(numhelper(15999) || prevstateno=600 || prevstateno=630 || NumExplod(52)=3)
@@ -6244,7 +6244,7 @@ airguard.velocity = -2,-1.1
 air.velocity = -3,-3
 air.hittime = 12
 air.animtype = back
-getpower= Cond(!NumHelper(4750),ifelse(p2movetype=H,40,140),0),Cond(!NumHelper(4750),35,0)
+getpower = 15,7
 givepower = 35,35
 yaccel = 0.5
 fall = (p2statetype=A) ;(numhelper(15999) || prevstateno=600 || prevstateno=630 || NumExplod(52)=3)
@@ -6492,7 +6492,7 @@ airguard.velocity = -2,-1.1
 air.velocity = -3,-3
 air.hittime = 12
 air.animtype = back
-getpower= Cond(!NumHelper(4750),ifelse(p2movetype=H,40,140),0),Cond(!NumHelper(4750),35,0)
+getpower = 15,7
 givepower = 35,35
 yaccel = 0.5
 fall = (numhelper(15999) || prevstateno=600 || prevstateno=630 || NumExplod(52)=3)
@@ -6534,7 +6534,7 @@ airguard.velocity = -2,-1.1
 air.velocity = -3,-3
 air.hittime = 12
 air.animtype = back
-getpower= Cond(!NumHelper(4750),ifelse(p2movetype=H,40,140),0),Cond(!NumHelper(4750),35,0)
+getpower = 15,7
 givepower = 35,35
 yaccel = 0.5
 fall = (numhelper(15999) || prevstateno=600 || prevstateno=630 || NumExplod(52)=3)
@@ -6576,7 +6576,7 @@ airguard.velocity = -2,-1.1
 air.velocity = -3,-3
 air.hittime = 12
 air.animtype = back
-getpower= Cond(!NumHelper(4750),ifelse(p2movetype=H,40,140),0),Cond(!NumHelper(4750),35,0)
+getpower = 15,7
 givepower = 35,35
 yaccel = 0.5
 fall = (numhelper(15999) || prevstateno=600 || prevstateno=630 || NumExplod(52)=3)
@@ -6618,7 +6618,7 @@ airguard.velocity = -2,-1.1
 air.velocity = -3,-3
 air.hittime = 12
 air.animtype = back
-getpower= Cond(!NumHelper(4750),ifelse(p2movetype=H,40,140),0),Cond(!NumHelper(4750),35,0)
+getpower = 15,7
 givepower = 35,35
 yaccel = 0.5
 fall = (numhelper(15999) || prevstateno=600 || prevstateno=630 || NumExplod(52)=3)
@@ -6996,7 +6996,7 @@ ground.hittime  = 15
 ground.velocity = -3
 air.velocity = -2,-4
 airguard.cornerpush.veloff= 0
-getpower= Cond(!NumHelper(4750),40,0),Cond(!NumHelper(4750),35,0)
+getpower = 15,7
 givepower = 35,35
 yaccel = 0.5
 fall = (numhelper(15999) || NumExplod(52)=3)
@@ -7033,7 +7033,7 @@ ground.hittime  = 15
 ground.velocity = -3
 air.velocity = -2,-4
 airguard.cornerpush.veloff= 0
-getpower= Cond(!NumHelper(4750),40,0),Cond(!NumHelper(4750),35,0)
+getpower = 15,7
 givepower = 35,35
 yaccel = 0.5
 fall = (numhelper(15999) || NumExplod(52)=3)
@@ -7070,7 +7070,7 @@ ground.hittime  = 15
 ground.velocity = -3
 air.velocity = -2,-4
 airguard.cornerpush.veloff= 0
-getpower= Cond(!NumHelper(4750),40,0),Cond(!NumHelper(4750),35,0)
+getpower = 15,7
 givepower = 35,35
 yaccel = 0.5
 fall = (numhelper(15999) || NumExplod(52)=3)
@@ -7107,7 +7107,7 @@ ground.hittime  = 15
 ground.velocity = -3
 air.velocity = -2,-4
 airguard.cornerpush.veloff= 0
-getpower= Cond(!NumHelper(4750),40,0),Cond(!NumHelper(4750),35,0)
+getpower = 15,7
 givepower = 35,35
 yaccel = 0.5
 fall = (numhelper(15999) || NumExplod(52)=3)
@@ -7313,7 +7313,7 @@ airguard.velocity = -2,-1.1
 air.velocity = -3,-3
 air.hittime = 15
 air.animtype = back
-getpower= Cond(!NumHelper(4750),ifelse(p2movetype=H,40,140),0),Cond(!NumHelper(4750),35,0)
+getpower = 15,7
 givepower = 35,35
 yaccel = 0.5
 fall = (numhelper(15999) || prevstateno=600 || prevstateno=630 || NumExplod(52)=3)
@@ -7354,7 +7354,7 @@ airguard.velocity = -2,-1.1
 air.velocity = -3,-3
 air.hittime = 15
 air.animtype = back
-getpower= Cond(!NumHelper(4750),ifelse(p2movetype=H,40,140),0),Cond(!NumHelper(4750),35,0)
+getpower = 15,7
 givepower = 35,35
 yaccel = 0.5
 fall = (numhelper(15999) || prevstateno=600 || prevstateno=630 || NumExplod(52)=3)
@@ -7395,7 +7395,7 @@ airguard.velocity = -2,-1.1
 air.velocity = -3,-3
 air.hittime = 15
 air.animtype = back
-getpower= Cond(!NumHelper(4750),ifelse(p2movetype=H,40,140),0),Cond(!NumHelper(4750),35,0)
+getpower = 15,7
 givepower = 35,35
 yaccel = 0.5
 fall = (numhelper(15999) || prevstateno=600 || prevstateno=630 || NumExplod(52)=3)
@@ -7436,7 +7436,7 @@ airguard.velocity = -2,-1.1
 air.velocity = -3,-3
 air.hittime = 15
 air.animtype = back
-getpower= Cond(!NumHelper(4750),ifelse(p2movetype=H,40,140),0),Cond(!NumHelper(4750),35,0)
+getpower = 15,7
 givepower = 35,35
 yaccel = 0.5
 fall = (numhelper(15999) || prevstateno=600 || prevstateno=630 || NumExplod(52)=3)
@@ -7636,7 +7636,7 @@ airguard.velocity = -2,-1.1
 air.velocity = -3+2*(Anim=650),-3+8*(Anim=650)
 air.hittime = 12
 air.animtype = back
-getpower= Cond(!NumHelper(4750),ifelse(p2movetype=H,40,140),0),Cond(!NumHelper(4750),35,0)
+getpower = 15,7
 givepower = 35,35
 yaccel = 0.5
 fall = (p2statetype=A) ;(numhelper(15999) || prevstateno=600 || prevstateno=630 || NumExplod(52)=3)
@@ -7678,7 +7678,7 @@ airguard.velocity = -2,-1.1
 air.velocity = -3+2*(Anim=650),-3+8*(Anim=650)
 air.hittime = 12
 air.animtype = back
-getpower= Cond(!NumHelper(4750),ifelse(p2movetype=H,40,140),0),Cond(!NumHelper(4750),35,0)
+getpower = 15,7
 givepower = 35,35
 yaccel = 0.5
 fall = (p2statetype=A) ;(numhelper(15999) || prevstateno=600 || prevstateno=630 || NumExplod(52)=3)
@@ -7720,7 +7720,7 @@ airguard.velocity = -2,-1.1
 air.velocity = -3+2*(Anim=650),-3+8*(Anim=650)
 air.hittime = 12
 air.animtype = back
-getpower= Cond(!NumHelper(4750),ifelse(p2movetype=H,40,140),0),Cond(!NumHelper(4750),35,0)
+getpower = 15,7
 givepower = 35,35
 yaccel = 0.5
 fall = (p2statetype=A) ;(numhelper(15999) || prevstateno=600 || prevstateno=630 || NumExplod(52)=3)
@@ -7762,7 +7762,7 @@ airguard.velocity = -2,-1.1
 air.velocity = -3+2*(Anim=650),-3+8*(Anim=650)
 air.hittime = 12
 air.animtype = back
-getpower= Cond(!NumHelper(4750),ifelse(p2movetype=H,40,140),0),Cond(!NumHelper(4750),35,0)
+getpower = 15,7
 givepower = 35,35
 yaccel = 0.5
 fall = (p2statetype=A) ;(numhelper(15999) || prevstateno=600 || prevstateno=630 || NumExplod(52)=3)
@@ -7823,6 +7823,7 @@ poweradd = Cond(!NumHelper(4750),20,0)
 
 [State 4900, Projectile] ;EMO Killer
 type = Projectile
+getpower = 6,3
 trigger1 = var(54)>0 ;EMO Exit active
 ProjID = 4900
 projanim = 9999
@@ -7850,6 +7851,7 @@ value = 0, 1
 
 [State 800, hit]
 type = hitdef
+getpower = 6,3
 trigger1 = animelem=3 && !var(38)
 trigger1 = Var(0)=0 || enemy, AuthorName != "Team Z2";NEW
 attr = S,NT
@@ -7866,6 +7868,7 @@ hitsound = s800,1
 numhits = 0
 [State 800, hit]
 type = hitdef
+getpower = 6,3
 trigger1 = animelem=3 && !var(38)
 trigger1 = Var(0)>0 ;NEW
 attr = S,NT
@@ -8008,7 +8011,7 @@ ignorehitpause = 1
 [State 801, hurt]
 type = poweradd
 trigger1 = time = 19 ;12
-value = 180
+value = 0
 
 [State 801, Normal throw]
 type = TargetLifeAdd
@@ -8576,7 +8579,7 @@ pos = 37,-85
 [State 801, hurt]
 type = poweradd
 trigger1 = AnimelemTime(4)=0
-value = 180
+value = 0
 
 [State 801, woosh sound]
 type = PlaySnd

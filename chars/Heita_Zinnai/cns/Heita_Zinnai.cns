@@ -47,7 +47,7 @@ trigger1 = AnimElem = 3
 attr = S, NA
 damage = Ceil(FVar(10)*9)
 animtype = Light
-getpower = 140-var(25),60-var(25)
+getpower = 30,15
 givepower = var(25),var(26)
 guardflag = MA
 hitflag = MAFD
@@ -199,7 +199,7 @@ trigger1 = AnimElem = 4
 attr = A, NA
 damage = Ceil(FVar(10)*30)
 animtype = Hard
-getpower = 280-var(25),140-var(26)
+getpower = 30,15
 givepower = var(25),var(26)
 guardflag = HA
 hitflag = MAF
@@ -320,7 +320,7 @@ trigger1 = AnimElem = 4
 attr = S, NA
 damage = Ceil(FVar(10)*15)
 animtype = medium
-getpower = 280-var(25),140-var(26)
+getpower = 30,15
 givepower = var(25),var(26)
 guardflag = MA
 hitflag = MAFD
@@ -455,7 +455,7 @@ trigger1 = AnimElem = 3
 attr = S, NA
 damage = Ifelse(abs(var(49))=1,Ceil(FVar(10)*45),Ceil(FVar(10)*37))
 animtype = Hard
-getpower = 420-var(25),200-var(26)
+getpower = 30,15
 givepower = var(25),var(26)
 guardflag = MA
 hitflag = MAFD
@@ -569,7 +569,7 @@ trigger1 = AnimElem = 3
 attr = C, NA
 damage = Ceil(FVar(10)*9)
 animtype = Light
-getpower = 140-var(25),60-var(26)
+getpower = 30,15
 givepower = var(25),var(26)
 guardflag = MA
 hitflag = MAFD
@@ -691,7 +691,7 @@ trigger1 = AnimElem = 4
 attr = S, NA
 damage = Ceil(FVar(10)*15)
 animtype = medium
-getpower = 280-var(25),140-var(26)
+getpower = 30,15
 givepower = var(25),var(26)
 guardflag = LA
 hitflag = MAFD
@@ -826,7 +826,7 @@ trigger1 = AnimElem = 4
 attr = C, NA
 damage = Ceil(FVar(10)*30)
 animtype = Hard
-getpower = 420-var(26),200-var(25)
+getpower = 30,15
 givepower = var(25),var(26)
 guardflag = MA
 hitflag = MAFD
@@ -955,7 +955,7 @@ trigger1 = AnimElem = 3
 attr = A, NA
 damage = Ceil(FVar(10)*9)
 animtype = Light
-getpower = 140-var(25),60-var(26)
+getpower = 30,15
 givepower = var(25),var(26)
 guardflag = HA
 hitflag = MAF
@@ -1213,7 +1213,7 @@ trigger1 = AnimElem = 5
 attr = A, NA
 damage = Ceil(FVar(10)*15)
 animtype = medium
-getpower = 280-var(25),140-var(26)
+getpower = 30,15
 givepower = var(25),var(26)
 guardflag = HA
 hitflag = MAF
@@ -1483,7 +1483,7 @@ trigger1 = AnimElem = 4
 attr = A, NA
 damage = Ceil(FVar(10)*30)
 animtype = Hard
-getpower = 420-var(25),200-var(26)
+getpower = 30,15
 givepower = var(25),var(26)
 guardflag = HA
 hitflag = MAF
@@ -1728,7 +1728,7 @@ trigger1 = AnimElem = 3
 attr = S, NT
 damage = 0
 animtype = Hard
-getpower = 0,0
+getpower = 60,30
 givepower = 0,0
 hitflag = M-
 priority = 2,miss

@@ -1,0 +1,18 @@
+<#f0f000>:Special Moves:</>
+Dimensional Cape Weak			_QCB^A
+Dimensional Cape Medium			_QCB^B
+Dimensional Cape Heavy			_QCB^C
+Sword Beam			_QCF^X
+Sword Beam Medium			_QCF^Y
+Sword Beam Heavy			_QCF^Z
+Sword Storm Light			_QCF^A
+Sword Storm Medium			_QCF^B
+Sword Storm Heavy			_QCF^C
+Mach Tornado Weak			_QCB^X
+Mach Tornado Medium			_QCB^Y
+Mach Tornado Heavy			_QCB^Z
+
+<#f0f000>:Hyper Moves:</>
+Triple Sword Beam <#f00000>(1000)</>			_QCF^X_+^Y
+Galaxia Darkness <#f00000>(2000)</>			_QCB^X_+^Y
+The Halberd <#f00000>(3000)</>			_QCB^A_+^B

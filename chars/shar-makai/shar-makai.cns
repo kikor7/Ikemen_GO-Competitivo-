@@ -1129,7 +1129,7 @@ juggle  = 1                      ;Number of air juggle points move takes
 velset = 0,0                     ;Set velocity (x,y) (Def: no change)
 ctrl = 0                         ;Set ctrl (Def: no change)
 anim = 200                       ;Change animation (Def: no change)
-poweradd = 20                    ;Power to add (Def: 0)
+poweradd = 0                    ;Power to add (Def: 0)
 sprpriority = 2                  ;Set layering priority to 2 (in front)
 
 [State 200, 1]
@@ -1137,6 +1137,7 @@ type = HitDef
 trigger1 = AnimElem = 2
 attr = S, NA                     ;Attribute: Standing, Normal Attack
 damage = 23, 0                   ;Damage that move inflicts, guard damage
+getpower = 30,15
 animtype = Light                 ;Animation type: Light, Medium, Heavy, Back (def: Light)
 guardflag = MA                   ;Flags on how move is to be guarded against
 hitflag = MAF                    ;Flags of conditions that move can hit
@@ -1183,7 +1184,7 @@ type    = S
 movetype= A
 physics = S
 juggle  = 1
-poweradd= 65
+poweradd= 0
 ctrl = 0
 velset = 0,0
 
@@ -1223,6 +1224,7 @@ trigger1 = AnimElem = 3
 attr = S, NA
 animtype  = Medium
 damage    = ifelse((prevstateno=200)||(prevstateno=230),50,75)
+getpower = 30,15
 guardflag = MA
 pausetime = 7,10
 sparkno = s ifelse((enemynear,name = "noroko" && enemynear,var(10)=1),2,7009)
@@ -1304,7 +1306,7 @@ type    = S
 movetype= A
 physics = S
 juggle  = 1
-poweradd= 60
+poweradd= 0
 ctrl = 0
 velset = 0,0
 anim = 230
@@ -1321,6 +1323,7 @@ trigger1 = Time = 0
 attr = S, NA
 animtype  = Medium
 damage    = 30
+getpower = 30,15
 guardflag = MA
 pausetime = 8,8
 sparkno = s 7101
@@ -1353,7 +1356,7 @@ type    = S
 movetype= A
 physics = S
 juggle  = 1
-poweradd= 65
+poweradd= 0
 ctrl = 0
 velset = 0,0
 sprpriority = 2
@@ -1391,6 +1394,7 @@ trigger1 = !time
 attr = S, NA
 animtype  = Medium
 damage = ifelse(anim=240,93,60)
+getpower = 30,15
 guardflag = MA
 sparkno = ifelse((enemynear,name = "noroko" && enemynear,var(10)=1),2,-1)
 sparkxy = -10,-60
@@ -1487,7 +1491,7 @@ type    = C
 movetype= A
 physics = C
 juggle  = 1
-poweradd= 15
+poweradd= 0
 ctrl = 0
 anim = 400
 sprpriority = 2
@@ -1504,6 +1508,7 @@ type = HitDef
 trigger1 = Time = 0
 attr = C, NA
 damage    = 23
+getpower = 30,15
 priority  = 4,hit
 animtype  = Light
 hitflag = MAF
@@ -1539,7 +1544,7 @@ type    = C
 movetype= A
 physics = C
 juggle  = 1
-poweradd= 50
+poweradd= 0
 ctrl = 0
 sprpriority = 2
 velset = 0,0
@@ -1575,6 +1580,7 @@ trigger1 = AnimElem = 4
 attr = C, NA
 animtype  = Medium
 damage    = ifelse((prevstateno=400)||(prevstateno=430),35,50)
+getpower = 30,15
 guardflag = MA
 pausetime = 6,10
 sparkno = s ifelse((enemynear,name = "noroko" && enemynear,var(10)=1),2,7009)
@@ -1656,7 +1662,7 @@ type    = C
 movetype= A
 physics = C
 juggle  = 1
-poweradd= 22
+poweradd= 0
 velset = 0,0
 ctrl = 0
 anim = 430
@@ -1673,6 +1679,7 @@ type = HitDef
 trigger1 = Time = 0
 attr = C, NA
 damage    = 28
+getpower = 30,15
 animtype  = Light
 hitflag = MAF
 guardflag = L
@@ -1708,7 +1715,7 @@ type    = C
 movetype= A
 physics = C
 juggle  = 1
-poweradd= 70
+poweradd= 0
 ctrl = 0
 anim = 440
 sprpriority = 2
@@ -1738,6 +1745,7 @@ trigger2 = AnimElem = 10
 trigger3 = AnimElem = 17
 attr = C, NA
 damage    = 14
+getpower = 10,5
 hitflag = MAF
 guardflag = MAF
 pausetime = 5,7
@@ -1764,6 +1772,7 @@ trigger1 = AnimElem = 7
 trigger2 = AnimElem = 14
 attr = C, NA
 damage    = 14
+getpower = 10,5
 hitflag = MAF
 guardflag = L
 pausetime = 5,7
@@ -1788,6 +1797,7 @@ type = HitDef
 trigger1 = AnimElem = 21
 attr = C, NA
 damage    = 14
+getpower = 10,5
 hitflag = MAF
 guardflag = L
 pausetime = 10,7
@@ -1820,7 +1830,7 @@ type    = A
 movetype= A
 physics = A
 juggle  = 2
-poweradd= 11
+poweradd= 20
 ctrl = 0
 anim = 600
 sprpriority = 2
@@ -1914,7 +1924,7 @@ air.fall = 1
 down.Velocity = -5,0
 down.hittime = 30
 down.bounce = 0
-getpower = 5
+getpower = 30,15
 
 ;humo
 [State 0, Explod]
@@ -1975,7 +1985,7 @@ type    = A
 movetype= A
 physics = A
 juggle  = 1
-poweradd= 65
+poweradd= 0
 ctrl = 0
 anim = 610
 sprpriority = 2
@@ -1998,6 +2008,7 @@ type = HitDef
 trigger1 = animelem = 3
 attr = A, NA
 damage = 73
+getpower = 30,15
 guardflag = HA
 priority  = 4,hit
 pausetime = 8,8
@@ -2029,7 +2040,7 @@ type    = A
 movetype= A
 physics = A
 juggle  = 1
-poweradd= 20
+poweradd= 0
 ctrl = 0
 anim = 630
 sprpriority = 2
@@ -2045,6 +2056,7 @@ type = HitDef
 trigger1 = Time = 0
 attr = A, NA
 damage = 26
+getpower = 30,15
 guardflag = HA
 priority  = 4,hit
 pausetime = 8,8
@@ -2071,7 +2083,7 @@ type    = A
 movetype= A
 physics = A
 juggle  = 1
-poweradd= 65
+poweradd= 0
 ctrl = 0
 anim = 640
 sprpriority = 2
@@ -2102,6 +2114,7 @@ trigger1 = Animelem = 5
 attr = A, NA
 animtype  = heavy
 damage    = 63
+getpower = 30,15
 guardflag = MA
 sparkno = ifelse((enemynear,name = "noroko" && enemynear,var(10)=1),2,-1)
 sparkxy = -10,-60
@@ -2161,13 +2174,14 @@ ignorehitpause = 1
 type = S
 movetype = A
 physics = S
-poweradd = 100
+poweradd = 0
 ctrl = 0
 velset = 0, 0
 anim = 800
 
 [State 800, 1]
 type = HitDef
+getpower = 60,30
 Trigger1 = Time = 0
 attr = S, NT
 hitflag = M-
@@ -2357,7 +2371,7 @@ value = 5100 ;Hit ground
 type = S
 movetype = A
 physics = S
-poweradd = 100
+poweradd = 0
 ctrl = 0
 velset = 0, 0
 anim = 800
@@ -2365,6 +2379,7 @@ anim = 800
 
 [State 800, 1]
 type = HitDef
+getpower = 60,30
 Trigger1 = Time = 0
 attr = S, NT
 hitflag = M-
@@ -2534,7 +2549,7 @@ value = 5100
 type    = S
 movetype= I
 physics = S
-poweradd= 65
+poweradd= 20
 ctrl = 0
 velset = 0,0
 anim = 657
@@ -2720,7 +2735,7 @@ air.fall = 1
 down.Velocity = -5,-6
 down.hittime = 30
 down.bounce = 0
-getpower = 0
+getpower = 30,15
 palfx.time = 25
 palfx.add = -200, 0,-200
 palfx.color = 0
@@ -2752,7 +2767,7 @@ air.fall = 1
 down.Velocity = -5,-6
 down.hittime = 30
 down.bounce = 0
-getpower = 0
+getpower = 30,15
 palfx.time = 25
 palfx.add = 100, -100,-100
 palfx.color = 0
@@ -2784,7 +2799,7 @@ air.fall = 1
 down.Velocity = -5,-6
 down.hittime = 30
 down.bounce = 0
-getpower = 0
+getpower = 30,15
 palfx.time = 25
 palfx.add = -100, -100,-100
 palfx.color = 0
@@ -2816,7 +2831,7 @@ air.fall = 1
 down.Velocity = -5,-6
 down.hittime = 30
 down.bounce = 0
-getpower = 0
+getpower = 30,15
 palfx.time = 25
 palfx.add = -50, -200,0
 palfx.color = 0
@@ -2839,7 +2854,7 @@ type    = S
 movetype= A
 physics = S
 juggle  = 1
-poweradd= 65
+poweradd= 20
 ctrl = 0
 anim = 900
 
@@ -2883,6 +2898,7 @@ trigger1 = Animelem = 6
 attr = A, NA
 animtype  = heavy
 damage    = 63
+getpower = 10,5
 guardflag = MA
 sparkno = s 7102
 sparkxy = -15,-60
@@ -2948,7 +2964,7 @@ type    = S
 movetype= A
 physics = S
 juggle  = 1
-poweradd= 65
+poweradd= 0
 ctrl = 0
 anim = 900
 
@@ -2992,6 +3008,7 @@ trigger1 = Animelem = 6
 attr = A, NA
 animtype  = heavy
 damage    = 63
+getpower = 60,30
 guardflag = MA
 sparkno = s 7102
 sparkxy = -15,-60
@@ -3098,7 +3115,7 @@ ground.slidetime = 18
 ground.hittime = 16
 ground.velocity = 0
 air.velocity = -2.5,-2.5
-getpower = 0
+getpower = 10,5
 guard.pausetime = 5,5
 hitonce = 1
 id = 3333
@@ -3166,6 +3183,7 @@ trigger1 = !time
 attr = A, NA
 animtype  = up
 damage    = 63
+getpower = 60,30
 guardflag = MA
 sparkno = ifelse((enemynear,name = "noroko" && enemynear,var(10)=1),2,-1)
 sparkxy = -10,-60
@@ -3275,6 +3293,7 @@ trigger1 = !time
 attr = A, NA
 animtype  = up
 damage    = 63
+getpower = 60,30
 guardflag = MA
 sparkno = ifelse((enemynear,name = "noroko" && enemynear,var(10)=1),2,-1)
 sparkxy = -10,-60
@@ -3369,7 +3388,7 @@ type    = S
 movetype= A
 physics = S
 juggle  = 1
-poweradd= 65
+poweradd= 0
 ctrl = 0
 anim = 480
 sprpriority = 2
@@ -3408,6 +3427,7 @@ trigger4 = Animelem = 9
 attr = A, NA
 animtype  = Medium
 damage    = 13
+getpower = 60,30
 guardflag = MA
 sparkno = s ifelse(random<500,7100,7101)
 sparkxy = -10,-60
@@ -3449,7 +3469,7 @@ type    = S
 movetype= A
 physics = S
 juggle  = 1
-poweradd= 65
+poweradd= 0
 ctrl = 0
 anim = 48
 sprpriority = 2
@@ -3497,6 +3517,7 @@ trigger7 = Animelem = 12
 attr = A, NA
 animtype  = Medium
 damage    = 13
+getpower = 30,15
 guardflag = MA
 sparkno = s ifelse(random<500,7100,7101)
 sparkxy = -10,-60
@@ -3555,6 +3576,7 @@ trigger1 = !time
 attr = A, NA
 animtype  = Medium
 damage    = 20
+getpower = 30,15
 guardflag = MA
 sparkno = ifelse((enemynear,name = "noroko" && enemynear,var(10)=1),2,-1)
 sparkxy = -10,-60
@@ -4405,7 +4427,7 @@ trigger1 = anim = 333 && pos y >=60
 [Statedef 3109]
 type    = S
 juggle  = 0
-poweradd= 5
+poweradd= 0
 ctrl = 0
 velset = 0,0
 anim = 333
@@ -4936,7 +4958,7 @@ ground.slidetime = 18
 ground.hittime = 16
 ground.velocity = 0
 air.velocity = -2.5,-2.5
-getpower = 0
+getpower = 10,5
 guard.pausetime = 5,5
 hitonce = 1
 id = 3333

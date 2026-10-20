@@ -2094,7 +2094,7 @@ movetype = A
 physics  = N
 anim     = 801
 ctrl     = 0
-poweradd = 60
+poweradd = 0
 velset   = 0,0
 
 [State 801, ’Í‚ñ‚¾‘ŠŽè‚Ì•ûŒü]
@@ -2288,7 +2288,7 @@ movetype = A
 physics  = N
 anim     = 801
 ctrl     = 0
-poweradd = 60
+poweradd = 0
 velset   = 0,0
 
 [State 804];‹t“Š‚°
@@ -2539,7 +2539,7 @@ physics = N
 ctrl = 0
 anim = 811
 velset   = 0,0
-PowerAdd = 20
+PowerAdd = 0
 
 [State 810]
 type = PlaySnd

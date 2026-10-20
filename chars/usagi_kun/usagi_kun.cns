@@ -1729,7 +1729,7 @@ ctrl = 0
 anim = 200
 sprpriority = 1
 facep2 = 1
-poweradd = 60
+poweradd = 0
 
 [State 200, 音を鳴らす]
 type = PlaySnd
@@ -1766,7 +1766,7 @@ guard.ctrltime = 10
 ground.velocity = -4
 air.velocity = -1.4,-3
 airguard.ctrltime = 20
-getPower = 80, 49
+getpower = 30,15
 givePower = 20, 10
 persistent = 0
 
@@ -1827,7 +1827,7 @@ ctrl = 0
 anim = 210
 sprpriority = 1
 facep2 = 1
-poweradd = 60
+poweradd = 0
 
 [State 210, 音を鳴らす]
 type = PlaySnd
@@ -1864,7 +1864,7 @@ guard.ctrlTime = 16
 ground.velocity = -4
 air.velocity = -4,-3
 airguard.ctrltime = 20
-getpower = 123, 62
+getpower = 30,15
 givepower = 31, 16
 persistent = 0
 
@@ -1925,7 +1925,7 @@ ctrl = 0
 anim = 220
 sprpriority = 1
 facep2 = 1
-poweradd = 60
+poweradd = 0
 
 [State 220, 音を鳴らす]
 type = PlaySnd
@@ -1964,7 +1964,7 @@ guard.velocity = -7
 air.velocity = -7,-6
 airguard.velocity = -5, -4
 airguard.ctrltime = 20
-getpower = 193, 97
+getpower = 30,15
 givepower = 48, 24
 persistent = 0
 fall = 1
@@ -2027,7 +2027,7 @@ ctrl = 0
 anim = 231
 sprpriority = 1
 facep2 = 1
-poweradd = 60
+poweradd = 0
 
 [State 230, 音を鳴らす]
 type = PlaySnd
@@ -2085,7 +2085,7 @@ guard.ctrltime = 16
 ground.velocity =  -4
 air.velocity = -1.4,-3
 airguard.ctrltime = 20
-getpower = 147, 74
+getpower = 30,15
 givepower = 38, 19
 persistent = 0
 
@@ -2144,7 +2144,7 @@ juggle  = 3
 anim = 240
 ctrl = 0
 sprpriority = 1
-poweradd = 60
+poweradd = 0
 
 [State 240, 音を鳴らす]
 type = PlaySnd
@@ -2202,7 +2202,7 @@ guard.ctrltime = 16
 ground.velocity = -4
 air.velocity = -1.4,-3
 airguard.ctrltime = 20
-getPower = 133, 67
+getpower = 30,15
 givePower = 33, 17
 fall = 1
 fall.recovertime = 45
@@ -2263,7 +2263,7 @@ juggle  = 3
 anim = 241
 ctrl = 0
 sprpriority = 1
-poweradd = 60
+poweradd = 0
 
 [State 241, 多分滑る]
 Type = StateTypeSet
@@ -2313,7 +2313,7 @@ ground.velocity =  -1.7
 guard.velocity = -7
 air.velocity = -1.7,-3.6
 airguard.ctrltime = 20
-getpower = 193, 97
+getpower = 30,15
 givepower = 48, 24
 persistent = 0
 fall = 0
@@ -2373,7 +2373,7 @@ juggle  = 3
 anim = 242
 ctrl = 0
 sprpriority = 1
-poweradd = 60
+poweradd = 0
 
 [State 242, 多分滑る]
 Type = StateTypeSet
@@ -2424,7 +2424,7 @@ guard.velocity = -7
 air.velocity = -7,-6
 airguard.velocity = -5, -4
 airguard.ctrltime = 20
-getpower = 207, 104
+getpower = 30,15
 givepower = 52, 26
 persistent = 0
 fall = 1
@@ -2486,7 +2486,7 @@ velset = 0,0
 ctrl = 0
 anim = 251
 sprpriority = 1
-poweradd = 60
+poweradd = 20
 
 [State 250, 音を鳴らす]
 type = PlaySnd
@@ -2540,7 +2540,7 @@ velset = 0,0
 ctrl = 0
 anim = 261
 sprpriority = 1
-poweradd = 60
+poweradd = 20
 
 [State 170, 音を鳴らす]
 type = PlaySnd
@@ -2590,7 +2590,7 @@ ctrl = 0
 anim = 270
 sprpriority = 1
 facep2 = 1
-poweradd = 60
+poweradd = 0
 
 [State 270, 音を鳴らす]
 type = PlaySnd
@@ -2627,7 +2627,7 @@ guard.ctrltime = 22
 ground.velocity = -1, 4.5
 air.velocity = -1, 4.5
 airguard.ctrltime = 20
-getPower = 231, 116
+getpower = 30,15
 givePower = 58, 29
 persistent = 0
 fall= 1
@@ -2692,7 +2692,7 @@ ctrl = 0
 anim = 280
 sprpriority = 1
 facep2 = 1
-poweradd = 60
+poweradd = 0
 
 [State 280, 音を鳴らす]
 type = PlaySnd
@@ -2729,7 +2729,7 @@ guard.ctrltime = 22
 ground.velocity = -1, -10
 air.velocity = -1.2, -10
 airguard.ctrltime = 20
-getPower = 210, 110
+getpower = 30,15
 givePower = 53, 27
 persistent = 0
 fall= 1
@@ -2791,7 +2791,7 @@ ctrl = 0
 anim = 400
 sprpriority = 1
 facep2 = 1
-poweradd = 60
+poweradd = 0
 
 [State 3000, 音を鳴らす]
 type = PlaySnd
@@ -2819,7 +2819,7 @@ guard.ctrltime = 10
 ground.velocity = -4
 air.velocity = -1.4,-3
 airguard.ctrltime = 20
-getPower = 84, 42
+getpower = 30,15
 givePower = 21, 10
 persistent = 0
 
@@ -2883,7 +2883,7 @@ ctrl = 0
 anim = 420
 sprpriority = 1
 facep2 = 1
-poweradd = 60
+poweradd = 0
 
 [State 420, 音を鳴らす]
 type = PlaySnd
@@ -2936,7 +2936,7 @@ guard.ctrltime = 22
 ground.velocity = -4
 air.velocity = -1.4,-3
 airguard.ctrltime = 20
-getPower = 140, 70
+getpower = 30,15
 givePower = 35, 17
 fall = 1
 fall.recovertime = 45
@@ -3004,7 +3004,7 @@ ctrl = 0
 anim = 412
 sprpriority = 1
 facep2 = 1
-poweradd = 60
+poweradd = 20
 
 [State 410, 音を鳴らす]
 type = PlaySnd
@@ -3076,7 +3076,7 @@ juggle  = 2
 ctrl = 0
 anim = 600
 sprpriority = 1
-poweradd = 60
+poweradd = 0
 
 [State 600, 音を鳴らす]
 type = PlaySnd
@@ -3118,7 +3118,7 @@ guard.ctrltime = 16
 ground.velocity = -4, 8
 air.velocity = 0, 10
 airguard.ctrltime = 20
-getPower = 91, 45
+getpower = 30,15
 givePower = 22, 11
 air.fall = 1
 persistent = 0
@@ -3179,7 +3179,7 @@ juggle  = 2
 ctrl = 0
 anim = 610
 sprpriority = 1
-poweradd = 60
+poweradd = 0
 
 [State 610, 空中ダッシュの処理と同じ]
 type =   VarAdd
@@ -3221,7 +3221,7 @@ guard.ctrltime = 10
 ground.velocity = -4
 air.velocity = -1.4,-3
 airguard.ctrltime = 20
-getPower = 80, 40
+getpower = 30,15
 givePower = 20, 10
 persistent = 0
 
@@ -3279,7 +3279,7 @@ juggle  = 4
 ctrl = 0
 anim = 620
 sprpriority = 1
-poweradd = 60
+poweradd = 0
 
 [State 620, 空中ダッシュの処理と同じ]
 type =   VarAdd
@@ -3363,7 +3363,7 @@ guard.ctrltime = 16
 ground.velocity = -4
 air.velocity = -1.4,-3
 airguard.ctrltime = 20
-getPower = 49, 24
+getpower = 30,15
 givePower = 12, 6
 persistent = 1
 
@@ -3418,7 +3418,7 @@ juggle  = 4
 ctrl = 0
 anim = 620
 sprpriority = 1
-poweradd = 60
+poweradd = 0
 
 [State 630, 音を鳴らす]
 type = PlaySnd
@@ -3502,7 +3502,7 @@ guard.ctrltime = 16
 ground.velocity = -4
 air.velocity = -1.4,-3
 airguard.ctrltime = 20
-getPower = 49, 24
+getpower = 30,15
 givePower = 12, 6
 persistent = 1
 
@@ -3616,7 +3616,7 @@ juggle  = 1
 ctrl = 0
 anim = 650
 sprpriority = 1
-poweradd = 60
+poweradd = 20
 
 [State 170, 音を鳴らす]
 type = PlaySnd
@@ -3665,7 +3665,7 @@ velset = 0,0
 ctrl = 0
 anim = 660
 sprpriority = 1
-poweradd = 60
+poweradd = 20
 
 [State 660, 音を鳴らす]
 type = PlaySnd
@@ -3737,7 +3737,7 @@ juggle  = 3
 ctrl = 0
 anim = 670
 sprpriority = 1
-poweradd = 60
+poweradd = 0
 
 [State 670, 空中ダッシュの処理と同じ]
 type =   VarAdd
@@ -3781,7 +3781,7 @@ guard.velocity = -7
 air.velocity = -7,-6
 airguard.velocity = -5, -4
 airguard.ctrltime = 20
-getpower = 161, 80
+getpower = 30,15
 givepower = 40, 20
 persistent = 0
 fall = 1
@@ -6210,7 +6210,7 @@ guard.ctrltime = 16
 ground.velocity = -4
 air.velocity = -1.4,-3
 airguard.ctrltime = 20
-getPower = 140, 70
+getpower = 30,15
 givePower = 35, 17
 persistent = 0
 ground.cornerpush.veloff = 0
@@ -6352,7 +6352,7 @@ guard.ctrltime = 27
 ground.velocity = 0,-5
 air.velocity = 0,-8.5
 airguard.ctrltime = 20
-getPower = 45, 22
+getpower = 30,15
 givePower = 11, 5
 persistent = 1
 fall = 1
@@ -6466,7 +6466,7 @@ guard.ctrltime = 10
 ground.velocity = -4
 air.velocity = -1.4,-3
 airguard.ctrltime = 20
-getPower = 38, 29
+getpower = 7,3
 givePower = 9, 4
 persistent = 0
 ground.cornerpush.veloff = 0
@@ -6694,7 +6694,7 @@ guard.ctrltime = 16
 ground.velocity = -4
 air.velocity = -1.4,-3
 airguard.ctrltime = 20
-getPower = 38, 29
+getpower = 7,3
 givePower = 9, 4
 persistent = 0
 ground.cornerpush.veloff = 0
@@ -6940,7 +6940,7 @@ guard.ctrltime = 16
 ground.velocity = -4
 air.velocity = -1.4,-3
 airguard.ctrltime = 20
-getPower = 38, 29
+getpower = 7,3
 givePower = 9, 4
 persistent = 0
 ground.cornerpush.veloff = 0
@@ -7186,7 +7186,7 @@ guard.ctrltime = 16
 ground.velocity = -4
 air.velocity = -1.4,-3
 airguard.ctrltime = 20
-getPower = 38, 29
+getpower = 7,3
 givePower = 9, 4
 persistent = 0
 ground.cornerpush.veloff = 0

@@ -1,0 +1,32 @@
+<#f0f000>:Special Moves:</>
+Especial 1			^A_+^Y
+a			_HCF^Y
+a			_QCB^A
+a			_QCB^B
+a			_QCF^A
+a			_QCF^B
+a			_DSF^X
+a			_DSF^Y
+a			_QCB^X
+a			_QCB^Y
+a			_HCF^X
+Especial 12			^Y_+^B
+Taunt			~B^X_+^A
+Taunt			^X_+^A
+
+<#f0f000>:Hyper Moves:</>
+Super 1 <#f00000>(1000)</>			^B_+^X
+Strong Kung Fu Palm <#f00000>(2000)</>			_QCF_QCF^A_+^B
+Strong Kung Fu Palm <#f00000>(1000)</>			_QCF_QCF^B
+Strong Kung Fu Palm <#f00000>(2000)</>			_QCB_QCB^X_+^Y
+Strong Kung Fu Palm <#f00000>(1000)</>			_DF_DB_DF_DB^Y
+Strong Kung Fu Palm <#f00000>(2000)</>			_DF_DB_DF_DB^X_+^Y
+Super 7 <#f00000>(1000)</>			_QCF_QCF^X
+Super 8 <#f00000>(2000)</>			_QCF_QCF^X_+^Y
+Strong Kung Fu Palm <#f00000>(1000)</>			_QCB_QCB^X
+JVBAO <#f00000>(1000)</>			_QCB_QCB^B
+Munao Sei Neayayui <#f00000>(3000)</>			_QCB_QCB^A_+^B
+Seono Seonowosa Seonowosa Koma 14 <#f00000>(3000)</>			_QCB_QCF^X_+^Y
+Super 13 <#f00000>(500)</>			^Y_+^B
+Super 14 <#f00000>(1000)</>			~B^X_+^A
+Super 15 <#f00000>(1000)</>			^X_+^A

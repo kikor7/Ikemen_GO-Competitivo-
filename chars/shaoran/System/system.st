@@ -688,13 +688,13 @@ Trigger1=RoundState=2
 anim=19999-10*(Teamside=2)
 ID = 19999
 Postype=left
-pos= (TeamSide=1)*20+(TeamSide=2)*300,Helper(7800),var(55)
+pos= ifelse(TeamSide=1, GameWidth/2 - 93*ifelse(GameWidth > 330, 1, 0.75), GameWidth/2 + 93*ifelse(GameWidth > 330, 1, 0.75)), ifelse(GameWidth > 330, 38, 29) ;debajo de la barra de super
 bindtime=1
 removetime=1
 vel=0,0
 sprpriority=990
 ownpal=1
-scale= 0.5,0.5
+scale= (0.5)*0.61*ifelse(GameWidth > 330, 1, 0.75),(0.5)*0.7
 Ignorehitpause=1
 Pausemovetime=9999
 Supermovetime=9999
@@ -706,13 +706,13 @@ Trigger1=root,var(16)<=400
 anim=19990-10*(Teamside=2)
 ID = 19999
 Postype=left
-pos= (TeamSide=1)*20+(TeamSide=2)*300,Helper(7800),var(55)
+pos= ifelse(TeamSide=1, GameWidth/2 - 93*ifelse(GameWidth > 330, 1, 0.75), GameWidth/2 + 93*ifelse(GameWidth > 330, 1, 0.75)), ifelse(GameWidth > 330, 38, 29) ;debajo de la barra de super
 bindtime=1
 removetime=1
 vel=0,0
 sprpriority=999
 ownpal=1
-scale= 1.385*(0.01+0.49*(1000-root,var(16))*0.001),0.7
+scale= (1.385*(0.01+0.49*(1000-root,var(16))*0.001))*0.61*ifelse(GameWidth > 330, 1, 0.75),(0.7)*0.7
 Ignorehitpause=1
 Pausemovetime=9999
 Supermovetime=9999
@@ -724,13 +724,13 @@ Trigger1=root,var(16)=[401,600]
 anim=19991-10*(Teamside=2)
 ID = 19999
 Postype=left
-pos= (TeamSide=1)*20+(TeamSide=2)*300,Helper(7800),var(55)
+pos= ifelse(TeamSide=1, GameWidth/2 - 93*ifelse(GameWidth > 330, 1, 0.75), GameWidth/2 + 93*ifelse(GameWidth > 330, 1, 0.75)), ifelse(GameWidth > 330, 38, 29) ;debajo de la barra de super
 bindtime=1
 removetime=1
 vel=0,0
 sprpriority=999
 ownpal=1
-scale= 1.385*(0.01+0.49*(1000-root,var(16))*0.001),0.7
+scale= (1.385*(0.01+0.49*(1000-root,var(16))*0.001))*0.61*ifelse(GameWidth > 330, 1, 0.75),(0.7)*0.7
 Ignorehitpause=1
 Pausemovetime=9999
 Supermovetime=9999
@@ -742,13 +742,13 @@ Trigger1=root,var(16)=[601,800]
 anim=19992-10*(Teamside=2)
 ID = 19999
 Postype=left
-pos= (TeamSide=1)*20+(TeamSide=2)*300,Helper(7800),var(55)
+pos= ifelse(TeamSide=1, GameWidth/2 - 93*ifelse(GameWidth > 330, 1, 0.75), GameWidth/2 + 93*ifelse(GameWidth > 330, 1, 0.75)), ifelse(GameWidth > 330, 38, 29) ;debajo de la barra de super
 bindtime=1
 removetime=1
 vel=0,0
 sprpriority=999
 ownpal=1
-scale= 1.385*(0.01+0.49*(1000-root,var(16))*0.001),0.7
+scale= (1.385*(0.01+0.49*(1000-root,var(16))*0.001))*0.61*ifelse(GameWidth > 330, 1, 0.75),(0.7)*0.7
 Ignorehitpause=1
 Pausemovetime=9999
 Supermovetime=9999
@@ -760,13 +760,13 @@ Trigger1=root,var(16)=[801,1000]
 anim=19992-10*(Teamside=2)+6*(gametime %20<10)
 ID = 19999
 Postype=left
-pos= (TeamSide=1)*20+(TeamSide=2)*300,Helper(7800),var(55)
+pos= ifelse(TeamSide=1, GameWidth/2 - 93*ifelse(GameWidth > 330, 1, 0.75), GameWidth/2 + 93*ifelse(GameWidth > 330, 1, 0.75)), ifelse(GameWidth > 330, 38, 29) ;debajo de la barra de super
 bindtime=1
 removetime=1
 vel=0,0
 sprpriority=999
 ownpal=1
-scale= 1.385*(0.01+0.49*(1000-root,var(16))*0.001),0.7
+scale= (1.385*(0.01+0.49*(1000-root,var(16))*0.001))*0.61*ifelse(GameWidth > 330, 1, 0.75),(0.7)*0.7
 Ignorehitpause=1
 Pausemovetime=9999
 Supermovetime=9999
@@ -778,13 +778,13 @@ Trigger1=root,var(16)>=5000
 anim=19998-10*(Teamside=2)
 ID = 19999
 Postype=left
-pos= (TeamSide=1)*20+(TeamSide=2)*300,Helper(7800),var(55)
+pos= ifelse(TeamSide=1, GameWidth/2 - 93*ifelse(GameWidth > 330, 1, 0.75), GameWidth/2 + 93*ifelse(GameWidth > 330, 1, 0.75)), ifelse(GameWidth > 330, 38, 29) ;debajo de la barra de super
 bindtime=1
 removetime=1
 vel=0,0
 sprpriority=999
 ownpal=1
-scale= 1.385*(0.01+0.49*(6250-root,var(16))/1250),0.7
+scale= (1.385*(0.01+0.49*(6250-root,var(16))/1250))*0.61*ifelse(GameWidth > 330, 1, 0.75),(0.7)*0.7
 Ignorehitpause=1
 Pausemovetime=9999
 Supermovetime=9999
@@ -796,7 +796,7 @@ Trigger1=parent,var(17)=1
 anim=20070
 ID = 20070
 Postype=left
-pos= (TeamSide=1)*0+(TeamSide=2)*300,Helper(7800),var(55)+5
+pos= ifelse(TeamSide=1, GameWidth/2 - 93*ifelse(GameWidth > 330, 1, 0.75) - 20, GameWidth/2 + 93*ifelse(GameWidth > 330, 1, 0.75)), ifelse(GameWidth > 330, 38, 29)+5 ;debajo de la barra de super
 bindtime=1
 removetime=1
 vel=0,0
@@ -814,7 +814,7 @@ Trigger1=parent,var(17)=2
 anim=20071
 ID = 20071
 Postype=left
-pos= (TeamSide=1)*0+(TeamSide=2)*300,Helper(7800),var(55)+15
+pos= ifelse(TeamSide=1, GameWidth/2 - 93*ifelse(GameWidth > 330, 1, 0.75) - 20, GameWidth/2 + 93*ifelse(GameWidth > 330, 1, 0.75)), ifelse(GameWidth > 330, 38, 29)+15 ;debajo de la barra de super
 bindtime=1
 removetime=1
 vel=0,0
@@ -832,7 +832,7 @@ Trigger1=parent,var(19)=1
 anim=20072
 ID = 20072
 Postype=left
-pos= (TeamSide=1)*5+(TeamSide=2)*305,Helper(7800),var(55)+20
+pos= ifelse(TeamSide=1, GameWidth/2 - 93*ifelse(GameWidth > 330, 1, 0.75) - 15, GameWidth/2 + 93*ifelse(GameWidth > 330, 1, 0.75) + 5), ifelse(GameWidth > 330, 38, 29)+20 ;debajo de la barra de super
 bindtime=1
 removetime=1
 vel=0,0
@@ -850,7 +850,7 @@ Trigger1=NumHelper(13111)>0
 anim=13101
 ID = 20073
 Postype=left
-pos= (TeamSide=1)*5+(TeamSide=2)*305,Helper(7800),var(55)+55
+pos= ifelse(TeamSide=1, GameWidth/2 - 93*ifelse(GameWidth > 330, 1, 0.75) - 15, GameWidth/2 + 93*ifelse(GameWidth > 330, 1, 0.75) + 5), ifelse(GameWidth > 330, 38, 29)+55 ;debajo de la barra de super
 bindtime=1
 removetime=1
 vel=0,0
@@ -869,13 +869,13 @@ Trigger1=RoundState=2
 anim=9001
 ID = 19999
 Postype=left
-pos= (TeamSide=1)*20+(TeamSide=2)*300,Helper(7800),var(55)-6
+pos= ifelse(TeamSide=1, GameWidth/2 - 93*ifelse(GameWidth > 330, 1, 0.75), GameWidth/2 + 93*ifelse(GameWidth > 330, 1, 0.75)), ifelse(GameWidth > 330, 38, 29)+5 ;debajo de la barra de super
 bindtime=1
 removetime=1
 vel=0,0
 sprpriority=990
 ownpal=1
-scale= 0.5,0.5
+scale= (0.5)*0.61*ifelse(GameWidth > 330, 1, 0.75),(0.5)*0.7
 Ignorehitpause=1
 Pausemovetime=9999
 Supermovetime=9999
@@ -887,13 +887,13 @@ Trigger1=RoundState=2
 anim=19990+(root,fvar(39)<0.75)+(root,fvar(39)<0.5)+6*(root,fvar(39)<0.25)
 ID = 19999
 Postype=left
-pos= (TeamSide=1)*20+(TeamSide=2)*300,Helper(7800),var(55)-6
+pos= ifelse(TeamSide=1, GameWidth/2 - 93*ifelse(GameWidth > 330, 1, 0.75), GameWidth/2 + 93*ifelse(GameWidth > 330, 1, 0.75)), ifelse(GameWidth > 330, 38, 29)+5 ;debajo de la barra de super
 bindtime=1
 removetime=1
 vel=0,0
 sprpriority=1020
 ownpal=1
-scale=1.385*0.5*(1-root,fvar(39)),0.25
+scale= (1.385*0.5*(1-root,fvar(39)))*0.61*ifelse(GameWidth > 330, 1, 0.75),(0.25)*0.7
 Ignorehitpause=1
 Pausemovetime=9999
 Supermovetime=9999

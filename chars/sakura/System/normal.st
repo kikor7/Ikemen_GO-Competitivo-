@@ -54,7 +54,7 @@ hitflag = MA                    ;Flags of conditions that move can hit
 priority = 4, Hit                ;Attack priority: 0 (least) to 7 (most), 4 default
 pausetime =10,10
 guard.pausetime=5,5
-getpower = 50,25
+getpower = 30,15
 sparkno = -1                      ;Spark anim no (Def: set above)
 guard.sparkno=-1
 hitsound = S300,1                  ;Sound to play on hit
@@ -83,7 +83,7 @@ hitflag = MA                   ;Flags of conditions that move can hit
 priority = 4, Hit                ;Attack priority: 0 (least) to 7 (most), 4 default
 pausetime =10,10
 guard.pausetime=5,5
-getpower = 50,25
+getpower = 30,15
 ;Hit/Miss/Dodge type (Def: Hit)
 sparkno = -1                      ;Spark anim no (Def: set above)
 guard.sparkno=-1
@@ -226,7 +226,7 @@ hitflag = MA                    ;Flags of conditions that move can hit
 priority = 7, Hit                ;Attack priority: 0 (least) to 7 (most), 4 default
 pausetime = 12, 14+15*(Name="Void")     ;Time attacker pauses, time opponent shakes
 guard.pausetime=5,5
-getpower = 70,35
+getpower = 30,15
 sparkno = -1                      ;Spark anim no (Def: set above)
 guard.sparkno=-1
 hitsound = S310,1                  ;Sound to play on hit
@@ -250,7 +250,7 @@ triggerall = var(23)=[1,9000]
 attr = S, NA                     ;Attribute: Standing, Normal Attack
 damage = floor(Cond(IsHelper,root,fvar(39),fvar(39))*(55*(1+(var(25)>0)*0.7-0.4*(NumHelper(4041)+NumHelper(13211)>0)))),floor(2*(1+(var(25)>0)*0.7-0.4*(NumHelper(4041)+NumHelper(13211)>0)))
 animtype = Medium                 ;Animation type: Light, Medium, Heavy, Back (def: Light)
-getpower = 70,35
+getpower = 30,15
 guardflag =                     ;Flags on how move is to be guarded against
 hitflag = MA                    ;Flags of conditions that move can hit
 priority = 7, Hit                ;Attack priority: 0 (least) to 7 (most), 4 default
@@ -349,7 +349,7 @@ MoveType= A
 velset=0,0
 ctrl=0
 anim=310
-poweradd=70
+poweradd=0
 facep2=1
 
 [State 221]
@@ -390,6 +390,7 @@ Trigger1 = !Movereversed
 triggerall = var(23)!=[1,9000]
 attr = S, NA                     ;Attribute: Standing, Normal Attack
 damage = floor(Cond(IsHelper,root,fvar(39),fvar(39))*(25*(1+(var(25)>0)*0.7-0.4*(NumHelper(4041)+NumHelper(13211)>0)))),0
+getpower = 30,15
 animtype = Medium                 ;Animation type: Light, Medium, Heavy, Back (def: Light)
 guardflag = MA                    ;Flags on how move is to be guarded against
 hitflag = MA                    ;Flags of conditions that move can hit
@@ -417,6 +418,7 @@ Trigger1 = !Movereversed
 triggerall = var(23)=[1,9000]
 attr = S, NA                     ;Attribute: Standing, Normal Attack
 damage = floor(Cond(IsHelper,root,fvar(39),fvar(39))*(25*(1+(var(25)>0)*0.7-0.4*(NumHelper(4041)+NumHelper(13211)>0)))),0
+getpower = 30,15
 animtype = Medium                 ;Animation type: Light, Medium, Heavy, Back (def: Light)
 guardflag = MA                    ;Flags on how move is to be guarded against
 hitflag = MA                    ;Flags of conditions that move can hit
@@ -568,7 +570,7 @@ Trigger15 = (name="Yue") && (time=14)
 triggerall = var(23)!=[1,9000]
 attr = S, NA                     ;Attribute: Standing, Normal Attack
 damage = floor(Cond(IsHelper,root,fvar(39),fvar(39))*((32+8*name="Shaoran Lee"-6*(Name="Sakura Kinomoto"))*(1+(var(25)>0)*0.7-0.4*(NumHelper(4041)+NumHelper(13211)>0)))),floor(3*(1+(var(25)>0)*0.7-0.4*(NumHelper(4041)+NumHelper(13211)>0)))
-getpower = 50,20
+getpower = 15,7
 animtype = Heavy                 ;Animation type: Light, Medium, Heavy, Back (def: Light)
 guardflag = MA                    ;Flags on how move is to be guarded against
 hitflag = MAF                    ;Flags of conditions that move can hit
@@ -610,7 +612,7 @@ Trigger15 = (name="Yue") && (time=14)
 triggerall = var(23)=[1,9000]
 attr = S, NA                     ;Attribute: Standing, Normal Attack
 damage = floor(Cond(IsHelper,root,fvar(39),fvar(39))*((32+8*name="Shaoran Lee"-6*(Name="Sakura Kinomoto"))*(1+(var(25)>0)*0.7-0.4*(NumHelper(4041)+NumHelper(13211)>0)))),floor(3*(1+(var(25)>0)*0.7-0.4*(NumHelper(4041)+NumHelper(13211)>0)))
-getpower = 50,20
+getpower = 15,7
 animtype = Heavy                 ;Animation type: Light, Medium, Heavy, Back (def: Light)
 guardflag =                     ;Flags on how move is to be guarded against
 hitflag = MAF                    ;Flags of conditions that move can hit
@@ -741,7 +743,7 @@ animtype = Light                 ;Animation type: Light, Medium, Heavy, Back (de
 guardflag = MA                    ;Flags on how move is to be guarded against
 hitflag = M                    ;Flags of conditions that move can hit
 priority = 4, Hit                ;Attack priority: 0 (least) to 7 (most), 4 default
-getpower = 60,30
+getpower = 30,15
 pausetime=10,10
 guard.pausetime=5,5
 ;Hit/Miss/Dodge type (Def: Hit)
@@ -770,7 +772,7 @@ damage = floor(Cond(IsHelper,root,fvar(39),fvar(39))*(21*(1+(var(25)>0)*0.7-0.4*
 animtype = Light                 ;Animation type: Light, Medium, Heavy, Back (def: Light)
 guardflag =                    ;Flags on how move is to be guarded against
 hitflag = M                    ;Flags of conditions that move can hit
-getpower = 60,30
+getpower = 30,15
 pausetime=10,10
 guard.pausetime=5,5
 priority = 4, Hit                ;Attack priority: 0 (least) to 7 (most), 4 default
@@ -871,7 +873,7 @@ damage = floor(Cond(IsHelper,root,fvar(39),fvar(39))*((55+20*name="Shaoran Lee"-
 animtype = Medium                 ;Animation type: Light, Medium, Heavy, Back (def: Light)
 guardflag = MA                    ;Flags on how move is to be guarded against
 hitflag = MA                    ;Flags of conditions that move can hit
-getpower = 90,30
+getpower = 60,30
 priority = 7, Hit                ;Attack priority: 0 (least) to 7 (most), 4 default
 ;Hit/Miss/Dodge type (Def: Hit)
 pausetime = 12, 14                 ;Time attacker pauses, time opponent shakes
@@ -900,7 +902,7 @@ triggerall = var(23)=[1,9000]
 attr = C, NA                     ;Attribute: Standing, Normal Attack
 damage = floor(Cond(IsHelper,root,fvar(39),fvar(39))*((55+20*name="Shaoran Lee"-10*(Name="Sakura Kinomoto"))*(1+(var(25)>0)*0.7-0.4*(NumHelper(4041)+NumHelper(13211)>0)))),floor(2*(1+(var(25)>0)*0.7-0.4*(NumHelper(4041)+NumHelper(13211)>0)))
 animtype = Medium                 ;Animation type: Light, Medium, Heavy, Back (def: Light)
-getpower = 90,30
+getpower = 60,30
 guardflag = MA                    ;Flags on how move is to be guarded against
 hitflag = MA                    ;Flags of conditions that move can hit
 priority = 7, Hit                ;Attack priority: 0 (least) to 7 (most), 4 default
@@ -1016,7 +1018,7 @@ Trigger1 = !Movereversed
 triggerall = var(23)!=[1,9000]
 attr = C, NA                     ;Attribute: Standing, Normal Attack
 damage = floor(Cond(IsHelper,root,fvar(39),fvar(39))*60*(1+(var(25)>0)*0.7-0.4*(NumHelper(4041)+NumHelper(13211)>0))),0
-getpower = 110,30
+getpower = 30,15
 animtype = Heavy                 ;Animation type: Light, Medium, Heavy, Back (def: Light)
 ground.type=Trip
 guardflag = L                    ;Flags on how move is to be guarded against
@@ -1046,7 +1048,7 @@ damage = floor(Cond(IsHelper,root,fvar(39),fvar(39))*60*(1+(var(25)>0)*0.7-0.4*(
 animtype = Heavy                 ;Animation type: Light, Medium, Heavy, Back (def: Light)
 ground.type=Trip
 guardflag =                     ;Flags on how move is to be guarded against
-getpower = 110,30
+getpower = 30,15
 hitflag = M                    ;Flags of conditions that move can hit
 priority = 7, Hit                ;Attack priority: 0 (least) to 7 (most), 4 default
 ;Hit/Miss/Dodge type (Def: Hit)
@@ -1123,7 +1125,7 @@ MoveType= A
 juggle  = 1
 ctrl=0
 anim=360
-poweradd=40
+poweradd=0
 facep2=1
 
 [State 221]
@@ -1182,7 +1184,7 @@ animtype = Heavy                 ;Animation type: Light, Medium, Heavy, Back (de
 guardflag = MA                    ;Flags on how move is to be guarded against
 hitflag = MAF                    ;Flags of conditions that move can hit
 priority = 5, Hit                ;Attack priority: 0 (least) to 7 (most), 4 default
-getpower = 50,30
+getpower = 30,15
 ;Hit/Miss/Dodge type (Def: Hit)
 pausetime = 6, 6                 ;Time attacker pauses, time opponent shakes
 sparkno = -1                      ;Spark anim no (Def: set above)
@@ -1221,7 +1223,7 @@ hitflag = MAF                    ;Flags of conditions that move can hit
 priority = 5, Hit                ;Attack priority: 0 (least) to 7 (most), 4 default
 ;Hit/Miss/Dodge type (Def: Hit)
 pausetime = 6, 6                 ;Time attacker pauses, time opponent shakes
-getpower = 50,30
+getpower = 30,15
 sparkno = -1                      ;Spark anim no (Def: set above)
 guard.sparkno=-1
 hitsound = S360,1                  ;Sound to play on hit
@@ -1323,7 +1325,7 @@ Physics =A
 MoveType= A
 ctrl=0
 anim=370
-poweradd=30
+poweradd=0
 facep2=1
 
 [State 221]
@@ -1376,7 +1378,7 @@ priority = 7, Hit                ;Attack priority: 0 (least) to 7 (most), 4 defa
 ;Hit/Miss/Dodge type (Def: Hit)
 pausetime = 6, 8                 ;Time attacker pauses, time opponent shakes
 sparkno = -1                      ;Spark anim no (Def: set above)
-getpower = 100,50
+getpower = 30,15
 guard.sparkno=-1
 hitsound = S370,1                  ;Sound to play on hit
 guardsound = S0,201                ;Sound to play on guard
@@ -1406,7 +1408,7 @@ attr = A, NA                     ;Attribute: Standing, Normal Attack
 damage = floor(Cond(IsHelper,root,fvar(39),fvar(39))*70*(1+(var(25)>0)*0.7-0.4*(NumHelper(4041)+NumHelper(13211)>0))),0
 animtype = Medium                 ;Animation type: Light, Medium, Heavy, Back (def: Light)
 guardflag =                     ;Flags on how move is to be guarded against
-getpower = 100,50
+getpower = 30,15
 hitflag = MA                    ;Flags of conditions that move can hit
 priority = 7, Hit                ;Attack priority: 0 (least) to 7 (most), 4 default
 ;Hit/Miss/Dodge type (Def: Hit)

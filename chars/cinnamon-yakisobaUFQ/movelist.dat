@@ -1,0 +1,24 @@
+<#f0f000>:Special Moves:</>
+Final Cutter			_DSF^X
+Final Cutter			_DSF^Y
+Final Cutter			_DSF^Z
+CHUMON			_QCF^X
+CHUMON			_QCF^Y
+CHUMON			_QCF^Z
+Spin Kick			_QCF^A
+Spin Kick			_QCF^B
+Spin Kick			_QCF^C
+DODGE FRONT			^X_+^A
+Charge			^Z_+^C
+
+<#f0f000>:Hyper Moves:</>
+Cup <#f00000>(2000)</>			_F_HCF^X
+HooversOoover <#f00000>(3000)</>			_HCF^X_+^Y
+HooversOoover <#f00000>(3000)</>			_HCF^A_+^B
+CinnamonHipAttack <#f00000>(2000)</>			_QCF_QCF^X
+MOCHA <#f00000>(1000)</>			_QCB^X
+ESPRESSO <#f00000>(1000)</>			_QCB^Y
+Vega Cinnamon <#f00000>(1000)</>			_QCB^Z
+CM <#f00000>(1000)</>			_QCB^A
+KITTY <#f00000>(2000)</>			_QCB^B
+MYMELO <#f00000>(2000)</>			_QCB^C

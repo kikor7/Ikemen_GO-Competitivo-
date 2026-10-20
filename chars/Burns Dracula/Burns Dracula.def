@@ -13,6 +13,7 @@ localcoord = 320,240
 
 ; files for the player
 [files]
+movelist = movelist.dat
 cmd     = m_burns.cmd
 cns     = m_burns.cns
 st      = m_burns.cns

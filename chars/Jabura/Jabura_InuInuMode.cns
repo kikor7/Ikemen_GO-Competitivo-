@@ -445,7 +445,7 @@ juggle  = 1
 ;velset = 0,0
 ctrl = 0
 anim = 2200
-poweradd = 50
+poweradd = 0
 sprpriority = 3
 
 
@@ -494,6 +494,7 @@ trigger2 = animelem = 5
 attr = S, NA
 animtype  = Light
 damage    = 50
+getpower = 30,15
 guardflag = MA
 pausetime = 10,12
 sparkno = -1;s6000
@@ -571,7 +572,7 @@ juggle  = 1
 ;velset = 0,0
 ctrl = 0
 anim = 2210
-poweradd = 50
+poweradd = 0
 sprpriority = 2
 
 
@@ -614,6 +615,7 @@ trigger1 = animelem = 4
 attr = S, NA
 animtype  = Light
 damage    = 30
+getpower = 30,15
 guardflag = MA
 pausetime = 6,8
 sparkno = -1;s6000
@@ -671,7 +673,7 @@ velset = 0,0
 ctrl = 0
 anim = 2300
 sprpriority = 1
-poweradd = 50
+poweradd = 0
 
 ;--- Guard Cancel --------------------------
 [State 3000, SuperPause]
@@ -837,6 +839,7 @@ trigger2 = animelem = 5
 attr = S, SA
 animtype  = Light
 damage    = 50,5
+getpower = 30,15
 guardflag = MA
 pausetime = 10,12
 sparkno = -1;s6000
@@ -933,7 +936,7 @@ juggle  = 7
 ctrl = 0
 anim = 2309
 sprpriority = 1
-poweradd = 50
+poweradd = 0
 
 [State 60, Arena Grande atras]
 type = Explod
@@ -1044,6 +1047,7 @@ trigger2 = animelem = 4
 attr = S, SA
 animtype  = Light
 damage    = 50,5
+getpower = 30,15
 guardflag = MA
 pausetime = 10,12
 sparkno = -1;s6000
@@ -1126,7 +1130,7 @@ physics = A
 juggle  = 1
 ctrl = 0
 anim = 2400
-poweradd = 50
+poweradd = 0
 sprpriority = 1
 
 [State 210, 1]
@@ -1138,6 +1142,7 @@ trigger3 = animelem = 4
 attr = S, NA
 animtype  = Light
 damage    = 40
+getpower = 30,15
 guardflag = MA
 pausetime = 8,10
 sparkno = -1;s6000
@@ -1212,7 +1217,7 @@ type    = A
 movetype= A
 physics = A
 juggle  = 2
-poweradd = 25
+poweradd = 0
 ctrl = 0
 anim = 2410
 sprpriority = 2
@@ -1225,6 +1230,7 @@ triggerall = !movecontact
 trigger1 = AnimElem = 4
 attr = A, NA
 damage = 50
+getpower = 30,15
 guardflag = HA
 priority = 3
 pausetime = 10,12
@@ -1321,6 +1327,7 @@ attr = S, ST
 animtype = hard          ;light,medium,hard,back,up,diagup
 priority = 4,Hit
 damage    = 0,0
+getpower = 60,30
 guardflag = MA
 pausetime = 0,8
 sparkno = -1;s6000
@@ -1686,7 +1693,7 @@ trigger4 = animelem = 5
 attr = S, SA
 animtype  = Hard
 damage    = 50,5
-getpower  = 0
+getpower = 60,30
 priority = 5, Hit
 guardflag = MA
 pausetime = 10,12
@@ -1852,7 +1859,7 @@ trigger4 = animelem = 5
 attr = A, SA
 animtype  = Hard
 damage    = 50,5
-getpower  = 0
+getpower = 60,30
 priority = 5, Hit
 guardflag = HA
 pausetime = 10,12
@@ -1977,7 +1984,7 @@ physics = S
 anim = 2800
 velset = 0,0
 ctrl = 0
-poweradd = 75
+poweradd = 20
 
 
 ;--- Guard Cancel --------------------------
@@ -2252,6 +2259,7 @@ triggerall = !movecontact
 trigger1 =  1
 attr = A, SP
 damage    = 30, 5
+getpower = 15,7
 guardflag = HA
 priority = 4
 pausetime = 10,4
@@ -2322,6 +2330,7 @@ triggerall = !movecontact
 trigger1 =  1
 attr = A, SP
 damage    = 30, 5
+getpower = 15,7
 guardflag = HA
 priority = 4
 pausetime = 10,4
@@ -2358,7 +2367,7 @@ value = ifelse(prevstateno = 2820,2823,2821)
 [Statedef 2821]
 Movetype = A
 juggle  = 5
-poweradd = 30
+poweradd = 0
 ctrl = 0
 anim = 7075
 sprpriority = 2
@@ -2596,7 +2605,7 @@ value = ifelse(prevstateno = 2821,2824,2822)
 [Statedef 2822]
 Movetype = A
 juggle  = 5
-poweradd = 30
+poweradd = 0
 ctrl = 0
 anim = 7075
 sprpriority = 2
@@ -2852,7 +2861,7 @@ value = 2829
 [Statedef 2823]
 Movetype = A
 juggle  = 5
-poweradd = 30
+poweradd = 0
 ctrl = 0
 anim = 7075
 sprpriority = 2
@@ -3043,7 +3052,7 @@ value = 2824
 [Statedef 2824]
 Movetype = A
 juggle  = 5
-poweradd = 30
+poweradd = 0
 ctrl = 0
 anim = 7075
 sprpriority = 2
@@ -3345,7 +3354,7 @@ movetype = A
 physics = A
 anim = 2850
 ctrl = 0
-poweradd = 75
+poweradd = 20
 
 [State 0, PlaySnd]
 type = PlaySnd
@@ -3527,6 +3536,7 @@ triggerall = !movecontact
 trigger1 =  1
 attr = A, SP
 damage    = 30, 5
+getpower = 15,7
 guardflag = HA
 priority = 4
 pausetime = 10,4
@@ -3596,6 +3606,7 @@ triggerall = !movecontact
 trigger1 =  1
 attr = A, SP
 damage    = 30, 5
+getpower = 15,7
 guardflag = HA
 priority = 4
 pausetime = 10,4
@@ -3637,7 +3648,7 @@ Movetype = A
 physics = N
 anim = 2900
 ctrl = 0
-Poweradd = 100
+Poweradd = 0
 
 ;--- Reversal --------------------------
 [State 3000, SuperPause]

@@ -9,7 +9,7 @@
 type = S
 movetype = A
 physics = S
-poweradd= 72
+poweradd= 20
 anim = 1000 + Var(39)*10000
 ctrl = 0
 velset = 0,0
@@ -47,7 +47,7 @@ trigger1 = AnimElem = 11
 attr = S, SP
 damage = 63,8
 animtype = Medium
-getpower = 144,36
+getpower = 30,15
 givepower = 36
 guardflag = M
 hitflag = MA
@@ -92,7 +92,7 @@ ctrl = 1
 type = S
 movetype = A
 physics = S
-poweradd= 72
+poweradd= 20
 anim = 1002 + Var(39)*10000
 ctrl = 0
 velset = 0,0
@@ -131,7 +131,7 @@ trigger1 = AnimElem = 11
 attr = S, SP
 damage = 63,8
 animtype = Medium
-getpower = 144,36
+getpower = 30,15
 givepower = 36
 guardflag = M
 hitflag = MA
@@ -174,7 +174,7 @@ ctrl = 1
 type = S
 movetype = A
 physics = S
-poweradd= 72
+poweradd= 20
 anim = 1003 ;+ Var(39)*10000
 ctrl = 0
 velset = 0,0
@@ -218,7 +218,7 @@ trigger2 = AnimElem = 18
 attr = S, SP
 damage = 63,8
 animtype = Medium
-getpower = 144,36
+getpower = 15,7
 givepower = 36
 guardflag = M
 hitflag = MA
@@ -256,7 +256,7 @@ trigger1 = AnimElem = 14
 attr = S, SP
 damage = 63,8
 animtype = Medium
-getpower = 144,36
+getpower = 15,7
 givepower = 36
 guardflag = M
 hitflag = MA
@@ -364,7 +364,7 @@ trigger1= Parent,NumProjID(1005) = 0
 type = S
 movetype = A
 physics = S
-poweradd= 72
+poweradd= 0
 anim = 1100 + Var(39)*10000
 ctrl = 0
 velset = 0,0
@@ -425,7 +425,7 @@ trigger1 = AnimElem = 4
 trigger2 = AnimElem = 7
 attr = A, SA
 damage    = 40,8
-getpower = 40,18
+getpower = 60,30
 givepower = 36
 animtype = Hard
 hitflag = MAF
@@ -563,7 +563,7 @@ ctrl = 1
 type = S
 movetype = A
 physics = S
-poweradd= 72
+poweradd= 0
 anim = 1110 + Var(39)*10000
 ctrl = 0
 velset = 0,0
@@ -609,7 +609,7 @@ type = HitDef
 trigger1 = AnimElem = 2
 attr = S, SA
 damage    = 30,5
-getpower = 30,25
+getpower = 30,15
 givepower = 36
 animtype = Hard
 hitflag = MAF
@@ -634,7 +634,7 @@ trigger1 = AnimElem = 4
 trigger2 = AnimElem = 7
 attr = A, SA
 damage    = ifelse((AnimElem = 3),50,70),7
-getpower = 85,16
+getpower = 30,15
 givepower = 36
 animtype = Hard
 hitflag = MAF
@@ -745,7 +745,7 @@ trigger1 = P2MoveType != H
 trigger1 = P2StateNo != [150,155]
 attr = S, ST
 priority = 3,Miss
-getpower = 144,36
+getpower = 60,30
 givepower = 36
 hitflag = M-
 numhits = 1
@@ -945,7 +945,7 @@ ctrl = 1
 type = S
 movetype = A
 physics = N
-poweradd= 72
+poweradd= 0
 anim = 1300 + Var(39)*10000
 ctrl = 0
 velset = 0,0
@@ -982,7 +982,7 @@ type = HitDef
 trigger1 = AnimElem = 4
 attr = S, SA
 damage    = ifelse(Var(39)=1,42,35),4
-getpower = 72,18
+getpower = 60,30
 givepower = 36
 animtype = Hard
 hitflag = MAF
@@ -1226,7 +1226,7 @@ ctrl = 1
 type = S
 movetype = A
 physics = N
-poweradd= 72
+poweradd= 0
 anim = 1400 + Var(39)*10000
 ctrl = 0
 velset = 0, 0
@@ -1280,7 +1280,7 @@ scale = .8, .6
 type = S
 movetype = A
 physics = N
-poweradd= 72
+poweradd= 0
 anim = 1400 + Var(39)*10000
 ctrl = 0
 velset = 0, 0
@@ -1373,7 +1373,7 @@ trigger1 = AnimElem = 3
 attr = S, SA
 animtype  = Hard
 damage    = 28,4
-getpower = 144,36
+getpower = 30,15
 givepower = 36
 guardflag = M
 hitflag = MAF
@@ -1445,7 +1445,7 @@ trigger1 = AnimElem = 3
 attr = S, SA
 animtype  = Hard
 damage    = 28,4
-getpower = 144,36
+getpower = 30,15
 givepower = 36
 guardflag = M
 hitflag = MAF

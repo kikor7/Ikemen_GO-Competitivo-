@@ -705,7 +705,7 @@ physics = S
 juggle  = 4
 ctrl = 0
 anim = 200
-poweradd = 15
+poweradd = 0
 sprpriority = 2
 
 [State 200, VelMul, corrida]
@@ -764,7 +764,7 @@ physics = S
 juggle  = 4
 ctrl = 0
 anim = 210
-poweradd = 35
+poweradd = 0
 sprpriority = 2
 
 [State 210, VelMul]
@@ -818,7 +818,7 @@ physics = S
 juggle  = 4
 ctrl = 0
 anim = 211
-poweradd = 35
+poweradd = 0
 sprpriority = 2
 
 [State 211, VelMul]
@@ -872,7 +872,7 @@ physics = S
 juggle  = 4
 ctrl = 0
 anim = 220
-poweradd = 55
+poweradd = 0
 sprpriority = 2
 
 [State 220, VelMul]
@@ -953,7 +953,7 @@ physics = S
 juggle  = 4
 ctrl = 0
 anim = 221
-poweradd = 55
+poweradd = 0
 sprpriority = 2
 
 [State 221, VelMul]
@@ -1007,7 +1007,7 @@ physics = S
 juggle  = 4
 ctrl = 0
 anim = 230
-poweradd = 15
+poweradd = 0
 sprpriority = 2
 
 [State 230, PlaySnd]
@@ -1064,7 +1064,7 @@ physics = S
 juggle  = 4
 ctrl = 0
 anim = 240
-poweradd = 35
+poweradd = 0
 sprpriority = 2
 
 [State 240, VelMul]
@@ -1121,7 +1121,7 @@ physics = S
 juggle  = 4
 ctrl = 0
 anim = 241
-poweradd = 35
+poweradd = 0
 sprpriority = 2
 
 [State 241, VelMul]
@@ -1173,7 +1173,7 @@ physics = S
 juggle  = 4
 ctrl = 0
 anim = 250
-poweradd = 55
+poweradd = 0
 sprpriority = 2
 
 [State 250, VelMul]
@@ -1256,7 +1256,7 @@ physics = S
 juggle  = 4
 ctrl = 0
 anim = 251
-poweradd = 55
+poweradd = 0
 sprpriority = 2
 
 [State 251, VelMul]
@@ -1308,7 +1308,7 @@ physics = C
 juggle  = 4
 ctrl = 0
 anim = 400
-poweradd = 15
+poweradd = 0
 sprpriority = 2
 
 [State 400, VelMul]
@@ -1360,7 +1360,7 @@ physics = C
 juggle  = 4
 ctrl = 0
 anim = 410
-poweradd = 35
+poweradd = 0
 sprpriority = 2
 
 [State 410, VelMul]
@@ -1412,7 +1412,7 @@ physics = C
 juggle  = 4
 ctrl = 0
 anim = 420
-poweradd = 55
+poweradd = 0
 sprpriority = 2
 
 [State 200, PlaySnd]
@@ -1468,7 +1468,7 @@ physics = C
 juggle  = 4
 ctrl = 0
 anim = 430
-poweradd = 15
+poweradd = 0
 sprpriority = 2
 
 [State 430, VelMul]
@@ -1520,7 +1520,7 @@ physics = C
 juggle  = 4
 ctrl = 0
 anim = 440
-poweradd = 35
+poweradd = 0
 sprpriority = 2
 
 [State 440, VelMul]
@@ -1572,7 +1572,7 @@ physics = C
 juggle  = 4
 ctrl = 0
 anim = 450
-poweradd = 55
+poweradd = 0
 sprpriority = 2
 
 [State 450, VelMul]
@@ -1645,7 +1645,7 @@ physics = A
 juggle  = 4
 ctrl = 0
 anim = 640
-poweradd = 15
+poweradd = 0
 sprpriority = 2
 
 [State 600, PlaySnd]
@@ -1689,7 +1689,7 @@ physics = A
 juggle  = 4
 ctrl = 0
 anim = 611
-poweradd = 35
+poweradd = 0
 sprpriority = 2
 
 [State 610, PlaySnd]
@@ -1733,7 +1733,7 @@ physics = A
 juggle  = 4
 ctrl = 0
 anim = 620
-poweradd = 55
+poweradd = 0
 sprpriority = 2
 
 [State 620, PlaySnd]
@@ -1784,7 +1784,7 @@ physics = A
 juggle  = 4
 ctrl = 0
 anim = 630
-poweradd = 15
+poweradd = 0
 sprpriority = 2
 
 [State 630, PlaySnd]
@@ -1830,7 +1830,7 @@ physics = A
 juggle  = 4
 ctrl = 0
 anim = 600
-poweradd = 35
+poweradd = 0
 sprpriority = 2
 
 [State 640, PlaySnd]
@@ -1875,7 +1875,7 @@ physics = A
 juggle  = 4
 ctrl = 0
 anim = 650
-poweradd = 55
+poweradd = 0
 sprpriority = 2
 
 [State 650, PlaySnd]
@@ -2016,7 +2016,7 @@ value = 8600,0
 [State 810, PowerAdd]
 type = PowerAdd
 trigger1 = AnimElem = 5
-value = 50
+value = 0
 
 [State 810, TargetLifeAdd]
 type = TargetLifeAdd
@@ -2190,7 +2190,7 @@ trigger1 = AnimElem = 7
 [State 830, PowerAdd]
 type = PowerAdd
 trigger1 = animelem = 5
-value = 50
+value = 0
 persistent = 0
 
 [State 830, ChangeState]

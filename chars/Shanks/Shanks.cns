@@ -542,7 +542,7 @@ trigger1 = animelem = 5
 trigger2 = animelem = 6
 attr = S, NA
 animtype  = high
-getpower = 40,20
+getpower = 10,5
 damage    = 25
 guardflag = MA
 pausetime = 10,12
@@ -577,7 +577,7 @@ trigger1 = animelem = 5
 trigger2 = animelem = 6
 attr = S, NA
 animtype  = high
-getpower = 40,20
+getpower = 10,5
 damage    = 20
 guardflag = MA
 pausetime = 10,12
@@ -734,7 +734,7 @@ trigger1 = animelem = 5
 trigger2 = animelem = 6
 attr = S, NA
 animtype  = Light
-getpower = 40,20
+getpower = 10,5
 damage    = 25
 guardflag = MA
 pausetime = 8,10
@@ -768,7 +768,7 @@ trigger1 = animelem = 5
 trigger2 = animelem = 6
 attr = S, NA
 animtype  = Light
-getpower = 40,20
+getpower = 10,5
 damage    = 20
 guardflag = MA
 pausetime = 8,10
@@ -900,7 +900,7 @@ triggerall = var(14) = 1
 trigger1 = animelem = 3
 attr = C, NA
 animtype  = Light
-getpower = 40,20
+getpower = 30,15
 damage    = 15
 guardflag = L
 pausetime = 8,10
@@ -933,7 +933,7 @@ triggerall = var(14) = 0
 trigger1 = animelem = 3
 attr = C, NA
 animtype  = Medium
-getpower = 40,20
+getpower = 30,15
 damage    = 10
 guardflag = L
 pausetime = 8,10
@@ -1159,7 +1159,7 @@ trigger1 = animelem = 5
 trigger2 = animelem = 6
 attr = S, NA
 animtype  = medium
-getpower = 60,30
+getpower = 30,15
 damage    = 40
 guardflag = MA
 pausetime = 10,12
@@ -1193,7 +1193,7 @@ trigger1 = animelem = 5
 trigger2 = animelem = 6
 attr = S, NA
 animtype  = medium
-getpower = 60,30
+getpower = 30,15
 damage    = 30
 guardflag = MA
 pausetime = 10,12
@@ -1326,7 +1326,7 @@ triggerall = var(14) = 1
 trigger1 = animelem = 6
 attr = S, NA
 animtype  = medium
-getpower = 60,30
+getpower = 30,15
 damage    = 40
 guardflag = MA
 pausetime = 10,12
@@ -1358,7 +1358,7 @@ triggerall = var(14) = 0
 trigger1 = animelem = 6
 attr = S, NA
 animtype  = medium
-getpower = 60,30
+getpower = 30,15
 damage    = 30
 guardflag = MA
 pausetime = 10,12
@@ -1523,7 +1523,7 @@ triggerall = var(14) = 1
 trigger1 = animelem = 6
 attr = S, NA
 animtype  = medium
-getpower = 60,30
+getpower = 30,15
 damage    = 50
 guardflag = MA
 pausetime = 10,12
@@ -1555,7 +1555,7 @@ triggerall = var(14) = 0
 trigger1 = animelem = 6
 attr = S, NA
 animtype  = medium
-getpower = 60,30
+getpower = 30,15
 damage    = 30
 guardflag = MA
 pausetime = 10,12
@@ -1871,7 +1871,7 @@ trigger2 = animelem = 5
 trigger3 = animelem = 6
 attr = S, NA
 animtype  = medium
-getpower = 80,40
+getpower = 10,5
 damage    = 40
 guardflag = MA
 pausetime = 12,12
@@ -2416,7 +2416,7 @@ trigger1 = animelem = 3
 trigger2 = animelem = 4
 attr = S, NA
 animtype  = high
-getpower = 40,20
+getpower = 30,15
 damage    = 20
 guardflag = MA
 pausetime = 10,12
@@ -2448,7 +2448,7 @@ trigger1 = animelem = 3
 trigger2 = animelem = 4
 attr = S, NA
 animtype  = high
-getpower = 40,20
+getpower = 30,15
 damage    = 20
 guardflag = MA
 pausetime = 10,12
@@ -2555,7 +2555,7 @@ trigger1 = animelem = 3
 trigger2 = animelem = 4
 attr = S, NA
 animtype  = medium
-getpower = 60,30
+getpower = 30,15
 damage    = 30
 guardflag = MA
 pausetime = 10,12
@@ -2588,7 +2588,7 @@ trigger1 = animelem = 3
 trigger2 = animelem = 4
 attr = S, NA
 animtype  = medium
-getpower = 60,30
+getpower = 30,15
 damage    = 30
 guardflag = MA
 pausetime = 10,12
@@ -2691,7 +2691,7 @@ triggerall = var(14) = 1
 trigger1 = animelem = 3
 attr = S, NA
 animtype  = Light
-getpower = 40,20
+getpower = 30,15
 damage    = 20
 guardflag = MA
 pausetime = 8,10
@@ -2723,7 +2723,7 @@ triggerall = var(14) = 0
 trigger1 = animelem = 3
 attr = S, NA
 animtype  = Light
-getpower = 40,20
+getpower = 30,15
 damage    = 20
 guardflag = MA
 pausetime = 8,10
@@ -2858,7 +2858,7 @@ triggerall = var(14) = 1
 trigger1 = animelem = 5
 attr = S, NA
 animtype  = medium
-getpower = 60,30
+getpower = 30,15
 damage    = 30
 guardflag = MA
 pausetime = 10,12
@@ -2892,7 +2892,7 @@ triggerall = var(14) = 0
 trigger1 = animelem = 5
 attr = S, NA
 animtype  = medium
-getpower = 60,30
+getpower = 30,15
 damage    = 30
 guardflag = MA
 pausetime = 10,12
@@ -3173,7 +3173,7 @@ trigger2 = animelem = 4
 trigger3 = animelem = 5
 attr = S, NA
 animtype  = medium
-getpower = 80,40
+getpower = 30,15
 damage    = 40
 guardflag = MA
 pausetime = 12,12
@@ -4704,7 +4704,7 @@ triggerall = p2movetype != H
 Trigger1 = Time = 0
 attr = S, NT
 hitflag = M-
-getpower = 0,0
+getpower = 60,30
 pausetime = 0,0
 sparkno = -1
 guard.dist = 0
@@ -7023,6 +7023,7 @@ trigger1 = animelem = 3
 attr = S, HA
 animtype  = medium
 damage    = 0,0
+getpower = 60,30
 guardflag = MA
 pausetime = 12,12
 sparkno = -1
@@ -7186,6 +7187,7 @@ trigger1 = animelem = 3
 attr = S, HA
 animtype  = medium
 damage    = 0,0
+getpower = 60,30
 guardflag = MA
 pausetime = 12,12
 sparkno = -1

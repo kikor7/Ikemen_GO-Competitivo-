@@ -1561,7 +1561,7 @@ type    = S
 movetype= A
 physics = N
 anim = 517
-poweradd = 56
+poweradd = 0
 
 [State 518, Holding fwd?]
 type = VarSet
@@ -1694,7 +1694,7 @@ type    = S
 movetype= A
 physics = N
 anim = 810
-poweradd = 56
+poweradd = 0
 
 [State 810, Holding fwd?]
 type = VarSet
@@ -1863,7 +1863,7 @@ type    = A
 movetype= A
 physics = N
 anim = 850
-poweradd = 56
+poweradd = 0
 
 [State 850, Holding fwd?]
 type = VarSet

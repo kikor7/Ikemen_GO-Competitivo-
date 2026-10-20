@@ -1,0 +1,20 @@
+<#f0f000>:Special Moves:</>
+Reversal 2			_QCB^Y
+Reversal			_QCB^X
+Combo 2			_QCB^B
+Combo 1			_QCB^A
+Zenpu Kyaku 2			_QCF^B
+Zenpu Kyaku 1			_QCF^A
+poder 2			_QCF^Y
+poder 1			_QCF^X
+CD			^Y_+^B
+
+<#f0f000>:Hyper Moves:</>
+dragon's fist dawn <#f00000>(2000)</>			_F_HCF^C
+Incarnation devil <#f00000>(3000)</>			_QCF_DF_D_B^C
+Destructive fist <#f00000>(1000)</>			_QCF_QCF^X
+Materializes Lightning <#f00000>(3000)</>			_QCB_D_F^C
+Hyper Destructive fist <#f00000>(2000)</>			_QCF_QCF^C
+Destructive fist <#f00000>(1000)</>			_QCF_QCF^A
+Buster <#f00000>(2000)</>			_QCB_QCB^C
+Throw <#f00000>(1000)</>			^Y_+^B

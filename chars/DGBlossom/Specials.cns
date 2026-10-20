@@ -21,7 +21,7 @@ type    = A
 MoveType = A
 physics = N
 anim = 1001
-poweradd = 100
+poweradd = 0
 ctrl = 0
 
 [State 1010]
@@ -54,6 +54,7 @@ triggerall = Facing = 1
 trigger1 = Time = 0
 attr = S, SA
 damage    = 60,9
+getpower = 30,15
 priority = 4, miss
 guardflag = MA
 pausetime = 8,8
@@ -82,6 +83,7 @@ triggerall = Facing = -1
 trigger1 = Time = 0
 attr = S, SA
 damage    = 60,9
+getpower = 30,15
 guardflag = MA
 pausetime = 12,12
 sparkno = S10100+(random%3)
@@ -116,7 +118,7 @@ ctrl = 0
 type    = S
 MoveType = I
 physics = N
-poweradd = 100
+poweradd = 0
 anim = 101
 ctrl = 0
 
@@ -174,6 +176,7 @@ triggerall = Facing = 1
 trigger1 = Time = 0
 attr = S, SA
 damage    = 100,20
+getpower = 30,15
 guardflag = MA
 pausetime = 8,8
 priority = 4, miss
@@ -202,6 +205,7 @@ triggerall = Facing = -1
 trigger1 = Time = 0
 attr = S, SA
 damage    = 100,20
+getpower = 30,15
 guardflag = MA
 pausetime = 12,12
 sparkno = S10100+(random%3)
@@ -237,7 +241,7 @@ type    = S
 MoveType = I
 physics = S
 anim = 101
-poweradd = 100
+poweradd = 0
 velset = 0,0
 ctrl = 0
 
@@ -275,6 +279,7 @@ triggerall = Facing = 1
 trigger1 = Time = 0
 attr = A, SA
 damage    = 60,25
+getpower = 30,15
 guardflag = M
 priority = 4, miss
 pausetime = 8,8
@@ -303,6 +308,7 @@ triggerall = Facing = -1
 trigger1 = Time = 0
 attr = A, SA
 damage    = 60,25
+getpower = 30,15
 guardflag = M
 pausetime = 12,12
 sparkno = S10100+(random%3)
@@ -339,7 +345,7 @@ physics = S
 anim = 6010
 velset = 0
 ctrl = 0
-poweradd= 40
+poweradd= 20
 
 [State 1000, 1]
 type = Helper
@@ -437,7 +443,7 @@ physics = N
 anim = 60101
 velset = 0,0
 ctrl = 0
-poweradd= 40
+poweradd= 20
 
 [State 1000, 1]
 type = Helper
@@ -545,7 +551,7 @@ physics = N
 anim = 60101
 velset = 0,0
 ctrl = 0
-poweradd= 40
+poweradd= 20
 
 [State 1000, 1]
 type = Helper
@@ -1429,7 +1435,7 @@ physics = N
 anim = 6013
 velset = 0,-8
 ctrl = 0
-poweradd= 40
+poweradd= 20
 
 [State 1000, 0.1]
 type = Posset
@@ -1734,7 +1740,7 @@ value = 52
 type    = S
 MoveType = I
 physics = S
-poweradd = 100
+poweradd = 0
 anim = 101
 velset = 0,0
 ctrl = 0
@@ -1781,6 +1787,7 @@ triggerall = Facing = 1
 trigger1 = Time = 0
 attr = A, SA
 damage    = 130,70
+getpower = 30,15
 guardflag = M
 priority = 4, miss
 pausetime = 8,8
@@ -1810,6 +1817,7 @@ triggerall = Facing = -1
 trigger1 = Time = 0
 attr = A, SA
 damage    = 130,70
+getpower = 30,15
 guardflag = M
 pausetime = 8,8
 priority = 4, hit
@@ -1847,7 +1855,7 @@ value = 52
 type    = A
 movetype= A
 physics = S
-poweradd = 100
+poweradd = 20
 juggle  = 0
 velset = 0
 anim = 1010
@@ -1878,6 +1886,7 @@ velocity = 0.001,0.001
 offset = 18,-27
 attr = S, SP
 damage   = 32,4
+getpower = 30,15
 animtype = Medium
 guardflag = MA
 hitflag = MAFDP
@@ -1917,6 +1926,7 @@ velocity = 0.001,0.001
 offset = 5,-32
 attr = S, SP
 damage   = 32,4
+getpower = 30,15
 priority = 4, hit
 animtype = Medium
 guardflag = MA
@@ -3005,7 +3015,7 @@ x = -1
 type = Hitdef
 trigger1 = !movecontact
 damage = 78,35
-getpower = 200,100
+getpower = 30,15
 givepower = 0,0
 pausetime = 0,0
 attr = A,NA
@@ -3059,7 +3069,7 @@ type    = C
 movetype= A
 physics = C
 juggle  = 15
-poweradd= 85
+poweradd= 0
 ctrl = 0
 anim = 272
 sprpriority = 2
@@ -3098,6 +3108,7 @@ trigger1 = !time
 trigger1 = !MoveGuarded
 attr = C, NA
 damage    = 82,41
+getpower = 30,15
 animtype  = Hard
 priority = 4
 guardflag = M
@@ -3425,7 +3436,7 @@ hitflag = MA
 guardflag = M
 priority = 3,Miss
 damage = 0 ,0
-getpower = 0
+getpower = 60,30
 givepower = 36
 sparkxy = 0,-25
 sparkno = S10100+(random%3)
@@ -4146,7 +4157,7 @@ type    = A
 movetype= A
 physics = N
 juggle  = 4
-poweradd= 110
+poweradd= 20
 velset = 0,-8
 sprpriority = 1
 anim = 6000
@@ -4791,7 +4802,7 @@ type    = U
 movetype = A
 physics = N
 ctrl = 0
-poweradd = 65
+poweradd = 0
 velset = 0,0
 anim = 651
 sprpriority = 1
@@ -4860,7 +4871,7 @@ type    = U
 movetype = A
 physics = N
 ctrl = 0
-poweradd = 65
+poweradd = 0
 anim = 631
 velset = 0,0
 sprpriority = 1

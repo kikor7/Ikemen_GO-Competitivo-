@@ -4151,7 +4151,7 @@ hitflag = MAFD
 pausetime = 0,6
 guard.pausetime = 0,6
 ;--------------------------------------------
-getpower = 0,0
+getpower = 60,30
 givepower = 0,0
 ;--------------------------------------------
 guard.sparkno = S1

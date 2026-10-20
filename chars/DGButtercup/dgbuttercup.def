@@ -12,6 +12,7 @@ author = "DoomGuy II"
 pal.defaults = 1
 
 [Files]
+movelist = movelist.dat
 sprite = DGButtercup.sff
 anim = DGButtercup.air
 sound = DGButtercup.snd

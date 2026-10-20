@@ -10,6 +10,7 @@ author = "otz-kai"
 pal.defaults = 4,1,10,7
 
 [Files]
+movelist = movelist.dat
 cns	= const.c
 cmd	= -1.c
 st	= -2.c

@@ -30,7 +30,7 @@ animtype = Light
 guardflag = M
 hitflag = MA
 priority = 3, Hit
-getpower  = IfElse(var(10)<=0&&var(11)<=0,30,0)
+getpower = 30,15
 givepower = 20
 pausetime = 10,10
 sparkno = s6000
@@ -81,7 +81,7 @@ type = HitDef
 trigger1 = time = 0
 attr = S,NA
 damage = 18,0
-getpower  = IfElse(var(10)<=0&&var(11)<=0,30,0)
+getpower = 30,15
 givepower = 20
 animtype  = Light
 air.animtype = back
@@ -139,7 +139,7 @@ type = HitDef
 trigger1 = time = 0
 attr = S,NA
 damage = 65,0
-getpower  = IfElse(var(10)<=0&&var(11)<=0,40,0)
+getpower = 30,15
 givepower = 20
 animtype  = Hard
 air.animtype = back
@@ -175,7 +175,7 @@ movetype= A
 physics = S
 juggle  = 0
 velset = 0,0  
-poweradd = 20
+poweradd = 0
 ctrl = 0
 anim = 215
 sprpriority = 2
@@ -197,7 +197,7 @@ type = HitDef
 trigger1 = time=0
 attr = S,NA
 damage = 60,0
-getpower  = IfElse(var(10)<=0&&var(11)<=0,40,0)
+getpower = 30,15
 givepower = 20
 animtype  = Hard
 air.animtype = back
@@ -255,7 +255,7 @@ type = HitDef
 trigger1 = time=0
 attr = S,NA
 damage    = 28,0
-getpower  = IfElse(var(10)<=0&&var(11)<=0,30,0)
+getpower = 30,15
 givepower = 20
 animtype  = Light
 air.animtype = back
@@ -305,7 +305,7 @@ type = HitDef
 trigger1 = time=0
 attr = S,NA
 damage = 26,0
-getpower  = IfElse(var(10)<=0&&var(11)<=0,30,0)
+getpower = 30,15
 givepower = 20
 animtype  = Light
 air.animtype = back
@@ -371,7 +371,7 @@ type = HitDef
 trigger1 = time = 0
 attr = S,NA
 damage = 115,0
-getpower  = IfElse(var(10)<=0&&var(11)<=0,40,0)
+getpower = 30,15
 givepower = 20
 animtype  = Hard
 air.animtype = back
@@ -428,7 +428,7 @@ type = HitDef
 trigger1 = time = 0
 attr = S,NA
 damage = 55,0
-getpower  = IfElse(var(10)<=0&&var(11)<=0,40,0)
+getpower = 30,15
 givepower = 20
 animtype  = Hard
 air.animtype = back
@@ -490,7 +490,7 @@ type = HitDef
 trigger1 = time=0
 attr = S,NA
 damage    = 110,0
-getpower  = IfElse(var(10)<=0&&var(11)<=0,40,0)
+getpower = 60,30
 getpower  = 30
 animtype  = Hard
 air.animtype = back
@@ -659,7 +659,7 @@ type = HitDef
 trigger1 = time=0
 attr = C,NA
 damage    = 16,0
-getpower  = IfElse(var(10)<=0&&var(11)<=0,30,0)
+getpower = 30,15
 givepower = 20
 animtype  = Light
 air.animtype = back
@@ -715,7 +715,7 @@ type = HitDef
 trigger1 = time=0
 attr = C,NA
 damage = 55,0
-getpower  = IfElse(var(10)<=0&&var(11)<=0,40,0)
+getpower = 30,15
 givepower = 20
 animtype  = Hard
 air.animtype = back
@@ -772,7 +772,7 @@ type = HitDef
 trigger1 = time=0
 attr = C,NA
 damage    = 23,0
-getpower  = IfElse(var(10)<=0&&var(11)<=0,30,0)
+getpower = 30,15
 givepower = 20
 animtype  = Medium
 hitflag = MA
@@ -828,7 +828,7 @@ type = HitDef
 trigger1 = time=0
 attr = C,NA
 damage    = 75,0
-getpower  = IfElse(var(10)<=0&&var(11)<=0,40,0)
+getpower = 30,15
 givepower = 20
 animtype  = Hard
 air.animtype = back
@@ -890,7 +890,7 @@ type = HitDef
 trigger1 = time = 0
 attr = A,NA
 damage    = 35,0
-getpower  = IfElse(var(10)<=0&&var(11)<=0,30,0)
+getpower = 30,15
 givepower = 20
 animtype  = Light
 air.animtype = back
@@ -948,7 +948,7 @@ type = HitDef
 trigger1 = time=0
 attr = A,NA
 damage = 65,0
-getpower  = IfElse(var(10)<=0&&var(11)<=0,40,0)
+getpower = 30,15
 givepower = 20
 animtype  = Medium
 air.animtype = back
@@ -1001,7 +1001,7 @@ type = HitDef
 trigger1 = time = 0
 attr = A,NA
 damage    = 40,0
-getpower  = IfElse(var(10)<=0&&var(11)<=0,30,0)
+getpower = 30,15
 givepower = 20
 animtype  = Light
 air.animtype = back
@@ -1059,7 +1059,7 @@ type = HitDef
 trigger1 = time=0
 attr = A,NA
 damage = 68,0
-getpower  = IfElse(var(10)<=0&&var(11)<=0,40,0)
+getpower = 30,15
 givepower = 20
 animtype  = Medium
 air.animtype = back
@@ -1112,7 +1112,7 @@ type = HitDef
 trigger1 = time=0
 attr = A,NA
 damage    = 115, 0
-getpower  = IfElse(var(10)<=0&&var(11)<=0,40,0)
+getpower = 60,30
 getpower  = 30
 animtype  = Hard
 air.animtype = back
@@ -1168,7 +1168,7 @@ type = HitDef
 trigger1 = time=0
 attr = S,NA
 damage    = 60,0
-getpower  = IfElse(var(10)<=0&&var(11)<=0,30,0)
+getpower = 30,15
 givepower = 20
 animtype  = Hard
 air.animtype = back
@@ -1233,7 +1233,7 @@ type = HitDef
 trigger1 = AnimElem = 1
 attr = S,NA
 damage    = 60,0
-getpower  = IfElse(var(10)<=0&&var(11)<=0,30,0)
+getpower = 30,15
 givepower = 20
 animtype  = Hard
 air.animtype = back
@@ -1293,7 +1293,7 @@ type = HitDef
 trigger1 = AnimElem=2
 attr = A,NA
 damage    = 72,0
-getpower  = IfElse(var(10)<=0&&var(11)<=0,10,0)
+getpower = 30,15
 givepower = 10
 animtype  = Hard
 air.animtype = back
@@ -1365,7 +1365,7 @@ type = HitDef
 trigger1 = AnimElem = 7
 attr = C,NA
 damage    = 48,0
-getpower  = IfElse(var(10)<=0&&var(11)<=0,30,0)
+getpower = 15,7
 givepower = 20
 animtype  = Hard
 air.animtype = back
@@ -1397,7 +1397,7 @@ type = HitDef
 trigger1 = AnimElem = 12
 attr = C,NA
 damage    = 48,0
-getpower  = IfElse(var(10)<=0&&var(11)<=0,30,0)
+getpower = 15,7
 givepower = 20
 animtype  = Hard
 air.animtype = back
@@ -1442,6 +1442,7 @@ sprpriority = 2
 
 [State 800, ヒット定義（投げ用）]
 type = HitDef
+getpower = 60,30
 trigger1 = Time = 0
 trigger1 = Enemy,StateNo !=[150,159]
 attr = S, NT

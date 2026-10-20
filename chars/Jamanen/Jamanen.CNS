@@ -370,7 +370,7 @@ juggle  = 5
 velset = 0,0
 ctrl = 0
 anim = 200
-poweradd = 100
+poweradd = 0
 sprpriority = 2
 
 [State 200, PlaySnd]
@@ -468,7 +468,7 @@ juggle  = 5
 velset = 0,0
 ctrl = 0
 anim = 220
-poweradd = 100
+poweradd = 0
 sprpriority = 2
 
 [State 200, PlaySnd]
@@ -517,7 +517,7 @@ juggle  = 5
 velset = 0,0
 ctrl = 0
 anim = 230
-poweradd = 150
+poweradd = 0
 sprpriority = 2
 
 [State 230, PlaySnd]
@@ -566,7 +566,7 @@ juggle  = 7
 velset = 0,0
 ctrl = 0
 anim = 400
-poweradd = 100
+poweradd = 0
 sprpriority = 2
 
 [State 400,veladd]
@@ -620,7 +620,7 @@ juggle  = 7
 velset = 0,0
 ctrl = 0
 anim = 410
-poweradd = 150
+poweradd = 0
 sprpriority = 2
 
 [State 410,veladd]
@@ -697,7 +697,7 @@ juggle  = 7
 velset = 0,0
 ctrl = 0
 anim = 420
-poweradd = 100
+poweradd = 0
 sprpriority = 2
 
 [State 420, PlaySnd]
@@ -746,7 +746,7 @@ juggle  = 7
 velset = 0,0
 ctrl = 0
 anim = 430
-poweradd = 100
+poweradd = 0
 sprpriority = 2
 
 [State 430, PlaySnd]
@@ -800,7 +800,7 @@ physics = A
 juggle  = 7
 ctrl = 0
 anim = 600
-poweradd = 100
+poweradd = 0
 sprpriority = 2
 
 [State 600, PlaySnd]
@@ -843,7 +843,7 @@ physics = A
 juggle  = 7
 ctrl = 0
 anim = 610
-poweradd = 150
+poweradd = 0
 sprpriority = 2
 
 [State 610, PlaySnd]
@@ -886,7 +886,7 @@ physics = A
 juggle  = 7
 ctrl = 0
 anim = 620
-poweradd = 100
+poweradd = 0
 sprpriority = 2
 
 [State 620, PlaySnd]
@@ -929,7 +929,7 @@ physics = A
 juggle  = 7
 ctrl = 0
 anim = 630
-poweradd = 200
+poweradd = 0
 sprpriority = 2
 
 [State 630, PlaySnd]
@@ -1019,7 +1019,7 @@ type = S
 movetype= A
 physics = N
 anim = 801
-poweradd = 60
+poweradd = 0
 
 [State 810, SprPriority]
 type = SprPriority
@@ -1137,7 +1137,7 @@ MoveType = A
 Physics = S
 anim = 1000
 sprpriority = 2
-poweradd = 100
+poweradd = 0
 velset = 0,0
 ctrl = 0
 juggle = 7
@@ -1193,7 +1193,7 @@ MoveType = A
 Physics = S
 anim = 1000
 sprpriority = 2
-poweradd = 100
+poweradd = 0
 velset = 0,0
 ctrl = 0
 juggle = 7
@@ -1252,7 +1252,7 @@ MoveType = A
 Physics = S
 anim = 1010
 sprpriority = 2
-poweradd = 100
+poweradd = 20
 velset = 0,0
 ctrl = 0
 juggle = 7
@@ -1319,7 +1319,7 @@ MoveType = A
 Physics = S
 anim = 1010
 sprpriority = 2
-poweradd = 100
+poweradd = 20
 velset = 0,0
 ctrl = 0
 juggle = 7
@@ -1633,7 +1633,7 @@ type    = S
 movetype= A
 physics = S
 juggle  = 4
-poweradd= 150
+poweradd= 0
 velset = 0,0
 anim = 1030
 ctrl = 0
@@ -1658,7 +1658,7 @@ type    = S
 movetype= A
 physics = S
 juggle  = 4
-poweradd= 150
+poweradd= 0
 velset = 0,0
 anim = 1030
 ctrl = 0
@@ -1750,7 +1750,7 @@ physics = N
 anim = 1050
 ctrl = 0
 velset = 0,0
-poweradd = 100
+poweradd = 0
 juggle = 8+(P2StateType = A)*8
 
 [State 1050, PlaySnd]
@@ -1911,7 +1911,7 @@ type    = S
 movetype= A
 physics = S
 juggle  = 4
-poweradd= 150
+poweradd= 20
 velset = 0,0
 anim = 1067
 ctrl = 0
@@ -2171,7 +2171,7 @@ type    = S
 movetype= A
 physics = S
 juggle  = 4
-poweradd= 10
+poweradd= 0
 velset = 0,0
 anim = 1062
 ctrl = 0
@@ -2951,7 +2951,7 @@ type    = S
 movetype= A
 physics = S
 juggle  = 4
-poweradd= 100
+poweradd= 0
 velset = 0,0
 anim = 3153
 ctrl = 0

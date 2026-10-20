@@ -7,6 +7,7 @@ author="Andrew55"
 pal.defaults=1
 
 [Files]
+movelist = movelist.dat
 sprite=Sonic.sff
 sound=Sonic.snd
 anim=Sonic.air

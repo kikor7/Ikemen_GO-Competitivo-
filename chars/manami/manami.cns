@@ -254,7 +254,7 @@ juggle  = 1                      ;Number of air juggle points move takes
 velset = 0,0                     ;キャラクターの移動状況
 ctrl = 0                         ;コントロール不能か否か
 anim = 200                       ;呼び出すアニメ番号
-poweradd = 20                    ;パワーの増加値
+poweradd = 0                    ;パワーの増加値
 
 [State 200 , 1]
 type = HitDef
@@ -262,7 +262,7 @@ trigger1 = AnimElem = 2          ;２枚目から以下の設定を有効に
 attr = S, NA                     ;攻撃の種類, 属性　[S/C/A], [N/S/H][A/T/P] 
 damage    = 30                   ;与えるダメージ, ガード時のダメージ 
 animtype = Light                 ;攻撃の強さ　[Light/Medium/Hard/Back] 
-getpower = 40,25                 ;自分のパワー増分, ガード時のパワー増分 
+getpower = 30,15;自分のパワー増分, ガード時のパワー増分 
 givepower = 15,8                 ;相手のパワー増分, ガード時のパワー増分 
 guardflag = M                   ;ガード可能な状態の指定　[H/L/A/M(HL)/MA] 
 hitflag = MAF                    ;Flags of conditions that move can hit
@@ -342,7 +342,7 @@ juggle  = 1
 velset = 3,0
 ctrl = 0
 anim = 200
-poweradd = 20
+poweradd = 0
 
 [State 212 , 1]
 type = HitDef
@@ -350,7 +350,7 @@ trigger1 = AnimElem = 2
 attr = S, NA
 damage    = 30
 animtype = Light
-getpower = 40,25
+getpower = 30,15
 givepower = 15,8
 guardflag = M
 hitflag = MAF
@@ -429,7 +429,7 @@ juggle  = 1
 velset = 0,0
 ctrl = 0
 anim = 201
-poweradd = 20
+poweradd = 0
 
 [State 201 , 1]
 type = PlaySnd
@@ -442,7 +442,7 @@ trigger1 = AnimElem = 2
 attr = S, NA
 damage    = 30
 animtype = Light
-getpower = 40,25
+getpower = 30,15
 givepower = 15,8
 guardflag = M
 hitflag = MAF
@@ -514,7 +514,7 @@ juggle  = 1
 velset = 0,0
 ctrl = 0
 anim = 204
-poweradd = 20
+poweradd = 0
 
 [State 204 , 1]
 type = HitDef
@@ -522,7 +522,7 @@ trigger1 = AnimElem = 2
 attr = S, NA
 damage    = 45
 animtype = Light
-getpower = 60,25
+getpower = 60,30
 givepower = 15,8
 guardflag = H
 hitflag = MAF
@@ -598,7 +598,7 @@ juggle  = 1
 velset = 4,0
 ctrl = 0
 anim = 207
-poweradd = 30
+poweradd = 0
 
 [State 207 , 1]
 type = HitDef
@@ -606,7 +606,7 @@ trigger1 = AnimElem = 2
 attr = S, NA
 damage    = 60
 animtype = Hard
-getpower = 60,35
+getpower = 30,15
 givepower = 20,10
 guardflag = M
 hitflag = MAF
@@ -686,7 +686,7 @@ juggle  = 1
 velset = 0,0
 ctrl = 0
 anim = 208
-poweradd = 30
+poweradd = 0
 
 [State 208 , 1]
 type = HitDef
@@ -694,7 +694,7 @@ trigger1 = AnimElem = 2
 attr = S, NA
 damage    = 64
 animtype = Hard
-getpower = 60,35
+getpower = 30,15
 givepower = 20,10
 guardflag = M
 hitflag = MAF
@@ -773,7 +773,7 @@ juggle  = 1
 velset = 1,0
 ctrl = 0
 anim = 213
-poweradd = 30
+poweradd = 0
 
 [State 213 , 1]
 type = HitDef
@@ -781,7 +781,7 @@ trigger1 = AnimElem = 2
 attr = S, NA
 damage    = 64
 animtype = Hard
-getpower = 60,35
+getpower = 30,15
 givepower = 20,10
 guardflag = M
 hitflag = MAF
@@ -861,7 +861,7 @@ juggle  = 1
 velset = 5,0
 ctrl = 0
 anim = 209
-poweradd = 30
+poweradd = 0
 
 [State 209 , 1]
 type = HitDef
@@ -869,7 +869,7 @@ trigger1 = AnimElem = 2
 attr = S, NA
 damage    = 75
 animtype = Hard
-getpower = 80,35
+getpower = 60,30
 givepower = 20,10
 guardflag = H
 hitflag = MAF
@@ -929,7 +929,7 @@ type    = C
 movetype= A
 physics = C
 juggle  = 6
-poweradd= 15
+poweradd= 0
 ctrl = 0
 anim = 202
 
@@ -944,7 +944,7 @@ trigger1 = Time = 2
 attr = C, NA
 damage    = 30
 animtype  = Light
-getpower  = 30,20
+getpower = 30,15
 givepower = 8
 hitflag = MAFD
 guardflag = L
@@ -1014,7 +1014,7 @@ type    = C
 movetype= A
 physics = C
 juggle  = 6
-poweradd= 15
+poweradd= 0
 ctrl = 0
 anim = 203
 
@@ -1029,7 +1029,7 @@ trigger1 = Time = 2
 attr = C, NA
 damage    = 30
 animtype  = Light
-getpower  = 30,20
+getpower = 30,15
 givepower = 8
 hitflag = MAFD
 guardflag = L
@@ -1098,7 +1098,7 @@ type    = C
 movetype= A
 physics = C
 juggle  = 6
-poweradd= 30
+poweradd= 0
 ctrl = 0
 anim = 210
 
@@ -1113,7 +1113,7 @@ trigger1 = Time = 2
 attr = C, NA
 damage    = 60
 animtype  = Hard 
-getpower  = 50
+getpower = 30,15
 givepower = 30
 hitflag = MAFD
 guardflag = L
@@ -1167,7 +1167,7 @@ type    = C
 movetype= A
 physics = C
 juggle  = 6
-poweradd= 30
+poweradd= 0
 ctrl = 0
 anim = 211
 
@@ -1182,7 +1182,7 @@ trigger1 = Time = 2
 attr = C, NA
 damage    = 60
 animtype  = Hard 
-getpower  = 50
+getpower = 30,15
 givepower = 30
 hitflag = MAFD
 guardflag = L
@@ -1253,7 +1253,7 @@ physics = A
 juggle  = 1
 ctrl = 0
 anim = 600
-poweradd = 20
+poweradd = 0
 
 [State 600 , 1]
 type = HitDef
@@ -1261,7 +1261,7 @@ trigger1 = AnimElem = 2
 attr = A, NA
 damage    = 30
 animtype = Light
-getpower = 40,25
+getpower = 30,15
 givepower = 15,8
 guardflag = HA
 hitflag = MAF
@@ -1326,7 +1326,7 @@ physics = A
 juggle  = 1
 ctrl = 0
 anim = 601
-poweradd = 20
+poweradd = 0
 
 [State 601 , 1]
 type = HitDef
@@ -1334,7 +1334,7 @@ trigger1 = AnimElem = 2
 attr = A, NA
 damage    = 30
 animtype = Light
-getpower = 40,25
+getpower = 30,15
 givepower = 15,8
 guardflag = HA
 hitflag = MAF
@@ -1394,7 +1394,7 @@ physics = A
 juggle  = 1
 ctrl = 0
 anim = 602
-poweradd = 20
+poweradd = 0
 
 [State 602 , 1]
 type = HitDef
@@ -1402,7 +1402,7 @@ trigger1 = AnimElem = 2
 attr = A, NA
 damage    = 50
 animtype = Hard
-getpower = 60,35
+getpower = 30,15
 givepower = 15,8
 guardflag = HA
 hitflag = MAF
@@ -1461,7 +1461,7 @@ physics = A
 juggle  = 1
 ctrl = 0
 anim = 603
-poweradd = 20
+poweradd = 0
 
 [State 603 , 1]
 type = HitDef
@@ -1469,7 +1469,7 @@ trigger1 = AnimElem = 2
 attr = A, NA
 damage    = 50
 animtype = Hard
-getpower = 60,35
+getpower = 30,15
 givepower = 15,8
 guardflag = HA
 hitflag = MAF
@@ -1527,7 +1527,7 @@ physics = A
 juggle  = 1
 ctrl = 0
 anim = 602
-poweradd = 20
+poweradd = 0
 
 [State 604 , 1]
 type = HitDef
@@ -1535,7 +1535,7 @@ trigger1 = AnimElem = 2
 attr = A, NA
 damage    = 50
 animtype = Hard
-getpower = 100,35
+getpower = 30,15
 givepower = 15,8
 guardflag = HA
 hitflag = MAF
@@ -1598,7 +1598,7 @@ physics = A
 juggle  = 1
 ctrl = 0
 anim = 605
-poweradd = 60
+poweradd = 0
 
 [State 605 , 1]
 type = HitDef
@@ -1606,7 +1606,7 @@ trigger1 = AnimElem = 2
 attr = A, NA
 damage    = 50
 animtype = Hard
-getpower = 200,15
+getpower = 30,15
 givepower = 15,8
 guardflag = HA
 hitflag = MAF

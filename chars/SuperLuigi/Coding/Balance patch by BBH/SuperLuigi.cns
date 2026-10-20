@@ -1128,7 +1128,7 @@ type    = S
 movetype= A
 physics = S
 juggle  = 1
-poweradd = 20
+poweradd = 0
 velset = 0,0
 ctrl = 0
 anim = 200
@@ -1200,7 +1200,7 @@ juggle  = 1                      ;Number of air juggle points move takes
 velset = 0,0                     ;Set velocity (x,y) (Def: no change)
 ctrl = 0                         ;Set ctrl (Def: no change)
 anim = 210                       ;Change animation (Def: no change)
-poweradd = 40                    ;Power to add (Def: 0)
+poweradd = 0                    ;Power to add (Def: 0)
 sprpriority = 2                  ;Set layering priority to 2 (in front)
 
 [State 210, 0]
@@ -1278,7 +1278,7 @@ juggle  = 1                      ;Number of air juggle points move takes
 velset = 0,0                     ;Set velocity (x,y) (Def: no change)
 ctrl = 0                         ;Set ctrl (Def: no change)
 anim = 220                       ;Change animation (Def: no change)
-poweradd = 65                    ;Power to add (Def: 0)
+poweradd = 0                    ;Power to add (Def: 0)
 sprpriority = 2                  ;Set layering priority to 2 (in front)
 
 [State 220, 0]
@@ -1357,7 +1357,7 @@ juggle  = 7
 velset = 0,0                     
 ctrl = 0                         
 anim = 220                       
-poweradd = 80;65                    
+poweradd = 0;65                    
 sprpriority = 2                  
 
 [State 221, 0]
@@ -1588,7 +1588,7 @@ type    = S
 movetype= A
 physics = S
 juggle  = 1
-poweradd= 20
+poweradd= 0
 velset = 0,0
 ctrl = 0
 anim = 230
@@ -1666,7 +1666,7 @@ juggle  = 1                      ;Number of air juggle points move takes
 velset = 0,0                     ;Set velocity (x,y) (Def: no change)
 ctrl = 0                         ;Set ctrl (Def: no change)
 anim = 240                       ;Change animation (Def: no change)
-poweradd = 40                    ;Power to add (Def: 0)
+poweradd = 0                    ;Power to add (Def: 0)
 sprpriority = 2                  ;Set layering priority to 2 (in front)
 
 [State 240, 0]
@@ -1752,7 +1752,7 @@ juggle  = 1                      ;Number of air juggle points move takes
 velset = 0,0                     ;Set velocity (x,y) (Def: no change)
 ctrl = 0                         ;Set ctrl (Def: no change)
 anim = 250                       ;Change animation (Def: no change)
-poweradd = 65                    ;Power to add (Def: 0)
+poweradd = 0                    ;Power to add (Def: 0)
 sprpriority = 2                  ;Set layering priority to 2 (in front)
 
 [State 250, 0]
@@ -1834,7 +1834,7 @@ type    = C
 movetype= A
 physics = C
 juggle  = 5
-poweradd= 20
+poweradd= 0
 ctrl = 0
 anim = 400
 sprpriority = 2
@@ -1913,7 +1913,7 @@ juggle  = 7                      ;Number of air juggle points move takes
 velset = 0,0                     ;Set velocity (x,y) (Def: no change)
 ctrl = 0                         ;Set ctrl (Def: no change)
 anim = 410                       ;Change animation (Def: no change)
-poweradd = 40                    ;Power to add (Def: 0)
+poweradd = 0                    ;Power to add (Def: 0)
 sprpriority = 2                  ;Set layering priority to 2 (in front)
 
 [State 410, 0]
@@ -1993,7 +1993,7 @@ type    = C
 movetype= A
 physics = C
 juggle  = 1
-poweradd= 65
+poweradd= 0
 ctrl = 0
 anim = 420
 
@@ -2079,7 +2079,7 @@ type    = C
 movetype= A
 physics = C
 juggle  = 15
-poweradd= 20
+poweradd= 0
 ctrl = 0
 anim = 430
 sprpriority = 2
@@ -2162,7 +2162,7 @@ juggle  = 7                      ;Number of air juggle points move takes
 velset = 0,0                     ;Set velocity (x,y) (Def: no change)
 ctrl = 0                         ;Set ctrl (Def: no change)
 anim = 440                       ;Change animation (Def: no change)
-poweradd = 40                    ;Power to add (Def: 0)
+poweradd = 0                    ;Power to add (Def: 0)
 sprpriority = 2                  ;Set layering priority to 2 (in front)
 
 [State 440, 0]
@@ -2248,7 +2248,7 @@ juggle  = 1                      ;Number of air juggle points move takes
 velset = 0,0                     ;Set velocity (x,y) (Def: no change)
 ctrl = 0                         ;Set ctrl (Def: no change)
 anim = 450                       ;Change animation (Def: no change)
-poweradd = 65                    ;Power to add (Def: 0)
+poweradd = 0                    ;Power to add (Def: 0)
 sprpriority = 2                  ;Set layering priority to 2 (in front)
 
 [State 650, 0]
@@ -2333,7 +2333,7 @@ juggle  = 1                      ;Number of air juggle points move takes
 ;Commonly-used controllers:
 ctrl = 0                         ;Set ctrl (Def: no change)
 anim = 460                       ;Change animation (Def: no change)
-poweradd = 65                    ;Power to add (Def: 0)
+poweradd = 0                    ;Power to add (Def: 0)
 sprpriority = 2                  ;Set layering priority to 2 (in front)
 
 [State 460, 1]
@@ -2485,7 +2485,7 @@ type    = A
 movetype= A
 physics = A
 juggle  = 3
-poweradd= 20
+poweradd= 0
 ctrl = 0
 anim = 600
 
@@ -2550,7 +2550,7 @@ type    = A
 movetype= A
 physics = A
 juggle  = 2
-poweradd= 40
+poweradd= 0
 ctrl = 0
 anim = 610
 
@@ -2621,7 +2621,7 @@ type    = A
 movetype= A
 physics = A
 juggle  = 3
-poweradd= 65
+poweradd= 0
 ctrl = 0
 anim = 620
 
@@ -2694,7 +2694,7 @@ type    = A
 movetype= A
 physics = A
 juggle  = 1
-poweradd= 20
+poweradd= 0
 ctrl = 0
 anim = 630
 
@@ -2759,7 +2759,7 @@ type    = A
 movetype= A
 physics = A
 juggle  = 2
-poweradd= 40
+poweradd= 0
 ctrl = 0
 anim = 640
 
@@ -2830,7 +2830,7 @@ type    = A
 movetype= A
 physics = A
 juggle  = 3
-poweradd= 65
+poweradd= 0
 ctrl = 0
 anim = 650
 
@@ -3006,7 +3006,7 @@ movetype = A
 physics = N
 anim = 901
 sprpriority = 2
-poweradd = 80
+poweradd = 0
 
 [State 901, 0]
 type = NotHitBy
@@ -3593,7 +3593,7 @@ type = A
 movetype = A
 physics = N
 anim = 921
-poweradd = 80
+poweradd = 0
 
 [State 901, 0]
 type = NotHitBy
@@ -4182,7 +4182,7 @@ value = 5100
 type    = S
 movetype= A
 physics = S
-poweradd= 105
+poweradd= 20
 anim = 1002
 ctrl = 0
 velset = 0,0
@@ -4290,7 +4290,7 @@ ctrl = 0
 type    = S
 movetype= A
 physics = S
-poweradd= 105
+poweradd= 20
 anim = 1002
 ctrl = 0
 velset = 0,0,0
@@ -4398,7 +4398,7 @@ ctrl = 0
 type    = S
 movetype= A
 physics = S
-poweradd= 105
+poweradd= 20
 anim = 1002
 ctrl = 0
 velset = 0,0,0
@@ -4842,7 +4842,7 @@ trigger1 = animtime = 0
 type    = S     
 movetype= A     
 physics = S  
-poweradd = 65
+poweradd = 0
 ctrl = 0
 juggle = 5
 velset = 0,0
@@ -4955,7 +4955,7 @@ pos = -3, 0
 type    = S     
 movetype= A     
 physics = S  
-poweradd = 65
+poweradd = 0
 ctrl = 0
 juggle = 5
 velset = 0, 0
@@ -5087,7 +5087,7 @@ pos = -3, 0
 type    = S     
 movetype= A     
 physics = S  
-poweradd = 65
+poweradd = 0
 ctrl = 0
 juggle = 4
 velset = 0, 0
@@ -5236,7 +5236,7 @@ pos = -3, 0
 type    = A     
 movetype= A     
 physics = A  
-poweradd = 65
+poweradd = 0
 ctrl = 0
 juggle = 5
 anim = 1200
@@ -5369,7 +5369,7 @@ value = S0, 19
 type    = A     
 movetype= A     
 physics = A  
-poweradd = 65
+poweradd = 0
 ctrl = 0
 juggle = 5
 anim = 1201
@@ -5503,7 +5503,7 @@ ctrl = 1
 type    = A     
 movetype= A    
 physics = A  
-poweradd = 65
+poweradd = 0
 ctrl = 0
 juggle = 5
 velset = 0, 0
@@ -6000,7 +6000,7 @@ ctrl = 1
 type    = A     
 movetype= A     
 physics = N  
-poweradd = 75
+poweradd = 0
 ctrl = 0
 juggle = 5
 velset = 0, 0
@@ -6102,7 +6102,7 @@ ctrl = 1
 type    = A
 physics = A
 movetype = A
-poweradd = 65
+poweradd = 0
 ctrl = 0
 juggle = 4
 anim = 1400
@@ -6169,7 +6169,7 @@ type = S
 movetype = A
 physics = S
 anim = 1500
-poweradd = 65
+poweradd = 0
 velset = 0,0
 ctrl = 0
 juggle = 1
@@ -6314,7 +6314,7 @@ type = S
 physics = S
 movetype = A
 anim = 1502
-poweradd = 65
+poweradd = 0
 velset = 0,0
 ctrl = 0
 juggle = 1
@@ -6458,7 +6458,7 @@ value = 1301
 type = S
 physics = N
 movetype = A
-poweradd = 65
+poweradd = 0
 anim = 1504
 velset = 0,0
 ctrl = 0
@@ -7026,7 +7026,7 @@ value = 1301
 type = A
 physics = N
 movetype = A
-poweradd = 65
+poweradd = 0
 velset = 0,0
 ctrl = 0
 anim = 1600
@@ -7337,7 +7337,7 @@ time = 15
 [Statedef 1700]                                   
 type = A
 movetype = A
-poweradd = 65
+poweradd = 0
 velset = 6,0
 juggle = 5
 ctrl = 0
@@ -7514,7 +7514,7 @@ value = 5100
 [Statedef 1800]
 type    = A
 movetype= A
-poweradd= 105
+poweradd= 20
 anim = 1800
 ctrl = 0
 
@@ -7637,7 +7637,7 @@ ctrl = 0
 [Statedef 1803]
 type    = A
 movetype= A
-poweradd= 105
+poweradd= 20
 anim = 1800
 ctrl = 0
 
@@ -7759,7 +7759,7 @@ ctrl = 0
 [Statedef 1806]
 type    = A
 movetype= A
-poweradd= 105
+poweradd= 20
 anim = 1800
 ctrl = 0
 

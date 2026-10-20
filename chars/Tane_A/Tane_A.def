@@ -8,6 +8,7 @@ Author       = "knkn"
 Pal.Defaults = 1,2,3,4,5,6
 
 [Files]
+movelist = movelist.dat
 Cmd     = Tane_cmd.cns
 Cns     = cns/Tane_A.cns
 St      = cns/Tane_A.cns

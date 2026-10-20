@@ -7,7 +7,7 @@
 type    = S
 movetype= A
 physics = S
-poweradd= 100
+poweradd= 20
 velset = 0,0
 anim = 1000
 ctrl = 0
@@ -44,7 +44,7 @@ triggerall = var(6) = 0
 trigger1 = AnimElem = 6
 attr = S, SP 
 damage = 132,2
-getpower = 30,10
+getpower = 15,7
 pausetime = 0,12
 offset = 130,0
 projID = 1000               
@@ -82,7 +82,7 @@ triggerall = var(6) = 1
 trigger1 = AnimElem = 4
 attr = S, HP 
 damage = 22,2
-getpower = -21,10
+getpower = 15,7
 pausetime = 0,12
 offset = 130,0
 projID = 1000               
@@ -153,7 +153,7 @@ type    = S
 movetype= A
 physics = S
 juggle  = 4
-poweradd= 100
+poweradd= 20
 velset = 0,0
 anim = 1010
 ctrl = 0
@@ -190,7 +190,7 @@ triggerall = Var(6) = 0
 trigger1 = AnimElem = 5
 attr = S, SP 
 damage = 88,2
-getpower = 30,10
+getpower = 15,7
 pausetime = 0,12
 offset = 220,0
 projID = 1000               ;飛び道具のＩＤナンバー
@@ -228,7 +228,7 @@ triggerall = Var(6) = 1
 trigger1 = AnimElem = 3
 attr = S, HP 
 damage = 18,2
-getpower = -21,10
+getpower = 15,7
 pausetime = 0,12
 offset = 200,0
 projID = 1000               ;飛び道具のＩＤナンバー
@@ -461,6 +461,7 @@ sprpriority = 2
 
 [State 1100, ヒット定義]
 type = HitDef
+getpower = 60,30
 trigger1 = Time = 0
 attr = S, ST          ;攻撃属性: これは Standing, Normal Throw（立ち通常投げ）
 hitflag = M-          ;相手がやられ状態ではない地上の時でしか掴む事が出来ません
@@ -502,6 +503,7 @@ sprpriority = 2
 
 [State 1150, ヒット定義]
 type = HitDef
+getpower = 60,30
 trigger1 = Time = 0
 attr = S, ST          ;攻撃属性: これは Standing, Normal Throw（立ち通常投げ）
 hitflag = M-          ;相手がやられ状態ではない地上の時でしか掴む事が出来ません
@@ -537,7 +539,7 @@ type     = S
 movetype = A
 physics  = N
 anim     = 1110
-poweradd = 60
+poweradd = 0
 ctrl     = 0
 
 [State 1110, 掴んだ音を鳴らす]
@@ -1274,7 +1276,7 @@ value = 1118
 type    = A
 movetype = A
 physics = N
-poweradd = 70
+poweradd = 20
 ctrl = 0
 anim = 1200
 velset = 0,0
@@ -1354,7 +1356,7 @@ value = 1105
 type    = A
 movetype = A
 physics = N
-poweradd = 70
+poweradd = 20
 ctrl = 0
 anim = 1200
 velset = 0,0
@@ -1707,6 +1709,7 @@ type = HitDef
 trigger1 = time = 0
 attr = S, SA                     ;Attribute: Standing, Normal Attack
 damage = 70, 2                   ;Damage that move inflicts, guard damage
+getpower = 10,5
 animtype = Heavy                 ;Animation type: Light, Medium, Heavy, Back (def: Light)
 guardflag = MA                   ;Flags on how move is to be guarded against
 hitflag = MA                     ;Flags of conditions that move can hit
@@ -1848,6 +1851,7 @@ sprpriority = 2
 
 [State 1310, ]
 type = HitDef
+getpower = 60,30
 trigger1 = Time = 0
 attr = S, ST 
 hitflag = AFD
@@ -1885,7 +1889,7 @@ type     = S
 movetype = A
 physics  = N
 anim     = 1311
-poweradd = 60
+poweradd = 0
 
 [State 1311, 叩き付ける音を鳴らす]
 type = PlaySnd

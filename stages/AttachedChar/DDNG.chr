@@ -530,152 +530,152 @@ v = 3
 value = 0
 
 [State 200, P1GotHit]
-trigger1 = playerid(getplayerid(1)),hitfall
+trigger1 = player(1),hitfall
 Type = VarSet
 v = 51
 value = 1
 [State 200, P1isOnGround]
-trigger1 = playerid(getplayerid(1)),pos y = 0
+trigger1 = player(1),pos y = 0
 Type = VarSet
 v = 51
 value = 0
 [State 200, HittingObjectP1]
-trigger1 = playerid(getplayerid(1)),pos x > Var(1) && playerid(getplayerid(1)),pos x < Var(2) 
-trigger1 = playerid(getplayerid(1)),pos y >= playerid(getplayerid(1)),-const(size.height) * 0.5
-trigger1 = playerid(getplayerid(1)),vel y != 0
+trigger1 = player(1),pos x > Var(1) && player(1),pos x < Var(2) 
+trigger1 = player(1),pos y >= -(player(1),const(size.height)) * 0.5
+trigger1 = player(1),vel y != 0
 trigger1 = Var(51) = 1
 trigger1 = Var(3) = 0
 type = VarSet
 v = 3
 value = 1
 [State 200, P2GotHit]
-trigger1 = playerid(getplayerid(2)),hitfall
+trigger1 = player(2),hitfall
 Type = VarSet
 v = 52
 value = 1
 [State 200, P2isOnGround]
-trigger1 = playerid(getplayerid(2)),pos y = 0
+trigger1 = player(2),pos y = 0
 Type = VarSet
 v = 52
 value = 0
 [State 200, HittingObjectP2]
-trigger1 = playerid(getplayerid(2)),pos x > Var(1) && playerid(getplayerid(2)),pos x < Var(2) 
-trigger1 = playerid(getplayerid(2)),pos y >= playerid(getplayerid(2)),-const(size.height) * 0.5
-trigger1 = playerid(getplayerid(2)),vel y != 0
+trigger1 = player(2),pos x > Var(1) && player(2),pos x < Var(2) 
+trigger1 = player(2),pos y >= -(player(2),const(size.height)) * 0.5
+trigger1 = player(2),vel y != 0
 trigger1 = Var(52) = 1
 trigger1 = Var(3) = 0
 type = VarSet
 v = 3
 value = 2
 [State 200, P3GotHit]
-trigger1 = playerid(getplayerid(3)),hitfall
+trigger1 = player(3),hitfall
 Type = VarSet
 v = 53
 value = 1
 [State 200, P3isOnGround]
-trigger1 = playerid(getplayerid(3)),pos y = 0
+trigger1 = player(3),pos y = 0
 Type = VarSet
 v = 53
 value = 0
 [State 200, HittingObjectP3]
-trigger1 = playerid(getplayerid(3)),pos x > Var(1) && playerid(getplayerid(3)),pos x < Var(2) 
-trigger1 = playerid(getplayerid(3)),pos y >= playerid(getplayerid(3)),-const(size.height) * 0.5
-trigger1 = playerid(getplayerid(3)),vel y != 0
+trigger1 = player(3),pos x > Var(1) && player(3),pos x < Var(2) 
+trigger1 = player(3),pos y >= -(player(3),const(size.height)) * 0.5
+trigger1 = player(3),vel y != 0
 trigger1 = Var(53) = 1
 trigger1 = Var(3) = 0
 type = VarSet
 v = 3
 value = 3
 [State 200, P4GotHit]
-trigger1 = playerid(getplayerid(4)),hitfall
+trigger1 = player(4),hitfall
 Type = VarSet
 v = 54
 value = 1
 [State 200, P4isOnGround]
-trigger1 = playerid(getplayerid(4)),pos y = 0
+trigger1 = player(4),pos y = 0
 Type = VarSet
 v = 54
 value = 0
 [State 200, HittingObjectP4]
-trigger1 = playerid(getplayerid(4)),pos x > Var(1) && playerid(getplayerid(4)),pos x < Var(2) 
-trigger1 = playerid(getplayerid(4)),pos y >= playerid(getplayerid(4)),-const(size.height) * 0.5
-trigger1 = playerid(getplayerid(4)),vel y != 0
+trigger1 = player(4),pos x > Var(1) && player(4),pos x < Var(2) 
+trigger1 = player(4),pos y >= -(player(4),const(size.height)) * 0.5
+trigger1 = player(4),vel y != 0
 trigger1 = Var(54) = 1
 trigger1 = Var(3) = 0
 type = VarSet
 v = 3
 value = 4
 [State 200, P5GotHit]
-trigger1 = playerid(getplayerid(5)),hitfall
+trigger1 = player(5),hitfall
 Type = VarSet
 v = 55
 value = 1
 [State 200, P5isOnGround]
-trigger1 = playerid(getplayerid(5)),pos y = 0
+trigger1 = player(5),pos y = 0
 Type = VarSet
 v = 55
 value = 0
 [State 200, HittingObjectP5]
-trigger1 = playerid(getplayerid(5)),pos x > Var(1) && playerid(getplayerid(5)),pos x < Var(2) 
-trigger1 = playerid(getplayerid(5)),pos y >= playerid(getplayerid(5)),-const(size.height) * 0.5
-trigger1 = playerid(getplayerid(5)),vel y != 0
+trigger1 = player(5),pos x > Var(1) && player(5),pos x < Var(2) 
+trigger1 = player(5),pos y >= -(player(5),const(size.height)) * 0.5
+trigger1 = player(5),vel y != 0
 trigger1 = Var(55) = 1
 trigger1 = Var(3) = 0
 type = VarSet
 v = 3
 value = 5
 [State 200, P6GotHit]
-trigger1 = playerid(getplayerid(6)),hitfall
+trigger1 = player(6),hitfall
 Type = VarSet
 v = 56
 value = 1
 [State 200, P6isOnGround]
-trigger1 = playerid(getplayerid(6)),pos y = 0
+trigger1 = player(6),pos y = 0
 Type = VarSet
 v = 56
 value = 0
 [State 200, HittingObjectP6]
-trigger1 = playerid(getplayerid(6)),pos x > Var(1) && playerid(getplayerid(6)),pos x < Var(2) 
-trigger1 = playerid(getplayerid(6)),pos y >= playerid(getplayerid(6)),-const(size.height) * 0.5
-trigger1 = playerid(getplayerid(6)),vel y != 0
+trigger1 = player(6),pos x > Var(1) && player(6),pos x < Var(2) 
+trigger1 = player(6),pos y >= -(player(6),const(size.height)) * 0.5
+trigger1 = player(6),vel y != 0
 trigger1 = Var(56) = 1
 trigger1 = Var(3) = 0
 type = VarSet
 v = 3
 value = 6
 [State 200, P7GotHit]
-trigger1 = playerid(getplayerid(7)),hitfall
+trigger1 = player(7),hitfall
 Type = VarSet
 v = 57
 value = 1
 [State 200, P7isOnGround]
-trigger1 = playerid(getplayerid(7)),pos y = 0
+trigger1 = player(7),pos y = 0
 Type = VarSet
 v = 57
 value = 0
 [State 200, HittingObjectP7]
-trigger1 = playerid(getplayerid(7)),pos x > Var(1) && playerid(getplayerid(7)),pos x < Var(2) 
-trigger1 = playerid(getplayerid(7)),pos y >= playerid(getplayerid(7)),-const(size.height) * 0.5
-trigger1 = playerid(getplayerid(7)),vel y != 0
+trigger1 = player(7),pos x > Var(1) && player(7),pos x < Var(2) 
+trigger1 = player(7),pos y >= -(player(7),const(size.height)) * 0.5
+trigger1 = player(7),vel y != 0
 trigger1 = Var(57) = 1
 trigger1 = Var(3) = 0
 type = VarSet
 v = 3
 value = 7
 [State 200, P8GotHit]
-trigger1 = playerid(getplayerid(8)),hitfall
+trigger1 = player(8),hitfall
 Type = VarSet
 v = 58
 value = 1
 [State 200, P8isOnGround]
-trigger1 = playerid(getplayerid(8)),pos y = 0
+trigger1 = player(8),pos y = 0
 Type = VarSet
 v = 58
 value = 0
 [State 200, HittingObjectP8]
-trigger1 = playerid(getplayerid(8)),pos x > Var(1) && playerid(getplayerid(8)),pos x < Var(2) 
-trigger1 = playerid(getplayerid(8)),pos y >= playerid(getplayerid(8)),-const(size.height) * 0.5
-trigger1 = playerid(getplayerid(8)),vel y != 0
+trigger1 = player(8),pos x > Var(1) && player(8),pos x < Var(2) 
+trigger1 = player(8),pos y >= -(player(8),const(size.height)) * 0.5
+trigger1 = player(8),vel y != 0
 trigger1 = Var(58) = 1
 trigger1 = Var(3) = 0
 type = VarSet
@@ -853,152 +853,152 @@ v = 3
 value = 0
 
 [State 200, P1GotHit]
-trigger1 = playerid(getplayerid(1)),hitfall
+trigger1 = player(1),hitfall
 Type = VarSet
 v = 51
 value = 1
 [State 200, P1isOnGround]
-trigger1 = playerid(getplayerid(1)),pos y = 0
+trigger1 = player(1),pos y = 0
 Type = VarSet
 v = 51
 value = 0
 [State 200, HittingObjectP1]
-trigger1 = playerid(getplayerid(1)),pos x > Var(1) && playerid(getplayerid(1)),pos x < Var(2) 
-trigger1 = playerid(getplayerid(1)),pos y >= playerid(getplayerid(1)),-const(size.height) * 0.5
-trigger1 = playerid(getplayerid(1)),vel y != 0
+trigger1 = player(1),pos x > Var(1) && player(1),pos x < Var(2) 
+trigger1 = player(1),pos y >= -(player(1),const(size.height)) * 0.5
+trigger1 = player(1),vel y != 0
 trigger1 = Var(51) = 1
 trigger1 = Var(3) = 0
 type = VarSet
 v = 3
 value = 1
 [State 200, P2GotHit]
-trigger1 = playerid(getplayerid(2)),hitfall
+trigger1 = player(2),hitfall
 Type = VarSet
 v = 52
 value = 1
 [State 200, P2isOnGround]
-trigger1 = playerid(getplayerid(2)),pos y = 0
+trigger1 = player(2),pos y = 0
 Type = VarSet
 v = 52
 value = 0
 [State 200, HittingObjectP2]
-trigger1 = playerid(getplayerid(2)),pos x > Var(1) && playerid(getplayerid(2)),pos x < Var(2) 
-trigger1 = playerid(getplayerid(2)),pos y >= playerid(getplayerid(2)),-const(size.height) * 0.5
-trigger1 = playerid(getplayerid(2)),vel y != 0
+trigger1 = player(2),pos x > Var(1) && player(2),pos x < Var(2) 
+trigger1 = player(2),pos y >= -(player(2),const(size.height)) * 0.5
+trigger1 = player(2),vel y != 0
 trigger1 = Var(52) = 1
 trigger1 = Var(3) = 0
 type = VarSet
 v = 3
 value = 2
 [State 200, P3GotHit]
-trigger1 = playerid(getplayerid(3)),hitfall
+trigger1 = player(3),hitfall
 Type = VarSet
 v = 53
 value = 1
 [State 200, P3isOnGround]
-trigger1 = playerid(getplayerid(3)),pos y = 0
+trigger1 = player(3),pos y = 0
 Type = VarSet
 v = 53
 value = 0
 [State 200, HittingObjectP3]
-trigger1 = playerid(getplayerid(3)),pos x > Var(1) && playerid(getplayerid(3)),pos x < Var(2) 
-trigger1 = playerid(getplayerid(3)),pos y >= playerid(getplayerid(3)),-const(size.height) * 0.5
-trigger1 = playerid(getplayerid(3)),vel y != 0
+trigger1 = player(3),pos x > Var(1) && player(3),pos x < Var(2) 
+trigger1 = player(3),pos y >= -(player(3),const(size.height)) * 0.5
+trigger1 = player(3),vel y != 0
 trigger1 = Var(53) = 1
 trigger1 = Var(3) = 0
 type = VarSet
 v = 3
 value = 3
 [State 200, P4GotHit]
-trigger1 = playerid(getplayerid(4)),hitfall
+trigger1 = player(4),hitfall
 Type = VarSet
 v = 54
 value = 1
 [State 200, P4isOnGround]
-trigger1 = playerid(getplayerid(4)),pos y = 0
+trigger1 = player(4),pos y = 0
 Type = VarSet
 v = 54
 value = 0
 [State 200, HittingObjectP4]
-trigger1 = playerid(getplayerid(4)),pos x > Var(1) && playerid(getplayerid(4)),pos x < Var(2) 
-trigger1 = playerid(getplayerid(4)),pos y >= playerid(getplayerid(4)),-const(size.height) * 0.5
-trigger1 = playerid(getplayerid(4)),vel y != 0
+trigger1 = player(4),pos x > Var(1) && player(4),pos x < Var(2) 
+trigger1 = player(4),pos y >= -(player(4),const(size.height)) * 0.5
+trigger1 = player(4),vel y != 0
 trigger1 = Var(54) = 1
 trigger1 = Var(3) = 0
 type = VarSet
 v = 3
 value = 4
 [State 200, P5GotHit]
-trigger1 = playerid(getplayerid(5)),hitfall
+trigger1 = player(5),hitfall
 Type = VarSet
 v = 55
 value = 1
 [State 200, P5isOnGround]
-trigger1 = playerid(getplayerid(5)),pos y = 0
+trigger1 = player(5),pos y = 0
 Type = VarSet
 v = 55
 value = 0
 [State 200, HittingObjectP5]
-trigger1 = playerid(getplayerid(5)),pos x > Var(1) && playerid(getplayerid(5)),pos x < Var(2) 
-trigger1 = playerid(getplayerid(5)),pos y >= playerid(getplayerid(5)),-const(size.height) * 0.5
-trigger1 = playerid(getplayerid(5)),vel y != 0
+trigger1 = player(5),pos x > Var(1) && player(5),pos x < Var(2) 
+trigger1 = player(5),pos y >= -(player(5),const(size.height)) * 0.5
+trigger1 = player(5),vel y != 0
 trigger1 = Var(55) = 1
 trigger1 = Var(3) = 0
 type = VarSet
 v = 3
 value = 5
 [State 200, P6GotHit]
-trigger1 = playerid(getplayerid(6)),hitfall
+trigger1 = player(6),hitfall
 Type = VarSet
 v = 56
 value = 1
 [State 200, P6isOnGround]
-trigger1 = playerid(getplayerid(6)),pos y = 0
+trigger1 = player(6),pos y = 0
 Type = VarSet
 v = 56
 value = 0
 [State 200, HittingObjectP6]
-trigger1 = playerid(getplayerid(6)),pos x > Var(1) && playerid(getplayerid(6)),pos x < Var(2) 
-trigger1 = playerid(getplayerid(6)),pos y >= playerid(getplayerid(6)),-const(size.height) * 0.5
-trigger1 = playerid(getplayerid(6)),vel y != 0
+trigger1 = player(6),pos x > Var(1) && player(6),pos x < Var(2) 
+trigger1 = player(6),pos y >= -(player(6),const(size.height)) * 0.5
+trigger1 = player(6),vel y != 0
 trigger1 = Var(56) = 1
 trigger1 = Var(3) = 0
 type = VarSet
 v = 3
 value = 6
 [State 200, P7GotHit]
-trigger1 = playerid(getplayerid(7)),hitfall
+trigger1 = player(7),hitfall
 Type = VarSet
 v = 57
 value = 1
 [State 200, P7isOnGround]
-trigger1 = playerid(getplayerid(7)),pos y = 0
+trigger1 = player(7),pos y = 0
 Type = VarSet
 v = 57
 value = 0
 [State 200, HittingObjectP7]
-trigger1 = playerid(getplayerid(7)),pos x > Var(1) && playerid(getplayerid(7)),pos x < Var(2) 
-trigger1 = playerid(getplayerid(7)),pos y >= playerid(getplayerid(7)),-const(size.height) * 0.5
-trigger1 = playerid(getplayerid(7)),vel y != 0
+trigger1 = player(7),pos x > Var(1) && player(7),pos x < Var(2) 
+trigger1 = player(7),pos y >= -(player(7),const(size.height)) * 0.5
+trigger1 = player(7),vel y != 0
 trigger1 = Var(57) = 1
 trigger1 = Var(3) = 0
 type = VarSet
 v = 3
 value = 7
 [State 200, P8GotHit]
-trigger1 = playerid(getplayerid(8)),hitfall
+trigger1 = player(8),hitfall
 Type = VarSet
 v = 58
 value = 1
 [State 200, P8isOnGround]
-trigger1 = playerid(getplayerid(8)),pos y = 0
+trigger1 = player(8),pos y = 0
 Type = VarSet
 v = 58
 value = 0
 [State 200, HittingObjectP8]
-trigger1 = playerid(getplayerid(8)),pos x > Var(1) && playerid(getplayerid(8)),pos x < Var(2) 
-trigger1 = playerid(getplayerid(8)),pos y >= playerid(getplayerid(8)),-const(size.height) * 0.5
-trigger1 = playerid(getplayerid(8)),vel y != 0
+trigger1 = player(8),pos x > Var(1) && player(8),pos x < Var(2) 
+trigger1 = player(8),pos y >= -(player(8),const(size.height)) * 0.5
+trigger1 = player(8),vel y != 0
 trigger1 = Var(58) = 1
 trigger1 = Var(3) = 0
 type = VarSet
@@ -1268,152 +1268,152 @@ v = 3
 value = 0
 
 [State 205, P1GotHit]
-trigger1 = playerid(getplayerid(1)),hitfall
+trigger1 = player(1),hitfall
 Type = VarSet
 v = 51
 value = 1
 [State 205, P1isOnGround]
-trigger1 = playerid(getplayerid(1)),pos y = 0
+trigger1 = player(1),pos y = 0
 Type = VarSet
 v = 51
 value = 0
 [State 205, HittingObjectP1]
-trigger1 = playerid(getplayerid(1)),pos x > Var(1) && playerid(getplayerid(1)),pos x < Var(2) 
-trigger1 = playerid(getplayerid(1)),pos y <= playerid(getplayerid(1)),-const(size.height) * 0.5
-trigger1 = playerid(getplayerid(1)),vel y != 0
+trigger1 = player(1),pos x > Var(1) && player(1),pos x < Var(2) 
+trigger1 = player(1),pos y <= -(player(1),const(size.height)) * 0.5
+trigger1 = player(1),vel y != 0
 trigger1 = Var(51) = 1
 trigger1 = Var(3) = 0
 type = VarSet
 v = 3
 value = 1
 [State 205, P2GotHit]
-trigger1 = playerid(getplayerid(2)),hitfall
+trigger1 = player(2),hitfall
 Type = VarSet
 v = 52
 value = 1
 [State 205, P2isOnGround]
-trigger1 = playerid(getplayerid(2)),pos y = 0
+trigger1 = player(2),pos y = 0
 Type = VarSet
 v = 52
 value = 0
 [State 205, HittingObjectP2]
-trigger1 = playerid(getplayerid(2)),pos x > Var(1) && playerid(getplayerid(2)),pos x < Var(2) 
-trigger1 = playerid(getplayerid(2)),pos y <= playerid(getplayerid(2)),-const(size.height) * 0.5
-trigger1 = playerid(getplayerid(2)),vel y != 0
+trigger1 = player(2),pos x > Var(1) && player(2),pos x < Var(2) 
+trigger1 = player(2),pos y <= -(player(2),const(size.height)) * 0.5
+trigger1 = player(2),vel y != 0
 trigger1 = Var(52) = 1
 trigger1 = Var(3) = 0
 type = VarSet
 v = 3
 value = 2
 [State 205, P3GotHit]
-trigger1 = playerid(getplayerid(3)),hitfall
+trigger1 = player(3),hitfall
 Type = VarSet
 v = 53
 value = 1
 [State 205, P3isOnGround]
-trigger1 = playerid(getplayerid(3)),pos y = 0
+trigger1 = player(3),pos y = 0
 Type = VarSet
 v = 53
 value = 0
 [State 205, HittingObjectP3]
-trigger1 = playerid(getplayerid(3)),pos x > Var(1) && playerid(getplayerid(3)),pos x < Var(2) 
-trigger1 = playerid(getplayerid(3)),pos y <= playerid(getplayerid(3)),-const(size.height) * 0.5
-trigger1 = playerid(getplayerid(3)),vel y != 0
+trigger1 = player(3),pos x > Var(1) && player(3),pos x < Var(2) 
+trigger1 = player(3),pos y <= -(player(3),const(size.height)) * 0.5
+trigger1 = player(3),vel y != 0
 trigger1 = Var(53) = 1
 trigger1 = Var(3) = 0
 type = VarSet
 v = 3
 value = 3
 [State 205, P4GotHit]
-trigger1 = playerid(getplayerid(4)),hitfall
+trigger1 = player(4),hitfall
 Type = VarSet
 v = 54
 value = 1
 [State 205, P4isOnGround]
-trigger1 = playerid(getplayerid(4)),pos y = 0
+trigger1 = player(4),pos y = 0
 Type = VarSet
 v = 54
 value = 0
 [State 205, HittingObjectP4]
-trigger1 = playerid(getplayerid(4)),pos x > Var(1) && playerid(getplayerid(4)),pos x < Var(2) 
-trigger1 = playerid(getplayerid(4)),pos y <= playerid(getplayerid(4)),-const(size.height) * 0.5
-trigger1 = playerid(getplayerid(4)),vel y != 0
+trigger1 = player(4),pos x > Var(1) && player(4),pos x < Var(2) 
+trigger1 = player(4),pos y <= -(player(4),const(size.height)) * 0.5
+trigger1 = player(4),vel y != 0
 trigger1 = Var(54) = 1
 trigger1 = Var(3) = 0
 type = VarSet
 v = 3
 value = 4
 [State 205, P5GotHit]
-trigger1 = playerid(getplayerid(5)),hitfall
+trigger1 = player(5),hitfall
 Type = VarSet
 v = 55
 value = 1
 [State 205, P5isOnGround]
-trigger1 = playerid(getplayerid(5)),pos y = 0
+trigger1 = player(5),pos y = 0
 Type = VarSet
 v = 55
 value = 0
 [State 205, HittingObjectP5]
-trigger1 = playerid(getplayerid(5)),pos x > Var(1) && playerid(getplayerid(5)),pos x < Var(2) 
-trigger1 = playerid(getplayerid(5)),pos y <= playerid(getplayerid(5)),-const(size.height) * 0.5
-trigger1 = playerid(getplayerid(5)),vel y != 0
+trigger1 = player(5),pos x > Var(1) && player(5),pos x < Var(2) 
+trigger1 = player(5),pos y <= -(player(5),const(size.height)) * 0.5
+trigger1 = player(5),vel y != 0
 trigger1 = Var(55) = 1
 trigger1 = Var(3) = 0
 type = VarSet
 v = 3
 value = 5
 [State 205, P6GotHit]
-trigger1 = playerid(getplayerid(6)),hitfall
+trigger1 = player(6),hitfall
 Type = VarSet
 v = 56
 value = 1
 [State 205, P6isOnGround]
-trigger1 = playerid(getplayerid(6)),pos y = 0
+trigger1 = player(6),pos y = 0
 Type = VarSet
 v = 56
 value = 0
 [State 205, HittingObjectP6]
-trigger1 = playerid(getplayerid(6)),pos x > Var(1) && playerid(getplayerid(6)),pos x < Var(2) 
-trigger1 = playerid(getplayerid(6)),pos y <= playerid(getplayerid(6)),-const(size.height) * 0.5
-trigger1 = playerid(getplayerid(6)),vel y != 0
+trigger1 = player(6),pos x > Var(1) && player(6),pos x < Var(2) 
+trigger1 = player(6),pos y <= -(player(6),const(size.height)) * 0.5
+trigger1 = player(6),vel y != 0
 trigger1 = Var(56) = 1
 trigger1 = Var(3) = 0
 type = VarSet
 v = 3
 value = 6
 [State 205, P7GotHit]
-trigger1 = playerid(getplayerid(7)),hitfall
+trigger1 = player(7),hitfall
 Type = VarSet
 v = 57
 value = 1
 [State 205, P7isOnGround]
-trigger1 = playerid(getplayerid(7)),pos y = 0
+trigger1 = player(7),pos y = 0
 Type = VarSet
 v = 57
 value = 0
 [State 205, HittingObjectP7]
-trigger1 = playerid(getplayerid(7)),pos x > Var(1) && playerid(getplayerid(7)),pos x < Var(2) 
-trigger1 = playerid(getplayerid(7)),pos y <= playerid(getplayerid(7)),-const(size.height) * 0.5
-trigger1 = playerid(getplayerid(7)),vel y != 0
+trigger1 = player(7),pos x > Var(1) && player(7),pos x < Var(2) 
+trigger1 = player(7),pos y <= -(player(7),const(size.height)) * 0.5
+trigger1 = player(7),vel y != 0
 trigger1 = Var(57) = 1
 trigger1 = Var(3) = 0
 type = VarSet
 v = 3
 value = 7
 [State 205, P8GotHit]
-trigger1 = playerid(getplayerid(8)),hitfall
+trigger1 = player(8),hitfall
 Type = VarSet
 v = 58
 value = 1
 [State 205, P8isOnGround]
-trigger1 = playerid(getplayerid(8)),pos y = 0
+trigger1 = player(8),pos y = 0
 Type = VarSet
 v = 58
 value = 0
 [State 205, HittingObjectP8]
-trigger1 = playerid(getplayerid(8)),pos x > Var(1) && playerid(getplayerid(8)),pos x < Var(2) 
-trigger1 = playerid(getplayerid(8)),pos y <= playerid(getplayerid(8)),-const(size.height) * 0.5
-trigger1 = playerid(getplayerid(8)),vel y != 0
+trigger1 = player(8),pos x > Var(1) && player(8),pos x < Var(2) 
+trigger1 = player(8),pos y <= -(player(8),const(size.height)) * 0.5
+trigger1 = player(8),vel y != 0
 trigger1 = Var(58) = 1
 trigger1 = Var(3) = 0
 type = VarSet
@@ -1567,7 +1567,7 @@ physics = N                      ;Physics: S-stand, C-crouch, A-air
 juggle  = 1                     ;Number of air juggle points move takes
 velset = 0,0                     ;Set velocity (x,y) (Def: no change)
 ctrl = 0                         ;Set ctrl (Def: no change)
-anim = Rand(12,14)                       ;Change animation (Def: no change)
+anim = (12+floor(Random*3/1000.0))                       ;Change animation (Def: no change)
 poweradd = 0                    ;Power to add (Def: 0)
 sprpriority = -8                  ;Set p1's sprite layering priority to 2 (in front)
 
@@ -1594,7 +1594,7 @@ y = 0.2
 trigger1 = Time = 0
 persistent = 0
 type = PosAdd
-x = Rand(-180,180)
+x = (-180+floor(Random*361/1000.0))
 
 [State 206, DefineYSpeed]
 trigger1 = Time = 0
@@ -1613,7 +1613,7 @@ Trigger1 = RoundState = 0
 
 [State 1051, Stahp]
 type = VelSet
-Trigger1 = Pos Y >= Rand(-5,5) && Vel Y > 0
+Trigger1 = Pos Y >= (-5+floor(Random*11/1000.0)) && Vel Y > 0
 y = 0
 [State 666, SoundFall]
 type = PlaySnd
@@ -1694,8 +1694,8 @@ range = 1,50
 
 [State 205, Pieces]
 triggerall = Time % 30 = 0
-trigger1 = Rand(1,100) > 75 && Parent,Helper(14),Var(3) = 0
-trigger2 = Rand(1,100) > 25 && Parent,Helper(14),Var(3) > 0
+trigger1 = (1+floor(Random*100/1000.0)) > 75 && Parent,Helper(14),Var(3) = 0
+trigger2 = (1+floor(Random*100/1000.0)) > 25 && Parent,Helper(14),Var(3) > 0
 ignorehitpause = 1
 name = "Piece1"
 ID = 6
@@ -1773,152 +1773,152 @@ v = 3
 value = 0
 
 [State 210, P1GotHit]
-trigger1 = playerid(getplayerid(1)),hitfall
+trigger1 = player(1),hitfall
 Type = VarSet
 v = 51
 value = 1
 [State 210, P1isOnGround]
-trigger1 = playerid(getplayerid(1)),pos y = 0
+trigger1 = player(1),pos y = 0
 Type = VarSet
 v = 51
 value = 0
 [State 210, HittingObjectP1]
-trigger1 = playerid(getplayerid(1)),pos x > Var(1) && playerid(getplayerid(1)),pos x < Var(2) 
-trigger1 = playerid(getplayerid(1)),pos y >= playerid(getplayerid(1)),-const(size.height) * 0.5
-trigger1 = playerid(getplayerid(1)),vel y != 0
+trigger1 = player(1),pos x > Var(1) && player(1),pos x < Var(2) 
+trigger1 = player(1),pos y >= -(player(1),const(size.height)) * 0.5
+trigger1 = player(1),vel y != 0
 trigger1 = Var(51) = 1
 trigger1 = Var(3) = 0
 type = VarSet
 v = 3
 value = 1
 [State 210, P2GotHit]
-trigger1 = playerid(getplayerid(2)),hitfall
+trigger1 = player(2),hitfall
 Type = VarSet
 v = 52
 value = 1
 [State 210, P2isOnGround]
-trigger1 = playerid(getplayerid(2)),pos y = 0
+trigger1 = player(2),pos y = 0
 Type = VarSet
 v = 52
 value = 0
 [State 210, HittingObjectP2]
-trigger1 = playerid(getplayerid(2)),pos x > Var(1) && playerid(getplayerid(2)),pos x < Var(2) 
-trigger1 = playerid(getplayerid(2)),pos y >= playerid(getplayerid(2)),-const(size.height) * 0.5
-trigger1 = playerid(getplayerid(2)),vel y != 0
+trigger1 = player(2),pos x > Var(1) && player(2),pos x < Var(2) 
+trigger1 = player(2),pos y >= -(player(2),const(size.height)) * 0.5
+trigger1 = player(2),vel y != 0
 trigger1 = Var(52) = 1
 trigger1 = Var(3) = 0
 type = VarSet
 v = 3
 value = 2
 [State 210, P3GotHit]
-trigger1 = playerid(getplayerid(3)),hitfall
+trigger1 = player(3),hitfall
 Type = VarSet
 v = 53
 value = 1
 [State 210, P3isOnGround]
-trigger1 = playerid(getplayerid(3)),pos y = 0
+trigger1 = player(3),pos y = 0
 Type = VarSet
 v = 53
 value = 0
 [State 210, HittingObjectP3]
-trigger1 = playerid(getplayerid(3)),pos x > Var(1) && playerid(getplayerid(3)),pos x < Var(2) 
-trigger1 = playerid(getplayerid(3)),pos y >= playerid(getplayerid(3)),-const(size.height) * 0.5
-trigger1 = playerid(getplayerid(3)),vel y != 0
+trigger1 = player(3),pos x > Var(1) && player(3),pos x < Var(2) 
+trigger1 = player(3),pos y >= -(player(3),const(size.height)) * 0.5
+trigger1 = player(3),vel y != 0
 trigger1 = Var(53) = 1
 trigger1 = Var(3) = 0
 type = VarSet
 v = 3
 value = 3
 [State 210, P4GotHit]
-trigger1 = playerid(getplayerid(4)),hitfall
+trigger1 = player(4),hitfall
 Type = VarSet
 v = 54
 value = 1
 [State 210, P4isOnGround]
-trigger1 = playerid(getplayerid(4)),pos y = 0
+trigger1 = player(4),pos y = 0
 Type = VarSet
 v = 54
 value = 0
 [State 210, HittingObjectP4]
-trigger1 = playerid(getplayerid(4)),pos x > Var(1) && playerid(getplayerid(4)),pos x < Var(2) 
-trigger1 = playerid(getplayerid(4)),pos y >= playerid(getplayerid(4)),-const(size.height) * 0.5
-trigger1 = playerid(getplayerid(4)),vel y != 0
+trigger1 = player(4),pos x > Var(1) && player(4),pos x < Var(2) 
+trigger1 = player(4),pos y >= -(player(4),const(size.height)) * 0.5
+trigger1 = player(4),vel y != 0
 trigger1 = Var(54) = 1
 trigger1 = Var(3) = 0
 type = VarSet
 v = 3
 value = 4
 [State 210, P5GotHit]
-trigger1 = playerid(getplayerid(5)),hitfall
+trigger1 = player(5),hitfall
 Type = VarSet
 v = 55
 value = 1
 [State 210, P5isOnGround]
-trigger1 = playerid(getplayerid(5)),pos y = 0
+trigger1 = player(5),pos y = 0
 Type = VarSet
 v = 55
 value = 0
 [State 210, HittingObjectP5]
-trigger1 = playerid(getplayerid(5)),pos x > Var(1) && playerid(getplayerid(5)),pos x < Var(2) 
-trigger1 = playerid(getplayerid(5)),pos y >= playerid(getplayerid(5)),-const(size.height) * 0.5
-trigger1 = playerid(getplayerid(5)),vel y != 0
+trigger1 = player(5),pos x > Var(1) && player(5),pos x < Var(2) 
+trigger1 = player(5),pos y >= -(player(5),const(size.height)) * 0.5
+trigger1 = player(5),vel y != 0
 trigger1 = Var(55) = 1
 trigger1 = Var(3) = 0
 type = VarSet
 v = 3
 value = 5
 [State 210, P6GotHit]
-trigger1 = playerid(getplayerid(6)),hitfall
+trigger1 = player(6),hitfall
 Type = VarSet
 v = 56
 value = 1
 [State 210, P6isOnGround]
-trigger1 = playerid(getplayerid(6)),pos y = 0
+trigger1 = player(6),pos y = 0
 Type = VarSet
 v = 56
 value = 0
 [State 210, HittingObjectP6]
-trigger1 = playerid(getplayerid(6)),pos x > Var(1) && playerid(getplayerid(6)),pos x < Var(2) 
-trigger1 = playerid(getplayerid(6)),pos y >= playerid(getplayerid(6)),-const(size.height) * 0.5
-trigger1 = playerid(getplayerid(6)),vel y != 0
+trigger1 = player(6),pos x > Var(1) && player(6),pos x < Var(2) 
+trigger1 = player(6),pos y >= -(player(6),const(size.height)) * 0.5
+trigger1 = player(6),vel y != 0
 trigger1 = Var(56) = 1
 trigger1 = Var(3) = 0
 type = VarSet
 v = 3
 value = 6
 [State 210, P7GotHit]
-trigger1 = playerid(getplayerid(7)),hitfall
+trigger1 = player(7),hitfall
 Type = VarSet
 v = 57
 value = 1
 [State 210, P7isOnGround]
-trigger1 = playerid(getplayerid(7)),pos y = 0
+trigger1 = player(7),pos y = 0
 Type = VarSet
 v = 57
 value = 0
 [State 210, HittingObjectP7]
-trigger1 = playerid(getplayerid(7)),pos x > Var(1) && playerid(getplayerid(7)),pos x < Var(2) 
-trigger1 = playerid(getplayerid(7)),pos y >= playerid(getplayerid(7)),-const(size.height) * 0.5
-trigger1 = playerid(getplayerid(7)),vel y != 0
+trigger1 = player(7),pos x > Var(1) && player(7),pos x < Var(2) 
+trigger1 = player(7),pos y >= -(player(7),const(size.height)) * 0.5
+trigger1 = player(7),vel y != 0
 trigger1 = Var(57) = 1
 trigger1 = Var(3) = 0
 type = VarSet
 v = 3
 value = 7
 [State 210, P8GotHit]
-trigger1 = playerid(getplayerid(8)),hitfall
+trigger1 = player(8),hitfall
 Type = VarSet
 v = 58
 value = 1
 [State 210, P8isOnGround]
-trigger1 = playerid(getplayerid(8)),pos y = 0
+trigger1 = player(8),pos y = 0
 Type = VarSet
 v = 58
 value = 0
 [State 210, HittingObjectP8]
-trigger1 = playerid(getplayerid(8)),pos x > Var(1) && playerid(getplayerid(8)),pos x < Var(2) 
-trigger1 = playerid(getplayerid(8)),pos y >= playerid(getplayerid(8)),-const(size.height) * 0.5
-trigger1 = playerid(getplayerid(8)),vel y != 0
+trigger1 = player(8),pos x > Var(1) && player(8),pos x < Var(2) 
+trigger1 = player(8),pos y >= -(player(8),const(size.height)) * 0.5
+trigger1 = player(8),vel y != 0
 trigger1 = Var(58) = 1
 trigger1 = Var(3) = 0
 type = VarSet
@@ -2024,7 +2024,7 @@ physics = N                      ;Physics: S-stand, C-crouch, A-air
 juggle  = 1                     ;Number of air juggle points move takes
 velset = 0,0                     ;Set velocity (x,y) (Def: no change)
 ctrl = 0                         ;Set ctrl (Def: no change)
-anim = Rand(18,19)                       ;Change animation (Def: no change)
+anim = (18+floor(Random*2/1000.0))                       ;Change animation (Def: no change)
 poweradd = 0                    ;Power to add (Def: 0)
 sprpriority = -8                  ;Set p1's sprite layering priority to 2 (in front)
 
@@ -2238,152 +2238,152 @@ v = 3
 value = 0
 
 [State 210, P1GotHit]
-trigger1 = playerid(getplayerid(1)),hitfall
+trigger1 = player(1),hitfall
 Type = VarSet
 v = 51
 value = 1
 [State 210, P1isOnGround]
-trigger1 = playerid(getplayerid(1)),pos y = 0
+trigger1 = player(1),pos y = 0
 Type = VarSet
 v = 51
 value = 0
 [State 210, HittingObjectP1]
-trigger1 = playerid(getplayerid(1)),pos x > Var(1) && playerid(getplayerid(1)),pos x < Var(2) 
-trigger1 = playerid(getplayerid(1)),pos y >= playerid(getplayerid(1)),-const(size.height) * 0.5
-trigger1 = playerid(getplayerid(1)),vel y != 0
+trigger1 = player(1),pos x > Var(1) && player(1),pos x < Var(2) 
+trigger1 = player(1),pos y >= -(player(1),const(size.height)) * 0.5
+trigger1 = player(1),vel y != 0
 trigger1 = Var(51) = 1
 trigger1 = Var(3) = 0
 type = VarSet
 v = 3
 value = 1
 [State 210, P2GotHit]
-trigger1 = playerid(getplayerid(2)),hitfall
+trigger1 = player(2),hitfall
 Type = VarSet
 v = 52
 value = 1
 [State 210, P2isOnGround]
-trigger1 = playerid(getplayerid(2)),pos y = 0
+trigger1 = player(2),pos y = 0
 Type = VarSet
 v = 52
 value = 0
 [State 210, HittingObjectP2]
-trigger1 = playerid(getplayerid(2)),pos x > Var(1) && playerid(getplayerid(2)),pos x < Var(2) 
-trigger1 = playerid(getplayerid(2)),pos y >= playerid(getplayerid(2)),-const(size.height) * 0.5
-trigger1 = playerid(getplayerid(2)),vel y != 0
+trigger1 = player(2),pos x > Var(1) && player(2),pos x < Var(2) 
+trigger1 = player(2),pos y >= -(player(2),const(size.height)) * 0.5
+trigger1 = player(2),vel y != 0
 trigger1 = Var(52) = 1
 trigger1 = Var(3) = 0
 type = VarSet
 v = 3
 value = 2
 [State 210, P3GotHit]
-trigger1 = playerid(getplayerid(3)),hitfall
+trigger1 = player(3),hitfall
 Type = VarSet
 v = 53
 value = 1
 [State 210, P3isOnGround]
-trigger1 = playerid(getplayerid(3)),pos y = 0
+trigger1 = player(3),pos y = 0
 Type = VarSet
 v = 53
 value = 0
 [State 210, HittingObjectP3]
-trigger1 = playerid(getplayerid(3)),pos x > Var(1) && playerid(getplayerid(3)),pos x < Var(2) 
-trigger1 = playerid(getplayerid(3)),pos y >= playerid(getplayerid(3)),-const(size.height) * 0.5
-trigger1 = playerid(getplayerid(3)),vel y != 0
+trigger1 = player(3),pos x > Var(1) && player(3),pos x < Var(2) 
+trigger1 = player(3),pos y >= -(player(3),const(size.height)) * 0.5
+trigger1 = player(3),vel y != 0
 trigger1 = Var(53) = 1
 trigger1 = Var(3) = 0
 type = VarSet
 v = 3
 value = 3
 [State 210, P4GotHit]
-trigger1 = playerid(getplayerid(4)),hitfall
+trigger1 = player(4),hitfall
 Type = VarSet
 v = 54
 value = 1
 [State 210, P4isOnGround]
-trigger1 = playerid(getplayerid(4)),pos y = 0
+trigger1 = player(4),pos y = 0
 Type = VarSet
 v = 54
 value = 0
 [State 210, HittingObjectP4]
-trigger1 = playerid(getplayerid(4)),pos x > Var(1) && playerid(getplayerid(4)),pos x < Var(2) 
-trigger1 = playerid(getplayerid(4)),pos y >= playerid(getplayerid(4)),-const(size.height) * 0.5
-trigger1 = playerid(getplayerid(4)),vel y != 0
+trigger1 = player(4),pos x > Var(1) && player(4),pos x < Var(2) 
+trigger1 = player(4),pos y >= -(player(4),const(size.height)) * 0.5
+trigger1 = player(4),vel y != 0
 trigger1 = Var(54) = 1
 trigger1 = Var(3) = 0
 type = VarSet
 v = 3
 value = 4
 [State 210, P5GotHit]
-trigger1 = playerid(getplayerid(5)),hitfall
+trigger1 = player(5),hitfall
 Type = VarSet
 v = 55
 value = 1
 [State 210, P5isOnGround]
-trigger1 = playerid(getplayerid(5)),pos y = 0
+trigger1 = player(5),pos y = 0
 Type = VarSet
 v = 55
 value = 0
 [State 210, HittingObjectP5]
-trigger1 = playerid(getplayerid(5)),pos x > Var(1) && playerid(getplayerid(5)),pos x < Var(2) 
-trigger1 = playerid(getplayerid(5)),pos y >= playerid(getplayerid(5)),-const(size.height) * 0.5
-trigger1 = playerid(getplayerid(5)),vel y != 0
+trigger1 = player(5),pos x > Var(1) && player(5),pos x < Var(2) 
+trigger1 = player(5),pos y >= -(player(5),const(size.height)) * 0.5
+trigger1 = player(5),vel y != 0
 trigger1 = Var(55) = 1
 trigger1 = Var(3) = 0
 type = VarSet
 v = 3
 value = 5
 [State 210, P6GotHit]
-trigger1 = playerid(getplayerid(6)),hitfall
+trigger1 = player(6),hitfall
 Type = VarSet
 v = 56
 value = 1
 [State 210, P6isOnGround]
-trigger1 = playerid(getplayerid(6)),pos y = 0
+trigger1 = player(6),pos y = 0
 Type = VarSet
 v = 56
 value = 0
 [State 210, HittingObjectP6]
-trigger1 = playerid(getplayerid(6)),pos x > Var(1) && playerid(getplayerid(6)),pos x < Var(2) 
-trigger1 = playerid(getplayerid(6)),pos y >= playerid(getplayerid(6)),-const(size.height) * 0.5
-trigger1 = playerid(getplayerid(6)),vel y != 0
+trigger1 = player(6),pos x > Var(1) && player(6),pos x < Var(2) 
+trigger1 = player(6),pos y >= -(player(6),const(size.height)) * 0.5
+trigger1 = player(6),vel y != 0
 trigger1 = Var(56) = 1
 trigger1 = Var(3) = 0
 type = VarSet
 v = 3
 value = 6
 [State 210, P7GotHit]
-trigger1 = playerid(getplayerid(7)),hitfall
+trigger1 = player(7),hitfall
 Type = VarSet
 v = 57
 value = 1
 [State 210, P7isOnGround]
-trigger1 = playerid(getplayerid(7)),pos y = 0
+trigger1 = player(7),pos y = 0
 Type = VarSet
 v = 57
 value = 0
 [State 210, HittingObjectP7]
-trigger1 = playerid(getplayerid(7)),pos x > Var(1) && playerid(getplayerid(7)),pos x < Var(2) 
-trigger1 = playerid(getplayerid(7)),pos y >= playerid(getplayerid(7)),-const(size.height) * 0.5
-trigger1 = playerid(getplayerid(7)),vel y != 0
+trigger1 = player(7),pos x > Var(1) && player(7),pos x < Var(2) 
+trigger1 = player(7),pos y >= -(player(7),const(size.height)) * 0.5
+trigger1 = player(7),vel y != 0
 trigger1 = Var(57) = 1
 trigger1 = Var(3) = 0
 type = VarSet
 v = 3
 value = 7
 [State 210, P8GotHit]
-trigger1 = playerid(getplayerid(8)),hitfall
+trigger1 = player(8),hitfall
 Type = VarSet
 v = 58
 value = 1
 [State 210, P8isOnGround]
-trigger1 = playerid(getplayerid(8)),pos y = 0
+trigger1 = player(8),pos y = 0
 Type = VarSet
 v = 58
 value = 0
 [State 210, HittingObjectP8]
-trigger1 = playerid(getplayerid(8)),pos x > Var(1) && playerid(getplayerid(8)),pos x < Var(2) 
-trigger1 = playerid(getplayerid(8)),pos y >= playerid(getplayerid(8)),-const(size.height) * 0.5
-trigger1 = playerid(getplayerid(8)),vel y != 0
+trigger1 = player(8),pos x > Var(1) && player(8),pos x < Var(2) 
+trigger1 = player(8),pos y >= -(player(8),const(size.height)) * 0.5
+trigger1 = player(8),vel y != 0
 trigger1 = Var(58) = 1
 trigger1 = Var(3) = 0
 type = VarSet
@@ -2488,7 +2488,7 @@ physics = N                      ;Physics: S-stand, C-crouch, A-air
 juggle  = 1                     ;Number of air juggle points move takes
 velset = 0,0                     ;Set velocity (x,y) (Def: no change)
 ctrl = 0                         ;Set ctrl (Def: no change)
-anim = Rand(35,36)                       ;Change animation (Def: no change)
+anim = (35+floor(Random*2/1000.0))                       ;Change animation (Def: no change)
 poweradd = 0                    ;Power to add (Def: 0)
 sprpriority = -8                  ;Set p1's sprite layering priority to 2 (in front)
 
@@ -2567,7 +2567,7 @@ physics = N                      ;Physics: S-stand, C-crouch, A-air
 juggle  = 1                     ;Number of air juggle points move takes
 velset = 0,0                     ;Set velocity (x,y) (Def: no change)
 ctrl = 0                         ;Set ctrl (Def: no change)
-anim = Rand(31,34)                       ;Change animation (Def: no change)
+anim = (31+floor(Random*4/1000.0))                       ;Change animation (Def: no change)
 poweradd = 0                    ;Power to add (Def: 0)
 sprpriority = -8                  ;Set p1's sprite layering priority to 2 (in front)
 
@@ -2699,152 +2699,152 @@ v = 3
 value = 0
 
 [State 210, P1GotHit]
-trigger1 = playerid(getplayerid(1)),hitfall
+trigger1 = player(1),hitfall
 Type = VarSet
 v = 51
 value = 1
 [State 210, P1isOnGround]
-trigger1 = playerid(getplayerid(1)),pos y = 0
+trigger1 = player(1),pos y = 0
 Type = VarSet
 v = 51
 value = 0
 [State 210, HittingObjectP1]
-trigger1 = playerid(getplayerid(1)),pos x > Var(1) && playerid(getplayerid(1)),pos x < Var(2) 
-trigger1 = playerid(getplayerid(1)),pos y >= playerid(getplayerid(1)),-const(size.height) * 0.5
-trigger1 = playerid(getplayerid(1)),vel y != 0
+trigger1 = player(1),pos x > Var(1) && player(1),pos x < Var(2) 
+trigger1 = player(1),pos y >= -(player(1),const(size.height)) * 0.5
+trigger1 = player(1),vel y != 0
 trigger1 = Var(51) = 1
 trigger1 = Var(3) = 0
 type = VarSet
 v = 3
 value = 1
 [State 210, P2GotHit]
-trigger1 = playerid(getplayerid(2)),hitfall
+trigger1 = player(2),hitfall
 Type = VarSet
 v = 52
 value = 1
 [State 210, P2isOnGround]
-trigger1 = playerid(getplayerid(2)),pos y = 0
+trigger1 = player(2),pos y = 0
 Type = VarSet
 v = 52
 value = 0
 [State 210, HittingObjectP2]
-trigger1 = playerid(getplayerid(2)),pos x > Var(1) && playerid(getplayerid(2)),pos x < Var(2) 
-trigger1 = playerid(getplayerid(2)),pos y >= playerid(getplayerid(2)),-const(size.height) * 0.5
-trigger1 = playerid(getplayerid(2)),vel y != 0
+trigger1 = player(2),pos x > Var(1) && player(2),pos x < Var(2) 
+trigger1 = player(2),pos y >= -(player(2),const(size.height)) * 0.5
+trigger1 = player(2),vel y != 0
 trigger1 = Var(52) = 1
 trigger1 = Var(3) = 0
 type = VarSet
 v = 3
 value = 2
 [State 210, P3GotHit]
-trigger1 = playerid(getplayerid(3)),hitfall
+trigger1 = player(3),hitfall
 Type = VarSet
 v = 53
 value = 1
 [State 210, P3isOnGround]
-trigger1 = playerid(getplayerid(3)),pos y = 0
+trigger1 = player(3),pos y = 0
 Type = VarSet
 v = 53
 value = 0
 [State 210, HittingObjectP3]
-trigger1 = playerid(getplayerid(3)),pos x > Var(1) && playerid(getplayerid(3)),pos x < Var(2) 
-trigger1 = playerid(getplayerid(3)),pos y >= playerid(getplayerid(3)),-const(size.height) * 0.5
-trigger1 = playerid(getplayerid(3)),vel y != 0
+trigger1 = player(3),pos x > Var(1) && player(3),pos x < Var(2) 
+trigger1 = player(3),pos y >= -(player(3),const(size.height)) * 0.5
+trigger1 = player(3),vel y != 0
 trigger1 = Var(53) = 1
 trigger1 = Var(3) = 0
 type = VarSet
 v = 3
 value = 3
 [State 210, P4GotHit]
-trigger1 = playerid(getplayerid(4)),hitfall
+trigger1 = player(4),hitfall
 Type = VarSet
 v = 54
 value = 1
 [State 210, P4isOnGround]
-trigger1 = playerid(getplayerid(4)),pos y = 0
+trigger1 = player(4),pos y = 0
 Type = VarSet
 v = 54
 value = 0
 [State 210, HittingObjectP4]
-trigger1 = playerid(getplayerid(4)),pos x > Var(1) && playerid(getplayerid(4)),pos x < Var(2) 
-trigger1 = playerid(getplayerid(4)),pos y >= playerid(getplayerid(4)),-const(size.height) * 0.5
-trigger1 = playerid(getplayerid(4)),vel y != 0
+trigger1 = player(4),pos x > Var(1) && player(4),pos x < Var(2) 
+trigger1 = player(4),pos y >= -(player(4),const(size.height)) * 0.5
+trigger1 = player(4),vel y != 0
 trigger1 = Var(54) = 1
 trigger1 = Var(3) = 0
 type = VarSet
 v = 3
 value = 4
 [State 210, P5GotHit]
-trigger1 = playerid(getplayerid(5)),hitfall
+trigger1 = player(5),hitfall
 Type = VarSet
 v = 55
 value = 1
 [State 210, P5isOnGround]
-trigger1 = playerid(getplayerid(5)),pos y = 0
+trigger1 = player(5),pos y = 0
 Type = VarSet
 v = 55
 value = 0
 [State 210, HittingObjectP5]
-trigger1 = playerid(getplayerid(5)),pos x > Var(1) && playerid(getplayerid(5)),pos x < Var(2) 
-trigger1 = playerid(getplayerid(5)),pos y >= playerid(getplayerid(5)),-const(size.height) * 0.5
-trigger1 = playerid(getplayerid(5)),vel y != 0
+trigger1 = player(5),pos x > Var(1) && player(5),pos x < Var(2) 
+trigger1 = player(5),pos y >= -(player(5),const(size.height)) * 0.5
+trigger1 = player(5),vel y != 0
 trigger1 = Var(55) = 1
 trigger1 = Var(3) = 0
 type = VarSet
 v = 3
 value = 5
 [State 210, P6GotHit]
-trigger1 = playerid(getplayerid(6)),hitfall
+trigger1 = player(6),hitfall
 Type = VarSet
 v = 56
 value = 1
 [State 210, P6isOnGround]
-trigger1 = playerid(getplayerid(6)),pos y = 0
+trigger1 = player(6),pos y = 0
 Type = VarSet
 v = 56
 value = 0
 [State 210, HittingObjectP6]
-trigger1 = playerid(getplayerid(6)),pos x > Var(1) && playerid(getplayerid(6)),pos x < Var(2) 
-trigger1 = playerid(getplayerid(6)),pos y >= playerid(getplayerid(6)),-const(size.height) * 0.5
-trigger1 = playerid(getplayerid(6)),vel y != 0
+trigger1 = player(6),pos x > Var(1) && player(6),pos x < Var(2) 
+trigger1 = player(6),pos y >= -(player(6),const(size.height)) * 0.5
+trigger1 = player(6),vel y != 0
 trigger1 = Var(56) = 1
 trigger1 = Var(3) = 0
 type = VarSet
 v = 3
 value = 6
 [State 210, P7GotHit]
-trigger1 = playerid(getplayerid(7)),hitfall
+trigger1 = player(7),hitfall
 Type = VarSet
 v = 57
 value = 1
 [State 210, P7isOnGround]
-trigger1 = playerid(getplayerid(7)),pos y = 0
+trigger1 = player(7),pos y = 0
 Type = VarSet
 v = 57
 value = 0
 [State 210, HittingObjectP7]
-trigger1 = playerid(getplayerid(7)),pos x > Var(1) && playerid(getplayerid(7)),pos x < Var(2) 
-trigger1 = playerid(getplayerid(7)),pos y >= playerid(getplayerid(7)),-const(size.height) * 0.5
-trigger1 = playerid(getplayerid(7)),vel y != 0
+trigger1 = player(7),pos x > Var(1) && player(7),pos x < Var(2) 
+trigger1 = player(7),pos y >= -(player(7),const(size.height)) * 0.5
+trigger1 = player(7),vel y != 0
 trigger1 = Var(57) = 1
 trigger1 = Var(3) = 0
 type = VarSet
 v = 3
 value = 7
 [State 210, P8GotHit]
-trigger1 = playerid(getplayerid(8)),hitfall
+trigger1 = player(8),hitfall
 Type = VarSet
 v = 58
 value = 1
 [State 210, P8isOnGround]
-trigger1 = playerid(getplayerid(8)),pos y = 0
+trigger1 = player(8),pos y = 0
 Type = VarSet
 v = 58
 value = 0
 [State 210, HittingObjectP8]
-trigger1 = playerid(getplayerid(8)),pos x > Var(1) && playerid(getplayerid(8)),pos x < Var(2) 
-trigger1 = playerid(getplayerid(8)),pos y >= playerid(getplayerid(8)),-const(size.height) * 0.5
-trigger1 = playerid(getplayerid(8)),vel y != 0
+trigger1 = player(8),pos x > Var(1) && player(8),pos x < Var(2) 
+trigger1 = player(8),pos y >= -(player(8),const(size.height)) * 0.5
+trigger1 = player(8),vel y != 0
 trigger1 = Var(58) = 1
 trigger1 = Var(3) = 0
 type = VarSet
@@ -2992,7 +2992,7 @@ y = 0.2
 trigger1 = Time = 0
 persistent = 0
 type = VelSet
-x = Rand(-3,-0.25)
+x = (-3+Random*2.75/999.0)
 
 [State 1051, DefineYSpeed]
 trigger1 = Time = 0
@@ -3118,7 +3118,7 @@ physics = N                      ;Physics: S-stand, C-crouch, A-air
 juggle  = 1                     ;Number of air juggle points move takes
 velset = 0,0                     ;Set velocity (x,y) (Def: no change)
 ctrl = 0                         ;Set ctrl (Def: no change)
-anim = Rand(40,42)                       ;Change animation (Def: no change)
+anim = (40+floor(Random*3/1000.0))                       ;Change animation (Def: no change)
 poweradd = 0                    ;Power to add (Def: 0)
 sprpriority = -8                  ;Set p1's sprite layering priority to 2 (in front)
 
@@ -3248,152 +3248,152 @@ v = 3
 value = 0
 
 [State 210, P1GotHit]
-trigger1 = playerid(getplayerid(1)),hitfall
+trigger1 = player(1),hitfall
 Type = VarSet
 v = 51
 value = 1
 [State 210, P1isOnGround]
-trigger1 = playerid(getplayerid(1)),pos y = 0
+trigger1 = player(1),pos y = 0
 Type = VarSet
 v = 51
 value = 0
 [State 210, HittingObjectP1]
-trigger1 = playerid(getplayerid(1)),pos x > Var(1) && playerid(getplayerid(1)),pos x < Var(2) 
-trigger1 = playerid(getplayerid(1)),pos y >= playerid(getplayerid(1)),-const(size.height) * 0.5
-trigger1 = playerid(getplayerid(1)),vel y != 0
+trigger1 = player(1),pos x > Var(1) && player(1),pos x < Var(2) 
+trigger1 = player(1),pos y >= -(player(1),const(size.height)) * 0.5
+trigger1 = player(1),vel y != 0
 trigger1 = Var(51) = 1
 trigger1 = Var(3) = 0
 type = VarSet
 v = 3
 value = 1
 [State 210, P2GotHit]
-trigger1 = playerid(getplayerid(2)),hitfall
+trigger1 = player(2),hitfall
 Type = VarSet
 v = 52
 value = 1
 [State 210, P2isOnGround]
-trigger1 = playerid(getplayerid(2)),pos y = 0
+trigger1 = player(2),pos y = 0
 Type = VarSet
 v = 52
 value = 0
 [State 210, HittingObjectP2]
-trigger1 = playerid(getplayerid(2)),pos x > Var(1) && playerid(getplayerid(2)),pos x < Var(2) 
-trigger1 = playerid(getplayerid(2)),pos y >= playerid(getplayerid(2)),-const(size.height) * 0.5
-trigger1 = playerid(getplayerid(2)),vel y != 0
+trigger1 = player(2),pos x > Var(1) && player(2),pos x < Var(2) 
+trigger1 = player(2),pos y >= -(player(2),const(size.height)) * 0.5
+trigger1 = player(2),vel y != 0
 trigger1 = Var(52) = 1
 trigger1 = Var(3) = 0
 type = VarSet
 v = 3
 value = 2
 [State 210, P3GotHit]
-trigger1 = playerid(getplayerid(3)),hitfall
+trigger1 = player(3),hitfall
 Type = VarSet
 v = 53
 value = 1
 [State 210, P3isOnGround]
-trigger1 = playerid(getplayerid(3)),pos y = 0
+trigger1 = player(3),pos y = 0
 Type = VarSet
 v = 53
 value = 0
 [State 210, HittingObjectP3]
-trigger1 = playerid(getplayerid(3)),pos x > Var(1) && playerid(getplayerid(3)),pos x < Var(2) 
-trigger1 = playerid(getplayerid(3)),pos y >= playerid(getplayerid(3)),-const(size.height) * 0.5
-trigger1 = playerid(getplayerid(3)),vel y != 0
+trigger1 = player(3),pos x > Var(1) && player(3),pos x < Var(2) 
+trigger1 = player(3),pos y >= -(player(3),const(size.height)) * 0.5
+trigger1 = player(3),vel y != 0
 trigger1 = Var(53) = 1
 trigger1 = Var(3) = 0
 type = VarSet
 v = 3
 value = 3
 [State 210, P4GotHit]
-trigger1 = playerid(getplayerid(4)),hitfall
+trigger1 = player(4),hitfall
 Type = VarSet
 v = 54
 value = 1
 [State 210, P4isOnGround]
-trigger1 = playerid(getplayerid(4)),pos y = 0
+trigger1 = player(4),pos y = 0
 Type = VarSet
 v = 54
 value = 0
 [State 210, HittingObjectP4]
-trigger1 = playerid(getplayerid(4)),pos x > Var(1) && playerid(getplayerid(4)),pos x < Var(2) 
-trigger1 = playerid(getplayerid(4)),pos y >= playerid(getplayerid(4)),-const(size.height) * 0.5
-trigger1 = playerid(getplayerid(4)),vel y != 0
+trigger1 = player(4),pos x > Var(1) && player(4),pos x < Var(2) 
+trigger1 = player(4),pos y >= -(player(4),const(size.height)) * 0.5
+trigger1 = player(4),vel y != 0
 trigger1 = Var(54) = 1
 trigger1 = Var(3) = 0
 type = VarSet
 v = 3
 value = 4
 [State 210, P5GotHit]
-trigger1 = playerid(getplayerid(5)),hitfall
+trigger1 = player(5),hitfall
 Type = VarSet
 v = 55
 value = 1
 [State 210, P5isOnGround]
-trigger1 = playerid(getplayerid(5)),pos y = 0
+trigger1 = player(5),pos y = 0
 Type = VarSet
 v = 55
 value = 0
 [State 210, HittingObjectP5]
-trigger1 = playerid(getplayerid(5)),pos x > Var(1) && playerid(getplayerid(5)),pos x < Var(2) 
-trigger1 = playerid(getplayerid(5)),pos y >= playerid(getplayerid(5)),-const(size.height) * 0.5
-trigger1 = playerid(getplayerid(5)),vel y != 0
+trigger1 = player(5),pos x > Var(1) && player(5),pos x < Var(2) 
+trigger1 = player(5),pos y >= -(player(5),const(size.height)) * 0.5
+trigger1 = player(5),vel y != 0
 trigger1 = Var(55) = 1
 trigger1 = Var(3) = 0
 type = VarSet
 v = 3
 value = 5
 [State 210, P6GotHit]
-trigger1 = playerid(getplayerid(6)),hitfall
+trigger1 = player(6),hitfall
 Type = VarSet
 v = 56
 value = 1
 [State 210, P6isOnGround]
-trigger1 = playerid(getplayerid(6)),pos y = 0
+trigger1 = player(6),pos y = 0
 Type = VarSet
 v = 56
 value = 0
 [State 210, HittingObjectP6]
-trigger1 = playerid(getplayerid(6)),pos x > Var(1) && playerid(getplayerid(6)),pos x < Var(2) 
-trigger1 = playerid(getplayerid(6)),pos y >= playerid(getplayerid(6)),-const(size.height) * 0.5
-trigger1 = playerid(getplayerid(6)),vel y != 0
+trigger1 = player(6),pos x > Var(1) && player(6),pos x < Var(2) 
+trigger1 = player(6),pos y >= -(player(6),const(size.height)) * 0.5
+trigger1 = player(6),vel y != 0
 trigger1 = Var(56) = 1
 trigger1 = Var(3) = 0
 type = VarSet
 v = 3
 value = 6
 [State 210, P7GotHit]
-trigger1 = playerid(getplayerid(7)),hitfall
+trigger1 = player(7),hitfall
 Type = VarSet
 v = 57
 value = 1
 [State 210, P7isOnGround]
-trigger1 = playerid(getplayerid(7)),pos y = 0
+trigger1 = player(7),pos y = 0
 Type = VarSet
 v = 57
 value = 0
 [State 210, HittingObjectP7]
-trigger1 = playerid(getplayerid(7)),pos x > Var(1) && playerid(getplayerid(7)),pos x < Var(2) 
-trigger1 = playerid(getplayerid(7)),pos y >= playerid(getplayerid(7)),-const(size.height) * 0.5
-trigger1 = playerid(getplayerid(7)),vel y != 0
+trigger1 = player(7),pos x > Var(1) && player(7),pos x < Var(2) 
+trigger1 = player(7),pos y >= -(player(7),const(size.height)) * 0.5
+trigger1 = player(7),vel y != 0
 trigger1 = Var(57) = 1
 trigger1 = Var(3) = 0
 type = VarSet
 v = 3
 value = 7
 [State 210, P8GotHit]
-trigger1 = playerid(getplayerid(8)),hitfall
+trigger1 = player(8),hitfall
 Type = VarSet
 v = 58
 value = 1
 [State 210, P8isOnGround]
-trigger1 = playerid(getplayerid(8)),pos y = 0
+trigger1 = player(8),pos y = 0
 Type = VarSet
 v = 58
 value = 0
 [State 210, HittingObjectP8]
-trigger1 = playerid(getplayerid(8)),pos x > Var(1) && playerid(getplayerid(8)),pos x < Var(2) 
-trigger1 = playerid(getplayerid(8)),pos y >= playerid(getplayerid(8)),-const(size.height) * 0.5
-trigger1 = playerid(getplayerid(8)),vel y != 0
+trigger1 = player(8),pos x > Var(1) && player(8),pos x < Var(2) 
+trigger1 = player(8),pos y >= -(player(8),const(size.height)) * 0.5
+trigger1 = player(8),vel y != 0
 trigger1 = Var(58) = 1
 trigger1 = Var(3) = 0
 type = VarSet
@@ -3426,7 +3426,7 @@ name = "Piece1"
 ID = 6
 stateno = 221
 type = helper
-pos = Rand(-30,30),Rand(-25,25)
+pos = (-30+floor(Random*61/1000.0)),(-25+floor(Random*51/1000.0))
 keyctrl = 0
 ownpal = 1
 supermovetime = 99999
@@ -3443,7 +3443,7 @@ name = "Piece1"
 ID = 6
 stateno = 221
 type = helper
-pos = Rand(-30,30),Rand(-25,25)
+pos = (-30+floor(Random*61/1000.0)),(-25+floor(Random*51/1000.0))
 keyctrl = 0
 ownpal = 1
 supermovetime = 99999
@@ -3460,7 +3460,7 @@ name = "Piece1"
 ID = 6
 stateno = 221
 type = helper
-pos = Rand(-30,30),Rand(-25,25)
+pos = (-30+floor(Random*61/1000.0)),(-25+floor(Random*51/1000.0))
 keyctrl = 0
 ownpal = 1
 supermovetime = 99999
@@ -3512,12 +3512,12 @@ y = 0.2
 trigger1 = Time = 0
 persistent = 0
 type = VelSet
-x = Rand(-1.75,1.75)
+x = (-1.75+Random*3.5/999.0)
 
 [State 1051, DefineYSpeed]
 trigger1 = Time = 0
 type = VelSet
-y = Rand(-4.5,-1.25)
+y = (-4.5+Random*3.25/999.0)
 
 [State 210, PiecesLeft]
 trigger1 = Pos Y >= 0 && Vel Y > 0
@@ -3587,11 +3587,11 @@ y = 0.2
 trigger1 = Time = 0
 persistent = 0
 type = VelSet
-x = Rand(-0.75,-0.25)
+x = (-0.75+Random*0.5/999.0)
 [State 1051, DefineYSpeed]
 trigger1 = Time = 0
 type = VelSet
-y = Rand(-0.75,-0.15)
+y = (-0.75+Random*0.6/999.0)
 
 [State 1051, BounceCounterSet]
 trigger1 = Time = 0
@@ -3646,11 +3646,11 @@ y = 0.2
 trigger1 = Time = 0
 persistent = 0
 type = VelSet
-x = Rand(0.25,0.75)
+x = (0.25+Random*0.5/999.0)
 [State 1051, DefineYSpeed]
 trigger1 = Time = 0
 type = VelSet
-y = Rand(0.25,0.75)
+y = (0.25+Random*0.5/999.0)
 
 [State 1051, BounceCounterSet]
 trigger1 = Time = 0
@@ -3713,49 +3713,49 @@ value = 210
 trigger1 = HelperName = "P1" = 1
 type = VarSet
 v = 11
-value = playerid(getplayerid(1)),ID
+value = player(1),ID
 
 [State 666, GiveIDs]
 trigger1 = HelperName = "P2" = 1
 type = VarSet
 v = 11
-value = playerid(getplayerid(2)),ID
+value = player(2),ID
 
 [State 666, GiveIDs]
 trigger1 = HelperName = "P3"
 type = VarSet
 v = 11
-value = playerid(getplayerid(3)),ID
+value = player(3),ID
 
 [State 666, GiveIDs]
 trigger1 = HelperName = "P4"
 type = VarSet
 v = 11
-value = playerid(getplayerid(4)),ID
+value = player(4),ID
 
 [State 666, GiveIDs]
 trigger1 = HelperName = "P5"
 type = VarSet
 v = 11
-value = playerid(getplayerid(5)),ID
+value = player(5),ID
 
 [State 666, GiveIDs]
 trigger1 = HelperName = "P6"
 type = VarSet
 v = 11
-value = playerid(getplayerid(6)),ID
+value = player(6),ID
 
 [State 666, GiveIDs]
 trigger1 = HelperName = "P7"
 type = VarSet
 v = 11
-value = playerid(getplayerid(7)),ID
+value = player(7),ID
 
 [State 666, GiveIDs]
 trigger1 = HelperName = "P8"
 type = VarSet
 v = 11
-value = playerid(getplayerid(8)),ID
+value = player(8),ID
 
 ;[Begin Action 21];WhirlStand
 ;[Begin Action 22];Mid Plash
@@ -3958,152 +3958,152 @@ v = 3
 value = 0
 
 [State 200, P1GotHit]
-trigger1 = playerid(getplayerid(1)),hitfall
+trigger1 = player(1),hitfall
 Type = VarSet
 v = 51
 value = 1
 [State 200, P1isOnGround]
-trigger1 = playerid(getplayerid(1)),pos y = 0
+trigger1 = player(1),pos y = 0
 Type = VarSet
 v = 51
 value = 0
 [State 200, HittingObjectP1]
-trigger1 = playerid(getplayerid(1)),pos x > Var(1) && playerid(getplayerid(1)),pos x < Var(2) 
-trigger1 = playerid(getplayerid(1)),pos y >= playerid(getplayerid(1)),-const(size.height) * 0.5
-trigger1 = playerid(getplayerid(1)),vel y != 0
+trigger1 = player(1),pos x > Var(1) && player(1),pos x < Var(2) 
+trigger1 = player(1),pos y >= -(player(1),const(size.height)) * 0.5
+trigger1 = player(1),vel y != 0
 trigger1 = Var(51) = 1
 trigger1 = Var(3) = 0
 type = VarSet
 v = 3
 value = 1
 [State 200, P2GotHit]
-trigger1 = playerid(getplayerid(2)),hitfall
+trigger1 = player(2),hitfall
 Type = VarSet
 v = 52
 value = 1
 [State 200, P2isOnGround]
-trigger1 = playerid(getplayerid(2)),pos y = 0
+trigger1 = player(2),pos y = 0
 Type = VarSet
 v = 52
 value = 0
 [State 200, HittingObjectP2]
-trigger1 = playerid(getplayerid(2)),pos x > Var(1) && playerid(getplayerid(2)),pos x < Var(2) 
-trigger1 = playerid(getplayerid(2)),pos y >= playerid(getplayerid(2)),-const(size.height) * 0.5
-trigger1 = playerid(getplayerid(2)),vel y != 0
+trigger1 = player(2),pos x > Var(1) && player(2),pos x < Var(2) 
+trigger1 = player(2),pos y >= -(player(2),const(size.height)) * 0.5
+trigger1 = player(2),vel y != 0
 trigger1 = Var(52) = 1
 trigger1 = Var(3) = 0
 type = VarSet
 v = 3
 value = 2
 [State 200, P3GotHit]
-trigger1 = playerid(getplayerid(3)),hitfall
+trigger1 = player(3),hitfall
 Type = VarSet
 v = 53
 value = 1
 [State 200, P3isOnGround]
-trigger1 = playerid(getplayerid(3)),pos y = 0
+trigger1 = player(3),pos y = 0
 Type = VarSet
 v = 53
 value = 0
 [State 200, HittingObjectP3]
-trigger1 = playerid(getplayerid(3)),pos x > Var(1) && playerid(getplayerid(3)),pos x < Var(2) 
-trigger1 = playerid(getplayerid(3)),pos y >= playerid(getplayerid(3)),-const(size.height) * 0.5
-trigger1 = playerid(getplayerid(3)),vel y != 0
+trigger1 = player(3),pos x > Var(1) && player(3),pos x < Var(2) 
+trigger1 = player(3),pos y >= -(player(3),const(size.height)) * 0.5
+trigger1 = player(3),vel y != 0
 trigger1 = Var(53) = 1
 trigger1 = Var(3) = 0
 type = VarSet
 v = 3
 value = 3
 [State 200, P4GotHit]
-trigger1 = playerid(getplayerid(4)),hitfall
+trigger1 = player(4),hitfall
 Type = VarSet
 v = 54
 value = 1
 [State 200, P4isOnGround]
-trigger1 = playerid(getplayerid(4)),pos y = 0
+trigger1 = player(4),pos y = 0
 Type = VarSet
 v = 54
 value = 0
 [State 200, HittingObjectP4]
-trigger1 = playerid(getplayerid(4)),pos x > Var(1) && playerid(getplayerid(4)),pos x < Var(2) 
-trigger1 = playerid(getplayerid(4)),pos y >= playerid(getplayerid(4)),-const(size.height) * 0.5
-trigger1 = playerid(getplayerid(4)),vel y != 0
+trigger1 = player(4),pos x > Var(1) && player(4),pos x < Var(2) 
+trigger1 = player(4),pos y >= -(player(4),const(size.height)) * 0.5
+trigger1 = player(4),vel y != 0
 trigger1 = Var(54) = 1
 trigger1 = Var(3) = 0
 type = VarSet
 v = 3
 value = 4
 [State 200, P5GotHit]
-trigger1 = playerid(getplayerid(5)),hitfall
+trigger1 = player(5),hitfall
 Type = VarSet
 v = 55
 value = 1
 [State 200, P5isOnGround]
-trigger1 = playerid(getplayerid(5)),pos y = 0
+trigger1 = player(5),pos y = 0
 Type = VarSet
 v = 55
 value = 0
 [State 200, HittingObjectP5]
-trigger1 = playerid(getplayerid(5)),pos x > Var(1) && playerid(getplayerid(5)),pos x < Var(2) 
-trigger1 = playerid(getplayerid(5)),pos y >= playerid(getplayerid(5)),-const(size.height) * 0.5
-trigger1 = playerid(getplayerid(5)),vel y != 0
+trigger1 = player(5),pos x > Var(1) && player(5),pos x < Var(2) 
+trigger1 = player(5),pos y >= -(player(5),const(size.height)) * 0.5
+trigger1 = player(5),vel y != 0
 trigger1 = Var(55) = 1
 trigger1 = Var(3) = 0
 type = VarSet
 v = 3
 value = 5
 [State 200, P6GotHit]
-trigger1 = playerid(getplayerid(6)),hitfall
+trigger1 = player(6),hitfall
 Type = VarSet
 v = 56
 value = 1
 [State 200, P6isOnGround]
-trigger1 = playerid(getplayerid(6)),pos y = 0
+trigger1 = player(6),pos y = 0
 Type = VarSet
 v = 56
 value = 0
 [State 200, HittingObjectP6]
-trigger1 = playerid(getplayerid(6)),pos x > Var(1) && playerid(getplayerid(6)),pos x < Var(2) 
-trigger1 = playerid(getplayerid(6)),pos y >= playerid(getplayerid(6)),-const(size.height) * 0.5
-trigger1 = playerid(getplayerid(6)),vel y != 0
+trigger1 = player(6),pos x > Var(1) && player(6),pos x < Var(2) 
+trigger1 = player(6),pos y >= -(player(6),const(size.height)) * 0.5
+trigger1 = player(6),vel y != 0
 trigger1 = Var(56) = 1
 trigger1 = Var(3) = 0
 type = VarSet
 v = 3
 value = 6
 [State 200, P7GotHit]
-trigger1 = playerid(getplayerid(7)),hitfall
+trigger1 = player(7),hitfall
 Type = VarSet
 v = 57
 value = 1
 [State 200, P7isOnGround]
-trigger1 = playerid(getplayerid(7)),pos y = 0
+trigger1 = player(7),pos y = 0
 Type = VarSet
 v = 57
 value = 0
 [State 200, HittingObjectP7]
-trigger1 = playerid(getplayerid(7)),pos x > Var(1) && playerid(getplayerid(7)),pos x < Var(2) 
-trigger1 = playerid(getplayerid(7)),pos y >= playerid(getplayerid(7)),-const(size.height) * 0.5
-trigger1 = playerid(getplayerid(7)),vel y != 0
+trigger1 = player(7),pos x > Var(1) && player(7),pos x < Var(2) 
+trigger1 = player(7),pos y >= -(player(7),const(size.height)) * 0.5
+trigger1 = player(7),vel y != 0
 trigger1 = Var(57) = 1
 trigger1 = Var(3) = 0
 type = VarSet
 v = 3
 value = 7
 [State 200, P8GotHit]
-trigger1 = playerid(getplayerid(8)),hitfall
+trigger1 = player(8),hitfall
 Type = VarSet
 v = 58
 value = 1
 [State 200, P8isOnGround]
-trigger1 = playerid(getplayerid(8)),pos y = 0
+trigger1 = player(8),pos y = 0
 Type = VarSet
 v = 58
 value = 0
 [State 200, HittingObjectP8]
-trigger1 = playerid(getplayerid(8)),pos x > Var(1) && playerid(getplayerid(8)),pos x < Var(2) 
-trigger1 = playerid(getplayerid(8)),pos y >= playerid(getplayerid(8)),-const(size.height) * 0.5
-trigger1 = playerid(getplayerid(8)),vel y != 0
+trigger1 = player(8),pos x > Var(1) && player(8),pos x < Var(2) 
+trigger1 = player(8),pos y >= -(player(8),const(size.height)) * 0.5
+trigger1 = player(8),vel y != 0
 trigger1 = Var(58) = 1
 trigger1 = Var(3) = 0
 type = VarSet
@@ -4503,152 +4503,152 @@ v = 3
 value = 0
 
 [State 210, P1GotHit]
-trigger1 = playerid(getplayerid(1)),hitfall
+trigger1 = player(1),hitfall
 Type = VarSet
 v = 51
 value = 1
 [State 210, P1isOnGround]
-trigger1 = playerid(getplayerid(1)),pos y = 0
+trigger1 = player(1),pos y = 0
 Type = VarSet
 v = 51
 value = 0
 [State 210, HittingObjectP1]
-trigger1 = playerid(getplayerid(1)),pos x > Var(1) && playerid(getplayerid(1)),pos x < Var(2) 
-trigger1 = playerid(getplayerid(1)),pos y >= playerid(getplayerid(1)),-const(size.height) * 0.5
-trigger1 = playerid(getplayerid(1)),vel y != 0
+trigger1 = player(1),pos x > Var(1) && player(1),pos x < Var(2) 
+trigger1 = player(1),pos y >= -(player(1),const(size.height)) * 0.5
+trigger1 = player(1),vel y != 0
 trigger1 = Var(51) = 1
 trigger1 = Var(3) = 0
 type = VarSet
 v = 3
 value = 1
 [State 210, P2GotHit]
-trigger1 = playerid(getplayerid(2)),hitfall
+trigger1 = player(2),hitfall
 Type = VarSet
 v = 52
 value = 1
 [State 210, P2isOnGround]
-trigger1 = playerid(getplayerid(2)),pos y = 0
+trigger1 = player(2),pos y = 0
 Type = VarSet
 v = 52
 value = 0
 [State 210, HittingObjectP2]
-trigger1 = playerid(getplayerid(2)),pos x > Var(1) && playerid(getplayerid(2)),pos x < Var(2) 
-trigger1 = playerid(getplayerid(2)),pos y >= playerid(getplayerid(2)),-const(size.height) * 0.5
-trigger1 = playerid(getplayerid(2)),vel y != 0
+trigger1 = player(2),pos x > Var(1) && player(2),pos x < Var(2) 
+trigger1 = player(2),pos y >= -(player(2),const(size.height)) * 0.5
+trigger1 = player(2),vel y != 0
 trigger1 = Var(52) = 1
 trigger1 = Var(3) = 0
 type = VarSet
 v = 3
 value = 2
 [State 210, P3GotHit]
-trigger1 = playerid(getplayerid(3)),hitfall
+trigger1 = player(3),hitfall
 Type = VarSet
 v = 53
 value = 1
 [State 210, P3isOnGround]
-trigger1 = playerid(getplayerid(3)),pos y = 0
+trigger1 = player(3),pos y = 0
 Type = VarSet
 v = 53
 value = 0
 [State 210, HittingObjectP3]
-trigger1 = playerid(getplayerid(3)),pos x > Var(1) && playerid(getplayerid(3)),pos x < Var(2) 
-trigger1 = playerid(getplayerid(3)),pos y >= playerid(getplayerid(3)),-const(size.height) * 0.5
-trigger1 = playerid(getplayerid(3)),vel y != 0
+trigger1 = player(3),pos x > Var(1) && player(3),pos x < Var(2) 
+trigger1 = player(3),pos y >= -(player(3),const(size.height)) * 0.5
+trigger1 = player(3),vel y != 0
 trigger1 = Var(53) = 1
 trigger1 = Var(3) = 0
 type = VarSet
 v = 3
 value = 3
 [State 210, P4GotHit]
-trigger1 = playerid(getplayerid(4)),hitfall
+trigger1 = player(4),hitfall
 Type = VarSet
 v = 54
 value = 1
 [State 210, P4isOnGround]
-trigger1 = playerid(getplayerid(4)),pos y = 0
+trigger1 = player(4),pos y = 0
 Type = VarSet
 v = 54
 value = 0
 [State 210, HittingObjectP4]
-trigger1 = playerid(getplayerid(4)),pos x > Var(1) && playerid(getplayerid(4)),pos x < Var(2) 
-trigger1 = playerid(getplayerid(4)),pos y >= playerid(getplayerid(4)),-const(size.height) * 0.5
-trigger1 = playerid(getplayerid(4)),vel y != 0
+trigger1 = player(4),pos x > Var(1) && player(4),pos x < Var(2) 
+trigger1 = player(4),pos y >= -(player(4),const(size.height)) * 0.5
+trigger1 = player(4),vel y != 0
 trigger1 = Var(54) = 1
 trigger1 = Var(3) = 0
 type = VarSet
 v = 3
 value = 4
 [State 210, P5GotHit]
-trigger1 = playerid(getplayerid(5)),hitfall
+trigger1 = player(5),hitfall
 Type = VarSet
 v = 55
 value = 1
 [State 210, P5isOnGround]
-trigger1 = playerid(getplayerid(5)),pos y = 0
+trigger1 = player(5),pos y = 0
 Type = VarSet
 v = 55
 value = 0
 [State 210, HittingObjectP5]
-trigger1 = playerid(getplayerid(5)),pos x > Var(1) && playerid(getplayerid(5)),pos x < Var(2) 
-trigger1 = playerid(getplayerid(5)),pos y >= playerid(getplayerid(5)),-const(size.height) * 0.5
-trigger1 = playerid(getplayerid(5)),vel y != 0
+trigger1 = player(5),pos x > Var(1) && player(5),pos x < Var(2) 
+trigger1 = player(5),pos y >= -(player(5),const(size.height)) * 0.5
+trigger1 = player(5),vel y != 0
 trigger1 = Var(55) = 1
 trigger1 = Var(3) = 0
 type = VarSet
 v = 3
 value = 5
 [State 210, P6GotHit]
-trigger1 = playerid(getplayerid(6)),hitfall
+trigger1 = player(6),hitfall
 Type = VarSet
 v = 56
 value = 1
 [State 210, P6isOnGround]
-trigger1 = playerid(getplayerid(6)),pos y = 0
+trigger1 = player(6),pos y = 0
 Type = VarSet
 v = 56
 value = 0
 [State 210, HittingObjectP6]
-trigger1 = playerid(getplayerid(6)),pos x > Var(1) && playerid(getplayerid(6)),pos x < Var(2) 
-trigger1 = playerid(getplayerid(6)),pos y >= playerid(getplayerid(6)),-const(size.height) * 0.5
-trigger1 = playerid(getplayerid(6)),vel y != 0
+trigger1 = player(6),pos x > Var(1) && player(6),pos x < Var(2) 
+trigger1 = player(6),pos y >= -(player(6),const(size.height)) * 0.5
+trigger1 = player(6),vel y != 0
 trigger1 = Var(56) = 1
 trigger1 = Var(3) = 0
 type = VarSet
 v = 3
 value = 6
 [State 210, P7GotHit]
-trigger1 = playerid(getplayerid(7)),hitfall
+trigger1 = player(7),hitfall
 Type = VarSet
 v = 57
 value = 1
 [State 210, P7isOnGround]
-trigger1 = playerid(getplayerid(7)),pos y = 0
+trigger1 = player(7),pos y = 0
 Type = VarSet
 v = 57
 value = 0
 [State 210, HittingObjectP7]
-trigger1 = playerid(getplayerid(7)),pos x > Var(1) && playerid(getplayerid(7)),pos x < Var(2) 
-trigger1 = playerid(getplayerid(7)),pos y >= playerid(getplayerid(7)),-const(size.height) * 0.5
-trigger1 = playerid(getplayerid(7)),vel y != 0
+trigger1 = player(7),pos x > Var(1) && player(7),pos x < Var(2) 
+trigger1 = player(7),pos y >= -(player(7),const(size.height)) * 0.5
+trigger1 = player(7),vel y != 0
 trigger1 = Var(57) = 1
 trigger1 = Var(3) = 0
 type = VarSet
 v = 3
 value = 7
 [State 210, P8GotHit]
-trigger1 = playerid(getplayerid(8)),hitfall
+trigger1 = player(8),hitfall
 Type = VarSet
 v = 58
 value = 1
 [State 210, P8isOnGround]
-trigger1 = playerid(getplayerid(8)),pos y = 0
+trigger1 = player(8),pos y = 0
 Type = VarSet
 v = 58
 value = 0
 [State 210, HittingObjectP8]
-trigger1 = playerid(getplayerid(8)),pos x > Var(1) && playerid(getplayerid(8)),pos x < Var(2) 
-trigger1 = playerid(getplayerid(8)),pos y >= playerid(getplayerid(8)),-const(size.height) * 0.5
-trigger1 = playerid(getplayerid(8)),vel y != 0
+trigger1 = player(8),pos x > Var(1) && player(8),pos x < Var(2) 
+trigger1 = player(8),pos y >= -(player(8),const(size.height)) * 0.5
+trigger1 = player(8),vel y != 0
 trigger1 = Var(58) = 1
 trigger1 = Var(3) = 0
 type = VarSet
@@ -4713,7 +4713,7 @@ persistent = 0
 anim = 491
 space = stage
 pos = Pos X + CameraPos X, Pos Y - 30
-vel = Rand(-3,-0.5),Rand(-3,-1.5)
+vel = (-3+Random*2.5/999.0),(-3+Random*1.5/999.0)
 accel = 0,0.2
 random = 10,10
 RemoveTime = 30
@@ -4725,7 +4725,7 @@ facing = 1
 ;BIKE ANIM 493 AND SPLASH ANIM 16
 [State 200, BikeVar]
 triggerall = NumExplod(493) = 0
-trigger1 = Rand(1,100) > 75 && Time % 300 = 0
+trigger1 = (1+floor(Random*100/1000.0)) > 75 && Time % 300 = 0
 trigger2 = RoundState = 2 && TimeElapsed = 0
 type = VarSet
 fv = 30
@@ -4851,152 +4851,152 @@ v = 3
 value = 0
 
 [State 210, P1GotHit]
-trigger1 = playerid(getplayerid(1)),hitfall
+trigger1 = player(1),hitfall
 Type = VarSet
 v = 51
 value = 1
 [State 210, P1isOnGround]
-trigger1 = playerid(getplayerid(1)),pos y = 0
+trigger1 = player(1),pos y = 0
 Type = VarSet
 v = 51
 value = 0
 [State 210, HittingObjectP1]
-trigger1 = playerid(getplayerid(1)),pos x > Var(1) && playerid(getplayerid(1)),pos x < Var(2) 
-trigger1 = playerid(getplayerid(1)),pos y >= playerid(getplayerid(1)),-const(size.height) * 0.5
-trigger1 = playerid(getplayerid(1)),vel y != 0
+trigger1 = player(1),pos x > Var(1) && player(1),pos x < Var(2) 
+trigger1 = player(1),pos y >= -(player(1),const(size.height)) * 0.5
+trigger1 = player(1),vel y != 0
 trigger1 = Var(51) = 1
 trigger1 = Var(3) = 0
 type = VarSet
 v = 3
 value = 1
 [State 210, P2GotHit]
-trigger1 = playerid(getplayerid(2)),hitfall
+trigger1 = player(2),hitfall
 Type = VarSet
 v = 52
 value = 1
 [State 210, P2isOnGround]
-trigger1 = playerid(getplayerid(2)),pos y = 0
+trigger1 = player(2),pos y = 0
 Type = VarSet
 v = 52
 value = 0
 [State 210, HittingObjectP2]
-trigger1 = playerid(getplayerid(2)),pos x > Var(1) && playerid(getplayerid(2)),pos x < Var(2) 
-trigger1 = playerid(getplayerid(2)),pos y >= playerid(getplayerid(2)),-const(size.height) * 0.5
-trigger1 = playerid(getplayerid(2)),vel y != 0
+trigger1 = player(2),pos x > Var(1) && player(2),pos x < Var(2) 
+trigger1 = player(2),pos y >= -(player(2),const(size.height)) * 0.5
+trigger1 = player(2),vel y != 0
 trigger1 = Var(52) = 1
 trigger1 = Var(3) = 0
 type = VarSet
 v = 3
 value = 2
 [State 210, P3GotHit]
-trigger1 = playerid(getplayerid(3)),hitfall
+trigger1 = player(3),hitfall
 Type = VarSet
 v = 53
 value = 1
 [State 210, P3isOnGround]
-trigger1 = playerid(getplayerid(3)),pos y = 0
+trigger1 = player(3),pos y = 0
 Type = VarSet
 v = 53
 value = 0
 [State 210, HittingObjectP3]
-trigger1 = playerid(getplayerid(3)),pos x > Var(1) && playerid(getplayerid(3)),pos x < Var(2) 
-trigger1 = playerid(getplayerid(3)),pos y >= playerid(getplayerid(3)),-const(size.height) * 0.5
-trigger1 = playerid(getplayerid(3)),vel y != 0
+trigger1 = player(3),pos x > Var(1) && player(3),pos x < Var(2) 
+trigger1 = player(3),pos y >= -(player(3),const(size.height)) * 0.5
+trigger1 = player(3),vel y != 0
 trigger1 = Var(53) = 1
 trigger1 = Var(3) = 0
 type = VarSet
 v = 3
 value = 3
 [State 210, P4GotHit]
-trigger1 = playerid(getplayerid(4)),hitfall
+trigger1 = player(4),hitfall
 Type = VarSet
 v = 54
 value = 1
 [State 210, P4isOnGround]
-trigger1 = playerid(getplayerid(4)),pos y = 0
+trigger1 = player(4),pos y = 0
 Type = VarSet
 v = 54
 value = 0
 [State 210, HittingObjectP4]
-trigger1 = playerid(getplayerid(4)),pos x > Var(1) && playerid(getplayerid(4)),pos x < Var(2) 
-trigger1 = playerid(getplayerid(4)),pos y >= playerid(getplayerid(4)),-const(size.height) * 0.5
-trigger1 = playerid(getplayerid(4)),vel y != 0
+trigger1 = player(4),pos x > Var(1) && player(4),pos x < Var(2) 
+trigger1 = player(4),pos y >= -(player(4),const(size.height)) * 0.5
+trigger1 = player(4),vel y != 0
 trigger1 = Var(54) = 1
 trigger1 = Var(3) = 0
 type = VarSet
 v = 3
 value = 4
 [State 210, P5GotHit]
-trigger1 = playerid(getplayerid(5)),hitfall
+trigger1 = player(5),hitfall
 Type = VarSet
 v = 55
 value = 1
 [State 210, P5isOnGround]
-trigger1 = playerid(getplayerid(5)),pos y = 0
+trigger1 = player(5),pos y = 0
 Type = VarSet
 v = 55
 value = 0
 [State 210, HittingObjectP5]
-trigger1 = playerid(getplayerid(5)),pos x > Var(1) && playerid(getplayerid(5)),pos x < Var(2) 
-trigger1 = playerid(getplayerid(5)),pos y >= playerid(getplayerid(5)),-const(size.height) * 0.5
-trigger1 = playerid(getplayerid(5)),vel y != 0
+trigger1 = player(5),pos x > Var(1) && player(5),pos x < Var(2) 
+trigger1 = player(5),pos y >= -(player(5),const(size.height)) * 0.5
+trigger1 = player(5),vel y != 0
 trigger1 = Var(55) = 1
 trigger1 = Var(3) = 0
 type = VarSet
 v = 3
 value = 5
 [State 210, P6GotHit]
-trigger1 = playerid(getplayerid(6)),hitfall
+trigger1 = player(6),hitfall
 Type = VarSet
 v = 56
 value = 1
 [State 210, P6isOnGround]
-trigger1 = playerid(getplayerid(6)),pos y = 0
+trigger1 = player(6),pos y = 0
 Type = VarSet
 v = 56
 value = 0
 [State 210, HittingObjectP6]
-trigger1 = playerid(getplayerid(6)),pos x > Var(1) && playerid(getplayerid(6)),pos x < Var(2) 
-trigger1 = playerid(getplayerid(6)),pos y >= playerid(getplayerid(6)),-const(size.height) * 0.5
-trigger1 = playerid(getplayerid(6)),vel y != 0
+trigger1 = player(6),pos x > Var(1) && player(6),pos x < Var(2) 
+trigger1 = player(6),pos y >= -(player(6),const(size.height)) * 0.5
+trigger1 = player(6),vel y != 0
 trigger1 = Var(56) = 1
 trigger1 = Var(3) = 0
 type = VarSet
 v = 3
 value = 6
 [State 210, P7GotHit]
-trigger1 = playerid(getplayerid(7)),hitfall
+trigger1 = player(7),hitfall
 Type = VarSet
 v = 57
 value = 1
 [State 210, P7isOnGround]
-trigger1 = playerid(getplayerid(7)),pos y = 0
+trigger1 = player(7),pos y = 0
 Type = VarSet
 v = 57
 value = 0
 [State 210, HittingObjectP7]
-trigger1 = playerid(getplayerid(7)),pos x > Var(1) && playerid(getplayerid(7)),pos x < Var(2) 
-trigger1 = playerid(getplayerid(7)),pos y >= playerid(getplayerid(7)),-const(size.height) * 0.5
-trigger1 = playerid(getplayerid(7)),vel y != 0
+trigger1 = player(7),pos x > Var(1) && player(7),pos x < Var(2) 
+trigger1 = player(7),pos y >= -(player(7),const(size.height)) * 0.5
+trigger1 = player(7),vel y != 0
 trigger1 = Var(57) = 1
 trigger1 = Var(3) = 0
 type = VarSet
 v = 3
 value = 7
 [State 210, P8GotHit]
-trigger1 = playerid(getplayerid(8)),hitfall
+trigger1 = player(8),hitfall
 Type = VarSet
 v = 58
 value = 1
 [State 210, P8isOnGround]
-trigger1 = playerid(getplayerid(8)),pos y = 0
+trigger1 = player(8),pos y = 0
 Type = VarSet
 v = 58
 value = 0
 [State 210, HittingObjectP8]
-trigger1 = playerid(getplayerid(8)),pos x > Var(1) && playerid(getplayerid(8)),pos x < Var(2) 
-trigger1 = playerid(getplayerid(8)),pos y >= playerid(getplayerid(8)),-const(size.height) * 0.5
-trigger1 = playerid(getplayerid(8)),vel y != 0
+trigger1 = player(8),pos x > Var(1) && player(8),pos x < Var(2) 
+trigger1 = player(8),pos y >= -(player(8),const(size.height)) * 0.5
+trigger1 = player(8),vel y != 0
 trigger1 = Var(58) = 1
 trigger1 = Var(3) = 0
 type = VarSet
@@ -5075,7 +5075,7 @@ persistent = 0
 anim = 492
 space = stage
 pos = Pos X + CameraPos X, Pos Y - 30
-vel = Rand(3,0.5),Rand(-3,-1.5)
+vel = (3+Random*-2.5/999.0),(-3+Random*1.5/999.0)
 accel = 0,0.2
 random = 10,10
 RemoveTime = 30
@@ -5144,152 +5144,152 @@ v = 3
 value = 0
 
 [State 210, P1GotHit]
-trigger1 = playerid(getplayerid(1)),hitfall
+trigger1 = player(1),hitfall
 Type = VarSet
 v = 51
 value = 1
 [State 210, P1isOnGround]
-trigger1 = playerid(getplayerid(1)),pos y = 0
+trigger1 = player(1),pos y = 0
 Type = VarSet
 v = 51
 value = 0
 [State 210, HittingObjectP1]
-trigger1 = playerid(getplayerid(1)),pos x > Var(1) && playerid(getplayerid(1)),pos x < Var(2) 
-trigger1 = playerid(getplayerid(1)),pos y >= playerid(getplayerid(1)),-const(size.height) * 0.5
-trigger1 = playerid(getplayerid(1)),vel y != 0
+trigger1 = player(1),pos x > Var(1) && player(1),pos x < Var(2) 
+trigger1 = player(1),pos y >= -(player(1),const(size.height)) * 0.5
+trigger1 = player(1),vel y != 0
 trigger1 = Var(51) = 1
 trigger1 = Var(3) = 0
 type = VarSet
 v = 3
 value = 1
 [State 210, P2GotHit]
-trigger1 = playerid(getplayerid(2)),hitfall
+trigger1 = player(2),hitfall
 Type = VarSet
 v = 52
 value = 1
 [State 210, P2isOnGround]
-trigger1 = playerid(getplayerid(2)),pos y = 0
+trigger1 = player(2),pos y = 0
 Type = VarSet
 v = 52
 value = 0
 [State 210, HittingObjectP2]
-trigger1 = playerid(getplayerid(2)),pos x > Var(1) && playerid(getplayerid(2)),pos x < Var(2) 
-trigger1 = playerid(getplayerid(2)),pos y >= playerid(getplayerid(2)),-const(size.height) * 0.5
-trigger1 = playerid(getplayerid(2)),vel y != 0
+trigger1 = player(2),pos x > Var(1) && player(2),pos x < Var(2) 
+trigger1 = player(2),pos y >= -(player(2),const(size.height)) * 0.5
+trigger1 = player(2),vel y != 0
 trigger1 = Var(52) = 1
 trigger1 = Var(3) = 0
 type = VarSet
 v = 3
 value = 2
 [State 210, P3GotHit]
-trigger1 = playerid(getplayerid(3)),hitfall
+trigger1 = player(3),hitfall
 Type = VarSet
 v = 53
 value = 1
 [State 210, P3isOnGround]
-trigger1 = playerid(getplayerid(3)),pos y = 0
+trigger1 = player(3),pos y = 0
 Type = VarSet
 v = 53
 value = 0
 [State 210, HittingObjectP3]
-trigger1 = playerid(getplayerid(3)),pos x > Var(1) && playerid(getplayerid(3)),pos x < Var(2) 
-trigger1 = playerid(getplayerid(3)),pos y >= playerid(getplayerid(3)),-const(size.height) * 0.5
-trigger1 = playerid(getplayerid(3)),vel y != 0
+trigger1 = player(3),pos x > Var(1) && player(3),pos x < Var(2) 
+trigger1 = player(3),pos y >= -(player(3),const(size.height)) * 0.5
+trigger1 = player(3),vel y != 0
 trigger1 = Var(53) = 1
 trigger1 = Var(3) = 0
 type = VarSet
 v = 3
 value = 3
 [State 210, P4GotHit]
-trigger1 = playerid(getplayerid(4)),hitfall
+trigger1 = player(4),hitfall
 Type = VarSet
 v = 54
 value = 1
 [State 210, P4isOnGround]
-trigger1 = playerid(getplayerid(4)),pos y = 0
+trigger1 = player(4),pos y = 0
 Type = VarSet
 v = 54
 value = 0
 [State 210, HittingObjectP4]
-trigger1 = playerid(getplayerid(4)),pos x > Var(1) && playerid(getplayerid(4)),pos x < Var(2) 
-trigger1 = playerid(getplayerid(4)),pos y >= playerid(getplayerid(4)),-const(size.height) * 0.5
-trigger1 = playerid(getplayerid(4)),vel y != 0
+trigger1 = player(4),pos x > Var(1) && player(4),pos x < Var(2) 
+trigger1 = player(4),pos y >= -(player(4),const(size.height)) * 0.5
+trigger1 = player(4),vel y != 0
 trigger1 = Var(54) = 1
 trigger1 = Var(3) = 0
 type = VarSet
 v = 3
 value = 4
 [State 210, P5GotHit]
-trigger1 = playerid(getplayerid(5)),hitfall
+trigger1 = player(5),hitfall
 Type = VarSet
 v = 55
 value = 1
 [State 210, P5isOnGround]
-trigger1 = playerid(getplayerid(5)),pos y = 0
+trigger1 = player(5),pos y = 0
 Type = VarSet
 v = 55
 value = 0
 [State 210, HittingObjectP5]
-trigger1 = playerid(getplayerid(5)),pos x > Var(1) && playerid(getplayerid(5)),pos x < Var(2) 
-trigger1 = playerid(getplayerid(5)),pos y >= playerid(getplayerid(5)),-const(size.height) * 0.5
-trigger1 = playerid(getplayerid(5)),vel y != 0
+trigger1 = player(5),pos x > Var(1) && player(5),pos x < Var(2) 
+trigger1 = player(5),pos y >= -(player(5),const(size.height)) * 0.5
+trigger1 = player(5),vel y != 0
 trigger1 = Var(55) = 1
 trigger1 = Var(3) = 0
 type = VarSet
 v = 3
 value = 5
 [State 210, P6GotHit]
-trigger1 = playerid(getplayerid(6)),hitfall
+trigger1 = player(6),hitfall
 Type = VarSet
 v = 56
 value = 1
 [State 210, P6isOnGround]
-trigger1 = playerid(getplayerid(6)),pos y = 0
+trigger1 = player(6),pos y = 0
 Type = VarSet
 v = 56
 value = 0
 [State 210, HittingObjectP6]
-trigger1 = playerid(getplayerid(6)),pos x > Var(1) && playerid(getplayerid(6)),pos x < Var(2) 
-trigger1 = playerid(getplayerid(6)),pos y >= playerid(getplayerid(6)),-const(size.height) * 0.5
-trigger1 = playerid(getplayerid(6)),vel y != 0
+trigger1 = player(6),pos x > Var(1) && player(6),pos x < Var(2) 
+trigger1 = player(6),pos y >= -(player(6),const(size.height)) * 0.5
+trigger1 = player(6),vel y != 0
 trigger1 = Var(56) = 1
 trigger1 = Var(3) = 0
 type = VarSet
 v = 3
 value = 6
 [State 210, P7GotHit]
-trigger1 = playerid(getplayerid(7)),hitfall
+trigger1 = player(7),hitfall
 Type = VarSet
 v = 57
 value = 1
 [State 210, P7isOnGround]
-trigger1 = playerid(getplayerid(7)),pos y = 0
+trigger1 = player(7),pos y = 0
 Type = VarSet
 v = 57
 value = 0
 [State 210, HittingObjectP7]
-trigger1 = playerid(getplayerid(7)),pos x > Var(1) && playerid(getplayerid(7)),pos x < Var(2) 
-trigger1 = playerid(getplayerid(7)),pos y >= playerid(getplayerid(7)),-const(size.height) * 0.5
-trigger1 = playerid(getplayerid(7)),vel y != 0
+trigger1 = player(7),pos x > Var(1) && player(7),pos x < Var(2) 
+trigger1 = player(7),pos y >= -(player(7),const(size.height)) * 0.5
+trigger1 = player(7),vel y != 0
 trigger1 = Var(57) = 1
 trigger1 = Var(3) = 0
 type = VarSet
 v = 3
 value = 7
 [State 210, P8GotHit]
-trigger1 = playerid(getplayerid(8)),hitfall
+trigger1 = player(8),hitfall
 Type = VarSet
 v = 58
 value = 1
 [State 210, P8isOnGround]
-trigger1 = playerid(getplayerid(8)),pos y = 0
+trigger1 = player(8),pos y = 0
 Type = VarSet
 v = 58
 value = 0
 [State 210, HittingObjectP8]
-trigger1 = playerid(getplayerid(8)),pos x > Var(1) && playerid(getplayerid(8)),pos x < Var(2) 
-trigger1 = playerid(getplayerid(8)),pos y >= playerid(getplayerid(8)),-const(size.height) * 0.5
-trigger1 = playerid(getplayerid(8)),vel y != 0
+trigger1 = player(8),pos x > Var(1) && player(8),pos x < Var(2) 
+trigger1 = player(8),pos y >= -(player(8),const(size.height)) * 0.5
+trigger1 = player(8),vel y != 0
 trigger1 = Var(58) = 1
 trigger1 = Var(3) = 0
 type = VarSet
@@ -5393,7 +5393,7 @@ physics = N                      ;Physics: S-stand, C-crouch, A-air
 juggle  = 1                     ;Number of air juggle points move takes
 velset = 0,0                     ;Set velocity (x,y) (Def: no change)
 ctrl = 0                         ;Set ctrl (Def: no change)
-anim = Rand(501,509)                       ;Change animation (Def: no change)
+anim = (501+floor(Random*9/1000.0))                       ;Change animation (Def: no change)
 poweradd = 0                    ;Power to add (Def: 0)
 sprpriority = -8                  ;Set p1's sprite layering priority to 2 (in front)
 
@@ -5520,152 +5520,152 @@ v = 3
 value = 0
 
 [State 210, P1GotHit]
-trigger1 = playerid(getplayerid(1)),hitfall
+trigger1 = player(1),hitfall
 Type = VarSet
 v = 51
 value = 1
 [State 210, P1isOnGround]
-trigger1 = playerid(getplayerid(1)),pos y = 0
+trigger1 = player(1),pos y = 0
 Type = VarSet
 v = 51
 value = 0
 [State 210, HittingObjectP1]
-trigger1 = playerid(getplayerid(1)),pos x > Var(1) && playerid(getplayerid(1)),pos x < Var(2) 
-trigger1 = playerid(getplayerid(1)),pos y >= playerid(getplayerid(1)),-const(size.height) * 0.5
-trigger1 = playerid(getplayerid(1)),vel y != 0
+trigger1 = player(1),pos x > Var(1) && player(1),pos x < Var(2) 
+trigger1 = player(1),pos y >= -(player(1),const(size.height)) * 0.5
+trigger1 = player(1),vel y != 0
 trigger1 = Var(51) = 1
 trigger1 = Var(3) = 0
 type = VarSet
 v = 3
 value = 1
 [State 210, P2GotHit]
-trigger1 = playerid(getplayerid(2)),hitfall
+trigger1 = player(2),hitfall
 Type = VarSet
 v = 52
 value = 1
 [State 210, P2isOnGround]
-trigger1 = playerid(getplayerid(2)),pos y = 0
+trigger1 = player(2),pos y = 0
 Type = VarSet
 v = 52
 value = 0
 [State 210, HittingObjectP2]
-trigger1 = playerid(getplayerid(2)),pos x > Var(1) && playerid(getplayerid(2)),pos x < Var(2) 
-trigger1 = playerid(getplayerid(2)),pos y >= playerid(getplayerid(2)),-const(size.height) * 0.5
-trigger1 = playerid(getplayerid(2)),vel y != 0
+trigger1 = player(2),pos x > Var(1) && player(2),pos x < Var(2) 
+trigger1 = player(2),pos y >= -(player(2),const(size.height)) * 0.5
+trigger1 = player(2),vel y != 0
 trigger1 = Var(52) = 1
 trigger1 = Var(3) = 0
 type = VarSet
 v = 3
 value = 2
 [State 210, P3GotHit]
-trigger1 = playerid(getplayerid(3)),hitfall
+trigger1 = player(3),hitfall
 Type = VarSet
 v = 53
 value = 1
 [State 210, P3isOnGround]
-trigger1 = playerid(getplayerid(3)),pos y = 0
+trigger1 = player(3),pos y = 0
 Type = VarSet
 v = 53
 value = 0
 [State 210, HittingObjectP3]
-trigger1 = playerid(getplayerid(3)),pos x > Var(1) && playerid(getplayerid(3)),pos x < Var(2) 
-trigger1 = playerid(getplayerid(3)),pos y >= playerid(getplayerid(3)),-const(size.height) * 0.5
-trigger1 = playerid(getplayerid(3)),vel y != 0
+trigger1 = player(3),pos x > Var(1) && player(3),pos x < Var(2) 
+trigger1 = player(3),pos y >= -(player(3),const(size.height)) * 0.5
+trigger1 = player(3),vel y != 0
 trigger1 = Var(53) = 1
 trigger1 = Var(3) = 0
 type = VarSet
 v = 3
 value = 3
 [State 210, P4GotHit]
-trigger1 = playerid(getplayerid(4)),hitfall
+trigger1 = player(4),hitfall
 Type = VarSet
 v = 54
 value = 1
 [State 210, P4isOnGround]
-trigger1 = playerid(getplayerid(4)),pos y = 0
+trigger1 = player(4),pos y = 0
 Type = VarSet
 v = 54
 value = 0
 [State 210, HittingObjectP4]
-trigger1 = playerid(getplayerid(4)),pos x > Var(1) && playerid(getplayerid(4)),pos x < Var(2) 
-trigger1 = playerid(getplayerid(4)),pos y >= playerid(getplayerid(4)),-const(size.height) * 0.5
-trigger1 = playerid(getplayerid(4)),vel y != 0
+trigger1 = player(4),pos x > Var(1) && player(4),pos x < Var(2) 
+trigger1 = player(4),pos y >= -(player(4),const(size.height)) * 0.5
+trigger1 = player(4),vel y != 0
 trigger1 = Var(54) = 1
 trigger1 = Var(3) = 0
 type = VarSet
 v = 3
 value = 4
 [State 210, P5GotHit]
-trigger1 = playerid(getplayerid(5)),hitfall
+trigger1 = player(5),hitfall
 Type = VarSet
 v = 55
 value = 1
 [State 210, P5isOnGround]
-trigger1 = playerid(getplayerid(5)),pos y = 0
+trigger1 = player(5),pos y = 0
 Type = VarSet
 v = 55
 value = 0
 [State 210, HittingObjectP5]
-trigger1 = playerid(getplayerid(5)),pos x > Var(1) && playerid(getplayerid(5)),pos x < Var(2) 
-trigger1 = playerid(getplayerid(5)),pos y >= playerid(getplayerid(5)),-const(size.height) * 0.5
-trigger1 = playerid(getplayerid(5)),vel y != 0
+trigger1 = player(5),pos x > Var(1) && player(5),pos x < Var(2) 
+trigger1 = player(5),pos y >= -(player(5),const(size.height)) * 0.5
+trigger1 = player(5),vel y != 0
 trigger1 = Var(55) = 1
 trigger1 = Var(3) = 0
 type = VarSet
 v = 3
 value = 5
 [State 210, P6GotHit]
-trigger1 = playerid(getplayerid(6)),hitfall
+trigger1 = player(6),hitfall
 Type = VarSet
 v = 56
 value = 1
 [State 210, P6isOnGround]
-trigger1 = playerid(getplayerid(6)),pos y = 0
+trigger1 = player(6),pos y = 0
 Type = VarSet
 v = 56
 value = 0
 [State 210, HittingObjectP6]
-trigger1 = playerid(getplayerid(6)),pos x > Var(1) && playerid(getplayerid(6)),pos x < Var(2) 
-trigger1 = playerid(getplayerid(6)),pos y >= playerid(getplayerid(6)),-const(size.height) * 0.5
-trigger1 = playerid(getplayerid(6)),vel y != 0
+trigger1 = player(6),pos x > Var(1) && player(6),pos x < Var(2) 
+trigger1 = player(6),pos y >= -(player(6),const(size.height)) * 0.5
+trigger1 = player(6),vel y != 0
 trigger1 = Var(56) = 1
 trigger1 = Var(3) = 0
 type = VarSet
 v = 3
 value = 6
 [State 210, P7GotHit]
-trigger1 = playerid(getplayerid(7)),hitfall
+trigger1 = player(7),hitfall
 Type = VarSet
 v = 57
 value = 1
 [State 210, P7isOnGround]
-trigger1 = playerid(getplayerid(7)),pos y = 0
+trigger1 = player(7),pos y = 0
 Type = VarSet
 v = 57
 value = 0
 [State 210, HittingObjectP7]
-trigger1 = playerid(getplayerid(7)),pos x > Var(1) && playerid(getplayerid(7)),pos x < Var(2) 
-trigger1 = playerid(getplayerid(7)),pos y >= playerid(getplayerid(7)),-const(size.height) * 0.5
-trigger1 = playerid(getplayerid(7)),vel y != 0
+trigger1 = player(7),pos x > Var(1) && player(7),pos x < Var(2) 
+trigger1 = player(7),pos y >= -(player(7),const(size.height)) * 0.5
+trigger1 = player(7),vel y != 0
 trigger1 = Var(57) = 1
 trigger1 = Var(3) = 0
 type = VarSet
 v = 3
 value = 7
 [State 210, P8GotHit]
-trigger1 = playerid(getplayerid(8)),hitfall
+trigger1 = player(8),hitfall
 Type = VarSet
 v = 58
 value = 1
 [State 210, P8isOnGround]
-trigger1 = playerid(getplayerid(8)),pos y = 0
+trigger1 = player(8),pos y = 0
 Type = VarSet
 v = 58
 value = 0
 [State 210, HittingObjectP8]
-trigger1 = playerid(getplayerid(8)),pos x > Var(1) && playerid(getplayerid(8)),pos x < Var(2) 
-trigger1 = playerid(getplayerid(8)),pos y >= playerid(getplayerid(8)),-const(size.height) * 0.5
-trigger1 = playerid(getplayerid(8)),vel y != 0
+trigger1 = player(8),pos x > Var(1) && player(8),pos x < Var(2) 
+trigger1 = player(8),pos y >= -(player(8),const(size.height)) * 0.5
+trigger1 = player(8),vel y != 0
 trigger1 = Var(58) = 1
 trigger1 = Var(3) = 0
 type = VarSet
@@ -5761,7 +5761,7 @@ physics = N                      ;Physics: S-stand, C-crouch, A-air
 juggle  = 1                     ;Number of air juggle points move takes
 velset = 0,0                     ;Set velocity (x,y) (Def: no change)
 ctrl = 0                         ;Set ctrl (Def: no change)
-anim = Rand(496,500)                       ;Change animation (Def: no change)
+anim = (496+floor(Random*5/1000.0))                       ;Change animation (Def: no change)
 poweradd = 0                    ;Power to add (Def: 0)
 sprpriority = -8                  ;Set p1's sprite layering priority to 2 (in front)
 
@@ -5916,44 +5916,44 @@ poweradd = 0                    ;Power to add (Def: 0)
 sprpriority = -6                  ;Set p1's sprite layering priority to 2 (in front)
 
 [State 250, Startsize]
-trigger1 = playerid(getplayerid(1)),alive = 0
-trigger1 = playerid(getplayerid(1)),stateno = 5150
-trigger1 = playerid(getplayerid(1)),NumExplod(777+playerid(getplayerid(1)),ID) = 0
+trigger1 = player(1),alive = 0
+trigger1 = player(1),stateno = 5150
+trigger1 = player(1),NumExplod(777+player(1),ID) = 0
 trigger1 = MatchOver = 1
 type = VarSet
 fv = 1
 value = 100.0
 [State 250, If you die you DISAPPEAR]
-trigger1 = playerid(getplayerid(1)),alive = 0
-trigger1 = playerid(getplayerid(1)),stateno = 5150
+trigger1 = player(1),alive = 0
+trigger1 = player(1),stateno = 5150
 trigger1 = MatchOver = 1
 type = AssertSpecial
 flag = invisible
 flag2 = noshadow
 flag3 = nohardcodedkeys
-RedirectID = playerid(getplayerid(1)),ID
+RedirectID = player(1),ID
 [State 250, Explod]
-trigger1 = playerid(getplayerid(1)),alive = 0
-trigger1 = playerid(getplayerid(1)),stateno = 5150
-trigger1 = playerid(getplayerid(1)),NumExplod(777+playerid(getplayerid(1)),ID) = 0
+trigger1 = player(1),alive = 0
+trigger1 = player(1),stateno = 5150
+trigger1 = player(1),NumExplod(777+player(1),ID) = 0
 trigger1 = MatchOver = 1
 type = Explod
-facing = playerid(getplayerid(1)),facing
+facing = player(1),facing
 anim = 5160
 space = Stage
 removetime = -1
-Pos = playerid(getplayerid(1)),Pos X + CameraPos X, playerid(getplayerid(1)),Pos Y + CameraPos Y
-ID = 777+playerid(getplayerid(1)),ID
-RedirectID = playerid(getplayerid(1)),ID
+Pos = player(1),Pos X + CameraPos X, player(1),Pos Y + CameraPos Y
+ID = 777+player(1),ID
+RedirectID = player(1),ID
 [State 250, ScaleChar];And falls awayyyyyy
 type = ModifyExplod
 trigger1 = FVar(1) < 100.0
-scale = playerid(getplayerid(9)),Helper(21),FVar(1)/100,playerid(getplayerid(9)),Helper(21),FVar(1)/100
-ID = 777+playerid(getplayerid(1)),ID
-vel = -(playerid(getplayerid(1)),Pos X + CameraPos X)/ 50,-2.0
+scale = player(9),Helper(21),FVar(1)/100,player(9),Helper(21),FVar(1)/100
+ID = 777+player(1),ID
+vel = -(player(1),Pos X + CameraPos X)/ 50,-2.0
 accel = 0
 sprPriority = -9
-RedirectID = playerid(getplayerid(1)),ID
+RedirectID = player(1),ID
 [State 250, TimeVar]
 trigger1 = FVar(1) > 0.5
 trigger1 = MatchOver = 1
@@ -5962,44 +5962,44 @@ fv = 1
 value = -2.0
 
 [State 250, Startsize]
-trigger1 = playerid(getplayerid(2)),alive = 0
-trigger1 = playerid(getplayerid(2)),stateno = 5150
-trigger1 = playerid(getplayerid(2)),NumExplod(777+playerid(getplayerid(2)),ID) = 0
+trigger1 = player(2),alive = 0
+trigger1 = player(2),stateno = 5150
+trigger1 = player(2),NumExplod(777+player(2),ID) = 0
 trigger1 = MatchOver = 1
 type = VarSet
 fv = 2
 value = 100.0
 [State 250, If you die you DISAPPEAR]
-trigger1 = playerid(getplayerid(2)),alive = 0
-trigger1 = playerid(getplayerid(2)),stateno = 5150
+trigger1 = player(2),alive = 0
+trigger1 = player(2),stateno = 5150
 trigger1 = MatchOver = 1
 type = AssertSpecial
 flag = invisible
 flag2 = noshadow
 flag3 = nohardcodedkeys
-RedirectID = playerid(getplayerid(2)),ID
+RedirectID = player(2),ID
 [State 250, Explod]
-trigger1 = playerid(getplayerid(2)),alive = 0
-trigger1 = playerid(getplayerid(2)),stateno = 5150
-trigger1 = playerid(getplayerid(2)),NumExplod(777+playerid(getplayerid(2)),ID) = 0
+trigger1 = player(2),alive = 0
+trigger1 = player(2),stateno = 5150
+trigger1 = player(2),NumExplod(777+player(2),ID) = 0
 trigger1 = MatchOver = 1
 type = Explod
-facing = playerid(getplayerid(2)),facing
+facing = player(2),facing
 anim = 5160
 space = Stage
 removetime = -1
-Pos = playerid(getplayerid(2)),Pos X + CameraPos X, playerid(getplayerid(2)),Pos Y + CameraPos Y
-ID = 777+playerid(getplayerid(2)),ID
-RedirectID = playerid(getplayerid(2)),ID
+Pos = player(2),Pos X + CameraPos X, player(2),Pos Y + CameraPos Y
+ID = 777+player(2),ID
+RedirectID = player(2),ID
 [State 250, ScaleChar];And falls awayyyyyy
 type = ModifyExplod
 trigger1 = FVar(2) < 100.0
-scale = playerid(getplayerid(9)),Helper(21),FVar(2)/100,playerid(getplayerid(9)),Helper(21),FVar(2)/100
-ID = 777+playerid(getplayerid(2)),ID
-vel = -(playerid(getplayerid(2)),Pos X + CameraPos X)/ 50,-2.0
+scale = player(9),Helper(21),FVar(2)/100,player(9),Helper(21),FVar(2)/100
+ID = 777+player(2),ID
+vel = -(player(2),Pos X + CameraPos X)/ 50,-2.0
 accel = 0
 sprPriority = -9
-RedirectID = playerid(getplayerid(2)),ID
+RedirectID = player(2),ID
 [State 250, TimeVar]
 trigger1 = FVar(2) > 0.5
 trigger1 = MatchOver = 1
@@ -6008,44 +6008,44 @@ fv = 2
 value = -2.0
 
 [State 250, Startsize]
-trigger1 = playerid(getplayerid(3)),alive = 0
-trigger1 = playerid(getplayerid(3)),stateno = 5150
-trigger1 = playerid(getplayerid(3)),NumExplod(777+playerid(getplayerid(3)),ID) = 0
+trigger1 = player(3),alive = 0
+trigger1 = player(3),stateno = 5150
+trigger1 = player(3),NumExplod(777+player(3),ID) = 0
 trigger1 = MatchOver = 1
 type = VarSet
 fv = 3
 value = 100.0
 [State 250, If you die you DISAPPEAR]
-trigger1 = playerid(getplayerid(3)),alive = 0
-trigger1 = playerid(getplayerid(3)),stateno = 5150
+trigger1 = player(3),alive = 0
+trigger1 = player(3),stateno = 5150
 trigger1 = MatchOver = 1
 type = AssertSpecial
 flag = invisible
 flag2 = noshadow
 flag3 = nohardcodedkeys
-RedirectID = playerid(getplayerid(3)),ID
+RedirectID = player(3),ID
 [State 250, Explod]
-trigger1 = playerid(getplayerid(3)),alive = 0
-trigger1 = playerid(getplayerid(3)),stateno = 5150
-trigger1 = playerid(getplayerid(3)),NumExplod(777+playerid(getplayerid(3)),ID) = 0
+trigger1 = player(3),alive = 0
+trigger1 = player(3),stateno = 5150
+trigger1 = player(3),NumExplod(777+player(3),ID) = 0
 trigger1 = MatchOver = 1
 type = Explod
-facing = playerid(getplayerid(3)),facing
+facing = player(3),facing
 anim = 5160
 space = Stage
 removetime = -1
-Pos = playerid(getplayerid(3)),Pos X + CameraPos X, playerid(getplayerid(3)),Pos Y + CameraPos Y
-ID = 777+playerid(getplayerid(3)),ID
-RedirectID = playerid(getplayerid(3)),ID
+Pos = player(3),Pos X + CameraPos X, player(3),Pos Y + CameraPos Y
+ID = 777+player(3),ID
+RedirectID = player(3),ID
 [State 250, ScaleChar];And falls awayyyyyy
 type = ModifyExplod
 trigger1 = FVar(3) < 100.0
-scale = playerid(getplayerid(9)),Helper(21),FVar(3)/100,playerid(getplayerid(9)),Helper(21),FVar(3)/100
-ID = 777+playerid(getplayerid(3)),ID
-vel = -(playerid(getplayerid(3)),Pos X + CameraPos X)/ 50,-2.0
+scale = player(9),Helper(21),FVar(3)/100,player(9),Helper(21),FVar(3)/100
+ID = 777+player(3),ID
+vel = -(player(3),Pos X + CameraPos X)/ 50,-2.0
 accel = 0
 sprPriority = -9
-RedirectID = playerid(getplayerid(3)),ID
+RedirectID = player(3),ID
 [State 250, TimeVar]
 trigger1 = FVar(3) > 0.5
 trigger1 = MatchOver = 1
@@ -6054,44 +6054,44 @@ fv = 3
 value = -2.0
 
 [State 250, Startsize]
-trigger1 = playerid(getplayerid(4)),alive = 0
-trigger1 = playerid(getplayerid(4)),stateno = 5150
-trigger1 = playerid(getplayerid(4)),NumExplod(777+playerid(getplayerid(4)),ID) = 0
+trigger1 = player(4),alive = 0
+trigger1 = player(4),stateno = 5150
+trigger1 = player(4),NumExplod(777+player(4),ID) = 0
 trigger1 = MatchOver = 1
 type = VarSet
 fv = 4
 value = 100.0
 [State 250, If you die you DISAPPEAR]
-trigger1 = playerid(getplayerid(4)),alive = 0
-trigger1 = playerid(getplayerid(4)),stateno = 5150
+trigger1 = player(4),alive = 0
+trigger1 = player(4),stateno = 5150
 trigger1 = MatchOver = 1
 type = AssertSpecial
 flag = invisible
 flag2 = noshadow
 flag3 = nohardcodedkeys
-RedirectID = playerid(getplayerid(4)),ID
+RedirectID = player(4),ID
 [State 250, Explod]
-trigger1 = playerid(getplayerid(4)),alive = 0
-trigger1 = playerid(getplayerid(4)),stateno = 5150
-trigger1 = playerid(getplayerid(4)),NumExplod(777+playerid(getplayerid(4)),ID) = 0
+trigger1 = player(4),alive = 0
+trigger1 = player(4),stateno = 5150
+trigger1 = player(4),NumExplod(777+player(4),ID) = 0
 trigger1 = MatchOver = 1
 type = Explod
-facing = playerid(getplayerid(4)),facing
+facing = player(4),facing
 anim = 5160
 space = Stage
 removetime = -1
-Pos = playerid(getplayerid(4)),Pos X + CameraPos X, playerid(getplayerid(4)),Pos Y + CameraPos Y
-ID = 777+playerid(getplayerid(4)),ID
-RedirectID = playerid(getplayerid(4)),ID
+Pos = player(4),Pos X + CameraPos X, player(4),Pos Y + CameraPos Y
+ID = 777+player(4),ID
+RedirectID = player(4),ID
 [State 250, ScaleChar];And falls awayyyyyy
 type = ModifyExplod
 trigger1 = FVar(4) < 100.0
-scale = playerid(getplayerid(9)),Helper(21),FVar(4)/100,playerid(getplayerid(9)),Helper(21),FVar(4)/100
-ID = 777+playerid(getplayerid(4)),ID
-vel = -(playerid(getplayerid(4)),Pos X + CameraPos X)/ 50,-2.0
+scale = player(9),Helper(21),FVar(4)/100,player(9),Helper(21),FVar(4)/100
+ID = 777+player(4),ID
+vel = -(player(4),Pos X + CameraPos X)/ 50,-2.0
 accel = 0
 sprPriority = -9
-RedirectID = playerid(getplayerid(4)),ID
+RedirectID = player(4),ID
 [State 250, TimeVar]
 trigger1 = FVar(4) > 0.5
 trigger1 = MatchOver = 1
@@ -6100,44 +6100,44 @@ fv = 4
 value = -2.0
 
 [State 250, Startsize]
-trigger1 = playerid(getplayerid(5)),alive = 0
-trigger1 = playerid(getplayerid(5)),stateno = 5150
-trigger1 = playerid(getplayerid(5)),NumExplod(777+playerid(getplayerid(5)),ID) = 0
+trigger1 = player(5),alive = 0
+trigger1 = player(5),stateno = 5150
+trigger1 = player(5),NumExplod(777+player(5),ID) = 0
 trigger1 = MatchOver = 1
 type = VarSet
 fv = 5
 value = 100.0
 [State 250, If you die you DISAPPEAR]
-trigger1 = playerid(getplayerid(5)),alive = 0
-trigger1 = playerid(getplayerid(5)),stateno = 5150
+trigger1 = player(5),alive = 0
+trigger1 = player(5),stateno = 5150
 trigger1 = MatchOver = 1
 type = AssertSpecial
 flag = invisible
 flag2 = noshadow
 flag3 = nohardcodedkeys
-RedirectID = playerid(getplayerid(5)),ID
+RedirectID = player(5),ID
 [State 250, Explod]
-trigger1 = playerid(getplayerid(5)),alive = 0
-trigger1 = playerid(getplayerid(5)),stateno = 5150
-trigger1 = playerid(getplayerid(5)),NumExplod(777+playerid(getplayerid(5)),ID) = 0
+trigger1 = player(5),alive = 0
+trigger1 = player(5),stateno = 5150
+trigger1 = player(5),NumExplod(777+player(5),ID) = 0
 trigger1 = MatchOver = 1
 type = Explod
-facing = playerid(getplayerid(5)),facing
+facing = player(5),facing
 anim = 5160
 space = Stage
 removetime = -1
-Pos = playerid(getplayerid(5)),Pos X + CameraPos X, playerid(getplayerid(5)),Pos Y + CameraPos Y
-ID = 777+playerid(getplayerid(5)),ID
-RedirectID = playerid(getplayerid(5)),ID
+Pos = player(5),Pos X + CameraPos X, player(5),Pos Y + CameraPos Y
+ID = 777+player(5),ID
+RedirectID = player(5),ID
 [State 250, ScaleChar];And falls awayyyyyy
 type = ModifyExplod
 trigger1 = FVar(5) < 100.0
-scale = playerid(getplayerid(9)),Helper(21),FVar(5)/100,playerid(getplayerid(9)),Helper(21),FVar(5)/100
-ID = 777+playerid(getplayerid(5)),ID
-vel = -(playerid(getplayerid(5)),Pos X + CameraPos X)/ 50,-2.0
+scale = player(9),Helper(21),FVar(5)/100,player(9),Helper(21),FVar(5)/100
+ID = 777+player(5),ID
+vel = -(player(5),Pos X + CameraPos X)/ 50,-2.0
 accel = 0
 sprPriority = -9
-RedirectID = playerid(getplayerid(5)),ID
+RedirectID = player(5),ID
 [State 250, TimeVar]
 trigger1 = FVar(5) > 0.5
 trigger1 = MatchOver = 1
@@ -6146,44 +6146,44 @@ fv = 5
 value = -2.0
 
 [State 250, Startsize]
-trigger1 = playerid(getplayerid(6)),alive = 0
-trigger1 = playerid(getplayerid(6)),stateno = 5150
-trigger1 = playerid(getplayerid(6)),NumExplod(777+playerid(getplayerid(6)),ID) = 0
+trigger1 = player(6),alive = 0
+trigger1 = player(6),stateno = 5150
+trigger1 = player(6),NumExplod(777+player(6),ID) = 0
 trigger1 = MatchOver = 1
 type = VarSet
 fv = 6
 value = 100.0
 [State 250, If you die you DISAPPEAR]
-trigger1 = playerid(getplayerid(6)),alive = 0
-trigger1 = playerid(getplayerid(6)),stateno = 5150
+trigger1 = player(6),alive = 0
+trigger1 = player(6),stateno = 5150
 trigger1 = MatchOver = 1
 type = AssertSpecial
 flag = invisible
 flag2 = noshadow
 flag3 = nohardcodedkeys
-RedirectID = playerid(getplayerid(6)),ID
+RedirectID = player(6),ID
 [State 250, Explod]
-trigger1 = playerid(getplayerid(6)),alive = 0
-trigger1 = playerid(getplayerid(6)),stateno = 5150
-trigger1 = playerid(getplayerid(6)),NumExplod(777+playerid(getplayerid(6)),ID) = 0
+trigger1 = player(6),alive = 0
+trigger1 = player(6),stateno = 5150
+trigger1 = player(6),NumExplod(777+player(6),ID) = 0
 trigger1 = MatchOver = 1
 type = Explod
-facing = playerid(getplayerid(6)),facing
+facing = player(6),facing
 anim = 5160
 space = Stage
 removetime = -1
-Pos = playerid(getplayerid(6)),Pos X + CameraPos X, playerid(getplayerid(6)),Pos Y + CameraPos Y
-ID = 777+playerid(getplayerid(6)),ID
-RedirectID = playerid(getplayerid(6)),ID
+Pos = player(6),Pos X + CameraPos X, player(6),Pos Y + CameraPos Y
+ID = 777+player(6),ID
+RedirectID = player(6),ID
 [State 250, ScaleChar];And falls awayyyyyy
 type = ModifyExplod
 trigger1 = FVar(6) < 100.0
-scale = playerid(getplayerid(9)),Helper(21),FVar(6)/100,playerid(getplayerid(9)),Helper(21),FVar(6)/100
-ID = 777+playerid(getplayerid(6)),ID
-vel = -(playerid(getplayerid(6)),Pos X + CameraPos X)/ 50,-2.0
+scale = player(9),Helper(21),FVar(6)/100,player(9),Helper(21),FVar(6)/100
+ID = 777+player(6),ID
+vel = -(player(6),Pos X + CameraPos X)/ 50,-2.0
 accel = 0
 sprPriority = -9
-RedirectID = playerid(getplayerid(6)),ID
+RedirectID = player(6),ID
 [State 250, TimeVar]
 trigger1 = FVar(6) > 0.5
 trigger1 = MatchOver = 1
@@ -6192,44 +6192,44 @@ fv = 6
 value = -2.0
 
 [State 250, Startsize]
-trigger1 = playerid(getplayerid(7)),alive = 0
-trigger1 = playerid(getplayerid(7)),stateno = 5150
-trigger1 = playerid(getplayerid(7)),NumExplod(777+playerid(getplayerid(7)),ID) = 0
+trigger1 = player(7),alive = 0
+trigger1 = player(7),stateno = 5150
+trigger1 = player(7),NumExplod(777+player(7),ID) = 0
 trigger1 = MatchOver = 1
 type = VarSet
 fv = 7
 value = 100.0
 [State 250, If you die you DISAPPEAR]
-trigger1 = playerid(getplayerid(7)),alive = 0
-trigger1 = playerid(getplayerid(7)),stateno = 5150
+trigger1 = player(7),alive = 0
+trigger1 = player(7),stateno = 5150
 trigger1 = MatchOver = 1
 type = AssertSpecial
 flag = invisible
 flag2 = noshadow
 flag3 = nohardcodedkeys
-RedirectID = playerid(getplayerid(7)),ID
+RedirectID = player(7),ID
 [State 250, Explod]
-trigger1 = playerid(getplayerid(7)),alive = 0
-trigger1 = playerid(getplayerid(7)),stateno = 5150
-trigger1 = playerid(getplayerid(7)),NumExplod(777+playerid(getplayerid(7)),ID) = 0
+trigger1 = player(7),alive = 0
+trigger1 = player(7),stateno = 5150
+trigger1 = player(7),NumExplod(777+player(7),ID) = 0
 trigger1 = MatchOver = 1
 type = Explod
-facing = playerid(getplayerid(7)),facing
+facing = player(7),facing
 anim = 5160
 space = Stage
 removetime = -1
-Pos = playerid(getplayerid(7)),Pos X + CameraPos X, playerid(getplayerid(7)),Pos Y + CameraPos Y
-ID = 777+playerid(getplayerid(7)),ID
-RedirectID = playerid(getplayerid(7)),ID
+Pos = player(7),Pos X + CameraPos X, player(7),Pos Y + CameraPos Y
+ID = 777+player(7),ID
+RedirectID = player(7),ID
 [State 250, ScaleChar];And falls awayyyyyy
 type = ModifyExplod
 trigger1 = FVar(7) < 100.0
-scale = playerid(getplayerid(9)),Helper(21),FVar(7)/100,playerid(getplayerid(9)),Helper(21),FVar(7)/100
-ID = 777+playerid(getplayerid(7)),ID
-vel = -(playerid(getplayerid(7)),Pos X + CameraPos X)/ 50,-2.0
+scale = player(9),Helper(21),FVar(7)/100,player(9),Helper(21),FVar(7)/100
+ID = 777+player(7),ID
+vel = -(player(7),Pos X + CameraPos X)/ 50,-2.0
 accel = 0
 sprPriority = -9
-RedirectID = playerid(getplayerid(7)),ID
+RedirectID = player(7),ID
 [State 250, TimeVar]
 trigger1 = FVar(7) > 0.5
 trigger1 = MatchOver = 1
@@ -6238,44 +6238,44 @@ fv = 7
 value = -2.0
 
 [State 250, Startsize]
-trigger1 = playerid(getplayerid(8)),alive = 0
-trigger1 = playerid(getplayerid(8)),stateno = 5150
-trigger1 = playerid(getplayerid(8)),NumExplod(777+playerid(getplayerid(8)),ID) = 0
+trigger1 = player(8),alive = 0
+trigger1 = player(8),stateno = 5150
+trigger1 = player(8),NumExplod(777+player(8),ID) = 0
 trigger1 = MatchOver = 1
 type = VarSet
 fv = 8
 value = 100.0
 [State 250, If you die you DISAPPEAR]
-trigger1 = playerid(getplayerid(8)),alive = 0
-trigger1 = playerid(getplayerid(8)),stateno = 5150
+trigger1 = player(8),alive = 0
+trigger1 = player(8),stateno = 5150
 trigger1 = MatchOver = 1
 type = AssertSpecial
 flag = invisible
 flag2 = noshadow
 flag3 = nohardcodedkeys
-RedirectID = playerid(getplayerid(8)),ID
+RedirectID = player(8),ID
 [State 250, Explod]
-trigger1 = playerid(getplayerid(8)),alive = 0
-trigger1 = playerid(getplayerid(8)),stateno = 5150
-trigger1 = playerid(getplayerid(8)),NumExplod(777+playerid(getplayerid(8)),ID) = 0
+trigger1 = player(8),alive = 0
+trigger1 = player(8),stateno = 5150
+trigger1 = player(8),NumExplod(777+player(8),ID) = 0
 trigger1 = MatchOver = 1
 type = Explod
-facing = playerid(getplayerid(8)),facing
+facing = player(8),facing
 anim = 5160
 space = Stage
 removetime = -1
-Pos = playerid(getplayerid(8)),Pos X + CameraPos X, playerid(getplayerid(8)),Pos Y + CameraPos Y
-ID = 777+playerid(getplayerid(8)),ID
-RedirectID = playerid(getplayerid(8)),ID
+Pos = player(8),Pos X + CameraPos X, player(8),Pos Y + CameraPos Y
+ID = 777+player(8),ID
+RedirectID = player(8),ID
 [State 250, ScaleChar];And falls awayyyyyy
 type = ModifyExplod
 trigger1 = FVar(8) < 100.0
-scale = playerid(getplayerid(9)),Helper(21),FVar(8)/100,playerid(getplayerid(9)),Helper(21),FVar(8)/100
-ID = 777+playerid(getplayerid(8)),ID
-vel = -(playerid(getplayerid(8)),Pos X + CameraPos X)/ 50,-2.0
+scale = player(9),Helper(21),FVar(8)/100,player(9),Helper(21),FVar(8)/100
+ID = 777+player(8),ID
+vel = -(player(8),Pos X + CameraPos X)/ 50,-2.0
 accel = 0
 sprPriority = -9
-RedirectID = playerid(getplayerid(8)),ID
+RedirectID = player(8),ID
 [State 250, TimeVar]
 trigger1 = FVar(8) > 0.5
 trigger1 = MatchOver = 1
@@ -6347,152 +6347,152 @@ v = 3
 value = 0
 
 [State 200, P1GotHit]
-trigger1 = playerid(getplayerid(1)),hitfall
+trigger1 = player(1),hitfall
 Type = VarSet
 v = 51
 value = 1
 [State 200, P1isOnGround]
-trigger1 = playerid(getplayerid(1)),pos y = 0
+trigger1 = player(1),pos y = 0
 Type = VarSet
 v = 51
 value = 0
 [State 200, HittingObjectP1]
-trigger1 = playerid(getplayerid(1)),pos x > Var(1) && playerid(getplayerid(1)),pos x < Var(2) 
-trigger1 = playerid(getplayerid(1)),pos y >= playerid(getplayerid(1)),-const(size.height) * 0.5
-trigger1 = playerid(getplayerid(1)),vel y != 0
+trigger1 = player(1),pos x > Var(1) && player(1),pos x < Var(2) 
+trigger1 = player(1),pos y >= -(player(1),const(size.height)) * 0.5
+trigger1 = player(1),vel y != 0
 trigger1 = Var(51) = 1
 trigger1 = Var(3) = 0
 type = VarSet
 v = 3
 value = 1
 [State 200, P2GotHit]
-trigger1 = playerid(getplayerid(2)),hitfall
+trigger1 = player(2),hitfall
 Type = VarSet
 v = 52
 value = 1
 [State 200, P2isOnGround]
-trigger1 = playerid(getplayerid(2)),pos y = 0
+trigger1 = player(2),pos y = 0
 Type = VarSet
 v = 52
 value = 0
 [State 200, HittingObjectP2]
-trigger1 = playerid(getplayerid(2)),pos x > Var(1) && playerid(getplayerid(2)),pos x < Var(2) 
-trigger1 = playerid(getplayerid(2)),pos y >= playerid(getplayerid(2)),-const(size.height) * 0.5
-trigger1 = playerid(getplayerid(2)),vel y != 0
+trigger1 = player(2),pos x > Var(1) && player(2),pos x < Var(2) 
+trigger1 = player(2),pos y >= -(player(2),const(size.height)) * 0.5
+trigger1 = player(2),vel y != 0
 trigger1 = Var(52) = 1
 trigger1 = Var(3) = 0
 type = VarSet
 v = 3
 value = 2
 [State 200, P3GotHit]
-trigger1 = playerid(getplayerid(3)),hitfall
+trigger1 = player(3),hitfall
 Type = VarSet
 v = 53
 value = 1
 [State 200, P3isOnGround]
-trigger1 = playerid(getplayerid(3)),pos y = 0
+trigger1 = player(3),pos y = 0
 Type = VarSet
 v = 53
 value = 0
 [State 200, HittingObjectP3]
-trigger1 = playerid(getplayerid(3)),pos x > Var(1) && playerid(getplayerid(3)),pos x < Var(2) 
-trigger1 = playerid(getplayerid(3)),pos y >= playerid(getplayerid(3)),-const(size.height) * 0.5
-trigger1 = playerid(getplayerid(3)),vel y != 0
+trigger1 = player(3),pos x > Var(1) && player(3),pos x < Var(2) 
+trigger1 = player(3),pos y >= -(player(3),const(size.height)) * 0.5
+trigger1 = player(3),vel y != 0
 trigger1 = Var(53) = 1
 trigger1 = Var(3) = 0
 type = VarSet
 v = 3
 value = 3
 [State 200, P4GotHit]
-trigger1 = playerid(getplayerid(4)),hitfall
+trigger1 = player(4),hitfall
 Type = VarSet
 v = 54
 value = 1
 [State 200, P4isOnGround]
-trigger1 = playerid(getplayerid(4)),pos y = 0
+trigger1 = player(4),pos y = 0
 Type = VarSet
 v = 54
 value = 0
 [State 200, HittingObjectP4]
-trigger1 = playerid(getplayerid(4)),pos x > Var(1) && playerid(getplayerid(4)),pos x < Var(2) 
-trigger1 = playerid(getplayerid(4)),pos y >= playerid(getplayerid(4)),-const(size.height) * 0.5
-trigger1 = playerid(getplayerid(4)),vel y != 0
+trigger1 = player(4),pos x > Var(1) && player(4),pos x < Var(2) 
+trigger1 = player(4),pos y >= -(player(4),const(size.height)) * 0.5
+trigger1 = player(4),vel y != 0
 trigger1 = Var(54) = 1
 trigger1 = Var(3) = 0
 type = VarSet
 v = 3
 value = 4
 [State 200, P5GotHit]
-trigger1 = playerid(getplayerid(5)),hitfall
+trigger1 = player(5),hitfall
 Type = VarSet
 v = 55
 value = 1
 [State 200, P5isOnGround]
-trigger1 = playerid(getplayerid(5)),pos y = 0
+trigger1 = player(5),pos y = 0
 Type = VarSet
 v = 55
 value = 0
 [State 200, HittingObjectP5]
-trigger1 = playerid(getplayerid(5)),pos x > Var(1) && playerid(getplayerid(5)),pos x < Var(2) 
-trigger1 = playerid(getplayerid(5)),pos y >= playerid(getplayerid(5)),-const(size.height) * 0.5
-trigger1 = playerid(getplayerid(5)),vel y != 0
+trigger1 = player(5),pos x > Var(1) && player(5),pos x < Var(2) 
+trigger1 = player(5),pos y >= -(player(5),const(size.height)) * 0.5
+trigger1 = player(5),vel y != 0
 trigger1 = Var(55) = 1
 trigger1 = Var(3) = 0
 type = VarSet
 v = 3
 value = 5
 [State 200, P6GotHit]
-trigger1 = playerid(getplayerid(6)),hitfall
+trigger1 = player(6),hitfall
 Type = VarSet
 v = 56
 value = 1
 [State 200, P6isOnGround]
-trigger1 = playerid(getplayerid(6)),pos y = 0
+trigger1 = player(6),pos y = 0
 Type = VarSet
 v = 56
 value = 0
 [State 200, HittingObjectP6]
-trigger1 = playerid(getplayerid(6)),pos x > Var(1) && playerid(getplayerid(6)),pos x < Var(2) 
-trigger1 = playerid(getplayerid(6)),pos y >= playerid(getplayerid(6)),-const(size.height) * 0.5
-trigger1 = playerid(getplayerid(6)),vel y != 0
+trigger1 = player(6),pos x > Var(1) && player(6),pos x < Var(2) 
+trigger1 = player(6),pos y >= -(player(6),const(size.height)) * 0.5
+trigger1 = player(6),vel y != 0
 trigger1 = Var(56) = 1
 trigger1 = Var(3) = 0
 type = VarSet
 v = 3
 value = 6
 [State 200, P7GotHit]
-trigger1 = playerid(getplayerid(7)),hitfall
+trigger1 = player(7),hitfall
 Type = VarSet
 v = 57
 value = 1
 [State 200, P7isOnGround]
-trigger1 = playerid(getplayerid(7)),pos y = 0
+trigger1 = player(7),pos y = 0
 Type = VarSet
 v = 57
 value = 0
 [State 200, HittingObjectP7]
-trigger1 = playerid(getplayerid(7)),pos x > Var(1) && playerid(getplayerid(7)),pos x < Var(2) 
-trigger1 = playerid(getplayerid(7)),pos y >= playerid(getplayerid(7)),-const(size.height) * 0.5
-trigger1 = playerid(getplayerid(7)),vel y != 0
+trigger1 = player(7),pos x > Var(1) && player(7),pos x < Var(2) 
+trigger1 = player(7),pos y >= -(player(7),const(size.height)) * 0.5
+trigger1 = player(7),vel y != 0
 trigger1 = Var(57) = 1
 trigger1 = Var(3) = 0
 type = VarSet
 v = 3
 value = 7
 [State 200, P8GotHit]
-trigger1 = playerid(getplayerid(8)),hitfall
+trigger1 = player(8),hitfall
 Type = VarSet
 v = 58
 value = 1
 [State 200, P8isOnGround]
-trigger1 = playerid(getplayerid(8)),pos y = 0
+trigger1 = player(8),pos y = 0
 Type = VarSet
 v = 58
 value = 0
 [State 200, HittingObjectP8]
-trigger1 = playerid(getplayerid(8)),pos x > Var(1) && playerid(getplayerid(8)),pos x < Var(2) 
-trigger1 = playerid(getplayerid(8)),pos y >= playerid(getplayerid(8)),-const(size.height) * 0.5
-trigger1 = playerid(getplayerid(8)),vel y != 0
+trigger1 = player(8),pos x > Var(1) && player(8),pos x < Var(2) 
+trigger1 = player(8),pos y >= -(player(8),const(size.height)) * 0.5
+trigger1 = player(8),vel y != 0
 trigger1 = Var(58) = 1
 trigger1 = Var(3) = 0
 type = VarSet
@@ -6527,7 +6527,7 @@ trigger1 = NumHelper(6) < 9 && NumHelper(6) > 1
 anim = 5
 space = stage
 pos = Pos X + CameraPos X, Pos Y - 30
-vel = Rand(-3,-0.25),Rand(-10,-7.5)
+vel = (-3+Random*2.75/999.0),(-10+Random*2.5/999.0)
 accel = 0,0.2
 random = 40,20
 RemoveTime = -2
@@ -6710,152 +6710,152 @@ v = 3
 value = 0
 
 [State 200, P1GotHit]
-trigger1 = playerid(getplayerid(1)),hitfall
+trigger1 = player(1),hitfall
 Type = VarSet
 v = 51
 value = 1
 [State 200, P1isOnGround]
-trigger1 = playerid(getplayerid(1)),pos y = 0
+trigger1 = player(1),pos y = 0
 Type = VarSet
 v = 51
 value = 0
 [State 200, HittingObjectP1]
-trigger1 = playerid(getplayerid(1)),pos x > Var(1) && playerid(getplayerid(1)),pos x < Var(2) 
-trigger1 = playerid(getplayerid(1)),pos y <= playerid(getplayerid(1)),-const(size.height) * 0.5
-trigger1 = playerid(getplayerid(1)),vel y != 0
+trigger1 = player(1),pos x > Var(1) && player(1),pos x < Var(2) 
+trigger1 = player(1),pos y <= -(player(1),const(size.height)) * 0.5
+trigger1 = player(1),vel y != 0
 trigger1 = Var(51) = 1
 trigger1 = Var(3) = 0
 type = VarSet
 v = 3
 value = 1
 [State 200, P2GotHit]
-trigger1 = playerid(getplayerid(2)),hitfall
+trigger1 = player(2),hitfall
 Type = VarSet
 v = 52
 value = 1
 [State 200, P2isOnGround]
-trigger1 = playerid(getplayerid(2)),pos y = 0
+trigger1 = player(2),pos y = 0
 Type = VarSet
 v = 52
 value = 0
 [State 200, HittingObjectP2]
-trigger1 = playerid(getplayerid(2)),pos x > Var(1) && playerid(getplayerid(2)),pos x < Var(2) 
-trigger1 = playerid(getplayerid(2)),pos y <= playerid(getplayerid(2)),-const(size.height) * 0.5
-trigger1 = playerid(getplayerid(2)),vel y != 0
+trigger1 = player(2),pos x > Var(1) && player(2),pos x < Var(2) 
+trigger1 = player(2),pos y <= -(player(2),const(size.height)) * 0.5
+trigger1 = player(2),vel y != 0
 trigger1 = Var(52) = 1
 trigger1 = Var(3) = 0
 type = VarSet
 v = 3
 value = 2
 [State 200, P3GotHit]
-trigger1 = playerid(getplayerid(3)),hitfall
+trigger1 = player(3),hitfall
 Type = VarSet
 v = 53
 value = 1
 [State 200, P3isOnGround]
-trigger1 = playerid(getplayerid(3)),pos y = 0
+trigger1 = player(3),pos y = 0
 Type = VarSet
 v = 53
 value = 0
 [State 200, HittingObjectP3]
-trigger1 = playerid(getplayerid(3)),pos x > Var(1) && playerid(getplayerid(3)),pos x < Var(2) 
-trigger1 = playerid(getplayerid(3)),pos y <= playerid(getplayerid(3)),-const(size.height) * 0.5
-trigger1 = playerid(getplayerid(3)),vel y != 0
+trigger1 = player(3),pos x > Var(1) && player(3),pos x < Var(2) 
+trigger1 = player(3),pos y <= -(player(3),const(size.height)) * 0.5
+trigger1 = player(3),vel y != 0
 trigger1 = Var(53) = 1
 trigger1 = Var(3) = 0
 type = VarSet
 v = 3
 value = 3
 [State 200, P4GotHit]
-trigger1 = playerid(getplayerid(4)),hitfall
+trigger1 = player(4),hitfall
 Type = VarSet
 v = 54
 value = 1
 [State 200, P4isOnGround]
-trigger1 = playerid(getplayerid(4)),pos y = 0
+trigger1 = player(4),pos y = 0
 Type = VarSet
 v = 54
 value = 0
 [State 200, HittingObjectP4]
-trigger1 = playerid(getplayerid(4)),pos x > Var(1) && playerid(getplayerid(4)),pos x < Var(2) 
-trigger1 = playerid(getplayerid(4)),pos y <= playerid(getplayerid(4)),-const(size.height) * 0.5
-trigger1 = playerid(getplayerid(4)),vel y != 0
+trigger1 = player(4),pos x > Var(1) && player(4),pos x < Var(2) 
+trigger1 = player(4),pos y <= -(player(4),const(size.height)) * 0.5
+trigger1 = player(4),vel y != 0
 trigger1 = Var(54) = 1
 trigger1 = Var(3) = 0
 type = VarSet
 v = 3
 value = 4
 [State 200, P5GotHit]
-trigger1 = playerid(getplayerid(5)),hitfall
+trigger1 = player(5),hitfall
 Type = VarSet
 v = 55
 value = 1
 [State 200, P5isOnGround]
-trigger1 = playerid(getplayerid(5)),pos y = 0
+trigger1 = player(5),pos y = 0
 Type = VarSet
 v = 55
 value = 0
 [State 200, HittingObjectP5]
-trigger1 = playerid(getplayerid(5)),pos x > Var(1) && playerid(getplayerid(5)),pos x < Var(2) 
-trigger1 = playerid(getplayerid(5)),pos y <= playerid(getplayerid(5)),-const(size.height) * 0.5
-trigger1 = playerid(getplayerid(5)),vel y != 0
+trigger1 = player(5),pos x > Var(1) && player(5),pos x < Var(2) 
+trigger1 = player(5),pos y <= -(player(5),const(size.height)) * 0.5
+trigger1 = player(5),vel y != 0
 trigger1 = Var(55) = 1
 trigger1 = Var(3) = 0
 type = VarSet
 v = 3
 value = 5
 [State 200, P6GotHit]
-trigger1 = playerid(getplayerid(6)),hitfall
+trigger1 = player(6),hitfall
 Type = VarSet
 v = 56
 value = 1
 [State 200, P6isOnGround]
-trigger1 = playerid(getplayerid(6)),pos y = 0
+trigger1 = player(6),pos y = 0
 Type = VarSet
 v = 56
 value = 0
 [State 200, HittingObjectP6]
-trigger1 = playerid(getplayerid(6)),pos x > Var(1) && playerid(getplayerid(6)),pos x < Var(2) 
-trigger1 = playerid(getplayerid(6)),pos y <= playerid(getplayerid(6)),-const(size.height) * 0.5
-trigger1 = playerid(getplayerid(6)),vel y != 0
+trigger1 = player(6),pos x > Var(1) && player(6),pos x < Var(2) 
+trigger1 = player(6),pos y <= -(player(6),const(size.height)) * 0.5
+trigger1 = player(6),vel y != 0
 trigger1 = Var(56) = 1
 trigger1 = Var(3) = 0
 type = VarSet
 v = 3
 value = 6
 [State 200, P7GotHit]
-trigger1 = playerid(getplayerid(7)),hitfall
+trigger1 = player(7),hitfall
 Type = VarSet
 v = 57
 value = 1
 [State 200, P7isOnGround]
-trigger1 = playerid(getplayerid(7)),pos y = 0
+trigger1 = player(7),pos y = 0
 Type = VarSet
 v = 57
 value = 0
 [State 200, HittingObjectP7]
-trigger1 = playerid(getplayerid(7)),pos x > Var(1) && playerid(getplayerid(7)),pos x < Var(2) 
-trigger1 = playerid(getplayerid(7)),pos y <= playerid(getplayerid(7)),-const(size.height) * 0.5
-trigger1 = playerid(getplayerid(7)),vel y != 0
+trigger1 = player(7),pos x > Var(1) && player(7),pos x < Var(2) 
+trigger1 = player(7),pos y <= -(player(7),const(size.height)) * 0.5
+trigger1 = player(7),vel y != 0
 trigger1 = Var(57) = 1
 trigger1 = Var(3) = 0
 type = VarSet
 v = 3
 value = 7
 [State 200, P8GotHit]
-trigger1 = playerid(getplayerid(8)),hitfall
+trigger1 = player(8),hitfall
 Type = VarSet
 v = 58
 value = 1
 [State 200, P8isOnGround]
-trigger1 = playerid(getplayerid(8)),pos y = 0
+trigger1 = player(8),pos y = 0
 Type = VarSet
 v = 58
 value = 0
 [State 200, HittingObjectP8]
-trigger1 = playerid(getplayerid(8)),pos x > Var(1) && playerid(getplayerid(8)),pos x < Var(2) 
-trigger1 = playerid(getplayerid(8)),pos y <= playerid(getplayerid(8)),-const(size.height) * 0.5
-trigger1 = playerid(getplayerid(8)),vel y != 0
+trigger1 = player(8),pos x > Var(1) && player(8),pos x < Var(2) 
+trigger1 = player(8),pos y <= -(player(8),const(size.height)) * 0.5
+trigger1 = player(8),vel y != 0
 trigger1 = Var(58) = 1
 trigger1 = Var(3) = 0
 type = VarSet
@@ -7025,7 +7025,7 @@ physics = N                      ;Physics: S-stand, C-crouch, A-air
 juggle  = 1                     ;Number of air juggle points move takes
 velset = 0,0                     ;Set velocity (x,y) (Def: no change)
 ctrl = 0                         ;Set ctrl (Def: no change)
-anim = Rand(514,517)                       ;Change animation (Def: no change)
+anim = (514+floor(Random*4/1000.0))                       ;Change animation (Def: no change)
 poweradd = 0                    ;Power to add (Def: 0)
 sprpriority = -8                  ;Set p1's sprite layering priority to 2 (in front)
 
@@ -7168,152 +7168,152 @@ v = 3
 value = 0
 
 [State 200, P1GotHit]
-trigger1 = playerid(getplayerid(1)),hitfall
+trigger1 = player(1),hitfall
 Type = VarSet
 v = 51
 value = 1
 [State 200, P1isOnGround]
-trigger1 = playerid(getplayerid(1)),pos y = 0
+trigger1 = player(1),pos y = 0
 Type = VarSet
 v = 51
 value = 0
 [State 200, HittingObjectP1]
-trigger1 = playerid(getplayerid(1)),pos x > Var(1) && playerid(getplayerid(1)),pos x < Var(2) 
-trigger1 = playerid(getplayerid(1)),pos y >= playerid(getplayerid(1)),-const(size.height) * 0.5
-trigger1 = playerid(getplayerid(1)),vel y != 0
+trigger1 = player(1),pos x > Var(1) && player(1),pos x < Var(2) 
+trigger1 = player(1),pos y >= -(player(1),const(size.height)) * 0.5
+trigger1 = player(1),vel y != 0
 trigger1 = Var(51) = 1
 trigger1 = Var(3) = 0
 type = VarSet
 v = 3
 value = 1
 [State 200, P2GotHit]
-trigger1 = playerid(getplayerid(2)),hitfall
+trigger1 = player(2),hitfall
 Type = VarSet
 v = 52
 value = 1
 [State 200, P2isOnGround]
-trigger1 = playerid(getplayerid(2)),pos y = 0
+trigger1 = player(2),pos y = 0
 Type = VarSet
 v = 52
 value = 0
 [State 200, HittingObjectP2]
-trigger1 = playerid(getplayerid(2)),pos x > Var(1) && playerid(getplayerid(2)),pos x < Var(2) 
-trigger1 = playerid(getplayerid(2)),pos y >= playerid(getplayerid(2)),-const(size.height) * 0.5
-trigger1 = playerid(getplayerid(2)),vel y != 0
+trigger1 = player(2),pos x > Var(1) && player(2),pos x < Var(2) 
+trigger1 = player(2),pos y >= -(player(2),const(size.height)) * 0.5
+trigger1 = player(2),vel y != 0
 trigger1 = Var(52) = 1
 trigger1 = Var(3) = 0
 type = VarSet
 v = 3
 value = 2
 [State 200, P3GotHit]
-trigger1 = playerid(getplayerid(3)),hitfall
+trigger1 = player(3),hitfall
 Type = VarSet
 v = 53
 value = 1
 [State 200, P3isOnGround]
-trigger1 = playerid(getplayerid(3)),pos y = 0
+trigger1 = player(3),pos y = 0
 Type = VarSet
 v = 53
 value = 0
 [State 200, HittingObjectP3]
-trigger1 = playerid(getplayerid(3)),pos x > Var(1) && playerid(getplayerid(3)),pos x < Var(2) 
-trigger1 = playerid(getplayerid(3)),pos y >= playerid(getplayerid(3)),-const(size.height) * 0.5
-trigger1 = playerid(getplayerid(3)),vel y != 0
+trigger1 = player(3),pos x > Var(1) && player(3),pos x < Var(2) 
+trigger1 = player(3),pos y >= -(player(3),const(size.height)) * 0.5
+trigger1 = player(3),vel y != 0
 trigger1 = Var(53) = 1
 trigger1 = Var(3) = 0
 type = VarSet
 v = 3
 value = 3
 [State 200, P4GotHit]
-trigger1 = playerid(getplayerid(4)),hitfall
+trigger1 = player(4),hitfall
 Type = VarSet
 v = 54
 value = 1
 [State 200, P4isOnGround]
-trigger1 = playerid(getplayerid(4)),pos y = 0
+trigger1 = player(4),pos y = 0
 Type = VarSet
 v = 54
 value = 0
 [State 200, HittingObjectP4]
-trigger1 = playerid(getplayerid(4)),pos x > Var(1) && playerid(getplayerid(4)),pos x < Var(2) 
-trigger1 = playerid(getplayerid(4)),pos y >= playerid(getplayerid(4)),-const(size.height) * 0.5
-trigger1 = playerid(getplayerid(4)),vel y != 0
+trigger1 = player(4),pos x > Var(1) && player(4),pos x < Var(2) 
+trigger1 = player(4),pos y >= -(player(4),const(size.height)) * 0.5
+trigger1 = player(4),vel y != 0
 trigger1 = Var(54) = 1
 trigger1 = Var(3) = 0
 type = VarSet
 v = 3
 value = 4
 [State 200, P5GotHit]
-trigger1 = playerid(getplayerid(5)),hitfall
+trigger1 = player(5),hitfall
 Type = VarSet
 v = 55
 value = 1
 [State 200, P5isOnGround]
-trigger1 = playerid(getplayerid(5)),pos y = 0
+trigger1 = player(5),pos y = 0
 Type = VarSet
 v = 55
 value = 0
 [State 200, HittingObjectP5]
-trigger1 = playerid(getplayerid(5)),pos x > Var(1) && playerid(getplayerid(5)),pos x < Var(2) 
-trigger1 = playerid(getplayerid(5)),pos y >= playerid(getplayerid(5)),-const(size.height) * 0.5
-trigger1 = playerid(getplayerid(5)),vel y != 0
+trigger1 = player(5),pos x > Var(1) && player(5),pos x < Var(2) 
+trigger1 = player(5),pos y >= -(player(5),const(size.height)) * 0.5
+trigger1 = player(5),vel y != 0
 trigger1 = Var(55) = 1
 trigger1 = Var(3) = 0
 type = VarSet
 v = 3
 value = 5
 [State 200, P6GotHit]
-trigger1 = playerid(getplayerid(6)),hitfall
+trigger1 = player(6),hitfall
 Type = VarSet
 v = 56
 value = 1
 [State 200, P6isOnGround]
-trigger1 = playerid(getplayerid(6)),pos y = 0
+trigger1 = player(6),pos y = 0
 Type = VarSet
 v = 56
 value = 0
 [State 200, HittingObjectP6]
-trigger1 = playerid(getplayerid(6)),pos x > Var(1) && playerid(getplayerid(6)),pos x < Var(2) 
-trigger1 = playerid(getplayerid(6)),pos y >= playerid(getplayerid(6)),-const(size.height) * 0.5
-trigger1 = playerid(getplayerid(6)),vel y != 0
+trigger1 = player(6),pos x > Var(1) && player(6),pos x < Var(2) 
+trigger1 = player(6),pos y >= -(player(6),const(size.height)) * 0.5
+trigger1 = player(6),vel y != 0
 trigger1 = Var(56) = 1
 trigger1 = Var(3) = 0
 type = VarSet
 v = 3
 value = 6
 [State 200, P7GotHit]
-trigger1 = playerid(getplayerid(7)),hitfall
+trigger1 = player(7),hitfall
 Type = VarSet
 v = 57
 value = 1
 [State 200, P7isOnGround]
-trigger1 = playerid(getplayerid(7)),pos y = 0
+trigger1 = player(7),pos y = 0
 Type = VarSet
 v = 57
 value = 0
 [State 200, HittingObjectP7]
-trigger1 = playerid(getplayerid(7)),pos x > Var(1) && playerid(getplayerid(7)),pos x < Var(2) 
-trigger1 = playerid(getplayerid(7)),pos y >= playerid(getplayerid(7)),-const(size.height) * 0.5
-trigger1 = playerid(getplayerid(7)),vel y != 0
+trigger1 = player(7),pos x > Var(1) && player(7),pos x < Var(2) 
+trigger1 = player(7),pos y >= -(player(7),const(size.height)) * 0.5
+trigger1 = player(7),vel y != 0
 trigger1 = Var(57) = 1
 trigger1 = Var(3) = 0
 type = VarSet
 v = 3
 value = 7
 [State 200, P8GotHit]
-trigger1 = playerid(getplayerid(8)),hitfall
+trigger1 = player(8),hitfall
 Type = VarSet
 v = 58
 value = 1
 [State 200, P8isOnGround]
-trigger1 = playerid(getplayerid(8)),pos y = 0
+trigger1 = player(8),pos y = 0
 Type = VarSet
 v = 58
 value = 0
 [State 200, HittingObjectP8]
-trigger1 = playerid(getplayerid(8)),pos x > Var(1) && playerid(getplayerid(8)),pos x < Var(2) 
-trigger1 = playerid(getplayerid(8)),pos y >= playerid(getplayerid(8)),-const(size.height) * 0.5
-trigger1 = playerid(getplayerid(8)),vel y != 0
+trigger1 = player(8),pos x > Var(1) && player(8),pos x < Var(2) 
+trigger1 = player(8),pos y >= -(player(8),const(size.height)) * 0.5
+trigger1 = player(8),vel y != 0
 trigger1 = Var(58) = 1
 trigger1 = Var(3) = 0
 type = VarSet
@@ -7424,152 +7424,152 @@ v = 3
 value = 0
 
 [State 210, P1GotHit]
-trigger1 = playerid(getplayerid(1)),hitfall
+trigger1 = player(1),hitfall
 Type = VarSet
 v = 51
 value = 1
 [State 210, P1isOnGround]
-trigger1 = playerid(getplayerid(1)),pos y = 0
+trigger1 = player(1),pos y = 0
 Type = VarSet
 v = 51
 value = 0
 [State 210, HittingObjectP1]
-trigger1 = playerid(getplayerid(1)),pos x > Var(1) && playerid(getplayerid(1)),pos x < Var(2) 
-trigger1 = playerid(getplayerid(1)),pos y >= playerid(getplayerid(1)),-const(size.height) * 0.5
-trigger1 = playerid(getplayerid(1)),vel y != 0
+trigger1 = player(1),pos x > Var(1) && player(1),pos x < Var(2) 
+trigger1 = player(1),pos y >= -(player(1),const(size.height)) * 0.5
+trigger1 = player(1),vel y != 0
 trigger1 = Var(51) = 1
 trigger1 = Var(3) = 0
 type = VarSet
 v = 3
 value = 1
 [State 210, P2GotHit]
-trigger1 = playerid(getplayerid(2)),hitfall
+trigger1 = player(2),hitfall
 Type = VarSet
 v = 52
 value = 1
 [State 210, P2isOnGround]
-trigger1 = playerid(getplayerid(2)),pos y = 0
+trigger1 = player(2),pos y = 0
 Type = VarSet
 v = 52
 value = 0
 [State 210, HittingObjectP2]
-trigger1 = playerid(getplayerid(2)),pos x > Var(1) && playerid(getplayerid(2)),pos x < Var(2) 
-trigger1 = playerid(getplayerid(2)),pos y >= playerid(getplayerid(2)),-const(size.height) * 0.5
-trigger1 = playerid(getplayerid(2)),vel y != 0
+trigger1 = player(2),pos x > Var(1) && player(2),pos x < Var(2) 
+trigger1 = player(2),pos y >= -(player(2),const(size.height)) * 0.5
+trigger1 = player(2),vel y != 0
 trigger1 = Var(52) = 1
 trigger1 = Var(3) = 0
 type = VarSet
 v = 3
 value = 2
 [State 210, P3GotHit]
-trigger1 = playerid(getplayerid(3)),hitfall
+trigger1 = player(3),hitfall
 Type = VarSet
 v = 53
 value = 1
 [State 210, P3isOnGround]
-trigger1 = playerid(getplayerid(3)),pos y = 0
+trigger1 = player(3),pos y = 0
 Type = VarSet
 v = 53
 value = 0
 [State 210, HittingObjectP3]
-trigger1 = playerid(getplayerid(3)),pos x > Var(1) && playerid(getplayerid(3)),pos x < Var(2) 
-trigger1 = playerid(getplayerid(3)),pos y >= playerid(getplayerid(3)),-const(size.height) * 0.5
-trigger1 = playerid(getplayerid(3)),vel y != 0
+trigger1 = player(3),pos x > Var(1) && player(3),pos x < Var(2) 
+trigger1 = player(3),pos y >= -(player(3),const(size.height)) * 0.5
+trigger1 = player(3),vel y != 0
 trigger1 = Var(53) = 1
 trigger1 = Var(3) = 0
 type = VarSet
 v = 3
 value = 3
 [State 210, P4GotHit]
-trigger1 = playerid(getplayerid(4)),hitfall
+trigger1 = player(4),hitfall
 Type = VarSet
 v = 54
 value = 1
 [State 210, P4isOnGround]
-trigger1 = playerid(getplayerid(4)),pos y = 0
+trigger1 = player(4),pos y = 0
 Type = VarSet
 v = 54
 value = 0
 [State 210, HittingObjectP4]
-trigger1 = playerid(getplayerid(4)),pos x > Var(1) && playerid(getplayerid(4)),pos x < Var(2) 
-trigger1 = playerid(getplayerid(4)),pos y >= playerid(getplayerid(4)),-const(size.height) * 0.5
-trigger1 = playerid(getplayerid(4)),vel y != 0
+trigger1 = player(4),pos x > Var(1) && player(4),pos x < Var(2) 
+trigger1 = player(4),pos y >= -(player(4),const(size.height)) * 0.5
+trigger1 = player(4),vel y != 0
 trigger1 = Var(54) = 1
 trigger1 = Var(3) = 0
 type = VarSet
 v = 3
 value = 4
 [State 210, P5GotHit]
-trigger1 = playerid(getplayerid(5)),hitfall
+trigger1 = player(5),hitfall
 Type = VarSet
 v = 55
 value = 1
 [State 210, P5isOnGround]
-trigger1 = playerid(getplayerid(5)),pos y = 0
+trigger1 = player(5),pos y = 0
 Type = VarSet
 v = 55
 value = 0
 [State 210, HittingObjectP5]
-trigger1 = playerid(getplayerid(5)),pos x > Var(1) && playerid(getplayerid(5)),pos x < Var(2) 
-trigger1 = playerid(getplayerid(5)),pos y >= playerid(getplayerid(5)),-const(size.height) * 0.5
-trigger1 = playerid(getplayerid(5)),vel y != 0
+trigger1 = player(5),pos x > Var(1) && player(5),pos x < Var(2) 
+trigger1 = player(5),pos y >= -(player(5),const(size.height)) * 0.5
+trigger1 = player(5),vel y != 0
 trigger1 = Var(55) = 1
 trigger1 = Var(3) = 0
 type = VarSet
 v = 3
 value = 5
 [State 210, P6GotHit]
-trigger1 = playerid(getplayerid(6)),hitfall
+trigger1 = player(6),hitfall
 Type = VarSet
 v = 56
 value = 1
 [State 210, P6isOnGround]
-trigger1 = playerid(getplayerid(6)),pos y = 0
+trigger1 = player(6),pos y = 0
 Type = VarSet
 v = 56
 value = 0
 [State 210, HittingObjectP6]
-trigger1 = playerid(getplayerid(6)),pos x > Var(1) && playerid(getplayerid(6)),pos x < Var(2) 
-trigger1 = playerid(getplayerid(6)),pos y >= playerid(getplayerid(6)),-const(size.height) * 0.5
-trigger1 = playerid(getplayerid(6)),vel y != 0
+trigger1 = player(6),pos x > Var(1) && player(6),pos x < Var(2) 
+trigger1 = player(6),pos y >= -(player(6),const(size.height)) * 0.5
+trigger1 = player(6),vel y != 0
 trigger1 = Var(56) = 1
 trigger1 = Var(3) = 0
 type = VarSet
 v = 3
 value = 6
 [State 210, P7GotHit]
-trigger1 = playerid(getplayerid(7)),hitfall
+trigger1 = player(7),hitfall
 Type = VarSet
 v = 57
 value = 1
 [State 210, P7isOnGround]
-trigger1 = playerid(getplayerid(7)),pos y = 0
+trigger1 = player(7),pos y = 0
 Type = VarSet
 v = 57
 value = 0
 [State 210, HittingObjectP7]
-trigger1 = playerid(getplayerid(7)),pos x > Var(1) && playerid(getplayerid(7)),pos x < Var(2) 
-trigger1 = playerid(getplayerid(7)),pos y >= playerid(getplayerid(7)),-const(size.height) * 0.5
-trigger1 = playerid(getplayerid(7)),vel y != 0
+trigger1 = player(7),pos x > Var(1) && player(7),pos x < Var(2) 
+trigger1 = player(7),pos y >= -(player(7),const(size.height)) * 0.5
+trigger1 = player(7),vel y != 0
 trigger1 = Var(57) = 1
 trigger1 = Var(3) = 0
 type = VarSet
 v = 3
 value = 7
 [State 210, P8GotHit]
-trigger1 = playerid(getplayerid(8)),hitfall
+trigger1 = player(8),hitfall
 Type = VarSet
 v = 58
 value = 1
 [State 210, P8isOnGround]
-trigger1 = playerid(getplayerid(8)),pos y = 0
+trigger1 = player(8),pos y = 0
 Type = VarSet
 v = 58
 value = 0
 [State 210, HittingObjectP8]
-trigger1 = playerid(getplayerid(8)),pos x > Var(1) && playerid(getplayerid(8)),pos x < Var(2) 
-trigger1 = playerid(getplayerid(8)),pos y >= playerid(getplayerid(8)),-const(size.height) * 0.5
-trigger1 = playerid(getplayerid(8)),vel y != 0
+trigger1 = player(8),pos x > Var(1) && player(8),pos x < Var(2) 
+trigger1 = player(8),pos y >= -(player(8),const(size.height)) * 0.5
+trigger1 = player(8),vel y != 0
 trigger1 = Var(58) = 1
 trigger1 = Var(3) = 0
 type = VarSet
@@ -7800,152 +7800,152 @@ v = 3
 value = 0
 
 [State 210, P1GotHit]
-trigger1 = playerid(getplayerid(1)),hitfall
+trigger1 = player(1),hitfall
 Type = VarSet
 v = 51
 value = 1
 [State 210, P1isOnGround]
-trigger1 = playerid(getplayerid(1)),pos y = 0
+trigger1 = player(1),pos y = 0
 Type = VarSet
 v = 51
 value = 0
 [State 210, HittingObjectP1]
-trigger1 = playerid(getplayerid(1)),pos x > Var(1) && playerid(getplayerid(1)),pos x < Var(2) 
-trigger1 = playerid(getplayerid(1)),pos y <= playerid(getplayerid(1)),-const(size.height) * 0.5
-trigger1 = playerid(getplayerid(1)),vel y != 0
+trigger1 = player(1),pos x > Var(1) && player(1),pos x < Var(2) 
+trigger1 = player(1),pos y <= -(player(1),const(size.height)) * 0.5
+trigger1 = player(1),vel y != 0
 trigger1 = Var(51) = 1
 trigger1 = Var(3) = 0
 type = VarSet
 v = 3
 value = 1
 [State 210, P2GotHit]
-trigger1 = playerid(getplayerid(2)),hitfall
+trigger1 = player(2),hitfall
 Type = VarSet
 v = 52
 value = 1
 [State 210, P2isOnGround]
-trigger1 = playerid(getplayerid(2)),pos y = 0
+trigger1 = player(2),pos y = 0
 Type = VarSet
 v = 52
 value = 0
 [State 210, HittingObjectP2]
-trigger1 = playerid(getplayerid(2)),pos x > Var(1) && playerid(getplayerid(2)),pos x < Var(2) 
-trigger1 = playerid(getplayerid(2)),pos y <= playerid(getplayerid(2)),-const(size.height) * 0.5
-trigger1 = playerid(getplayerid(2)),vel y != 0
+trigger1 = player(2),pos x > Var(1) && player(2),pos x < Var(2) 
+trigger1 = player(2),pos y <= -(player(2),const(size.height)) * 0.5
+trigger1 = player(2),vel y != 0
 trigger1 = Var(52) = 1
 trigger1 = Var(3) = 0
 type = VarSet
 v = 3
 value = 2
 [State 210, P3GotHit]
-trigger1 = playerid(getplayerid(3)),hitfall
+trigger1 = player(3),hitfall
 Type = VarSet
 v = 53
 value = 1
 [State 210, P3isOnGround]
-trigger1 = playerid(getplayerid(3)),pos y = 0
+trigger1 = player(3),pos y = 0
 Type = VarSet
 v = 53
 value = 0
 [State 210, HittingObjectP3]
-trigger1 = playerid(getplayerid(3)),pos x > Var(1) && playerid(getplayerid(3)),pos x < Var(2) 
-trigger1 = playerid(getplayerid(3)),pos y <= playerid(getplayerid(3)),-const(size.height) * 0.5
-trigger1 = playerid(getplayerid(3)),vel y != 0
+trigger1 = player(3),pos x > Var(1) && player(3),pos x < Var(2) 
+trigger1 = player(3),pos y <= -(player(3),const(size.height)) * 0.5
+trigger1 = player(3),vel y != 0
 trigger1 = Var(53) = 1
 trigger1 = Var(3) = 0
 type = VarSet
 v = 3
 value = 3
 [State 210, P4GotHit]
-trigger1 = playerid(getplayerid(4)),hitfall
+trigger1 = player(4),hitfall
 Type = VarSet
 v = 54
 value = 1
 [State 210, P4isOnGround]
-trigger1 = playerid(getplayerid(4)),pos y = 0
+trigger1 = player(4),pos y = 0
 Type = VarSet
 v = 54
 value = 0
 [State 210, HittingObjectP4]
-trigger1 = playerid(getplayerid(4)),pos x > Var(1) && playerid(getplayerid(4)),pos x < Var(2) 
-trigger1 = playerid(getplayerid(4)),pos y <= playerid(getplayerid(4)),-const(size.height) * 0.5
-trigger1 = playerid(getplayerid(4)),vel y != 0
+trigger1 = player(4),pos x > Var(1) && player(4),pos x < Var(2) 
+trigger1 = player(4),pos y <= -(player(4),const(size.height)) * 0.5
+trigger1 = player(4),vel y != 0
 trigger1 = Var(54) = 1
 trigger1 = Var(3) = 0
 type = VarSet
 v = 3
 value = 4
 [State 210, P5GotHit]
-trigger1 = playerid(getplayerid(5)),hitfall
+trigger1 = player(5),hitfall
 Type = VarSet
 v = 55
 value = 1
 [State 210, P5isOnGround]
-trigger1 = playerid(getplayerid(5)),pos y = 0
+trigger1 = player(5),pos y = 0
 Type = VarSet
 v = 55
 value = 0
 [State 210, HittingObjectP5]
-trigger1 = playerid(getplayerid(5)),pos x > Var(1) && playerid(getplayerid(5)),pos x < Var(2) 
-trigger1 = playerid(getplayerid(5)),pos y <= playerid(getplayerid(5)),-const(size.height) * 0.5
-trigger1 = playerid(getplayerid(5)),vel y != 0
+trigger1 = player(5),pos x > Var(1) && player(5),pos x < Var(2) 
+trigger1 = player(5),pos y <= -(player(5),const(size.height)) * 0.5
+trigger1 = player(5),vel y != 0
 trigger1 = Var(55) = 1
 trigger1 = Var(3) = 0
 type = VarSet
 v = 3
 value = 5
 [State 210, P6GotHit]
-trigger1 = playerid(getplayerid(6)),hitfall
+trigger1 = player(6),hitfall
 Type = VarSet
 v = 56
 value = 1
 [State 210, P6isOnGround]
-trigger1 = playerid(getplayerid(6)),pos y = 0
+trigger1 = player(6),pos y = 0
 Type = VarSet
 v = 56
 value = 0
 [State 210, HittingObjectP6]
-trigger1 = playerid(getplayerid(6)),pos x > Var(1) && playerid(getplayerid(6)),pos x < Var(2) 
-trigger1 = playerid(getplayerid(6)),pos y <= playerid(getplayerid(6)),-const(size.height) * 0.5
-trigger1 = playerid(getplayerid(6)),vel y != 0
+trigger1 = player(6),pos x > Var(1) && player(6),pos x < Var(2) 
+trigger1 = player(6),pos y <= -(player(6),const(size.height)) * 0.5
+trigger1 = player(6),vel y != 0
 trigger1 = Var(56) = 1
 trigger1 = Var(3) = 0
 type = VarSet
 v = 3
 value = 6
 [State 210, P7GotHit]
-trigger1 = playerid(getplayerid(7)),hitfall
+trigger1 = player(7),hitfall
 Type = VarSet
 v = 57
 value = 1
 [State 210, P7isOnGround]
-trigger1 = playerid(getplayerid(7)),pos y = 0
+trigger1 = player(7),pos y = 0
 Type = VarSet
 v = 57
 value = 0
 [State 210, HittingObjectP7]
-trigger1 = playerid(getplayerid(7)),pos x > Var(1) && playerid(getplayerid(7)),pos x < Var(2) 
-trigger1 = playerid(getplayerid(7)),pos y <= playerid(getplayerid(7)),-const(size.height) * 0.5
-trigger1 = playerid(getplayerid(7)),vel y != 0
+trigger1 = player(7),pos x > Var(1) && player(7),pos x < Var(2) 
+trigger1 = player(7),pos y <= -(player(7),const(size.height)) * 0.5
+trigger1 = player(7),vel y != 0
 trigger1 = Var(57) = 1
 trigger1 = Var(3) = 0
 type = VarSet
 v = 3
 value = 7
 [State 210, P8GotHit]
-trigger1 = playerid(getplayerid(8)),hitfall
+trigger1 = player(8),hitfall
 Type = VarSet
 v = 58
 value = 1
 [State 210, P8isOnGround]
-trigger1 = playerid(getplayerid(8)),pos y = 0
+trigger1 = player(8),pos y = 0
 Type = VarSet
 v = 58
 value = 0
 [State 210, HittingObjectP8]
-trigger1 = playerid(getplayerid(8)),pos x > Var(1) && playerid(getplayerid(8)),pos x < Var(2) 
-trigger1 = playerid(getplayerid(8)),pos y <= playerid(getplayerid(8)),-const(size.height) * 0.5
-trigger1 = playerid(getplayerid(8)),vel y != 0
+trigger1 = player(8),pos x > Var(1) && player(8),pos x < Var(2) 
+trigger1 = player(8),pos y <= -(player(8),const(size.height)) * 0.5
+trigger1 = player(8),vel y != 0
 trigger1 = Var(58) = 1
 trigger1 = Var(3) = 0
 type = VarSet
@@ -8047,7 +8047,7 @@ physics = N                      ;Physics: S-stand, C-crouch, A-air
 juggle  = 1                     ;Number of air juggle points move takes
 velset = 0,0                     ;Set velocity (x,y) (Def: no change)
 ctrl = 0                         ;Set ctrl (Def: no change)
-anim = Rand(534,535)                       ;Change animation (Def: no change)
+anim = (534+floor(Random*2/1000.0))                       ;Change animation (Def: no change)
 poweradd = 0                    ;Power to add (Def: 0)
 sprpriority = -8                  ;Set p1's sprite layering priority to 2 (in front)
 
@@ -8253,152 +8253,152 @@ v = 3
 value = 0
 
 [State 210, P1GotHit]
-trigger1 = playerid(getplayerid(1)),hitfall
+trigger1 = player(1),hitfall
 Type = VarSet
 v = 51
 value = 1
 [State 210, P1isOnGround]
-trigger1 = playerid(getplayerid(1)),pos y = 0
+trigger1 = player(1),pos y = 0
 Type = VarSet
 v = 51
 value = 0
 [State 210, HittingObjectP1]
-trigger1 = playerid(getplayerid(1)),pos x > Var(1) && playerid(getplayerid(1)),pos x < Var(2) 
-trigger1 = playerid(getplayerid(1)),pos y >= playerid(getplayerid(1)),-const(size.height) * 0.5
-trigger1 = playerid(getplayerid(1)),vel y != 0
+trigger1 = player(1),pos x > Var(1) && player(1),pos x < Var(2) 
+trigger1 = player(1),pos y >= -(player(1),const(size.height)) * 0.5
+trigger1 = player(1),vel y != 0
 trigger1 = Var(51) = 1
 trigger1 = Var(3) = 0
 type = VarSet
 v = 3
 value = 1
 [State 210, P2GotHit]
-trigger1 = playerid(getplayerid(2)),hitfall
+trigger1 = player(2),hitfall
 Type = VarSet
 v = 52
 value = 1
 [State 210, P2isOnGround]
-trigger1 = playerid(getplayerid(2)),pos y = 0
+trigger1 = player(2),pos y = 0
 Type = VarSet
 v = 52
 value = 0
 [State 210, HittingObjectP2]
-trigger1 = playerid(getplayerid(2)),pos x > Var(1) && playerid(getplayerid(2)),pos x < Var(2) 
-trigger1 = playerid(getplayerid(2)),pos y >= playerid(getplayerid(2)),-const(size.height) * 0.5
-trigger1 = playerid(getplayerid(2)),vel y != 0
+trigger1 = player(2),pos x > Var(1) && player(2),pos x < Var(2) 
+trigger1 = player(2),pos y >= -(player(2),const(size.height)) * 0.5
+trigger1 = player(2),vel y != 0
 trigger1 = Var(52) = 1
 trigger1 = Var(3) = 0
 type = VarSet
 v = 3
 value = 2
 [State 210, P3GotHit]
-trigger1 = playerid(getplayerid(3)),hitfall
+trigger1 = player(3),hitfall
 Type = VarSet
 v = 53
 value = 1
 [State 210, P3isOnGround]
-trigger1 = playerid(getplayerid(3)),pos y = 0
+trigger1 = player(3),pos y = 0
 Type = VarSet
 v = 53
 value = 0
 [State 210, HittingObjectP3]
-trigger1 = playerid(getplayerid(3)),pos x > Var(1) && playerid(getplayerid(3)),pos x < Var(2) 
-trigger1 = playerid(getplayerid(3)),pos y >= playerid(getplayerid(3)),-const(size.height) * 0.5
-trigger1 = playerid(getplayerid(3)),vel y != 0
+trigger1 = player(3),pos x > Var(1) && player(3),pos x < Var(2) 
+trigger1 = player(3),pos y >= -(player(3),const(size.height)) * 0.5
+trigger1 = player(3),vel y != 0
 trigger1 = Var(53) = 1
 trigger1 = Var(3) = 0
 type = VarSet
 v = 3
 value = 3
 [State 210, P4GotHit]
-trigger1 = playerid(getplayerid(4)),hitfall
+trigger1 = player(4),hitfall
 Type = VarSet
 v = 54
 value = 1
 [State 210, P4isOnGround]
-trigger1 = playerid(getplayerid(4)),pos y = 0
+trigger1 = player(4),pos y = 0
 Type = VarSet
 v = 54
 value = 0
 [State 210, HittingObjectP4]
-trigger1 = playerid(getplayerid(4)),pos x > Var(1) && playerid(getplayerid(4)),pos x < Var(2) 
-trigger1 = playerid(getplayerid(4)),pos y >= playerid(getplayerid(4)),-const(size.height) * 0.5
-trigger1 = playerid(getplayerid(4)),vel y != 0
+trigger1 = player(4),pos x > Var(1) && player(4),pos x < Var(2) 
+trigger1 = player(4),pos y >= -(player(4),const(size.height)) * 0.5
+trigger1 = player(4),vel y != 0
 trigger1 = Var(54) = 1
 trigger1 = Var(3) = 0
 type = VarSet
 v = 3
 value = 4
 [State 210, P5GotHit]
-trigger1 = playerid(getplayerid(5)),hitfall
+trigger1 = player(5),hitfall
 Type = VarSet
 v = 55
 value = 1
 [State 210, P5isOnGround]
-trigger1 = playerid(getplayerid(5)),pos y = 0
+trigger1 = player(5),pos y = 0
 Type = VarSet
 v = 55
 value = 0
 [State 210, HittingObjectP5]
-trigger1 = playerid(getplayerid(5)),pos x > Var(1) && playerid(getplayerid(5)),pos x < Var(2) 
-trigger1 = playerid(getplayerid(5)),pos y >= playerid(getplayerid(5)),-const(size.height) * 0.5
-trigger1 = playerid(getplayerid(5)),vel y != 0
+trigger1 = player(5),pos x > Var(1) && player(5),pos x < Var(2) 
+trigger1 = player(5),pos y >= -(player(5),const(size.height)) * 0.5
+trigger1 = player(5),vel y != 0
 trigger1 = Var(55) = 1
 trigger1 = Var(3) = 0
 type = VarSet
 v = 3
 value = 5
 [State 210, P6GotHit]
-trigger1 = playerid(getplayerid(6)),hitfall
+trigger1 = player(6),hitfall
 Type = VarSet
 v = 56
 value = 1
 [State 210, P6isOnGround]
-trigger1 = playerid(getplayerid(6)),pos y = 0
+trigger1 = player(6),pos y = 0
 Type = VarSet
 v = 56
 value = 0
 [State 210, HittingObjectP6]
-trigger1 = playerid(getplayerid(6)),pos x > Var(1) && playerid(getplayerid(6)),pos x < Var(2) 
-trigger1 = playerid(getplayerid(6)),pos y >= playerid(getplayerid(6)),-const(size.height) * 0.5
-trigger1 = playerid(getplayerid(6)),vel y != 0
+trigger1 = player(6),pos x > Var(1) && player(6),pos x < Var(2) 
+trigger1 = player(6),pos y >= -(player(6),const(size.height)) * 0.5
+trigger1 = player(6),vel y != 0
 trigger1 = Var(56) = 1
 trigger1 = Var(3) = 0
 type = VarSet
 v = 3
 value = 6
 [State 210, P7GotHit]
-trigger1 = playerid(getplayerid(7)),hitfall
+trigger1 = player(7),hitfall
 Type = VarSet
 v = 57
 value = 1
 [State 210, P7isOnGround]
-trigger1 = playerid(getplayerid(7)),pos y = 0
+trigger1 = player(7),pos y = 0
 Type = VarSet
 v = 57
 value = 0
 [State 210, HittingObjectP7]
-trigger1 = playerid(getplayerid(7)),pos x > Var(1) && playerid(getplayerid(7)),pos x < Var(2) 
-trigger1 = playerid(getplayerid(7)),pos y >= playerid(getplayerid(7)),-const(size.height) * 0.5
-trigger1 = playerid(getplayerid(7)),vel y != 0
+trigger1 = player(7),pos x > Var(1) && player(7),pos x < Var(2) 
+trigger1 = player(7),pos y >= -(player(7),const(size.height)) * 0.5
+trigger1 = player(7),vel y != 0
 trigger1 = Var(57) = 1
 trigger1 = Var(3) = 0
 type = VarSet
 v = 3
 value = 7
 [State 210, P8GotHit]
-trigger1 = playerid(getplayerid(8)),hitfall
+trigger1 = player(8),hitfall
 Type = VarSet
 v = 58
 value = 1
 [State 210, P8isOnGround]
-trigger1 = playerid(getplayerid(8)),pos y = 0
+trigger1 = player(8),pos y = 0
 Type = VarSet
 v = 58
 value = 0
 [State 210, HittingObjectP8]
-trigger1 = playerid(getplayerid(8)),pos x > Var(1) && playerid(getplayerid(8)),pos x < Var(2) 
-trigger1 = playerid(getplayerid(8)),pos y >= playerid(getplayerid(8)),-const(size.height) * 0.5
-trigger1 = playerid(getplayerid(8)),vel y != 0
+trigger1 = player(8),pos x > Var(1) && player(8),pos x < Var(2) 
+trigger1 = player(8),pos y >= -(player(8),const(size.height)) * 0.5
+trigger1 = player(8),vel y != 0
 trigger1 = Var(58) = 1
 trigger1 = Var(3) = 0
 type = VarSet
@@ -8593,7 +8593,7 @@ ignorehitpause = 1
 persistent = 0
 trigger1 = !ishelper
 trigger1 = NumHelper(1) = 0
-trigger1 = PlayerIDExist(playerid(getplayerid(1)),ID)
+trigger1 = PlayerIDExist(player(1),ID)
 name = "P1"
 ID = 1
 stateno = 666
@@ -8614,7 +8614,7 @@ ignorehitpause = 1
 persistent = 0
 trigger1 = !ishelper
 trigger1 = NumHelper(2) = 0
-trigger1 = PlayerIDExist(playerid(getplayerid(2)),ID)
+trigger1 = PlayerIDExist(player(2),ID)
 name = "P2"
 ID = 2
 stateno = 666
@@ -8635,7 +8635,7 @@ ignorehitpause = 1
 persistent = 0
 trigger1 = !ishelper
 trigger1 = NumHelper(3) = 0
-trigger1 = PlayerIDExist(playerid(getplayerid(3)),ID)
+trigger1 = PlayerIDExist(player(3),ID)
 name = "P3"
 ID = 3
 stateno = 666
@@ -8656,7 +8656,7 @@ ignorehitpause = 1
 persistent = 0
 trigger1 = !ishelper
 trigger1 = NumHelper(4) = 0
-trigger1 = PlayerIDExist(playerid(getplayerid(4)),ID)
+trigger1 = PlayerIDExist(player(4),ID)
 name = "P4"
 ID = 4
 stateno = 666
@@ -8677,7 +8677,7 @@ ignorehitpause = 1
 persistent = 0
 trigger1 = !ishelper
 trigger1 = NumHelper(5) = 0
-trigger1 = PlayerIDExist(playerid(getplayerid(5)),ID)
+trigger1 = PlayerIDExist(player(5),ID)
 name = "P5"
 ID = 5
 stateno = 666
@@ -8702,7 +8702,7 @@ ignorehitpause = 1
 persistent = 0
 trigger1 = !ishelper
 trigger1 = NumHelper(6) = 0
-trigger1 = PlayerIDExist(playerid(getplayerid(6)),ID)
+trigger1 = PlayerIDExist(player(6),ID)
 name = "P6"
 ID = 6
 stateno = 666
@@ -8723,7 +8723,7 @@ ignorehitpause = 1
 persistent = 0
 trigger1 = !ishelper
 trigger1 = NumHelper(7) = 0
-trigger1 = PlayerIDExist(playerid(getplayerid(7)),ID)
+trigger1 = PlayerIDExist(player(7),ID)
 name = "P7"
 ID = 7
 stateno = 666
@@ -8744,7 +8744,7 @@ ignorehitpause = 1
 persistent = 0
 trigger1 = !ishelper
 trigger1 = NumHelper(8) = 0
-trigger1 = PlayerIDExist(playerid(getplayerid(8)),ID)
+trigger1 = PlayerIDExist(player(8),ID)
 name = "P8"
 ID = 8
 stateno = 666
